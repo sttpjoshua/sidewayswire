@@ -1,0 +1,139 @@
+{
+ "id": "2026-11-16-fd-final-standings",
+ "kind": "standings",
+ "story": "FD 2026 final standings",
+ "title": "FD 2026 FINAL STANDINGS",
+ "slides": [
+  {
+   "template": "results.html",
+   "data": {
+    "badge": [
+     "FD PRO",
+     "2026"
+    ],
+    "tapes": [
+     [
+      "CONOR SHANAHAN",
+      104,
+      "dark"
+     ],
+     [
+      "2026 FD CHAMPION",
+      76,
+      "accent"
+     ]
+    ],
+    "tapes_top": 300,
+    "rows_top": 640,
+    "rows": [
+     {
+      "pos": "R1",
+      "name": "LONG BEACH",
+      "sub": "Streets of Long Beach",
+      "value": "WIN"
+     },
+     {
+      "pos": "R6",
+      "name": "MONROE",
+      "sub": "Throwdown",
+      "value": "WIN"
+     },
+     {
+      "pos": "R7",
+      "name": "LAS VEGAS",
+      "sub": "High Stakes",
+      "value": "WIN"
+     },
+     {
+      "pos": "R8",
+      "name": "LONG BEACH",
+      "sub": "Title clinched in Top 32 vs Jhonnattan Castro",
+      "value": "🏆"
+     }
+    ],
+    "meta_left": "SOURCE FORMULAD.COM",
+    "meta_right": "@sidewayswire"
+   }
+  },
+  {
+   "template": "standings.html",
+   "data": {
+    "badge": [
+     "FD PRO",
+     "2026"
+    ],
+    "title": "FINAL STANDINGS",
+    "subtitle": "FORMULA DRIFT PRO 2026",
+    "rows": [
+     {
+      "name": "CONOR SHANAHAN",
+      "points": 224,
+      "move": null
+     },
+     {
+      "name": "JAMES DEANE",
+      "points": 218,
+      "move": null
+     },
+     {
+      "name": "JACK SHANAHAN",
+      "points": 206,
+      "move": null
+     },
+     {
+      "name": "BRANDEN SORENSEN",
+      "points": 165,
+      "move": null
+     },
+     {
+      "name": "MATT FIELD",
+      "points": 150,
+      "move": null
+     },
+     {
+      "name": "FREDRIC AASBO",
+      "points": 149,
+      "move": null
+     },
+     {
+      "name": "AURIMAS BAKCHIS",
+      "points": 132,
+      "move": null
+     },
+     {
+      "name": "DYLAN HUGHES",
+      "points": 91,
+      "move": null
+     },
+     {
+      "name": "RYAN TUERCK",
+      "points": 88,
+      "move": null
+     },
+     {
+      "name": "CHRIS FORSBERG",
+      "points": 82,
+      "move": null
+     }
+    ],
+    "meta_left": "SOURCE FORMULAD.COM",
+    "meta_right": "@sidewayswire"
+   }
+  }
+ ],
+ "caption": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+ "platforms": [
+  "instagram",
+  "facebook"
+ ],
+ "people": [
+  "Conor Shanahan",
+  "James Deane",
+  "Jhonnattan Castro"
+ ],
+ "check": true,
+ "check_reason": "eerste post met dit format: check jij eerst",
+ "status": "draft",
+ "created": "2026-11-16T21:54:13.895590+00:00",
+ "by": "editor"
+}

@@ -1,0 +1,144 @@
+{
+ "id": "2026-11-16-dm-season-winners",
+ "kind": "standings",
+ "story": "DM 2026 season",
+ "title": "DM 2026: EVERY ROUND WINNER",
+ "slides": [
+  {
+   "template": "results.html",
+   "data": {
+    "badge": [
+     "DRIFT MASTERS",
+     "2026"
+    ],
+    "tapes": [
+     [
+      "KORPULIŃSKI",
+      110,
+      "dark"
+     ],
+     [
+      "2026 CHAMPION",
+      76,
+      "accent"
+     ]
+    ],
+    "tapes_top": 300,
+    "rows_top": 640,
+    "rows": [
+     {
+      "pos": 1,
+      "name": "PAWEŁ KORPULIŃSKI",
+      "value": 509,
+      "value_sub": "PTS",
+      "highlight": true
+     },
+     {
+      "pos": 2,
+      "name": "CONOR SHANAHAN",
+      "value": 474,
+      "value_sub": "PTS",
+      "highlight": false
+     },
+     {
+      "pos": 3,
+      "name": "PIOTR WIĘCEK",
+      "value": 468,
+      "value_sub": "PTS",
+      "highlight": false
+     }
+    ],
+    "meta_left": "SOURCE DM.GP",
+    "meta_right": "@sidewayswire"
+   }
+  },
+  {
+   "template": "results.html",
+   "data": {
+    "badge": [
+     "DRIFT MASTERS",
+     "2026"
+    ],
+    "tapes": [
+     [
+      "EVERY ROUND",
+      104,
+      "dark"
+     ],
+     [
+      "WINNER",
+      90,
+      "accent"
+     ]
+    ],
+    "tapes_top": 170,
+    "rows_top": 420,
+    "rows": [
+     {
+      "pos": "R1",
+      "name": "CONOR SHANAHAN",
+      "sub": "Vallelunga",
+      "value": ""
+     },
+     {
+      "pos": "R2",
+      "name": "PIOTR WIĘCEK",
+      "sub": "Circuito del Jarama",
+      "value": ""
+     },
+     {
+      "pos": "R3",
+      "name": "PAWEŁ KORPULIŃSKI",
+      "sub": "Mondello Park",
+      "value": ""
+     },
+     {
+      "pos": "R4",
+      "name": "JACK SHANAHAN",
+      "sub": "Ahvenisto Race Circuit",
+      "value": ""
+     },
+     {
+      "pos": "R5",
+      "name": "PAWEŁ KORPULIŃSKI",
+      "sub": "Biķernieku Trase",
+      "value": ""
+     },
+     {
+      "pos": "R6",
+      "name": "PIOTR WIĘCEK",
+      "sub": "Ferropolis",
+      "value": ""
+     },
+     {
+      "pos": "R7",
+      "name": "CONOR SHANAHAN",
+      "sub": "PGE Narodowy",
+      "value": ""
+     }
+    ],
+    "gap": 10,
+    "name_size": 44,
+    "meta_left": "SOURCE DM.GP",
+    "meta_right": "@sidewayswire",
+    "pad": "12px 22px"
+   }
+  }
+ ],
+ "caption": "Paweł Korpuliński wins his first Drift Masters title at home in Warsaw, 35 points clear of Conor Shanahan. Swipe for every round winner of 2026.\n\n#driftmasters #drifting #korpulinski #sidewayswire",
+ "platforms": [
+  "instagram",
+  "facebook"
+ ],
+ "people": [
+  "Paweł Korpuliński",
+  "Conor Shanahan",
+  "Piotr Więcek",
+  "Jack Shanahan"
+ ],
+ "check": true,
+ "check_reason": "eerste post met dit format: check jij eerst",
+ "status": "draft",
+ "created": "2026-11-16T21:54:13.895590+00:00",
+ "by": "editor"
+}
