@@ -225,7 +225,8 @@ function drawOverview(){
   H.push([c<45?"":c<180?"w":"r","Nieuws verzamelen",`laatst ${ago(S.collected)} · ${(S.sources||[]).filter(s=>s.ok!==false&&!s.error).length} van ${(S.sources||[]).length} bronnen werken`]);
   const pn=PODNOW, pbusy=pn&&pn.phase!=="done"&&(now-new Date(pn.updated))<45*6e4;
   const eps=(S.podcasts||{}).episodes||[];
-  H.push([pbusy?"":"","Podcasts",pbusy?`bezig: ${esc(pn.title||pn.phase)}${pn.pct!=null?" · "+Math.round(pn.pct*100)+"%":""}`:`${eps.filter(e=>e.status==="transcribed").length} transcripten · ${eps.filter(e=>e.status==="new").length} in de rij`]);
+  const left=pn&&pn.phase==="clips"&&pn.eta!=null?Math.max(0,pn.eta-(now-new Date(pn.updated))/1000):null;
+  H.push([pbusy?"":"","Podcasts",pbusy?(pn.phase==="clips"&&pn.total?`maakt clips: ${pn.done+1} van ${pn.total}${left!=null?` · nog ~${Math.max(1,Math.round(left/60))} min`:""}`:`bezig: ${esc(pn.title||pn.phase)}${pn.pct!=null?" · "+Math.round(pn.pct*100)+"%":""}`):`${eps.filter(e=>e.status==="transcribed").length} transcripten · ${eps.filter(e=>e.status==="new").length} in de rij`]);
   const ms=MAC&&MAC.seen?(now-new Date(MAC.seen))/6e4:1e9;
   H.push([ms<40?"":ms<180?"w":"r","Mac-helper (video)",MAC&&MAC.seen?`laatst gezien ${ago(MAC.seen)}${MAC.busy?" · nu: "+esc(MAC.busy):""}`:"niet ingesteld"]);
   const tg=(ch.channels||[]).find(x=>x.id==="telegram");
@@ -288,7 +289,10 @@ function drawClips(){
   const C=posts().filter(p=>p.kind==="podcast_clip"), F={"ALLES":()=>true,"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
   document.getElementById("clip-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===clipFilter?"on":""}">${k} (${C.filter(F[k]).length})</button>`).join("");
   const making=((S.podcasts||{}).episodes||[]).reduce((n,e)=>n+e.moments.filter(m=>m.status==="new").length,0);
-  gal.innerHTML=(making?`<div class="empty" style="grid-column:1/-1">${making} clip${making>1?"s":""} wordt nog gemaakt. Bekijk de voortgang in de <a href="podcasts.html">podcaststudio</a>.</div>`:"")+
+  const pn=PODNOW, busy=pn&&pn.phase==="clips"&&pn.total&&(Date.now()-new Date(pn.updated))<20*6e4;
+  const left=busy&&pn.eta!=null?Math.max(1,Math.round((pn.eta-(Date.now()-new Date(pn.updated))/1000)/60)):null;
+  gal.innerHTML=(busy?`<div class="banner" style="grid-column:1/-1;margin:0;border-color:var(--accent)"><b>Bezig met clips maken: ${pn.done+1} van ${pn.total}</b>${pn.remake?` (waarvan ${pn.remake} opnieuw in de nieuwe opmaak)`:""}${left?` · nog ongeveer ${left} min`:""}<br>Nu: ${esc(pn.podcast||"")} · ${esc(pn.topic||pn.title||"")}. Elke paar clips verschijnen hier de nieuwe versies.<div class="pbar" style="height:8px;background:#2c2c30;margin-top:8px"><i style="display:block;height:100%;background:var(--accent);width:${Math.round(100*pn.done/pn.total)}%"></i></div></div>`
+      :making?`<div class="empty" style="grid-column:1/-1">${making} clip${making>1?"s":""} wacht op video of op de volgende run. Bekijk het in de <a href="podcasts.html">podcaststudio</a>.</div>`:"")+
     C.filter(F[clipFilter]).map(p=>`<div class="gc"><video src="${esc(p.video)+ver(p)}" controls preload="metadata" playsinline></video>
       <div>${stTag(p)}${p.post_at&&p.status==="ready"?`<span class="muted">${when(p.post_at)}</span>`:""}<br><b>${title(p)}</b><div class="cap">${esc(p.caption||"")}</div>
       <div class="row" style="margin-top:8px">${["check","draft"].includes(p.status)?`<a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a>`:""}</div></div></div>`).join("")||(making?"":`<div class="empty">Nog geen clips.</div>`);
@@ -354,5 +358,5 @@ async function load(){
   drawAll();
 }
 load().then(show).catch(e=>{document.querySelector("main").innerHTML=`<div class="empty">Kon de gegevens niet laden: ${esc(e.message)}</div>`});
-setInterval(()=>{if(!document.querySelector("textarea:focus,input:focus"))load()},120000);
+setInterval(()=>{if(!document.querySelector("textarea:focus,input:focus"))load()},60000);
 </script></body></html>

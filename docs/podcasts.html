@@ -268,7 +268,7 @@ function drawSel(){
 }
 
 // ---- live progress of the podcast run ----
-const PH={search:"zoekt nieuwe afleveringen",model:"laadt het spraakmodel",download:"downloadt de audio",transcribe:"transcribeert",saved:"transcript opgeslagen",clips:"maakt een clip",done:"klaar"};
+const PH={search:"zoekt nieuwe afleveringen",model:"laadt het spraakmodel",download:"downloadt de audio",transcribe:"transcribeert",saved:"transcript opgeslagen",clips:"maakt clips",done:"klaar"};
 let NOW=null, wasBusy=false;
 const ago=t=>{const m=Math.round((Date.now()-new Date(t))/60000);return m<1?"zojuist":m===1?"1 min geleden":m+" min geleden"};
 const mins=x=>x<60?"minder dan een minuut":Math.round(x/60)+" min";
@@ -277,7 +277,8 @@ function est(n){ // estimated progress now, filled in between the two-minute upd
   const run=(new Date(n.updated)-new Date(n.transcribe_started))/1000, rate=run>20&&n.pct>0?n.pct/run:1/Math.max(n.duration||3600,60);
   return Math.min(.99,n.pct+rate*(Date.now()-new Date(n.updated))/1000);
 }
-function eta(n,p){if(n.phase!=="transcribe"||!p||!n.transcribe_started)return null;
+function eta(n,p){if(n.phase==="clips"&&n.eta!=null)return Math.max(0,n.eta-(Date.now()-new Date(n.updated))/1000);
+  if(n.phase!=="transcribe"||!p||!n.transcribe_started)return null;
   const run=(Date.now()-new Date(n.transcribe_started))/1000;return p>.02?run/p*(1-p):(n.duration||0)*(1-p)}
 async function livePoll(){
   try{NOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){NOW=null}
@@ -299,8 +300,8 @@ function liveDraw(){
   const todo=n.todo||[], i=todo.indexOf(n.episode), after=i>=0?todo.length-i-1:0;
   el.className=stale?"stale":"";
   el.innerHTML=`<div class="row"><span class="pulse"></span><b>BEZIG: ${esc(PH[n.phase]||n.phase).toUpperCase()}</b>
-   ${n.title?`<span class="muted">${esc(n.podcast||"")}: <a href="#${n.episode}" onclick="openEp('${n.episode}');return false">${esc(n.title)}</a></span>`:""}
-   <span style="margin-left:auto" class="muted">${p!=null?Math.round(p*100)+"%":""}${left!=null?` · nog ongeveer ${mins(left)}`:""}${todo.length>1?` · aflevering ${i+1} van ${todo.length}`:""} · bijgewerkt ${ago(n.updated)}${n.run?` · <a href="https://github.com/${REPO}/actions/runs/${n.run}" target="_blank">details</a>`:""}</span></div>
+   ${n.title?`<span class="muted">${esc(n.podcast||"")}: <a href="#${n.episode}" onclick="openEp('${n.episode}');return false">${esc(n.title)}</a>${n.phase==="clips"&&n.topic?` · ${esc(n.topic)}`:""}</span>`:""}
+   <span style="margin-left:auto" class="muted">${p!=null?Math.round(p*100)+"%":""}${left!=null?` · nog ongeveer ${mins(left)}`:""}${n.phase==="clips"&&n.total?` · clip ${n.done+1} van ${n.total}${n.remake?` (${n.remake} opnieuw in de nieuwe opmaak)`:""}`:todo.length>1?` · aflevering ${i+1} van ${todo.length}`:""} · bijgewerkt ${ago(n.updated)}${n.run?` · <a href="https://github.com/${REPO}/actions/runs/${n.run}" target="_blank">details</a>`:""}</span></div>
    ${p!=null?`<div class="bar"><i style="width:${(p*100).toFixed(1)}%"></i></div>`:""}
    ${stale?`<div class="muted" style="margin-top:6px">Al een tijd geen teken van leven. Misschien is de run vastgelopen; kijk bij details.</div>`:""}`;
 }

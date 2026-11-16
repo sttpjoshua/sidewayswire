@@ -18,6 +18,7 @@ from __future__ import annotations
 import json
 import os
 import tempfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -73,18 +74,44 @@ def _fetch(url: str, out: Path) -> Path:
     return out
 
 
+def save_partial(note: str):
+    """In GitHub Actions: commit and push what is done so far, so new clips show up on the dashboard
+    during a long run instead of only at the end. A failed push is fine: the next save or the run's
+    own final save tries again."""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    import subprocess
+    try:
+        from . import status
+        status.run()
+    except Exception as e:
+        print("status:", e)
+    g = ["git", "-c", "user.name=sidewayswire-bot", "-c", "user.email=bot@users.noreply.github.com"]
+    subprocess.run([*g, "add", "data/podcasts", "queue", "docs/media", "docs/status.json"], cwd=ROOT)
+    if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
+        return
+    subprocess.run([*g, "commit", "-qm", f"clips: {note}"], cwd=ROOT)
+    for _ in range(3):
+        if subprocess.run([*g, "pull", "--rebase", "-q"], cwd=ROOT).returncode != 0:
+            subprocess.run(["git", "rebase", "--abort"], cwd=ROOT)
+            break
+        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+            break
+
+
 def run(limit: int = 120) -> dict:
     ix = load_index()
     report = {"clips": [], "errors": [], "waiting_for_video": []}
     assets, no_video = video_assets()
     now = datetime.now(timezone.utc)
+    files, tasks = {}, []           # moments per episode file, and the clips to make
+    # 1. Decide what to make (cheap), so the dashboard can show "12 of 70"
     for mf in sorted((DIR / "moments").glob("*.json")):
         ep = ix["episodes"].get(mf.stem)
         tf = DIR / "t" / f"{mf.stem}.json"
         if not ep or not tf.exists():
             continue
-        moments = json.loads(mf.read_text())
-        transcript = None
+        moments = files[mf] = json.loads(mf.read_text())
         for i, m in enumerate(moments):
             pid = f"pod-{mf.stem}-{i}"
             qp = q.QUEUE / f"{pid}.json"
@@ -97,7 +124,7 @@ def run(limit: int = 120) -> dict:
             name = asset_name(mf.stem, i, m)
             upgrade = (m.get("status") == "queued" and not (post and post.get("status") == "posted")
                        and ((m.get("mode") == "audiogram" and name in assets) or m.get("layout", 1) < LAYOUT))
-            if not (m.get("status", "new") == "new" or upgrade) or len(report["clips"]) >= limit:
+            if not (m.get("status", "new") == "new" or upgrade) or len(tasks) >= limit:
                 continue
             if post and post.get("status") == "posted":
                 m.update(status="error", error="this clip is already posted; add a new moment instead")
@@ -111,34 +138,50 @@ def run(limit: int = 120) -> dict:
                 if (now - datetime.fromisoformat(since)).total_seconds() < WAIT_VIDEO:
                     report["waiting_for_video"].append(pid)
                     continue                       # the Mac helper will bring the video
-            transcript = transcript or json.loads(tf.read_text())
-            out = MEDIA / pid / "clip.mp4"
-            out.parent.mkdir(parents=True, exist_ok=True)
-            try:
-                progress.update(force=True, phase="clips", episode=mf.stem, title=ep["title"],
-                                podcast=ep["podcast"], clip=i, pct=None)
-                with tempfile.TemporaryDirectory() as tmp:
-                    src = _fetch(assets[name], Path(tmp) / "src.mp4") if name in assets else None
-                    res = make_clip(ep, transcript, m, str(out), photo=ep.get("art"), video_src=src)
-                m.pop("wait_video", None)
-                m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT)
-                check = (m["kind"] == "rumor" or res["mode"] == "audiogram" or bool(m.get("check"))) and m.get("by") != "joshua"
-                q.save({
-                    "id": pid, "kind": "podcast_clip", "status": "draft", "slides": [], "title": m.get("topic"),
-                    "video": str(out.relative_to(ROOT)), "caption": m.get("caption", ""),
-                    "credit": m.get("credit"), "check": check,
-                    "check_reason": ("gerucht uit een podcast" if m["kind"] == "rumor"
-                                     else "namen nakijken" if m.get("check")
-                                     else "audiogram: er was geen video" if res["mode"] == "audiogram" else ""),
-                    "platforms": ["instagram", "facebook", "tiktok", "youtube"],
-                    "source": {"podcast": ep["podcast"], "episode": ep["title"], "start": m["start"]},
-                    "created": (post or {}).get("created") or now.isoformat(),
-                })
-                report["clips"].append(f"{pid} ({res['mode']}{', upgraded' if upgrade else ''})")
-            except Exception as e:
-                m.update(status="error", error=str(e)[:200])
-                report["errors"].append(f"{pid}: {e}")
+            tasks.append((mf, ep, tf, i, m, post, name, upgrade))
+    for mf, moments in files.items():
         mf.write_text(json.dumps(moments, indent=1, ensure_ascii=False))
+
+    # 2. Make them, with progress and a save every few clips
+    transcripts, t_start = {}, time.time()
+    remake = sum(1 for t in tasks if t[7])
+    for done, (mf, ep, tf, i, m, post, name, upgrade) in enumerate(tasks):
+        pid = f"pod-{mf.stem}-{i}"
+        per = (time.time() - t_start) / done if done else 60.0
+        progress.update(force=True, phase="clips", episode=mf.stem, title=ep["title"], podcast=ep["podcast"],
+                        clip=i, done=done, total=len(tasks), remake=remake, pct=round(done / len(tasks), 3),
+                        eta=round(per * (len(tasks) - done)), topic=m.get("topic"))
+        if mf.stem not in transcripts:
+            transcripts[mf.stem] = json.loads(tf.read_text())
+        out = MEDIA / pid / "clip.mp4"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                src = _fetch(assets[name], Path(tmp) / "src.mp4") if name in assets else None
+                res = make_clip(ep, transcripts[mf.stem], m, str(out), photo=ep.get("art"), video_src=src)
+            m.pop("wait_video", None)
+            m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT,
+                     made=datetime.now(timezone.utc).isoformat())
+            check = (m["kind"] == "rumor" or res["mode"] == "audiogram" or bool(m.get("check"))) and m.get("by") != "joshua"
+            q.save({
+                "id": pid, "kind": "podcast_clip", "status": "draft", "slides": [], "title": m.get("topic"),
+                "video": str(out.relative_to(ROOT)), "caption": m.get("caption", ""),
+                "credit": m.get("credit"), "check": check,
+                "check_reason": ("gerucht uit een podcast" if m["kind"] == "rumor"
+                                 else "namen nakijken" if m.get("check")
+                                 else "audiogram: er was geen video" if res["mode"] == "audiogram" else ""),
+                "platforms": ["instagram", "facebook", "tiktok", "youtube"],
+                "source": {"podcast": ep["podcast"], "episode": ep["title"], "start": m["start"]},
+                "created": (post or {}).get("created") or datetime.now(timezone.utc).isoformat(),
+                "built": datetime.now(timezone.utc).isoformat(),
+            })
+            report["clips"].append(f"{pid} ({res['mode']}{', upgraded' if upgrade else ''})")
+        except Exception as e:
+            m.update(status="error", error=str(e)[:200])
+            report["errors"].append(f"{pid}: {e}")
+        mf.write_text(json.dumps(files[mf], indent=1, ensure_ascii=False))
+        if (done + 1) % 4 == 0 or done + 1 == len(tasks):
+            save_partial(f"{done + 1} of {len(tasks)}")
     return report
 
 
