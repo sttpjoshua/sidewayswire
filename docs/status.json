@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:42:39.093509+00:00",
+ "updated": "2026-11-16T19:45:47.951507+00:00",
  "counts": {
-  "draft": 33
+  "draft": 37
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -2424,10 +2424,10 @@
       "topic": "THE INSTRUCTOR KNEW HIM FROM A DRIFT VIDEO",
       "quote": "when you jump from the plane and your head is not like right away facing down, you're just like, where am I? And you know, your, your heart kind of stays into the plane and your body jumps down. It's kind of a special feeling, very nice feeling. But, uh, like once I was like, all right, I see the ground. Like it was, it was just, okay. I was like, all right, let's maybe do it again. Or when we opened up the, the, the, the thing, you know, the parachute, the parachute, I was, I was telling the guy, you know, can we do some, you know, like backflips and stuff. And he actually knew me from a video that I did in, in Quebec, uh, about drifting and the stunts grabbing, you know? So he was like, uh, he was like, hello, man, let's do it.",
       "why": "Asked for flips under the parachute; the instructor knew him from a Quebec drift video.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-16/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 3912.85,
@@ -2437,10 +2437,10 @@
       "topic": "\"IT'S NEVER REALLY ENOUGH\"",
       "quote": "But for me being in this situation, I kind of feel sometimes like I don't live things at the right level of emotion that should. Interesting. Okay. And my girlfriends tell me that sometimes she's like, you will live something crazy, like skydiving and you'll be like, that was nice. Yeah. Very nice. And you will be very sad. And I'll be like, Oh, yeah, I'm kind of sad. And well, I won't cry, you know, and she's like normal people. We, well, not normal people, but other people, they, they will live a high emotion and it will be a lot, you know, it will be like crazy or they will fear it too much, or it will be sad or happy or whatever. For, for me, I feel like it's more like neutral all the time. And I need this adrenaline feel a little bit more, you know, something I will say, but it is, it's never really enough.",
       "why": "He feels emotions on a neutral level and keeps chasing adrenaline. Honest moment.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-17/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 4206.23,
@@ -2450,10 +2450,10 @@
       "topic": "HE PRACTISES HIS RUNS IN THE SAUNA",
       "quote": "when I'm in the sona, I always visualize my run in my head while I work on my, uh, my breathing. So I breathe and I try to do the run and, you know, work with my pedal and work with my handbrake at the same time. And it helps me being more focused and being more connected to, uh, the car when I'm in the car or my buddy when I'm in the soda. See what I mean? So it's a little bit more spirit spiritual, but, uh, for me, for me, it works because I feel like we're all very good drivers. You know, we are all able to put the car right on the line. We are all champions from where we are coming from. So I'm trying to find what makes a difference. And the more I work on my driving career, the more I realize that the biggest difference comes with in the mental side of things.",
       "why": "Visualises runs, pedals and handbrake while doing breath work in the sauna.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-18/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 4368.41,
@@ -2463,10 +2463,10 @@
       "topic": "THE NO-BEER SEASON BACKFIRED",
       "quote": "this, this season, I'm not going to drink a single beer just to know, to, you know, get more serious, be more focused or whatever. And it didn't really work. And after that, I changed my, my perception of things. And I was like, all right, maybe what I did is that I tried to make this whole thing way too serious. And I put more pressure on myself doing this. And by putting more pressure to my, on myself, I put more stress and it affect my result on the track. So after that, I was like, all right, let's not be a hungover. But I was like, if I want to, if I feel like I want to have a beer, like after the race or like, you know, after qualifying, because we did, we did a good qualifying, I will have one and I will see it as like, well, you know what, it's all a game. It's all, it's all for fun. And this reduce the amount of pressure I put on myself and reduce the amount of stress and it, it, it makes my driving looks better.",
       "why": "Went a whole Pro Spec season without a beer to be serious; more pressure, worse results.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-19/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 4539.07,
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-6892a8b1e411-19",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire once tried a full season without a single beer to be more serious. It made his driving worse.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #mindset #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 4368.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:45:47.949089+00:00",
+   "built": "2026-11-16T19:45:47.949091+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-19/clip.mp4",
+   "title": "THE NO-BEER SEASON BACKFIRED"
+  },
+  {
+   "id": "pod-6892a8b1e411-18",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire drives his runs in his head in the sauna. He says the mental side is the biggest difference in FD.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #mindset #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 4206.23
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:44:55.218151+00:00",
+   "built": "2026-11-16T19:44:55.218153+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-18/clip.mp4",
+   "title": "HE PRACTISES HIS RUNS IN THE SAUNA"
+  },
+  {
+   "id": "pod-6892a8b1e411-17",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire on feeling neutral when others feel big emotions, and why the adrenaline is never really enough.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 3912.85
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:44:09.970846+00:00",
+   "built": "2026-11-16T19:44:09.970848+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-17/clip.mp4",
+   "title": "\"IT'S NEVER REALLY ENOUGH\""
+  },
+  {
+   "id": "pod-6892a8b1e411-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Under the parachute Tommy Lemaire asked for tricks. Turned out the instructor knew him from a drift video. 🪂\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #skydiving #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 3590.65
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:43:22.641347+00:00",
+   "built": "2026-11-16T19:43:22.641349+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-16/clip.mp4",
+   "title": "THE INSTRUCTOR KNEW HIM FROM A DRIFT VIDEO"
+  },
   {
    "id": "pod-6892a8b1e411-15",
    "kind": "podcast_clip",
