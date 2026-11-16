@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "8"
+VERSION = "9"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -344,15 +344,36 @@ def _mmss(x: float) -> str:
     return f"{x // 3600}:{x % 3600 // 60:02d}:{x % 60:02d}" if x >= 3600 else f"{x // 60:02d}:{x % 60:02d}"
 
 
-def transcribe_stream(s: dict, yid: str) -> dict:
-    """Download the sound of the stream and transcribe it with Whisper for Apple chips."""
+def mlx():
     try:
-        import mlx_whisper  # noqa: F401
+        import mlx_whisper
     except ImportError:
         log("mlx-whisper installeren (eenmalig)")
         subprocess.run([sys.executable, "-m", "pip", "install", "-q", "--disable-pip-version-check", "mlx-whisper"],
                        check=True, timeout=1800)
-    import mlx_whisper
+        import mlx_whisper
+    return mlx_whisper
+
+
+def heard_words(path: Path, t0: float) -> list[tuple[float, str]]:
+    """What is actually said in a video piece, with times on the video's own clock (t0 = start of the piece)."""
+    res = mlx().transcribe(str(path), path_or_hf_repo="mlx-community/whisper-small.en-mlx", word_timestamps=True,
+                           language="en", condition_on_previous_text=False, verbose=None)
+    return [(t0 + w["start"], norm(w["word"])) for sg in res.get("segments", []) for w in sg.get("words", [])
+            if norm(w.get("word", ""))]
+
+
+def cut(src: Path, at: float, length: float, out: Path):
+    r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{at:.3f}", "-i", str(src), "-t", f"{length:.3f}",
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k",
+                        "-movflags", "+faststart", str(out)], capture_output=True, text=True)
+    if r.returncode:
+        raise RuntimeError("knippen mislukt: " + r.stderr[-300:])
+
+
+def transcribe_stream(s: dict, yid: str) -> dict:
+    """Download the sound of the stream and transcribe it with Whisper for Apple chips."""
+    mlx_whisper = mlx()
     CACHE.mkdir(parents=True, exist_ok=True)
     src = [p for p in CACHE.glob(f"{yid}.full.*") if not p.name.endswith(".part")]
     if not src:
@@ -427,7 +448,7 @@ def streams_work(beat) -> None:
 
 # ---------- main ----------
 def asset_name(ep_id: str, i: int, m: dict) -> str:
-    return f"{ep_id}-{i}-{int(round(m['start'] * 10))}-{int(round(m['end'] * 10))}.mp4"
+    return f"v2-{ep_id}-{i}-{int(round(m['start'] * 10))}-{int(round(m['end'] * 10))}.mp4"
 
 
 def download(youtube_id: str, a: float, b: float, out: Path) -> bool:
@@ -556,12 +577,31 @@ def main():
                 o2 = o2 if o2 is not None else o1
                 if abs(o1 - o2) > 3:
                     log(f"{name}: begin en eind verschillen {o2 - o1:.1f} s, ik neem het begin")
-                a, b = m["start"] + o1, m["start"] + o1 + (m["end"] - m["start"])
-                log(f"{name}: verschuiving {o1:+.1f} s, video {a:.1f} tot {b:.1f}")
+                length = m["end"] - m["start"]
+                a, b = m["start"] + o1, m["start"] + o1 + length
                 with tempfile.TemporaryDirectory() as tmp:
                     f = Path(tmp) / name
-                    if not download(ep["youtube"], a, b, f):
-                        raise RuntimeError("download mislukt")
+                    if ep.get("kind") == "stream":
+                        log(f"{name}: stream, video {a:.1f} tot {b:.1f}")
+                        if not download(ep["youtube"], a, b, f):
+                            raise RuntimeError("download mislukt")
+                    else:
+                        # Check on the words: take a wider piece, listen to it, and find our moment in it.
+                        # Podcast files with inserted ads differ per download, so the sound match alone can be off.
+                        wa, wb = max(0.0, a - 75), b + 75
+                        wide = Path(tmp) / "wide.mp4"
+                        if not download(ep["youtube"], wa, wb, wide):
+                            raise RuntimeError("download mislukt")
+                        if ours is None:
+                            ours = our_words(json.loads(gh(f"/contents/data/podcasts/t/{ep['id']}.json?ref=main", raw=True)))
+                        heard = heard_words(wide, wa)
+                        v1 = offset_at(ours, heard, m["start"])
+                        v2 = offset_at(ours, heard, max(m["end"] - 15, m["start"]))
+                        if v1 is None and v2 is None:
+                            raise RuntimeError("moment niet teruggevonden in de video (tekstcontrole)")
+                        o = v1 if v1 is not None else v2
+                        log(f"{name}: tekstcontrole {o:+.2f} s (geluid gaf {o1:+.2f} s), video {m['start'] + o:.1f}")
+                        cut(wide, m["start"] + o - wa, length, f)
                     up = rel["upload_url"].split("{")[0] + "?name=" + name
                     gh("", "POST", url=up, data=f.read_bytes(), ctype="video/mp4")
                 uploaded.append(name)

@@ -48,6 +48,14 @@ def _ff(args: list[str]):
         raise RuntimeError(r.stderr[-1500:])
 
 
+def _silent(path, limit: float = -50.0) -> bool:
+    """True when the sound of a video is (almost) silent, e.g. muted by YouTube."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path), "-af", "volumedetect", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    m = re.search(r"mean_volume: (-?[0-9.]+) dB", r.stderr)
+    return (float(m.group(1)) < limit) if m else True
+
+
 def _download_video(youtube_id: str, start: float, end: float, out: Path) -> bool:
     """Only the needed part of the video. YouTube may block servers: then False."""
     cmd = ["yt-dlp", "-q", "--no-warnings", "-f", "bv*[height<=1080]+ba/b", "--merge-output-format", "mp4",
@@ -104,9 +112,8 @@ def _render(ep: dict, transcript: dict, moment: dict, out: str, photo: str | Non
                         f"eq=brightness=-0.25,scale={W}:{H},fps={FPS},setsar=1[bg];"
                         f"[0:v]scale={W}:-2,fps={FPS},setsar=1[fg];[bg][fg]overlay=0:500[base]")
             audio = "0:a"
-            if ep.get("audio") and ep.get("kind") != "stream":
-                # Podcast clips: the sound comes from the podcast itself (clean, never muted by YouTube),
-                # under the YouTube picture that the Mac helper lined up with the podcast.
+            if ep.get("audio") and ep.get("kind") != "stream" and _silent(video):
+                # YouTube muted this part (music claim): use the podcast sound instead
                 inputs += ["-ss", f"{start:.2f}", "-t", f"{length:.2f}", "-i", ep["audio"]]
                 audio = "1:a"
             cap_y = 1180

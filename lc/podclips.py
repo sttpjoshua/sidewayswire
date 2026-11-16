@@ -32,14 +32,14 @@ ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "docs" / "media"
 
 
-LAYOUT = 3                 # raise when the clip design changes: unposted clips are made again
+LAYOUT = 4                 # raise when the clip design changes: unposted clips are made again
 WAIT_VIDEO = 3 * 3600      # how long a YouTube episode waits for the Mac helper before we fall back to audiogram
 TAG = "video-sources"
 
 
 def asset_name(ep_id: str, i: int, m: dict) -> str:
     """Must match tools/mac/video_helper.py: changing start or end asks for a new video."""
-    return f"{ep_id}-{i}-{int(round(float(m['start']) * 10))}-{int(round(float(m['end']) * 10))}.mp4"
+    return f"v2-{ep_id}-{i}-{int(round(float(m['start']) * 10))}-{int(round(float(m['end']) * 10))}.mp4"
 
 
 def video_assets() -> tuple[dict, list]:
@@ -130,6 +130,12 @@ def run(limit: int = 120) -> dict:
             if not 10 <= length <= 90:
                 m.update(status="error", error=f"clip length {length:.0f}s, keep it 15-75 s")
                 continue
+            wants_video = ep.get("kind") == "stream" or (no_video is not None and mf.stem not in no_video)
+            if upgrade and wants_video and name not in assets:
+                continue                           # keep the current clip until the checked video piece is there
+            if m.get("wait_name") != name:
+                m.pop("wait_video", None)          # new piece asked for: start the waiting time again
+                m["wait_name"] = name
             if ep.get("kind") == "stream" and name not in assets:
                 report["waiting_for_video"].append(pid)
                 continue                           # a stream clip needs the footage, there is no audio-only version
