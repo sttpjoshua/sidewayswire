@@ -1,0 +1,34 @@
+{# Reusable Street-style building blocks. #}
+{% macro photo(src, h=1350, label='PHOTO', focus='50% 50%') -%}
+{% if src %}<img class="photo" src="{{ src }}" style="height:{{ h }}px;object-position:{{ focus }}">
+{% else %}<div class="photo-ph" style="height:{{ h }}px">{{ label|safe }}</div>{% endif %}
+{%- endmacro %}
+
+{% macro wordmark() -%}<div class="wordmark bb">SIDEWAYS WIRE</div>{%- endmacro %}
+
+{% macro badge(lines, bg='var(--accent)', fg='#111111', size=40) -%}
+<div class="badge bb" style="background:{{ bg }};color:{{ fg }};font-size:{{ size }}px">{{ lines|join('<br>')|safe }}</div>
+{%- endmacro %}
+
+{% macro tapes(items, top=None, bottom=None, left=70, marker=None, marker_color='#FFFFFF') -%}
+{# items: list of (text, size, style). The handwritten marker is anchored above the
+   top-right of the tape block, so it can never overlap the tapes. #}
+<div class="tapes" style="left:{{ left }}px;{% if top is not none %}top:{{ top }}px;{% endif %}{% if bottom is not none %}bottom:{{ bottom }}px;{% endif %}">
+{% if marker %}<div class="marker" style="position:absolute;right:0;bottom:100%;margin-bottom:18px;font-size:38px;color:{{ marker_color }};transform:rotate(-6deg)">{{ marker }}</div>{% endif %}
+{% for t, s, st in items %}
+<div class="tape bb {{ st }}" data-fit data-size="{{ s }}" data-min="{{ (s*0.55)|int }}" style="font-size:{{ s }}px;transform:rotate({{ [-2,1.5,-1,1][loop.index0 % 4] }}deg);margin-left:{{ 40 if loop.index0 % 2 == 1 else 0 }}px">{{ t }}</div>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro marker(text, left, top, color='#FFFFFF', size=38, rot=-6) -%}
+{% if text %}<div class="marker" style="left:{{ left }}px;top:{{ top }}px;font-size:{{ size }}px;color:{{ color }};transform:rotate({{ rot }}deg)">{{ text }}</div>{% endif %}
+{%- endmacro %}
+
+{% macro textbox(body, left, right) -%}
+<div class="textbox"><div class="body">{{ body }}</div><div class="meta"><div class="l">{{ left }}</div><div>{{ right }}</div></div></div>
+{%- endmacro %}
+
+{% macro footer(left, right) -%}
+<div class="footer meta"><div class="l">{{ left }}</div><div>{{ right }}</div></div>
+{%- endmacro %}

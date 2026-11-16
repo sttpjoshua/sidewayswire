@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% import "_parts.html" as p %}
+{# Debate post: one person's take, quoted word for word, plus the question to the viewer.
+   Data: person_photo, name, role_handle, quote, ask (bool: show AGREE/DISAGREE), meta_left, meta_right #}
+{% block body %}
+{{ p.wordmark() }}
+{{ p.badge(['THE','DEBATE'], 'var(--pink)', '#111111', 38) }}
+<div class="abs" style="left:70px;top:200px;width:260px;height:260px;border:5px solid #fff;transform:rotate(-3deg);overflow:hidden;background:#2E2E33;display:flex;align-items:center;justify-content:center;font-size:24px;color:#8E8E94;text-align:center">
+{% if person_photo %}<img src="{{ person_photo }}" style="width:100%;height:100%;object-fit:cover">{% else %}PHOTO OF<br>THE PERSON{% endif %}
+</div>
+<div class="abs" style="left:340px;top:240px;display:flex;flex-direction:column;align-items:flex-start">
+  <div class="bb" data-fit data-size="72" data-min="44" style="background:var(--accent);color:#111;padding:20px 24px;font-size:72px;transform:rotate(-2deg);white-space:nowrap">{{ name }} SAYS</div>
+  <div class="bb" data-fit data-size="36" data-min="24" style="background:#111;color:#fff;border:4px solid #fff;padding:16px 20px;font-size:36px;transform:rotate(1.5deg);margin-left:30px;white-space:nowrap">{{ role_handle }}</div>
+</div>
+<div class="abs" style="left:70px;right:70px;top:560px;background:#fff;color:#111;border:5px solid #111;padding:70px 40px 40px;transform:rotate(-1deg)">
+  <div class="bb" style="position:absolute;left:28px;top:-40px;font-size:200px;color:var(--pink)">“</div>
+  <div style="font-size:{{ 48 if quote|length < 120 else (40 if quote|length < 200 else 34) }}px;font-weight:800;line-height:1.25">{{ quote }}</div>
+</div>
+{% if ask %}
+<div class="abs" style="left:70px;right:70px;bottom:110px;display:flex;flex-direction:column;gap:18px">
+  <div class="bb" style="font-size:70px;text-align:center">AGREE OR DISAGREE?</div>
+  <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px">
+    <div class="bb" style="background:var(--accent);color:#111;border:4px solid #111;padding:20px;text-align:center;font-size:60px;transform:rotate(-1.5deg)">AGREE</div>
+    <div class="bb" style="background:var(--pink);color:#111;border:4px solid #111;padding:20px;text-align:center;font-size:60px;transform:rotate(1.5deg)">DISAGREE</div>
+  </div>
+</div>
+{% endif %}
+{{ p.footer(meta_left, meta_right) }}
+{% endblock %}

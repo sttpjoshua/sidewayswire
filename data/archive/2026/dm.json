@@ -1,0 +1,202 @@
+{
+ "series": "DM",
+ "name": "Drift Masters European Championship",
+ "season": 2026,
+ "champion": {
+  "name": "Paweł Korpuliński",
+  "country": "POL",
+  "car": "Nissan S14",
+  "points": 509,
+  "note": "first DM title, won at home in Warsaw"
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "venue": "Vallelunga",
+   "location": "Campagnano di Roma, Italy",
+   "tz": "Europe/Rome",
+   "dates": [
+    "2026-05-01",
+    "2026-05-02"
+   ],
+   "top_qualifier": "Duane McKeever",
+   "winner": "Conor Shanahan",
+   "runner_up": "James Deane",
+   "third": "Piotr Więcek"
+  },
+  {
+   "round": 2,
+   "venue": "Circuito del Jarama",
+   "location": "Madrid, Spain",
+   "tz": "Europe/Madrid",
+   "dates": [
+    "2026-05-16",
+    "2026-05-17"
+   ],
+   "top_qualifier": "James Deane",
+   "winner": "Piotr Więcek",
+   "runner_up": "Conor Shanahan"
+  },
+  {
+   "round": 3,
+   "venue": "Mondello Park",
+   "location": "Kildare, Ireland",
+   "tz": "Europe/Dublin",
+   "dates": [
+    "2026-06-13",
+    "2026-06-14"
+   ],
+   "top_qualifier": "Conor Shanahan",
+   "winner": "Paweł Korpuliński",
+   "runner_up": "Conor Falvey",
+   "third": "Kevin Pesur"
+  },
+  {
+   "round": 4,
+   "venue": "Ahvenisto Race Circuit",
+   "location": "Hämeenlinna, Finland",
+   "tz": "Europe/Helsinki",
+   "dates": [
+    "2026-07-11",
+    "2026-07-12"
+   ],
+   "top_qualifier": "Piotr Więcek",
+   "winner": "Jack Shanahan",
+   "runner_up": "Benediktas Čirba"
+  },
+  {
+   "round": 5,
+   "venue": "Biķernieku Trase",
+   "location": "Riga, Latvia",
+   "tz": "Europe/Riga",
+   "dates": [
+    "2026-07-24",
+    "2026-07-25"
+   ],
+   "top_qualifier": "Piotr Więcek",
+   "winner": "Paweł Korpuliński",
+   "runner_up": "Kevin Piskolty"
+  },
+  {
+   "round": 6,
+   "venue": "Ferropolis",
+   "location": "Dessau, Germany",
+   "tz": "Europe/Berlin",
+   "dates": [
+    "2026-08-13",
+    "2026-08-15"
+   ],
+   "top_qualifier": "Conor Shanahan",
+   "winner": "Piotr Więcek",
+   "runner_up": "Conor Shanahan"
+  },
+  {
+   "round": 7,
+   "venue": "PGE Narodowy",
+   "location": "Warsaw, Poland",
+   "tz": "Europe/Warsaw",
+   "dates": [
+    "2026-09-11",
+    "2026-09-12"
+   ],
+   "top_qualifier": "James Deane",
+   "winner": "Conor Shanahan",
+   "runner_up": "Paweł Korpuliński",
+   "note": "Korpuliński 2nd in qualifying (+7), lost the final to Shanahan but took the title"
+  }
+ ],
+ "standings_final_top3": [
+  [
+   "Paweł Korpuliński",
+   509
+  ],
+  [
+   "Conor Shanahan",
+   474
+  ],
+  [
+   "Piotr Więcek",
+   468
+  ]
+ ],
+ "standings_after_r6": [
+  [
+   "Piotr Więcek",
+   436
+  ],
+  [
+   "Paweł Korpuliński",
+   414
+  ],
+  [
+   "Conor Shanahan",
+   370
+  ],
+  [
+   "James Deane",
+   337
+  ],
+  [
+   "Jack Shanahan",
+   325
+  ],
+  [
+   "Conor Falvey",
+   255
+  ],
+  [
+   "Duane McKeever",
+   244
+  ],
+  [
+   "Oliver Randalu",
+   236
+  ],
+  [
+   "Kevin Pesur",
+   236
+  ],
+  [
+   "Nikolass Bertans",
+   228
+  ]
+ ],
+ "todo": "full final top 10: dm.gp shows only the top 3 on its standings page; driver cards give final points per driver (e.g. McKeever 314, Falvey 287, Cirba 232)",
+ "points_system": {
+  "1": 100,
+  "2": 88,
+  "3": 76,
+  "4": 64,
+  "5-8": 48,
+  "9-16": 32,
+  "17-32": 16,
+  "qualifying": [
+   8,
+   7,
+   6,
+   5,
+   4,
+   3,
+   2,
+   1
+  ]
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Drift_Masters_season",
+  "https://autopartner.com/en/category/events",
+  "https://dm.gp/articles/general/korpulinski-crowned-king-of-riga-as-piskolty-completes-a-career-breakthrough/",
+  "https://dm.gp/articles/general/shanahan-returns-to-the-top-as-finland-delivers-a-drift-masters-classic/"
+ ],
+ "checked": "2026-11-16",
+ "final_points_known": {
+  "Duane McKeever": 314,
+  "Conor Falvey": 287,
+  "Benediktas Čirba": 232,
+  "Dawid Sposób": 160,
+  "Diogo Correia": 147,
+  "Alan Hynes": 144,
+  "Espen Rohde": 98,
+  "David Egan": 80,
+  "Clint van Oort": 64
+ }
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:'Bebas Neue';src:url('{{ fonts }}/bebas-neue-latin-400-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Bebas Neue';src:url('{{ fonts }}/bebas-neue-latin-ext-400-normal.woff2') format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Permanent Marker';src:url('{{ fonts }}/permanent-marker-latin-400-normal.woff2') format('woff2');}
+{% for w in [400,600,800] %}
+@font-face{font-family:'Inter';font-weight:{{ w }};src:url('{{ fonts }}/inter-latin-{{ w }}-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Inter';font-weight:{{ w }};src:url('{{ fonts }}/inter-latin-ext-{{ w }}-normal.woff2') format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+{% endfor %}
+:root{--accent:{{ accent|default('#C6FF00') }};--pink:#FF2E88;--ink:#111111;}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:transparent}
+.frame{position:relative;overflow:hidden;width:{{ w|default(1080) }}px;height:{{ h|default(1350) }}px;background:{{ bg|default('#151517') }};color:#fff;font-family:Inter,sans-serif}
+.bb{font-family:'Bebas Neue',sans-serif;font-weight:400;text-box:trim-both cap alphabetic;line-height:1}
+.abs{position:absolute}
+.photo{position:absolute;left:0;top:0;width:1080px;object-fit:cover;display:block}
+.photo-ph{position:absolute;left:0;top:0;width:1080px;background:#232326;display:flex;align-items:center;justify-content:center;color:#8E8E94;font-size:26px;text-align:center;line-height:1.5}
+.wordmark{position:absolute;left:70px;top:52px;background:#fff;color:var(--ink);padding:16px 22px;font-size:46px;letter-spacing:3px;transform:rotate(-3deg);border:4px solid var(--ink)}
+.badge{position:absolute;right:70px;top:56px;color:var(--ink);padding:16px 22px;border-radius:50%;text-align:center;transform:rotate(10deg);border:4px solid var(--ink);line-height:1}
+.tapes{position:absolute;left:70px;display:flex;flex-direction:column;align-items:flex-start}
+.tape{padding:22px 26px;white-space:nowrap}
+.tape.dark{background:var(--ink);color:#fff}
+.tape.darkb{background:var(--ink);color:#fff;border:4px solid #fff}
+.tape.accent{background:var(--accent);color:var(--ink)}
+.tape.pink{background:var(--pink);color:var(--ink)}
+.tape.white{background:#fff;color:var(--ink);border:4px solid var(--ink)}
+.marker{position:absolute;font-family:'Permanent Marker',cursive;white-space:nowrap;text-shadow:0 3px 0 #111,0 0 16px rgba(0,0,0,.7)}
+.textbox{position:absolute;left:70px;right:70px;bottom:44px;background:rgba(17,17,17,.92);border:3px solid #fff;padding:20px 24px;display:flex;flex-direction:column;gap:10px}
+.textbox .body{font-size:26px;font-weight:600;line-height:1.35}
+.meta{display:flex;justify-content:space-between;font-size:24px;font-weight:800;letter-spacing:1px}
+.meta .l{color:var(--accent)}
+.footer{position:absolute;left:70px;right:70px;bottom:44px}
+.row{border:4px solid;display:grid;gap:16px;align-items:center}
+.row.white{background:#fff;color:var(--ink);border-color:var(--ink)}
+.row.dark{background:var(--ink);color:#fff;border-color:#fff}
+.row.accent{background:var(--accent);color:var(--ink);border-color:var(--ink)}
+.small{font-size:24px;font-weight:800;letter-spacing:1px}
+</style>
+</head>
+<body>
+<div class="frame" id="frame">
+{% block body %}{% endblock %}
+</div>
+<script>
+// Auto-fit: called by the renderer after fonts have loaded. Each [data-fit] element
+// starts at its design size (data-size) and shrinks until it stays inside the safe area.
+window.__runFit = function(){
+  const report = [];
+  const frame = document.getElementById('frame').getBoundingClientRect();
+  const maxRight = frame.width - 66;
+  document.querySelectorAll('[data-fit]').forEach(el => {
+    const min = parseFloat(el.dataset.min || 24);
+    let size = parseFloat(el.dataset.size || getComputedStyle(el).fontSize);
+    el.style.fontSize = size + 'px';
+    const start = size;
+    const limit = el.dataset.maxright ? parseFloat(el.dataset.maxright) : maxRight;
+    const over = () => el.getBoundingClientRect().right > limit || el.scrollWidth > el.clientWidth + 1;
+    while (over() && size > min) { size -= 2; el.style.fontSize = size + 'px'; }
+    report.push({text: el.textContent.trim().slice(0, 60), start, end: size, ok: !over()});
+  });
+  // Any text element outside the frame counts as a problem too.
+  document.querySelectorAll('.marker, .tape, .wordmark, .badge').forEach(el => {
+    const r = el.getBoundingClientRect();
+    if (r.left < 0 || r.top < 0 || r.right > frame.width || r.bottom > frame.height)
+      report.push({text: el.textContent.trim().slice(0, 60), start: 0, end: 0, ok: false, reason: 'outside frame'});
+  });
+  return report;
+};
+</script>
+</body>
+</html>

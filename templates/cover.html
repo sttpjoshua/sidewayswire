@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% import "_parts.html" as p %}
+{# Generic full-photo post / carousel cover.
+   Used for: rumor, repost, season wrapped, recap cover, around-the-world cover,
+   calendar cover, build-watch cover, throwback, countdown.
+   Data: photo, photo_label, badge (list), badge_bg, tapes (list of [text, size, style]),
+         tapes_bottom, marker, body (optional), meta_left, meta_right, stripe (bool, rumor tape) #}
+{% block body %}
+{{ p.photo(photo, 1350, photo_label|default('FULL-SIZE PHOTO')) }}
+<div class="abs" style="left:0;bottom:0;width:1080px;height:900px;background:linear-gradient(to bottom,rgba(17,17,17,0) 0%,rgba(17,17,17,.85) 100%)"></div>
+{% if stripe %}<div class="abs" style="left:-60px;top:230px;width:1200px;height:70px;background:repeating-linear-gradient(-45deg,var(--pink) 0 40px,#111 40px 80px);transform:rotate(-6deg);border-top:4px solid #111;border-bottom:4px solid #111"></div>{% endif %}
+{{ p.wordmark() }}
+{% if badge %}{{ p.badge(badge, badge_bg|default('var(--accent)'), '#111111', badge_size|default(40)) }}{% endif %}
+{{ p.tapes(tapes, bottom=tapes_bottom|default(330), marker=marker) }}
+{% if body %}{{ p.textbox(body, meta_left, meta_right) }}{% else %}{{ p.footer(meta_left, meta_right) }}{% endif %}
+{% endblock %}

@@ -1,0 +1,18 @@
+# Run by hand (Actions > handles > Run workflow) to refresh driver socials.
+name: handles
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  handles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests && python -m lc.find_handles
+      - run: |
+          git config user.name "sidewayswire-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/sources.csv
+          git diff --cached --quiet || git commit -m "driver socials"
+          git push

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% import "_parts.html" as p %}
+{# Livestream 'your time' slide. Rows come from lc.timezones.zone_rows().
+   Data: badge, heading2, marker, session_names (4), rows, meta_left, meta_right #}
+{% block body %}
+{{ p.wordmark() }}
+{{ p.badge(badge) }}
+{{ p.tapes([['YOUR TIME', 110, 'darkb'], [heading2, 72, 'accent']], top=170) }}
+{% if marker %}<div class="marker" style="right:70px;top:250px;font-size:38px;color:var(--accent);transform:rotate(-6deg)">{{ marker }}</div>{% endif %}
+<div class="abs" style="left:70px;right:70px;top:440px;display:flex;flex-direction:column;gap:12px">
+  <div style="display:grid;grid-template-columns:250px repeat({{ session_names|length }},minmax(0,1fr));gap:8px;padding:0 22px;text-align:center" class="small">
+    <div style="text-align:left;color:#B8B8BC">YOUR CITY</div>
+    {% for s in session_names %}<div style="{{ 'color:var(--accent)' if loop.last else '' }}">{{ s }}</div>{% endfor %}
+  </div>
+  {% for r in rows %}
+  {% set light = loop.index0 % 2 == 0 %}
+  <div style="background:{{ '#fff' if light else '#111' }};color:{{ '#111' if light else '#fff' }};border:4px solid {{ '#111' if light else '#fff' }};padding:16px 18px;display:grid;grid-template-columns:250px repeat({{ session_names|length }},minmax(0,1fr));gap:8px;align-items:center;transform:rotate({{ -0.5 if light else 0.5 }}deg)">
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div class="bb" data-fit data-size="36" data-min="26" style="font-size:36px;white-space:nowrap">{{ r.city }}</div>
+      <div style="font-size:20px;font-weight:800;color:{{ '#555' if light else '#B8B8BC' }}">{{ r.zone }}{% if r.tag %} · {{ r.tag }}{% endif %}</div>
+    </div>
+    {% for c in r.cells %}
+    <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+      <div style="font-size:22px;font-weight:800;letter-spacing:1px;color:{{ '#555' if light else '#B8B8BC' }}">{{ c.day }}</div>
+      <div class="bb" style="font-size:50px">{{ c.time }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
+{{ p.footer(meta_left, meta_right) }}
+{% endblock %}

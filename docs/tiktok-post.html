@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Post to TikTok · Sideways Wire Publisher</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#151517;color:#fff;max-width:520px;margin:0 auto;padding:20px}
+h1{font-size:22px}label{display:block;margin:16px 0 6px;font-weight:700}
+select,textarea{width:100%;padding:10px;background:#232326;color:#fff;border:1px solid #555;border-radius:6px;font:inherit}
+video,.ph{width:100%;aspect-ratio:9/16;background:#000;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#888}
+.row{display:flex;align-items:center;gap:10px;margin:10px 0}.box{background:#232326;padding:12px;border-radius:6px;margin-top:8px}
+button{width:100%;padding:14px;margin-top:20px;background:#C6FF00;border:0;border-radius:6px;font-weight:800;font-size:16px}button:disabled{opacity:.4}
+small{color:#B8B8BC}a{color:#C6FF00}
+</style></head><body>
+<h1>Post to TikTok</h1>
+<div class="box">Posting as: <b id="nick">(sign in to load your TikTok name)</b></div>
+<label>Preview</label><div class="ph" id="ph">video preview</div>
+<label for="cap">Caption</label><textarea id="cap" rows="3"></textarea>
+<label for="priv">Who can view this video</label>
+<select id="priv"><option value="" selected disabled>Select privacy level</option></select>
+<small>Options come from your TikTok account settings. Nothing is selected for you.</small>
+<label>Allow users to</label>
+<div class="row"><input type="checkbox" id="c"><span>Comment</span><input type="checkbox" id="d"><span>Duet</span><input type="checkbox" id="s"><span>Stitch</span></div>
+<label>Commercial content</label>
+<div class="row"><input type="checkbox" id="com"><span>This video promotes a brand, product or service</span></div>
+<div class="box" id="comopts" hidden>
+ <div class="row"><input type="checkbox" id="own"><span>Your brand</span></div>
+ <div class="row"><input type="checkbox" id="paid"><span>Branded content (paid partnership)</span></div>
+ <small id="comnote"></small>
+</div>
+<p><small id="consent">By posting, you agree to TikTok's <a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en">Music Usage Confirmation</a>.</small></p>
+<button id="go" disabled>Post to TikTok</button>
+<script>
+// Demo of the posting screen TikTok asks for in its audit. In production the name and
+// the privacy options come from /v2/post/publish/creator_info/query/ for the signed-in account.
+const $=id=>document.getElementById(id);
+["PUBLIC_TO_EVERYONE","MUTUAL_FOLLOW_FRIENDS","SELF_ONLY"].forEach(v=>priv.add(new Option({PUBLIC_TO_EVERYONE:"Everyone",MUTUAL_FOLLOW_FRIENDS:"Friends",SELF_ONLY:"Only me"}[v],v)));
+function upd(){
+  comopts.hidden=!com.checked;
+  const need=com.checked&&!own.checked&&!paid.checked;
+  comnote.textContent=need?"Select at least one option.":paid.checked?"Your video will be labeled 'Paid partnership'.":own.checked?"Your video will be labeled 'Promotional content'.":"";
+  if(paid.checked&&priv.value==="SELF_ONLY"){priv.value="";}
+  priv.options[3].disabled=paid.checked;
+  consent.innerHTML="By posting, you agree to TikTok's "+(paid.checked?'<a href="https://www.tiktok.com/legal/page/global/bc-policy/en">Branded Content Policy</a> and ':"")+'<a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en">Music Usage Confirmation</a>.';
+  go.disabled=!priv.value||need;
+}
+document.addEventListener("change",upd);upd();
+</script></body></html>

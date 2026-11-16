@@ -1,0 +1,39 @@
+# The whole loop. Started every 15 minutes by cron-job.org (same set-up as Bibleverse).
+name: run
+on:
+  workflow_dispatch:
+concurrency: { group: run, cancel-in-progress: false }
+permissions: { contents: write }
+env:
+  LC_DRY_RUN: ${{ vars.LC_DRY_RUN || '1' }}      # set repo variable LC_DRY_RUN=0 to go live
+  PAGES_URL: ${{ vars.PAGES_URL }}
+  IG_USER_ID: ${{ secrets.IG_USER_ID }}
+  IG_TOKEN: ${{ secrets.IG_TOKEN }}
+  FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+  FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+  TG_TOKEN: ${{ secrets.TG_TOKEN }}
+  TG_CHAT: ${{ secrets.TG_CHAT }}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
+      - name: 1 collect
+        run: python -m lc.collect
+      - name: 2 build posts and handle Telegram answers
+        run: python -m lc.build
+      - name: 3 publish what is due
+        run: python -m lc.publish
+      - name: 4 dashboard
+        run: python -m lc.status
+      - name: save
+        run: |
+          git config user.name "sidewayswire-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data queue docs
+          git diff --cached --quiet || git commit -m "run $(date -u +%FT%TZ)"
+          git pull --rebase && git push

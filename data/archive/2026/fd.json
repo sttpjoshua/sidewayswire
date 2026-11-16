@@ -1,0 +1,24 @@
+{
+ "series": "FD", "name": "Formula DRIFT PRO Championship", "season": 2026, "timezone_note": "dates are local venue dates",
+ "champion": {"name": "Conor Shanahan", "country": "IRL", "car": "Toyota GT86", "team": "Jerry Yang Racing", "clinched": "R8 Top 32, vs Jhonnattan Castro"},
+ "rounds": [
+  {"round": 1, "title": "Streets of Long Beach", "venue": "Long Beach Street Circuit", "location": "Long Beach, CA", "tz": "America/Los_Angeles", "dates": ["2026-04-10", "2026-04-11"], "winner": "Conor Shanahan", "runner_up": "Fredric Aasbo", "third": "Jack Shanahan"},
+  {"round": 2, "title": "Road to the Championship", "venue": "Michelin Raceway Road Atlanta", "location": "Braselton, GA", "tz": "America/New_York", "dates": ["2026-05-07", "2026-05-09"], "winner": "Vaughn Gittin Jr.", "runner_up": "James Deane", "top_qualifier": "Aurimas Bakchis"},
+  {"round": 3, "title": "Scorched", "venue": "Orlando Speed World", "location": "Orlando, FL", "tz": "America/New_York", "dates": ["2026-05-29", "2026-05-30"], "winner": "Aurimas Bakchis", "runner_up": "James Deane"},
+  {"round": 4, "title": "Battle at the Springs", "venue": "Stafford Motor Speedway", "location": "Stafford Springs, CT", "tz": "America/New_York", "dates": ["2026-06-18", "2026-06-20"], "winner": "James Deane"},
+  {"round": 5, "title": "Midwest Mayhem", "venue": "Indianapolis Raceway Park", "location": "Indianapolis, IN", "tz": "America/Indiana/Indianapolis", "dates": ["2026-07-30", "2026-08-01"], "winner": null, "status": "PRO round cancelled (rain)"},
+  {"round": 6, "title": "Throwdown", "venue": "Evergreen Speedway", "location": "Monroe, WA", "tz": "America/Los_Angeles", "dates": ["2026-08-21", "2026-08-22"], "winner": "Conor Shanahan", "runner_up": "Fredric Aasbo"},
+  {"round": 7, "title": "High Stakes", "venue": "The Bullring, Las Vegas Motor Speedway", "location": "Las Vegas, NV", "tz": "America/Los_Angeles", "dates": ["2026-09-24", "2026-09-26"], "winner": "Conor Shanahan", "runner_up": "Matt Field"},
+  {"round": 8, "title": "Shoreline Showdown", "venue": "Long Beach Convention Center lot (night event)", "location": "Long Beach, CA", "tz": "America/Los_Angeles", "dates": ["2026-10-23", "2026-10-24"], "winner": "James Deane", "runner_up": "Jack Shanahan", "top_qualifier": "Jack Shanahan", "note": "Wikipedia lists Oct 17; RACER and Visit Long Beach say Oct 23-24, used here"}
+ ],
+ "standings_final": [
+  ["Conor Shanahan", 224], ["James Deane", 218], ["Jack Shanahan", 206], ["Branden Sorensen", 165], ["Matt Field", 150],
+  ["Fredric Aasbo", 149], ["Aurimas Bakchis", 132], ["Dylan Hughes", 91], ["Ryan Tuerck", 88], ["Chris Forsberg", 82],
+  ["Cole Richards", 79], ["Adam LZ", 78], ["Daniel Stuke", 68], ["Ben Hobson", 67], ["Vaughn Gittin Jr.", 62],
+  ["Dan Burkett", 58], ["Trenton Beechum", 57], ["Simen Olsen", 57], ["Rudy Hansen", 48], ["Cody Buchanan", 38]
+ ],
+ "other_titles": {"PROSPEC": "Dmitriy Brutskiy (3rd title, first three-time PROSPEC champion)"},
+ "points_system": {"1": 50, "2": 40, "3": 30, "4": 30, "5-8": 20, "9-16": 10, "qualifying_bonus": "top qualifier +4 (rest of the bonus scale to confirm from the FD rulebook)"},
+ "sources": ["https://en.wikipedia.org/wiki/2026_Formula_Drift_season", "https://racer.com/2026/10/25/deane-wins-formula-drift-pro-at-long-beach-as-shanahan-takes-championship-title", "https://www.tirereview.com/kumho-jack-shanahan-formula-drift-2026/", "https://www.drifted.com/formula-drift-2026-schedule-adds-three-new-venues/"],
+ "checked": "2026-11-16"
+}

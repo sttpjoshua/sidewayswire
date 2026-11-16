@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import "_parts.html" as p %}
+{# Data: photo, photo_credit, series_badge (list), headline (list of 3 lines), marker, body, source #}
+{% block body %}
+{{ p.photo(photo, 1350, 'FULL-SIZE PHOTO<br>repost ' ~ photo_credit) }}
+<div class="abs" style="left:0;bottom:0;width:1080px;height:900px;background:linear-gradient(to bottom,rgba(17,17,17,0) 0%,rgba(17,17,17,.85) 100%)"></div>
+{{ p.wordmark() }}
+{{ p.badge(series_badge) }}
+{% set styles = ['dark','accent','dark'] %}
+{{ p.tapes(headline_items(headline, 132, styles), bottom=300, marker=marker) }}
+{{ p.textbox(body, 'PHOTO ' ~ photo_credit ~ ' · SOURCE ' ~ source|upper, '@sidewayswire') }}
+{% endblock %}

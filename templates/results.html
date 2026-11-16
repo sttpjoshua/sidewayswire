@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% import "_parts.html" as p %}
+{# Ranked list with optional photo on top.
+   Used for: qualifying result, round winner/podium, champion podium, livestream schedule,
+   calendar, round winners, who-to-watch overview.
+   Data: photo (optional), photo_h (default 640), badge, tapes, tapes_top, marker,
+         rows: [{pos, name, sub, value, value_sub, highlight}], rows_top, body (optional),
+         meta_left, meta_right #}
+{% block body %}
+{% if photo is defined %}{{ p.photo(photo, photo_h|default(640), photo_label|default('PHOTO')) }}{% endif %}
+{{ p.wordmark() }}
+{% if badge %}{{ p.badge(badge) }}{% endif %}
+{{ p.tapes(tapes, top=tapes_top|default(410), marker=marker) }}
+<div class="abs" style="left:70px;right:70px;top:{{ rows_top|default(760) }}px;display:flex;flex-direction:column;gap:{{ gap|default(16) }}px">
+{% for r in rows %}
+  {% set style = 'accent' if r.highlight else ('white' if loop.index0 % 2 == 0 else 'dark') %}
+  {% set sub = '#555555' if style == 'white' else ('#111' if style == 'accent' else '#B8B8BC') %}
+  <div class="row {{ style }}" style="padding:{{ pad|default('18px 22px') }};grid-template-columns:{{ '80px ' if r.pos is defined else '' }}minmax(0,1fr) auto;transform:rotate({{ -0.5 if loop.index0 % 2 == 0 else 0.5 }}deg)">
+    {% if r.pos is defined %}<div class="bb" style="font-size:{{ pos_size|default(56) }}px">{{ r.pos }}</div>{% endif %}
+    <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+      <div class="bb" data-fit data-size="{{ name_size|default(50) }}" data-min="28" style="font-size:{{ name_size|default(50) }}px;white-space:nowrap;overflow:hidden">{{ r.name }}</div>
+      {% if r.sub %}<div class="small" style="color:{{ sub }}">{{ r.sub }}</div>{% endif %}
+    </div>
+    {% if r.value is defined %}
+    <div style="display:flex;flex-direction:column;gap:10px;text-align:right">
+      <div class="bb" style="font-size:{{ value_size|default(56) }}px">{{ r.value }}</div>
+      {% if r.value_sub %}<div class="small" style="color:{{ sub }}">{{ r.value_sub }}</div>{% endif %}
+    </div>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+{% if body %}{{ p.textbox(body, meta_left, meta_right) }}{% else %}{{ p.footer(meta_left, meta_right) }}{% endif %}
+{% endblock %}

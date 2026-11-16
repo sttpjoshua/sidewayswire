@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% import "_parts.html" as p %}
+{# Top 32 bracket, one half as a tree. mirror=True draws it right-to-left (lower half).
+   Data: badge, label ('UPPER HALF'), pairs: [[seed, name|None], [seed, name|None]] x8,
+         winners: optional dict of round -> list of names, mirror, meta_left, meta_right #}
+{% macro X(x, w) %}{{ 1080 - x - w if mirror else x }}{% endmacro %}
+{% macro line(x, y, w, h) %}<div class="abs" style="left:{{ X(x,w) }}px;top:{{ y }}px;width:{{ w }}px;height:{{ h }}px;background:#6E6E76"></div>{% endmacro %}
+{% macro seedline(seed, name) %}
+{% set bye = name == 'BYE' %}
+<div style="display:flex;flex-direction:{{ 'row-reverse' if mirror else 'row' }};align-items:center;gap:12px;height:40px">
+  <div class="bb" style="background:{{ 'var(--pink)' if bye else ('var(--accent)' if name else '#D9D9DE') }};color:#111;width:44px;padding:7px 0;text-align:center;font-size:24px">{{ seed }}</div>
+  <div class="bb" data-fit data-size="30" data-min="20" style="font-size:30px;color:{{ 'var(--pink)' if bye else ('#111' if name else '#8E8E94') }};white-space:nowrap">{{ name or 'TBD' }}</div>
+</div>
+{% endmacro %}
+{% block body %}
+{% set TOP = 432 %}{% set H = 84 %}{% set GAP = 14 %}
+{% set cols = [(40,440),(472,642),(674,834),(866,1080)] %}
+{{ p.wordmark() }}
+{{ p.badge(badge) }}
+{{ p.tapes([['TOP 32 BRACKET', 96, 'darkb'], [label, 60, 'accent']], top=170) }}
+{% for (x0, x1), h in zip(cols, ['TOP 32','TOP 16','GREAT 8','FINAL 4']) %}
+{% set w = (x1 - x0) if h != 'FINAL 4' else 174 %}
+<div class="abs small" style="left:{{ X(x0,w) }}px;top:{{ TOP - 40 }}px;width:{{ w }}px;text-align:{{ 'right' if mirror else 'left' }};color:#B8B8BC;letter-spacing:2px">{{ h }}</div>
+{% endfor %}
+{% set ys = [] %}
+{% for a, b in pairs %}
+{% set y = TOP + loop.index0 * (H + GAP) %}{% do ys.append(y + H / 2) %}
+<div class="abs" style="left:{{ X(cols[0][0], 400) }}px;top:{{ y }}px;width:400px;height:{{ H }}px;background:#fff;border:3px solid #111;padding:0 12px;display:flex;flex-direction:column;justify-content:center">
+{{ seedline(a[0], a[1]) }}<div style="height:2px;background:#E2E2E6"></div>{{ seedline(b[0], b[1]) }}
+</div>
+{% endfor %}
+{% set state = {'prev': ys} %}
+{% for c in [1, 2, 3] %}
+  {% set xl = cols[c-1][1] %}{% set xn = cols[c][0] %}{% set mid = ((xl + xn) / 2)|int %}{% set nxt = [] %}
+  {% for j in range(0, state.prev|length, 2) %}
+    {% set a = state.prev[j] %}{% set b = state.prev[j+1] %}{% set m = (a + b) / 2 %}{% do nxt.append(m) %}
+    {{ line(xl, (a-1)|int, mid - xl, 3) }}{{ line(xl, (b-1)|int, mid - xl, 3) }}{{ line(mid - 1, (a-1)|int, 3, (b - a + 3)|int) }}{{ line(mid, (m-1)|int, xn - mid, 3) }}
+    {% set w = cols[c][1] - xn %}{% set wn = (winners or {}).get(c|string, []) %}{% set name = wn[j // 2] if wn|length > j // 2 else None %}
+    {% if c == 3 %}
+    <div class="abs bb" style="left:{{ X(xn, w) }}px;top:{{ (m - 32)|int }}px;width:{{ w }}px;height:64px;background:var(--accent);border-top:3px solid #111;border-bottom:3px solid #111;{{ 'border-right' if mirror else 'border-left' }}:3px solid #111;display:flex;align-items:center;justify-content:center;font-size:{{ 30 if name else 34 }}px;color:#111">{{ name or ('← FINAL 4' if mirror else 'FINAL 4 →') }}</div>
+    {% else %}
+    <div class="abs" style="left:{{ X(xn, w) }}px;top:{{ (m - 28)|int }}px;width:{{ w }}px;height:56px;background:{{ '#fff' if name else '#111' }};border:3px {{ 'solid #111' if name else 'dashed #6E6E76' }};display:flex;align-items:center;justify-content:center;{{ 'font-family:Bebas Neue;font-size:28px;color:#111' if name else 'font-size:16px;font-weight:800;letter-spacing:1px;color:#B8B8BC' }}">{{ name or 'WINNER' }}</div>
+    {% endif %}
+  {% endfor %}
+  {% do state.update({'prev': nxt}) %}
+{% endfor %}
+{{ p.footer(meta_left, meta_right) }}
+{% endblock %}
