@@ -196,8 +196,13 @@
    "why": "de beslissing zelf"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-6-80432-81117.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-6-80432-81117.mp4",
+  "clip": "docs/media/pod-fd2026r8-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8078.52, \"start\": 8072.72, \"text\": \"ONE CALL FOR THE TITLE\", \"why\": \"de beslissing zelf\"}",
+  "made": "2026-11-16T22:19:28.831833+00:00"
  },
  {
   "start": 8163.8,
@@ -220,8 +225,13 @@
    "why": "zijn broer als antwoord"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-7-81638-81859.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-7-81638-81859.mp4",
+  "clip": "docs/media/pod-fd2026r8-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8185.9, \"start\": 8181.74, \"text\": \"WHO MADE HIM CHAMPION?\", \"why\": \"zijn broer als antwoord\"}",
+  "made": "2026-11-16T22:20:08.712633+00:00"
  },
  {
   "start": 8209.46,
@@ -243,8 +253,13 @@
    "why": "grappige en sterke uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-8-82095-82285.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-8-82095-82285.mp4",
+  "clip": "docs/media/pod-fd2026r8-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8226.46, \"start\": 8221.9, \"text\": \"THE INSTAGRAM BIO UPDATE\", \"why\": \"grappige en sterke uitspraak\"}",
+  "made": "2026-11-16T22:20:45.337036+00:00"
  },
  {
   "start": 8260.46,
@@ -267,8 +282,13 @@
    "why": "het emotionele beeld"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-9-82605-82781.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-9-82605-82781.mp4",
+  "clip": "docs/media/pod-fd2026r8-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8275.32, \"start\": 8272.96, \"text\": \"TEARS AT THE START LINE\", \"why\": \"het emotionele beeld\"}",
+  "made": "2026-11-16T22:21:19.725622+00:00"
  },
  {
   "start": 9333.98,

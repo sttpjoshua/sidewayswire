@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T22:17:30.507667+00:00",
+ "updated": "2026-11-16T22:21:19.729401+00:00",
  "counts": {
   "check": 17,
   "ready": 44,
-  "draft": 6
+  "draft": 10
  },
  "collected": "2026-11-16T21:56:31.745374+00:00",
  "instagram": false,
@@ -2344,9 +2344,9 @@
       "topic": "CONOR SHANAHAN IS THE 2026 FD CHAMPION",
       "quote": "So again, if Connor Shanahan gets this win, if Connor Shanahan gets the win, he is officially your 2026 Formula Drift champion. If Castro wins, the potentiality is that Jack would need to continue and win this event to get the championship. Absolutely wild. Without further ado, Castro Shanahan. If Shanahan gets the win, he is your 2026 Formula Drip champion. Judges say one vote for Shanahan, two! Carter Shanahan gets the win and he is your 2026 Formula a drift champion. The Irish driver makes his debut just a short three years ago and a very tough beginning of a season and the emotions from Ryan Turk to Shanahan celebratory. What a range of emotions here. Jacob, I'm seeing your eyes well up. History was made in Connecticut in all Irish podium but you know this means so much for not just the Shanahan family, James Dean as well, Jack Shanahan, the country of Ireland, Ireland is here.",
       "why": "Het moment dat Conor kampioen wordt",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-6/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2357,9 +2357,9 @@
       "topic": "FROM KID WITH A DREAM TO CHAMPION",
       "quote": "Yeah, this is it 10, 11 year old kid with a dream of coming to the States to drive, never mind fight for a championship. And today's the day, you know, I just want to thank everybody who supported me over the years, especially my mom and dad. They're the real heroes behind my story. My brother Jack for developing me. He's the reason why I'm a champion.",
       "why": "Emotioneel interview direct na de titel",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-7/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2370,9 +2370,9 @@
       "topic": "FD CHAMPION NEXT TO TWO DRIFT MASTERS TITLES",
       "quote": "So to my sponsors GT radial first drivers championship I promised Mike and everybody at the factory within two years that I would be a champion for the tire So thank you everybody Red Bull and juku racing everybody. Let's me live these dreams We've done it. I can't wait to add former drift champion in my Instagram bio next to my two Driftmasters titles. I've dreamt of that for a long time.",
       "why": "Conor wil FD-kampioen naast zijn twee Drift Masters-titels in zijn bio",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-8/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2383,9 +2383,9 @@
       "topic": "RYAN TUERCK'S TEARS MOTIVATED HIM",
       "quote": "And FD and all the staff, everybody who plays such a new part to make this championship happen, this is what it means to win one of these championships. And that's because you guys have done such an incredible job. It was emotional at the starting line, seeing Ry Turk, he's last ever run and he rolled by me and he had tears in his eyes, but it motivated me to win a championship on the day that he finishes.",
       "why": "Conor over Ryan Tuerck die zijn laatste run reed",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-9/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -4635,6 +4635,156 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-fd2026r8-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck rolled past Conor Shanahan with tears in his eyes after his last ever run. Conor used it to win the title.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @ryantuerck @formulad\n\n#formulad #formuladrift #ryantuerck #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8260.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:21:19.726580+00:00",
+   "built": "2026-11-16T22:21:19.726584+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-9/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "RYAN TUERCK'S TEARS MOTIVATED HIM"
+  },
+  {
+   "id": "pod-fd2026r8-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two Drift Masters titles and now a Formula DRIFT championship. Conor Shanahan has a bio to update. 😅\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @formulad @driftmasters.gp\n\n#formulad #driftmasters #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8209.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:20:45.338005+00:00",
+   "built": "2026-11-16T22:20:45.338010+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-8/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "FD CHAMPION NEXT TO TWO DRIFT MASTERS TITLES"
+  },
+  {
+   "id": "pod-fd2026r8-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Seconds after winning the title, Conor Shanahan thanks his parents and his brother Jack. ❤️\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8163.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:20:08.713587+00:00",
+   "built": "2026-11-16T22:20:08.713592+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-7/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "FROM KID WITH A DREAM TO CHAMPION"
+  },
+  {
+   "id": "pod-fd2026r8-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "One judges' call away from the title. Conor Shanahan beats Jhonnattan Castro in Top 32 and is the 2026 Formula DRIFT champion. 🇮🇪🏆\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @jamesdeane130 @jackshanahan59 @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8043.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:19:28.832840+00:00",
+   "built": "2026-11-16T22:19:28.832844+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-6/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "CONOR SHANAHAN IS THE 2026 FD CHAMPION"
   },
   {
    "id": "pod-fd2026r8-5",
