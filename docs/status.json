@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:40:52.895342+00:00",
+ "updated": "2026-11-16T20:47:00.945103+00:00",
  "counts": {
   "draft": 55
  },
@@ -2679,6 +2679,126 @@
  },
  "posts": [
   {
+   "id": "pod-6892a8b1e411-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire went skydiving for the first time. His verdict: a really good chase gives the same rush.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #skydiving #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 3534.11
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:42:39.091173+00:00",
+   "built": "2026-11-16T20:47:00.941706+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-15/clip.mp4",
+   "title": "SKYDIVING VS A GOOD CHASE"
+  },
+  {
+   "id": "pod-6892a8b1e411-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Racing drivers book Tommy Lemaire's ice drift school to understand the limit of the car.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#icedrifting #nascar #drifting #carcontrol #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 3297.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:41:56.231466+00:00",
+   "built": "2026-11-16T20:45:13.956299+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-14/clip.mp4",
+   "title": "RACE DRIVERS LEARN TO DRIFT ON ICE"
+  },
+  {
+   "id": "pod-6892a8b1e411-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Studded tires on ice can be faster than asphalt. Tommy Lemaire on his winter drift academy. ❄️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #icedrifting #drifting #winter #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 3169.74
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:41:11.832656+00:00",
+   "built": "2026-11-16T20:43:24.686181+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-13/clip.mp4",
+   "title": "ICE DRIFTING ALMOST AS FAST AS ASPHALT"
+  },
+  {
+   "id": "pod-6892a8b1e411-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #drifting #driftsetup #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2935.1
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:40:42.465420+00:00",
+   "built": "2026-11-16T20:42:08.091742+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-12/clip.mp4",
+   "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL"
+  },
+  {
    "id": "pod-6892a8b1e411-11",
    "kind": "podcast_clip",
    "status": "draft",
@@ -4207,126 +4327,6 @@
    "want_at": null,
    "video": "media/pod-6892a8b1e411-16/clip.mp4",
    "title": "THE INSTRUCTOR KNEW HIM FROM A DRIFT VIDEO"
-  },
-  {
-   "id": "pod-6892a8b1e411-15",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire went skydiving for the first time. His verdict: a really good chase gives the same rush.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #skydiving #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 3534.11
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:42:39.091173+00:00",
-   "built": "2026-11-16T19:42:39.091175+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-15/clip.mp4",
-   "title": "SKYDIVING VS A GOOD CHASE"
-  },
-  {
-   "id": "pod-6892a8b1e411-14",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Racing drivers book Tommy Lemaire's ice drift school to understand the limit of the car.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#icedrifting #nascar #drifting #carcontrol #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 3297.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:41:56.231466+00:00",
-   "built": "2026-11-16T19:41:56.231468+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-14/clip.mp4",
-   "title": "RACE DRIVERS LEARN TO DRIFT ON ICE"
-  },
-  {
-   "id": "pod-6892a8b1e411-13",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Studded tires on ice can be faster than asphalt. Tommy Lemaire on his winter drift academy. ❄️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #icedrifting #drifting #winter #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 3169.74
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:41:11.832656+00:00",
-   "built": "2026-11-16T19:41:11.832658+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-13/clip.mp4",
-   "title": "ICE DRIFTING ALMOST AS FAST AS ASPHALT"
-  },
-  {
-   "id": "pod-6892a8b1e411-12",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #drifting #driftsetup #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 2935.1
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:40:42.465420+00:00",
-   "built": "2026-11-16T19:40:42.465423+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-12/clip.mp4",
-   "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL"
   }
  ],
  "channels": {
