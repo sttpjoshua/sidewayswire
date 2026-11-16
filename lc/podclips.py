@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "docs" / "media"
 
 
-LAYOUT = 2                 # raise when the clip design changes: unposted clips are made again
+LAYOUT = 3                 # raise when the clip design changes: unposted clips are made again
 WAIT_VIDEO = 3 * 3600      # how long a YouTube episode waits for the Mac helper before we fall back to audiogram
 TAG = "video-sources"
 

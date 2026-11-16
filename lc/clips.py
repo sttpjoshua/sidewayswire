@@ -102,6 +102,11 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
                         f"eq=brightness=-0.25,scale={W}:{H},fps={FPS},setsar=1[bg];"
                         f"[0:v]scale={W}:-2,fps={FPS},setsar=1[fg];[bg][fg]overlay=0:500[base]")
             audio = "0:a"
+            if ep.get("audio") and ep.get("kind") != "stream":
+                # Podcast clips: the sound comes from the podcast itself (clean, never muted by YouTube),
+                # under the YouTube picture that the Mac helper lined up with the podcast.
+                inputs += ["-ss", f"{start:.2f}", "-t", f"{length:.2f}", "-i", ep["audio"]]
+                audio = "1:a"
             cap_y = 1180
         else:
             inputs += ["-ss", f"{start:.2f}", "-t", f"{length:.2f}", "-i", ep["audio"]]
@@ -110,7 +115,7 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
                         f"[bg0][wave]overlay=70:975[base]")
             audio = "0:a"
             cap_y = 1180
-        n = 1
+        n = len([x for x in inputs if x == "-i"])          # index of the next input
         inputs += ["-loop", "1", "-t", f"{length:.2f}", "-i", str(tmp / "layer.png")]
         filt.append(f"[base][{n}:v]overlay=0:0:format=auto[l0]")
         last = "l0"
@@ -147,8 +152,8 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
             inputs += ["-f", "concat", "-safe", "0", "-i", str(tmp / "caps.txt")]
             filt.append(f"[{n}:v]fps={FPS},format=rgba[cap];[{last}][cap]overlay=0:{cap_y}:format=auto:eof_action=pass[c0]")
             last = "c0"
-        filt.append(f"[{last}]format=yuv420p[v]")
-        _ff([*inputs, "-filter_complex", ";".join(filt), "-map", "[v]", "-map", audio,
+        filt.append(f"[{last}]format=yuv420p[v];[{audio}]loudnorm=I=-15:TP=-1.5:LRA=11,aresample=44100[a]")
+        _ff([*inputs, "-filter_complex", ";".join(filt), "-map", "[v]", "-map", "[a]",
              "-t", f"{length:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
              "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out])
     return {"mode": mode, "out": out, "captions": len(caps)}
