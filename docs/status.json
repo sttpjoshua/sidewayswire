@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T15:44:13.251483+00:00",
+ "updated": "2026-11-16T15:46:33.205069+00:00",
  "counts": {},
- "collected": "2026-11-16T15:44:13.183630+00:00",
+ "collected": "2026-11-16T15:46:33.133627+00:00",
  "instagram": false,
  "sources": [
   {
@@ -9,6 +9,41 @@
    "url": "https://news.formulad.com",
    "ok": true,
    "items": 10,
+   "how": "feed"
+  },
+  {
+   "source": "RACER",
+   "url": "gnews:site:racer.com \"formula drift\"",
+   "ok": true,
+   "items": 100,
+   "how": "feed"
+  },
+  {
+   "source": "Drift Masters",
+   "url": "gnews:site:dm.gp",
+   "ok": true,
+   "items": 0,
+   "how": "feed"
+  },
+  {
+   "source": "Drifted.com",
+   "url": "gnews:site:drifted.com",
+   "ok": true,
+   "items": 3,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:\"Formula Drift\"",
+   "ok": true,
+   "items": 17,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:\"Drift Masters\"",
+   "ok": true,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -31,12 +66,6 @@
    "ok": true,
    "items": 15,
    "how": "feed"
-  },
-  {
-   "source": "RACER",
-   "url": "https://racer.com/tag/formula-drift/",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://racer.com/tag/formula-drift/"
   },
   {
    "source": "Drifted.com",
@@ -111,96 +140,51 @@
  ],
  "inbox": [
   {
-   "title": "D1GP2026最終戦に挑むシャナハン兄弟とクスコレーシングの決断",
-   "series": "D1GP",
-   "buzz": 2,
-   "published": "2026-11-13T20:45:07+00:00",
-   "items": [
-    {
-     "source": "D1 Grand Prix (D1GP)",
-     "title": "D1GP2026最終戦に挑むシャナハン兄弟とクスコレーシングの決断",
-     "url": "https://d1gp.co.jp/27434/",
-     "kind": "article",
-     "published": "2026-11-12T05:01:24+00:00",
-     "media_url": null,
-     "media_type": null
-    },
-    {
-     "source": "auto sport web · drift",
-     "title": "始まりの地での最終戦に挑む下田紗弥加「私のチャレンジ精神を見てほしい」【D1GP2026キーパーソン】",
-     "url": "https://www.as-web.jp/drift/1374459",
-     "kind": "article",
-     "published": "2026-11-13T20:45:07+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
-  },
-  {
-   "title": "TOKYO DIRFT レースアンバサダー紹介",
-   "series": "D1GP",
-   "buzz": 2,
-   "published": "2026-11-13T13:08:02+00:00",
-   "items": [
-    {
-     "source": "auto sport web · drift",
-     "title": "D1GPのハチマキを貼って走れることに感動している／TOKYO DRIFT参戦ジャック・シャナハン：インタビュー後編",
-     "url": "https://www.as-web.jp/drift/1367220",
-     "kind": "article",
-     "published": "2026-10-27T00:04:04+00:00",
-     "media_url": null,
-     "media_type": null
-    },
-    {
-     "source": "D1 Grand Prix (D1GP)",
-     "title": "TOKYO DRIFT プログラムを先行公開！",
-     "url": "https://d1gp.co.jp/27394/",
-     "kind": "article",
-     "published": "2026-11-11T00:33:02+00:00",
-     "media_url": null,
-     "media_type": null
-    },
-    {
-     "source": "auto sport web · drift",
-     "title": "D1GP最終戦『TOKYO DRIFT』参戦のコナー・シャナハン。中村直樹が感じた世界最高峰のドリフト「彼の走りには強い衝撃と深い刺激を受けた」",
-     "url": "https://www.as-web.jp/drift/1373782",
-     "kind": "article",
-     "published": "2026-11-11T03:59:55+00:00",
-     "media_url": null,
-     "media_type": null
-    },
-    {
-     "source": "D1 Grand Prix (D1GP)",
-     "title": "TOKYO DIRFT レースアンバサダー紹介",
-     "url": "https://d1gp.co.jp/27439/",
-     "kind": "article",
-     "published": "2026-11-12T12:20:15+00:00",
-     "media_url": null,
-     "media_type": null
-    },
-    {
-     "source": "auto sport web · drift",
-     "title": "『TOKYO DRIFT』参戦のコナー・シャナハン「ここに来られてワクワクしている」／D1グランプリ最終戦",
-     "url": "https://www.as-web.jp/drift/1374405",
-     "kind": "article",
-     "published": "2026-11-13T13:08:02+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
-  },
-  {
    "title": "CATERHAM DRIFT EXPERIENCE",
    "series": "NDC",
    "buzz": 1,
-   "published": "2026-11-16T15:44:10.285794+00:00",
+   "published": "2026-11-16T15:46:32.463227+00:00",
    "items": [
     {
      "source": "Nürburgring Drift Cup",
      "title": "CATERHAM DRIFT EXPERIENCE",
      "url": "https://nuerburgring.de/driving/more/caterham",
      "kind": "article",
-     "published": "2026-11-16T15:44:10.285794+00:00",
+     "published": "2026-11-16T15:46:32.463227+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Welcome to the world of Formula Drift... a sport dominated by a small pocket in north Cork",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-16T14:31:46+00:00",
+   "items": [
+    {
+     "source": "Google News · Irish Independent",
+     "title": "Welcome to the world of Formula Drift... a sport dominated by a small pocket in north Cork",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNkhhQVFKeF9VSkhUTnpnaVlBbGxUcXV3SUg4RzJFUGRBcFRidjNZcHpvSUdKakw4aE83MjZPMnI4am5lMDV6aWFMZkVoaWUyMlJhUXlMempNN0dsVjBzYW1GemlMdTQ0eklVdFJoVUV0YUt2ODl4SlFkMUgteF9Ya28tY09qb2c2c1NvWDVubkxGdGsyUk95dUtzcWsxazhDbDlMbWtEQUZObXRfODU4cE8xcmk3NG03ek9VVjMzV0Nha0ZLY1VPRXBlQmxWZlRaM1p1S3k4RV9GVjhIWUFTdkVWajNtUUtKT2k4bC13ZkhpSFljbUNVeg?oc=5",
+     "kind": "article",
+     "published": "2026-11-16T14:31:46+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Drifting Champion Vaughn Gittin Jr. Releases ‘Ready To Rock’ Collector’s Book & Biography",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-16T10:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · EIN News",
+     "title": "Drifting Champion Vaughn Gittin Jr. Releases ‘Ready To Rock’ Collector’s Book & Biography",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa3luaE9SdjZHTlViY2I0UFV6OFNreXBKandQa1RRbWpXamc2VmE1NjhyYV9wRGtsaHRZZTUyMlJ4dmtwYlZoQU5Bd29kSU9VSWNMZm1OV3VGRl9xLUJhS1padm0yQVFVMVRGMkJGdUhTVG44S3VSZUFjRV9ncGVBY3lTd3QxX1R1WEtVV0ZKTWZheVFqVHd2alM3UzhFSzNZdEpKaHdubmdCUmVjWExoUnVNQkFwYkp2RVpiWG45RURPaV9W?oc=5",
+     "kind": "article",
+     "published": "2026-11-16T10:00:00+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -212,15 +196,6 @@
    "buzz": 1,
    "published": "2026-11-16T08:50:19+00:00",
    "items": [
-    {
-     "source": "auto sport web · drift",
-     "title": "ダブルタイトル獲得に挑む蕎麦切「緊張感を楽しんで、自分らしい走りを思いっきりしたい」／D1グランプリ最終戦",
-     "url": "https://www.as-web.jp/drift/1374433",
-     "kind": "article",
-     "published": "2026-11-13T13:18:40+00:00",
-     "media_url": null,
-     "media_type": null
-    },
     {
      "source": "auto sport web · drift",
      "title": "蕎麦切広大、もがきながら初のシリーズチャンピオンに輝く「切り替えたつもりでも、ずっと緊張していた」／D1グランプリ最終戦",
@@ -276,6 +251,40 @@
    ]
   },
   {
+   "title": "Three for the weekend: Valmiera 734, Drift Masters, Polish Speedway / Article",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-14T22:55:35+00:00",
+   "items": [
+    {
+     "source": "Google News · LSM",
+     "title": "Three for the weekend: Valmiera 734, Drift Masters, Polish Speedway / Article",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQblJKRGEyQTN4ajdMTGF2d2VteFdhNTBlSHZ0b2dhZWk3c1RYRHk1VTVKQ2tVbXlEcHZNU3c3ODhrVWZWSmltRjIxc0dsbmpsVW05ejRUREN1QUNFVVV0a0Y5ZlhkUjZQclBuVHFtTkRJTm5WV19nSGFONmFrb3A2dUZPVUlxdDhTbFUxQTNicDVtQThfWDZJbnRZc3pSblpKNnVaRWM5cUNWTy1xWGJCQWpwU2FzYUxpYjk5aTRQOUwyT2dhWnc?oc=5",
+     "kind": "article",
+     "published": "2026-11-14T22:55:35+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Andy McEntee quits as Longford manager less than three weeks after ratification",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-14T18:35:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Irish Independent",
+     "title": "Andy McEntee quits as Longford manager less than three weeks after ratification",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeklKTFdhS1RxclhnOUE0VDVyeVdITEdTcW1wbkM2ODhLRzdCSFdySWZVcnlXa1J2cEd0dTJBNlVzSHNTTEN0QjliWnZzM05ETkhjQzFtX0dmdlJ6LW5FQjRsUFNEcGs2aDlSMmwwaWpZWmdFOXNmX19WUE9qSGlSWVpHa2YyUVZnQXZvaXZMMVVsZ3ZLdktuV1NVX19uQnFWaUhrdHo3QnQwQlByZ1hpMzN0SW9BeThDYVdCV2ppUzFJNll5U3FlVA?oc=5",
+     "kind": "article",
+     "published": "2026-11-14T18:35:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "ランク上位ふたりが予選落ちの波乱。中村直樹が今季初優勝で王者争いは三つ巴に／D1グランプリ第9戦",
    "series": "D1GP",
    "buzz": 1,
@@ -323,6 +332,23 @@
      "published": "2026-11-13T22:45:39+00:00",
      "media_url": "https://i3.ytimg.com/vi/ZUQ0pFYNt3I/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "始まりの地での最終戦に挑む下田紗弥加「私のチャレンジ精神を見てほしい」【D1GP2026キーパーソン】",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-13T20:45:07+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "始まりの地での最終戦に挑む下田紗弥加「私のチャレンジ精神を見てほしい」【D1GP2026キーパーソン】",
+     "url": "https://www.as-web.jp/drift/1374459",
+     "kind": "article",
+     "published": "2026-11-13T20:45:07+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -408,6 +434,40 @@
      "published": "2026-11-13T15:46:50+00:00",
      "media_url": "https://i4.ytimg.com/vi/c5BPfMU2wo0/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "ダブルタイトル獲得に挑む蕎麦切「緊張感を楽しんで、自分らしい走りを思いっきりしたい」／D1グランプリ最終戦",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-13T13:18:40+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "ダブルタイトル獲得に挑む蕎麦切「緊張感を楽しんで、自分らしい走りを思いっきりしたい」／D1グランプリ最終戦",
+     "url": "https://www.as-web.jp/drift/1374433",
+     "kind": "article",
+     "published": "2026-11-13T13:18:40+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "『TOKYO DRIFT』参戦のコナー・シャナハン「ここに来られてワクワクしている」／D1グランプリ最終戦",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-13T13:08:02+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "『TOKYO DRIFT』参戦のコナー・シャナハン「ここに来られてワクワクしている」／D1グランプリ最終戦",
+     "url": "https://www.as-web.jp/drift/1374405",
+     "kind": "article",
+     "published": "2026-11-13T13:08:02+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -531,6 +591,40 @@
    ]
   },
   {
+   "title": "TOKYO DIRFT レースアンバサダー紹介",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-12T12:20:15+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "TOKYO DIRFT レースアンバサダー紹介",
+     "url": "https://d1gp.co.jp/27439/",
+     "kind": "article",
+     "published": "2026-11-12T12:20:15+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "D1GP2026最終戦に挑むシャナハン兄弟とクスコレーシングの決断",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-12T05:01:24+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "D1GP2026最終戦に挑むシャナハン兄弟とクスコレーシングの決断",
+     "url": "https://d1gp.co.jp/27434/",
+     "kind": "article",
+     "published": "2026-11-12T05:01:24+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "オートポリスの土日決勝が予感させる「新しい進化したD1GPスタイル」",
    "series": "D1GP",
    "buzz": 1,
@@ -542,6 +636,23 @@
      "url": "https://d1gp.co.jp/27429/",
      "kind": "article",
      "published": "2026-11-12T01:47:32+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Acura Integra Type S: Dai Yoshihara Takes to the Streets!",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-11T21:42:24+00:00",
+   "items": [
+    {
+     "source": "Google News · thetruthaboutcars.com",
+     "title": "Acura Integra Type S: Dai Yoshihara Takes to the Streets!",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ29yZVpjTURhMndNOUdIOUVFckhFVk5QWkVibzljRF9OTGU0VEhjSW1sSFBDNl9wYk5Qa3RJZGpCbHNoZXFaMFlPMnF5bHlTdExJdGJBdWtIelhDNHA4WG1NUkNFUVNtX2lJLXpqTWVwbWh5dTAwWTFERm5fS3hFeTNfT1V0X0RveXBLN1dJQkpjSzc0RGItaFk4RjhuWENoVzNkOUxSVFJfdk1rcHJ4aHpQdw?oc=5",
+     "kind": "article",
+     "published": "2026-11-11T21:42:24+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -582,6 +693,23 @@
    ]
   },
   {
+   "title": "Record field set for FIA Intercontinental Drifting Cup's Greek debut",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-11T15:52:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Federation Internationale de l'Automobile",
+     "title": "Record field set for FIA Intercontinental Drifting Cup's Greek debut",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmtQaG5tTU5lZEUwc0o0U2FZXzdNaW5KbnBTVVAzVzNIVlpIVVhpZHlITTF5b1hMNjM4cTkwbDFUSjg0QW5pU2RQQmczb1VRckN0MFZudjVUYjFYWjBGVnB6VkZLYnIyYWlvOW1LeEZiVVBJdEtoeWo1R2FiODctMkdsZDQ3TXRucnpVQ1hNblQ0UQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-11T15:52:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "The Outerzone Podcast - Conor Shanahan",
    "series": "FD",
    "buzz": 1,
@@ -595,6 +723,23 @@
      "published": "2026-11-11T15:00:23+00:00",
      "media_url": "https://i1.ytimg.com/vi/hg9z1Hxq4lE/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Blaney's Injury Forces Daytona Exit",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-11T13:43:30+00:00",
+   "items": [
+    {
+     "source": "Google News · Lucky Dog on Track",
+     "title": "Blaney's Injury Forces Daytona Exit",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBITGhfcXBpR3JVNnV5UUI0UTRYbE1Tc1ZKWG9EN19uVDAyQ0VkXy1kdHRETnBfZUZtOEU1X3ZDLVQ4dHFOd3pxb2NaeTZkTFJwVS1OaVlHRk5TQl9LUlZHY2VoYzVKLTN3WmFWTmRHV1EyQXdUbVhNY1hUMlFfS1k?oc=5",
+     "kind": "article",
+     "published": "2026-11-11T13:43:30+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -616,6 +761,23 @@
    ]
   },
   {
+   "title": "Ryan Blaney Announces Bad News Beyond NASCAR Awards",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-11T12:06:14+00:00",
+   "items": [
+    {
+     "source": "Google News · Yardbarker",
+     "title": "Ryan Blaney Announces Bad News Beyond NASCAR Awards",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSDU4bWFpQW1LaGJWc29xd2lCTHZCWjE2eklIM0pTbENXSUFqZHU4S01DTVNZakhueUltYTJRY1EyVXh3X29SVEE1VlBuNWpLYU1FQ0VtWVVaRmFQZzNmeEFVVGUtOU9DTFc4bkczNy0xX21ISTNlZlFZZHg4eUtUOTJFbGVIUGM0LTRsQllaZDBrWVk3dEw2cWZydHJRZE01Rm9IS1RQVThtY0R1WFh6LVJR?oc=5",
+     "kind": "article",
+     "published": "2026-11-11T12:06:14+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "飲食ブースでは選手とのコラボフードを実施",
    "series": "D1GP",
    "buzz": 1,
@@ -623,28 +785,78 @@
    "items": [
     {
      "source": "D1 Grand Prix (D1GP)",
-     "title": "【特別ゲスト】土屋圭市氏のサイン会決定！！",
-     "url": "https://d1gp.co.jp/27350/",
-     "kind": "article",
-     "published": "2026-11-09T07:41:01+00:00",
-     "media_url": null,
-     "media_type": null
-    },
-    {
-     "source": "D1 Grand Prix (D1GP)",
-     "title": "『ワイルド・スピード』とのコラボグッズをご紹介！",
-     "url": "https://d1gp.co.jp/27378/",
-     "kind": "article",
-     "published": "2026-11-10T03:42:04+00:00",
-     "media_url": null,
-     "media_type": null
-    },
-    {
-     "source": "D1 Grand Prix (D1GP)",
      "title": "飲食ブースでは選手とのコラボフードを実施",
      "url": "https://d1gp.co.jp/27408/",
      "kind": "article",
      "published": "2026-11-11T07:48:59+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "D1GP最終戦『TOKYO DRIFT』参戦のコナー・シャナハン。中村直樹が感じた世界最高峰のドリフト「彼の走りには強い衝撃と深い刺激を受けた」",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-11T03:59:55+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "D1GP最終戦『TOKYO DRIFT』参戦のコナー・シャナハン。中村直樹が感じた世界最高峰のドリフト「彼の走りには強い衝撃と深い刺激を受けた」",
+     "url": "https://www.as-web.jp/drift/1373782",
+     "kind": "article",
+     "published": "2026-11-11T03:59:55+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Ryan Blaney misses NASCAR awards banquet, Ford race at Daytona after fall",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-11T02:33:00+00:00",
+   "items": [
+    {
+     "source": "Google News · USA Today",
+     "title": "Ryan Blaney misses NASCAR awards banquet, Ford race at Daytona after fall",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbDFyVXRoNEN4MFlabEw5ZWNCZTd1QmE0bl9QSTBjS293Ri1kQmV1SXpERDUyZGFJZUNWR2VxOGdSeGdpOG9oTHlLUjJqOUtCVU56SkUtVlNyRWg2Vm9HdGRid3RTaGlCU2NKeXBPRGlxcnFjSGVpZE56bUJNV0NqNDhnaHpudjdxUkJ2ejkwU1lhX1B3V2t4QnhHTjU1TUZtaDg5Z0RaLTNIMzd2VXhjV3VjMElndFlxelFraGVVQzU?oc=5",
+     "kind": "article",
+     "published": "2026-11-11T02:33:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "TOKYO DRIFT プログラムを先行公開！",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-11T00:33:02+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "TOKYO DRIFT プログラムを先行公開！",
+     "url": "https://d1gp.co.jp/27394/",
+     "kind": "article",
+     "published": "2026-11-11T00:33:02+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Who is replacing Ryan Blaney at Daytona's Veterans Day race? Robert Noaker",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-10T21:28:39+00:00",
+   "items": [
+    {
+     "source": "Google News · Nacionale",
+     "title": "Who is replacing Ryan Blaney at Daytona's Veterans Day race? Robert Noaker",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkZTUW1jUzhzVGQ4OHBfNWJMZGpEYmhzLXd1ZGdqenFtMmJnSlg5R2tlUDM4TWxaVVdrOEVzM1NuSFpSMXdhdzV5ZVdnT212WVFpdk84YVNDN3lkeEpRd3RPcVpVcXhRVFBxRGhKUzhnU3d0cjdMNXlzMWdUR3g0YXg2bWJVWENWT0RwY2I3RGVvNDl5SmNiR1ItbkJxSHhHM29wcWpCUEJXQQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-10T21:28:39+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -668,6 +880,40 @@
    ]
   },
   {
+   "title": "Zero refusals for vape licences in Cork and Kerry in 2026 sparks concern over regulation gaps",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-10T16:20:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Irish Independent",
+     "title": "Zero refusals for vape licences in Cork and Kerry in 2026 sparks concern over regulation gaps",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOFlhS0lBd2tBRlRVekVEdUdPcFJfeFU1ZHNoZ19DMXN2dEZqbDB3bHk4RXo5M05fZzFQVG5DSUFPZElSR1FNT0l6NERZbGwyTl9WVzNwbzQ1SG5zN2thSENWcXJMVlZXYmx6THFCb20xUWVrNTBKSG90N0hkYUVUSXBtakxyZUFpMTBrN28yeWpTdGhvTUt3VjBPeS1IVGRjcUhwcENwcEZyMGVocjN2TUFZbzd1cm1YbURNTmtWUE56TzNBR3NTOEJkTFpza0JadS10VmRmdzFrUmRtYXlnVzQyYw?oc=5",
+     "kind": "article",
+     "published": "2026-11-10T16:20:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Ford Racing Drivers Set for Veterans Day Classic at Daytona",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-10T13:26:19+00:00",
+   "items": [
+    {
+     "source": "Google News · Sportscar365",
+     "title": "Ford Racing Drivers Set for Veterans Day Classic at Daytona",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZXZWN3RuUl9hX0NIZS02enBLUWViZWZUM29WY0FpSmR1UkpJZmJKWkZDMFI5Ulg4MnFTSmRZeXVnTC1iVU5KN1JCMkkzWjZXNWZhcWZvemxrNDZfRUR1Zi1zdm0tdHdpckE0MU9wbWdkdFNSU0FqMnc2LTZwVXhBOGdidjRWbmZrN0lLV2NaUENWd1RsRXoyYTc1TjhlZktjbFc1SGxEUHJuWVRRdHc0eTFFblUxTzNpdlE?oc=5",
+     "kind": "article",
+     "published": "2026-11-10T13:26:19+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "This year, we brought street parades back to some of our events! How did you like them?",
    "series": "DM",
    "buzz": 1,
@@ -681,6 +927,40 @@
      "published": "2026-11-10T11:35:37+00:00",
      "media_url": "https://i3.ytimg.com/vi/fjeP-wfhcGY/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "‘Kick in the gut’: Anger as four historic Cork city buildings to be demolished",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-10T11:20:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Irish Independent",
+     "title": "‘Kick in the gut’: Anger as four historic Cork city buildings to be demolished",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaVJCSExnRFZwTVExM0pDWWo2eDhrNUZSZ01qZTBKTHNpa2Nod2syblUyUnRmRzkzZVY4eDFhZHFxUmhSMkVOanZxRmtoNGtmZWg2RjFrcmpReWVIS09pbGhfdjVUaXFxTGo2RWlNbkxPWkp3QllRZnR6eWZ6NUowNUZWRkpPNEo4SENLTy1MUE1FZWhUU3VsbFNpSFE4bVR0czJJWlhfV2ktSXJfUFE5eTN3eEVOcVUtXzhkSWV2dlROcks4MTA2X2I4cw?oc=5",
+     "kind": "article",
+     "published": "2026-11-10T11:20:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "『ワイルド・スピード』とのコラボグッズをご紹介！",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-10T03:42:04+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "『ワイルド・スピード』とのコラボグッズをご紹介！",
+     "url": "https://d1gp.co.jp/27378/",
+     "kind": "article",
+     "published": "2026-11-10T03:42:04+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -753,6 +1033,23 @@
    ]
   },
   {
+   "title": "【特別ゲスト】土屋圭市氏のサイン会決定！！",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-09T07:41:01+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "【特別ゲスト】土屋圭市氏のサイン会決定！！",
+     "url": "https://d1gp.co.jp/27350/",
+     "kind": "article",
+     "published": "2026-11-09T07:41:01+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "And most importantly... build a life that's yours! ❤️‍🔥✨",
    "series": "DM",
    "buzz": 1,
@@ -766,6 +1063,23 @@
      "published": "2026-11-08T15:35:36+00:00",
      "media_url": "https://i1.ytimg.com/vi/8In1Uxye2c4/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The Tough One",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-08T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Red Bull",
+     "title": "The Tough One",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WZkRlUEhvRmZBVUl4eG1VcFVNUDd6ZGwwVWoyUGZ3ZFRxd1dtZ2lHS29SNDZENHFpbXpZQjhCRE1aaG1OQmJrZ1hWU3FwbG9DblZrX1lUUUEtQS1QdHhYS1hCNkxHLXVNN3JHUlMwNW5HeWtCVW4yNld4WUJjOTQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-08T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -868,6 +1182,40 @@
      "published": "2026-11-06T11:35:21+00:00",
      "media_url": "https://i2.ytimg.com/vi/1WTBDrAbdYQ/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Red Bull AMPOL Racing’s Mustang Supercar is off on a European adventure",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-06T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Red Bull",
+     "title": "Red Bull AMPOL Racing’s Mustang Supercar is off on a European adventure",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EMFVYZUpTTHVHTHYtN3F5QTMzSy1XVWNDbEJRd244MV9hQTlnLW40LWNnYzYwcHN2TFNiWHNsbkdFaHhYU1doT0FpQ2hRNlo3Z3JOT3kyRU1DRU5ibUhYYmE0RUpXU2lEZkNuU0tXMmx1eGYyVW5wa0FuWFdoQQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-06T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "This is how Kalle Rovanperä is rewriting the record books",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-06T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Red Bull",
+     "title": "This is how Kalle Rovanperä is rewriting the record books",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtODJ5NmY1YVhOUHlxZE5INk9kMkZpWUVoSUhhTFVCMnNnYkdsME9hX2d4cU5GYVRyblBIaEFtcFhfN3JOUW1aTTVUeE91c1g2RndFNDF0a2dWdTNfTVJwbU1QUTJkYzVzclBXVnhJMA?oc=5",
+     "kind": "article",
+     "published": "2026-11-06T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1000,6 +1348,23 @@
    ]
   },
   {
+   "title": "Conor Shanahan: 'It's nuts, if it was any other sport, it would absolutely blow up with the Irish public'",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-04T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Irish Examiner",
+     "title": "Conor Shanahan: 'It's nuts, if it was any other sport, it would absolutely blow up with the Irish public'",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05bjFhZm5BYVVhTkpPaHVLa0RKcVpEdkhleWwwcGUwanlZVHlrcE9PcUlnVkZUaTlrM0VKS3ZvZGt5NHVBMHpLN3pLNVhhRnZZTVlUQjR4azFNOWFMa3lvZDF1WWMtNXQ5S3h0dVd4UGdsUG8?oc=5",
+     "kind": "article",
+     "published": "2026-11-04T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "The Formula DRIFT Paddock on Ryan Tuerck Memories",
    "series": "FD",
    "buzz": 1,
@@ -1115,6 +1480,23 @@
      "published": "2026-10-27T20:11:42+00:00",
      "media_url": "https://i3.ytimg.com/vi/z6m_bmUiAUQ/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "D1GPのハチマキを貼って走れることに感動している／TOKYO DRIFT参戦ジャック・シャナハン：インタビュー後編",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-10-27T00:04:04+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "D1GPのハチマキを貼って走れることに感動している／TOKYO DRIFT参戦ジャック・シャナハン：インタビュー後編",
+     "url": "https://www.as-web.jp/drift/1367220",
+     "kind": "article",
+     "published": "2026-10-27T00:04:04+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
