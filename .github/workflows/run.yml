@@ -2,7 +2,7 @@
 name: run
 on:
   workflow_dispatch:
-concurrency: { group: run, cancel-in-progress: false }
+concurrency: { group: data, cancel-in-progress: false }
 permissions: { contents: write }
 env:
   LC_DRY_RUN: ${{ vars.LC_DRY_RUN || '1' }}      # set repo variable LC_DRY_RUN=0 to go live

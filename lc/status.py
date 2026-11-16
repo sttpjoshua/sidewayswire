@@ -14,12 +14,16 @@ ROOT = Path(__file__).resolve().parent.parent
 def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> dict:
     posts = q.load(folder=folder)
     inbox = ROOT / "data" / "inbox.json"
-    stories = json.loads(inbox.read_text())["stories"] if inbox.exists() else []
+    ib = json.loads(inbox.read_text()) if inbox.exists() else {}
+    stories = ib.get("stories", [])
     keep = ("id", "kind", "status", "post_at", "posted_at", "caption", "media", "problems", "results", "credit")
     status = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "counts": dict(Counter(p.get("status", "draft") for p in posts)),
-        "inbox": [{"title": s["title"], "series": s["series"], "buzz": s["buzz"]} for s in stories[:30]],
+        "collected": ib.get("updated"),
+        "instagram": ib.get("instagram", False),
+        "sources": ib.get("sources", []),
+        "inbox": [{k: s.get(k) for k in ("title", "series", "buzz", "published", "items")} for s in stories[:80]],
         "posts": [{k: p.get(k) for k in keep} | {"media": [m.removeprefix("docs/") for m in p.get("media", [])]}
                   for p in sorted(posts, key=lambda p: p.get("post_at") or p.get("built") or "", reverse=True)[:60]],
     }

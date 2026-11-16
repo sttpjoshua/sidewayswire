@@ -41,11 +41,15 @@ ok = abs(rep["initiation_run1"] - 1.8) < 0.15 and abs(rep["initiation_run2"] - 3
 print("battle reel sync", ok, rep)
 if not ok: fails.append("sync")
 
-m = {feeds.SITE_FEEDS["Formula DRIFT"]: "tests/feeds/fd.xml", feeds.SITE_FEEDS["Drifted.com"]: "tests/feeds/drifted.xml"}
+W = [("Formula DRIFT", "FD", "fd", None), ("Drifted.com", "FD + DM", "drifted", None)]
+m = {"fd": "tests/feeds/fd.xml", "drifted": "tests/feeds/drifted.xml"}
 db = Path("/tmp/lc_test.db"); db.unlink(missing_ok=True)
-c = collect.run(ROOT / "tests/feeds/sources.csv", db, Path("/tmp/lc_inbox.json"), fetch=lambda u: (ROOT / m[u]).read_text())
+from datetime import datetime, timezone
+import re as _re
+fx = lambda u: _re.sub(r"<pubDate>[^<]+</pubDate>", "<pubDate>" + datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000") + "</pubDate>", (ROOT / m[u]).read_text())
+c = collect.run(ROOT / "tests/feeds/sources.csv", db, Path("/tmp/lc_inbox.json"), fetch=fx, watch=W)
 ok = c["new_items"] == 3 and c["inbox"] == 2
-print("collector", ok, c)
+print("collector", ok, {k: v for k, v in c.items() if k != "targets"})
 if not ok: fails.append("collector")
 
 import shutil, os

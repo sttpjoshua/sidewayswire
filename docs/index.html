@@ -3,32 +3,73 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#151517;--card:#232326;--accent:#C6FF00;--pink:#FF2E88;--mute:#B8B8BC}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#fff;font-family:Inter,system-ui,sans-serif;padding:20px;max-width:1100px;margin:auto}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#fff;font-family:Inter,system-ui,sans-serif;padding:20px;max-width:1180px;margin:auto}
+a{color:inherit}
 h1,h2,.n{font-family:"Bebas Neue",sans-serif;letter-spacing:1px;margin:0}
-h1{display:inline-block;background:#fff;color:#111;padding:8px 14px 4px;font-size:34px;transform:rotate(-2deg)}
-h2{font-size:28px;margin:34px 0 12px}
+h1{display:inline-block;background:#fff;color:#111;padding:8px 14px 4px;font-size:34px;transform:rotate(-2deg);border:3px solid #111}
+h2{font-size:30px;margin:36px 0 12px;display:flex;align-items:baseline;gap:12px}h2 small{font-family:Inter;font-size:13px;color:var(--mute);letter-spacing:0}
 .counts{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:24px}
 .c{background:var(--card);padding:14px;border:3px solid #111}.c .n{font-size:46px;color:var(--accent)}.c small{color:var(--mute);font-weight:800;letter-spacing:1px;font-size:12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
 .p{background:var(--card);display:flex;flex-direction:column}.p img{width:100%;aspect-ratio:4/5;object-fit:cover;background:#111}
-.p div{padding:10px 12px;font-size:13px;line-height:1.4}.tag{display:inline-block;font-weight:800;font-size:11px;letter-spacing:1px;padding:3px 7px;margin-right:6px;background:#fff;color:#111}
-.tag.ready{background:var(--accent)}.tag.check{background:var(--pink)}.tag.posted{background:#111;color:#fff;border:1px solid #fff}.tag.skipped{background:#555;color:#fff}
+.p div{padding:10px 12px;font-size:13px;line-height:1.4}
+.tag{display:inline-block;font-weight:800;font-size:11px;letter-spacing:1px;padding:3px 7px;margin-right:6px;background:#fff;color:#111;border-radius:2px}
+.tag.ready,.tag.fd{background:var(--accent)}.tag.check{background:var(--pink)}.tag.posted{background:#111;color:#fff;border:1px solid #fff}.tag.skipped{background:#555;color:#fff}
+.tag.dm{background:#5BC0FF}.tag.d1gp{background:#FF9F43}.tag.ndc,.tag.gatebil,.tag.drift{background:#9C88FF}.tag.buzz{background:var(--pink)}
 .cap{color:var(--mute);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px}
-li{margin:6px 0;color:var(--mute)}li b{color:#fff}.buzz{color:var(--accent);font-weight:800}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.filters button{background:var(--card);color:#fff;border:2px solid #333;padding:7px 12px;font:800 12px Inter;letter-spacing:1px;cursor:pointer}
+.filters button.on{background:var(--accent);color:#111;border-color:var(--accent)}
+.news{display:flex;flex-direction:column;gap:10px}
+.s{background:var(--card);display:grid;grid-template-columns:120px 1fr;gap:14px;padding:10px;align-items:start}
+.s .thumb{width:120px;aspect-ratio:16/10;background:#111 center/cover no-repeat;border-radius:2px}
+.s .t{font-weight:800;font-size:16px;line-height:1.3;text-decoration:none}.s .t:hover{color:var(--accent)}
+.s .meta{color:var(--mute);font-size:12px;margin-top:6px;line-height:1.6}
+.s .meta a{color:var(--mute)}
+.src{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.src div{background:var(--card);padding:10px 12px;font-size:12px;line-height:1.5;border-left:4px solid var(--accent)}
+.src div.err{border-color:var(--pink)}.src b{font-size:13px}.src span{color:var(--mute);word-break:break-all}
+.note{background:#232326;border-left:4px solid var(--pink);padding:12px 14px;font-size:13px;color:var(--mute);margin-top:16px}
 #upd{color:var(--mute);font-size:13px;margin-top:14px}
+@media(max-width:600px){.s{grid-template-columns:80px 1fr}.s .thumb{width:80px}}
 </style></head><body>
 <h1>SIDEWAYS WIRE</h1><div id="upd">laden...</div>
 <div class="counts" id="counts"></div>
+<div class="note" id="ignote" hidden>Instagram is nog niet gekoppeld. Nu komt alleen nieuws van websites en YouTube binnen; Instagram volgt zodra de Meta-app er is.</div>
+<h2>BINNENGEKOMEN NIEUWS <small id="nc"></small></h2>
+<div class="filters" id="filters"></div>
+<div class="news" id="inbox"></div>
 <h2>POSTS</h2><div class="grid" id="posts"></div>
-<h2>BINNENGEKOMEN NIEUWS</h2><ul id="inbox"></ul>
+<h2>BRONNEN <small id="sc"></small></h2><div class="src" id="sources"></div>
 <script>
 const NL={draft:"concept",ready:"ingepland",check:"wacht op jou",posted:"geplaatst",skipped:"overgeslagen"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const when=t=>t?new Date(t).toLocaleString("nl-NL",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}):"";
+const ago=t=>{if(!t)return"";const m=(Date.now()-new Date(t))/6e4;return m<60?Math.round(m)+" min geleden":m<1440?Math.round(m/60)+" uur geleden":Math.round(m/1440)+" dagen geleden"};
+const cls=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]/g,"").replace("fddm","fd");
+let S,filter="ALLES";
+function drawInbox(){
+  const list=S.inbox.filter(s=>filter==="ALLES"||String(s.series).includes(filter));
+  nc.textContent=list.length+" verhalen";
+  inbox.innerHTML=list.map(s=>{
+    const img=(s.items.find(i=>i.media_url)||{}).media_url;
+    const srcs=[...new Set(s.items.map(i=>i.source))];
+    return `<div class="s"><div class="thumb" style="${img?`background-image:url('${esc(img)}')`:""}"></div><div>
+      <a class="t" href="${esc(s.items[0].url)}" target="_blank" rel="noopener">${esc(s.title)}</a>
+      <div class="meta"><span class="tag ${cls(s.series)}">${esc(s.series)}</span>${s.buzz>1?`<span class="tag buzz">${s.buzz} BRONNEN</span>`:""}${ago(s.published)}<br>
+      ${s.items.map(i=>`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}${i.kind==="video"?" (video)":""}</a>`).join(" · ")}</div></div></div>`}).join("")||"<p>Nog niets binnen.</p>";
+}
 fetch("status.json?"+Date.now()).then(r=>r.json()).then(s=>{
-  upd.textContent="Bijgewerkt: "+when(s.updated);
-  counts.innerHTML=Object.keys(NL).map(k=>`<div class="c"><div class="n">${s.counts[k]||0}</div><small>${NL[k].toUpperCase()}</small></div>`).join("");
-  posts.innerHTML=s.posts.map(p=>`<div class="p">${p.media[0]?`<img loading="lazy" src="${esc(p.media[0])}">`:""}<div><span class="tag ${esc(p.status)}">${esc(NL[p.status]||p.status).toUpperCase()}</span><b>${esc(p.kind)}</b><br>${when(p.posted_at||p.post_at)}${(p.problems||[]).length?`<br><span style="color:var(--pink)">${esc(p.problems[0])}</span>`:""}<div class="cap" style="padding:0">${esc(p.caption)}</div></div></div>`).join("")||"<p>Nog geen posts.</p>";
-  inbox.innerHTML=s.inbox.map(i=>`<li><span class="buzz">${i.buzz}x</span> <b>${esc(i.series)}</b> ${esc(i.title)}</li>`).join("")||"<li>Niets nieuws.</li>";
+  S=s; S.inbox=S.inbox||[]; S.sources=S.sources||[];
+  upd.textContent="Laatst verzameld: "+(s.collected?when(s.collected)+" ("+ago(s.collected)+")":"nog niet");
+  ignote.hidden=!!s.instagram;
+  counts.innerHTML=[["NIEUWS",S.inbox.length]].concat(Object.keys(NL).map(k=>[NL[k].toUpperCase(),s.counts[k]||0])).map(([k,v])=>`<div class="c"><div class="n">${v}</div><small>${k}</small></div>`).join("");
+  const series=["ALLES",...new Set(S.inbox.flatMap(i=>String(i.series).split(" + ")))];
+  filters.innerHTML=series.map(x=>`<button class="${x===filter?"on":""}">${esc(x)}</button>`).join("");
+  filters.onclick=e=>{if(e.target.tagName!=="BUTTON")return;filter=e.target.textContent;[...filters.children].forEach(b=>b.classList.toggle("on",b.textContent===filter));drawInbox()};
+  drawInbox();
+  posts.innerHTML=s.posts.map(p=>`<div class="p">${p.media[0]?`<img loading="lazy" src="${esc(p.media[0])}">`:""}<div><span class="tag ${esc(p.status)}">${esc(NL[p.status]||p.status).toUpperCase()}</span><b>${esc(p.kind)}</b><br>${when(p.posted_at||p.post_at)}${(p.problems||[]).length?`<br><span style="color:var(--pink)">${esc(p.problems[0])}</span>`:""}<div class="cap" style="padding:0">${esc(p.caption)}</div></div></div>`).join("")||"<p>Nog geen posts. Die komen zodra de redactie draait.</p>";
+  const ok=S.sources.filter(x=>x.ok).length; sc.textContent=ok+" van "+S.sources.length+" werken";
+  sources.innerHTML=S.sources.map(x=>`<div class="${x.ok?"":"err"}"><b>${esc(x.source)}</b><br><span>${esc(x.url)}</span><br>${x.ok?`${x.items} items · via ${x.how==="feed"?"feed":"pagina"}`:`<span style="color:var(--pink)">${esc(x.error)}</span>`}</div>`).join("");
 }).catch(()=>upd.textContent="Nog geen gegevens.");
 </script></body></html>
