@@ -149,6 +149,22 @@ def discover(ix: dict) -> list[str]:
     return new
 
 
+def vocabulary() -> str:
+    """Drift words and driver names, so Whisper writes 'hachiroku' and not 'hot choco'."""
+    words = ("Drifting podcast. Formula DRIFT, Drift Masters, D1GP, D1NZ, Drift Kings, Gatebil, Pro, PROSPEC, "
+             "tandem, lead, chase, Top 32, Great 8, Final 4, OMT, judges, zones, clipping point, initiation, "
+             "hachiroku, AE86, Trueno, Levin, Kouki, Zenki, S13, S14, S15, Silvia, 180SX, JZX100, Chaser, 2JZ, "
+             "1JZ, SR20, RB26, LS swap, GT86, GR86, Supra, E46, E92, Mustang RTR, Corolla, Nankang, Kenda, Falken, "
+             "Nitto, Toyo, Papadakis, RTR, Feal, Hoonigan.")
+    src = ROOT / "data" / "sources.csv"
+    if src.exists():
+        import csv
+        names = [r["Naam"] for r in csv.DictReader(src.open(encoding="utf-8"))
+                 if r.get("Type") == "Coureur" and r.get("Prioriteit") == "1"]
+        words += " Drivers: " + ", ".join(names) + "."
+    return words
+
+
 def _mmss(s: float) -> str:
     s = int(s)
     return f"{s // 3600}:{s % 3600 // 60:02d}:{s % 60:02d}" if s >= 3600 else f"{s // 60:02d}:{s % 60:02d}"
@@ -169,7 +185,8 @@ def transcribe(ep: dict, model) -> dict:
         raw = subprocess.run(["ffmpeg", "-v", "error", "-i", f.name, "-ac", "1", "-ar", "16000",
                               "-f", "s16le", "-"], capture_output=True, check=True).stdout
         audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
-        segments, info = model.transcribe(audio, vad_filter=True, word_timestamps=True, beam_size=1)
+        segments, info = model.transcribe(audio, vad_filter=True, word_timestamps=True, beam_size=1,
+                                          initial_prompt=vocabulary())
         segs = []
         for s in segments:
             segs.append({"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip(),
