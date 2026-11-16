@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:23:00.466068+00:00",
+ "updated": "2026-11-16T19:27:52.298136+00:00",
  "counts": {
-  "draft": 7
+  "draft": 10
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1483,7 +1483,7 @@
       "topic": "WIL 2018 JAMES DESTROY 2026 JAMES?",
       "quote": "there's no way that you could tell me that 2018 James Dean would absolutely destroy 2026. James, it's not possible. Yeah. And that's what I think a lot of people look up to James for is that like, he came back and like James is drifting quite a long time now and he's came. He's from, if you were to go back 12, 13 years ago and take a driver who retired and, and say, come back to drifting now. They wouldn't, I personally believe that they would struggle massively, but how much the sport has changed. I think Digo Saito is a great example that like,",
       "why": "Gekozen door Joshua op het dashboard",
-      "status": "error",
+      "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-0/clip.mp4",
       "mode": "video",
       "wait_video": null
@@ -1803,9 +1803,9 @@
       "topic": "MATT IS NOT TRYING TO BE A VILLAIN",
       "quote": "But like it's like it's kind of like misinterpreted. It's not like an actual thing, you know, like somebody be like, oh, Matt's the villain. And you're like, it's like it's just how it's happening. Like, yeah, you know, it's not like that's but it's matches being that is just who Matt is. He's not actively trying to be a villain. He just doesn't give a shit. I feel like Matt's problem is he he expects everybody to be their best all the time driving. And not everybody is their best all the time. OK, so he chases and drives and does things like, yo, I'm against this person and he they're really good. I need to be really good.",
       "why": "On Matt (Field, not named in clip): not a villain, he expects everyone to be at their best.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-4/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -1855,9 +1855,9 @@
       "topic": "HIS LAST LAP IN FD",
       "quote": "Yeah, I remember my lead run. I was like, oh, got through it. Now I got a chase. I was like, he's going to drag me through like we were at Erwindale. Yeah, he's going to drag me through the infield so hard. So I didn't even go for the interclip. I cut right to the track because I'm like, I am not doing my last lap in FD and not pushing this dude's door in. Yeah. So it was fine. But it just sucks. I was like, I was honestly that session before that in practice. I stopped driving early because I was like, yo, there is no more. I have reached it. This is the best driving I've ever done in my life. Right. I was like, it was ridiculous. Yeah. And I was like, I stopped like 45 minutes early. I'm like, guys, cars good. Just go over and make sure it's perfect for battles because we're absolutely winning today.",
       "why": "On his final FD battle and the practice session where he stopped 45 minutes early.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-8/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -1920,9 +1920,9 @@
       "topic": "BUY A CAR MONDAY, RACE FD THAT WEEKEND",
       "quote": "Yeah, I've had a couple really crazy ideas that I've wanted to do. So one thing I want to do is I want to go, I would say on a Monday before an F.D. round. Yeah. I would like to go purchase a drift car and then go compete that weekend in F.D. with it and have the budget be like twenty five grand. OK, in pro or pro spec either. You're confident enough in it that. Yeah, no, because it's not like I don't have to win. You just want to just a six story to be like, yeah, I agree. Be like, yo, not that everybody can go spend twenty five grand and then go drive an F.D. event, right? Right. But like. There is ways why not for very, very low cost to go drift and have fun. And then I just sell the car after.",
       "why": "His idea: buy a drift car on Monday and compete in FD that weekend on a 25k budget.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-13/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2679,6 +2679,96 @@
  },
  "posts": [
   {
+   "id": "pod-1298fd1c600b-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa's wild idea: buy a drift car on Monday, compete in Formula DRIFT that weekend, budget 25k.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #budgetdrift #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3978.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:27:52.294825+00:00",
+   "built": "2026-11-16T19:27:52.294827+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-13/clip.mp4",
+   "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND"
+  },
+  {
+   "id": "pod-1298fd1c600b-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3180.34
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:27:15.482747+00:00",
+   "built": "2026-11-16T19:27:15.482750+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-8/clip.mp4",
+   "title": "HIS LAST LAP IN FD"
+  },
+  {
+   "id": "pod-1298fd1c600b-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 2417.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:26:39.497424+00:00",
+   "built": "2026-11-16T19:26:39.497427+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-4/clip.mp4",
+   "title": "MATT IS NOT TRYING TO BE A VILLAIN"
+  },
+  {
    "id": "pod-da5d8825120e-0",
    "kind": "podcast_clip",
    "status": "draft",
@@ -2703,7 +2793,7 @@
     "youtube"
    ],
    "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": null,
+   "built": "2026-11-16T19:26:07.966670+00:00",
    "want_at": null,
    "video": "media/pod-da5d8825120e-0/clip.mp4",
    "title": "WIL 2018 JAMES DESTROY 2026 JAMES?"
