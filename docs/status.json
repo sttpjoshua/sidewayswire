@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T21:41:06.838169+00:00",
+ "updated": "2026-11-16T21:50:19.519872+00:00",
  "counts": {
-  "draft": 58
+  "draft": 59
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -2174,14 +2174,14 @@
     "podcast": "Formula DRIFT",
     "title": "Shoreline Showdown (Long Beach 2) 2026 · finale",
     "published": "2026-10-24",
-    "status": "error",
+    "status": "transcribed",
     "youtube": "AvvFInofbdc",
     "audio": null,
     "link": null,
     "art": null,
     "seconds": 9760.0,
-    "error": "cannot access local variable 'pick' where it is not associated with a value",
-    "transcribed": null,
+    "error": null,
+    "transcribed": "2026-11-16T21:46:31.662968+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
@@ -2307,10 +2307,10 @@
       "topic": "C7 VS C6: NOT JUST A RESHELL",
       "quote": "I didn't realize the, I know very little about Corvette platform. So forgive my ignorance, but I didn't realize there was that big of a difference between the C six and the C seven. I thought it was like kind of just a re shelled. Hey, here's a, an updated look. Yeah. And I see that's what I thought at first. And I got into it and you're like, Oh, no, exactly. Like just said, told me when I started the project, he was like, you should just build a C six and put a C seven buddy kit on it. And it was like, hell no, I don't want to do this, but now I'm thinking about it. I'm like, maybe that would have been a good idea. You know, like a C six point five. Yeah. I like that. I like that. But, um, yeah, there is some difference, but also the whole chassis is aluminum. The subframes on aluminum, which is not the same in the, the C six platform. So it looks the same, but it is quite different. And then the rigidity, the rigidity of the chassis is like 30% more than the C six.",
       "why": "The C7 chassis is aluminium with aluminium subframes and about 30 percent stiffer than the C6.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-7/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 2432.52,
@@ -2678,6 +2678,43 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-6892a8b1e411-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Someone told Tommy Lemaire to just build a C6 with a C7 body kit. Here is why the C7 is a different animal.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #c7corvette #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2263.82
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T21:50:19.513325+00:00",
+   "built": "2026-11-16T21:50:19.513331+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-7/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "C7 VS C6: NOT JUST A RESHELL"
+  },
   {
    "id": "pod-1298fd1c600b-26",
    "kind": "podcast_clip",
