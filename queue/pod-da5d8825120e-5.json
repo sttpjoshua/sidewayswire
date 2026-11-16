@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "COULD HIRO RACE A US RALLY NEXT YEAR?",
  "video": "docs/media/pod-da5d8825120e-5/clip.mp4",
@@ -21,11 +21,15 @@
   "start": 745
  },
  "created": "2026-11-16T17:57:06.794246+00:00",
- "built": "2026-11-16T21:08:56.400173+00:00",
+ "built": "2026-11-16T21:56:41.579036+00:00",
  "tags": [
   "@conorshanahan79",
   "@formulad",
   "@jako13"
  ],
- "missing_handles": []
+ "missing_handles": [],
+ "media": [
+  "docs/media/pod-da5d8825120e-5/clip.mp4"
+ ],
+ "problems": []
 }

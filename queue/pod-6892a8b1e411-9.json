@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-9",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "WHY HE PICKED A C7 OVER A C6",
  "video": "docs/media/pod-6892a8b1e411-9/clip.mp4",
@@ -21,11 +21,16 @@
   "start": 2578.84
  },
  "created": "2026-11-16T19:39:09.526624+00:00",
- "built": "2026-11-16T20:38:18.657329+00:00",
+ "built": "2026-11-16T21:56:41.563908+00:00",
  "tags": [
   "@tommy.lemaire",
   "@formulad",
   "@jako13"
  ],
- "missing_handles": []
+ "missing_handles": [],
+ "media": [
+  "docs/media/pod-6892a8b1e411-9/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-22T22:00:00+00:00"
 }

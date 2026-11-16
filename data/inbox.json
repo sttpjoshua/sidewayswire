@@ -1,6 +1,82 @@
 {
- "updated": "2026-11-16T15:52:12.018257+00:00",
+ "updated": "2026-11-16T21:56:31.745374+00:00",
  "stories": [
+  {
+   "id": "ff051e86191599b8",
+   "title": "DRIFTTAXI AT THE NÜRBURGRING",
+   "series": "NDC",
+   "buzz": 1,
+   "first_seen": "2026-11-16T21:56:30.893353+00:00",
+   "published": "2026-11-16T21:56:30.889130+00:00",
+   "items": [
+    {
+     "source": "Nürburgring Drift Cup",
+     "title": "DRIFTTAXI AT THE NÜRBURGRING",
+     "url": "https://nuerburgring.de/driving/more/drifttaxi-nuerburgring",
+     "kind": "article",
+     "published": "2026-11-16T21:56:30.889130+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "1bc17cc6fd445725",
+   "title": "Conor Shanahan on Hiroya Minowa Driving Rally",
+   "series": "FD",
+   "buzz": 1,
+   "first_seen": "2026-11-16T21:56:24.540172+00:00",
+   "published": "2026-11-16T18:01:20+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Conor Shanahan on Hiroya Minowa Driving Rally",
+     "url": "https://www.youtube.com/shorts/nBC1ddFiWuA",
+     "kind": "video",
+     "published": "2026-11-16T18:01:20+00:00",
+     "media_url": "https://i3.ytimg.com/vi/nBC1ddFiWuA/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "id": "471f78de0a1fcd72",
+   "title": "Always do it!",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-16T21:56:25.060532+00:00",
+   "published": "2026-11-16T17:15:18+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Always do it!",
+     "url": "https://www.youtube.com/shorts/WG-k_AWrRkY",
+     "kind": "video",
+     "published": "2026-11-16T17:15:18+00:00",
+     "media_url": "https://i4.ytimg.com/vi/WG-k_AWrRkY/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "id": "1b28d6a2eb76df3a",
+   "title": "Red Bull Car Park Drift Returns to Jeddah with a New Competition Format",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-16T21:56:24.357382+00:00",
+   "published": "2026-11-16T16:43:29+00:00",
+   "items": [
+    {
+     "source": "Google News · Red Bull",
+     "title": "Red Bull Car Park Drift Returns to Jeddah with a New Competition Format",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWldUZ20xSHE5aFo3eGxwa1p3ZnZPMlZuVlh3ZDRWUHRsNHRHekg5djdoRVJtV2FicmZRR3RwZ0h2eVhEUkh6dXdTUFN6WHRzZG1ZaE1HZUlQYkRmSFBUcGNrYlJvWWlvZG9oWDZqeXdVMGxmT0d3NEUyNXNqYUtKUXF3OXJFNVI0ZmdQcmhCZEhiV2ZUTWdMYkJqWkFPZFQybU02YQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-16T16:43:29+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
   {
    "id": "eecbb03a5664e58d",
    "title": "CATERHAM DRIFT EXPERIENCE",
@@ -1422,7 +1498,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -1492,7 +1568,7 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "how": "page"
   },
   {

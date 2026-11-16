@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-4",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "MATT IS NOT TRYING TO BE A VILLAIN",
  "video": "docs/media/pod-1298fd1c600b-4/clip.mp4",
@@ -21,12 +21,16 @@
   "start": 2417.18
  },
  "created": "2026-11-16T19:26:39.497424+00:00",
- "built": "2026-11-16T20:06:27.188117+00:00",
+ "built": "2026-11-16T21:56:41.531837+00:00",
  "tags": [
   "@chelseadenofa",
   "@formulad",
   "@mattfield777",
   "@jako13"
  ],
- "missing_handles": []
+ "missing_handles": [],
+ "media": [
+  "docs/media/pod-1298fd1c600b-4/clip.mp4"
+ ],
+ "problems": []
 }

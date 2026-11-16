@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-15",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "WILL CHELSEA EVER JUDGE FD?",
  "video": "docs/media/pod-1298fd1c600b-15/clip.mp4",
@@ -21,11 +21,16 @@
   "start": 4852.14
  },
  "created": "2026-11-16T19:28:53.173250+00:00",
- "built": "2026-11-16T20:12:04.007832+00:00",
+ "built": "2026-11-16T21:56:41.519484+00:00",
  "tags": [
   "@chelseadenofa",
   "@formulad",
   "@jako13"
  ],
- "missing_handles": []
+ "missing_handles": [],
+ "media": [
+  "docs/media/pod-1298fd1c600b-15/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-17T11:30:00+00:00"
 }

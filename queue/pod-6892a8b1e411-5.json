@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THE ORANGE LIVERY IN FD?",
  "video": "docs/media/pod-6892a8b1e411-5/clip.mp4",
@@ -21,11 +21,16 @@
   "start": 1682.7
  },
  "created": "2026-11-16T19:37:53.545264+00:00",
- "built": "2026-11-16T20:35:06.031301+00:00",
+ "built": "2026-11-16T21:56:41.559525+00:00",
  "tags": [
   "@tommy.lemaire",
   "@formulad",
   "@jako13"
  ],
- "missing_handles": []
+ "missing_handles": [],
+ "media": [
+  "docs/media/pod-6892a8b1e411-5/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-22T11:30:00+00:00"
 }

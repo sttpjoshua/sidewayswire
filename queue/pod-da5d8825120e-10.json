@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-10",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "\"IF IT FAILS, MY AMERICAN JOURNEY IS OVER\"",
  "video": "docs/media/pod-da5d8825120e-10/clip.mp4",
@@ -21,11 +21,16 @@
   "start": 1868.5
  },
  "created": "2026-11-16T19:54:06.141070+00:00",
- "built": "2026-11-16T21:15:39.062787+00:00",
+ "built": "2026-11-16T21:56:41.568281+00:00",
  "tags": [
   "@conorshanahan79",
   "@formulad",
   "@jako13"
  ],
- "missing_handles": []
+ "missing_handles": [],
+ "media": [
+  "docs/media/pod-da5d8825120e-10/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-23T16:30:00+00:00"
 }

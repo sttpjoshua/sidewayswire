@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-23",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "\"GET RID OF QUALIFYING\"",
  "video": "docs/media/pod-1298fd1c600b-23/clip.mp4",
@@ -21,11 +21,16 @@
   "start": 6955.77
  },
  "created": "2026-11-16T19:32:41.231738+00:00",
- "built": "2026-11-16T20:22:11.382045+00:00",
+ "built": "2026-11-16T21:56:41.530067+00:00",
  "tags": [
   "@chelseadenofa",
   "@formulad",
   "@jako13"
  ],
- "missing_handles": []
+ "missing_handles": [],
+ "media": [
+  "docs/media/pod-1298fd1c600b-23/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-18T11:30:00+00:00"
 }
