@@ -60,9 +60,11 @@ def _download_video(youtube_id: str, start: float, end: float, out: Path) -> boo
         return False
 
 
-def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | None = None,
-              allow_video: bool = False, video_src: Path | str | None = None) -> dict:
-    """moment: {start, end, kind, guest, topic, credit}. Returns {"mode", "out", "captions"}."""
+def _render(ep: dict, transcript: dict, moment: dict, out: str, photo: str | None = None,
+            allow_video: bool = False, video_src: Path | str | None = None, src_offset: float = 0.0,
+            hook_text: str | None = None) -> dict:
+    """One continuous piece: moment {start, end, kind, guest, topic, credit}. Returns {"mode", "out", "captions"}.
+    src_offset: where moment["start"] sits inside video_src. hook_text: big hook line instead of the topic."""
     start, end = float(moment["start"]), float(moment["end"])
     length = end - start
     caps = chunks(transcript["segments"], start, end)
@@ -77,11 +79,11 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
         data = {"w": W, "h": H, "bg": "transparent", "podcast": ep["podcast"], "guest": moment.get("guest", ""),
                 "topic": moment.get("topic"), "kind": moment.get("kind", "moment"),
                 "credit": moment.get("credit") or ep.get("credit"), "audiogram": mode == "audiogram", "photo": photo,
-                "stream": ep.get("kind") == "stream", "event": ep.get("event")}
+                "stream": ep.get("kind") == "stream", "event": ep.get("event"), "hook": hook_text}
         r.render("clip_overlay.html", data, tmp / "layer.png", transparent=True)
         # Context photos (added by Joshua in the podcast studio), shown one after another
         photos = []
-        for k, ph in enumerate(moment.get("photos") or []):
+        for k, ph in enumerate([] if hook_text else (moment.get("photos") or [])):
             src = (ROOT / ph["src"]) if not str(ph["src"]).startswith("http") else None
             if src is None or not src.exists():
                 continue
@@ -97,7 +99,7 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
 
         inputs, filt = [], []
         if video:
-            inputs += ["-i", str(video)]
+            inputs += (["-ss", f"{src_offset:.2f}"] if src_offset > 0 else []) + ["-i", str(video)]
             filt.append(f"[0:v]scale=270:480:force_original_aspect_ratio=increase,crop=270:480,boxblur=8:2,"
                         f"eq=brightness=-0.25,scale={W}:{H},fps={FPS},setsar=1[bg];"
                         f"[0:v]scale={W}:-2,fps={FPS},setsar=1[fg];[bg][fg]overlay=0:500[base]")
@@ -157,3 +159,35 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
              "-t", f"{length:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
              "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out])
     return {"mode": mode, "out": out, "captions": len(caps)}
+
+
+def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | None = None,
+              allow_video: bool = False, video_src: Path | str | None = None) -> dict:
+    """The finished clip. With moment["hook"] = {start, end, text} (podcast/stream times inside the moment)
+    it opens with that strongest line plus a big hook text, flashes back ("rewind") and then plays the moment."""
+    hook = moment.get("hook") or {}
+    start, end = float(moment["start"]), float(moment["end"])
+    try:
+        hs, he = float(hook.get("start")), float(hook.get("end"))
+    except (TypeError, ValueError):
+        hs = he = None
+    if hook.get("off") or hs is None or not (start <= hs < he <= end) or not 1.0 <= he - hs <= 6.0:
+        return _render(ep, transcript, moment, out, photo, allow_video, video_src)
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = Path(tmp)
+        main = _render(ep, transcript, moment, str(tmp / "main.mp4"), photo, allow_video, video_src)
+        hm = dict(moment, start=hs, end=he)
+        _render(ep, transcript, hm, str(tmp / "hook.mp4"), photo, False,
+                video_src if main["mode"] == "video" else None, src_offset=hs - start,
+                hook_text=(hook.get("text") or moment.get("topic") or "").strip())
+        with Renderer() as r:
+            r.render("rewind.html", {"w": W, "h": H, "bg": "transparent"}, tmp / "rewind.png", transparent=True)
+        hl, fade = he - hs, 0.35
+        _ff(["-i", str(tmp / "hook.mp4"), "-i", str(tmp / "main.mp4"), "-loop", "1", "-t", "1.2", "-i", str(tmp / "rewind.png"),
+             "-filter_complex",
+             f"[0:v][1:v]xfade=transition=fadewhite:duration={fade}:offset={hl - fade:.2f}[x];"
+             f"[x][2:v]overlay=0:0:enable='between(t,{hl - fade:.2f},{hl + 0.45:.2f})',format=yuv420p[v];"
+             f"[0:a][1:a]acrossfade=d={fade}[a]",
+             "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
+             "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out])
+    return dict(main, out=out, hook=round(hl, 2))

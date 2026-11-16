@@ -70,6 +70,12 @@ Per nieuwe aflevering met transcript en zonder `data/podcasts/moments/<id>.json`
    Gaat een moment over een persoon, auto of plek die je zou willen laten zien, zet dan
    `"photo_hint"`: wie of wat er op de foto moet (bijvoorbeeld "Hiroya Minowa of zijn GR86").
    Foto's zelf voegt alleen Joshua toe in de podcaststudio (met credit); zoek of download ze nooit zelf.
+   Kies bij elk moment een hook (cold open): `"hook": {"start", "end", "text", "why"}`.
+   start/end: de sterkste 1,5 tot 4 seconden binnen het moment (exacte woordtijden, een afgeronde
+   zin of punchline: de crash, de uitspraak, de onthulling). text: een korte Engelse vraag of
+   prikkel in hoofdletters (max. 7 woorden) die nieuwsgierig maakt zonder de clou weg te geven,
+   bijvoorbeeld "HOW DO YOU FLY AN FD TROPHY HOME?". why: in het Nederlands in een paar woorden
+   waarom dit de hook is. Laat het verhaal zelf beginnen bij de eerste zin die ertoe doet.
 5. Schrijf het bestand (zie `lc/podclips.py` voor alle velden), status `new`.
    Caption: 1 tot 2 zinnen, dan "Full episode: <podcastnaam>" en de @tag van de podcast
    en de gast, dan 3 tot 5 hashtags.
