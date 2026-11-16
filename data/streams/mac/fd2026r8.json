@@ -1,9 +1,10 @@
 {
  "youtube": "AvvFInofbdc",
- "status": "error",
+ "status": "transcribed",
  "note": "video vastgelegd in het register",
  "seconds": 9760.0,
  "found_title": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 32",
- "error": "cannot access local variable 'pick' where it is not associated with a value",
- "at": 1794861321.848274
+ "error": null,
+ "at": 1794861321.848274,
+ "transcribed": "2026-11-16T21:46:31.662968+00:00"
 }
