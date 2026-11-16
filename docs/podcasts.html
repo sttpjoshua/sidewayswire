@@ -149,6 +149,7 @@ async function openEp(id){
   T=null; M=[];
   try{T=await fetch(RAW+`data/podcasts/t/${id}.json?`+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
   try{M=await fetch(RAW+`data/podcasts/moments/${id}.json?`+Date.now()).then(r=>r.ok?r.json():[])}catch(e){M=[]}
+  try{const H=await fetch(RAW+`data/podcasts/hooks/${id}.json?`+Date.now()).then(r=>r.ok?r.json():{});M.forEach((m,i)=>{if(!m.hook&&H[i])m.hook=H[i]})}catch(e){}
   draw();
 }
 function draw(){

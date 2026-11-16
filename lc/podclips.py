@@ -102,7 +102,12 @@ def run(limit: int = 120) -> dict:
         if not ep or not tf.exists():
             continue
         moments = files[mf] = json.loads(mf.read_text())
+        hf = DIR / "hooks" / f"{mf.stem}.json"          # hooks chosen afterwards (the moment's own hook wins)
+        hooks = json.loads(hf.read_text()) if hf.exists() else {}
         for i, m in enumerate(moments):
+            if not m.get("hook") and hooks.get(str(i)):
+                m["hook"] = hooks[str(i)]
+            hook_sig = json.dumps(m.get("hook") or {}, sort_keys=True)
             pid = f"pod-{mf.stem}-{i}"
             qp = q.QUEUE / f"{pid}.json"
             post = json.loads(qp.read_text()) if qp.exists() else None
@@ -113,7 +118,8 @@ def run(limit: int = 120) -> dict:
                 continue
             name = asset_name(mf.stem, i, m)
             upgrade = (m.get("status") == "queued" and not (post and post.get("status") == "posted")
-                       and ((m.get("mode") == "audiogram" and name in assets) or m.get("layout", 1) < LAYOUT))
+                       and ((m.get("mode") == "audiogram" and name in assets) or m.get("layout", 1) < LAYOUT
+                            or m.get("hook_sig", json.dumps({})) != hook_sig))
             retry = m.get("status") == "error" and m.get("tries", 0) < 3 and "already posted" not in (m.get("error") or "")
             if not (m.get("status", "new") == "new" or upgrade or retry) or len(tasks) >= limit:
                 continue
@@ -159,6 +165,7 @@ def run(limit: int = 120) -> dict:
             m.pop("error", None)
             m.pop("tries", None)
             m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT,
+                     hook_sig=json.dumps(m.get("hook") or {}, sort_keys=True),
                      made=datetime.now(timezone.utc).isoformat())
             check = (ep.get("kind") == "stream" or m["kind"] == "rumor" or res["mode"] == "audiogram"
                      or bool(m.get("check"))) and m.get("by") != "joshua"
