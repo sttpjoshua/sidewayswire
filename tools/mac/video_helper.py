@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "5"
+VERSION = "6"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -425,7 +425,7 @@ def main():
         info["state"] = "klaar" if info["have"] >= info["need"] else info["state"]
     newly_none = set(no_video) - set(old.get("no_video") or [])
     if uploaded or newly_none:      # new video, or clips that no longer need to wait: make them now
-        gh("/actions/workflows/podcasts.yml/dispatches", "POST", {"ref": "main", "inputs": {"per_run": "0", "episode": ""}})
+        gh("/actions/workflows/clips.yml/dispatches", "POST", {"ref": "main"})
         log("clips worden opnieuw gemaakt")
     beat(None, force=True)
     save_state(state)

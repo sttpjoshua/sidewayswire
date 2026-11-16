@@ -1,0 +1,29 @@
+# Makes the podcast clips (and later the livestream clips). Runs next to the transcription,
+# so clips never wait for a long episode. Started by the podcasts run, the Mac helper and the dashboard.
+name: clips
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "11 */3 * * *"      # safety net
+concurrency: { group: clips, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  clips:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PROGRESS_FILE: docs/clips-now.json
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install requests jinja2 playwright pillow && python -m playwright install --with-deps chromium && sudo apt-get install -y -qq ffmpeg
+      - name: Make clips
+        run: python -m lc.podclips
+      - name: Save
+        run: python -m lc.status && python -m lc.gitsave "clips $(date -u +%FT%TZ)" data/podcasts queue docs/media docs/status.json
+      - name: Tell the dashboard the clips run is over
+        if: always()
+        run: python -c "from lc import progress; progress.done()"

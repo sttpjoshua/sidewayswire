@@ -76,27 +76,15 @@ def _fetch(url: str, out: Path) -> Path:
 
 def save_partial(note: str):
     """In GitHub Actions: commit and push what is done so far, so new clips show up on the dashboard
-    during a long run instead of only at the end. A failed push is fine: the next save or the run's
-    own final save tries again."""
+    during a long run instead of only at the end."""
     if not os.environ.get("GITHUB_ACTIONS"):
         return
-    import subprocess
     try:
-        from . import status
+        from . import gitsave, status
         status.run()
+        gitsave.save(f"clips: {note}", ["data/podcasts", "queue", "docs/media", "docs/status.json"])
     except Exception as e:
-        print("status:", e)
-    g = ["git", "-c", "user.name=sidewayswire-bot", "-c", "user.email=bot@users.noreply.github.com"]
-    subprocess.run([*g, "add", "data/podcasts", "queue", "docs/media", "docs/status.json"], cwd=ROOT)
-    if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
-        return
-    subprocess.run([*g, "commit", "-qm", f"clips: {note}"], cwd=ROOT)
-    for _ in range(3):
-        if subprocess.run([*g, "pull", "--rebase", "-q"], cwd=ROOT).returncode != 0:
-            subprocess.run(["git", "rebase", "--abort"], cwd=ROOT)
-            break
-        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
-            break
+        print("save:", e)
 
 
 def run(limit: int = 120) -> dict:

@@ -116,6 +116,7 @@ function photoTimeline(m){
 }
 function shrink(file){return new Promise((ok,bad)=>{const img=new Image();img.onload=()=>{const k=Math.min(1,1400/Math.max(img.width,img.height)),c=document.createElement("canvas");
   c.width=Math.round(img.width*k);c.height=Math.round(img.height*k);c.getContext("2d").drawImage(img,0,0,c.width,c.height);ok(c.toDataURL("image/jpeg",.86).split(",")[1])};img.onerror=()=>bad(new Error("Kon de foto niet lezen"));img.src=URL.createObjectURL(file)})}
+async function runClips(){await gh(`/actions/workflows/clips.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})})}
 async function runWorkflow(inputs){await gh(`/actions/workflows/podcasts.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs})})}
 
 let S, EP=null, T=null, M=[], sel=null;
@@ -240,7 +241,7 @@ function drawMoments(){
   };
 }
 async function persist(msg,make){
-  try{await saveMoments(EP.id,M,`dashboard: ${msg}`);if(make){await runWorkflow({per_run:"0",episode:""});try{localStorage.setItem("sw_req",JSON.stringify({id:EP.id,at:Date.now(),clip:1}))}catch(_){};liveDraw()}
+  try{await saveMoments(EP.id,M,`dashboard: ${msg}`);if(make){await runClips();try{localStorage.setItem("sw_req",JSON.stringify({id:EP.id,at:Date.now(),clip:1}))}catch(_){};liveDraw()}
     toast(make?"Opgeslagen. De clip wordt gemaakt; over een paar minuten staat hij hier.":"Opgeslagen.");drawMoments();if(T)drawTranscript()}
   catch(x){toast(x.message,1)}
 }
@@ -269,7 +270,7 @@ function drawSel(){
 
 // ---- live progress of the podcast run ----
 const PH={search:"zoekt nieuwe afleveringen",model:"laadt het spraakmodel",download:"downloadt de audio",transcribe:"transcribeert",saved:"transcript opgeslagen",clips:"maakt clips",done:"klaar"};
-let NOW=null, wasBusy=false;
+let NOW=null, CNOW=null, wasBusy=false;
 const ago=t=>{const m=Math.round((Date.now()-new Date(t))/60000);return m<1?"zojuist":m===1?"1 min geleden":m+" min geleden"};
 const mins=x=>x<60?"minder dan een minuut":Math.round(x/60)+" min";
 function est(n){ // estimated progress now, filled in between the two-minute updates
@@ -282,6 +283,7 @@ function eta(n,p){if(n.phase==="clips"&&n.eta!=null)return Math.max(0,n.eta-(Dat
   const run=(Date.now()-new Date(n.transcribe_started))/1000;return p>.02?run/p*(1-p):(n.duration||0)*(1-p)}
 async function livePoll(){
   try{NOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){NOW=null}
+  try{CNOW=await fetch("clips-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){CNOW=null}
   await loadReq();
   const busy=NOW&&NOW.phase!=="done"&&(Date.now()-new Date(NOW.updated))<45*60000;
   if(wasBusy&&!busy){toast("De run is klaar. Over een minuut ververst de lijst.");setTimeout(()=>load().then(()=>EP&&openEp(EP.id)),70000)}
@@ -293,7 +295,9 @@ function liveDraw(){
   const busy=n&&n.phase!=="done"&&(Date.now()-new Date(n.updated))<45*60000;
   if(req&&(Date.now()-req.at>25*60000||(n&&n.started&&new Date(n.started)>req.at-60000&&busy)||(n&&n.phase==="done"&&new Date(n.updated)>req.at))){try{localStorage.removeItem("sw_req")}catch(e){};req=null}
   drawQueue(busy?n:null);
-  if(!busy&&!req){el.style.display="none";return}
+  const c=CNOW, cbusy=c&&c.phase==="clips"&&c.total&&(Date.now()-new Date(c.updated))<20*60000;
+  const cline=cbusy?`<div class="row" style="margin-top:8px"><span class="pulse"></span><b>CLIPS MAKEN: ${c.done+1} VAN ${c.total}</b><span class="muted">${c.remake?`${c.remake} opnieuw in de nieuwe opmaak · `:""}nu: ${esc(c.podcast||"")} · ${esc(c.topic||"")}${c.eta!=null?` · nog ongeveer ${mins(Math.max(0,c.eta-(Date.now()-new Date(c.updated))/1000))}`:""}</span></div><div class="bar"><i style="width:${(100*c.done/c.total).toFixed(1)}%"></i></div>`:"";
+  if(!busy&&!req){if(cbusy){el.style.display="block";el.className="";el.innerHTML=cline}else el.style.display="none";return}
   el.style.display="block";
   if(!busy){el.className="";el.innerHTML=`<span class="pulse"></span><b>AANGEVRAAGD</b> <span class="muted">om ${new Date(req.at).toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit"})}. GitHub start de machine en installeert de software, dat duurt een paar minuten. Daarna verschijnt hier de voortgang.</span>`;return}
   const stale=(Date.now()-new Date(n.updated))>12*60000, p=est(n), left=eta(n,p);
@@ -303,7 +307,7 @@ function liveDraw(){
    ${n.title?`<span class="muted">${esc(n.podcast||"")}: <a href="#${n.episode}" onclick="openEp('${n.episode}');return false">${esc(n.title)}</a>${n.phase==="clips"&&n.topic?` · ${esc(n.topic)}`:""}</span>`:""}
    <span style="margin-left:auto" class="muted">${p!=null?Math.round(p*100)+"%":""}${left!=null?` · nog ongeveer ${mins(left)}`:""}${n.phase==="clips"&&n.total?` · clip ${n.done+1} van ${n.total}${n.remake?` (${n.remake} opnieuw in de nieuwe opmaak)`:""}`:todo.length>1?` · aflevering ${i+1} van ${todo.length}`:""} · bijgewerkt ${ago(n.updated)}${n.run?` · <a href="https://github.com/${REPO}/actions/runs/${n.run}" target="_blank">details</a>`:""}</span></div>
    ${p!=null?`<div class="bar"><i style="width:${(p*100).toFixed(1)}%"></i></div>`:""}
-   ${stale?`<div class="muted" style="margin-top:6px">Al een tijd geen teken van leven. Misschien is de run vastgelopen; kijk bij details.</div>`:""}`;
+   ${stale?`<div class="muted" style="margin-top:6px">Al een tijd geen teken van leven. Misschien is de run vastgelopen; kijk bij details.</div>`:""}${cline}`;
 }
 
 // ---- waiting list (data/podcasts/requests.json) ----

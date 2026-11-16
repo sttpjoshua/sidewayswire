@@ -25,10 +25,4 @@ jobs:
       - name: Dashboard
         run: python -m lc.status
       - name: Save
-        run: |
-          git config user.name "sidewayswire-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add data docs/status.json
-          git diff --cached --quiet && exit 0
-          git commit -m "collect $(date -u +%FT%TZ)"
-          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+        run: python -m lc.gitsave "collect $(date -u +%FT%TZ)" data/inbox.json data/feeds.json data/lc.db data/sources.csv data/archive docs/status.json

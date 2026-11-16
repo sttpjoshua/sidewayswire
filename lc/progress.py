@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 
 import requests
 
-PATH = "docs/podcasts-now.json"
+PATH = os.environ.get("PROGRESS_FILE", "docs/podcasts-now.json")   # clips.yml uses docs/clips-now.json
 EVERY = 120          # seconds between updates
 _state: dict = {}
 _last = 0.0
