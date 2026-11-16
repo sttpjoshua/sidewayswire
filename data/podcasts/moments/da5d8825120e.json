@@ -310,10 +310,12 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Conor Shanahan's goal for next year: \"the best version ever of Conor Shanahan.\"\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-  "status": "error",
+  "status": "queued",
   "by": "editor",
-  "wait_video": "2026-11-16T17:49:56.636715+00:00",
-  "error": "No module named 'PIL'"
+  "clip": "docs/media/pod-da5d8825120e-16/clip.mp4",
+  "mode": "video",
+  "layout": 2,
+  "made": "2026-11-16T19:57:47.936251+00:00"
  },
  {
   "start": 3772.6,
@@ -326,10 +328,12 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Said on The Outerzone: changes are coming to Formula DRIFT next year, more than even they know about. 👀\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
-  "status": "error",
+  "status": "queued",
   "by": "editor",
-  "wait_video": "2026-11-16T17:49:56.636715+00:00",
-  "error": "No module named 'PIL'"
+  "clip": "docs/media/pod-da5d8825120e-17/clip.mp4",
+  "mode": "video",
+  "layout": 2,
+  "made": "2026-11-16T19:58:08.700306+00:00"
  },
  {
   "start": 3892.68,
@@ -342,9 +346,11 @@
   "credit": "@formulad",
   "check": false,
   "caption": "A message from the 2026 Formula DRIFT champion to the haters. 😅\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-  "status": "error",
+  "status": "queued",
   "by": "editor",
-  "wait_video": "2026-11-16T17:49:56.636715+00:00",
-  "error": "No module named 'PIL'"
+  "clip": "docs/media/pod-da5d8825120e-18/clip.mp4",
+  "mode": "video",
+  "layout": 2,
+  "made": "2026-11-16T19:58:29.950422+00:00"
  }
 ]

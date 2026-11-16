@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:57:09.116082+00:00",
+ "updated": "2026-11-16T19:58:29.952862+00:00",
  "counts": {
-  "draft": 52
+  "draft": 55
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1691,10 +1691,10 @@
       "topic": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\"",
       "quote": "I really have a goal right now that I probably shouldn't say this, but I really have a goal that I want next year to be the best version ever of Connor Shanahan. And I mean that in many ways, like not just in the car. I mean, like, I really want to spend time working on myself and I want to somewhat take my health more serious towards drifting. I want to try focus more on kind of ...",
       "why": "Plans for 2027: more fitness and preparation.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-16/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 3772.6,
@@ -1704,10 +1704,10 @@
       "topic": "BIG FD CHANGES COMING NEXT YEAR?",
       "quote": "Yeah. Yeah. I, next year I'm very, very excited for, I know it looks like there's going to be some changes as well, which is, is kind of cool. I don't know if you got that, the memo about. A lot of changes, I think. Yeah. And I think there's going to be more than even you and I don't have preview too. Like, it's, I know, I'm very excited to see what ends up happening next year with, ...",
       "why": "Host and Conor hint at changes for next season they cannot share yet. Rumor, needs Joshua.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-17/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 3892.68,
@@ -1717,10 +1717,10 @@
       "topic": "\"KEEP HATING ME, PLEASE\"",
       "quote": "And I just want to take this opportunity to say thank you to them as well. And the people who hate me. Thank you so much because you guys motivate me more than ever as well. And keep hating me, please. I don't think there's many, but I'm sure there's some. I'm for sure. I think it's normal when you do something good. Yeah. Yeah. It's a, if somebody's pissed off with where you're going, ...",
       "why": "Fun closing line to the haters.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-18/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      }
     ]
    },
@@ -2678,6 +2678,96 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-da5d8825120e-18",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A message from the 2026 Formula DRIFT champion to the haters. 😅\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3892.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:58:29.950481+00:00",
+   "built": "2026-11-16T19:58:29.950483+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-18/clip.mp4",
+   "title": "\"KEEP HATING ME, PLEASE\""
+  },
+  {
+   "id": "pod-da5d8825120e-17",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: changes are coming to Formula DRIFT next year, more than even they know about. 👀\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3772.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:58:08.700395+00:00",
+   "built": "2026-11-16T19:58:08.700398+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-17/clip.mp4",
+   "title": "BIG FD CHANGES COMING NEXT YEAR?"
+  },
+  {
+   "id": "pod-da5d8825120e-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan's goal for next year: \"the best version ever of Conor Shanahan.\"\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3355.16
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:57:47.936308+00:00",
+   "built": "2026-11-16T19:57:47.936310+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-16/clip.mp4",
+   "title": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\""
+  },
   {
    "id": "pod-da5d8825120e-15",
    "kind": "podcast_clip",
