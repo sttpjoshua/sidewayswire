@@ -41,7 +41,14 @@ def norm_title(t: str) -> str:
 
 
 def similar(a: str, b: str) -> float:
-    return SequenceMatcher(None, norm_title(a), norm_title(b)).ratio()
+    na, nb = norm_title(a), norm_title(b)
+    # Titles in Japanese (or other scripts) lose almost everything in norm_title:
+    # compare the original text then.
+    if len(na) < 0.5 * len(a or "") or len(nb) < 0.5 * len(b or ""):
+        na, nb = (a or "").lower(), (b or "").lower()
+    if not na or not nb:
+        return 0.0
+    return SequenceMatcher(None, na, nb).ratio()
 
 
 class Store:

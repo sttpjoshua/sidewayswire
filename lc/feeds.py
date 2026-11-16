@@ -29,10 +29,15 @@ CACHE = Path(__file__).resolve().parent.parent / "data" / "feeds.json"
 WATCH = [
     # source name (as in sources.csv), series, url, keyword
     ("Formula DRIFT", "FD", "https://news.formulad.com", None),
+    # Sites that block bots are read through Google News (gnews: + search terms).
+    ("RACER", "FD", "gnews:site:racer.com \"formula drift\"", None),
+    ("Drift Masters", "DM", "gnews:site:dm.gp", None),
+    ("Drifted.com", "FD + DM", "gnews:site:drifted.com", None),
+    ("Google News", "FD", "gnews:\"Formula Drift\"", None),
+    ("Google News", "DM", "gnews:\"Drift Masters\"", None),
     ("Formula DRIFT", "FD", "https://www.youtube.com/@FormulaDRIFT", None),
     ("Drift Masters", "DM", "https://dm.gp/articles", None),
     ("Drift Masters", "DM", "https://www.youtube.com/@DriftMastersGrandPrix", None),
-    ("RACER", "FD", "https://racer.com/tag/formula-drift/", None),
     ("Drifted.com", "FD + DM", "https://www.drifted.com", None),
     ("Auto Partner", "DM", "https://autopartner.com/en/category/events", "drift"),
     ("Conor Shanahan", "FD + DM", "https://www.youtube.com/@TheShanahans", None),
@@ -57,8 +62,15 @@ def _is_feed(text: str) -> bool:
     return "<rss" in head or "<feed" in head or "<rdf" in head
 
 
+def gnews(query: str) -> str:
+    from urllib.parse import quote
+    return f"https://news.google.com/rss/search?q={quote(query + ' when:14d')}&hl=en-US&gl=US&ceid=US:en"
+
+
 def resolve(url: str) -> dict:
     """Find how to read a target. Returns {"kind": "feed"|"page", "url": ...}."""
+    if url.startswith("gnews:"):
+        return {"kind": "feed", "url": gnews(url[6:])}
     host = urlparse(url).netloc
     if "youtube.com" in host:
         html = _get(url).text
@@ -112,10 +124,15 @@ def parse(feed_text_or_url: str, source: str, series: str, kind: str = "article"
     out = []
     for e in fp.entries:
         video = "yt_videoid" in e
+        title = unescape(e.get("title", "")).strip()
+        publisher = (e.get("source") or {}).get("title")
+        if publisher and title.endswith(" - " + publisher):
+            title = title[: -len(publisher) - 3]
         out.append({
-            "source": source, "series": series,
+            "source": f"{source} · {publisher}" if publisher and source == "Google News" else source,
+            "series": series,
             "kind": "video" if video else kind,
-            "title": unescape(e.get("title", "")).strip(), "url": e.get("link"),
+            "title": title, "url": e.get("link"),
             "published": _when(e), "media_url": _image(e),
             "media_type": "VIDEO" if video else ("IMAGE" if _image(e) else None),
             "raw": {"summary": re.sub(r"<[^>]+>", " ", e.get("summary", "") or "")[:1500],
