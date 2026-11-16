@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:58:33.192713+00:00",
+ "updated": "2026-11-16T20:02:23.604616+00:00",
  "counts": {
   "draft": 55
  },
@@ -2679,6 +2679,126 @@
  },
  "posts": [
   {
+   "id": "pod-1298fd1c600b-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa's wild idea: buy a drift car on Monday, compete in Formula DRIFT that weekend, budget 25k.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #budgetdrift #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3978.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:27:52.294825+00:00",
+   "built": "2026-11-16T20:02:23.599555+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-13/clip.mp4",
+   "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND"
+  },
+  {
+   "id": "pod-1298fd1c600b-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3180.34
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:27:15.482747+00:00",
+   "built": "2026-11-16T20:01:42.495430+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-8/clip.mp4",
+   "title": "HIS LAST LAP IN FD"
+  },
+  {
+   "id": "pod-1298fd1c600b-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 2417.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:26:39.497424+00:00",
+   "built": "2026-11-16T20:01:03.376106+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-4/clip.mp4",
+   "title": "MATT IS NOT TRYING TO BE A VILLAIN"
+  },
+  {
+   "id": "pod-da5d8825120e-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3699
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T20:00:29.349325+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-0/clip.mp4",
+   "title": "WIL 2018 JAMES DESTROY 2026 JAMES?"
+  },
+  {
    "id": "pod-da5d8825120e-18",
    "kind": "podcast_clip",
    "status": "draft",
@@ -4207,126 +4327,6 @@
    "want_at": null,
    "video": "media/pod-1298fd1c600b-15/clip.mp4",
    "title": "WILL CHELSEA EVER JUDGE FD?"
-  },
-  {
-   "id": "pod-1298fd1c600b-13",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa's wild idea: buy a drift car on Monday, compete in Formula DRIFT that weekend, budget 25k.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #budgetdrift #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3978.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:27:52.294825+00:00",
-   "built": "2026-11-16T19:27:52.294827+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-13/clip.mp4",
-   "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND"
-  },
-  {
-   "id": "pod-1298fd1c600b-8",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3180.34
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:27:15.482747+00:00",
-   "built": "2026-11-16T19:27:15.482750+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-8/clip.mp4",
-   "title": "HIS LAST LAP IN FD"
-  },
-  {
-   "id": "pod-1298fd1c600b-4",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 2417.18
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:26:39.497424+00:00",
-   "built": "2026-11-16T19:26:39.497427+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-4/clip.mp4",
-   "title": "MATT IS NOT TRYING TO BE A VILLAIN"
-  },
-  {
-   "id": "pod-da5d8825120e-0",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 3699
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": "2026-11-16T19:26:07.966670+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-0/clip.mp4",
-   "title": "WIL 2018 JAMES DESTROY 2026 JAMES?"
   }
  ],
  "channels": {
