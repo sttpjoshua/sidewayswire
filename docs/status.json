@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:27:52.298136+00:00",
+ "updated": "2026-11-16T19:30:54.433270+00:00",
  "counts": {
-  "draft": 10
+  "draft": 14
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1946,9 +1946,9 @@
       "topic": "WILL CHELSEA EVER JUDGE FD?",
       "quote": "Any chance we get you as a judge? I feel like that's something people have been asking for forever. I am not ready to do that in my life. Do you like emotionally? No, I think I think for me, it's like, and this is probably wrong way of looking at it, but I feel like that's like the. Tombstone, you think so? For me, I'm game where you're like, I've done everything else. And now, yeah, because I'm like, I don't I don't want that. I never want someone to be like, oh, he used to drive. Oh, OK. You know, because I still drive so much and compete and drive all different things, arguably like sometimes more challenging ways of doing it than F.D. And yeah, I don't know. I think as a judge, I'm too like hard headed and too like. It's not a bad thing. I believe drifting should be this way. Like I'm obviously flexible and I want the sport to grow and do all that. But I'm like, we are at the highest level. Why are we having these conversations? Why are we doing these things? Why are we like I'm more of like that. I feel like I need to fix it thing. And it's not really my job to fix it if I'm a judge.",
       "why": "Asked about judging after Brian retires: not ready, it feels like a tombstone.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-15/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -1959,9 +1959,9 @@
       "topic": "DRIVERS HAD TO RAISE THEIR HANDS",
       "quote": "I think I think Reese took a really good approach to it. His first year, he was kind of just yes, sir, all the way through. Yeah. And he sat back and he showed him and I talked a lot about this. Yeah. And then he's like, cool. Year two, I'm going to start doing stuff. And for me, like the definitive moment was I want to say Seattle, where he made all the drivers put their hands up to prove that they were listening. Oh, I treated them like like they were like kindergartners. But I was like, yeah, recent, I are very similar in that aspect where we're like, you know, first off, respect us or we're not going to respect you. Right, right. Second off, you guys are all supposed to be the best. So let's be the best. Yeah, let's stop talking. Let's let's stop trying to find ways to make this easier.",
       "why": "A judge made all drivers raise their hands to prove they were listening at a meeting. Judge name unclear, check.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-16/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -1972,9 +1972,9 @@
       "topic": "THE MILLION DOLLAR ROAD TO FD",
       "quote": "But like I said, if you're going to go, your goal is to drive F.D. and do things like I think the the best way to do it is to look at how much money you have to spend in five years, forecast it. To get to F.D., understand what that looks like, build out a plan where you're like, OK, I let's say you're very fortunate and let's say you have a five year plan and you can spend a million dollars in five years, which honestly, if you want to get to F.D. in five years, it's going to cost you a million dollars a day nowadays. Yeah, crazy. But anyway, so you're like, OK, I'm going to spend 100 grand the first year, 100 grand the second year, and then start incrementally spending more money because the first two years you're going to have to go drive all these events that have really good drivers at them that are not F.D., you know, like gamblers, like hot pit, like these other series and things that have maybe some one off events. And you're going to drive. You're going to need a 400 horsepower car that's lightweight. Good tire. Go drive the car. Enjoy it. And you need to be able to win every other event that you go to before you take the jump to prospect.",
       "why": "How he would plan a five-year path to FD, roughly a million dollars.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-17/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -1985,9 +1985,9 @@
       "topic": "A WHOLE COMP ON ONE PAIR OF TIRES",
       "quote": "Like all of the cars I competed and go drive now all have way less than 500 horsepower in competition mode, and they're all just cars that like I want to gambler earlier in the year and I drove the entire competition on one pair of tires. That's wild. Like no crew needed, you know, nothing like I'd finish my battle, go down, hang out with everybody on grid, drive right back up, do it again. And I think I had a one more time, so I had to put fresh tires on like at the end. But like it was like so simple. And that car is plenty quick, plenty fast, like, you know, does all the things it needs to do. Great training car. So fun, fun, tons of fun.",
       "why": "All his cars now run under 500 hp; did a whole Gambler comp on one pair of tires.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-18/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-1298fd1c600b-18",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa drove an entire competition on one pair of tires. No crew needed.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#drifting #grassrootsdrift #formuladrift #driftcar #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 5586.95
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:30:54.431686+00:00",
+   "built": "2026-11-16T19:30:54.431688+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-18/clip.mp4",
+   "title": "A WHOLE COMP ON ONE PAIR OF TIRES"
+  },
+  {
+   "id": "pod-1298fd1c600b-17",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Want to make it to Formula DRIFT in five years? Chelsea DeNofa says plan on about a million dollars.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #prospec #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 5469.19
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:30:22.986272+00:00",
+   "built": "2026-11-16T19:30:22.986275+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-17/clip.mp4",
+   "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-1298fd1c600b-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The FD drivers' meeting where every driver had to raise a hand to prove they were listening.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 4924.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:29:29.193402+00:00",
+   "built": "2026-11-16T19:29:29.193405+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-16/clip.mp4",
+   "title": "DRIVERS HAD TO RAISE THEIR HANDS"
+  },
+  {
+   "id": "pod-1298fd1c600b-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Could Chelsea DeNofa be the next Formula DRIFT judge? Not yet, he says, and here's why.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 4852.14
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:28:53.173250+00:00",
+   "built": "2026-11-16T19:28:53.173252+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-15/clip.mp4",
+   "title": "WILL CHELSEA EVER JUDGE FD?"
+  },
   {
    "id": "pod-1298fd1c600b-13",
    "kind": "podcast_clip",
