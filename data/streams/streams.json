@@ -16,5 +16,29 @@
    "min_hours": 1.5,
    "youtube": "AvvFInofbdc"
   }
+ ],
+ "channels": [
+  {
+   "url": "https://www.youtube.com/@FormulaDRIFT/streams",
+   "series": "Formula DRIFT",
+   "credit": "@formulad",
+   "match": [
+    "top 32",
+    "top 16",
+    "great 8",
+    "final"
+   ],
+   "exclude": [
+    "fdj",
+    "pro 2",
+    "prospec",
+    "proam",
+    "pro-am",
+    "practice",
+    "qualif"
+   ],
+   "since": "2026-11-16",
+   "min_hours": 1.5
+  }
  ]
 }

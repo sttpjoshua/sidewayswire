@@ -17,8 +17,14 @@ DIR = ROOT / "data" / "streams"
 
 
 def registry() -> list[dict]:
-    f = DIR / "streams.json"
-    return json.loads(f.read_text())["streams"] if f.exists() else []
+    """Events from streams.json plus the replays the Mac found by itself (data/streams/mac/_found.json)."""
+    f, g = DIR / "streams.json", DIR / "mac" / "_found.json"
+    out = json.loads(f.read_text())["streams"] if f.exists() else []
+    have = {s["id"] for s in out} | {s.get("youtube") for s in out}
+    for s in (json.loads(g.read_text()).get("streams", []) if g.exists() else []):
+        if s["id"] not in have and s.get("youtube") not in have:
+            out.append(s)
+    return out
 
 
 def episodes() -> dict:

@@ -87,3 +87,26 @@ Lege afleveringen (niets interessants): schrijf `[]`, zodat ze niet opnieuw beke
 Na het schrijven: commit en push, en start daarna de workflow `podcasts.yml` met
 `per_run=0`, zodat de clips gemaakt worden. Afleveringen die op YouTube staan wachten tot
 3 uur op video van de Mac-helper; daarna wordt het een audiogram.
+
+
+## Livestreams (Formula DRIFT, later Drift Masters)
+
+Livestreams staan in `data/streams/streams.json` en (automatisch gevonden door de Mac)
+`data/streams/mac/_found.json`. Een stream is klaar voor momenten als
+`data/streams/mac/<id>.json` status `transcribed` heeft en `data/podcasts/t/<id>.json` bestaat.
+Momenten komen, net als bij podcasts, in `data/podcasts/moments/<id>.json`.
+
+We mogen het beeld gebruiken op voorwaarde dat de serie met @ in de video staat; dat doet de
+opmaak vanzelf (FOOTAGE @formulad). Zet `"credit"` altijd op de @handle uit het register.
+
+Kies zoveel mogelijk momenten, 15 tot 75 seconden, met het commentaar als leidraad:
+- `battle`: een volledige battle of de beslissende run (lead en chase), `guest` = "DEANE VS SHANAHAN"
+- `crash`: contact, muur, uitvallen
+- `omt`: one more time
+- `final`: de finale en de huldiging
+- `call`: een opvallende of omstreden jurybeslissing
+- `quote`: een interview na een battle of op het podium
+Begin bij het moment dat de auto's wegrijden of net voor de actie, eind na de afloop (uitslag,
+reactie van de commentatoren). Sla reclame, pauzes en herhalingen over. Topic: kort en sterk
+("DEANE KNOCKED OUT IN TOP 16"). Kies ook hier een hook (de klap, de beslissing, de juichende
+commentator). Livestream-clips gaan altijd eerst langs Joshua.

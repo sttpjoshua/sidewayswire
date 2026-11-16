@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "10"
+VERSION = "11"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -397,8 +397,51 @@ def transcribe_stream(s: dict, yid: str) -> dict:
             "duration": round(segs[-1]["end"], 1) if segs else 0, "segments": segs}
 
 
-def streams_work(beat) -> None:
-    for s in _json_or("data/streams/streams.json", {"streams": []}).get("streams", []):
+def discover_streams(reg: dict, state: dict) -> list:
+    """New replays on the series' YouTube channels (Top 32 / Top 16 etc.), every 6 hours.
+    They go to data/streams/mac/_found.json, which only this Mac writes."""
+    found = _json_or("data/streams/mac/_found.json", {"streams": []})
+    if time.time() - state.get("discovered", 0) < 6 * 3600:
+        return found["streams"]
+    state["discovered"] = time.time()
+    known = {s.get("youtube") for s in reg.get("streams", []) + found["streams"]}
+    added = []
+    for ch in reg.get("channels", []):
+        for line in _ytdlp_lines(["--flat-playlist", "--playlist-end", "25", "--print",
+                                  "%(id)s\t%(duration)s\t%(title)s\t%(release_date,upload_date)s", ch["url"]]):
+            p = line.split("\t")
+            if len(p) < 4 or p[0] in known:
+                continue
+            dur = float(p[1]) if p[1].replace(".", "", 1).isdigit() else 0
+            t, day = p[2].lower(), p[3] if p[3].isdigit() else ""
+            if dur < ch.get("min_hours", 1.5) * 3600 or not any(w in t for w in ch.get("match", [])):
+                continue
+            if any(w in t for w in ch.get("exclude", [])):
+                continue
+            if day and ch.get("since") and f"{day[:4]}-{day[4:6]}-{day[6:]}" < ch["since"]:
+                continue
+            if not day:          # date unknown in the list: ask for it
+                d = _ytdlp_lines(["--print", "%(release_date,upload_date)s", f"https://www.youtube.com/watch?v={p[0]}"])
+                day = d[0] if d and d[0].isdigit() else ""
+                if not day or (ch.get("since") and f"{day[:4]}-{day[4:6]}-{day[6:]}" < ch["since"]):
+                    continue
+            sid = "yt" + re.sub(r"[^a-z0-9]", "", p[0].lower())
+            added.append({"id": sid, "series": ch["series"], "title": p[2], "event": p[2].split(" - ")[0].upper().replace("FORMULA DRIFT", "FD")[:40],
+                          "date": f"{day[:4]}-{day[4:6]}-{day[6:]}", "credit": ch["credit"], "youtube": p[0],
+                          "auto": True})
+            known.add(p[0])
+    if added:
+        found["streams"] += added
+        _put("data/streams/mac/_found.json", json.dumps(found, indent=1, ensure_ascii=False).encode(),
+             f"mac: {len(added)} new stream(s)")
+        log("nieuwe streams:", ", ".join(a["title"] for a in added))
+    return found["streams"]
+
+
+def streams_work(beat, state=None) -> None:
+    reg = _json_or("data/streams/streams.json", {"streams": []})
+    extra = discover_streams(reg, state if state is not None else {})
+    for s in reg.get("streams", []) + [x for x in extra if x["id"] not in {r["id"] for r in reg.get("streams", [])}]:
         mpath = f"data/streams/mac/{s['id']}.json"
         mac = _json_or(mpath, {})
         if s.get("youtube") and mac.get("youtube") != s["youtube"]:   # a video chosen by hand always wins
@@ -514,7 +557,8 @@ def main():
             log("hartslag mislukt:", ex)
 
     all_eps = list(ix["episodes"].values())
-    for st in _json_or("data/streams/streams.json", {"streams": []}).get("streams", []):
+    for st in (_json_or("data/streams/streams.json", {"streams": []}).get("streams", [])
+               + _json_or("data/streams/mac/_found.json", {"streams": []}).get("streams", [])):
         mac = _json_or(f"data/streams/mac/{st['id']}.json", {})
         if st.get("youtube"):
             mac["youtube"] = st["youtube"]
@@ -616,7 +660,7 @@ def main():
                 log("fout", name, ex)
         info["state"] = "klaar" if info["have"] >= info["need"] else info["state"]
     try:
-        streams_work(beat)
+        streams_work(beat, state)
     except Exception as ex:
         log("streams:", ex)
     newly_none = set(no_video) - set(old.get("no_video") or [])
