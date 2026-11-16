@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T21:29:22.650090+00:00",
+ "updated": "2026-11-16T21:32:19.483895+00:00",
  "counts": {
-  "draft": 56
+  "draft": 58
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1933,10 +1933,10 @@
       "topic": "\"THEY ALL BLOW UP\"",
       "quote": "Like it doesn't matter what engine you put in the car. They all blow up. Yeah, we've lived and proved that. Right. Doesn't matter if you have a 60 ,000 dollar Roush Yates motor or a junkyard Jay-Z, you know, like arguably the junkyard Jay-Z's have been more reliable than most because they're not pushing them so hard. Right. Right. And then like L.S. is like not a race engine. People make them race engines, but they're not. So something's got to break all the time.",
       "why": "60k race engine or junkyard LS, they all blow up. Junkyard ones are often more reliable.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-14/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 4852.14,
@@ -2089,10 +2089,10 @@
       "topic": "A MOUNTAIN INVITATIONAL NEXT YEAR?",
       "quote": "But I would really like to do a big mountain event next year. That's maybe an invitational thing. Yeah. Where like we can have maybe 12 seated drivers and maybe eight come from other things like that are winning and picking kind of hand picking opportunities for people. I would like like the toge stuff is so much fun. I look so exciting that I really want more people to experience that and more people to view it in a way that kind of shows like how gnarly it really is, you know, and how how people a lot of people that show up are very like people that you think are very timid and like trying to figure it out because they're playing that process of like, I can't crash my car till the end of the weekend, you know, like, yeah, I want to get laps. And the whole story behind that and the risk versus reward of that is very apparent.",
       "why": "Plans a big invitational mountain event next year with seeded and invited drivers.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-26/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 8367.33,
@@ -2678,6 +2678,66 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-1298fd1c600b-26",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: Chelsea DeNofa wants a big invitational mountain drift event next year. 🏔️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#drifting #touge #driftnews #chelseadenofa #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 8175.73
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T21:32:19.478234+00:00",
+   "built": "2026-11-16T21:32:19.478241+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-26/clip.mp4",
+   "title": "A MOUNTAIN INVITATIONAL NEXT YEAR?"
+  },
+  {
+   "id": "pod-1298fd1c600b-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "60k race engine or junkyard LS? Chelsea DeNofa says it doesn't matter, they all blow up.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #lsswap #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 4317.32
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T21:30:31.621602+00:00",
+   "built": "2026-11-16T21:30:31.621606+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-14/clip.mp4",
+   "title": "\"THEY ALL BLOW UP\""
+  },
   {
    "id": "pod-1298fd1c600b-12",
    "kind": "podcast_clip",

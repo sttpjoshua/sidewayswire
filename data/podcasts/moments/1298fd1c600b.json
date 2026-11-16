@@ -320,15 +320,19 @@
   "credit": "@formulad",
   "check": false,
   "caption": "60k race engine or junkyard LS? Chelsea DeNofa says it doesn't matter, they all blow up.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #lsswap #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
-  "wait_video": "2026-11-16T19:01:43.241769+00:00",
   "hook": {
    "start": 4317.96,
    "end": 4320.35,
    "text": "THE TRUTH ABOUT FD ENGINES",
    "why": "de uitspraak zelf"
-  }
+  },
+  "clip": "docs/media/pod-1298fd1c600b-14/clip.mp4",
+  "mode": "video",
+  "layout": 3,
+  "hook_sig": "{\"end\": 4320.35, \"start\": 4317.96, \"text\": \"THE TRUTH ABOUT FD ENGINES\", \"why\": \"de uitspraak zelf\"}",
+  "made": "2026-11-16T21:30:31.621522+00:00"
  },
  {
   "start": 4852.14,
@@ -604,15 +608,19 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Said on The Outerzone: Chelsea DeNofa wants a big invitational mountain drift event next year. 🏔️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#drifting #touge #driftnews #chelseadenofa #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
-  "wait_video": "2026-11-16T19:01:43.241769+00:00",
   "hook": {
    "start": 8175.97,
    "end": 8178.78,
    "text": "A MOUNTAIN DRIFT EVENT?",
    "why": "de onthulling"
-  }
+  },
+  "clip": "docs/media/pod-1298fd1c600b-26/clip.mp4",
+  "mode": "video",
+  "layout": 3,
+  "hook_sig": "{\"end\": 8178.78, \"start\": 8175.97, \"text\": \"A MOUNTAIN DRIFT EVENT?\", \"why\": \"de onthulling\"}",
+  "made": "2026-11-16T21:32:19.478071+00:00"
  },
  {
   "start": 8367.33,
