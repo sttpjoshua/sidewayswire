@@ -60,15 +60,15 @@ def _download_video(youtube_id: str, start: float, end: float, out: Path) -> boo
 
 
 def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | None = None,
-              allow_video: bool = True) -> dict:
+              allow_video: bool = False, video_src: Path | str | None = None) -> dict:
     """moment: {start, end, kind, guest, topic, credit}. Returns {"mode", "out", "captions"}."""
     start, end = float(moment["start"]), float(moment["end"])
     length = end - start
     caps = chunks(transcript["segments"], start, end)
     with tempfile.TemporaryDirectory() as tmp, Renderer() as r:
         tmp = Path(tmp)
-        video = None
-        if allow_video and ep.get("youtube"):
+        video = Path(video_src) if video_src else None   # cut by the Mac helper, already aligned
+        if not video and allow_video and ep.get("youtube"):   # direct download, usually blocked on servers
             v = tmp / "src.mp4"
             if _download_video(ep["youtube"], start, end, v):
                 video = v

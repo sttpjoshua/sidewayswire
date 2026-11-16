@@ -52,17 +52,21 @@ Nieuwe afleveringen worden elke twee uur getranscribeerd. Ze staan in
 Per nieuwe aflevering met transcript en zonder `data/podcasts/moments/<id>.json`:
 
 1. Lees het hele transcript.
-2. Kies 0 tot 4 momenten die echt iets toevoegen voor het kanaal:
+2. Haal er zoveel mogelijk clips uit: elk moment dat op zichzelf staat en een kijker
+   iets geeft. Bij een aflevering van een uur zijn dat er vaak 10 tot 20. Soorten:
    - `rumor`: iemand hint op een transfer, nieuwe auto, nieuw team, terugkeer of afscheid
    - `quote`: een uitgesproken mening die discussie geeft (jurering, rivaliteit, regels)
    - `fact`: een weetje dat fans niet kennen (bouw, geschiedenis, cijfers)
    - `moment`: grappig, emotioneel of een sterk verhaal
-   Liever geen moment dan een saai moment. Sla reclame en sponsorpraat over.
+   Elke clip moet zonder context te volgen zijn (een kijker heeft de aflevering niet gehoord).
+   Sla reclame, sponsorpraat, premium-oproepen en begroetingen over.
 3. Zoek in de `.json` de exacte begin- en eindtijd: begin aan het begin van een zin,
-   eindig na een afgeronde zin. Lengte 15 tot 75 seconden.
+   eindig na een afgeronde zin (gebruik de woordtijden, niet alleen de regels). Lengte 15 tot 75 seconden.
+   Overlap tussen clips mag niet.
 4. `quote` is letterlijk uit het transcript, niets aan veranderen. Klopt een naam niet
    (spraakherkenning maakt fouten bij namen), schrijf de juiste naam bij `guest` en zet
-   `"check": true`.
+   `"check": true`. Twijfel je over een naam of een @handle, zet dan ook `"check": true` en
+   verzin geen handles. Zet `"by": "editor"`.
 5. Schrijf het bestand (zie `lc/podclips.py` voor alle velden), status `new`.
    Caption: 1 tot 2 zinnen, dan "Full episode: <podcastnaam>" en de @tag van de podcast
    en de gast, dan 3 tot 5 hashtags.
@@ -70,3 +74,7 @@ Per nieuwe aflevering met transcript en zonder `data/podcasts/moments/<id>.json`
    "said on <podcast>". Clips met een gerucht gaan altijd eerst naar Joshua.
 
 Lege afleveringen (niets interessants): schrijf `[]`, zodat ze niet opnieuw bekeken worden.
+
+Na het schrijven: commit en push, en start daarna de workflow `podcasts.yml` met
+`per_run=0`, zodat de clips gemaakt worden. Afleveringen die op YouTube staan wachten tot
+3 uur op video van de Mac-helper; daarna wordt het een audiogram.

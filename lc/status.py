@@ -24,7 +24,7 @@ def podcast_status() -> dict:
                                           "audio", "link", "art", "seconds", "error", "transcribed", "tries")}
                    | {"has_transcript": (d / "t" / f"{e['id']}.txt").exists(),
                       "moments": [{k: m.get(k) for k in ("start", "end", "kind", "guest", "topic", "quote",
-                                                         "why", "status", "clip", "mode")} for m in moments]})
+                                                         "why", "status", "clip", "mode", "wait_video")} for m in moments]})
     feeds = {n: {k: f.get(k) for k in ("title", "episodes", "error", "ok")} for n, f in ix["feeds"].items()}
     return {"feeds": feeds, "episodes": eps}
 

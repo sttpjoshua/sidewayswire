@@ -59,7 +59,7 @@ dialog ol{padding-left:18px;line-height:1.6;font-size:14px}
 @media(max-width:900px){.wrap{grid-template-columns:1fr}#list{position:static;max-height:300px}.grid{grid-template-columns:repeat(2,1fr)}}
 </style></head><body>
 <header><img src="assets/woordmerk_kleur.svg" alt="Sideways Wire">
-<nav><a href="index.html">DASHBOARD</a><a class="on" href="podcasts.html">PODCASTS</a><a href="#" id="keybtn">SLEUTEL</a></nav></header>
+<nav><a href="index.html">DASHBOARD</a><a class="on" href="podcasts.html">PODCASTS</a><a href="#" id="macst" title="Mac-helper voor video">MAC …</a><a href="#" id="keybtn">SLEUTEL</a></nav></header>
 <div id="live"></div><div class="wrap"><div id="list"><div id="qpanel"></div><div id="eps"></div></div><main id="main"><div class="empty">Kies links een aflevering.</div></main></div>
 <div id="toast"></div>
 <dialog id="keydlg"><h2>GITHUB-SLEUTEL</h2>
@@ -82,6 +82,7 @@ const day=t=>new Date(t).toLocaleDateString("nl-NL",{day:"numeric",month:"short"
 let key=null; try{key=localStorage.getItem("sw_gh_key")}catch(e){}
 function toast(m,err){toast_.textContent=m;toast_.className=err?"err":"";toast_.style.display="block";clearTimeout(toast.t);toast.t=setTimeout(()=>toast_.style.display="none",5000)}
 const toast_=document.getElementById("toast");
+document.getElementById("macst").onclick=e=>{e.preventDefault();toast(document.getElementById("macst").title)};
 keybtn.onclick=e=>{e.preventDefault();keyin.value=key||"";keydlg.showModal()};
 keysave.onclick=()=>{key=keyin.value.trim()||null;try{key?localStorage.setItem("sw_gh_key",key):localStorage.removeItem("sw_gh_key")}catch(e){};keydlg.close();toast(key?"Sleutel opgeslagen in deze browser":"Geen sleutel")};
 keyclear.onclick=()=>{key=null;try{localStorage.removeItem("sw_gh_key")}catch(e){};keyin.value="";toast("Sleutel verwijderd")};
@@ -100,7 +101,17 @@ async function saveMoments(id,moments,msg){
 async function runWorkflow(inputs){await gh(`/actions/workflows/podcasts.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs})})}
 
 let S, EP=null, T=null, M=[], sel=null;
+async function macStatus(){
+  const el=document.getElementById("macst");
+  try{const r=await fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}});
+    if(!r.ok){el.textContent="MAC: NIET INGESTELD";el.style.background="#444";el.title="De Mac-helper is nog niet geïnstalleerd";return}
+    const b=JSON.parse((await r.json()).body||"{}"), age=b.seen?(Date.now()-new Date(b.seen))/60000:1e9;
+    el.textContent=age<40?"MAC ●":"MAC OFFLINE";el.style.background=age<40?"#2c2c30":"var(--pink)";el.style.color=age<40?"var(--accent)":"#111";
+    el.title=b.seen?`Mac-helper laatst gezien ${ago(b.seen)}${b.waiting?`, ${b.waiting} clip(s) bezig`:""}${(b.errors||[]).length?". Laatste fout: "+b.errors.slice(-1)[0]:""}`:"Nog nooit gezien";
+  }catch(e){}
+}
 async function load(){
+  macStatus();
   S=await fetch("status.json?"+Date.now()).then(r=>r.json());
   const eps=(S.podcasts||{}).episodes||[];
   document.getElementById("eps").innerHTML=eps.map(e=>`<div class="ep" data-id="${e.id}"><b>${esc(e.title)}</b><small><span class="tag ${e.status==="transcribed"?"g":e.status==="skipped"?"d":""}">${esc(e.podcast)}</span>${day(e.published)} · ${esc(EPST[e.status]||e.status)}${e.moments.length?` · ${e.moments.length} moment${e.moments.length>1?"en":""}`:""}<span class="busy" data-b="${e.id}"></span></small>${e.has_transcript?"":`<button class="qadd" data-add="${e.id}" title="In de wachtrij zetten">+ RIJ</button>`}</div>`).join("")||`<div class="empty">Nog geen afleveringen.</div>`;
@@ -131,7 +142,7 @@ function draw(){
 }
 function drawMoments(){
   mos.innerHTML=M.map((m,i)=>`<div class="mo ${m.kind==="rumor"?"rumor":""} ${m.status==="skipped"?"skipped":""}" data-i="${i}">
-   <div class="row"><span class="tag ${m.kind==="rumor"?"p":"g"}">${KIND[m.kind]||m.kind}</span><b>${mmss(m.start)} tot ${mmss(m.end)}</b><span class="muted">(${Math.round(m.end-m.start)} s) · ${esc(ST[m.status]||m.status)}${m.mode?" · "+(m.mode==="video"?"video":"audiogram"):""}${m.by==="joshua"?" · door jou":""}${m.error?" · "+esc(m.error):""}</span>
+   <div class="row"><span class="tag ${m.kind==="rumor"?"p":"g"}">${KIND[m.kind]||m.kind}</span><b>${mmss(m.start)} tot ${mmss(m.end)}</b><span class="muted">(${Math.round(m.end-m.start)} s) · ${esc(ST[m.status]||m.status)}${m.mode?" · "+(m.mode==="video"?"video":"audiogram"):""}${m.by==="joshua"?" · door jou":""}${m.wait_video&&m.status==="new"?" · wacht op video van de Mac":""}${m.error?" · "+esc(m.error):""}</span>
    <span style="margin-left:auto" class="row"><button class="btn" data-a="play">▶ LUISTER</button></span></div>
    <div class="clip" style="margin-top:10px">${m.clip?`<video controls preload="none" src="${esc(m.clip.replace(/^docs\//,""))}?${Date.now()}"></video>`:""}
    <div style="flex:1">
@@ -151,7 +162,7 @@ function drawMoments(){
     if(b.dataset.a==="nudge"||b.dataset.a==="nudgee"){read();const k=b.dataset.a==="nudge"?"start":"end";m[k]=Math.max(0,m[k]+ +b.dataset.d);card.querySelector(`[data-f=${k}]`).value=mmss(m[k]);return}
     if(b.dataset.a==="skip"){m.status=m.status==="skipped"?"new":"skipped";return persist(`${m.status==="skipped"?"skip":"use"} moment`, m.status==="new")}
     if(b.dataset.a==="save"){read();if(!(m.end>m.start)||m.end-m.start<10||m.end-m.start>90){toast("Een clip is 10 tot 90 seconden",1);return}
-      m.status="new";m.by=m.by||"joshua";m.edited=new Date().toISOString();delete m.error;return persist("edit moment on dashboard",true)}
+      m.status="new";m.by=m.by||"joshua";m.edited=new Date().toISOString();delete m.error;delete m.wait_video;return persist("edit moment on dashboard",true)}
   };
 }
 async function persist(msg,make){
