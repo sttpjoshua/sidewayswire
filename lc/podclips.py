@@ -70,7 +70,7 @@ def _fetch(url: str, out: Path) -> Path:
     return out
 
 
-def run(limit: int = 6) -> dict:
+def run(limit: int = 25) -> dict:
     ix = load_index()
     report = {"clips": [], "errors": [], "waiting_for_video": []}
     assets, no_video = video_assets()
