@@ -156,7 +156,7 @@ function drawSel(){
   const segs=T.segments,a=Math.min(sel.a,sel.b??sel.a),b=Math.max(sel.a,sel.b??sel.a),st=segs[a].start,en=segs[b].end,len=en-st;
   selbar.style.display="block";
   selbar.innerHTML=`<div class="row"><b>NIEUWE CLIP</b><span class="muted">${mmss(st)} tot ${mmss(en)} · ${Math.round(len)} s${sel.b==null?" · klik nog een regel voor het eind":""}</span><span style="margin-left:auto" class="row"><button class="btn" id="sp">▶ LUISTER</button><button class="btn" id="sx">WISSEN</button></span></div>
-   ${sel.b==null?"":`<div class="grid"><label>SOORT<select id="nk">${Object.keys(KIND).map(k=>`<option value="${k}">${KIND[k]}</option>`).join("")}</select></label><label>GAST<input id="ng" placeholder="NAAM"></label><label>KOP<input id="nt" placeholder="KORTE KOP"></label><label>CREDIT<input id="nc" placeholder="@podcast"></label></div>
+   ${sel.b==null?"":`<div class="grid"><label>SOORT<select id="nk">${Object.keys(KIND).map(k=>`<option value="${k}" ${k==="moment"?"selected":""}>${KIND[k]}</option>`).join("")}</select></label><label>GAST<input id="ng" placeholder="NAAM"></label><label>KOP<input id="nt" placeholder="KORTE KOP"></label><label>CREDIT<input id="nc" placeholder="@podcast"></label></div>
    <div class="full"><label>CAPTION<textarea id="ncap"></textarea></label></div><div class="row" style="margin-top:8px"><span class="muted">${len<10||len>90?"Een clip is 10 tot 90 seconden.":""}</span><button class="btn g" id="nadd" style="margin-left:auto" ${len<10||len>90?"disabled":""}>CLIP MAKEN</button></div>`}`;
   sp.onclick=()=>play(st,en); sx.onclick=()=>{sel=null;drawTranscript();drawSel()};
   if(sel.b!=null) nadd.onclick=()=>{
