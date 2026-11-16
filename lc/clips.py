@@ -118,8 +118,11 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
             step = (win1 - win0) / len(photos)
             px, py = (560, 470) if video else (290, 450)    # video: over the host's half; audiogram: centre
             for k, (ph, f) in enumerate(photos):
-                a = float(ph["at"]) if ph.get("at") not in (None, "") else win0 + k * step
-                b = a + float(ph["for"]) if ph.get("for") not in (None, "") else (win0 + (k + 1) * step)
+                a = float(ph["in"]) if ph.get("in") not in (None, "") else win0 + k * step       # chosen in the studio
+                b = float(ph["out"]) if ph.get("out") not in (None, "") else win0 + (k + 1) * step
+                a, b = max(0.0, min(a, length)), max(0.0, min(b, length))
+                if b - a < 0.3:
+                    continue
                 n += 1
                 inputs += ["-loop", "1", "-t", f"{length:.2f}", "-i", str(f)]
                 filt.append(f"[{last}][{n}:v]overlay={px}:{py}:format=auto:enable='between(t,{a:.2f},{b:.2f})'[p{k}]")
