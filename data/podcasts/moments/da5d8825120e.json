@@ -316,8 +316,9 @@
   "credit": "@formulad",
   "check": false,
   "caption": "A message from the 2026 Formula DRIFT champion to the haters. 😅\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-  "status": "new",
+  "status": "error",
   "by": "editor",
-  "wait_video": "2026-11-16T17:49:56.636715+00:00"
+  "wait_video": "2026-11-16T17:49:56.636715+00:00",
+  "error": "No module named 'PIL'"
  }
 ]
