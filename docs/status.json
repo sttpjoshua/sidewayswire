@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:52:26.223904+00:00",
+ "updated": "2026-11-16T19:54:30.493048+00:00",
  "counts": {
-  "draft": 44
+  "draft": 48
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1587,10 +1587,10 @@
       "topic": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
       "quote": "I said at the banquet, like, I would often text him late at night. And I'm like, what are you doing? He's like, I'm just watching a drift event. And I'm like, where's the drift event? And it's in like Egypt or something. And I'm like, you know, and I love drifting also. And I always felt for a while that I would never meet somebody who loved drifting just as much as me. But I definitely ...",
       "why": "Funny detail about how obsessed his spotter Matt is. Name spelling: check.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-8/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 1250,
@@ -1600,10 +1600,10 @@
       "topic": "THE SECRET NUMBER SYSTEM",
       "quote": "me and Matt have a very simple number system, what we use. So like in battle situations, like a lot of the time, so Matt will give me a rundown before the battle, what I'm warming the towers up, what to expect, what to approach. But after that, it's very, it's very simple communication. We have a number system that we've studied very to a very high level. You maybe will see me do ...",
       "why": "He and his spotter use a number system; slow practice runs are them practising it.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-9/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 1868.5,
@@ -1613,10 +1613,10 @@
       "topic": "\"IF IT FAILS, MY AMERICAN JOURNEY IS OVER\"",
       "quote": "You know, I talked about a lot about this journey year that in first 15 minutes, I knew that we were going to fight for a championship. That's very true. Like, that's not a saying that I just came up with that actually happened. And it wasn't that the car was that good. I didn't even drive the car at this point. But jury and his team gave me a sense of like, this is where I meant to be ...",
       "why": "Strongest story of the episode: all-in bet on Jerry Yang's team.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-10/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 1996.48,
@@ -1626,10 +1626,10 @@
       "topic": "\"JAMES BEATING US WAS THE BEST THING\"",
       "quote": "we're like, I think we can get back to a good position. Do I think that we can fight for championship? Maybe not. You know, for sure, it wasn't a perfect year. There was still some things what could have been better on my side. And, you know, we had a little bit of bad look. But like, overall, when I look back at the year, I think it was everything what it needed to be. James whooped ...",
       "why": "Says losing to James Deane in Orlando turned the season.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-11/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 2246.94,
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-da5d8825120e-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan says James Deane beating them in Orlando was the best thing that happened to their season.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1996.48
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:54:30.491025+00:00",
+   "built": "2026-11-16T19:54:30.491027+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-11/clip.mp4",
+   "title": "\"JAMES BEATING US WAS THE BEST THING\""
+  },
+  {
+   "id": "pod-da5d8825120e-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan on the flight to Jerry Yang's workshop: if this year failed, his American journey was over.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1868.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:54:06.141070+00:00",
+   "built": "2026-11-16T19:54:06.141072+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-10/clip.mp4",
+   "title": "\"IF IT FAILS, MY AMERICAN JOURNEY IS OVER\""
+  },
+  {
+   "id": "pod-da5d8825120e-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ever seen Conor Shanahan do a practice run that isn't on the limit? That's him and his spotter practising their number system.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1250
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:53:19.058690+00:00",
+   "built": "2026-11-16T19:53:19.058692+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-9/clip.mp4",
+   "title": "THE SECRET NUMBER SYSTEM"
+  },
+  {
+   "id": "pod-da5d8825120e-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1132.48
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:52:49.309223+00:00",
+   "built": "2026-11-16T19:52:49.309225+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-8/clip.mp4",
+   "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT"
+  },
   {
    "id": "pod-da5d8825120e-7",
    "kind": "podcast_clip",
