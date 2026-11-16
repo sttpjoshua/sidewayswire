@@ -1,11 +1,9 @@
 {
- "phase": "transcribe",
+ "phase": "saved",
  "episode": "b5159f5c03f8",
- "todo": [
-  "b5159f5c03f8"
- ],
- "pct": 0.993,
- "updated": "2026-11-16T20:59:07.378719+00:00",
+ "todo": [],
+ "pct": 1.0,
+ "updated": "2026-11-16T20:59:15.862901+00:00",
  "started": "2026-11-16T20:20:51.549732+00:00",
  "run": "43928749902",
  "title": "Rafael Muller aggressive grassroots drifter from Switzerland",
@@ -16,6 +14,7 @@
  "finished": [
   "c82113ef8385",
   "441d4b7291ad",
-  "b9e6971ba742"
+  "b9e6971ba742",
+  "b5159f5c03f8"
  ]
 }
