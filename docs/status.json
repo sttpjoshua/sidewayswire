@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:38:16.964693+00:00",
+ "updated": "2026-11-16T19:40:11.111445+00:00",
  "counts": {
-  "draft": 25
+  "draft": 29
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -2320,9 +2320,9 @@
       "topic": "80% SAID THE C7 WOULD FAIL",
       "quote": "I think it was, it was a great challenge cause a lot of people, maybe like 80% of the talk to me about that were like, uh, he tried it first and it was not a very, uh, it wasn't a success. So why are you trying it? Like you're gonna, you know, you're gonna lose your time. It's not gonna work. You're gonna fail blah, blah, blah. And I kind of took it as a, you know, like I dare you, you know, a challenge.",
       "why": "Most people told him the C7 would fail because the first one struggled. He took it as a dare.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-8/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2333,9 +2333,9 @@
       "topic": "WHY HE PICKED A C7 OVER A C6",
       "quote": "that's also one of the reason why I went with the C seven because I knew that if I started right at the best with a C six, well, companies already developed the products around this car. And for me, it makes me less attractive, let's say, as a driver, as a sponsor driver. So I wanted to go with the C seven just to make sure I'm, I'm offering something completely different. The company is a new product to put on the market and you think develop. And that's exactly what we did.",
       "why": "A C6 already had all the parts. A C7 gave sponsors a new product to develop and sell.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-9/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2346,9 +2346,9 @@
       "topic": "THREE ENGINES IN ONE SEASON",
       "quote": "Well, thing is last year was probably my worst, uh, financial season, uh, so far, because we did blew up, uh, three engines during the season and one right before we started in Long Beach, one and one at the event. So yeah, basically it costs a lot. So this year, even with the, the, the exchange rate with the fuel and everything based in the, in US and Canada, it's still going to be way less expensive than last year, which is a good news. And, uh, which helps me to, uh, you know, breathe a bit more because last year was really hard on the budget. And this year, I feel like it's all right. It's, it's making sense. It's how I planned it.",
       "why": "Last season he blew three engines; this year is cheaper even with the exchange rate.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-10/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2359,9 +2359,9 @@
       "topic": "SAVING RACE FUEL TO GET HOME",
       "quote": "for us, we heard the news and we were like, are we going to be able to push you in the truck, you know, to go from west to east? Cause there is some gas station where there is no more fuel and DSL for whatever political reason, you know? So we were like, all right, maybe we're going to have to empty my, uh, my VP racing fuel jug that we use in the Corvette at the race, keep it in the trailer and make some reserve to be able to go back home at the end of the season.",
       "why": "The Canadian team planned to keep race fuel in the trailer in case diesel ran out on the drive home.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-11/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-6892a8b1e411-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The side of running a Canadian team in Formula DRIFT nobody thinks about: worrying about fuel for the drive home.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #privateer #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2864.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:40:11.108074+00:00",
+   "built": "2026-11-16T19:40:11.108077+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-11/clip.mp4",
+   "title": "SAVING RACE FUEL TO GET HOME"
+  },
+  {
+   "id": "pod-6892a8b1e411-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Three blown engines in one season. Tommy Lemaire on his toughest season on the budget.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #privateer #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2805.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:39:46.796077+00:00",
+   "built": "2026-11-16T19:39:46.796079+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-10/clip.mp4",
+   "title": "THREE ENGINES IN ONE SEASON"
+  },
+  {
+   "id": "pod-6892a8b1e411-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Why build a C7 Corvette when the C6 parts already exist? Tommy Lemaire says it made him more attractive to sponsors.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2578.84
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:39:09.526624+00:00",
+   "built": "2026-11-16T19:39:09.526627+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-9/clip.mp4",
+   "title": "WHY HE PICKED A C7 OVER A C6"
+  },
+  {
+   "id": "pod-6892a8b1e411-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Most people told Tommy Lemaire the C7 Corvette would never work in drifting. He took it as a dare.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2432.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:38:45.074904+00:00",
+   "built": "2026-11-16T19:38:45.074906+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-8/clip.mp4",
+   "title": "80% SAID THE C7 WOULD FAIL"
+  },
   {
    "id": "pod-6892a8b1e411-6",
    "kind": "podcast_clip",
