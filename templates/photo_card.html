@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{# A context photo as a tilted print with a credit tape. Transparent, 500x620.
+   Data: src (file URI), credit (e.g. '@photographer'), tilt (degrees) #}
+{% block body %}
+<div class="abs" style="left:30px;top:24px;width:440px;height:560px;background:#fff;padding:14px 14px 0;transform:rotate({{ tilt or 3 }}deg);box-shadow:0 18px 40px rgba(0,0,0,.55)">
+  <div style="width:412px;height:500px;background:#232326 url('{{ src }}') center/cover no-repeat"></div>
+  {% if credit %}
+  <div class="abs bb" style="left:14px;bottom:-18px;background:#111;color:#fff;border:3px solid #fff;padding:6px 10px;font-size:22px;letter-spacing:1px;max-width:400px;overflow:hidden;white-space:nowrap">PHOTO {{ credit }}</div>
+  {% endif %}
+</div>
+{% endblock %}

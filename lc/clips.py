@@ -15,6 +15,7 @@ from pathlib import Path
 
 from .render import Renderer
 
+ROOT = Path(__file__).resolve().parent.parent
 W, H, FPS = 1080, 1920, 30
 
 
@@ -77,6 +78,16 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
                 "topic": moment.get("topic"), "kind": moment.get("kind", "moment"),
                 "credit": moment.get("credit"), "audiogram": mode == "audiogram", "photo": photo}
         r.render("clip_overlay.html", data, tmp / "layer.png", transparent=True)
+        # Context photos (added by Joshua in the podcast studio), shown one after another
+        photos = []
+        for k, ph in enumerate(moment.get("photos") or []):
+            src = (ROOT / ph["src"]) if not str(ph["src"]).startswith("http") else None
+            if src is None or not src.exists():
+                continue
+            f = tmp / f"photo{k}.png"
+            r.render("photo_card.html", {"w": 500, "h": 620, "bg": "transparent", "src": src.as_uri(),
+                                         "credit": ph.get("credit", ""), "tilt": 3 if k % 2 == 0 else -3}, f, transparent=True)
+            photos.append((ph, f))
         cap_files = []
         for i, (_, _, text) in enumerate(caps):
             f = tmp / f"cap{i:03d}.png"
@@ -102,6 +113,17 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
         inputs += ["-loop", "1", "-t", f"{length:.2f}", "-i", str(tmp / "layer.png")]
         filt.append(f"[base][{n}:v]overlay=0:0:format=auto[l0]")
         last = "l0"
+        if photos:
+            win0, win1 = 1.5, max(length - 1.0, 2.0)
+            step = (win1 - win0) / len(photos)
+            px, py = (560, 470) if video else (290, 450)    # video: over the host's half; audiogram: centre
+            for k, (ph, f) in enumerate(photos):
+                a = float(ph["at"]) if ph.get("at") not in (None, "") else win0 + k * step
+                b = a + float(ph["for"]) if ph.get("for") not in (None, "") else (win0 + (k + 1) * step)
+                n += 1
+                inputs += ["-loop", "1", "-t", f"{length:.2f}", "-i", str(f)]
+                filt.append(f"[{last}][{n}:v]overlay={px}:{py}:format=auto:enable='between(t,{a:.2f},{b:.2f})'[p{k}]")
+                last = f"p{k}"
         if cap_files:
             # All captions as ONE image sequence (with see-through gaps) instead of one input per caption:
             # ffmpeg then decodes one small stream, which is many times faster.

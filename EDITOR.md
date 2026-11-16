@@ -67,6 +67,9 @@ Per nieuwe aflevering met transcript en zonder `data/podcasts/moments/<id>.json`
    (spraakherkenning maakt fouten bij namen), schrijf de juiste naam bij `guest` en zet
    `"check": true`. Twijfel je over een naam of een @handle, zet dan ook `"check": true` en
    verzin geen handles. Zet `"by": "editor"`.
+   Gaat een moment over een persoon, auto of plek die je zou willen laten zien, zet dan
+   `"photo_hint"`: wie of wat er op de foto moet (bijvoorbeeld "Hiroya Minowa of zijn GR86").
+   Foto's zelf voegt alleen Joshua toe in de podcaststudio (met credit); zoek of download ze nooit zelf.
 5. Schrijf het bestand (zie `lc/podclips.py` voor alle velden), status `new`.
    Caption: 1 tot 2 zinnen, dan "Full episode: <podcastnaam>" en de @tag van de podcast
    en de gast, dan 3 tot 5 hashtags.
