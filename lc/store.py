@@ -64,7 +64,7 @@ class Store:
         item_id = hashlib.sha1((url or title).encode()).hexdigest()[:16]
         if self.db.execute("SELECT 1 FROM items WHERE id=?", (item_id,)).fetchone():
             return self.db.execute("SELECT story FROM items WHERE id=?", (item_id,)).fetchone()[0], False
-        story = self._match_story(title, published) or item_id
+        story = self._match_story(title, published, source) or item_id
         now = datetime.now(timezone.utc).isoformat()
         self.db.execute(
             "INSERT INTO items VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
@@ -81,10 +81,13 @@ class Store:
         self.db.commit()
         return story, True
 
-    def _match_story(self, title: str, published: datetime) -> str | None:
+    def _match_story(self, title: str, published: datetime, source: str = "") -> str | None:
+        """Same story = a similar title from ANOTHER source within 48 hours.
+        Two posts from one source are never merged (e.g. 'RD9 results' and 'RD10 results')."""
         since = (published - timedelta(hours=48)).isoformat()
         best, best_score = None, 0.0
-        for row in self.db.execute("SELECT story, title FROM items WHERE published >= ?", (since,)):
+        for row in self.db.execute("SELECT story, title FROM items WHERE published >= ? AND source != ?",
+                                   (since, source)):
             s = similar(title, row["title"])
             if s > best_score:
                 best, best_score = row["story"], s
