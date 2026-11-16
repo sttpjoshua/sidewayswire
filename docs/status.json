@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:40:11.111445+00:00",
+ "updated": "2026-11-16T19:42:39.093509+00:00",
  "counts": {
-  "draft": 29
+  "draft": 33
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -2372,9 +2372,9 @@
       "topic": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL",
       "quote": "Something that we, uh, we changed and, uh, I never thought I had, I was going to change that for this. It's my steering wheel. We put a big, a bigger steering wheel and we already had the idea in our mind, but when we saw a rat down with his Supra with this, we were like, Oh, okay. So I texted him and I was like, Hey, Dan, I need, I need the same steering that you run. And, uh, now we run the same steering wheel in FD.",
       "why": "Saw a Supra driver with a bigger wheel, texted him, now runs the same one. Driver name unclear in transcript.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-12/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2385,9 +2385,9 @@
       "topic": "ICE DRIFTING ALMOST AS FAST AS ASPHALT",
       "quote": "And in the winter, it's really cool cause we have big stud studded tires and we can go on ice and be almost as fast. Well, it depends on the study, but I have some stuff that are faster than on the asphalt. So, but it just makes the ice go down so quickly. So I don't really put them often unless it's a demo or something like that. But when I do the drift academy, I have 60 millimeters studs, um, which is a bit like the guys from Norway are using it over there. So it makes the car really fast and you can keep the same set of tire for the whole day.",
       "why": "Studded tires on ice can be faster than asphalt; one set lasts a whole day.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-13/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2398,9 +2398,9 @@
       "topic": "RACE DRIVERS LEARN TO DRIFT ON ICE",
       "quote": "So last winter I had, uh, maybe four drivers from the front series. So two drivers that were doing, uh, formula 2000 in the U S and, uh, some drivers that were doing NASCAR and one driver that was doing, uh, like, uh, you know, the, the Mi-Mikha cup or like the, the Nisaka challenge, which is like 400 Z's. Um, but, uh, racing and they did it just so they can understand more the handling of the car. So when they go racing, they understand when they are at the limit of the, of the car, you know, cause some of the racing people, they, they never experienced real fly and real drifting, you know? So when you know, and you're comfortable with this section of racing or motor sport, well, you're, you're also more confident in your own section of motor sports, which is great racing.",
       "why": "Formula 2000 and NASCAR drivers come to his ice school to learn car control at the limit.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-14/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2411,10 +2411,10 @@
       "topic": "SKYDIVING VS A GOOD CHASE",
       "quote": "Uh, I don't think so, man. Cause it's funny cause it right. Well now it's October 12th, but tomorrow is my birthday. So, uh, this weekend my girlfriend brought me to, um, how do you call this in English? When you, you jumped from the plane and you, you opened skydiving. Okay. Skydiving. Yeah. So I want skydiving this past weekend. Yeah. I want skydiving, uh, two days ago and it was my first time and I was, I was calm and I was, I was so calm before. I was like, yeah, that's that, that looks fun. And that looks very cool. And I did it. And it was awesome, but like, I, like almost, well I got enough adrenaline, but I will say like, I, when I do a really nice chase, I get the same amount of adrenaline than that.",
       "why": "First skydive for his birthday. A really nice chase gives him the same adrenaline.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-15/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 3590.65,
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-6892a8b1e411-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire went skydiving for the first time. His verdict: a really good chase gives the same rush.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #skydiving #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 3534.11
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:42:39.091173+00:00",
+   "built": "2026-11-16T19:42:39.091175+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-15/clip.mp4",
+   "title": "SKYDIVING VS A GOOD CHASE"
+  },
+  {
+   "id": "pod-6892a8b1e411-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Racing drivers book Tommy Lemaire's ice drift school to understand the limit of the car.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#icedrifting #nascar #drifting #carcontrol #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 3297.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:41:56.231466+00:00",
+   "built": "2026-11-16T19:41:56.231468+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-14/clip.mp4",
+   "title": "RACE DRIVERS LEARN TO DRIFT ON ICE"
+  },
+  {
+   "id": "pod-6892a8b1e411-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Studded tires on ice can be faster than asphalt. Tommy Lemaire on his winter drift academy. ❄️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #icedrifting #drifting #winter #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 3169.74
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:41:11.832656+00:00",
+   "built": "2026-11-16T19:41:11.832658+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-13/clip.mp4",
+   "title": "ICE DRIFTING ALMOST AS FAST AS ASPHALT"
+  },
+  {
+   "id": "pod-6892a8b1e411-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #drifting #driftsetup #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2935.1
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:40:42.465420+00:00",
+   "built": "2026-11-16T19:40:42.465423+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-12/clip.mp4",
+   "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL"
+  },
   {
    "id": "pod-6892a8b1e411-11",
    "kind": "podcast_clip",

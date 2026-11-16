@@ -223,9 +223,12 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #drifting #driftsetup #sidewayswire",
-  "status": "error",
+  "status": "queued",
   "by": "editor",
-  "error": "No module named 'PIL'"
+  "clip": "docs/media/pod-6892a8b1e411-12/clip.mp4",
+  "mode": "video",
+  "layout": 2,
+  "made": "2026-11-16T19:40:42.465336+00:00"
  },
  {
   "start": 3169.74,
@@ -238,9 +241,12 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Studded tires on ice can be faster than asphalt. Tommy Lemaire on his winter drift academy. ❄️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #icedrifting #drifting #winter #sidewayswire",
-  "status": "error",
+  "status": "queued",
   "by": "editor",
-  "error": "No module named 'PIL'"
+  "clip": "docs/media/pod-6892a8b1e411-13/clip.mp4",
+  "mode": "video",
+  "layout": 2,
+  "made": "2026-11-16T19:41:11.832595+00:00"
  },
  {
   "start": 3297.42,
@@ -253,9 +259,12 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Racing drivers book Tommy Lemaire's ice drift school to understand the limit of the car.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#icedrifting #nascar #drifting #carcontrol #sidewayswire",
-  "status": "error",
+  "status": "queued",
   "by": "editor",
-  "error": "No module named 'PIL'"
+  "clip": "docs/media/pod-6892a8b1e411-14/clip.mp4",
+  "mode": "video",
+  "layout": 2,
+  "made": "2026-11-16T19:41:56.231400+00:00"
  },
  {
   "start": 3534.11,
@@ -268,9 +277,12 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Tommy Lemaire went skydiving for the first time. His verdict: a really good chase gives the same rush.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #skydiving #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
-  "wait_video": "2026-11-16T19:01:43.241769+00:00"
+  "clip": "docs/media/pod-6892a8b1e411-15/clip.mp4",
+  "mode": "video",
+  "layout": 2,
+  "made": "2026-11-16T19:42:39.091111+00:00"
  },
  {
   "start": 3590.65,
