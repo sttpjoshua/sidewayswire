@@ -86,8 +86,8 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
         inputs, filt = [], []
         if video:
             inputs += ["-i", str(video)]
-            filt.append(f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=30:2,"
-                        f"eq=brightness=-0.25,fps={FPS},setsar=1[bg];"
+            filt.append(f"[0:v]scale=270:480:force_original_aspect_ratio=increase,crop=270:480,boxblur=8:2,"
+                        f"eq=brightness=-0.25,scale={W}:{H},fps={FPS},setsar=1[bg];"
                         f"[0:v]scale={W}:-2,fps={FPS},setsar=1[fg];[bg][fg]overlay=0:500[base]")
             audio = "0:a"
             cap_y = 1180
@@ -102,11 +102,26 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
         inputs += ["-loop", "1", "-t", f"{length:.2f}", "-i", str(tmp / "layer.png")]
         filt.append(f"[base][{n}:v]overlay=0:0:format=auto[l0]")
         last = "l0"
-        for i, ((a, b, _), f) in enumerate(zip(caps, cap_files)):
+        if cap_files:
+            # All captions as ONE image sequence (with see-through gaps) instead of one input per caption:
+            # ffmpeg then decodes one small stream, which is many times faster.
+            from PIL import Image
+            blank = tmp / "blank.png"
+            Image.new("RGBA", Image.open(cap_files[0]).size, (0, 0, 0, 0)).save(blank)
+            lines, cur = [], 0.0
+            for (a, b, _), f in zip(caps, cap_files):
+                a, b = max(a, cur), max(b, a)
+                if a - cur > 0.01:
+                    lines += [f"file '{blank}'", f"duration {a - cur:.3f}"]
+                if b - a > 0.01:
+                    lines += [f"file '{f}'", f"duration {b - a:.3f}"]
+                cur = b
+            lines += [f"file '{blank}'", f"duration {max(length - cur, 0.1):.3f}", f"file '{blank}'"]
+            (tmp / "caps.txt").write_text("\n".join(lines) + "\n")
             n += 1
-            inputs += ["-loop", "1", "-t", f"{length:.2f}", "-i", str(f)]
-            filt.append(f"[{last}][{n}:v]overlay=0:{cap_y}:enable='between(t,{a:.2f},{b:.2f})'[c{i}]")
-            last = f"c{i}"
+            inputs += ["-f", "concat", "-safe", "0", "-i", str(tmp / "caps.txt")]
+            filt.append(f"[{n}:v]fps={FPS},format=rgba[cap];[{last}][cap]overlay=0:{cap_y}:format=auto:eof_action=pass[c0]")
+            last = "c0"
         filt.append(f"[{last}]format=yuv420p[v]")
         _ff([*inputs, "-filter_complex", ";".join(filt), "-map", "[v]", "-map", audio,
              "-t", f"{length:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
