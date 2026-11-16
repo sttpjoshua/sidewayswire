@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T22:06:32.536927+00:00",
+ "updated": "2026-11-16T22:17:30.507667+00:00",
  "counts": {
   "check": 17,
   "ready": 44,
-  "draft": 2
+  "draft": 6
  },
  "collected": "2026-11-16T21:56:31.745374+00:00",
  "instagram": false,
@@ -2292,9 +2292,9 @@
       "topic": "ODI TOO AGGRESSIVE?",
       "quote": "I mean, take a look at this. Dan across the nose, Odie, they talked about, we heard the numbers almost 10 miles per hour faster, initiation, taking a look at the race data labs, utilizing the Wall -A technology. Slide them left for Odie, right for Dan Burkett. And Dan Burkett gets one, two, and unanimous. Rad Dan Burkett gets the win. And we're going to throw it to Brian Eggert. Brian, Odie too aggressive, question mark? Yeah, it seems that way. Watching this, I mean, we can check his speed. He's going about 10 miles faster than Dan. And if we can show up on the graph, the screen, I mean, there's a section here that shows a little chart and it basically shows what the threshold for like the average speeds going through there were and Dan was initiating it around that speed in the average. So he's well within that limit and Odie's just a little bit faster and it looks like he just gets in the back of him there. Yeah, just totally glitched there. Unfortunate for Odie Boxchis, thank you, Brian. So Odie, too aggressive, unfortunately, goes into the back of Rad Dan Burkett. So Odie's knocked out,",
       "why": "10 mph sneller bij initiatie, contact, Odi eruit",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-2/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2305,9 +2305,9 @@
       "topic": "RYAN TUERCK'S LAST EVER FD RUN",
       "quote": "Again, this young man, we've seen him grow up from, you know, being a privateer into absolutely being a pinnacle driver. And here we go again this is a swan song of a Formula Trim competition the rockstar entering top 32 Watoro Masayama, Ryan Turk. Masayama gets one vote and two votes. Masayama gets the win. Ryan Turk is knocked out. So Ryan Turk bids us a do. I'm sure we will celebrate him in our driver introductions, but again competition stops and that is Ryan Turk's final run in Formula Drift competition. Masayama stepping out of the car. Round of applause for Ryan Turk.",
       "why": "Einde van de carriere van Ryan Tuerck",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-3/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2318,9 +2318,9 @@
       "topic": "SHANAHAN LEADS FOR THE TITLE",
       "quote": "Shanahan, the outside zone. Shanahan doing a little left foot break. Castro, like you said, he's made his name, chasing down the biggest in the business. And here goes Shanahan, Again, filling all of the outside zone six, but Castro is not backing down at all. In the outside zone seven and eight. Here he goes, Jen. Castro grinding on the door. Let's go. And there we go. Again, a very unhealthy vehicle last night. Castro has completely shifted, and Castro is right there. This is what we knew was going to happen. This is how it was going to be. John and Castro in the chase is one of the most dangerous drivers you will ever see on this grid. Connor Shanahan provided an incredible lead line. This is picture perfect. This is this is well into the 90s when we talk about qualifying. But look at Jonathan Castro. When you give him a billboard to go after he's going to do it. And Castro is right there every way. Little bit of a knock on the door right before they hit the line. This is tense. This is absolutely epic. What we're seeing from both drivers. Anybody that is watching anything new that this battle is not a foregone conclusion. And Castro has put a stamp.",
       "why": "Eerste run van de titelbattle, Conor in de lead",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-4/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2331,9 +2331,9 @@
       "topic": "WHY THEY CALL HIM THE SHADOW",
       "quote": "He bullies him around, but Castro goes into the outside zone. Here goes Shanahan, dropping into formation, precision driving as Castro goes. Oh, that back bumper going in. Did Castro lead him out there? Shanahan chased him down. You can see the Irish on the tongue of that front bumper. Now past that inside clip, Shanahan a bit shallow. And at last, outside zone eight goes Shanahan and Castro. I mean talk about splitting hairs. We are splitting hairs, we're ripping tires. We saw some debris shoot off in the outside zone as well. This is wild. Castro is just throwing caution the wind. He is trying to hug this car as hard as he possibly can. But Connor, the shadow Shanahan is all there with the pass. Well, why not for goes really wide on for is that the mistake that will change this championship run? I mean, but for Connor Shannon, and he just went everywhere that Castro did. He did not give up. He knew he had to put down the chase of his career and that is what he did in this. The proximity is insane. There was less than six inches between them everywhere on track, off track, through the zones between them, every transition. That's why we call him the shadow. He literally is the shadow.",
       "why": "Tweede run: Conor in de chase, minder dan 15 cm afstand",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-5/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2409,6 +2409,58 @@
       "topic": "TOMMY MIRRORS COLE",
       "quote": "TLO and Cole Richards Cole Richards initiates He's running a hundred percent we talked about maybe a little bit of black long low cop pop as goes into to an outside zone. Tommy Lamere chasing him down. Cole in that outside zone now transitioning. Look at Cole. He is literally rolling Cole. Into that outside zone. Look at Tommy mimicking his angle into that last outside zone. Are we going to have a victor?",
       "why": "Laatste battle van Top 32",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": null
+     },
+     {
+      "start": 7789,
+      "end": 7976,
+      "kind": "battle",
+      "guest": "CONOR SHANAHAN VS JHONNATTAN CASTRO",
+      "topic": "THE TITLE BATTLE, SIDE BY SIDE",
+      "quote": "",
+      "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": null
+     },
+     {
+      "start": 3287,
+      "end": 3480,
+      "kind": "battle",
+      "guest": "ADAM LZ VS DEREK MADISON",
+      "topic": "ADAM LZ VS DEREK MADISON",
+      "quote": "",
+      "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": null
+     },
+     {
+      "start": 9163,
+      "end": 9324,
+      "kind": "battle",
+      "guest": "MATT FIELD VS TRENTON BEECHUM",
+      "topic": "FIELD VS BEECHUM",
+      "quote": "",
+      "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": null
+     },
+     {
+      "start": 8941,
+      "end": 9496,
+      "kind": "battle",
+      "guest": "TOMMY LEMAIRE VS COLE RICHARDS",
+      "topic": "LEMAIRE VS RICHARDS",
+      "quote": "",
+      "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
       "status": "new",
       "clip": null,
       "mode": null,
@@ -4583,6 +4635,154 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-fd2026r8-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Less than six inches, everywhere on track. Conor Shanahan chasing Jhonnattan Castro for the championship.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7947.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:17:30.502928+00:00",
+   "built": "2026-11-16T22:17:30.502932+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-5/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "WHY THEY CALL HIM THE SHADOW"
+  },
+  {
+   "id": "pod-fd2026r8-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The run of his career with the title on the line: Conor Shanahan leads, Jhonnattan Castro grinds on his door.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7795.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:15:29.736443+00:00",
+   "built": "2026-11-16T22:15:29.736448+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-4/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "SHANAHAN LEADS FOR THE TITLE"
+  },
+  {
+   "id": "pod-fd2026r8-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After 20+ years, 7 wins and 26 podiums, this was Ryan Tuerck's final Formula DRIFT battle. Thank you, Ryan. 🙏\n\n🎥 Footage: FD LONG BEACH FINALE\n@ryantuerck @watarudrift @formulad\n\n#formulad #formuladrift #ryantuerck #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7229.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:13:32.874910+00:00",
+   "built": "2026-11-16T22:13:32.874915+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-3/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@watarudrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "RYAN TUERCK'S LAST EVER FD RUN"
+  },
+  {
+   "id": "pod-fd2026r8-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "10 mph faster on initiation and into the back of Dan Burkett. Was Odi Bakchis too aggressive? The data says yes.\n\n🎥 Footage: FD LONG BEACH FINALE\n@raddandrift @odidrift @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 6420.78
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:12:23.318081+00:00",
+   "built": "2026-11-16T22:12:23.318086+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-2/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "ODI TOO AGGRESSIVE?"
   },
   {
    "id": "pod-fd2026r8-1",
