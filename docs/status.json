@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T15:48:55.767741+00:00",
+ "updated": "2026-11-16T15:52:12.095889+00:00",
  "counts": {},
- "collected": "2026-11-16T15:48:55.689450+00:00",
+ "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
  "sources": [
   {
@@ -122,14 +122,14 @@
    "title": "CATERHAM DRIFT EXPERIENCE",
    "series": "NDC",
    "buzz": 1,
-   "published": "2026-11-16T15:48:54.664836+00:00",
+   "published": "2026-11-16T15:52:10.300634+00:00",
    "items": [
     {
      "source": "Nürburgring Drift Cup",
      "title": "CATERHAM DRIFT EXPERIENCE",
      "url": "https://nuerburgring.de/driving/more/caterham",
      "kind": "article",
-     "published": "2026-11-16T15:48:54.664836+00:00",
+     "published": "2026-11-16T15:52:10.300634+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -192,15 +192,6 @@
    "buzz": 1,
    "published": "2026-11-15T22:18:10+00:00",
    "items": [
-    {
-     "source": "D1 Grand Prix (D1GP)",
-     "title": "D1GP RD.9結果",
-     "url": "https://d1gp.co.jp/27456/",
-     "kind": "article",
-     "published": "2026-11-14T12:37:43+00:00",
-     "media_url": null,
-     "media_type": null
-    },
     {
      "source": "D1 Grand Prix (D1GP)",
      "title": "D1GP RD10 結果",
@@ -277,6 +268,23 @@
      "published": "2026-11-14T14:45:33+00:00",
      "media_url": "https://i3.ytimg.com/vi/NWG-p8qMH6w/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "D1GP RD.9結果",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-14T12:37:43+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "D1GP RD.9結果",
+     "url": "https://d1gp.co.jp/27456/",
+     "kind": "article",
+     "published": "2026-11-14T12:37:43+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1121,15 +1129,6 @@
    "items": [
     {
      "source": "Adam LZ",
-     "title": "The Most Wanted Car Collection",
-     "url": "https://www.youtube.com/shorts/CQJ5Ds0jnOQ",
-     "kind": "video",
-     "published": "2026-10-29T23:11:56+00:00",
-     "media_url": "https://i4.ytimg.com/vi/CQJ5Ds0jnOQ/hqdefault.jpg",
-     "media_type": "VIDEO"
-    },
-    {
-     "source": "Adam LZ",
      "title": "Most Wanted Collection is LIVE TODAY!",
      "url": "https://www.youtube.com/shorts/bGT42hqoCLo",
      "kind": "video",
@@ -1254,6 +1253,23 @@
      "kind": "video",
      "published": "2026-10-30T22:00:25+00:00",
      "media_url": "https://i4.ytimg.com/vi/GnIngCZCsIc/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The Most Wanted Car Collection",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-10-29T23:11:56+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "The Most Wanted Car Collection",
+     "url": "https://www.youtube.com/shorts/CQJ5Ds0jnOQ",
+     "kind": "video",
+     "published": "2026-10-29T23:11:56+00:00",
+     "media_url": "https://i4.ytimg.com/vi/CQJ5Ds0jnOQ/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
