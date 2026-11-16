@@ -48,6 +48,7 @@ class Renderer:
             extensions=["jinja2.ext.do"],
         )
         self.env.globals["zip"] = zip
+        self.env.globals["logo"] = (ROOT / "assets" / "logo" / "woordmerk_kleur.svg").as_uri()
         self.env.globals["headline_items"] = headline_items
         self.chrome = chrome
 
@@ -62,7 +63,7 @@ class Renderer:
         self._pw.stop()
 
     def html(self, template: str, data: dict) -> str:
-        ctx = {"fonts": FONTS.as_uri()}
+        ctx = {"fonts": FONTS.as_uri(), "logo": (ROOT / "assets" / "logo" / "woordmerk_kleur.svg").as_uri()}
         ctx.update(data)
         return self.env.get_template(template).render(**ctx)
 

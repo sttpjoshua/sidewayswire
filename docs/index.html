@@ -1,12 +1,13 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sideways Wire dashboard</title>
+<link rel="icon" href="assets/monogram_kleur.svg">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#151517;--card:#232326;--accent:#C6FF00;--pink:#FF2E88;--mute:#B8B8BC}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:#fff;font-family:Inter,system-ui,sans-serif;padding:20px;max-width:1180px;margin:auto}
 a{color:inherit}
 h1,h2,.n{font-family:"Bebas Neue",sans-serif;letter-spacing:1px;margin:0}
-h1{display:inline-block;background:#fff;color:#111;padding:8px 14px 4px;font-size:34px;transform:rotate(-2deg);border:3px solid #111}
+h1{margin:0 0 4px}
 h2{font-size:30px;margin:36px 0 12px;display:flex;align-items:baseline;gap:12px}h2 small{font-family:Inter;font-size:13px;color:var(--mute);letter-spacing:0}
 .counts{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:24px}
 .c{background:var(--card);padding:14px;border:3px solid #111}.c .n{font-size:46px;color:var(--accent)}.c small{color:var(--mute);font-weight:800;letter-spacing:1px;font-size:12px}
@@ -37,7 +38,7 @@ h2{font-size:30px;margin:36px 0 12px;display:flex;align-items:baseline;gap:12px}
 #upd{color:var(--mute);font-size:13px;margin-top:14px}
 @media(max-width:600px){.s{grid-template-columns:80px 1fr}.s .thumb{width:80px}}
 </style></head><body>
-<h1>SIDEWAYS WIRE</h1><div id="upd">laden...</div>
+<h1><img src="assets/woordmerk_kleur.svg" alt="Sideways Wire" style="width:300px;display:block"></h1><div id="upd">laden...</div>
 <div class="counts" id="counts"></div>
 <div class="note" id="ignote" hidden>Instagram is nog niet gekoppeld. Nu komt alleen nieuws van websites en YouTube binnen; Instagram volgt zodra de Meta-app er is.</div>
 <h2>BINNENGEKOMEN NIEUWS <small id="nc"></small></h2>

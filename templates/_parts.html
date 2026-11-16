@@ -4,7 +4,7 @@
 {% else %}<div class="photo-ph" style="height:{{ h }}px">{{ label|safe }}</div>{% endif %}
 {%- endmacro %}
 
-{% macro wordmark() -%}<div class="wordmark bb">SIDEWAYS WIRE</div>{%- endmacro %}
+{% macro wordmark(width=340) -%}<img class="wordmark" alt="Sideways Wire" src="{{ logo }}" style="width:{{ width }}px">{%- endmacro %}
 
 {% macro badge(lines, bg='var(--accent)', fg='#111111', size=40) -%}
 <div class="badge bb" style="background:{{ bg }};color:{{ fg }};font-size:{{ size }}px">{{ lines|join('<br>')|safe }}</div>
