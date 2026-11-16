@@ -30,7 +30,7 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .kpi.p{border-color:var(--pink)}.kpi .n{font-size:46px;line-height:1}.kpi small{color:var(--mute);font-weight:800;font-size:11px;letter-spacing:1px}
 .health{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
 .h{background:var(--card);padding:12px 14px;display:grid;grid-template-columns:14px 1fr;gap:10px;align-items:start;font-size:13px;line-height:1.45}
-.h .dot{width:12px;height:12px;border-radius:50%;background:var(--accent);margin-top:4px}.h .dot.w{background:var(--orange)}.h .dot.r{background:var(--pink)}.h .dot.x{background:#555}
+.h .dot{width:12px;height:12px;border-radius:50%;background:var(--accent);margin-top:4px}.h .dot.w{background:var(--orange)}.h .dot.r{background:var(--pink)}.h .dot.x{background:#555}.h .dot.g{background:var(--accent)}
 .h b{display:block;font-size:14px}.h span{color:var(--mute)}
 .two{display:grid;grid-template-columns:1.4fr 1fr;gap:24px}
 .list{display:flex;flex-direction:column;gap:8px}
@@ -111,6 +111,7 @@ section{display:none}section.on{display:block}
   <div id="ov-mode"></div>
   <div class="kpis" id="kpis"></div>
   <h2>SYSTEEM</h2><div class="health" id="health"></div>
+  <h2>PROCESSEN <small>laatste run per proces · rood = mislukt</small></h2><div class="health" id="runs"></div>
   <div class="two">
     <div><h2>WACHT OP JOU <small><a href="#beoordelen">alles bekijken</a></small></h2><div class="list" id="ov-wait"></div>
          <h2>VOLGENDE POSTS <small><a href="#planning">planning</a></small></h2><div class="list" id="ov-next"></div></div>
@@ -195,7 +196,22 @@ async function changePost(id,fn,msg){   // read the newest queue file, change it
 }
 async function runBuild(){try{await gh(`/actions/workflows/run.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})})}catch(e){console.log(e)}}
 
-let S=null, MAC=null, NOW=null, PODNOW=null, CLIPNOW=null;
+let S=null, MAC=null, NOW=null, PODNOW=null, CLIPNOW=null, RUNS=null, runsAt=0;
+const WF={collect:"Nieuws verzamelen",podcasts:"Podcasts transcriberen",clips:"Clips maken",run:"Plaatsen",handles:"Handles zoeken"};
+async function loadRuns(){
+  if(!key&&Date.now()-runsAt<10*6e4)return;           // without a key GitHub allows 60 requests an hour
+  runsAt=Date.now();
+  try{const r=await fetch(API+"/actions/runs?per_page=60",{headers:key?{Authorization:`Bearer ${key}`}:{}});if(r.ok)RUNS=(await r.json()).workflow_runs}catch(e){}
+}
+function drawRuns(){
+  const el=document.getElementById("runs");if(!el)return;
+  if(!RUNS){el.innerHTML=`<div class="empty">Kon de runs niet ophalen.</div>`;return}
+  const by={};RUNS.forEach(r=>{const k=(r.path||"").split("/").pop().replace(".yml","");if(WF[k]&&!by[k])by[k]=r});
+  const lastDone=k=>RUNS.find(r=>(r.path||"").endsWith(k+".yml")&&r.status==="completed"&&r.conclusion!=="cancelled");
+  el.innerHTML=Object.keys(WF).map(k=>{const r=by[k],d=lastDone(k);if(!r)return `<div class="h"><div class="dot x"></div><div><b>${WF[k]}</b><span>nog niet gedraaid</span></div></div>`;
+    const busy=r.status!=="completed", bad=d&&d.conclusion==="failure";
+    return `<div class="h"><div class="dot ${bad?"r":busy?"":"g"}"></div><div><b>${WF[k]}</b><span>${busy?"bezig sinds "+ago(r.run_started_at||r.created_at):"laatst "+ago(r.updated_at)}${bad?` · <a href="${d.html_url}" target="_blank">laatste run mislukt</a>`:d?" · gelukt":""}</span></div></div>`}).join("");
+}
 const posts=()=>S.posts||[];
 const toReview=()=>posts().filter(p=>["check","draft"].includes(p.status));
 const med=p=>p.video||(p.media||[])[0]||"";
@@ -351,12 +367,13 @@ function show(){
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",show);
-function drawAll(){drawOverview();drawReview();drawClips();drawPlan();drawNews();drawChannels();drawSources();
+function drawAll(){drawOverview();drawRuns();drawReview();drawClips();drawPlan();drawNews();drawChannels();drawSources();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
   S=await fetch("status.json?"+Date.now()).then(r=>r.json());
   try{PODNOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
   try{CLIPNOW=await fetch("clips-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
+  await loadRuns();
   try{const r=await fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}});if(r.ok)MAC=JSON.parse((await r.json()).body||"{}")}catch(e){}
   drawAll();
 }
