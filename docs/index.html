@@ -275,6 +275,8 @@ function drawReview(){
         <h3 style="font-size:26px;margin-top:8px">${title(p)}</h3>
         ${needsCheck(p)?`<div class="why"><b>Waarom jij:</b> ${esc(p.check_reason||"deze soort post check jij altijd eerst")}</div>`:""}
         ${(p.problems||[]).length?`<div class="why">${p.problems.map(esc).join("<br>")}</div>`:""}
+        ${(p.tags||[]).length||(p.missing_handles||[]).length?`<label>GETAGD</label><div class="plats">${(p.tags||[]).map(t=>`<span>${esc(t)}</span>`).join("")}</div>`:""}
+        ${(p.missing_handles||[]).map(n=>`<div class="why" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><b>Geen handle voor ${esc(n)}</b><input data-h="${esc(n)}" placeholder="@instagramnaam" style="flex:1;min-width:160px"><button class="btn" data-a="handle" data-n="${esc(n)}">HANDLE OPSLAAN</button></div>`).join("")}
         <label>CAPTION</label><textarea data-f="caption">${esc(p.caption||"")}</textarea>
         <label>KANALEN</label><div class="plats">${(p.platforms||[]).map(x=>`<span>${PLAT[x]||esc(x)}</span>`).join("")}</div>
         <label>TIJDSTIP (LEEG = EERSTVOLGENDE VRIJE PLEK)</label><input type="datetime-local" data-f="when">
@@ -293,9 +295,17 @@ rev.onclick=async e=>{
   const cap=card.querySelector("[data-f=caption]").value, w=card.querySelector("[data-f=when]").value;
   b.disabled=true;
   try{
-    if(b.dataset.a==="save"){await changePost(id,x=>{x.caption=cap},"caption");p.caption=cap;toast("Caption opgeslagen.")}
+    if(b.dataset.a==="handle"){const n=b.dataset.n,v=card.querySelector(`[data-h="${CSS.escape(n)}"]`).value.trim().replace(/^@/,"");
+      if(!/^[A-Za-z0-9_.]{2,30}$/.test(v)){toast("Dat is geen geldige Instagram-naam.");b.disabled=false;return}
+      const path="/contents/data/handles_manual.json";
+      for(let k=0;k<2;k++){const f=await gh(`${path}?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));d[n]="@"+v.toLowerCase();
+        try{await gh(path,{method:"PUT",body:JSON.stringify({message:`dashboard: handle ${n}`,content:b64(JSON.stringify(d,null,1)),sha:f.sha,branch:"main"})});break}catch(e){if(k||!/409|422/.test(String(e)))throw e}}
+      try{await gh(`/actions/workflows/clips.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})})}catch(e){}
+      toast(`@${v} opgeslagen voor ${n}. De captions worden bij de volgende clips-ronde bijgewerkt.`);}
+    const mine=cap!==(p.caption||"");
+    if(b.dataset.a==="save"){await changePost(id,x=>{x.caption=cap;if(mine)x.caption_by="joshua"},"caption");p.caption=cap;toast("Caption opgeslagen.")}
     if(b.dataset.a==="ok"){const want=w?new Date(w).toISOString():null;
-      await changePost(id,x=>{x.caption=cap;x.status="approved";x.approved=new Date().toISOString();if(want)x.want_at=want;else delete x.want_at},"approve");
+      await changePost(id,x=>{x.caption=cap;if(mine)x.caption_by="joshua";x.status="approved";x.approved=new Date().toISOString();if(want)x.want_at=want;else delete x.want_at},"approve");
       Object.assign(p,{caption:cap,status:"approved",want_at:want});await runBuild();toast(want?`Goedgekeurd voor ${when(want)}.`:"Goedgekeurd. Hij krijgt de eerstvolgende vrije plek.");drawAll()}
     if(b.dataset.a==="skip"){await changePost(id,x=>{x.status="skipped"},"skip");p.status="skipped";toast("Overgeslagen.");drawAll()}
   }catch(x){toast(x.message,1)}finally{b.disabled=false}

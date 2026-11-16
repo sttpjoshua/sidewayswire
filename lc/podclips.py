@@ -26,6 +26,7 @@ from . import progress
 from . import queue as q
 from .clips import make_clip
 from . import streams
+from . import handles
 from .podcasts import DIR, load_index
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -111,6 +112,15 @@ def run(limit: int = 120) -> dict:
             pid = f"pod-{mf.stem}-{i}"
             qp = q.QUEUE / f"{pid}.json"
             post = json.loads(qp.read_text()) if qp.exists() else None
+            if post and post.get("status") not in ("posted", "skipped") and m.get("status") != "skipped":
+                cap, tags, missing = handles.compose(ep, m)       # tags always from the checked registry
+                if post.get("caption_by") == "joshua":    # his own text stays; only the tag info is refreshed
+                    cap = post.get("caption")
+                if post.get("caption") != cap or post.get("missing_handles") != missing or post.get("tags") != tags:
+                    post.update(caption=cap, tags=tags, missing_handles=missing)
+                    if missing and post.get("status") != "approved":
+                        post.update(check=True, check_reason=post.get("check_reason") or "handles nakijken: " + ", ".join(missing))
+                    q.save(post)
             if m.get("status") == "skipped":
                 if post and post.get("status") not in ("posted", "skipped"):
                     post["status"] = "skipped"
@@ -173,16 +183,18 @@ def run(limit: int = 120) -> dict:
             m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT,
                      hook_sig=json.dumps(m.get("hook") or {}, sort_keys=True),
                      made=datetime.now(timezone.utc).isoformat())
-            check = (ep.get("kind") == "stream" or m["kind"] == "rumor" or res["mode"] == "audiogram"
+            cap, tags, missing = handles.compose(ep, m)
+            check = bool(missing) or (ep.get("kind") == "stream" or m["kind"] == "rumor" or res["mode"] == "audiogram"
                      or bool(m.get("check"))) and m.get("by") != "joshua"
             q.save({
                 "id": pid, "kind": "stream_clip" if ep.get("kind") == "stream" else "podcast_clip", "status": "draft", "slides": [], "title": m.get("topic"),
-                "video": str(out.relative_to(ROOT)), "caption": m.get("caption", ""),
+                "video": str(out.relative_to(ROOT)), "caption": cap, "tags": tags, "missing_handles": missing,
                 "credit": m.get("credit"), "check": check,
                 "check_reason": ("livestream-clip: check jij eerst" if ep.get("kind") == "stream"
                                  else "gerucht uit een podcast" if m["kind"] == "rumor"
                                  else "namen nakijken" if m.get("check")
-                                 else "audiogram: er was geen video" if res["mode"] == "audiogram" else ""),
+                                 else "audiogram: er was geen video" if res["mode"] == "audiogram"
+                                 else "handles nakijken: " + ", ".join(missing) if missing else ""),
                 "platforms": ["instagram", "facebook", "tiktok", "youtube"],
                 "source": {"podcast": ep["podcast"], "episode": ep["title"], "start": m["start"]},
                 "created": (post or {}).get("created") or datetime.now(timezone.utc).isoformat(),

@@ -45,7 +45,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         except Exception:
             return None
     keep = ("id", "kind", "status", "post_at", "posted_at", "caption", "media", "problems", "results", "credit",
-            "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video")
+            "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video", "tags", "missing_handles", "caption_by")
     status = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "counts": dict(Counter(p.get("status", "draft") for p in posts)),

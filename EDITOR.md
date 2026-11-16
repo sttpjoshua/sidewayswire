@@ -77,8 +77,15 @@ Per nieuwe aflevering met transcript en zonder `data/podcasts/moments/<id>.json`
    bijvoorbeeld "HOW DO YOU FLY AN FD TROPHY HOME?". why: in het Nederlands in een paar woorden
    waarom dit de hook is. Laat het verhaal zelf beginnen bij de eerste zin die ertoe doet.
 5. Schrijf het bestand (zie `lc/podclips.py` voor alle velden), status `new`.
-   Caption: 1 tot 2 zinnen, dan "Full episode: <podcastnaam>" en de @tag van de podcast
-   en de gast, dan 3 tot 5 hashtags.
+   Caption: 1 tot 2 zinnen plus 3 tot 5 hashtags. Typ GEEN @handles en geen "Full episode"-regel:
+   die zet `lc/handles.py` er zelf onder, alleen met gecontroleerde handles uit `data/sources.csv`
+   (gast, host, podcast, serie). Zet wel `"people": ["Volledige Naam", ...]`: iedereen die in de clip
+   spreekt of over wie het gaat (bijvoorbeeld de gast en "James Deane" als hij besproken wordt).
+   Juiste spelling van de naam is belangrijk, want daarop wordt de handle gezocht.
+   Ontbreekt een handle, dan gaat de post vanzelf naar Joshua met "handles nakijken".
+   Een handle toevoegen mag alleen als je hem op een officiële bron vindt (formulad.com, de
+   shownotes van de podcast zelf, de eigen site van de coureur): zet hem dan in `data/sources.csv`
+   met status `Gecontroleerd` en de bron in Notitie. Nooit raden.
 6. Een gerucht uit een podcast is nooit een feit: label RUMOR, en in de caption
    "said on <podcast>". Clips met een gerucht gaan altijd eerst naar Joshua.
 
@@ -98,6 +105,9 @@ Momenten komen, net als bij podcasts, in `data/podcasts/moments/<id>.json`.
 
 We mogen het beeld gebruiken op voorwaarde dat de serie met @ in de video staat; dat doet de
 opmaak vanzelf (FOOTAGE @formulad). Zet `"credit"` altijd op de @handle uit het register.
+
+Zet bij elk stream-moment `"people"` met de volledige namen van de coureurs in beeld
+(bijvoorbeeld ["James Deane", "Conor Shanahan"]); de handles komen dan vanzelf in de caption.
 
 Kies zoveel mogelijk momenten, 15 tot 75 seconden, met het commentaar als leidraad:
 - `battle`: een volledige battle of de beslissende run (lead en chase), `guest` = "DEANE VS SHANAHAN"
