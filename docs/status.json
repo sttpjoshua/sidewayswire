@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:30:54.433270+00:00",
+ "updated": "2026-11-16T19:33:08.817207+00:00",
  "counts": {
-  "draft": 14
+  "draft": 18
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1998,9 +1998,9 @@
       "topic": "FIX IT, DON'T RESHELL",
       "quote": "And like my biggest advice for everybody is if you crash your car, fix the car. Don't ever reshell until it's like not even remotely fixable. Really? Yeah. Just keep the same cards easier, cheaper, more efficient. And like you as much as I want to say that you don't feel what a physical car is after you've built like 10 of the exact same car. You'll realize that all 10 of them are different. Like I've had E36 school cars. We built 20 of them and every single one has a thing like a person that it does better than the other car or worse or whatever. They all have a thing. And like you crash your car. Everybody is so quick. Like, oh, my shock tower would build a new car. You're like, pull the shock tower, fix it, keep driving it. Like, yeah, it's just so much time, money, effort, space, reshelling and doing that like the roof is straight. The floor where your seat is straight. Everything else we can adjust. Yeah. Car, I won a championship in an F.D. The firewall is so hammered by the bonds like we should build a new car. I'm like, you know, build a new car. This car is fine. Like this one. Yeah. Yeah. And then Ben drove it to the same thing. He had a couple of good crashes in it and nobody cares.",
       "why": "Advice: fix crashed cars instead of reshelling. His FD title car had a hammered firewall.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-19/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2024,9 +2024,9 @@
       "topic": "\"IF KIA MADE THE E36...\"",
       "quote": "I think like when I was probably audibly talking shit about them, it was more it always was a thing where I'm like, hey, if you don't love the car, don't build one of those. Right. Because like you're just hurting yourself. And it's not from a I hate that chassis. Like if the E36 was made by Kia, I would be a Kia guy. OK. Do you know what I'm saying? Yes. Yeah, it doesn't make a difference like what the car is like.",
       "why": "He was never anti-FRS; if the E36 was made by Kia he'd be a Kia guy.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-21/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2050,9 +2050,9 @@
       "topic": "\"GET RID OF QUALIFYING\"",
       "quote": "Yeah, qualifying came back. It was supposed to be because they wanted the sickest driving. We're not seeing it. But then they like the way it works. It doesn't work that way. Right. Like the sickest driving was always Friday night tandem practice. Right. Right. And now there's not that because there's qualifying. Yeah. So it's like, oh, that's a whole circle. Yeah, no, I'm going to do this thing and stand up and say, fuck qualifying, get rid of it again.",
       "why": "Qualifying was meant to bring the sickest driving; the sickest was always Friday night tandem practice.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-23/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2063,9 +2063,9 @@
       "topic": "FAMOUS AT HOME DEPOT",
       "quote": "Like we always have a joke like my my demographic is Home Depot. I don't know why. But every time I go to Home Depot, someone's like, Yo, Chelsea, I get a photo like every day, man. Right. Right. But I think what it is is like and this is the greatest thing if I ever only ever did one thing in my life was like, I think I brought a lot of people into drifting that would have maybe not been brought into drifting because of like crazy driving or a crazy crash or me running my mouth or whatever the case is. Right. Like there's just they're like, oh, there's character in this.",
       "why": "Gets recognised at Home Depot daily; proud he brought new people into drifting.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-24/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-1298fd1c600b-24",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa's biggest fan base? Home Depot. 😂\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 7184.35
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:33:08.815592+00:00",
+   "built": "2026-11-16T19:33:08.815594+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-24/clip.mp4",
+   "title": "FAMOUS AT HOME DEPOT"
+  },
+  {
+   "id": "pod-1298fd1c600b-23",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa says the sickest driving was always Friday night tandem practice, and qualifying killed it.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #qualifying #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 6955.77
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:32:41.231738+00:00",
+   "built": "2026-11-16T19:32:41.231740+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-23/clip.mp4",
+   "title": "\"GET RID OF QUALIFYING\""
+  },
+  {
+   "id": "pod-1298fd1c600b-21",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa on brand loyalty: if Kia made the E36, he'd be a Kia guy.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #drifting #e36 #frs #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 6329.47
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:32:19.439321+00:00",
+   "built": "2026-11-16T19:32:19.439323+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-21/clip.mp4",
+   "title": "\"IF KIA MADE THE E36...\""
+  },
+  {
+   "id": "pod-1298fd1c600b-19",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa's biggest advice: crashed your car? Fix it, don't reshell. Even his championship car was hammered.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#drifting #driftcar #formuladrift #grassrootsdrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 5757.61
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:31:56.934237+00:00",
+   "built": "2026-11-16T19:31:56.934239+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-19/clip.mp4",
+   "title": "FIX IT, DON'T RESHELL"
+  },
   {
    "id": "pod-1298fd1c600b-18",
    "kind": "podcast_clip",
