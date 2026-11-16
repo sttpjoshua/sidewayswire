@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "1"
+VERSION = "2"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -100,10 +100,12 @@ def captions(youtube_id: str) -> list[tuple[float, str]]:
     CACHE.mkdir(parents=True, exist_ok=True)
     vtts = list(CACHE.glob(f"{youtube_id}*.vtt"))
     if not vtts:
-        subprocess.run(["yt-dlp", "-q", "--no-warnings", "--skip-download", "--write-auto-subs", "--write-subs",
-                        "--sub-langs", "en.*,en", "--sub-format", "vtt", "-o", str(CACHE / youtube_id),
-                        f"https://www.youtube.com/watch?v={youtube_id}"], capture_output=True, timeout=300)
+        r = subprocess.run(["yt-dlp", "--no-warnings", "--skip-download", "--write-auto-subs", "--write-subs",
+                            "--sub-langs", "en.*,en,-live_chat", "--sub-format", "vtt/best", "-o", str(CACHE / youtube_id),
+                            f"https://www.youtube.com/watch?v={youtube_id}"], capture_output=True, text=True, timeout=300)
         vtts = list(CACHE.glob(f"{youtube_id}*.vtt"))
+        if not vtts:
+            log(f"yt-dlp ondertitels {youtube_id} (code {r.returncode}):", (r.stderr or r.stdout)[-600:].replace("\n", " | "))
     if not vtts:
         return []
     words, seen = [], set()
@@ -226,7 +228,7 @@ def main():
         theirs, ours = None, None
         for i, m in todo:
             name = asset_name(ep["id"], i, m)
-            if time.time() - state["failed"].get(name, 0) < 6 * 3600:
+            if time.time() - state["failed"].get(name, 0) < 3600:
                 continue                               # failed recently, try again later
             waiting += 1
             try:

@@ -17,7 +17,7 @@ fi
 if ! command -v brew >/dev/null 2>&1; then
   echo "Homebrew ontbreekt. Installeer het eerst via https://brew.sh en start dit script opnieuw."; exit 1
 fi
-for p in yt-dlp ffmpeg python@3.12; do
+for p in yt-dlp ffmpeg deno python@3.12; do
   brew list --formula "$p" >/dev/null 2>&1 || brew install -q "$p"
 done
 PY="$(brew --prefix)/bin/python3"
@@ -50,6 +50,7 @@ cat > "$PLIST" <<PL
   <key>StandardErrorPath</key><string>$LOG</string>
 </dict></plist>
 PL
+rm -f "$APP/state.json"    # forget earlier failures, try everything again
 launchctl bootout "gui/$(id -u)/nl.sttpmedia.sidewayswire.video" 2>/dev/null || true
 launchctl bootstrap "gui/$(id -u)" "$PLIST"
 sleep 20
