@@ -270,15 +270,19 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Said on The Outerzone: Chelsea DeNofa was close to a ProSpec comeback with other ex-pros, and teams have asked him to drive a few rounds.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftnews #chelseadenofa #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
-  "wait_video": "2026-11-16T19:01:43.241769+00:00",
   "hook": {
    "start": 3949.38,
    "end": 3951.85,
    "text": "CHELSEA BACK IN FD?",
    "why": "de onthulling"
-  }
+  },
+  "clip": "docs/media/pod-1298fd1c600b-12/clip.mp4",
+  "mode": "video",
+  "layout": 3,
+  "hook_sig": "{\"end\": 3951.85, \"start\": 3949.38, \"text\": \"CHELSEA BACK IN FD?\", \"why\": \"de onthulling\"}",
+  "made": "2026-11-16T21:29:22.646537+00:00"
  },
  {
   "start": 3978.9,

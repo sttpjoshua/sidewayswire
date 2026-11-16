@@ -426,14 +426,15 @@
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-16/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:57:47.936251+00:00",
+  "layout": 3,
+  "made": "2026-11-16T21:24:52.842234+00:00",
   "hook": {
    "start": 3361.1,
    "end": 3363.05,
    "text": "CONOR'S GOAL FOR NEXT YEAR",
    "why": "de uitspraak zelf"
-  }
+  },
+  "hook_sig": "{\"end\": 3363.05, \"start\": 3361.1, \"text\": \"CONOR'S GOAL FOR NEXT YEAR\", \"why\": \"de uitspraak zelf\"}"
  },
  {
   "start": 3772.6,
@@ -450,14 +451,15 @@
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-17/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:58:08.700306+00:00",
+  "layout": 3,
+  "made": "2026-11-16T21:25:51.266839+00:00",
   "hook": {
    "start": 3786.56,
    "end": 3789.59,
    "text": "BIG CHANGES COMING TO FD?",
    "why": "de onthulling"
-  }
+  },
+  "hook_sig": "{\"end\": 3789.59, \"start\": 3786.56, \"text\": \"BIG CHANGES COMING TO FD?\", \"why\": \"de onthulling\"}"
  },
  {
   "start": 3892.68,
@@ -474,13 +476,14 @@
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-18/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:58:29.950422+00:00",
+  "layout": 3,
+  "made": "2026-11-16T21:26:54.575952+00:00",
   "hook": {
    "start": 3896.96,
    "end": 3901.79,
    "text": "CONOR'S MESSAGE TO THE HATERS",
    "why": "de clou van het verhaal"
-  }
+  },
+  "hook_sig": "{\"end\": 3901.79, \"start\": 3896.96, \"text\": \"CONOR'S MESSAGE TO THE HATERS\", \"why\": \"de clou van het verhaal\"}"
  }
 ]
