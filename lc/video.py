@@ -14,8 +14,10 @@ from pathlib import Path
 import numpy as np
 
 FPS = 30
-HALF_H = 950          # height of each run in the stacked reel
-GAP = 20              # black bar between the runs
+HALF_H = 520          # height of each run in the stacked reel
+GAP = 92              # room between the runs for the LEAD VS LEAD band
+TOP = 300             # run 1 starts here; everything stays inside the Reels/TikTok safe zone:
+                      # top 200 px app header, bottom 460 px caption/name/music, right 170 px buttons
 W, H = 1080, 1920
 
 
@@ -81,10 +83,12 @@ def battle_reel(run1: str, run2: str, overlay_png: str, out: str,
     fit = (f"scale={W}:{HALF_H}:force_original_aspect_ratio=increase,"
            f"crop={W}:{HALF_H},fps={FPS},setsar=1")
     filt = (
-        f"[0:v]trim=start={s1:.3f}:duration={length:.3f},setpts=PTS-STARTPTS,{fit}[top];"
+        f"[0:v]split=2[v0a][v0b];[v0a]trim=start={s1:.3f}:duration={length:.3f},setpts=PTS-STARTPTS,{fit}[top];"
         f"[1:v]trim=start={s2:.3f}:duration={length:.3f},setpts=PTS-STARTPTS,{fit}[bot];"
-        f"color=c=0x111111:s={W}x{H}:r={FPS}:d={length:.3f}[bg];"
-        f"[bg][top]overlay=0:0[t1];[t1][bot]overlay=0:{HALF_H + GAP}[t2];"
+        f"[v0b]trim=start={s1:.3f}:duration={length:.3f},setpts=PTS-STARTPTS,"
+        f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=30:2,eq=brightness=-0.3,"
+        f"fps={FPS},setsar=1[bg];"
+        f"[bg][top]overlay=0:{TOP}[t1];[t1][bot]overlay=0:{TOP + HALF_H + GAP}[t2];"
         f"[t2][2:v]overlay=0:0:format=auto,format=yuv420p[v];"
         # Audio: run 1 sound, so the reel keeps the real engine noise.
         f"[0:a]atrim=start={s1:.3f}:duration={length:.3f},asetpts=PTS-STARTPTS[a]"
