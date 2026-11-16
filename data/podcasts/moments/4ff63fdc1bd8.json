@@ -10,9 +10,10 @@
   "credit": "@sileightymania",
   "check": true,
   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\nFull episode: The SileightyMania Podcast @sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
-  "status": "queued",
+  "status": "error",
   "test": "first test of the clip pipeline by Claude",
   "clip": "docs/media/pod-4ff63fdc1bd8-0/clip.mp4",
-  "mode": "video"
+  "mode": "video",
+  "error": "No module named 'PIL'"
  }
 ]
