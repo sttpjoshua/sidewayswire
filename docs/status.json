@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:35:56.711569+00:00",
+ "updated": "2026-11-16T19:38:16.964693+00:00",
  "counts": {
-  "draft": 21
+  "draft": 25
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -2255,9 +2255,9 @@
       "topic": "HIS ORANGE DEMO CAR IS 700 LBS HEAVIER",
       "quote": "let me go back to my practice car, you know, my demo car that I brought at the world tour, which is now orange. Well, this car doesn't drive at all like my competition car. And some people that are not very deep into a drifting, sometimes they think it's the same car, you know, they're like, Oh, you brought your racing car or you change your living room, your car. Like, no, no, it's different. And it's like, you know, it's like a Miura and a, a, a Sauer. It's like two completely different car cause one, one, uh, weighs 2900 pounds. And the other one, the practice car weighs 3 ,600 pounds. So right there, there's a huge difference. And the weight distribution is like 5% different front to rear with the competition car. So all of that makes the car handles really, really differently.",
       "why": "Fans think his orange demo car is his FD car. It is 3,600 lb versus 2,900 lb for the competition car.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-3/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2268,9 +2268,9 @@
       "topic": "GREY WHEELS AND BLACK GLOVES HIDE CORRECTIONS",
       "quote": "Well, this, I made a decision, uh, quite some time ago to go with everything that's going to help me, uh, more than something that that's going to be more stylish. Back in the days, I, I was more like, okay, let's go white whales. Let's go with this and that, but being in pro, I feel that every little things that can help, help me, I will use it for me. So now I'm, uh, not black wheels, but it's a gray wheels. So you don't really see lots of the correction. Well, you see less correction than with white wheels for sure. Same things for my gloves. My gloves. Now I'm only using black gloves back in prospect when I won a championship in 24, I like a fluoro or a yellow gloves, which is like, you know, it's, it's cool. It's nice legs, but maybe not the wise, wise, the smooth to do when you want to, uh, you know, go under the radar with your correction.",
       "why": "He switched from white wheels and fluo gloves to grey wheels and black gloves so judges see less correction.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-4/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2281,9 +2281,9 @@
       "topic": "THE ORANGE LIVERY IN FD?",
       "quote": "Oh, I've been asked this question a couple of times last weekend. And, uh, I think it's, too big of a statement, you know, maybe it's, it's a bit too much. And we were laughing about it, but we were like, for sure there will be some like complaints, you know, like it's too, it's too bright, you know, like with, for my eyes or something like that.",
       "why": "Fans asked if the glowing orange demo livery comes to FD. Fun, short.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-5/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2294,9 +2294,9 @@
       "topic": "DOES A WHITE CAR CAUSE MORE CRASHES?",
       "quote": "I know. We'll probably talk about hockey a few times, but like in the NHL, goalie started swapping to white pads to increase their save percentage. And there was a direct correlation between having white goalie pads because players look for a white when they go to shoot, because they think it's the back of the net. So I'm like, Hmm, I wonder if not that like a driver would want more accidents, but like you might cause more mistakes in the chase by having a white car.",
       "why": "NHL goalies went to white pads to fool shooters; would an all-white drift car do the same to chase drivers?",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-6/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-6892a8b1e411-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "NHL goalies wear white pads to trick shooters. Could an all-white drift car trick the chase driver?\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #drifting #driftculture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 1728.1
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:38:16.962457+00:00",
+   "built": "2026-11-16T19:38:16.962461+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-6/clip.mp4",
+   "title": "DOES A WHITE CAR CAUSE MORE CRASHES?"
+  },
+  {
+   "id": "pod-6892a8b1e411-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Will Tommy Lemaire's glowing orange livery ever run in Formula DRIFT? He expects complaints that it is too bright.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #livery #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 1682.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:37:53.545264+00:00",
+   "built": "2026-11-16T19:37:53.545266+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-5/clip.mp4",
+   "title": "THE ORANGE LIVERY IN FD?"
+  },
+  {
+   "id": "pod-6892a8b1e411-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Why Tommy Lemaire ditched white wheels and fluo gloves: so the judges see fewer corrections. 👀\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 1553.64
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:37:34.713772+00:00",
+   "built": "2026-11-16T19:37:34.713774+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-4/clip.mp4",
+   "title": "GREY WHEELS AND BLACK GLOVES HIDE CORRECTIONS"
+  },
+  {
+   "id": "pod-6892a8b1e411-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "No, that orange Corvette is not his Formula DRIFT car. Tommy Lemaire explains the 700 lb difference.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 1462.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:36:45.360023+00:00",
+   "built": "2026-11-16T19:36:45.360025+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-3/clip.mp4",
+   "title": "HIS ORANGE DEMO CAR IS 700 LBS HEAVIER"
+  },
   {
    "id": "pod-6892a8b1e411-2",
    "kind": "podcast_clip",
