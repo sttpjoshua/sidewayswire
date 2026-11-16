@@ -80,7 +80,7 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
         cap_files = []
         for i, (_, _, text) in enumerate(caps):
             f = tmp / f"cap{i:03d}.png"
-            r.render("caption.html", {"w": W, "h": 300, "bg": "transparent", "text": text}, f, transparent=True)
+            r.render("caption.html", {"w": W, "h": 260, "bg": "transparent", "text": text}, f, transparent=True)
             cap_files.append(f)
 
         inputs, filt = [], []
@@ -88,16 +88,16 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
             inputs += ["-i", str(video)]
             filt.append(f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=30:2,"
                         f"eq=brightness=-0.25,fps={FPS},setsar=1[bg];"
-                        f"[0:v]scale={W}:-2,fps={FPS},setsar=1[fg];[bg][fg]overlay=0:560[base]")
+                        f"[0:v]scale={W}:-2,fps={FPS},setsar=1[fg];[bg][fg]overlay=0:500[base]")
             audio = "0:a"
-            cap_y = 1380
+            cap_y = 1180
         else:
             inputs += ["-ss", f"{start:.2f}", "-t", f"{length:.2f}", "-i", ep["audio"]]
             filt.append(f"color=c=0x151517:s={W}x{H}:r={FPS}:d={length:.2f}[bg0];"
-                        f"[0:a]showwaves=s=940x140:mode=cline:draw=full:rate={FPS}:colors=0xC6FF00:scale=sqrt,format=rgba[wave];"
-                        f"[bg0][wave]overlay=70:1560[base]")
+                        f"[0:a]showwaves=s=840x130:mode=cline:draw=full:rate={FPS}:colors=0xC6FF00:scale=sqrt,format=rgba[wave];"
+                        f"[bg0][wave]overlay=70:975[base]")
             audio = "0:a"
-            cap_y = 1250
+            cap_y = 1180
         n = 1
         inputs += ["-loop", "1", "-t", f"{length:.2f}", "-i", str(tmp / "layer.png")]
         filt.append(f"[base][{n}:v]overlay=0:0:format=auto[l0]")
