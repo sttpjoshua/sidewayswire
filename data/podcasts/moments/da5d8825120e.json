@@ -9,7 +9,7 @@
   "caption": "",
   "quote": "there's no way that you could tell me that 2018 James Dean would absolutely destroy 2026. James, it's not possible. Yeah. And that's what I think a lot of people look up to James for is that like, he came back and like James is drifting quite a long time now and he's came. He's from, if you were to go back 12, 13 years ago and take a driver who retired and, and say, come back to drifting now. They wouldn't, I personally believe that they would struggle massively, but how much the sport has changed. I think Digo Saito is a great example that like,",
   "why": "Gekozen door Joshua op het dashboard",
-  "status": "new",
+  "status": "error",
   "by": "joshua",
   "created": "2026-11-16T17:20:08.200Z",
   "edited": "2026-11-16T18:55:30.974Z",
@@ -24,7 +24,8 @@
     "src": "docs/media/photos/da5d8825120e-0-1794855325251.jpg",
     "credit": "Jamesdeane130"
    }
-  ]
+  ],
+  "error": "No module named 'PIL'"
  },
  {
   "start": 236.3,
@@ -37,10 +38,11 @@
   "credit": "@formulad",
   "check": false,
   "caption": "How do you fly a Formula DRIFT championship trophy home to Ireland? Not on a seat, apparently. 🏆✈️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-  "status": "queued",
+  "status": "error",
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-1/clip.mp4",
-  "mode": "video"
+  "mode": "video",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 311.2,
