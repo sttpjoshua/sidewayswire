@@ -210,14 +210,15 @@
   "by": "editor",
   "clip": "docs/media/pod-6892a8b1e411-8/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:38:45.074833+00:00",
+  "layout": 3,
+  "made": "2026-11-16T20:37:12.946102+00:00",
   "hook": {
    "start": 2451.96,
    "end": 2454.01,
    "text": "EVERYONE SAID IT WOULD FAIL",
    "why": "de uitspraak zelf"
-  }
+  },
+  "hook_sig": "{\"end\": 2454.01, \"start\": 2451.96, \"text\": \"EVERYONE SAID IT WOULD FAIL\", \"why\": \"de uitspraak zelf\"}"
  },
  {
   "start": 2578.84,
@@ -234,14 +235,15 @@
   "by": "editor",
   "clip": "docs/media/pod-6892a8b1e411-9/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:39:09.526562+00:00",
+  "layout": 3,
+  "made": "2026-11-16T20:38:18.657251+00:00",
   "hook": {
    "start": 2596.94,
    "end": 2602.03,
    "text": "WHY A C7 CORVETTE?",
    "why": "het verrassende feit"
-  }
+  },
+  "hook_sig": "{\"end\": 2602.03, \"start\": 2596.94, \"text\": \"WHY A C7 CORVETTE?\", \"why\": \"het verrassende feit\"}"
  },
  {
   "start": 2805.42,
@@ -258,14 +260,15 @@
   "by": "editor",
   "clip": "docs/media/pod-6892a8b1e411-10/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:39:46.796015+00:00",
+  "layout": 3,
+  "made": "2026-11-16T20:39:50.421987+00:00",
   "hook": {
    "start": 2814.32,
    "end": 2818.21,
    "text": "THREE ENGINES IN ONE SEASON",
    "why": "het verrassende feit"
-  }
+  },
+  "hook_sig": "{\"end\": 2818.21, \"start\": 2814.32, \"text\": \"THREE ENGINES IN ONE SEASON\", \"why\": \"het verrassende feit\"}"
  },
  {
   "start": 2864.66,
@@ -282,14 +285,15 @@
   "by": "editor",
   "clip": "docs/media/pod-6892a8b1e411-11/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:40:11.107990+00:00",
+  "layout": 3,
+  "made": "2026-11-16T20:40:52.891886+00:00",
   "hook": {
    "start": 2881.46,
    "end": 2885.99,
    "text": "RACE FUEL TO GET HOME?",
    "why": "de clou van het verhaal"
-  }
+  },
+  "hook_sig": "{\"end\": 2885.99, \"start\": 2881.46, \"text\": \"RACE FUEL TO GET HOME?\", \"why\": \"de clou van het verhaal\"}"
  },
  {
   "start": 2935.1,
