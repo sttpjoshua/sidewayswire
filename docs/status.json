@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:48:41.089377+00:00",
+ "updated": "2026-11-16T17:49:56.730968+00:00",
  "counts": {
   "draft": 1
  },
@@ -1368,37 +1368,37 @@
     "title": "The Outerzone - The Official Podcast of Formula DRIFT",
     "episodes": 187,
     "error": null,
-    "ok": "2026-11-16T17:17:17.641830+00:00"
+    "ok": "2026-11-16T17:49:52.013626+00:00"
    },
    "Drift Games Podcast": {
     "title": "The Drift Games Podcast",
     "episodes": 17,
     "error": null,
-    "ok": "2026-11-16T17:17:17.792853+00:00"
+    "ok": "2026-11-16T17:49:52.166241+00:00"
    },
    "The Goodest Cast": {
     "title": "The Goodest Cast - Hangout with the Drift Community",
     "episodes": 91,
     "error": null,
-    "ok": "2026-11-16T17:17:18.002736+00:00"
+    "ok": "2026-11-16T17:49:52.649204+00:00"
    },
    "The SileightyMania Podcast": {
     "title": "The SileightyMania Podcast - Drifting Interviews with OGs and Pioneers",
     "episodes": 45,
     "error": null,
-    "ok": "2026-11-16T17:17:18.417182+00:00"
+    "ok": "2026-11-16T17:49:53.147448+00:00"
    },
    "The Creative Drive": {
     "title": "The Creative Drive",
     "episodes": 53,
     "error": null,
-    "ok": "2026-11-16T17:17:18.602919+00:00"
+    "ok": "2026-11-16T17:49:53.371896+00:00"
    },
    "Behind The Wheel": {
     "title": "Konig - Behind The Wheel Podcast",
     "episodes": 377,
     "error": null,
-    "ok": "2026-11-16T17:17:19.656995+00:00"
+    "ok": "2026-11-16T17:49:55.574715+00:00"
    }
   },
   "episodes": [
@@ -1428,7 +1428,8 @@
       "why": "The 2024 D1NZ Pro Sport champion's AE86 has raced in D1NZ since 2004 and started as a bare shell from a judge. Good off-season story.",
       "status": "queued",
       "clip": "docs/media/pod-4ff63fdc1bd8-0/clip.mp4",
-      "mode": "audiogram"
+      "mode": "audiogram",
+      "wait_video": null
      }
     ]
    },
@@ -1464,7 +1465,255 @@
     "transcribed": "2026-11-16T17:04:38.296861+00:00",
     "tries": 0,
     "has_transcript": true,
-    "moments": []
+    "moments": [
+     {
+      "start": 3699,
+      "end": 3733,
+      "kind": "quote",
+      "guest": "CONOR SHANAHAN",
+      "topic": "WIL 2018 JAMES DESTROY 2026 JAMES?",
+      "quote": "there's no way that you could tell me that 2018 James Dean would absolutely destroy 2026. James, it's not possible. Yeah. And that's what I think a lot of people look up to James for is that like, he came back and like James is drifting quite a long time now and he's came. He's from, if you were to go back 12, 13 years ago and take a driver who retired and, and say, come back to drifting now. They wouldn't, I personally believe that they would struggle massively, but how much the sport has changed. I think Digo Saito is a great example that like,",
+      "why": "Gekozen door Joshua op het dashboard",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 236.3,
+      "end": 281.7,
+      "kind": "moment",
+      "guest": "CONOR SHANAHAN",
+      "topic": "THE TROPHY FLEW HOME IN A DRINKS CABINET",
+      "quote": "I got to ask about the logistics of bringing that trophy home. Like, did you end up booking a separate seat or like, did you have to keep it on your lap for the whole time or how did that all work out? Yeah, it was quite funny. Actually, the airline that we fly with to California is an Irish airline, Erlingus. Erlingus, yeah. So they're like really supportive, quite cool to, you know, ...",
+      "why": "Light, funny story about flying the 2026 FD trophy home to Ireland. Easy share.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 311.2,
+      "end": 331.7,
+      "kind": "moment",
+      "guest": "CONOR SHANAHAN",
+      "topic": "MUM'S KITCHEN TABLE RULE",
+      "quote": "To bring it home is always quite special. And yeah, I think I'm kind of a guy who like loves the small moments, you know, like it's always nice to come home and, you know, put it on the kitchen table for the first time. And I think when my mom will not take it off the kitchen table for at least probably two months. So that's kind of the rule. If we have a big win, they stay down there. ...",
+      "why": "Sweet family detail: big wins stay on the kitchen table for two months.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 454.9,
+      "end": 478.74,
+      "kind": "quote",
+      "guest": "CONOR SHANAHAN",
+      "topic": "ONE HAND ON THE TITLE, NOT BOTH",
+      "quote": "Yeah, I'm also a big believer in that it's not over until it's in my hand, you know, and that's kind of yeah, I guess the break between Vegas and Long Beach was quite rough because it's I have one hand on it, but not both. You know, it's very close to being done and but still anything going to happen. I think that's what added so much pressure to the battle. Everyone's like, oh, it's just a top pretty too. But I'm like, yeah, but if I lose this top, or two, Jack or James going to win the event. So I'm not going to be champion.",
+      "why": "How the pressure felt between Vegas and Long Beach; fans remember that final.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 693.9,
+      "end": 720.6,
+      "kind": "quote",
+      "guest": "CONOR SHANAHAN",
+      "topic": "\"HE WAS GOING TO BE AN FD CHAMPION\"",
+      "quote": "we all know that here, but I was going to be an FT champion, right? Like, yeah, I think, I think that's a foregone conclusion to be honest. Yeah. So I think like it's in Jerry's point of view, like he worked hard with that kid, the hero worked hard and I felt like he was maybe the last shot was took away from a little bit. So I'm like happy that, you know, you know, hero is such a good ...",
+      "why": "Conor says his would-be teammate Hiro was a sure future FD champion before leaving for rally. Name: check spelling (Hiro / Hiroki Vergara?).",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 745,
+      "end": 789,
+      "kind": "rumor",
+      "guest": "CONOR SHANAHAN",
+      "topic": "COULD HIRO RACE A US RALLY NEXT YEAR?",
+      "quote": "Yeah. Yeah. It's, it's tough to see him step away into rally. And, but at the same time, like it looks like he's doing well there. I have a very strong feeling. We're going to see him climb the ranks of, of rally very soon, which might be very, which could be cool. Cause they're going to have around in the U S next year. So like the chance, there is a chance we might be able to see him ...",
+      "why": "Speculation that Hiro could drive a US rally round next year. Rumor, needs Joshua.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 838.7,
+      "end": 878.68,
+      "kind": "quote",
+      "guest": "CONOR SHANAHAN",
+      "topic": "\"YOU DRIVE HOW THE JUDGES TELL YOU\"",
+      "quote": "you know, like, you know, the argument of people saying, Oh, you can't drive how you want to drive in competition. Well, no shit, you know, like, yeah, yeah, exactly. You know, you're going to drive. Yeah, I don't really understand that point. But yeah, of course, like we all critique stuff. We all maybe want stuff to be a little bit different. I think, you know, drifting is involving as a whole when it comes to our rule book and a judging rule book. But I don't get that sometimes, you know, I don't get that point of like, Oh, like, you know, competition driving, you don't drive how you want to drive. But like, that's kind of the whole point, right? Like you go to a room in the morning tree, guys tell you what to do. And you do that job the best you can, and you're going to win the you know, that's kind of my opinion how it works.",
+      "why": "Strong opinion on the 'you can't drive how you want' debate. Comment bait.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 1424.86,
+      "end": 1450.9,
+      "kind": "quote",
+      "guest": "CONOR SHANAHAN",
+      "topic": "\"ALMOST HAD YOU? BUT YOU DIDN'T\"",
+      "quote": "You need real people around you. You don't need people around you that are telling you like, Oh, well you've done good. You know, you lost the battle, but you almost had them. Like that's the part for me. When somebody says to me, I almost had you. I'm like, but you didn't. Yeah. That's the difference. Yeah. Almost had like, I would never, I hate that work being honest. There's one thing what annoys me in drifting when somebody says, Oh, but we almost had you, but you didn't. Yeah. You weren't good enough to have me. So go back and be realistic about that.",
+      "why": "Blunt quote, very shareable.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 1132.48,
+      "end": 1152.7,
+      "kind": "moment",
+      "guest": "CONOR SHANAHAN",
+      "topic": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
+      "quote": "I said at the banquet, like, I would often text him late at night. And I'm like, what are you doing? He's like, I'm just watching a drift event. And I'm like, where's the drift event? And it's in like Egypt or something. And I'm like, you know, and I love drifting also. And I always felt for a while that I would never meet somebody who loved drifting just as much as me. But I definitely ...",
+      "why": "Funny detail about how obsessed his spotter Matt is. Name spelling: check.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 1250,
+      "end": 1288.04,
+      "kind": "fact",
+      "guest": "CONOR SHANAHAN",
+      "topic": "THE SECRET NUMBER SYSTEM",
+      "quote": "me and Matt have a very simple number system, what we use. So like in battle situations, like a lot of the time, so Matt will give me a rundown before the battle, what I'm warming the towers up, what to expect, what to approach. But after that, it's very, it's very simple communication. We have a number system that we've studied very to a very high level. You maybe will see me do ...",
+      "why": "He and his spotter use a number system; slow practice runs are them practising it.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 1868.5,
+      "end": 1926.84,
+      "kind": "moment",
+      "guest": "CONOR SHANAHAN",
+      "topic": "\"IF IT FAILS, MY AMERICAN JOURNEY IS OVER\"",
+      "quote": "You know, I talked about a lot about this journey year that in first 15 minutes, I knew that we were going to fight for a championship. That's very true. Like, that's not a saying that I just came up with that actually happened. And it wasn't that the car was that good. I didn't even drive the car at this point. But jury and his team gave me a sense of like, this is where I meant to be ...",
+      "why": "Strongest story of the episode: all-in bet on Jerry Yang's team.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 1996.48,
+      "end": 2023.6,
+      "kind": "quote",
+      "guest": "CONOR SHANAHAN",
+      "topic": "\"JAMES BEATING US WAS THE BEST THING\"",
+      "quote": "we're like, I think we can get back to a good position. Do I think that we can fight for championship? Maybe not. You know, for sure, it wasn't a perfect year. There was still some things what could have been better on my side. And, you know, we had a little bit of bad look. But like, overall, when I look back at the year, I think it was everything what it needed to be. James whooped ...",
+      "why": "Says losing to James Deane in Orlando turned the season.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 2246.94,
+      "end": 2280.4,
+      "kind": "fact",
+      "guest": "CONOR SHANAHAN",
+      "topic": "HIS CREW CHIEF DOES THE TESTING",
+      "quote": "Eric, my crew guy, holy shit, he can drive. Like, I actually really want to drive with him. I have watched a lot of these videos and stuff. And like, so anytime the car needed to get tested when I wasn't there, Eric was the one who done the testing on my car as well. Which I thought was sick. Like, there's not many teams can say that their crew chief guy was the guy who was driving it ...",
+      "why": "Little-known fact: crew chief Eric tests the car when Conor is in Europe.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 2638.8,
+      "end": 2712.2,
+      "kind": "fact",
+      "guest": "CONOR SHANAHAN",
+      "topic": "1,500 WHP AND NO NOS ALL YEAR",
+      "quote": "Even in Europe, there was a long time that I used like a smaller turbo than Jack. Right. So the VR suits my style, but then the VR went to the other extreme where we had a problem that it just was too much. Like the engine was too much. Like I was constantly asking to turn it down, turn it down, turn it down, turn it down. To the point that we almost couldn't turn it down anymore. First ...",
+      "why": "Big numbers and a surprising choice: he asked to turn the engine DOWN.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 3046.4,
+      "end": 3099.2,
+      "kind": "fact",
+      "guest": "CONOR SHANAHAN",
+      "topic": "HE STARTED THE LEFT-FOOT TRICK",
+      "quote": "I was always like, oh, there's a way that we can make run -up better. There has got to be a way to like chasing on the run -up has to be better. So I started left foot braking always on the run -up, on the chase. So I would left foot brake to flick, like mimic the speed. Um, if there, even in Poland and my onboards and stuff, like Dylan Hughes asked me in FD, he was like, that blows my ...",
+      "why": "Claims he started left-foot braking on the chase run-up and others copied it (mentions Dylan Hughes and LZ). Check names.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 3259.9,
+      "end": 3294.32,
+      "kind": "moment",
+      "guest": "CONOR SHANAHAN",
+      "topic": "OFF-SEASON? WHAT OFF-SEASON?",
+      "quote": "There is not much of an off season actually. Um, yeah, I go to Japan next week to do D1, which I'm excited about. Um, yeah, so I got to go there and then I will go to Cyprus, which is kind of like a traditional trip. What Irish drivers do at the end of the year. I haven't went actually in the last three years, so I'm excited to go there. Um, and then I do a rally, which is kind of like ...",
+      "why": "D1 in Japan, Cyprus, a rally and Oman. Note: recorded right after Long Beach, so 'next week' may be past.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 3355.16,
+      "end": 3399.7,
+      "kind": "quote",
+      "guest": "CONOR SHANAHAN",
+      "topic": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\"",
+      "quote": "I really have a goal right now that I probably shouldn't say this, but I really have a goal that I want next year to be the best version ever of Connor Shanahan. And I mean that in many ways, like not just in the car. I mean, like, I really want to spend time working on myself and I want to somewhat take my health more serious towards drifting. I want to try focus more on kind of ...",
+      "why": "Plans for 2027: more fitness and preparation.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 3772.6,
+      "end": 3796.5,
+      "kind": "rumor",
+      "guest": "CONOR SHANAHAN",
+      "topic": "BIG FD CHANGES COMING NEXT YEAR?",
+      "quote": "Yeah. Yeah. I, next year I'm very, very excited for, I know it looks like there's going to be some changes as well, which is, is kind of cool. I don't know if you got that, the memo about. A lot of changes, I think. Yeah. And I think there's going to be more than even you and I don't have preview too. Like, it's, I know, I'm very excited to see what ends up happening next year with, ...",
+      "why": "Host and Conor hint at changes for next season they cannot share yet. Rumor, needs Joshua.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     },
+     {
+      "start": 3892.68,
+      "end": 3916.44,
+      "kind": "moment",
+      "guest": "CONOR SHANAHAN",
+      "topic": "\"KEEP HATING ME, PLEASE\"",
+      "quote": "And I just want to take this opportunity to say thank you to them as well. And the people who hate me. Thank you so much because you guys motivate me more than ever as well. And keep hating me, please. I don't think there's many, but I'm sure there's some. I'm for sure. I think it's normal when you do something good. Yeah. Yeah. It's a, if somebody's pissed off with where you're going, ...",
+      "why": "Fun closing line to the haters.",
+      "status": "new",
+      "clip": null,
+      "mode": null,
+      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+     }
+    ]
    },
    {
     "id": "1298fd1c600b",
