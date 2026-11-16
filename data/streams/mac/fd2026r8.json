@@ -1,67 +1,9 @@
 {
- "candidates": [
-  {
-   "id": "vROtE7tycSg",
-   "seconds": 10835.0,
-   "title": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
-   "score": 5,
-   "event": true
-  },
-  {
-   "id": "AvvFInofbdc",
-   "seconds": 9760.0,
-   "title": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 32",
-   "score": 5,
-   "event": true
-  },
-  {
-   "id": "VN4E1bjrx4o",
-   "seconds": 11930.0,
-   "title": "FDJ - Round 6: Okayama International Circuit - Top 32",
-   "score": 3,
-   "event": false
-  },
-  {
-   "id": "hnGly_d6cR0",
-   "seconds": 10691.0,
-   "title": "Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Top 32",
-   "score": 3,
-   "event": false
-  },
-  {
-   "id": "m6v4IihgHgY",
-   "seconds": 10216.0,
-   "title": "FDJ - Round 4: Sportsland Sugo - Top 32",
-   "score": 3,
-   "event": false
-  },
-  {
-   "id": "rbtps1zxw4I",
-   "seconds": 10086.0,
-   "title": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
-   "score": 3,
-   "event": false
-  },
-  {
-   "id": "SXNOqCs8w_o",
-   "seconds": 9670.0,
-   "title": "Formula DRIFT Orlando 2026 - PRO, Round 3 - Top 32",
-   "score": 3,
-   "event": false
-  },
-  {
-   "id": "xjapUwaFTy8",
-   "seconds": 9551.0,
-   "title": "FDJ - Round 5: Gransnow Okuibuki, Shiga - Top 32",
-   "score": 3,
-   "event": false
-  }
- ],
- "at": 1794859053.584796,
- "youtube": "vROtE7tycSg",
- "seconds": 10835.0,
- "found_title": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
- "status": "transcribed",
- "transcribed": "2026-11-16T20:03:58.662784+00:00",
- "error": null
+ "youtube": "AvvFInofbdc",
+ "status": "error",
+ "note": "video vastgelegd in het register",
+ "seconds": 9760.0,
+ "found_title": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 32",
+ "error": "cannot access local variable 'pick' where it is not associated with a value",
+ "at": 1794861321.848274
 }
