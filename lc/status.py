@@ -21,7 +21,7 @@ def podcast_status() -> dict:
         mf = d / "moments" / f"{e['id']}.json"
         moments = json.loads(mf.read_text()) if mf.exists() else []
         eps.append({k: e.get(k) for k in ("id", "podcast", "title", "published", "status", "youtube",
-                                          "audio", "link", "art", "seconds", "error")}
+                                          "audio", "link", "art", "seconds", "error", "transcribed", "tries")}
                    | {"has_transcript": (d / "t" / f"{e['id']}.txt").exists(),
                       "moments": [{k: m.get(k) for k in ("start", "end", "kind", "guest", "topic", "quote",
                                                          "why", "status", "clip", "mode")} for m in moments]})

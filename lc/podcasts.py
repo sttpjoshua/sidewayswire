@@ -217,7 +217,45 @@ def write_transcript(t: dict):
     (d / f"{t['id']}.txt").write_text("\n".join(lines).replace("\n\n\n", "\n\n"), encoding="utf-8")
 
 
+def requests_list() -> list:
+    """The waiting list made on the dashboard: [{"id", "at"}], oldest first.
+    Read fresh from GitHub when we can, so a request added during a run is picked up too."""
+    token, repo = os.environ.get("GH_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
+    if token and repo:
+        try:
+            r = requests.get(f"https://api.github.com/repos/{repo}/contents/data/podcasts/requests.json",
+                             params={"ref": "main"}, timeout=20,
+                             headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github.raw"})
+            if r.status_code == 404:
+                return []
+            if r.ok:
+                return r.json()
+        except Exception as ex:
+            print("requests:", ex)
+    f = DIR / "requests.json"
+    return json.loads(f.read_text()) if f.exists() else []
+
+
+def waiting(ix: dict, done: set) -> list:
+    """Episodes on the waiting list that still need a transcript, in list order."""
+    out = []
+    for r in requests_list():
+        e = ix["episodes"].get(r.get("id"))
+        if not e or e["id"] in done or e["id"] in out:
+            continue
+        if e["status"] == "transcribed" and (e.get("transcribed") or "") >= (r.get("at") or ""):
+            continue
+        if e["status"] == "error" and e.get("tries", 0) >= 3:
+            continue                     # tried three times, the dashboard shows the error
+        out.append(e["id"])
+    return out
+
+
+BUDGET = 240 * 60          # stop starting new episodes after four hours (the job may run five)
+
+
 def run() -> dict:
+    t_run = time.time()
     ix = load_index()
     progress.update(force=True, phase="search", episode=None, todo=[], pct=None)
     new = discover(ix)
@@ -228,40 +266,52 @@ def run() -> dict:
         if e["status"] == "skipped" and any(w in (e["title"] + " " + e.get("summary", "")).lower() for w in words):
             e["status"] = "new"
     forced = os.environ.get("EPISODE", "").strip()
-    if forced and forced in ix["episodes"]:
-        ix["episodes"][forced].update(status="new", tries=0)    # asked for on the dashboard
     rank = {p[0]: i for i, p in enumerate(PODCASTS)}
-    todo = sorted((e for e in ix["episodes"].values() if e["status"] in ("new", "error") and e.get("tries", 0) < 3),
-                  key=lambda e: (e["id"] == forced, e["published"][:10], -rank.get(e["podcast"], 9)),
-                  reverse=True)[:max(PER_RUN, 1 if forced else 0)]
+    regular = [e["id"] for e in sorted(
+        (e for e in ix["episodes"].values() if e["status"] in ("new", "error") and e.get("tries", 0) < 3),
+        key=lambda e: (e["published"][:10], -rank.get(e["podcast"], 9)), reverse=True)][:PER_RUN]
+    done: set = set()
     report = {"new_episodes": len(new), "transcribed": [], "errors": []}
-    if todo:
-        from faster_whisper import WhisperModel
-        progress.update(force=True, phase="model", todo=[e["id"] for e in todo],
-                        titles={e["id"]: e["title"] for e in todo})
-        model = WhisperModel(MODEL, device="cpu", compute_type="int8")
-        for n, ep in enumerate(todo):
-            t0 = time.time()
-            progress.update(force=True, phase="download", episode=ep["id"], title=ep["title"],
-                            podcast=ep["podcast"], index=n, pct=0.0, episode_started=datetime.now(timezone.utc).isoformat())
+    model = None
 
-            def tell(phase, pct, duration, _first=[True]):
-                first = _first[0] and phase == "transcribe"
-                _first[0] = _first[0] and not first
-                progress.update(force=first, phase=phase, pct=round(pct, 3), duration=duration,
-                                **({"transcribe_started": datetime.now(timezone.utc).isoformat()} if first else {}))
-            try:
-                t = transcribe(ep, model, tell)
-                write_transcript(t)
-                ep.update(status="transcribed", transcribed=datetime.now(timezone.utc).isoformat(),
-                          words=sum(len(s["words"]) for s in t["segments"]), seconds=t["duration"])
-                report["transcribed"].append(f"{ep['podcast']}: {ep['title']} ({int(time.time() - t0)} s)")
-            except Exception as ex:
-                ep.update(status="error", error=str(ex)[:200], tries=ep.get("tries", 0) + 1)
-                report["errors"].append(f"{ep['podcast']}: {ex}")
-            save_index(ix)          # keep progress even if a later episode fails
-            progress.update(force=True, phase="saved", episode=ep["id"], pct=1.0,
-                            finished=(progress._state.get("finished") or []) + [ep["id"]])
+    def plan():
+        asked = waiting(ix, done)
+        if forced and forced in ix["episodes"] and forced not in done and forced not in asked:
+            asked.insert(0, forced)
+        return asked + [i for i in regular if i not in done and i not in asked], set(asked)
+
+    while time.time() - t_run < BUDGET:
+        todo, asked = plan()
+        if not todo:
+            break
+        ep = ix["episodes"][todo[0]]
+        if model is None:
+            from faster_whisper import WhisperModel
+            progress.update(force=True, phase="model", todo=todo)
+            model = WhisperModel(MODEL, device="cpu", compute_type="int8")
+        t0 = time.time()
+        progress.update(force=True, phase="download", episode=ep["id"], title=ep["title"], podcast=ep["podcast"],
+                        todo=todo, pct=0.0, episode_started=datetime.now(timezone.utc).isoformat())
+
+        def tell(phase, pct, duration, _first=[True]):
+            first = _first[0] and phase == "transcribe"
+            _first[0] = _first[0] and not first
+            progress.update(force=first, phase=phase, pct=round(pct, 3), duration=duration,
+                            **({"transcribe_started": datetime.now(timezone.utc).isoformat()} if first else {}))
+        try:
+            t = transcribe(ep, model, tell)
+            write_transcript(t)
+            ep.update(status="transcribed", transcribed=datetime.now(timezone.utc).isoformat(), error=None,
+                      words=sum(len(s["words"]) for s in t["segments"]), seconds=t["duration"])
+            report["transcribed"].append(f"{ep['podcast']}: {ep['title']} ({int(time.time() - t0)} s)")
+        except Exception as ex:
+            ep.update(status="error", error=str(ex)[:200], tries=ep.get("tries", 0) + 1)
+            report["errors"].append(f"{ep['podcast']}: {ex}")
+        done.add(ep["id"])
+        save_index(ix)          # keep progress even if a later episode fails
+        progress.update(force=True, phase="saved", episode=ep["id"], pct=1.0,
+                        todo=[i for i in todo if i != ep["id"]],
+                        finished=(progress._state.get("finished") or []) + [ep["id"]])
     return report
 
 

@@ -45,6 +45,14 @@ textarea{min-height:70px;resize:vertical}
 .pulse{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--accent);margin-right:8px;animation:pl 1.2s infinite}
 #live.stale .pulse{background:var(--pink);animation:none}
 @keyframes pl{0%,100%{opacity:1}50%{opacity:.2}}
+#qpanel{border-bottom:2px solid #000;background:#111}
+#qpanel h3{font-family:"Bebas Neue",sans-serif;letter-spacing:1px;font-size:22px;margin:0;padding:12px 14px 4px}
+.qi{display:grid;grid-template-columns:28px 1fr auto;gap:8px;align-items:center;padding:8px 14px;border-top:1px solid #2c2c30;cursor:pointer;font-size:13px}
+.qi:hover{background:var(--card)}.qi .nr{font-family:"Bebas Neue",sans-serif;font-size:24px;color:var(--accent);text-align:center}
+.qi.run .nr{color:#111;background:var(--accent)}.qi small{color:var(--mute);display:block;font-size:11px}
+.qi .pbar{height:5px;margin-top:4px}
+.qi button,.qadd{background:none;border:1px solid #3a3a40;color:#fff;font-weight:800;font-size:11px;padding:3px 7px;cursor:pointer}
+.qadd{margin-top:6px;letter-spacing:1px}.qadd:hover,.qi button:hover{border-color:var(--accent);color:var(--accent)}
 dialog{background:var(--card);color:#fff;border:2px solid var(--accent);max-width:560px}
 dialog ol{padding-left:18px;line-height:1.6;font-size:14px}
 .empty{padding:40px;color:var(--mute)}
@@ -52,7 +60,7 @@ dialog ol{padding-left:18px;line-height:1.6;font-size:14px}
 </style></head><body>
 <header><img src="assets/woordmerk_kleur.svg" alt="Sideways Wire">
 <nav><a href="index.html">DASHBOARD</a><a class="on" href="podcasts.html">PODCASTS</a><a href="#" id="keybtn">SLEUTEL</a></nav></header>
-<div id="live"></div><div class="wrap"><div id="list"></div><main id="main"><div class="empty">Kies links een aflevering.</div></main></div>
+<div id="live"></div><div class="wrap"><div id="list"><div id="qpanel"></div><div id="eps"></div></div><main id="main"><div class="empty">Kies links een aflevering.</div></main></div>
 <div id="toast"></div>
 <dialog id="keydlg"><h2>GITHUB-SLEUTEL</h2>
 <p class="muted">Nodig om wijzigingen op te slaan. Hij blijft alleen in deze browser.</p>
@@ -95,8 +103,11 @@ let S, EP=null, T=null, M=[], sel=null;
 async function load(){
   S=await fetch("status.json?"+Date.now()).then(r=>r.json());
   const eps=(S.podcasts||{}).episodes||[];
-  list.innerHTML=eps.map(e=>`<div class="ep" data-id="${e.id}"><b>${esc(e.title)}</b><small><span class="tag ${e.status==="transcribed"?"g":e.status==="skipped"?"d":""}">${esc(e.podcast)}</span>${day(e.published)} · ${esc(EPST[e.status]||e.status)}${e.moments.length?` · ${e.moments.length} moment${e.moments.length>1?"en":""}`:""}<span class="busy" data-b="${e.id}"></span></small></div>`).join("")||`<div class="empty">Nog geen afleveringen.</div>`;
-  list.onclick=ev=>{const d=ev.target.closest(".ep");if(d)openEp(d.dataset.id)};
+  document.getElementById("eps").innerHTML=eps.map(e=>`<div class="ep" data-id="${e.id}"><b>${esc(e.title)}</b><small><span class="tag ${e.status==="transcribed"?"g":e.status==="skipped"?"d":""}">${esc(e.podcast)}</span>${day(e.published)} · ${esc(EPST[e.status]||e.status)}${e.moments.length?` · ${e.moments.length} moment${e.moments.length>1?"en":""}`:""}<span class="busy" data-b="${e.id}"></span></small>${e.has_transcript?"":`<button class="qadd" data-add="${e.id}" title="In de wachtrij zetten">+ RIJ</button>`}</div>`).join("")||`<div class="empty">Nog geen afleveringen.</div>`;
+  list.onclick=ev=>{const b=ev.target.closest("[data-add],[data-del],[data-up]");
+    if(b){ev.stopPropagation();if(b.dataset.add)addQ(b.dataset.add);else if(b.dataset.del)delQ(b.dataset.del);else upQ(b.dataset.up);return}
+    const d=ev.target.closest(".ep,.qi");if(d)openEp(d.dataset.id)};
+  await loadReq();
   const want=location.hash.slice(1); if(want) openEp(want); liveDraw();
 }
 async function openEp(id){
@@ -113,10 +124,9 @@ function draw(){
   main.innerHTML=`<span class="tag">${esc(e.podcast)}</span><span class="muted">${day(e.published)}${e.youtube?` · <a href="https://www.youtube.com/watch?v=${e.youtube}" target="_blank">video op YouTube</a>`:" · alleen audio"}${e.link?` · <a href="${esc(e.link)}" target="_blank">aflevering</a>`:""}</span>
   <h1 style="margin-top:8px">${esc(e.title)}</h1>
   <audio id="au" controls preload="none" src="${esc(e.audio)}"></audio>
-  ${T?"":`<div class="mo" id="epbusy"><b>Nog geen transcript.</b> <span class="muted">${esc(EPST[e.status]||e.status)}${e.error?" · "+esc(e.error):""}</span><div class="row" style="margin-top:8px"><button class="btn g" id="dotr">NU TRANSCRIBEREN</button><span class="muted">Duurt ongeveer even lang als de aflevering zelf.</span></div></div>`}
+  ${T?"":`<div class="mo" id="epbusy"><b>Nog geen transcript.</b> <span class="muted">${esc(EPST[e.status]||e.status)}${e.error?" · "+esc(e.error):""}</span><div id="qbox"></div></div>`}
   <h2>MOMENTEN (${M.length})</h2><div id="mos">${M.length?"":`<div class="muted">Nog geen momenten. Klik hieronder in het transcript op een begin en een eind om zelf een clip te maken.</div>`}</div>
   ${T?`<h2>TRANSCRIPT <span class="muted" style="font-family:Inter;font-size:13px;letter-spacing:0">klik een regel voor het begin, nog een regel voor het eind · ▶ om te luisteren</span></h2><div class="tr" id="tr"></div><div id="selbar"></div>`:""}`;
-  if(!T) document.getElementById("dotr").onclick=async()=>{try{await runWorkflow({per_run:"0",episode:e.id});try{localStorage.setItem("sw_req",JSON.stringify({id:e.id,at:Date.now()}))}catch(_){};toast("Aangevraagd. Bovenaan zie je de voortgang.");liveDraw()}catch(x){toast(x.message,1)}};
   drawMoments(); if(T) drawTranscript(); liveDraw();
 }
 function drawMoments(){
@@ -186,6 +196,7 @@ function eta(n,p){if(n.phase!=="transcribe"||!p||!n.transcribe_started)return nu
   const run=(Date.now()-new Date(n.transcribe_started))/1000;return p>.02?run/p*(1-p):(n.duration||0)*(1-p)}
 async function livePoll(){
   try{NOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){NOW=null}
+  await loadReq();
   const busy=NOW&&NOW.phase!=="done"&&(Date.now()-new Date(NOW.updated))<45*60000;
   if(wasBusy&&!busy){toast("De run is klaar. Over een minuut ververst de lijst.");setTimeout(()=>load().then(()=>EP&&openEp(EP.id)),70000)}
   wasBusy=busy; liveDraw();
@@ -195,7 +206,7 @@ function liveDraw(){
   let req=null;try{req=JSON.parse(localStorage.getItem("sw_req")||"null")}catch(e){}
   const busy=n&&n.phase!=="done"&&(Date.now()-new Date(n.updated))<45*60000;
   if(req&&(Date.now()-req.at>25*60000||(n&&n.started&&new Date(n.started)>req.at-60000&&busy)||(n&&n.phase==="done"&&new Date(n.updated)>req.at))){try{localStorage.removeItem("sw_req")}catch(e){};req=null}
-  document.querySelectorAll(".busy").forEach(b=>b.innerHTML="");
+  drawQueue(busy?n:null);
   if(!busy&&!req){el.style.display="none";return}
   el.style.display="block";
   if(!busy){el.className="";el.innerHTML=`<span class="pulse"></span><b>AANGEVRAAGD</b> <span class="muted">om ${new Date(req.at).toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit"})}. GitHub start de machine en installeert de software, dat duurt een paar minuten. Daarna verschijnt hier de voortgang.</span>`;return}
@@ -207,12 +218,67 @@ function liveDraw(){
    <span style="margin-left:auto" class="muted">${p!=null?Math.round(p*100)+"%":""}${left!=null?` · nog ongeveer ${mins(left)}`:""}${todo.length>1?` · aflevering ${i+1} van ${todo.length}`:""} · bijgewerkt ${ago(n.updated)}${n.run?` · <a href="https://github.com/${REPO}/actions/runs/${n.run}" target="_blank">details</a>`:""}</span></div>
    ${p!=null?`<div class="bar"><i style="width:${(p*100).toFixed(1)}%"></i></div>`:""}
    ${stale?`<div class="muted" style="margin-top:6px">Al een tijd geen teken van leven. Misschien is de run vastgelopen; kijk bij details.</div>`:""}`;
-  todo.forEach((id,k)=>{const b=document.querySelector(`.busy[data-b="${id}"]`);if(!b)return;
-    if(id===n.episode&&n.phase!=="saved")b.innerHTML=` · <span class="tag g">BEZIG${p!=null?" "+Math.round(p*100)+"%":""}</span>`;
-    else if(k>i&&!(n.finished||[]).includes(id))b.innerHTML=` · <span class="tag">IN DE RIJ</span>`});
-  const eb=document.getElementById("epbusy");
-  if(eb&&EP&&EP.id===n.episode&&n.phase!=="saved")eb.innerHTML=`<b>Wordt nu getranscribeerd</b> <span class="muted">${esc(PH[n.phase]||n.phase)}${p!=null?" · "+Math.round(p*100)+"%":""}${left!=null?` · nog ongeveer ${mins(left)}`:""}</span>${p!=null?`<div class="pbar"><i style="width:${(p*100).toFixed(1)}%"></i></div>`:""}<div class="muted" style="margin-top:6px">Als hij klaar is, verschijnt het transcript hier vanzelf.</div>`;
-  else if(eb&&EP&&todo.includes(EP.id)&&!(n.finished||[]).includes(EP.id)&&EP.id!==n.episode)eb.innerHTML=`<b>In de rij</b> <span class="muted">Deze aflevering komt na de huidige aan de beurt.</span>`;
+}
+
+// ---- waiting list (data/podcasts/requests.json) ----
+let REQ=[];
+async function loadReq(){
+  try{
+    if(key){const r=await fetch(API+"/contents/data/podcasts/requests.json?ref=main&"+Date.now(),{headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github.raw"}});REQ=r.ok?await r.json():[]}
+    else{const r=await fetch(RAW+"data/podcasts/requests.json?"+Date.now());REQ=r.ok?await r.json():[]}
+  }catch(e){REQ=REQ||[]}
+}
+const epOf=id=>((S&&S.podcasts&&S.podcasts.episodes)||[]).find(e=>e.id===id);
+function fulfilled(r,n){const e=epOf(r.id);if(!e)return true;
+  if(e.status==="transcribed"&&(e.transcribed||"")>=(r.at||""))return true;
+  if(e.status==="error"&&(e.tries||0)>=3)return true;
+  return !!(n&&(n.finished||[]).includes(r.id)&&n.started>=(r.at||""));}
+function queueNow(n){ // [{id, run, auto}] in the order they will be done
+  const out=[], running=n&&n.episode&&!["saved","clips"].includes(n.phase)?n.episode:null;
+  if(running)out.push({id:running,run:true});
+  REQ.filter(r=>!fulfilled(r,n)&&r.id!==running).forEach(r=>out.push({id:r.id}));
+  if(n)(n.todo||[]).forEach(id=>{if(!out.some(o=>o.id===id)&&!(n.finished||[]).includes(id))out.push({id,auto:true})});
+  return out;
+}
+async function reqOp(fn,msg){
+  if(!key){keydlg.showModal();throw new Error("Eerst een GitHub-sleutel instellen")}
+  for(let k=0;k<2;k++){
+    let sha,cur=[];
+    try{const f=await gh(`/contents/data/podcasts/requests.json?ref=main&${Date.now()}`);sha=f.sha;cur=JSON.parse(decodeURIComponent(escape(atob(f.content.replace(/\n/g,"")))))}catch(e){if(!String(e).includes("404"))throw e}
+    const next=fn(cur.filter(r=>!fulfilled(r,NOW)));
+    try{await gh(`/contents/data/podcasts/requests.json`,{method:"PUT",body:JSON.stringify({message:`dashboard: ${msg}`,content:b64(JSON.stringify(next,null,1)),sha,branch:"main"})});REQ=next;liveDraw();return}
+    catch(e){if(k||!/409|422/.test(String(e)))throw e}
+  }
+}
+async function addQ(id){
+  try{await reqOp(l=>l.some(r=>r.id===id)?l:[...l,{id,at:new Date().toISOString()}],"queue "+id);
+    await runWorkflow({per_run:"0",episode:""});
+    try{if(!(NOW&&NOW.phase!=="done"))localStorage.setItem("sw_req",JSON.stringify({id,at:Date.now()}))}catch(_){}
+    const pos=queueNow(NOW).findIndex(o=>o.id===id)+1;toast(`In de wachtrij gezet${pos?", plaats "+pos:""}.`);liveDraw()}
+  catch(x){toast(x.message,1)}
+}
+async function delQ(id){try{await reqOp(l=>l.filter(r=>r.id!==id),"unqueue "+id);toast("Uit de wachtrij gehaald.")}catch(x){toast(x.message,1)}}
+async function upQ(id){try{await reqOp(l=>{const i=l.findIndex(r=>r.id===id);if(i>0)[l[i-1],l[i]]=[l[i],l[i-1]];return l},"move up "+id)}catch(x){toast(x.message,1)}}
+function drawQueue(n){
+  const qp=document.getElementById("qpanel"), Q=queueNow(n), p=n?est(n):null, left=n?eta(n,p):null;
+  document.querySelectorAll(".busy").forEach(b=>b.innerHTML="");
+  document.querySelectorAll(".qadd").forEach(b=>b.style.display=Q.some(o=>o.id===b.dataset.add)?"none":"");
+  let nr=0;
+  qp.innerHTML=Q.length?`<h3>WACHTRIJ (${Q.length})</h3>`+Q.map(o=>{const e=epOf(o.id)||{title:o.id,podcast:""};if(!o.run)nr++;
+    const b=document.querySelector(`.busy[data-b="${o.id}"]`);
+    if(b)b.innerHTML=o.run?` · <span class="tag g">BEZIG${p!=null?" "+Math.round(p*100)+"%":""}</span>`:` · <span class="tag">IN DE RIJ #${nr}</span>`;
+    const ri=REQ.findIndex(r=>r.id===o.id), canUp=!o.run&&!o.auto&&ri>0&&!fulfilled(REQ[ri-1],n)&&REQ[ri-1].id!==(n&&n.episode);
+    return `<div class="qi ${o.run?"run":""}" data-id="${o.id}"><span class="nr">${o.run?"▶":nr}</span><div><b>${esc(e.title)}</b><small>${esc(e.podcast)}${o.run?` · ${esc(PH[n.phase]||n.phase)}${p!=null?" · "+Math.round(p*100)+"%":""}${left!=null?" · nog ~"+mins(left):""}`:o.auto?" · automatisch":""}</small>${o.run&&p!=null?`<div class="pbar"><i style="width:${(p*100).toFixed(1)}%"></i></div>`:""}</div>
+      <span>${canUp?`<button data-up="${o.id}" title="Hoger zetten">↑</button> `:""}${o.run||o.auto?"":`<button data-del="${o.id}" title="Uit de wachtrij">✕</button>`}</span></div>`}).join("")
+    :`<h3>WACHTRIJ</h3><div class="muted" style="padding:0 14px 12px">Leeg. Zet een aflevering erin met + RIJ.</div>`;
+  const qb=document.getElementById("qbox"), eb=document.getElementById("epbusy");
+  if(!eb||!EP)return;
+  const pos=Q.findIndex(o=>o.id===EP.id), o=Q[pos];
+  if(o&&o.run){eb.innerHTML=`<b>Wordt nu getranscribeerd</b> <span class="muted">${esc(PH[n.phase]||n.phase)}${p!=null?" · "+Math.round(p*100)+"%":""}${left!=null?` · nog ongeveer ${mins(left)}`:""}</span>${p!=null?`<div class="pbar"><i style="width:${(p*100).toFixed(1)}%"></i></div>`:""}<div class="muted" style="margin-top:6px">Als hij klaar is, verschijnt het transcript hier vanzelf.</div>`;return}
+  if(!qb)return;
+  qb.innerHTML=o?`<div class="row" style="margin-top:8px"><span class="tag">IN DE RIJ #${Q.slice(0,pos+1).filter(x=>!x.run).length}</span><span class="muted">${pos===0||(pos===1&&Q[0].run)?"Is hierna aan de beurt.":`Er staan er ${pos} voor.`}</span>${o.auto?"":`<button class="btn" data-del="${EP.id}" style="margin-left:auto">UIT DE WACHTRIJ</button>`}</div>`
+    :`<div class="row" style="margin-top:8px"><button class="btn g" data-add="${EP.id}">IN DE WACHTRIJ ZETTEN</button><span class="muted">Transcriberen duurt ongeveer even lang als de aflevering zelf.</span></div>`;
+  qb.onclick=ev=>{const b=ev.target.closest("[data-add],[data-del]");if(!b)return;b.dataset.add?addQ(b.dataset.add):delQ(b.dataset.del)};
 }
 livePoll(); setInterval(livePoll,30000); setInterval(liveDraw,5000);
 load().catch(()=>main.innerHTML=`<div class="empty">Nog geen gegevens.</div>`);
