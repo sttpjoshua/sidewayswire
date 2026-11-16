@@ -1,0 +1,87 @@
+{
+ "live": false,
+ "channels": [
+  {
+   "id": "instagram",
+   "name": "Instagram",
+   "handle": "@sidewayswire",
+   "url": "https://www.instagram.com/sidewayswire/",
+   "connected": false,
+   "needs": "Meta-app met Instagram Business-account; IG_USER_ID en IG_TOKEN als GitHub-secret"
+  },
+  {
+   "id": "facebook",
+   "name": "Facebook",
+   "handle": "Sideways Wire",
+   "url": "",
+   "connected": false,
+   "needs": "Facebook-pagina aan dezelfde Meta-app; FB_PAGE_ID en FB_PAGE_TOKEN als GitHub-secret"
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "handle": "@sidewayswire",
+   "url": "https://www.tiktok.com/@sidewayswire",
+   "connected": false,
+   "needs": "TikTok-account en de TikTok-app (Content Posting API) goedgekeurd"
+  },
+  {
+   "id": "youtube",
+   "name": "YouTube Shorts",
+   "handle": "@sidewayswire",
+   "url": "https://www.youtube.com/@sidewayswire",
+   "connected": false,
+   "needs": "YouTube-kanaal en een Google-app met YouTube Data API"
+  },
+  {
+   "id": "telegram",
+   "name": "Telegram (controle)",
+   "handle": "Sideways Wire bot",
+   "url": "",
+   "connected": false,
+   "needs": "Bot via @BotFather; TG_TOKEN en TG_CHAT als GitHub-secret"
+  }
+ ],
+ "setup": [
+  {
+   "step": "Telegram-bot voor controles",
+   "done": false
+  },
+  {
+   "step": "Meta-app (Instagram en Facebook)",
+   "done": false
+  },
+  {
+   "step": "Instagram-account @sidewayswire als zakelijk account",
+   "done": false
+  },
+  {
+   "step": "Facebook-pagina Sideways Wire",
+   "done": false
+  },
+  {
+   "step": "TikTok-account en app",
+   "done": false
+  },
+  {
+   "step": "YouTube-kanaal",
+   "done": false
+  },
+  {
+   "step": "cron-job.org: elke 15 minuten de run starten",
+   "done": false
+  },
+  {
+   "step": "Testmodus uit (LC_DRY_RUN=0)",
+   "done": false
+  },
+  {
+   "step": "Mac-helper voor video",
+   "done": true
+  },
+  {
+   "step": "Podcast-editor (geplande taak)",
+   "done": true
+  }
+ ]
+}

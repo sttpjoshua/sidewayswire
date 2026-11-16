@@ -1,7 +1,8 @@
 """The post queue: one JSON file per post in queue/.
 
 Status flow:  draft -> ready -> posted
-                    -> check (waits for Joshua on Telegram) -> ready / skipped
+                    -> check (waits for Joshua on Telegram or the dashboard) -> ready / skipped
+              approved (set on the dashboard, optional want_at) -> ready
 A post file:
   {"id", "kind", "story", "slides": [{"template", "data"}], "caption",
    "platforms": ["instagram","facebook"], "check": false, "credit": "@handle",

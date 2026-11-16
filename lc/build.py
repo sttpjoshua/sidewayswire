@@ -25,7 +25,7 @@ STATE = ROOT / "data" / "state.json"
 
 # Kinds Joshua always sees first (from the plan): battle reels at the start,
 # debate posts, and anything about a crash or injury.
-ALWAYS_CHECK = {"battle_reel", "debate", "crash"}
+ALWAYS_CHECK = {"battle_reel", "debate", "crash", "podcast_clip"}   # podcast clips: for now Joshua approves each one
 
 
 def _state() -> dict:
@@ -59,6 +59,12 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
     report = {"rendered": 0, "ready": 0, "check": 0, "answers": 0}
     if tg.on:
         report["answers"] = len(apply_answers(tg, store, folder))
+    # Approved or skipped on the dashboard: give approved posts a time (Joshua's own, or the next free slot).
+    for p in q.load("approved", folder):
+        p["status"] = "ready"
+        p["post_at"] = p.get("want_at") or q.next_slot(q.load(folder=folder), p["kind"]).isoformat()
+        q.save(p, folder)
+        report["ready"] += 1
     drafts = q.load("draft", folder)
     if not drafts:
         return report

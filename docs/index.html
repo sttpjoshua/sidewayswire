@@ -1,90 +1,358 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sideways Wire dashboard</title>
+<title>Sideways Wire · dashboard</title>
 <link rel="icon" href="assets/monogram_kleur.svg">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#151517;--card:#232326;--accent:#C6FF00;--pink:#FF2E88;--mute:#B8B8BC}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#fff;font-family:Inter,system-ui,sans-serif;padding:20px;max-width:1180px;margin:auto}
-a{color:inherit}
-h1,h2,.n{font-family:"Bebas Neue",sans-serif;letter-spacing:1px;margin:0}
-h1{margin:0 0 4px}
-h2{font-size:30px;margin:36px 0 12px;display:flex;align-items:baseline;gap:12px}h2 small{font-family:Inter;font-size:13px;color:var(--mute);letter-spacing:0}
-.counts{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:24px}
-.c{background:var(--card);padding:14px;border:3px solid #111}.c .n{font-size:46px;color:var(--accent)}.c small{color:var(--mute);font-weight:800;letter-spacing:1px;font-size:12px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
-.p{background:var(--card);display:flex;flex-direction:column}.p img{width:100%;aspect-ratio:4/5;object-fit:cover;background:#111}
-.p div{padding:10px 12px;font-size:13px;line-height:1.4}
-.tag{display:inline-block;font-weight:800;font-size:11px;letter-spacing:1px;padding:3px 7px;margin-right:6px;background:#fff;color:#111;border-radius:2px}
-.tag.ready,.tag.fd{background:var(--accent)}.tag.check{background:var(--pink)}.tag.posted{background:#111;color:#fff;border:1px solid #fff}.tag.skipped{background:#555;color:#fff}
-.tag.dm{background:#5BC0FF}.tag.d1gp{background:#FF9F43}.tag.ndc,.tag.gatebil,.tag.drift{background:#9C88FF}.tag.buzz{background:var(--pink)}
-.cap{color:var(--mute);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px}
-.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+:root{--bg:#151517;--card:#232326;--card2:#1b1b1d;--line:#2c2c30;--accent:#C6FF00;--pink:#FF2E88;--mute:#B8B8BC;--blue:#5BC0FF;--orange:#FF9F43}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:#fff;font-family:Inter,system-ui,sans-serif}
+a{color:inherit}button,input,select,textarea{font:inherit}
+.app{display:grid;grid-template-columns:230px 1fr;min-height:100vh}
+nav.side{background:#0f0f10;border-right:2px solid #000;padding:18px 0;position:sticky;top:0;height:100vh;display:flex;flex-direction:column}
+nav.side img{width:180px;margin:0 20px 22px}
+nav.side a{display:flex;align-items:center;gap:10px;padding:11px 20px;text-decoration:none;font-weight:800;font-size:13px;letter-spacing:1px;color:var(--mute);border-left:4px solid transparent}
+nav.side a:hover{color:#fff;background:#18181a}nav.side a.on{color:#fff;border-color:var(--accent);background:#1b1b1d}
+nav.side a .cnt{margin-left:auto;background:var(--pink);color:#111;border-radius:10px;padding:1px 8px;font-size:11px}
+nav.side a .cnt:empty{display:none}
+nav.side .foot{margin-top:auto;padding:14px 20px;font-size:11px;color:var(--mute);line-height:1.6}
+main{padding:26px 32px 80px;max-width:1300px;width:100%}
+h1,h2,h3,.n{font-family:"Bebas Neue",sans-serif;letter-spacing:1px;margin:0;font-weight:400}
+h1{font-size:44px;line-height:1}h2{font-size:28px;margin:30px 0 12px;display:flex;align-items:baseline;gap:12px}
+h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacing:0}
+.sub{color:var(--mute);font-size:14px;margin-top:6px}
+.tag{display:inline-block;font-weight:800;font-size:11px;letter-spacing:1px;padding:3px 7px;margin-right:6px;background:#fff;color:#111;white-space:nowrap}
+.tag.g{background:var(--accent)}.tag.p{background:var(--pink)}.tag.d{background:#444;color:#fff}.tag.o{background:#111;color:#fff;border:1px solid #fff}.tag.b{background:var(--blue)}
+.btn{background:var(--card);color:#fff;border:2px solid #3a3a40;padding:9px 13px;font-weight:800;font-size:12px;letter-spacing:1px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn:hover{border-color:#fff}.btn.g{background:var(--accent);color:#111;border-color:var(--accent)}.btn.p{background:var(--pink);color:#111;border-color:var(--pink)}
+.btn:disabled{opacity:.4;cursor:default}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:20px}
+.kpi{background:var(--card);padding:14px 16px;border-left:5px solid var(--accent);cursor:pointer;text-decoration:none;display:block}
+.kpi.p{border-color:var(--pink)}.kpi .n{font-size:46px;line-height:1}.kpi small{color:var(--mute);font-weight:800;font-size:11px;letter-spacing:1px}
+.health{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.h{background:var(--card);padding:12px 14px;display:grid;grid-template-columns:14px 1fr;gap:10px;align-items:start;font-size:13px;line-height:1.45}
+.h .dot{width:12px;height:12px;border-radius:50%;background:var(--accent);margin-top:4px}.h .dot.w{background:var(--orange)}.h .dot.r{background:var(--pink)}.h .dot.x{background:#555}
+.h b{display:block;font-size:14px}.h span{color:var(--mute)}
+.two{display:grid;grid-template-columns:1.4fr 1fr;gap:24px}
+.list{display:flex;flex-direction:column;gap:8px}
+.li{background:var(--card);display:grid;grid-template-columns:62px 1fr auto;gap:12px;align-items:center;padding:8px;text-decoration:none}
+.li .th{width:62px;aspect-ratio:9/16;background:#111 center/cover;position:relative;overflow:hidden}.li .th video,.li .th img{width:100%;height:100%;object-fit:cover}
+.li b{font-size:14px;display:block;line-height:1.3}.li small{color:var(--mute);font-size:12px}
+.check{display:flex;flex-direction:column;gap:6px}.check div{background:var(--card);padding:9px 12px;font-size:13px;display:flex;gap:10px;align-items:center}
+.check i{width:18px;height:18px;border:2px solid var(--mute);display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:12px;flex:none}
+.check .done i{background:var(--accent);border-color:var(--accent);color:#111}.check .done{color:var(--mute)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
 .filters button{background:var(--card);color:#fff;border:2px solid #333;padding:7px 12px;font:800 12px Inter;letter-spacing:1px;cursor:pointer}
 .filters button.on{background:var(--accent);color:#111;border-color:var(--accent)}
-.news{display:flex;flex-direction:column;gap:10px}
-.s{background:var(--card);display:grid;grid-template-columns:120px 1fr;gap:14px;padding:10px;align-items:start}
-.s .thumb{width:120px;aspect-ratio:16/10;background:#111 center/cover no-repeat;border-radius:2px}
-.s .t{font-weight:800;font-size:16px;line-height:1.3;text-decoration:none}.s .t:hover{color:var(--accent)}
-.s .meta{color:var(--mute);font-size:12px;margin-top:6px;line-height:1.6}
-.s .meta a{color:var(--mute)}
+/* review cards */
+.rev{display:flex;flex-direction:column;gap:18px}
+.rc{background:var(--card);display:grid;grid-template-columns:300px 1fr;gap:20px;padding:16px;border-left:6px solid var(--accent)}
+.rc.chk{border-color:var(--pink)}
+.media{position:relative}.media video,.media img{width:100%;display:block;background:#000}
+.media.v video{aspect-ratio:9/16;object-fit:cover}.media.i img{aspect-ratio:4/5;object-fit:cover}
+.media .nav{position:absolute;bottom:8px;left:0;right:0;display:flex;justify-content:center;gap:6px}
+.media .nav button{width:28px;height:28px;border:none;background:rgba(0,0,0,.6);color:#fff;font-weight:800;cursor:pointer}
+.rc textarea{width:100%;min-height:150px;background:#111;color:#fff;border:1px solid #3a3a40;padding:10px;font-size:14px;line-height:1.45;resize:vertical}
+.rc .why{background:#1b1b1d;border-left:4px solid var(--pink);padding:8px 12px;font-size:13px;margin:10px 0}
+.rc label{font-size:11px;font-weight:800;letter-spacing:1px;color:var(--mute);display:block;margin:12px 0 5px}
+.rc input[type=datetime-local]{background:#111;color:#fff;border:1px solid #3a3a40;padding:8px}
+.plats{display:flex;gap:6px;flex-wrap:wrap}.plats span{font-size:11px;font-weight:800;letter-spacing:1px;padding:4px 8px;border:1px solid #444;color:var(--mute)}
+/* clips gallery */
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.gc{background:var(--card);display:flex;flex-direction:column}.gc video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#000;display:block}
+.gc div{padding:10px 12px;font-size:13px;line-height:1.4}.gc .cap{color:var(--mute);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px;font-size:12px}
+/* planning */
+.day{margin-top:18px}.day h3{font-size:22px;margin-bottom:8px;color:var(--accent)}
+/* news */
+.s{background:var(--card);display:grid;grid-template-columns:120px 1fr;gap:14px;padding:10px;align-items:start;margin-bottom:10px}
+.s .thumb{width:120px;aspect-ratio:16/10;background:#111 center/cover no-repeat}
+.s .t{font-weight:800;font-size:15px;line-height:1.3;text-decoration:none}.s .t:hover{color:var(--accent)}
+.s .meta{color:var(--mute);font-size:12px;margin-top:6px;line-height:1.6}.s .meta a{color:var(--mute)}
+/* channels and sources */
+.ch{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.chc{background:var(--card);padding:16px;border-top:5px solid #555}.chc.on{border-color:var(--accent)}
+.chc h3{font-size:26px}.chc p{font-size:13px;color:var(--mute);line-height:1.5;margin:8px 0 0}
 .src{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
 .src div{background:var(--card);padding:10px 12px;font-size:12px;line-height:1.5;border-left:4px solid var(--accent)}
 .src div.err{border-color:var(--pink)}.src b{font-size:13px}.src span{color:var(--mute);word-break:break-all}
-.ep{background:var(--card);padding:12px 14px}.ep .t{font-weight:800;font-size:15px}
-.ep .meta{color:var(--mute);font-size:12px;margin-top:4px}
-.mo{margin-top:10px;border-left:4px solid var(--accent);padding:6px 10px;font-size:13px;line-height:1.45;background:#1b1b1d}
-.mo.rumor{border-color:var(--pink)}.mo q{color:#fff}.mo .why{color:var(--mute)}
-.note{background:#232326;border-left:4px solid var(--pink);padding:12px 14px;font-size:13px;color:var(--mute);margin-top:16px}
-#upd{color:var(--mute);font-size:13px;margin-top:14px}
-@media(max-width:600px){.s{grid-template-columns:80px 1fr}.s .thumb{width:80px}}
+.empty{background:var(--card);padding:26px;color:var(--mute);font-size:14px}
+.banner{background:#1b1b1d;border-left:5px solid var(--orange);padding:12px 16px;font-size:13px;line-height:1.5;margin-top:18px}
+#toast{position:fixed;right:20px;bottom:20px;background:var(--accent);color:#111;padding:12px 16px;font-weight:800;display:none;z-index:20;max-width:420px}
+#toast.err{background:var(--pink)}
+dialog{background:var(--card);color:#fff;border:2px solid var(--accent);max-width:560px}
+dialog ol{padding-left:18px;line-height:1.6;font-size:14px}
+dialog input{width:100%;background:#111;color:#fff;border:1px solid #3a3a40;padding:8px}
+section{display:none}section.on{display:block}
+@media(max-width:900px){
+ .app{grid-template-columns:1fr}
+ nav.side{position:fixed;bottom:0;top:auto;height:auto;width:100%;flex-direction:row;padding:0;z-index:10;border-right:none;border-top:2px solid #000;overflow-x:auto}
+ nav.side img,nav.side .foot{display:none}nav.side a{padding:12px 12px;border-left:none;border-top:3px solid transparent;font-size:11px;white-space:nowrap}
+ nav.side a.on{border-color:var(--accent)}
+ main{padding:18px 14px 90px}.two{grid-template-columns:1fr}.rc{grid-template-columns:1fr}.rc .media{max-width:320px}
+ .s{grid-template-columns:80px 1fr}.s .thumb{width:80px}
+}
 </style></head><body>
-<h1><img src="assets/woordmerk_kleur.svg" alt="Sideways Wire" style="width:300px;display:block"></h1><div id="upd">laden...</div>
-<div class="counts" id="counts"></div>
-<div class="note" id="ignote" hidden>Instagram is nog niet gekoppeld. Nu komt alleen nieuws van websites en YouTube binnen; Instagram volgt zodra de Meta-app er is.</div>
-<h2>BINNENGEKOMEN NIEUWS <small id="nc"></small></h2>
-<div class="filters" id="filters"></div>
-<div class="news" id="inbox"></div>
-<h2>PODCASTS <small id="pc"></small> <a href="podcasts.html" style="font-family:Inter,sans-serif;font-size:13px;letter-spacing:1px;background:#C6FF00;color:#111;padding:5px 10px;text-decoration:none;font-weight:800;vertical-align:middle">OPEN DE PODCASTSTUDIO →</a></h2><div class="news" id="pods"></div>
-<h2>POSTS</h2><div class="grid" id="posts"></div>
-<h2>BRONNEN <small id="sc"></small></h2><div class="src" id="sources"></div>
+<div class="app">
+<nav class="side" id="nav">
+  <img src="assets/woordmerk_kleur.svg" alt="Sideways Wire">
+  <a href="#overzicht" data-s="overzicht">OVERZICHT</a>
+  <a href="#beoordelen" data-s="beoordelen">BEOORDELEN <span class="cnt" id="c-rev"></span></a>
+  <a href="#clips" data-s="clips">CLIPS</a>
+  <a href="#planning" data-s="planning">PLANNING</a>
+  <a href="#nieuws" data-s="nieuws">NIEUWS</a>
+  <a href="podcasts.html">PODCASTSTUDIO ↗</a>
+  <a href="#kanalen" data-s="kanalen">KANALEN</a>
+  <a href="#bronnen" data-s="bronnen">BRONNEN</a>
+  <a href="#" id="keybtn">SLEUTEL</a>
+  <div class="foot" id="foot">laden...</div>
+</nav>
+<main>
+<section id="s-overzicht">
+  <h1>OVERZICHT</h1><div class="sub" id="ov-sub"></div>
+  <div id="ov-mode"></div>
+  <div class="kpis" id="kpis"></div>
+  <h2>SYSTEEM</h2><div class="health" id="health"></div>
+  <div class="two">
+    <div><h2>WACHT OP JOU <small><a href="#beoordelen">alles bekijken</a></small></h2><div class="list" id="ov-wait"></div>
+         <h2>VOLGENDE POSTS <small><a href="#planning">planning</a></small></h2><div class="list" id="ov-next"></div></div>
+    <div><h2>NAAR LIVEGANG</h2><div class="check" id="setup"></div></div>
+  </div>
+</section>
+
+<section id="s-beoordelen">
+  <h1>BEOORDELEN</h1><div class="sub">Alles wat klaarstaat en op jouw akkoord wacht. Goedgekeurd gaat naar de eerstvolgende vrije tijd, of naar de tijd die jij kiest.</div>
+  <div class="filters" id="rev-f"></div>
+  <div class="rev" id="rev"></div>
+</section>
+
+<section id="s-clips">
+  <h1>CLIPS</h1><div class="sub">Alle gemaakte podcastclips. Momenten kiezen of aanpassen doe je in de <a href="podcasts.html">podcaststudio</a>.</div>
+  <div class="filters" id="clip-f"></div>
+  <div class="gal" id="gal"></div>
+</section>
+
+<section id="s-planning">
+  <h1>PLANNING</h1><div class="sub">Ingeplande en geplaatste posts per dag (Nederlandse tijd).</div>
+  <div class="filters" id="plan-f"></div>
+  <div id="plan"></div>
+</section>
+
+<section id="s-nieuws">
+  <h1>NIEUWS</h1><div class="sub" id="news-sub"></div>
+  <div class="filters" id="news-f"></div>
+  <div id="inbox"></div>
+</section>
+
+<section id="s-kanalen">
+  <h1>KANALEN</h1><div class="sub">Waar Sideways Wire op post, en wat er nog nodig is.</div>
+  <div class="ch" id="channels" style="margin-top:20px"></div>
+</section>
+
+<section id="s-bronnen">
+  <h1>BRONNEN</h1><div class="sub" id="src-sub"></div>
+  <div class="src" id="sources" style="margin-top:18px"></div>
+</section>
+</main></div>
+<div id="toast"></div>
+<dialog id="keydlg"><h2 style="margin-top:0">GITHUB-SLEUTEL</h2>
+<p class="muted">Nodig om goed te keuren, aan te passen of over te slaan. Hij blijft alleen in deze browser.</p>
+<ol><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a></li>
+<li>Repository access: <b>Only select repositories</b> → <b>sidewayswire</b></li>
+<li>Permissions → Repository: <b>Contents</b> en <b>Actions</b> op <b>Read and write</b></li>
+<li>Generate token, kopieer hem en plak hem hieronder</li></ol>
+<input id="keyin" type="password" placeholder="github_pat_..."><div class="row" style="margin-top:10px"><button class="btn g" id="keysave">OPSLAAN</button><button class="btn" id="keyclear">VERWIJDEREN</button><button class="btn" onclick="keydlg.close()">SLUITEN</button></div></dialog>
 <script>
-const NL={draft:"concept",ready:"ingepland",check:"wacht op jou",posted:"geplaatst",skipped:"overgeslagen"};
+const REPO="sttpjoshua/sidewayswire", API=`https://api.github.com/repos/${REPO}`;
+const ST={draft:"nieuw",check:"check nodig",approved:"goedgekeurd",ready:"ingepland",posted:"geplaatst",skipped:"overgeslagen",error:"fout"};
+const KIND={podcast_clip:"PODCASTCLIP",news:"NIEUWS",result:"UITSLAG",results:"UITSLAG",standings:"STAND",battle_reel:"BATTLE REEL",quote:"QUOTE",cover:"COVER",bracket:"BRACKET",zones:"ZONES",debate:"DEBAT",crash:"CRASH"};
+const PLAT={instagram:"IG",facebook:"FB",tiktok:"TT",youtube:"YT"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const when=t=>t?new Date(t).toLocaleString("nl-NL",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}):"";
-const ago=t=>{if(!t)return"";const m=(Date.now()-new Date(t))/6e4;return m<60?Math.round(m)+" min geleden":m<1440?Math.round(m/60)+" uur geleden":Math.round(m/1440)+" dagen geleden"};
-const cls=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]/g,"").replace("fddm","fd");
-let S,filter="ALLES";
-function drawInbox(){
-  const list=S.inbox.filter(s=>filter==="ALLES"||String(s.series).includes(filter));
-  nc.textContent=list.length+" verhalen";
-  inbox.innerHTML=list.map(s=>{
-    const img=(s.items.find(i=>i.media_url)||{}).media_url;
-    const srcs=[...new Set(s.items.map(i=>i.source))];
+const hm=t=>new Date(t).toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit"});
+const ago=t=>{if(!t)return"nooit";const m=(Date.now()-new Date(t))/6e4;return m<1?"zojuist":m<60?Math.round(m)+" min geleden":m<1440?Math.round(m/60)+" uur geleden":Math.round(m/1440)+" dagen geleden"};
+const cls=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]/g,"");
+let key=null;try{key=localStorage.getItem("sw_gh_key")}catch(e){}
+const toastEl=document.getElementById("toast");
+function toast(m,err){toastEl.textContent=m;toastEl.className=err?"err":"";toastEl.style.display="block";clearTimeout(toast.t);toast.t=setTimeout(()=>toastEl.style.display="none",5000)}
+keybtn.onclick=e=>{e.preventDefault();keyin.value=key||"";keydlg.showModal()};
+keysave.onclick=()=>{key=keyin.value.trim()||null;try{key?localStorage.setItem("sw_gh_key",key):localStorage.removeItem("sw_gh_key")}catch(e){};keydlg.close();toast(key?"Sleutel opgeslagen in deze browser":"Geen sleutel")};
+keyclear.onclick=()=>{key=null;try{localStorage.removeItem("sw_gh_key")}catch(e){};keyin.value="";toast("Sleutel verwijderd")};
+async function gh(path,opt={}){
+  if(!key){keydlg.showModal();throw new Error("Eerst een GitHub-sleutel instellen")}
+  const r=await fetch(API+path,{...opt,headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github+json","Content-Type":"application/json",...(opt.headers||{})}});
+  if(!r.ok){const t=await r.text();throw new Error(`GitHub ${r.status}: ${t.slice(0,140)}`)}
+  return r.status===204?null:r.json();
+}
+const b64=s=>btoa(unescape(encodeURIComponent(s)));
+const unb64=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+async function changePost(id,fn,msg){   // read the newest queue file, change it, write it back
+  const path=`/contents/queue/${id}.json`;
+  for(let k=0;k<2;k++){
+    const f=await gh(`${path}?ref=main&${Date.now()}`), p=JSON.parse(unb64(f.content));
+    fn(p);
+    try{await gh(path,{method:"PUT",body:JSON.stringify({message:`dashboard: ${msg} ${id}`,content:b64(JSON.stringify(p,null,1)),sha:f.sha,branch:"main"})});return p}
+    catch(e){if(k||!/409|422/.test(String(e)))throw e}
+  }
+}
+async function runBuild(){try{await gh(`/actions/workflows/run.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})})}catch(e){console.log(e)}}
+
+let S=null, MAC=null, NOW=null, PODNOW=null;
+const posts=()=>S.posts||[];
+const toReview=()=>posts().filter(p=>["check","draft"].includes(p.status));
+const med=p=>p.video||(p.media||[])[0]||"";
+const isVid=u=>/\.mp4($|\?)/.test(u);
+const ver=p=>"?v="+encodeURIComponent(p.built||p.created||"");
+function thumb(p){const u=med(p);if(!u)return"";return isVid(u)?`<video src="${esc(u)+ver(p)}#t=1" preload="metadata" muted playsinline></video>`:`<img src="${esc(u)}" loading="lazy">`}
+function title(p){const t=p.title?esc(p.title):esc((p.caption||"").split("\n")[0].slice(0,90));
+  return p.source?`${t}<span class="muted" style="font-family:Inter;font-size:13px;letter-spacing:0;display:block">${esc(p.source.podcast||"")}${p.source.episode?" · "+esc(p.source.episode):""}</span>`:t}
+const needsCheck=p=>p.status==="check"||(p.status==="draft"&&p.check);
+function stTag(p){if(needsCheck(p))return `<span class="tag p">CHECK NODIG</span>`;const c={draft:"",approved:"g",ready:"g",posted:"o",skipped:"d"}[p.status]??"";return `<span class="tag ${c}">${esc(ST[p.status]||p.status).toUpperCase()}</span>`}
+function li(p,extra){return `<a class="li" href="#beoordelen/${p.id}"><div class="th">${thumb(p)}</div><div><b>${title(p)}</b><small><span class="tag">${KIND[p.kind]||esc(p.kind)}</span>${extra||""}</small></div><div>${stTag(p)}</div></a>`}
+
+// ---------- overzicht ----------
+function drawOverview(){
+  const now=Date.now(), week=now+7*864e5, wk0=now-7*864e5, P=posts(), ch=S.channels||{};
+  const rev=toReview(), planned=P.filter(p=>p.status==="ready"&&new Date(p.post_at)<week), posted=P.filter(p=>p.status==="posted"&&new Date(p.posted_at)>wk0);
+  const clips=P.filter(p=>p.kind==="podcast_clip"&&p.status!=="skipped");
+  const news24=(S.inbox||[]).filter(s=>now-new Date(s.published)<864e5).length;
+  document.getElementById("c-rev").textContent=rev.length||"";
+  document.getElementById("ov-sub").textContent=`Bijgewerkt ${ago(S.updated)} · nieuws verzameld ${ago(S.collected)}`;
+  document.getElementById("ov-mode").innerHTML=ch.live?"":`<div class="banner"><b>Testmodus.</b> Er wordt nog niets echt geplaatst: de kanalen zijn nog niet gekoppeld. Alles wat je goedkeurt, wordt wel ingepland, zodat je ziet hoe het straks loopt.</div>`;
+  const k=[["WACHT OP JOU",rev.length,"#beoordelen","p"],["INGEPLAND (7 D)",planned.length,"#planning"],["GEPLAATST (7 D)",posted.length,"#planning"],["CLIPS",clips.length,"#clips"],["NIEUWS (24 U)",news24,"#nieuws"]];
+  kpis.innerHTML=k.map(([l,n,h,c])=>`<a class="kpi ${c||""}" href="${h}"><div class="n">${n}</div><small>${l}</small></a>`).join("");
+  // health
+  const H=[];
+  const c=S.collected?(now-new Date(S.collected))/6e4:1e9;
+  H.push([c<45?"":c<180?"w":"r","Nieuws verzamelen",`laatst ${ago(S.collected)} · ${(S.sources||[]).filter(s=>s.ok!==false&&!s.error).length} van ${(S.sources||[]).length} bronnen werken`]);
+  const pn=PODNOW, pbusy=pn&&pn.phase!=="done"&&(now-new Date(pn.updated))<45*6e4;
+  const eps=(S.podcasts||{}).episodes||[];
+  H.push([pbusy?"":"","Podcasts",pbusy?`bezig: ${esc(pn.title||pn.phase)}${pn.pct!=null?" · "+Math.round(pn.pct*100)+"%":""}`:`${eps.filter(e=>e.status==="transcribed").length} transcripten · ${eps.filter(e=>e.status==="new").length} in de rij`]);
+  const ms=MAC&&MAC.seen?(now-new Date(MAC.seen))/6e4:1e9;
+  H.push([ms<40?"":ms<180?"w":"r","Mac-helper (video)",MAC&&MAC.seen?`laatst gezien ${ago(MAC.seen)}${MAC.busy?" · nu: "+esc(MAC.busy):""}`:"niet ingesteld"]);
+  const tg=(ch.channels||[]).find(x=>x.id==="telegram");
+  H.push([tg&&tg.connected?"":"x","Telegram-controle",tg&&tg.connected?"gekoppeld":"nog niet gekoppeld; beoordelen kan hier"]);
+  const on=(ch.channels||[]).filter(x=>x.id!=="telegram"&&x.connected).length, all=(ch.channels||[]).filter(x=>x.id!=="telegram").length;
+  H.push([ch.live&&on?"":"x","Plaatsen",ch.live?`live op ${on} van ${all} kanalen`:`testmodus · ${on} van ${all} kanalen gekoppeld`]);
+  health.innerHTML=H.map(([d,t,s])=>`<div class="h"><div class="dot ${d}"></div><div><b>${t}</b><span>${s}</span></div></div>`).join("");
+  document.getElementById("ov-wait").innerHTML=rev.slice(0,5).map(p=>li(p,p.check_reason?esc(p.check_reason):"")).join("")||`<div class="empty">Niets. Alles is beoordeeld.</div>`;
+  const next=P.filter(p=>p.status==="ready"&&p.post_at).sort((a,b)=>new Date(a.post_at)-new Date(b.post_at)).slice(0,6);
+  document.getElementById("ov-next").innerHTML=next.map(p=>li(p,when(p.post_at))).join("")||`<div class="empty">Nog niets ingepland.</div>`;
+  setup.innerHTML=(ch.setup||[]).map(s=>`<div class="${s.done?"done":""}"><i>${s.done?"✓":""}</i>${esc(s.step)}</div>`).join("");
+}
+
+// ---------- beoordelen ----------
+let revFilter="ALLES";
+function drawReview(){
+  const R=toReview(), kinds=["ALLES",...new Set(R.map(p=>KIND[p.kind]||p.kind))];
+  document.getElementById("rev-f").innerHTML=kinds.map(k=>`<button class="${k===revFilter?"on":""}">${esc(k)}</button>`).join("");
+  const L=R.filter(p=>revFilter==="ALLES"||(KIND[p.kind]||p.kind)===revFilter).sort((a,b)=>needsCheck(b)-needsCheck(a)||String(a.created||"").localeCompare(String(b.created||"")));
+  rev.innerHTML=L.map(p=>{
+    const m=p.video?[p.video]:(p.media||[]), v=isVid(m[0]||"");
+    const ep=p.id.startsWith("pod-")?p.id.split("-")[1]:null;
+    return `<div class="rc ${needsCheck(p)?"chk":""}" id="r-${p.id}" data-id="${p.id}">
+      <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?`<video src="${esc(m[0])+ver(p)}" controls preload="metadata" playsinline></video>`:`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
+        ${m.length>1?`<div class="nav"><button data-a="prev">‹</button><span class="tag" style="margin:4px 0">1/${m.length}</span><button data-a="next">›</button></div>`:""}</div>
+      <div>
+        <div class="row"><span class="tag">${KIND[p.kind]||esc(p.kind)}</span>${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
+        <h3 style="font-size:26px;margin-top:8px">${title(p)}</h3>
+        ${needsCheck(p)?`<div class="why"><b>Waarom jij:</b> ${esc(p.check_reason||"deze soort post check jij altijd eerst")}</div>`:""}
+        ${(p.problems||[]).length?`<div class="why">${p.problems.map(esc).join("<br>")}</div>`:""}
+        <label>CAPTION</label><textarea data-f="caption">${esc(p.caption||"")}</textarea>
+        <label>KANALEN</label><div class="plats">${(p.platforms||[]).map(x=>`<span>${PLAT[x]||esc(x)}</span>`).join("")}</div>
+        <label>TIJDSTIP (LEEG = EERSTVOLGENDE VRIJE PLEK)</label><input type="datetime-local" data-f="when">
+        <div class="row" style="margin-top:14px">
+          <button class="btn g" data-a="ok">GOEDKEUREN</button>
+          <button class="btn" data-a="save">CAPTION OPSLAAN</button>
+          <button class="btn p" data-a="skip">OVERSLAAN</button>
+          ${ep?`<a class="btn" href="podcasts.html#${ep}">AANPASSEN IN PODCASTSTUDIO</a>`:""}
+        </div>
+      </div></div>`}).join("")||`<div class="empty">Niets te beoordelen. Nieuwe posts en clips verschijnen hier vanzelf.</div>`;
+}
+document.getElementById("rev-f").onclick=e=>{if(e.target.tagName==="BUTTON"){revFilter=e.target.textContent;drawReview()}};
+rev.onclick=async e=>{
+  const b=e.target.closest("button");if(!b)return;const card=b.closest(".rc"),id=card.dataset.id,p=posts().find(x=>x.id===id);
+  if(b.dataset.a==="prev"||b.dataset.a==="next"){const box=card.querySelector(".media"),m=p.media||[];let i=(+box.dataset.i+(b.dataset.a==="next"?1:-1)+m.length)%m.length;box.dataset.i=i;box.querySelector("img").src=m[i];box.querySelector(".nav .tag").textContent=`${i+1}/${m.length}`;return}
+  const cap=card.querySelector("[data-f=caption]").value, w=card.querySelector("[data-f=when]").value;
+  b.disabled=true;
+  try{
+    if(b.dataset.a==="save"){await changePost(id,x=>{x.caption=cap},"caption");p.caption=cap;toast("Caption opgeslagen.")}
+    if(b.dataset.a==="ok"){const want=w?new Date(w).toISOString():null;
+      await changePost(id,x=>{x.caption=cap;x.status="approved";x.approved=new Date().toISOString();if(want)x.want_at=want;else delete x.want_at},"approve");
+      Object.assign(p,{caption:cap,status:"approved",want_at:want});await runBuild();toast(want?`Goedgekeurd voor ${when(want)}.`:"Goedgekeurd. Hij krijgt de eerstvolgende vrije plek.");drawAll()}
+    if(b.dataset.a==="skip"){await changePost(id,x=>{x.status="skipped"},"skip");p.status="skipped";toast("Overgeslagen.");drawAll()}
+  }catch(x){toast(x.message,1)}finally{b.disabled=false}
+};
+
+// ---------- clips ----------
+let clipFilter="ALLES";
+function drawClips(){
+  const C=posts().filter(p=>p.kind==="podcast_clip"), F={"ALLES":()=>true,"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
+  document.getElementById("clip-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===clipFilter?"on":""}">${k} (${C.filter(F[k]).length})</button>`).join("");
+  const making=((S.podcasts||{}).episodes||[]).reduce((n,e)=>n+e.moments.filter(m=>m.status==="new").length,0);
+  gal.innerHTML=(making?`<div class="empty" style="grid-column:1/-1">${making} clip${making>1?"s":""} wordt nog gemaakt. Bekijk de voortgang in de <a href="podcasts.html">podcaststudio</a>.</div>`:"")+
+    C.filter(F[clipFilter]).map(p=>`<div class="gc"><video src="${esc(p.video)+ver(p)}" controls preload="metadata" playsinline></video>
+      <div>${stTag(p)}${p.post_at&&p.status==="ready"?`<span class="muted">${when(p.post_at)}</span>`:""}<br><b>${title(p)}</b><div class="cap">${esc(p.caption||"")}</div>
+      <div class="row" style="margin-top:8px">${["check","draft"].includes(p.status)?`<a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a>`:""}</div></div></div>`).join("")||(making?"":`<div class="empty">Nog geen clips.</div>`);
+}
+document.getElementById("clip-f").onclick=e=>{if(e.target.tagName==="BUTTON"){clipFilter=e.target.textContent.replace(/ \(\d+\)$/,"");drawClips()}};
+
+// ---------- planning ----------
+let planFilter="KOMEND";
+function drawPlan(){
+  const P=posts(), F={"KOMEND":p=>["ready","approved"].includes(p.status),"GEPLAATST":p=>p.status==="posted"};
+  document.getElementById("plan-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===planFilter?"on":""}">${k}</button>`).join("");
+  const L=P.filter(F[planFilter]).map(p=>({p,t:p.posted_at||p.post_at||p.want_at})).sort((a,b)=>planFilter==="KOMEND"?new Date(a.t||8e15)-new Date(b.t||8e15):new Date(b.t)-new Date(a.t));
+  const days={};L.forEach(x=>{const d=x.t?new Date(x.t).toLocaleDateString("nl-NL",{weekday:"long",day:"numeric",month:"long"}):"Wacht op een tijd";(days[d]=days[d]||[]).push(x)});
+  plan.innerHTML=Object.entries(days).map(([d,xs])=>`<div class="day"><h3>${esc(d).toUpperCase()}</h3><div class="list">${xs.map(({p,t})=>li(p,`${t?hm(t)+" · ":""}${(p.platforms||[]).map(x=>PLAT[x]||x).join(" ")}${p.results?` · <span class="muted">${Object.keys(p.results).length} kanalen</span>`:""}`)).join("")}</div></div>`).join("")||`<div class="empty">${planFilter==="KOMEND"?"Nog niets ingepland. Keur posts goed bij Beoordelen.":"Nog niets geplaatst."}</div>`;
+}
+document.getElementById("plan-f").onclick=e=>{if(e.target.tagName==="BUTTON"){planFilter=e.target.textContent;drawPlan()}};
+
+// ---------- nieuws ----------
+let newsFilter="ALLES";
+function drawNews(){
+  const I=S.inbox||[], series=["ALLES",...new Set(I.flatMap(i=>String(i.series).split(" + ")))];
+  document.getElementById("news-f").innerHTML=series.map(x=>`<button class="${x===newsFilter?"on":""}">${esc(x)}</button>`).join("");
+  const L=I.filter(s=>newsFilter==="ALLES"||String(s.series).includes(newsFilter));
+  document.getElementById("news-sub").textContent=`${L.length} verhalen uit de laatste 21 dagen · verzameld ${ago(S.collected)}${S.instagram?"":" · Instagram-bronnen volgen zodra de Meta-app er is"}`;
+  inbox.innerHTML=L.map(s=>{const img=(s.items.find(i=>i.media_url)||{}).media_url;
     return `<div class="s"><div class="thumb" style="${img?`background-image:url('${esc(img)}')`:""}"></div><div>
       <a class="t" href="${esc(s.items[0].url)}" target="_blank" rel="noopener">${esc(s.title)}</a>
-      <div class="meta"><span class="tag ${cls(s.series)}">${esc(s.series)}</span>${s.buzz>1?`<span class="tag buzz">${s.buzz} BRONNEN</span>`:""}${ago(s.published)}<br>
-      ${s.items.map(i=>`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}${i.kind==="video"?" (video)":""}</a>`).join(" · ")}</div></div></div>`}).join("")||"<p>Nog niets binnen.</p>";
+      <div class="meta"><span class="tag">${esc(s.series)}</span>${s.buzz>1?`<span class="tag p">${s.buzz} BRONNEN</span>`:""}${ago(s.published)}<br>
+      ${s.items.map(i=>`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}${i.kind==="video"?" (video)":""}</a>`).join(" · ")}</div></div></div>`}).join("")||`<div class="empty">Nog niets binnen.</div>`;
 }
-fetch("status.json?"+Date.now()).then(r=>r.json()).then(s=>{
-  S=s; S.inbox=S.inbox||[]; S.sources=S.sources||[];
-  upd.textContent="Laatst verzameld: "+(s.collected?when(s.collected)+" ("+ago(s.collected)+")":"nog niet");
-  ignote.hidden=!!s.instagram;
-  counts.innerHTML=[["NIEUWS",S.inbox.length]].concat(Object.keys(NL).map(k=>[NL[k].toUpperCase(),s.counts[k]||0])).map(([k,v])=>`<div class="c"><div class="n">${v}</div><small>${k}</small></div>`).join("");
-  const series=["ALLES",...new Set(S.inbox.flatMap(i=>String(i.series).split(" + ")))];
-  filters.innerHTML=series.map(x=>`<button class="${x===filter?"on":""}">${esc(x)}</button>`).join("");
-  filters.onclick=e=>{if(e.target.tagName!=="BUTTON")return;filter=e.target.textContent;[...filters.children].forEach(b=>b.classList.toggle("on",b.textContent===filter));drawInbox()};
-  drawInbox();
-  const P=s.podcasts||{episodes:[],feeds:{}}; const KIND={rumor:"GERUCHT",quote:"UITSPRAAK",fact:"WEETJE",moment:"MOMENT"};
-  const ST={new:"nieuw, wacht op transcript",transcribed:"transcript klaar",error:"fout"};
-  const ts=(e,sec)=>e.youtube?`https://www.youtube.com/watch?v=${e.youtube}&t=${Math.floor(sec)}s`:`${e.audio}#t=${Math.floor(sec)}`;
-  const mmss=x=>{x=Math.floor(x);const h=Math.floor(x/3600),m=Math.floor(x%3600/60),q=String(x%60).padStart(2,"0");return h?`${h}:${String(m).padStart(2,"0")}:${q}`:`${m}:${q}`};
-  pc.textContent=P.episodes.length+" afleveringen · "+P.episodes.filter(e=>e.has_transcript).length+" met transcript";
-  pods.innerHTML=P.episodes.map(e=>`<div class="ep"><div class="t">${esc(e.title)}</div>
-    <div class="meta"><span class="tag">${esc(e.podcast)}</span>${when(e.published)} · ${esc(ST[e.status]||e.status)}${e.youtube?" · video op YouTube":" · alleen audio"}${`<a href="podcasts.html#${e.id}">bewerken</a> · `}${e.has_transcript?` · <a href="https://github.com/sttpjoshua/sidewayswire/blob/main/data/podcasts/t/${e.id}.txt" target="_blank">transcript lezen</a>`:""}</div>
-    ${e.moments.map(m=>`<div class="mo ${m.kind==="rumor"?"rumor":""}"><span class="tag ${m.kind==="rumor"?"check":"ready"}">${KIND[m.kind]||m.kind}</span><a href="${esc(ts(e,m.start))}" target="_blank">${mmss(m.start)} tot ${mmss(m.end)}</a> · ${esc(m.guest||"")} · ${esc(m.status)}${m.mode?" ("+esc(m.mode)+")":""}<br><q>${esc(m.quote)}</q><div class="why">${esc(m.why||"")}</div></div>`).join("")}</div>`).join("")
-    ||"<p>Nog geen afleveringen. De podcastzoeker draait elke twee uur.</p>";
-  posts.innerHTML=s.posts.map(p=>`<div class="p">${p.media[0]?`<img loading="lazy" src="${esc(p.media[0])}">`:""}<div><span class="tag ${esc(p.status)}">${esc(NL[p.status]||p.status).toUpperCase()}</span><b>${esc(p.kind)}</b><br>${when(p.posted_at||p.post_at)}${(p.problems||[]).length?`<br><span style="color:var(--pink)">${esc(p.problems[0])}</span>`:""}<div class="cap" style="padding:0">${esc(p.caption)}</div></div></div>`).join("")||"<p>Nog geen posts. Die komen zodra de redactie draait.</p>";
-  const ok=S.sources.filter(x=>x.ok).length; sc.textContent=ok+" van "+S.sources.length+" werken";
-  sources.innerHTML=S.sources.map(x=>`<div class="${x.ok?"":"err"}"><b>${esc(x.source)}</b><br><span>${esc(x.url)}</span><br>${x.ok?`${x.items} items · via ${x.how==="feed"?"feed":"pagina"}`:`<span style="color:var(--pink)">${esc(x.error)}</span>`}</div>`).join("");
-}).catch(()=>upd.textContent="Nog geen gegevens.");
+document.getElementById("news-f").onclick=e=>{if(e.target.tagName==="BUTTON"){newsFilter=e.target.textContent;drawNews()}};
+
+// ---------- kanalen, bronnen ----------
+function drawChannels(){
+  const ch=(S.channels||{}).channels||[], P=posts();
+  channels.innerHTML=ch.map(c=>{const n=P.filter(p=>p.status==="posted"&&p.results&&p.results[c.id]).length;
+    return `<div class="chc ${c.connected?"on":""}"><div class="row"><h3>${esc(c.name)}</h3><span class="tag ${c.connected?"g":"d"}" style="margin-left:auto">${c.connected?"GEKOPPELD":"NOG NIET GEKOPPELD"}</span></div>
+      <p><b style="color:#fff">${esc(c.handle)}</b>${c.url?` · <a href="${esc(c.url)}" target="_blank">openen</a>`:""}</p>
+      <p>${c.connected?`${n} posts geplaatst`:`Nodig: ${esc(c.needs)}`}</p></div>`}).join("");
+}
+function drawSources(){
+  const L=S.sources||[];
+  const bad=s=>s.ok===false||!!s.error;
+  document.getElementById("src-sub").textContent=`${L.length} bronnen · ${L.filter(bad).length} met een fout · gecontroleerd ${ago(S.collected)}`;
+  sources.innerHTML=L.map(s=>`<div class="${bad(s)?"err":""}"><b>${esc(s.source)}</b>${s.how?` <span class="tag d">${esc(s.how)}</span>`:""}<br><span>${esc(s.error||s.url||"")}</span>${s.items!=null?`<br>${s.items} items`:""}</div>`).join("")||`<div class="empty">Geen bronnen.</div>`;
+}
+
+// ---------- routing ----------
+function show(){
+  const [s,id]=(location.hash.slice(1)||"overzicht").split("/");
+  document.querySelectorAll("section").forEach(x=>x.classList.toggle("on",x.id==="s-"+s));
+  document.querySelectorAll("nav.side a[data-s]").forEach(a=>a.classList.toggle("on",a.dataset.s===s));
+  if(id){revFilter="ALLES";drawReview();setTimeout(()=>{const el=document.getElementById("r-"+id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})},50)}
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",show);
+function drawAll(){drawOverview();drawReview();drawClips();drawPlan();drawNews();drawChannels();drawSources();
+  document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
+async function load(){
+  S=await fetch("status.json?"+Date.now()).then(r=>r.json());
+  try{PODNOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
+  try{const r=await fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}});if(r.ok)MAC=JSON.parse((await r.json()).body||"{}")}catch(e){}
+  drawAll();
+}
+load().then(show).catch(e=>{document.querySelector("main").innerHTML=`<div class="empty">Kon de gegevens niet laden: ${esc(e.message)}</div>`});
+setInterval(()=>{if(!document.querySelector("textarea:focus,input:focus"))load()},120000);
 </script></body></html>

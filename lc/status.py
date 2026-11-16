@@ -34,7 +34,16 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
     inbox = ROOT / "data" / "inbox.json"
     ib = json.loads(inbox.read_text()) if inbox.exists() else {}
     stories = ib.get("stories", [])
-    keep = ("id", "kind", "status", "post_at", "posted_at", "caption", "media", "problems", "results", "credit")
+    def clip_title(p):            # podcast clips: the headline of the moment
+        if p.get("title") or p.get("kind") != "podcast_clip":
+            return p.get("title")
+        try:
+            _, ep, i = p["id"].split("-")
+            return json.loads((ROOT / "data" / "podcasts" / "moments" / f"{ep}.json").read_text())[int(i)].get("topic")
+        except Exception:
+            return None
+    keep = ("id", "kind", "status", "post_at", "posted_at", "caption", "media", "problems", "results", "credit",
+            "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video")
     status = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "counts": dict(Counter(p.get("status", "draft") for p in posts)),
@@ -43,8 +52,12 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         "sources": ib.get("sources", []),
         "inbox": [{k: s.get(k) for k in ("title", "series", "buzz", "published", "items")} for s in stories[:80]],
         "podcasts": podcast_status(),
-        "posts": [{k: p.get(k) for k in keep} | {"media": [m.removeprefix("docs/") for m in p.get("media", [])]}
-                  for p in sorted(posts, key=lambda p: p.get("post_at") or p.get("built") or "", reverse=True)[:60]],
+        "posts": [{k: p.get(k) for k in keep} | {"media": [m.removeprefix("docs/") for m in p.get("media") or []],
+                                                 "video": (p.get("video") or "").removeprefix("docs/") or None,
+                                                 "title": clip_title(p)}
+                  for p in sorted(posts, key=lambda p: p.get("post_at") or p.get("built") or p.get("created") or "",
+                                  reverse=True)[:300]],
+        "channels": json.loads((ROOT / "data" / "channels.json").read_text()) if (ROOT / "data" / "channels.json").exists() else {},
     }
     out.write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")
     return status["counts"]

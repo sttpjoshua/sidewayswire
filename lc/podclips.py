@@ -124,7 +124,7 @@ def run(limit: int = 25) -> dict:
                 m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT)
                 check = (m["kind"] == "rumor" or res["mode"] == "audiogram" or bool(m.get("check"))) and m.get("by") != "joshua"
                 q.save({
-                    "id": pid, "kind": "podcast_clip", "status": "draft", "slides": [],
+                    "id": pid, "kind": "podcast_clip", "status": "draft", "slides": [], "title": m.get("topic"),
                     "video": str(out.relative_to(ROOT)), "caption": m.get("caption", ""),
                     "credit": m.get("credit"), "check": check,
                     "check_reason": ("gerucht uit een podcast" if m["kind"] == "rumor"
