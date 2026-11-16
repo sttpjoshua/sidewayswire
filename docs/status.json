@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T23:38:22.907731+00:00",
+ "updated": "2026-11-16T23:41:46.899488+00:00",
  "counts": {
-  "check": 16,
-  "ready": 33,
-  "draft": 23
+  "check": 13,
+  "ready": 32,
+  "draft": 27
  },
  "collected": "2026-11-16T21:56:31.745374+00:00",
  "instagram": false,
@@ -2997,45 +2997,6 @@
    "title": "\"KEEP HATING ME, PLEASE\""
   },
   {
-   "id": "pod-da5d8825120e-16",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-24T21:56:41.574146+00:00",
-   "posted_at": null,
-   "caption": "Conor Shanahan's goal for next year: \"the best version ever of Conor Shanahan.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-16/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 3355.16
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:57:47.936308+00:00",
-   "built": "2026-11-16T21:56:41.574375+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-16/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\""
-  },
-  {
    "id": "pod-6892a8b1e411-9",
    "kind": "podcast_clip",
    "status": "ready",
@@ -4206,6 +4167,155 @@
    "title": "\"THEY ALL BLOW UP\""
   },
   {
+   "id": "pod-da5d8825120e-17",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: changes are coming to Formula DRIFT next year, more than even they know about. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3772.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:58:08.700395+00:00",
+   "built": "2026-11-16T23:41:46.896544+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-17/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "BIG FD CHANGES COMING NEXT YEAR?"
+  },
+  {
+   "id": "pod-da5d8825120e-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan's goal for next year: \"the best version ever of Conor Shanahan.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3355.16
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:57:47.936308+00:00",
+   "built": "2026-11-16T23:41:11.600996+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-16/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\""
+  },
+  {
+   "id": "pod-da5d8825120e-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3259.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:57:09.113931+00:00",
+   "built": "2026-11-16T23:40:18.450208+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-15/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "OFF-SEASON? WHAT OFF-SEASON?"
+  },
+  {
+   "id": "pod-da5d8825120e-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan says he started left-foot braking on the chase run-up in Orlando, and others followed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @dylanhughes129 @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3046.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:56:40.582350+00:00",
+   "built": "2026-11-16T23:39:32.887454+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-14/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@dylanhughes129",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "HE STARTED THE LEFT-FOOT TRICK"
+  },
+  {
    "id": "pod-da5d8825120e-13",
    "kind": "podcast_clip",
    "status": "draft",
@@ -5178,124 +5288,6 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"HE WAS GOING TO BE AN FD CHAMPION\""
-  },
-  {
-   "id": "pod-da5d8825120e-17",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: changes are coming to Formula DRIFT next year, more than even they know about. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-17/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 3772.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:58:08.700395+00:00",
-   "built": "2026-11-16T21:56:41.574505+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-17/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "BIG FD CHANGES COMING NEXT YEAR?"
-  },
-  {
-   "id": "pod-da5d8825120e-15",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 3259.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:57:09.113931+00:00",
-   "built": "2026-11-16T21:56:41.572843+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-15/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "OFF-SEASON? WHAT OFF-SEASON?"
-  },
-  {
-   "id": "pod-da5d8825120e-14",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Conor Shanahan says he started left-foot braking on the chase run-up in Orlando, and others followed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @dylanhughes129 @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 3046.4
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:56:40.582350+00:00",
-   "built": "2026-11-16T21:56:41.572736+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-14/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@dylanhughes129",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "HE STARTED THE LEFT-FOOT TRICK"
   },
   {
    "id": "pod-6892a8b1e411-7",
