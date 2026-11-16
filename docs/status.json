@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:48:14.038225+00:00",
+ "updated": "2026-11-16T19:50:17.533059+00:00",
  "counts": {
-  "draft": 41
+  "draft": 42
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1496,7 +1496,7 @@
       "topic": "THE TROPHY FLEW HOME IN A DRINKS CABINET",
       "quote": "I got to ask about the logistics of bringing that trophy home. Like, did you end up booking a separate seat or like, did you have to keep it on your lap for the whole time or how did that all work out? Yeah, it was quite funny. Actually, the airline that we fly with to California is an Irish airline, Erlingus. Erlingus, yeah. So they're like really supportive, quite cool to, you know, ...",
       "why": "Light, funny story about flying the 2026 FD trophy home to Ireland. Easy share.",
-      "status": "error",
+      "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-1/clip.mp4",
       "mode": "video",
       "wait_video": null
@@ -1509,7 +1509,7 @@
       "topic": "MUM'S KITCHEN TABLE RULE",
       "quote": "To bring it home is always quite special. And yeah, I think I'm kind of a guy who like loves the small moments, you know, like it's always nice to come home and, you know, put it on the kitchen table for the first time. And I think when my mom will not take it off the kitchen table for at least probably two months. So that's kind of the rule. If we have a big win, they stay down there. ...",
       "why": "Sweet family detail: big wins stay on the kitchen table for two months.",
-      "status": "error",
+      "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-2/clip.mp4",
       "mode": "video",
       "wait_video": null
@@ -1522,7 +1522,7 @@
       "topic": "ONE HAND ON THE TITLE, NOT BOTH",
       "quote": "Yeah, I'm also a big believer in that it's not over until it's in my hand, you know, and that's kind of yeah, I guess the break between Vegas and Long Beach was quite rough because it's I have one hand on it, but not both. You know, it's very close to being done and but still anything going to happen. I think that's what added so much pressure to the battle. Everyone's like, oh, it's just a top pretty too. But I'm like, yeah, but if I lose this top, or two, Jack or James going to win the event. So I'm not going to be champion.",
       "why": "How the pressure felt between Vegas and Long Beach; fans remember that final.",
-      "status": "error",
+      "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-3/clip.mp4",
       "mode": "video",
       "wait_video": null
@@ -2528,10 +2528,10 @@
       "topic": "CHEVROLET IN FORMULA DRIFT?",
       "quote": "Have you, have you tried to like talk to anybody at like Chevrolet Canada or anything? Yeah. Yeah, I did. And it was never a big success. And I didn't try on the US side, but I, I didn't try also because I know that Matt did try and still trying. Yeah. Well, that makes sense. I was to try if I was in and I know that it's not a big success for now. So I'm like, all right. Well, that's this, there's that. It's kind of happened eventually though. Like it has towards involved Toyota's involved. Nissan. You know, we've had Nissan involved. Yeah. Like why not? Why not Chevrolet? Yeah. That would just make sense. And like 80% of the field run like Chevrolet and GM engines.",
       "why": "Tommy tried Chevrolet Canada; says Matt is still trying with Chevrolet. Rumor, needs Joshua.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-24/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      }
     ]
    },
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-da5d8825120e-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan on the weeks between Vegas and Long Beach: one hand on the title, but not both.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 454.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T19:50:17.531133+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-3/clip.mp4",
+   "title": "ONE HAND ON THE TITLE, NOT BOTH"
+  },
+  {
+   "id": "pod-da5d8825120e-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The Shanahan house rule: big wins stay on the kitchen table for two months. 🏆\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 311.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T19:49:55.032804+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-2/clip.mp4",
+   "title": "MUM'S KITCHEN TABLE RULE"
+  },
+  {
+   "id": "pod-da5d8825120e-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "How do you fly a Formula DRIFT championship trophy home to Ireland? Not on a seat, apparently. 🏆✈️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 236.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T19:49:35.424156+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-1/clip.mp4",
+   "title": "THE TROPHY FLEW HOME IN A DRINKS CABINET"
+  },
+  {
+   "id": "pod-6892a8b1e411-24",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: Tommy Lemaire tried to get Chevrolet Canada on board, and another driver is still trying.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #chevrolet #driftnews #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 5256.05
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:48:56.316044+00:00",
+   "built": "2026-11-16T19:48:56.316046+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-24/clip.mp4",
+   "title": "CHEVROLET IN FORMULA DRIFT?"
+  },
   {
    "id": "pod-6892a8b1e411-23",
    "kind": "podcast_clip",
@@ -3757,96 +3877,6 @@
    "want_at": null,
    "video": "media/pod-da5d8825120e-0/clip.mp4",
    "title": "WIL 2018 JAMES DESTROY 2026 JAMES?"
-  },
-  {
-   "id": "pod-da5d8825120e-1",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "How do you fly a Formula DRIFT championship trophy home to Ireland? Not on a seat, apparently. 🏆✈️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 236.3
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": null,
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-1/clip.mp4",
-   "title": "THE TROPHY FLEW HOME IN A DRINKS CABINET"
-  },
-  {
-   "id": "pod-da5d8825120e-2",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The Shanahan house rule: big wins stay on the kitchen table for two months. 🏆\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 311.2
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": null,
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-2/clip.mp4",
-   "title": "MUM'S KITCHEN TABLE RULE"
-  },
-  {
-   "id": "pod-da5d8825120e-3",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Conor Shanahan on the weeks between Vegas and Long Beach: one hand on the title, but not both.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 454.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": null,
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-3/clip.mp4",
-   "title": "ONE HAND ON THE TITLE, NOT BOTH"
   },
   {
    "id": "pod-da5d8825120e-4",
