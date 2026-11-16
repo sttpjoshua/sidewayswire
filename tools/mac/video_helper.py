@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "2"
+VERSION = "3"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -181,6 +181,70 @@ def our_words(transcript: dict) -> list[tuple[float, str]]:
     return out
 
 
+# ---------- alignment by sound (when YouTube refuses the captions) ----------
+SR = 2000          # samples per second used for matching; enough for ~1 ms precision
+
+
+def _decode(src: str, out: Path) -> Path:
+    if not out.exists():
+        tmp = out.with_suffix(".part")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", src, "-ac", "1", "-ar", str(SR), "-f", "s16le", str(tmp)],
+                       check=True, timeout=1800)
+        tmp.rename(out)
+    return out
+
+
+def _load(path: Path):
+    import numpy as np
+    return np.fromfile(path, dtype=np.int16).astype(np.float32)
+
+
+def youtube_audio(youtube_id: str) -> Path:
+    CACHE.mkdir(parents=True, exist_ok=True)
+    out = CACHE / f"{youtube_id}.yt.s16"
+    if out.exists():
+        return out
+    src = list(CACHE.glob(f"{youtube_id}.audio.*"))
+    if not src:
+        r = subprocess.run(["yt-dlp", "--no-warnings", "-f", "ba[ext=m4a]/ba", "-o", str(CACHE / f"{youtube_id}.audio.%(ext)s"),
+                            f"https://www.youtube.com/watch?v={youtube_id}"], capture_output=True, text=True, timeout=1800)
+        src = [p for p in CACHE.glob(f"{youtube_id}.audio.*") if not p.name.endswith(".part")]
+        if not src:
+            raise RuntimeError("YouTube-geluid niet op te halen: " + (r.stderr or "")[-300:].replace("\n", " | "))
+    _decode(str(src[0]), out)
+    for p in src:
+        p.unlink(missing_ok=True)       # the small decoded copy is enough
+    return out
+
+
+def podcast_audio(ep: dict) -> Path:
+    CACHE.mkdir(parents=True, exist_ok=True)
+    return _decode(ep["audio"], CACHE / f"{ep['id']}.pod.s16")
+
+
+def audio_offset(pod, yt, at: float, length: float = 20.0) -> float | None:
+    """Seconds to add to podcast time `at` to get the YouTube time, by cross-correlating the sound."""
+    import numpy as np
+    a = int(at * SR)
+    t = pod[a:a + int(length * SR)]
+    if len(t) < SR * 5 or len(yt) < len(t):
+        return None
+    t = t - t.mean()
+    tn = float(np.sqrt((t * t).sum()))
+    if tn == 0:
+        return None
+    n = 1 << int(np.ceil(np.log2(len(yt) + len(t))))
+    corr = np.fft.irfft(np.fft.rfft(yt, n) * np.conj(np.fft.rfft(t, n)), n)[:len(yt) - len(t) + 1]
+    c = np.concatenate([[0.0], np.cumsum(yt.astype(np.float64) ** 2)])
+    energy = np.sqrt(np.maximum(c[len(t):] - c[:-len(t)], 1e-9))
+    ncc = corr / (energy * tn)
+    i = int(np.argmax(ncc))
+    peak, rest = ncc[i], np.delete(ncc, slice(max(i - SR, 0), i + SR))
+    if peak < 0.3 or peak < rest.mean() + 8 * rest.std():
+        return None                     # no clear match
+    return i / SR - at
+
+
 # ---------- main ----------
 def asset_name(ep_id: str, i: int, m: dict) -> str:
     return f"{ep_id}-{i}-{int(round(m['start'] * 10))}-{int(round(m['end'] * 10))}.mp4"
@@ -225,19 +289,27 @@ def main():
                 and asset_name(ep["id"], i, m) not in have]
         if not todo:
             continue
-        theirs, ours = None, None
+        theirs, ours, sound = None, None, None
         for i, m in todo:
             name = asset_name(ep["id"], i, m)
             if time.time() - state["failed"].get(name, 0) < 3600:
                 continue                               # failed recently, try again later
             waiting += 1
             try:
+                o1 = o2 = None
                 if theirs is None:
                     theirs = captions(ep["youtube"])
-                    ours = our_words(json.loads(gh(f"/contents/data/podcasts/t/{ep['id']}.json?ref=main", raw=True)))
-                if not theirs:
-                    raise RuntimeError("geen YouTube-ondertitels om op uit te lijnen")
-                o1, o2 = offset_at(ours, theirs, m["start"]), offset_at(ours, theirs, m["end"] - 10)
+                    if theirs:
+                        ours = our_words(json.loads(gh(f"/contents/data/podcasts/t/{ep['id']}.json?ref=main", raw=True)))
+                if theirs:
+                    o1, o2 = offset_at(ours, theirs, m["start"]), offset_at(ours, theirs, m["end"] - 10)
+                if o1 is None and o2 is None:            # no captions (YouTube often refuses them): match the sound
+                    if sound is None:
+                        sound = (_load(podcast_audio(ep)), _load(youtube_audio(ep["youtube"])))
+                    o1 = audio_offset(sound[0], sound[1], m["start"])
+                    o2 = audio_offset(sound[0], sound[1], max(m["end"] - 20, m["start"]))
+                    if o1 is not None or o2 is not None:
+                        log(f"{name}: gevonden via het geluid")
                 if o1 is None and o2 is None:
                     raise RuntimeError("moment niet teruggevonden in de video")
                 o1 = o1 if o1 is not None else o2

@@ -31,6 +31,10 @@ if ! security find-generic-password -s sidewayswire-mac -w >/dev/null 2>&1; then
 fi
 
 mkdir -p "$APP" "$HOME/Library/LaunchAgents" "$HOME/Library/Logs"
+# own little Python environment with numpy (for matching the sound), separate from the rest of the Mac
+[ -x "$APP/venv/bin/python3" ] || "$PY" -m venv "$APP/venv"
+"$APP/venv/bin/python3" -m pip install -q --disable-pip-version-check --upgrade numpy
+PY="$APP/venv/bin/python3"
 if [ -f "$HERE/video_helper.py" ]; then
   cp "$HERE/video_helper.py" "$APP/video_helper.py"
 else   # started with curl | bash: fetch the newest helper from GitHub
