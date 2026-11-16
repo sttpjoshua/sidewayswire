@@ -30,8 +30,9 @@ def episodes() -> dict:
         out[s["id"]] = {
             "id": s["id"], "kind": "stream", "podcast": s["series"], "title": s["title"],
             "published": s.get("date", ""), "credit": s.get("credit"), "event": s.get("event", s["title"]),
-            "youtube": mac.get("youtube"), "seconds": mac.get("seconds"), "audio": None, "link": None, "art": None,
-            "status": "transcribed" if has_t else (mac.get("status") or "new"), "error": mac.get("error"),
+            "youtube": s.get("youtube") or mac.get("youtube"), "seconds": mac.get("seconds"), "audio": None, "link": None, "art": None,
+            "status": "transcribed" if has_t and mac.get("status") == "transcribed"
+                      and (not s.get("youtube") or mac.get("youtube") == s["youtube"]) else (mac.get("status") or "new"), "error": mac.get("error"),
             "transcribed": mac.get("transcribed"),
         }
     return out

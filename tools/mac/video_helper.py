@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "7"
+VERSION = "8"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -380,6 +380,8 @@ def streams_work(beat) -> None:
     for s in _json_or("data/streams/streams.json", {"streams": []}).get("streams", []):
         mpath = f"data/streams/mac/{s['id']}.json"
         mac = _json_or(mpath, {})
+        if s.get("youtube") and mac.get("youtube") != s["youtube"]:   # a video chosen by hand always wins
+            mac = {"youtube": s["youtube"], "status": "transcribing", "note": "video vastgelegd in het register"}
         if mac.get("status") == "transcribed":
             continue
         if mac.get("status") == "error" and time.time() - mac.get("at", 0) < 6 * 3600:
@@ -393,8 +395,12 @@ def streams_work(beat) -> None:
                     raise RuntimeError("geen replay gevonden die bij het evenement past")
                 pick = next(c for c in cands if c["id"] == yid)
                 mac.update(youtube=yid, seconds=pick["seconds"], found_title=pick["title"], status="transcribing")
-                _put(mpath, json.dumps(mac, indent=1).encode(), f"mac: found stream {s['id']}")
+            if not mac.get("seconds"):
+                d = _ytdlp_lines(["--print", "%(duration)s\t%(title)s", f"https://www.youtube.com/watch?v={mac['youtube']}"])
+                if d and "\t" in d[0]:
+                    mac.update(seconds=float(d[0].split("\t")[0] or 0), found_title=d[0].split("\t", 1)[1])
                 log(f"{s['id']}: replay gevonden: {pick['title']} ({pick['seconds'] / 3600:.1f} uur)")
+            _put(mpath, json.dumps(mac, indent=1).encode(), f"mac: stream {s['id']} {mac['youtube']}")
             beat(f"{s['series']}: {s['title']}: haalt het geluid op en transcribeert (ongeveer een kwartier)", force=True)
             t = transcribe_stream(s, mac["youtube"])
             lines, last = [f"# {s['series']}: {s['title']}", ""], -60.0
@@ -488,7 +494,9 @@ def main():
     all_eps = list(ix["episodes"].values())
     for st in _json_or("data/streams/streams.json", {"streams": []}).get("streams", []):
         mac = _json_or(f"data/streams/mac/{st['id']}.json", {})
-        if mac.get("youtube"):
+        if st.get("youtube"):
+            mac["youtube"] = st["youtube"]
+        if mac.get("youtube") and mac.get("status") == "transcribed":
             all_eps.append({"id": st["id"], "kind": "stream", "podcast": st["series"], "title": st["title"],
                             "youtube": mac["youtube"], "seconds": mac.get("seconds")})
     for ep in all_eps:
