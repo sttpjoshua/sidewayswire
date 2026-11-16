@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:54:30.493048+00:00",
+ "updated": "2026-11-16T19:57:09.116082+00:00",
  "counts": {
-  "draft": 48
+  "draft": 52
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1639,10 +1639,10 @@
       "topic": "HIS CREW CHIEF DOES THE TESTING",
       "quote": "Eric, my crew guy, holy shit, he can drive. Like, I actually really want to drive with him. I have watched a lot of these videos and stuff. And like, so anytime the car needed to get tested when I wasn't there, Eric was the one who done the testing on my car as well. Which I thought was sick. Like, there's not many teams can say that their crew chief guy was the guy who was driving it ...",
       "why": "Little-known fact: crew chief Eric tests the car when Conor is in Europe.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-12/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 2638.8,
@@ -1652,10 +1652,10 @@
       "topic": "1,500 WHP AND NO NOS ALL YEAR",
       "quote": "Even in Europe, there was a long time that I used like a smaller turbo than Jack. Right. So the VR suits my style, but then the VR went to the other extreme where we had a problem that it just was too much. Like the engine was too much. Like I was constantly asking to turn it down, turn it down, turn it down, turn it down. To the point that we almost couldn't turn it down anymore. First ...",
       "why": "Big numbers and a surprising choice: he asked to turn the engine DOWN.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-13/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 3046.4,
@@ -1665,10 +1665,10 @@
       "topic": "HE STARTED THE LEFT-FOOT TRICK",
       "quote": "I was always like, oh, there's a way that we can make run -up better. There has got to be a way to like chasing on the run -up has to be better. So I started left foot braking always on the run -up, on the chase. So I would left foot brake to flick, like mimic the speed. Um, if there, even in Poland and my onboards and stuff, like Dylan Hughes asked me in FD, he was like, that blows my ...",
       "why": "Claims he started left-foot braking on the chase run-up and others copied it (mentions Dylan Hughes and LZ). Check names.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-14/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 3259.9,
@@ -1678,10 +1678,10 @@
       "topic": "OFF-SEASON? WHAT OFF-SEASON?",
       "quote": "There is not much of an off season actually. Um, yeah, I go to Japan next week to do D1, which I'm excited about. Um, yeah, so I got to go there and then I will go to Cyprus, which is kind of like a traditional trip. What Irish drivers do at the end of the year. I haven't went actually in the last three years, so I'm excited to go there. Um, and then I do a rally, which is kind of like ...",
       "why": "D1 in Japan, Cyprus, a rally and Oman. Note: recorded right after Long Beach, so 'next week' may be past.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T17:49:56.636715+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-da5d8825120e-15/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 3355.16,
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-da5d8825120e-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3259.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:57:09.113931+00:00",
+   "built": "2026-11-16T19:57:09.113933+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-15/clip.mp4",
+   "title": "OFF-SEASON? WHAT OFF-SEASON?"
+  },
+  {
+   "id": "pod-da5d8825120e-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan says he started left-foot braking on the chase run-up in Orlando, and others followed.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3046.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:56:40.582350+00:00",
+   "built": "2026-11-16T19:56:40.582352+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-14/clip.mp4",
+   "title": "HE STARTED THE LEFT-FOOT TRICK"
+  },
+  {
+   "id": "pod-da5d8825120e-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "An engine good for about 1,500 whp, and Conor Shanahan kept asking to turn it down. No NOS all year. 🔧\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 2638.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:55:58.174936+00:00",
+   "built": "2026-11-16T19:55:58.174938+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-13/clip.mp4",
+   "title": "1,500 WHP AND NO NOS ALL YEAR"
+  },
+  {
+   "id": "pod-da5d8825120e-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Not many teams can say this: Conor Shanahan's crew chief Eric tests the car himself.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 2246.94
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:55:02.613057+00:00",
+   "built": "2026-11-16T19:55:02.613059+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-12/clip.mp4",
+   "title": "HIS CREW CHIEF DOES THE TESTING"
+  },
   {
    "id": "pod-da5d8825120e-11",
    "kind": "podcast_clip",
