@@ -1,6 +1,1140 @@
 {
- "updated": "2026-11-16T14:38:26.673612+00:00",
+ "updated": "2026-11-16T15:44:13.251483+00:00",
  "counts": {},
- "inbox": [],
+ "collected": "2026-11-16T15:44:13.183630+00:00",
+ "instagram": false,
+ "sources": [
+  {
+   "source": "Formula DRIFT",
+   "url": "https://news.formulad.com",
+   "ok": true,
+   "items": 10,
+   "how": "feed"
+  },
+  {
+   "source": "Formula DRIFT",
+   "url": "https://www.youtube.com/@FormulaDRIFT",
+   "ok": true,
+   "items": 15,
+   "how": "feed"
+  },
+  {
+   "source": "Drift Masters",
+   "url": "https://dm.gp/articles",
+   "ok": true,
+   "items": 0,
+   "how": "page"
+  },
+  {
+   "source": "Drift Masters",
+   "url": "https://www.youtube.com/@DriftMastersGrandPrix",
+   "ok": true,
+   "items": 15,
+   "how": "feed"
+  },
+  {
+   "source": "RACER",
+   "url": "https://racer.com/tag/formula-drift/",
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://racer.com/tag/formula-drift/"
+  },
+  {
+   "source": "Drifted.com",
+   "url": "https://www.drifted.com",
+   "ok": true,
+   "items": 0,
+   "how": "feed"
+  },
+  {
+   "source": "Auto Partner",
+   "url": "https://autopartner.com/en/category/events",
+   "ok": true,
+   "items": 4,
+   "how": "feed"
+  },
+  {
+   "source": "Conor Shanahan",
+   "url": "https://www.youtube.com/@TheShanahans",
+   "ok": true,
+   "items": 15,
+   "how": "feed"
+  },
+  {
+   "source": "Aurimas Bakchis",
+   "url": "https://www.youtube.com/fealsuspension",
+   "ok": true,
+   "items": 15,
+   "how": "feed"
+  },
+  {
+   "source": "Matt Field",
+   "url": "https://www.youtube.com/@mattfield777",
+   "ok": true,
+   "items": 15,
+   "how": "feed"
+  },
+  {
+   "source": "Adam LZ",
+   "url": "https://www.youtube.com/@AdamLZ",
+   "ok": true,
+   "items": 15,
+   "how": "feed"
+  },
+  {
+   "source": "D1 Grand Prix (D1GP)",
+   "url": "https://d1gp.co.jp",
+   "ok": true,
+   "items": 10,
+   "how": "feed"
+  },
+  {
+   "source": "auto sport web · drift",
+   "url": "https://www.as-web.jp/drift",
+   "ok": true,
+   "items": 8,
+   "how": "feed"
+  },
+  {
+   "source": "Nürburgring Drift Cup",
+   "url": "https://nuerburgring.de/news",
+   "ok": true,
+   "items": 1,
+   "how": "page"
+  },
+  {
+   "source": "Gatebil",
+   "url": "https://gatebil.no",
+   "ok": true,
+   "items": 2,
+   "how": "feed"
+  }
+ ],
+ "inbox": [
+  {
+   "title": "D1GP2026最終戦に挑むシャナハン兄弟とクスコレーシングの決断",
+   "series": "D1GP",
+   "buzz": 2,
+   "published": "2026-11-13T20:45:07+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "D1GP2026最終戦に挑むシャナハン兄弟とクスコレーシングの決断",
+     "url": "https://d1gp.co.jp/27434/",
+     "kind": "article",
+     "published": "2026-11-12T05:01:24+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "auto sport web · drift",
+     "title": "始まりの地での最終戦に挑む下田紗弥加「私のチャレンジ精神を見てほしい」【D1GP2026キーパーソン】",
+     "url": "https://www.as-web.jp/drift/1374459",
+     "kind": "article",
+     "published": "2026-11-13T20:45:07+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "TOKYO DIRFT レースアンバサダー紹介",
+   "series": "D1GP",
+   "buzz": 2,
+   "published": "2026-11-13T13:08:02+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "D1GPのハチマキを貼って走れることに感動している／TOKYO DRIFT参戦ジャック・シャナハン：インタビュー後編",
+     "url": "https://www.as-web.jp/drift/1367220",
+     "kind": "article",
+     "published": "2026-10-27T00:04:04+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "TOKYO DRIFT プログラムを先行公開！",
+     "url": "https://d1gp.co.jp/27394/",
+     "kind": "article",
+     "published": "2026-11-11T00:33:02+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "auto sport web · drift",
+     "title": "D1GP最終戦『TOKYO DRIFT』参戦のコナー・シャナハン。中村直樹が感じた世界最高峰のドリフト「彼の走りには強い衝撃と深い刺激を受けた」",
+     "url": "https://www.as-web.jp/drift/1373782",
+     "kind": "article",
+     "published": "2026-11-11T03:59:55+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "TOKYO DIRFT レースアンバサダー紹介",
+     "url": "https://d1gp.co.jp/27439/",
+     "kind": "article",
+     "published": "2026-11-12T12:20:15+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "auto sport web · drift",
+     "title": "『TOKYO DRIFT』参戦のコナー・シャナハン「ここに来られてワクワクしている」／D1グランプリ最終戦",
+     "url": "https://www.as-web.jp/drift/1374405",
+     "kind": "article",
+     "published": "2026-11-13T13:08:02+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "CATERHAM DRIFT EXPERIENCE",
+   "series": "NDC",
+   "buzz": 1,
+   "published": "2026-11-16T15:44:10.285794+00:00",
+   "items": [
+    {
+     "source": "Nürburgring Drift Cup",
+     "title": "CATERHAM DRIFT EXPERIENCE",
+     "url": "https://nuerburgring.de/driving/more/caterham",
+     "kind": "article",
+     "published": "2026-11-16T15:44:10.285794+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "蕎麦切広大、もがきながら初のシリーズチャンピオンに輝く「切り替えたつもりでも、ずっと緊張していた」／D1グランプリ最終戦",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-16T08:50:19+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "ダブルタイトル獲得に挑む蕎麦切「緊張感を楽しんで、自分らしい走りを思いっきりしたい」／D1グランプリ最終戦",
+     "url": "https://www.as-web.jp/drift/1374433",
+     "kind": "article",
+     "published": "2026-11-13T13:18:40+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "auto sport web · drift",
+     "title": "蕎麦切広大、もがきながら初のシリーズチャンピオンに輝く「切り替えたつもりでも、ずっと緊張していた」／D1グランプリ最終戦",
+     "url": "https://www.as-web.jp/drift/1374797",
+     "kind": "article",
+     "published": "2026-11-16T08:50:19+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "D1GP RD10 結果",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-15T22:18:10+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "D1GP RD.9結果",
+     "url": "https://d1gp.co.jp/27456/",
+     "kind": "article",
+     "published": "2026-11-14T12:37:43+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "D1GP RD10 結果",
+     "url": "https://d1gp.co.jp/27462/",
+     "kind": "article",
+     "published": "2026-11-15T22:18:10+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Enjoy your Sunday afternoon! ☀️😊",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-15T15:35:28+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Enjoy your Sunday afternoon! ☀️😊",
+     "url": "https://www.youtube.com/shorts/CXzfhHQrIQM",
+     "kind": "video",
+     "published": "2026-11-15T15:35:28+00:00",
+     "media_url": "https://i4.ytimg.com/vi/CXzfhHQrIQM/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "ランク上位ふたりが予選落ちの波乱。中村直樹が今季初優勝で王者争いは三つ巴に／D1グランプリ第9戦",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-14T14:47:43+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "ランク上位ふたりが予選落ちの波乱。中村直樹が今季初優勝で王者争いは三つ巴に／D1グランプリ第9戦",
+     "url": "https://www.as-web.jp/drift/1374580",
+     "kind": "article",
+     "published": "2026-11-14T14:47:43+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Before we get old, let’s make some unforgettable memories! 🔥🏁",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-14T14:45:33+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Before we get old, let’s make some unforgettable memories! 🔥🏁",
+     "url": "https://www.youtube.com/shorts/NWG-p8qMH6w",
+     "kind": "video",
+     "published": "2026-11-14T14:45:33+00:00",
+     "media_url": "https://i3.ytimg.com/vi/NWG-p8qMH6w/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Quick overview on how coilovers are built #automobile #mechanic #cartok #garage #drift",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-13T22:45:39+00:00",
+   "items": [
+    {
+     "source": "Aurimas Bakchis",
+     "title": "Quick overview on how coilovers are built #automobile #mechanic #cartok #garage #drift",
+     "url": "https://www.youtube.com/shorts/ZUQ0pFYNt3I",
+     "kind": "video",
+     "published": "2026-11-13T22:45:39+00:00",
+     "media_url": "https://i3.ytimg.com/vi/ZUQ0pFYNt3I/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "I've been hiding in Japan",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-13T20:00:12+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "I've been hiding in Japan",
+     "url": "https://www.youtube.com/watch?v=UFyDI5Fio_k",
+     "kind": "video",
+     "published": "2026-11-13T20:00:12+00:00",
+     "media_url": "https://i2.ytimg.com/vi/UFyDI5Fio_k/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Everything That Happened at the Shoreline Showdown",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-13T19:29:58+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Everything That Happened at the Shoreline Showdown",
+     "url": "https://www.youtube.com/shorts/4S0VH4aDz4U",
+     "kind": "video",
+     "published": "2026-11-13T19:29:58+00:00",
+     "media_url": "https://i1.ytimg.com/vi/4S0VH4aDz4U/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Why Conor Shanahan Expects A Hungrier James Deane",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-13T18:30:29+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Why Conor Shanahan Expects A Hungrier James Deane",
+     "url": "https://www.youtube.com/shorts/usOZP709I-I",
+     "kind": "video",
+     "published": "2026-11-13T18:30:29+00:00",
+     "media_url": "https://i2.ytimg.com/vi/usOZP709I-I/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Will this be your motto for the weekend? 👀🔥",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-13T17:35:20+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Will this be your motto for the weekend? 👀🔥",
+     "url": "https://www.youtube.com/shorts/saGVKVlOpI4",
+     "kind": "video",
+     "published": "2026-11-13T17:35:20+00:00",
+     "media_url": "https://i4.ytimg.com/vi/saGVKVlOpI4/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Kicking off matsuri with a proper can’t see a damn through this windshield rip on north course.",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-13T15:46:50+00:00",
+   "items": [
+    {
+     "source": "Matt Field",
+     "title": "Kicking off matsuri with a proper can’t see a damn through this windshield rip on north course.",
+     "url": "https://www.youtube.com/shorts/c5BPfMU2wo0",
+     "kind": "video",
+     "published": "2026-11-13T15:46:50+00:00",
+     "media_url": "https://i4.ytimg.com/vi/c5BPfMU2wo0/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Something to think about 👀",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-13T06:35:18+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Something to think about 👀",
+     "url": "https://www.youtube.com/shorts/JTXyyPhz1aY",
+     "kind": "video",
+     "published": "2026-11-13T06:35:18+00:00",
+     "media_url": "https://i3.ytimg.com/vi/JTXyyPhz1aY/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "STRIPPING THE 2026 FORMULA DRIFT S54 | The Post Mortem",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-13T02:32:24+00:00",
+   "items": [
+    {
+     "source": "Conor Shanahan",
+     "title": "STRIPPING THE 2026 FORMULA DRIFT S54 | The Post Mortem",
+     "url": "https://www.youtube.com/watch?v=12ek9clVcC8",
+     "kind": "video",
+     "published": "2026-11-13T02:32:24+00:00",
+     "media_url": "https://i2.ytimg.com/vi/12ek9clVcC8/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "D1GP MOVIE CHANNELでTOKYO DRIFT の激闘を生配信!",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-12T21:00:00+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "D1GP MOVIE CHANNELでTOKYO DRIFT の激闘を生配信!",
+     "url": "https://d1gp.co.jp/27389/",
+     "kind": "article",
+     "published": "2026-11-12T21:00:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Flying The Championship Trophy Home To Ireland",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-12T18:30:25+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Flying The Championship Trophy Home To Ireland",
+     "url": "https://www.youtube.com/shorts/aysr27tLfHY",
+     "kind": "video",
+     "published": "2026-11-12T18:30:25+00:00",
+     "media_url": "https://i2.ytimg.com/vi/aysr27tLfHY/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Time to guess! 👀🔥",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-12T15:35:17+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Time to guess! 👀🔥",
+     "url": "https://www.youtube.com/shorts/RoiaD0t285w",
+     "kind": "video",
+     "published": "2026-11-12T15:35:17+00:00",
+     "media_url": "https://i3.ytimg.com/vi/RoiaD0t285w/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Go to Japan. Get Ichiran. Drink many beers. Go drifting with your boys. You won't regret it.",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-12T15:09:08+00:00",
+   "items": [
+    {
+     "source": "Matt Field",
+     "title": "Go to Japan. Get Ichiran. Drink many beers. Go drifting with your boys. You won't regret it.",
+     "url": "https://www.youtube.com/shorts/JsLLenYcrz4",
+     "kind": "video",
+     "published": "2026-11-12T15:09:08+00:00",
+     "media_url": "https://i3.ytimg.com/vi/JsLLenYcrz4/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Let’s make unforgettable drifting memories together! 🔥🏁",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-12T13:45:30+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Let’s make unforgettable drifting memories together! 🔥🏁",
+     "url": "https://www.youtube.com/shorts/y47p5ggHOd0",
+     "kind": "video",
+     "published": "2026-11-12T13:45:30+00:00",
+     "media_url": "https://i2.ytimg.com/vi/y47p5ggHOd0/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "オートポリスの土日決勝が予感させる「新しい進化したD1GPスタイル」",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-12T01:47:32+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "オートポリスの土日決勝が予感させる「新しい進化したD1GPスタイル」",
+     "url": "https://d1gp.co.jp/27429/",
+     "kind": "article",
+     "published": "2026-11-12T01:47:32+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Conor Shanahan Almost Quit FD",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-11T18:05:52+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Conor Shanahan Almost Quit FD",
+     "url": "https://www.youtube.com/shorts/k9pGghGA6eg",
+     "kind": "video",
+     "published": "2026-11-11T18:05:52+00:00",
+     "media_url": "https://i4.ytimg.com/vi/k9pGghGA6eg/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Drifting is a contact sport so, if your wheels aren't getting banged up, you aren't driving close en",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-11T16:17:22+00:00",
+   "items": [
+    {
+     "source": "Matt Field",
+     "title": "Drifting is a contact sport so, if your wheels aren't getting banged up, you aren't driving close en",
+     "url": "https://www.youtube.com/shorts/SRI042_srHA",
+     "kind": "video",
+     "published": "2026-11-11T16:17:22+00:00",
+     "media_url": "https://i4.ytimg.com/vi/SRI042_srHA/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The Outerzone Podcast - Conor Shanahan",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-11T15:00:23+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "The Outerzone Podcast - Conor Shanahan",
+     "url": "https://www.youtube.com/watch?v=hg9z1Hxq4lE",
+     "kind": "video",
+     "published": "2026-11-11T15:00:23+00:00",
+     "media_url": "https://i1.ytimg.com/vi/hg9z1Hxq4lE/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Non-stop, full throttle!",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-11T13:30:24+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Non-stop, full throttle!",
+     "url": "https://www.youtube.com/shorts/W_lb83JaKN8",
+     "kind": "video",
+     "published": "2026-11-11T13:30:24+00:00",
+     "media_url": "https://i4.ytimg.com/vi/W_lb83JaKN8/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "飲食ブースでは選手とのコラボフードを実施",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-11T07:48:59+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "【特別ゲスト】土屋圭市氏のサイン会決定！！",
+     "url": "https://d1gp.co.jp/27350/",
+     "kind": "article",
+     "published": "2026-11-09T07:41:01+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "『ワイルド・スピード』とのコラボグッズをご紹介！",
+     "url": "https://d1gp.co.jp/27378/",
+     "kind": "article",
+     "published": "2026-11-10T03:42:04+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "飲食ブースでは選手とのコラボフードを実施",
+     "url": "https://d1gp.co.jp/27408/",
+     "kind": "article",
+     "published": "2026-11-11T07:48:59+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Fix the car. Keep the car.",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-10T17:00:52+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Fix the car. Keep the car.",
+     "url": "https://www.youtube.com/shorts/U4O26Zeinm4",
+     "kind": "video",
+     "published": "2026-11-10T17:00:52+00:00",
+     "media_url": "https://i2.ytimg.com/vi/U4O26Zeinm4/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "This year, we brought street parades back to some of our events! How did you like them?",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-10T11:35:37+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "This year, we brought street parades back to some of our events! How did you like them?",
+     "url": "https://www.youtube.com/shorts/fjeP-wfhcGY",
+     "kind": "video",
+     "published": "2026-11-10T11:35:37+00:00",
+     "media_url": "https://i3.ytimg.com/vi/fjeP-wfhcGY/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "What Chelsea DeNofa Brought to Drifting",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-09T17:00:48+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "What Chelsea DeNofa Brought to Drifting",
+     "url": "https://www.youtube.com/shorts/fDNUm5MPzcI",
+     "kind": "video",
+     "published": "2026-11-09T17:00:48+00:00",
+     "media_url": "https://i3.ytimg.com/vi/fDNUm5MPzcI/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Finale From The Sky | Long Beach 2 FPV Recap Presented by FRE Pouches",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-09T16:00:09+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Finale From The Sky | Long Beach 2 FPV Recap Presented by FRE Pouches",
+     "url": "https://www.youtube.com/watch?v=TnGYY193mGY",
+     "kind": "video",
+     "published": "2026-11-09T16:00:09+00:00",
+     "media_url": "https://i1.ytimg.com/vi/TnGYY193mGY/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Fantastic from every angle 😍",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-09T14:30:26+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Fantastic from every angle 😍",
+     "url": "https://www.youtube.com/shorts/SFWj-Z3H07g",
+     "kind": "video",
+     "published": "2026-11-09T14:30:26+00:00",
+     "media_url": "https://i4.ytimg.com/vi/SFWj-Z3H07g/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "High-speed battles on a fast track 🏎️💥",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-09T09:30:47+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "High-speed battles on a fast track 🏎️💥",
+     "url": "https://www.youtube.com/shorts/wt6feI5gi-Q",
+     "kind": "video",
+     "published": "2026-11-09T09:30:47+00:00",
+     "media_url": "https://i4.ytimg.com/vi/wt6feI5gi-Q/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "And most importantly... build a life that's yours! ❤️‍🔥✨",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-08T15:35:36+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "And most importantly... build a life that's yours! ❤️‍🔥✨",
+     "url": "https://www.youtube.com/shorts/8In1Uxye2c4",
+     "kind": "video",
+     "published": "2026-11-08T15:35:36+00:00",
+     "media_url": "https://i1.ytimg.com/vi/8In1Uxye2c4/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "...and I'm not planning to stop! 😍",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-07T14:35:18+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "...and I'm not planning to stop! 😍",
+     "url": "https://www.youtube.com/shorts/4ZMseFJrwqg",
+     "kind": "video",
+     "published": "2026-11-07T14:35:18+00:00",
+     "media_url": "https://i1.ytimg.com/vi/4ZMseFJrwqg/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "One Last Battle - Leaving It All On The Streets of Long Beach! | Inner Clip Season Finale",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-06T20:26:48+00:00",
+   "items": [
+    {
+     "source": "Matt Field",
+     "title": "One Last Battle - Leaving It All On The Streets of Long Beach! | Inner Clip Season Finale",
+     "url": "https://www.youtube.com/watch?v=m5jsytyfiAk",
+     "kind": "video",
+     "published": "2026-11-06T20:26:48+00:00",
+     "media_url": "https://i2.ytimg.com/vi/m5jsytyfiAk/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The weekend starts right NOW! 🔥😎",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-06T17:20:24+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "The weekend starts right NOW! 🔥😎",
+     "url": "https://www.youtube.com/shorts/iHEYzw_1NLY",
+     "kind": "video",
+     "published": "2026-11-06T17:20:24+00:00",
+     "media_url": "https://i2.ytimg.com/vi/iHEYzw_1NLY/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Should Formula DRIFT Add Wild Cards?",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-06T17:01:18+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Should Formula DRIFT Add Wild Cards?",
+     "url": "https://www.youtube.com/shorts/-eixC948OeI",
+     "kind": "video",
+     "published": "2026-11-06T17:01:18+00:00",
+     "media_url": "https://i2.ytimg.com/vi/-eixC948OeI/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The FD Paddock Guess Car Parts | O’Reilly Random Part Challenge Long Beach 2",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-06T15:00:19+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "The FD Paddock Guess Car Parts | O’Reilly Random Part Challenge Long Beach 2",
+     "url": "https://www.youtube.com/watch?v=CiohRkMBSnU",
+     "kind": "video",
+     "published": "2026-11-06T15:00:19+00:00",
+     "media_url": "https://i4.ytimg.com/vi/CiohRkMBSnU/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Drop your answers in the comments! 👇🔥",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-06T11:35:21+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Drop your answers in the comments! 👇🔥",
+     "url": "https://www.youtube.com/shorts/1WTBDrAbdYQ",
+     "kind": "video",
+     "published": "2026-11-06T11:35:21+00:00",
+     "media_url": "https://i2.ytimg.com/vi/1WTBDrAbdYQ/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Ripping the World's Most Expensive R32 GT-R",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-06T01:32:30+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "Ripping the World's Most Expensive R32 GT-R",
+     "url": "https://www.youtube.com/watch?v=ZrOE49Xb87c",
+     "kind": "video",
+     "published": "2026-11-06T01:32:30+00:00",
+     "media_url": "https://i3.ytimg.com/vi/ZrOE49Xb87c/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Chelsea DeNofa on the Pressure of FD",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-05T19:00:54+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Chelsea DeNofa on the Pressure of FD",
+     "url": "https://www.youtube.com/shorts/PjYh99xgixM",
+     "kind": "video",
+     "published": "2026-11-05T19:00:54+00:00",
+     "media_url": "https://i1.ytimg.com/vi/PjYh99xgixM/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-05T18:20:22+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
+     "url": "https://www.youtube.com/watch?v=OSLpNFY2O5k",
+     "kind": "video",
+     "published": "2026-11-05T18:20:22+00:00",
+     "media_url": "https://i4.ytimg.com/vi/OSLpNFY2O5k/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Most Wanted Collection is LIVE TODAY!",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-05T17:25:35+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "The Most Wanted Car Collection",
+     "url": "https://www.youtube.com/shorts/CQJ5Ds0jnOQ",
+     "kind": "video",
+     "published": "2026-10-29T23:11:56+00:00",
+     "media_url": "https://i4.ytimg.com/vi/CQJ5Ds0jnOQ/hqdefault.jpg",
+     "media_type": "VIDEO"
+    },
+    {
+     "source": "Adam LZ",
+     "title": "Most Wanted Collection is LIVE TODAY!",
+     "url": "https://www.youtube.com/shorts/bGT42hqoCLo",
+     "kind": "video",
+     "published": "2026-11-05T17:25:35+00:00",
+     "media_url": "https://i3.ytimg.com/vi/bGT42hqoCLo/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Keep it pumping! 💥🏁",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-05T10:35:21+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Keep it pumping! 💥🏁",
+     "url": "https://www.youtube.com/shorts/338VCLDzkl8",
+     "kind": "video",
+     "published": "2026-11-05T10:35:21+00:00",
+     "media_url": "https://i4.ytimg.com/vi/338VCLDzkl8/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Chelsea DeNofa’s Cheapest FD Idea Yet",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-04T17:41:34+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Chelsea DeNofa’s Cheapest FD Idea Yet",
+     "url": "https://www.youtube.com/shorts/nsl3_8g0lpo",
+     "kind": "video",
+     "published": "2026-11-04T17:41:34+00:00",
+     "media_url": "https://i3.ytimg.com/vi/nsl3_8g0lpo/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The Outerzone Podcast - Chelsea DeNofa on 2023 Championship Win, The Stuke Incident, & Life After FD",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-04T15:00:21+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "The Outerzone Podcast - Chelsea DeNofa on 2023 Championship Win, The Stuke Incident, & Life After FD",
+     "url": "https://www.youtube.com/watch?v=263p74ZeHjw",
+     "kind": "video",
+     "published": "2026-11-04T15:00:21+00:00",
+     "media_url": "https://i3.ytimg.com/vi/263p74ZeHjw/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The Formula DRIFT Paddock on Ryan Tuerck Memories",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-03T15:00:12+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "The Formula DRIFT Paddock on Ryan Tuerck Memories",
+     "url": "https://www.youtube.com/watch?v=lchTVinH8Ek",
+     "kind": "video",
+     "published": "2026-11-03T15:00:12+00:00",
+     "media_url": "https://i1.ytimg.com/vi/lchTVinH8Ek/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Making 900HP Actually Usable in My R32 Skyline",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-02T21:05:29+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "Making 900HP Actually Usable in My R32 Skyline",
+     "url": "https://www.youtube.com/watch?v=0rLDDtTTnq4",
+     "kind": "video",
+     "published": "2026-11-02T21:05:29+00:00",
+     "media_url": "https://i1.ytimg.com/vi/0rLDDtTTnq4/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "FROM A SMALL TOWN IN IRELAND TO THE STREETS OF LONG BEACH | Formula Drift Finale",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-01T20:00:13+00:00",
+   "items": [
+    {
+     "source": "Conor Shanahan",
+     "title": "FROM A SMALL TOWN IN IRELAND TO THE STREETS OF LONG BEACH | Formula Drift Finale",
+     "url": "https://www.youtube.com/watch?v=SqJrbha6dkU",
+     "kind": "video",
+     "published": "2026-11-01T20:00:13+00:00",
+     "media_url": "https://i4.ytimg.com/vi/SqJrbha6dkU/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Why I Quit Formula Drift",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-10-30T22:00:25+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "Why I Quit Formula Drift",
+     "url": "https://www.youtube.com/watch?v=GnIngCZCsIc",
+     "kind": "video",
+     "published": "2026-10-30T22:00:25+00:00",
+     "media_url": "https://i4.ytimg.com/vi/GnIngCZCsIc/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "蕎麦切が躍進しランキングトップに浮上。田野は念願のグランプリ初優勝／D1GP第7戦＆第8戦オートポリス",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-10-29T13:59:36+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "蕎麦切が躍進しランキングトップに浮上。田野は念願のグランプリ初優勝／D1GP第7戦＆第8戦オートポリス",
+     "url": "https://www.as-web.jp/drift/1368111",
+     "kind": "article",
+     "published": "2026-10-29T13:59:36+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "🔊 One last time to 'Crank It Up' this season!",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-10-28T19:25:55+00:00",
+   "items": [
+    {
+     "source": "Matt Field",
+     "title": "🔊 One last time to 'Crank It Up' this season!",
+     "url": "https://www.youtube.com/shorts/OpRvwxAfg9M",
+     "kind": "video",
+     "published": "2026-10-28T19:25:55+00:00",
+     "media_url": "https://i4.ytimg.com/vi/OpRvwxAfg9M/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "My Last Round of Formula Drift - FD LB2 Podium",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-10-27T20:11:42+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "My Last Round of Formula Drift - FD LB2 Podium",
+     "url": "https://www.youtube.com/watch?v=z6m_bmUiAUQ",
+     "kind": "video",
+     "published": "2026-10-27T20:11:42+00:00",
+     "media_url": "https://i3.ytimg.com/vi/z6m_bmUiAUQ/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Cooper’s back picking out Vibrant Performance fittings for this episode!",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-10-26T21:22:39+00:00",
+   "items": [
+    {
+     "source": "Matt Field",
+     "title": "Cooper’s back picking out Vibrant Performance fittings for this episode!",
+     "url": "https://www.youtube.com/shorts/XoPasprzhh0",
+     "kind": "video",
+     "published": "2026-10-26T21:22:39+00:00",
+     "media_url": "https://i1.ytimg.com/vi/XoPasprzhh0/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  }
+ ],
  "posts": []
 }
