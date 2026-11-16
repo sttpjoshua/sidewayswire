@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "6"
+VERSION = "7"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -284,6 +284,141 @@ def video_for(ep: dict, state: dict) -> str | None:
     return pick
 
 
+# ---------- livestreams (Formula DRIFT, Drift Masters): find, transcribe on this Mac ----------
+VOCAB = ("Formula DRIFT, Drift Masters, tandem, one more time, OMT, lead, chase, proximity, initiation, "
+         "Top 32, Top 16, Great 8, Final 4, Deane, Shanahan, Aasbo, Gittin, Forsberg, Field, Hohenstein, Bakchis, "
+         "Odi, Brutskiy, Yoshihara, Kakimoto, Wiecek, Barrios, Losada, Dickinson, Beechum, Minowa, Hughes, Kiss, Ruiz")
+
+
+def _put(path: str, content: bytes, message: str):
+    import base64
+    sha = None
+    try:
+        sha = gh(f"/contents/{path}?ref=main").get("sha")
+    except urllib.error.HTTPError:
+        pass
+    body = {"message": message, "branch": "main", "content": base64.b64encode(content).decode()}
+    if sha:
+        body["sha"] = sha
+    gh(f"/contents/{path}", "PUT", body)
+
+
+def _json_or(path: str, default):
+    try:
+        return json.loads(gh(f"/contents/{path}?ref=main", raw=True))
+    except urllib.error.HTTPError:
+        return default
+
+
+def find_stream(s: dict) -> tuple[str | None, list]:
+    """The replay on YouTube: long enough, and the title fits the event."""
+    lines = []
+    if s.get("channel"):
+        lines += _ytdlp_lines(["--flat-playlist", "--playlist-end", "60", "--print",
+                               "%(id)s\t%(duration)s\t%(title)s", s["channel"]])
+    if s.get("search"):
+        lines += _ytdlp_lines(["--flat-playlist", "--print", "%(id)s\t%(duration)s\t%(title)s", f"ytsearch15:{s['search']}"])
+    cands, seen = [], set()
+    for line in lines:
+        p = line.split("\t")
+        if len(p) < 3 or p[0] in seen:
+            continue
+        seen.add(p[0])
+        dur = float(p[1]) if p[1].replace(".", "", 1).isdigit() else 0
+        if dur < float(s.get("min_hours", 1.5)) * 3600:
+            continue
+        t = p[2].lower()
+        score = sum(2 for w in s.get("words", []) if w in t)
+        score += 3 if any(w in t for w in ("top 32", "competition", "final", "battles")) else 0
+        score -= 3 if any(w in t for w in ("practice", "qualif", "pro-am", "proam", "prospec", "pro 2")) else 0
+        cands.append({"id": p[0], "seconds": dur, "title": p[2], "score": score,
+                      "event": any(w in t for w in s.get("words", []))})
+    cands.sort(key=lambda c: (c["score"], c["seconds"]), reverse=True)
+    fit = [c for c in cands if c["event"]]            # the title must name this event
+    best = fit[0]["id"] if fit and fit[0]["score"] > 0 else None
+    return best, cands[:8]
+
+
+def _mmss(x: float) -> str:
+    x = int(x)
+    return f"{x // 3600}:{x % 3600 // 60:02d}:{x % 60:02d}" if x >= 3600 else f"{x // 60:02d}:{x % 60:02d}"
+
+
+def transcribe_stream(s: dict, yid: str) -> dict:
+    """Download the sound of the stream and transcribe it with Whisper for Apple chips."""
+    try:
+        import mlx_whisper  # noqa: F401
+    except ImportError:
+        log("mlx-whisper installeren (eenmalig)")
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "--disable-pip-version-check", "mlx-whisper"],
+                       check=True, timeout=1800)
+    import mlx_whisper
+    CACHE.mkdir(parents=True, exist_ok=True)
+    src = [p for p in CACHE.glob(f"{yid}.full.*") if not p.name.endswith(".part")]
+    if not src:
+        r = subprocess.run(["yt-dlp", "--no-warnings", "-f", "ba[ext=m4a]/ba", "-o", str(CACHE / f"{yid}.full.%(ext)s"),
+                            f"https://www.youtube.com/watch?v={yid}"], capture_output=True, text=True, timeout=7200)
+        src = [p for p in CACHE.glob(f"{yid}.full.*") if not p.name.endswith(".part")]
+        if not src:
+            raise RuntimeError("geluid van de stream niet op te halen: " + (r.stderr or "")[-300:])
+    log(f"{s['id']}: transcriberen ({src[0].stat().st_size // 1_000_000} MB geluid)")
+    res = mlx_whisper.transcribe(str(src[0]), path_or_hf_repo="mlx-community/whisper-small.en-mlx",
+                                 word_timestamps=True, initial_prompt=VOCAB, condition_on_previous_text=False,
+                                 language="en", verbose=None)
+    segs = []
+    for sg in res.get("segments", []):
+        words = [[round(w["start"], 2), round(w["end"], 2), w["word"].strip()] for w in sg.get("words", []) if w.get("word")]
+        if sg.get("text", "").strip():
+            segs.append({"start": round(sg["start"], 2), "end": round(sg["end"], 2), "text": sg["text"].strip(), "words": words})
+    for p in src:
+        p.unlink(missing_ok=True)          # the long audio file is not needed any more
+    return {"id": s["id"], "podcast": s["series"], "title": s["title"], "language": "en",
+            "duration": round(segs[-1]["end"], 1) if segs else 0, "segments": segs}
+
+
+def streams_work(beat) -> None:
+    for s in _json_or("data/streams/streams.json", {"streams": []}).get("streams", []):
+        mpath = f"data/streams/mac/{s['id']}.json"
+        mac = _json_or(mpath, {})
+        if mac.get("status") == "transcribed":
+            continue
+        if mac.get("status") == "error" and time.time() - mac.get("at", 0) < 6 * 3600:
+            continue
+        try:
+            if not mac.get("youtube"):
+                beat(f"{s['series']}: {s['title']}: zoekt de replay op YouTube", force=True)
+                yid, cands = find_stream(s)
+                mac.update(candidates=cands, at=time.time())
+                if not yid:
+                    raise RuntimeError("geen replay gevonden die bij het evenement past")
+                pick = next(c for c in cands if c["id"] == yid)
+                mac.update(youtube=yid, seconds=pick["seconds"], found_title=pick["title"], status="transcribing")
+                _put(mpath, json.dumps(mac, indent=1).encode(), f"mac: found stream {s['id']}")
+                log(f"{s['id']}: replay gevonden: {pick['title']} ({pick['seconds'] / 3600:.1f} uur)")
+            beat(f"{s['series']}: {s['title']}: haalt het geluid op en transcribeert (ongeveer een kwartier)", force=True)
+            t = transcribe_stream(s, mac["youtube"])
+            lines, last = [f"# {s['series']}: {s['title']}", ""], -60.0
+            for sg in t["segments"]:
+                if sg["start"] - last >= 20:
+                    last = sg["start"]
+                    lines += ["", f"[{_mmss(sg['start'])}] {sg['text']}"]
+                else:
+                    lines.append(sg["text"])
+            _put(f"data/podcasts/t/{s['id']}.json", json.dumps(t, ensure_ascii=False, separators=(",", ":")).encode(),
+                 f"mac: transcript {s['id']}")
+            _put(f"data/podcasts/t/{s['id']}.txt", "\n".join(lines).encode(), f"mac: transcript text {s['id']}")
+            mac.update(status="transcribed", transcribed=datetime.now(timezone.utc).isoformat(), error=None)
+            _put(mpath, json.dumps(mac, indent=1).encode(), f"mac: transcribed {s['id']}")
+            log(f"{s['id']}: transcript klaar, {len(t['segments'])} regels")
+        except Exception as ex:
+            mac.update(status="error", error=str(ex)[:300], at=time.time())
+            try:
+                _put(mpath, json.dumps(mac, indent=1).encode(), f"mac: error {s['id']}")
+            except Exception:
+                pass
+            log("stream fout", s["id"], ex)
+
+
 # ---------- main ----------
 def asset_name(ep_id: str, i: int, m: dict) -> str:
     return f"{ep_id}-{i}-{int(round(m['start'] * 10))}-{int(round(m['end'] * 10))}.mp4"
@@ -350,7 +485,13 @@ def main():
         except Exception as ex:
             log("hartslag mislukt:", ex)
 
-    for ep in ix["episodes"].values():
+    all_eps = list(ix["episodes"].values())
+    for st in _json_or("data/streams/streams.json", {"streams": []}).get("streams", []):
+        mac = _json_or(f"data/streams/mac/{st['id']}.json", {})
+        if mac.get("youtube"):
+            all_eps.append({"id": st["id"], "kind": "stream", "podcast": st["series"], "title": st["title"],
+                            "youtube": mac["youtube"], "seconds": mac.get("seconds")})
+    for ep in all_eps:
         try:
             moments = json.loads(gh(f"/contents/data/podcasts/moments/{ep['id']}.json?ref=main", raw=True))
         except urllib.error.HTTPError:
@@ -367,7 +508,7 @@ def main():
             continue
         info["state"] = "zoekt de video"
         beat(f"{ep['podcast']}: {ep['title']}: zoekt de video", force=True)
-        yid = video_for(ep, state)
+        yid = ep["youtube"] if ep.get("kind") == "stream" else video_for(ep, state)
         info["video"] = yid
         if not yid:
             no_video.append(ep["id"])
@@ -384,11 +525,13 @@ def main():
             beat(f"{ep['podcast']}: {ep['title']}: {info['state']}")
             try:
                 o1 = o2 = None
-                if theirs is None:
+                if ep.get("kind") == "stream":       # stream times ARE the video times: nothing to line up
+                    o1 = o2 = 0.0
+                if o1 is None and theirs is None:
                     theirs = captions(ep["youtube"])
                     if theirs:
                         ours = our_words(json.loads(gh(f"/contents/data/podcasts/t/{ep['id']}.json?ref=main", raw=True)))
-                if theirs:
+                if o1 is None and theirs:
                     o1, o2 = offset_at(ours, theirs, m["start"]), offset_at(ours, theirs, m["end"] - 10)
                 if o1 is None and o2 is None:            # no captions (YouTube often refuses them): match the sound
                     if sound is None:
@@ -423,6 +566,10 @@ def main():
                 info["error"] = str(ex)[:160]
                 log("fout", name, ex)
         info["state"] = "klaar" if info["have"] >= info["need"] else info["state"]
+    try:
+        streams_work(beat)
+    except Exception as ex:
+        log("streams:", ex)
     newly_none = set(no_video) - set(old.get("no_video") or [])
     if uploaded or newly_none:      # new video, or clips that no longer need to wait: make them now
         gh("/actions/workflows/clips.yml/dispatches", "POST", {"ref": "main"})

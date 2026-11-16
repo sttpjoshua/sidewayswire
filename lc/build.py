@@ -25,7 +25,7 @@ STATE = ROOT / "data" / "state.json"
 
 # Kinds Joshua always sees first (from the plan): battle reels at the start,
 # debate posts, and anything about a crash or injury.
-ALWAYS_CHECK = {"battle_reel", "debate", "crash", "podcast_clip"}   # podcast clips: for now Joshua approves each one
+ALWAYS_CHECK = {"battle_reel", "debate", "crash", "podcast_clip", "stream_clip"}   # podcast clips: for now Joshua approves each one
 
 
 def _state() -> dict:

@@ -1,5 +1,5 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sideways Wire · podcasts</title>
+<title>Sideways Wire · studio</title>
 <link rel="icon" href="assets/monogram_kleur.svg">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
@@ -64,7 +64,7 @@ dialog ol{padding-left:18px;line-height:1.6;font-size:14px}
 @media(max-width:900px){.wrap{grid-template-columns:1fr}#list{position:static;max-height:300px}.grid{grid-template-columns:repeat(2,1fr)}}
 </style></head><body>
 <header><img src="assets/woordmerk_kleur.svg" alt="Sideways Wire">
-<nav><a href="index.html#overzicht">OVERZICHT</a><a href="index.html#beoordelen">BEOORDELEN</a><a href="index.html#clips">CLIPS</a><a class="on" href="podcasts.html">PODCASTSTUDIO</a><a href="#" id="macst" title="Mac-helper voor video">MAC …</a><a href="#" id="keybtn">SLEUTEL</a></nav></header>
+<nav><a href="index.html#overzicht">OVERZICHT</a><a href="index.html#beoordelen">BEOORDELEN</a><a href="index.html#clips">CLIPS</a><a class="on" href="podcasts.html">STUDIO</a><a href="#" id="macst" title="Mac-helper voor video">MAC …</a><a href="#" id="keybtn">SLEUTEL</a></nav></header>
 <div id="live"></div><div class="wrap"><div id="list"><div id="qpanel"></div><div id="eps"></div></div><main id="main"><div class="empty">Kies links een aflevering.</div></main></div>
 <div id="toast"></div>
 <dialog id="keydlg"><h2>GITHUB-SLEUTEL</h2>
@@ -77,7 +77,7 @@ dialog ol{padding-left:18px;line-height:1.6;font-size:14px}
 <input id="keyin" type="password" placeholder="github_pat_..."><div class="row" style="margin-top:10px"><button class="btn g" id="keysave">OPSLAAN</button><button class="btn" id="keyclear">VERWIJDEREN</button><button class="btn" onclick="keydlg.close()">SLUITEN</button></div></dialog>
 <script>
 const REPO="sttpjoshua/sidewayswire", RAW=`https://raw.githubusercontent.com/${REPO}/main/`, API=`https://api.github.com/repos/${REPO}`;
-const KIND={rumor:"GERUCHT",quote:"UITSPRAAK",fact:"WEETJE",moment:"MOMENT"};
+const KIND={rumor:"GERUCHT",quote:"UITSPRAAK",fact:"WEETJE",moment:"MOMENT",battle:"BATTLE",crash:"CRASH",omt:"ONE MORE TIME",final:"FINALE",call:"JURYBESLISSING"};
 const ST={new:"wacht op clip",queued:"clip klaar",error:"fout",skipped:"overgeslagen"};
 const EPST={new:"wacht op transcript",transcribed:"transcript klaar",error:"fout",skipped:"niet over drift"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -156,8 +156,9 @@ function draw(){
   main.innerHTML=`<span class="tag">${esc(e.podcast)}</span><span class="muted">${day(e.published)}${e.youtube?` · <a href="https://www.youtube.com/watch?v=${e.youtube}" target="_blank">video op YouTube</a>`:" · alleen audio"}${e.link?` · <a href="${esc(e.link)}" target="_blank">aflevering</a>`:""}</span>
   <h1 style="margin-top:8px">${esc(e.title)}</h1>
   <div id="vidline" class="muted" style="margin:8px 0 0"></div>
-  <audio id="au" controls preload="none" src="${esc(e.audio)}"></audio>
-  ${T?"":`<div class="mo" id="epbusy"><b>Nog geen transcript.</b> <span class="muted">${esc(EPST[e.status]||e.status)}${e.error?" · "+esc(e.error):""}</span><div id="qbox"></div></div>`}
+  ${e.kind==="stream"?`<div id="yt" style="margin:10px 0;max-width:720px;aspect-ratio:16/9;background:#000;display:flex;align-items:center;justify-content:center" class="muted">${e.youtube?"Klik op LUISTER bij een moment, of op een regel in het transcript (dubbelklik), om de stream daar te bekijken.":"De Mac zoekt deze stream nog op YouTube."}</div>`
+    :`<audio id="au" controls preload="none" src="${esc(e.audio)}"></audio>`}
+  ${T?"":e.kind==="stream"?`<div class="mo"><b>Nog geen transcript.</b> <span class="muted">Je Mac zoekt de replay op YouTube, haalt het geluid op en transcribeert het commentaar. Bij een stream van 8 uur duurt dat ongeveer een kwartier.${e.error?" Laatste fout: "+esc(e.error):""}</span></div>`:`<div class="mo" id="epbusy"><b>Nog geen transcript.</b> <span class="muted">${esc(EPST[e.status]||e.status)}${e.error?" · "+esc(e.error):""}</span><div id="qbox"></div></div>`}
   <h2>MOMENTEN (${M.length})</h2><div id="mos">${M.length?"":`<div class="muted">Nog geen momenten. Klik hieronder in het transcript op een begin en een eind om zelf een clip te maken.</div>`}</div>
   ${T?`<h2>TRANSCRIPT <span class="muted" style="font-family:Inter;font-size:13px;letter-spacing:0">klik een regel voor het begin, nog een regel voor het eind · ▶ om te luisteren</span></h2><div class="tr" id="tr"></div><div id="selbar"></div>`:""}`;
   drawMoments(); if(T) drawTranscript(); liveDraw(); drawVid();
@@ -245,7 +246,10 @@ async function persist(msg,make){
     toast(make?"Opgeslagen. De clip wordt gemaakt; over een paar minuten staat hij hier.":"Opgeslagen.");drawMoments();if(T)drawTranscript()}
   catch(x){toast(x.message,1)}
 }
-function play(a,b){const au=document.getElementById("au");au.currentTime=a;au.play();clearInterval(play.t);play.t=setInterval(()=>{if(au.currentTime>=b){au.pause();clearInterval(play.t)}},200)}
+function play(a,b){
+  if(EP&&EP.kind==="stream"){const y=document.getElementById("yt");if(!EP.youtube||!y)return;
+    y.innerHTML=`<iframe width="100%" height="100%" style="border:0" allow="autoplay; encrypted-media" allowfullscreen src="https://www.youtube.com/embed/${EP.youtube}?start=${Math.floor(a)}${b<1e8?`&end=${Math.ceil(b)}`:""}&autoplay=1"></iframe>`;return}
+  const au=document.getElementById("au");au.currentTime=a;au.play();clearInterval(play.t);play.t=setInterval(()=>{if(au.currentTime>=b){au.pause();clearInterval(play.t)}},200)}
 function drawTranscript(){
   const segs=T.segments, inMo=s=>M.find(m=>m.status!=="skipped"&&s.start<m.end&&s.end>m.start);
   const lo=sel?Math.min(sel.a,sel.b??sel.a):-1, hi=sel?Math.max(sel.a,sel.b??sel.a):-1;

@@ -16,12 +16,14 @@ def podcast_status() -> dict:
     if not (d / "episodes.json").exists():
         return {"feeds": {}, "episodes": []}
     ix = json.loads((d / "episodes.json").read_text())
+    from . import streams
+    allep = {**ix["episodes"], **streams.episodes()}
     eps = []
-    for e in sorted(ix["episodes"].values(), key=lambda e: e["published"], reverse=True)[:40]:
+    for e in sorted(allep.values(), key=lambda e: e["published"] or "", reverse=True)[:60]:
         mf = d / "moments" / f"{e['id']}.json"
         moments = json.loads(mf.read_text()) if mf.exists() else []
         eps.append({k: e.get(k) for k in ("id", "podcast", "title", "published", "status", "youtube",
-                                          "audio", "link", "art", "seconds", "error", "transcribed", "tries")}
+                                          "audio", "link", "art", "seconds", "error", "transcribed", "tries", "kind", "credit", "event")}
                    | {"has_transcript": (d / "t" / f"{e['id']}.txt").exists(),
                       "moments": [{k: m.get(k) for k in ("start", "end", "kind", "guest", "topic", "quote",
                                                          "why", "status", "clip", "mode", "wait_video")} for m in moments]})

@@ -76,7 +76,8 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
         mode = "video" if video else "audiogram"
         data = {"w": W, "h": H, "bg": "transparent", "podcast": ep["podcast"], "guest": moment.get("guest", ""),
                 "topic": moment.get("topic"), "kind": moment.get("kind", "moment"),
-                "credit": moment.get("credit"), "audiogram": mode == "audiogram", "photo": photo}
+                "credit": moment.get("credit") or ep.get("credit"), "audiogram": mode == "audiogram", "photo": photo,
+                "stream": ep.get("kind") == "stream", "event": ep.get("event")}
         r.render("clip_overlay.html", data, tmp / "layer.png", transparent=True)
         # Context photos (added by Joshua in the podcast studio), shown one after another
         photos = []

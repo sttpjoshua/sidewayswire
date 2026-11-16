@@ -25,6 +25,7 @@ from pathlib import Path
 from . import progress
 from . import queue as q
 from .clips import make_clip
+from . import streams
 from .podcasts import DIR, load_index
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -89,6 +90,7 @@ def save_partial(note: str):
 
 def run(limit: int = 120) -> dict:
     ix = load_index()
+    ix["episodes"] = {**ix["episodes"], **streams.episodes()}      # livestreams are made the same way
     report = {"clips": [], "errors": [], "waiting_for_video": []}
     assets, no_video = video_assets()
     now = datetime.now(timezone.utc)
@@ -122,6 +124,9 @@ def run(limit: int = 120) -> dict:
             if not 10 <= length <= 90:
                 m.update(status="error", error=f"clip length {length:.0f}s, keep it 15-75 s")
                 continue
+            if ep.get("kind") == "stream" and name not in assets:
+                report["waiting_for_video"].append(pid)
+                continue                           # a stream clip needs the footage, there is no audio-only version
             if no_video is not None and name not in assets and mf.stem not in no_video:   # Mac is alive: wait for video
                 since = m.setdefault("wait_video", now.isoformat())
                 if (now - datetime.fromisoformat(since)).total_seconds() < WAIT_VIDEO:
@@ -155,12 +160,14 @@ def run(limit: int = 120) -> dict:
             m.pop("tries", None)
             m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT,
                      made=datetime.now(timezone.utc).isoformat())
-            check = (m["kind"] == "rumor" or res["mode"] == "audiogram" or bool(m.get("check"))) and m.get("by") != "joshua"
+            check = (ep.get("kind") == "stream" or m["kind"] == "rumor" or res["mode"] == "audiogram"
+                     or bool(m.get("check"))) and m.get("by") != "joshua"
             q.save({
-                "id": pid, "kind": "podcast_clip", "status": "draft", "slides": [], "title": m.get("topic"),
+                "id": pid, "kind": "stream_clip" if ep.get("kind") == "stream" else "podcast_clip", "status": "draft", "slides": [], "title": m.get("topic"),
                 "video": str(out.relative_to(ROOT)), "caption": m.get("caption", ""),
                 "credit": m.get("credit"), "check": check,
-                "check_reason": ("gerucht uit een podcast" if m["kind"] == "rumor"
+                "check_reason": ("livestream-clip: check jij eerst" if ep.get("kind") == "stream"
+                                 else "gerucht uit een podcast" if m["kind"] == "rumor"
                                  else "namen nakijken" if m.get("check")
                                  else "audiogram: er was geen video" if res["mode"] == "audiogram" else ""),
                 "platforms": ["instagram", "facebook", "tiktok", "youtube"],

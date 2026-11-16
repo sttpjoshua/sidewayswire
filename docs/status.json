@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:11:56.929838+00:00",
+ "updated": "2026-11-16T19:23:00.466068+00:00",
  "counts": {
   "draft": 7
  },
@@ -1416,6 +1416,9 @@
     "error": null,
     "transcribed": "2026-11-16T16:15:22.956413+00:00",
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": true,
     "moments": [
      {
@@ -1447,6 +1450,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1464,6 +1470,9 @@
     "error": null,
     "transcribed": "2026-11-16T17:04:38.296861+00:00",
     "tries": 0,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": true,
     "moments": [
      {
@@ -1729,6 +1738,9 @@
     "error": null,
     "transcribed": "2026-11-16T17:37:02.678565+00:00",
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": true,
     "moments": [
      {
@@ -2111,6 +2123,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -2128,6 +2143,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -2145,6 +2163,29 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
+    "has_transcript": false,
+    "moments": []
+   },
+   {
+    "id": "fd2026r8",
+    "podcast": "Formula DRIFT",
+    "title": "Round 8 Long Beach 2026 · finale",
+    "published": "2026-10-24",
+    "status": "new",
+    "youtube": null,
+    "audio": null,
+    "link": null,
+    "art": null,
+    "seconds": null,
+    "error": null,
+    "transcribed": null,
+    "tries": null,
+    "kind": "stream",
+    "credit": "@formulad",
+    "event": "FD LONG BEACH",
     "has_transcript": false,
     "moments": []
    },
@@ -2162,6 +2203,9 @@
     "error": null,
     "transcribed": "2026-11-16T17:48:39.151799+00:00",
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": true,
     "moments": [
      {
@@ -2505,6 +2549,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -2522,6 +2569,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -2539,6 +2589,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -2556,6 +2609,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -2573,6 +2629,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -2590,6 +2649,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    },
@@ -2607,6 +2669,9 @@
     "error": null,
     "transcribed": null,
     "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
     "has_transcript": false,
     "moments": []
    }
