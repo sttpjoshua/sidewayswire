@@ -11,27 +11,11 @@
   "ok": "2026-11-16T15:46:25.781794+00:00",
   "last_count": 15
  },
- "https://dm.gp/articles": {
-  "kind": "page",
-  "url": "https://dm.gp/articles",
-  "ok": "2026-11-16T15:46:26.635524+00:00",
-  "last_count": 0
- },
  "https://www.youtube.com/@DriftMastersGrandPrix": {
   "kind": "feed",
   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6rwUxdTOtORA3KL3q3r7pQ",
   "ok": "2026-11-16T15:46:26.862038+00:00",
   "last_count": 15
- },
- "https://racer.com/tag/formula-drift/": {
-  "error": "429 Client Error: Too Many Requests for url: https://racer.com/tag/formula-drift/",
-  "checked": "2026-11-16T15:43:50.913379+00:00"
- },
- "https://www.drifted.com": {
-  "kind": "feed",
-  "url": "https://www.drifted.com/feed/",
-  "ok": "2026-11-16T15:46:27.832508+00:00",
-  "last_count": 0
  },
  "https://autopartner.com/en/category/events": {
   "kind": "feed",

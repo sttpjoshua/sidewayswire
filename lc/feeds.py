@@ -30,15 +30,12 @@ WATCH = [
     # source name (as in sources.csv), series, url, keyword
     ("Formula DRIFT", "FD", "https://news.formulad.com", None),
     # Sites that block bots are read through Google News (gnews: + search terms).
-    ("RACER", "FD", "gnews:site:racer.com \"formula drift\"", None),
-    ("Drift Masters", "DM", "gnews:site:dm.gp", None),
+    ("RACER", "FD", "gnews:site:racer.com \"formula drift\"", "drift"),
     ("Drifted.com", "FD + DM", "gnews:site:drifted.com", None),
-    ("Google News", "FD", "gnews:\"Formula Drift\"", None),
-    ("Google News", "DM", "gnews:\"Drift Masters\"", None),
+    ("Google News", "FD", "gnews:\"Formula Drift\"", "drift"),
+    ("Google News", "DM", "gnews:\"Drift Masters\"", "drift"),
     ("Formula DRIFT", "FD", "https://www.youtube.com/@FormulaDRIFT", None),
-    ("Drift Masters", "DM", "https://dm.gp/articles", None),
     ("Drift Masters", "DM", "https://www.youtube.com/@DriftMastersGrandPrix", None),
-    ("Drifted.com", "FD + DM", "https://www.drifted.com", None),
     ("Auto Partner", "DM", "https://autopartner.com/en/category/events", "drift"),
     ("Conor Shanahan", "FD + DM", "https://www.youtube.com/@TheShanahans", None),
     ("Aurimas Bakchis", "FD", "https://www.youtube.com/fealsuspension", None),
