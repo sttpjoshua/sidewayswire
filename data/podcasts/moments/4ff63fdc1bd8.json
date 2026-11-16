@@ -14,13 +14,14 @@
   "test": "first test of the clip pipeline by Claude",
   "clip": "docs/media/pod-4ff63fdc1bd8-0/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:33:51.688252+00:00",
+  "layout": 3,
+  "made": "2026-11-16T20:25:14.094843+00:00",
   "hook": {
    "start": 95.45,
    "end": 97.7,
    "text": "THIS TITLE CAR STARTED AS...",
    "why": "het verrassende feit"
-  }
+  },
+  "hook_sig": "{\"end\": 97.7, \"start\": 95.45, \"text\": \"THIS TITLE CAR STARTED AS...\", \"why\": \"het verrassende feit\"}"
  }
 ]
