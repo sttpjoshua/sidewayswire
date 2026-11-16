@@ -39,8 +39,8 @@ def asset_name(ep_id: str, i: int, m: dict) -> str:
     return f"{ep_id}-{i}-{int(round(float(m['start']) * 10))}-{int(round(float(m['end']) * 10))}.mp4"
 
 
-def video_assets() -> dict:
-    """{name: download url} of the videos the Mac helper uploaded."""
+def video_assets() -> tuple[dict, list]:
+    """({name: download url} of the videos the Mac helper uploaded, [episode ids without a full video])."""
     import requests
     repo = os.environ.get("GITHUB_REPOSITORY", "sttpjoshua/sidewayswire")
     h = {"Accept": "application/vnd.github+json"}
@@ -49,10 +49,15 @@ def video_assets() -> dict:
     try:
         r = requests.get(f"https://api.github.com/repos/{repo}/releases/tags/{TAG}", headers=h, timeout=30)
         if r.ok:
-            return {a["name"]: a["browser_download_url"] for a in r.json().get("assets", [])}
+            try:
+                beat = json.loads(r.json().get("body") or "{}")
+            except ValueError:
+                beat = {}
+            return ({a["name"]: a["browser_download_url"] for a in r.json().get("assets", [])},
+                    beat.get("no_video") or [])
     except Exception as e:
         print("video assets:", e)
-    return {}
+    return {}, []
 
 
 def _fetch(url: str, out: Path) -> Path:
@@ -68,7 +73,7 @@ def _fetch(url: str, out: Path) -> Path:
 def run(limit: int = 6) -> dict:
     ix = load_index()
     report = {"clips": [], "errors": [], "waiting_for_video": []}
-    assets = video_assets()
+    assets, no_video = video_assets()
     now = datetime.now(timezone.utc)
     for mf in sorted((DIR / "moments").glob("*.json")):
         ep = ix["episodes"].get(mf.stem)
@@ -98,7 +103,7 @@ def run(limit: int = 6) -> dict:
             if not 10 <= length <= 90:
                 m.update(status="error", error=f"clip length {length:.0f}s, keep it 15-75 s")
                 continue
-            if ep.get("youtube") and name not in assets:
+            if ep.get("youtube") and name not in assets and mf.stem not in no_video:
                 since = m.setdefault("wait_video", now.isoformat())
                 if (now - datetime.fromisoformat(since)).total_seconds() < WAIT_VIDEO:
                     report["waiting_for_video"].append(pid)

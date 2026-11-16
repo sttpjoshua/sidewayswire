@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "3"
+VERSION = "4"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -245,6 +245,45 @@ def audio_offset(pod, yt, at: float, length: float = 20.0) -> float | None:
     return i / SR - at
 
 
+# ---------- the right video ----------
+def _ytdlp_lines(args: list[str]) -> list[str]:
+    r = subprocess.run(["yt-dlp", "--no-warnings", *args], capture_output=True, text=True, timeout=300)
+    return [l for l in r.stdout.splitlines() if l.strip()]
+
+
+def video_for(ep: dict, state: dict) -> str | None:
+    """The YouTube id of the FULL episode. The linked video is sometimes a Short or a highlight:
+    then search YouTube for a video with about the same length as the episode."""
+    known = state.setdefault("video", {}).get(ep["id"])
+    if known and time.time() - known.get("at", 0) < (30 * 86400 if known.get("id") else 86400):
+        return known.get("id")
+    want = float(ep.get("seconds") or 0)
+    pick = None
+    if ep.get("youtube"):
+        d = _ytdlp_lines(["--print", "%(duration)s", f"https://www.youtube.com/watch?v={ep['youtube']}"])
+        dur = float(d[0]) if d and d[0].replace(".", "", 1).isdigit() else 0
+        if not want or (dur and 0.85 * want <= dur <= 1.2 * want):
+            pick = ep["youtube"]
+        else:
+            log(f"{ep['id']}: gekoppelde video duurt {dur:.0f} s, aflevering {want:.0f} s; ik zoek de hele aflevering")
+    if not pick and want:
+        q = f"{ep['podcast']} {ep['title']}"
+        best = 0.0
+        for line in _ytdlp_lines(["--flat-playlist", "--print", "%(id)s\t%(duration)s\t%(title)s", f"ytsearch10:{q}"]):
+            parts = line.split("\t")
+            if len(parts) < 3 or not parts[1].replace(".", "", 1).isdigit():
+                continue
+            vid, dur, title = parts[0], float(parts[1]), parts[2]
+            if not 0.85 * want <= dur <= 1.2 * want:
+                continue
+            score = SequenceMatcher(None, norm(ep["title"]), norm(title)).ratio() + 0.5 * (1 - abs(dur - want) / want)
+            if score > best:
+                best, pick = score, vid
+        log(f"{ep['id']}: " + (f"hele aflevering gevonden: {pick}" if pick else "geen volledige video op YouTube gevonden"))
+    state["video"][ep["id"]] = {"id": pick, "at": time.time()}
+    return pick
+
+
 # ---------- main ----------
 def asset_name(ep_id: str, i: int, m: dict) -> str:
     return f"{ep_id}-{i}-{int(round(m['start'] * 10))}-{int(round(m['end'] * 10))}.mp4"
@@ -263,9 +302,18 @@ def download(youtube_id: str, a: float, b: float, out: Path) -> bool:
 def daily_update(state: dict):
     if time.time() - state.get("updated_ytdlp", 0) < 86400 or not shutil.which("brew"):
         return
-    subprocess.run(["brew", "upgrade", "-q", "yt-dlp"], capture_output=True, timeout=900)
+    subprocess.run(["brew", "upgrade", "-q", "yt-dlp", "deno"], capture_output=True, timeout=900)
     state["updated_ytdlp"] = time.time()
     log("yt-dlp bijgewerkt")
+    try:   # keep this helper itself up to date (only replaced when the new file is valid Python)
+        new = gh("/contents/tools/mac/video_helper.py?ref=main", raw=True)
+        compile(new, "video_helper.py", "exec")
+        me = Path(__file__)
+        if new != me.read_bytes():
+            me.write_bytes(new)
+            log("helper bijgewerkt; de nieuwe versie draait vanaf de volgende keer")
+    except Exception as ex:
+        log("helper bijwerken mislukt:", ex)
 
 
 def main():
@@ -276,7 +324,7 @@ def main():
     rel = release()
     have = {a["name"] for a in rel.get("assets", [])}
     ix = json.loads(gh("/contents/data/podcasts/episodes.json?ref=main", raw=True))
-    uploaded, errors, waiting = [], [], 0
+    uploaded, errors, waiting, no_video = [], [], 0, []
     for ep in ix["episodes"].values():
         if not ep.get("youtube"):
             continue
@@ -289,6 +337,11 @@ def main():
                 and asset_name(ep["id"], i, m) not in have]
         if not todo:
             continue
+        yid = video_for(ep, state)
+        if not yid:
+            no_video.append(ep["id"])
+            continue
+        ep = dict(ep, youtube=yid)
         theirs, ours, sound = None, None, None
         for i, m in todo:
             name = asset_name(ep["id"], i, m)
@@ -335,7 +388,7 @@ def main():
         gh("/actions/workflows/podcasts.yml/dispatches", "POST", {"ref": "main", "inputs": {"per_run": "0", "episode": ""}})
         log("clips worden opnieuw gemaakt")
     beat = {"seen": datetime.now(timezone.utc).isoformat(), "version": VERSION, "uploaded": uploaded,
-            "errors": errors[-5:], "waiting": waiting}
+            "errors": errors[-5:], "waiting": waiting, "no_video": no_video}
     old = {}
     try:
         old = json.loads(rel.get("body") or "{}")
