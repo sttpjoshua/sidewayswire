@@ -55,10 +55,11 @@
   "credit": "@formulad",
   "check": false,
   "caption": "The Shanahan house rule: big wins stay on the kitchen table for two months. 🏆\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-  "status": "queued",
+  "status": "error",
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-2/clip.mp4",
-  "mode": "video"
+  "mode": "video",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 454.9,
@@ -71,10 +72,11 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Conor Shanahan on the weeks between Vegas and Long Beach: one hand on the title, but not both.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-  "status": "queued",
+  "status": "error",
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-3/clip.mp4",
-  "mode": "video"
+  "mode": "video",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 693.9,
@@ -87,10 +89,11 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Conor Shanahan on his would-be teammate: \"we all know he was going to be an FD champion.\"\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-  "status": "queued",
+  "status": "error",
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-4/clip.mp4",
-  "mode": "video"
+  "mode": "video",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 745,
@@ -103,11 +106,12 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Said on The Outerzone: Conor Shanahan thinks we could see Hiro at a US rally round next year. Not confirmed. 👀\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
-  "status": "queued",
+  "status": "error",
   "by": "editor",
   "edited": "2026-11-16T17:23:15.480Z",
   "clip": "docs/media/pod-da5d8825120e-5/clip.mp4",
-  "mode": "video"
+  "mode": "video",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 838.7,
