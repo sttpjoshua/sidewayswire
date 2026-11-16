@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T22:21:19.729401+00:00",
+ "updated": "2026-11-16T22:23:04.632375+00:00",
  "counts": {
   "check": 17,
   "ready": 44,
-  "draft": 10
+  "draft": 11
  },
  "collected": "2026-11-16T21:56:31.745374+00:00",
  "instagram": false,
@@ -2396,9 +2396,9 @@
       "topic": "A BRICK ON THE GAS PEDAL",
       "quote": "I feel like Trent threw a brick on his gas pedal and that transition. I want to get different angles on that. I heard you go a gas there. Yeah, it was a weird spot to look into it through. Zone one and zone two, you can see just how much angle Beechem is throwing on. This is what I talked about with a car that doesn't have a lot of side bite. It wants to go sideways, wants to continue to go sideways. And as much as that helped him through a first couple of zones, it's going to come back and bite up really hard coming out of six through seven. Look at this, he's full lock, he's off -throat, he's trying to salvage it. But to me, that is kind of an unchasable part of that run. There's nothing Matt Field could do. Matt did a great job of tempering what he needed to do. Didn't overcommit, didn't bite into our smart moves there for Matt Field to make sure that the favor would go in his direction. All right. Well, as we see the two vehicles, the Rockstar Energy top 32, slide them left for Field right for Beecham. And there is one vote and two votes. Matt Field gets the win. Matt Field gets the win and it advances on.",
       "why": "Te veel hoek bij Trenton, Matt Field slim en door",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-10/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -4635,6 +4635,43 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-fd2026r8-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Full lock, off throttle, trying to save it. Matt Field keeps it smart and moves on against Trenton Beechum.\n\n🎥 Footage: FD LONG BEACH FINALE\n@mattfield777 @trenton_beechum @formulad\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 9333.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:23:04.629551+00:00",
+   "built": "2026-11-16T22:23:04.629557+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-10/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "A BRICK ON THE GAS PEDAL"
   },
   {
    "id": "pod-fd2026r8-9",

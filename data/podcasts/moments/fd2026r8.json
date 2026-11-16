@@ -311,8 +311,13 @@
    "why": "beeldende uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-10-93340-93930.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-10-93340-93930.mp4",
+  "clip": "docs/media/pod-fd2026r8-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9337.22, \"start\": 9333.98, \"text\": \"A BRICK ON THE GAS?\", \"why\": \"beeldende uitspraak\"}",
+  "made": "2026-11-16T22:23:04.628514+00:00"
  },
  {
   "start": 9463.52,
