@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "13"
+VERSION = "14"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -578,6 +578,7 @@ def main():
         if mac.get("youtube") and mac.get("status") == "transcribed":
             all_eps.append({"id": st["id"], "kind": "stream", "podcast": st["series"], "title": st["title"],
                             "youtube": mac["youtube"], "seconds": mac.get("seconds")})
+    all_eps.sort(key=lambda e: e.get("kind") != "stream")      # livestream clips first, podcasts after
     for ep in all_eps:
         try:
             moments = json.loads(gh(f"/contents/data/podcasts/moments/{ep['id']}.json?ref=main", raw=True))
