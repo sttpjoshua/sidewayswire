@@ -11,6 +11,24 @@ from . import queue as q
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def podcast_status() -> dict:
+    d = ROOT / "data" / "podcasts"
+    if not (d / "episodes.json").exists():
+        return {"feeds": {}, "episodes": []}
+    ix = json.loads((d / "episodes.json").read_text())
+    eps = []
+    for e in sorted(ix["episodes"].values(), key=lambda e: e["published"], reverse=True)[:40]:
+        mf = d / "moments" / f"{e['id']}.json"
+        moments = json.loads(mf.read_text()) if mf.exists() else []
+        eps.append({k: e.get(k) for k in ("id", "podcast", "title", "published", "status", "youtube",
+                                          "audio", "link", "art", "seconds", "error")}
+                   | {"has_transcript": (d / "t" / f"{e['id']}.txt").exists(),
+                      "moments": [{k: m.get(k) for k in ("start", "end", "kind", "guest", "topic", "quote",
+                                                         "why", "status", "clip", "mode")} for m in moments]})
+    feeds = {n: {k: f.get(k) for k in ("title", "episodes", "error", "ok")} for n, f in ix["feeds"].items()}
+    return {"feeds": feeds, "episodes": eps}
+
+
 def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> dict:
     posts = q.load(folder=folder)
     inbox = ROOT / "data" / "inbox.json"
@@ -24,6 +42,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         "instagram": ib.get("instagram", False),
         "sources": ib.get("sources", []),
         "inbox": [{k: s.get(k) for k in ("title", "series", "buzz", "published", "items")} for s in stories[:80]],
+        "podcasts": podcast_status(),
         "posts": [{k: p.get(k) for k in keep} | {"media": [m.removeprefix("docs/") for m in p.get("media", [])]}
                   for p in sorted(posts, key=lambda p: p.get("post_at") or p.get("built") or "", reverse=True)[:60]],
     }

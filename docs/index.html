@@ -29,6 +29,10 @@ h2{font-size:30px;margin:36px 0 12px;display:flex;align-items:baseline;gap:12px}
 .src{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
 .src div{background:var(--card);padding:10px 12px;font-size:12px;line-height:1.5;border-left:4px solid var(--accent)}
 .src div.err{border-color:var(--pink)}.src b{font-size:13px}.src span{color:var(--mute);word-break:break-all}
+.ep{background:var(--card);padding:12px 14px}.ep .t{font-weight:800;font-size:15px}
+.ep .meta{color:var(--mute);font-size:12px;margin-top:4px}
+.mo{margin-top:10px;border-left:4px solid var(--accent);padding:6px 10px;font-size:13px;line-height:1.45;background:#1b1b1d}
+.mo.rumor{border-color:var(--pink)}.mo q{color:#fff}.mo .why{color:var(--mute)}
 .note{background:#232326;border-left:4px solid var(--pink);padding:12px 14px;font-size:13px;color:var(--mute);margin-top:16px}
 #upd{color:var(--mute);font-size:13px;margin-top:14px}
 @media(max-width:600px){.s{grid-template-columns:80px 1fr}.s .thumb{width:80px}}
@@ -39,6 +43,7 @@ h2{font-size:30px;margin:36px 0 12px;display:flex;align-items:baseline;gap:12px}
 <h2>BINNENGEKOMEN NIEUWS <small id="nc"></small></h2>
 <div class="filters" id="filters"></div>
 <div class="news" id="inbox"></div>
+<h2>PODCASTS <small id="pc"></small></h2><div class="news" id="pods"></div>
 <h2>POSTS</h2><div class="grid" id="posts"></div>
 <h2>BRONNEN <small id="sc"></small></h2><div class="src" id="sources"></div>
 <script>
@@ -68,6 +73,15 @@ fetch("status.json?"+Date.now()).then(r=>r.json()).then(s=>{
   filters.innerHTML=series.map(x=>`<button class="${x===filter?"on":""}">${esc(x)}</button>`).join("");
   filters.onclick=e=>{if(e.target.tagName!=="BUTTON")return;filter=e.target.textContent;[...filters.children].forEach(b=>b.classList.toggle("on",b.textContent===filter));drawInbox()};
   drawInbox();
+  const P=s.podcasts||{episodes:[],feeds:{}}; const KIND={rumor:"GERUCHT",quote:"UITSPRAAK",fact:"WEETJE",moment:"MOMENT"};
+  const ST={new:"nieuw, wacht op transcript",transcribed:"transcript klaar",error:"fout"};
+  const ts=(e,sec)=>e.youtube?`https://www.youtube.com/watch?v=${e.youtube}&t=${Math.floor(sec)}s`:`${e.audio}#t=${Math.floor(sec)}`;
+  const mmss=x=>{x=Math.floor(x);const h=Math.floor(x/3600),m=Math.floor(x%3600/60),q=String(x%60).padStart(2,"0");return h?`${h}:${String(m).padStart(2,"0")}:${q}`:`${m}:${q}`};
+  pc.textContent=P.episodes.length+" afleveringen · "+P.episodes.filter(e=>e.has_transcript).length+" met transcript";
+  pods.innerHTML=P.episodes.map(e=>`<div class="ep"><div class="t">${esc(e.title)}</div>
+    <div class="meta"><span class="tag">${esc(e.podcast)}</span>${when(e.published)} · ${esc(ST[e.status]||e.status)}${e.youtube?" · video op YouTube":" · alleen audio"}${e.has_transcript?` · <a href="https://github.com/sttpjoshua/sidewayswire/blob/main/data/podcasts/t/${e.id}.txt" target="_blank">transcript lezen</a>`:""}</div>
+    ${e.moments.map(m=>`<div class="mo ${m.kind==="rumor"?"rumor":""}"><span class="tag ${m.kind==="rumor"?"check":"ready"}">${KIND[m.kind]||m.kind}</span><a href="${esc(ts(e,m.start))}" target="_blank">${mmss(m.start)} tot ${mmss(m.end)}</a> · ${esc(m.guest||"")} · ${esc(m.status)}${m.mode?" ("+esc(m.mode)+")":""}<br><q>${esc(m.quote)}</q><div class="why">${esc(m.why||"")}</div></div>`).join("")}</div>`).join("")
+    ||"<p>Nog geen afleveringen. De podcastzoeker draait elke twee uur.</p>";
   posts.innerHTML=s.posts.map(p=>`<div class="p">${p.media[0]?`<img loading="lazy" src="${esc(p.media[0])}">`:""}<div><span class="tag ${esc(p.status)}">${esc(NL[p.status]||p.status).toUpperCase()}</span><b>${esc(p.kind)}</b><br>${when(p.posted_at||p.post_at)}${(p.problems||[]).length?`<br><span style="color:var(--pink)">${esc(p.problems[0])}</span>`:""}<div class="cap" style="padding:0">${esc(p.caption)}</div></div></div>`).join("")||"<p>Nog geen posts. Die komen zodra de redactie draait.</p>";
   const ok=S.sources.filter(x=>x.ok).length; sc.textContent=ok+" van "+S.sources.length+" werken";
   sources.innerHTML=S.sources.map(x=>`<div class="${x.ok?"":"err"}"><b>${esc(x.source)}</b><br><span>${esc(x.url)}</span><br>${x.ok?`${x.items} items · via ${x.how==="feed"?"feed":"pagina"}`:`<span style="color:var(--pink)">${esc(x.error)}</span>`}</div>`).join("");

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% import "_parts.html" as p %}
+{# Transparent 1080x1920 layer over a podcast clip (video or audiogram).
+   Data: podcast, guest, topic (headline, 1-2 lines), kind ('rumor'|'quote'|'fact'|'moment'),
+         credit (e.g. '@formulad'), episode (short), audiogram (bool), photo (only for audiogram) #}
+{% block body %}
+{% set label = {'rumor': 'RUMOR', 'quote': 'THEY SAID IT', 'fact': 'DID YOU KNOW', 'moment': 'PODCAST CLIP'}[kind or 'moment'] %}
+{% set lbg = 'var(--pink)' if kind == 'rumor' else 'var(--accent)' %}
+{{ p.wordmark() }}
+<div class="abs badge bb" style="background:{{ lbg }};font-size:36px;line-height:1">ON THE<br>POD</div>
+{% if audiogram %}
+<div class="abs" style="left:190px;top:420px;width:700px;height:700px;border:6px solid #fff;transform:rotate(-2deg);overflow:hidden;background:#232326">
+{% if photo %}<img src="{{ photo }}" style="width:100%;height:100%;object-fit:cover">{% endif %}
+</div>
+{% endif %}
+<div class="abs" style="left:70px;top:{{ 200 if audiogram else 230 }}px;display:flex;flex-direction:column;align-items:flex-start;gap:0">
+  <div class="bb tape" style="background:{{ lbg }};color:#111;border:4px solid #111;font-size:44px;transform:rotate(-2deg)">{{ label }}</div>
+  <div class="bb tape" data-fit data-size="64" data-min="40" style="background:#111;color:#fff;border:4px solid #fff;font-size:64px;transform:rotate(1deg);margin-left:40px;max-width:900px">{{ guest }}</div>
+</div>
+{% if topic %}
+<div class="abs" style="left:70px;right:70px;top:{{ 1180 if audiogram else 1290 }}px;display:flex;justify-content:center">
+  <div class="bb tape" data-fit data-size="58" data-min="36" style="background:#fff;color:#111;border:4px solid #111;font-size:58px;transform:rotate(-1deg);text-align:center">{{ topic }}</div>
+</div>
+{% endif %}
+<div class="abs" style="left:70px;right:70px;bottom:150px;background:rgba(17,17,17,.92);border:3px solid #fff;padding:16px 20px;display:flex;justify-content:space-between;gap:16px;font-size:24px;font-weight:800;letter-spacing:1px">
+  <div style="color:{{ lbg }};white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ podcast|upper }}{% if credit %} · {{ credit }}{% endif %}</div>
+  <div style="white-space:nowrap">FULL EP · LINK IN BIO</div>
+</div>
+{% endblock %}

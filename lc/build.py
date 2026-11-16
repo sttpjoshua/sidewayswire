@@ -64,8 +64,8 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
         return report
     with Renderer() as r:
         for p in drafts:
-            p["media"], p["problems"] = [], []
-            for i, slide in enumerate(p["slides"], 1):
+            p["media"], p["problems"] = ([p["video"]] if p.get("video") else []), []
+            for i, slide in enumerate(p.get("slides", []), 1):
                 out = (media / p["id"] / f"{i}.png").resolve()
                 res = r.render(slide["template"], slide["data"], out)
                 p["media"].append(str(out.relative_to(ROOT)))

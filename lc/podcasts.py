@@ -39,15 +39,26 @@ MAX_AGE_DAYS = 60          # only recent episodes are news
 PER_RUN = int(os.environ.get("PODCASTS_PER_RUN", "3"))
 MODEL = os.environ.get("WHISPER_MODEL", "small.en")
 
-# name, Apple search term, YouTube channel with the video version (or None)
+# name, Apple search term, YouTube channel with the video version (or None),
+# drift_only: general car podcasts, only episodes that are about drifting
 PODCASTS = [
-    ("The Outerzone", "The Outerzone Official Podcast of Formula DRIFT", "https://www.youtube.com/@FormulaDRIFT"),
-    ("Drift Games Podcast", "Drift Games Podcast", None),
-    ("The Goodest Cast", "The Goodest Cast Hangout with the Drift Community", None),
-    ("The SileightyMania Podcast", "SileightyMania Podcast", "https://www.youtube.com/c/thesileightymaniapodcast"),
-    ("The Creative Drive", "The Creative Drive RACER", None),
-    ("Behind The Wheel", "Behind The Wheel Podcast Konig", None),
+    ("The Outerzone", "The Outerzone Official Podcast of Formula DRIFT", "https://www.youtube.com/@FormulaDRIFT", False),
+    ("Drift Games Podcast", "Drift Games Podcast", None, False),
+    ("The Goodest Cast", "The Goodest Cast Hangout with the Drift Community", None, False),
+    ("The SileightyMania Podcast", "SileightyMania Podcast", "https://www.youtube.com/c/thesileightymaniapodcast", False),
+    ("The Creative Drive", "The Creative Drive RACER", None, True),
+    ("Behind The Wheel", "Behind The Wheel Podcast Konig", None, True),
 ]
+
+
+def _drift_words() -> list[str]:
+    words = ["drift", "formula d", "d1gp", "d1 grand prix", "gatebil", "nürburgring"]
+    src = ROOT / "data" / "sources.csv"
+    if src.exists():
+        import csv
+        words += [r["Naam"].lower() for r in csv.DictReader(src.open(encoding="utf-8"))
+                  if r.get("Type") == "Coureur" and len(r["Naam"]) > 6]
+    return words
 
 
 def _get(url: str, **kw) -> requests.Response:
@@ -104,7 +115,8 @@ def discover(ix: dict) -> list[str]:
     """Update the episode list. Returns ids of new episodes."""
     new, yt_cache = [], ix.setdefault("yt", {})
     since = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
-    for name, term, yt in PODCASTS:
+    drift_words = _drift_words()
+    for name, term, yt, drift_only in PODCASTS:
         try:
             if name not in ix["feeds"] or ix["feeds"][name].get("error"):
                 ix["feeds"][name] = find_feed(term)
@@ -128,6 +140,9 @@ def discover(ix: dict) -> list[str]:
                     "duration": e.get("itunes_duration"), "summary": re.sub(r"<[^>]+>", " ", e.get("summary", ""))[:1500],
                     "youtube": match_video(e.title, videos), "status": "new",
                 }
+                text = (e.title + " " + e.get("summary", "")).lower()
+                if drift_only and not any(w in text for w in drift_words):
+                    ix["episodes"][eid]["status"] = "skipped"    # not about drifting
                 new.append(eid)
         except Exception as ex:
             ix["feeds"][name] = ix["feeds"].get(name, {}) | {"error": str(ex)[:200]}
@@ -141,13 +156,20 @@ def _mmss(s: float) -> str:
 
 def transcribe(ep: dict, model) -> dict:
     """Download the audio and transcribe it. Returns the transcript dict."""
+    import subprocess
+
+    import numpy as np
     with tempfile.NamedTemporaryFile(suffix=".mp3") as f:
         with requests.get(ep["audio"], headers=UA, timeout=120, stream=True) as r:
             r.raise_for_status()
             for chunk in r.iter_content(1 << 20):
                 f.write(chunk)
         f.flush()
-        segments, info = model.transcribe(f.name, vad_filter=True, word_timestamps=True, beam_size=1)
+        # Decode with ffmpeg ourselves (16 kHz mono), so Whisper needs no audio library.
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-i", f.name, "-ac", "1", "-ar", "16000",
+                              "-f", "s16le", "-"], capture_output=True, check=True).stdout
+        audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
+        segments, info = model.transcribe(audio, vad_filter=True, word_timestamps=True, beam_size=1)
         segs = []
         for s in segments:
             segs.append({"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip(),
@@ -174,8 +196,14 @@ def run() -> dict:
     ix = load_index()
     new = discover(ix)
     save_index(ix)
-    todo = sorted((e for e in ix["episodes"].values() if e["status"] in ("new", "error")),
-                  key=lambda e: e["published"], reverse=True)[:PER_RUN]
+    # skipped episodes may become relevant after a source list update
+    words = _drift_words()
+    for e in ix["episodes"].values():
+        if e["status"] == "skipped" and any(w in (e["title"] + " " + e.get("summary", "")).lower() for w in words):
+            e["status"] = "new"
+    rank = {p[0]: i for i, p in enumerate(PODCASTS)}
+    todo = sorted((e for e in ix["episodes"].values() if e["status"] in ("new", "error") and e.get("tries", 0) < 3),
+                  key=lambda e: (e["published"][:10], -rank.get(e["podcast"], 9)), reverse=True)[:PER_RUN]
     report = {"new_episodes": len(new), "transcribed": [], "errors": []}
     if todo:
         from faster_whisper import WhisperModel
@@ -189,7 +217,7 @@ def run() -> dict:
                           words=sum(len(s["words"]) for s in t["segments"]), seconds=t["duration"])
                 report["transcribed"].append(f"{ep['podcast']}: {ep['title']} ({int(time.time() - t0)} s)")
             except Exception as ex:
-                ep.update(status="error", error=str(ex)[:200])
+                ep.update(status="error", error=str(ex)[:200], tries=ep.get("tries", 0) + 1)
                 report["errors"].append(f"{ep['podcast']}: {ex}")
             save_index(ix)          # keep progress even if a later episode fails
     return report

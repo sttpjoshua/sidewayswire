@@ -39,8 +39,9 @@ class Telegram:
             [{"text": "🚫 Bron niet meer delen", "callback_data": f"block:{post['id']}"}],
         ]}
         cap = f"CHECK ({post['kind']}): {reason}\n\n{post.get('caption', '')}"[:1000]
+        method, field = ("sendVideo", "video") if image_path.endswith(".mp4") else ("sendPhoto", "photo")
         with open(image_path, "rb") as f:
-            return self._call("sendPhoto", files={"photo": f}, chat_id=self.chat,
+            return self._call(method, files={field: f}, chat_id=self.chat,
                               caption=cap, reply_markup=json.dumps(kb))
 
     def answers(self, offset: int = 0) -> tuple[list[tuple[str, str]], int]:

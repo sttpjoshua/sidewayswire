@@ -42,3 +42,31 @@ competitief driften. Werk in de repo `sttpjoshua/sidewayswire`.
 | Maandag erna | Recap-carrousel |
 | Wekelijks | Around the world (D1GP, Drift Kings, NDC, Gatebil) |
 | Off-season | Transfers, liveries, builds, on this day, countdown |
+
+## Podcasts
+
+Nieuwe afleveringen worden elke twee uur getranscribeerd. Ze staan in
+`data/podcasts/episodes.json` met status `transcribed`; het transcript staat in
+`data/podcasts/t/<id>.txt` (leesbaar, met [mm:ss]) en `<id>.json` (met tijd per woord).
+
+Per nieuwe aflevering met transcript en zonder `data/podcasts/moments/<id>.json`:
+
+1. Lees het hele transcript.
+2. Kies 0 tot 4 momenten die echt iets toevoegen voor het kanaal:
+   - `rumor`: iemand hint op een transfer, nieuwe auto, nieuw team, terugkeer of afscheid
+   - `quote`: een uitgesproken mening die discussie geeft (jurering, rivaliteit, regels)
+   - `fact`: een weetje dat fans niet kennen (bouw, geschiedenis, cijfers)
+   - `moment`: grappig, emotioneel of een sterk verhaal
+   Liever geen moment dan een saai moment. Sla reclame en sponsorpraat over.
+3. Zoek in de `.json` de exacte begin- en eindtijd: begin aan het begin van een zin,
+   eindig na een afgeronde zin. Lengte 15 tot 75 seconden.
+4. `quote` is letterlijk uit het transcript, niets aan veranderen. Klopt een naam niet
+   (spraakherkenning maakt fouten bij namen), schrijf de juiste naam bij `guest` en zet
+   `"check": true`.
+5. Schrijf het bestand (zie `lc/podclips.py` voor alle velden), status `new`.
+   Caption: 1 tot 2 zinnen, dan "Full episode: <podcastnaam>" en de @tag van de podcast
+   en de gast, dan 3 tot 5 hashtags.
+6. Een gerucht uit een podcast is nooit een feit: label RUMOR, en in de caption
+   "said on <podcast>". Clips met een gerucht gaan altijd eerst naar Joshua.
+
+Lege afleveringen (niets interessants): schrijf `[]`, zodat ze niet opnieuw bekeken worden.
