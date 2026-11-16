@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:33:08.817207+00:00",
+ "updated": "2026-11-16T19:35:56.711569+00:00",
  "counts": {
-  "draft": 18
+  "draft": 21
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -1429,7 +1429,7 @@
       "topic": "BOUGHT AS A BARE SHELL",
       "quote": "It was it's the longest d1nz car at the moment ... We went to go pick it up. It was a beer shell. It had no motor",
       "why": "The 2024 D1NZ Pro Sport champion's AE86 has raced in D1NZ since 2004 and started as a bare shell from a judge. Good off-season story.",
-      "status": "error",
+      "status": "queued",
       "clip": "docs/media/pod-4ff63fdc1bd8-0/clip.mp4",
       "mode": "video",
       "wait_video": null
@@ -2216,9 +2216,9 @@
       "topic": "QUALIFYING SHOULD PAY MORE POINTS",
       "quote": "Yeah, I agree with that. If you're talking about like the way you have points in the, like in the ranking based on your qualifying, I think there is something that FD could improve for sure. Because we are a bunch of drivers right now in the like, the top 20 that are, that add the same points, the same amount of points. And I think it's just because like, like, if you don't pass top 16, well, you all get the same amount of points, but they don't take into consideration the fact that you qualified fifth or 25th. And this, this sometimes I think it's a little bit weird, or it would just like, you know, make things more interesting for the championship.",
       "why": "Tommy says FD should give points for every qualifying position, not one tie for everyone outside top 16.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-0/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2229,9 +2229,9 @@
       "topic": "OFF-SEASON: NORWAY, ICE AND NEW WIRING",
       "quote": "I'm, uh, like last year, I don't know if you, if you know, if you knew, but I went to Norway for, uh, ice drifting and it was really, really fun. Um, very cool. So I definitely want to try to go back again because, uh, that was, uh, that was a fun experience. And for sure, I'm going to also set up my three fifties that I have at home for ice drifting. So it's going to be mainly the, uh, the, the big project for the, uh, for the drifting and the off season. And after that, well, the Corvette is going to be as, uh, like his second season since we build it. So I'm probably going to change the whole wiring on the car just cause it has a lot of beating. And also we had a, uh, not a big fire, but a considerate, uh, good fire during the DMCC round, uh, back in Quebec here. So, uh, yeah, I think it would be wise to just put in a fresh, uh, set of wiring on the, on the car.",
       "why": "Off-season plans: Norway ice drifting again and new wiring after a fire at a DMCC round.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-1/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2242,9 +2242,9 @@
       "topic": "WHY THE CORVETTE MAKES TINY MISTAKES LOOK BIG",
       "quote": "I'm always comparing it with the S chassis, but I'm not trying to make the car drive like the S chassis because I know this car is way more sensitive, uh, or we can see twitchy, but also has a ton of front grip, which the S chassis was always lacking of. So like, I definitely don't want the Corvette to handle like the S S C. I just want to reduce the, uh, the, the, the things that are looking bad with the Corvette, which is always a small correction. They look so big because everything looks like everything looks more with the Corvette. So if you do something very good, it's going to look very good. Also, if you do a very tiny correction, it's also going to look big. And that's the main thing I'm focusing on to, uh, to get rid of for sure.",
       "why": "Corvette has more front grip than his old S chassis but every small correction looks huge.",
-      "status": "error",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-2/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-6892a8b1e411-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire on his C7 Corvette: if you do something great it looks great, but even a tiny correction looks big.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 1353.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:35:56.709870+00:00",
+   "built": "2026-11-16T19:35:56.709882+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-2/clip.mp4",
+   "title": "WHY THE CORVETTE MAKES TINY MISTAKES LOOK BIG"
+  },
+  {
+   "id": "pod-6892a8b1e411-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire's off-season: back to Norway for ice drifting, and new wiring after a fire in the Corvette.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #icedrifting #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 1222.36
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:35:16.089041+00:00",
+   "built": "2026-11-16T19:35:16.089043+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-1/clip.mp4",
+   "title": "OFF-SEASON: NORWAY, ICE AND NEW WIRING"
+  },
+  {
+   "id": "pod-6892a8b1e411-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Qualify 5th or 25th, you get the same points if you go out early. Tommy Lemaire thinks Formula DRIFT should change that.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 566.14
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:34:25.587314+00:00",
+   "built": "2026-11-16T19:34:25.587316+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-0/clip.mp4",
+   "title": "QUALIFYING SHOULD PAY MORE POINTS"
+  },
+  {
+   "id": "pod-4ff63fdc1bd8-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\nFull episode: The SileightyMania Podcast @sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@sileightymania",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The SileightyMania Podcast",
+    "episode": "Keisuke Nagashima’s D1NZ Championship AE86 | Auto Biography",
+    "start": 65.45
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T16:22:14.001131+00:00",
+   "built": "2026-11-16T19:33:51.688310+00:00",
+   "want_at": null,
+   "video": "media/pod-4ff63fdc1bd8-0/clip.mp4",
+   "title": "BOUGHT AS A BARE SHELL"
+  },
   {
    "id": "pod-1298fd1c600b-24",
    "kind": "podcast_clip",
@@ -3187,36 +3307,6 @@
    "want_at": null,
    "video": "media/pod-da5d8825120e-5/clip.mp4",
    "title": "COULD HIRO RACE A US RALLY NEXT YEAR?"
-  },
-  {
-   "id": "pod-4ff63fdc1bd8-0",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\nFull episode: The SileightyMania Podcast @sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@sileightymania",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The SileightyMania Podcast",
-    "episode": "Keisuke Nagashima’s D1NZ Championship AE86 | Auto Biography",
-    "start": 65.45
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T16:22:14.001131+00:00",
-   "built": null,
-   "want_at": null,
-   "video": "media/pod-4ff63fdc1bd8-0/clip.mp4",
-   "title": "BOUGHT AS A BARE SHELL"
   }
  ],
  "channels": {
