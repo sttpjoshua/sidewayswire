@@ -1,6 +1,25 @@
 {
- "updated": "2026-11-16T21:56:31.745374+00:00",
+ "updated": "2026-11-16T23:54:06.460615+00:00",
  "stories": [
+  {
+   "id": "05da416e50cb9a2f",
+   "title": "Easily one of the biggest highlights of this year was shredding the C8 at the @fosgoodwood!",
+   "series": "FD",
+   "buzz": 1,
+   "first_seen": "2026-11-16T23:53:59.385473+00:00",
+   "published": "2026-11-16T22:19:54+00:00",
+   "items": [
+    {
+     "source": "Matt Field",
+     "title": "Easily one of the biggest highlights of this year was shredding the C8 at the @fosgoodwood!",
+     "url": "https://www.youtube.com/shorts/5EtFqDpG35o",
+     "kind": "video",
+     "published": "2026-11-16T22:19:54+00:00",
+     "media_url": "https://i2.ytimg.com/vi/5EtFqDpG35o/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
   {
    "id": "ff051e86191599b8",
    "title": "DRIFTTAXI AT THE NÜRBURGRING",
@@ -1483,9 +1502,8 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
