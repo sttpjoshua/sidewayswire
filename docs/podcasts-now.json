@@ -1,13 +1,12 @@
 {
- "phase": "transcribe",
+ "phase": "saved",
  "episode": "441d4b7291ad",
  "todo": [
-  "441d4b7291ad",
   "b9e6971ba742",
   "b5159f5c03f8"
  ],
- "pct": 0.0,
- "updated": "2026-11-16T19:15:40.445221+00:00",
+ "pct": 1.0,
+ "updated": "2026-11-16T19:17:32.364197+00:00",
  "started": "2026-11-16T19:12:53.376325+00:00",
  "run": "43936088338",
  "title": "Vegas Prospec Podium",
@@ -16,6 +15,7 @@
  "duration": 769.671875,
  "transcribe_started": "2026-11-16T19:15:40.445190+00:00",
  "finished": [
-  "c82113ef8385"
+  "c82113ef8385",
+  "441d4b7291ad"
  ]
 }
