@@ -1,19 +1,21 @@
 {
- "phase": "transcribe",
+ "phase": "saved",
  "episode": "c82113ef8385",
  "todo": [
-  "c82113ef8385",
   "441d4b7291ad",
   "b9e6971ba742",
   "b5159f5c03f8"
  ],
- "pct": 0.803,
- "updated": "2026-11-16T19:15:07.982519+00:00",
+ "pct": 1.0,
+ "updated": "2026-11-16T19:15:34.869886+00:00",
  "started": "2026-11-16T19:12:53.376325+00:00",
  "run": "43936088338",
  "title": "Vegas Pro Podium",
  "podcast": "The Outerzone",
  "episode_started": "2026-11-16T19:13:00.413454+00:00",
  "duration": 938.422875,
- "transcribe_started": "2026-11-16T19:13:05.166943+00:00"
+ "transcribe_started": "2026-11-16T19:13:05.166943+00:00",
+ "finished": [
+  "c82113ef8385"
+ ]
 }
