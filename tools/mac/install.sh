@@ -34,7 +34,8 @@ mkdir -p "$APP" "$HOME/Library/LaunchAgents" "$HOME/Library/Logs"
 if [ -f "$HERE/video_helper.py" ]; then
   cp "$HERE/video_helper.py" "$APP/video_helper.py"
 else   # started with curl | bash: fetch the newest helper from GitHub
-  curl -fsSL "https://raw.githubusercontent.com/sttpjoshua/sidewayswire/main/tools/mac/video_helper.py?t=$(date +%s)" -o "$APP/video_helper.py"
+  curl -fsSL -H "Accept: application/vnd.github.raw" \
+    "https://api.github.com/repos/sttpjoshua/sidewayswire/contents/tools/mac/video_helper.py?ref=main" -o "$APP/video_helper.py"
 fi
 cat > "$PLIST" <<PL
 <?xml version="1.0" encoding="UTF-8"?>
