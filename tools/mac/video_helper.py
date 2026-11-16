@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "12"
+VERSION = "13"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -495,6 +495,14 @@ def asset_name(ep_id: str, i: int, m: dict) -> str:
     return f"v2-{ep_id}-{i}-{int(round(m['start'] * 10))}-{int(round(m['end'] * 10))}.mp4"
 
 
+def pieces(ep_id: str, i: int, m: dict) -> list[tuple[str, dict]]:
+    """The video pieces one moment needs: one, or one per run for a split-screen battle."""
+    if m.get("split"):
+        return [(f"v2-{ep_id}-{i}r{k + 1}-{int(round(r['start'] * 10))}-{int(round(r['end'] * 10))}.mp4",
+                 {"start": r["start"], "end": r["end"]}) for k, r in enumerate(m["split"]["runs"])]
+    return [(asset_name(ep_id, i, m), m)]
+
+
 def download(youtube_id: str, a: float, b: float, out: Path) -> bool:
     r = subprocess.run(["yt-dlp", "-q", "--no-warnings", "-f", "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b",
                         "--merge-output-format", "mp4", "--download-sections", f"*{a:.2f}-{b:.2f}",
@@ -578,9 +586,10 @@ def main():
         live = [(i, m) for i, m in enumerate(moments) if m.get("status") in ("new", "queued")]
         if not live:
             continue
-        info = eps[ep["id"]] = {"need": len(live), "state": "klaar"}
-        info["have"] = sum(1 for i, m in live if asset_name(ep["id"], i, m) in have)
-        todo = [(i, m) for i, m in live if asset_name(ep["id"], i, m) not in have]
+        parts = [(i, name, pm) for i, m in live for name, pm in pieces(ep["id"], i, m)]
+        info = eps[ep["id"]] = {"need": len(parts), "state": "klaar"}
+        info["have"] = sum(1 for i, name, pm in parts if name in have)
+        todo = [(i, pm, name) for i, name, pm in parts if name not in have]
         known = state.get("video", {}).get(ep["id"], {})
         info["video"] = known.get("id") if known else ep.get("youtube")
         if not todo:
@@ -595,8 +604,7 @@ def main():
             continue
         ep = dict(ep, youtube=yid)
         theirs, ours, sound = None, None, None
-        for i, m in todo:
-            name = asset_name(ep["id"], i, m)
+        for i, m, name in todo:
             if time.time() - state["failed"].get(name, 0) < 3600:
                 info["state"] = "wacht na een fout"
                 continue                               # failed recently, try again later

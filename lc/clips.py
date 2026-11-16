@@ -198,3 +198,29 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
              "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
              "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out])
     return dict(main, out=out, hook=round(hl, 2))
+
+
+def make_split(ep: dict, moment: dict, runs: list[str], out: str) -> dict:
+    """Split-screen battle reel: run 1 on top, run 2 below, synced at initiation.
+
+    moment["split"] = {"runs": [{"start", "end", "init"}, {...}], "lead": ["DRIVER A", "DRIVER B"]}
+    'init' is the initiation time in the stream (seconds); the piece starts at 'start'.
+    Each half shows one lead and one chase, so the rows read LEAD VS LEAD and CHASE VS CHASE.
+    """
+    from .video import battle_reel
+    sp = moment["split"]
+    a, b = sp["lead"][0], sp["lead"][1]
+    offs = [float(r["init"]) - float(r["start"]) for r in sp["runs"]]
+    with tempfile.TemporaryDirectory() as tmp:
+        ov = str(Path(tmp) / "overlay.png")
+        with Renderer() as r:
+            r.render("reel_split_overlay.html", {"w": 1080, "h": 1920, "bg": "transparent", "driver_a": a, "driver_b": b,
+                                                 "credit": ep.get("credit") or moment.get("credit") or ""},
+                     ov, transparent=True)
+        raw = str(Path(tmp) / "raw.mp4")
+        res = battle_reel(runs[0], runs[1], ov, raw, offset1=offs[0], offset2=offs[1],
+                          lead_in=float(sp.get("lead_in", 2.0)), nudge=float(sp.get("nudge", 0.0)))
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", raw, "-c:v", "copy",
+                        "-af", "loudnorm=I=-15:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "160k",
+                        "-movflags", "+faststart", out], check=True)
+    return {"mode": "split", "out": out, **res}

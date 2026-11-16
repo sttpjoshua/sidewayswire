@@ -297,5 +297,149 @@
   "by": "editor",
   "status": "new",
   "wait_name": "v2-fd2026r8-11-94635-94918.mp4"
+ },
+ {
+  "start": 7789,
+  "end": 7976,
+  "kind": "battle",
+  "guest": "CONOR SHANAHAN VS JHONNATTAN CASTRO",
+  "topic": "THE TITLE BATTLE, SIDE BY SIDE",
+  "quote": "",
+  "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
+  "credit": "@formulad",
+  "caption": "The battle that decided the 2026 Formula DRIFT championship. Run 1 on top, run 2 below: who had the better lead, who had the better chase?\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach",
+  "people": [
+   "Conor Shanahan",
+   "Jhonnattan Castro"
+  ],
+  "split": {
+   "runs": [
+    {
+     "start": 7789,
+     "end": 7824,
+     "init": 7794.5
+    },
+    {
+     "start": 7941,
+     "end": 7976,
+     "init": 7946.5
+    }
+   ],
+   "lead": [
+    "CONOR SHANAHAN",
+    "JHONNATTAN CASTRO"
+   ],
+   "lead_in": 2.0
+  },
+  "by": "editor",
+  "status": "new"
+ },
+ {
+  "start": 3287,
+  "end": 3480,
+  "kind": "battle",
+  "guest": "ADAM LZ VS DEREK MADISON",
+  "topic": "ADAM LZ VS DEREK MADISON",
+  "quote": "",
+  "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
+  "credit": "@formulad",
+  "caption": "Adam LZ vs Derek Madison in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n#formulad #formuladrift #adamlz #drifting #longbeach",
+  "people": [
+   "Adam LZ",
+   "Derek Madison"
+  ],
+  "split": {
+   "runs": [
+    {
+     "start": 3287,
+     "end": 3326,
+     "init": 3292.0
+    },
+    {
+     "start": 3435,
+     "end": 3480,
+     "init": 3440.0
+    }
+   ],
+   "lead": [
+    "ADAM LZ",
+    "DEREK MADISON"
+   ],
+   "lead_in": 2.0
+  },
+  "by": "editor",
+  "status": "new"
+ },
+ {
+  "start": 9163,
+  "end": 9324,
+  "kind": "battle",
+  "guest": "MATT FIELD VS TRENTON BEECHUM",
+  "topic": "FIELD VS BEECHUM",
+  "quote": "",
+  "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
+  "credit": "@formulad",
+  "caption": "Matt Field vs Trenton Beechum, two V8s in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n#formulad #formuladrift #mattfield #drifting #longbeach",
+  "people": [
+   "Matt Field",
+   "Trenton Beechum"
+  ],
+  "split": {
+   "runs": [
+    {
+     "start": 9163,
+     "end": 9200,
+     "init": 9167.5
+    },
+    {
+     "start": 9284,
+     "end": 9324,
+     "init": 9289.0
+    }
+   ],
+   "lead": [
+    "MATT FIELD",
+    "TRENTON BEECHUM"
+   ],
+   "lead_in": 2.0
+  },
+  "by": "editor",
+  "status": "new"
+ },
+ {
+  "start": 8941,
+  "end": 9496,
+  "kind": "battle",
+  "guest": "TOMMY LEMAIRE VS COLE RICHARDS",
+  "topic": "LEMAIRE VS RICHARDS",
+  "quote": "",
+  "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
+  "credit": "@formulad",
+  "caption": "Tommy Lemaire vs rookie of the year Cole Richards in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n#formulad #formuladrift #tommylemaire #drifting #longbeach",
+  "people": [
+   "Tommy Lemaire",
+   "Cole Richards"
+  ],
+  "split": {
+   "runs": [
+    {
+     "start": 8941,
+     "end": 8980,
+     "init": 8945.5
+    },
+    {
+     "start": 9459,
+     "end": 9496,
+     "init": 9464.0
+    }
+   ],
+   "lead": [
+    "TOMMY LEMAIRE",
+    "COLE RICHARDS"
+   ],
+   "lead_in": 2.0
+  },
+  "by": "editor",
+  "status": "new"
  }
 ]

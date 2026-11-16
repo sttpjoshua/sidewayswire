@@ -24,7 +24,7 @@ from pathlib import Path
 
 from . import progress
 from . import queue as q
-from .clips import make_clip
+from .clips import make_clip, make_split
 from . import streams
 from . import handles
 from .podcasts import DIR, load_index
@@ -41,6 +41,14 @@ TAG = "video-sources"
 def asset_name(ep_id: str, i: int, m: dict) -> str:
     """Must match tools/mac/video_helper.py: changing start or end asks for a new video."""
     return f"v2-{ep_id}-{i}-{int(round(float(m['start']) * 10))}-{int(round(float(m['end']) * 10))}.mp4"
+
+
+def pieces(ep_id: str, i: int, m: dict) -> list[str]:
+    """Must match tools/mac/video_helper.py pieces(): one piece, or one per run for a split battle."""
+    if m.get("split"):
+        return [f"v2-{ep_id}-{i}r{k + 1}-{int(round(float(r['start']) * 10))}-{int(round(float(r['end']) * 10))}.mp4"
+                for k, r in enumerate(m["split"]["runs"])]
+    return [asset_name(ep_id, i, m)]
 
 
 def video_assets() -> tuple[dict, list]:
@@ -126,7 +134,10 @@ def run(limit: int = 120) -> dict:
                     post["status"] = "skipped"
                     q.save(post)
                 continue
-            name = asset_name(mf.stem, i, m)
+            need = pieces(mf.stem, i, m)
+            name = need[-1]
+            if not all(n in assets for n in need):
+                assets = {k: v for k, v in assets.items() if k != name}   # all runs or nothing
             upgrade = (m.get("status") == "queued" and not (post and post.get("status") == "posted")
                        and ((m.get("mode") == "audiogram" and name in assets) or m.get("layout", 1) < LAYOUT
                             or m.get("hook_sig", json.dumps({})) != hook_sig))
@@ -137,7 +148,7 @@ def run(limit: int = 120) -> dict:
                 m.update(status="error", error="this clip is already posted; add a new moment instead")
                 continue
             length = float(m["end"]) - float(m["start"])
-            if not 10 <= length <= 90:
+            if not m.get("split") and not 10 <= length <= 90:
                 m.update(status="error", error=f"clip length {length:.0f}s, keep it 15-75 s")
                 continue
             wants_video = ep.get("kind") == "stream" or (no_video is not None and mf.stem not in no_video)
@@ -175,8 +186,12 @@ def run(limit: int = 120) -> dict:
         out.parent.mkdir(parents=True, exist_ok=True)
         try:
             with tempfile.TemporaryDirectory() as tmp:
-                src = _fetch(assets[name], Path(tmp) / "src.mp4") if name in assets else None
-                res = make_clip(ep, transcripts[mf.stem], m, str(out), photo=ep.get("art"), video_src=src)
+                if m.get("split"):
+                    runs = [_fetch(assets[n], Path(tmp) / f"run{k}.mp4") for k, n in enumerate(pieces(mf.stem, i, m), 1)]
+                    res = make_split(ep, m, runs, str(out))
+                else:
+                    src = _fetch(assets[name], Path(tmp) / "src.mp4") if name in assets else None
+                    res = make_clip(ep, transcripts[mf.stem], m, str(out), photo=ep.get("art"), video_src=src)
             m.pop("wait_video", None)
             m.pop("error", None)
             m.pop("tries", None)
