@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "docs" / "media"
 
 
+LAYOUT = 2                 # raise when the clip design changes: unposted clips are made again
 WAIT_VIDEO = 3 * 3600      # how long a YouTube episode waits for the Mac helper before we fall back to audiogram
 TAG = "video-sources"
 
@@ -92,8 +93,8 @@ def run(limit: int = 25) -> dict:
                     q.save(post)
                 continue
             name = asset_name(mf.stem, i, m)
-            upgrade = (m.get("status") == "queued" and m.get("mode") == "audiogram" and name in assets
-                       and not (post and post.get("status") == "posted"))
+            upgrade = (m.get("status") == "queued" and not (post and post.get("status") == "posted")
+                       and ((m.get("mode") == "audiogram" and name in assets) or m.get("layout", 1) < LAYOUT))
             if not (m.get("status", "new") == "new" or upgrade) or len(report["clips"]) >= limit:
                 continue
             if post and post.get("status") == "posted":
@@ -118,7 +119,7 @@ def run(limit: int = 25) -> dict:
                     src = _fetch(assets[name], Path(tmp) / "src.mp4") if name in assets else None
                     res = make_clip(ep, transcript, m, str(out), photo=ep.get("art"), video_src=src)
                 m.pop("wait_video", None)
-                m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"])
+                m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT)
                 check = (m["kind"] == "rumor" or res["mode"] == "audiogram" or bool(m.get("check"))) and m.get("by") != "joshua"
                 q.save({
                     "id": pid, "kind": "podcast_clip", "status": "draft", "slides": [],
