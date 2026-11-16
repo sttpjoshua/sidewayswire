@@ -6,7 +6,7 @@
 #   3. adds a launchd job that runs the helper every 15 minutes, also after a restart
 # Remove everything again with: bash uninstall.sh
 set -euo pipefail
-HERE="$(cd "$(dirname "$0")" && pwd)"
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || pwd)"
 APP="$HOME/Library/Application Support/SidewaysWire"
 PLIST="$HOME/Library/LaunchAgents/nl.sttpmedia.sidewayswire.video.plist"
 LOG="$HOME/Library/Logs/sidewayswire-video.log"
@@ -31,7 +31,11 @@ if ! security find-generic-password -s sidewayswire-mac -w >/dev/null 2>&1; then
 fi
 
 mkdir -p "$APP" "$HOME/Library/LaunchAgents" "$HOME/Library/Logs"
-cp "$HERE/video_helper.py" "$APP/video_helper.py"
+if [ -f "$HERE/video_helper.py" ]; then
+  cp "$HERE/video_helper.py" "$APP/video_helper.py"
+else   # started with curl | bash: fetch the newest helper from GitHub
+  curl -fsSL "https://raw.githubusercontent.com/sttpjoshua/sidewayswire/main/tools/mac/video_helper.py" -o "$APP/video_helper.py"
+fi
 cat > "$PLIST" <<PL
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -48,4 +52,8 @@ cat > "$PLIST" <<PL
 PL
 launchctl bootout "gui/$(id -u)/nl.sttpmedia.sidewayswire.video" 2>/dev/null || true
 launchctl bootstrap "gui/$(id -u)" "$PLIST"
-echo "Klaar. De helper draait nu elke 15 minuten. Log: $LOG"
+sleep 20
+echo ""
+echo "Klaar. De helper draait nu elke 15 minuten, ook na een herstart."
+echo "Eerste run:"; tail -n 5 "$LOG" 2>/dev/null || true
+echo "Log: $LOG"
