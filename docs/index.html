@@ -44,7 +44,7 @@ h2{font-size:30px;margin:36px 0 12px;display:flex;align-items:baseline;gap:12px}
 <h2>BINNENGEKOMEN NIEUWS <small id="nc"></small></h2>
 <div class="filters" id="filters"></div>
 <div class="news" id="inbox"></div>
-<h2>PODCASTS <small id="pc"></small></h2><div class="news" id="pods"></div>
+<h2>PODCASTS <small id="pc"></small> <a href="podcasts.html" style="font-family:Inter,sans-serif;font-size:13px;letter-spacing:1px;background:#C6FF00;color:#111;padding:5px 10px;text-decoration:none;font-weight:800;vertical-align:middle">OPEN DE PODCASTSTUDIO →</a></h2><div class="news" id="pods"></div>
 <h2>POSTS</h2><div class="grid" id="posts"></div>
 <h2>BRONNEN <small id="sc"></small></h2><div class="src" id="sources"></div>
 <script>
@@ -80,7 +80,7 @@ fetch("status.json?"+Date.now()).then(r=>r.json()).then(s=>{
   const mmss=x=>{x=Math.floor(x);const h=Math.floor(x/3600),m=Math.floor(x%3600/60),q=String(x%60).padStart(2,"0");return h?`${h}:${String(m).padStart(2,"0")}:${q}`:`${m}:${q}`};
   pc.textContent=P.episodes.length+" afleveringen · "+P.episodes.filter(e=>e.has_transcript).length+" met transcript";
   pods.innerHTML=P.episodes.map(e=>`<div class="ep"><div class="t">${esc(e.title)}</div>
-    <div class="meta"><span class="tag">${esc(e.podcast)}</span>${when(e.published)} · ${esc(ST[e.status]||e.status)}${e.youtube?" · video op YouTube":" · alleen audio"}${e.has_transcript?` · <a href="https://github.com/sttpjoshua/sidewayswire/blob/main/data/podcasts/t/${e.id}.txt" target="_blank">transcript lezen</a>`:""}</div>
+    <div class="meta"><span class="tag">${esc(e.podcast)}</span>${when(e.published)} · ${esc(ST[e.status]||e.status)}${e.youtube?" · video op YouTube":" · alleen audio"}${`<a href="podcasts.html#${e.id}">bewerken</a> · `}${e.has_transcript?` · <a href="https://github.com/sttpjoshua/sidewayswire/blob/main/data/podcasts/t/${e.id}.txt" target="_blank">transcript lezen</a>`:""}</div>
     ${e.moments.map(m=>`<div class="mo ${m.kind==="rumor"?"rumor":""}"><span class="tag ${m.kind==="rumor"?"check":"ready"}">${KIND[m.kind]||m.kind}</span><a href="${esc(ts(e,m.start))}" target="_blank">${mmss(m.start)} tot ${mmss(m.end)}</a> · ${esc(m.guest||"")} · ${esc(m.status)}${m.mode?" ("+esc(m.mode)+")":""}<br><q>${esc(m.quote)}</q><div class="why">${esc(m.why||"")}</div></div>`).join("")}</div>`).join("")
     ||"<p>Nog geen afleveringen. De podcastzoeker draait elke twee uur.</p>";
   posts.innerHTML=s.posts.map(p=>`<div class="p">${p.media[0]?`<img loading="lazy" src="${esc(p.media[0])}">`:""}<div><span class="tag ${esc(p.status)}">${esc(NL[p.status]||p.status).toUpperCase()}</span><b>${esc(p.kind)}</b><br>${when(p.posted_at||p.post_at)}${(p.problems||[]).length?`<br><span style="color:var(--pink)">${esc(p.problems[0])}</span>`:""}<div class="cap" style="padding:0">${esc(p.caption)}</div></div></div>`).join("")||"<p>Nog geen posts. Die komen zodra de redactie draait.</p>";

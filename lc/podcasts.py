@@ -218,9 +218,13 @@ def run() -> dict:
     for e in ix["episodes"].values():
         if e["status"] == "skipped" and any(w in (e["title"] + " " + e.get("summary", "")).lower() for w in words):
             e["status"] = "new"
+    forced = os.environ.get("EPISODE", "").strip()
+    if forced and forced in ix["episodes"]:
+        ix["episodes"][forced].update(status="new", tries=0)    # asked for on the dashboard
     rank = {p[0]: i for i, p in enumerate(PODCASTS)}
     todo = sorted((e for e in ix["episodes"].values() if e["status"] in ("new", "error") and e.get("tries", 0) < 3),
-                  key=lambda e: (e["published"][:10], -rank.get(e["podcast"], 9)), reverse=True)[:PER_RUN]
+                  key=lambda e: (e["id"] == forced, e["published"][:10], -rank.get(e["podcast"], 9)),
+                  reverse=True)[:max(PER_RUN, 1 if forced else 0)]
     report = {"new_episodes": len(new), "transcribed": [], "errors": []}
     if todo:
         from faster_whisper import WhisperModel

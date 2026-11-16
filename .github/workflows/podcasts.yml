@@ -8,6 +8,9 @@ on:
       per_run:
         description: "How many episodes to transcribe this run"
         default: "3"
+      episode:
+        description: "Transcribe this episode id first (from the dashboard)"
+        default: ""
 concurrency: { group: podcasts, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
@@ -26,6 +29,7 @@ jobs:
       - name: Find and transcribe episodes
         env:
           PODCASTS_PER_RUN: ${{ inputs.per_run || '3' }}
+          EPISODE: ${{ inputs.episode }}
         run: python -m lc.podcasts
       - name: Make clips of picked moments
         run: python -m lc.podclips

@@ -1,0 +1,168 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sideways Wire · podcasts</title>
+<link rel="icon" href="assets/monogram_kleur.svg">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#151517;--card:#232326;--card2:#1b1b1d;--accent:#C6FF00;--pink:#FF2E88;--mute:#B8B8BC}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#fff;font-family:Inter,system-ui,sans-serif}
+a{color:inherit}button,input,select,textarea{font:inherit}
+header{display:flex;align-items:center;gap:18px;padding:16px 20px;border-bottom:2px solid #000;position:sticky;top:0;background:var(--bg);z-index:5}
+header img{width:210px}header nav{display:flex;gap:6px;margin-left:auto}
+header nav a{padding:8px 12px;font-weight:800;font-size:12px;letter-spacing:1px;text-decoration:none;background:var(--card)}
+header nav a.on{background:var(--accent);color:#111}
+.wrap{display:grid;grid-template-columns:340px 1fr;min-height:calc(100vh - 70px)}
+#list{border-right:2px solid #000;overflow:auto;max-height:calc(100vh - 70px);position:sticky;top:70px}
+.ep{padding:12px 14px;border-bottom:1px solid #2c2c30;cursor:pointer}.ep:hover{background:var(--card)}.ep.on{background:var(--card);border-left:4px solid var(--accent)}
+.ep b{display:block;font-size:14px;line-height:1.3}.ep small{color:var(--mute);font-size:12px}
+.tag{display:inline-block;font-weight:800;font-size:11px;letter-spacing:1px;padding:3px 7px;margin-right:6px;background:#fff;color:#111}
+.tag.g{background:var(--accent)}.tag.p{background:var(--pink)}.tag.d{background:#444;color:#fff}
+main{padding:20px 24px;max-width:1100px}
+h1,h2{font-family:"Bebas Neue",sans-serif;letter-spacing:1px;margin:0 0 10px}h1{font-size:40px;line-height:1}h2{font-size:28px;margin-top:26px}
+.muted{color:var(--mute);font-size:13px}
+.btn{background:var(--card);color:#fff;border:2px solid #3a3a40;padding:8px 12px;font-weight:800;font-size:12px;letter-spacing:1px;cursor:pointer}
+.btn.g{background:var(--accent);color:#111;border-color:var(--accent)}.btn.p{background:var(--pink);color:#111;border-color:var(--pink)}
+.btn:disabled{opacity:.4;cursor:default}
+audio{width:100%;margin:10px 0}
+.mo{background:var(--card);padding:14px;margin:10px 0;border-left:5px solid var(--accent)}.mo.rumor{border-color:var(--pink)}.mo.skipped{opacity:.5}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:10px 0}
+.grid label,.full label{display:flex;flex-direction:column;gap:4px;font-size:11px;font-weight:800;letter-spacing:1px;color:var(--mute)}
+input,select,textarea{background:#111;color:#fff;border:1px solid #3a3a40;padding:7px 8px;width:100%}
+textarea{min-height:70px;resize:vertical}
+.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.clip{display:flex;gap:14px;align-items:flex-start}.clip video{width:180px;aspect-ratio:9/16;background:#000}
+.tr{background:var(--card2);padding:4px 0;max-height:70vh;overflow:auto;border:1px solid #2c2c30}
+.seg{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:5px 12px;cursor:pointer;font-size:14px;line-height:1.45}
+.seg:hover{background:#26262a}.seg .t{color:var(--mute);font-variant-numeric:tabular-nums;font-size:12px;padding-top:2px}
+.seg.sel{background:rgba(198,255,0,.16)}.seg.edge{background:rgba(198,255,0,.32)}.seg.inmo{box-shadow:inset 4px 0 0 var(--accent)}.seg.inmo.r{box-shadow:inset 4px 0 0 var(--pink)}
+.seg.playing{outline:1px solid var(--accent)}
+#selbar{position:sticky;bottom:0;background:#111;border:2px solid var(--accent);padding:12px;margin-top:10px;display:none}
+#toast{position:fixed;right:20px;bottom:20px;background:var(--accent);color:#111;padding:12px 16px;font-weight:800;display:none;z-index:20;max-width:420px}
+#toast.err{background:var(--pink)}
+dialog{background:var(--card);color:#fff;border:2px solid var(--accent);max-width:560px}
+dialog ol{padding-left:18px;line-height:1.6;font-size:14px}
+.empty{padding:40px;color:var(--mute)}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}#list{position:static;max-height:300px}.grid{grid-template-columns:repeat(2,1fr)}}
+</style></head><body>
+<header><img src="assets/woordmerk_kleur.svg" alt="Sideways Wire">
+<nav><a href="index.html">DASHBOARD</a><a class="on" href="podcasts.html">PODCASTS</a><a href="#" id="keybtn">SLEUTEL</a></nav></header>
+<div class="wrap"><div id="list"></div><main id="main"><div class="empty">Kies links een aflevering.</div></main></div>
+<div id="toast"></div>
+<dialog id="keydlg"><h2>GITHUB-SLEUTEL</h2>
+<p class="muted">Nodig om wijzigingen op te slaan. Hij blijft alleen in deze browser.</p>
+<ol><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a></li>
+<li>Naam: <b>sidewayswire dashboard</b>, vervaldatum naar keuze</li>
+<li>Repository access: <b>Only select repositories</b> → <b>sidewayswire</b></li>
+<li>Permissions → Repository: <b>Contents: Read and write</b> en <b>Actions: Read and write</b></li>
+<li>Generate token, kopieer hem en plak hem hieronder</li></ol>
+<input id="keyin" type="password" placeholder="github_pat_..."><div class="row" style="margin-top:10px"><button class="btn g" id="keysave">OPSLAAN</button><button class="btn" id="keyclear">VERWIJDEREN</button><button class="btn" onclick="keydlg.close()">SLUITEN</button></div></dialog>
+<script>
+const REPO="sttpjoshua/sidewayswire", RAW=`https://raw.githubusercontent.com/${REPO}/main/`, API=`https://api.github.com/repos/${REPO}`;
+const KIND={rumor:"GERUCHT",quote:"UITSPRAAK",fact:"WEETJE",moment:"MOMENT"};
+const ST={new:"wacht op clip",queued:"clip klaar",error:"fout",skipped:"overgeslagen"};
+const EPST={new:"wacht op transcript",transcribed:"transcript klaar",error:"fout",skipped:"niet over drift"};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const mmss=x=>{x=Math.max(0,Math.floor(x));const h=Math.floor(x/3600),m=Math.floor(x%3600/60),s=String(x%60).padStart(2,"0");return h?`${h}:${String(m).padStart(2,"0")}:${s}`:`${m}:${s}`};
+const parseT=v=>{const p=String(v).trim().split(":").map(Number);return p.some(isNaN)?NaN:p.reduce((a,b)=>a*60+b,0)};
+const day=t=>new Date(t).toLocaleDateString("nl-NL",{day:"numeric",month:"short",year:"numeric"});
+let key=null; try{key=localStorage.getItem("sw_gh_key")}catch(e){}
+function toast(m,err){toast_.textContent=m;toast_.className=err?"err":"";toast_.style.display="block";clearTimeout(toast.t);toast.t=setTimeout(()=>toast_.style.display="none",5000)}
+const toast_=document.getElementById("toast");
+keybtn.onclick=e=>{e.preventDefault();keyin.value=key||"";keydlg.showModal()};
+keysave.onclick=()=>{key=keyin.value.trim()||null;try{key?localStorage.setItem("sw_gh_key",key):localStorage.removeItem("sw_gh_key")}catch(e){};keydlg.close();toast(key?"Sleutel opgeslagen in deze browser":"Geen sleutel")};
+keyclear.onclick=()=>{key=null;try{localStorage.removeItem("sw_gh_key")}catch(e){};keyin.value="";toast("Sleutel verwijderd")};
+async function gh(path,opt={}){
+  if(!key){keydlg.showModal();throw new Error("Eerst een GitHub-sleutel instellen")}
+  const r=await fetch(API+path,{...opt,headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github+json","Content-Type":"application/json",...(opt.headers||{})}});
+  if(!r.ok){const t=await r.text();throw new Error(`GitHub ${r.status}: ${t.slice(0,140)}`)}
+  return r.status===204?null:r.json();
+}
+const b64=s=>btoa(unescape(encodeURIComponent(s)));
+async function saveMoments(id,moments,msg){
+  const path=`data/podcasts/moments/${id}.json`;let sha;
+  try{sha=(await gh(`/contents/${path}?ref=main`)).sha}catch(e){if(!String(e).includes("404"))throw e}
+  await gh(`/contents/${path}`,{method:"PUT",body:JSON.stringify({message:msg,content:b64(JSON.stringify(moments,null,1)),sha,branch:"main"})});
+}
+async function runWorkflow(inputs){await gh(`/actions/workflows/podcasts.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs})})}
+
+let S, EP=null, T=null, M=[], sel=null;
+async function load(){
+  S=await fetch("status.json?"+Date.now()).then(r=>r.json());
+  const eps=(S.podcasts||{}).episodes||[];
+  list.innerHTML=eps.map(e=>`<div class="ep" data-id="${e.id}"><b>${esc(e.title)}</b><small><span class="tag ${e.status==="transcribed"?"g":e.status==="skipped"?"d":""}">${esc(e.podcast)}</span>${day(e.published)} · ${esc(EPST[e.status]||e.status)}${e.moments.length?` · ${e.moments.length} moment${e.moments.length>1?"en":""}`:""}</small></div>`).join("")||`<div class="empty">Nog geen afleveringen.</div>`;
+  list.onclick=ev=>{const d=ev.target.closest(".ep");if(d)open(d.dataset.id)};
+  const want=location.hash.slice(1); if(want) open(want);
+}
+async function open(id){
+  EP=S.podcasts.episodes.find(e=>e.id===id); if(!EP)return; location.hash=id; sel=null;
+  [...list.children].forEach(c=>c.classList.toggle("on",c.dataset.id===id));
+  main.innerHTML=`<div class="muted">laden...</div>`;
+  T=null; M=[];
+  try{T=await fetch(RAW+`data/podcasts/t/${id}.json?`+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
+  try{M=await fetch(RAW+`data/podcasts/moments/${id}.json?`+Date.now()).then(r=>r.ok?r.json():[])}catch(e){M=[]}
+  draw();
+}
+function draw(){
+  const e=EP;
+  main.innerHTML=`<span class="tag">${esc(e.podcast)}</span><span class="muted">${day(e.published)}${e.youtube?` · <a href="https://www.youtube.com/watch?v=${e.youtube}" target="_blank">video op YouTube</a>`:" · alleen audio"}${e.link?` · <a href="${esc(e.link)}" target="_blank">aflevering</a>`:""}</span>
+  <h1 style="margin-top:8px">${esc(e.title)}</h1>
+  <audio id="au" controls preload="none" src="${esc(e.audio)}"></audio>
+  ${T?"":`<div class="mo"><b>Nog geen transcript.</b> <span class="muted">${esc(EPST[e.status]||e.status)}${e.error?" · "+esc(e.error):""}</span><div class="row" style="margin-top:8px"><button class="btn g" id="dotr">NU TRANSCRIBEREN</button><span class="muted">Duurt ongeveer even lang als de aflevering zelf.</span></div></div>`}
+  <h2>MOMENTEN (${M.length})</h2><div id="mos">${M.length?"":`<div class="muted">Nog geen momenten. Klik hieronder in het transcript op een begin en een eind om zelf een clip te maken.</div>`}</div>
+  ${T?`<h2>TRANSCRIPT <span class="muted" style="font-family:Inter;font-size:13px;letter-spacing:0">klik een regel voor het begin, nog een regel voor het eind · ▶ om te luisteren</span></h2><div class="tr" id="tr"></div><div id="selbar"></div>`:""}`;
+  if(!T) document.getElementById("dotr").onclick=async()=>{try{await runWorkflow({per_run:"0",episode:e.id});toast("Transcriptie gestart. Kijk over een tijdje terug.")}catch(x){toast(x.message,1)}};
+  drawMoments(); if(T) drawTranscript();
+}
+function drawMoments(){
+  mos.innerHTML=M.map((m,i)=>`<div class="mo ${m.kind==="rumor"?"rumor":""} ${m.status==="skipped"?"skipped":""}" data-i="${i}">
+   <div class="row"><span class="tag ${m.kind==="rumor"?"p":"g"}">${KIND[m.kind]||m.kind}</span><b>${mmss(m.start)} tot ${mmss(m.end)}</b><span class="muted">(${Math.round(m.end-m.start)} s) · ${esc(ST[m.status]||m.status)}${m.mode?" · "+(m.mode==="video"?"video":"audiogram"):""}${m.by==="joshua"?" · door jou":""}${m.error?" · "+esc(m.error):""}</span>
+   <span style="margin-left:auto" class="row"><button class="btn" data-a="play">▶ LUISTER</button></span></div>
+   <div class="clip" style="margin-top:10px">${m.clip?`<video controls preload="none" src="${esc(m.clip.replace(/^docs\//,""))}?${Date.now()}"></video>`:""}
+   <div style="flex:1">
+   <div class="grid"><label>BEGIN<input data-f="start" value="${mmss(m.start)}"></label><label>EIND<input data-f="end" value="${mmss(m.end)}"></label>
+   <label>SOORT<select data-f="kind">${Object.keys(KIND).map(k=>`<option value="${k}" ${k===m.kind?"selected":""}>${KIND[k]}</option>`).join("")}</select></label>
+   <label>CREDIT<input data-f="credit" value="${esc(m.credit||"")}"></label></div>
+   <div class="grid" style="grid-template-columns:1fr 1fr"><label>GAST (OP DE CLIP)<input data-f="guest" value="${esc(m.guest||"")}"></label><label>KOP (OP DE CLIP)<input data-f="topic" value="${esc(m.topic||"")}"></label></div>
+   <div class="full"><label>CAPTION<textarea data-f="caption">${esc(m.caption||"")}</textarea></label></div>
+   <div class="muted" style="margin:8px 0">${m.quote?`“${esc(m.quote)}”`:""}${m.why?`<br>${esc(m.why)}`:""}</div>
+   <div class="row"><button class="btn" data-a="nudge" data-d="-1">BEGIN −1 S</button><button class="btn" data-a="nudge" data-d="1">BEGIN +1 S</button><button class="btn" data-a="nudgee" data-d="-1">EIND −1 S</button><button class="btn" data-a="nudgee" data-d="1">EIND +1 S</button>
+   <span style="margin-left:auto" class="row"><button class="btn" data-a="skip">${m.status==="skipped"?"TOCH GEBRUIKEN":"OVERSLAAN"}</button><button class="btn g" data-a="save">OPSLAAN EN CLIP MAKEN</button></span></div>
+   </div></div></div>`).join("")||mos.innerHTML;
+  mos.onclick=async ev=>{
+    const b=ev.target.closest("button"); if(!b)return; const card=b.closest(".mo"); const i=+card.dataset.i; const m=M[i];
+    const read=()=>{card.querySelectorAll("[data-f]").forEach(f=>{const k=f.dataset.f;m[k]=(k==="start"||k==="end")?parseT(f.value):f.value})};
+    if(b.dataset.a==="play"){read();play(m.start,m.end);return}
+    if(b.dataset.a==="nudge"||b.dataset.a==="nudgee"){read();const k=b.dataset.a==="nudge"?"start":"end";m[k]=Math.max(0,m[k]+ +b.dataset.d);card.querySelector(`[data-f=${k}]`).value=mmss(m[k]);return}
+    if(b.dataset.a==="skip"){m.status=m.status==="skipped"?"new":"skipped";return persist(`${m.status==="skipped"?"skip":"use"} moment`, m.status==="new")}
+    if(b.dataset.a==="save"){read();if(!(m.end>m.start)||m.end-m.start<10||m.end-m.start>90){toast("Een clip is 10 tot 90 seconden",1);return}
+      m.status="new";m.by=m.by||"joshua";m.edited=new Date().toISOString();delete m.error;return persist("edit moment on dashboard",true)}
+  };
+}
+async function persist(msg,make){
+  try{await saveMoments(EP.id,M,`dashboard: ${msg}`);if(make)await runWorkflow({per_run:"0",episode:""});
+    toast(make?"Opgeslagen. De clip wordt gemaakt; over een paar minuten staat hij hier.":"Opgeslagen.");drawMoments();if(T)drawTranscript()}
+  catch(x){toast(x.message,1)}
+}
+function play(a,b){const au=document.getElementById("au");au.currentTime=a;au.play();clearInterval(play.t);play.t=setInterval(()=>{if(au.currentTime>=b){au.pause();clearInterval(play.t)}},200)}
+function drawTranscript(){
+  const segs=T.segments, inMo=s=>M.find(m=>m.status!=="skipped"&&s.start<m.end&&s.end>m.start);
+  const lo=sel?Math.min(sel.a,sel.b??sel.a):-1, hi=sel?Math.max(sel.a,sel.b??sel.a):-1;
+  tr.innerHTML=segs.map((s,i)=>{const mo=inMo(s);return`<div class="seg ${i>=lo&&i<=hi?"sel":""} ${i===lo||i===hi?"edge":""} ${mo?"inmo"+(mo.kind==="rumor"?" r":""):""}" data-i="${i}"><span class="t">${mmss(s.start)}</span><span>${esc(s.text)}</span></div>`}).join("");
+  tr.onclick=ev=>{const d=ev.target.closest(".seg");if(!d)return;const i=+d.dataset.i;
+    if(!sel||sel.b!=null)sel={a:i,b:null};else sel.b=i;drawTranscript();drawSel()};
+  tr.ondblclick=ev=>{const d=ev.target.closest(".seg");if(d)play(segs[+d.dataset.i].start,1e9)};
+}
+function drawSel(){
+  if(!sel){selbar.style.display="none";return}
+  const segs=T.segments,a=Math.min(sel.a,sel.b??sel.a),b=Math.max(sel.a,sel.b??sel.a),st=segs[a].start,en=segs[b].end,len=en-st;
+  selbar.style.display="block";
+  selbar.innerHTML=`<div class="row"><b>NIEUWE CLIP</b><span class="muted">${mmss(st)} tot ${mmss(en)} · ${Math.round(len)} s${sel.b==null?" · klik nog een regel voor het eind":""}</span><span style="margin-left:auto" class="row"><button class="btn" id="sp">▶ LUISTER</button><button class="btn" id="sx">WISSEN</button></span></div>
+   ${sel.b==null?"":`<div class="grid"><label>SOORT<select id="nk">${Object.keys(KIND).map(k=>`<option value="${k}">${KIND[k]}</option>`).join("")}</select></label><label>GAST<input id="ng" placeholder="NAAM"></label><label>KOP<input id="nt" placeholder="KORTE KOP"></label><label>CREDIT<input id="nc" placeholder="@podcast"></label></div>
+   <div class="full"><label>CAPTION<textarea id="ncap"></textarea></label></div><div class="row" style="margin-top:8px"><span class="muted">${len<10||len>90?"Een clip is 10 tot 90 seconden.":""}</span><button class="btn g" id="nadd" style="margin-left:auto" ${len<10||len>90?"disabled":""}>CLIP MAKEN</button></div>`}`;
+  sp.onclick=()=>play(st,en); sx.onclick=()=>{sel=null;drawTranscript();drawSel()};
+  if(sel.b!=null) nadd.onclick=()=>{
+    const quote=segs.slice(a,b+1).map(s=>s.text).join(" ");
+    M.push({start:st,end:en,kind:nk.value,guest:ng.value.toUpperCase(),topic:nt.value.toUpperCase(),credit:nc.value,caption:ncap.value,quote,why:"Gekozen door Joshua op het dashboard",status:"new",by:"joshua",created:new Date().toISOString()});
+    sel=null;drawSel();persist("new moment",true)};
+}
+load().catch(()=>main.innerHTML=`<div class="empty">Nog geen gegevens.</div>`);
+</script></body></html>
