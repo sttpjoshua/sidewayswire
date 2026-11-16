@@ -1,8 +1,9 @@
 {
- "updated": "2026-11-16T21:56:41.883639+00:00",
+ "updated": "2026-11-16T22:06:23.368060+00:00",
  "counts": {
   "check": 17,
-  "ready": 44
+  "ready": 44,
+  "draft": 2
  },
  "collected": "2026-11-16T21:56:31.745374+00:00",
  "instagram": false,
@@ -1603,24 +1604,24 @@
       "guest": "CONOR SHANAHAN",
       "topic": "\"HE WAS GOING TO BE AN FD CHAMPION\"",
       "quote": "we all know that here, but I was going to be an FT champion, right? Like, yeah, I think, I think that's a foregone conclusion to be honest. Yeah. So I think like it's in Jerry's point of view, like he worked hard with that kid, the hero worked hard and I felt like he was maybe the last shot was took away from a little bit. So I'm like happy that, you know, you know, hero is such a good ...",
-      "why": "Conor says his would-be teammate Hiro was a sure future FD champion before leaving for rally. Name: check spelling (Hiro / Hiroki Vergara?).",
-      "status": "queued",
+      "why": "Conor zegt dat Hiroya Minowa een zekere toekomstige FD-kampioen was voordat hij naar rally ging.",
+      "status": "new",
       "clip": "docs/media/pod-da5d8825120e-4/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": "2026-11-16T22:03:15.954494+00:00"
      },
      {
       "start": 745,
       "end": 789,
       "kind": "rumor",
       "guest": "CONOR SHANAHAN",
-      "topic": "COULD HIRO RACE A US RALLY NEXT YEAR?",
+      "topic": "COULD HIROYA MINOWA RACE A US RALLY?",
       "quote": "Yeah. Yeah. It's, it's tough to see him step away into rally. And, but at the same time, like it looks like he's doing well there. I have a very strong feeling. We're going to see him climb the ranks of, of rally very soon, which might be very, which could be cool. Cause they're going to have around in the U S next year. So like the chance, there is a chance we might be able to see him ...",
-      "why": "Speculation that Hiro could drive a US rally round next year. Rumor, needs Joshua.",
-      "status": "queued",
+      "why": "Speculatie dat Hiroya Minowa volgend jaar een Amerikaanse rallyronde rijdt. Gerucht, gaat naar Joshua.",
+      "status": "new",
       "clip": "docs/media/pod-da5d8825120e-5/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": "2026-11-16T22:03:15.954494+00:00"
      },
      {
       "start": 838.7,
@@ -2265,9 +2266,9 @@
       "topic": "HOBSON GREW A TAIL",
       "quote": "Here goes Ben Hobson, outside zone one. Ben, whoa, buddy! Check that back bumper like a lizard molting into that outside zone again, again. Seven outside zones, that one inside flip. Look at that bumper drag. He grew a tail. He is the dragon. It is a fine -wreathed Mustang though. And look at Jeff. He learned a lot from that first battle. Dial it back. Don't go too hard in that outside zone six. He's a wild run from Ben. It's a very chaotic run. He overcooked it quite a bit in the outside zone too. Well, this is a driver who doesn't want to go one more time. He wants to push hard, wants to try and cement it, but I feel like he just went a bit above where he needed to go. So you can see it here. He's already two wheels off, catches the wall, swings around, and there's going to be a few other spots where he gets wild. Jeff does a good job of just a bit more of a tepid approach.",
       "why": "One more time met bumper over het asfalt en een muurtik",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-0/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2278,9 +2279,9 @@
       "topic": "FAILURE TO LAUNCH",
       "quote": "So well, we are looking at Andy Haley out front James the machine Dean chasing him down let's see what Andy Haley could put down and James is gonna try to stick it to the door of the drift wizard. Oh Andy look failure to launch That's gonna be an incomplete Unchasable. Yeah James. He's gonna navigate around Andy and unfortunately He looks good in the chase, but unfortunately goes to initiate does not that's gonna be a quick victory for James the Machine Dean Quick win there for James Dean not sure what happened I guess that they think they got it figured out but maybe not That seems like they're still battling some sort of demon",
       "why": "Andy Hateley komt niet weg, James Deane door",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-1/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -4584,6 +4585,80 @@
    "title": "\"THEY ALL BLOW UP\""
   },
   {
+   "id": "pod-fd2026r8-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Andy Hateley's BMW won't launch, and James Deane takes the easiest win of his day.\n\n🎥 Footage: FD LONG BEACH FINALE\n@jamesdeane130 @hateleydrift @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 5227.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:06:23.362579+00:00",
+   "built": "2026-11-16T22:06:23.362584+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-1/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@hateleydrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "FAILURE TO LAUNCH"
+  },
+  {
+   "id": "pod-fd2026r8-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "One more time, and Ben Hobson's bumper is dragging like a tail. Jeff Jones keeps it calm.\n\n🎥 Footage: FD LONG BEACH FINALE\n@benhobson213 @jeffjonesracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 1904.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:04:59.998736+00:00",
+   "built": "2026-11-16T22:04:59.998741+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-0/clip.mp4",
+   "tags": [
+    "@benhobson213",
+    "@jeffjonesracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "HOBSON GREW A TAIL"
+  },
+  {
    "id": "pod-1298fd1c600b-13",
    "kind": "podcast_clip",
    "status": "ready",
@@ -4667,7 +4742,7 @@
    "status": "check",
    "post_at": null,
    "posted_at": null,
-   "caption": "Said on The Outerzone: Conor Shanahan thinks we could see Hiro at a US rally round next year. Not confirmed. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
+   "caption": "Said on The Outerzone: Conor Shanahan thinks we could see Hiroya Minowa at a US rally round next year. Not confirmed. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #hiroyaminowa #drifting #driftnews #sidewayswire",
    "media": [
     "media/pod-da5d8825120e-5/clip.mp4"
    ],
@@ -4693,6 +4768,7 @@
    "video": "media/pod-da5d8825120e-5/clip.mp4",
    "tags": [
     "@conorshanahan79",
+    "@hiroya.minowa",
     "@formulad",
     "@jako13"
    ],
@@ -4706,7 +4782,7 @@
    "status": "check",
    "post_at": null,
    "posted_at": null,
-   "caption": "Conor Shanahan on his would-be teammate: \"we all know he was going to be an FD champion.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "caption": "Conor Shanahan on his would-be teammate Hiroya Minowa: \"we all know he was going to be an FD champion.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #hiroyaminowa #drifting #sidewayswire",
    "media": [
     "media/pod-da5d8825120e-4/clip.mp4"
    ],
@@ -4732,6 +4808,7 @@
    "video": "media/pod-da5d8825120e-4/clip.mp4",
    "tags": [
     "@conorshanahan79",
+    "@hiroya.minowa",
     "@formulad",
     "@jako13"
    ],

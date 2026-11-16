@@ -20,8 +20,13 @@
    "why": "grappige commentaarregel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-0-19040-19539.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-0-19040-19539.mp4",
+  "clip": "docs/media/pod-fd2026r8-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1919.08, \"start\": 1916.48, \"text\": \"HE GREW A TAIL\", \"why\": \"grappige commentaarregel\"}",
+  "made": "2026-11-16T22:04:59.997615+00:00"
  },
  {
   "start": 5227.7,
@@ -44,8 +49,13 @@
    "why": "de pech van Andy"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-1-52277-52725.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-1-52277-52725.mp4",
+  "clip": "docs/media/pod-fd2026r8-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5245.2, \"start\": 5242.68, \"text\": \"FAILURE TO LAUNCH\", \"why\": \"de pech van Andy\"}",
+  "made": "2026-11-16T22:06:23.361497+00:00"
  },
  {
   "start": 6420.78,
