@@ -130,9 +130,8 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
         if cap_files:
             # All captions as ONE image sequence (with see-through gaps) instead of one input per caption:
             # ffmpeg then decodes one small stream, which is many times faster.
-            from PIL import Image
-            blank = tmp / "blank.png"
-            Image.new("RGBA", Image.open(cap_files[0]).size, (0, 0, 0, 0)).save(blank)
+            blank = tmp / "blank.png"          # a see-through image, made with ffmpeg (no extra library needed)
+            _ff(["-f", "lavfi", "-i", f"color=c=black@0.0:s={W}x260,format=rgba", "-frames:v", "1", str(blank)])
             lines, cur = [], 0.0
             for (a, b, _), f in zip(caps, cap_files):
                 a, b = max(a, cur), max(b, a)

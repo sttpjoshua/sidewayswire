@@ -124,7 +124,8 @@ def run(limit: int = 120) -> dict:
             name = asset_name(mf.stem, i, m)
             upgrade = (m.get("status") == "queued" and not (post and post.get("status") == "posted")
                        and ((m.get("mode") == "audiogram" and name in assets) or m.get("layout", 1) < LAYOUT))
-            if not (m.get("status", "new") == "new" or upgrade) or len(tasks) >= limit:
+            retry = m.get("status") == "error" and m.get("tries", 0) < 3 and "already posted" not in (m.get("error") or "")
+            if not (m.get("status", "new") == "new" or upgrade or retry) or len(tasks) >= limit:
                 continue
             if post and post.get("status") == "posted":
                 m.update(status="error", error="this clip is already posted; add a new moment instead")
@@ -160,6 +161,8 @@ def run(limit: int = 120) -> dict:
                 src = _fetch(assets[name], Path(tmp) / "src.mp4") if name in assets else None
                 res = make_clip(ep, transcripts[mf.stem], m, str(out), photo=ep.get("art"), video_src=src)
             m.pop("wait_video", None)
+            m.pop("error", None)
+            m.pop("tries", None)
             m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT,
                      made=datetime.now(timezone.utc).isoformat())
             check = (m["kind"] == "rumor" or res["mode"] == "audiogram" or bool(m.get("check"))) and m.get("by") != "joshua"
@@ -177,7 +180,7 @@ def run(limit: int = 120) -> dict:
             })
             report["clips"].append(f"{pid} ({res['mode']}{', upgraded' if upgrade else ''})")
         except Exception as e:
-            m.update(status="error", error=str(e)[:200])
+            m.update(status="error", error=str(e)[:200], tries=m.get("tries", 0) + 1)
             report["errors"].append(f"{pid}: {e}")
         mf.write_text(json.dumps(files[mf], indent=1, ensure_ascii=False))
         if (done + 1) % 4 == 0 or done + 1 == len(tasks):

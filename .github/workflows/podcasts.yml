@@ -23,7 +23,7 @@ jobs:
         with: { ref: main }   # newest data, also when the run waited in the queue
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
-      - run: pip install requests feedparser faster-whisper jinja2 playwright yt-dlp && python -m playwright install --with-deps chromium && sudo apt-get install -y -qq ffmpeg
+      - run: pip install requests feedparser faster-whisper jinja2 playwright yt-dlp pillow && python -m playwright install --with-deps chromium && sudo apt-get install -y -qq ffmpeg
       - uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
