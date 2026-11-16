@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T23:34:11.743381+00:00",
+ "updated": "2026-11-16T23:38:22.907731+00:00",
  "counts": {
   "check": 16,
-  "ready": 37,
-  "draft": 19
+  "ready": 33,
+  "draft": 23
  },
  "collected": "2026-11-16T21:56:31.745374+00:00",
  "instagram": false,
@@ -3036,163 +3036,6 @@
    "title": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\""
   },
   {
-   "id": "pod-da5d8825120e-13",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-24T21:56:41.572474+00:00",
-   "posted_at": null,
-   "caption": "An engine good for about 1,500 whp, and Conor Shanahan kept asking to turn it down. No NOS all year. 🔧\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-13/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 2638.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:55:58.174936+00:00",
-   "built": "2026-11-16T21:56:41.572628+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-13/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "1,500 WHP AND NO NOS ALL YEAR"
-  },
-  {
-   "id": "pod-da5d8825120e-12",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-23T22:00:00+00:00",
-   "posted_at": null,
-   "caption": "Not many teams can say this: Conor Shanahan's crew chief Eric tests the car himself.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 2246.94
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:55:02.613057+00:00",
-   "built": "2026-11-16T21:56:41.571201+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-12/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "HIS CREW CHIEF DOES THE TESTING"
-  },
-  {
-   "id": "pod-da5d8825120e-11",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-23T19:30:00+00:00",
-   "posted_at": null,
-   "caption": "Conor Shanahan says James Deane beating them in Orlando was the best thing that happened to their season.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jamesdeane130 @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-11/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 1996.48
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:54:30.491025+00:00",
-   "built": "2026-11-16T21:56:41.569745+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-11/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jamesdeane130",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "\"JAMES BEATING US WAS THE BEST THING\""
-  },
-  {
-   "id": "pod-da5d8825120e-10",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-23T16:30:00+00:00",
-   "posted_at": null,
-   "caption": "Conor Shanahan on the flight to Jerry Yang's workshop: if this year failed, his American journey was over.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-10/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 1868.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:54:06.141070+00:00",
-   "built": "2026-11-16T21:56:41.568281+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-10/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "\"IF IT FAILS, MY AMERICAN JOURNEY IS OVER\""
-  },
-  {
    "id": "pod-6892a8b1e411-9",
    "kind": "podcast_clip",
    "status": "ready",
@@ -4361,6 +4204,155 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-da5d8825120e-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "An engine good for about 1,500 whp, and Conor Shanahan kept asking to turn it down. No NOS all year. 🔧\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 2638.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:55:58.174936+00:00",
+   "built": "2026-11-16T23:38:22.904933+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-13/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "1,500 WHP AND NO NOS ALL YEAR"
+  },
+  {
+   "id": "pod-da5d8825120e-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Not many teams can say this: Conor Shanahan's crew chief Eric tests the car himself.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 2246.94
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:55:02.613057+00:00",
+   "built": "2026-11-16T23:36:56.324616+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-12/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "HIS CREW CHIEF DOES THE TESTING"
+  },
+  {
+   "id": "pod-da5d8825120e-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan says James Deane beating them in Orlando was the best thing that happened to their season.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jamesdeane130 @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1996.48
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:54:30.491025+00:00",
+   "built": "2026-11-16T23:36:09.811578+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-11/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jamesdeane130",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"JAMES BEATING US WAS THE BEST THING\""
+  },
+  {
+   "id": "pod-da5d8825120e-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan on the flight to Jerry Yang's workshop: if this year failed, his American journey was over.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1868.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:54:06.141070+00:00",
+   "built": "2026-11-16T23:35:30.599088+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-10/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"IF IT FAILS, MY AMERICAN JOURNEY IS OVER\""
   },
   {
    "id": "pod-da5d8825120e-9",
