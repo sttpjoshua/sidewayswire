@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:09:35.406911+00:00",
+ "updated": "2026-11-16T20:17:20.404193+00:00",
  "counts": {
   "draft": 55
  },
@@ -2174,19 +2174,19 @@
     "podcast": "Formula DRIFT",
     "title": "Shoreline Showdown (Long Beach 2) 2026 · finale",
     "published": "2026-10-24",
-    "status": "transcribing",
+    "status": "transcribed",
     "youtube": "AvvFInofbdc",
     "audio": null,
     "link": null,
     "art": null,
     "seconds": 10835.0,
     "error": null,
-    "transcribed": null,
+    "transcribed": "2026-11-16T20:03:58.662784+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
     "event": "FD LONG BEACH FINALE",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-1298fd1c600b-18",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa drove an entire competition on one pair of tires. No crew needed.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#drifting #grassrootsdrift #formuladrift #driftcar #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 5586.95
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:30:54.431686+00:00",
+   "built": "2026-11-16T20:17:20.400914+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-18/clip.mp4",
+   "title": "A WHOLE COMP ON ONE PAIR OF TIRES"
+  },
+  {
+   "id": "pod-1298fd1c600b-17",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Want to make it to Formula DRIFT in five years? Chelsea DeNofa says plan on about a million dollars.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #prospec #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 5469.19
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:30:22.986272+00:00",
+   "built": "2026-11-16T20:15:52.694961+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-17/clip.mp4",
+   "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-1298fd1c600b-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The FD drivers' meeting where every driver had to raise a hand to prove they were listening.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 4924.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:29:29.193402+00:00",
+   "built": "2026-11-16T20:13:38.263644+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-16/clip.mp4",
+   "title": "DRIVERS HAD TO RAISE THEIR HANDS"
+  },
+  {
+   "id": "pod-1298fd1c600b-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Could Chelsea DeNofa be the next Formula DRIFT judge? Not yet, he says, and here's why.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 4852.14
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:28:53.173250+00:00",
+   "built": "2026-11-16T20:12:04.007832+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-15/clip.mp4",
+   "title": "WILL CHELSEA EVER JUDGE FD?"
+  },
   {
    "id": "pod-1298fd1c600b-13",
    "kind": "podcast_clip",
@@ -4207,126 +4327,6 @@
    "want_at": null,
    "video": "media/pod-1298fd1c600b-19/clip.mp4",
    "title": "FIX IT, DON'T RESHELL"
-  },
-  {
-   "id": "pod-1298fd1c600b-18",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa drove an entire competition on one pair of tires. No crew needed.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#drifting #grassrootsdrift #formuladrift #driftcar #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 5586.95
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:30:54.431686+00:00",
-   "built": "2026-11-16T19:30:54.431688+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-18/clip.mp4",
-   "title": "A WHOLE COMP ON ONE PAIR OF TIRES"
-  },
-  {
-   "id": "pod-1298fd1c600b-17",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Want to make it to Formula DRIFT in five years? Chelsea DeNofa says plan on about a million dollars.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #prospec #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 5469.19
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:30:22.986272+00:00",
-   "built": "2026-11-16T19:30:22.986275+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-17/clip.mp4",
-   "title": "THE MILLION DOLLAR ROAD TO FD"
-  },
-  {
-   "id": "pod-1298fd1c600b-16",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The FD drivers' meeting where every driver had to raise a hand to prove they were listening.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 4924.31
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:29:29.193402+00:00",
-   "built": "2026-11-16T19:29:29.193405+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-16/clip.mp4",
-   "title": "DRIVERS HAD TO RAISE THEIR HANDS"
-  },
-  {
-   "id": "pod-1298fd1c600b-15",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Could Chelsea DeNofa be the next Formula DRIFT judge? Not yet, he says, and here's why.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 4852.14
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:28:53.173250+00:00",
-   "built": "2026-11-16T19:28:53.173252+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-15/clip.mp4",
-   "title": "WILL CHELSEA EVER JUDGE FD?"
   }
  ],
  "channels": {
