@@ -1,5 +1,6 @@
 # Finds new podcast episodes and makes transcripts with Whisper. Every two hours.
 name: podcasts
+run-name: podcasts ${{ inputs.episode }}
 on:
   schedule:
     - cron: "41 */2 * * *"
@@ -30,8 +31,11 @@ jobs:
         env:
           PODCASTS_PER_RUN: ${{ inputs.per_run || '3' }}
           EPISODE: ${{ inputs.episode }}
+          GH_TOKEN: ${{ github.token }}
         run: python -m lc.podcasts
       - name: Make clips of picked moments
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: python -m lc.podclips
       - name: status
         run: python -m lc.status
@@ -43,3 +47,8 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "podcasts $(date -u +%FT%TZ)"
           for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+      - name: Tell the dashboard the run is over
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -c "from lc import progress; progress.done()"

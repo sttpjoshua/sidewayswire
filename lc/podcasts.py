@@ -30,6 +30,8 @@ from pathlib import Path
 import feedparser
 import requests
 
+from . import progress
+
 ROOT = Path(__file__).resolve().parent.parent
 DIR = ROOT / "data" / "podcasts"
 INDEX = DIR / "episodes.json"
@@ -170,12 +172,14 @@ def _mmss(s: float) -> str:
     return f"{s // 3600}:{s % 3600 // 60:02d}:{s % 60:02d}" if s >= 3600 else f"{s // 60:02d}:{s % 60:02d}"
 
 
-def transcribe(ep: dict, model) -> dict:
+def transcribe(ep: dict, model, on_progress=None) -> dict:
     """Download the audio and transcribe it. Returns the transcript dict."""
     import subprocess
 
     import numpy as np
     with tempfile.NamedTemporaryFile(suffix=".mp3") as f:
+        if on_progress:
+            on_progress("download", 0.0, ep.get("seconds"))
         with requests.get(ep["audio"], headers=UA, timeout=120, stream=True) as r:
             r.raise_for_status()
             for chunk in r.iter_content(1 << 20):
@@ -188,7 +192,11 @@ def transcribe(ep: dict, model) -> dict:
         segments, info = model.transcribe(audio, vad_filter=True, word_timestamps=True, beam_size=1,
                                           initial_prompt=vocabulary())
         segs = []
+        if on_progress:
+            on_progress("transcribe", 0.0, info.duration)
         for s in segments:
+            if on_progress:
+                on_progress("transcribe", s.end / max(info.duration, 1), info.duration)
             segs.append({"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip(),
                          "words": [[round(w.start, 2), round(w.end, 2), w.word.strip()] for w in (s.words or [])]})
     return {"id": ep["id"], "podcast": ep["podcast"], "title": ep["title"], "language": info.language,
@@ -211,6 +219,7 @@ def write_transcript(t: dict):
 
 def run() -> dict:
     ix = load_index()
+    progress.update(force=True, phase="search", episode=None, todo=[], pct=None)
     new = discover(ix)
     save_index(ix)
     # skipped episodes may become relevant after a source list update
@@ -228,11 +237,21 @@ def run() -> dict:
     report = {"new_episodes": len(new), "transcribed": [], "errors": []}
     if todo:
         from faster_whisper import WhisperModel
+        progress.update(force=True, phase="model", todo=[e["id"] for e in todo],
+                        titles={e["id"]: e["title"] for e in todo})
         model = WhisperModel(MODEL, device="cpu", compute_type="int8")
-        for ep in todo:
+        for n, ep in enumerate(todo):
             t0 = time.time()
+            progress.update(force=True, phase="download", episode=ep["id"], title=ep["title"],
+                            podcast=ep["podcast"], index=n, pct=0.0, episode_started=datetime.now(timezone.utc).isoformat())
+
+            def tell(phase, pct, duration, _first=[True]):
+                first = _first[0] and phase == "transcribe"
+                _first[0] = _first[0] and not first
+                progress.update(force=first, phase=phase, pct=round(pct, 3), duration=duration,
+                                **({"transcribe_started": datetime.now(timezone.utc).isoformat()} if first else {}))
             try:
-                t = transcribe(ep, model)
+                t = transcribe(ep, model, tell)
                 write_transcript(t)
                 ep.update(status="transcribed", transcribed=datetime.now(timezone.utc).isoformat(),
                           words=sum(len(s["words"]) for s in t["segments"]), seconds=t["duration"])
@@ -241,6 +260,8 @@ def run() -> dict:
                 ep.update(status="error", error=str(ex)[:200], tries=ep.get("tries", 0) + 1)
                 report["errors"].append(f"{ep['podcast']}: {ex}")
             save_index(ix)          # keep progress even if a later episode fails
+            progress.update(force=True, phase="saved", episode=ep["id"], pct=1.0,
+                            finished=(progress._state.get("finished") or []) + [ep["id"]])
     return report
 
 

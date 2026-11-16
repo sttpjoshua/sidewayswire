@@ -19,6 +19,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from . import progress
 from . import queue as q
 from .clips import make_clip
 from .podcasts import DIR, load_index
@@ -61,6 +62,8 @@ def run(limit: int = 6) -> dict:
             out = MEDIA / pid / "clip.mp4"
             out.parent.mkdir(parents=True, exist_ok=True)
             try:
+                progress.update(force=True, phase="clips", episode=mf.stem, title=ep["title"],
+                                podcast=ep["podcast"], clip=i, pct=None)
                 res = make_clip(ep, transcript, m, str(out), photo=ep.get("art"))
                 m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"])
                 q.save({
