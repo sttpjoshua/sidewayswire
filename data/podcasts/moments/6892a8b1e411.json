@@ -145,8 +145,9 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Why build a C7 Corvette when the C6 parts already exist? Tommy Lemaire says it made him more attractive to sponsors.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
-  "status": "new",
-  "by": "editor"
+  "status": "error",
+  "by": "editor",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 2805.42,
@@ -159,8 +160,9 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Three blown engines in one season. Tommy Lemaire on his toughest season on the budget.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #privateer #drifting #sidewayswire",
-  "status": "new",
-  "by": "editor"
+  "status": "error",
+  "by": "editor",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 2864.66,
@@ -173,8 +175,9 @@
   "credit": "@formulad",
   "check": false,
   "caption": "The side of running a Canadian team in Formula DRIFT nobody thinks about: worrying about fuel for the drive home.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #privateer #drifting #sidewayswire",
-  "status": "new",
-  "by": "editor"
+  "status": "error",
+  "by": "editor",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 2935.1,
@@ -187,8 +190,9 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #drifting #driftsetup #sidewayswire",
-  "status": "new",
-  "by": "editor"
+  "status": "error",
+  "by": "editor",
+  "error": "No module named 'PIL'"
  },
  {
   "start": 3169.74,
