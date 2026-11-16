@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-16T19:45:47.951507+00:00",
+ "updated": "2026-11-16T19:48:14.038225+00:00",
  "counts": {
-  "draft": 37
+  "draft": 41
  },
  "collected": "2026-11-16T15:52:12.018257+00:00",
  "instagram": false,
@@ -2476,10 +2476,10 @@
       "topic": "FACING JAMES DOES NOT CHANGE ANYTHING",
       "quote": "So let's say I go against James, which is probably the greatest driver in the world right now. Or I go against another guy. It won't, it won't really change the way I still run. And sometimes people are like, Oh, you're going against like one of the best driver in the world. Like how do you feel? Well, that's where I go back to like, well, good. I mean, you know, it's kind of the driver and you see where the, you know, the, it goes back to what we talked earlier. So, but yeah, for sure. I want to enjoy it because I know that I am lucky to be here and at any time it could stop. So I'm trying to take it in and enjoy it. But when the lights go like green and I pulled, I pulled down the visor, it's just like, you could be any other driver. It won't, it won't really affect my stress level because, because, because if it affects it, well, I will be, I will lose the battle before we even started.",
       "why": "Even against James, whom he calls the best driver in the world right now, his stress stays the same.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-20/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 4813.75,
@@ -2489,10 +2489,10 @@
       "topic": "TOMMY AS DRIVER LIAISON NEXT YEAR?",
       "quote": "Okay. So let's say, let's say the, the, the entire grid deems you as a new driver liaison representative. What would you fight for to change when it comes to the series? Is there something that you want to see different? We've talked about points a little bit, but is there something that, cause there's, there's actually a good chance that you could become driver liaison next year. I don't know if that's something you've thought about or wanted to do, but is there something you would like to see updated for next year season?",
       "why": "The host says there is a good chance Tommy becomes FD driver liaison next year. Rumor, needs Joshua.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-21/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 4902.27,
@@ -2502,10 +2502,10 @@
       "topic": "WHY DO DRIVERS PAY TO RACE FD?",
       "quote": "I always feel like who's putting on a show is the drivers who's like putting their, their life on buzz for this series is the drivers who is like the talent is the drivers. So I still don't understand why is the drivers that has to pay to get there, you know, in the, in the series and most of the other series, they, they are paid to go there. And for us in the former group, which is the highest level of drifting in the world, we are still needing to pay for our entrance for me. It doesn't really make sense.",
       "why": "Drivers put on the show and risk their lives but still pay entry. Discussion starter.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-22/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 5131.79,
@@ -2515,10 +2515,10 @@
       "topic": "NASCAR FRIENDS GET PAID TO SHOW UP",
       "quote": "I have some friends that are, you know, running in a NASCAR or other professional series and they're like, yeah, well, we, we, we received like 200 bucks to get to the track. I'm like, Oh, that's, that's not a lot, but they're like, yeah, but how much do you pay? Like, Oh yeah, I pay like a lot to get to the track. You know, so I'm like, yeah, it just makes sense. And they say like, yeah, but look in the, in the grass stands there, there's like 15 ,000 people coming to see us and who's taking the money from that, the series. So it's just normal that the Siri pay us. And I'm like, Oh, well that makes sense.",
       "why": "His friends in other series get paid to show up; in FD drivers pay.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T19:01:43.241769+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-6892a8b1e411-23/clip.mp4",
+      "mode": "video",
+      "wait_video": null
      },
      {
       "start": 5256.05,
@@ -2678,6 +2678,126 @@
   ]
  },
  "posts": [
+  {
+   "id": "pod-6892a8b1e411-23",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire's friends in other series get paid to show up. He pays a lot to get to the track.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #nascar #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 5131.79
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:48:14.036036+00:00",
+   "built": "2026-11-16T19:48:14.036038+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-23/clip.mp4",
+   "title": "NASCAR FRIENDS GET PAID TO SHOW UP"
+  },
+  {
+   "id": "pod-6892a8b1e411-22",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Drivers are the show, so why do they still pay to compete in Formula DRIFT? Tommy Lemaire asks the question.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 4902.27
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:47:41.481751+00:00",
+   "built": "2026-11-16T19:47:41.481753+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-22/clip.mp4",
+   "title": "WHY DO DRIVERS PAY TO RACE FD?"
+  },
+  {
+   "id": "pod-6892a8b1e411-21",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: there's a good chance Tommy Lemaire becomes Formula DRIFT's driver liaison next year. 👀\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #driftnews #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 4813.75
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:47:11.639470+00:00",
+   "built": "2026-11-16T19:47:11.639473+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-21/clip.mp4",
+   "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?"
+  },
+  {
+   "id": "pod-6892a8b1e411-20",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire on battling the best driver in the world: if it changes your stress level, you lose before the lights go green.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #mindset #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 4539.07
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:46:44.724777+00:00",
+   "built": "2026-11-16T19:46:44.724779+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-20/clip.mp4",
+   "title": "FACING JAMES DOES NOT CHANGE ANYTHING"
+  },
   {
    "id": "pod-6892a8b1e411-19",
    "kind": "podcast_clip",
