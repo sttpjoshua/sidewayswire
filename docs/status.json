@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:01:22.393666+00:00",
+ "updated": "2026-11-16T21:06:23.948448+00:00",
  "counts": {
   "draft": 55
  },
@@ -2679,6 +2679,126 @@
  },
  "posts": [
   {
+   "id": "pod-da5d8825120e-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan on the weeks between Vegas and Long Beach: one hand on the title, but not both.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 454.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T21:06:23.945364+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-3/clip.mp4",
+   "title": "ONE HAND ON THE TITLE, NOT BOTH"
+  },
+  {
+   "id": "pod-da5d8825120e-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The Shanahan house rule: big wins stay on the kitchen table for two months. 🏆\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 311.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T21:05:27.460621+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-2/clip.mp4",
+   "title": "MUM'S KITCHEN TABLE RULE"
+  },
+  {
+   "id": "pod-da5d8825120e-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "How do you fly a Formula DRIFT championship trophy home to Ireland? Not on a seat, apparently. 🏆✈️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 236.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T21:04:40.211210+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-1/clip.mp4",
+   "title": "THE TROPHY FLEW HOME IN A DRINKS CABINET"
+  },
+  {
+   "id": "pod-6892a8b1e411-24",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: Tommy Lemaire tried to get Chevrolet Canada on board, and another driver is still trying.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #chevrolet #driftnews #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 5256.05
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:48:56.316044+00:00",
+   "built": "2026-11-16T21:03:07.883591+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-24/clip.mp4",
+   "title": "CHEVROLET IN FORMULA DRIFT?"
+  },
+  {
    "id": "pod-6892a8b1e411-23",
    "kind": "podcast_clip",
    "status": "draft",
@@ -4207,126 +4327,6 @@
    "want_at": null,
    "video": "media/pod-da5d8825120e-4/clip.mp4",
    "title": "\"HE WAS GOING TO BE AN FD CHAMPION\""
-  },
-  {
-   "id": "pod-da5d8825120e-3",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Conor Shanahan on the weeks between Vegas and Long Beach: one hand on the title, but not both.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 454.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": "2026-11-16T19:50:17.531133+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-3/clip.mp4",
-   "title": "ONE HAND ON THE TITLE, NOT BOTH"
-  },
-  {
-   "id": "pod-da5d8825120e-2",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The Shanahan house rule: big wins stay on the kitchen table for two months. 🏆\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 311.2
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": "2026-11-16T19:49:55.032804+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-2/clip.mp4",
-   "title": "MUM'S KITCHEN TABLE RULE"
-  },
-  {
-   "id": "pod-da5d8825120e-1",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "How do you fly a Formula DRIFT championship trophy home to Ireland? Not on a seat, apparently. 🏆✈️\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 236.3
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": "2026-11-16T19:49:35.424156+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-1/clip.mp4",
-   "title": "THE TROPHY FLEW HOME IN A DRINKS CABINET"
-  },
-  {
-   "id": "pod-6892a8b1e411-24",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Tommy Lemaire tried to get Chevrolet Canada on board, and another driver is still trying.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @tommy.lemaire\n\n#formulad #formuladrift #chevrolet #driftnews #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 5256.05
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:48:56.316044+00:00",
-   "built": "2026-11-16T19:48:56.316046+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-24/clip.mp4",
-   "title": "CHEVROLET IN FORMULA DRIFT?"
   }
  ],
  "channels": {

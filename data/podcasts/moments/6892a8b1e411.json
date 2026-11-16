@@ -610,13 +610,14 @@
   "by": "editor",
   "clip": "docs/media/pod-6892a8b1e411-24/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:48:56.315980+00:00",
+  "layout": 3,
+  "made": "2026-11-16T21:03:07.883511+00:00",
   "hook": {
    "start": 5293.39,
    "end": 5295.5,
    "text": "CHEVROLET INTO FD?",
    "why": "de onthulling"
-  }
+  },
+  "hook_sig": "{\"end\": 5295.5, \"start\": 5293.39, \"text\": \"CHEVROLET INTO FD?\", \"why\": \"de onthulling\"}"
  }
 ]

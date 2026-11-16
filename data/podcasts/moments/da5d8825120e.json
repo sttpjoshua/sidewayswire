@@ -50,14 +50,15 @@
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-1/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:49:35.424091+00:00",
+  "layout": 3,
+  "made": "2026-11-16T21:04:40.211127+00:00",
   "hook": {
    "start": 275.36,
    "end": 278.61,
    "text": "HOW DO YOU FLY AN FD TROPHY HOME?",
    "why": "de clou van het verhaal"
-  }
+  },
+  "hook_sig": "{\"end\": 278.61, \"start\": 275.36, \"text\": \"HOW DO YOU FLY AN FD TROPHY HOME?\", \"why\": \"de clou van het verhaal\"}"
  },
  {
   "start": 311.2,
@@ -74,14 +75,15 @@
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-2/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:49:55.032741+00:00",
+  "layout": 3,
+  "made": "2026-11-16T21:05:27.460543+00:00",
   "hook": {
    "start": 323.96,
    "end": 325.91,
    "text": "WHERE THE FD TROPHY LIVES NOW",
    "why": "de clou van het verhaal"
-  }
+  },
+  "hook_sig": "{\"end\": 325.91, \"start\": 323.96, \"text\": \"WHERE THE FD TROPHY LIVES NOW\", \"why\": \"de clou van het verhaal\"}"
  },
  {
   "start": 454.9,
@@ -98,14 +100,15 @@
   "by": "editor",
   "clip": "docs/media/pod-da5d8825120e-3/clip.mp4",
   "mode": "video",
-  "layout": 2,
-  "made": "2026-11-16T19:50:17.531072+00:00",
+  "layout": 3,
+  "made": "2026-11-16T21:06:23.945285+00:00",
   "hook": {
    "start": 464.16,
    "end": 466.77,
    "text": "THE PRESSURE BEFORE THE TITLE",
    "why": "de uitspraak zelf"
-  }
+  },
+  "hook_sig": "{\"end\": 466.77, \"start\": 464.16, \"text\": \"THE PRESSURE BEFORE THE TITLE\", \"why\": \"de uitspraak zelf\"}"
  },
  {
   "start": 693.9,
