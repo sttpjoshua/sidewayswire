@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "4"
+VERSION = "5"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -299,21 +299,25 @@ def download(youtube_id: str, a: float, b: float, out: Path) -> bool:
     return out.exists() and out.stat().st_size > 100_000
 
 
+def self_update():
+    """Every run: replace this helper with the newest version from GitHub (only if it is valid Python)."""
+    try:
+        new = gh("/contents/tools/mac/video_helper.py?ref=main", raw=True)
+        compile(new, "video_helper.py", "exec")
+        me = Path(__file__)
+        if new != me.read_bytes():
+            me.write_bytes(new)
+            log("helper bijgewerkt; de nieuwe versie draait vanaf de volgende ronde")
+    except Exception as ex:
+        log("helper bijwerken mislukt:", ex)
+
+
 def daily_update(state: dict):
     if time.time() - state.get("updated_ytdlp", 0) < 86400 or not shutil.which("brew"):
         return
     subprocess.run(["brew", "upgrade", "-q", "yt-dlp", "deno"], capture_output=True, timeout=900)
     state["updated_ytdlp"] = time.time()
     log("yt-dlp bijgewerkt")
-    try:   # keep this helper itself up to date (only replaced when the new file is valid Python)
-        new = gh("/contents/tools/mac/video_helper.py?ref=main", raw=True)
-        compile(new, "video_helper.py", "exec")
-        me = Path(__file__)
-        if new != me.read_bytes():
-            me.write_bytes(new)
-            log("helper bijgewerkt; de nieuwe versie draait vanaf de volgende keer")
-    except Exception as ex:
-        log("helper bijwerken mislukt:", ex)
 
 
 def main():
@@ -321,33 +325,63 @@ def main():
     KEY = token()
     state = load_state()
     daily_update(state)
+    self_update()
     rel = release()
     have = {a["name"] for a in rel.get("assets", [])}
     ix = json.loads(gh("/contents/data/podcasts/episodes.json?ref=main", raw=True))
-    uploaded, errors, waiting, no_video = [], [], 0, []
+    uploaded, errors, no_video = [], [], []
+    eps: dict = {}          # per episode, shown on the dashboard
+    try:
+        old = json.loads(rel.get("body") or "{}")
+    except Exception:
+        old = {}
+    last_beat = [0.0]
+
+    def beat(now_doing: str | None = None, force: bool = False):
+        if not force and time.time() - last_beat[0] < 20:
+            return
+        last_beat[0] = time.time()
+        body = {"seen": datetime.now(timezone.utc).isoformat(), "version": VERSION, "busy": now_doing,
+                "uploaded": uploaded, "errors": errors[-5:], "no_video": no_video, "episodes": eps,
+                "waiting": sum(e.get("need", 0) - e.get("have", 0) for e in eps.values()),
+                "last_upload": datetime.now(timezone.utc).isoformat() if uploaded else old.get("last_upload")}
+        try:
+            gh(f"/releases/{rel['id']}", "PATCH", {"body": json.dumps(body)})
+        except Exception as ex:
+            log("hartslag mislukt:", ex)
+
     for ep in ix["episodes"].values():
-        if not ep.get("youtube"):
-            continue
         try:
             moments = json.loads(gh(f"/contents/data/podcasts/moments/{ep['id']}.json?ref=main", raw=True))
         except urllib.error.HTTPError:
             continue
-        todo = [(i, m) for i, m in enumerate(moments)
-                if m.get("status") in ("new", "queued") and m.get("mode") != "video"
-                and asset_name(ep["id"], i, m) not in have]
+        live = [(i, m) for i, m in enumerate(moments) if m.get("status") in ("new", "queued")]
+        if not live:
+            continue
+        info = eps[ep["id"]] = {"need": len(live), "state": "klaar"}
+        info["have"] = sum(1 for i, m in live if m.get("mode") == "video" or asset_name(ep["id"], i, m) in have)
+        todo = [(i, m) for i, m in live if m.get("mode") != "video" and asset_name(ep["id"], i, m) not in have]
+        known = state.get("video", {}).get(ep["id"], {})
+        info["video"] = known.get("id") if known else ep.get("youtube")
         if not todo:
             continue
+        info["state"] = "zoekt de video"
+        beat(f"{ep['podcast']}: {ep['title']}: zoekt de video", force=True)
         yid = video_for(ep, state)
+        info["video"] = yid
         if not yid:
             no_video.append(ep["id"])
+            info["state"] = "geen volledige video op YouTube"
             continue
         ep = dict(ep, youtube=yid)
         theirs, ours, sound = None, None, None
         for i, m in todo:
             name = asset_name(ep["id"], i, m)
             if time.time() - state["failed"].get(name, 0) < 3600:
+                info["state"] = "wacht na een fout"
                 continue                               # failed recently, try again later
-            waiting += 1
+            info["state"] = f"haalt video op ({info['have']} van {info['need']})"
+            beat(f"{ep['podcast']}: {ep['title']}: {info['state']}")
             try:
                 o1 = o2 = None
                 if theirs is None:
@@ -358,6 +392,8 @@ def main():
                     o1, o2 = offset_at(ours, theirs, m["start"]), offset_at(ours, theirs, m["end"] - 10)
                 if o1 is None and o2 is None:            # no captions (YouTube often refuses them): match the sound
                     if sound is None:
+                        info["state"] = "haalt het geluid op om de momenten te vinden"
+                        beat(f"{ep['podcast']}: {ep['title']}: {info['state']}", force=True)
                         sound = (_load(podcast_audio(ep)), _load(youtube_audio(ep["youtube"])))
                     o1 = audio_offset(sound[0], sound[1], m["start"])
                     o2 = audio_offset(sound[0], sound[1], max(m["end"] - 20, m["start"]))
@@ -378,27 +414,20 @@ def main():
                     up = rel["upload_url"].split("{")[0] + "?name=" + name
                     gh("", "POST", url=up, data=f.read_bytes(), ctype="video/mp4")
                 uploaded.append(name)
+                info["have"] += 1
                 state["failed"].pop(name, None)
                 log("geupload", name)
             except Exception as ex:
                 state["failed"][name] = time.time()
                 errors.append(f"{name}: {ex}")
+                info["error"] = str(ex)[:160]
                 log("fout", name, ex)
-    if uploaded:
+        info["state"] = "klaar" if info["have"] >= info["need"] else info["state"]
+    newly_none = set(no_video) - set(old.get("no_video") or [])
+    if uploaded or newly_none:      # new video, or clips that no longer need to wait: make them now
         gh("/actions/workflows/podcasts.yml/dispatches", "POST", {"ref": "main", "inputs": {"per_run": "0", "episode": ""}})
         log("clips worden opnieuw gemaakt")
-    beat = {"seen": datetime.now(timezone.utc).isoformat(), "version": VERSION, "uploaded": uploaded,
-            "errors": errors[-5:], "waiting": waiting, "no_video": no_video}
-    old = {}
-    try:
-        old = json.loads(rel.get("body") or "{}")
-    except Exception:
-        pass
-    if uploaded or errors:
-        beat["last_upload"] = beat["seen"] if uploaded else old.get("last_upload")
-    else:
-        beat["last_upload"] = old.get("last_upload")
-    gh(f"/releases/{rel['id']}", "PATCH", {"body": json.dumps(beat)})
+    beat(None, force=True)
     save_state(state)
 
 

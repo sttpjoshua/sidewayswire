@@ -54,11 +54,13 @@ def video_assets() -> tuple[dict, list]:
                 beat = json.loads(r.json().get("body") or "{}")
             except ValueError:
                 beat = {}
+            seen = beat.get("seen")
+            alive = bool(seen) and (datetime.now(timezone.utc) - datetime.fromisoformat(seen)).total_seconds() < 3600
             return ({a["name"]: a["browser_download_url"] for a in r.json().get("assets", [])},
-                    beat.get("no_video") or [])
+                    (beat.get("no_video") or []) if alive else None)
     except Exception as e:
         print("video assets:", e)
-    return {}, []
+    return {}, None
 
 
 def _fetch(url: str, out: Path) -> Path:
@@ -104,7 +106,7 @@ def run(limit: int = 25) -> dict:
             if not 10 <= length <= 90:
                 m.update(status="error", error=f"clip length {length:.0f}s, keep it 15-75 s")
                 continue
-            if ep.get("youtube") and name not in assets and mf.stem not in no_video:
+            if no_video is not None and name not in assets and mf.stem not in no_video:   # Mac is alive: wait for video
                 since = m.setdefault("wait_video", now.isoformat())
                 if (now - datetime.fromisoformat(since)).total_seconds() < WAIT_VIDEO:
                     report["waiting_for_video"].append(pid)

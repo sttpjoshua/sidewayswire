@@ -101,13 +101,15 @@ async function saveMoments(id,moments,msg){
 async function runWorkflow(inputs){await gh(`/actions/workflows/podcasts.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs})})}
 
 let S, EP=null, T=null, M=[], sel=null;
+let MAC=null;
 async function macStatus(){
   const el=document.getElementById("macst");
   try{const r=await fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}});
     if(!r.ok){el.textContent="MAC: NIET INGESTELD";el.style.background="#444";el.title="De Mac-helper is nog niet geïnstalleerd";return}
     const b=JSON.parse((await r.json()).body||"{}"), age=b.seen?(Date.now()-new Date(b.seen))/60000:1e9;
+    MAC=b; MAC.alive=age<40; drawVid();
     el.textContent=age<40?"MAC ●":"MAC OFFLINE";el.style.background=age<40?"#2c2c30":"var(--pink)";el.style.color=age<40?"var(--accent)":"#111";
-    el.title=b.seen?`Mac-helper laatst gezien ${ago(b.seen)}${b.waiting?`, ${b.waiting} clip(s) bezig`:""}${(b.errors||[]).length?". Laatste fout: "+b.errors.slice(-1)[0]:""}`:"Nog nooit gezien";
+    el.title=b.seen?`Mac-helper laatst gezien ${ago(b.seen)}${b.busy?`. Nu: ${b.busy}`:b.waiting?`, ${b.waiting} stukje(s) video te gaan`:""}${(b.errors||[]).length?". Laatste fout: "+b.errors.slice(-1)[0]:""}`:"Nog nooit gezien";
   }catch(e){}
 }
 async function load(){
@@ -134,11 +136,26 @@ function draw(){
   const e=EP;
   main.innerHTML=`<span class="tag">${esc(e.podcast)}</span><span class="muted">${day(e.published)}${e.youtube?` · <a href="https://www.youtube.com/watch?v=${e.youtube}" target="_blank">video op YouTube</a>`:" · alleen audio"}${e.link?` · <a href="${esc(e.link)}" target="_blank">aflevering</a>`:""}</span>
   <h1 style="margin-top:8px">${esc(e.title)}</h1>
+  <div id="vidline" class="muted" style="margin:8px 0 0"></div>
   <audio id="au" controls preload="none" src="${esc(e.audio)}"></audio>
   ${T?"":`<div class="mo" id="epbusy"><b>Nog geen transcript.</b> <span class="muted">${esc(EPST[e.status]||e.status)}${e.error?" · "+esc(e.error):""}</span><div id="qbox"></div></div>`}
   <h2>MOMENTEN (${M.length})</h2><div id="mos">${M.length?"":`<div class="muted">Nog geen momenten. Klik hieronder in het transcript op een begin en een eind om zelf een clip te maken.</div>`}</div>
   ${T?`<h2>TRANSCRIPT <span class="muted" style="font-family:Inter;font-size:13px;letter-spacing:0">klik een regel voor het begin, nog een regel voor het eind · ▶ om te luisteren</span></h2><div class="tr" id="tr"></div><div id="selbar"></div>`:""}`;
-  drawMoments(); if(T) drawTranscript(); liveDraw();
+  drawMoments(); if(T) drawTranscript(); liveDraw(); drawVid();
+}
+function drawVid(){
+  const el=document.getElementById("vidline"); if(!el||!EP)return;
+  const tag=(t,c)=>`<span class="tag ${c||""}">${t}</span>`;
+  const live=M.filter(m=>m.status==="new"||m.status==="queued"), done=live.filter(m=>m.mode==="video").length;
+  if(!MAC||!MAC.alive){el.innerHTML=tag("VIDEO","p")+"De Mac-helper is offline. Clips worden een audiogram tot hij weer draait.";return}
+  const i=(MAC.episodes||{})[EP.id], busy=MAC.busy&&MAC.busy.includes(EP.title);
+  const yt=v=>v?` <a href="https://www.youtube.com/watch?v=${v}" target="_blank">video op YouTube</a> ·`:"";
+  if(!live.length){el.innerHTML=tag("VIDEO")+"Wordt gezocht zodra er momenten zijn.";return}
+  if(!i){el.innerHTML=tag("VIDEO")+`Nog niet bekeken. De Mac kijkt elke 15 minuten (laatst ${ago(MAC.seen)}).`;return}
+  if(!i.video&&(MAC.no_video||[]).includes(EP.id)){el.innerHTML=tag("VIDEO","d")+"Geen volledige video op YouTube gevonden. De clips worden een audiogram.";return}
+  const pct=i.need?Math.round(100*i.have/i.need):0;
+  el.innerHTML=(busy?`<span class="pulse"></span>`:"")+tag("VIDEO",i.have>=i.need?"g":"")+`${yt(i.video)} ${esc(busy?MAC.busy.split(": ").pop():i.state)} · ${i.have} van ${i.need} stukjes video binnen${done?` · ${done} clip${done>1?"s":""} met beeld klaar`:""}${i.error?` · laatste fout: ${esc(i.error)}`:""}`
+    +`<div class="pbar" style="max-width:420px"><i style="width:${pct}%"></i></div>`;
 }
 function drawMoments(){
   mos.innerHTML=M.map((m,i)=>`<div class="mo ${m.kind==="rumor"?"rumor":""} ${m.status==="skipped"?"skipped":""}" data-i="${i}">
@@ -291,6 +308,6 @@ function drawQueue(n){
     :`<div class="row" style="margin-top:8px"><button class="btn g" data-add="${EP.id}">IN DE WACHTRIJ ZETTEN</button><span class="muted">Transcriberen duurt ongeveer even lang als de aflevering zelf.</span></div>`;
   qb.onclick=ev=>{const b=ev.target.closest("[data-add],[data-del]");if(!b)return;b.dataset.add?addQ(b.dataset.add):delQ(b.dataset.del)};
 }
-livePoll(); setInterval(livePoll,30000); setInterval(liveDraw,5000);
+livePoll(); setInterval(livePoll,30000); setInterval(macStatus,60000); setInterval(liveDraw,5000);
 load().catch(()=>main.innerHTML=`<div class="empty">Nog geen gegevens.</div>`);
 </script></body></html>
