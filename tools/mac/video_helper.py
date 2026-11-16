@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "11"
+VERSION = "12"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -513,7 +513,8 @@ def self_update():
         me = Path(__file__)
         if new != me.read_bytes():
             me.write_bytes(new)
-            log("helper bijgewerkt; de nieuwe versie draait vanaf de volgende ronde")
+            log("helper bijgewerkt; nieuwe versie start nu")
+            os.execv(sys.executable, [sys.executable, str(me)])
     except Exception as ex:
         log("helper bijwerken mislukt:", ex)
 
@@ -556,6 +557,10 @@ def main():
         except Exception as ex:
             log("hartslag mislukt:", ex)
 
+    try:
+        streams_work(beat, state)          # first: transcribing a new stream
+    except Exception as ex:
+        log("streams:", ex)
     all_eps = list(ix["episodes"].values())
     for st in (_json_or("data/streams/streams.json", {"streams": []}).get("streams", [])
                + _json_or("data/streams/mac/_found.json", {"streams": []}).get("streams", [])):
@@ -574,8 +579,8 @@ def main():
         if not live:
             continue
         info = eps[ep["id"]] = {"need": len(live), "state": "klaar"}
-        info["have"] = sum(1 for i, m in live if m.get("mode") == "video" or asset_name(ep["id"], i, m) in have)
-        todo = [(i, m) for i, m in live if m.get("mode") != "video" and asset_name(ep["id"], i, m) not in have]
+        info["have"] = sum(1 for i, m in live if asset_name(ep["id"], i, m) in have)
+        todo = [(i, m) for i, m in live if asset_name(ep["id"], i, m) not in have]
         known = state.get("video", {}).get(ep["id"], {})
         info["video"] = known.get("id") if known else ep.get("youtube")
         if not todo:
@@ -659,10 +664,6 @@ def main():
                 info["error"] = str(ex)[:160]
                 log("fout", name, ex)
         info["state"] = "klaar" if info["have"] >= info["need"] else info["state"]
-    try:
-        streams_work(beat, state)
-    except Exception as ex:
-        log("streams:", ex)
     newly_none = set(no_video) - set(old.get("no_video") or [])
     if uploaded or newly_none:      # new video, or clips that no longer need to wait: make them now
         gh("/actions/workflows/clips.yml/dispatches", "POST", {"ref": "main"})
