@@ -1,14 +1,18 @@
 {
- "phase": "model",
- "episode": null,
+ "phase": "download",
+ "episode": "da5d8825120e",
  "todo": [
   "da5d8825120e"
  ],
- "pct": null,
- "updated": "2026-11-16T17:05:54.425684+00:00",
+ "pct": 0.0,
+ "updated": "2026-11-16T17:05:56.581992+00:00",
  "started": "2026-11-16T17:05:48.941924+00:00",
  "run": "43914052385",
  "titles": {
   "da5d8825120e": "Conor Shanahan"
- }
+ },
+ "title": "Conor Shanahan",
+ "podcast": "The Outerzone",
+ "index": 0,
+ "episode_started": "2026-11-16T17:05:56.581977+00:00"
 }
