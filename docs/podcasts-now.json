@@ -1,9 +1,14 @@
 {
- "phase": "search",
+ "phase": "model",
  "episode": null,
- "todo": [],
+ "todo": [
+  "da5d8825120e"
+ ],
  "pct": null,
- "updated": "2026-11-16T17:05:48.941924+00:00",
+ "updated": "2026-11-16T17:05:54.425684+00:00",
  "started": "2026-11-16T17:05:48.941924+00:00",
- "run": "43914052385"
+ "run": "43914052385",
+ "titles": {
+  "da5d8825120e": "Conor Shanahan"
+ }
 }
