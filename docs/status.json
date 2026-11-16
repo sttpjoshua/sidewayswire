@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:04:38.612930+00:00",
+ "updated": "2026-11-16T17:48:41.089377+00:00",
  "counts": {
   "draft": 1
  },
@@ -1368,37 +1368,37 @@
     "title": "The Outerzone - The Official Podcast of Formula DRIFT",
     "episodes": 187,
     "error": null,
-    "ok": "2026-11-16T16:58:08.567800+00:00"
+    "ok": "2026-11-16T17:17:17.641830+00:00"
    },
    "Drift Games Podcast": {
     "title": "The Drift Games Podcast",
     "episodes": 17,
     "error": null,
-    "ok": "2026-11-16T16:58:08.645102+00:00"
+    "ok": "2026-11-16T17:17:17.792853+00:00"
    },
    "The Goodest Cast": {
     "title": "The Goodest Cast - Hangout with the Drift Community",
     "episodes": 91,
     "error": null,
-    "ok": "2026-11-16T16:58:08.853928+00:00"
+    "ok": "2026-11-16T17:17:18.002736+00:00"
    },
    "The SileightyMania Podcast": {
     "title": "The SileightyMania Podcast - Drifting Interviews with OGs and Pioneers",
     "episodes": 45,
     "error": null,
-    "ok": "2026-11-16T16:58:09.162483+00:00"
+    "ok": "2026-11-16T17:17:18.417182+00:00"
    },
    "The Creative Drive": {
     "title": "The Creative Drive",
     "episodes": 53,
     "error": null,
-    "ok": "2026-11-16T16:58:09.308833+00:00"
+    "ok": "2026-11-16T17:17:18.602919+00:00"
    },
    "Behind The Wheel": {
     "title": "Konig - Behind The Wheel Podcast",
     "episodes": 377,
     "error": null,
-    "ok": "2026-11-16T16:58:11.018042+00:00"
+    "ok": "2026-11-16T17:17:19.656995+00:00"
    }
   },
   "episodes": [
@@ -1414,6 +1414,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a7/0c/74/a70c7493-b527-8e57-4d9a-66289bee3149/mza_11283234578231533487.jpg/600x600bb.jpg",
     "seconds": 2984.7,
     "error": null,
+    "transcribed": "2026-11-16T16:15:22.956413+00:00",
+    "tries": null,
     "has_transcript": true,
     "moments": [
      {
@@ -1442,6 +1444,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/23/d9/d323d9ce-6a71-f82c-f351-08a5a9b1cc48/mza_11909884082285098392.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1457,6 +1461,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
     "seconds": 3997.3,
     "error": null,
+    "transcribed": "2026-11-16T17:04:38.296861+00:00",
+    "tries": 0,
     "has_transcript": true,
     "moments": []
    },
@@ -1465,14 +1471,16 @@
     "podcast": "The Outerzone",
     "title": "Chelsea DeNofa",
     "published": "2026-11-04T05:03:00+00:00",
-    "status": "new",
+    "status": "transcribed",
     "youtube": null,
     "audio": "https://mcdn.podbean.com/mf/web/diqekvkiu7urkg5f/Denofa_Ads7ijo1.mp3",
     "link": "https://FormulaDRIFT.podbean.com/e/chelsea-denofa-1793759421/",
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
-    "seconds": null,
+    "seconds": 8526.7,
     "error": null,
-    "has_transcript": false,
+    "transcribed": "2026-11-16T17:37:02.678565+00:00",
+    "tries": null,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -1487,6 +1495,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/23/d9/d323d9ce-6a71-f82c-f351-08a5a9b1cc48/mza_11909884082285098392.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1502,6 +1512,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/a5/f3/c0/a5f3c05c-bc14-6845-0d55-c2bb06c45213/mza_17126119239162388698.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1517,6 +1529,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1525,14 +1539,16 @@
     "podcast": "The Outerzone",
     "title": "Tommy Lemaire",
     "published": "2026-10-21T04:02:00+00:00",
-    "status": "new",
+    "status": "transcribed",
     "youtube": null,
     "audio": "https://mcdn.podbean.com/mf/web/mypd9jhujhejcexz/TLO_Adsbefpp.mp3",
     "link": "https://FormulaDRIFT.podbean.com/e/tommy-lemaire-1792547843/",
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
-    "seconds": null,
+    "seconds": 5589.6,
     "error": null,
-    "has_transcript": false,
+    "transcribed": "2026-11-16T17:48:39.151799+00:00",
+    "tries": null,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -1547,6 +1563,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/23/d9/d323d9ce-6a71-f82c-f351-08a5a9b1cc48/mza_11909884082285098392.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1562,6 +1580,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1577,6 +1597,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1592,6 +1614,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/23/d9/d323d9ce-6a71-f82c-f351-08a5a9b1cc48/mza_11909884082285098392.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1607,6 +1631,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1622,6 +1648,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    },
@@ -1637,6 +1665,8 @@
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
     "seconds": null,
     "error": null,
+    "transcribed": null,
+    "tries": null,
     "has_transcript": false,
     "moments": []
    }
