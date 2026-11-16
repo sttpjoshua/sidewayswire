@@ -142,6 +142,8 @@ def run(limit: int = 120) -> dict:
             tasks.append((mf, ep, tf, i, m, post, name, upgrade))
     for mf, moments in files.items():
         mf.write_text(json.dumps(moments, indent=1, ensure_ascii=False))
+    # Order: Joshua's own edits first, then clips that already existed (new design), then new clips
+    tasks.sort(key=lambda t: (t[4].get("by") != "joshua", not t[7], t[4].get("status") != "queued"))
 
     # 2. Make them, with progress and a save every few clips
     transcripts, t_start = {}, time.time()
