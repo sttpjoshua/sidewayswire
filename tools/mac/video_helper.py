@@ -33,7 +33,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "9"
+VERSION = "10"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -405,8 +405,9 @@ def streams_work(beat) -> None:
             mac = {"youtube": s["youtube"], "status": "transcribing", "note": "video vastgelegd in het register"}
         if mac.get("status") == "transcribed":
             continue
-        if mac.get("status") == "error" and time.time() - mac.get("at", 0) < 6 * 3600:
-            continue
+        if (mac.get("status") == "error" and mac.get("version") == VERSION
+                and time.time() - mac.get("at", 0) < 6 * 3600):
+            continue                           # same helper failed recently; a new version tries again at once
         try:
             if not mac.get("youtube"):
                 beat(f"{s['series']}: {s['title']}: zoekt de replay op YouTube", force=True)
@@ -420,7 +421,7 @@ def streams_work(beat) -> None:
                 d = _ytdlp_lines(["--print", "%(duration)s\t%(title)s", f"https://www.youtube.com/watch?v={mac['youtube']}"])
                 if d and "\t" in d[0]:
                     mac.update(seconds=float(d[0].split("\t")[0] or 0), found_title=d[0].split("\t", 1)[1])
-                log(f"{s['id']}: replay gevonden: {pick['title']} ({pick['seconds'] / 3600:.1f} uur)")
+            log(f"{s['id']}: replay: {mac.get('found_title')} ({(mac.get('seconds') or 0) / 3600:.1f} uur)")
             _put(mpath, json.dumps(mac, indent=1).encode(), f"mac: stream {s['id']} {mac['youtube']}")
             beat(f"{s['series']}: {s['title']}: haalt het geluid op en transcribeert (ongeveer een kwartier)", force=True)
             t = transcribe_stream(s, mac["youtube"])
@@ -438,7 +439,7 @@ def streams_work(beat) -> None:
             _put(mpath, json.dumps(mac, indent=1).encode(), f"mac: transcribed {s['id']}")
             log(f"{s['id']}: transcript klaar, {len(t['segments'])} regels")
         except Exception as ex:
-            mac.update(status="error", error=str(ex)[:300], at=time.time())
+            mac.update(status="error", error=str(ex)[:300], at=time.time(), version=VERSION)
             try:
                 _put(mpath, json.dumps(mac, indent=1).encode(), f"mac: error {s['id']}")
             except Exception:
