@@ -1,11 +1,18 @@
 {
  "id": "pod-da5d8825120e-5",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
- "title": "COULD HIRO RACE A US RALLY NEXT YEAR?",
+ "title": "COULD HIROYA MINOWA RACE A US RALLY?",
  "video": "docs/media/pod-da5d8825120e-5/clip.mp4",
  "caption": "Said on The Outerzone: Conor Shanahan thinks we could see Hiroya Minowa at a US rally round next year. Not confirmed. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #hiroyaminowa #drifting #driftnews #sidewayswire",
+ "tags": [
+  "@conorshanahan79",
+  "@hiroya.minowa",
+  "@formulad",
+  "@jako13"
+ ],
+ "missing_handles": [],
  "credit": "@formulad",
  "check": true,
  "check_reason": "gerucht uit een podcast",
@@ -21,16 +28,5 @@
   "start": 745
  },
  "created": "2026-11-16T17:57:06.794246+00:00",
- "built": "2026-11-16T21:56:41.579036+00:00",
- "tags": [
-  "@conorshanahan79",
-  "@hiroya.minowa",
-  "@formulad",
-  "@jako13"
- ],
- "missing_handles": [],
- "media": [
-  "docs/media/pod-da5d8825120e-5/clip.mp4"
- ],
- "problems": []
+ "built": "2026-11-16T23:44:08.365558+00:00"
 }

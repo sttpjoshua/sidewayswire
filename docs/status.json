@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T23:41:46.899488+00:00",
+ "updated": "2026-11-16T23:44:08.368626+00:00",
  "counts": {
-  "check": 13,
-  "ready": 32,
-  "draft": 27
+  "check": 11,
+  "ready": 31,
+  "draft": 30
  },
  "collected": "2026-11-16T21:56:31.745374+00:00",
  "instagram": false,
@@ -1605,10 +1605,10 @@
       "topic": "\"HE WAS GOING TO BE AN FD CHAMPION\"",
       "quote": "we all know that here, but I was going to be an FT champion, right? Like, yeah, I think, I think that's a foregone conclusion to be honest. Yeah. So I think like it's in Jerry's point of view, like he worked hard with that kid, the hero worked hard and I felt like he was maybe the last shot was took away from a little bit. So I'm like happy that, you know, you know, hero is such a good ...",
       "why": "Conor zegt dat Hiroya Minowa een zekere toekomstige FD-kampioen was voordat hij naar rally ging.",
-      "status": "new",
+      "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-4/clip.mp4",
       "mode": "video",
-      "wait_video": "2026-11-16T22:03:15.954494+00:00"
+      "wait_video": null
      },
      {
       "start": 745,
@@ -1618,10 +1618,10 @@
       "topic": "COULD HIROYA MINOWA RACE A US RALLY?",
       "quote": "Yeah. Yeah. It's, it's tough to see him step away into rally. And, but at the same time, like it looks like he's doing well there. I have a very strong feeling. We're going to see him climb the ranks of, of rally very soon, which might be very, which could be cool. Cause they're going to have around in the U S next year. So like the chance, there is a chance we might be able to see him ...",
       "why": "Speculatie dat Hiroya Minowa volgend jaar een Amerikaanse rallyronde rijdt. Gerucht, gaat naar Joshua.",
-      "status": "new",
+      "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-5/clip.mp4",
       "mode": "video",
-      "wait_video": "2026-11-16T22:03:15.954494+00:00"
+      "wait_video": null
      },
      {
       "start": 838.7,
@@ -2958,45 +2958,6 @@
  },
  "posts": [
   {
-   "id": "pod-da5d8825120e-18",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-24T21:56:41.575766+00:00",
-   "posted_at": null,
-   "caption": "A message from the 2026 Formula DRIFT champion to the haters. 😅\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-18/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 3892.68
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:58:29.950481+00:00",
-   "built": "2026-11-16T21:56:41.575932+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-18/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "\"KEEP HATING ME, PLEASE\""
-  },
-  {
    "id": "pod-6892a8b1e411-9",
    "kind": "podcast_clip",
    "status": "ready",
@@ -4167,6 +4128,119 @@
    "title": "\"THEY ALL BLOW UP\""
   },
   {
+   "id": "pod-da5d8825120e-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: Conor Shanahan thinks we could see Hiroya Minowa at a US rally round next year. Not confirmed. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #hiroyaminowa #drifting #driftnews #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 745
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T23:44:08.365558+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-5/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@hiroya.minowa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "COULD HIROYA MINOWA RACE A US RALLY?"
+  },
+  {
+   "id": "pod-da5d8825120e-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan on his would-be teammate Hiroya Minowa: \"we all know he was going to be an FD champion.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #hiroyaminowa #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 693.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T17:57:06.794246+00:00",
+   "built": "2026-11-16T23:43:11.264743+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-4/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@hiroya.minowa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"HE WAS GOING TO BE AN FD CHAMPION\""
+  },
+  {
+   "id": "pod-da5d8825120e-18",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A message from the 2026 Formula DRIFT champion to the haters. 😅\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3892.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:58:29.950481+00:00",
+   "built": "2026-11-16T23:42:31.465610+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-18/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"KEEP HATING ME, PLEASE\""
+  },
+  {
    "id": "pod-da5d8825120e-17",
    "kind": "podcast_clip",
    "status": "draft",
@@ -5208,86 +5282,6 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND"
-  },
-  {
-   "id": "pod-da5d8825120e-5",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Conor Shanahan thinks we could see Hiroya Minowa at a US rally round next year. Not confirmed. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #hiroyaminowa #drifting #driftnews #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 745
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": "2026-11-16T21:56:41.579036+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-5/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@hiroya.minowa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "COULD HIRO RACE A US RALLY NEXT YEAR?"
-  },
-  {
-   "id": "pod-da5d8825120e-4",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Conor Shanahan on his would-be teammate Hiroya Minowa: \"we all know he was going to be an FD champion.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #hiroyaminowa #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 693.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": "2026-11-16T21:56:41.578920+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-4/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@hiroya.minowa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "\"HE WAS GOING TO BE AN FD CHAMPION\""
   },
   {
    "id": "pod-6892a8b1e411-7",
