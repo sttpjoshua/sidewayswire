@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T23:31:11.635798+00:00",
+ "updated": "2026-11-16T23:34:11.743381+00:00",
  "counts": {
-  "check": 17,
-  "ready": 40,
-  "draft": 15
+  "check": 16,
+  "ready": 37,
+  "draft": 19
  },
  "collected": "2026-11-16T21:56:31.745374+00:00",
  "instagram": false,
@@ -2958,123 +2958,6 @@
  },
  "posts": [
   {
-   "id": "pod-da5d8825120e-9",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-24T21:56:41.583352+00:00",
-   "posted_at": null,
-   "caption": "Ever seen Conor Shanahan do a practice run that isn't on the limit? That's him and his spotter practising their number system.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 1250
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:53:19.058690+00:00",
-   "built": "2026-11-16T21:56:41.583536+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-9/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "THE SECRET NUMBER SYSTEM"
-  },
-  {
-   "id": "pod-da5d8825120e-7",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-24T21:56:41.581742+00:00",
-   "posted_at": null,
-   "caption": "Conor Shanahan has one phrase he can't stand in drifting: \"we almost had you.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-7/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 1424.86
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:52:26.221962+00:00",
-   "built": "2026-11-16T21:56:41.581914+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-7/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "\"ALMOST HAD YOU? BUT YOU DIDN'T\""
-  },
-  {
-   "id": "pod-da5d8825120e-6",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-24T21:56:41.580333+00:00",
-   "posted_at": null,
-   "caption": "\"You can't drive how you want in competition.\" Conor Shanahan's answer: that's the whole point. Agree?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-6/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 838.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:52:01.806353+00:00",
-   "built": "2026-11-16T21:56:41.580504+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-6/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "\"YOU DRIVE HOW THE JUDGES TELL YOU\""
-  },
-  {
    "id": "pod-da5d8825120e-18",
    "kind": "podcast_clip",
    "status": "ready",
@@ -4480,6 +4363,154 @@
    "title": "\"THEY ALL BLOW UP\""
   },
   {
+   "id": "pod-da5d8825120e-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ever seen Conor Shanahan do a practice run that isn't on the limit? That's him and his spotter practising their number system.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1250
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:53:19.058690+00:00",
+   "built": "2026-11-16T23:34:11.740567+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-9/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "THE SECRET NUMBER SYSTEM"
+  },
+  {
+   "id": "pod-da5d8825120e-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1132.48
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:52:49.309223+00:00",
+   "built": "2026-11-16T23:33:22.673280+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-8/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT"
+  },
+  {
+   "id": "pod-da5d8825120e-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan has one phrase he can't stand in drifting: \"we almost had you.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1424.86
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:52:26.221962+00:00",
+   "built": "2026-11-16T23:32:50.852655+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-7/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"ALMOST HAD YOU? BUT YOU DIDN'T\""
+  },
+  {
+   "id": "pod-da5d8825120e-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "\"You can't drive how you want in competition.\" Conor Shanahan's answer: that's the whole point. Agree?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 838.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:52:01.806353+00:00",
+   "built": "2026-11-16T23:32:11.790151+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-6/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"YOU DRIVE HOW THE JUDGES TELL YOU\""
+  },
+  {
    "id": "pod-da5d8825120e-3",
    "kind": "podcast_clip",
    "status": "draft",
@@ -5075,45 +5106,6 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND"
-  },
-  {
-   "id": "pod-da5d8825120e-8",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 1132.48
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:52:49.309223+00:00",
-   "built": "2026-11-16T21:56:41.582019+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-8/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT"
   },
   {
    "id": "pod-da5d8825120e-5",

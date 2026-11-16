@@ -1,11 +1,17 @@
 {
  "id": "pod-da5d8825120e-7",
  "kind": "podcast_clip",
- "status": "ready",
+ "status": "draft",
  "slides": [],
  "title": "\"ALMOST HAD YOU? BUT YOU DIDN'T\"",
  "video": "docs/media/pod-da5d8825120e-7/clip.mp4",
  "caption": "Conor Shanahan has one phrase he can't stand in drifting: \"we almost had you.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+ "tags": [
+  "@conorshanahan79",
+  "@formulad",
+  "@jako13"
+ ],
+ "missing_handles": [],
  "credit": "@formulad",
  "check": false,
  "check_reason": "",
@@ -21,16 +27,5 @@
   "start": 1424.86
  },
  "created": "2026-11-16T19:52:26.221962+00:00",
- "built": "2026-11-16T21:56:41.581914+00:00",
- "tags": [
-  "@conorshanahan79",
-  "@formulad",
-  "@jako13"
- ],
- "missing_handles": [],
- "media": [
-  "docs/media/pod-da5d8825120e-7/clip.mp4"
- ],
- "problems": [],
- "post_at": "2026-11-24T21:56:41.581742+00:00"
+ "built": "2026-11-16T23:32:50.852655+00:00"
 }

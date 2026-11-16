@@ -1,11 +1,17 @@
 {
  "id": "pod-da5d8825120e-8",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
  "video": "docs/media/pod-da5d8825120e-8/clip.mp4",
  "caption": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+ "tags": [
+  "@conorshanahan79",
+  "@formulad",
+  "@jako13"
+ ],
+ "missing_handles": [],
  "credit": "@formulad",
  "check": true,
  "check_reason": "namen nakijken",
@@ -21,15 +27,5 @@
   "start": 1132.48
  },
  "created": "2026-11-16T19:52:49.309223+00:00",
- "built": "2026-11-16T21:56:41.582019+00:00",
- "tags": [
-  "@conorshanahan79",
-  "@formulad",
-  "@jako13"
- ],
- "missing_handles": [],
- "media": [
-  "docs/media/pod-da5d8825120e-8/clip.mp4"
- ],
- "problems": []
+ "built": "2026-11-16T23:33:22.673280+00:00"
 }
