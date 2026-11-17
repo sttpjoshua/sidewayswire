@@ -647,15 +647,20 @@ def main():
                     else:
                         # Check on the words: take a wider piece, listen to it, and find our moment in it.
                         # Podcast files with inserted ads differ per download, so the sound match alone can be off.
-                        wa, wb = max(0.0, a - 75), b + 75
-                        wide = Path(tmp) / "wide.mp4"
-                        if not download(ep["youtube"], wa, wb, wide):
-                            raise RuntimeError("download mislukt")
                         if ours is None:
                             ours = our_words(json.loads(gh(f"/contents/data/podcasts/t/{ep['id']}.json?ref=main", raw=True)))
-                        heard = heard_words(wide, wa)
-                        v1 = offset_at(ours, heard, m["start"])
-                        v2 = offset_at(ours, heard, max(m["end"] - 15, m["start"]))
+                        v1 = v2 = None
+                        for margin in (75, 300):       # sound match can be off by minutes (ads): look wider once
+                            wa, wb = max(0.0, a - margin), b + margin
+                            wide = Path(tmp) / f"wide{margin}.mp4"
+                            if not download(ep["youtube"], wa, wb, wide):
+                                raise RuntimeError("download mislukt")
+                            heard = heard_words(wide, wa)
+                            v1 = offset_at(ours, heard, m["start"])
+                            v2 = offset_at(ours, heard, max(m["end"] - 15, m["start"]))
+                            if v1 is not None or v2 is not None:
+                                break
+                            log(f"{name}: niet gevonden binnen {margin} s, ik kijk breder")
                         if v1 is None and v2 is None:
                             raise RuntimeError("moment niet teruggevonden in de video (tekstcontrole)")
                         o = v1 if v1 is not None else v2
