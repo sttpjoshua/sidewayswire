@@ -82,7 +82,7 @@
   "check": true,
   "check_reason": "Group conversation; speaker of each line not certain.",
   "caption": "A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it. #FormulaDRIFT #LongBeach #TireSmoke",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 274.66,
@@ -91,7 +91,11 @@
    "why": "grap, nieuwsgierig naar de clou"
   },
   "wait_name": "v2-5687ca1c5a65-2-2464-2813.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 276.2, \"start\": 274.66, \"text\": \"WHAT MAKES THEM GIGGLE EVERY TIME?\", \"why\": \"grap, nieuwsgierig naar de clou\"}",
+  "made": "2026-11-17T14:50:22.776961+00:00"
  },
  {
   "start": 331.96,
@@ -109,7 +113,7 @@
   "check": true,
   "check_reason": "Event and place names garbled by speech recognition (IDS, Oman); confirm before naming them in text.",
   "caption": "Season over? Not for Jack Shanahan. Week after week of events before he even thinks about a break. #FormulaDRIFT #JackShanahan #Drift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 342.56,
@@ -118,7 +122,11 @@
    "why": "reeks landen, maakt nieuwsgierig"
   },
   "wait_name": "v2-5687ca1c5a65-3-3320-3929.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 345.14, \"start\": 342.56, \"text\": \"WHERE IS JACK GOING NEXT?\", \"why\": \"reeks landen, maakt nieuwsgierig\"}",
+  "made": "2026-11-17T14:51:36.925339+00:00"
  },
  {
   "start": 456.42,
@@ -137,7 +145,7 @@
   "check": true,
   "check_reason": "Career break topic; confirm wording against Adam LZ's own announcement.",
   "caption": "Adam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance. #FormulaDRIFT #AdamLZ #LongBeach",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 478.7,
@@ -146,7 +154,11 @@
    "why": "belofte van onthulling"
   },
   "wait_name": "v2-5687ca1c5a65-4-4564-5014.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 480.54, \"start\": 478.7, \"text\": \"WHY DID ADAM WAIT ALL YEAR?\", \"why\": \"belofte van onthulling\"}",
+  "made": "2026-11-17T14:52:33.423258+00:00"
  },
  {
   "start": 601.76,
@@ -165,7 +177,7 @@
   "check": true,
   "check_reason": "Rumor: plans only hinted, nothing confirmed.",
   "caption": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet. #FormulaDRIFT #AdamLZ #Rumor",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 628.3,
@@ -174,7 +186,11 @@
    "why": "teaser zonder plan te verklappen"
   },
   "wait_name": "v2-5687ca1c5a65-5-6018-6369.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 630.48, \"start\": 628.3, \"text\": \"BOOST TURNED ALL THE WAY UP?\", \"why\": \"teaser zonder plan te verklappen\"}",
+  "made": "2026-11-17T14:53:19.826452+00:00"
  },
  {
   "start": 668.48,

@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:49:33.710767+00:00",
+ "updated": "2026-11-17T14:53:19.833313+00:00",
  "counts": {
   "ready": 103,
   "check": 27,
   "posted": 3,
-  "draft": 31
+  "draft": 35
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -2761,10 +2761,10 @@
       "topic": "NO SMOKING AT A DRIFT EVENT",
       "quote": "Maybe next year, if we come back here and it's a really still day, no wind, they need to maybe put a banner between that outside zone fight, like a big flag banner. Let the smoke come all the way up. I like the wall, like one of the barriers for the wall. They put a barrier there and a big banner, like FD. Yeah, it helps. Stop the smoke. No smoking here. It is up in the tower in the booth. There's no smoking signs everywhere and it's just like, it makes me giggle every time I see it. It's a big plume comes in like, right, yeah, no smoking.",
       "why": "The podium jokes about the no smoking signs in a tower full of tire smoke, and pitches a smoke banner.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-2/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2775,10 +2775,10 @@
       "topic": "JACK'S NO-BREAK OFF SEASON",
       "quote": "My off season doesn't start until December. Yeah, you have some stuff on the go. I had no further China for some stuff. Quite busy. Next weekend we go to IDS. I'm a running car there, so I'll be working as a mechanic. Oh, cool. And then the week after we go to China. Then the week after we go to Japan. Week after we go to Cyprus. And then the week after that we do a rally. And then the week after that I might take over your holidays. You should. Yeah, you should. And then we're on the off for the first or only after three weeks in December. And then we go straight to Oman, Virginia again. It's just all go, to be honest. But look, MayK is the sun shines, you know? So that's kind of where we're at. Just keep going. I like the little grin Adam kind of was throwing on there with like hearing that busy schedule and kind of knowing you're like, I'm starting to pull away a little bit. Like that sounds crazy. It's a lot, but I mean, look, if you want to be the best driver, you drive as much as you can. Yeah, exactly. Yeah, that's kind of where I'm at. I'm just like, you know, all the events that I'm offered to do, I'm like, I may as well go and just build experience of different drivers, different tracks and just keep getting better, you know?",
       "why": "Jack Shanahan lists a packed off season: IDS, China, Japan, Cyprus, a rally and more.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-3/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2789,10 +2789,10 @@
       "topic": "ADAM LZ PLANNED HIS PODIUM GOODBYE",
       "quote": "Adam, obviously you announced, taking a step back for a bit. I do love that you put in like, I am coming back. I just need this break. Can I ask when that moment happened where you said, hey, this is... I got to do something else? Yeah, that's a good question. Probably earlier this year. But I was like, I was dead set. I was like, I'm not going to... I don't want to do it like right before next season, right? I was like, it's got to be on the podium. And this is like, this is the last chance I had at that. Adam said it to me earlier. He's like, I don't know, top 16 or something. And I said, are you coming back next year and you told me and you said, yeah, I'm going to announce it on the podium. And I just wished him that. That is fucking cool. I like that. I like that. He did it.",
       "why": "Adam LZ reveals he wanted to announce his step back only from the podium, and Jack knew in advance.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-4/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2803,10 +2803,10 @@
       "topic": "ADAM LZ'S PRO CAR: NEW PLANS?",
       "quote": "Question that I guess about the car. Are you just going to park the pro car or just turn into a party car at this point? I've got some plans for it. Like non -drift related plans. It was like fun ideas that I've never done because I'm always like I can't hurt the car because of the race season. So like I don't want to spoil too much. But it's like a couple of them will happen in the next couple months. So I'm excited. The car made it back in one piece. That's great. So I'm guessing you're turning the boost all the way up. You're gripping it up to the max. Oh no, better than that. Really? Yeah. Different disciplines of motorsport.",
       "why": "Adam LZ teases non-drift plans for his Pro car during his break.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-5/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-5687ca1c5a65-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #Rumor #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 601.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:53:19.827454+00:00",
+   "built": "2026-11-17T14:53:19.827461+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-5/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@jamesdeane130",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ADAM LZ'S PRO CAR: NEW PLANS?"
+  },
+  {
+   "id": "pod-5687ca1c5a65-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #LongBeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 456.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:52:33.424357+00:00",
+   "built": "2026-11-17T14:52:33.424367+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-4/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@jackshanahan59",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ADAM LZ PLANNED HIS PODIUM GOODBYE"
+  },
+  {
+   "id": "pod-5687ca1c5a65-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Season over? Not for Jack Shanahan. Week after week of events before he even thinks about a break.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #Drift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 331.96
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:51:36.926400+00:00",
+   "built": "2026-11-17T14:51:36.926407+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-3/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK'S NO-BREAK OFF SEASON"
+  },
+  {
+   "id": "pod-5687ca1c5a65-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #LongBeach #TireSmoke #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 246.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:50:22.777911+00:00",
+   "built": "2026-11-17T14:50:22.777917+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-2/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@adam_lz",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "NO SMOKING AT A DRIFT EVENT"
   },
   {
    "id": "pod-5687ca1c5a65-1",
