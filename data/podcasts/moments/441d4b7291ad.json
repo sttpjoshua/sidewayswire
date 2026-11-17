@@ -334,7 +334,7 @@
   },
   "wait_name": "v2-441d4b7291ad-10-7172-7438.mp4",
   "wait_video": "2026-11-17T09:35:27.125774+00:00",
-  "error": "[aost#0:1/aac @ 0x57d7c61a3100] [enc:aac @ 0x57d7c61a4c00] Could not open encoder before EOF\n[aost#0:1/aac @ 0x57d7c61a3100] Task finished with error code: -22 (Invalid argument)\n[aost#0:1/aac @ 0x57d",
-  "tries": 2
+  "error": "[aost#0:1/aac @ 0x5d4e257fe100] [enc:aac @ 0x5d4e257ffc00] Could not open encoder before EOF\n[aost#0:1/aac @ 0x5d4e257fe100] Task finished with error code: -22 (Invalid argument)\n[aost#0:1/aac @ 0x5d4",
+  "tries": 3
  }
 ]
