@@ -168,7 +168,7 @@
   "check": true,
   "check_reason": "Speaker not certain (Kasey Kohl assumed).",
   "caption": "Smoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC. #FormulaDRIFT #PROSPEC #FDLV",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 296.8,
@@ -177,7 +177,11 @@
    "why": "spannend, beeldend"
   },
   "wait_name": "v2-441d4b7291ad-5-2842-3133.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 299.12, \"start\": 296.8, \"text\": \"WHAT DO YOU DO WHEN SMOKED OUT?\", \"why\": \"spannend, beeldend\"}",
+  "made": "2026-11-17T14:43:13.773766+00:00"
  },
  {
   "start": 373.28,
@@ -196,7 +200,7 @@
   "check": true,
   "check_reason": "Rumor: future plans unclear, nothing announced.",
   "caption": "He just won in Vegas, but Braden Lons has 'not a clue' about next year, said on The Outerzone. #FormulaDRIFT #PROSPEC #BradenLons #Rumor",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 395.8,
@@ -205,7 +209,11 @@
    "why": "spanning over toekomst"
   },
   "wait_name": "v2-441d4b7291ad-6-3733-4121.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 397.94, \"start\": 395.8, \"text\": \"IS THE VEGAS WINNER COMING BACK?\", \"why\": \"spanning over toekomst\"}",
+  "made": "2026-11-17T14:44:09.801033+00:00"
  },
  {
   "start": 482.04,
@@ -225,7 +233,7 @@
   "check": true,
   "check_reason": "Speakers not certain; details of Brian Wills' front end not confirmed.",
   "caption": "Brian Wills turned heads with that front end. The S chassis guys on the PROSPEC podium give their hot takes. #FormulaDRIFT #PROSPEC #BrianWills",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 490.32,
@@ -234,7 +242,11 @@
    "why": "mening, discussie"
   },
   "wait_name": "v2-441d4b7291ad-7-4820-5312.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 492.22, \"start\": 490.32, \"text\": \"HOT TAKE ON BRIAN'S CAR?\", \"why\": \"mening, discussie\"}",
+  "made": "2026-11-17T14:45:14.150799+00:00"
  },
  {
   "start": 566.76,
@@ -251,7 +263,7 @@
   "check": true,
   "check_reason": "Rule number ('7.1') and 'Kevin' not verified; speakers not certain.",
   "caption": "An OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook? #FormulaDRIFT #PROSPEC #BrianWills",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 575.56,
@@ -260,7 +272,11 @@
    "why": "regels, discussie"
   },
   "wait_name": "v2-441d4b7291ad-8-5668-6178.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 578.94, \"start\": 575.56, \"text\": \"WHAT DOES THE RULE ACTUALLY SAY?\", \"why\": \"regels, discussie\"}",
+  "made": "2026-11-17T14:46:25.084179+00:00"
  },
  {
   "start": 622.58,

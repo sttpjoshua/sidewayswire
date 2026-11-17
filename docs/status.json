@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:42:23.645845+00:00",
+ "updated": "2026-11-17T14:46:25.091091+00:00",
  "counts": {
   "ready": 103,
   "check": 27,
   "posted": 3,
-  "draft": 24
+  "draft": 28
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -4720,10 +4720,10 @@
       "topic": "CHUCK IT THROUGH THE SMOKE",
       "quote": "So like if there's enters, they just got to be placed right. But all outers was it was sick because you just you just chuck it in. Like I'm behind him and I'm smoked out. I'm behind you and I'm smoked out. And it's like I know they're going to be flat footed. So like you just chuck it through the smoke and, you know, as soon as it clears, you decide am I am I grabbing a handful of handbrake or, you know, the throttle is already up. The clutch is in and it's it's hand sitting here and it's which one am I pulling this one or am I letting this one out? You know, so it's it's it's sick. It's it's it's a riot though.",
       "why": "A driver describes chasing blind through the smoke and choosing handbrake or throttle when it clears.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-5/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4734,10 +4734,10 @@
       "topic": "BRADEN LONS: BACK NEXT YEAR?",
       "quote": "If you've even thought about what next year looks like, it's obviously like a big question. We can work down the line. Rookie year. Great work. I mean, we're coming back. Okay, good. You're making sure. Yeah, I'm not going to do a one and done. Okay. You got business to take care of still. Oh yeah. Yeah. We're going to make it work for next year. Yeah. Braden, big question. I love this place. It's awesome. Yeah, definitely. Yeah, I really have not a clue. I mean, it just has so much work that goes into it. And it's just like, it's hard on everybody. And it's like mentally draining and late nights, early mornings, is really draining. And it's super difficult. So yeah, we'll leave that one on a question.",
       "why": "Round winner Braden Lons will not say if he is back next year, calling the program mentally draining.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-6/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4748,10 +4748,10 @@
       "topic": "BRIAN WILLS' BMW: HOT TAKE",
       "quote": "Brian Wills was trying. He was like, you know, he had that front end on there. Okay, okay. Hot take. What do you think of that? I love that it got him some attention. Okay. I, it's a little bit of a stretch for me. I don't think it looks awful, but it's, I wouldn't do it. No, that's fair. There's lots. I think it actually kind of flows okay. Yeah. It doesn't look bad. Like the proportions and stuff are good. The amount of people that probably walked by and had no idea. Yeah. Is insane. Like even when it got posted on the internet, like I saw him come out of the pits. I was like, has he always been in the BMW? And then like a psychopath is like, oh my. He sent me pictures when he didn't have the wrap on it. And I was like, what are you doing? What are you doing? What about you guys sacrilegious? Download it. I'm an s chassis guy.",
       "why": "The podium gives hot takes on Brian Wills' BMW with a different front end.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-7/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4762,10 +4762,10 @@
       "topic": "A MIDDLE FINGER TO THE RULES?",
       "quote": "I mean, it's it was kind of like a bit of a middle finger to what is it? Rules 7 .1 or something like that. Like needs to be changed. Yeah, exactly. But I mean, if you read it, it says it has to maintain an OEM look. It did. It is an OEM look up front like you know, Kevin's in there with like a higher. I know. Never again. Never again. I was I was waiting for Kevin to come to the pits and be like, I hope you brought your other front end. Brian did bring his other front end. Oh, yeah, the whole thing. I think I think Kevin's getting a little soft in his love. You know, in his time. I love that. Yeah, it's good. Yeah, good. Put some over a little bit. I think it's more is just like, do I care that much to make a deal? Yes. Do I want to do the paperwork? Right. Right. Like just over time, that's how it becomes giving warnings instead of speeding tickets. Now, that's that's it's like, you know, it's Friday. I'm going to clock out soon. Like I'm just going to give you a warning.",
       "why": "Was Brian Wills' front end a protest against the OEM look rule? The podium thinks so.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-8/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,161 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-441d4b7291ad-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "An OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #BrianWills #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 566.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:46:25.085261+00:00",
+   "built": "2026-11-17T14:46:25.085271+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-8/clip.mp4",
+   "tags": [
+    "@nh_fab",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "A MIDDLE FINGER TO THE RULES?"
+  },
+  {
+   "id": "pod-441d4b7291ad-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brian Wills turned heads with that front end. The S chassis guys on the PROSPEC podium give their hot takes.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @braden.lons @mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #BrianWills #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 482.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:45:14.151760+00:00",
+   "built": "2026-11-17T14:45:14.151764+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-7/clip.mp4",
+   "tags": [
+    "@nh_fab",
+    "@braden.lons",
+    "@mspekperformance",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BRIAN WILLS' BMW: HOT TAKE"
+  },
+  {
+   "id": "pod-441d4b7291ad-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "He just won in Vegas, but Braden Lons has 'not a clue' about next year, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @little_webbie16 @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #BradenLons #Rumor #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 373.28
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:44:09.801988+00:00",
+   "built": "2026-11-17T14:44:09.802014+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-6/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@little_webbie16",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BRADEN LONS: BACK NEXT YEAR?"
+  },
+  {
+   "id": "pod-441d4b7291ad-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Smoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 284.16
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:43:13.774775+00:00",
+   "built": "2026-11-17T14:43:13.774783+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-5/clip.mp4",
+   "tags": [
+    "@mspekperformance",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CHUCK IT THROUGH THE SMOKE"
   },
   {
    "id": "pod-441d4b7291ad-4",
