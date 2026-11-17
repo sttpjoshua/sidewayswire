@@ -1,0 +1,44 @@
+{
+ "id": "2026-11-17-car-park-drift-jeddah",
+ "kind": "news",
+ "story": "Red Bull Car Park Drift Jeddah",
+ "title": "RED BULL CAR PARK DRIFT RETURNS TO JEDDAH",
+ "slides": [
+  {
+   "template": "news_text.html",
+   "data": {
+    "series_badge": [
+     "RED BULL",
+     "CAR PARK DRIFT"
+    ],
+    "backdrop": "JEDDAH",
+    "backdrop_size": 420,
+    "kicker": "DEC 4-5 · NEW FORMAT",
+    "headline": [
+     "CAR PARK DRIFT",
+     "IS BACK IN",
+     "JEDDAH"
+    ],
+    "marker": "90 seconds",
+    "body": "After four years away, Red Bull Car Park Drift returns to the Jeddah Corniche Circuit. New format: 90 seconds, an open course, obstacles like the Pendulum, Spinner and Figure of 8, bonus for a 360, and the run ends with a stop in the Parking Box. The winner goes to the 2027 World Final in Baku.",
+    "source": "Red Bull"
+   }
+  }
+ ],
+ "caption": "Car Park Drift is back in Jeddah on December 4 and 5 with a new format: 90 seconds, pick your own line through the obstacles, park it in the box. Winner books a ticket to the 2027 World Final in Baku. 🅿️\n\n#redbullcarparkdrift #carparkdrift #jeddah #drifting #sidewayswire",
+ "platforms": [
+  "instagram",
+  "facebook"
+ ],
+ "people": [],
+ "tags": [],
+ "source": "https://www.redbull.com/mea-en/red-bull-car-park-drift-returns-to-jeddah-with-a-new-competition-format",
+ "check": true,
+ "status": "draft",
+ "created": "2026-11-17T14:12:26.167610+00:00",
+ "by": "editor",
+ "check_reason": "Red Bull-handle niet in sources.csv",
+ "missing_handles": [
+  "Red Bull Car Park Drift"
+ ]
+}
