@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T16:03:07.654636+00:00",
+ "updated": "2026-11-17T16:10:16.385929+00:00",
  "counts": {
-  "ready": 102,
-  "draft": 109,
+  "ready": 98,
+  "draft": 113,
   "check": 26,
   "posted": 3
  },
@@ -3090,7 +3090,7 @@
       "topic": "THE TITLE BATTLE, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
+      "status": "queued",
       "clip": "docs/media/pod-fd2026r8-12/clip.mp4",
       "mode": "split",
       "wait_video": null,
@@ -3104,7 +3104,7 @@
       "topic": "ADAM LZ VS DEREK MADISON",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
+      "status": "queued",
       "clip": "docs/media/pod-fd2026r8-13/clip.mp4",
       "mode": "split",
       "wait_video": null,
@@ -3118,7 +3118,7 @@
       "topic": "FIELD VS BEECHUM",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
+      "status": "queued",
       "clip": "docs/media/pod-fd2026r8-14/clip.mp4",
       "mode": "split",
       "wait_video": null,
@@ -3132,7 +3132,7 @@
       "topic": "LEMAIRE VS RICHARDS",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
+      "status": "queued",
       "clip": "docs/media/pod-fd2026r8-15/clip.mp4",
       "mode": "split",
       "wait_video": null,
@@ -8525,46 +8525,6 @@
    "title": "\"I WOULD DO IT AGAIN\""
   },
   {
-   "id": "pod-fd2026r8-15",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-04T19:30:00+00:00",
-   "posted_at": null,
-   "caption": "Tommy Lemaire vs rookie of the year Cole Richards in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 8941
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:42:47.205156+00:00",
-   "built": "2026-11-17T13:26:00.126933+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-15/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "LEMAIRE VS RICHARDS"
-  },
-  {
    "id": "pod-fd2026r8-2",
    "kind": "stream_clip",
    "status": "ready",
@@ -8717,46 +8677,6 @@
    "caption_by": null,
    "format": null,
    "title": "HE STARTED THE LEFT-FOOT TRICK"
-  },
-  {
-   "id": "pod-fd2026r8-14",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-03T19:30:00+00:00",
-   "posted_at": null,
-   "caption": "Matt Field vs Trenton Beechum, two V8s in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@mattfield777 @trenton_beechum @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 9163
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:41:43.030657+00:00",
-   "built": "2026-11-17T13:26:00.126740+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-14/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@trenton_beechum",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "FIELD VS BEECHUM"
   },
   {
    "id": "pod-fd2026r8-1",
@@ -8914,46 +8834,6 @@
    "title": "400 HP VS 1000 HP"
   },
   {
-   "id": "pod-fd2026r8-13",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-02T19:30:00+00:00",
-   "posted_at": null,
-   "caption": "Adam LZ vs Derek Madison in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@adam_lz @derek_madison @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-13/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 3287
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:40:39.758612+00:00",
-   "built": "2026-11-17T13:26:00.126556+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-13/clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@derek_madison",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "ADAM LZ VS DEREK MADISON"
-  },
-  {
    "id": "pod-fd2026r8-7",
    "kind": "stream_clip",
    "status": "ready",
@@ -9106,46 +8986,6 @@
    "title": "BOUGHT AS A BARE SHELL"
   },
   {
-   "id": "pod-fd2026r8-12",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-01T19:30:00+00:00",
-   "posted_at": null,
-   "caption": "The battle that decided the 2026 Formula DRIFT championship. Run 1 on top, run 2 below: who had the better lead, who had the better chase?\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 7789
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T08:01:13.503744+00:00",
-   "built": "2026-11-17T13:26:00.126334+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-12/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jcastroracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "THE TITLE BATTLE, SIDE BY SIDE"
-  },
-  {
    "id": "pod-fd2026r8-6",
    "kind": "stream_clip",
    "status": "ready",
@@ -9258,6 +9098,158 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-fd2026r8-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire vs rookie of the year Cole Richards in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8941
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:42:47.205156+00:00",
+   "built": "2026-11-17T16:10:16.378022+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-15/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "LEMAIRE VS RICHARDS"
+  },
+  {
+   "id": "pod-fd2026r8-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field vs Trenton Beechum, two V8s in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@mattfield777 @trenton_beechum @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 9163
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:41:43.030657+00:00",
+   "built": "2026-11-17T16:08:16.234771+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-14/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "FIELD VS BEECHUM"
+  },
+  {
+   "id": "pod-fd2026r8-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ vs Derek Madison in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@adam_lz @derek_madison @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 3287
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:40:39.758612+00:00",
+   "built": "2026-11-17T16:06:14.709375+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-13/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@derek_madison",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "ADAM LZ VS DEREK MADISON"
+  },
+  {
+   "id": "pod-fd2026r8-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The battle that decided the 2026 Formula DRIFT championship. Run 1 on top, run 2 below: who had the better lead, who had the better chase?\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7789
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T08:01:13.503744+00:00",
+   "built": "2026-11-17T16:04:06.198216+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-12/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "THE TITLE BATTLE, SIDE BY SIDE"
   },
   {
    "id": "pod-c82113ef8385-10",

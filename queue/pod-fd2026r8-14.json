@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-14",
  "kind": "stream_clip",
- "status": "ready",
+ "status": "draft",
  "slides": [],
  "title": "FIELD VS BEECHUM",
  "video": "docs/media/pod-fd2026r8-14/clip.mp4",
@@ -12,8 +12,9 @@
   "@formulad"
  ],
  "missing_handles": [],
+ "format": "split",
  "credit": "@formulad",
- "check": false,
+ "check": true,
  "check_reason": "livestream-clip: check jij eerst",
  "platforms": [
   "instagram",
@@ -27,11 +28,5 @@
   "start": 9163
  },
  "created": "2026-11-17T01:41:43.030657+00:00",
- "built": "2026-11-17T13:26:00.126740+00:00",
- "format": "split",
- "media": [
-  "docs/media/pod-fd2026r8-14/clip.mp4"
- ],
- "problems": [],
- "post_at": "2026-12-03T19:30:00+00:00"
+ "built": "2026-11-17T16:08:16.234771+00:00"
 }
