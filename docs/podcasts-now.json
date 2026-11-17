@@ -1,11 +1,9 @@
 {
- "phase": "transcribe",
+ "phase": "saved",
  "episode": "070d2a07f93c",
- "todo": [
-  "070d2a07f93c"
- ],
- "pct": 0.927,
- "updated": "2026-11-17T08:59:35.134737+00:00",
+ "todo": [],
+ "pct": 1.0,
+ "updated": "2026-11-17T09:01:16.763763+00:00",
  "started": "2026-11-17T08:30:41.348565+00:00",
  "run": "44047123362",
  "title": "Race Data Labs and True Drift",
@@ -14,6 +12,7 @@
  "duration": 7875.048,
  "transcribe_started": "2026-11-17T08:42:59.937471+00:00",
  "finished": [
-  "8e09411f1d0d"
+  "8e09411f1d0d",
+  "070d2a07f93c"
  ]
 }
