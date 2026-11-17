@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:55:00.314639+00:00",
+ "updated": "2026-11-17T15:59:24.759255+00:00",
  "counts": {
   "ready": 102,
-  "draft": 101,
+  "draft": 105,
   "check": 26,
   "posted": 3
  },
@@ -4517,10 +4517,10 @@
       "topic": "JACK'S CAR: JUST TIRES AND FUEL",
       "quote": "I want to go to sleep, to be honest. But other than that, not really. I think we're sitting forward, but much closer to second now than we have been, so that's cool. You're like one battle up and you're in second, basically. Oh yeah, well, sweet, we can do that, you know? So, yeah, no, to be honest, if we can finish one, two in the championship, the first time we've done an approach championship since, I think we've done it in BDC. I think it's 2017. It's quite cool, you know what I mean? So if we can finish that strong, I wouldn't be mad at all. That would be fairly fucking cool, to be honest. So, yeah, no, my second year here, and with relatively small program, like low budgets and building the car in such a short time, I'm more than happy, to be honest, with what we've done. The guys are good. Corey's great. Everything has just been working fairly flawlessly, to be honest. Since Long Beach, we had the issues, but since Long Beach, the car has literally had nothing but tires and fuel. It's fairly impressive. So I'm very, very proud of that. It's been quarter panels, tires and fuel.",
       "why": "Jack Shanahan on chasing a Shanahan one-two in the title with a low budget car that has needed nothing since Long Beach.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-3/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4531,10 +4531,10 @@
       "topic": "MATT FIELD: 'I'M BORED'",
       "quote": "I think the pressure is the fun part, though. Like, pressure to have fun? Or like, you enjoy the pressure? No, when the pressure's there, it's more fun. Got it. I'm having less fun. I've said it, like, walking up and down the grid, you guys have probably heard me, I'm like, I'm bored. You want the stress? Yeah. Yeah. Like, OK, somebody crashes out on track. I'm like, I'm so bored now. Like, I was amped, and I'm in it, and I'm ready to do it, and I'm checking boxes, and we're coming in swinging. And then now it's like, all right, just hang out for another two hours. I'm like, I'm bored. But when there's a championship fight, you're like, all right, I got to get into my head space. I got to do this. I got to do this. You're thinking about this. You're thinking about that. It's just more fun to be in it. Gotcha. I don't know. I'm bored, but at the same time, I'm absolutely thankful that I'm able to be bored, but still compete for wins and still be able to throw down. So that's just a testament to the series and the team.",
       "why": "Out of the title fight, Matt Field says racing without championship pressure is less fun.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-4/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4545,10 +4545,10 @@
       "topic": "CONOR: JAMES WOKE ME UP",
       "quote": "I just got to prepare for Long Beach the same as I prepare for every other race. Like I want to go there and try when they event. That's the goal. Yeah. You know, I kind of said started this weekend, I was asking me about points and this. And I'm like, I'm going to drive hard, try when they event. And we'll look at the points that night and see what we need to do. But I'm really happy in the position that I'm in. Like, you know, we won a long beach, which was like a dream start. And it kind of almost was like too good of a start, because it made us a little bit like and then we had a mechanical in Atlanta. And then I thought it was a great idea to battle James in top 32 in Orlando. And he woke my ass. So I was kind of like, damn, this is like a mechanical atop 32 and I kind of made the year a little bit stressful after a really good start. Then we got back in the podium in Connecticut and yeah, just kind of believe that we can get back in the fight, worked hard. And the boys all worked hard around me. I think when we had the mechanical Atlanta and then we had the top 32 in Orlando, it was kind of like, OK, this is going to be like a foundation year for next year to fight for a championship.",
       "why": "Conor Shanahan looks back on a season with a dream start, a mechanical and a lesson from James Deane.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-5/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4559,10 +4559,10 @@
       "topic": "ONE CHANGE ALL WEEKEND",
       "quote": "You know, I got to give such props to the guys. They're doing such a good job. Like this weekend, I came done practice for qualifying, qualified really strong. The only change we made to the car is one PSI from the start to the weekend. Yeah, Jackson, not even a shock change. Nothing. OK. And it's like for me, the car is just giving everything I want. I feel no pressure driving the car. It's easy to do good lead runs. It's it's just a really good, happy environment for me to be in. So it kind of makes my driving a lot more fun and I'm enjoying that. And I guess I've had experience with that at the other side of the world.",
       "why": "Conor Shanahan says the only setup change all weekend was one PSI of tire pressure.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-6/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,160 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-c82113ef8385-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "From practice to the win, the only change to Conor Shanahan's car was one PSI.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #ConorShanahan #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 633.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:59:24.751435+00:00",
+   "built": "2026-11-17T15:59:24.751444+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-6/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ONE CHANGE ALL WEEKEND"
+  },
+  {
+   "id": "pod-c82113ef8385-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dream start, then a mechanical and a lesson from James Deane in Orlando. Conor Shanahan on the road to the final round.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #ConorShanahan #JamesDeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 573.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:58:34.987283+00:00",
+   "built": "2026-11-17T15:58:34.987290+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-5/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jamesdeane130",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONOR: JAMES WOKE ME UP"
+  },
+  {
+   "id": "pod-c82113ef8385-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Out of the title fight, Matt Field says he is bored without the pressure. Drift is more fun when it matters.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#FormulaDRIFT #MattField #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 416.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:57:30.480345+00:00",
+   "built": "2026-11-17T15:57:30.480355+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-4/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "MATT FIELD: 'I'M BORED'"
+  },
+  {
+   "id": "pod-c82113ef8385-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Second year, small budget, and a car that has needed nothing but tires and fuel since Long Beach. Jack Shanahan after the Vegas podium.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 319.22
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:56:21.709516+00:00",
+   "built": "2026-11-17T15:56:21.709524+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-3/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK'S CAR: JUST TIRES AND FUEL"
   },
   {
    "id": "pod-c82113ef8385-2",

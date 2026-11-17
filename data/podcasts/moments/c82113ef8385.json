@@ -112,7 +112,7 @@
   "photo_hint": "Jack and Conor Shanahan",
   "check": false,
   "caption": "Second year, small budget, and a car that has needed nothing but tires and fuel since Long Beach. Jack Shanahan after the Vegas podium. #FormulaDRIFT #JackShanahan #FDLV",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 369.28,
@@ -121,7 +121,11 @@
    "why": "verrassend feit over betrouwbaarheid"
   },
   "wait_name": "v2-c82113ef8385-3-3192-3773.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 370.94, \"start\": 369.28, \"text\": \"WHAT HAS JACK'S CAR NEEDED?\", \"why\": \"verrassend feit over betrouwbaarheid\"}",
+  "made": "2026-11-17T15:56:21.708381+00:00"
  },
  {
   "start": 416.66,
@@ -138,7 +142,7 @@
   "photo_hint": "Matt Field",
   "check": false,
   "caption": "Out of the title fight, Matt Field says he is bored without the pressure. Drift is more fun when it matters. #FormulaDRIFT #MattField #FDLV",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 431.52,
@@ -147,7 +151,11 @@
    "why": "opvallende uitspraak"
   },
   "wait_name": "v2-c82113ef8385-4-4167-4618.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 435.18, \"start\": 431.52, \"text\": \"WHY IS MATT FIELD BORED?\", \"why\": \"opvallende uitspraak\"}",
+  "made": "2026-11-17T15:57:30.479241+00:00"
  },
  {
   "start": 573.76,
@@ -165,7 +173,7 @@
   "photo_hint": "Conor Shanahan vs James Deane",
   "check": false,
   "caption": "Dream start, then a mechanical and a lesson from James Deane in Orlando. Conor Shanahan on the road to the final round. #FormulaDRIFT #ConorShanahan #JamesDeane",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 601.62,
@@ -174,7 +182,11 @@
    "why": "eerlijk, met rivaliteit"
   },
   "wait_name": "v2-c82113ef8385-5-5738-6280.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-5/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 604.36, \"start\": 601.62, \"text\": \"WHAT HAPPENED IN ORLANDO?\", \"why\": \"eerlijk, met rivaliteit\"}",
+  "made": "2026-11-17T15:58:34.986228+00:00"
  },
  {
   "start": 633.3,
@@ -190,7 +202,7 @@
   ],
   "check": false,
   "caption": "From practice to the win, the only change to Conor Shanahan's car was one PSI. #FormulaDRIFT #ConorShanahan #FDLV",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 642.1,
@@ -199,7 +211,11 @@
    "why": "klein getal, grote verrassing"
   },
   "wait_name": "v2-c82113ef8385-6-6333-6678.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 645.94, \"start\": 642.1, \"text\": \"HOW MUCH DID THEY CHANGE?\", \"why\": \"klein getal, grote verrassing\"}",
+  "made": "2026-11-17T15:59:24.750333+00:00"
  },
  {
   "start": 681.88,
