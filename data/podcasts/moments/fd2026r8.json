@@ -340,8 +340,13 @@
    "why": "proximity"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-11-94635-94918.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-11-94635-94918.mp4",
+  "clip": "docs/media/pod-fd2026r8-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9488.48, \"start\": 9484.88, \"text\": \"PERFECT MIRROR\", \"why\": \"proximity\"}",
+  "made": "2026-11-17T01:23:26.696426+00:00"
  },
  {
   "start": 7789,
@@ -414,8 +419,10 @@
    "lead_in": 2.0
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-13r2-34350-34800.mp4"
+  "status": "error",
+  "wait_name": "v2-fd2026r8-13r2-34350-34800.mp4",
+  "error": "No module named 'numpy'",
+  "tries": 1
  },
  {
   "start": 9163,

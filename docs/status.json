@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T01:20:38.256124+00:00",
+ "updated": "2026-11-17T01:23:29.118775+00:00",
  "counts": {
   "check": 7,
-  "draft": 66,
+  "draft": 69,
   "ready": 11
  },
  "collected": "2026-11-16T23:54:06.460615+00:00",
@@ -2162,10 +2162,10 @@
       "topic": "WALL RIDES BROKE THE FUEL CELL",
       "quote": "Like one year, I remember we were using the inner wall at Erwindale. We would back the car to the wall like so hard that we would like. I don't know if you ever like play Gran Turismo and you just like hold your finger down and use the berms. Yeah. Turn. We were like doing that in real life with the back of the car, Erwindale. And I was like just coming across the infield instead of lifting. I would just full blast and just go back into the long come down again. And I hit so hard we broke the fuel cell in the car. Oh, really? And the guys were like, all right, man, we've been just letting you do this for a while, but like no more of that. We're done. No more wall rides on the inner bank. And I remember being like, all right, fine. Yeah. There's not a lot of fun. And then Vaughn went out and broke the cell, did the same thing. Yeah. Because we were just using the wall to slow down.",
       "why": "Used the Irwindale inner wall like Gran Turismo, broke the fuel cell. Then Vaughn did too.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-25/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 8175.73,
@@ -2188,10 +2188,10 @@
       "topic": "CHELSEA IN DRIFT MASTERS?",
       "quote": "Yeah, I like we were saying the other day, I'd love to drive a couple of rounds of Driftmasters or something. Like if I had a good team and the ability to go over there and like support and project America on that a little bit and see how that goes, I think they need that. Yeah, I agree. It never seems to work out for some reason.",
       "why": "Would love to drive a couple of Drift Masters rounds with a good team.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-27/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      }
     ]
    },
@@ -2425,9 +2425,9 @@
       "topic": "TOMMY MIRRORS COLE",
       "quote": "TLO and Cole Richards Cole Richards initiates He's running a hundred percent we talked about maybe a little bit of black long low cop pop as goes into to an outside zone. Tommy Lamere chasing him down. Cole in that outside zone now transitioning. Look at Cole. He is literally rolling Cole. Into that outside zone. Look at Tommy mimicking his angle into that last outside zone. Are we going to have a victor?",
       "why": "Laatste battle van Top 32",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-11/clip.mp4",
+      "mode": "video",
       "wait_video": null
      },
      {
@@ -2451,7 +2451,7 @@
       "topic": "ADAM LZ VS DEREK MADISON",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
+      "status": "error",
       "clip": null,
       "mode": null,
       "wait_video": null
@@ -3362,6 +3362,119 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-fd2026r8-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 9463.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:23:26.697529+00:00",
+   "built": "2026-11-17T01:23:26.697535+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-11/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "TOMMY MIRRORS COLE"
+  },
+  {
+   "id": "pod-1298fd1c600b-27",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: Chelsea DeNofa would love to drive a couple of Drift Masters rounds.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @driftmasters.gp @jako13\n\n#driftmasters #formuladrift #driftnews #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 8367.33
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:22:28.854854+00:00",
+   "built": "2026-11-17T01:22:28.854858+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-27/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@driftmasters.gp",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "CHELSEA IN DRIFT MASTERS?"
+  },
+  {
+   "id": "pod-1298fd1c600b-25",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa rode the Irwindale wall so hard he broke the fuel cell. Then Vaughn Gittin Jr. did the same.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @vaughngittinjr @jako13\n\n#formulad #formuladrift #irwindale #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 7879.99
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:21:49.872695+00:00",
+   "built": "2026-11-17T01:21:49.872700+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-25/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@vaughngittinjr",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "WALL RIDES BROKE THE FUEL CELL"
   },
   {
    "id": "pod-1298fd1c600b-22",
