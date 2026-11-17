@@ -483,7 +483,7 @@
   "check": true,
   "check_reason": "Driver's name not remembered in episode; guest surname not stated",
   "caption": "He won his seat through a sim competition. Now he is third in the French championship as a rookie. #DriftFrance #SimDrifting #Drifting #SimRacing",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5378.05,
@@ -492,7 +492,11 @@
    "why": "underdog verhaal"
   },
   "wait_name": "v2-070d2a07f93c-16-53324-53820.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-16/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5379.89, \"start\": 5378.05, \"text\": \"FROM SIM RIG TO PODIUM?\", \"why\": \"underdog verhaal\"}",
+  "made": "2026-11-17T13:46:39.306630+00:00"
  },
  {
   "start": 5423.13,
@@ -507,7 +511,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "Sim drivers complain the cars feel slow. The answer: that's how fast real competition cars actually are, run for run. #TrueDrift #SimDrifting #Drifting #FormulaDrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5430.99,
@@ -516,7 +520,11 @@
    "why": "mythe doorprikt"
   },
   "wait_name": "v2-070d2a07f93c-17-54231-54786.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-17/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5433.53, \"start\": 5430.99, \"text\": \"ARE YOUR SIM CARS TOO FAST?\", \"why\": \"mythe doorprikt\"}",
+  "made": "2026-11-17T13:48:03.521906+00:00"
  },
  {
   "start": 5697.71,
@@ -535,7 +543,7 @@
   "check": true,
   "check_reason": "Transcript says 'Manoa'",
   "caption": "Second time ever in a manual car, six laps to link the whole track, thanks to sim drifting. A new generation of animals is coming. #SimDrifting #Drifting #FormulaDrift #HiroyaMinowa",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5729.49,
@@ -544,7 +552,11 @@
    "why": "verbazing"
   },
   "wait_name": "v2-070d2a07f93c-18-56977-57679.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-18/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5733.05, \"start\": 5729.49, \"text\": \"HOW FAST CAN A SIM KID LEARN?\", \"why\": \"verbazing\"}",
+  "made": "2026-11-17T13:49:42.999159+00:00"
  },
  {
   "start": 6011.35,
@@ -561,7 +573,7 @@
   "check": true,
   "check_reason": "Not yet official; series name 'US Drift Circuit' from transcript",
   "caption": "Jacob Gettins said on The Outerzone he will announce US Drift Circuit, a Florida pro-am series, this winter. Not official yet. #Drifting #ProAm #GrassrootsDrifting #FormulaDrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6027.43,
@@ -570,7 +582,11 @@
    "why": "onthulling op komst"
   },
   "wait_name": "v2-070d2a07f93c-19-60114-60773.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-19/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6029.25, \"start\": 6027.43, \"text\": \"WHAT IS HE ANNOUNCING?\", \"why\": \"onthulling op komst\"}",
+  "made": "2026-11-17T13:51:21.864338+00:00"
  },
  {
   "start": 6340.51,
