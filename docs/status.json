@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T01:17:01.125114+00:00",
+ "updated": "2026-11-17T01:20:38.256124+00:00",
  "counts": {
   "check": 7,
-  "draft": 62,
+  "draft": 66,
   "ready": 11
  },
  "collected": "2026-11-16T23:54:06.460615+00:00",
@@ -1967,10 +1967,10 @@
       "topic": "\"I WOULD DO IT AGAIN\"",
       "quote": "Like anyways, the spirit of it just was like I was so enraged because of how ridiculous it was. And that's kind of why it is. And that's kind of also why I'm like, yo, you you die by your sword. Like you want to be that guy. And now for the rest of your life, you're going to be known as the guy who was. Right. Like and I'll be known as the guy that was acting a fool like and being an idiot and yelling at somebody. But you're like, I'll live with it. I would do it again.",
       "why": "On the New Jersey blow-up: not the spirit of drifting, and he would do it again.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-10/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 3701.0,
@@ -1980,10 +1980,10 @@
       "topic": "STILL WAITING FOR AN APOLOGY",
       "quote": "All he has to do is apologize to me. If he apologized to me, we could be friends. Oh, you say there still hasn't been like conversations or anything. He just avoids me everywhere we go. I do the thing like hi. As at least at least that's something right. I mean, I acknowledge him. Yeah, that's good. I'm not saying that's me being a bigger person. I will not apologize to him. If he apologizes to me, we could be friends. OK, all right. Well, maybe maybe one day. I'll I don't hold any grudges. I'm like, he probably regrets doing it. But if he doesn't, then don't apologize.",
       "why": "They still have not talked; Chelsea says one apology and they could be friends.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-11/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 3914.96,
@@ -2097,10 +2097,10 @@
       "topic": "WHY THE RTR MUSTANG IS HARD",
       "quote": "Not counting the mental, the physical and the changes in the actual car going to the Mustang, you have a 315 40 now. Yeah, you could fit two of the 255 35 in. So like we were talking about compressing the tire and feeling the grip and all that. That's now something he has to learn, has to learn it on a car with fairly short arms, a longer wheel base, a lot more weight, you know, like 300 pounds, more weight and a car that is built to do one thing, have shit loads of forward drive. Right. So that car is not independently difficult to drive. It's hard to drive with other people that have normal set up cars.",
       "why": "On Ben's step from a big-power S14 to the RTR Mustang: hard to drive with normal-setup cars.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-20/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 6329.47,
@@ -2123,10 +2123,10 @@
       "topic": "LET FD RUN TUBULAR SUBFRAMES",
       "quote": "And then I really, really hope we move in a technical side, which allows tubular subframes. I agree with that. I would. It's not even for the advantage. No, it's for the replaceability and sustainability. We're not making this ability. Like you could make a safety argument for it as well. Sure. Yeah. And I think it's very simple where like there's jigs or 3D scanner or there's many, many ways to do it. And if you're out of the realm of what it is, then that's you're out. And the thing is, is like these guys are not in F.D. are not going to push the limits of that. They're going to be really happy that they could just be able to move some things and get clearances and be able to take the headers off the car without pulling the engine and like all these little things. And like, dude, let's face it, as Chassis subframe, we got to be down to like the last any of them.",
       "why": "Wants tubular subframes allowed; S chassis subframes are running out.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-22/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 6955.77,
@@ -3362,6 +3362,154 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-1298fd1c600b-22",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa wants Formula DRIFT to allow tubular subframes. Good S chassis subframes are almost gone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #s14 #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 6519.13
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:20:38.251779+00:00",
+   "built": "2026-11-17T01:20:38.251784+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-22/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "LET FD RUN TUBULAR SUBFRAMES"
+  },
+  {
+   "id": "pod-1298fd1c600b-20",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Why is the RTR Mustang so tricky? Chelsea DeNofa breaks it down.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #rtr #mustang #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 5973.01
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:19:33.078684+00:00",
+   "built": "2026-11-17T01:19:33.078689+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-20/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "WHY THE RTR MUSTANG IS HARD"
+  },
+  {
+   "id": "pod-1298fd1c600b-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa and his old rival still don't talk. One apology, he says, and they could be friends.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3701.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:18:34.481977+00:00",
+   "built": "2026-11-17T01:18:34.481981+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-11/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "STILL WAITING FOR AN APOLOGY"
+  },
+  {
+   "id": "pod-1298fd1c600b-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Years later, Chelsea DeNofa has no regrets about that New Jersey blow-up: he would do it again.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3645.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:17:48.287439+00:00",
+   "built": "2026-11-17T01:17:48.287444+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-10/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"I WOULD DO IT AGAIN\""
   },
   {
    "id": "pod-1298fd1c600b-9",

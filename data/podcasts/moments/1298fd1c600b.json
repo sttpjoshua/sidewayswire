@@ -268,7 +268,7 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Years later, Chelsea DeNofa has no regrets about that New Jersey blow-up: he would do it again.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3671.08,
@@ -277,7 +277,11 @@
    "why": "de uitspraak zelf"
   },
   "wait_name": "v2-1298fd1c600b-10-36457-36737.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-10/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3673.66, \"start\": 3671.08, \"text\": \"NO REGRETS?\", \"why\": \"de uitspraak zelf\"}",
+  "made": "2026-11-17T01:17:48.286348+00:00"
  },
  {
   "start": 3701.0,
@@ -290,7 +294,7 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Chelsea DeNofa and his old rival still don't talk. One apology, he says, and they could be friends.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3702.84,
@@ -299,7 +303,11 @@
    "why": "de uitspraak zelf"
   },
   "wait_name": "v2-1298fd1c600b-11-37010-37311.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-11/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3705.15, \"start\": 3702.84, \"text\": \"ONE THING WOULD END THIS FEUD\", \"why\": \"de uitspraak zelf\"}",
+  "made": "2026-11-17T01:18:34.480873+00:00"
  },
  {
   "start": 3914.96,
@@ -512,7 +520,7 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Why is the RTR Mustang so tricky? Chelsea DeNofa breaks it down.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #rtr #mustang #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6010.75,
@@ -521,7 +529,11 @@
    "why": "het verrassende feit"
   },
   "wait_name": "v2-1298fd1c600b-20-59730-60150.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-20/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6014.95, \"start\": 6010.75, \"text\": \"WHY IS THE RTR MUSTANG SO HARD?\", \"why\": \"het verrassende feit\"}",
+  "made": "2026-11-17T01:19:33.077551+00:00"
  },
  {
   "start": 6329.47,
@@ -559,7 +571,7 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Chelsea DeNofa wants Formula DRIFT to allow tubular subframes. Good S chassis subframes are almost gone.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #s14 #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6519.25,
@@ -568,7 +580,11 @@
    "why": "de uitspraak zelf"
   },
   "wait_name": "v2-1298fd1c600b-22-65191-65658.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-22/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6524.12, \"start\": 6519.25, \"text\": \"THE RULE CHANGE FD NEEDS?\", \"why\": \"de uitspraak zelf\"}",
+  "made": "2026-11-17T01:20:38.250643+00:00"
  },
  {
   "start": 6955.77,
