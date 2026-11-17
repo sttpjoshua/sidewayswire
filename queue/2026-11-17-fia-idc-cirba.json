@@ -37,11 +37,11 @@
  ],
  "tags": [],
  "source": "https://www.fia.com/news/benediktas-cirba-takes-fia-intercontinental-drifting-cup-victory-greece-wins-nations-cup",
- "check": false,
- "status": "ready",
+ "check": true,
+ "status": "check",
  "created": "2026-11-17T14:12:26.167610+00:00",
  "by": "editor",
- "check_reason": "handles van coureurs en FIA niet in sources.csv",
+ "check_reason": "foto nodig: voeg een foto toe",
  "missing_handles": [
   "Benediktas Čirba",
   "Martins Immermanis",
@@ -53,5 +53,6 @@
  ],
  "problems": [],
  "built": "2026-11-17T14:16:52.657821+00:00",
- "post_at": "2026-12-06T07:30:00+00:00"
+ "want_at": "2026-12-06T07:30:00+00:00",
+ "needs_photo": true
 }

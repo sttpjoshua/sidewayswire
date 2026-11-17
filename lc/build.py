@@ -91,6 +91,11 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
     if not drafts:
         return report
     _add_stills(drafts)
+    for p in drafts:              # Joshua: a post without a photo is never posted; it waits for his photo
+        if (p.get("slides") or [{}])[0].get("template") == "news_text.html":
+            p.update(check=True, needs_photo=True, check_reason="foto nodig: voeg een foto toe")
+        else:
+            p.pop("needs_photo", None)
     with Renderer() as r:
         for p in drafts:
             p["media"], p["problems"] = ([p["video"]] if p.get("video") else []), []

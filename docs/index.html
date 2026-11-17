@@ -71,7 +71,9 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 /* clips gallery */
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
 .gc{background:var(--card);display:flex;flex-direction:column}.gc video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#000;display:block}
-.gc div{padding:10px 12px;font-size:13px;line-height:1.4}.gc .cap{color:var(--mute);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px;font-size:12px}
+.needph{background:var(--pink);color:#111;padding:10px 12px;font:800 13px Inter;letter-spacing:1px;margin:8px 0}.needph small{display:block;font-weight:600;letter-spacing:0}
+.phrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:6px}.phrow .btn{cursor:pointer}.phrow input[data-phc]{flex:1;min-width:140px}
+.gc>div{padding:10px 12px;font-size:13px;line-height:1.4}.gc .cap{color:var(--mute);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px;font-size:12px}
 /* planning */
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
@@ -239,12 +241,21 @@ async function replacePhoto(id,card){
   await gh(`/contents/${path}`,{method:"PUT",body:JSON.stringify({message:`dashboard: foto voor ${id}`,content:data,branch:"main"})});
   await changePost(id,x=>{const d=x.slides[0].data,t=d.text_version||d;
     x.slides[0]={template:"news.html",data:{photo:"../"+path,photo_credit:cr||"@sidewayswire",series_badge:t.series_badge,headline:t.headline,marker:t.marker,body:t.body,source:t.source,text_version:t}};
-    x.photo_by="joshua";delete x.photo_auto;if(x.post_at&&!x.want_at)x.want_at=x.post_at;if(["ready","approved"].includes(x.status))x.check=false;x.status="draft";
+    x.photo_by="joshua";delete x.photo_auto;if(x.post_at&&!x.want_at)x.want_at=x.post_at;
+    if(["ready","approved"].includes(x.status)||x.needs_photo||/foto nodig/.test(x.check_reason||"")){x.check=false;x.check_reason=""}delete x.needs_photo;x.status="draft";
     if(cr&&!(x.caption||"").includes(cr))x.caption=(x.caption||"").replace("\n\n#",`\n\nPhoto: ${cr}\n\n#`)},"foto");
   await runBuild();toast("Foto opgeslagen. De post wordt opnieuw gemaakt en staat over een paar minuten met jouw foto in het dashboard. Hij houdt zijn plek in de planning.");
 }
-function photoCtl(p){return (p.slides||[]).length&&["news.html","news_text.html"].includes(p.slides[0].template)?`<label>FOTO ${p.slides[0].template==="news.html"?(p.photo_by==="joshua"?"(jouw foto)":p.photo_auto?"(still uit de livestream)":""):"(nu zonder foto)"}</label>
-  <div class="row" style="gap:8px;flex-wrap:wrap"><input type="file" accept="image/*" data-ph style="max-width:240px"><input data-phc placeholder="credit, bijv. @fotograaf" style="flex:1;min-width:140px" value="${esc(p.photo_by==="joshua"?(p.slides[0].data.photo_credit||""):"")}"><button class="btn" data-a="photo">FOTO VERVANGEN</button></div>`:""}
+function photoCtl(p){
+  const ph=p.photo;if(!ph)return "";
+  const none=ph.mode==="none";
+  return `${none?`<div class="needph">FOTO NODIG<small>Deze post gaat pas online als er een foto in staat.</small></div>`:`<label>FOTO ${ph.mode==="joshua"?"(jouw foto)":ph.mode==="auto"?"(still uit de livestream)":""}</label>`}
+  <div class="phrow"><input data-phc placeholder="credit, bijv. @fotograaf" value="${esc(ph.mode==="joshua"?(ph.credit||""):"")}">
+  <label class="btn ${none?"g":""}">${none?"📷 FOTO TOEVOEGEN":"FOTO VERVANGEN"}<input type="file" accept="image/*" data-ph hidden></label></div>`}
+async function onPhotoPick(e){const inp=e.target.closest("input[data-ph]");if(!inp||!inp.files.length)return;
+  const card=inp.closest(".rc,.gc"),id=card.dataset.id,cr=card.querySelector("[data-phc]");
+  if(!cr.value.trim()){const v=prompt("Wie heeft de foto gemaakt? Typ de credit (bijv. @fotograaf). Leeg laten mag.");if(v)cr.value=v.trim()}
+  try{await replacePhoto(id,card)}catch(x){toast(x.message,1)}}
 function shrinkImg(file){return new Promise((ok,bad)=>{const img=new Image();img.onload=()=>{const k=Math.min(1,1600/Math.max(img.width,img.height)),c=document.createElement("canvas");
   c.width=Math.round(img.width*k);c.height=Math.round(img.height*k);c.getContext("2d").drawImage(img,0,0,c.width,c.height);ok(c.toDataURL("image/jpeg",.88).split(",")[1])};img.onerror=()=>bad(new Error("Kon de foto niet lezen"));img.src=URL.createObjectURL(file)})}
 const b64=s=>btoa(unescape(encodeURIComponent(s)));
@@ -416,13 +427,14 @@ function drawPosts(){
   const pe=document.getElementById("post-ed");
   pe.innerHTML=ED&&ED.state==="busy"?`<b>De redactie is nu bezig</b> (sinds ${ago(ED.started)}): verhalen kiezen, feiten controleren en posts maken. Nieuwe posts verschijnen hier zodra ze gebouwd zijn.`
     :`<b>Redactie:</b> ${editorLine()}.${ED&&(ED.posts||[]).length?`<br>Laatst gemaakt: ${ED.posts.map(esc).join(" · ")}`:""}<br><span class="muted">De redactie draait om ${((ED&&ED.schedule)||[]).join(", ")}. Daarna bouwt het proces "Plaatsen" de afbeeldingen (zie Overzicht, Processen).</span>`;
-  const C=posts().filter(p=>cat(p)==="posts"), F={"ALLES":()=>true,"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
+  const C=posts().filter(p=>cat(p)==="posts"), F={"ALLES":()=>true,"FOTO NODIG":p=>p.photo&&p.photo.mode==="none"&&!["posted","skipped"].includes(p.status),"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
   document.getElementById("post-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===postFilter?"on":""}">${k} (${C.filter(F[k]).length})</button>`).join("");
   pgal.innerHTML=C.filter(F[postFilter]).sort((a,b)=>String(b.created||"").localeCompare(String(a.created||""))).map(p=>{const m=p.media||[];
     return `<div class="gc" data-id="${p.id}">${m.length?`<img src="${esc(m[0])}?v=${encodeURIComponent(p.built||"")}" style="width:100%;display:block">`:`<div class="empty" style="aspect-ratio:4/5">Wordt gemaakt</div>`}
       <div>${stTag(p)} <span class="tag">${KIND[p.kind]||esc(p.kind)}</span>${m.length>1?` <span class="muted">${m.length} slides</span>`:""}${p.post_at&&p.status==="ready"?` <span class="muted">${when(p.post_at)}</span>`:""}<br><b>${title(p)}</b><div class="cap">${esc(p.caption||"")}</div>
       ${photoCtl(p)}${["check","draft"].includes(p.status)?`<div class="row" style="margin-top:8px"><a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a></div>`:""}</div></div>`}).join("")||`<div class="empty">Nog geen posts.</div>`;
 }
+pgal.addEventListener("change",onPhotoPick);rev.addEventListener("change",onPhotoPick);
 pgal.onclick=async e=>{const b=e.target.closest("button[data-a=photo]");if(!b)return;b.disabled=true;
   try{await replacePhoto(b.closest(".gc").dataset.id,b.closest(".gc"))}catch(x){toast(x.message,1)}b.disabled=false};
 document.getElementById("post-f").onclick=e=>{if(e.target.tagName==="BUTTON"){postFilter=e.target.textContent.replace(/ \(\d+\)$/,"");drawPosts()}};

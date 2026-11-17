@@ -11,6 +11,16 @@ from . import queue as q
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def photo_info(p: dict):
+    """For news posts: does it have a photo, and whose (for the dashboard's photo button)."""
+    sl = (p.get("slides") or [{}])[0]
+    if sl.get("template") not in ("news.html", "news_text.html"):
+        return None
+    d = sl.get("data") or {}
+    mode = "none" if sl["template"] == "news_text.html" else "joshua" if p.get("photo_by") == "joshua" else "auto" if p.get("photo_auto") else "set"
+    return {"mode": mode, "credit": d.get("photo_credit", "")}
+
+
 def podcast_status() -> dict:
     d = ROOT / "data" / "podcasts"
     if not (d / "episodes.json").exists():
@@ -56,7 +66,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         "podcasts": podcast_status(),
         "posts": [{k: p.get(k) for k in keep} | {"media": [m.removeprefix("docs/") for m in p.get("media") or []],
                                                  "video": (p.get("video") or "").removeprefix("docs/") or None,
-                                                 "title": clip_title(p)}
+                                                 "title": clip_title(p), "photo": photo_info(p)}
                   for p in sorted(posts, key=lambda p: p.get("post_at") or p.get("built") or p.get("created") or "",
                                   reverse=True)[:300]],
         "channels": json.loads((ROOT / "data" / "channels.json").read_text()) if (ROOT / "data" / "channels.json").exists() else {},
