@@ -133,3 +133,20 @@ def sync_offset(run1: str, run2: str, fps: int = 8, maxd: float = 10.0, t: float
         if v.mean() > best[0]:
             best = (float(v.mean()), d / fps)
     return (best[1] if best[0] > 0.4 else None), best[0]
+
+
+def scene_cuts(path: str, start: float, length: float, threshold: float = 0.3) -> list[float]:
+    """Times (from 'start') where the broadcast switches camera."""
+    import re
+    err = subprocess.run(["ffmpeg", "-v", "info", "-ss", f"{max(0.0, start):.2f}", "-t", f"{length:.2f}", "-i", path,
+                          "-vf", f"select='gt(scene,{threshold})',showinfo", "-an", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    return [float(x) for x in re.findall(r"pts_time:([\d.]+)", err)]
+
+
+def cut_alignment(c1: list[float], c2: list[float], tol: float = 0.75) -> float:
+    """Share of camera switches that happen at about the same time in both runs (0 to 1)."""
+    if not c1 or not c2:
+        return 1.0 if not c1 and not c2 else 0.0
+    hit = lambda a, b: sum(1 for x in a if any(abs(x - y) <= tol for y in b))
+    return (hit(c1, c2) + hit(c2, c1)) / (len(c1) + len(c2))

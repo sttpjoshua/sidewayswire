@@ -115,7 +115,7 @@ op initiatie, zodat je lead vs lead en chase vs chase ziet. Maak per battle een 
 `init` is het moment dat de leider inzet (commentaar: "here goes", "initiates"), `start` 3 tot 5 s
 daarvoor, `end` net na de laatste zone. Runs duren op Long Beach zo'n 30 tot 40 s. Let op: run 1 en 2
 kunnen ver uit elkaar liggen (eerst alle eerste helften, dan de tweede). Zet `start` = run 1 start en
-`end` = run 2 eind, `guest` = "A VS B", `people` = beide coureurs. Een bye run of een battle met maar
+`end` = run 2 eind, `guest` = "A VS B" (sync en opmaak regelt het systeem zelf: lopen de camerawissels gelijk, dan beide runs tegelijk; anders eerst LEAD VS LEAD, dan CHASE VS CHASE), `people` = beide coureurs. Een bye run of een battle met maar
 één run (incomplete bij de start) is geen split.
 
 Kies zoveel mogelijk momenten, 15 tot 75 seconden, met het commentaar als leidraad:

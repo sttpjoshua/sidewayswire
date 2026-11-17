@@ -201,15 +201,19 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
 
 
 def make_split(ep: dict, moment: dict, runs: list[str], out: str) -> dict:
-    """Battle reel in two turns, run 1 on top and run 2 below, synced on track:
-    first LEAD VS LEAD (both lead drivers labelled), then a white flash and the same runs again as
-    CHASE VS CHASE (both chase drivers labelled, sound of run 2).
+    """Battle reel, run 1 on top and run 2 below, synced on track.
+
+    When the broadcast switches camera at about the same moments in both runs (Joshua: then it is
+    easy to watch), both play once with LEAD VS LEAD | CHASE VS CHASE together. When the cuts differ
+    too much, the reel goes in two turns: first LEAD VS LEAD (lead drivers labelled), a white flash,
+    then the same runs as CHASE VS CHASE (chase drivers labelled, sound of run 2).
+    split["layout"] = "together" or "turns" overrules the automatic choice.
 
     moment["split"] = {"runs": [{"start", "end", "init"}, {...}], "lead": ["DRIVER A", "DRIVER B"],
                        optional "shift": run 1 minus run 2 in seconds (else found from the pictures),
                        "nudge": extra shift for run 2, "lead_in"}.
     """
-    from .video import battle_reel, sync_offset, duration
+    from .video import battle_reel, sync_offset, duration, scene_cuts, cut_alignment
     sp = moment["split"]
     a, b = sp["lead"][0], sp["lead"][1]
     r1, r2 = sp["runs"]
@@ -224,23 +228,33 @@ def make_split(ep: dict, moment: dict, runs: list[str], out: str) -> dict:
     run_len = min(float(r1["end"]) - float(r1["init"]), float(r2["end"]) - float(r2["init"]))
     length = min(run_len + lead_in, duration(runs[0]) - max(0.0, o1 - lead_in),
                  duration(runs[1]) - max(0.0, o2 + nudge - lead_in), 34.0)
+    aligned = cut_alignment(scene_cuts(runs[0], o1 - lead_in, length), scene_cuts(runs[1], o2 + nudge - lead_in, length))
+    layout = sp.get("layout") or ("together" if aligned >= 0.7 else "turns")
+    modes = ("",) if layout == "together" else ("lead", "chase")
     with tempfile.TemporaryDirectory() as tmp:
         parts = []
         with Renderer() as r:
-            for mode in ("lead", "chase"):
+            for mode in modes:
                 r.render("reel_split_overlay.html", {"w": 1080, "h": 1920, "bg": "transparent", "mode": mode,
                                                      "driver_a": a, "driver_b": b,
                                                      "credit": ep.get("credit") or moment.get("credit") or ""},
-                         str(Path(tmp) / f"ov_{mode}.png"), transparent=True)
-        for k, mode in enumerate(("lead", "chase")):
-            part = str(Path(tmp) / f"{mode}.mp4")
-            res = battle_reel(runs[0], runs[1], str(Path(tmp) / f"ov_{mode}.png"), part, offset1=o1, offset2=o2,
+                         str(Path(tmp) / f"ov_{mode or 'both'}.png"), transparent=True)
+        for k, mode in enumerate(modes):
+            part = str(Path(tmp) / f"part{k}.mp4")
+            res = battle_reel(runs[0], runs[1], str(Path(tmp) / f"ov_{mode or 'both'}.png"), part, offset1=o1, offset2=o2,
                               lead_in=lead_in, nudge=nudge, length=length, audio=1 + k)
             parts.append(part)
         fade = 0.35
+        if layout == "together":
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", parts[0], "-c:v", "copy", "-af",
+                            "loudnorm=I=-15:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out],
+                           check=True)
+            return {"mode": "split", "layout": layout, "cuts_aligned": round(aligned, 2), "out": out, "shift": shift,
+                    "sync_score": score, "phase": round(length, 2)}
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", parts[0], "-i", parts[1], "-filter_complex",
                         f"[0:v][1:v]xfade=transition=fadewhite:duration={fade}:offset={length - fade:.2f},format=yuv420p[v];"
                         f"[0:a][1:a]acrossfade=d={fade}[a0];[a0]loudnorm=I=-15:TP=-1.5:LRA=11[a]",
                         "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                         "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out], check=True)
-    return {"mode": "split", "out": out, "shift": shift, "sync_score": score, "phase": round(length, 2)}
+    return {"mode": "split", "layout": layout, "cuts_aligned": round(aligned, 2), "out": out, "shift": shift,
+            "sync_score": score, "phase": round(length, 2)}
