@@ -79,7 +79,7 @@
   "check": true,
   "check_reason": "Guest named only as 'Mike Power' in a birthday shout-out (00:02:51); confirm identity and spelling.",
   "caption": "Engine blown, rolled down the Corkscrew into the pits, and Cole Richards spots a hole in the block. Gridlife Laguna did not go to plan.\n\n#drifting #gridlife #lagunaseca #engineblown",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 671.68,
@@ -88,7 +88,11 @@
    "why": "emotie, hij wil huilen"
   },
   "wait_name": "v2-8e09411f1d0d-2-6432-6800.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-2/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 674.26, \"start\": 671.68, \"text\": \"WHAT DID COLE RICHARDS FIND?\", \"why\": \"emotie, hij wil huilen\"}",
+  "made": "2026-11-17T15:02:33.663024+00:00"
  },
  {
   "start": 988.7,
@@ -106,7 +110,7 @@
   "check": true,
   "check_reason": "Guest named only as 'Mike Power' in a birthday shout-out (00:02:51); confirm identity and spelling. 'hot pit' is likely a garbled series name.",
   "caption": "Missing rounds cost him his Formula DRIFT seat, and it still eats at him. This year he made sure he did not miss a single round.\n\n#formulad #drifting #formuladrift #outerzone",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1031.4,
@@ -115,7 +119,11 @@
    "why": "pijnlijke onthulling"
   },
   "wait_name": "v2-8e09411f1d0d-3-9887-10407.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-3/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1033.96, \"start\": 1031.4, \"text\": \"WHY DID HE LOSE HIS FD SEAT?\", \"why\": \"pijnlijke onthulling\"}",
+  "made": "2026-11-17T15:03:33.850115+00:00"
  },
  {
   "start": 1290.88,
@@ -133,7 +141,7 @@
   "check": true,
   "check_reason": "Host identified from the source register; 'Chris Jackson' / US Drift Circuit not verified.",
   "caption": "A commenter said he talks about supporting local but doesn't work for his local series. So he made one phone call.\n\n#formulad #drifting #commentary #grassroots",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1305.24,
@@ -142,7 +150,11 @@
    "why": "grappige punchline"
   },
   "wait_name": "v2-8e09411f1d0d-4-12909-13107.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-4/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1307.88, \"start\": 1305.24, \"text\": \"HOW DO YOU ANSWER A HATER?\", \"why\": \"grappige punchline\"}",
+  "made": "2026-11-17T15:04:06.461099+00:00"
  },
  {
   "start": 1651.38,
@@ -158,7 +170,7 @@
   "check": true,
   "check_reason": "Second guest (FD rookie, Scion FR-S) is never named in the transcript; identify before posting.",
   "caption": "Four engines in one Formula DRIFT rookie season: a push rod from a manufacturing fault, and two fresh rebuilds that simply wore out.\n\n#formulad #drifting #formuladrift #rookie",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1651.38,
@@ -167,7 +179,11 @@
    "why": "verrassend getal"
   },
   "wait_name": "v2-8e09411f1d0d-5-16514-16887.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-5/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1653.32, \"start\": 1651.38, \"text\": \"HOW MANY ENGINES THIS YEAR?\", \"why\": \"verrassend getal\"}",
+  "made": "2026-11-17T15:04:49.063466+00:00"
  },
  {
   "start": 2027.16,

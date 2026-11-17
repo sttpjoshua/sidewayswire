@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:01:40.411452+00:00",
+ "updated": "2026-11-17T15:04:49.070784+00:00",
  "counts": {
-  "ready": 103,
-  "draft": 44,
+  "ready": 102,
+  "draft": 49,
   "check": 26,
   "posted": 3
  },
@@ -4196,10 +4196,10 @@
       "topic": "HOLE IN THE MOTOR AT LAGUNA SECA",
       "quote": "There's a hole in my motor. Yeah. But, but you know, having the willpower to just laugh it off. Yeah. It took me a little bit. Cole Richards was like next to me. I had no idea that my, my motor was blown up. They pushed me down the corkscrew and I made it like rolled all the way into the pits. And Cole was like, what happened? I was like, dude, made the craziest noise. Was idling like crazy. Dude, this car is idling for a little bit. That's crazy. It was zero oil pressure. But, um, yeah, he saw it and he was like, oh, there's a hole in it. And I was like, it took me a little bit to like be able to laugh. I was like, I kind of want to cry about this right now, dude. It's just, I was just so excited to drive this event, but it's, it's fine. We're all fine now.",
       "why": "His engine blew at Gridlife Laguna; Cole Richards spotted the hole as he rolled down the Corkscrew.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-2/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4210,10 +4210,10 @@
       "topic": "WHY HE WAS REMOVED FROM FD",
       "quote": "But the one thing that I really don't want to do is I do not want to miss the last round of a hot pit. I was just talking to Jacob. He was like, hey, I know it's kind of a sore subject right now, but like, you want to be there? What do you want to do? And I was like, I don't know what I can do, but all I know is I don't want to miss the last round because that's like something remembering FD is something that like eats away me the most. So it's like watching it. Yeah. So the season, the world, the season, the last season I drove with FD was also the reason why I was removed from FD because I didn't make all the rounds and like that killed me inside because they like I felt like they didn't know how much I wanted to be there and I couldn't. Like I hated the idea of people seeing it as, oh, he's just like stressed out and he's going through shit. So he's just staying home. It's like, no, I want to be there so bad. I couldn't make it happen. Yeah, that's like a bad memory for me. So this year I wanted to just be like, all right, we made every round. We competed all year.",
       "why": "He reveals missing rounds in his last FD season is why he lost his spot, and how much that still hurts.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-3/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4224,10 +4224,10 @@
       "topic": "CALLED OUT BY A COMMENTER",
       "quote": "I got I got called out a while ago. Someone's like, dude, talks about like supporting local. He doesn't even work for, you know, US drift circuit. Oh, so which which is a very valid point. And at first I was like, I was like, screw you, dude. And I thought about it like, no, but that's right. But then I called Chris Jackson. I was like, hey, can I do commentaries? I thought you would never ask. So now I'm doing a program series. It's like, OK, there you go.",
       "why": "The FD commentator got called out for not supporting his local series, so he phoned them and got a job.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-4/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4238,10 +4238,10 @@
       "topic": "FOUR ENGINES IN ONE ROOKIE SEASON",
       "quote": "But yeah, we've gone through four motors this year. I didn't even realize that. Pretty quiet about it. Yeah. Long Beach was good. Atlanta, we had a motor issue. Orlando and then Connecticut, we put like the spare of the spare motor in. It was like, oh, that thing's not great. Do you know why they're letting go? The one from Orlando was just a manufacturing issue. Okay. Push rod. Oh, weird. And the other two were just like worn out. They were fresh rebuilds, but they just got worn out.",
       "why": "An FD rookie reveals he has gone through four engines this season, and why they failed.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-5/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -8070,10 +8070,10 @@
   {
    "id": "2026-11-17-conor-shanahan-wins-tokyo-drift",
    "kind": "news",
-   "status": "ready",
+   "status": "draft",
    "post_at": "2026-12-07T07:30:00+00:00",
    "posted_at": null,
-   "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
+   "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
    "media": [
     "media/2026-11-17-conor-shanahan-wins-tokyo-drift/1.png"
    ],
@@ -8089,7 +8089,7 @@
    ],
    "created": "2026-11-17T14:14:13.502153+00:00",
    "built": "2026-11-17T14:16:52.271302+00:00",
-   "want_at": null,
+   "want_at": "2026-12-07T07:30:00+00:00",
    "video": null,
    "tags": [
     "@conorshanahan79"
@@ -9258,6 +9258,161 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-8e09411f1d0d-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Four engines in one Formula DRIFT rookie season: a push rod from a manufacturing fault, and two fresh rebuilds that simply wore out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#formulad #drifting #formuladrift #rookie #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 1651.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:04:49.064410+00:00",
+   "built": "2026-11-17T15:04:49.064417+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-5/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Fd Rookie (Name Tbc)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FOUR ENGINES IN ONE ROOKIE SEASON"
+  },
+  {
+   "id": "pod-8e09411f1d0d-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A commenter said he talks about supporting local but doesn't work for his local series. So he made one phone call.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#formulad #drifting #commentary #grassroots #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 1290.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:04:06.462087+00:00",
+   "built": "2026-11-17T15:04:06.462095+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-4/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CALLED OUT BY A COMMENTER"
+  },
+  {
+   "id": "pod-8e09411f1d0d-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Missing rounds cost him his Formula DRIFT seat, and it still eats at him. This year he made sure he did not miss a single round.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#formulad #drifting #formuladrift #outerzone #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 988.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:03:33.851140+00:00",
+   "built": "2026-11-17T15:03:33.851148+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-3/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Mike Power"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHY HE WAS REMOVED FROM FD"
+  },
+  {
+   "id": "pod-8e09411f1d0d-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Engine blown, rolled down the Corkscrew into the pits, and Cole Richards spots a hole in the block. Gridlife Laguna did not go to plan.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@colerichardz @jako13 @formulad\n\n#drifting #gridlife #lagunaseca #engineblown #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 643.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:02:33.663987+00:00",
+   "built": "2026-11-17T15:02:33.664007+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-2/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Mike Power"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "HOLE IN THE MOTOR AT LAGUNA SECA"
   },
   {
    "id": "pod-8e09411f1d0d-1",
