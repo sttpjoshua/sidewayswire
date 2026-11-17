@@ -252,7 +252,7 @@
   "check": true,
   "check_reason": "Driver identified from earlier context ('Freddie'); guest surname not stated",
   "caption": "A prototype tool flags anomalies right after a run: here 81 degrees of angle where the field averages 51. #FormulaDrift #FredricAasbo #RaceDataLabs #DriftData",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2874.16,
@@ -261,7 +261,11 @@
    "why": "technische cliffhanger"
   },
   "wait_name": "v2-070d2a07f93c-8-28730-29143.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-8/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2877.3, \"start\": 2874.16, \"text\": \"HOW MUCH ANGLE IS TOO MUCH?\", \"why\": \"technische cliffhanger\"}",
+  "made": "2026-11-17T13:35:06.799217+00:00"
  },
  {
   "start": 2928.72,
@@ -276,7 +280,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "The tech can compare every run with a driver's history. The question now: should judges be allowed to use it? #FormulaDrift #DriftJudging #RaceDataLabs #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2957.22,
@@ -285,7 +289,11 @@
    "why": "open dilemma"
   },
   "wait_name": "v2-070d2a07f93c-9-29287-29955.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-9/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2961.12, \"start\": 2957.22, \"text\": \"SHOULD DATA DECIDE THIS BATTLE?\", \"why\": \"open dilemma\"}",
+  "made": "2026-11-17T13:36:39.846357+00:00"
  },
  {
   "start": 4073.32,
@@ -300,7 +308,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "An experiment in Melbourne: if your entry lacks enough swing and rate to angle, your initiation scores zero. #Drifting #DriftAustralia #RaceDataLabs #DriftScoring",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4123.04,
@@ -309,7 +317,11 @@
    "why": "harde regel, verrassend"
   },
   "wait_name": "v2-070d2a07f93c-10-40733-41412.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-10/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4125.76, \"start\": 4123.04, \"text\": \"HOW DO YOU SCORE STYLE?\", \"why\": \"harde regel, verrassend\"}",
+  "made": "2026-11-17T13:38:13.034163+00:00"
  },
  {
   "start": 4230.58,
@@ -325,7 +337,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "A prototype gauge on the dash tells drivers live if their initiation was big enough and still chaseable. #Drifting #RaceDataLabs #FormulaDrift #DriftTech",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4290.91,
@@ -334,7 +346,11 @@
    "why": "kernvraag van de sport"
   },
   "wait_name": "v2-070d2a07f93c-11-42306-42938.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-11/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4293.85, \"start\": 4290.91, \"text\": \"WHAT MAKES AN ENTRY CHASEABLE?\", \"why\": \"kernvraag van de sport\"}",
+  "made": "2026-11-17T13:39:42.379358+00:00"
  },
  {
   "start": 4651.41,

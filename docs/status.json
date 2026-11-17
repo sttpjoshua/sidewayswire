@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T13:33:58.995621+00:00",
+ "updated": "2026-11-17T13:39:42.387157+00:00",
  "counts": {
   "check": 48,
-  "draft": 8,
+  "draft": 12,
   "posted": 3,
   "ready": 42
  },
@@ -4937,10 +4937,10 @@
       "topic": "30 DEGREES MORE THAN THE FIELD",
       "quote": "But it's saying, you know, there's more angle than usual by five sigma points. And it's, if I can even read it, because I've sort of got it. He was 81 degrees and the average is more in that particular area was 51. So he was like 30 degrees more than, than the general consensus around that spot. So it's actually trying to apply some statistical analysis on that part, give you some functional data to make a decision on. And hopefully that translates to a decision that positively impacts that call. So not only are we like identifying these anomalies, it's giving you some information about why the anomaly was detected.",
       "why": "New analysis tool flagged Fredric Aasbo at 81 degrees where the field averages 51.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-8/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4951,10 +4951,10 @@
       "topic": "SHOULD HISTORY JUDGE A RUN?",
       "quote": "We're debating where if we should even introduce this function into production, because, you know, the, the argument is should a run be judged and assessed on that run and only that run. So obviously now we're using historical data and we can identify that for it was a little bit over angled here. And, you know, if he was getting chased, was that over angling an issue? Was it okay? You know, should the the chase rider over angle as well? Should the chase driver be able to adapt? And yeah, is this information even like in the scope and the scene of that particular battle? Is it relevant? Yeah. Yeah. So yeah, right now we're we are at that point where it's like, is like we built this tool. We think it's cool. It's not in the rule book that this is a thing that, you know, we can use historical data to assess runs. We kind of do it. Judges kind of do it already with replays and other cameras.",
       "why": "The tool exists, but should a battle be judged with a driver's historical data? An open ethics debate.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-9/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4965,10 +4965,10 @@
       "topic": "ZERO POINTS FOR A LAZY ENTRY",
       "quote": "So I'm doing a competition in Australia in Melbourne. First of it in in in Australia for a couple of years, which is kind of funny. And the guy running the competition said, let your imagination run wild and do whatever you want. It's sweet. I'm like you are opening Pandora's box. But so what I'm going to do for that particular competition as an experiment is use the initiation criteria of swings, so how much you swing in the body and the right of angle and giving a score on that. Yeah, so the plan is to set up a minimum amount of initiation aggression. We can call it. So if you don't meet a certain amount of swing and a certain amount of right to angle, you basically get a zero for your initiation. And we're going to do that at each point in the track. So effectively, when you transition, there'll be like a score and you will have to meet a certain amount of swing and a certain amount of right to angle to get points for that particular area.",
       "why": "An Australian event will score initiation by body swing and rate to angle, with zero for weak entries.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-10/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4979,10 +4979,10 @@
       "topic": "A DASH GAUGE THAT GRADES YOUR FLICK",
       "quote": "So this gauge is going to tether to the device that's on the roof of the car and it's going to give live feedback to the drivers on how their initiation and transitions are. Here it goes. You can see it raised that a lot. Look at that. So yeah, it does some cool things. But basically, this is going to be a live feedback gauge that's going to sit on the dash, tether to the device that's on your roof. Yeah, how you transition around the course is going to show up live immediately on that gauge. So you'll know if your initiation is not just is not just standard or if you're over transitioning like if you back it in, it's going to give you like another alert. So basically a training tool, but also a mechanism for drivers to get the perfect initiation and it's and it's chaseable. So yeah, the big conversation is right now is, you know, what is a chaseable and unchaseable initiation?",
       "why": "Prototype dash gauge gives drivers live green/yellow/red feedback on initiations.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-11/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -6854,6 +6854,163 @@
    "caption_by": null,
    "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-070d2a07f93c-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A prototype gauge on the dash tells drivers live if their initiation was big enough and still chaseable.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#Drifting #RaceDataLabs #FormulaDrift #DriftTech #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 4230.58
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:39:42.380735+00:00",
+   "built": "2026-11-17T13:39:42.380741+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-11/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "A DASH GAUGE THAT GRADES YOUR FLICK"
+  },
+  {
+   "id": "pod-070d2a07f93c-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "An experiment in Melbourne: if your entry lacks enough swing and rate to angle, your initiation scores zero.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#Drifting #DriftAustralia #RaceDataLabs #DriftScoring #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 4073.32
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:38:13.035511+00:00",
+   "built": "2026-11-17T13:38:13.035518+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-10/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "ZERO POINTS FOR A LAZY ENTRY"
+  },
+  {
+   "id": "pod-070d2a07f93c-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The tech can compare every run with a driver's history. The question now: should judges be allowed to use it?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #DriftJudging #RaceDataLabs #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 2928.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:36:39.847729+00:00",
+   "built": "2026-11-17T13:36:39.847736+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-9/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHOULD HISTORY JUDGE A RUN?"
+  },
+  {
+   "id": "pod-070d2a07f93c-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A prototype tool flags anomalies right after a run: here 81 degrees of angle where the field averages 51.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @fredricaasbo @jako13\n\n#FormulaDrift #FredricAasbo #RaceDataLabs #DriftData #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 2873.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:35:06.800526+00:00",
+   "built": "2026-11-17T13:35:06.800531+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-8/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@fredricaasbo",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "30 DEGREES MORE THAN THE FIELD"
   },
   {
    "id": "pod-070d2a07f93c-7",
