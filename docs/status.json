@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T23:54:06.527846+00:00",
+ "updated": "2026-11-17T00:45:41.666367+00:00",
  "counts": {
-  "check": 11,
-  "ready": 31,
-  "draft": 30
+  "check": 10,
+  "ready": 28,
+  "draft": 34
  },
  "collected": "2026-11-16T23:54:06.460615+00:00",
  "instagram": false,
@@ -3325,45 +3325,6 @@
    "title": "FACING JAMES DOES NOT CHANGE ANYTHING"
   },
   {
-   "id": "pod-6892a8b1e411-2",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-21T07:30:00+00:00",
-   "posted_at": null,
-   "caption": "Tommy Lemaire on his C7 Corvette: if you do something great it looks great, but even a tiny correction looks big.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 1353.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:35:56.709870+00:00",
-   "built": "2026-11-16T21:56:41.550081+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-2/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "WHY THE CORVETTE MAKES TINY MISTAKES LOOK BIG"
-  },
-  {
    "id": "pod-6892a8b1e411-19",
    "kind": "podcast_clip",
    "status": "ready",
@@ -3715,84 +3676,6 @@
    "title": "THREE ENGINES IN ONE SEASON"
   },
   {
-   "id": "pod-6892a8b1e411-1",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-19T07:30:00+00:00",
-   "posted_at": null,
-   "caption": "Tommy Lemaire's off-season: back to Norway for ice drifting, and new wiring after a fire in the Corvette.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #icedrifting #drifting #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 1222.36
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:35:16.089041+00:00",
-   "built": "2026-11-16T21:56:41.536110+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-1/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "OFF-SEASON: NORWAY, ICE AND NEW WIRING"
-  },
-  {
-   "id": "pod-6892a8b1e411-0",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-18T22:00:00+00:00",
-   "posted_at": null,
-   "caption": "Qualify 5th or 25th, you get the same points if you go out early. Tommy Lemaire thinks Formula DRIFT should change that.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 566.14
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:34:25.587314+00:00",
-   "built": "2026-11-16T21:56:41.534763+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-0/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "QUALIFYING SHOULD PAY MORE POINTS"
-  },
-  {
    "id": "pod-1298fd1c600b-8",
    "kind": "podcast_clip",
    "status": "ready",
@@ -4142,6 +4025,154 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-6892a8b1e411-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire on his C7 Corvette: if you do something great it looks great, but even a tiny correction looks big.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 1353.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:35:56.709870+00:00",
+   "built": "2026-11-17T00:45:41.659901+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-2/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "WHY THE CORVETTE MAKES TINY MISTAKES LOOK BIG"
+  },
+  {
+   "id": "pod-6892a8b1e411-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire's off-season: back to Norway for ice drifting, and new wiring after a fire in the Corvette.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #icedrifting #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 1222.36
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:35:16.089041+00:00",
+   "built": "2026-11-17T00:44:24.910457+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-1/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "OFF-SEASON: NORWAY, ICE AND NEW WIRING"
+  },
+  {
+   "id": "pod-6892a8b1e411-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Qualify 5th or 25th, you get the same points if you go out early. Tommy Lemaire thinks Formula DRIFT should change that.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 566.14
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:34:25.587314+00:00",
+   "built": "2026-11-17T00:42:52.920377+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-0/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "QUALIFYING SHOULD PAY MORE POINTS"
+  },
+  {
+   "id": "pod-4ff63fdc1bd8-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\n🎙 Full episode: The SileightyMania Podcast\n@sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@sileightymania",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The SileightyMania Podcast",
+    "episode": "Keisuke Nagashima’s D1NZ Championship AE86 | Auto Biography",
+    "start": 65.45
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T16:22:14.001131+00:00",
+   "built": "2026-11-17T00:41:44.890190+00:00",
+   "want_at": null,
+   "video": "media/pod-4ff63fdc1bd8-0/clip.mp4",
+   "tags": [
+    "@sileightymania"
+   ],
+   "missing_handles": [
+    "Keisuke Nagashima"
+   ],
+   "caption_by": null,
+   "title": "BOUGHT AS A BARE SHELL"
   },
   {
    "id": "pod-da5d8825120e-5",
@@ -5454,45 +5485,6 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL"
-  },
-  {
-   "id": "pod-4ff63fdc1bd8-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\n🎙 Full episode: The SileightyMania Podcast\n@sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
-   "media": [
-    "media/pod-4ff63fdc1bd8-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@sileightymania",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The SileightyMania Podcast",
-    "episode": "Keisuke Nagashima’s D1NZ Championship AE86 | Auto Biography",
-    "start": 65.45
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T16:22:14.001131+00:00",
-   "built": "2026-11-16T21:56:41.533379+00:00",
-   "want_at": null,
-   "video": "media/pod-4ff63fdc1bd8-0/clip.mp4",
-   "tags": [
-    "@sileightymania"
-   ],
-   "missing_handles": [
-    "Keisuke Nagashima"
-   ],
-   "caption_by": null,
-   "title": "BOUGHT AS A BARE SHELL"
   },
   {
    "id": "pod-1298fd1c600b-4",

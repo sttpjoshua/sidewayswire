@@ -1,11 +1,17 @@
 {
  "id": "pod-6892a8b1e411-2",
  "kind": "podcast_clip",
- "status": "ready",
+ "status": "draft",
  "slides": [],
  "title": "WHY THE CORVETTE MAKES TINY MISTAKES LOOK BIG",
  "video": "docs/media/pod-6892a8b1e411-2/clip.mp4",
  "caption": "Tommy Lemaire on his C7 Corvette: if you do something great it looks great, but even a tiny correction looks big.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
+ "tags": [
+  "@tommy.lemaire",
+  "@formulad",
+  "@jako13"
+ ],
+ "missing_handles": [],
  "credit": "@formulad",
  "check": false,
  "check_reason": "",
@@ -21,16 +27,5 @@
   "start": 1353.7
  },
  "created": "2026-11-16T19:35:56.709870+00:00",
- "built": "2026-11-16T21:56:41.550081+00:00",
- "tags": [
-  "@tommy.lemaire",
-  "@formulad",
-  "@jako13"
- ],
- "missing_handles": [],
- "media": [
-  "docs/media/pod-6892a8b1e411-2/clip.mp4"
- ],
- "problems": [],
- "post_at": "2026-11-21T07:30:00+00:00"
+ "built": "2026-11-17T00:45:41.659901+00:00"
 }
