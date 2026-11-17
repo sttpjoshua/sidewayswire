@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-10",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "'THAT'S IMPOSSIBLE'",
  "video": "docs/media/pod-8e09411f1d0d-10/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 2845.02
  },
  "created": "2026-11-17T15:09:28.470155+00:00",
- "built": "2026-11-17T15:09:28.470165+00:00"
+ "built": "2026-11-17T18:09:52.838688+00:00",
+ "media": [
+  "docs/media/pod-8e09411f1d0d-10/clip.mp4"
+ ],
+ "problems": []
 }

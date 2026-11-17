@@ -1,7 +1,7 @@
 {
  "id": "pod-c82113ef8385-1",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "VEGAS HEAT COOKED THE GRID",
  "video": "docs/media/pod-c82113ef8385-1/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 161.16
  },
  "created": "2026-11-17T15:54:23.295752+00:00",
- "built": "2026-11-17T15:54:23.295759+00:00"
+ "built": "2026-11-17T18:09:52.850243+00:00",
+ "media": [
+  "docs/media/pod-c82113ef8385-1/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-6",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "JACK SHANAHAN: NEW CAR IN 4 WEEKS",
  "video": "docs/media/pod-5687ca1c5a65-6/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 668.48
  },
  "created": "2026-11-17T14:54:19.978835+00:00",
- "built": "2026-11-17T14:54:19.978841+00:00"
+ "built": "2026-11-17T18:09:52.837384+00:00",
+ "media": [
+  "docs/media/pod-5687ca1c5a65-6/clip.mp4"
+ ],
+ "problems": []
 }

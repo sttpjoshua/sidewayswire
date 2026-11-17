@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-14",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HOW HE PITCHED MATT FIELD",
  "video": "docs/media/pod-3fa7ee22a33c-14/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 3521.65
  },
  "created": "2026-11-17T14:22:27.537530+00:00",
- "built": "2026-11-17T14:22:27.537537+00:00"
+ "built": "2026-11-17T18:09:52.724102+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-14/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-03T19:30:00+00:00"
 }

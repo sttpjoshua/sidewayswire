@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-10",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "WHERE OEM+ ENDS",
  "video": "docs/media/pod-b9e6971ba742-10/clip.mp4",
@@ -26,5 +26,9 @@
   "start": 1951.49
  },
  "created": "2026-11-17T15:50:54.593108+00:00",
- "built": "2026-11-17T16:33:27.135895+00:00"
+ "built": "2026-11-17T18:09:52.847939+00:00",
+ "media": [
+  "docs/media/pod-b9e6971ba742-10/clip.mp4"
+ ],
+ "problems": []
 }

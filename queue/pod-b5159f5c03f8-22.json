@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-22",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "A JOKE THAT BECAME FINAL BOUT",
  "video": "docs/media/pod-b5159f5c03f8-22/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 9010.88
  },
  "created": "2026-11-17T15:40:26.034214+00:00",
- "built": "2026-11-17T16:19:08.006567+00:00"
+ "built": "2026-11-17T18:09:52.845511+00:00",
+ "media": [
+  "docs/media/pod-b5159f5c03f8-22/clip.mp4"
+ ],
+ "problems": []
 }

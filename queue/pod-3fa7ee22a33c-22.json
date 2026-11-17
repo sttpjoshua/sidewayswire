@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-22",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "COTRONE EPISODE COMING",
  "video": "docs/media/pod-3fa7ee22a33c-22/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 4933.07
  },
  "created": "2026-11-17T14:30:57.881286+00:00",
- "built": "2026-11-17T14:30:57.881294+00:00"
+ "built": "2026-11-17T18:09:52.782120+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-22/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-31T11:30:00+00:00"
 }

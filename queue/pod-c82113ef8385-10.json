@@ -1,7 +1,7 @@
 {
  "id": "pod-c82113ef8385-10",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "NINE FLIGHTS CHANGED IN ONE YEAR",
  "video": "docs/media/pod-c82113ef8385-10/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 896.58
  },
  "created": "2026-11-17T16:03:07.646351+00:00",
- "built": "2026-11-17T16:03:07.646360+00:00"
+ "built": "2026-11-17T18:09:52.850444+00:00",
+ "media": [
+  "docs/media/pod-c82113ef8385-10/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FOUR ENGINES IN ONE ROOKIE SEASON",
  "video": "docs/media/pod-8e09411f1d0d-5/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 1651.38
  },
  "created": "2026-11-17T15:04:49.064410+00:00",
- "built": "2026-11-17T15:04:49.064417+00:00"
+ "built": "2026-11-17T18:09:52.841301+00:00",
+ "media": [
+  "docs/media/pod-8e09411f1d0d-5/clip.mp4"
+ ],
+ "problems": []
 }

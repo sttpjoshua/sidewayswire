@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-20",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "DRIFT NEEDS DRIVE TO SURVIVE",
  "video": "docs/media/pod-3fa7ee22a33c-20/clip.mp4",
@@ -31,5 +31,9 @@
   "start": 4616.85
  },
  "created": "2026-11-17T14:29:00.347922+00:00",
- "built": "2026-11-17T14:29:00.347931+00:00"
+ "built": "2026-11-17T18:09:52.769511+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-20/clip.mp4"
+ ],
+ "problems": []
 }

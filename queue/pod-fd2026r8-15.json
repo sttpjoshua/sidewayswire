@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-15",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "LEMAIRE VS RICHARDS",
  "video": "docs/media/pod-fd2026r8-15/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 8941
  },
  "created": "2026-11-17T01:42:47.205156+00:00",
- "built": "2026-11-17T16:10:16.378022+00:00"
+ "built": "2026-11-17T18:09:52.917124+00:00",
+ "media": [
+  "docs/media/pod-fd2026r8-15/clip.mp4"
+ ],
+ "problems": []
 }

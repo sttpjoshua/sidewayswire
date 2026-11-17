@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-2",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "NO SMOKING AT A DRIFT EVENT",
  "video": "docs/media/pod-5687ca1c5a65-2/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 246.4
  },
  "created": "2026-11-17T14:50:22.777911+00:00",
- "built": "2026-11-17T14:50:22.777917+00:00"
+ "built": "2026-11-17T18:09:52.836458+00:00",
+ "media": [
+  "docs/media/pod-5687ca1c5a65-2/clip.mp4"
+ ],
+ "problems": []
 }

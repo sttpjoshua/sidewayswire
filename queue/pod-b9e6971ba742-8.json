@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-8",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "500 HP JUNKYARD 5.3 VS CIVIC",
  "video": "docs/media/pod-b9e6971ba742-8/clip.mp4",
@@ -26,5 +26,9 @@
   "start": 1701.83
  },
  "created": "2026-11-17T15:49:16.658530+00:00",
- "built": "2026-11-17T15:49:16.658536+00:00"
+ "built": "2026-11-17T18:09:52.849606+00:00",
+ "media": [
+  "docs/media/pod-b9e6971ba742-8/clip.mp4"
+ ],
+ "problems": []
 }

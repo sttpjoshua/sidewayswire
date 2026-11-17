@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-14",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "DONE WITH DRIFTING?",
  "video": "docs/media/pod-b5159f5c03f8-14/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 5357.81
  },
  "created": "2026-11-17T15:32:04.720260+00:00",
- "built": "2026-11-17T15:32:04.720269+00:00"
+ "built": "2026-11-17T18:09:52.843633+00:00",
+ "media": [
+  "docs/media/pod-b5159f5c03f8-14/clip.mp4"
+ ],
+ "problems": []
 }

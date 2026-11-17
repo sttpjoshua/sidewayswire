@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-16",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ALREADY BUILDING FOR 2027",
  "video": "docs/media/pod-3fa7ee22a33c-16/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 3900.81
  },
  "created": "2026-11-17T14:24:49.104450+00:00",
- "built": "2026-11-17T14:24:49.104456+00:00"
+ "built": "2026-11-17T18:09:52.745525+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-16/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-30T19:30:00+00:00"
 }

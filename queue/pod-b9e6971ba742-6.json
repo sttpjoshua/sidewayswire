@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-6",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "STREET RACING CHARGES TO OEM+",
  "video": "docs/media/pod-b9e6971ba742-6/clip.mp4",
@@ -26,5 +26,9 @@
   "start": 1471.21
  },
  "created": "2026-11-17T15:47:27.725623+00:00",
- "built": "2026-11-17T16:29:55.382681+00:00"
+ "built": "2026-11-17T18:09:52.849201+00:00",
+ "media": [
+  "docs/media/pod-b9e6971ba742-6/clip.mp4"
+ ],
+ "problems": []
 }

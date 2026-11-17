@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-0",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "BEST PROSPEC SEASON EVER?",
  "video": "docs/media/pod-441d4b7291ad-0/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 4.38
  },
  "created": "2026-11-17T14:38:32.682236+00:00",
- "built": "2026-11-17T14:38:32.682246+00:00"
+ "built": "2026-11-17T18:09:52.820938+00:00",
+ "media": [
+  "docs/media/pod-441d4b7291ad-0/clip.mp4"
+ ],
+ "problems": []
 }

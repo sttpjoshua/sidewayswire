@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-17",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "$500 AND A FILM DREAM",
  "video": "docs/media/pod-3fa7ee22a33c-17/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 3972.51
  },
  "created": "2026-11-17T14:25:50.351810+00:00",
- "built": "2026-11-17T14:25:50.351818+00:00"
+ "built": "2026-11-17T18:09:52.768722+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-17/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-30T22:00:00+00:00"
 }

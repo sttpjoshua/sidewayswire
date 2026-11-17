@@ -1,7 +1,7 @@
 {
  "id": "pod-c82113ef8385-9",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "MATT FIELD'S VEGAS BIRTHDAY",
  "video": "docs/media/pod-c82113ef8385-9/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 817.02
  },
  "created": "2026-11-17T16:02:25.700931+00:00",
- "built": "2026-11-17T16:02:25.700939+00:00"
+ "built": "2026-11-17T18:09:52.916225+00:00",
+ "media": [
+  "docs/media/pod-c82113ef8385-9/clip.mp4"
+ ],
+ "problems": []
 }

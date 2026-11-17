@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-27",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "TOP 10 OR BUST",
  "video": "docs/media/pod-3fa7ee22a33c-27/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 6065.91
  },
  "created": "2026-11-17T14:35:49.875477+00:00",
- "built": "2026-11-17T14:35:49.875484+00:00"
+ "built": "2026-11-17T18:09:52.820168+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-27/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-01T11:30:00+00:00"
 }

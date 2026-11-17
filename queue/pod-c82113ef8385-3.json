@@ -1,7 +1,7 @@
 {
  "id": "pod-c82113ef8385-3",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK'S CAR: JUST TIRES AND FUEL",
  "video": "docs/media/pod-c82113ef8385-3/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 319.22
  },
  "created": "2026-11-17T15:56:21.709516+00:00",
- "built": "2026-11-17T15:56:21.709524+00:00"
+ "built": "2026-11-17T18:09:52.863604+00:00",
+ "media": [
+  "docs/media/pod-c82113ef8385-3/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-01T22:00:00+00:00"
 }

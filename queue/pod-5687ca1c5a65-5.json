@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "ADAM LZ'S PRO CAR: NEW PLANS?",
  "video": "docs/media/pod-5687ca1c5a65-5/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 601.76
  },
  "created": "2026-11-17T14:53:19.827454+00:00",
- "built": "2026-11-17T14:53:19.827461+00:00"
+ "built": "2026-11-17T18:09:52.837175+00:00",
+ "media": [
+  "docs/media/pod-5687ca1c5a65-5/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-3",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "SWISS COILOVERS: 30% MORE AND A TEST",
  "video": "docs/media/pod-b5159f5c03f8-3/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 903.16
  },
  "created": "2026-11-17T15:21:37.640988+00:00",
- "built": "2026-11-17T15:21:37.641016+00:00"
+ "built": "2026-11-17T18:09:52.846045+00:00",
+ "media": [
+  "docs/media/pod-b5159f5c03f8-3/clip.mp4"
+ ],
+ "problems": []
 }

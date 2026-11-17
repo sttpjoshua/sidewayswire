@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-18",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "LINKIN PARK CONNECTION",
  "video": "docs/media/pod-3fa7ee22a33c-18/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 4438.93
  },
  "created": "2026-11-17T14:26:44.745462+00:00",
- "built": "2026-11-17T14:26:44.745471+00:00"
+ "built": "2026-11-17T18:09:52.769043+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-18/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-12",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "TWO LAPS, ONE WALL",
  "video": "docs/media/pod-3fa7ee22a33c-12/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 3211.41
  },
  "created": "2026-11-17T14:20:35.044788+00:00",
- "built": "2026-11-17T14:20:35.044798+00:00"
+ "built": "2026-11-17T18:09:52.704422+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-12/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-01T19:30:00+00:00"
 }

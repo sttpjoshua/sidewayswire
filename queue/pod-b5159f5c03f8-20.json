@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-20",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE NIGHT AT THE JUDGES' TABLE",
  "video": "docs/media/pod-b5159f5c03f8-20/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 8501.84
  },
  "created": "2026-11-17T15:38:06.394726+00:00",
- "built": "2026-11-17T16:16:05.053529+00:00"
+ "built": "2026-11-17T18:09:52.845109+00:00",
+ "media": [
+  "docs/media/pod-b5159f5c03f8-20/clip.mp4"
+ ],
+ "problems": []
 }

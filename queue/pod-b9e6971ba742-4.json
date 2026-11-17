@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-4",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "COLD AIR INTAKES DON'T MAKE POWER",
  "video": "docs/media/pod-b9e6971ba742-4/clip.mp4",
@@ -26,5 +26,9 @@
   "start": 966.13
  },
  "created": "2026-11-17T15:45:48.477306+00:00",
- "built": "2026-11-17T16:27:30.361863+00:00"
+ "built": "2026-11-17T18:09:52.848773+00:00",
+ "media": [
+  "docs/media/pod-b9e6971ba742-4/clip.mp4"
+ ],
+ "problems": []
 }

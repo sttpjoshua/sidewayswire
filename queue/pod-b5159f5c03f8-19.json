@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-19",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "100K CAR OR 10K CAR, SAME LOVE",
  "video": "docs/media/pod-b5159f5c03f8-19/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 6955.38
  },
  "created": "2026-11-17T15:36:56.563556+00:00",
- "built": "2026-11-17T15:36:56.563564+00:00"
+ "built": "2026-11-17T18:09:52.844680+00:00",
+ "media": [
+  "docs/media/pod-b5159f5c03f8-19/clip.mp4"
+ ],
+ "problems": []
 }

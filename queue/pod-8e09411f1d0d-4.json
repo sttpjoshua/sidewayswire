@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-4",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "CALLED OUT BY A COMMENTER",
  "video": "docs/media/pod-8e09411f1d0d-4/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 1290.88
  },
  "created": "2026-11-17T15:04:06.462087+00:00",
- "built": "2026-11-17T15:04:06.462095+00:00"
+ "built": "2026-11-17T18:09:52.841097+00:00",
+ "media": [
+  "docs/media/pod-8e09411f1d0d-4/clip.mp4"
+ ],
+ "problems": []
 }

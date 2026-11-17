@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-6",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "NEW CHASSIS AND STROKER 2JZ FOR NEXT YEAR",
  "video": "docs/media/pod-8e09411f1d0d-6/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 2027.16
  },
  "created": "2026-11-17T15:05:54.852227+00:00",
- "built": "2026-11-17T15:05:54.852236+00:00"
+ "built": "2026-11-17T18:09:52.841509+00:00",
+ "media": [
+  "docs/media/pod-8e09411f1d0d-6/clip.mp4"
+ ],
+ "problems": []
 }

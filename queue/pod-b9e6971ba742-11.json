@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-11",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE WING THAT BROKE THE INTERNET",
  "video": "docs/media/pod-b9e6971ba742-11/clip.mp4",
@@ -26,5 +26,9 @@
   "start": 2044.91
  },
  "created": "2026-11-17T15:52:14.064907+00:00",
- "built": "2026-11-17T16:35:12.654566+00:00"
+ "built": "2026-11-17T18:09:52.848141+00:00",
+ "media": [
+  "docs/media/pod-b9e6971ba742-11/clip.mp4"
+ ],
+ "problems": []
 }

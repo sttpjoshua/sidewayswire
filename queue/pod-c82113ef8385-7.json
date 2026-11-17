@@ -1,7 +1,7 @@
 {
  "id": "pod-c82113ef8385-7",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CONOR'S 12-YEAR-OLD DREAM",
  "video": "docs/media/pod-c82113ef8385-7/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 681.88
  },
  "created": "2026-11-17T16:00:24.339049+00:00",
- "built": "2026-11-17T16:00:24.339058+00:00"
+ "built": "2026-11-17T18:09:52.902896+00:00",
+ "media": [
+  "docs/media/pod-c82113ef8385-7/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-02T22:00:00+00:00"
 }

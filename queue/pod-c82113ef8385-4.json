@@ -1,7 +1,7 @@
 {
  "id": "pod-c82113ef8385-4",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "MATT FIELD: 'I'M BORED'",
  "video": "docs/media/pod-c82113ef8385-4/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 416.66
  },
  "created": "2026-11-17T15:57:30.480345+00:00",
- "built": "2026-11-17T15:57:30.480355+00:00"
+ "built": "2026-11-17T18:09:52.876711+00:00",
+ "media": [
+  "docs/media/pod-c82113ef8385-4/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-02T11:30:00+00:00"
 }

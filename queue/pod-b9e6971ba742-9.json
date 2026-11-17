@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-9",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "CORVETTE GUYS CATCH STRAYS",
  "video": "docs/media/pod-b9e6971ba742-9/clip.mp4",
@@ -26,5 +26,9 @@
   "start": 1807.23
  },
  "created": "2026-11-17T15:49:50.078598+00:00",
- "built": "2026-11-17T16:31:48.237957+00:00"
+ "built": "2026-11-17T18:09:52.849835+00:00",
+ "media": [
+  "docs/media/pod-b9e6971ba742-9/clip.mp4"
+ ],
+ "problems": []
 }

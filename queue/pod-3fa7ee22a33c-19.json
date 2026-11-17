@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-19",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "BIG INTERCLIP NEWS COMING?",
  "video": "docs/media/pod-3fa7ee22a33c-19/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 4530.13
  },
  "created": "2026-11-17T14:27:48.008627+00:00",
- "built": "2026-11-17T14:27:48.008634+00:00"
+ "built": "2026-11-17T18:09:52.769290+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-19/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-1",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FROM TALENT TO HARD WORK",
  "video": "docs/media/pod-8e09411f1d0d-1/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 470.46
  },
  "created": "2026-11-17T15:01:40.405355+00:00",
- "built": "2026-11-17T15:01:40.405363+00:00"
+ "built": "2026-11-17T18:09:52.838481+00:00",
+ "media": [
+  "docs/media/pod-8e09411f1d0d-1/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-8",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "JACK: TOO HARD IN THE FINAL?",
  "video": "docs/media/pod-5687ca1c5a65-8/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 767.1
  },
  "created": "2026-11-17T14:56:22.631414+00:00",
- "built": "2026-11-17T14:56:22.631418+00:00"
+ "built": "2026-11-17T18:09:52.837840+00:00",
+ "media": [
+  "docs/media/pod-5687ca1c5a65-8/clip.mp4"
+ ],
+ "problems": []
 }

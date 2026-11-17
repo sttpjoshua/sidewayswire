@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-3",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "GT-R TURBOS ON A VQ37",
  "video": "docs/media/pod-b9e6971ba742-3/clip.mp4",
@@ -26,5 +26,9 @@
   "start": 859.35
  },
  "created": "2026-11-17T15:44:57.221769+00:00",
- "built": "2026-11-17T16:26:18.784818+00:00"
+ "built": "2026-11-17T18:09:52.848544+00:00",
+ "media": [
+  "docs/media/pod-b9e6971ba742-3/clip.mp4"
+ ],
+ "problems": []
 }

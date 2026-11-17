@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-7",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "BRIAN WILLS' BMW: HOT TAKE",
  "video": "docs/media/pod-441d4b7291ad-7/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 482.04
  },
  "created": "2026-11-17T14:45:14.151760+00:00",
- "built": "2026-11-17T14:45:14.151764+00:00"
+ "built": "2026-11-17T18:09:52.822414+00:00",
+ "media": [
+  "docs/media/pod-441d4b7291ad-7/clip.mp4"
+ ],
+ "problems": []
 }

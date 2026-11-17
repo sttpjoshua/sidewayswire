@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-9",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "WHY HIS FD CAR GOT WALKED",
  "video": "docs/media/pod-8e09411f1d0d-9/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 2795.04
  },
  "created": "2026-11-17T15:08:34.821382+00:00",
- "built": "2026-11-17T15:08:34.821390+00:00"
+ "built": "2026-11-17T18:09:52.842183+00:00",
+ "media": [
+  "docs/media/pod-8e09411f1d0d-9/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-29",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "1JZ G SEDAN FOR RIDES",
  "video": "docs/media/pod-3fa7ee22a33c-29/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 6403.71
  },
  "created": "2026-11-17T14:37:31.935882+00:00",
- "built": "2026-11-17T14:37:31.935897+00:00"
+ "built": "2026-11-17T18:09:52.820712+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-29/clip.mp4"
+ ],
+ "problems": []
 }

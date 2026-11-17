@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-2",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "LICENSED 2 WEEKS, STRAIGHT TO TRACK",
  "video": "docs/media/pod-b5159f5c03f8-2/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 673.12
  },
  "created": "2026-11-17T15:20:32.860868+00:00",
- "built": "2026-11-17T15:20:32.860876+00:00"
+ "built": "2026-11-17T18:09:52.844905+00:00",
+ "media": [
+  "docs/media/pod-b5159f5c03f8-2/clip.mp4"
+ ],
+ "problems": []
 }

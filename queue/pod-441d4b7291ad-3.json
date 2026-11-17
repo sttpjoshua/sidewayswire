@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-3",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THREE LAPS PER TIRE",
  "video": "docs/media/pod-441d4b7291ad-3/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 191.5
  },
  "created": "2026-11-17T14:41:24.747405+00:00",
- "built": "2026-11-17T14:41:24.747414+00:00"
+ "built": "2026-11-17T18:09:52.821573+00:00",
+ "media": [
+  "docs/media/pod-441d4b7291ad-3/clip.mp4"
+ ],
+ "problems": []
 }

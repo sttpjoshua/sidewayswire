@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-1",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE SWISS TRAILER EXAM TRAP",
  "video": "docs/media/pod-b5159f5c03f8-1/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 388.28
  },
  "created": "2026-11-17T15:19:18.252453+00:00",
- "built": "2026-11-17T15:19:18.252460+00:00"
+ "built": "2026-11-17T18:09:52.842595+00:00",
+ "media": [
+  "docs/media/pod-b5159f5c03f8-1/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-7",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "WHY JACK WANTS A NEW CAR",
  "video": "docs/media/pod-5687ca1c5a65-7/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 708.8
  },
  "created": "2026-11-17T14:55:27.401590+00:00",
- "built": "2026-11-17T14:55:27.401596+00:00"
+ "built": "2026-11-17T18:09:52.837602+00:00",
+ "media": [
+  "docs/media/pod-5687ca1c5a65-7/clip.mp4"
+ ],
+ "problems": []
 }

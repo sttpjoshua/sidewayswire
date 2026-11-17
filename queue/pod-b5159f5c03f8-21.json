@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-21",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "SWISS GUY VS AMERICAN BEER LAWS",
  "video": "docs/media/pod-b5159f5c03f8-21/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 8869.04
  },
  "created": "2026-11-17T15:39:18.521675+00:00",
- "built": "2026-11-17T16:17:39.622507+00:00"
+ "built": "2026-11-17T18:09:52.845312+00:00",
+ "media": [
+  "docs/media/pod-b5159f5c03f8-21/clip.mp4"
+ ],
+ "problems": []
 }
