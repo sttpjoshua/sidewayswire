@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:47:27.732879+00:00",
+ "updated": "2026-11-17T15:50:54.600909+00:00",
  "counts": {
   "ready": 102,
-  "draft": 93,
+  "draft": 97,
   "check": 26,
   "posted": 3
  },
@@ -3636,10 +3636,10 @@
       "topic": "WHY TYPE RS GOT STOLEN",
       "quote": "That ultimately led, especially in like the Honda and Nissan world, to a lot of theft. And I think it's, you know, it's pretty well known. Type Rs were constantly getting stolen. GSRs, you know, losing their engine transmission, wheels, brakes, seats, all that kind of stuff. So it definitely had a negative impact, but it was also a positive one because it got everybody modified and going nuts with building cars, you know. Especially we're talking, you know, like late 90s, early 2000s. I mean, it was insane how many people had built coming out. So, you know, there's the good and the bad, right? Because it definitely led to a lot more theft because people wanted to get those parts and they weren't willing to buy them. So there's a problem.",
       "why": "How the hunt for higher-trim parts fuelled the late 90s Type R and GSR theft wave.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-7/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3650,10 +3650,10 @@
       "topic": "500 HP JUNKYARD 5.3 VS CIVIC",
       "quote": "But even a junkyard cast iron 5 .3 liter can make 500 horsepower with the right setup in it. And you don't have that with a civic, let's say, like you're not, you're not going to be able to run out there and make a natural aspirated civic, make 500 horsepower. Like that's not a normal thing. And you're not going to probably be wanting to drive it once it is making 500 natural, natural aspirated horsepower. It's going to be quite a handful. I'm sure. So my, the thing that I think is that was always just the chase of how to make quick power, how to make it cheap. How to have a fast car. It was never about, hey, I need this part because it makes the car more like the higher trim level. You know, nobody was putting a Hellcat motor in their scat pack to make it a Hellcat. They were just doing it to have a fast scat pack.",
       "why": "Domestic vs import: a junkyard LS makes 500 hp, a Civic never will.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-8/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3664,10 +3664,10 @@
       "topic": "CORVETTE GUYS CATCH STRAYS",
       "quote": "That's the same thing with the Volkswagen crowd. And I think even the Corvette crowd too, right? Like the Corvette guys are like that way too, you know, that I don't, I don't know anything about high socks, new balances and tan shorts. I'm just saying they could all catch strays. It's okay. You know me, I have much more. I'll take my, my problems circled, you know, nice little Ford logo or the Nissan one. They circle my problems. I already know what I have. Don't worry.",
       "why": "Lighthearted roast of Corvette owners, then a self-own about Ford and Nissan.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-9/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3678,10 +3678,10 @@
       "topic": "WHERE OEM+ ENDS",
       "quote": "So for me, to see Audi parts on a Volkswagen is not uncommon. You know, to see, you know, S3 parts on a Jetta or what I don't know how it exactly works. But my point being to see those crossovers, not that big of a deal, where I start to have the issue is where it's like, oh, but for instance, we talked about it when we're talking about the OEM wheels. Check out that podcast if you haven't. I had Mustang wheels on my Nissan. To me, that's not OEM plus, even if it's a Mustang wheel off of a OEM car, because we've now switched genres, let's say, to me, or, you know, switch manufacturers, it's a completely no longer the case. It's always been that DNA, that continuation of the brand, makes it the OEM plus as in they've made the car better than what the manufacturer could by using the main or what the manufacturer could have made the car to be by using manufacturer parts. I guess is the way that I define it.",
       "why": "A clear rule: OEM+ means parts from the same brand family, Mustang wheels on a Nissan don't count.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-10/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,150 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-b9e6971ba742-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Audi parts on a VW? OEM+. Mustang wheels on a Nissan? Not even close. Where do you draw the OEM+ line?\n\n🎙 Full episode: Behind The Wheel\n\n#OEMplus #Nissan #Mustang #Volkswagen #CarCulture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1951.49
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:50:54.593108+00:00",
+   "built": "2026-11-17T15:50:54.593117+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-10/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHERE OEM+ ENDS"
+  },
+  {
+   "id": "pod-b9e6971ba742-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "High socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n\n🎙 Full episode: Behind The Wheel\n\n#Corvette #Nissan #Ford #CarCulture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1807.23
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:49:50.078598+00:00",
+   "built": "2026-11-17T15:49:50.078608+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-9/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CORVETTE GUYS CATCH STRAYS"
+  },
+  {
+   "id": "pod-b9e6971ba742-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A junkyard 5.3 can make 500 hp with the right setup. A naturally aspirated Civic? Good luck. Why the V8 crowd chases power, not trim levels.\n\n🎙 Full episode: Behind The Wheel\n\n#LSswap #Hellcat #Honda #V8 #CarCulture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1701.83
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:49:16.658530+00:00",
+   "built": "2026-11-17T15:49:16.658536+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-8/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "500 HP JUNKYARD 5.3 VS CIVIC"
+  },
+  {
+   "id": "pod-b9e6971ba742-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n\n🎙 Full episode: Behind The Wheel\n\n#TypeR #IntegraGSR #Honda #JDM #CarCulture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1550.43
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:48:22.718057+00:00",
+   "built": "2026-11-17T15:48:22.718064+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-7/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHY TYPE RS GOT STOLEN"
   },
   {
    "id": "pod-b9e6971ba742-6",

@@ -213,7 +213,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "The OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves. #TypeR #IntegraGSR #Honda #JDM #CarCulture",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1558.83,
@@ -223,7 +223,11 @@
   },
   "photo_hint": "Acura Integra Type R or GSR",
   "wait_name": "v2-b9e6971ba742-7-15504-15939.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-7/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1560.97, \"start\": 1558.83, \"text\": \"WHY WERE THESE HONDAS ALWAYS GONE?\", \"why\": \"herkenbaar stukje geschiedenis\"}",
+  "made": "2026-11-17T15:48:22.717056+00:00"
  },
  {
   "start": 1701.83,
@@ -238,7 +242,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "A junkyard 5.3 can make 500 hp with the right setup. A naturally aspirated Civic? Good luck. Why the V8 crowd chases power, not trim levels. #LSswap #Hellcat #Honda #V8 #CarCulture",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1745.19,
@@ -248,7 +252,11 @@
   },
   "photo_hint": "Junkyard 5.3 LS engine",
   "wait_name": "v2-b9e6971ba742-8-17018-17507.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-8/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1748.53, \"start\": 1745.19, \"text\": \"WHY V8 GUYS DON'T DO OEM+?\", \"why\": \"vergelijking V8 vs Honda\"}",
+  "made": "2026-11-17T15:49:16.657546+00:00"
  },
  {
   "start": 1807.23,
@@ -263,7 +271,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "High socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too. #Corvette #Nissan #Ford #CarCulture",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1818.01,
@@ -272,7 +280,11 @@
    "why": "grappige roast"
   },
   "wait_name": "v2-b9e6971ba742-9-18072-18317.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-9/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1820.49, \"start\": 1818.01, \"text\": \"WHO'S CATCHING STRAYS TODAY?\", \"why\": \"grappige roast\"}",
+  "made": "2026-11-17T15:49:50.077594+00:00"
  },
  {
   "start": 1951.49,
@@ -287,7 +299,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "Audi parts on a VW? OEM+. Mustang wheels on a Nissan? Not even close. Where do you draw the OEM+ line? #OEMplus #Nissan #Mustang #Volkswagen #CarCulture",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1976.87,
@@ -297,7 +309,11 @@
   },
   "photo_hint": "Nissan with Ford Mustang wheels",
   "wait_name": "v2-b9e6971ba742-10-19515-20152.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-10/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1979.21, \"start\": 1976.87, \"text\": \"DO OTHER BRANDS' PARTS COUNT?\", \"why\": \"duidelijke regel, discussie\"}",
+  "made": "2026-11-17T15:50:54.592057+00:00"
  },
  {
   "start": 2044.91,
