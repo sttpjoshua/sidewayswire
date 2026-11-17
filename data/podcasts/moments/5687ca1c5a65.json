@@ -208,7 +208,7 @@
   "check": true,
   "check_reason": "Rumor: new car plan said on podcast, not officially announced; 'one series' car name from speech recognition.",
   "caption": "Small team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone. #FormulaDRIFT #JackShanahan #Rumor",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 698.44,
@@ -217,7 +217,11 @@
    "why": "sterke onthulling, tijdsdruk"
   },
   "wait_name": "v2-5687ca1c5a65-6-6685-7087.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 701.32, \"start\": 698.44, \"text\": \"A NEW CAR IN HOW LONG?\", \"why\": \"sterke onthulling, tijdsdruk\"}",
+  "made": "2026-11-17T14:54:19.977834+00:00"
  },
  {
   "start": 708.8,
@@ -237,7 +241,7 @@
   "check": true,
   "check_reason": "Rumor: car change not confirmed. Car names garbled ('one series', 'GDA6' likely GT86); who says 'your style suits' is unclear.",
   "caption": "Jack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone. #FormulaDRIFT #JackShanahan #Rumor",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 750.2,
@@ -246,7 +250,11 @@
    "why": "vraag zonder antwoord te geven"
   },
   "wait_name": "v2-5687ca1c5a65-7-7088-7612.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 752.98, \"start\": 750.2, \"text\": \"WHAT'S WRONG WITH JACK'S CAR?\", \"why\": \"vraag zonder antwoord te geven\"}",
+  "made": "2026-11-17T14:55:27.400577+00:00"
  },
  {
   "start": 767.1,
@@ -263,7 +271,7 @@
   "check": true,
   "check_reason": "New car mentioned as not final; keep wording as a plan.",
   "caption": "Jack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final. #FormulaDRIFT #JackShanahan #LongBeach",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 773.32,
@@ -272,7 +280,11 @@
    "why": "eerlijk antwoord, nieuwsgierig"
   },
   "wait_name": "v2-5687ca1c5a65-8-7671-8108.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 775.06, \"start\": 773.32, \"text\": \"WHAT DECIDES JACK'S NEXT CAR?\", \"why\": \"eerlijk antwoord, nieuwsgierig\"}",
+  "made": "2026-11-17T14:56:22.630468+00:00"
  },
  {
   "start": 848.38,
@@ -291,7 +303,7 @@
   "check": true,
   "check_reason": "Name of James's spotter ('Michael Sheehan') comes from speech recognition; not verified, left out of people.",
   "caption": "James Deane on watching Conor Shanahan go from a nine-year-old who couldn't pull the handbrake to Formula DRIFT champion. #FormulaDRIFT #JamesDeane #ConorShanahan",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 881.12,
@@ -300,7 +312,11 @@
    "why": "emotioneel beeld, sterk verhaal"
   },
   "wait_name": "v2-5687ca1c5a65-9-8484-9103.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-9/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 883.48, \"start\": 881.12, \"text\": \"TOO SMALL TO PULL THE HANDBRAKE?\", \"why\": \"emotioneel beeld, sterk verhaal\"}",
+  "made": "2026-11-17T14:57:25.780369+00:00"
  },
  {
   "start": 960.74,

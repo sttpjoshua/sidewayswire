@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:53:19.833313+00:00",
+ "updated": "2026-11-17T14:57:25.787735+00:00",
  "counts": {
   "ready": 103,
   "check": 27,
   "posted": 3,
-  "draft": 35
+  "draft": 39
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -2817,10 +2817,10 @@
       "topic": "JACK SHANAHAN: NEW CAR IN 4 WEEKS",
       "quote": "Yeah, I guess it was pretty good, to be honest. Turned over all. Yeah, pretty good. To be honest, I didn't expect to be this far in the championship. At the start of the year, we obviously had quite a big issues in Long Beach. We still ended up in the podium. And then we kind of carried the momentum through the season. And yeah, I was really proud of the team. Like we've, you know, like three, four people on the team all year. Like our tools are the cheapest in the grid, the cars cheapest in the grid. Like, I don't know, I'm just pretty happy that we got to put it off in the way we did, you know. So yeah, we'll give ourselves four weeks to build a new car for next year. I think this is the last, this is the last FD event for the one series. Yeah. Yeah, for sure. So I'm going to drive a car that's easy to drive.",
       "why": "Jack Shanahan says his small team has the cheapest car on the grid and will build a new car for next year.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-6/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2831,10 +2831,10 @@
       "topic": "WHY JACK WANTS A NEW CAR",
       "quote": "Can I say one thing though? Yeah. I think your style suits the one series more than the GDA6. Nah. I think it does from the outside. I'll prove it wrong next year. Damn. I'm looking forward to it. Not a bother. No, I'm just saying that. I think it looks really good in that car. To be fair, the one series is great because it does rotate the ice and snap. And you're on angle from the start of the corner. It carries a... Yeah. It looks more like Jack in the one series than GDA6. For sure, yeah. But the one thing about the one series that I'm in the car like doing this, you know what I mean? And that's not fun. It's annoying. Looks great. I'm not going to sell the one series. I'm still going to keep it and make it a little bit better and just loosen it up and drive it because it is good crack to drive. But for trying to win a championship it's not the car that I want to have. You know what I mean? So I want to come back in something that's a lot more comfortable and just be from the get go with a better package that I know is going to work out of the gate.",
       "why": "Jack Shanahan explains why his current car is fun but not the one to win a championship in.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-7/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2845,10 +2845,10 @@
       "topic": "JACK: TOO HARD IN THE FINAL?",
       "quote": "So you also just announced your new car, pretty much. Yeah, depends. I can change my mind next week. It depends on how much money people give me for the winter. It's not wrong. It's not wrong. It's the bids. Very honest idea. It's how it is. I might try the one series because people might give me nothing. You said you had unfinished business with that car. Yeah. And now you're like, okay, cool. I've done every like I've pushed as far as it can be. Yeah, like we've had many podiums this year. So we didn't have a win. And that was going to, if I wanted to, I would have half changed my mind, I think. But yeah, fuck it. You were there though. I was there. Yeah, but look. Went a little too hard in the paint. Last corner. Or second last corner. There it looked. Better to go too hard than to lose by that train.",
       "why": "Jack Shanahan is brutally honest about budgets and admits he went too hard in the final corners.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-8/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2859,10 +2859,10 @@
       "topic": "JAMES DEANE ON 9-YEAR-OLD CONOR",
       "quote": "Connor was on it this year and he deserves it 100%. But seeing him win it in top 32, or no, it was top 32. Top 32. Yeah, top 32. Reminded me of my win in 2017 and like it's just the best feeling in the world. And it was really cool to witness, as I said, in the podium. You know, I've seen him drift from the very first day he got behind the wheel when he was nine years old. And I have a picture. I'll probably post it tomorrow. It's like so cool to witness that little kid. Who didn't have enough strength to pull the hammer rake. So my spotter and drift master was pulling Michael Sheehan was pulling the hammer rake for Connor. And Connor knew when to press the clutch, but he didn't have the strength to pull it. So Michael was sitting with him just pulling the hammer rake. And as soon as he used to get the hammer rake, he was like linking the track. And like every time he would transition, he'd press the clutch, Michael pulled the hammer rake. And like those memories are coming back to me. And to see him go all the way this weekend and take it home is unbelievable.",
       "why": "James Deane remembers Conor Shanahan learning to drift at nine, too small to pull the handbrake himself.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-9/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,161 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-5687ca1c5a65-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane on watching Conor Shanahan go from a nine-year-old who couldn't pull the handbrake to Formula DRIFT champion.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #JamesDeane #ConorShanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 848.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:57:25.781454+00:00",
+   "built": "2026-11-17T14:57:25.781463+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-9/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JAMES DEANE ON 9-YEAR-OLD CONOR"
+  },
+  {
+   "id": "pod-5687ca1c5a65-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #LongBeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 767.1
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:56:22.631414+00:00",
+   "built": "2026-11-17T14:56:22.631418+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-8/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK: TOO HARD IN THE FINAL?"
+  },
+  {
+   "id": "pod-5687ca1c5a65-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #Rumor #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 708.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:55:27.401590+00:00",
+   "built": "2026-11-17T14:55:27.401596+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-7/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jamesdeane130",
+    "@adam_lz",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHY JACK WANTS A NEW CAR"
+  },
+  {
+   "id": "pod-5687ca1c5a65-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Small team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #Rumor #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 668.48
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:54:19.978835+00:00",
+   "built": "2026-11-17T14:54:19.978841+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-6/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK SHANAHAN: NEW CAR IN 4 WEEKS"
   },
   {
    "id": "pod-5687ca1c5a65-5",
