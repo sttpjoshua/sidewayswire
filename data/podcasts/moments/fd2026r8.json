@@ -458,8 +458,10 @@
    "lead_in": 2.0
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-14r2-92840-93240.mp4"
+  "status": "error",
+  "wait_name": "v2-fd2026r8-14r2-92840-93240.mp4",
+  "error": "No module named 'numpy'",
+  "tries": 1
  },
  {
   "start": 8941,
@@ -495,7 +497,9 @@
    "lead_in": 2.0
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-15r2-94590-94960.mp4"
+  "status": "error",
+  "wait_name": "v2-fd2026r8-15r2-94590-94960.mp4",
+  "error": "No module named 'numpy'",
+  "tries": 1
  }
 ]
