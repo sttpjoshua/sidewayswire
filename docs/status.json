@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:24:25.232499+00:00",
+ "updated": "2026-11-17T15:28:19.428011+00:00",
  "counts": {
   "ready": 102,
-  "draft": 69,
+  "draft": 73,
   "check": 26,
   "posted": 3
  },
@@ -2474,10 +2474,10 @@
       "topic": "WHY EURO DRIFT DAYS ARE WET",
       "quote": "but the reason why is noise like yeah it's just like less noise and also um most tracks I mean if they have imagine they have like a drift day on dry and like three days afterwards they have like bike racing and it rains and with the rubber like you know like they can't drive so yeah that's why most tracks do like yeah okay we don't like drifting but if we do it we just do it like on wet",
       "why": "Explains why so many European tracks only allow drifting on a sprayed wet surface.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-7/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2488,10 +2488,10 @@
       "topic": "THE ONE HOUR WRENCHING RULE",
       "quote": "the compact also I have it now for like 10 years and the car is fucked like everything is fucked like yeah I have a rule to not spend more than one hour before going drive it like I do a timer the one hour passes I just go as it is and that's the rule it just keeps running I mean it's but is it a 323 ti is it a m42 no it's a m52 oh it swaps no it's original compacts they had six cylinders in here really yeah of course m52 baby",
       "why": "His beat-up BMW compact runs on a strict rule: one hour of work max, then it goes on track as is.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-8/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2502,10 +2502,10 @@
       "topic": "$200 VOLVOS AND WET LAPS",
       "quote": "it was getting to a point where I where I started not to like it anymore because it felt like a lot of drivers were more driving like demolition derby you know like just get drunk and fucking crash into each other all like they bought like a I don't know like a Volvo for like 200 bucks and they went there drink beers the whole day and just like crashed into each other's and I started to not like that that much but some years after it started to be like people who really drive good like good drivers who drive comp and everything and they were like let's just everyone gets really simple really cheap car we set them up like super grippy with good tires and we just like try to drive as hard as we can without like still driving good you know clean like not crashing for fun into each other and that made it like I had so fucking cool laps there like amazing laps and you're just like you doesn't care like you yeah just like the car is if you know if you total it no one cares that you still don't try to total it",
       "why": "A lawless French wet drift event went from drunk demolition derby to good drivers pushing cheap grippy cars.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-9/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2516,10 +2516,10 @@
       "topic": "WHY RAF SKIPS COMPETITION",
       "quote": "I did it once like back with the e36 there was like uh was called king of europe and they did like yeah they did like an amateur that's when I started they did like an amateur thing and I was like so hyped you know I was like buying brand new tires with my last money I was like yeah sick and I was not really good but I was not also really bad in that comp right but I felt like man I paid so much to be here and I'm not driving much like this is not fun also the pressure was not really my thing like there I love like the the comp thing about like I want to you know like for me there is nothing cooler that than have people on track who drive way better than I do because that hypes up to like you know like okay cool you know I want to try the same and get better and everyone has like different goals what someone to get more angles someone wants more smoke someone wants to come faster whatever you know like but just like keep pushing to somehow get better for what you love that's important for me otherwise it will get pretty boring",
       "why": "A grassroots driver explains why one amateur comp was enough and what really pushes him to get better.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-10/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-b5159f5c03f8-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "New tires bought with his last money, little seat time and a lot of pressure. Rafael Muller on why competition is not his thing.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #grassrootsdrift #driftcomp #e36 #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 2995.09
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:28:19.420507+00:00",
+   "built": "2026-11-17T15:28:19.420514+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-10/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHY RAF SKIPS COMPETITION"
+  },
+  {
+   "id": "pod-b5159f5c03f8-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A French track where you can do whatever you want. It started as drunk demolition derby in cheap Volvos and became some of the best laps of Rafael Muller's life.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #wetdrift #france #grassrootsdrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 2897.78
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:27:02.894756+00:00",
+   "built": "2026-11-17T15:27:02.894760+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-9/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "$200 VOLVOS AND WET LAPS"
+  },
+  {
+   "id": "pod-b5159f5c03f8-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ten years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #e36compact #bmw #grassrootsdrift #m52 #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 2755.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:25:49.454790+00:00",
+   "built": "2026-11-17T15:25:49.454798+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-8/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE ONE HOUR WRENCHING RULE"
+  },
+  {
+   "id": "pod-b5159f5c03f8-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ever wondered why so many European drift days are wet only? Noise, and rubber left for the bike racers.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #wetdrift #europeandrift #trackday #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 2629.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:25:06.342562+00:00",
+   "built": "2026-11-17T15:25:06.342565+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-7/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHY EURO DRIFT DAYS ARE WET"
   },
   {
    "id": "pod-b5159f5c03f8-6",
