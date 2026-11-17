@@ -17,7 +17,7 @@
   "check": true,
   "check_reason": "Several speakers; who tells the story is not clear from the transcript.",
   "caption": "Adam LZ has picked up more Irish than you'd think. The Long Beach podium on the American who speaks fluent Irish slang. #FormulaDRIFT #AdamLZ #JamesDeane #JackShanahan",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 112.1,
@@ -26,7 +26,11 @@
    "why": "grappige verrassing, maakt nieuwsgierig"
   },
   "wait_name": "v2-5687ca1c5a65-0-1094-1302.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 114.96, \"start\": 112.1, \"text\": \"WHAT DID ADAM LZ SAY?\", \"why\": \"grappige verrassing, maakt nieuwsgierig\"}",
+  "made": "2026-11-17T14:48:38.562171+00:00"
  },
  {
   "start": 192.88,
@@ -46,7 +50,7 @@
   "check": true,
   "check_reason": "Group conversation; speaker of each line not certain.",
   "caption": "No night practice, so the first dark laps were qualifying runs. The Long Beach podium on driving the Shoreline Showdown under the lights. #FormulaDRIFT #LongBeach #NightDrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 198.2,
@@ -55,7 +59,11 @@
    "why": "verrassend feit, direct spanning"
   },
   "wait_name": "v2-5687ca1c5a65-1-1929-2362.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 201.16, \"start\": 198.2, \"text\": \"NO PRACTICE IN THE DARK?\", \"why\": \"verrassend feit, direct spanning\"}",
+  "made": "2026-11-17T14:49:33.704180+00:00"
  },
  {
   "start": 246.4,

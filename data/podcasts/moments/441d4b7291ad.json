@@ -294,7 +294,7 @@
   "check": true,
   "check_reason": "Speaker not certain; 'XLR' driver not identified; Federico assumed Federico Sceriffo.",
   "caption": "Can an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out. #FormulaDRIFT #PROSPEC #Drift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 657.02,
@@ -303,7 +303,11 @@
    "why": "prikkelende stelling"
   },
   "wait_name": "v2-441d4b7291ad-9-6226-6623.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 659.54, \"start\": 657.02, \"text\": \"WHAT TAKES YOU FURTHER IN DRIFT?\", \"why\": \"prikkelende stelling\"}",
+  "made": "2026-11-17T14:47:30.444853+00:00"
  },
  {
   "start": 717.18,
@@ -320,7 +324,7 @@
   "photo_hint": "Braden Lons on the Vegas PROSPEC podium",
   "check": false,
   "caption": "Rough times, family behind him, and a Vegas win where everything fell into place. Braden Lons on his first place. #FormulaDRIFT #PROSPEC #BradenLons",
-  "status": "new",
+  "status": "error",
   "by": "editor",
   "hook": {
    "start": 724.26,
@@ -329,6 +333,8 @@
    "why": "emotie, sterk slot"
   },
   "wait_name": "v2-441d4b7291ad-10-7172-7438.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "wait_video": "2026-11-17T09:35:27.125774+00:00",
+  "error": "[aost#0:1/aac @ 0x62beffb12100] [enc:aac @ 0x62beffb13c00] Could not open encoder before EOF\n[aost#0:1/aac @ 0x62beffb12100] Task finished with error code: -22 (Invalid argument)\n[aost#0:1/aac @ 0x62b",
+  "tries": 1
  }
 ]

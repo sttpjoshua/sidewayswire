@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:46:25.091091+00:00",
+ "updated": "2026-11-17T14:49:33.710767+00:00",
  "counts": {
   "ready": 103,
   "check": 27,
   "posted": 3,
-  "draft": 28
+  "draft": 31
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -2733,10 +2733,10 @@
       "topic": "ADAM LZ GOES FULL IRISH",
       "quote": "We met him at the BGS one night, and I was walking up, he just swings around, he's like what's the crack, lad? And I was like, what the hell is going on? He said it nowhere. What's your favourite one? Are we going there anyway? No, you just add anyway then at the end of stuff. Anyway then. They'll just say something and at the end it's like anyway then. So we're gonna do the podcast anyway then.",
       "why": "Adam LZ greeting the Irish drivers with their own slang is a fun bit of paddock chemistry.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-0/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2747,10 +2747,10 @@
       "topic": "QUALIFYING BLIND AT NIGHT",
       "quote": "Especially when the sun goes down, we don't get any practice. Usually our qualifying laps are the first time we drive in a dark and all your reference points change. But I feel like FD did a really good job here in Long Beach too to light the track in the correct areas. It's the first time all year by the way. Yeah, so you're getting better. Yeah, so improvement. Remember what you did and do it again. I was a bit worried on the last corner because the smoke was such an issue before that. I was like, oh at night it's going to be terrible. But I guess they put fans in. It was never an issue for me. And there was a bit of a wind tonight as well. I checked the weather this morning. I'm like, what's the wind in the evening? And it was I think 8 miles per hour. I think we got that helping us too.",
       "why": "Drivers reveal their first laps in the dark were qualifying laps, with all reference points changed.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-1/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4776,10 +4776,10 @@
       "topic": "ATTENTION BEATS DRIVING?",
       "quote": "You know what? I like it. I do like it. I like the attention. I know I'm into weird shit. So it's like it makes sense. But like, to me, it's the same thing as like, because I know he's here. Her's doing the XLR. It's it's a Corvette for sure. Right. But the XLR got way more attention than any Corvette ever did. So that's that's what I say. It's like you can even like Federico in the Ferrari. Tough chassis to drive. You know, and I'm not saying that the S -J has tough. Sorry. Don't like don't attack me. But like attention sometimes can take you further in your career than your drive. Like you're driving will always get attention. But if you're driving and your car can get attention, then even better. Yeah. Winning before you get to the event. Wow. Winning on the Internet.",
       "why": "A driver argues a car that gets attention can take your career further than driving alone.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-9/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4790,7 +4790,7 @@
       "topic": "BLOOD, SWEAT AND TEARS",
       "quote": "And, uh, yeah, yeah, no, my family's put everything into it. I mean, like we've we've had some some rough times and it's definitely blood, sweat and tears. But yeah, my family's had my back through thick and thin. And yeah, no, I just like to thank all my sponsors and made it possible. And massive thank you to the man above. There's a lot of things that fell into place today that I don't know how they were going to, but he made it happen. So yeah, I'm extremely grateful.",
       "why": "Braden Lons on what his family put into his program and the day it all fell into place.",
-      "status": "new",
+      "status": "error",
       "clip": null,
       "mode": null,
       "wait_video": "2026-11-17T09:35:27.125774+00:00",
@@ -9258,6 +9258,125 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-5687ca1c5a65-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "No night practice, so the first dark laps were qualifying runs. The Long Beach podium on driving the Shoreline Showdown under the lights.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #LongBeach #NightDrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 192.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:49:33.705198+00:00",
+   "built": "2026-11-17T14:49:33.705206+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-1/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@adam_lz",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "QUALIFYING BLIND AT NIGHT"
+  },
+  {
+   "id": "pod-5687ca1c5a65-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ has picked up more Irish than you'd think. The Long Beach podium on the American who speaks fluent Irish slang.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #JamesDeane #JackShanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 109.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:48:38.563149+00:00",
+   "built": "2026-11-17T14:48:38.563157+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-0/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@adam_lz",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ADAM LZ GOES FULL IRISH"
+  },
+  {
+   "id": "pod-441d4b7291ad-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Can an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #Drift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 622.58
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:47:30.445864+00:00",
+   "built": "2026-11-17T14:47:30.445868+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-9/clip.mp4",
+   "tags": [
+    "@nh_fab",
+    "@federicosceriffo17",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ATTENTION BEATS DRIVING?"
   },
   {
    "id": "pod-441d4b7291ad-8",
