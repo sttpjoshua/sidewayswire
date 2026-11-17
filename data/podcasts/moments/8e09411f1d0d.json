@@ -325,7 +325,7 @@
   "photo_hint": "Matt Field over the crest at Laguna Seca",
   "check": false,
   "caption": "Link over the crest all the way down to turn one at Laguna Seca? Other FD drivers told Matt Field it couldn't be done.\n\n#formulad #drifting #mattfield #lagunaseca",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2859.0,
@@ -334,7 +334,11 @@
    "why": "ongeloof van collega's"
   },
   "wait_name": "v2-8e09411f1d0d-10-28450-28837.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-10/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2860.76, \"start\": 2859.0, \"text\": \"WHAT DID FD DRIVERS TELL HIM?\", \"why\": \"ongeloof van collega's\"}",
+  "made": "2026-11-17T15:09:28.469136+00:00"
  },
  {
   "start": 2908.54,
@@ -355,7 +359,7 @@
   "check": true,
   "check_reason": "Host identified from the source register; judge names 'Reese', 'Vernon' and 'Brian' are garbled/unverified.",
   "caption": "Lead screws up? Then it's an impossible chase. The host explains how the Formula DRIFT judging panel has shifted toward style.\n\n#formulad #drifting #judging #formuladrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2958.64,
@@ -364,7 +368,11 @@
    "why": "discussie over jurering"
   },
   "wait_name": "v2-8e09411f1d0d-11-29085-29692.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-11/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2960.6, \"start\": 2958.64, \"text\": \"WHO DOES THE NEW JUDGING HELP?\", \"why\": \"discussie over jurering\"}",
+  "made": "2026-11-17T15:10:35.364751+00:00"
  },
  {
   "start": 3047.82,
@@ -381,7 +389,7 @@
   "photo_hint": "Matt Field",
   "check": false,
   "caption": "Matt Field on standing at the golden door of Formula DRIFT, breaking his arm on the way to St. Louis, and what was behind the dusty door instead.\n\n#formulad #drifting #mattfield #motivation",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3078.78,
@@ -390,7 +398,11 @@
    "why": "paradox, nieuwsgierig"
   },
   "wait_name": "v2-8e09411f1d0d-12-30478-31213.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-12/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3082.56, \"start\": 3078.78, \"text\": \"WHY WAS IT A BLESSING?\", \"why\": \"paradox, nieuwsgierig\"}",
+  "made": "2026-11-17T15:12:05.599400+00:00"
  },
  {
   "start": 3122.1,
@@ -408,7 +420,7 @@
   "check": true,
   "check_reason": "Comeback hint, not a confirmed return.",
   "caption": "Said on The Outerzone: Matt Field would go back to Formula DRIFT, but only with the right people, the right team and a car built for today's sport.\n\n#formulad #drifting #mattfield #comeback",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3147.24,
@@ -417,7 +429,11 @@
    "why": "comeback-vraag"
   },
   "wait_name": "v2-8e09411f1d0d-13-31221-31630.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-13/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3150.12, \"start\": 3147.24, \"text\": \"WOULD HE EVER GO BACK?\", \"why\": \"comeback-vraag\"}",
+  "made": "2026-11-17T15:12:55.642459+00:00"
  },
  {
   "start": 3248.76,
