@@ -207,8 +207,11 @@ def run(limit: int = 120) -> dict:
             cap, tags, missing = handles.compose(ep, m)
             check = (m["kind"] == "rumor" or res["mode"] == "audiogram"
                      or bool(m.get("check"))) and m.get("by") != "joshua"
-            q.save({
-                "id": pid, "kind": "stream_clip" if ep.get("kind") == "stream" else "podcast_clip", "status": "draft", "slides": [], "title": m.get("topic"),
+            keep = bool(post) and post.get("status") in ("ready", "approved") and post.get("post_at") and not check
+            q.save({                                     # a remake keeps its place in the content calendar
+                "id": pid, "kind": "stream_clip" if ep.get("kind") == "stream" else "podcast_clip",
+                "status": "ready" if keep else "draft", **({"post_at": post["post_at"]} if keep else {}),
+                "slides": [], "title": m.get("topic"),
                 "video": str(out.relative_to(ROOT)), "caption": cap, "tags": tags, "missing_handles": missing, "format": "split" if m.get("split") else "single",
                 "credit": m.get("credit"), "check": check,
                 "check_reason": ("gerucht uit een podcast" if m["kind"] == "rumor"

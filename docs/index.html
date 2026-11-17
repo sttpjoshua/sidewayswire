@@ -73,6 +73,22 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .gc{background:var(--card);display:flex;flex-direction:column}.gc video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#000;display:block}
 .gc div{padding:10px 12px;font-size:13px;line-height:1.4}.gc .cap{color:var(--mute);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px;font-size:12px}
 /* planning */
+.cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
+.cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.cal .wd{font:800 11px Inter;letter-spacing:2px;color:var(--mute);padding:4px 6px}
+.cal .cd{background:#1b1b1e;border:1px solid #29292d;min-height:150px;padding:6px;display:flex;flex-direction:column;gap:3px}
+.cal .cd.out{opacity:.35}.cal .cd.today{border-color:var(--accent)}
+.cal .cd .dn{display:flex;justify-content:space-between;font:800 14px Inter;color:#fff;margin-bottom:2px}.cal .cd .dn small{font-weight:600;color:var(--mute);font-size:11px}
+.cal .ev{display:flex;gap:5px;align-items:center;font-size:11px;line-height:1.25;padding:3px 4px;background:#26262a;border-left:3px solid #777;cursor:pointer;color:#ddd;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.cal .ev:hover{background:#303035}.cal .ev b{font-weight:800;color:#fff;flex:none}.cal .ev span{overflow:hidden;text-overflow:ellipsis}
+.cal .ev.free{background:none;border-left:3px dashed #3a3a3f;color:#55555b;cursor:default}
+.cal .ev.c-pod{border-color:var(--accent)}.cal .ev.c-live{border-color:#ff7a00}.cal .ev.c-battle{border-color:var(--pink)}.cal .ev.c-posts{border-color:#4aa8ff}
+.cal .ev.posted{opacity:.6}.cal .ev.wait{border-left-style:dotted}
+.calm{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:50;display:flex;align-items:center;justify-content:center;padding:20px}
+.calm .box{background:#1b1b1e;border:2px solid #333;max-width:760px;width:100%;max-height:90vh;overflow:auto;display:grid;grid-template-columns:260px 1fr;gap:18px;padding:18px}
+.calm .box img,.calm .box video{width:100%;display:block;background:#000}.calm .cap{white-space:pre-wrap;font-size:13px;color:#ccc;margin-top:8px}
+@media(max-width:900px){.cal{grid-template-columns:1fr}.cal .wd,.cal .cd.out{display:none}.cal .cd{min-height:0}.calm .box{grid-template-columns:1fr}}
 .day{margin-top:18px}.day h3{font-size:22px;margin-bottom:8px;color:var(--accent)}
 /* news */
 .s{background:var(--card);display:grid;grid-template-columns:120px 1fr;gap:14px;padding:10px;align-items:start;margin-bottom:10px}
@@ -158,7 +174,7 @@ section{display:none}section.on{display:block}
 </section>
 
 <section id="s-planning">
-  <h1>PLANNING</h1><div class="sub">Ingeplande en geplaatste posts per dag (Nederlandse tijd).</div>
+  <h1>PLANNING</h1><div class="sub">De contentkalender (Nederlandse tijd). Klik op een post om hem te bekijken.</div>
   <div class="filters" id="plan-f"></div>
   <div id="plan"></div>
 </section>
@@ -412,14 +428,49 @@ pgal.onclick=async e=>{const b=e.target.closest("button[data-a=photo]");if(!b)re
 document.getElementById("post-f").onclick=e=>{if(e.target.tagName==="BUTTON"){postFilter=e.target.textContent.replace(/ \(\d+\)$/,"");drawPosts()}};
 
 // ---------- planning ----------
-let planFilter="KOMEND";
+let planFilter="MAAND", calMonth=null;
+const SLOTS_DAY=[["08:30","post"],["12:30","podcastclip"],["17:30","livestream/battle"],["20:30","vrij"],["23:00","podcastclip"]];
+const amsDate=t=>new Date(new Date(t).toLocaleString("en-US",{timeZone:"Europe/Amsterdam"}));
+const ymd=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 function drawPlan(){
-  const P=posts(), F={"KOMEND":p=>["ready","approved"].includes(p.status),"GEPLAATST":p=>p.status==="posted"};
+  const P=posts(), F={"MAAND":p=>["ready","approved","posted"].includes(p.status),"LIJST":p=>["ready","approved"].includes(p.status),"GEPLAATST":p=>p.status==="posted"};
   document.getElementById("plan-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===planFilter?"on":""}">${k}</button>`).join("");
-  const L=P.filter(F[planFilter]).map(p=>({p,t:p.posted_at||p.post_at||p.want_at})).sort((a,b)=>planFilter==="KOMEND"?new Date(a.t||8e15)-new Date(b.t||8e15):new Date(b.t)-new Date(a.t));
+  const L=P.filter(F[planFilter]).map(p=>({p,t:p.posted_at||p.post_at||p.want_at})).sort((a,b)=>planFilter!=="GEPLAATST"?new Date(a.t||8e15)-new Date(b.t||8e15):new Date(b.t)-new Date(a.t));
+  if(planFilter==="MAAND"){drawCal(L);return}
   const days={};L.forEach(x=>{const d=x.t?new Date(x.t).toLocaleDateString("nl-NL",{weekday:"long",day:"numeric",month:"long"}):"Wacht op een tijd";(days[d]=days[d]||[]).push(x)});
-  plan.innerHTML=Object.entries(days).map(([d,xs])=>`<div class="day"><h3>${esc(d).toUpperCase()}</h3><div class="list">${xs.map(({p,t})=>li(p,`${t?hm(t)+" · ":""}${(p.platforms||[]).map(x=>PLAT[x]||x).join(" ")}${p.results?` · <span class="muted">${Object.keys(p.results).length} kanalen</span>`:""}`)).join("")}</div></div>`).join("")||`<div class="empty">${planFilter==="KOMEND"?"Nog niets ingepland. Keur posts goed bij Beoordelen.":"Nog niets geplaatst."}</div>`;
+  plan.innerHTML=Object.entries(days).map(([d,xs])=>`<div class="day"><h3>${esc(d).toUpperCase()}</h3><div class="list">${xs.map(({p,t})=>li(p,`${t?hm(t)+" · ":""}${(p.platforms||[]).map(x=>PLAT[x]||x).join(" ")}${p.results?` · <span class="muted">${Object.keys(p.results).length} kanalen</span>`:""}`)).join("")}</div></div>`).join("")||`<div class="empty">${planFilter==="LIJST"?"Nog niets ingepland. Keur posts goed bij Beoordelen.":"Nog niets geplaatst."}</div>`;
 }
+function drawCal(L){
+  if(!calMonth){const first=L.find(x=>x.t&&x.p.status!=="posted"&&new Date(x.t)>=new Date(Date.now()-864e5));const d=first?amsDate(first.t):amsDate(Date.now());calMonth=new Date(d.getFullYear(),d.getMonth(),1)}
+  const y=calMonth.getFullYear(),m=calMonth.getMonth(),byDay={};
+  L.forEach(x=>{if(!x.t)return;const k=ymd(amsDate(x.t));(byDay[k]=byDay[k]||[]).push(x)});
+  const inMonth=Object.entries(byDay).filter(([k])=>k.startsWith(`${y}-${String(m+1).padStart(2,"0")}`)).reduce((n,[,v])=>n+v.length,0);
+  const counts={};Object.entries(byDay).forEach(([k,v])=>{if(k.startsWith(`${y}-${String(m+1).padStart(2,"0")}`))v.forEach(x=>counts[cat(x.p)]=(counts[cat(x.p)]||0)+1)});
+  const start=new Date(y,m,1),off=(start.getDay()+6)%7,days=new Date(y,m+1,0).getDate(),cells=Math.ceil((off+days)/7)*7,today=ymd(amsDate(Date.now()));
+  let h=`<div class="cal-head"><button class="btn" data-cal="-1">◀</button><h2>${start.toLocaleDateString("nl-NL",{month:"long",year:"numeric"}).toUpperCase()}</h2><button class="btn" data-cal="1">▶</button>
+    <span class="muted">${inMonth} posts deze maand${inMonth?" · "+Object.keys(CAT).filter(c=>counts[c]).map(c=>`${counts[c]} ${CAT[c].toLowerCase()}`).join(", "):""}</span></div>
+    <div class="cal-leg">${Object.keys(CAT).map(c=>`<span><i style="background:${{pod:"var(--accent)",live:"#ff7a00",battle:"var(--pink)",posts:"#4aa8ff"}[c]}"></i>${CAT[c]}</span>`).join("")}<span><i style="border:1px dashed #555"></i>VRIJE PLEK</span></div>
+    <div class="cal">${["MA","DI","WO","DO","VR","ZA","ZO"].map(d=>`<div class="wd">${d}</div>`).join("")}`;
+  for(let c=0;c<cells;c++){const d=new Date(y,m,c-off+1),k=ymd(d),xs=(byDay[k]||[]).sort((a,b)=>new Date(a.t)-new Date(b.t)),out=d.getMonth()!==m;
+    const used=new Set(xs.map(x=>hm(x.t))),future=k>=today&&k>="2026-12-01";
+    const evs=xs.map(({p,t})=>`<div class="ev c-${cat(p)} ${p.status==="posted"?"posted":""} ${p.status==="approved"?"wait":""}" data-id="${p.id}" title="${esc((p.title||p.caption||"").slice(0,140))}"><b>${hm(t)}</b><span>${esc(String(p.title||(p.caption||"").split("\n")[0]).slice(0,60))}</span></div>`);
+    const free=future&&!out?SLOTS_DAY.filter(([tm])=>!used.has(tm)).map(([tm,w])=>`<div class="ev free"><b>${tm}</b><span>vrij · ${w}</span></div>`):[];
+    const all=[...evs,...free].sort((a,b)=>a.match(/<b>(\d\d:\d\d)/)[1].localeCompare(b.match(/<b>(\d\d:\d\d)/)[1]));
+    h+=`<div class="cd ${out?"out":""} ${k===today?"today":""}"><div class="dn">${d.getDate()}<small>${xs.length?xs.length+" post"+(xs.length>1?"s":""):""}</small></div>${all.join("")}</div>`}
+  plan.innerHTML=h+`</div>`;
+}
+plan.onclick=e=>{
+  const nb=e.target.closest("[data-cal]");if(nb){calMonth=new Date(calMonth.getFullYear(),calMonth.getMonth()+ +nb.dataset.cal,1);drawPlan();return}
+  const ev=e.target.closest(".ev[data-id]");if(!ev)return;const p=posts().find(x=>x.id===ev.dataset.id);if(!p)return;
+  const u=med(p),t=p.posted_at||p.post_at||p.want_at;
+  const md=document.createElement("div");md.className="calm";
+  md.innerHTML=`<div class="box"><div>${u?(isVid(u)?`<video src="${esc(u)+ver(p)}" controls playsinline></video>`:`<img src="${esc(u)}">`):`<div class="empty">Nog geen beeld</div>`}</div>
+    <div><div class="row">${catTag(p)}${stTag(p)}</div><h2 style="margin:8px 0">${title(p)}</h2>
+    <div class="muted">${t?when(t):"nog geen tijd"} · ${(p.platforms||[]).map(x=>PLAT[x]||x).join(" ")}</div>
+    <div class="cap">${esc(p.caption||"")}</div>
+    <div class="row" style="margin-top:12px;gap:8px">${["draft","check"].includes(p.status)?`<a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a>`:""}<button class="btn" data-x>SLUITEN</button></div></div></div>`;
+  md.onclick=x=>{if(x.target===md||x.target.closest("[data-x]"))md.remove()};document.body.appendChild(md);
+};
 document.getElementById("plan-f").onclick=e=>{if(e.target.tagName==="BUTTON"){planFilter=e.target.textContent;drawPlan()}};
 
 // ---------- nieuws ----------
