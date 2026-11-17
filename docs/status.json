@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:31:48.246827+00:00",
+ "updated": "2026-11-17T16:35:53.654682+00:00",
  "counts": {
   "ready": 98,
   "draft": 113,
@@ -3680,7 +3680,7 @@
       "why": "A clear rule: OEM+ means parts from the same brand family, Mustang wheels on a Nissan don't count.",
       "status": "queued",
       "clip": "docs/media/pod-b9e6971ba742-10/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3694,7 +3694,7 @@
       "why": "Story of an Acura TSX called OEM+ where commenters only cared about the wing.",
       "status": "queued",
       "clip": "docs/media/pod-b9e6971ba742-11/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      }
@@ -9100,6 +9100,78 @@
    "title": "DM 2026: EVERY ROUND WINNER"
   },
   {
+   "id": "pod-b9e6971ba742-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "An Acura TSX with Accord Euro R parts, a supercharger and 350 aftermarket parts. The comments? Only about the big wing.\n\n🎙 Full episode: Behind The Wheel\n\n#AcuraTSX #AccordEuroR #OEMplus #Honda #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 2044.91
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:52:14.064907+00:00",
+   "built": "2026-11-17T16:35:12.654566+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-11/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE WING THAT BROKE THE INTERNET"
+  },
+  {
+   "id": "pod-b9e6971ba742-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Audi parts on a VW? OEM+. Mustang wheels on a Nissan? Not even close. Where do you draw the OEM+ line?\n\n🎙 Full episode: Behind The Wheel\n\n#OEMplus #Nissan #Mustang #Volkswagen #CarCulture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1951.49
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:50:54.593108+00:00",
+   "built": "2026-11-17T16:33:27.135895+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-10/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHERE OEM+ ENDS"
+  },
+  {
    "id": "pod-b9e6971ba742-9",
    "kind": "podcast_clip",
    "status": "draft",
@@ -10123,78 +10195,6 @@
    "caption_by": null,
    "format": "single",
    "title": "MATT FIELD ON HIS VEGAS LAYOUT"
-  },
-  {
-   "id": "pod-b9e6971ba742-11",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "An Acura TSX with Accord Euro R parts, a supercharger and 350 aftermarket parts. The comments? Only about the big wing.\n\n🎙 Full episode: Behind The Wheel\n\n#AcuraTSX #AccordEuroR #OEMplus #Honda #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 2044.91
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:52:14.064907+00:00",
-   "built": "2026-11-17T15:52:14.064914+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-11/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE WING THAT BROKE THE INTERNET"
-  },
-  {
-   "id": "pod-b9e6971ba742-10",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Audi parts on a VW? OEM+. Mustang wheels on a Nissan? Not even close. Where do you draw the OEM+ line?\n\n🎙 Full episode: Behind The Wheel\n\n#OEMplus #Nissan #Mustang #Volkswagen #CarCulture #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 1951.49
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:50:54.593108+00:00",
-   "built": "2026-11-17T15:50:54.593117+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-10/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHERE OEM+ ENDS"
   },
   {
    "id": "pod-b9e6971ba742-8",
