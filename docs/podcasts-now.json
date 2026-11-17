@@ -1,14 +1,13 @@
 {
- "phase": "transcribe",
+ "phase": "saved",
  "episode": "b9e6971ba742",
  "todo": [
-  "b9e6971ba742",
   "b5159f5c03f8",
   "5687ca1c5a65",
   "3fa7ee22a33c"
  ],
- "pct": 0.931,
- "updated": "2026-11-17T00:42:49.718733+00:00",
+ "pct": 1.0,
+ "updated": "2026-11-17T00:43:11.207823+00:00",
  "started": "2026-11-17T00:30:27.110048+00:00",
  "run": "43987954382",
  "title": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
@@ -18,6 +17,7 @@
  "transcribe_started": "2026-11-17T00:36:40.978907+00:00",
  "finished": [
   "c82113ef8385",
-  "441d4b7291ad"
+  "441d4b7291ad",
+  "b9e6971ba742"
  ]
 }
