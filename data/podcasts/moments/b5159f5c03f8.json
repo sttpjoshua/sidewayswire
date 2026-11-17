@@ -110,7 +110,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller). 'kwe' is likely the brand KW; confirm.",
   "caption": "Want to lower your car in Switzerland? Approved coilovers only, paperwork, a lift inspection and a test drive. #drift #coilovers #switzerland #stance",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 953.08,
@@ -119,7 +119,11 @@
    "why": "harde consequentie als punchline"
   },
   "wait_name": "v2-b5159f5c03f8-3-9032-9568.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 956.82, \"start\": 953.08, \"text\": \"WANT TO LOWER YOUR CAR IN SWITZERLAND?\", \"why\": \"harde consequentie als punchline\"}",
+  "made": "2026-11-17T15:21:37.639867+00:00"
  },
  {
   "start": 1160.76,
@@ -137,7 +141,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "Swiss police patrol looking for modified cars, and a warning is rare. One friend of Rafael Muller paid over 10k and lost his license for two years. #drift #switzerland #carculture #driftcar",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1232.46,
@@ -146,7 +150,11 @@
    "why": "schokkende straf"
   },
   "wait_name": "v2-b5159f5c03f8-4-11608-12342.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1234.24, \"start\": 1232.46, \"text\": \"WHAT DID ONE DRIFT CAR COST HIM?\", \"why\": \"schokkende straf\"}",
+  "made": "2026-11-17T15:22:52.906171+00:00"
  },
  {
   "start": 1790.41,
@@ -164,7 +172,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller). Event name garbled ('all trays', likely Ultrace in Poland) and the prince claim is secondhand; verify.",
   "caption": "A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland. #drift #poland #driftevent #e36",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1802.35,
@@ -173,7 +181,11 @@
    "why": "onverwachte buurman"
   },
   "wait_name": "v2-b5159f5c03f8-5-17904-18231.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1804.49, \"start\": 1802.35, \"text\": \"WHO PARKED NEXT TO HIM?\", \"why\": \"onverwachte buurman\"}",
+  "made": "2026-11-17T15:23:32.645782+00:00"
  },
  {
   "start": 2490.7,
@@ -192,7 +204,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "Only about three built Silvias are street legal in Switzerland. Rafael Muller asked the owner seven years earlier, then sold everything to buy it. #drift #silvia #s14 #switzerland #jdm",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2501.52,
@@ -201,7 +213,11 @@
    "why": "zeldzaamheid als cijfer"
   },
   "wait_name": "v2-b5159f5c03f8-6-24907-25371.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2504.06, \"start\": 2501.52, \"text\": \"HOW RARE IS HIS SILVIA?\", \"why\": \"zeldzaamheid als cijfer\"}",
+  "made": "2026-11-17T15:24:25.225024+00:00"
  },
  {
   "start": 2629.98,

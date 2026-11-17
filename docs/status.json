@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:20:32.867571+00:00",
+ "updated": "2026-11-17T15:24:25.232499+00:00",
  "counts": {
   "ready": 102,
-  "draft": 65,
+  "draft": 69,
   "check": 26,
   "posted": 3
  },
@@ -2418,10 +2418,10 @@
       "topic": "SWISS COILOVERS: 30% MORE AND A TEST",
       "quote": "so how it works like you you need to buy kwe like I explained you like imagine you you have a car here you want to install the same idea so you need to see who imports though that brand right so you see ah there's a shop he imports kwe and he will sell you the coilovers for I would say like 30 percent more than they will cost anywhere else because they paid a lot of money to like make them street legal so you buy it with like papers like like a confirmation like okay those coilovers they fit that car and you can drive them so you install them but that's not all after that you need to like go to the inspection center they put it on a lift and they check if you mounted everything right if the right height is good if nothing wraps they go drive the car if something wraps you're walking home you know",
       "why": "How street-legal coilovers work in Switzerland: approved brand, import markup, inspection and a test drive.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-3/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2432,10 +2432,10 @@
       "topic": "SWISS COPS HUNT MODIFIED CARS",
       "quote": "the cops are like just driving around to search for modified cars wow yeah and that's like that's the hard point because uh what I wanted to say like other countries they maybe have similar rules but it's just like the risk to get caught is less or like a cop will stop you and will be like it's probably illegal but you know like just fucking drive home I give you a warning or whatever which here it's like extremely lucky to like have that yeah like yeah yeah like they're taking your car yeah and it's expensive yeah and you you even like I had a friend he had like basic drift car and he he still had plates on it but the last time he did the inspection was like two years ago and over that time he like did you know basically 36 like no interior anymore like was like swapped it for a 28 and was like 23 on the paper as well as everything he paid like over 10k and lost his license for like two years",
       "why": "Swiss police actively hunt modified cars; a friend's drift car cost him over 10k and his license for two years.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-4/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2446,10 +2446,10 @@
       "topic": "A PRINCE IN THE POLAND PADDOCK",
       "quote": "and you have cars from everywhere yeah there was a guy like just next to me in a paddock and he shipped his fucking um what was it bent lay full carbon body and he's like a prince of Abu Dhabi like Joel told me probably the richest person you will ever see in your life because you know who it was like yeah and next to it you have like polish guy pumping hard style and super low he's 36 so it's cool like it was a cool like a mixture of drifting we had everything",
       "why": "At a huge Polish drift event a full carbon Bentley from Abu Dhabi royalty parked next to a slammed E36 blasting hardstyle.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-5/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2460,10 +2460,10 @@
       "topic": "ONE OF 3 STREET LEGAL SILVIAS",
       "quote": "when this car popped up like how often are there nicely done Silvias that are like legal street legal in Switzerland there are probably just three cars Jans, mine and there's a yellow one I would say who are like in that style street legal but that car I mean I seven years before I bought that car was like yeah almost a kid I texted that guy if you one day sell it let me know yeah and so he's like I'm ready yeah I mean he saved your number no I saw it I saw it for sale I was like I texted him and I sold the M3 I had and everything so sold everything just to buy that car I was like I need that",
       "why": "His Silvia is one of only about three street-legal built Silvias in Switzerland, and he waited seven years to buy it.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-6/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-b5159f5c03f8-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Only about three built Silvias are street legal in Switzerland. Rafael Muller asked the owner seven years earlier, then sold everything to buy it.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #silvia #s14 #switzerland #jdm #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 2490.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:24:25.225981+00:00",
+   "built": "2026-11-17T15:24:25.225987+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-6/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "ONE OF 3 STREET LEGAL SILVIAS"
+  },
+  {
+   "id": "pod-b5159f5c03f8-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #poland #driftevent #e36 #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 1790.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:23:32.646732+00:00",
+   "built": "2026-11-17T15:23:32.646739+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-5/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "A PRINCE IN THE POLAND PADDOCK"
+  },
+  {
+   "id": "pod-b5159f5c03f8-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Swiss police patrol looking for modified cars, and a warning is rare. One friend of Rafael Muller paid over 10k and lost his license for two years.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #switzerland #carculture #driftcar #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 1160.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:22:52.907195+00:00",
+   "built": "2026-11-17T15:22:52.907202+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-4/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SWISS COPS HUNT MODIFIED CARS"
+  },
+  {
+   "id": "pod-b5159f5c03f8-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Want to lower your car in Switzerland? Approved coilovers only, paperwork, a lift inspection and a test drive.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #coilovers #switzerland #stance #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 903.16
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:21:37.640988+00:00",
+   "built": "2026-11-17T15:21:37.641016+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-3/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SWISS COILOVERS: 30% MORE AND A TEST"
   },
   {
    "id": "pod-b5159f5c03f8-2",
