@@ -201,7 +201,7 @@
   "check": true,
   "check_reason": "Second guest (FD rookie, Scion FR-S) is never named in the transcript; identify before posting. Builders 'J and Maher' / 'RS garage' / 'Freddie' are unverified; Adam is likely Adam LZ.",
   "caption": "Said on The Outerzone: a new FR-S chassis with a gen two body kit and a stroker 2JZ for next season. Not confirmed yet.\n\n#formulad #drifting #2jz #formuladrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2034.5,
@@ -210,7 +210,11 @@
    "why": "nieuwe auto, rumor"
   },
   "wait_name": "v2-8e09411f1d0d-6-20272-20789.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-6/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2038.02, \"start\": 2034.5, \"text\": \"WHAT IS HE DRIVING NEXT YEAR?\", \"why\": \"nieuwe auto, rumor\"}",
+  "made": "2026-11-17T15:05:54.851195+00:00"
  },
  {
   "start": 2106.98,
@@ -231,7 +235,7 @@
   "check": true,
   "check_reason": "Second guest (FD rookie, Scion FR-S) is never named in the transcript; identify before posting. 'Adams' is likely Adam LZ's shop; 'James' likely James Deane.",
   "caption": "A gang of FD drivers at Adam LZ's shop, his Atlanta footage on screen, and Jack and Conor Shanahan with a clear verdict.\n\n#formulad #drifting #shanahans #2jz",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2124.24,
@@ -240,7 +244,11 @@
    "why": "bekende namen, oordeel"
   },
   "wait_name": "v2-8e09411f1d0d-7-21070-21400.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-7/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2126.96, \"start\": 2124.24, \"text\": \"WHAT DID THE SHANAHANS SAY?\", \"why\": \"bekende namen, oordeel\"}",
+  "made": "2026-11-17T15:06:37.155726+00:00"
  },
  {
   "start": 2746.96,
@@ -257,7 +265,7 @@
   "photo_hint": "Matt Field's Corvette at Laguna Seca",
   "check": false,
   "caption": "Why is Matt Field so fast at Laguna Seca? He grew up doing 120 to 130 mph entries at Thunderhill as a teenager.\n\n#formulad #drifting #mattfield #lagunaseca",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2770.28,
@@ -266,7 +274,11 @@
    "why": "belofte, uitleg volgt"
   },
   "wait_name": "v2-8e09411f1d0d-8-27470-27914.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-8/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2772.7, \"start\": 2770.28, \"text\": \"WHY IS HE SO FAST HERE?\", \"why\": \"belofte, uitleg volgt\"}",
+  "made": "2026-11-17T15:07:32.021932+00:00"
  },
  {
   "start": 2795.04,
@@ -283,7 +295,7 @@
   "photo_hint": "Matt Field's Corvette in Formula DRIFT",
   "check": false,
   "caption": "No rear weight, front everything: Matt Field explains why his car got walked on FD tracks like Road Atlanta, and why that helped him later.\n\n#formulad #drifting #mattfield #corvette",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2824.64,
@@ -292,7 +304,11 @@
    "why": "eerlijke bekentenis"
   },
   "wait_name": "v2-8e09411f1d0d-9-27950-28444.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-9/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2826.88, \"start\": 2824.64, \"text\": \"WHY DID HE GET WALKED?\", \"why\": \"eerlijke bekentenis\"}",
+  "made": "2026-11-17T15:08:34.820358+00:00"
  },
  {
   "start": 2845.02,
