@@ -229,6 +229,11 @@ async function changePost(id,fn,msg){   // read the newest queue file, change it
 }
 async function runBuild(){try{await gh(`/actions/workflows/run.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})})}catch(e){console.log(e)}}
 
+async function liveJson(name,old){   // progress files live on the branch "live" (keeps GitHub Pages deploys calm)
+  try{if(key){const r=await fetch(`${API}/contents/docs/${name}?ref=live&${Date.now()}`,{headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github.raw+json"}});if(r.ok)return await r.json()}
+    const r=await fetch(`https://raw.githubusercontent.com/${REPO}/live/docs/${name}?${Date.now()}`);if(r.ok)return await r.json()}catch(e){}
+  try{const r=await fetch(name+"?"+Date.now());if(r.ok)return await r.json()}catch(e){}
+  return old}
 let ED=null;
 function nextEditor(){const sch=(ED&&ED.schedule)||["10:23","13:23","19:23","23:23"];
   const now=new Date(),ams=new Date(now.toLocaleString("en-US",{timeZone:"Europe/Amsterdam"}));const m=ams.getHours()*60+ams.getMinutes();
@@ -445,8 +450,7 @@ function drawLive(){
   el.innerHTML=`<h4>NU BEZIG</h4>`+(it.length?it.map(x=>`<div class="it"><div class="pd"></div><div>${x}</div></div>`).join(""):`<div class="it" style="color:var(--mute)">Niets. Alles staat stil tot de volgende ronde.</div>`);
 }
 async function loadLive(){
-  try{CLIPNOW=await fetch("clips-now.json?"+Date.now()).then(r=>r.ok?r.json():CLIPNOW)}catch(e){}
-  try{PODNOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():PODNOW)}catch(e){}
+  CLIPNOW=await liveJson("clips-now.json",CLIPNOW);PODNOW=await liveJson("podcasts-now.json",PODNOW);
   try{ED=await fetch("editor.json?"+Date.now()).then(r=>r.ok?r.json():ED)}catch(e){}
   if(key){try{const r=await fetch(API+"/actions/runs?per_page=30",{headers:{Authorization:`Bearer ${key}`}});if(r.ok)RUNS=(await r.json()).workflow_runs}catch(e){}
     try{const r=await fetch(API+"/releases/tags/video-sources",{headers:{Authorization:`Bearer ${key}`}});if(r.ok)MAC=JSON.parse((await r.json()).body||"{}")}catch(e){}}
@@ -469,8 +473,7 @@ function drawAll(){drawLive();drawOverview();drawRuns();drawReview();drawClips()
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
   S=await fetch("status.json?"+Date.now()).then(r=>r.json());
-  try{PODNOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
-  try{CLIPNOW=await fetch("clips-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
+  PODNOW=await liveJson("podcasts-now.json",null);CLIPNOW=await liveJson("clips-now.json",null);
   try{ED=await fetch("editor.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
   await loadRuns();
   try{const r=await fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}});if(r.ok)MAC=JSON.parse((await r.json()).body||"{}")}catch(e){}

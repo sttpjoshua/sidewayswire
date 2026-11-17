@@ -2,6 +2,8 @@
 
 While a run is busy we write docs/podcasts-now.json straight to GitHub through the API
 (not through git), at most every two minutes, so the page can show what is happening.
+It goes to the separate branch "live": a commit on main would restart the GitHub Pages
+deploy every time and the dashboard would never get updated.
 Outside GitHub Actions this does nothing.
 """
 from __future__ import annotations
@@ -20,6 +22,18 @@ _state: dict = {}
 _last = 0.0
 
 
+BRANCH = "live"
+
+
+def _branch(repo: str, h: dict):
+    """Make the 'live' branch from main the first time."""
+    api = f"https://api.github.com/repos/{repo}/git"
+    if requests.get(f"{api}/ref/heads/{BRANCH}", headers=h, timeout=20).ok:
+        return
+    sha = requests.get(f"{api}/ref/heads/main", headers=h, timeout=20).json()["object"]["sha"]
+    requests.post(f"{api}/refs", headers=h, json={"ref": f"refs/heads/{BRANCH}", "sha": sha}, timeout=20)
+
+
 def _put(data: dict):
     token, repo = os.environ.get("GH_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
     if not token or not repo:
@@ -27,13 +41,14 @@ def _put(data: dict):
     url = f"https://api.github.com/repos/{repo}/contents/{PATH}"
     h = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
     try:
-        r = requests.get(url, headers=h, params={"ref": "main"}, timeout=20)
+        _branch(repo, h)
+        r = requests.get(url, headers=h, params={"ref": BRANCH}, timeout=20)
         sha = r.json().get("sha") if r.ok else None
         if r.ok and data.get("phase") == "done":
             old = json.loads(base64.b64decode(r.json().get("content", "")) or b"{}")
             if old.get("phase") == "done":
                 return                           # nothing was running, no need for a commit
-        body = {"message": f"progress: {data.get('phase')}", "branch": "main",
+        body = {"message": f"progress: {data.get('phase')}", "branch": BRANCH,
                 "content": base64.b64encode(json.dumps(data, ensure_ascii=False, indent=1).encode()).decode()}
         if sha:
             body["sha"] = sha

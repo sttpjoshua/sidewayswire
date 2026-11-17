@@ -85,6 +85,12 @@ const mmss=x=>{x=Math.max(0,Math.floor(x));const h=Math.floor(x/3600),m=Math.flo
 const parseT=v=>{const p=String(v).trim().split(":").map(Number);return p.some(isNaN)?NaN:p.reduce((a,b)=>a*60+b,0)};
 const day=t=>new Date(t).toLocaleDateString("nl-NL",{day:"numeric",month:"short",year:"numeric"});
 let key=null; try{key=localStorage.getItem("sw_gh_key")}catch(e){}
+async function liveJson(name,old){   // progress files live on the branch "live" (keeps GitHub Pages deploys calm)
+  try{if(key){const r=await fetch(`${API}/contents/docs/${name}?ref=live&${Date.now()}`,{headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github.raw+json"}});if(r.ok)return await r.json()}
+    const r=await fetch(`https://raw.githubusercontent.com/${REPO}/live/docs/${name}?${Date.now()}`);if(r.ok)return await r.json()}catch(e){}
+  try{const r=await fetch(name+"?"+Date.now());if(r.ok)return await r.json()}catch(e){}
+  return old}
+
 function toast(m,err){toast_.textContent=m;toast_.className=err?"err":"";toast_.style.display="block";clearTimeout(toast.t);toast.t=setTimeout(()=>toast_.style.display="none",5000)}
 const toast_=document.getElementById("toast");
 document.getElementById("macst").onclick=e=>{e.preventDefault();toast(document.getElementById("macst").title)};
@@ -303,8 +309,7 @@ function eta(n,p){if(n.phase==="clips"&&n.eta!=null)return Math.max(0,n.eta-(Dat
   if(n.phase!=="transcribe"||!p||!n.transcribe_started)return null;
   const run=(Date.now()-new Date(n.transcribe_started))/1000;return p>.02?run/p*(1-p):(n.duration||0)*(1-p)}
 async function livePoll(){
-  try{NOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){NOW=null}
-  try{CNOW=await fetch("clips-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){CNOW=null}
+  NOW=await liveJson("podcasts-now.json",null);CNOW=await liveJson("clips-now.json",null);
   await loadReq();
   const busy=NOW&&NOW.phase!=="done"&&(Date.now()-new Date(NOW.updated))<45*60000;
   if(wasBusy&&!busy){toast("De run is klaar. Over een minuut ververst de lijst.");setTimeout(()=>load().then(()=>EP&&openEp(EP.id)),70000)}
