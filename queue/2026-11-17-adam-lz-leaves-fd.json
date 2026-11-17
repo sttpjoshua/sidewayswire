@@ -20,7 +20,12 @@
     ],
     "marker": "P3 at Long Beach 2",
     "body": "Adam LZ announced on the podium at the Long Beach finale, after taking third, that he will not be back in Formula DRIFT in 2027. He finished his last season 12th in the standings in the LZMFG BMW E36. He explains why in his own video, Why I Quit Formula Drift.",
-    "source": "Adam LZ (YouTube)"
+    "source": "Adam LZ (YouTube)",
+    "portrait": {
+     "src": "../docs/media/portraits/adam-lz.jpg",
+     "name": "ADAM LZ",
+     "credit": "@formulad"
+    }
    }
   }
  ],
@@ -38,7 +43,7 @@
  ],
  "source": "https://www.youtube.com/watch?v=GnIngCZCsIc",
  "check": true,
- "status": "check",
+ "status": "draft",
  "created": "2026-11-17T14:12:26.167610+00:00",
  "by": "editor",
  "check_reason": "aankondiging gecontroleerd via fan-upload van de livestream en Wikipedia (P3 LB2, 12e in stand); eigen video van LZ niet zelf bekeken, nieuws is van 25 okt",

@@ -41,7 +41,8 @@ competitief driften. Werk in de repo `sttpjoshua/sidewayswire`.
   serie, Joshua's eigen foto's). Geen foto? Gebruik `news_text.html` (typografisch, met een groot
   `backdrop`-woord zoals de serie of het merk). Download nooit foto's van nieuwssites of Instagram.
   Zet altijd `"people"` (volledige namen) in een nieuwspost: hebben we livestreambeelden van die
-  persoon, dan zet de bouwstap er vanzelf een still uit `data/stills.json` in (credit van de serie).
+  persoon, dan zet de bouwstap er vanzelf een still uit `data/stills.json` in (credit van de serie),
+  en bij een FD-coureur zijn portret van formulad.com (`data/portraits.json`, credit @formulad).
 - Handles in posts: alleen gecontroleerde uit `data/sources.csv`. Onbekend: zet de naam in
   `missing_handles` en `check: true`.
 - Joshua (nov 2026): uitslagen zijn nu minder interessant. Zoek de verhalen: nieuwe auto's,

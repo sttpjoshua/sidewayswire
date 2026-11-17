@@ -53,6 +53,18 @@ def apply_answers(tg: Telegram, store: Store | None, folder: Path = q.QUEUE) -> 
     return answers
 
 
+def _add_portraits(drafts: list[dict]):
+    """News posts about an FD driver get his formulad.com portrait in a frame (credit @formulad)."""
+    from . import portraits
+    for p in drafts:
+        sl = (p.get("slides") or [{}])[0]
+        if sl.get("template") != "news.html" or p.get("no_portrait"):
+            continue
+        e = portraits.pick(p.get("people") or [])
+        if e:
+            sl["data"]["portrait"] = {"src": "../" + e["src"], "name": e["name"], "credit": e["credit"]}
+
+
 def _add_stills(drafts: list[dict]):
     """Text-only news posts about a driver we have livestream footage of get a still as photo."""
     from . import stills
@@ -91,6 +103,7 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
     if not drafts:
         return report
     _add_stills(drafts)
+    _add_portraits(drafts)
     for p in drafts:              # Joshua: a post without a photo is never posted; it waits for his photo
         if (p.get("slides") or [{}])[0].get("template") == "news_text.html":
             p.update(check=True, needs_photo=True, check_reason="foto nodig: voeg een foto toe")
