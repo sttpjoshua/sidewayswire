@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T04:14:49.555691+00:00",
+ "updated": "2026-11-17T07:47:28.588967+00:00",
  "counts": {
   "check": 7,
   "draft": 73,
   "ready": 10
  },
- "collected": "2026-11-16T23:54:06.460615+00:00",
+ "collected": "2026-11-17T07:47:28.519266+00:00",
  "instagram": false,
  "sources": [
   {
@@ -38,9 +38,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
   },
   {
    "source": "Formula DRIFT",
@@ -121,6 +120,49 @@
   }
  ],
  "inbox": [
+  {
+   "title": "Drifting Champion Vaughn Gittin Jr. Releases ‘Ready To Rock’ Collector’s Book & Biography",
+   "series": "FD",
+   "buzz": 2,
+   "published": "2026-11-17T01:12:22+00:00",
+   "items": [
+    {
+     "source": "Google News · EIN News",
+     "title": "Drifting Champion Vaughn Gittin Jr. Releases ‘Ready To Rock’ Collector’s Book & Biography",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa3luaE9SdjZHTlViY2I0UFV6OFNreXBKandQa1RRbWpXamc2VmE1NjhyYV9wRGtsaHRZZTUyMlJ4dmtwYlZoQU5Bd29kSU9VSWNMZm1OV3VGRl9xLUJhS1padm0yQVFVMVRGMkJGdUhTVG44S3VSZUFjRV9ncGVBY3lTd3QxX1R1WEtVV0ZKTWZheVFqVHd2alM3UzhFSzNZdEpKaHdubmdCUmVjWExoUnVNQkFwYkp2RVpiWG45RURPaV9W?oc=5",
+     "kind": "article",
+     "published": "2026-11-16T10:00:00+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "Google News · The Des Moines Register",
+     "title": "Drifting Champion Vaughn Gittin Jr. Releases ‘Ready To Rock’ Collector’s Book & Biography",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQTFGYUgyeF9lVmlZWkxVM2N2YmRxcGM0c3pQOURzbk8xNTM1RlBkYzRFYkRQN0FkcDJDS2ZQUTN3QmNNbkRicHdhYnJzbC1WM2dDWVctVnI0QS1LbWcyX3JIS2tnUmk2UDhwcl90QjU2N2tPcjJmZ3RBc0tYYmc2LU91XzJ5cHE5UVAzdExSWDFtSllJNEx3ZndoVEpDS0d3TEhkbzdPWTY0TmRVYVBHLVJkajJTWUk0VEFLS21UdkNRNkJaU2ZRMjdiVFg1dkd4dnJlZ1FtMnNZN1pTbHc?oc=5",
+     "kind": "article",
+     "published": "2026-11-17T01:12:22+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Minami Drift Jump Went VERY Wrong...",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-17T00:24:30+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "Minami Drift Jump Went VERY Wrong...",
+     "url": "https://www.youtube.com/watch?v=Tg8ZjToMZHU",
+     "kind": "video",
+     "published": "2026-11-17T00:24:30+00:00",
+     "media_url": "https://i1.ytimg.com/vi/Tg8ZjToMZHU/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
   {
    "title": "Easily one of the biggest highlights of this year was shredding the C8 at the @fosgoodwood!",
    "series": "FD",
@@ -235,23 +277,6 @@
      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNkhhQVFKeF9VSkhUTnpnaVlBbGxUcXV3SUg4RzJFUGRBcFRidjNZcHpvSUdKakw4aE83MjZPMnI4am5lMDV6aWFMZkVoaWUyMlJhUXlMempNN0dsVjBzYW1GemlMdTQ0eklVdFJoVUV0YUt2ODl4SlFkMUgteF9Ya28tY09qb2c2c1NvWDVubkxGdGsyUk95dUtzcWsxazhDbDlMbWtEQUZObXRfODU4cE8xcmk3NG03ek9VVjMzV0Nha0ZLY1VPRXBlQmxWZlRaM1p1S3k4RV9GVjhIWUFTdkVWajNtUUtKT2k4bC13ZkhpSFljbUNVeg?oc=5",
      "kind": "article",
      "published": "2026-11-16T14:31:46+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
-  },
-  {
-   "title": "Drifting Champion Vaughn Gittin Jr. Releases ‘Ready To Rock’ Collector’s Book & Biography",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-16T10:00:00+00:00",
-   "items": [
-    {
-     "source": "Google News · EIN News",
-     "title": "Drifting Champion Vaughn Gittin Jr. Releases ‘Ready To Rock’ Collector’s Book & Biography",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa3luaE9SdjZHTlViY2I0UFV6OFNreXBKandQa1RRbWpXamc2VmE1NjhyYV9wRGtsaHRZZTUyMlJ4dmtwYlZoQU5Bd29kSU9VSWNMZm1OV3VGRl9xLUJhS1padm0yQVFVMVRGMkJGdUhTVG44S3VSZUFjRV9ncGVBY3lTd3QxX1R1WEtVV0ZKTWZheVFqVHd2alM3UzhFSzNZdEpKaHdubmdCUmVjWExoUnVNQkFwYkp2RVpiWG45RURPaV9W?oc=5",
-     "kind": "article",
-     "published": "2026-11-16T10:00:00+00:00",
      "media_url": null,
      "media_type": null
     }
