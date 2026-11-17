@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-25",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "WALL RIDES BROKE THE FUEL CELL",
  "video": "docs/media/pod-1298fd1c600b-25/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 7879.99
  },
  "created": "2026-11-17T01:21:49.872695+00:00",
- "built": "2026-11-17T01:21:49.872700+00:00"
+ "built": "2026-11-17T13:26:00.022882+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-25/clip.mp4"
+ ],
+ "problems": []
 }

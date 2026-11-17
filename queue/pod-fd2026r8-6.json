@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-6",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "CONOR SHANAHAN IS THE 2026 FD CHAMPION",
  "video": "docs/media/pod-fd2026r8-6/clip.mp4",
@@ -29,6 +29,10 @@
   "start": 8043.2
  },
  "created": "2026-11-16T22:19:28.832840+00:00",
- "built": "2026-11-16T22:19:28.832844+00:00",
- "format": "single"
+ "built": "2026-11-17T13:26:00.127942+00:00",
+ "format": "single",
+ "media": [
+  "docs/media/pod-fd2026r8-6/clip.mp4"
+ ],
+ "problems": []
 }

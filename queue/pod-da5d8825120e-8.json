@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-8",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
  "video": "docs/media/pod-da5d8825120e-8/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 1132.48
  },
  "created": "2026-11-16T19:52:49.309223+00:00",
- "built": "2026-11-16T23:33:22.673280+00:00"
+ "built": "2026-11-17T13:26:00.122986+00:00",
+ "media": [
+  "docs/media/pod-da5d8825120e-8/clip.mp4"
+ ],
+ "problems": []
 }

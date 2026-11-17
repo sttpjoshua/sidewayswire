@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-22",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "WHY DO DRIVERS PAY TO RACE FD?",
  "video": "docs/media/pod-6892a8b1e411-22/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 4902.27
  },
  "created": "2026-11-16T19:47:41.481751+00:00",
- "built": "2026-11-17T01:07:00.598777+00:00"
+ "built": "2026-11-17T13:26:00.061838+00:00",
+ "media": [
+  "docs/media/pod-6892a8b1e411-22/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-21T16:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-13",
  "kind": "podcast_clip",
- "status": "ready",
+ "status": "posted",
  "slides": [],
  "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND",
  "video": "docs/media/pod-1298fd1c600b-13/clip.mp4",
@@ -32,5 +32,12 @@
   "docs/media/pod-1298fd1c600b-13/clip.mp4"
  ],
  "problems": [],
- "post_at": "2026-11-16T22:00:00+00:00"
+ "post_at": "2026-11-16T22:00:00+00:00",
+ "posted_at": "2026-11-17T13:26:00.306626+00:00",
+ "results": {
+  "instagram": "dry-run",
+  "facebook": "dry-run",
+  "tiktok": "dry-run",
+  "youtube": "dry-run"
+ }
 }

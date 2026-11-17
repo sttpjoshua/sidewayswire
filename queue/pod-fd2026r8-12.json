@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-12",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE TITLE BATTLE, SIDE BY SIDE",
  "video": "docs/media/pod-fd2026r8-12/clip.mp4",
@@ -27,6 +27,10 @@
   "start": 7789
  },
  "created": "2026-11-17T08:01:13.503744+00:00",
- "built": "2026-11-17T08:01:13.503751+00:00",
- "format": "split"
+ "built": "2026-11-17T13:26:00.126334+00:00",
+ "format": "split",
+ "media": [
+  "docs/media/pod-fd2026r8-12/clip.mp4"
+ ],
+ "problems": []
 }

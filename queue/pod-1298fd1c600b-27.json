@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-27",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "CHELSEA IN DRIFT MASTERS?",
  "video": "docs/media/pod-1298fd1c600b-27/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 8367.33
  },
  "created": "2026-11-17T01:22:28.854854+00:00",
- "built": "2026-11-17T01:22:28.854858+00:00"
+ "built": "2026-11-17T13:26:00.023192+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-27/clip.mp4"
+ ],
+ "problems": []
 }

@@ -40,7 +40,12 @@
  "source": "https://www.as-web.jp/drift/1374797",
  "check": true,
  "check_reason": "nieuw format zonder foto; handles van Sobakiri en Nakamura nog onbekend",
- "status": "draft",
+ "status": "check",
  "created": "2026-11-17T13:24:20.362064+00:00",
- "by": "editor"
+ "by": "editor",
+ "media": [
+  "docs/media/2026-11-17-d1gp-sobakiri-champion/1.png"
+ ],
+ "problems": [],
+ "built": "2026-11-17T13:25:59.721616+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-16",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\"",
  "video": "docs/media/pod-da5d8825120e-16/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 3355.16
  },
  "created": "2026-11-16T19:57:47.936308+00:00",
- "built": "2026-11-16T23:41:11.600996+00:00"
+ "built": "2026-11-17T13:26:00.108392+00:00",
+ "media": [
+  "docs/media/pod-da5d8825120e-16/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-24T11:30:00+00:00"
 }

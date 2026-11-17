@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "WHY THEY CALL HIM THE SHADOW",
  "video": "docs/media/pod-fd2026r8-5/clip.mp4",
@@ -27,6 +27,10 @@
   "start": 7947.02
  },
  "created": "2026-11-16T22:17:30.502928+00:00",
- "built": "2026-11-16T22:17:30.502932+00:00",
- "format": "single"
+ "built": "2026-11-17T13:26:00.127764+00:00",
+ "format": "single",
+ "media": [
+  "docs/media/pod-fd2026r8-5/clip.mp4"
+ ],
+ "problems": []
 }

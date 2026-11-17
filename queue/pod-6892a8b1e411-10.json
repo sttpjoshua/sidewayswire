@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-10",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THREE ENGINES IN ONE SEASON",
  "video": "docs/media/pod-6892a8b1e411-10/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 2805.42
  },
  "created": "2026-11-16T19:39:46.796077+00:00",
- "built": "2026-11-17T00:52:53.123318+00:00"
+ "built": "2026-11-17T13:26:00.033312+00:00",
+ "media": [
+  "docs/media/pod-6892a8b1e411-10/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-19T11:30:00+00:00"
 }

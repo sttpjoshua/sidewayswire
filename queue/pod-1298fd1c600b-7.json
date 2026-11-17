@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-7",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "\"NO DISRESPECT, BUT...\"",
  "video": "docs/media/pod-1298fd1c600b-7/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 3064.6
  },
  "created": "2026-11-17T01:15:50.716362+00:00",
- "built": "2026-11-17T01:15:50.716367+00:00"
+ "built": "2026-11-17T13:26:00.024348+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-7/clip.mp4"
+ ],
+ "problems": []
 }

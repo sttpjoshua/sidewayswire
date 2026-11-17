@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-7",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FROM KID WITH A DREAM TO CHAMPION",
  "video": "docs/media/pod-fd2026r8-7/clip.mp4",
@@ -27,6 +27,10 @@
   "start": 8163.8
  },
  "created": "2026-11-16T22:20:08.713587+00:00",
- "built": "2026-11-16T22:20:08.713592+00:00",
- "format": "single"
+ "built": "2026-11-17T13:26:00.128123+00:00",
+ "format": "single",
+ "media": [
+  "docs/media/pod-fd2026r8-7/clip.mp4"
+ ],
+ "problems": []
 }

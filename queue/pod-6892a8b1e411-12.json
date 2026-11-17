@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-12",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL",
  "video": "docs/media/pod-6892a8b1e411-12/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 2935.1
  },
  "created": "2026-11-16T19:40:42.465420+00:00",
- "built": "2026-11-17T00:53:45.374793+00:00"
+ "built": "2026-11-17T13:26:00.035848+00:00",
+ "media": [
+  "docs/media/pod-6892a8b1e411-12/clip.mp4"
+ ],
+ "problems": []
 }

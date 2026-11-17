@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-15",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "OFF-SEASON? WHAT OFF-SEASON?",
  "video": "docs/media/pod-da5d8825120e-15/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 3259.9
  },
  "created": "2026-11-16T19:57:09.113931+00:00",
- "built": "2026-11-16T23:40:18.450208+00:00"
+ "built": "2026-11-17T13:26:00.106055+00:00",
+ "media": [
+  "docs/media/pod-da5d8825120e-15/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-6",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DOES A WHITE CAR CAUSE MORE CRASHES?",
  "video": "docs/media/pod-6892a8b1e411-6/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 1728.1
  },
  "created": "2026-11-16T19:38:16.962457+00:00",
- "built": "2026-11-17T00:50:04.155329+00:00"
+ "built": "2026-11-17T13:26:00.086672+00:00",
+ "media": [
+  "docs/media/pod-6892a8b1e411-6/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-22T16:30:00+00:00"
 }

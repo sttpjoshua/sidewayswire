@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "\"DON'T TELL ME TO BE PATIENT\"",
  "video": "docs/media/pod-1298fd1c600b-5/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 2625.24
  },
  "created": "2026-11-17T01:13:54.309078+00:00",
- "built": "2026-11-17T01:13:54.309082+00:00"
+ "built": "2026-11-17T13:26:00.023830+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-5/clip.mp4"
+ ],
+ "problems": []
 }

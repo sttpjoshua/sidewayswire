@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-17",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "\"IT'S NEVER REALLY ENOUGH\"",
  "video": "docs/media/pod-6892a8b1e411-17/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 3912.85
  },
  "created": "2026-11-16T19:44:09.970846+00:00",
- "built": "2026-11-17T01:00:11.789644+00:00"
+ "built": "2026-11-17T13:26:00.047600+00:00",
+ "media": [
+  "docs/media/pod-6892a8b1e411-17/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-20T16:30:00+00:00"
 }

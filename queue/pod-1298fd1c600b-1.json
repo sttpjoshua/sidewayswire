@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-1",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "62 DEGREES SHOULD BEAT 50",
  "video": "docs/media/pod-1298fd1c600b-1/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 1303.54
  },
  "created": "2026-11-17T01:11:01.514298+00:00",
- "built": "2026-11-17T01:11:01.514304+00:00"
+ "built": "2026-11-17T13:26:00.017566+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-1/clip.mp4"
+ ],
+ "problems": []
 }

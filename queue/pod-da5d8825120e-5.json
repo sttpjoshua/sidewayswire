@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "COULD HIROYA MINOWA RACE A US RALLY?",
  "video": "docs/media/pod-da5d8825120e-5/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 745
  },
  "created": "2026-11-16T17:57:06.794246+00:00",
- "built": "2026-11-16T23:44:08.365558+00:00"
+ "built": "2026-11-17T13:26:00.118133+00:00",
+ "media": [
+  "docs/media/pod-da5d8825120e-5/clip.mp4"
+ ],
+ "problems": []
 }

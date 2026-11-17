@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-21",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?",
  "video": "docs/media/pod-6892a8b1e411-21/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 4813.75
  },
  "created": "2026-11-16T19:47:11.639470+00:00",
- "built": "2026-11-17T01:06:01.330269+00:00"
+ "built": "2026-11-17T13:26:00.059618+00:00",
+ "media": [
+  "docs/media/pod-6892a8b1e411-21/clip.mp4"
+ ],
+ "problems": []
 }

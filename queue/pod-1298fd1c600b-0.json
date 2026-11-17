@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-0",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "WHY FD IS SO HARD TO WIN",
  "video": "docs/media/pod-1298fd1c600b-0/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 961.18
  },
  "created": "2026-11-17T01:10:10.561684+00:00",
- "built": "2026-11-17T01:10:10.561690+00:00"
+ "built": "2026-11-17T13:26:00.017066+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-0/clip.mp4"
+ ],
+ "problems": []
 }

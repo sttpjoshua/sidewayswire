@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-10",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "\"I WOULD DO IT AGAIN\"",
  "video": "docs/media/pod-1298fd1c600b-10/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 3645.66
  },
  "created": "2026-11-17T01:17:48.287439+00:00",
- "built": "2026-11-17T01:17:48.287444+00:00"
+ "built": "2026-11-17T13:26:00.017895+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-10/clip.mp4"
+ ],
+ "problems": []
 }

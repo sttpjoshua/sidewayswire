@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-9",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "RYAN TUERCK'S TEARS MOTIVATED HIM",
  "video": "docs/media/pod-fd2026r8-9/clip.mp4",
@@ -27,6 +27,10 @@
   "start": 8260.46
  },
  "created": "2026-11-16T22:21:19.726580+00:00",
- "built": "2026-11-16T22:21:19.726584+00:00",
- "format": "single"
+ "built": "2026-11-17T13:26:00.128585+00:00",
+ "format": "single",
+ "media": [
+  "docs/media/pod-fd2026r8-9/clip.mp4"
+ ],
+ "problems": []
 }
