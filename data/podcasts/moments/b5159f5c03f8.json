@@ -483,7 +483,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "Palmer used to roast anyone whose car wasn't low, Rafael lived by style over performance. Now it's all about balance. #drift #stance #stylevsperformance #grassrootsdrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5700.51,
@@ -492,7 +492,11 @@
    "why": "klassiek debat"
   },
   "wait_name": "v2-b5159f5c03f8-15-56692-57119.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5702.09, \"start\": 5700.51, \"text\": \"STYLE OR PERFORMANCE?\", \"why\": \"klassiek debat\"}",
+  "made": "2026-11-17T15:33:00.818255+00:00"
  },
  {
   "start": 5976.9,
@@ -511,7 +515,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller). Spanish friend 'Carlos' of '184 garage' (garbled); no surname used.",
   "caption": "Broke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship. #drift #roadtrip #spain #driftfamily",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6007.34,
@@ -520,7 +524,11 @@
    "why": "spannend begin, warme afloop"
   },
   "wait_name": "v2-b5159f5c03f8-16-59769-60247.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6009.46, \"start\": 6007.34, \"text\": \"WHO DO YOU CALL AT 2AM IN SPAIN?\", \"why\": \"spannend begin, warme afloop\"}",
+  "made": "2026-11-17T15:33:55.890890+00:00"
  },
  {
   "start": 7276.13,
@@ -538,7 +546,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "Rafael Muller thinks the language barrier is holding European drifting back, and that one shared language would give Europe its own Final Bout. #drift #finalbout #europeandrift #grassrootsdrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 7324.73,
@@ -547,7 +555,11 @@
    "why": "prikkelende stelling"
   },
   "wait_name": "v2-b5159f5c03f8-17-72761-73404.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7326.91, \"start\": 7324.73, \"text\": \"COULD EUROPE GET ITS OWN FINAL BOUT?\", \"why\": \"prikkelende stelling\"}",
+  "made": "2026-11-17T15:35:09.004586+00:00"
  },
  {
   "start": 7397.62,
@@ -566,7 +578,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller). French driver's name transcribed as 'mike solvie'/'ritz'; identify before posting.",
   "caption": "No big socials, no hype, just over 20 years of drifting a blue S13. Rafael Muller on one of France's real OGs. #drift #s13 #france #driftlegend",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 7427.1,
@@ -575,7 +587,11 @@
    "why": "mysterie rond de naam"
   },
   "wait_name": "v2-b5159f5c03f8-18-73976-74339.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7428.96, \"start\": 7427.1, \"text\": \"WHO IS FRANCE'S QUIET OG?\", \"why\": \"mysterie rond de naam\"}",
+  "made": "2026-11-17T15:35:52.656472+00:00"
  },
  {
   "start": 6955.38,

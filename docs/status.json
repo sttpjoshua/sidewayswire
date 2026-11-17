@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:32:04.727305+00:00",
+ "updated": "2026-11-17T15:35:52.665353+00:00",
  "counts": {
   "ready": 102,
-  "draft": 77,
+  "draft": 81,
   "check": 26,
   "posted": 3
  },
@@ -2586,10 +2586,10 @@
       "topic": "STYLE OVER PERFORMANCE?",
       "quote": "try not to be hard on people for changing because you don't know what you're gonna be into in front of years because like yeah that's why I was the kid on the internet talking hell of shit about anybody whose car wasn't low yeah and like same calling them a fucking oh you know what I have to you want to be you blah blah blah you know whatever you know what I like now this day today I'm just like fuck what height your car is like I know I was at the I was once the guy was like style over performance you know like if you will like do that interview eight years ago I would say style over performance but now I'm at the point like whatever you know like just having a really good balance yeah yeah yeah it is like it drives really fucking good but also looks really fucking good",
       "why": "Both admit they used to roast anyone whose car was not low, and how their view changed.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-15/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2600,10 +2600,10 @@
       "topic": "STRANDED IN SPAIN, BEST 2 WEEKS",
       "quote": "so my car broke down um I I mean I met Carlos like once quick I think and I text him like dude are you not living near Barcelona I just my car broke down two in the morning was cold that was even was even illegal for me to drive to fucking Spain but I was like fuck it you know yeah um so yeah I texted him and I ended up being there stuck for like two weeks till I got the parts man I had two greats it's one of the greatest two weeks of my life like we went street drifting we drunk beers we're to like a car auction like he he was that time he was like yeah like doing like he's doing like car selling buying stuff it was so good and we ended up to be like really good friends",
       "why": "His Land Cruiser died in Spain at 2am and a drifter he barely knew turned it into two of the best weeks of his life.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-16/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2614,10 +2614,10 @@
       "topic": "EUROPE NEEDS A FINAL BOUT",
       "quote": "but imagine you're actually like living here and you go to Spain to drifting and you can't fucking talk to someone there yeah it's like everyone acts like it's okay but I think like it sucks you know it's really fucking sucks it's kind of no one will take out their phone and you know like you know like fucking translate the whole you're just like that's like normal yeah and they stay in their group and we stay in our group and we still have fun you know we laugh you know like you can show emotions but that deep connection is it's hard to get because I think like imagine whole Europe will speak like the same fucking language I think drifting will be on a other point that it is now will be like way more and way more connected and way like we will have something like final about I'm sure because there is a lot of cool shit here just like why not start it's a lot of pressure yeah I yeah I dreamed I think about that yeah I think it's possible",
       "why": "Argues that the language barrier keeps European drifting apart, and one language would give Europe its own Final Bout.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-17/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2628,10 +2628,10 @@
       "topic": "FRANCE'S HIDDEN OG",
       "quote": "who's the French dude with the blue uh s13 mike solvie like yeah he doesn't live that far like he lives not that far from the Swiss border dude that guy ritz and he's like you know so cool but he's like an og yeah he came to super team yeah yeah he was at semashow before yeah and he's like um yeah he drifted comp before with that car like was different of course like with sponsors and shit yeah and yeah I think he drifts for like over 20 years like he's really fucking og of France like he drifts for forever",
       "why": "Shout out to an under-the-radar French OG in a blue S13 who has drifted for over 20 years without social media.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-18/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-b5159f5c03f8-18",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "No big socials, no hype, just over 20 years of drifting a blue S13. Rafael Muller on one of France's real OGs.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #s13 #france #driftlegend #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 7397.62
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:35:52.657467+00:00",
+   "built": "2026-11-17T15:35:52.657476+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-18/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FRANCE'S HIDDEN OG"
+  },
+  {
+   "id": "pod-b5159f5c03f8-17",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rafael Muller thinks the language barrier is holding European drifting back, and that one shared language would give Europe its own Final Bout.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #europeandrift #grassrootsdrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 7276.13
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:35:09.005636+00:00",
+   "built": "2026-11-17T15:35:09.005644+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-17/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "EUROPE NEEDS A FINAL BOUT"
+  },
+  {
+   "id": "pod-b5159f5c03f8-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Broke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #roadtrip #spain #driftfamily #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 5976.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:33:55.892083+00:00",
+   "built": "2026-11-17T15:33:55.892091+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-16/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "STRANDED IN SPAIN, BEST 2 WEEKS"
+  },
+  {
+   "id": "pod-b5159f5c03f8-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Palmer used to roast anyone whose car wasn't low, Rafael lived by style over performance. Now it's all about balance.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #stance #stylevsperformance #grassrootsdrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 5669.15
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:33:00.819257+00:00",
+   "built": "2026-11-17T15:33:00.819265+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-15/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "STYLE OVER PERFORMANCE?"
   },
   {
    "id": "pod-b5159f5c03f8-14",
