@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T13:11:15.811589+00:00",
+ "updated": "2026-11-17T13:13:43.973260+00:00",
  "counts": {
   "check": 7,
   "draft": 74,
   "ready": 10
  },
- "collected": "2026-11-17T07:47:28.519266+00:00",
+ "collected": "2026-11-17T13:13:43.906430+00:00",
  "instagram": false,
  "sources": [
   {
@@ -18,15 +18,15 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -38,8 +38,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
@@ -108,14 +109,54 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "how": "page"
   },
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+   "source": "Drift Masters",
+   "url": "https://driftmasters.gp/news",
+   "ok": false,
+   "error": "404 Client Error: Not Found for url: https://dm.gp/news"
+  },
+  {
+   "source": "Speedhunters",
+   "url": "gnews:site:speedhunters.com drift",
    "ok": true,
-   "items": 2,
+   "items": 0,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
+   "ok": true,
+   "items": 4,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
+   "ok": true,
+   "items": 0,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
+   "ok": true,
+   "items": 3,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
+   "ok": true,
+   "items": 0,
    "how": "feed"
   }
  ],
@@ -266,23 +307,6 @@
    ]
   },
   {
-   "title": "Welcome to the world of Formula Drift... a sport dominated by a small pocket in north Cork",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-16T14:31:46+00:00",
-   "items": [
-    {
-     "source": "Google News · Irish Independent",
-     "title": "Welcome to the world of Formula Drift... a sport dominated by a small pocket in north Cork",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNkhhQVFKeF9VSkhUTnpnaVlBbGxUcXV3SUg4RzJFUGRBcFRidjNZcHpvSUdKakw4aE83MjZPMnI4am5lMDV6aWFMZkVoaWUyMlJhUXlMempNN0dsVjBzYW1GemlMdTQ0eklVdFJoVUV0YUt2ODl4SlFkMUgteF9Ya28tY09qb2c2c1NvWDVubkxGdGsyUk95dUtzcWsxazhDbDlMbWtEQUZObXRfODU4cE8xcmk3NG03ek9VVjMzV0Nha0ZLY1VPRXBlQmxWZlRaM1p1S3k4RV9GVjhIWUFTdkVWajNtUUtKT2k4bC13ZkhpSFljbUNVeg?oc=5",
-     "kind": "article",
-     "published": "2026-11-16T14:31:46+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
-  },
-  {
    "title": "蕎麦切広大、もがきながら初のシリーズチャンピオンに輝く「切り替えたつもりでも、ずっと緊張していた」／D1グランプリ最終戦",
    "series": "D1GP",
    "buzz": 1,
@@ -330,6 +354,23 @@
      "published": "2026-11-15T15:35:28+00:00",
      "media_url": "https://i4.ytimg.com/vi/CXzfhHQrIQM/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "JDM Japanese Drift Master Gets New 5000-Layer Livery Editor",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-15T08:19:46+00:00",
+   "items": [
+    {
+     "source": "Google News · BoxThisLap",
+     "title": "JDM Japanese Drift Master Gets New 5000-Layer Livery Editor",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JTjlCUlVONVZVUTI3WVlPS0J0V3RRbm1pdkVrVW1oZVBMMFRlTExOME42dW5MS1RwNVBGdTJBVHh2OGRDajl3SzhENGI5S3phMWdjRUNzdTY0MkJBUi10bVdYcm5yRHozMmx5Y3dsRDY?oc=5",
+     "kind": "article",
+     "published": "2026-11-15T08:19:46+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -402,23 +443,6 @@
    ]
   },
   {
-   "title": "Arcade Games",
-   "series": "FD + DM",
-   "buzz": 1,
-   "published": "2026-11-14T02:32:06+00:00",
-   "items": [
-    {
-     "source": "Drifted.com",
-     "title": "Arcade Games",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8zUmEtVTV2Sk9YN0NIYkw1MEVqN3R1b3ZyZnBwTTJucHVpR0dQd2ZrMlI0UnVpNTRqQ294UGxzRVVwWkJVUEJGV00xNXFHbExqQzhwZmh4QkQ?oc=5",
-     "kind": "article",
-     "published": "2026-11-14T02:32:06+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
-  },
-  {
    "title": "Quick overview on how coilovers are built #automobile #mechanic #cartok #garage #drift",
    "series": "FD",
    "buzz": 1,
@@ -436,6 +460,23 @@
    ]
   },
   {
+   "title": "Drift racers wow crowd",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-13T22:34:27+00:00",
+   "items": [
+    {
+     "source": "Google News · The Killeen Daily Herald",
+     "title": "Drift racers wow crowd",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYTZjNU82VFdiVDV1RnBnTXRIX0YwYTlLWmVmOW5rYzRYUkF0SU5QNllMWm9XSVhnMG9Qb3hJeDZvVndPaXBZM0FYbllWUnlIS2M5MmlibElpdGxRalhfTkdfSUxlY2lXTm5nc25NS0pOVnI4d1ZUdGFLUmN3eERlWXRVWVFfX21wQjUyaHB0Yk45OVc5N2RaUFhLYUFjUS14c3JkakNwOGZNUGg2TVR5NzROVkROZGt4SmxFYjVud0FoZk9ERzdZ?oc=5",
+     "kind": "article",
+     "published": "2026-11-13T22:34:27+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "始まりの地での最終戦に挑む下田紗弥加「私のチャレンジ精神を見てほしい」【D1GP2026キーパーソン】",
    "series": "D1GP",
    "buzz": 1,
@@ -447,23 +488,6 @@
      "url": "https://www.as-web.jp/drift/1374459",
      "kind": "article",
      "published": "2026-11-13T20:45:07+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
-  },
-  {
-   "title": "Airtime",
-   "series": "FD + DM",
-   "buzz": 1,
-   "published": "2026-11-13T20:08:40+00:00",
-   "items": [
-    {
-     "source": "Drifted.com",
-     "title": "Airtime",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA3SlIyQ2xrM1cyQTl2VWtLUkhnSFZoWEphNENrQm5rYUtUZEJSWEd4M0FJa0pKaklmMWc4UWh3WUE0Q24zZW53?oc=5",
-     "kind": "article",
-     "published": "2026-11-13T20:08:40+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -551,6 +575,23 @@
      "published": "2026-11-13T15:46:50+00:00",
      "media_url": "https://i4.ytimg.com/vi/c5BPfMU2wo0/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Expanded Paint Shop Update Drops For Japanese Drift Master",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-13T14:45:13+00:00",
+   "items": [
+    {
+     "source": "Google News · Sports Gamers Online",
+     "title": "Expanded Paint Shop Update Drops For Japanese Drift Master",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWmhHcUJiQ2lMYVhtS2ozQ2xfYWgxWE1vNVFMcGlXeFB5ZkpjN0d0cHAwT0VEZzhNWFVhMU96SFY0TDdpM3hQb1RVbzZfVWl6QkVmOXhGYTN6bHJRamFqdGVpYzBEUVBZM1pmX1dXbC1nTnNqamdwLUpfS0xYb2JhdjB2OWpXMUpyTDZhaFFOa0JBa3k0WlFPbi03bVVXbENCcXRSRGtmNmxZb2fSAbABQVVfeXFMTng3Zk05Sl9xVDlKRUtHMlBWUkVXSVFjTE5pZVFib3pmamlYWERwbWdMMVdfSmE2ektIUTE2ODU5Z2VxV1I1RFA5RmlMMXNOQTNZVG9adE13ZDRBQ2hCR0UyNnZORy1WZHBObkVmX09sbGZlSWlrVFU4QzEyWVV2Q1pMdFlOX1pZRUdaZFFaaWFuMHIxWThIMFVWclJjLWlEVGV5TWxsdnNlV0l6UkFjWXI?oc=5",
+     "kind": "article",
+     "published": "2026-11-13T14:45:13+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -653,23 +694,6 @@
      "published": "2026-11-12T18:30:25+00:00",
      "media_url": "https://i2.ytimg.com/vi/aysr27tLfHY/hqdefault.jpg",
      "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Watch spectacular fireworks and drift performances beneath Mt Fuji this April",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-12T15:51:07+00:00",
-   "items": [
-    {
-     "source": "Google News · Time Out Worldwide",
-     "title": "Watch spectacular fireworks and drift performances beneath Mt Fuji this April",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNlpMeWg5bFEtV0tCbEJlN09lSFp4OVVGNXdZNkdyREpFUkxTSUdRclRjYW8tcThRcFJiWWJjeXlDRTdZX0RmVkt0YkJXZWMyaWtCTktHeG9MX1IzZVlEbVlxVldmekpFNnd1U2M2VHgwblIyT3R2QnlHSEVrTERrNWt5ckhMTjJKVktOYXo4aWItUlpaemxzUzJmaXdOOUo0T2Z6Vm1NMkRXcWgtV2JEMHdqNHB5Rm1LOFZn?oc=5",
-     "kind": "article",
-     "published": "2026-11-12T15:51:07+00:00",
-     "media_url": null,
-     "media_type": null
     }
    ]
   },
@@ -912,23 +936,6 @@
    ]
   },
   {
-   "title": "Escape Chase",
-   "series": "FD + DM",
-   "buzz": 1,
-   "published": "2026-11-10T20:06:45+00:00",
-   "items": [
-    {
-     "source": "Drifted.com",
-     "title": "Escape Chase",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TX2hFMGtUb1g1ajVsUDA2MlQ4b3VJak1JTkFnWi1KRFFwb2RQVHI4c2dVc2lubm1TRndvQWd1blI1d1dVejNMUjZXSEJ5dw?oc=5",
-     "kind": "article",
-     "published": "2026-11-10T20:06:45+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
-  },
-  {
    "title": "Fix the car. Keep the car.",
    "series": "FD",
    "buzz": 1,
@@ -1099,6 +1106,40 @@
    ]
   },
   {
+   "title": "Drifting to glory: Conor Shanahan's road less travelled",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-07T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · The 42",
+     "title": "Drifting to glory: Conor Shanahan's road less travelled",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IRVFjbHBkVnk1RVR6MmdZc2NnbHZJMGhGdXlRaUVKRFliSGVibDBTODdZX2RjaHBNbTIyU3hZN0NIcHNDdDNlRkVqVGJ1OGtvQUdpcFhWZFV5MUtycGlSREpnbWNTNWdVakNDb25B?oc=5",
+     "kind": "article",
+     "published": "2026-11-07T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "The LEGO Group Unveils New Formula 1® Sets Ahead of the 2025 Season",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-06T20:58:42+00:00",
+   "items": [
+    {
+     "source": "Google News · Drift Travel Magazine",
+     "title": "The LEGO Group Unveils New Formula 1® Sets Ahead of the 2025 Season",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTTQ2WVBFcG9mUGhEcWEyVHpaendDam1NVm9aY3VNYWJkZ2dLOXc5NGVxaUcwOUFkcVB3a01iZ0lPeld5bExzZDM5RUdOalNGdWJ1aHp3Q0luZGR0QlpiU1R3aHpYMWRCQk5PaFlKYXpCbmFCZWo1N2lsLXdnMVVLcmxqNEhGZjVmQW9BYmlVQy1TRDQ1a3fSAZsBQVVfeXFMUGxwbWVNNFU4THlqMUhpaU5BSDhyV3NBRzFpd3lpVmpaUW1ZOWFMY2llNTRVa3cwVHRhd2plSjNmVUVrNFU0eXBrVTQ3b0UtWFRfdUYtVWdicktOU05SbjJDUnZOLXgwNlo2aE0tSlFwallBNnVlR3hUc0pkREZQVUpMLWV5NlpPc1FfQTE4cVVGbTZoa0tldmVTT0k?oc=5",
+     "kind": "article",
+     "published": "2026-11-06T20:58:42+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "One Last Battle - Leaving It All On The Streets of Long Beach! | Inner Clip Season Finale",
    "series": "FD",
    "buzz": 1,
@@ -1180,6 +1221,23 @@
      "published": "2026-11-06T11:35:21+00:00",
      "media_url": "https://i2.ytimg.com/vi/1WTBDrAbdYQ/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "JDM: Japanese Drift Master Paint Shop Update Will Add Liveries, Rim Painting, & Gradients",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-06T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Simulation Daily",
+     "title": "JDM: Japanese Drift Master Paint Shop Update Will Add Liveries, Rim Painting, & Gradients",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYkV6TEdzbjh4dU9iVnZ2MGg5WHRESlpPRl9YbG1BYzZUTGYxVFlNa3VEXzdXa29fbXRnYzF5VGRqX3U1NkRsQXJ3Z2JDTXhmUG1naW1aVUszMmNhZTN0bVRpT2c5NmJ0cWdpbE5tdWpnenNVYzFBNkFBWWNnS0U2MnBadw?oc=5",
+     "kind": "article",
+     "published": "2026-11-06T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
