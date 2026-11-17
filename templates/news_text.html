@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% import "_parts.html" as p %}
+{# News post without a photo: typographic. Big outlined series name as a backdrop.
+   Data: series_badge (list), backdrop (short text, e.g. "D1GP"), headline (list of 3 lines), marker, kicker, body, source #}
+{% block body %}
+<div class="abs" style="inset:0;background:radial-gradient(120% 80% at 80% 10%,#26262a 0%,#111 60%)"></div>
+<div class="abs" style="left:-30px;top:330px;font:900 {{ backdrop_size|default(420) }}px/0.82 'Inter';letter-spacing:-12px;color:transparent;-webkit-text-stroke:3px rgba(255,255,255,.09);white-space:nowrap">{{ backdrop }}</div>
+<div class="abs" style="left:0;right:0;top:0;height:14px;background:var(--accent)"></div>
+{{ p.wordmark() }}
+{{ p.badge(series_badge) }}
+{% if kicker %}<div class="abs bb" style="left:70px;top:400px;font-size:30px;color:var(--accent);letter-spacing:2px">{{ kicker }}</div>{% endif %}
+{% set styles = ['dark','accent','dark'] %}
+{{ p.tapes(headline_items(headline, 124, styles), top=460, marker=marker) }}
+{{ p.textbox(body, 'SOURCE ' ~ source|upper, '@sidewayswire') }}
+{% endblock %}
