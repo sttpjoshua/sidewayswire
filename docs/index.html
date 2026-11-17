@@ -142,6 +142,7 @@ section{display:none}section.on{display:block}
 
 <section id="s-posts">
   <h1>CARROUSELS EN POSTS</h1><div class="sub">Alle posts met beeld (nieuws, uitslagen, standen, seizoensoverzichten). Klik op een post om hem te beoordelen.</div>
+  <div class="banner" id="post-ed" style="border-color:#4aa8ff"></div>
   <div class="filters" id="post-f"></div>
   <div class="gal" id="pgal"></div>
 </section>
@@ -218,6 +219,13 @@ async function changePost(id,fn,msg){   // read the newest queue file, change it
 }
 async function runBuild(){try{await gh(`/actions/workflows/run.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})})}catch(e){console.log(e)}}
 
+let ED=null;
+function nextEditor(){const sch=(ED&&ED.schedule)||["10:23","13:23","19:23","23:23"];
+  const now=new Date(),ams=new Date(now.toLocaleString("en-US",{timeZone:"Europe/Amsterdam"}));const m=ams.getHours()*60+ams.getMinutes();
+  const t=sch.find(x=>{const[h,mm]=x.split(":").map(Number);return h*60+mm>m});return t?"vandaag "+t:"morgen "+sch[0]}
+function editorLine(){if(!ED)return "nog geen gegevens";
+  if(ED.state==="busy")return `bezig sinds ${ago(ED.started)}: zoekt verhalen en maakt posts`;
+  const n=(ED.posts||[]).length;return `laatst ${ago(ED.finished)} · ${n?n+" nieuwe post"+(n>1?"s":""):"geen nieuwe posts"}${ED.moments?" · "+ED.moments+" clipmomenten":""} · volgende ronde ${nextEditor()}`}
 let S=null, MAC=null, NOW=null, PODNOW=null, CLIPNOW=null, RUNS=null, runsAt=0;
 const WF={collect:"Nieuws verzamelen",podcasts:"Podcasts transcriberen",clips:"Clips maken",run:"Plaatsen",handles:"Handles zoeken"};
 async function loadRuns(){
@@ -230,7 +238,7 @@ function drawRuns(){
   if(!RUNS){el.innerHTML=`<div class="empty">Kon de runs niet ophalen.</div>`;return}
   const by={};RUNS.forEach(r=>{const k=(r.path||"").split("/").pop().replace(".yml","");if(WF[k]&&!by[k])by[k]=r});
   const lastDone=k=>RUNS.find(r=>(r.path||"").endsWith(k+".yml")&&r.status==="completed"&&r.conclusion!=="cancelled");
-  el.innerHTML=Object.keys(WF).map(k=>{const r=by[k],d=lastDone(k);if(!r)return `<div class="h"><div class="dot x"></div><div><b>${WF[k]}</b><span>nog niet gedraaid</span></div></div>`;
+  el.innerHTML=`<div class="h"><div class="dot ${ED&&ED.state==="busy"?"":"g"}"></div><div><b>Redactie (posts en clipmomenten)</b><span>${editorLine()}</span></div></div>`+Object.keys(WF).map(k=>{const r=by[k],d=lastDone(k);if(!r)return `<div class="h"><div class="dot x"></div><div><b>${WF[k]}</b><span>nog niet gedraaid</span></div></div>`;
     const busy=r.status!=="completed", bad=d&&d.conclusion==="failure";
     return `<div class="h"><div class="dot ${bad?"r":busy?"":"g"}"></div><div><b>${WF[k]}</b><span>${busy?"bezig sinds "+ago(r.run_started_at||r.created_at):"laatst "+ago(r.updated_at)}${bad?` · <a href="${d.html_url}" target="_blank">laatste run mislukt</a>`:d?" · gelukt":""}</span></div></div>`}).join("");
 }
@@ -357,6 +365,9 @@ document.getElementById("clip-f").onclick=e=>{if(e.target.tagName==="BUTTON"){cl
 // ---------- posts ----------
 let postFilter="ALLES";
 function drawPosts(){
+  const pe=document.getElementById("post-ed");
+  pe.innerHTML=ED&&ED.state==="busy"?`<b>De redactie is nu bezig</b> (sinds ${ago(ED.started)}): verhalen kiezen, feiten controleren en posts maken. Nieuwe posts verschijnen hier zodra ze gebouwd zijn.`
+    :`<b>Redactie:</b> ${editorLine()}.${ED&&(ED.posts||[]).length?`<br>Laatst gemaakt: ${ED.posts.map(esc).join(" · ")}`:""}<br><span class="muted">De redactie draait om ${((ED&&ED.schedule)||[]).join(", ")}. Daarna bouwt het proces "Plaatsen" de afbeeldingen (zie Overzicht, Processen).</span>`;
   const C=posts().filter(p=>cat(p)==="posts"), F={"ALLES":()=>true,"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
   document.getElementById("post-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===postFilter?"on":""}">${k} (${C.filter(F[k]).length})</button>`).join("");
   pgal.innerHTML=C.filter(F[postFilter]).sort((a,b)=>String(b.created||"").localeCompare(String(a.created||""))).map(p=>{const m=p.media||[];
@@ -423,6 +434,7 @@ async function load(){
   S=await fetch("status.json?"+Date.now()).then(r=>r.json());
   try{PODNOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
   try{CLIPNOW=await fetch("clips-now.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
+  try{ED=await fetch("editor.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
   await loadRuns();
   try{const r=await fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}});if(r.ok)MAC=JSON.parse((await r.json()).body||"{}")}catch(e){}
   drawAll();
