@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:27:30.370911+00:00",
+ "updated": "2026-11-17T16:31:48.246827+00:00",
  "counts": {
   "ready": 98,
   "draft": 113,
@@ -3610,7 +3610,7 @@
       "why": "Wiring Specialties VR30 swap kit for Z33: big news for budget drift chassis builders.",
       "status": "queued",
       "clip": "docs/media/pod-b9e6971ba742-5/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3624,7 +3624,7 @@
       "why": "Funny confession: multiple street racing charges led to a quiet OEM+ Honda.",
       "status": "queued",
       "clip": "docs/media/pod-b9e6971ba742-6/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3638,7 +3638,7 @@
       "why": "How the hunt for higher-trim parts fuelled the late 90s Type R and GSR theft wave.",
       "status": "queued",
       "clip": "docs/media/pod-b9e6971ba742-7/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3666,7 +3666,7 @@
       "why": "Lighthearted roast of Corvette owners, then a self-own about Ford and Nissan.",
       "status": "queued",
       "clip": "docs/media/pod-b9e6971ba742-9/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9100,6 +9100,150 @@
    "title": "DM 2026: EVERY ROUND WINNER"
   },
   {
+   "id": "pod-b9e6971ba742-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "High socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n\n🎙 Full episode: Behind The Wheel\n\n#Corvette #Nissan #Ford #CarCulture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1807.23
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:49:50.078598+00:00",
+   "built": "2026-11-17T16:31:48.237957+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-9/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CORVETTE GUYS CATCH STRAYS"
+  },
+  {
+   "id": "pod-b9e6971ba742-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n\n🎙 Full episode: Behind The Wheel\n\n#TypeR #IntegraGSR #Honda #JDM #CarCulture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1550.43
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:48:22.718057+00:00",
+   "built": "2026-11-17T16:31:03.207329+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-7/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHY TYPE RS GOT STOLEN"
+  },
+  {
+   "id": "pod-b9e6971ba742-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Multiple street racing charges and one quiet OEM+ Honda later... a host on how he ended up with a stock-looking swap car.\n\n🎙 Full episode: Behind The Wheel\n\n#StreetRacing #Honda #OEMplus #EngineSwap #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1471.21
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:47:27.725623+00:00",
+   "built": "2026-11-17T16:29:55.382681+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-6/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "STREET RACING CHARGES TO OEM+"
+  },
+  {
+   "id": "pod-b9e6971ba742-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Wiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n\n🎙 Full episode: Behind The Wheel\n\n#350Z #VR30 #EngineSwap #Nissan #DriftCar #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1336.59
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:46:42.532610+00:00",
+   "built": "2026-11-17T16:28:55.171858+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-5/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "VR30 SWAP KIT FOR THE 350Z"
+  },
+  {
    "id": "pod-b9e6971ba742-4",
    "kind": "podcast_clip",
    "status": "draft",
@@ -10053,42 +10197,6 @@
    "title": "WHERE OEM+ ENDS"
   },
   {
-   "id": "pod-b9e6971ba742-9",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "High socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n\n🎙 Full episode: Behind The Wheel\n\n#Corvette #Nissan #Ford #CarCulture #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 1807.23
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:49:50.078598+00:00",
-   "built": "2026-11-17T15:49:50.078608+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-9/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "CORVETTE GUYS CATCH STRAYS"
-  },
-  {
    "id": "pod-b9e6971ba742-8",
    "kind": "podcast_clip",
    "status": "draft",
@@ -10123,114 +10231,6 @@
    "caption_by": null,
    "format": "single",
    "title": "500 HP JUNKYARD 5.3 VS CIVIC"
-  },
-  {
-   "id": "pod-b9e6971ba742-7",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n\n🎙 Full episode: Behind The Wheel\n\n#TypeR #IntegraGSR #Honda #JDM #CarCulture #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 1550.43
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:48:22.718057+00:00",
-   "built": "2026-11-17T15:48:22.718064+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-7/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHY TYPE RS GOT STOLEN"
-  },
-  {
-   "id": "pod-b9e6971ba742-6",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Multiple street racing charges and one quiet OEM+ Honda later... a host on how he ended up with a stock-looking swap car.\n\n🎙 Full episode: Behind The Wheel\n\n#StreetRacing #Honda #OEMplus #EngineSwap #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 1471.21
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:47:27.725623+00:00",
-   "built": "2026-11-17T15:47:27.725630+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-6/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "STREET RACING CHARGES TO OEM+"
-  },
-  {
-   "id": "pod-b9e6971ba742-5",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Wiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n\n🎙 Full episode: Behind The Wheel\n\n#350Z #VR30 #EngineSwap #Nissan #DriftCar #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 1336.59
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:46:42.532610+00:00",
-   "built": "2026-11-17T15:46:42.532614+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-5/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "VR30 SWAP KIT FOR THE 350Z"
   },
   {
    "id": "pod-b5159f5c03f8-23",
