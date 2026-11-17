@@ -30,6 +30,14 @@ competitief driften. Werk in de repo `sttpjoshua/sidewayswire`.
 - Koppen in hoofdletters, maximaal 3 regels van ongeveer 16 tekens. De renderer verkleint
   te lange tekst en stuurt de post naar Joshua als het dan nog niet past.
 - Caption: 1 tot 3 zinnen, daarna credits, daarna 3 tot 5 hashtags.
+- Foto's: alleen beeld waar we recht op hebben (stills uit FD- en DM-livestreams met credit aan de
+  serie, Joshua's eigen foto's). Geen foto? Gebruik `news_text.html` (typografisch, met een groot
+  `backdrop`-woord zoals de serie of het merk). Download nooit foto's van nieuwssites of Instagram.
+- Handles in posts: alleen gecontroleerde uit `data/sources.csv`. Onbekend: zet de naam in
+  `missing_handles` en `check: true`.
+- Joshua (nov 2026): uitslagen zijn nu minder interessant. Zoek de verhalen: nieuwe auto's,
+  liveries, overstappen, builds, boeken en films, grote uitspraken, D1GP en andere series wereldwijd.
+  Maximaal 3 nieuwe posts per run, kwaliteit boven aantal.
 
 ## Vaste formats
 
