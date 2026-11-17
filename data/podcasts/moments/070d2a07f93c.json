@@ -13,7 +13,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode; team name 'Jason Benet' is garbled and left out",
   "caption": "In one small French village the barber marshals the track and pro teams pit in people's front yards, fed croissants by the neighbours. #DriftFrance #Drifting #FormulaDrift #RaceDataLabs",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 886.7,
@@ -22,7 +22,11 @@
    "why": "verrassend beeld, nieuwsgierig"
   },
   "wait_name": "v2-070d2a07f93c-0-8350-8960.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-0/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 889.02, \"start\": 886.7, \"text\": \"WHERE DO PRO TEAMS PARK IN FRANCE?\", \"why\": \"verrassend beeld, nieuwsgierig\"}",
+  "made": "2026-11-17T13:25:05.763526+00:00"
  },
  {
   "start": 1020.42,
@@ -38,7 +42,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "Seven thousand sold out, then fifteen thousand at a truck stadium: drifting in France is booming. #DriftFrance #Drifting #FormulaDrift #Motorsport",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1032.96,
@@ -47,7 +51,11 @@
    "why": "harde cijfers als prikkel"
   },
   "wait_name": "v2-070d2a07f93c-1-10204-10679.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-1/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1035.6, \"start\": 1032.96, \"text\": \"WHICH SERIES KEEPS SELLING OUT?\", \"why\": \"harde cijfers als prikkel\"}",
+  "made": "2026-11-17T13:26:15.637080+00:00"
  },
  {
   "start": 1390.66,
@@ -64,7 +72,7 @@
   "photo_hint": "Spotter tower at a Formula DRIFT round",
   "check": false,
   "caption": "Jacob Gettins says the best seat at Formula DRIFT is in the spotter tower, and he would sell five glassed-off seats to hear it all. #FormulaDrift #Drifting #Spotter #FDPro",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1442.12,
@@ -73,7 +81,11 @@
    "why": "vreemde wens, wekt vraag"
   },
   "wait_name": "v2-070d2a07f93c-2-13907-14493.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-2/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1443.82, \"start\": 1442.12, \"text\": \"WOULD YOU PAY FOR THIS SEAT?\", \"why\": \"vreemde wens, wekt vraag\"}",
+  "made": "2026-11-17T13:27:37.943271+00:00"
  },
  {
   "start": 1630.6,
@@ -89,7 +101,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "Race Data Labs suspected the Long Beach bridge would mess with their signal, and it did. Round one was a gut punch they had to win fans back from. #FormulaDrift #LongBeach #RaceDataLabs #DriftScoring",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1637.7,
@@ -98,7 +110,11 @@
    "why": "bekentenis over ronde 1"
   },
   "wait_name": "v2-070d2a07f93c-3-16306-16772.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-3/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1641.4, \"start\": 1637.7, \"text\": \"WHAT WENT WRONG AT LONG BEACH?\", \"why\": \"bekentenis over ronde 1\"}",
+  "made": "2026-11-17T13:28:46.319179+00:00"
  },
  {
   "start": 1677.88,

@@ -1,7 +1,8 @@
 {
- "updated": "2026-11-17T13:26:00.363846+00:00",
+ "updated": "2026-11-17T13:28:48.905760+00:00",
  "counts": {
   "check": 48,
+  "draft": 4,
   "posted": 3,
   "ready": 42
  },
@@ -4824,10 +4825,10 @@
       "topic": "PRO TEAMS PITTED IN FRENCH FRONT YARDS",
       "quote": "They put an event on their climate and the whole town gets around it like the barbers, a track marshal, the butchers doing something like million dollar race teams like one run that comes off my head. Jason Benet. But I mean, I mean, Jason Benet. You know, obviously, excellent operator teams incredible cars. Great. They were parked in like someone's front yard, like some little dude's house. They were parked there. Incredible race team, you know, picker and all that. They were parked in some guy's house. And yeah, that was like just random spots this whole town with pits and teams. It was crazy. Like you drive like a back street because one road, little French town, like little little side streets. And you take a wrong turn. There's a race scene there. And they're like having the guys houses were like feeding them food and giving them croissants and stuff like that.",
       "why": "A whole French village turns into a drift paddock, with pro teams parked in locals' gardens.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-0/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4838,10 +4839,10 @@
       "topic": "DRIFT FRANCE IS SELLING OUT",
       "quote": "And the numbers that the different French guys are doing like they're getting. So they had seven thousand at this event again. Millionaire. Yeah. Out of Arab Toulouse. They had seven thousand and it was sold out. The event before was at like a truck stadium sort of deal. Fifteen thousand. The event before sold out again. Ten thousand. So Drift France is like they've got a they've they're doing some really cool stuff and they've captured the audience really well. They've captured the market really well. And yeah, drifting in France is flourishing. So I would say that they are probably the best national series definitely in Europe that I can think of just by volume and numbers.",
       "why": "Sold-out crowds of 7,000 to 15,000 make Drift France maybe the strongest national series in Europe.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-1/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4852,10 +4853,10 @@
       "topic": "A CHEF'S TABLE IN THE SPOTTER TOWER",
       "quote": "Sometimes up in the booth, sometimes down with like drivers and fans and like, I honestly, my favorite spot is with the spotters. Cause like you kind of, you get, you, you find out so much more in the spotters room or in the area cause they're going through everything and they're venting and they're telling you everything that's happening with the car and like what's going through the driver's mind. Like that to me, if we, do you know what like a chef's table is at a restaurant where they have like, wouldn't it have like a table in the kitchen? Yeah, I've been living the time. Yeah. Yeah. Okay. Yeah. So, so like for people who don't know, I guess like they're a restaurant you can go to, you can pay a lot of money and sit in the kitchen and observe the whole kitchen. If they sold like five seats for the spotters area, I think it would be incredible. Like we can't have that many people. It's got to be super private. I'd almost want to be like glassed off. So you can't interact with them. And it's just sitting there and listening to what's going on in the spotters tower. It's great.",
       "why": "FD's commentator pitches selling a few seats to listen in on the spotters during battles.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-2/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4866,10 +4867,10 @@
       "topic": "THE BRIDGE THAT BROKE WALL-E AT LONG BEACH",
       "quote": "Obviously, round one was a bit of a challenge. We'll call that bridge. You know, we will. We will. We had a suspicion that that bridge at Long Beach was going to disrupt our signal. It did. We try to work around it as best as possible. Unfortunately, because it was our introduction to FD and we had issues, it was kind of, you know, a bit of a. Not not sat on the right foot, you know, try to light fire. Yeah. Yeah. Like if Atlanta was the first round, I think it would have opened the world up to the potential of the system a little bit easier. But because the first round was a bit of a gut punch, it sort of set us up. We've had to win people back. But I think we've done that.",
       "why": "The Race Data Labs man admits the Long Beach bridge disrupted the signal and made round one a gut punch.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-3/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -6855,6 +6856,121 @@
    "title": "THE MILLION DOLLAR ROAD TO FD"
   },
   {
+   "id": "pod-070d2a07f93c-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Race Data Labs suspected the Long Beach bridge would mess with their signal, and it did. Round one was a gut punch they had to win fans back from.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #LongBeach #RaceDataLabs #DriftScoring #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1630.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:28:46.320522+00:00",
+   "built": "2026-11-17T13:28:46.320527+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-3/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE BRIDGE THAT BROKE WALL-E AT LONG BEACH"
+  },
+  {
+   "id": "pod-070d2a07f93c-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jacob Gettins says the best seat at Formula DRIFT is in the spotter tower, and he would sell five glassed-off seats to hear it all.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#FormulaDrift #Drifting #Spotter #FDPro #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1390.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:27:37.944643+00:00",
+   "built": "2026-11-17T13:27:37.944648+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-2/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "A CHEF'S TABLE IN THE SPOTTER TOWER"
+  },
+  {
+   "id": "pod-070d2a07f93c-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Seven thousand sold out, then fifteen thousand at a truck stadium: drifting in France is booming.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#DriftFrance #Drifting #FormulaDrift #Motorsport #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1020.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:26:15.638439+00:00",
+   "built": "2026-11-17T13:26:15.638446+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-1/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DRIFT FRANCE IS SELLING OUT"
+  },
+  {
    "id": "pod-fd2026r8-9",
    "kind": "stream_clip",
    "status": "check",
@@ -8485,6 +8601,45 @@
    "caption_by": null,
    "format": null,
    "title": "KODAI SOBAKIRI IS THE 2026 D1GP CHAMPION"
+  },
+  {
+   "id": "pod-070d2a07f93c-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "In one small French village the barber marshals the track and pro teams pit in people's front yards, fed croissants by the neighbours.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#DriftFrance #Drifting #FormulaDrift #RaceDataLabs #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 834.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:25:05.764949+00:00",
+   "built": "2026-11-17T13:25:05.764956+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-0/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "PRO TEAMS PITTED IN FRENCH FRONT YARDS"
   },
   {
    "id": "pod-1298fd1c600b-15",
