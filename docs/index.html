@@ -13,6 +13,15 @@ nav.side a{display:flex;align-items:center;gap:10px;padding:11px 20px;text-decor
 nav.side a:hover{color:#fff;background:#18181a}nav.side a.on{color:#fff;border-color:var(--accent);background:#1b1b1d}
 nav.side a .cnt{margin-left:auto;background:var(--pink);color:#111;border-radius:10px;padding:1px 8px;font-size:11px}
 nav.side a .cnt:empty{display:none}
+nav.side .live{margin-top:auto;padding:12px 20px 4px;border-top:1px solid #222;font-size:12px;line-height:1.45}
+nav.side .live h4{margin:0 0 8px;font-size:10px;letter-spacing:2px;color:#5b5b60}
+nav.side .live .it{display:flex;gap:9px;margin-bottom:10px;color:#ddd}
+nav.side .live .it b{display:block;color:#fff;font-size:12px;letter-spacing:.5px}
+nav.side .live .it span{color:var(--mute);font-size:11px}
+nav.side .live .pd{flex:none;width:9px;height:9px;border-radius:50%;background:var(--accent);margin-top:4px;animation:pulse 1.4s infinite}
+nav.side .live .pb{height:4px;background:#2c2c30;margin-top:4px}nav.side .live .pb i{display:block;height:100%;background:var(--accent)}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(198,255,0,.7)}70%{box-shadow:0 0 0 8px rgba(198,255,0,0)}100%{box-shadow:0 0 0 0 rgba(198,255,0,0)}}
+nav.side .foot{margin-top:0!important}
 nav.side .grp{padding:16px 20px 4px;font-size:10px;font-weight:800;letter-spacing:2px;color:#5b5b60}
 h2.cat{border-bottom:3px solid var(--accent);padding-bottom:6px}h2.cat.live{border-color:#ff7a00}h2.cat.battle{border-color:var(--pink)}h2.cat.posts{border-color:#4aa8ff}
 .tag.c-pod{background:var(--accent);color:#111}.tag.c-live{background:#ff7a00;color:#111}.tag.c-battle{background:var(--pink);color:#111}.tag.c-posts{background:#4aa8ff;color:#111}
@@ -88,7 +97,7 @@ section{display:none}section.on{display:block}
 @media(max-width:900px){
  .app{grid-template-columns:1fr}
  nav.side{position:fixed;bottom:0;top:auto;height:auto;width:100%;flex-direction:row;padding:0;z-index:10;border-right:none;border-top:2px solid #000;overflow-x:auto}
- nav.side img,nav.side .foot,nav.side .grp{display:none}nav.side a{padding:12px 12px;border-left:none;border-top:3px solid transparent;font-size:11px;white-space:nowrap}
+ nav.side img,nav.side .foot,nav.side .grp,nav.side .live{display:none}nav.side a{padding:12px 12px;border-left:none;border-top:3px solid transparent;font-size:11px;white-space:nowrap}
  nav.side a.on{border-color:var(--accent)}
  main{padding:18px 14px 90px}.two{grid-template-columns:1fr}.rc{grid-template-columns:1fr}.rc .media{max-width:320px}
  .s{grid-template-columns:80px 1fr}.s .thumb{width:80px}
@@ -112,6 +121,7 @@ section{display:none}section.on{display:block}
   <a href="#kanalen" data-s="kanalen">KANALEN</a>
   <a href="#bronnen" data-s="bronnen">BRONNEN</a>
   <a href="#" id="keybtn">SLEUTEL</a>
+  <div class="live" id="live"></div>
   <div class="foot" id="foot">laden...</div>
 </nav>
 <main>
@@ -417,6 +427,33 @@ function drawSources(){
   sources.innerHTML=L.map(s=>`<div class="${bad(s)?"err":""}"><b>${esc(s.source)}</b>${s.how?` <span class="tag d">${esc(s.how)}</span>`:""}<br><span>${esc(s.error||s.url||"")}</span>${s.items!=null?`<br>${s.items} items`:""}</div>`).join("")||`<div class="empty">Geen bronnen.</div>`;
 }
 
+// ---------- nu bezig (zijbalk) ----------
+function drawLive(){
+  const el=document.getElementById("live");if(!el)return;
+  const now=Date.now(), fresh=(t,min)=>t&&(now-new Date(t))<min*6e4, it=[];
+  const bar=pct=>pct!=null?`<div class="pb"><i style="width:${Math.round(100*pct)}%"></i></div>`:"";
+  if(ED&&ED.state==="busy"&&fresh(ED.started,45))it.push(`<b>REDACTIE</b><span>kiest verhalen en maakt posts · ${ago(ED.started).replace(" geleden","")}</span>`);
+  const pn=PODNOW;
+  if(pn&&pn.phase!=="done"&&fresh(pn.updated,45))it.push(`<b>TRANSCRIBEREN</b><span>${esc(pn.title||pn.podcast||pn.episode||"")}${pn.pct!=null?" · "+Math.round(100*pn.pct)+"%":""}</span>${bar(pn.pct)}`);
+  const cn=CLIPNOW;
+  if(cn&&cn.phase==="clips"&&fresh(cn.updated,25)){const left=cn.eta!=null?Math.max(1,Math.round((cn.eta-(now-new Date(cn.updated))/1000)/60)):null;
+    it.push(`<b>CLIPS MAKEN ${(cn.done||0)+1}/${cn.total||"?"}</b><span>${esc(cn.title||cn.podcast||"")}${left?` · nog ~${left>90?Math.round(left/60)+" u":left+" min"}`:""}</span>${bar(cn.total?cn.done/cn.total:null)}`)}
+  if(MAC&&MAC.busy&&fresh(MAC.seen,20))it.push(`<b>MAC STUDIO</b><span>${esc(String(MAC.busy).slice(0,110))}</span>`);
+  const shown={clips:cn&&cn.phase==="clips",podcasts:pn&&pn.phase!=="done"};
+  (RUNS||[]).filter(r=>r.status!=="completed"&&fresh(r.created_at,180)).forEach(r=>{const k=(r.path||"").split("/").pop().replace(".yml","");
+    if(WF[k]&&!shown[k]&&!it.some(x=>x.includes(WF[k].toUpperCase()))){shown[k]=1;it.push(`<b>${WF[k].toUpperCase()}</b><span>${r.status==="queued"?"in de wachtrij":"bezig sinds "+ago(r.run_started_at||r.created_at).replace(" geleden","")}</span>`)}});
+  el.innerHTML=`<h4>NU BEZIG</h4>`+(it.length?it.map(x=>`<div class="it"><div class="pd"></div><div>${x}</div></div>`).join(""):`<div class="it" style="color:var(--mute)">Niets. Alles staat stil tot de volgende ronde.</div>`);
+}
+async function loadLive(){
+  try{CLIPNOW=await fetch("clips-now.json?"+Date.now()).then(r=>r.ok?r.json():CLIPNOW)}catch(e){}
+  try{PODNOW=await fetch("podcasts-now.json?"+Date.now()).then(r=>r.ok?r.json():PODNOW)}catch(e){}
+  try{ED=await fetch("editor.json?"+Date.now()).then(r=>r.ok?r.json():ED)}catch(e){}
+  if(key){try{const r=await fetch(API+"/actions/runs?per_page=30",{headers:{Authorization:`Bearer ${key}`}});if(r.ok)RUNS=(await r.json()).workflow_runs}catch(e){}
+    try{const r=await fetch(API+"/releases/tags/video-sources",{headers:{Authorization:`Bearer ${key}`}});if(r.ok)MAC=JSON.parse((await r.json()).body||"{}")}catch(e){}}
+  drawLive();
+}
+setInterval(()=>{if(!document.hidden)loadLive()},20000);
+
 // ---------- routing ----------
 function show(){
   const [s,id]=(location.hash.slice(1)||"overzicht").split("/");
@@ -428,7 +465,7 @@ function show(){
 }
 window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
-function drawAll(){drawOverview();drawRuns();drawReview();drawClips();drawPosts();drawCounts();drawPlan();drawNews();drawChannels();drawSources();
+function drawAll(){drawLive();drawOverview();drawRuns();drawReview();drawClips();drawPosts();drawCounts();drawPlan();drawNews();drawChannels();drawSources();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
   S=await fetch("status.json?"+Date.now()).then(r=>r.json());
