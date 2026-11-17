@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-17T00:50:04.159429+00:00",
+ "updated": "2026-11-17T00:53:45.378984+00:00",
  "counts": {
-  "check": 10,
-  "ready": 24,
-  "draft": 38
+  "check": 9,
+  "ready": 21,
+  "draft": 42
  },
  "collected": "2026-11-16T23:54:06.460615+00:00",
  "instagram": false,
@@ -2974,84 +2974,6 @@
  },
  "posts": [
   {
-   "id": "pod-6892a8b1e411-9",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-22T22:00:00+00:00",
-   "posted_at": null,
-   "caption": "Why build a C7 Corvette when the C6 parts already exist? Tommy Lemaire says it made him more attractive to sponsors.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 2578.84
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:39:09.526624+00:00",
-   "built": "2026-11-16T21:56:41.563908+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-9/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "WHY HE PICKED A C7 OVER A C6"
-  },
-  {
-   "id": "pod-6892a8b1e411-8",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-22T19:30:00+00:00",
-   "posted_at": null,
-   "caption": "Most people told Tommy Lemaire the C7 Corvette would never work in drifting. He took it as a dare.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 2432.52
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:38:45.074904+00:00",
-   "built": "2026-11-16T21:56:41.562459+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-8/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "80% SAID THE C7 WOULD FAIL"
-  },
-  {
    "id": "pod-6892a8b1e411-23",
    "kind": "podcast_clip",
    "status": "ready",
@@ -3481,45 +3403,6 @@
    "title": "SAVING RACE FUEL TO GET HOME"
   },
   {
-   "id": "pod-6892a8b1e411-10",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-19T11:30:00+00:00",
-   "posted_at": null,
-   "caption": "Three blown engines in one season. Tommy Lemaire on his toughest season on the budget.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #privateer #drifting #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-10/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 2805.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:39:46.796077+00:00",
-   "built": "2026-11-16T21:56:41.537483+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-10/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "THREE ENGINES IN ONE SEASON"
-  },
-  {
    "id": "pod-1298fd1c600b-8",
    "kind": "podcast_clip",
    "status": "ready",
@@ -3869,6 +3752,154 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-6892a8b1e411-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #drifting #driftsetup #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2935.1
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:40:42.465420+00:00",
+   "built": "2026-11-17T00:53:45.374793+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-12/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL"
+  },
+  {
+   "id": "pod-6892a8b1e411-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Three blown engines in one season. Tommy Lemaire on his toughest season on the budget.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #privateer #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2805.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:39:46.796077+00:00",
+   "built": "2026-11-17T00:52:53.123318+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-10/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "THREE ENGINES IN ONE SEASON"
+  },
+  {
+   "id": "pod-6892a8b1e411-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Why build a C7 Corvette when the C6 parts already exist? Tommy Lemaire says it made him more attractive to sponsors.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2578.84
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:39:09.526624+00:00",
+   "built": "2026-11-17T00:51:43.504047+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-9/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "WHY HE PICKED A C7 OVER A C6"
+  },
+  {
+   "id": "pod-6892a8b1e411-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Most people told Tommy Lemaire the C7 Corvette would never work in drifting. He took it as a dare.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2432.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:38:45.074904+00:00",
+   "built": "2026-11-17T00:50:54.426075+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-8/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "80% SAID THE C7 WOULD FAIL"
   },
   {
    "id": "pod-6892a8b1e411-6",
@@ -5438,45 +5469,6 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?"
-  },
-  {
-   "id": "pod-6892a8b1e411-12",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #drifting #driftsetup #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 2935.1
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:40:42.465420+00:00",
-   "built": "2026-11-16T21:56:41.538986+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-12/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL"
   },
   {
    "id": "pod-1298fd1c600b-4",
