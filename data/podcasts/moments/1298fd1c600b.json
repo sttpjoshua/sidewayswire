@@ -10,7 +10,7 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Chelsea DeNofa on why Formula DRIFT is one of the hardest motorsport championships to win.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 988.1,
@@ -19,7 +19,11 @@
    "why": "de uitspraak zelf"
   },
   "wait_name": "v2-1298fd1c600b-0-9612-10071.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-0/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 990.31, \"start\": 988.1, \"text\": \"WHY IS FD SO HARD TO WIN?\", \"why\": \"de uitspraak zelf\"}",
+  "made": "2026-11-17T01:10:10.560552+00:00"
  },
  {
   "start": 1303.54,
@@ -32,7 +36,7 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Two runs fill every zone, one at 50 degrees, one at 62. Chelsea DeNofa says they should not get the same score.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1332.94,
@@ -41,7 +45,11 @@
    "why": "de uitspraak zelf"
   },
   "wait_name": "v2-1298fd1c600b-1-13035-13405.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-1/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1336.65, \"start\": 1332.94, \"text\": \"SHOULD MORE ANGLE SCORE MORE?\", \"why\": \"de uitspraak zelf\"}",
+  "made": "2026-11-17T01:11:01.513197+00:00"
  },
  {
   "start": 1934.62,
@@ -54,7 +62,7 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Chelsea DeNofa: the best drivers are insane at fun events, but FD rewards consistency over risk.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1982.14,
@@ -63,7 +71,11 @@
    "why": "de uitspraak zelf"
   },
   "wait_name": "v2-1298fd1c600b-2-19346-19858.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-2/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1985.82, \"start\": 1982.14, \"text\": \"HOW SHOULD FD SCORE RUNS?\", \"why\": \"de uitspraak zelf\"}",
+  "made": "2026-11-17T01:12:04.711214+00:00"
  },
  {
   "start": 2001.8,
@@ -76,7 +88,7 @@
   "credit": "@formulad",
   "check": false,
   "caption": "If everyone makes the bracket anyway, Chelsea DeNofa would drive two psycho laps in qualifying. His crew would not be happy.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #qualifying #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2015.94,
@@ -85,7 +97,11 @@
    "why": "de clou van het verhaal"
   },
   "wait_name": "v2-1298fd1c600b-3-20018-20289.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-3/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2018.63, \"start\": 2015.94, \"text\": \"WHAT IF QUALIFYING DIDN'T MATTER?\", \"why\": \"de clou van het verhaal\"}",
+  "made": "2026-11-17T01:12:43.850231+00:00"
  },
  {
   "start": 2417.18,

@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-17T01:09:07.053187+00:00",
+ "updated": "2026-11-17T01:12:43.855461+00:00",
  "counts": {
   "check": 7,
-  "ready": 11,
-  "draft": 54
+  "draft": 58,
+  "ready": 11
  },
  "collected": "2026-11-16T23:54:06.460615+00:00",
  "instagram": false,
@@ -1837,10 +1837,10 @@
       "topic": "WHY FD IS SO HARD TO WIN",
       "quote": "Like no one just becomes a champion without working hard. Like F.D. is probably one of the hardest motorsport championships to win because like you can have the best team in road racing and be a decent driver and keep all four tires on the ground and win a championship road racing. Yeah, it is not like that drifting at all, because you can make a mistake every lap and still win road racing. Yeah, you cannot do that in drifting unless the other guy you're battling does it, too. Yeah. You almost can't make a mistake in a weekend. Like you got to go all the way. And like, you know, usually you make one or two and hopefully the other guy does, too. And then you got to beat the three guys up top that are deciding who wins. Right. Right. Understand what they want. Yeah. Because I'm not fighting for a lap time. Yeah. I'm fighting for a I win or lose.",
       "why": "Road racing lets you make mistakes every lap; in drifting one mistake and judges decide.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-0/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 1303.54,
@@ -1850,10 +1850,10 @@
       "topic": "62 DEGREES SHOULD BEAT 50",
       "quote": "Like it's like to me, it's very clear. Like I don't think there's to me, there's always a vast difference. Because I think the rules and how F.D. is currently, it doesn't like if you drive the whole track at 50 degrees angle and you fill every zone and then the next guy goes out and does it at 62 degrees angle and fills all the zone, does all the same thing, they're getting the same score. That's what I believe. The problem with F.D. is right now, because the guy with 50 degrees angle did everything great and he did everything he was supposed to. OK. Driving at 62 degrees angle versus 50 is five times harder. Right. Should be that other run should be a 65 and that's a 95.",
       "why": "Same run at 62 degrees vs 50 gets the same score now; he says it should be 95 vs 65.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-1/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 1934.62,
@@ -1863,10 +1863,10 @@
       "topic": "\"A NORMAL RUN SHOULD BE A 65\"",
       "quote": "And I think it's just because like all those dudes, I've watched James and Connor and Vaughn and like all these guys go drive fun events. And you're like, these dudes are insane. Yeah, they shred. And then you go to F.D. and you're like, good chases, strong leads. I think there's an incentive for consistency. Sure. Right. Sure. But also like if your normal run got a 60 and qualifying. And everybody just did normal runs. The guy who drove hard and pushed the limits would blow everybody's doors off. But it's not even possible. Like, yeah, you could do a run that's unbelievable. And it's going to be three points better than the guy who hit all the zones and did everything. So do you I guess like with all that said, what's what is the fix? I mean, a normal run should be a 65. It's just barely passing.",
       "why": "Top drivers shred at fun events but play it safe at FD because risk is not rewarded.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-2/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 2001.8,
@@ -1876,10 +1876,10 @@
       "topic": "\"I WOULD DRIVE LIKE A PSYCHO\"",
       "quote": "Oh, I know. So what like if I if they brought back qualifying like the way it is right now and everybody's in, I'm not fighting to like fill a spot. My crew would be so bummed. They'd be like, we're going to rebuild the car after qualifying because I would just drive like a psycho for two laps. Because who cares? Yeah. You I want more events qualifying 25th to 32 than qualifying up top. Qualifying poorly, like almost is better in the long run.",
       "why": "If everybody is in, he would drive two psycho laps in qualifying and his crew would rebuild the car.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-3/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 2417.18,
@@ -3362,6 +3362,154 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-1298fd1c600b-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "If everyone makes the bracket anyway, Chelsea DeNofa would drive two psycho laps in qualifying. His crew would not be happy.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #qualifying #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 2001.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:12:43.851308+00:00",
+   "built": "2026-11-17T01:12:43.851312+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-3/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"I WOULD DRIVE LIKE A PSYCHO\""
+  },
+  {
+   "id": "pod-1298fd1c600b-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa: the best drivers are insane at fun events, but FD rewards consistency over risk.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 1934.62
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:12:04.712322+00:00",
+   "built": "2026-11-17T01:12:04.712327+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-2/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"A NORMAL RUN SHOULD BE A 65\""
+  },
+  {
+   "id": "pod-1298fd1c600b-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two runs fill every zone, one at 50 degrees, one at 62. Chelsea DeNofa says they should not get the same score.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 1303.54
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:11:01.514298+00:00",
+   "built": "2026-11-17T01:11:01.514304+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-1/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "62 DEGREES SHOULD BEAT 50"
+  },
+  {
+   "id": "pod-1298fd1c600b-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa on why Formula DRIFT is one of the hardest motorsport championships to win.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 961.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:10:10.561684+00:00",
+   "built": "2026-11-17T01:10:10.561690+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-0/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "WHY FD IS SO HARD TO WIN"
   },
   {
    "id": "pod-6892a8b1e411-24",
