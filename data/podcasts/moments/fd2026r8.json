@@ -422,7 +422,7 @@
   "status": "error",
   "wait_name": "v2-fd2026r8-13r2-34350-34800.mp4",
   "error": "No module named 'numpy'",
-  "tries": 1
+  "tries": 2
  },
  {
   "start": 9163,
@@ -461,7 +461,7 @@
   "status": "error",
   "wait_name": "v2-fd2026r8-14r2-92840-93240.mp4",
   "error": "No module named 'numpy'",
-  "tries": 1
+  "tries": 2
  },
  {
   "start": 8941,
@@ -500,6 +500,6 @@
   "status": "error",
   "wait_name": "v2-fd2026r8-15r2-94590-94960.mp4",
   "error": "No module named 'numpy'",
-  "tries": 1
+  "tries": 2
  }
 ]
