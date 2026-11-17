@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-25",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FD DRIVER'S SECRET WEAPON",
  "video": "docs/media/pod-3fa7ee22a33c-25/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 5412.37
  },
  "created": "2026-11-17T14:34:03.936751+00:00",
- "built": "2026-11-17T18:40:43.958434+00:00"
+ "built": "2026-11-17T18:53:11.827314+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-25/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-03T19:30:00+00:00"
 }
