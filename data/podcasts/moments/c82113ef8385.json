@@ -232,7 +232,7 @@
   "photo_hint": "Conor Shanahan",
   "check": false,
   "caption": "One round to go and Conor Shanahan is not thinking about the title until the trophy is in his hand. #FormulaDRIFT #ConorShanahan #FDLV",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 708.46,
@@ -241,7 +241,11 @@
    "why": "emotie, nog geen clou"
   },
   "wait_name": "v2-c82113ef8385-7-6819-7176.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 711.76, \"start\": 708.46, \"text\": \"WHOSE DREAM IS THIS?\", \"why\": \"emotie, nog geen clou\"}",
+  "made": "2026-11-17T16:00:24.338027+00:00"
  },
  {
   "start": 738.74,
@@ -260,7 +264,7 @@
   "photo_hint": "Conor and Jack Shanahan together",
   "check": false,
   "caption": "Same Airbnb at every round, movie nights included. Conor Shanahan on doing it all with his big brother Jack. #FormulaDRIFT #ConorShanahan #JackShanahan",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 755.82,
@@ -269,7 +273,11 @@
    "why": "persoonlijk, fans willen het weten"
   },
   "wait_name": "v2-c82113ef8385-8-7387-7786.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 758.08, \"start\": 755.82, \"text\": \"WHO DO THEY SHARE A HOUSE WITH?\", \"why\": \"persoonlijk, fans willen het weten\"}",
+  "made": "2026-11-17T16:01:20.306528+00:00"
  },
  {
   "start": 817.02,
@@ -287,7 +295,7 @@
   "check": true,
   "check_reason": "Speaker assumed to be Matt Field from context (SEMA, family in Vegas).",
   "caption": "A birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos. #FormulaDRIFT #MattField #FDLV #SEMA",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 840.58,
@@ -296,7 +304,11 @@
    "why": "nieuwsgierig naar het verhaal"
   },
   "wait_name": "v2-c82113ef8385-9-8170-8629.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 843.9, \"start\": 840.58, \"text\": \"WHAT REALLY HAPPENS AT SEMA?\", \"why\": \"nieuwsgierig naar het verhaal\"}",
+  "made": "2026-11-17T16:02:25.699884+00:00"
  },
  {
   "start": 896.58,
@@ -315,7 +327,7 @@
   "check": true,
   "check_reason": "Speaker not certain; 'Corey' is unidentified.",
   "caption": "Nine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed. #FormulaDRIFT #FDLV #LasVegas",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 899.24,
@@ -324,6 +336,10 @@
    "why": "cijfer maakt nieuwsgierig"
   },
   "wait_name": "v2-c82113ef8385-10-8966-9261.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 901.32, \"start\": 899.24, \"text\": \"HOW MANY FLIGHTS CHANGED?\", \"why\": \"cijfer maakt nieuwsgierig\"}",
+  "made": "2026-11-17T16:03:07.645339+00:00"
  }
 ]

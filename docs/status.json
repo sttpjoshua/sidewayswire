@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:59:24.759255+00:00",
+ "updated": "2026-11-17T16:03:07.654636+00:00",
  "counts": {
   "ready": 102,
-  "draft": 105,
+  "draft": 109,
   "check": 26,
   "posted": 3
  },
@@ -4573,10 +4573,10 @@
       "topic": "CONOR'S 12-YEAR-OLD DREAM",
       "quote": "And yeah, look, of course, I want to be champion. That was the goal at the start of the year. That was the goal coming to Long Beach. There's no point saying it wasn't. If you're not showing up trying to be a champion, there's no point coming to the racetrack. So of course, we're in a good position now, but it's drifting. It's not over until it's over. And yeah, we just got to keep working hard. I'm not going to get lazy. The team is not going to get lazy. They're going to do everything on their side to check everything, what they need to check to make sure that they give me the car in Long Beach. And yeah, fingers crossed I can try to get the job doing and be it's my dream. It's the dream of 12 year old Connor sitting at home in the couch watching Formula Drift and yeah, be pretty special moment if it happens. But I'm not going to think about the moment until the trophy is in my hand.",
       "why": "One round from the title, Conor Shanahan talks about the dream he had as a kid watching Formula DRIFT.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-7/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4587,10 +4587,10 @@
       "topic": "THE SHANAHAN AIRBNB",
       "quote": "And actually, this weekend has been a lot of fun. Yeah, we've done nothing because we've been had jet lag. It's been a long couple of weeks. Poland, James event has been and, you know, good driving at all those events. But those when you're doing it back to back, it gets a little bit tiring. So we slept a lot this week. But we me and Jack share Airbnb at all the races. So me and Matt stay at Jack's Airbnb with his team. And yeah, we have a lot of fun. We stay up. We're watching this weekend. Was a bit of a crack. Be fair. We're watching movies. You're like, as if you're watching one last night. But it's a lot of fun. And that's what it's about for for me to a lot of it is just enjoy the moment. Be grateful that we're here and to do it alongside. My big brother is always quite special to have those moments.",
       "why": "Conor Shanahan on sharing an Airbnb with brother Jack at every race and why that matters.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-8/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4601,10 +4601,10 @@
       "topic": "MATT FIELD'S VEGAS BIRTHDAY",
       "quote": "So for me, it was my birthday yesterday. Yes. So of course, I have all the family and everyone here. But I'm like, no, I have work to do. Now it's my right now. Actually, in twenty eight seconds or whenever you're done with this, then it'll be my birthday. We're going to hang out for a couple of days, do some pool parties and the normal things. I never do Vegas because I've been coming here for so long for SEMA. That at SEMA, all you do is you just go to a party with a bunch of dudes and then scream as loud as you can into somebody's ear business to try and get a deal done. And then you're asking for money. Yeah, as loud as you can. And then you see him at the show tomorrow and you're clearly hung over and your voice doesn't work. So I'm so glad that that's not my experience so far. I got to go to sleep early. I had dinner with my family. Got to show up, get on the podium with these legends.",
       "why": "Matt Field on his birthday in Vegas and the loud deal-making nights of SEMA week.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-9/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4615,10 +4615,10 @@
       "topic": "NINE FLIGHTS CHANGED IN ONE YEAR",
       "quote": "Corey told me on Thursday that I think I've changed nine flights this year. And it's not from being hungover or partying. And I'm like, OK, Peter. So much cheaper. But I'm just like I get up and I'm like, I don't want to get on a plane. See, that says 10 K. So I'm black tonight. Change the fucking flight. You're such a good influence. But I love it. I love it. Yeah, Jack's kind of trying to convince me. And then this guy's like change the flight. I would not waste that money.",
       "why": "A driver admits he changed nine flights this year just to stay in bed, and the podium eggs him on.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-10/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      }
     ]
@@ -9258,6 +9258,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-c82113ef8385-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Nine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\n#FormulaDRIFT #FDLV #LasVegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 896.58
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T16:03:07.646351+00:00",
+   "built": "2026-11-17T16:03:07.646360+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-10/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "NINE FLIGHTS CHANGED IN ONE YEAR"
+  },
+  {
+   "id": "pod-c82113ef8385-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#FormulaDRIFT #MattField #FDLV #SEMA #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 817.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T16:02:25.700931+00:00",
+   "built": "2026-11-17T16:02:25.700939+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-9/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "MATT FIELD'S VEGAS BIRTHDAY"
+  },
+  {
+   "id": "pod-c82113ef8385-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Same Airbnb at every round, movie nights included. Conor Shanahan on doing it all with his big brother Jack.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @jackshanahan59 @mattfield777 @formulad @jako13\n\n#FormulaDRIFT #ConorShanahan #JackShanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 738.74
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T16:01:20.307511+00:00",
+   "built": "2026-11-17T16:01:20.307518+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-8/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE SHANAHAN AIRBNB"
+  },
+  {
+   "id": "pod-c82113ef8385-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "One round to go and Conor Shanahan is not thinking about the title until the trophy is in his hand.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #ConorShanahan #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 681.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T16:00:24.339049+00:00",
+   "built": "2026-11-17T16:00:24.339058+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-7/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONOR'S 12-YEAR-OLD DREAM"
   },
   {
    "id": "pod-c82113ef8385-6",
