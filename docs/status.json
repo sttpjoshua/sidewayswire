@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:57:25.787735+00:00",
+ "updated": "2026-11-17T15:01:40.411452+00:00",
  "counts": {
   "ready": 103,
-  "check": 27,
-  "posted": 3,
-  "draft": 39
+  "draft": 44,
+  "check": 26,
+  "posted": 3
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -2873,10 +2873,10 @@
       "topic": "ADAM LZ'S BITTERSWEET PODIUM",
       "quote": "Yeah, I mean, look, I had two really good seasons before this one with E36. Both of like, I don't want to say we're accidental, but like, you know, things just worked really well for us. And this was a tough one, right? So like, I really tried to manifest this whole idea of announcing that I'm taking a step back on the podium. So I'm really happy that I made it happen. But more than anything, it's, you know, I'm talking about the sacrifices I make to be here, but like my team, right? Yeah. Everybody's got other jobs and stuff they have going on. They're taking time out of their days to be here and support me. And I think it especially means a lot to me when we are having the rough times that they're still there, having my back, the fans, like, they don't, it doesn't matter if I get knocked out in top 32 or if I make it to the top, they've still got the same energy. And like, that really means something. And then partners, too, again, when you have a rough year and they're still cheering you on and believing in you, like, it makes something like this bittersweet to end it on the podium and to deliver that result that you wanted the whole year.",
       "why": "Adam LZ on a tough season and ending it on the podium for his team, fans and partners.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-10/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2887,10 +2887,10 @@
       "topic": "ADAM LZ: 'I'M COMING BACK'",
       "quote": "Oh, I'm definitely coming back, like, for sure. Like, I want a championship. And you can do it. With guys like you that dedicate their whole life to this, that drive all the time, for me to think that I can get a championship putting 5 % of my time into driving, it's just not realistic. That's fair. And like, I will waste three more years of my life trying to get a championship, putting 5 % effort into this. I'd rather get the other shit out of the way that I want to get done and come back full focus. That's going to be scary. That is, like, for a lot of drivers, that is going to be scary. I'm going to try to win my championship before he goes back. You should, yeah. You got like two years, maybe. I might be retired before he comes back. You might have to come out of retirement when he comes back.",
       "why": "Adam LZ says he will return with full focus to chase a championship, and the others joke about retiring first.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-5687ca1c5a65-11/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      }
     ]
@@ -4168,10 +4168,10 @@
       "topic": "'IT'S LIKE PROSPEC PLUS'",
       "quote": "And arguably I would put, I would put it like, it's like ProSpec plus. That's like, I don't want to take away anything from ProSpec drivers. Cause I know how much goes into getting you there and like the amount of work that goes into that. But I personally feel like the competition or the level of the competition and the driving in hop it, I think it kind of tips the scale a little bit. You can't, you can't argue with the driver lineup. There's numerous pros in that series. So it's nothing against ProSpec. It is just, this is a series that is full of pros consistently. Like there are some series that have had one pro, maybe two pro you're what six of them or something like that. It's very like every other event is different, but, um, I will say the one thing is like the tracks that we're driving, they're a little bit slower because we're in like smaller speedways, the tire that we're on a little bit less grip than like a prospect tire. So the cars are essentially easier to drive, but still you're going up against really good drivers. So you got to be on top of your game.",
       "why": "Ex-FD driver says his grassroots series is tougher than FD ProSpec because it is full of pros.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-0/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4182,10 +4182,10 @@
       "topic": "FROM TALENT TO HARD WORK",
       "quote": "To be completely honest with you, that's kind of how I'm feeling this year and going into where I kind of want to take drifting for myself is like, now is the time where I've realized like, there's a lot of hard work that I got to put in to be better than just that natural talent. Right. You are a naturally talented driver. But you hit the hard work. I'm at the hard work part. And I think that's some of the reasons why we had so much difficulty in the past. But now looking back at it, stepping back and being able to see what we need to do. Like, I'm actually excited to put in the hard work. And after this year of just getting back in the car, I was like, all right, cool. We got the drive. I'm loving drifting, having a good time. Now I'm going to start packing on the work and start doing it. So I'm hoping next year you'll just see the progression go back up and then we'll be back in maybe a space that we were once before.",
       "why": "He admits natural talent was not enough and hints at a return to his old level next year.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-1/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9260,6 +9260,163 @@
    "title": "DM 2026: EVERY ROUND WINNER"
   },
   {
+   "id": "pod-8e09411f1d0d-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Natural talent only gets you so far. Said on The Outerzone: he is putting in the hard work now and hopes to be back where he once was next year.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#formulad #drifting #comeback #outerzone #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 470.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:01:40.405355+00:00",
+   "built": "2026-11-17T15:01:40.405363+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-1/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Mike Power"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FROM TALENT TO HARD WORK"
+  },
+  {
+   "id": "pod-8e09411f1d0d-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Is this grassroots series harder than Formula DRIFT ProSpec? A former FD driver says it's full of pros, and you battle Rome Charpentier every round.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@romecp @formulad @jako13\n\n#formulad #drifting #prospec #outerzone #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 350.26
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:00:42.964602+00:00",
+   "built": "2026-11-17T15:00:42.964608+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-0/clip.mp4",
+   "tags": [
+    "@romecp",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Mike Power"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "'IT'S LIKE PROSPEC PLUS'"
+  },
+  {
+   "id": "pod-5687ca1c5a65-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #Rumor #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 1024.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:59:41.631238+00:00",
+   "built": "2026-11-17T14:59:41.631247+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-11/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@jackshanahan59",
+    "@jamesdeane130",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ADAM LZ: 'I'M COMING BACK'"
+  },
+  {
+   "id": "pod-5687ca1c5a65-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #LongBeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 960.74
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:58:44.094607+00:00",
+   "built": "2026-11-17T14:58:44.094616+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-10/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ADAM LZ'S BITTERSWEET PODIUM"
+  },
+  {
    "id": "pod-5687ca1c5a65-9",
    "kind": "podcast_clip",
    "status": "draft",
@@ -10973,7 +11130,7 @@
   {
    "id": "2026-11-17-adam-lz-leaves-fd",
    "kind": "news",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "Adam LZ signed off on the Long Beach podium with P3 and confirmed he won't be back in Formula DRIFT for 2027. His reasons are in his own video, Why I Quit Formula Drift. 🎤\n\n@adam_lz @formulad\n\n#formulad #adamlz #lzmfg #drifting #sidewayswire",
@@ -10982,7 +11139,7 @@
    ],
    "problems": [],
    "results": null,
-   "credit": null,
+   "credit": "@formulad",
    "check": true,
    "check_reason": "aankondiging gecontroleerd via fan-upload van de livestream en Wikipedia (P3 LB2, 12e in stand); eigen video van LZ niet zelf bekeken, nieuws is van 25 okt",
    "source": "https://www.youtube.com/watch?v=GnIngCZCsIc",

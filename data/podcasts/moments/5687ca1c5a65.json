@@ -332,7 +332,7 @@
   ],
   "check": false,
   "caption": "A tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet. #FormulaDRIFT #AdamLZ #LongBeach",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 978.04,
@@ -341,7 +341,11 @@
    "why": "belofte van het verhaal"
   },
   "wait_name": "v2-5687ca1c5a65-10-9607-10157.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 979.98, \"start\": 978.04, \"text\": \"HOW DID ADAM PULL IT OFF?\", \"why\": \"belofte van het verhaal\"}",
+  "made": "2026-11-17T14:58:44.093488+00:00"
  },
  {
   "start": 1024.2,
@@ -361,7 +365,7 @@
   "check": true,
   "check_reason": "Rumor: comeback timing not confirmed; retirement lines are jokes and speaker of those lines is uncertain.",
   "caption": "Adam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone. #FormulaDRIFT #AdamLZ #Rumor",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1046.0,
@@ -370,6 +374,10 @@
    "why": "spanning rond afscheid"
   },
   "wait_name": "v2-5687ca1c5a65-11-10242-10657.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-5687ca1c5a65-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1049.88, \"start\": 1046.0, \"text\": \"IS ADAM LZ REALLY DONE?\", \"why\": \"spanning rond afscheid\"}",
+  "made": "2026-11-17T14:59:41.630222+00:00"
  }
 ]

@@ -16,7 +16,7 @@
   "check": true,
   "check_reason": "Guest named only as 'Mike Power' in a birthday shout-out (00:02:51); confirm identity and spelling. 'hop it' is a garbled series name; Rome = Rome Charpentier.",
   "caption": "Is this grassroots series harder than Formula DRIFT ProSpec? A former FD driver says it's full of pros, and you battle Rome Charpentier every round.\n\n#formulad #drifting #prospec #outerzone",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 352.48,
@@ -25,7 +25,11 @@
    "why": "sterke claim, prikkelt discussie"
   },
   "wait_name": "v2-8e09411f1d0d-0-3503-4055.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-0/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 355.68, \"start\": 352.48, \"text\": \"HARDER THAN FD PROSPEC?\", \"why\": \"sterke claim, prikkelt discussie\"}",
+  "made": "2026-11-17T15:00:42.963602+00:00"
  },
  {
   "start": 470.46,
@@ -43,7 +47,7 @@
   "check": true,
   "check_reason": "Guest named only as 'Mike Power' in a birthday shout-out (00:02:51); confirm identity and spelling. Vague comeback hint for next year.",
   "caption": "Natural talent only gets you so far. Said on The Outerzone: he is putting in the hard work now and hopes to be back where he once was next year.\n\n#formulad #drifting #comeback #outerzone",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 503.68,
@@ -52,7 +56,11 @@
    "why": "kort en eerlijk, nieuwsgierig"
   },
   "wait_name": "v2-8e09411f1d0d-1-4705-5223.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-1/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 505.62, \"start\": 503.68, \"text\": \"WHAT CHANGED FOR HIM?\", \"why\": \"kort en eerlijk, nieuwsgierig\"}",
+  "made": "2026-11-17T15:01:40.404345+00:00"
  },
  {
   "start": 643.2,
