@@ -17,7 +17,7 @@
   "check": true,
   "check_reason": "Speaker of the Hot Pit Autofest answer assumed to be rookie Dustyn Farrell; event name garbled ('Hot Pit Autofist').",
   "caption": "Pro level driving from Top 32 on. The Vegas PROSPEC podium on why this was the best PROSPEC season yet. #FormulaDRIFT #PROSPEC #FDLV",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 11.98,
@@ -26,7 +26,11 @@
    "why": "sterke stelling, discussie"
   },
   "wait_name": "v2-441d4b7291ad-0-44-445.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 14.8, \"start\": 11.98, \"text\": \"THE BEST PROSPEC SEASON EVER?\", \"why\": \"sterke stelling, discussie\"}",
+  "made": "2026-11-17T14:38:32.681210+00:00"
  },
  {
   "start": 78.02,

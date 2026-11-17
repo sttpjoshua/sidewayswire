@@ -844,7 +844,7 @@
   "photo_hint": "Christian Cotrone's Corvette",
   "check": false,
   "caption": "After finishing at the bottom of PROSPEC, Christian Cotrone says top 10 is the minimum next year. #FormulaDrift #PROSPEC #Corvette #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6095.45,
@@ -853,7 +853,11 @@
    "why": "herkenbaar gevoel"
   },
   "wait_name": "v2-3fa7ee22a33c-27-60659-61072.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6097.57, \"start\": 6095.45, \"text\": \"WHAT WAS WRONG WITH THE CAR?\", \"why\": \"herkenbaar gevoel\"}",
+  "made": "2026-11-17T14:35:49.874469+00:00"
  },
  {
   "start": 6145.95,
@@ -872,7 +876,7 @@
   "check": true,
   "check_reason": "Opponent transcribed as 'Jerry Johnson', verify name and round",
   "caption": "Christian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving. #FormulaDrift #PROSPEC #Drifting #Top16",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6162.95,
@@ -881,7 +885,11 @@
    "why": "reactie van fans"
   },
   "wait_name": "v2-3fa7ee22a33c-28-61460-61860.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6165.95, \"start\": 6162.95, \"text\": \"WHAT DID PEOPLE SAY AFTER TOP 16?\", \"why\": \"reactie van fans\"}",
+  "made": "2026-11-17T14:36:45.082489+00:00"
  },
  {
   "start": 6403.71,
@@ -899,7 +907,7 @@
   "check": true,
   "check_reason": "'G sedan with the one J' assumed to be an Infiniti G35 sedan with a 1JZ",
   "caption": "Christian Cotrone built a 1JZ G sedan with a four door cage just for ride-alongs, debuting at Black Friday. #Drifting #1JZ #BlackFriday #FormulaDrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6407.95,
@@ -908,6 +916,10 @@
    "why": "build-detail"
   },
   "wait_name": "v2-3fa7ee22a33c-29-64037-64372.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6411.21, \"start\": 6407.95, \"text\": \"WHAT IS IN HIS NEW G SEDAN?\", \"why\": \"build-detail\"}",
+  "made": "2026-11-17T14:37:31.933450+00:00"
  }
 ]

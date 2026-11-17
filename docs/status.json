@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:34:50.816956+00:00",
+ "updated": "2026-11-17T14:38:32.687763+00:00",
  "counts": {
   "ready": 103,
   "check": 27,
   "posted": 3,
-  "draft": 16
+  "draft": 20
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -4105,10 +4105,10 @@
       "topic": "TOP 10 OR BUST",
       "quote": "Um, I mean, for us this year, just kind of finishing at the bottom, I think next year, like at a minimum, man, it's like, we have to be a top 10 competitive. Um, of course, like I'm going to tell you, like, we're going to be on the box every single round. Um, but like the realistic goals is just to have a car that is working a hundred percent, um, and just myself being comfortable behind the wheel with all the changes we made this year. Like I felt like I was driving someone else's car for the first three rounds. Like I'm just like, dude, this doesn't feel right. Um, you know, this isn't, this isn't my car. I don't feel comfortable. I'm not going to be able to perform at the level I can.",
       "why": "After finishing at the bottom, his minimum goal for next year is top 10.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-27/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4119,10 +4119,10 @@
       "topic": "THIS ISN'T MY LEVEL",
       "quote": "Uh, I'm just bummed out about how it all kind of panned out, but, uh, yeah, like the one round we, we had essentially like a car, uh, when we made it's top 16 and then, uh, Jerry Johnson took us out and top 16, which was, it was a pretty close battle, but it was a good battle. Everyone was like, Oh, I don't, I didn't know you could drive like that. I'm like, and so I think that's just a really big bummer, man. Like just like people truly think like what we did this year is like the level of my driving, which is like, yeah, embarrassing. Um, you know, but it's just like, again, man, it lights a fire in my butt. Like I cannot wait to get back out there.",
       "why": "His one working weekend ended in Top 16 and people finally saw what he can do.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-28/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4133,10 +4133,10 @@
       "topic": "1JZ G SEDAN FOR RIDES",
       "quote": "I, I will have my G out there for black Friday. I have a G sedan with the one J in it. And we just, uh, put a four door cage with four bucket seats. Oh, sick. Okay. Yeah. So I really wanted to build a car to like be able to just give ride alongs and, you know, share the experience of drifting. Uh, also give back to the partners that's kind of helped on the build. Um, and so yeah, we're going to be, uh, bringing that car out for black Friday. So super excited about that. And it should be a good time.",
       "why": "He built a 1JZ G sedan with a four door cage to give ride-alongs at Black Friday.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-29/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      }
     ]
@@ -4650,10 +4650,10 @@
       "topic": "BEST PROSPEC SEASON EVER?",
       "quote": "I'll go on record and say this is the best season of ProSpec or Pro2 that I've ever seen, like driving top to bottom. And tonight was probably the best driving I've seen out of that period. Is it the track? Is it the level? Like where? Why? Like why? Why are you so good? Like I'm trying to figure it out. Because it was pro level driving all night, like top 32 on. Crazy, crazy battles. I mean, for me at least, I come from Hot Pit Autofist. So I mean, we deal with pros all the time. So you have to be on 11 all night. So coming out here, it's like, it's a dream to be up here. And then just starting from there from Hot Pit, coming to here, it's that's what trains me for it.",
       "why": "The host calls this the best ProSpec season ever, and the rookie explains how Hot Pit Autofest trained him for it.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-0/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-441d4b7291ad-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Pro level driving from Top 32 on. The Vegas PROSPEC podium on why this was the best PROSPEC season yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@little_webbie16 @braden.lons @mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 4.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:38:32.682236+00:00",
+   "built": "2026-11-17T14:38:32.682246+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-0/clip.mp4",
+   "tags": [
+    "@little_webbie16",
+    "@braden.lons",
+    "@mspekperformance",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BEST PROSPEC SEASON EVER?"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-29",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone built a 1JZ G sedan with a four door cage just for ride-alongs, debuting at Black Friday.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#Drifting #1JZ #BlackFriday #FormulaDrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 6403.71
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:37:31.935882+00:00",
+   "built": "2026-11-17T14:37:31.935897+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-29/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "1JZ G SEDAN FOR RIDES"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-28",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Drifting #Top16 #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 6145.95
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:36:45.083534+00:00",
+   "built": "2026-11-17T14:36:45.083543+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-28/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Jerry Johnson"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THIS ISN'T MY LEVEL"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-27",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After finishing at the bottom of PROSPEC, Christian Cotrone says top 10 is the minimum next year.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Corvette #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 6065.91
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:35:49.875477+00:00",
+   "built": "2026-11-17T14:35:49.875484+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-27/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TOP 10 OR BUST"
   },
   {
    "id": "pod-3fa7ee22a33c-26",
