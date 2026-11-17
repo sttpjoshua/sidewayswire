@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:18:18.691753+00:00",
+ "updated": "2026-11-17T14:22:27.542594+00:00",
  "counts": {
   "check": 77,
   "ready": 49,
   "posted": 3,
-  "draft": 4
+  "draft": 8
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -3881,10 +3881,10 @@
       "topic": "WATCHING MATT FIELD'S CREW",
       "quote": "And it's just like going back to his crew, man. It's just, I remember watching just in Atlanta, the first round, like my crew was there with him and they had, um, impact and went into the wall. And, um, with Gucci, I think, I just remember them pulling the car apart, like it coming in and the work they did in five minutes. And one of my crew guys just looked at me and he goes, we got a lot of work to do just because of how dialed and like things come in. They don't even say anything. Like every single person knows their job. Every single person knows this is the tool. This is the size I need. Um, and that just takes years, man, of practice and really kind of going through the right setup, um, and just really learning everything in and out of the car and it just, it comes with experience. Um, and I was definitely humbled by just all of that.",
       "why": "Seeing Matt Field's crew rebuild after a wall hit in five minutes humbled his team.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-11/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3895,10 +3895,10 @@
       "topic": "TWO LAPS, ONE WALL",
       "quote": "FDs, uh, it's, it's insane how, it's insane how different it is compared to even a pro -am series, right? Like, I think this year, um, there was only one round that we actually had more than four laps in practice. Wow. So yeah, I think Atlanta around one, we had two laps in practice. The first lap, the car over -rotated and went into the wall, uh, same wall. Matt hit my very first practice lap in FD. That's exactly how it went. So didn't start off so great. Uh, and then, um, it just kind of, you know, went downhill from there to be honest. It just, uh, it's just, uh, yeah, it was just rough this year. So we, uh, and you know, a lot of people are like, Oh, this is your rookie year. You got to expect that. But for me and my team, like we have very high expectations, right? And we were like, all right, this is where we're going to be. This is what we need. Uh, and we're going to execute and be on that podium.",
       "why": "His first ever FD practice lap ended in the same wall Matt Field hit.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-12/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3909,10 +3909,10 @@
       "topic": "HOW MUCH PRACTICE IN FD?",
       "quote": "Like in pro -am I could literally, we have probably two, maybe three sessions, an hour and a half each. So like three, four and a half hours of practice. Um, and here, like I said, man, you're, you're lucky to get three, four laps. Um, with how many drivers are in prospect and site someone was in the wall and they're in, you lose 20 minutes. Um, and so, uh, I think Atlanta, yeah, we got two laps. Um, Connecticut, I think we got two laps. Um, Indy, we got, I think five laps. Um, and that was the only, um, event that we actually had success with the motor set up and just everything. And then last round, I think we got three laps.",
       "why": "Pro-Am gave him hours of practice, FD PROSPEC gave him two to five laps.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-13/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3923,10 +3923,10 @@
       "topic": "HOW HE PITCHED MATT FIELD",
       "quote": "and then as soon as I like knew, okay, we're probably gonna get our license, I'm gonna be like, I want to reach out and I want to work with someone next year. I really want to learn, of course, like I'm going to go ahead and learn from the Corvette master, right? And so, uh, just reaching out to him and I'm like, brother, like I see what you're doing on the marketing side. Um, and I think I can help you. And it's just very strict. That's a bold statement, right? Yeah. And I'm just like, listen, man, like this is what I essentially can offer you. And this is what we can do. Um, and I think that, you know, at first he was like, well, how are you different than the 60 other media guys that come out to every single event? And I'm like, brother, like we're going to go a completely different route for you.",
       "why": "He pitched the Corvette master on marketing to earn his help in FD.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-14/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -7126,6 +7126,161 @@
    "caption_by": null,
    "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone cold-pitched Matt Field: I can help you. Matt's answer: how are you different from the 60 other media guys?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Corvette #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3521.65
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:22:27.537530+00:00",
+   "built": "2026-11-17T14:22:27.537537+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-14/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HOW HE PITCHED MATT FIELD"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Hours of seat time in Pro-Am, two to five laps per round in FD PROSPEC. Christian Cotrone breaks down the rookie reality.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Drifting #Rookie #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3322.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:21:30.346084+00:00",
+   "built": "2026-11-17T14:21:30.346090+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-13/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HOW MUCH PRACTICE IN FD?"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two practice laps at Atlanta, and the very first one went into the same wall Matt Field hit. Christian Cotrone on a rough PROSPEC debut.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #PROSPEC #Atlanta #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3211.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:20:35.044788+00:00",
+   "built": "2026-11-17T14:20:35.044798+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-12/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TWO LAPS, ONE WALL"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "In Atlanta, Christian Cotrone's crew watched Matt Field's team fix wall damage in five minutes. One of them said: we got a lot of work to do.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Drifting #PitCrew #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3156.93
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:19:24.215623+00:00",
+   "built": "2026-11-17T14:19:24.215628+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-11/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "WATCHING MATT FIELD'S CREW"
   },
   {
    "id": "pod-3fa7ee22a33c-10",

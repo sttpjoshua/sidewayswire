@@ -350,7 +350,7 @@
   "check": true,
   "check_reason": "'Gucci' in transcript unclear, possibly a crew member name",
   "caption": "In Atlanta, Christian Cotrone's crew watched Matt Field's team fix wall damage in five minutes. One of them said: we got a lot of work to do. #FormulaDrift #MattField #Drifting #PitCrew",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3181.97,
@@ -359,7 +359,11 @@
    "why": "sterk citaat"
   },
   "wait_name": "v2-3fa7ee22a33c-11-31569-32106.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3184.19, \"start\": 3181.97, \"text\": \"WHAT DID HIS CREW GUY SAY?\", \"why\": \"sterk citaat\"}",
+  "made": "2026-11-17T14:19:24.214695+00:00"
  },
  {
   "start": 3211.41,
@@ -377,7 +381,7 @@
   "photo_hint": "Christian Cotrone at FD Atlanta",
   "check": false,
   "caption": "Two practice laps at Atlanta, and the very first one went into the same wall Matt Field hit. Christian Cotrone on a rough PROSPEC debut. #FormulaDrift #PROSPEC #Atlanta #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3238.11,
@@ -386,7 +390,11 @@
    "why": "clou: in de muur"
   },
   "wait_name": "v2-3fa7ee22a33c-12-32114-32699.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3240.97, \"start\": 3238.11, \"text\": \"HOW DID HIS FD DEBUT START?\", \"why\": \"clou: in de muur\"}",
+  "made": "2026-11-17T14:20:35.043750+00:00"
  },
  {
   "start": 3322.31,
@@ -403,7 +411,7 @@
   "photo_hint": "Christian Cotrone at an FD round",
   "check": false,
   "caption": "Hours of seat time in Pro-Am, two to five laps per round in FD PROSPEC. Christian Cotrone breaks down the rookie reality. #FormulaDrift #PROSPEC #Drifting #Rookie",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3335.19,
@@ -412,7 +420,11 @@
    "why": "schokkend cijfer"
   },
   "wait_name": "v2-3fa7ee22a33c-13-33223-33669.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3338.05, \"start\": 3335.19, \"text\": \"HOW MANY LAPS DO YOU REALLY GET?\", \"why\": \"schokkend cijfer\"}",
+  "made": "2026-11-17T14:21:30.345149+00:00"
  },
  {
   "start": 3521.65,
@@ -430,7 +442,7 @@
   "photo_hint": "Christian Cotrone and Matt Field",
   "check": false,
   "caption": "Christian Cotrone cold-pitched Matt Field: I can help you. Matt's answer: how are you different from the 60 other media guys? #FormulaDrift #MattField #Corvette #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3556.59,
@@ -439,7 +451,11 @@
    "why": "Matts kritische vraag"
   },
   "wait_name": "v2-3fa7ee22a33c-14-35216-35654.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3560.11, \"start\": 3556.59, \"text\": \"HOW DO YOU WIN OVER MATT FIELD?\", \"why\": \"Matts kritische vraag\"}",
+  "made": "2026-11-17T14:22:27.536527+00:00"
  },
  {
   "start": 3682.45,
