@@ -1,11 +1,17 @@
 {
  "id": "pod-6892a8b1e411-16",
  "kind": "podcast_clip",
- "status": "ready",
+ "status": "draft",
  "slides": [],
  "title": "THE INSTRUCTOR KNEW HIM FROM A DRIFT VIDEO",
  "video": "docs/media/pod-6892a8b1e411-16/clip.mp4",
  "caption": "Under the parachute Tommy Lemaire asked for tricks. Turned out the instructor knew him from a drift video. 🪂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #skydiving #drifting #sidewayswire",
+ "tags": [
+  "@tommy.lemaire",
+  "@formulad",
+  "@jako13"
+ ],
+ "missing_handles": [],
  "credit": "@formulad",
  "check": false,
  "check_reason": "",
@@ -21,16 +27,5 @@
   "start": 3590.65
  },
  "created": "2026-11-16T19:43:22.641347+00:00",
- "built": "2026-11-16T21:56:41.544569+00:00",
- "tags": [
-  "@tommy.lemaire",
-  "@formulad",
-  "@jako13"
- ],
- "missing_handles": [],
- "media": [
-  "docs/media/pod-6892a8b1e411-16/clip.mp4"
- ],
- "problems": [],
- "post_at": "2026-11-20T11:30:00+00:00"
+ "built": "2026-11-17T00:58:37.134870+00:00"
 }
