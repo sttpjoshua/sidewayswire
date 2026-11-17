@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:12:55.649739+00:00",
+ "updated": "2026-11-17T15:16:09.700260+00:00",
  "counts": {
   "ready": 102,
-  "draft": 57,
+  "draft": 61,
   "check": 26,
   "posted": 3
  },
@@ -4364,10 +4364,10 @@
       "topic": "THE PRICE OF RACING FD",
       "quote": "If if FD or high level drifting in general is not first or second, it is nothing. You're last. Exactly. Exactly. And sometimes even being first is not enough. Yeah, it's tough. It's it and people don't understand. It's like, oh, yeah, I stress about things too. It's like, no, you literally like from the moment that I would be going to bed, I would have these I would harbor these anxieties around the team or around like the car or the things that people are saying online budget, just the support everything. And then all of a sudden, like and then I would go to sleep, have like sleeping and like having dreams was the only escape. And then like you would wake up and I would instantly start stressing about it.",
       "why": "If FD is not first or second in your life it is nothing; Matt describes the constant anxiety.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-14/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4378,10 +4378,10 @@
       "topic": "WHEN THE INDUSTRY NOTICED",
       "quote": "Like from top to bottom, it was it was that was that was a weird, difficult part, though, as well. Is because people in the industry that I had had high regards for respect for that wouldn't necessarily give me the time of day before they would kind of like brush me off, they'd be like, oh, Matt, like, yeah, whatever. They're going to see all of a sudden, like when that stupid first video happens and like ESPN posts like went all over the place. Then like all of a sudden, people that had never given me the time a day where all of a sudden pat me on the back.",
       "why": "People who brushed Matt Field off suddenly patted him on the back after his viral video.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-15/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4392,10 +4392,10 @@
       "topic": "WORLD CLASS ON A GRASSROOTS BUDGET",
       "quote": "I I'm very happy. I feel very blessed. Like I went from like a formula D like your it's so expensive. And I'm paying like six dudes like getting their flights, hotels and all that sort of stuff. I showed up at this event with just myself and my girlfriend. Like there's like we there's no crew. And like I'm just buying tires and like getting fuel and like all that sort of stuff. So it's like it's I'm like spending a grassroots budget. And but getting to do like world class stuff, it's it's so fun. Yeah, it's a blessing. I'm so lucky.",
       "why": "From paying six crew in FD to showing up with just his girlfriend.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-16/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4406,10 +4406,10 @@
       "topic": "WHERE 'THIS MACHINE' COMES FROM",
       "quote": "But my dad was into like he he loved old war birds. And we grew up like where I live in Southern Oregon is a big retirement community. So there's a bunch of people with like random war birds in there. And that's where like this machine, the aviation theming from Mars. Yeah, that's where that came from. And so and so he went down in a T -28, which is a World War Two trainer. And they're they're pretty quick bird and they don't glide very well. So and then he he lost the oil system above the Black Rock Hills in Northern California. When went to the ground, his buddy that was in the plane passed away. He was in a coma for six months. She said, but then and then he passed away before I was 18. And so he really liked the hot rods like that sort of stuff. I'm I'm like a member of the like I learned all of my driving in the mountains in his Dodge Ram, like when he when he got his accident, couldn't drive anymore. So I got my driver's license, drove his Dodge Ram.",
       "why": "Matt Field explains his aviation theme comes from his late father, who crashed a T-28 warbird.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-17/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,158 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-8e09411f1d0d-17",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field's aviation theme comes from his dad, a warbird lover who crashed a T-28. The story behind the car.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #aviation #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 3742.45
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:16:09.693110+00:00",
+   "built": "2026-11-17T15:16:09.693120+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-17/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHERE 'THIS MACHINE' COMES FROM"
+  },
+  {
+   "id": "pod-8e09411f1d0d-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "In Formula DRIFT he paid six crew members' flights and hotels. At Gridlife he showed up with no crew at all.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#formulad #drifting #mattfield #gridlife #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 3699.13
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:15:05.792762+00:00",
+   "built": "2026-11-17T15:15:05.792770+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-16/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "WORLD CLASS ON A GRASSROOTS BUDGET"
+  },
+  {
+   "id": "pod-8e09411f1d0d-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "People in the industry who brushed him off suddenly had time for Matt Field once his first video went everywhere.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #gridlife #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 3603.47
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:14:28.090094+00:00",
+   "built": "2026-11-17T15:14:28.090102+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-15/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHEN THE INDUSTRY NOTICED"
+  },
+  {
+   "id": "pod-8e09411f1d0d-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "If FD isn't first or second in your life, it is nothing. Matt Field on the anxiety that followed him to bed every night.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #mentalhealth #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 3248.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:13:48.920472+00:00",
+   "built": "2026-11-17T15:13:48.920479+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-14/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE PRICE OF RACING FD"
   },
   {
    "id": "pod-8e09411f1d0d-13",

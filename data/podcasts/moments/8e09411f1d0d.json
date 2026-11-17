@@ -451,7 +451,7 @@
   "check": true,
   "check_reason": "Opening line may be the host speaking, not Matt Field.",
   "caption": "If FD isn't first or second in your life, it is nothing. Matt Field on the anxiety that followed him to bed every night.\n\n#formulad #drifting #mattfield #mentalhealth",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3278.42,
@@ -460,7 +460,11 @@
    "why": "rauw en eerlijk"
   },
   "wait_name": "v2-8e09411f1d0d-14-32488-32850.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-14/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3281.82, \"start\": 3278.42, \"text\": \"WHAT DOES FD TAKE FROM YOU?\", \"why\": \"rauw en eerlijk\"}",
+  "made": "2026-11-17T15:13:48.919468+00:00"
  },
  {
   "start": 3603.47,
@@ -477,7 +481,7 @@
   "photo_hint": "Matt Field at Laguna Seca",
   "check": false,
   "caption": "People in the industry who brushed him off suddenly had time for Matt Field once his first video went everywhere.\n\n#formulad #drifting #mattfield #gridlife",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3615.03,
@@ -486,7 +490,11 @@
    "why": "pijnlijk eerlijk"
   },
   "wait_name": "v2-8e09411f1d0d-15-36035-36296.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-15/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3617.65, \"start\": 3615.03, \"text\": \"WHO SUDDENLY CARED?\", \"why\": \"pijnlijk eerlijk\"}",
+  "made": "2026-11-17T15:14:28.089156+00:00"
  },
  {
   "start": 3699.13,
@@ -503,7 +511,7 @@
   "photo_hint": "Matt Field's pit at Gridlife Laguna",
   "check": false,
   "caption": "In Formula DRIFT he paid six crew members' flights and hotels. At Gridlife he showed up with no crew at all.\n\n#formulad #drifting #mattfield #gridlife",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3709.09,
@@ -512,7 +520,11 @@
    "why": "contrast FD vs nu"
   },
   "wait_name": "v2-8e09411f1d0d-16-36991-37260.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-16/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3711.63, \"start\": 3709.09, \"text\": \"HOW BIG IS HIS CREW NOW?\", \"why\": \"contrast FD vs nu\"}",
+  "made": "2026-11-17T15:15:05.791796+00:00"
  },
  {
   "start": 3742.45,
@@ -529,7 +541,7 @@
   "photo_hint": "Matt Field's aviation-themed Corvette",
   "check": false,
   "caption": "Matt Field's aviation theme comes from his dad, a warbird lover who crashed a T-28. The story behind the car.\n\n#formulad #drifting #mattfield #aviation",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3777.97,
@@ -538,7 +550,11 @@
    "why": "emotioneel verhaal"
   },
   "wait_name": "v2-8e09411f1d0d-17-37424-37988.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-17/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3780.81, \"start\": 3777.97, \"text\": \"WHERE DOES HIS THEME COME FROM?\", \"why\": \"emotioneel verhaal\"}",
+  "made": "2026-11-17T15:16:09.692068+00:00"
  },
  {
   "start": 4258.89,
