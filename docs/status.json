@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T18:53:12.496580+00:00",
+ "updated": "2026-11-17T18:58:05.657026+00:00",
  "counts": {
   "ready": 113,
   "check": 124,
   "posted": 3
  },
- "collected": "2026-11-17T18:53:02.864807+00:00",
+ "collected": "2026-11-17T18:57:56.444593+00:00",
  "instagram": false,
  "sources": [
   {
@@ -8738,7 +8738,7 @@
     "facebook"
    ],
    "created": "2026-11-17T14:14:13.502153+00:00",
-   "built": "2026-11-17T18:09:52.686220+00:00",
+   "built": "2026-11-17T18:58:05.365369+00:00",
    "want_at": null,
    "video": null,
    "tags": [
@@ -9809,6 +9809,43 @@
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
    "photo": null
+  },
+  {
+   "id": "2026-11-17-adam-lz-leaves-fd",
+   "kind": "news",
+   "status": "check",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ signed off on the Long Beach podium with P3 and confirmed he won't be back in Formula DRIFT for 2027. His reasons are in his own video, Why I Quit Formula Drift. 🎤\n\n@adam_lz @formulad\n\n#formulad #adamlz #lzmfg #drifting #sidewayswire",
+   "media": [
+    "media/2026-11-17-adam-lz-leaves-fd/1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "aankondiging gecontroleerd via fan-upload van de livestream en Wikipedia (P3 LB2, 12e in stand); eigen video van LZ niet zelf bekeken, nieuws is van 25 okt",
+   "source": "https://www.youtube.com/watch?v=GnIngCZCsIc",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-17T14:12:26.167610+00:00",
+   "built": "2026-11-17T18:58:04.809894+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": [
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "title": "ADAM LZ WILL NOT RETURN TO FORMULA DRIFT IN 2027",
+   "photo": {
+    "mode": "auto",
+    "credit": "@formulad"
+   }
   },
   {
    "id": "pod-b9e6971ba742-8",
@@ -13676,43 +13713,6 @@
    "format": "single",
    "title": "WATCHING MATT FIELD'S CREW",
    "photo": null
-  },
-  {
-   "id": "2026-11-17-adam-lz-leaves-fd",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Adam LZ signed off on the Long Beach podium with P3 and confirmed he won't be back in Formula DRIFT for 2027. His reasons are in his own video, Why I Quit Formula Drift. 🎤\n\n@adam_lz @formulad\n\n#formulad #adamlz #lzmfg #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-17-adam-lz-leaves-fd/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "aankondiging gecontroleerd via fan-upload van de livestream en Wikipedia (P3 LB2, 12e in stand); eigen video van LZ niet zelf bekeken, nieuws is van 25 okt",
-   "source": "https://www.youtube.com/watch?v=GnIngCZCsIc",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:12:26.167610+00:00",
-   "built": "2026-11-17T18:09:51.885938+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [
-    "@adam_lz",
-    "@formulad"
-   ],
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "title": "ADAM LZ WILL NOT RETURN TO FORMULA DRIFT IN 2027",
-   "photo": {
-    "mode": "auto",
-    "credit": "@formulad"
-   }
   },
   {
    "id": "pod-070d2a07f93c-7",
