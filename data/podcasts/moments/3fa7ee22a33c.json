@@ -228,7 +228,7 @@
   "check": true,
   "check_reason": "Names Evan, Achilles, Dan and Shulman unclear; Shulman assumed to be Matt Shulman",
   "caption": "Christian Cotrone helped test the new Lead Foot venue in Florida and says the state needs two more tracks like it. #Drifting #Florida #Grassroots #FormulaDrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2555.95,
@@ -237,7 +237,11 @@
    "why": "oproep aan de scene"
   },
   "wait_name": "v2-3fa7ee22a33c-7-25205-25599.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2558.37, \"start\": 2555.95, \"text\": \"DOES FLORIDA NEED MORE TRACKS?\", \"why\": \"oproep aan de scene\"}",
+  "made": "2026-11-17T14:14:52.643941+00:00"
  },
  {
   "start": 2621.31,
@@ -254,7 +258,7 @@
   "photo_hint": "OSW skid pad",
   "check": false,
   "caption": "Christian Cotrone has seen plans for a road course behind the OSW skid pad for years. The drifter in him says just pave it. #Drifting #Florida #OSW #Grassroots",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2664.21,
@@ -263,7 +267,11 @@
    "why": "emotionele uitspraak"
   },
   "wait_name": "v2-3fa7ee22a33c-8-26213-26658.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2665.85, \"start\": 2664.21, \"text\": \"WHAT SHOULD OSW DO NOW?\", \"why\": \"emotionele uitspraak\"}",
+  "made": "2026-11-17T14:15:49.159442+00:00"
  },
  {
   "start": 2888.57,
@@ -280,7 +288,7 @@
   "photo_hint": "Christian Cotrone drifting in the rain",
   "check": false,
   "caption": "Down on power all season, Christian Cotrone was doing the rain dance at every FD round. #FormulaDrift #RainDrift #Drifting #Corvette",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2914.45,
@@ -289,7 +297,11 @@
    "why": "sterke punchline"
   },
   "wait_name": "v2-3fa7ee22a33c-9-28886-29165.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2916.51, \"start\": 2914.45, \"text\": \"WHY DOES HE WANT RAIN?\", \"why\": \"sterke punchline\"}",
+  "made": "2026-11-17T14:16:25.627532+00:00"
  },
  {
   "start": 3041.03,
@@ -306,7 +318,7 @@
   "photo_hint": "Christian Cotrone's Corvette",
   "check": false,
   "caption": "Christian Cotrone promised not to be the rookie who changes everything for FD. Then he chased more power. #FormulaDrift #PROSPEC #Rookie #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3053.95,
@@ -315,7 +327,11 @@
    "why": "belofte die misgaat"
   },
   "wait_name": "v2-3fa7ee22a33c-10-30410-30846.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3056.41, \"start\": 3053.95, \"text\": \"WHAT DID HE PROMISE HIMSELF?\", \"why\": \"belofte die misgaat\"}",
+  "made": "2026-11-17T14:17:19.860785+00:00"
  },
  {
   "start": 3156.93,

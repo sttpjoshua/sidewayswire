@@ -1,9 +1,10 @@
 {
- "updated": "2026-11-17T14:16:53.049717+00:00",
+ "updated": "2026-11-17T14:18:18.691753+00:00",
  "counts": {
   "check": 77,
   "ready": 49,
-  "posted": 3
+  "posted": 3,
+  "draft": 4
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -3824,10 +3825,10 @@
       "topic": "NEW FLORIDA DRIFT TRACK",
       "quote": "Evan over at lead foot and Achilles, uh, their, their buddies of mine. So I've always helped out anytime I can with them. They reached out originally and they, me and Dan and, and Shulman went out there and did some initial testing for them. So Achilles always calling my line. He's like, what do you think about this? What do you think about that? Evan, his son has been doing amazing on to the promotion side of things. Socials have been out there. That's all him. So shout out to Evan. So yeah, they've been kind of giving me the sneak peeks of what they got, you know, going, so I'm excited. Uh, and now we just need about two more of those throughout the state. And it will be in a good spot.",
       "why": "He helped test Lead Foot, a new Florida drift venue, and wants two more in the state.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-7/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3838,10 +3839,10 @@
       "topic": "OSW ROAD COURSE PLANS",
       "quote": "So I know there's a lot, you know, that they have tried. Um, and I've even seen, um, you know, a mock -up of the actual, they want to build a track behind the skit pad, like an actual roof course. I've seen the plans for that for six, seven years, you know, like, yeah, I know it's there, um, and it's just kind of on them and just having all those stars align and of course the, the track owner being on board on that side. Cause I know they make a ton of money on the drag side. So it's just kind of like, what do we need to invest into the drifting? If we don't see the return at the end of the day, uh, again, it's just, you know, as a business owner, I see all the sides, but the drifter in me is just like, let's just fricking pave that thing.",
       "why": "He has seen plans for a road course behind the OSW skid pad for six or seven years.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-8/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3852,10 +3853,10 @@
       "topic": "HE PRAYS FOR RAIN",
       "quote": "We've been super fortunate just with the amount of practice in the rain. And that's why like anytime in FD, when it ran, I was go, because I know, especially on these banks and these old rules, man, like I love driving in the rain on the old, like it's not a bank done deal. I'm like out there doing the rain dance, you know, like I'm like, what let it rain. Especially because we dealt with a ton of motor issues and power delivery issues this year. I was like, man, if it rains, we all got a thousand horsepower.",
       "why": "With engine trouble all year, rain was his equalizer in FD.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-9/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3866,10 +3867,10 @@
       "topic": "FD ROOKIE POWER TRAP",
       "quote": "It was, it was rough for us and it was like in my mind, like I'm like watching everything, you know, years prior, I'm like, man, why do all these guys come to the FD have all these changes and look like a fish out of water? I'm like, once we get our license, we will not do that. And then of course we get our license. I'm like, all right guys, we need more power. So we go and make all these upgrades to the motor. And then unfortunately it's just, this isn't the right recipe. And it's like, this is what we got to use. Um, and it's like, I literally just all year, man, I'm like, I wish we just kind of kept this setup we had in program. I just thought I was a little underpowered. Um, and unfortunately it's just the setup we went with this year. It just didn't give us the sauce we needed.",
       "why": "He swore he would not change everything for FD, then chased power and lost his setup.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-10/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -7127,6 +7128,44 @@
    "title": "THE MILLION DOLLAR ROAD TO FD"
   },
   {
+   "id": "pod-3fa7ee22a33c-10",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone promised not to be the rookie who changes everything for FD. Then he chased more power.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Rookie #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3041.03
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:17:19.861758+00:00",
+   "built": "2026-11-17T14:17:19.861764+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-10/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FD ROOKIE POWER TRAP"
+  },
+  {
    "id": "pod-3fa7ee22a33c-5",
    "kind": "podcast_clip",
    "status": "check",
@@ -8281,6 +8320,121 @@
    "caption_by": null,
    "format": null,
    "title": "ADAM LZ WILL NOT RETURN TO FORMULA DRIFT IN 2027"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Down on power all season, Christian Cotrone was doing the rain dance at every FD round.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #RainDrift #Drifting #Corvette #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2888.57
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:16:25.628484+00:00",
+   "built": "2026-11-17T14:16:25.628488+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-9/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HE PRAYS FOR RAIN"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone has seen plans for a road course behind the OSW skid pad for years. The drifter in him says just pave it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @jako13 @formulad\n\n#Drifting #Florida #OSW #Grassroots #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2621.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:15:49.160379+00:00",
+   "built": "2026-11-17T14:15:49.160383+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-8/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "OSW ROAD COURSE PLANS"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone helped test the new Lead Foot venue in Florida and says the state needs two more tracks like it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattshulmannnn @formulad @jako13\n\n#Drifting #Florida #Grassroots #FormulaDrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2520.51
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:14:52.644900+00:00",
+   "built": "2026-11-17T14:14:52.644907+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-7/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattshulmannnn",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "NEW FLORIDA DRIFT TRACK"
   },
   {
    "id": "pod-fd2026r8-9",
