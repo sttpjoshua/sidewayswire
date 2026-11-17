@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:28:19.428011+00:00",
+ "updated": "2026-11-17T15:32:04.727305+00:00",
  "counts": {
   "ready": 102,
-  "draft": 73,
+  "draft": 77,
   "check": 26,
   "posted": 3
  },
@@ -2530,10 +2530,10 @@
       "topic": "DRIFT DAY STRESS? THINK 90",
       "quote": "the other thing that I the advice like I don't know where this came from but it was like a way to deal with stress in the moment is think about yourself at like 90 years old yeah that's a good one and how you would feel about getting to relive that moment and try and live that moment from that perspective that's beautiful yeah yeah I don't know because like the desire of being 90 years old and like how much you would romanticize like the shot at getting to like be at a drift event with all your friends and driving again you know like yeah and just know that some point you're gonna be there and like why not enjoy it in that same way",
       "why": "Palmer shares a simple mindset trick for enjoying stressful drift days.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-11/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2544,10 +2544,10 @@
       "topic": "EBISU RENTAL: NO THIRD GEAR",
       "quote": "they like they don't let you go very fast I don't think you'd enjoy it okay you can drive it it's like it's like a hundred bucks for like a certain amount of laps but like I also I tried to rent it one time and they're like fuck off like you know you're not driving our car I was like what do you mean and they're like no okay but like I think they thought I was gonna because they're like don't go to third is like one of the rules oh really yeah yeah so what's the point that's what I'm saying I was like okay they're like you can't go to third and I was like well then I'm not doing it yeah oh okay no so yeah I mean yeah it'll be fun but you're not going to be able to do the entry I think it but that will be the fun part that's the whole point of the track",
       "why": "Palmer on renting a drift car at Ebisu: they told him to get lost, and the rule is no third gear.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-12/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2558,10 +2558,10 @@
       "topic": "THE ALL-DRIFT APARTMENT",
       "quote": "I'm really honest I miss to be in a team I love that energy like Dom and kinfe with the s14 we lived in the same apartment for two and a half years and we were just drifting like our apartment was full of tires and spare parts and we had like our living room was just like tree sim rigs so yeah it was like we just lived for that we were like there is just drifting in our life so you really like streeting or like playing sim like yeah like just like and also never no one went somewhere to pick some parts up there was always oh yeah I'm coming I'm coming with you on a Tuesday night we arrived like one in the morning that was not a question you want to come with me it was just like oh yeah let's go you know that was cool we were young",
       "why": "Nostalgic story of living with teammates in an apartment full of tires, spare parts and sim rigs.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-13/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2572,10 +2572,10 @@
       "topic": "DONE WITH DRIFTING?",
       "quote": "the most important is like don't push yourself for something that you don't really want for yourself like I'm not talking about having like blowing an engine and that's again like taking the finger out of the asshole and just like okay you need to go through that you'll still love it but like if you feel like to be honest it doesn't give me the same as it used to you don't need to like force yours I see a lot of people I'm like I feel they're done with drifting but they're just doing it because they have nothing else or too much it's become they're like yeah I don't know too much of their identity like yeah yeah personality to be honest I also will have the same like I don't really have that many friends out of drifting stuff like if drifting will be away now will be a pretty empty life",
       "why": "Honest take on people who keep drifting out of identity, and admitting his own life would be empty without it.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-14/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-b5159f5c03f8-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Some people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #driftlife #grassrootsdrift #mentalhealth #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 5357.81
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:32:04.720260+00:00",
+   "built": "2026-11-17T15:32:04.720269+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-14/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DONE WITH DRIFTING?"
+  },
+  {
+   "id": "pod-b5159f5c03f8-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tires in the apartment, sim rigs in the living room and parts runs at 1am on a Tuesday. Rafael Muller misses his old drift team life.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #driftteam #grassrootsdrift #simracing #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 5175.78
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:31:04.574032+00:00",
+   "built": "2026-11-17T15:31:04.574040+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-13/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE ALL-DRIFT APARTMENT"
+  },
+  {
+   "id": "pod-b5159f5c03f8-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Renting a drift car at Ebisu sounds like a dream until you hear the rules.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #ebisu #japan #driftrental #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 4716.44
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:30:10.164668+00:00",
+   "built": "2026-11-17T15:30:10.164677+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-12/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "EBISU RENTAL: NO THIRD GEAR"
+  },
+  {
+   "id": "pod-b5159f5c03f8-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Stressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #driftlife #mindset #grassrootsdrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "handles nakijken: Rafael Muller",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 3622.83
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:29:17.617841+00:00",
+   "built": "2026-11-17T15:29:17.617851+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-11/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DRIFT DAY STRESS? THINK 90"
   },
   {
    "id": "pod-b5159f5c03f8-10",

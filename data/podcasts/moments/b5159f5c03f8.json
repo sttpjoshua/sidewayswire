@@ -359,7 +359,7 @@
   ],
   "check": false,
   "caption": "Stressed at the track? Picture yourself at 90, wishing you could relive this exact moment. #drift #driftlife #mindset #grassrootsdrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3635.77,
@@ -368,7 +368,11 @@
    "why": "nieuwsgierig naar de truc"
   },
   "wait_name": "v2-b5159f5c03f8-11-36228-36700.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3638.41, \"start\": 3635.77, \"text\": \"THE TRICK FOR DRIFT DAY STRESS?\", \"why\": \"nieuwsgierig naar de truc\"}",
+  "made": "2026-11-17T15:29:17.616809+00:00"
  },
  {
   "start": 4716.44,
@@ -386,7 +390,7 @@
   "check": true,
   "check_reason": "Track transcribed as 'abs'; likely Ebisu Circuit. Confirm.",
   "caption": "Renting a drift car at Ebisu sounds like a dream until you hear the rules. #drift #ebisu #japan #driftrental",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4737.78,
@@ -395,7 +399,11 @@
    "why": "absurde regel"
   },
   "wait_name": "v2-b5159f5c03f8-12-47164-47573.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4739.76, \"start\": 4737.78, \"text\": \"THE CATCH WITH EBISU RENTALS?\", \"why\": \"absurde regel\"}",
+  "made": "2026-11-17T15:30:10.163619+00:00"
  },
  {
   "start": 5175.78,
@@ -413,7 +421,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller). Teammates named 'Dom' and 'kinfe' (garbled); no surnames used.",
   "caption": "Tires in the apartment, sim rigs in the living room and parts runs at 1am on a Tuesday. Rafael Muller misses his old drift team life. #drift #driftteam #grassrootsdrift #simracing",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5186.66,
@@ -422,7 +430,11 @@
    "why": "beeldend detail"
   },
   "wait_name": "v2-b5159f5c03f8-13-51758-52205.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5189.5, \"start\": 5186.66, \"text\": \"WHAT WAS IN THEIR LIVING ROOM?\", \"why\": \"beeldend detail\"}",
+  "made": "2026-11-17T15:31:04.572985+00:00"
  },
  {
   "start": 5357.81,
@@ -440,7 +452,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "Some people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too. #drift #driftlife #grassrootsdrift #mentalhealth",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5409.49,
@@ -449,7 +461,11 @@
    "why": "kwetsbare uitspraak"
   },
   "wait_name": "v2-b5159f5c03f8-14-53578-54119.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5411.87, \"start\": 5409.49, \"text\": \"WHAT IF DRIFTING DISAPPEARED?\", \"why\": \"kwetsbare uitspraak\"}",
+  "made": "2026-11-17T15:32:04.719230+00:00"
  },
  {
   "start": 5669.15,
