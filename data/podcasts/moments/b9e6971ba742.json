@@ -12,7 +12,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way. #JDM #OEMplus #CarCulture #Honda",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 134.89,
@@ -22,7 +22,11 @@
   },
   "photo_hint": "Modified 90s Honda Civic or CRX",
   "wait_name": "v2-b9e6971ba742-0-860-1460.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-0/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 136.67, \"start\": 134.89, \"text\": \"WHAT DID HIS COWORKER CALL HIS CIVIC?\", \"why\": \"grappige anekdote, herkenbaar\"}",
+  "made": "2026-11-17T15:42:08.079323+00:00"
  },
  {
   "start": 507.41,
@@ -37,7 +41,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "Another white 96 Civic with the same Type R parts as 30 others in town? One host says OEM+ can get lazy. Agree? #OEMplus #CivicTypeR #EK9 #HondaCivic #CarCulture",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 538.77,
@@ -47,7 +51,11 @@
   },
   "photo_hint": "White 1996 Honda Civic with EK9 Type R parts",
   "wait_name": "v2-b9e6971ba742-1-5074-5627.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-1/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 541.85, \"start\": 538.77, \"text\": \"IS YOUR BUILD JUST A COPY?\", \"why\": \"prikkelende mening, discussie\"}",
+  "made": "2026-11-17T15:43:10.310897+00:00"
  },
  {
   "start": 751.99,
@@ -62,7 +70,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified. Transcript says 'Nukem'; from context (closely related to Honda, alongside Spoon) this is Mugen.",
   "caption": "Lots of newer fans think Mugen parts are factory Honda. They are not, and the brand now sells floor mats next to race parts. #Mugen #Honda #OEMplus #JDM",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 761.15,
@@ -72,7 +80,11 @@
   },
   "photo_hint": "Mugen badge or Mugen-equipped Honda Civic Type R",
   "wait_name": "v2-b9e6971ba742-2-7520-7981.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-2/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 763.67, \"start\": 761.15, \"text\": \"IS MUGEN ACTUALLY HONDA OEM?\", \"why\": \"mythe ontkrachten\"}",
+  "made": "2026-11-17T15:44:00.617280+00:00"
  },
  {
   "start": 859.35,

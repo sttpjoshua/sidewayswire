@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:40:26.041774+00:00",
+ "updated": "2026-11-17T15:44:00.627075+00:00",
  "counts": {
   "ready": 102,
-  "draft": 85,
+  "draft": 89,
   "check": 26,
   "posted": 3
  },
@@ -2698,10 +2698,10 @@
       "topic": "PALMER'S NEW CAREER PLAN?",
       "quote": "that's why the environment's important that's why I like going to people because it's like this is your space you know you can like tell your story in your space you know feels like therapy yeah a little bit that's my goal yeah I've actually been thinking about like going to school to be a therapist lately really yeah actually haven't said that brand new infos yeah we'll see I don't have a lot of but I think I care a lot about that I'm like helping people",
       "why": "The Goodest Cast host drops brand new info: he's thinking about studying to become a therapist.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-23/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      }
     ]
@@ -3538,10 +3538,10 @@
       "topic": "WHEN EVERYTHING BECAME 'JDM'",
       "quote": "I think OEM plus is a tough one because that's that's a term that gets sort of like sort of the lines get blurred, sort of like how JDM became such a blurred line, you know, years and years ago. It went from something that was very, very specific and very, you know, very to the point. And then it sort of got got muddied up and it went all over the place. And you go on on eBay or something and everything is everything is JDM, right? Facebook Marketplace, everything's JDM. I mean, we're guilty of it here, too. I mean, we throw that term around and you and I both know that that's not how the term was used, but we throw it around just like it's, you know, a regular run of the mill car is JDM. Yeah, I think I knew it was bad in the early days when people at my at my job, this is one of the much younger were like, hey, is that your JDM out there? And I was like, what are you talking about? They were just talking about I just had a civic it was modified. But yeah, or a CRX. I'm sorry. But that's when I realized, oh, man, this term really went out there.",
       "why": "Why JDM and OEM+ became meaningless buzzwords, with a funny workplace story.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-0/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3552,10 +3552,10 @@
       "topic": "IS OEM+ JUST LAZY?",
       "quote": "and I feel like at times it does get a little bit lazy with OEM plus stuff, because it's like, it's sort of like this proven formula that you know, will work if you've got, you know, a white 96 Civic and you're putting a bunch of Type R stuff on it from, you know, from the, from the UK nine. You already know what it's going to look like, right? Because there's a ton of them out there or you're putting the same exact parts that the other 30 guys in the next town over have on their white 96 Civic. I understand the appeal because it looks really, really good, but it's been done so many times before there's got to be a point where you're like, man, it's just, it's a clone, but there's so many that live exactly the same. So I do feel like at times that OEM plus stuff does get a little bit lazy. Um, but that's coming from someone that likes to modify. I like to tinker, I like to play with the car and change stuff up. So for me, if I was going to build something like that, it would be cool for a little bit, but then I'd have to, I have to do more of the plus side, like really start bringing in, uh, some market goods, cause I just get bored.",
       "why": "Hot take that OEM+ builds are a copy-paste formula, sure to divide Honda fans.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-1/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3566,10 +3566,10 @@
       "topic": "MUGEN IS NOT HONDA OEM",
       "quote": "I think the confusion is when you see a company like Nukem that's so closely related to Honda, a lot of people, especially the newer crowd, they think that those are actual Honda products. It's OEM stuff. It's not. It's an aftermarket brand, right? That company, especially, was so focused on motorsport products for so many years and they did so well. But in more recent years, you see a lot of that stuff they're making is just for like streetcars, right? So like floor mats and window visors. And I think they even have like a little protector that goes behind the door handle so your key doesn't scratch it. So there's all these little things they make, right? The little knickknacks and stuff. So you see them sort of transitioning, still making performance products, but also going into that realm as well. That stuff again, in my opinion, it's not OEM plus. That's aftermarket goods.",
       "why": "Clears up a common myth: Mugen parts are aftermarket, not factory Honda.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-2/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,153 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-b9e6971ba742-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lots of newer fans think Mugen parts are factory Honda. They are not, and the brand now sells floor mats next to race parts.\n\n🎙 Full episode: Behind The Wheel\n\n#Mugen #Honda #OEMplus #JDM #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 751.99
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:44:00.618287+00:00",
+   "built": "2026-11-17T15:44:00.618296+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-2/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "MUGEN IS NOT HONDA OEM"
+  },
+  {
+   "id": "pod-b9e6971ba742-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Another white 96 Civic with the same Type R parts as 30 others in town? One host says OEM+ can get lazy. Agree?\n\n🎙 Full episode: Behind The Wheel\n\n#OEMplus #CivicTypeR #EK9 #HondaCivic #CarCulture #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 507.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:43:10.311867+00:00",
+   "built": "2026-11-17T15:43:10.311871+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-1/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "IS OEM+ JUST LAZY?"
+  },
+  {
+   "id": "pod-b9e6971ba742-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n\n#JDM #OEMplus #CarCulture #Honda #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 86.01
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:42:08.080425+00:00",
+   "built": "2026-11-17T15:42:08.080435+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-0/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHEN EVERYTHING BECAME 'JDM'"
+  },
+  {
+   "id": "pod-b5159f5c03f8-23",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Palmer Sanderson said on The Goodest Cast that he's been thinking about going to school to become a therapist. Brand new info, nothing confirmed.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #podcast #goodestcast #driftcommunity #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 9248.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:41:04.638323+00:00",
+   "built": "2026-11-17T15:41:04.638331+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-23/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "PALMER'S NEW CAREER PLAN?"
   },
   {
    "id": "pod-b5159f5c03f8-22",

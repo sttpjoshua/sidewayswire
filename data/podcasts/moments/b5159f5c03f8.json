@@ -734,7 +734,7 @@
   "check": true,
   "check_reason": "Personal career hint from the host, not confirmed; treat as rumor.",
   "caption": "Palmer Sanderson said on The Goodest Cast that he's been thinking about going to school to become a therapist. Brand new info, nothing confirmed. #drift #podcast #goodestcast #driftcommunity",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 9262.08,
@@ -743,6 +743,10 @@
    "why": "nieuwe onthulling"
   },
   "wait_name": "v2-b5159f5c03f8-23-92486-92757.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-23/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9264.82, \"start\": 9262.08, \"text\": \"WHAT'S THE HOST'S SECRET PLAN?\", \"why\": \"nieuwe onthulling\"}",
+  "made": "2026-11-17T15:41:04.637386+00:00"
  }
 ]
