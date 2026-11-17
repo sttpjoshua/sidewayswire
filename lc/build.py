@@ -53,6 +53,28 @@ def apply_answers(tg: Telegram, store: Store | None, folder: Path = q.QUEUE) -> 
     return answers
 
 
+def _add_stills(drafts: list[dict]):
+    """Text-only news posts about a driver we have livestream footage of get a still as photo."""
+    from . import stills
+    used = set()
+    for p in drafts:
+        sl = (p.get("slides") or [{}])[0]
+        if sl.get("template") != "news_text.html" or p.get("photo_by") == "joshua" or p.get("no_still"):
+            continue
+        e = stills.pick(p.get("people") or [], used)
+        if not e:
+            continue
+        used.add(e["src"])
+        d = sl["data"]
+        p["slides"][0] = {"template": "news.html", "data": {
+            "photo": "../" + e["src"], "photo_credit": e["credit"], "series_badge": d.get("series_badge"),
+            "headline": d.get("headline"), "marker": d.get("marker"), "body": d.get("body"), "source": d.get("source"),
+            "text_version": d}}
+        p["photo_auto"] = e["src"]
+        if e["credit"] and e["credit"] not in (p.get("caption") or ""):
+            p["caption"] = (p.get("caption") or "").replace("\n\n#", f"\n\nPhoto: {e['credit']}\n\n#", 1)
+
+
 def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
         store: Store | None = None) -> dict:
     tg = tg or Telegram()
@@ -68,6 +90,7 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
     drafts = q.load("draft", folder)
     if not drafts:
         return report
+    _add_stills(drafts)
     with Renderer() as r:
         for p in drafts:
             p["media"], p["problems"] = ([p["video"]] if p.get("video") else []), []
@@ -93,7 +116,7 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
                     tg.check(p, str(ROOT / p["media"][0]), reason)
             else:
                 p["status"] = "ready"
-                p["post_at"] = q.next_slot(q.load(folder=folder), p["kind"]).isoformat()
+                p["post_at"] = p.pop("want_at", None) or q.next_slot(q.load(folder=folder), p["kind"]).isoformat()
                 report["ready"] += 1
             p["built"] = datetime.now(timezone.utc).isoformat()
             q.save(p, folder)

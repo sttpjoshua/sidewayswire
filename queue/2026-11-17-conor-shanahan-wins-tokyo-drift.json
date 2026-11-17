@@ -5,15 +5,14 @@
  "title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
  "slides": [
   {
-   "template": "news_text.html",
+   "template": "news.html",
    "data": {
+    "photo": "../docs/media/stills/fd2026r8-12r1-0.jpg",
+    "photo_credit": "@formulad",
     "series_badge": [
      "D1GP",
      "GUEST"
     ],
-    "backdrop": "D1GP",
-    "backdrop_size": 520,
-    "kicker": "TOKYO DRIFT · ROUND 10",
     "headline": [
      "CONOR SHANAHAN",
      "WINS D1GP",
@@ -21,11 +20,28 @@
     ],
     "marker": "in the rain",
     "body": "The Formula DRIFT champion only just made it through solo in 16th, then beat Kojiro Meguwa in the semi-final and Naoki Nakamura in the final. Guest entry in the Red Bull CUSCO Racing GR Corolla. Brother Jack missed tsuiso both days.",
-    "source": "d1gp.co.jp"
+    "source": "d1gp.co.jp",
+    "text_version": {
+     "series_badge": [
+      "D1GP",
+      "GUEST"
+     ],
+     "backdrop": "D1GP",
+     "backdrop_size": 520,
+     "kicker": "TOKYO DRIFT · ROUND 10",
+     "headline": [
+      "CONOR SHANAHAN",
+      "WINS D1GP",
+      "IN ODAIBA"
+     ],
+     "marker": "in the rain",
+     "body": "The Formula DRIFT champion only just made it through solo in 16th, then beat Kojiro Meguwa in the semi-final and Naoki Nakamura in the final. Guest entry in the Red Bull CUSCO Racing GR Corolla. Brother Jack missed tsuiso both days.",
+     "source": "d1gp.co.jp"
+    }
    }
   }
  ],
- "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
+ "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
  "platforms": [
   "instagram",
   "facebook"
@@ -41,7 +57,7 @@
  ],
  "source": "https://d1gp.co.jp/27462/",
  "check": false,
- "status": "ready",
+ "status": "draft",
  "created": "2026-11-17T14:14:13.502153+00:00",
  "by": "editor",
  "media": [
@@ -49,5 +65,7 @@
  ],
  "problems": [],
  "post_at": "2026-12-07T07:30:00+00:00",
- "built": "2026-11-17T14:16:52.271302+00:00"
+ "built": "2026-11-17T14:16:52.271302+00:00",
+ "photo_auto": "docs/media/stills/fd2026r8-12r1-0.jpg",
+ "want_at": "2026-12-07T07:30:00+00:00"
 }

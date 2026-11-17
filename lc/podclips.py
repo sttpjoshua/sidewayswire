@@ -187,6 +187,14 @@ def run(limit: int = 120) -> dict:
                 if m.get("split"):
                     runs = [_fetch(assets[n], Path(tmp) / f"run{k}.mp4") for k, n in enumerate(pieces(mf.stem, i, m), 1)]
                     res = make_split(ep, m, runs, str(out))
+                    try:                                  # stills for posts about these drivers
+                        from . import stills
+                        for k, (run, r) in enumerate(zip(runs, m["split"]["runs"]), 1):
+                            o = float(r["init"]) - float(r["start"])
+                            stills.grab(run, [o + x * 1.5 for x in range(2, 16)], f"{mf.stem}-{i}r{k}",
+                                        m.get("people") or m["split"]["lead"], ep.get("credit") or "")
+                    except Exception as ex:
+                        print("stills:", ex)
                 else:
                     src = _fetch(assets[name], Path(tmp) / "src.mp4") if name in assets else None
                     res = make_clip(ep, transcripts[mf.stem], m, str(out), photo=ep.get("art"), video_src=src)
