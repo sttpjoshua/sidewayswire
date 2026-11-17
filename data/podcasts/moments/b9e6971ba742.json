@@ -328,7 +328,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "An Acura TSX with Accord Euro R parts, a supercharger and 350 aftermarket parts. The comments? Only about the big wing. #AcuraTSX #AccordEuroR #OEMplus #Honda",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2112.07,
@@ -338,6 +338,10 @@
   },
   "photo_hint": "Acura TSX with Accord Euro R front end and big wing",
   "wait_name": "v2-b9e6971ba742-11-20449-21139.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-11/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2113.93, \"start\": 2112.07, \"text\": \"WHAT DID 95% OF COMMENTERS HATE?\", \"why\": \"grappige ontknoping\"}",
+  "made": "2026-11-17T15:52:14.063895+00:00"
  }
 ]

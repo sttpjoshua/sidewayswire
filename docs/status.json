@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:50:54.600909+00:00",
+ "updated": "2026-11-17T15:55:00.314639+00:00",
  "counts": {
   "ready": 102,
-  "draft": 97,
+  "draft": 101,
   "check": 26,
   "posted": 3
  },
@@ -3692,10 +3692,10 @@
       "topic": "THE WING THAT BROKE THE INTERNET",
       "quote": "On the outside of the car though, completely all Accord Euro R stuff, except for a big wing, because he didn't track the car once in a while, right? And then obviously aftermarket wheels. So in essence, I should not have been really called an OEM plus build. However, see to me, it's not. However, the rider, because he's just so smart, decided to call it an OEM plus build. And I mean, you call it a little bit of clickbait, I guess. But, you know, I basically kind of put in there that it was an OEM plus sort of build. And it caused - Plus plus build, OEM plus plus plus build. I think I actually said that in the end. But it's funny because it brought up a lot of commentary and it did its job as far as traffic, because people wanted to comment on it and say, you know, this or that. But it's funny because of all the posts that came up about it, like 95 % were all, how is OEM plus if it has that big wing in the back? Forget the brakes, the wheels, the suspension. All the bushing, all the stuff he did under, you know, all the stuff underneath, he had aftermarket seats, he had shifter, steering wheel, all the stuff, supercharged, it had her. The whole thing, right? So he had all the stuff done to it, but all anybody could focus on was the big wing.",
       "why": "Story of an Acura TSX called OEM+ where commenters only cared about the wing.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-11/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      }
     ]
@@ -4475,10 +4475,10 @@
       "topic": "MATT FIELD ON HIS VEGAS LAYOUT",
       "quote": "This is how I feel about the track. If the transition from bank to flat was like 10 % better, it would be an amazing, like perfect track. And whether the layout that me and Ryan and Ken chose for the infield was optimal, sure, surely not, right? We could sit here and say, this corner could be this, and this corner could be that. But here's the beautiful thing, we have a contract for a couple years, and the plan is to come back and continue to make it better. By no means, I hope that we do the exact same layout just because there was a successful weekend. There's better stuff out there, so. Let's explore, let's do stuff, and the coolest thing is that the track is all about us and us being here, and I think we put it on an amazing show for the fans, and this is what's most important, not whether we think the track is good, it's whether the fans think the tandem was good, and that's kind of the end of the day.",
       "why": "Matt Field reveals he co-designed the Vegas layout, the deal runs a couple of years and the track will change.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-0/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4489,10 +4489,10 @@
       "topic": "VEGAS HEAT COOKED THE GRID",
       "quote": "I mean, more than the car. Like it looked like, in general, the whole grid was kind of struggling with temps today. I think, to be honest, it was like the lack of air moving into place at the issue. Like my car, we went through everything, and everything was actually still as good as it has been all season. But even driving around between the lead and the chase, or chase and the lead. Don't cool off. It didn't cool off. I was like, you actually had to go real fast. And like idle for it to work. So it was weird. It was just very, very still air. Drift cars are funny, where they don't do anything other than drift, even unless you're sitting still. Then they do car things. Other than that, they do terrible. It's like the first event that I feel like we couldn't even do donuts, because I finished the second run, and I was like, oh my God, this thing is on X Games mode on the back. I was turning my fan on early. I never touch buttons. Yeah, I never, yeah. My car in the final was hot.",
       "why": "The podium explains how still desert air had cars overheating all night, even between runs.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-1/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4503,10 +4503,10 @@
       "topic": "HOW PRO DRIFT CARS STAY COOL",
       "quote": "Yeah, yeah, we brought the fans in 10 degrees earlier, just to try to help with the split between two runs, let's say. Do you, question that, now that you mentioned that, do you guys not run fans during the actual run itself, or only if we hit 200, we're bringing them in? Oh no, fans run nearly all the time. We just did a thing. Yeah, the computer was that. We got a computer for that. Yeah, we come on at a certain temperature, basically. When the car reaches a certain temperature, the fans come on.",
       "why": "A quick look at how teams run cooling fans in a Pro drift car.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-c82113ef8385-2/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,163 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-c82113ef8385-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The fans came on 10 degrees earlier in Vegas. How Pro teams keep their drift cars cool between runs.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #FDLV #DriftTech #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 212.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:55:00.306829+00:00",
+   "built": "2026-11-17T15:55:00.306837+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-2/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@mattfield777",
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HOW PRO DRIFT CARS STAY COOL"
+  },
+  {
+   "id": "pod-c82113ef8385-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "No wind, no cooling. The Vegas podium on cars running hot all night at the Bullring.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #FDLV #LasVegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 161.16
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:54:23.295752+00:00",
+   "built": "2026-11-17T15:54:23.295759+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-1/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@mattfield777",
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "VEGAS HEAT COOKED THE GRID"
+  },
+  {
+   "id": "pod-c82113ef8385-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field helped design the new Vegas layout, and says it will not stay the same in the coming years.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @ryantuerck @formulad @jako13\n\n#FormulaDRIFT #FDLV #MattField #LasVegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Pro Podium",
+    "start": 49.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:53:16.815357+00:00",
+   "built": "2026-11-17T15:53:16.815369+00:00",
+   "want_at": null,
+   "video": "media/pod-c82113ef8385-0/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@ryantuerck",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Ken Gushi"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "MATT FIELD ON HIS VEGAS LAYOUT"
+  },
+  {
+   "id": "pod-b9e6971ba742-11",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "An Acura TSX with Accord Euro R parts, a supercharger and 350 aftermarket parts. The comments? Only about the big wing.\n\n🎙 Full episode: Behind The Wheel\n\n#AcuraTSX #AccordEuroR #OEMplus #Honda #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 2044.91
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:52:14.064907+00:00",
+   "built": "2026-11-17T15:52:14.064914+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-11/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE WING THAT BROKE THE INTERNET"
   },
   {
    "id": "pod-b9e6971ba742-10",

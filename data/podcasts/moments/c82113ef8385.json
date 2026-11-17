@@ -17,7 +17,7 @@
   "check": true,
   "check_reason": "'Ryan and Ken' assumed to be Ryan Tuerck and Ken Gushi; speaker assumed Matt Field (addressed as Matt).",
   "caption": "Matt Field helped design the new Vegas layout, and says it will not stay the same in the coming years. #FormulaDRIFT #FDLV #MattField #LasVegas",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 67.38,
@@ -26,7 +26,11 @@
    "why": "nieuws over de baan, nieuwsgierig"
   },
   "wait_name": "v2-c82113ef8385-0-492-926.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 69.7, \"start\": 67.38, \"text\": \"WILL VEGAS LOOK THE SAME NEXT YEAR?\", \"why\": \"nieuws over de baan, nieuwsgierig\"}",
+  "made": "2026-11-17T15:53:16.814234+00:00"
  },
  {
   "start": 161.16,
@@ -45,7 +49,7 @@
   "check": true,
   "check_reason": "Group conversation; speaker of each line not certain.",
   "caption": "No wind, no cooling. The Vegas podium on cars running hot all night at the Bullring. #FormulaDRIFT #FDLV #LasVegas",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 187.62,
@@ -54,7 +58,11 @@
    "why": "grappige vraag, technische clou"
   },
   "wait_name": "v2-c82113ef8385-1-1612-2090.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 190.2, \"start\": 187.62, \"text\": \"WHY COULDN'T THEY EVEN DO DONUTS?\", \"why\": \"grappige vraag, technische clou\"}",
+  "made": "2026-11-17T15:54:23.294708+00:00"
  },
  {
   "start": 212.88,
@@ -73,7 +81,7 @@
   "check": true,
   "check_reason": "Group conversation; speaker of each line not certain.",
   "caption": "The fans came on 10 degrees earlier in Vegas. How Pro teams keep their drift cars cool between runs. #FormulaDRIFT #FDLV #DriftTech",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 227.78,
@@ -82,7 +90,11 @@
    "why": "kort technisch weetje"
   },
   "wait_name": "v2-c82113ef8385-2-2129-2362.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-c82113ef8385-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 229.3, \"start\": 227.78, \"text\": \"WHO SWITCHES THE FANS ON?\", \"why\": \"kort technisch weetje\"}",
+  "made": "2026-11-17T15:55:00.305826+00:00"
  },
  {
   "start": 319.22,
