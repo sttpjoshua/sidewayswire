@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-11",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "A DASH GAUGE THAT GRADES YOUR FLICK",
  "video": "docs/media/pod-070d2a07f93c-11/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 4230.58
  },
  "created": "2026-11-17T13:39:42.380735+00:00",
- "built": "2026-11-17T13:39:42.380741+00:00"
+ "built": "2026-11-17T14:16:52.662365+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-11/clip.mp4"
+ ],
+ "problems": []
 }

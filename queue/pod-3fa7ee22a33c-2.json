@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-2",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIRST CAR: A Z28 CAMARO",
  "video": "docs/media/pod-3fa7ee22a33c-2/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 880.68
  },
  "created": "2026-11-17T14:01:53.387507+00:00",
- "built": "2026-11-17T14:01:53.387515+00:00"
+ "built": "2026-11-17T14:16:52.689226+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-2/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-25T14:16:52.688906+00:00"
 }

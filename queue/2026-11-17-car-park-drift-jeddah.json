@@ -34,11 +34,16 @@
  "tags": [],
  "source": "https://www.redbull.com/mea-en/red-bull-car-park-drift-returns-to-jeddah-with-a-new-competition-format",
  "check": true,
- "status": "draft",
+ "status": "check",
  "created": "2026-11-17T14:12:26.167610+00:00",
  "by": "editor",
  "check_reason": "Red Bull-handle niet in sources.csv",
  "missing_handles": [
   "Red Bull Car Park Drift"
- ]
+ ],
+ "media": [
+  "docs/media/2026-11-17-car-park-drift-jeddah/1.png"
+ ],
+ "problems": [],
+ "built": "2026-11-17T14:16:51.835921+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-6",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FROM P5 TO CHAMPION",
  "video": "docs/media/pod-3fa7ee22a33c-6/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 2260.37
  },
  "created": "2026-11-17T14:07:48.904387+00:00",
- "built": "2026-11-17T14:07:48.904393+00:00"
+ "built": "2026-11-17T14:16:52.702001+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-6/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-25T14:16:52.701671+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-14",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "DRIVERS WILL BEAT THE SYSTEM",
  "video": "docs/media/pod-070d2a07f93c-14/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 5175.73
  },
  "created": "2026-11-17T13:43:51.540963+00:00",
- "built": "2026-11-17T13:43:51.540968+00:00"
+ "built": "2026-11-17T14:16:52.664618+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-14/clip.mp4"
+ ],
+ "problems": []
 }

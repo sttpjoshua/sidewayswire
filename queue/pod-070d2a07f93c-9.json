@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-9",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "SHOULD HISTORY JUDGE A RUN?",
  "video": "docs/media/pod-070d2a07f93c-9/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 2928.72
  },
  "created": "2026-11-17T13:36:39.847729+00:00",
- "built": "2026-11-17T13:36:39.847736+00:00"
+ "built": "2026-11-17T14:16:52.672576+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-9/clip.mp4"
+ ],
+ "problems": []
 }

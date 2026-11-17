@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-0",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "PRO TEAMS PITTED IN FRENCH FRONT YARDS",
  "video": "docs/media/pod-070d2a07f93c-0/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 834.98
  },
  "created": "2026-11-17T13:25:05.764949+00:00",
- "built": "2026-11-17T13:25:05.764956+00:00"
+ "built": "2026-11-17T14:16:52.658965+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-0/clip.mp4"
+ ],
+ "problems": []
 }

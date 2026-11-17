@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-19",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "GETTINS TAKES ON FLORIDA PRO-AM",
  "video": "docs/media/pod-070d2a07f93c-19/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 6011.35
  },
  "created": "2026-11-17T13:51:21.865756+00:00",
- "built": "2026-11-17T13:51:21.865762+00:00"
+ "built": "2026-11-17T14:16:52.667146+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-19/clip.mp4"
+ ],
+ "problems": []
 }

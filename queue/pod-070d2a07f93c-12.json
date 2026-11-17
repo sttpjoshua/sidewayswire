@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-12",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "BUILDING 16 DEVICES BY HAND",
  "video": "docs/media/pod-070d2a07f93c-12/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 4651.41
  },
  "created": "2026-11-17T13:41:21.979642+00:00",
- "built": "2026-11-17T13:41:21.979647+00:00"
+ "built": "2026-11-17T14:16:52.662743+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-12/clip.mp4"
+ ],
+ "problems": []
 }

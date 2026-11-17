@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:25:58.200994+00:00",
+ "updated": "2026-11-17T14:16:38.821618+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -714,6 +714,25 @@
    ]
   },
   {
+   "id": "c2e9e3a41913d327",
+   "title": "Etihad Airways Unveils McLaren Racing Dreamliner and Exclusive Onboard Loungewear",
+   "series": "FD + DM",
+   "buzz": 1,
+   "first_seen": "2026-11-17T14:16:37.831235+00:00",
+   "published": "2026-11-11T18:06:09+00:00",
+   "items": [
+    {
+     "source": "Google News · Drift Travel Magazine",
+     "title": "Etihad Airways Unveils McLaren Racing Dreamliner and Exclusive Onboard Loungewear",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lUjAySXc4NlIzV2xBVENzeEZRcGdqdG5DOG04WE5qdTZSSnk3VnZHcHpjVDhFV3RCeVNmbV9WZEVoeXFWVVczWVJfRF9GRGs5YWtreEFPZEdwV0lCNVR1dW4ydWROZ1FG0gFuQVVfeXFMTmd4a29RZ2syeXI5ajNtUVotR1Vyb0tqQmt4ZUtsSHBPdUNjUlZXb3FGdnZCTF9vNXhBNGxHNnpnbDU4bkdqblVsTEtxMU9YUjJ4bVRjb0V2anRYYlVTLVM2TjQ1QWdlZXpKcF9TMVE?oc=5",
+     "kind": "article",
+     "published": "2026-11-11T18:06:09+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "id": "157af8797a5a8b5b",
    "title": "Conor Shanahan Almost Quit FD",
    "series": "FD",
@@ -748,25 +767,6 @@
      "published": "2026-11-11T16:17:22+00:00",
      "media_url": "https://i4.ytimg.com/vi/SRI042_srHA/hqdefault.jpg",
      "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "id": "baccac0530b2ccdc",
-   "title": "Record field set for FIA Intercontinental Drifting Cup's Greek debut",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:05.539350+00:00",
-   "published": "2026-11-11T15:52:00+00:00",
-   "items": [
-    {
-     "source": "Google News · Federation Internationale de l'Automobile",
-     "title": "Record field set for FIA Intercontinental Drifting Cup's Greek debut",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmtQaG5tTU5lZEUwc0o0U2FZXzdNaW5KbnBTVVAzVzNIVlpIVVhpZHlITTF5b1hMNjM4cTkwbDFUSjg0QW5pU2RQQmczb1VRckN0MFZudjVUYjFYWjBGVnB6VkZLYnIyYWlvOW1LeEZiVVBJdEtoeWo1R2FiODctMkdsZDQ3TXRucnpVQ1hNblQ0UQ?oc=5",
-     "kind": "article",
-     "published": "2026-11-11T15:52:00+00:00",
-     "media_url": null,
-     "media_type": null
     }
    ]
   },
@@ -1661,7 +1661,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {

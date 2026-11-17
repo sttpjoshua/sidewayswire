@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-2",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "A CHEF'S TABLE IN THE SPOTTER TOWER",
  "video": "docs/media/pod-070d2a07f93c-2/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 1390.66
  },
  "created": "2026-11-17T13:27:37.944643+00:00",
- "built": "2026-11-17T13:27:37.944648+00:00"
+ "built": "2026-11-17T14:16:52.667556+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-2/clip.mp4"
+ ],
+ "problems": []
 }

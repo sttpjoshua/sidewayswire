@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "400 HP VS 1000 HP",
  "video": "docs/media/pod-3fa7ee22a33c-5/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 2116.02
  },
  "created": "2026-11-17T14:06:21.600475+00:00",
- "built": "2026-11-17T14:06:21.600481+00:00"
+ "built": "2026-11-17T14:16:52.697872+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-5/clip.mp4"
+ ],
+ "problems": []
 }

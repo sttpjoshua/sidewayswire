@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-20",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE 50,000 DOLLAR DOMAIN",
  "video": "docs/media/pod-070d2a07f93c-20/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 6340.51
  },
  "created": "2026-11-17T13:52:52.777337+00:00",
- "built": "2026-11-17T13:52:52.777342+00:00"
+ "built": "2026-11-17T14:16:52.667939+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-20/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-1",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "PRO CAR AT BLACK FRIDAY?",
  "video": "docs/media/pod-3fa7ee22a33c-1/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 686.3
  },
  "created": "2026-11-17T14:00:08.709475+00:00",
- "built": "2026-11-17T14:00:08.709481+00:00"
+ "built": "2026-11-17T14:16:52.685056+00:00",
+ "media": [
+  "docs/media/pod-3fa7ee22a33c-1/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-11-25T14:16:52.684701+00:00"
 }

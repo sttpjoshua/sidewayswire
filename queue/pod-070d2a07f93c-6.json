@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-6",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FIELD VS DEANE: FIVE TAKES",
  "video": "docs/media/pod-070d2a07f93c-6/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 2015.06
  },
  "created": "2026-11-17T13:33:07.447525+00:00",
- "built": "2026-11-17T13:33:07.447531+00:00"
+ "built": "2026-11-17T14:16:52.671291+00:00",
+ "media": [
+  "docs/media/pod-070d2a07f93c-6/clip.mp4"
+ ],
+ "problems": []
 }
