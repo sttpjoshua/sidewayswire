@@ -18,6 +18,13 @@ competitief driften. Werk in de repo `sttpjoshua/sidewayswire`.
 
 ## Regels van Joshua
 
+- Goedkeuren (nov 2026): Joshua keurt bijna alles goed. Zet `check: true` ALLEEN als je echt
+  twijfelt aan iets dat in de post of caption staat: een gerucht, een crash of blessure, een naam of
+  feit dat je niet bij een bron kon bevestigen. Een onbekende handle is geen reden: dan tag je die
+  persoon gewoon niet. Een naam die niet in de caption of de beelden staat ook niet.
+- Posten begint op 1 december 2026. Alles krijgt automatisch een plek in de contentkalender
+  (`lc/queue.py`: 08:30 post, 12:30 podcastclip, 17:30 livestream of battle, 20:30 vrij, 23:00 podcastclip).
+
 - Taal: Engels. Kort, direct, zoals in de scene gepraat wordt. Nooit een em-dash.
 - Geen uitleg over hoe driften of judgen werkt.
 - Geruchten mogen, altijd met `cover.html`, `stripe: true` en een roze RUMOR-badge, en met

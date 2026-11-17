@@ -25,6 +25,14 @@ MAX_PER_DAY = 5          # race weekends: results skip the slots and post at onc
 MIN_GAP_MIN = 90
 URGENT = {"result", "champion", "quali", "livestream"}
 TZ = ZoneInfo("Europe/Amsterdam")
+START = datetime(2026, 12, 1, 0, 0, tzinfo=TZ)   # Joshua starts posting in December: nothing is planned before this
+# Content calendar: what each slot is for, so a day mixes reels and posts.
+# reel_pod = podcast clip, reel_live = livestream moment or battle, post = news/carousel, any = whatever is next.
+SLOT_USE = {"08:30": "post", "12:30": "reel_pod", "17:30": "reel_live", "20:30": "any", "23:00": "reel_pod"}
+
+
+def use_of(kind: str) -> str:
+    return {"podcast_clip": "reel_pod", "stream_clip": "reel_live", "battle_reel": "reel_live"}.get(kind, "post")
 
 
 def load(status: str | None = None, folder: Path = QUEUE) -> list[dict]:
@@ -45,23 +53,28 @@ def save(post: dict, folder: Path = QUEUE):
 def next_slot(posts: list[dict], kind: str, now: datetime | None = None) -> datetime:
     """Pick the moment for a new post. Urgent kinds go out at once (with a
     small gap after the last post); the rest take the next free slot."""
-    now = now or datetime.now(timezone.utc)
+    now = max(now or datetime.now(timezone.utc), START)
     taken = sorted(datetime.fromisoformat(p["post_at"]) for p in posts
                    if p.get("post_at") and p.get("status") in ("ready", "posted"))
     if kind in URGENT:
         near = [t for t in taken if abs((t - now).total_seconds()) < 600]
         return max(near) + timedelta(minutes=10) if near else now
     day = now.astimezone(TZ).date()
-    for add in range(0, 8):
-        d = day + timedelta(days=add)
-        todays = [t for t in taken if t.astimezone(TZ).date() == d]
-        if len(todays) >= MAX_PER_DAY:
-            continue
-        for s in SLOTS:
-            h, m = map(int, s.split(":"))
-            t = datetime(d.year, d.month, d.day, h, m, tzinfo=TZ).astimezone(timezone.utc)
-            if t <= now:
+    use = use_of(kind)
+    # First the slots meant for this kind of content, then (if those are full for two months) any slot.
+    for strict in (True, False):
+        for add in range(0, 62):
+            d = day + timedelta(days=add)
+            todays = [t for t in taken if t.astimezone(TZ).date() == d]
+            if len(todays) >= MAX_PER_DAY:
                 continue
-            if all(abs((t - o).total_seconds()) >= MIN_GAP_MIN * 60 for o in taken):
-                return t
-    return now + timedelta(days=8)
+            for s in SLOTS:
+                if strict and SLOT_USE.get(s, "any") not in (use, "any"):
+                    continue
+                h, m = map(int, s.split(":"))
+                t = datetime(d.year, d.month, d.day, h, m, tzinfo=TZ).astimezone(timezone.utc)
+                if t <= now:
+                    continue
+                if all(abs((t - o).total_seconds()) >= MIN_GAP_MIN * 60 for o in taken):
+                    return t
+    return now + timedelta(days=62)
