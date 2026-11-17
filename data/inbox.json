@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:57:56.444593+00:00",
+ "updated": "2026-11-17T23:52:47.641489+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -24,6 +24,25 @@
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQTFGYUgyeF9lVmlZWkxVM2N2YmRxcGM0c3pQOURzbk8xNTM1RlBkYzRFYkRQN0FkcDJDS2ZQUTN3QmNNbkRicHdhYnJzbC1WM2dDWVctVnI0QS1LbWcyX3JIS2tnUmk2UDhwcl90QjU2N2tPcjJmZ3RBc0tYYmc2LU91XzJ5cHE5UVAzdExSWDFtSllJNEx3ZndoVEpDS0d3TEhkbzdPWTY0TmRVYVBHLVJkajJTWUk0VEFLS21UdkNRNkJaU2ZRMjdiVFg1dkd4dnJlZ1FtMnNZN1pTbHc?oc=5",
      "kind": "article",
      "published": "2026-11-17T01:12:22+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "843a402826ee5ace",
+   "title": "From Tokyo Drift to Formula Drift: How The Sideways Motorsport Landed In Your Driveway",
+   "series": "FD",
+   "buzz": 1,
+   "first_seen": "2026-11-17T23:52:36.896874+00:00",
+   "published": "2026-11-17T20:00:21+00:00",
+   "items": [
+    {
+     "source": "Google News · Top Speed",
+     "title": "From Tokyo Drift to Formula Drift: How The Sideways Motorsport Landed In Your Driveway",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxSG5iV3cwNlBZcU9Oem00WUZBRTJUUVNYMlB6bDEwN002Nnc3eVVtck80VlR6cUh2Q3R2YUdfUlVLSHFSVU5ITUJ0dU5DX2d1d01uNG50OE8xX1k2eWktUDZPTjI5Yk1YUnBIRWNwYw?oc=5",
+     "kind": "article",
+     "published": "2026-11-17T20:00:21+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -577,25 +596,6 @@
      "published": "2026-11-12T21:00:00+00:00",
      "media_url": null,
      "media_type": null
-    }
-   ]
-  },
-  {
-   "id": "145ac3d0a0b16d6e",
-   "title": "Flying The Championship Trophy Home To Ireland",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:05.864326+00:00",
-   "published": "2026-11-12T18:30:25+00:00",
-   "items": [
-    {
-     "source": "Formula DRIFT",
-     "title": "Flying The Championship Trophy Home To Ireland",
-     "url": "https://www.youtube.com/shorts/aysr27tLfHY",
-     "kind": "video",
-     "published": "2026-11-12T18:30:25+00:00",
-     "media_url": "https://i2.ytimg.com/vi/aysr27tLfHY/hqdefault.jpg",
-     "media_type": "VIDEO"
     }
    ]
   },
@@ -1557,7 +1557,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 3,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -1661,7 +1661,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -1675,7 +1675,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 3,
+   "items": 4,
    "how": "feed"
   },
   {
