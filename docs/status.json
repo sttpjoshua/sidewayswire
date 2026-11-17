@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:10:44.370214+00:00",
+ "updated": "2026-11-17T16:20:44.052838+00:00",
  "counts": {
   "ready": 98,
   "draft": 113,
@@ -2658,7 +2658,7 @@
       "why": "Palmer on becoming a Final Bout announcer, and Rafael sitting at the judges' table all night without being kicked out.",
       "status": "queued",
       "clip": "docs/media/pod-b5159f5c03f8-20/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2672,7 +2672,7 @@
       "why": "A Swiss drifter's confusion about US open container rules, from cops at Final Bout to a Wisconsin campsite.",
       "status": "queued",
       "clip": "docs/media/pod-b5159f5c03f8-21/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2686,7 +2686,7 @@
       "why": "A rough year, a joke phone call and two weeks later two Europeans were on their way to Final Bout.",
       "status": "queued",
       "clip": "docs/media/pod-b5159f5c03f8-22/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3540,7 +3540,7 @@
       "why": "Why JDM and OEM+ became meaningless buzzwords, with a funny workplace story.",
       "status": "queued",
       "clip": "docs/media/pod-b9e6971ba742-0/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9100,6 +9100,160 @@
    "title": "DM 2026: EVERY ROUND WINNER"
   },
   {
+   "id": "pod-b9e6971ba742-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n\n#JDM #OEMplus #CarCulture #Honda #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 86.01
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:42:08.080425+00:00",
+   "built": "2026-11-17T16:20:44.041787+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-0/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHEN EVERYTHING BECAME 'JDM'"
+  },
+  {
+   "id": "pod-b5159f5c03f8-22",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A tough year, a half-joking call and two weeks later Rafael Muller and his friend booked their first trip to Final Bout in the US.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #roadtrip #driftfamily #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 9010.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:40:26.034214+00:00",
+   "built": "2026-11-17T16:19:08.006567+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-22/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "A JOKE THAT BECAME FINAL BOUT"
+  },
+  {
+   "id": "pod-b5159f5c03f8-21",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Cops at the entrance, a beer in hand, and a Wisconsin campsite lady who had never heard of covering your beer. A European at Final Bout.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #wisconsin #roadtrip #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 8869.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:39:18.521675+00:00",
+   "built": "2026-11-17T16:17:39.622507+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-21/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SWISS GUY VS AMERICAN BEER LAWS"
+  },
+  {
+   "id": "pod-b5159f5c03f8-20",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Palmer got asked to announce Final Bout. Rafael and a friend somehow sat at the judges' table all night and nobody stopped them.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #grassrootsdrift #driftjudging #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 8501.84
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:38:06.394726+00:00",
+   "built": "2026-11-17T16:16:05.053529+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-20/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller",
+    "Jimmy Yates"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE NIGHT AT THE JUDGES' TABLE"
+  },
+  {
    "id": "pod-fd2026r8-15",
    "kind": "stream_clip",
    "status": "draft",
@@ -10079,42 +10233,6 @@
    "title": "IS OEM+ JUST LAZY?"
   },
   {
-   "id": "pod-b9e6971ba742-0",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n\n#JDM #OEMplus #CarCulture #Honda #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 86.01
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:42:08.080425+00:00",
-   "built": "2026-11-17T15:42:08.080435+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-0/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHEN EVERYTHING BECAME 'JDM'"
-  },
-  {
    "id": "pod-b5159f5c03f8-23",
    "kind": "podcast_clip",
    "status": "draft",
@@ -10152,124 +10270,6 @@
    "caption_by": null,
    "format": "single",
    "title": "PALMER'S NEW CAREER PLAN?"
-  },
-  {
-   "id": "pod-b5159f5c03f8-22",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A tough year, a half-joking call and two weeks later Rafael Muller and his friend booked their first trip to Final Bout in the US.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #roadtrip #driftfamily #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 9010.88
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:40:26.034214+00:00",
-   "built": "2026-11-17T15:40:26.034222+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-22/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "A JOKE THAT BECAME FINAL BOUT"
-  },
-  {
-   "id": "pod-b5159f5c03f8-21",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Cops at the entrance, a beer in hand, and a Wisconsin campsite lady who had never heard of covering your beer. A European at Final Bout.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #wisconsin #roadtrip #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 8869.04
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:39:18.521675+00:00",
-   "built": "2026-11-17T15:39:18.521681+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-21/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SWISS GUY VS AMERICAN BEER LAWS"
-  },
-  {
-   "id": "pod-b5159f5c03f8-20",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Palmer got asked to announce Final Bout. Rafael and a friend somehow sat at the judges' table all night and nobody stopped them.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #grassrootsdrift #driftjudging #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 8501.84
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:38:06.394726+00:00",
-   "built": "2026-11-17T15:38:06.394731+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-20/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller",
-    "Jimmy Yates"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE NIGHT AT THE JUDGES' TABLE"
   },
   {
    "id": "pod-b5159f5c03f8-19",
