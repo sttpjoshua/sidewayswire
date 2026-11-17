@@ -382,8 +382,13 @@
    "lead_in": 2.0
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-fd2026r8-12r2-79410-79760.mp4"
+  "status": "queued",
+  "wait_name": "v2-fd2026r8-12r2-79410-79760.mp4",
+  "clip": "docs/media/pod-fd2026r8-12/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-17T08:01:13.502844+00:00"
  },
  {
   "start": 3287,

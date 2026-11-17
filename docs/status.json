@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T07:47:28.588967+00:00",
+ "updated": "2026-11-17T08:01:13.509148+00:00",
  "counts": {
   "check": 7,
-  "draft": 73,
+  "draft": 74,
   "ready": 10
  },
  "collected": "2026-11-17T07:47:28.519266+00:00",
@@ -2463,9 +2463,9 @@
       "topic": "THE TITLE BATTLE, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-fd2026r8-12/clip.mp4",
+      "mode": "split",
       "wait_video": null
      },
      {
@@ -3309,6 +3309,43 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "WILL CHELSEA EVER JUDGE FD?"
+  },
+  {
+   "id": "pod-fd2026r8-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The battle that decided the 2026 Formula DRIFT championship. Run 1 on top, run 2 below: who had the better lead, who had the better chase?\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7789
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T08:01:13.503744+00:00",
+   "built": "2026-11-17T08:01:13.503751+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-12/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "THE TITLE BATTLE, SIDE BY SIDE"
   },
   {
    "id": "pod-1298fd1c600b-14",
