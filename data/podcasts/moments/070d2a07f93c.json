@@ -132,7 +132,7 @@
   "check": true,
   "check_reason": "Transcript says 'Freddy Asbo'; guest surname not stated",
   "caption": "When Fredric Aasbø said the automated scoring makes drivers push harder and loosen their cars, the man behind it nearly cried. #FormulaDrift #FredricAasbo #RaceDataLabs #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1741.94,
@@ -141,7 +141,11 @@
    "why": "veteraan als kroongetuige"
   },
   "wait_name": "v2-070d2a07f93c-4-16779-17494.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-4/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1744.62, \"start\": 1741.94, \"text\": \"WHAT DID AASBO SAY ABOUT IT?\", \"why\": \"veteraan als kroongetuige\"}",
+  "made": "2026-11-17T13:30:31.969434+00:00"
  },
  {
   "start": 1797.12,
@@ -156,7 +160,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "Round one was rough, but drivers who doubted the automated scoring are now sending ideas. He won't name names. #FormulaDrift #RaceDataLabs #DriftScoring #FDPro",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1855.78,
@@ -165,7 +169,11 @@
    "why": "omslag, geen namen"
   },
   "wait_name": "v2-070d2a07f93c-5-17971-18592.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-5/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1859.18, \"start\": 1855.78, \"text\": \"WHO CHANGED THEIR MIND?\", \"why\": \"omslag, geen namen\"}",
+  "made": "2026-11-17T13:32:01.959367+00:00"
  },
  {
   "start": 2015.06,
@@ -184,7 +192,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "His video on the Matt Field vs James Deane controversy took five 20-minute takes. Judges get about two minutes. #FormulaDrift #JamesDeane #MattField #DriftJudging",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2020.76,
@@ -193,7 +201,11 @@
    "why": "contrast tijd vs jury"
   },
   "wait_name": "v2-070d2a07f93c-6-20151-20594.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-6/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2023.6, \"start\": 2020.76, \"text\": \"HOW LONG DOES ONE CALL TAKE?\", \"why\": \"contrast tijd vs jury\"}",
+  "made": "2026-11-17T13:33:07.446205+00:00"
  },
  {
   "start": 2162.04,
@@ -209,7 +221,7 @@
   ],
   "check": false,
   "caption": "Jacob Gettins' goalie thought: judges in a container who only see the scoring data, not the cars or the drivers. Would you trust it? #FormulaDrift #DriftJudging #Drifting #Telemetry",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2189.58,
@@ -218,7 +230,11 @@
    "why": "prikkelend idee"
   },
   "wait_name": "v2-070d2a07f93c-7-21620-21938.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-7/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2191.42, \"start\": 2189.58, \"text\": \"JUDGES WHO NEVER SEE THE CARS?\", \"why\": \"prikkelend idee\"}",
+  "made": "2026-11-17T13:33:58.987994+00:00"
  },
  {
   "start": 2873.04,

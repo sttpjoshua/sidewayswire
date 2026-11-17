@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T13:28:48.905760+00:00",
+ "updated": "2026-11-17T13:33:58.995621+00:00",
  "counts": {
   "check": 48,
-  "draft": 4,
+  "draft": 8,
   "posted": 3,
   "ready": 42
  },
@@ -4881,10 +4881,10 @@
       "topic": "AASBO'S WORDS MELTED HIS HEART",
       "quote": "Like the drivers that I speak to, that was, you know, I was sort of caught off guard the other week when you interviewed Freddy Asbo because he plays the little second. Yeah, he was on the. And yeah, you didn't really push him or provoke him to say the words, but he effectively said, you know, like the system, it's making drivers drive better. It's making drivers loosen up their cars, which is sort of what everyone's been wanting wanting to do in the sport for a long time. So the transparency is awesome. So like in like in like a 30 second clip, like my heart was just like melting. Like everything that we wanted to achieve with the system, like our goals and wishes and hopes and dreams like Freddy verbalize in that video. And a grout of me, it for me. So like to come from him, obviously, Freddy is, you know, one of the big dogs of the series and he's been around forever. Obviously podium. So, you know, he's still he's still he's still fighting really, really well. He's still obviously at the peak of his game. And for him to say, you know, I love the transparency. We know what we need to do to do this. And, you know, it's making everyone drive a bit harder.",
       "why": "Fredric Aasbo publicly said the scoring system makes drivers loosen their cars, exactly the system's goal.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-4/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4895,10 +4895,10 @@
       "topic": "WALL-E HATERS NOW SEND IDEAS",
       "quote": "Like, so, yeah, round one was a bit of a gut punch. Round two, I think we like everyone was like, hey, actually, this is this is a thing. Round three, everyone's like, it's on. And now that we're sort of, you know, around five and six, everyone's like on board. And it's like a thing like drivers that were definitely haters round one, I won't name names, send me messages and they're like, hey, man, you know, this is great. You know, I really love this. And I have got some ideas. So like, yeah, I won't mention who. But like, yeah, I don't want to call them haters. Strong word. But drivers, drivers that we had not issues, but drivers that we had, you know, discussions. Heavy criticism and doubts and criticism and you know, doubt, doubts. They're like feeding me information, not feeding me information, ideas like, hey, man, I got this idea. Can you do this? Yes, great. Cool. Hey, I got this idea. Can we do so that they're completely converted. So some drivers that were not fans, definitely fans.",
       "why": "Drivers who criticised the system after round one now message him with feature ideas.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-5/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4909,10 +4909,10 @@
       "topic": "FIELD VS DEANE: FIVE TAKES",
       "quote": "You know, recently I did a video on Matt Field and James Dean. There was a battle and a bit of controversy about that. But I re -recorded that video at least five times. And each video was 20 minutes. And like that video wasn't just based on me sitting in front of a screen and analyzing. I was like speaking to judges and we're that was in the box and speaking to excuse me, speaking to other people. And I record it once and then I record it and I'd show someone was like, oh, how you miss this? I'm like, cool. I'll record it again. Do the process again. But we have a little bit of time at that point. And yeah, that doesn't happen in the judging box. So, yeah. Maybe two minutes to make a call.",
       "why": "His breakdown of the controversial Matt Field vs James Deane battle was re-recorded five times; judges get two minutes.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-6/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4923,10 +4923,10 @@
       "topic": "BLIND JUDGES IN A BOX?",
       "quote": "I did think of an idea. As somebody who plays goalie in hockey, we kind of spend a lot of time by ourselves thinking about stuff. So one of my thoughts was we're at a point now where you could have judges who sit in a container who don't look at the runs at all and just watch WALL -E data. Yeah. And you could remove what the vehicle looked like. So they would have no idea what cars are running. They would have no idea. They wouldn't they wouldn't know any of it. They would just see two cars going and make a decision. Yeah. Just a thought.",
       "why": "FD's commentator floats judges who never see the cars and only watch the telemetry.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-7/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -6854,6 +6854,161 @@
    "caption_by": null,
    "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-070d2a07f93c-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jacob Gettins' goalie thought: judges in a container who only see the scoring data, not the cars or the drivers. Would you trust it?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#FormulaDrift #DriftJudging #Drifting #Telemetry #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 2162.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:33:58.989421+00:00",
+   "built": "2026-11-17T13:33:58.989428+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-7/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BLIND JUDGES IN A BOX?"
+  },
+  {
+   "id": "pod-070d2a07f93c-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "His video on the Matt Field vs James Deane controversy took five 20-minute takes. Judges get about two minutes.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jamesdeane130 @formulad @jako13\n\n#FormulaDrift #JamesDeane #MattField #DriftJudging #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 2015.06
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:33:07.447525+00:00",
+   "built": "2026-11-17T13:33:07.447531+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-6/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@jamesdeane130",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIELD VS DEANE: FIVE TAKES"
+  },
+  {
+   "id": "pod-070d2a07f93c-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Round one was rough, but drivers who doubted the automated scoring are now sending ideas. He won't name names.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #RaceDataLabs #DriftScoring #FDPro #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1797.12
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:32:01.960845+00:00",
+   "built": "2026-11-17T13:32:01.960852+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-5/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WALL-E HATERS NOW SEND IDEAS"
+  },
+  {
+   "id": "pod-070d2a07f93c-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "When Fredric Aasbø said the automated scoring makes drivers push harder and loosen their cars, the man behind it nearly cried.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @fredricaasbo @jako13\n\n#FormulaDrift #FredricAasbo #RaceDataLabs #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1677.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:30:31.970815+00:00",
+   "built": "2026-11-17T13:30:31.970821+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-4/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@fredricaasbo",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "AASBO'S WORDS MELTED HIS HEART"
   },
   {
    "id": "pod-070d2a07f93c-3",
