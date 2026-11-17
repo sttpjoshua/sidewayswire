@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:01:20.115846+00:00",
+ "updated": "2026-11-17T09:01:18.356299+00:00",
  "counts": {
   "check": 7,
   "draft": 74,
@@ -1479,37 +1479,37 @@
     "title": "The Outerzone - The Official Podcast of Formula DRIFT",
     "episodes": 187,
     "error": null,
-    "ok": "2026-11-17T00:30:29.137037+00:00"
+    "ok": "2026-11-17T08:30:43.615906+00:00"
    },
    "Drift Games Podcast": {
     "title": "The Drift Games Podcast",
     "episodes": 17,
     "error": null,
-    "ok": "2026-11-17T00:30:29.384721+00:00"
+    "ok": "2026-11-17T08:30:43.720528+00:00"
    },
    "The Goodest Cast": {
     "title": "The Goodest Cast - Hangout with the Drift Community",
     "episodes": 91,
     "error": null,
-    "ok": "2026-11-17T00:30:29.593128+00:00"
+    "ok": "2026-11-17T08:30:44.252875+00:00"
    },
    "The SileightyMania Podcast": {
     "title": "The SileightyMania Podcast - Drifting Interviews with OGs and Pioneers",
     "episodes": 45,
     "error": null,
-    "ok": "2026-11-17T00:30:29.986783+00:00"
+    "ok": "2026-11-17T08:30:45.028667+00:00"
    },
    "The Creative Drive": {
     "title": "The Creative Drive",
     "episodes": 53,
     "error": null,
-    "ok": "2026-11-17T00:30:30.135007+00:00"
+    "ok": "2026-11-17T08:30:45.163465+00:00"
    },
    "Behind The Wheel": {
     "title": "Konig - Behind The Wheel Podcast",
     "episodes": 377,
     "error": null,
-    "ok": "2026-11-17T00:30:31.706965+00:00"
+    "ok": "2026-11-17T08:30:46.258458+00:00"
    }
   },
   "episodes": [
@@ -2900,19 +2900,19 @@
     "podcast": "The Outerzone",
     "title": "At Gridlife Laguna",
     "published": "2026-10-07T04:18:00+00:00",
-    "status": "new",
+    "status": "transcribed",
     "youtube": null,
     "audio": "https://mcdn.podbean.com/mf/web/j7kbkmgvhqnbmrsr/At_Laguna_Adsb4pf1.mp3",
     "link": "https://FormulaDRIFT.podbean.com/e/at-gridlife-laguna/",
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
-    "seconds": null,
+    "seconds": 4457.6,
     "error": null,
-    "transcribed": null,
+    "transcribed": "2026-11-17T08:42:28.744077+00:00",
     "tries": null,
     "kind": null,
     "credit": null,
     "event": null,
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -2980,19 +2980,19 @@
     "podcast": "The Outerzone",
     "title": "Race Data Labs and True Drift",
     "published": "2026-09-23T04:01:00+00:00",
-    "status": "new",
+    "status": "transcribed",
     "youtube": null,
     "audio": "https://mcdn.podbean.com/mf/web/fndtrtippz8nsh3t/RDL_2_Ads9u6lv.mp3",
     "link": "https://FormulaDRIFT.podbean.com/e/race-data-labs-and-true-drift/",
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
-    "seconds": null,
+    "seconds": 7875.0,
     "error": null,
-    "transcribed": null,
+    "transcribed": "2026-11-17T09:01:16.762898+00:00",
     "tries": null,
     "kind": null,
     "credit": null,
     "event": null,
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    }
   ]
