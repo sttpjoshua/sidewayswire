@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T14:01:53.394528+00:00",
+ "updated": "2026-11-17T14:07:48.911673+00:00",
  "counts": {
   "check": 48,
-  "draft": 28,
+  "draft": 32,
   "posted": 3,
   "ready": 42
  },
@@ -3769,10 +3769,10 @@
       "topic": "A NEW 350Z AT 17",
       "quote": "it was cool because I actually got my first job at a Nissan dealership. So at 15, I started working at a Nissan dealership, um, and worked there for a few years and that was, uh, 2005. So that was at the time, like the Z just came out in no three. So I got to just drool over through the Z work on them. I was like the guy that would, uh, if you bought a new car, I'd go like, fill it up with gas and drop it off the detail and then like, bring it to them so they can basically give you the new car. So I got to like drive all these cool cars, like ETR, some used cars. Um, so yeah, man, I just kind of worked really hard and I was able to work out a deal for a three, three 50 Z, uh, brand new when I was like 17 years old. Nice. Yeah. So it was just like a, um, uh, employee discount financed it.",
       "why": "He worked at a Nissan dealer from age 15 and bought a brand new 350Z at 17.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-3/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3783,10 +3783,10 @@
       "topic": "HIS CORVETTE COST UNDER $2K",
       "quote": "And I'm a big Corvette guy. I think the best looking car out there, of course. Uh, and, uh, we jumped into that platform at the time where there was like zero aftermarket support, uh, around COVID. And there was, uh, just a bunch of cars for sale at the time because I think there was no aftermarket support. So it wasn't really a hyped up car at the time. So we got to essentially Trey. I traded like a three of the Z and a G 35 and, uh, was able to trade, um, directly for the Corvette. So I have a crazy story on that. I literally think like we're, I got into the Corvette, like sub $2 ,000.",
       "why": "He traded a 350Z and a G35 for the Corvette and paid under 2,000 dollars on top.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-4/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3797,10 +3797,10 @@
       "topic": "400 HP VS 1000 HP",
       "quote": "And so once we built the car, uh, both the car, it was essentially a stock motor with angle kit and the right arms and parts and going out there and swinging, uh, at clutch triggers. And I'm sure you remember, man, that was when it went over to fetuses over at freedom factory. It's just like unlimited. You can run a, you know, three 15, whatever, you know, Ron would do bro and whatever, uh, so I was out there with the 400 horsepower car. I'm going up against, you know, fully built pro one guys. Uh, but I loved it, man. Like I loved the whole process of learning, um, and just, you know, growing at in the competitive drifting scene. I remember just like still going to those events and like, we're going to be on the podium, like still having that mindset, like right out the gate. And then just getting completely smashed by, you know, a thousand horsepower. Like I remember going to, I want to again, it's like Jonathan near and his crazy car. And he just dored me. Like I just, and I couldn't keep up with him and dored me. I never called my wife after. And I was just like, man, just like bomb. She's like, what do you expect?",
       "why": "His first comps were a 400 hp Corvette against fully built pro cars, and he got smashed.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-5/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3811,10 +3811,10 @@
       "topic": "FROM P5 TO CHAMPION",
       "quote": "And so in 24, we went out there swinging, um, and just dealt with, um, not so much mechanical, uh, just like. Just issues with other drivers. Honestly, like we got hit a ton the first year and we just had, um, just things break that kind of put us out of that top spot. I think that first year we ended up at like, um, like a fifth or a sixth position. So, um, wasn't the best. Um, and then coming into 25, um, the car was dialed. Everything was ready to go. We did. There wasn't like a learning curve or anything like that. Um, and we just kind of set out to make it happen in 25. And it was a super successful year. I think, uh, we ended up podium, like, I think three out of the four rounds, uh, multiple first places. I think we won it by like 200 points.",
       "why": "After a rough first Pro-Am year he won USDC in 2025 by about 200 points.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-6/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -6854,6 +6854,160 @@
    "caption_by": null,
    "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After getting hit all of 2024, Christian Cotrone came back and won the USDC Pro-Am title in 2025 by around 200 points.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #USDC #ProAm #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2260.37
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:07:48.904387+00:00",
+   "built": "2026-11-17T14:07:48.904393+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-6/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FROM P5 TO CHAMPION"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone showed up to Clutch Kickers with 400 hp and podium dreams, then met the 1,000 hp cars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Corvette #ClutchKickers #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2116.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:06:21.600475+00:00",
+   "built": "2026-11-17T14:06:21.600481+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-5/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Jonathan Nerren"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "400 HP VS 1000 HP"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone traded a 350Z and a G35 for his Corvette during COVID and got in for under 2,000 dollars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Corvette #Drifting #CarDeals #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 1115.28
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:04:35.410005+00:00",
+   "built": "2026-11-17T14:04:35.410025+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-4/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HIS CORVETTE COST UNDER $2K"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone started at a Nissan dealer at 15 and drove off in a brand new 350Z at 17.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #350Z #Nissan #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 952.78
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:03:29.002105+00:00",
+   "built": "2026-11-17T14:03:29.002113+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-3/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "A NEW 350Z AT 17"
   },
   {
    "id": "pod-3fa7ee22a33c-2",

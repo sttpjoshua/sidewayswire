@@ -104,7 +104,7 @@
   "photo_hint": "Nissan 350Z",
   "check": false,
   "caption": "Christian Cotrone started at a Nissan dealer at 15 and drove off in a brand new 350Z at 17. #FormulaDrift #350Z #Nissan #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 995.66,
@@ -113,7 +113,11 @@
    "why": "leeftijd is de clou"
   },
   "wait_name": "v2-3fa7ee22a33c-3-9528-10047.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 998.78, \"start\": 995.66, \"text\": \"HOW DID A TEEN GET A NEW Z?\", \"why\": \"leeftijd is de clou\"}",
+  "made": "2026-11-17T14:03:29.000646+00:00"
  },
  {
   "start": 1115.28,
@@ -130,7 +134,7 @@
   "photo_hint": "Christian Cotrone's Corvette",
   "check": false,
   "caption": "Christian Cotrone traded a 350Z and a G35 for his Corvette during COVID and got in for under 2,000 dollars. #FormulaDrift #Corvette #Drifting #CarDeals",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1151.38,
@@ -139,7 +143,11 @@
    "why": "prijs is de punchline"
   },
   "wait_name": "v2-3fa7ee22a33c-4-11153-11534.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1153.44, \"start\": 1151.38, \"text\": \"HOW CHEAP WAS THIS DRIFT CORVETTE?\", \"why\": \"prijs is de punchline\"}",
+  "made": "2026-11-17T14:04:35.408723+00:00"
  },
  {
   "start": 2116.02,
@@ -158,7 +166,7 @@
   "check": true,
   "check_reason": "Jonathan Nerren transcribed as 'Jonathan near'; Clutch Kickers garbled as 'clutch triggers'",
   "caption": "Christian Cotrone showed up to Clutch Kickers with 400 hp and podium dreams, then met the 1,000 hp cars. #FormulaDrift #Drifting #Corvette #ClutchKickers",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2140.52,
@@ -167,7 +175,11 @@
    "why": "underdog-gevoel"
   },
   "wait_name": "v2-3fa7ee22a33c-5-21160-21787.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2143.22, \"start\": 2140.52, \"text\": \"WHAT HAPPENS WITH 400 HP HERE?\", \"why\": \"underdog-gevoel\"}",
+  "made": "2026-11-17T14:06:21.599138+00:00"
  },
  {
   "start": 2260.37,
@@ -184,7 +196,7 @@
   "photo_hint": "Christian Cotrone's Corvette in USDC",
   "check": false,
   "caption": "After getting hit all of 2024, Christian Cotrone came back and won the USDC Pro-Am title in 2025 by around 200 points. #FormulaDrift #USDC #ProAm #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2311.47,
@@ -193,7 +205,11 @@
    "why": "cijfer is de clou"
   },
   "wait_name": "v2-3fa7ee22a33c-6-22604-23134.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2313.35, \"start\": 2311.47, \"text\": \"HOW BIG WAS THE TITLE MARGIN?\", \"why\": \"cijfer is de clou\"}",
+  "made": "2026-11-17T14:07:48.903063+00:00"
  },
  {
   "start": 2520.51,
