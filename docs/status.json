@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T13:51:21.872497+00:00",
+ "updated": "2026-11-17T13:56:18.361324+00:00",
  "counts": {
   "check": 48,
-  "draft": 20,
+  "draft": 24,
   "posted": 3,
   "ready": 42
  },
@@ -5105,10 +5105,10 @@
       "topic": "THE 50,000 DOLLAR DOMAIN",
       "quote": "This is like real drift or like real drift was real drift was a thing. Some like the guy that are in the domain or the company that are in domain. I think it was real drift. When I first looked it up, it was like 500 bucks. And I couldn't get it. The next day I went to go buy it. I went from 500 to like 5 ,000. I was like, what the hell? I think people do that though. I think there's like domain snipers. And if there's yeah, if there's like traffic on it, they, they up the price. It's like, I went from like five to 10 and then it went from 10 to like 50. And I was like, and I sent a message. I'm like, Hey, like, I'm going to be reasonable, but I'm not going to pay 50 ,000. I know like it's 50 grand. Take it. I was like, I'll leave it. And then, yeah, true. And I think true. It is even more more poignant and works better than real drift.",
       "why": "The domain for the original sim name jumped from 500 to 50,000 dollars overnight.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-20/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -5119,10 +5119,10 @@
       "topic": "NOT PAID A CENT EXTRA",
       "quote": "And just so we're, just so we're on the level, we weren't FD or whoever it is have not paid us any, anything extra. So we, we signed up for a year. We get our fee. Cool. It wasn't, hey, halfway through the year, reinvest that and do weather. I wasn't, hey, we put livers on the car. It wasn't, we did that because we thought it was cool. We wanted to evolve and we wanted to make it better. And yeah, like we weren't, we weren't paid any extra for that. We went, we did that out of our, out of our own incentive.",
       "why": "Weather, liveries and live graphs were added mid-season without any extra pay from FD.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-21/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -5133,10 +5133,10 @@
       "topic": "THE COMMENTATOR WHO OUTDRIVES HIM",
       "quote": "You see, Ian and I kind of did this when we went to England and I will say Ian is, he's going to, he'll never live this down, but Ian, Ian is actually a better driver than I am. So we both, we both drove now caveat to this. He had home track advantage. He was, it was in a right hand drive car. It was the first time I ever drifted right hand drive. I definitely punched the window at least once. Um, so he has some advantage, but the first time I drove left, I couldn't even get around the track. I drove left hand drive in, I could drive left hand drive, you know, on the streets and stuff, but drifting left hand drive, I was in my friend, my friend's truck drift home in, in Dubai. I couldn't even get around.",
       "why": "Jacob Gettins admits a fellow commentator is a better driver, with excuses about right-hand drive.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-22/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -5147,10 +5147,10 @@
       "topic": "JUDGE RECOGNISED AT LIBERTY WALK",
       "quote": "think next time Robbie, like Robbie's like a champion. Like he's obviously very, he's got heaps of accolades. I was with in Robbie in Tokyo. It's kind of crazy. It's kind of crazy story. So me and Robbie, we were at D1GP. And then we went, he's like, I'm going to show you some shit around Tokyo. Cool. And we went to Liberty Walk and in Liberty Walk, there's a model of the car that he drove. And I took a photo of him pointing to the car and people like, oh, that's Robin Ashida. I'm like, and they're like, I was right. He drove the car. That's the model in Liberty Walk. And he was at Liberty Walk into like, it was crazy. But like, he drove the Liberty Walk, you know, R35 GDR, but the guys are even some like the guys, the guy can see and he still drives. So he's still keeping, he's still keeping his mind sharp.",
       "why": "FD judge Robbie Nishida got recognised in Tokyo next to the model of the Liberty Walk GT-R he drove.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-23/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -6854,6 +6854,160 @@
    "caption_by": null,
    "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-070d2a07f93c-23",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "At Liberty Walk in Tokyo, fans spotted FD judge Robbie Nishida pointing at the model of the GT-R he once drove.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #LibertyWalk #RobbieNishida #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 7380.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:56:18.354520+00:00",
+   "built": "2026-11-17T13:56:18.354525+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-23/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Robbie Nishida"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JUDGE RECOGNISED AT LIBERTY WALK"
+  },
+  {
+   "id": "pod-070d2a07f93c-22",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jacob Gettins admits Ian is the better driver, though he had home track advantage and a right-hand-drive car.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#Drifting #FormulaDrift #Commentary #Funny #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 7016.21
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:54:52.880224+00:00",
+   "built": "2026-11-17T13:54:52.880230+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-22/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE COMMENTATOR WHO OUTDRIVES HIM"
+  },
+  {
+   "id": "pod-070d2a07f93c-21",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Livery, weather and live graphs all arrived mid-season, and FD didn't pay extra for any of it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #RaceDataLabs #DriftData #FDPro #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 6535.95
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:53:46.495171+00:00",
+   "built": "2026-11-17T13:53:46.495179+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-21/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "NOT PAID A CENT EXTRA"
+  },
+  {
+   "id": "pod-070d2a07f93c-20",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Before True Drift there was another name. The domain went from 500 to 5,000 to 50,000 dollars in days.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#TrueDrift #SimDrifting #Drifting #RaceDataLabs #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 6340.51
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:52:52.777337+00:00",
+   "built": "2026-11-17T13:52:52.777342+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-20/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE 50,000 DOLLAR DOMAIN"
   },
   {
    "id": "pod-070d2a07f93c-19",

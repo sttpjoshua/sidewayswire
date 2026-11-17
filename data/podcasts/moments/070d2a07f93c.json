@@ -601,7 +601,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "Before True Drift there was another name. The domain went from 500 to 5,000 to 50,000 dollars in days. #TrueDrift #SimDrifting #Drifting #RaceDataLabs",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6358.43,
@@ -610,7 +610,11 @@
    "why": "grappig, prijsexplosie"
   },
   "wait_name": "v2-070d2a07f93c-20-63405-63932.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-20/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6360.69, \"start\": 6358.43, \"text\": \"WHY ISN'T IT CALLED REAL DRIFT?\", \"why\": \"grappig, prijsexplosie\"}",
+  "made": "2026-11-17T13:52:52.775986+00:00"
  },
  {
   "start": 6535.95,
@@ -625,7 +629,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "Livery, weather and live graphs all arrived mid-season, and FD didn't pay extra for any of it. #FormulaDrift #RaceDataLabs #DriftData #FDPro",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 6561.41,
@@ -634,7 +638,11 @@
    "why": "geld, eerlijkheid"
   },
   "wait_name": "v2-070d2a07f93c-21-65360-65674.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-21/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6564.67, \"start\": 6561.41, \"text\": \"WHO PAID FOR THE UPGRADES?\", \"why\": \"geld, eerlijkheid\"}",
+  "made": "2026-11-17T13:53:46.493648+00:00"
  },
  {
   "start": 7016.21,
@@ -651,7 +659,7 @@
   "check": true,
   "check_reason": "'Ian' surname not stated; not confirmed who he is",
   "caption": "Jacob Gettins admits Ian is the better driver, though he had home track advantage and a right-hand-drive car. #Drifting #FormulaDrift #Commentary #Funny",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 7038.63,
@@ -660,7 +668,11 @@
    "why": "zelfspot, grappig"
   },
   "wait_name": "v2-070d2a07f93c-22-70162-70593.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-22/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7041.43, \"start\": 7038.63, \"text\": \"WHO IS THE BETTER DRIVER?\", \"why\": \"zelfspot, grappig\"}",
+  "made": "2026-11-17T13:54:52.878896+00:00"
  },
  {
   "start": 7380.38,
@@ -678,7 +690,7 @@
   "check": true,
   "check_reason": "Transcript says 'Robin Ashida'; guest surname not stated",
   "caption": "At Liberty Walk in Tokyo, fans spotted FD judge Robbie Nishida pointing at the model of the GT-R he once drove. #FormulaDrift #LibertyWalk #RobbieNishida #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 7412.24,
@@ -687,7 +699,11 @@
    "why": "herkenning, sterk verhaal"
   },
   "wait_name": "v2-070d2a07f93c-23-73804-74364.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-23/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7414.78, \"start\": 7412.24, \"text\": \"WHO DID TOKYO RECOGNISE?\", \"why\": \"herkenning, sterk verhaal\"}",
+  "made": "2026-11-17T13:56:18.353187+00:00"
  },
  {
   "start": 7587.6,
