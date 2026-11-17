@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:44:00.627075+00:00",
+ "updated": "2026-11-17T15:47:27.732879+00:00",
  "counts": {
   "ready": 102,
-  "draft": 89,
+  "draft": 93,
   "check": 26,
   "posted": 3
  },
@@ -3580,10 +3580,10 @@
       "topic": "GT-R TURBOS ON A VQ37",
       "quote": "Am I, on my VQ 37, I'm putting the GTR twin turbos on it because of, you know, fitment, it's the best setup I can do. But there's other companies that make great twin turbo kits that would be a much better option if it was in stock chassis and all that. But my point being like, there are way better aftermarket solutions than what the OE offers in that instance. So am I shooting myself in the foot and setting myself up to fail by saying, okay, I'm going to stay in this, you know, box and not do anything outside of it? Or do I just go for what's best and what's the best opportunity for me to build something? Yeah, I mean, it's your money, right? You have to decide what, how it's going to work for you, where you want to put it, because you don't get it back, right?",
       "why": "Host reveals his VQ37 build uses GT-R twin turbos and questions sticking to OEM.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-3/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3594,10 +3594,10 @@
       "topic": "COLD AIR INTAKES DON'T MAKE POWER",
       "quote": "And, you know, I've seen it firsthand cold air intakes and you know, as well as I do, do not make power. They're not, you know, putting a cold air intake does not necessarily mean that you're going to gain horsepower. You might gain a little bit of feel. It might move the power band around, depending on, you know, flow diameter of the pipe and things like that. Fine. But there's something to be said about a team of engineers that set out to make that, say that manifold, that exhaust manifold flow as efficiently as possible and to work as well as it does into obviously fit. They put a lot of time and effort into the fit and finish and how it's going to fit on the vehicle. And I think that's where we really see that shine through now.",
       "why": "Bold claim against a classic first mod, backed by praise for factory engineering.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-4/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3608,10 +3608,10 @@
       "topic": "VR30 SWAP KIT FOR THE 350Z",
       "quote": "If not, wiring specialties just recently announced that they're doing a VR 30 swap kit for the Z33 chassis for the 350Z chassis. I think it is brilliant. Like genuinely, I think that it's very smart to keep the longevity of both of the platforms going. Like, yes, the VR 30 has its issues and everyone can complain. But yet again, a junkyard motor capable of 400 horsepower. Like, let's just, you know, lay that out there and going into a, you know, an O3, O4, 350Z platform, it's a super light chassis for that. And it's gonna and they're getting cheap. You know, let's be honest, the G35 and 350Z have come down significantly. So if you know, for one with a blown engine or anything like that, you can get a chassis. I'm saying for a decent price.",
       "why": "Wiring Specialties VR30 swap kit for Z33: big news for budget drift chassis builders.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-5/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3622,10 +3622,10 @@
       "topic": "STREET RACING CHARGES TO OEM+",
       "quote": "You know, I should say, it sounds like I'm sort of hating on OEM plus built. I'm definitely not. I did one for a little while. And like I said, you know, I got bored and I moved on. A little while. I didn't want a necessity at the time I was very young. And I may or may not have been charged for multiple counts of street racing and whatever. And then I had purchased a vehicle and I decided to put an engine in it. A lot of the vehicle stock, put a different Honda engine in it. Different OEM wheels and a lip from a higher model. I cruised that around for a while. And that was just what I had. And it was definitely OEM plus. And, you know, it worked for me, but eventually moved on.",
       "why": "Funny confession: multiple street racing charges led to a quiet OEM+ Honda.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b9e6971ba742-6/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,150 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-b9e6971ba742-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Multiple street racing charges and one quiet OEM+ Honda later... a host on how he ended up with a stock-looking swap car.\n\n🎙 Full episode: Behind The Wheel\n\n#StreetRacing #Honda #OEMplus #EngineSwap #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1471.21
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:47:27.725623+00:00",
+   "built": "2026-11-17T15:47:27.725630+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-6/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "STREET RACING CHARGES TO OEM+"
+  },
+  {
+   "id": "pod-b9e6971ba742-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Wiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n\n🎙 Full episode: Behind The Wheel\n\n#350Z #VR30 #EngineSwap #Nissan #DriftCar #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 1336.59
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:46:42.532610+00:00",
+   "built": "2026-11-17T15:46:42.532614+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-5/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "VR30 SWAP KIT FOR THE 350Z"
+  },
+  {
+   "id": "pod-b9e6971ba742-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Cold air intakes don't make power, says Behind The Wheel. Why factory engineers often get more out of an exhaust manifold than you think.\n\n🎙 Full episode: Behind The Wheel\n\n#ColdAirIntake #CarMods #OEMplus #Horsepower #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 966.13
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:45:48.477306+00:00",
+   "built": "2026-11-17T15:45:48.477316+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-4/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "COLD AIR INTAKES DON'T MAKE POWER"
+  },
+  {
+   "id": "pod-b9e6971ba742-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "GT-R twin turbos on a VQ37: OEM+ for fitment, even though aftermarket kits might do better. Stay in the box or go for what's best?\n\n🎙 Full episode: Behind The Wheel\n\n#VQ37 #NissanGTR #Infiniti #TwinTurbo #Nissan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Behind The Wheel",
+    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
+    "start": 859.35
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:44:57.221769+00:00",
+   "built": "2026-11-17T15:44:57.221778+00:00",
+   "want_at": null,
+   "video": "media/pod-b9e6971ba742-3/clip.mp4",
+   "tags": [],
+   "missing_handles": [
+    "Behind The Wheel"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "GT-R TURBOS ON A VQ37"
   },
   {
    "id": "pod-b9e6971ba742-2",

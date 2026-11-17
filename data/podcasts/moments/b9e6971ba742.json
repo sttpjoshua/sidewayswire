@@ -99,7 +99,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "GT-R twin turbos on a VQ37: OEM+ for fitment, even though aftermarket kits might do better. Stay in the box or go for what's best? #VQ37 #NissanGTR #Infiniti #TwinTurbo #Nissan",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 898.95,
@@ -109,7 +109,11 @@
   },
   "photo_hint": "Nissan VQ37-powered car (370Z or G37) with GT-R turbos",
   "wait_name": "v2-b9e6971ba742-3-8594-9050.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-3/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 900.51, \"start\": 898.95, \"text\": \"OEM TURBOS OR AFTERMARKET KIT?\", \"why\": \"bouwdilemma, herkenbaar\"}",
+  "made": "2026-11-17T15:44:57.220730+00:00"
  },
  {
   "start": 966.13,
@@ -124,7 +128,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "Cold air intakes don't make power, says Behind The Wheel. Why factory engineers often get more out of an exhaust manifold than you think. #ColdAirIntake #CarMods #OEMplus #Horsepower",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 968.33,
@@ -133,7 +137,11 @@
    "why": "controversiele uitspraak"
   },
   "wait_name": "v2-b9e6971ba742-4-9661-10095.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-4/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 971.53, \"start\": 968.33, \"text\": \"DOES YOUR FIRST MOD ACTUALLY WORK?\", \"why\": \"controversiele uitspraak\"}",
+  "made": "2026-11-17T15:45:48.476259+00:00"
  },
  {
   "start": 1336.59,
@@ -148,7 +156,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified. Company name 'Wiring Specialties' and the kit announcement should be verified.",
   "caption": "Wiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year? #350Z #VR30 #EngineSwap #Nissan #DriftCar",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1360.41,
@@ -158,7 +166,11 @@
   },
   "photo_hint": "Nissan 350Z (Z33) with VR30DDTT engine",
   "wait_name": "v2-b9e6971ba742-5-13366-13851.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-5/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1363.45, \"start\": 1360.41, \"text\": \"A JUNKYARD ENGINE FOR YOUR 350Z?\", \"why\": \"nieuws voor driftbouwers\"}",
+  "made": "2026-11-17T15:46:42.531572+00:00"
  },
  {
   "start": 1471.21,
@@ -173,7 +185,7 @@
   "check": true,
   "check_reason": "Hosts are not named in full in this episode (one host is addressed only as Matt); speaker name unverified.",
   "caption": "Multiple street racing charges and one quiet OEM+ Honda later... a host on how he ended up with a stock-looking swap car. #StreetRacing #Honda #OEMplus #EngineSwap",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 1483.49,
@@ -182,7 +194,11 @@
    "why": "grappige bekentenis"
   },
   "wait_name": "v2-b9e6971ba742-6-14712-15062.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b9e6971ba742-6/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1486.57, \"start\": 1483.49, \"text\": \"WHY DID HE BUILD A SLEEPER?\", \"why\": \"grappige bekentenis\"}",
+  "made": "2026-11-17T15:47:27.724639+00:00"
  },
  {
   "start": 1550.43,
