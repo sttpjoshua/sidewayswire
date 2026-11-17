@@ -721,7 +721,7 @@
   "check": true,
   "check_reason": "Transcript says 'Robin Machino' for Robbie Nishida; guest surname not stated",
   "caption": "A commenter said none of the judges drive. The reply: they teach drifting almost every day, and one drove the Liberty Walk GT-R. #FormulaDrift #DriftJudging #Drifting #FDPro",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 7590.18,
@@ -730,6 +730,10 @@
    "why": "kritiek als prikkel"
   },
   "wait_name": "v2-070d2a07f93c-24-75876-76560.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-24/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7592.16, \"start\": 7590.18, \"text\": \"DO DRIFT JUDGES EVEN DRIVE?\", \"why\": \"kritiek als prikkel\"}",
+  "made": "2026-11-17T13:57:56.488050+00:00"
  }
 ]

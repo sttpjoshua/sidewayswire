@@ -14,7 +14,7 @@
   "photo_hint": "Christian Cotrone drifting at OSW skid pad",
   "check": false,
   "caption": "Forget the beach. Christian Cotrone's happy place is the OSW skid pad. #FormulaDrift #Drifting #Grassroots #Florida",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 621.1,
@@ -23,7 +23,11 @@
    "why": "verrassend antwoord"
   },
   "wait_name": "v2-3fa7ee22a33c-0-6109-6351.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 623.68, \"start\": 621.1, \"text\": \"WHERE IS AN FD DRIVER'S HAPPY PLACE?\", \"why\": \"verrassend antwoord\"}",
+  "made": "2026-11-17T13:58:46.009885+00:00"
  },
  {
   "start": 686.3,
@@ -40,7 +44,7 @@
   "photo_hint": "Christian Cotrone's Corvette",
   "check": false,
   "caption": "Bring the FD Corvette to Black Friday at OSW? Christian Cotrone's wife says it's a lose-lose. #FormulaDrift #Corvette #Drifting #BlackFriday",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 708.84,
@@ -49,7 +53,11 @@
    "why": "grappige vraag van vrouw"
   },
   "wait_name": "v2-3fa7ee22a33c-1-6863-7327.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 710.58, \"start\": 708.84, \"text\": \"WOULD HE BRING THE PRO CAR?\", \"why\": \"grappige vraag van vrouw\"}",
+  "made": "2026-11-17T14:00:08.708190+00:00"
  },
  {
   "start": 880.68,
@@ -66,7 +74,7 @@
   "photo_hint": "Christian Cotrone",
   "check": false,
   "caption": "Christian Cotrone's first car was his uncle's Z28 Camaro, and the cul-de-sac donuts started right away. #FormulaDrift #Camaro #Drifting #V8",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 928.4,
@@ -75,7 +83,11 @@
    "why": "verrassing: automaat"
   },
   "wait_name": "v2-3fa7ee22a33c-2-8807-9450.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 930.62, \"start\": 928.4, \"text\": \"WHAT WAS HIS FIRST CAR?\", \"why\": \"verrassing: automaat\"}",
+  "made": "2026-11-17T14:01:53.386091+00:00"
  },
  {
   "start": 952.78,

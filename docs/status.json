@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T13:56:18.361324+00:00",
+ "updated": "2026-11-17T14:01:53.394528+00:00",
  "counts": {
   "check": 48,
-  "draft": 24,
+  "draft": 28,
   "posted": 3,
   "ready": 42
  },
@@ -3727,10 +3727,10 @@
       "topic": "HIS HAPPY PLACE? OSW SKID PAD",
       "quote": "Huge passion. I got to share with my dad growing up. Um, and to this day, man, like, uh, if you tell me like, where is your happy place, like I'm not going to tell you like a beach or a Bahamas, like I will tell you like the OSW skid pad, like it's just, you know, it's where I am comfortable is where I enjoy my time. And it's just being at the track, uh, the relationships we build out there as well. Um, I just, I love it, man.",
       "why": "Cotrone picks a Florida skid pad over any beach, pure grassroots love.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-0/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3741,10 +3741,10 @@
       "topic": "PRO CAR AT BLACK FRIDAY?",
       "quote": "yeah, I don't think I've missed the black Friday since I started driving. So this would probably be like my seventh or eighth year. Um, but it's been a while. It's I think I last time I won, it was in 21. There's definitely been a lot more changes, a lot more money involved now. But I don't know. It's like, I was talking to my wife about it, uh, about black Friday and she's like, you're not going to bring the Corvette. Are you? And I was like, ah, you know, there's, there's a lot of money on the line, but she's like, that's like, that's a lose lose. Because if you get the, you look like a dumbass, you're someone in their stock through DC and then if you win, they're just gonna go, Oh, you brought his pro car. You know, so it's, it's, I feel like it's very much so like a lose lose, but, uh, we'll see what we show up with.",
       "why": "His wife calls bringing the FD Corvette to a grassroots event a lose-lose.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-1/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3755,10 +3755,10 @@
       "topic": "FIRST CAR: A Z28 CAMARO",
       "quote": "I was really, really fortunate for my first car. Uh, my uncle had like a few cars, a collection of cars, essentially. He was a big Camaro guy. Oh, so he had a replica SS 94 Z 28 Camaro and I had like 60 ,000 miles on it. And at that time it was probably, I don't know, 10, you know, like 10, 11 years old. So, you know, it had a low mileage and it just sat there. And so he basically was like, Hey, would you want to take this as your first car? It was in Pennsylvania. Um, and I just worked essentially for those two years straight to have enough money to get that car and then, uh, got to start with a, unfortunately it was automatic, but it was a Z 28. We're going to drive LT one. I had a little cul -de -sac at the end of my road and I would just do donuts, man. And that thing, that was a just power slide, you know, and just get that thing sideways, uh, always was obsessed with that.",
       "why": "His drifting started with donuts in an automatic Camaro Z28 in a cul-de-sac.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-2/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -5161,10 +5161,10 @@
       "topic": "'JUDGES DON'T DRIVE'? THINK AGAIN",
       "quote": "There was a comment on my video saying that none of the judges drive, and they're all clueless. And I was like, that is a dumbest comment, because they're all great animal drivers, and they all drive, and they're all like, I was like, just the naivety of that comment dude, you don't know. But they all work in drifting full time. That's the thing. It's not like they're a firefighter, and then they come up and judge drifting. Reese is teaching drifting almost every day. Vernon is teaching drifting or judging drifting. They don't know how to drive. They're not driving. I think the comment was, I'm going to die in this hill. I think the judges should be drivers or something like that. Or they should all be like, I was like, bro, like, even in the box. Have you even taken the 10 seconds to know who's there and googled them? They haven't? I was like, oh, mother. Like, Robin Machino was in Liberty Walk pointing to the Liberty Walk car that he drove.",
       "why": "He hits back at a comment claiming FD judges can't drive: they teach and drift full time.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-24/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      }
     ]
@@ -6854,6 +6854,159 @@
    "caption_by": null,
    "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone's first car was his uncle's Z28 Camaro, and the cul-de-sac donuts started right away.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Camaro #Drifting #V8 #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 880.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:01:53.387507+00:00",
+   "built": "2026-11-17T14:01:53.387515+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-2/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIRST CAR: A Z28 CAMARO"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Bring the FD Corvette to Black Friday at OSW? Christian Cotrone's wife says it's a lose-lose.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Corvette #Drifting #BlackFriday #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 686.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:00:08.709475+00:00",
+   "built": "2026-11-17T14:00:08.709481+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-1/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "PRO CAR AT BLACK FRIDAY?"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Forget the beach. Christian Cotrone's happy place is the OSW skid pad.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Grassroots #Florida #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 610.86
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:58:46.011214+00:00",
+   "built": "2026-11-17T13:58:46.011220+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-0/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HIS HAPPY PLACE? OSW SKID PAD"
+  },
+  {
+   "id": "pod-070d2a07f93c-24",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A commenter said none of the judges drive. The reply: they teach drifting almost every day, and one drove the Liberty Walk GT-R.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #DriftJudging #Drifting #FDPro #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 7587.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:57:56.489410+00:00",
+   "built": "2026-11-17T13:57:56.489416+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-24/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Robbie Nishida"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "'JUDGES DON'T DRIVE'? THINK AGAIN"
   },
   {
    "id": "pod-070d2a07f93c-23",
