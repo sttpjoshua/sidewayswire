@@ -1,4 +1,4 @@
-# Run by hand (Actions > handles > Run workflow) to refresh driver socials.
+# Run by hand (Actions > handles > Run workflow) to refresh driver socials and FD portraits.
 name: handles
 on: { workflow_dispatch: {} }
 permissions: { contents: write }
@@ -10,5 +10,6 @@ jobs:
         with: { ref: main }   # newest data, also when the run waited in the queue
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install requests && python -m lc.find_handles
-      - run: python -m lc.gitsave "driver socials" data/sources.csv
+      - run: pip install requests pillow && python -m lc.find_handles
+      - run: python -m lc.portraits
+      - run: python -m lc.gitsave "driver socials en portretten" data/sources.csv data/portraits.json docs/media/portraits
