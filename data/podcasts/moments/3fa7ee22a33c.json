@@ -473,7 +473,7 @@
   "photo_hint": "Matt Field with Christian Cotrone",
   "check": false,
   "caption": "Christian Cotrone says Matt Field checked on his alignment, dialed his car in Orlando and never held back the truth. Even Matt's mom had notes. #FormulaDrift #MattField #DriftCave #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3729.69,
@@ -482,7 +482,11 @@
    "why": "eerlijk en persoonlijk"
   },
   "wait_name": "v2-3fa7ee22a33c-15-36824-37480.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3731.55, \"start\": 3729.69, \"text\": \"WHAT IS MATT FIELD LIKE AS MENTOR?\", \"why\": \"eerlijk en persoonlijk\"}",
+  "made": "2026-11-17T14:23:54.649177+00:00"
  },
  {
   "start": 3900.81,
@@ -499,7 +503,7 @@
   "photo_hint": "Christian Cotrone's Corvette",
   "check": false,
   "caption": "Two days after Vegas the Corvette was already apart. Christian Cotrone wants to show up next year as a top contender. #FormulaDrift #PROSPEC #Corvette #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3907.17,
@@ -508,7 +512,11 @@
    "why": "tempo van de ploeg"
   },
   "wait_name": "v2-3fa7ee22a33c-16-39008-39415.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3910.19, \"start\": 3907.17, \"text\": \"HOW FAST DID THEY START OVER?\", \"why\": \"tempo van de ploeg\"}",
+  "made": "2026-11-17T14:24:49.103440+00:00"
  },
  {
   "start": 3972.51,
@@ -525,7 +533,7 @@
   "photo_hint": "Christian Cotrone",
   "check": false,
   "caption": "Before drifting, Christian Cotrone moved to LA with 500 dollars and worked 18 hour days on film sets for gas money. #FormulaDrift #Drifting #Hustle #Film",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3988.91,
@@ -534,7 +542,11 @@
    "why": "schrijnend bedrag"
   },
   "wait_name": "v2-3fa7ee22a33c-17-39725-40217.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3990.77, \"start\": 3988.91, \"text\": \"WHAT DID HIS FIRST FILM JOB PAY?\", \"why\": \"schrijnend bedrag\"}",
+  "made": "2026-11-17T14:25:50.350803+00:00"
  },
  {
   "start": 4438.93,
@@ -553,7 +565,7 @@
   "check": true,
   "check_reason": "Mentor name Ross Richardson from transcript, spelling unverified",
   "caption": "Christian Cotrone started out assisting the cinematographer behind Linkin Park and Michael Jackson music videos. #FormulaDrift #Drifting #Filmmaking #LinkinPark",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4446.25,
@@ -562,7 +574,11 @@
    "why": "verrassende naam"
   },
   "wait_name": "v2-3fa7ee22a33c-18-44389-44796.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4449.89, \"start\": 4446.25, \"text\": \"WHO TAUGHT HIM THE CAMERA GAME?\", \"why\": \"verrassende naam\"}",
+  "made": "2026-11-17T14:26:44.744405+00:00"
  },
  {
   "start": 4530.13,

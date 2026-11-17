@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T14:22:27.542594+00:00",
+ "updated": "2026-11-17T14:26:44.751334+00:00",
  "counts": {
-  "check": 77,
-  "ready": 49,
+  "ready": 103,
+  "check": 27,
   "posted": 3,
   "draft": 8
  },
@@ -3937,10 +3937,10 @@
       "topic": "MATT FIELD'S TOUGH LOVE",
       "quote": "And I really kind of, uh, was taken back by how much he actually invested into me and my program. Like, it wasn't just like, cool, you're going to do this. We're going to help you out. It was very much so him checking me on me. Like, did you do this, do that? Like, what's the alignment currently? Um, and then when he came out to Orlando, he spent a bunch of time with me and the team going over the car, dialing in the car. So just going above and beyond. Uh, and it didn't feel like a transactional. It was very much so a personal, um, relationship with him. And, um, yeah, I just thank him for all the support, um, the guidance this year and just staying on me and just really exposing a lot of things that like changes that we need to make to be successful. Um, and he, he's tough on me, man. Like he'll tell me the truth. He'll be like, yeah, this, this isn't it. Or like, you got to do this. And then his mom and dad as well, like, yeah, they are, I, I'm so thankful for the relationship with them as well. Like his mom's like, yeah, you need to do this. You need to do that. She's like, these are the type of hero cards you need. Like all this and the merch.",
       "why": "Matt Field and his parents mentored him hard, down to hero cards and merch.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-15/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3951,10 +3951,10 @@
       "topic": "ALREADY BUILDING FOR 2027",
       "quote": "You don't understand like the fire that's been lit under my butt matter for next year to do everything that we possibly can. Like the car was back from Vegas in two days. Like they already pulled the car apart already on plan a of like trying to get into the best spot for next year. So like we can test next month. Like we're not, we're not playing like we're like, all right, this is what's needed. These are the partners that we're focusing on. This is a setup we want to focus on and doing things like practicing five minute, you know, calls and changes. Oh, that's a good one. Man, like that's a good one. All that stuff. So we can pull up next year and we're like, yep, we're going to be a top contender and that's it.",
       "why": "The car was torn down two days after Vegas, testing next month, aiming for top contender.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-16/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3965,10 +3965,10 @@
       "topic": "$500 AND A FILM DREAM",
       "quote": "I remember telling my dad, Hey, I'm moving to LA and he's like, yeah, good luck with that. And I had $500 in my name, you know, and that was a jumping in to the scene. I think that Russian roulette video, I literally worked. It was an 18 hour a day and I got a $20 gas stipend. Damn. So it's like, people don't understand like the industry and like what you truly have to do to like get in the right position. Uh, and like, that's just an example, man. Like that was a short film and there, they probably had a budget of $5 ,000 total for this thing. And there was mainly all volunteers and it was like my first, uh, you know, I guess putting my toes in the water or whatever you want to call it, uh, on an actual film set.",
       "why": "He moved to LA with 500 dollars and worked 18 hour days for a 20 dollar gas stipend.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-17/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -3979,10 +3979,10 @@
       "topic": "LINKIN PARK CONNECTION",
       "quote": "So cool facts. The, I, when I moved out to LA, I worked for a DP at the time, director of photography, and he was the one that shot all Lincoln parks music videos. That's crazy. Small world. And Michael Jackson, he did a bunch of Mike, Michael Jackson music videos. And so I was basically his assistant. He was like, yeah, this is what you need to do to be successful. And I just remember like looking at his reels and like he worked for huge hubby Gucci, a Maserati Bentley, like all these high end brands. Um, and just seeing like his journey, but yeah, he did all Lincoln parks. That's cool videos and stuff like that. So yeah, shout out to Ross Richardson.",
       "why": "His first LA mentor was the DP behind Linkin Park and Michael Jackson videos.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-18/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -5173,282 +5173,10 @@
  },
  "posts": [
   {
-   "id": "pod-3fa7ee22a33c-6",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-25T14:16:52.701671+00:00",
-   "posted_at": null,
-   "caption": "After getting hit all of 2024, Christian Cotrone came back and won the USDC Pro-Am title in 2025 by around 200 points.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #USDC #ProAm #Drifting #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-6/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 2260.37
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:07:48.904387+00:00",
-   "built": "2026-11-17T14:16:52.702001+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-6/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FROM P5 TO CHAMPION"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-4",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-25T14:16:52.697163+00:00",
-   "posted_at": null,
-   "caption": "Christian Cotrone traded a 350Z and a G35 for his Corvette during COVID and got in for under 2,000 dollars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Corvette #Drifting #CarDeals #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 1115.28
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:04:35.410005+00:00",
-   "built": "2026-11-17T14:16:52.697485+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-4/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "HIS CORVETTE COST UNDER $2K"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-3",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-25T14:16:52.693081+00:00",
-   "posted_at": null,
-   "caption": "Christian Cotrone started at a Nissan dealer at 15 and drove off in a brand new 350Z at 17.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #350Z #Nissan #Drifting #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 952.78
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:03:29.002105+00:00",
-   "built": "2026-11-17T14:16:52.693405+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-3/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "A NEW 350Z AT 17"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-2",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-25T14:16:52.688906+00:00",
-   "posted_at": null,
-   "caption": "Christian Cotrone's first car was his uncle's Z28 Camaro, and the cul-de-sac donuts started right away.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Camaro #Drifting #V8 #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 880.68
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:01:53.387507+00:00",
-   "built": "2026-11-17T14:16:52.689226+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-2/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FIRST CAR: A Z28 CAMARO"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-1",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-25T14:16:52.684701+00:00",
-   "posted_at": null,
-   "caption": "Bring the FD Corvette to Black Friday at OSW? Christian Cotrone's wife says it's a lose-lose.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Corvette #Drifting #BlackFriday #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 686.3
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:00:08.709475+00:00",
-   "built": "2026-11-17T14:16:52.685056+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-1/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "PRO CAR AT BLACK FRIDAY?"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-0",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-25T14:16:52.679566+00:00",
-   "posted_at": null,
-   "caption": "Forget the beach. Christian Cotrone's happy place is the OSW skid pad.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Grassroots #Florida #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 610.86
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:58:46.011214+00:00",
-   "built": "2026-11-17T14:16:52.680050+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-0/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "HIS HAPPY PLACE? OSW SKID PAD"
-  },
-  {
-   "id": "2026-11-17-conor-shanahan-wins-tokyo-drift",
-   "kind": "news",
-   "status": "ready",
-   "post_at": "2026-11-25T14:16:52.270636+00:00",
-   "posted_at": null,
-   "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-17-conor-shanahan-wins-tokyo-drift/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": false,
-   "check_reason": null,
-   "source": "https://d1gp.co.jp/27462/",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:14:13.502153+00:00",
-   "built": "2026-11-17T14:16:52.271302+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [
-    "@conorshanahan79"
-   ],
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT"
-  },
-  {
    "id": "pod-da5d8825120e-9",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-25T13:26:00.125085+00:00",
+   "post_at": "2026-12-30T11:30:00+00:00",
    "posted_at": null,
    "caption": "Ever seen Conor Shanahan do a practice run that isn't on the limit? That's him and his spotter practising their number system.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
    "media": [
@@ -5488,7 +5216,7 @@
    "id": "pod-da5d8825120e-7",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-25T13:26:00.122600+00:00",
+   "post_at": "2026-12-29T22:00:00+00:00",
    "posted_at": null,
    "caption": "Conor Shanahan has one phrase he can't stand in drifting: \"we almost had you.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5528,7 +5256,7 @@
    "id": "pod-da5d8825120e-6",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-25T13:26:00.120286+00:00",
+   "post_at": "2026-12-29T19:30:00+00:00",
    "posted_at": null,
    "caption": "\"You can't drive how you want in competition.\" Conor Shanahan's answer: that's the whole point. Agree?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5568,7 +5296,7 @@
    "id": "pod-da5d8825120e-4",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-25T13:26:00.117750+00:00",
+   "post_at": "2026-12-29T11:30:00+00:00",
    "posted_at": null,
    "caption": "Conor Shanahan on his would-be teammate Hiroya Minowa: \"we all know he was going to be an FD champion.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #hiroyaminowa #drifting #sidewayswire",
    "media": [
@@ -5609,7 +5337,7 @@
    "id": "pod-da5d8825120e-3",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-24T22:00:00+00:00",
+   "post_at": "2026-12-28T22:00:00+00:00",
    "posted_at": null,
    "caption": "Conor Shanahan on the weeks between Vegas and Long Beach: one hand on the title, but not both.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5649,7 +5377,7 @@
    "id": "pod-da5d8825120e-2",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-24T19:30:00+00:00",
+   "post_at": "2026-12-28T19:30:00+00:00",
    "posted_at": null,
    "caption": "The Shanahan house rule: big wins stay on the kitchen table for two months. 🏆\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5689,7 +5417,7 @@
    "id": "pod-da5d8825120e-18",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-24T16:30:00+00:00",
+   "post_at": "2026-12-28T11:30:00+00:00",
    "posted_at": null,
    "caption": "A message from the 2026 Formula DRIFT champion to the haters. 😅\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5729,7 +5457,7 @@
    "id": "pod-da5d8825120e-16",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-24T11:30:00+00:00",
+   "post_at": "2026-12-27T22:00:00+00:00",
    "posted_at": null,
    "caption": "Conor Shanahan's goal for next year: \"the best version ever of Conor Shanahan.\"\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5769,7 +5497,7 @@
    "id": "pod-da5d8825120e-13",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-24T07:30:00+00:00",
+   "post_at": "2026-12-27T19:30:00+00:00",
    "posted_at": null,
    "caption": "An engine good for about 1,500 whp, and Conor Shanahan kept asking to turn it down. No NOS all year. 🔧\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
    "media": [
@@ -5809,7 +5537,7 @@
    "id": "pod-da5d8825120e-12",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-23T22:00:00+00:00",
+   "post_at": "2026-12-27T11:30:00+00:00",
    "posted_at": null,
    "caption": "Not many teams can say this: Conor Shanahan's crew chief Eric tests the car himself.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
    "media": [
@@ -5849,7 +5577,7 @@
    "id": "pod-da5d8825120e-11",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-23T19:30:00+00:00",
+   "post_at": "2026-12-26T22:00:00+00:00",
    "posted_at": null,
    "caption": "Conor Shanahan says James Deane beating them in Orlando was the best thing that happened to their season.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jamesdeane130 @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5890,7 +5618,7 @@
    "id": "pod-da5d8825120e-10",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-23T16:30:00+00:00",
+   "post_at": "2026-12-26T19:30:00+00:00",
    "posted_at": null,
    "caption": "Conor Shanahan on the flight to Jerry Yang's workshop: if this year failed, his American journey was over.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5930,7 +5658,7 @@
    "id": "pod-da5d8825120e-1",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-23T11:30:00+00:00",
+   "post_at": "2026-12-26T11:30:00+00:00",
    "posted_at": null,
    "caption": "How do you fly a Formula DRIFT championship trophy home to Ireland? Not on a seat, apparently. 🏆✈️\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
@@ -5970,7 +5698,7 @@
    "id": "pod-da5d8825120e-0",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-23T07:30:00+00:00",
+   "post_at": "2026-12-25T22:00:00+00:00",
    "posted_at": null,
    "caption": "Wil 2018 james destroy 2026 james?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @jamesdeane130 @jako13 @formulad\n\n#sidewayswire",
    "media": [
@@ -6011,7 +5739,7 @@
    "id": "pod-6892a8b1e411-9",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-22T22:00:00+00:00",
+   "post_at": "2026-12-25T19:30:00+00:00",
    "posted_at": null,
    "caption": "Why build a C7 Corvette when the C6 parts already exist? Tommy Lemaire says it made him more attractive to sponsors.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
    "media": [
@@ -6051,7 +5779,7 @@
    "id": "pod-6892a8b1e411-8",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-22T19:30:00+00:00",
+   "post_at": "2026-12-25T11:30:00+00:00",
    "posted_at": null,
    "caption": "Most people told Tommy Lemaire the C7 Corvette would never work in drifting. He took it as a dare.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
    "media": [
@@ -6091,7 +5819,7 @@
    "id": "pod-6892a8b1e411-6",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-22T16:30:00+00:00",
+   "post_at": "2026-12-24T22:00:00+00:00",
    "posted_at": null,
    "caption": "NHL goalies wear white pads to trick shooters. Could an all-white drift car trick the chase driver?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #drifting #driftculture #sidewayswire",
    "media": [
@@ -6131,7 +5859,7 @@
    "id": "pod-6892a8b1e411-5",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-22T11:30:00+00:00",
+   "post_at": "2026-12-24T19:30:00+00:00",
    "posted_at": null,
    "caption": "Will Tommy Lemaire's glowing orange livery ever run in Formula DRIFT? He expects complaints that it is too bright.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #livery #drifting #sidewayswire",
    "media": [
@@ -6171,7 +5899,7 @@
    "id": "pod-6892a8b1e411-4",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-22T07:30:00+00:00",
+   "post_at": "2026-12-24T11:30:00+00:00",
    "posted_at": null,
    "caption": "Why Tommy Lemaire ditched white wheels and fluo gloves: so the judges see fewer corrections. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
    "media": [
@@ -6211,7 +5939,7 @@
    "id": "pod-6892a8b1e411-3",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-21T22:00:00+00:00",
+   "post_at": "2026-12-23T22:00:00+00:00",
    "posted_at": null,
    "caption": "No, that orange Corvette is not his Formula DRIFT car. Tommy Lemaire explains the 700 lb difference.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
    "media": [
@@ -6251,7 +5979,7 @@
    "id": "pod-6892a8b1e411-23",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-21T19:30:00+00:00",
+   "post_at": "2026-12-23T19:30:00+00:00",
    "posted_at": null,
    "caption": "Tommy Lemaire's friends in other series get paid to show up. He pays a lot to get to the track.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #nascar #drifting #sidewayswire",
    "media": [
@@ -6291,7 +6019,7 @@
    "id": "pod-6892a8b1e411-22",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-21T16:30:00+00:00",
+   "post_at": "2026-12-23T11:30:00+00:00",
    "posted_at": null,
    "caption": "Drivers are the show, so why do they still pay to compete in Formula DRIFT? Tommy Lemaire asks the question.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
    "media": [
@@ -6331,7 +6059,7 @@
    "id": "pod-6892a8b1e411-20",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-21T11:30:00+00:00",
+   "post_at": "2026-12-22T22:00:00+00:00",
    "posted_at": null,
    "caption": "Tommy Lemaire on battling the best driver in the world: if it changes your stress level, you lose before the lights go green.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #mindset #drifting #sidewayswire",
    "media": [
@@ -6371,7 +6099,7 @@
    "id": "pod-6892a8b1e411-2",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-21T07:30:00+00:00",
+   "post_at": "2026-12-22T19:30:00+00:00",
    "posted_at": null,
    "caption": "Tommy Lemaire on his C7 Corvette: if you do something great it looks great, but even a tiny correction looks big.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #drifting #sidewayswire",
    "media": [
@@ -6411,7 +6139,7 @@
    "id": "pod-6892a8b1e411-19",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-20T22:00:00+00:00",
+   "post_at": "2026-12-22T11:30:00+00:00",
    "posted_at": null,
    "caption": "Tommy Lemaire once tried a full season without a single beer to be more serious. It made his driving worse.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #mindset #drifting #sidewayswire",
    "media": [
@@ -6451,7 +6179,7 @@
    "id": "pod-6892a8b1e411-18",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-20T19:30:00+00:00",
+   "post_at": "2026-12-21T22:00:00+00:00",
    "posted_at": null,
    "caption": "Tommy Lemaire drives his runs in his head in the sauna. He says the mental side is the biggest difference in FD.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #mindset #drifting #sidewayswire",
    "media": [
@@ -6491,7 +6219,7 @@
    "id": "pod-6892a8b1e411-17",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-20T16:30:00+00:00",
+   "post_at": "2026-12-21T19:30:00+00:00",
    "posted_at": null,
    "caption": "Tommy Lemaire on feeling neutral when others feel big emotions, and why the adrenaline is never really enough.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
    "media": [
@@ -6531,7 +6259,7 @@
    "id": "pod-6892a8b1e411-16",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-20T11:30:00+00:00",
+   "post_at": "2026-12-21T11:30:00+00:00",
    "posted_at": null,
    "caption": "Under the parachute Tommy Lemaire asked for tricks. Turned out the instructor knew him from a drift video. 🪂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #skydiving #drifting #sidewayswire",
    "media": [
@@ -6571,7 +6299,7 @@
    "id": "pod-6892a8b1e411-15",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-20T07:30:00+00:00",
+   "post_at": "2026-12-20T22:00:00+00:00",
    "posted_at": null,
    "caption": "Tommy Lemaire went skydiving for the first time. His verdict: a really good chase gives the same rush.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #skydiving #drifting #sidewayswire",
    "media": [
@@ -6611,7 +6339,7 @@
    "id": "pod-6892a8b1e411-14",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-19T22:00:00+00:00",
+   "post_at": "2026-12-20T19:30:00+00:00",
    "posted_at": null,
    "caption": "Racing drivers book Tommy Lemaire's ice drift school to understand the limit of the car.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#icedrifting #nascar #drifting #carcontrol #sidewayswire",
    "media": [
@@ -6651,7 +6379,7 @@
    "id": "pod-6892a8b1e411-13",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-19T19:30:00+00:00",
+   "post_at": "2026-12-20T11:30:00+00:00",
    "posted_at": null,
    "caption": "Studded tires on ice can be faster than asphalt. Tommy Lemaire on his winter drift academy. ❄️\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #icedrifting #drifting #winter #sidewayswire",
    "media": [
@@ -6691,7 +6419,7 @@
    "id": "pod-6892a8b1e411-11",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-19T16:30:00+00:00",
+   "post_at": "2026-12-19T22:00:00+00:00",
    "posted_at": null,
    "caption": "The side of running a Canadian team in Formula DRIFT nobody thinks about: worrying about fuel for the drive home.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #privateer #drifting #sidewayswire",
    "media": [
@@ -6731,7 +6459,7 @@
    "id": "pod-6892a8b1e411-10",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-19T11:30:00+00:00",
+   "post_at": "2026-12-19T19:30:00+00:00",
    "posted_at": null,
    "caption": "Three blown engines in one season. Tommy Lemaire on his toughest season on the budget.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #privateer #drifting #sidewayswire",
    "media": [
@@ -6771,7 +6499,7 @@
    "id": "pod-6892a8b1e411-1",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-19T07:30:00+00:00",
+   "post_at": "2026-12-19T11:30:00+00:00",
    "posted_at": null,
    "caption": "Tommy Lemaire's off-season: back to Norway for ice drifting, and new wiring after a fire in the Corvette.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #icedrifting #drifting #sidewayswire",
    "media": [
@@ -6811,7 +6539,7 @@
    "id": "pod-6892a8b1e411-0",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-18T22:00:00+00:00",
+   "post_at": "2026-12-18T22:00:00+00:00",
    "posted_at": null,
    "caption": "Qualify 5th or 25th, you get the same points if you go out early. Tommy Lemaire thinks Formula DRIFT should change that.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
    "media": [
@@ -6848,10 +6576,250 @@
    "title": "QUALIFYING SHOULD PAY MORE POINTS"
   },
   {
+   "id": "pod-3fa7ee22a33c-6",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-18T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "After getting hit all of 2024, Christian Cotrone came back and won the USDC Pro-Am title in 2025 by around 200 points.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #USDC #ProAm #Drifting #sidewayswire",
+   "media": [
+    "media/pod-3fa7ee22a33c-6/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2260.37
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:07:48.904387+00:00",
+   "built": "2026-11-17T14:16:52.702001+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-6/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FROM P5 TO CHAMPION"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-4",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-18T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Christian Cotrone traded a 350Z and a G35 for his Corvette during COVID and got in for under 2,000 dollars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Corvette #Drifting #CarDeals #sidewayswire",
+   "media": [
+    "media/pod-3fa7ee22a33c-4/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 1115.28
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:04:35.410005+00:00",
+   "built": "2026-11-17T14:16:52.697485+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-4/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HIS CORVETTE COST UNDER $2K"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-3",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-17T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Christian Cotrone started at a Nissan dealer at 15 and drove off in a brand new 350Z at 17.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #350Z #Nissan #Drifting #sidewayswire",
+   "media": [
+    "media/pod-3fa7ee22a33c-3/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 952.78
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:03:29.002105+00:00",
+   "built": "2026-11-17T14:16:52.693405+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-3/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "A NEW 350Z AT 17"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-2",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-17T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Christian Cotrone's first car was his uncle's Z28 Camaro, and the cul-de-sac donuts started right away.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Camaro #Drifting #V8 #sidewayswire",
+   "media": [
+    "media/pod-3fa7ee22a33c-2/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 880.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:01:53.387507+00:00",
+   "built": "2026-11-17T14:16:52.689226+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-2/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIRST CAR: A Z28 CAMARO"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-1",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-17T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Bring the FD Corvette to Black Friday at OSW? Christian Cotrone's wife says it's a lose-lose.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Corvette #Drifting #BlackFriday #sidewayswire",
+   "media": [
+    "media/pod-3fa7ee22a33c-1/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 686.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:00:08.709475+00:00",
+   "built": "2026-11-17T14:16:52.685056+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-1/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "PRO CAR AT BLACK FRIDAY?"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-0",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-16T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Forget the beach. Christian Cotrone's happy place is the OSW skid pad.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Grassroots #Florida #sidewayswire",
+   "media": [
+    "media/pod-3fa7ee22a33c-0/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 610.86
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:58:46.011214+00:00",
+   "built": "2026-11-17T14:16:52.680050+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-0/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HIS HAPPY PLACE? OSW SKID PAD"
+  },
+  {
    "id": "pod-1298fd1c600b-8",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-18T19:30:00+00:00",
+   "post_at": "2026-12-16T19:30:00+00:00",
    "posted_at": null,
    "caption": "Chelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
    "media": [
@@ -6891,7 +6859,7 @@
    "id": "pod-1298fd1c600b-24",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-18T16:30:00+00:00",
+   "post_at": "2026-12-16T11:30:00+00:00",
    "posted_at": null,
    "caption": "Chelsea DeNofa's biggest fan base? Home Depot. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
    "media": [
@@ -6931,7 +6899,7 @@
    "id": "pod-1298fd1c600b-23",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-18T11:30:00+00:00",
+   "post_at": "2026-12-15T22:00:00+00:00",
    "posted_at": null,
    "caption": "Chelsea DeNofa says the sickest driving was always Friday night tandem practice, and qualifying killed it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #qualifying #drifting #sidewayswire",
    "media": [
@@ -6971,7 +6939,7 @@
    "id": "pod-1298fd1c600b-21",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-18T07:30:00+00:00",
+   "post_at": "2026-12-15T19:30:00+00:00",
    "posted_at": null,
    "caption": "Chelsea DeNofa on brand loyalty: if Kia made the E36, he'd be a Kia guy.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #drifting #e36 #frs #sidewayswire",
    "media": [
@@ -7011,7 +6979,7 @@
    "id": "pod-1298fd1c600b-19",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-17T22:00:00+00:00",
+   "post_at": "2026-12-15T11:30:00+00:00",
    "posted_at": null,
    "caption": "Chelsea DeNofa's biggest advice: crashed your car? Fix it, don't reshell. Even his championship car was hammered.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#drifting #driftcar #formuladrift #grassrootsdrift #sidewayswire",
    "media": [
@@ -7051,7 +7019,7 @@
    "id": "pod-1298fd1c600b-18",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-17T19:30:00+00:00",
+   "post_at": "2026-12-14T22:00:00+00:00",
    "posted_at": null,
    "caption": "Chelsea DeNofa drove an entire competition on one pair of tires. No crew needed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#drifting #grassrootsdrift #formuladrift #driftcar #sidewayswire",
    "media": [
@@ -7091,7 +7059,7 @@
    "id": "pod-1298fd1c600b-17",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-11-17T16:30:00+00:00",
+   "post_at": "2026-12-14T19:30:00+00:00",
    "posted_at": null,
    "caption": "Want to make it to Formula DRIFT in five years? Chelsea DeNofa says plan on about a million dollars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #prospec #drifting #sidewayswire",
    "media": [
@@ -7126,6 +7094,2325 @@
    "caption_by": null,
    "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-070d2a07f93c-24",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-14T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "A commenter said none of the judges drive. The reply: they teach drifting almost every day, and one drove the Liberty Walk GT-R.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #DriftJudging #Drifting #FDPro #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-24/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 7587.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:57:56.489410+00:00",
+   "built": "2026-11-17T14:16:52.669464+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-24/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Robbie Nishida"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "'JUDGES DON'T DRIVE'? THINK AGAIN"
+  },
+  {
+   "id": "pod-070d2a07f93c-23",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-13T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "At Liberty Walk in Tokyo, fans spotted FD judge Robbie Nishida pointing at the model of the GT-R he once drove.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #LibertyWalk #RobbieNishida #Drifting #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-23/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 7380.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:56:18.354520+00:00",
+   "built": "2026-11-17T14:16:52.669046+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-23/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Robbie Nishida"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JUDGE RECOGNISED AT LIBERTY WALK"
+  },
+  {
+   "id": "pod-070d2a07f93c-22",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-13T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Jacob Gettins admits Ian is the better driver, though he had home track advantage and a right-hand-drive car.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#Drifting #FormulaDrift #Commentary #Funny #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-22/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 7016.21
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:54:52.880224+00:00",
+   "built": "2026-11-17T14:16:52.668688+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-22/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE COMMENTATOR WHO OUTDRIVES HIM"
+  },
+  {
+   "id": "pod-070d2a07f93c-21",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-13T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Livery, weather and live graphs all arrived mid-season, and FD didn't pay extra for any of it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #RaceDataLabs #DriftData #FDPro #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-21/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 6535.95
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:53:46.495171+00:00",
+   "built": "2026-11-17T14:16:52.668317+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-21/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "NOT PAID A CENT EXTRA"
+  },
+  {
+   "id": "pod-070d2a07f93c-20",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-12T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Before True Drift there was another name. The domain went from 500 to 5,000 to 50,000 dollars in days.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#TrueDrift #SimDrifting #Drifting #RaceDataLabs #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-20/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 6340.51
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:52:52.777337+00:00",
+   "built": "2026-11-17T14:16:52.667939+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-20/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE 50,000 DOLLAR DOMAIN"
+  },
+  {
+   "id": "pod-070d2a07f93c-18",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-12T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Second time ever in a manual car, six laps to link the whole track, thanks to sim drifting. A new generation of animals is coming.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @hiroya.minowa @formulad\n\n#SimDrifting #Drifting #FormulaDrift #HiroyaMinowa #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-18/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 5697.71
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:49:43.000512+00:00",
+   "built": "2026-11-17T14:16:52.666756+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-18/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@hiroya.minowa",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "SIM KID LINKED TRACK IN SIX LAPS"
+  },
+  {
+   "id": "pod-070d2a07f93c-17",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-12T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Sim drivers complain the cars feel slow. The answer: that's how fast real competition cars actually are, run for run.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#TrueDrift #SimDrifting #Drifting #FormulaDrift #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-17/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 5423.13
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:48:03.523316+00:00",
+   "built": "2026-11-17T14:16:52.666351+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-17/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "REAL DRIFT CARS ARE SLOWER"
+  },
+  {
+   "id": "pod-070d2a07f93c-16",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-11T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "He won his seat through a sim competition. Now he is third in the French championship as a rookie.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#DriftFrance #SimDrifting #Drifting #SimRacing #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-16/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 5332.43
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:46:39.307934+00:00",
+   "built": "2026-11-17T14:16:52.665855+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-16/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SIM WINNER TO TITLE CONTENDER"
+  },
+  {
+   "id": "pod-070d2a07f93c-15",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-11T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Real data captured in Japan went into a sim pack, and one kid played it for 3,000 hours until he nailed the Kansai flick.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#TrueDrift #SimDrifting #Drifting #NaokiNakamura #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-15/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 5269.85
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:45:22.171581+00:00",
+   "built": "2026-11-17T14:16:52.665042+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-15/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Naoki Nakamura"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "3,000 HOURS TO LEARN THE FLICK"
+  },
+  {
+   "id": "pod-070d2a07f93c-12",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-11T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Every scoring device took a day to assemble, and a kit has 16 of them. The startup grind behind the tech on every FD roof.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#RaceDataLabs #FormulaDrift #Drifting #Startup #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-12/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 4651.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:41:21.979642+00:00",
+   "built": "2026-11-17T14:16:52.662743+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-12/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "BUILDING 16 DEVICES BY HAND"
+  },
+  {
+   "id": "pod-070d2a07f93c-11",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-10T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "A prototype gauge on the dash tells drivers live if their initiation was big enough and still chaseable.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#Drifting #RaceDataLabs #FormulaDrift #DriftTech #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-11/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 4230.58
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:39:42.380735+00:00",
+   "built": "2026-11-17T14:16:52.662365+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-11/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "A DASH GAUGE THAT GRADES YOUR FLICK"
+  },
+  {
+   "id": "pod-070d2a07f93c-10",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-10T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "An experiment in Melbourne: if your entry lacks enough swing and rate to angle, your initiation scores zero.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#Drifting #DriftAustralia #RaceDataLabs #DriftScoring #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-10/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 4073.32
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:38:13.035511+00:00",
+   "built": "2026-11-17T14:16:52.661768+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-10/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "ZERO POINTS FOR A LAZY ENTRY"
+  },
+  {
+   "id": "pod-070d2a07f93c-9",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-10T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "The tech can compare every run with a driver's history. The question now: should judges be allowed to use it?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #DriftJudging #RaceDataLabs #Drifting #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-9/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 2928.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:36:39.847729+00:00",
+   "built": "2026-11-17T14:16:52.672576+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-9/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHOULD HISTORY JUDGE A RUN?"
+  },
+  {
+   "id": "pod-070d2a07f93c-8",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-09T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "A prototype tool flags anomalies right after a run: here 81 degrees of angle where the field averages 51.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @fredricaasbo @jako13\n\n#FormulaDrift #FredricAasbo #RaceDataLabs #DriftData #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-8/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 2873.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:35:06.800526+00:00",
+   "built": "2026-11-17T14:16:52.672116+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-8/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@fredricaasbo",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "30 DEGREES MORE THAN THE FIELD"
+  },
+  {
+   "id": "pod-070d2a07f93c-6",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-09T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "His video on the Matt Field vs James Deane controversy took five 20-minute takes. Judges get about two minutes.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jamesdeane130 @formulad @jako13\n\n#FormulaDrift #JamesDeane #MattField #DriftJudging #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-6/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 2015.06
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:33:07.447525+00:00",
+   "built": "2026-11-17T14:16:52.671291+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-6/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@jamesdeane130",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIELD VS DEANE: FIVE TAKES"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-10",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-09T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Christian Cotrone promised not to be the rookie who changes everything for FD. Then he chased more power.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Rookie #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3041.03
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:17:19.861758+00:00",
+   "built": "2026-11-17T14:17:19.861764+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-10/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FD ROOKIE POWER TRAP"
+  },
+  {
+   "id": "pod-070d2a07f93c-5",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-08T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Round one was rough, but drivers who doubted the automated scoring are now sending ideas. He won't name names.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #RaceDataLabs #DriftScoring #FDPro #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-5/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1797.12
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:32:01.960845+00:00",
+   "built": "2026-11-17T14:16:52.670865+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-5/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WALL-E HATERS NOW SEND IDEAS"
+  },
+  {
+   "id": "pod-fd2026r8-11",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-08T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Tommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-11/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 9463.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:23:26.697529+00:00",
+   "built": "2026-11-17T13:26:00.126116+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-11/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TOMMY MIRRORS COLE"
+  },
+  {
+   "id": "pod-fd2026r8-10",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-08T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Full lock, off throttle, trying to save it. Matt Field keeps it smart and moves on against Trenton Beechum.\n\n🎥 Footage: FD LONG BEACH FINALE\n@mattfield777 @trenton_beechum @formulad\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-10/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 9333.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:23:04.629551+00:00",
+   "built": "2026-11-17T13:26:00.125918+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-10/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "A BRICK ON THE GAS PEDAL"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-9",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-08T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Down on power all season, Christian Cotrone was doing the rain dance at every FD round.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #RainDrift #Drifting #Corvette #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2888.57
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:16:25.628484+00:00",
+   "built": "2026-11-17T14:16:25.628488+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-9/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HE PRAYS FOR RAIN"
+  },
+  {
+   "id": "pod-1298fd1c600b-20",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-07T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Why is the RTR Mustang so tricky? Chelsea DeNofa breaks it down.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #rtr #mustang #sidewayswire",
+   "media": [
+    "media/pod-1298fd1c600b-20/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 5973.01
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:19:33.078684+00:00",
+   "built": "2026-11-17T13:26:00.021343+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-20/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": null,
+   "title": "WHY THE RTR MUSTANG IS HARD"
+  },
+  {
+   "id": "pod-fd2026r8-9",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-07T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Ryan Tuerck rolled past Conor Shanahan with tears in his eyes after his last ever run. Conor used it to win the title.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @ryantuerck @formulad\n\n#formulad #formuladrift #ryantuerck #drifting #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-9/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8260.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:21:19.726580+00:00",
+   "built": "2026-11-17T13:26:00.128585+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-9/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "RYAN TUERCK'S TEARS MOTIVATED HIM"
+  },
+  {
+   "id": "pod-fd2026r8-8",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-07T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Two Drift Masters titles and now a Formula DRIFT championship. Conor Shanahan has a bio to update. 😅\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @formulad @driftmasters.gp\n\n#formulad #driftmasters #conorshanahan #drifting #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-8/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8209.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:20:45.338005+00:00",
+   "built": "2026-11-17T13:26:00.128315+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-8/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FD CHAMPION NEXT TO TWO DRIFT MASTERS TITLES"
+  },
+  {
+   "id": "pod-070d2a07f93c-4",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-07T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "When Fredric Aasbø said the automated scoring makes drivers push harder and loosen their cars, the man behind it nearly cried.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @fredricaasbo @jako13\n\n#FormulaDrift #FredricAasbo #RaceDataLabs #Drifting #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-4/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1677.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:30:31.970815+00:00",
+   "built": "2026-11-17T14:16:52.670278+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-4/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@fredricaasbo",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "AASBO'S WORDS MELTED HIS HEART"
+  },
+  {
+   "id": "2026-11-17-conor-shanahan-wins-tokyo-drift",
+   "kind": "news",
+   "status": "ready",
+   "post_at": "2026-12-07T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
+   "media": [
+    "media/2026-11-17-conor-shanahan-wins-tokyo-drift/1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": null,
+   "source": "https://d1gp.co.jp/27462/",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-17T14:14:13.502153+00:00",
+   "built": "2026-11-17T14:16:52.271302+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": [
+    "@conorshanahan79"
+   ],
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-8",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-06T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Christian Cotrone has seen plans for a road course behind the OSW skid pad for years. The drifter in him says just pave it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @jako13 @formulad\n\n#Drifting #Florida #OSW #Grassroots #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2621.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:15:49.160379+00:00",
+   "built": "2026-11-17T14:15:49.160383+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-8/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "OSW ROAD COURSE PLANS"
+  },
+  {
+   "id": "pod-fd2026r8-5",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-06T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Less than six inches, everywhere on track. Conor Shanahan chasing Jhonnattan Castro for the championship.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-5/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7947.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:17:30.502928+00:00",
+   "built": "2026-11-17T13:26:00.127764+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-5/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "WHY THEY CALL HIM THE SHADOW"
+  },
+  {
+   "id": "pod-fd2026r8-4",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-06T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "The run of his career with the title on the line: Conor Shanahan leads, Jhonnattan Castro grinds on his door.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-4/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7795.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:15:29.736443+00:00",
+   "built": "2026-11-17T13:26:00.127576+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-4/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN LEADS FOR THE TITLE"
+  },
+  {
+   "id": "pod-1298fd1c600b-11",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-06T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Chelsea DeNofa and his old rival still don't talk. One apology, he says, and they could be friends.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
+   "media": [
+    "media/pod-1298fd1c600b-11/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3701.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:18:34.481977+00:00",
+   "built": "2026-11-17T13:26:00.018310+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-11/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": null,
+   "title": "STILL WAITING FOR AN APOLOGY"
+  },
+  {
+   "id": "2026-11-17-fia-idc-cirba",
+   "kind": "news",
+   "status": "ready",
+   "post_at": "2026-12-06T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "First FIA Intercontinental Drifting Cup win for Benediktas Čirba. He beat Martins Immermanis in the final at Serres, Stavros Gryllis took P3 and Greece won the Nations Cup in front of 3,000+ fans. 🏆\n\n#fiaidc #drifting #driftcup #serres #sidewayswire",
+   "media": [
+    "media/2026-11-17-fia-idc-cirba/1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": "handles van coureurs en FIA niet in sources.csv",
+   "source": "https://www.fia.com/news/benediktas-cirba-takes-fia-intercontinental-drifting-cup-victory-greece-wins-nations-cup",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-17T14:12:26.167610+00:00",
+   "built": "2026-11-17T14:16:52.657821+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": [],
+   "missing_handles": [
+    "Benediktas Čirba",
+    "Martins Immermanis",
+    "Stavros Gryllis",
+    "FIA"
+   ],
+   "caption_by": null,
+   "format": null,
+   "title": "BENEDIKTAS ČIRBA WINS THE FIA INTERCONTINENTAL DRIFTING CUP"
+  },
+  {
+   "id": "pod-070d2a07f93c-3",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-05T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Race Data Labs suspected the Long Beach bridge would mess with their signal, and it did. Round one was a gut punch they had to win fans back from.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #LongBeach #RaceDataLabs #DriftScoring #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-3/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1630.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:28:46.320522+00:00",
+   "built": "2026-11-17T14:16:52.669853+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-3/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE BRIDGE THAT BROKE WALL-E AT LONG BEACH"
+  },
+  {
+   "id": "pod-fd2026r8-0",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-05T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "One more time, and Ben Hobson's bumper is dragging like a tail. Jeff Jones keeps it calm.\n\n🎥 Footage: FD LONG BEACH FINALE\n@benhobson213 @jeffjonesracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-0/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 1904.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:04:59.998736+00:00",
+   "built": "2026-11-17T13:26:00.125507+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-0/clip.mp4",
+   "tags": [
+    "@benhobson213",
+    "@jeffjonesracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HOBSON GREW A TAIL"
+  },
+  {
+   "id": "pod-fd2026r8-3",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-05T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "After 20+ years, 7 wins and 26 podiums, this was Ryan Tuerck's final Formula DRIFT battle. Thank you, Ryan. 🙏\n\n🎥 Footage: FD LONG BEACH FINALE\n@ryantuerck @watarudrift @formulad\n\n#formulad #formuladrift #ryantuerck #drifting #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-3/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7229.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:13:32.874910+00:00",
+   "built": "2026-11-17T13:26:00.127351+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-3/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@watarudrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "RYAN TUERCK'S LAST EVER FD RUN"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-7",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-05T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Christian Cotrone helped test the new Lead Foot venue in Florida and says the state needs two more tracks like it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattshulmannnn @formulad @jako13\n\n#Drifting #Florida #Grassroots #FormulaDrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2520.51
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:14:52.644900+00:00",
+   "built": "2026-11-17T14:14:52.644907+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-7/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattshulmannnn",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "NEW FLORIDA DRIFT TRACK"
+  },
+  {
+   "id": "2026-11-17-car-park-drift-jeddah",
+   "kind": "news",
+   "status": "ready",
+   "post_at": "2026-12-05T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "Car Park Drift is back in Jeddah on December 4 and 5 with a new format: 90 seconds, pick your own line through the obstacles, park it in the box. Winner books a ticket to the 2027 World Final in Baku. 🅿️\n\n#redbullcarparkdrift #carparkdrift #jeddah #drifting #sidewayswire",
+   "media": [
+    "media/2026-11-17-car-park-drift-jeddah/1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": "Red Bull-handle niet in sources.csv",
+   "source": "https://www.redbull.com/mea-en/red-bull-car-park-drift-returns-to-jeddah-with-a-new-competition-format",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-17T14:12:26.167610+00:00",
+   "built": "2026-11-17T14:16:51.835921+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": [],
+   "missing_handles": [
+    "Red Bull Car Park Drift"
+   ],
+   "caption_by": null,
+   "format": null,
+   "title": "RED BULL CAR PARK DRIFT RETURNS TO JEDDAH"
+  },
+  {
+   "id": "pod-1298fd1c600b-10",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-04T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Years later, Chelsea DeNofa has no regrets about that New Jersey blow-up: he would do it again.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
+   "media": [
+    "media/pod-1298fd1c600b-10/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3645.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:17:48.287439+00:00",
+   "built": "2026-11-17T13:26:00.017895+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-10/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": null,
+   "title": "\"I WOULD DO IT AGAIN\""
+  },
+  {
+   "id": "pod-fd2026r8-15",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-04T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Tommy Lemaire vs rookie of the year Cole Richards in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-15/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8941
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:42:47.205156+00:00",
+   "built": "2026-11-17T13:26:00.126933+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-15/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "LEMAIRE VS RICHARDS"
+  },
+  {
+   "id": "pod-fd2026r8-2",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-04T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "10 mph faster on initiation and into the back of Dan Burkett. Was Odi Bakchis too aggressive? The data says yes.\n\n🎥 Footage: FD LONG BEACH FINALE\n@raddandrift @odidrift @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-2/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 6420.78
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:12:23.318081+00:00",
+   "built": "2026-11-17T13:26:00.127132+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-2/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ODI TOO AGGRESSIVE?"
+  },
+  {
+   "id": "pod-070d2a07f93c-1",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-04T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Seven thousand sold out, then fifteen thousand at a truck stadium: drifting in France is booming.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#DriftFrance #Drifting #FormulaDrift #Motorsport #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-1/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 1020.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:26:15.638439+00:00",
+   "built": "2026-11-17T14:16:52.661173+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-1/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DRIFT FRANCE IS SELLING OUT"
+  },
+  {
+   "id": "2026-11-17-vgj-ready-to-rock-book",
+   "kind": "news",
+   "status": "ready",
+   "post_at": "2026-12-04T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "From a parking lot to a Ford partnership. Two-time Formula DRIFT champion @vaughngittinjr wrote the story of RTR together with Mike Spinelli: Ready To Rock, 256 pages with photography from top shooters. 📚\n\n#formulad #rtr #vaughngittinjr #drifting #sidewayswire",
+   "media": [
+    "media/2026-11-17-vgj-ready-to-rock-book/1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": "nieuw format zonder foto",
+   "source": "https://www.thedrive.com/news/new-book-tells-the-story-of-rtr-an-american-drift-team-that-exploded-into-way-more",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-17T13:24:20.362064+00:00",
+   "built": "2026-11-17T13:26:00.016493+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": [
+    "@vaughngittinjr"
+   ],
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "title": "VAUGHN GITTIN JR. TELLS THE RTR STORY"
+  },
+  {
+   "id": "pod-da5d8825120e-14",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-03T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Conor Shanahan says he started left-foot braking on the chase run-up in Orlando, and others followed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @dylanhughes129 @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
+   "media": [
+    "media/pod-da5d8825120e-14/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3046.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:56:40.582350+00:00",
+   "built": "2026-11-17T13:26:00.105851+00:00",
+   "want_at": null,
+   "video": "media/pod-da5d8825120e-14/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@dylanhughes129",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": null,
+   "title": "HE STARTED THE LEFT-FOOT TRICK"
+  },
+  {
+   "id": "pod-fd2026r8-14",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-03T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Matt Field vs Trenton Beechum, two V8s in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@mattfield777 @trenton_beechum @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-14/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 9163
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:41:43.030657+00:00",
+   "built": "2026-11-17T13:26:00.126740+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-14/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "FIELD VS BEECHUM"
+  },
+  {
+   "id": "pod-fd2026r8-1",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-03T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Andy Hateley's BMW won't launch, and James Deane takes the easiest win of his day.\n\n🎥 Footage: FD LONG BEACH FINALE\n@jamesdeane130 @hateleydrift @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-1/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 5227.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:06:23.362579+00:00",
+   "built": "2026-11-17T13:26:00.125727+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-1/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@hateleydrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FAILURE TO LAUNCH"
+  },
+  {
+   "id": "pod-6892a8b1e411-7",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-03T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Someone told Tommy Lemaire to just build a C6 with a C7 body kit. Here is why the C7 is a different animal.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #c7corvette #sidewayswire",
+   "media": [
+    "media/pod-6892a8b1e411-7/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 2263.82
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T21:50:19.513325+00:00",
+   "built": "2026-11-16T21:56:41.561008+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-7/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": null,
+   "title": "C7 VS C6: NOT JUST A RESHELL"
+  },
+  {
+   "id": "2026-11-17-d1gp-sobakiri-champion",
+   "kind": "news",
+   "status": "ready",
+   "post_at": "2026-12-03T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "Kodai Sobakiri is the 2026 D1 Grand Prix champion. 🇯🇵 A tense final weekend at TOKYO DRIFT in Odaiba: no qualifying on Saturday, then a Top 4 finish on Sunday to seal his first series title. He said he was nervous the whole time.\n\n#d1gp #tokyodrift #drifting #japan #sidewayswire",
+   "media": [
+    "media/2026-11-17-d1gp-sobakiri-champion/1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": "nieuw format zonder foto; handles van Sobakiri en Nakamura nog onbekend",
+   "source": "https://www.as-web.jp/drift/1374797",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-17T13:24:20.362064+00:00",
+   "built": "2026-11-17T13:25:59.721616+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": [
+    "Kodai Sobakiri",
+    "Naoki Nakamura"
+   ],
+   "caption_by": null,
+   "format": null,
+   "title": "KODAI SOBAKIRI IS THE 2026 D1GP CHAMPION"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-5",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-02T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Christian Cotrone showed up to Clutch Kickers with 400 hp and podium dreams, then met the 1,000 hp cars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Corvette #ClutchKickers #sidewayswire",
+   "media": [
+    "media/pod-3fa7ee22a33c-5/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 2116.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:06:21.600475+00:00",
+   "built": "2026-11-17T14:16:52.697872+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-5/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Jonathan Nerren"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "400 HP VS 1000 HP"
+  },
+  {
+   "id": "pod-fd2026r8-13",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-02T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Adam LZ vs Derek Madison in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@adam_lz @derek_madison @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-13/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 3287
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:40:39.758612+00:00",
+   "built": "2026-11-17T13:26:00.126556+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-13/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@derek_madison",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "ADAM LZ VS DEREK MADISON"
+  },
+  {
+   "id": "pod-fd2026r8-7",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-02T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Seconds after winning the title, Conor Shanahan thanks his parents and his brother Jack. ❤️\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-7/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8163.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:20:08.713587+00:00",
+   "built": "2026-11-17T13:26:00.128123+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-7/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FROM KID WITH A DREAM TO CHAMPION"
+  },
+  {
+   "id": "pod-1298fd1c600b-4",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-02T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @mattfield777 @jako13\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
+   "media": [
+    "media/pod-1298fd1c600b-4/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 2417.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:26:39.497424+00:00",
+   "built": "2026-11-16T21:56:41.531837+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-4/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@mattfield777",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": null,
+   "title": "MATT IS NOT TRYING TO BE A VILLAIN"
+  },
+  {
+   "id": "2026-11-16-fd-final-standings",
+   "kind": "standings",
+   "status": "ready",
+   "post_at": "2026-12-02T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [
+    "media/2026-11-16-fd-final-standings/1.png",
+    "media/2026-11-16-fd-final-standings/2.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": "eerste post met dit format: check jij eerst",
+   "source": null,
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-16T21:54:13.895590+00:00",
+   "built": "2026-11-16T21:56:41.507121+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "title": "FD 2026 FINAL STANDINGS"
+  },
+  {
+   "id": "pod-4ff63fdc1bd8-0",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-01T22:00:00+00:00",
+   "posted_at": null,
+   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\n🎙 Full episode: The SileightyMania Podcast\n@sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
+   "media": [
+    "media/pod-4ff63fdc1bd8-0/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@sileightymania",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The SileightyMania Podcast",
+    "episode": "Keisuke Nagashima’s D1NZ Championship AE86 | Auto Biography",
+    "start": 65.45
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T16:22:14.001131+00:00",
+   "built": "2026-11-17T13:26:00.024868+00:00",
+   "want_at": null,
+   "video": "media/pod-4ff63fdc1bd8-0/clip.mp4",
+   "tags": [
+    "@sileightymania"
+   ],
+   "missing_handles": [
+    "Keisuke Nagashima"
+   ],
+   "caption_by": null,
+   "format": null,
+   "title": "BOUGHT AS A BARE SHELL"
+  },
+  {
+   "id": "pod-fd2026r8-12",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-01T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "The battle that decided the 2026 Formula DRIFT championship. Run 1 on top, run 2 below: who had the better lead, who had the better chase?\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-12/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 7789
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T08:01:13.503744+00:00",
+   "built": "2026-11-17T13:26:00.126334+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-12/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "THE TITLE BATTLE, SIDE BY SIDE"
+  },
+  {
+   "id": "pod-fd2026r8-6",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-01T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "One judges' call away from the title. Conor Shanahan beats Jhonnattan Castro in Top 32 and is the 2026 Formula DRIFT champion. 🇮🇪🏆\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @jamesdeane130 @jackshanahan59 @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-fd2026r8-6/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "livestream-clip: check jij eerst",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 8043.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T22:19:28.832840+00:00",
+   "built": "2026-11-17T13:26:00.127942+00:00",
+   "want_at": null,
+   "video": "media/pod-fd2026r8-6/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jcastroracing",
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONOR SHANAHAN IS THE 2026 FD CHAMPION"
+  },
+  {
+   "id": "pod-070d2a07f93c-0",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": "2026-12-01T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "In one small French village the barber marshals the track and pro teams pit in people's front yards, fed croissants by the neighbours.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#DriftFrance #Drifting #FormulaDrift #RaceDataLabs #sidewayswire",
+   "media": [
+    "media/pod-070d2a07f93c-0/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 834.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:25:05.764949+00:00",
+   "built": "2026-11-17T14:16:52.658965+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-0/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "PRO TEAMS PITTED IN FRENCH FRONT YARDS"
+  },
+  {
+   "id": "2026-11-16-dm-season-winners",
+   "kind": "standings",
+   "status": "ready",
+   "post_at": "2026-12-01T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "Paweł Korpuliński wins his first Drift Masters title at home in Warsaw, 35 points clear of Conor Shanahan. Swipe for every round winner of 2026.\n\n#driftmasters #drifting #korpulinski #sidewayswire",
+   "media": [
+    "media/2026-11-16-dm-season-winners/1.png",
+    "media/2026-11-16-dm-season-winners/2.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": "eerste post met dit format: check jij eerst",
+   "source": null,
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-16T21:54:13.895590+00:00",
+   "built": "2026-11-16T21:56:40.935602+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-18",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone started out assisting the cinematographer behind Linkin Park and Michael Jackson music videos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Filmmaking #LinkinPark #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 4438.93
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:26:44.745462+00:00",
+   "built": "2026-11-17T14:26:44.745471+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-18/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Ross Richardson"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "LINKIN PARK CONNECTION"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-17",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Before drifting, Christian Cotrone moved to LA with 500 dollars and worked 18 hour days on film sets for gas money.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Hustle #Film #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3972.51
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:25:50.351810+00:00",
+   "built": "2026-11-17T14:25:50.351818+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-17/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "$500 AND A FILM DREAM"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two days after Vegas the Corvette was already apart. Christian Cotrone wants to show up next year as a top contender.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Corvette #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3900.81
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:24:49.104450+00:00",
+   "built": "2026-11-17T14:24:49.104456+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-16/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ALREADY BUILDING FOR 2027"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone says Matt Field checked on his alignment, dialed his car in Orlando and never held back the truth. Even Matt's mom had notes.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #DriftCave #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 3682.45
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:23:54.650253+00:00",
+   "built": "2026-11-17T14:23:54.650264+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-15/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "MATT FIELD'S TOUGH LOVE"
   },
   {
    "id": "pod-3fa7ee22a33c-14",
@@ -7283,169 +9570,6 @@
    "title": "WATCHING MATT FIELD'S CREW"
   },
   {
-   "id": "pod-3fa7ee22a33c-10",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone promised not to be the rookie who changes everything for FD. Then he chased more power.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Rookie #Drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 3041.03
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:17:19.861758+00:00",
-   "built": "2026-11-17T14:17:19.861764+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-10/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FD ROOKIE POWER TRAP"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-5",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone showed up to Clutch Kickers with 400 hp and podium dreams, then met the 1,000 hp cars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Corvette #ClutchKickers #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 2116.02
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:06:21.600475+00:00",
-   "built": "2026-11-17T14:16:52.697872+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-5/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Jonathan Nerren"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "400 HP VS 1000 HP"
-  },
-  {
-   "id": "pod-070d2a07f93c-9",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The tech can compare every run with a driver's history. The question now: should judges be allowed to use it?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #DriftJudging #RaceDataLabs #Drifting #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 2928.72
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:36:39.847729+00:00",
-   "built": "2026-11-17T14:16:52.672576+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-9/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SHOULD HISTORY JUDGE A RUN?"
-  },
-  {
-   "id": "pod-070d2a07f93c-8",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A prototype tool flags anomalies right after a run: here 81 degrees of angle where the field averages 51.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @fredricaasbo @jako13\n\n#FormulaDrift #FredricAasbo #RaceDataLabs #DriftData #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 2873.04
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:35:06.800526+00:00",
-   "built": "2026-11-17T14:16:52.672116+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-8/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@fredricaasbo",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "30 DEGREES MORE THAN THE FIELD"
-  },
-  {
    "id": "pod-070d2a07f93c-7",
    "kind": "podcast_clip",
    "status": "check",
@@ -7483,374 +9607,6 @@
    "caption_by": null,
    "format": "single",
    "title": "BLIND JUDGES IN A BOX?"
-  },
-  {
-   "id": "pod-070d2a07f93c-6",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "His video on the Matt Field vs James Deane controversy took five 20-minute takes. Judges get about two minutes.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jamesdeane130 @formulad @jako13\n\n#FormulaDrift #JamesDeane #MattField #DriftJudging #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-6/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 2015.06
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:33:07.447525+00:00",
-   "built": "2026-11-17T14:16:52.671291+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-6/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jamesdeane130",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FIELD VS DEANE: FIVE TAKES"
-  },
-  {
-   "id": "pod-070d2a07f93c-5",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Round one was rough, but drivers who doubted the automated scoring are now sending ideas. He won't name names.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #RaceDataLabs #DriftScoring #FDPro #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 1797.12
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:32:01.960845+00:00",
-   "built": "2026-11-17T14:16:52.670865+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-5/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WALL-E HATERS NOW SEND IDEAS"
-  },
-  {
-   "id": "pod-070d2a07f93c-4",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "When Fredric Aasbø said the automated scoring makes drivers push harder and loosen their cars, the man behind it nearly cried.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @fredricaasbo @jako13\n\n#FormulaDrift #FredricAasbo #RaceDataLabs #Drifting #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 1677.88
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:30:31.970815+00:00",
-   "built": "2026-11-17T14:16:52.670278+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-4/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@fredricaasbo",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "AASBO'S WORDS MELTED HIS HEART"
-  },
-  {
-   "id": "pod-070d2a07f93c-3",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Race Data Labs suspected the Long Beach bridge would mess with their signal, and it did. Round one was a gut punch they had to win fans back from.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #LongBeach #RaceDataLabs #DriftScoring #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 1630.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:28:46.320522+00:00",
-   "built": "2026-11-17T14:16:52.669853+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-3/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE BRIDGE THAT BROKE WALL-E AT LONG BEACH"
-  },
-  {
-   "id": "pod-070d2a07f93c-24",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A commenter said none of the judges drive. The reply: they teach drifting almost every day, and one drove the Liberty Walk GT-R.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #DriftJudging #Drifting #FDPro #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-24/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 7587.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:57:56.489410+00:00",
-   "built": "2026-11-17T14:16:52.669464+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-24/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Robbie Nishida"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "'JUDGES DON'T DRIVE'? THINK AGAIN"
-  },
-  {
-   "id": "pod-070d2a07f93c-23",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "At Liberty Walk in Tokyo, fans spotted FD judge Robbie Nishida pointing at the model of the GT-R he once drove.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #LibertyWalk #RobbieNishida #Drifting #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-23/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 7380.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:56:18.354520+00:00",
-   "built": "2026-11-17T14:16:52.669046+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-23/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Robbie Nishida"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "JUDGE RECOGNISED AT LIBERTY WALK"
-  },
-  {
-   "id": "pod-070d2a07f93c-22",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jacob Gettins admits Ian is the better driver, though he had home track advantage and a right-hand-drive car.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#Drifting #FormulaDrift #Commentary #Funny #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-22/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 7016.21
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:54:52.880224+00:00",
-   "built": "2026-11-17T14:16:52.668688+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-22/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE COMMENTATOR WHO OUTDRIVES HIM"
-  },
-  {
-   "id": "pod-070d2a07f93c-21",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Livery, weather and live graphs all arrived mid-season, and FD didn't pay extra for any of it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#FormulaDrift #RaceDataLabs #DriftData #FDPro #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-21/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 6535.95
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:53:46.495171+00:00",
-   "built": "2026-11-17T14:16:52.668317+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-21/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "NOT PAID A CENT EXTRA"
-  },
-  {
-   "id": "pod-070d2a07f93c-20",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Before True Drift there was another name. The domain went from 500 to 5,000 to 50,000 dollars in days.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#TrueDrift #SimDrifting #Drifting #RaceDataLabs #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-20/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 6340.51
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:52:52.777337+00:00",
-   "built": "2026-11-17T14:16:52.667939+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-20/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE 50,000 DOLLAR DOMAIN"
   },
   {
    "id": "pod-070d2a07f93c-2",
@@ -7931,169 +9687,6 @@
    "title": "GETTINS TAKES ON FLORIDA PRO-AM"
   },
   {
-   "id": "pod-070d2a07f93c-18",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Second time ever in a manual car, six laps to link the whole track, thanks to sim drifting. A new generation of animals is coming.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @hiroya.minowa @formulad\n\n#SimDrifting #Drifting #FormulaDrift #HiroyaMinowa #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-18/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 5697.71
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:49:43.000512+00:00",
-   "built": "2026-11-17T14:16:52.666756+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-18/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@hiroya.minowa",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "SIM KID LINKED TRACK IN SIX LAPS"
-  },
-  {
-   "id": "pod-070d2a07f93c-17",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Sim drivers complain the cars feel slow. The answer: that's how fast real competition cars actually are, run for run.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#TrueDrift #SimDrifting #Drifting #FormulaDrift #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-17/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 5423.13
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:48:03.523316+00:00",
-   "built": "2026-11-17T14:16:52.666351+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-17/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "REAL DRIFT CARS ARE SLOWER"
-  },
-  {
-   "id": "pod-070d2a07f93c-16",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "He won his seat through a sim competition. Now he is third in the French championship as a rookie.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#DriftFrance #SimDrifting #Drifting #SimRacing #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-16/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 5332.43
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:46:39.307934+00:00",
-   "built": "2026-11-17T14:16:52.665855+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-16/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SIM WINNER TO TITLE CONTENDER"
-  },
-  {
-   "id": "pod-070d2a07f93c-15",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Real data captured in Japan went into a sim pack, and one kid played it for 3,000 hours until he nailed the Kansai flick.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#TrueDrift #SimDrifting #Drifting #NaokiNakamura #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 5269.85
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:45:22.171581+00:00",
-   "built": "2026-11-17T14:16:52.665042+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-15/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Naoki Nakamura"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "3,000 HOURS TO LEARN THE FLICK"
-  },
-  {
    "id": "pod-070d2a07f93c-14",
    "kind": "podcast_clip",
    "status": "check",
@@ -8172,278 +9765,6 @@
    "title": "DO YOUR HOMEWORK, QUALIFY HIGHER"
   },
   {
-   "id": "pod-070d2a07f93c-12",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Every scoring device took a day to assemble, and a kit has 16 of them. The startup grind behind the tech on every FD roof.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#RaceDataLabs #FormulaDrift #Drifting #Startup #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 4651.41
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:41:21.979642+00:00",
-   "built": "2026-11-17T14:16:52.662743+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-12/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "BUILDING 16 DEVICES BY HAND"
-  },
-  {
-   "id": "pod-070d2a07f93c-11",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A prototype gauge on the dash tells drivers live if their initiation was big enough and still chaseable.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#Drifting #RaceDataLabs #FormulaDrift #DriftTech #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-11/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 4230.58
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:39:42.380735+00:00",
-   "built": "2026-11-17T14:16:52.662365+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-11/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "A DASH GAUGE THAT GRADES YOUR FLICK"
-  },
-  {
-   "id": "pod-070d2a07f93c-10",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "An experiment in Melbourne: if your entry lacks enough swing and rate to angle, your initiation scores zero.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#Drifting #DriftAustralia #RaceDataLabs #DriftScoring #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-10/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 4073.32
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:38:13.035511+00:00",
-   "built": "2026-11-17T14:16:52.661768+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-10/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "ZERO POINTS FOR A LAZY ENTRY"
-  },
-  {
-   "id": "pod-070d2a07f93c-1",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Seven thousand sold out, then fifteen thousand at a truck stadium: drifting in France is booming.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#DriftFrance #Drifting #FormulaDrift #Motorsport #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 1020.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:26:15.638439+00:00",
-   "built": "2026-11-17T14:16:52.661173+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-1/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "DRIFT FRANCE IS SELLING OUT"
-  },
-  {
-   "id": "pod-070d2a07f93c-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "In one small French village the barber marshals the track and pro teams pit in people's front yards, fed croissants by the neighbours.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#DriftFrance #Drifting #FormulaDrift #RaceDataLabs #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 834.98
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:25:05.764949+00:00",
-   "built": "2026-11-17T14:16:52.658965+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-0/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Michael (Race Data Labs)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "PRO TEAMS PITTED IN FRENCH FRONT YARDS"
-  },
-  {
-   "id": "2026-11-17-fia-idc-cirba",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "First FIA Intercontinental Drifting Cup win for Benediktas Čirba. He beat Martins Immermanis in the final at Serres, Stavros Gryllis took P3 and Greece won the Nations Cup in front of 3,000+ fans. 🏆\n\n#fiaidc #drifting #driftcup #serres #sidewayswire",
-   "media": [
-    "media/2026-11-17-fia-idc-cirba/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "handles van coureurs en FIA niet in sources.csv",
-   "source": "https://www.fia.com/news/benediktas-cirba-takes-fia-intercontinental-drifting-cup-victory-greece-wins-nations-cup",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:12:26.167610+00:00",
-   "built": "2026-11-17T14:16:52.657821+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [],
-   "missing_handles": [
-    "Benediktas Čirba",
-    "Martins Immermanis",
-    "Stavros Gryllis",
-    "FIA"
-   ],
-   "caption_by": null,
-   "format": null,
-   "title": "BENEDIKTAS ČIRBA WINS THE FIA INTERCONTINENTAL DRIFTING CUP"
-  },
-  {
-   "id": "2026-11-17-car-park-drift-jeddah",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Car Park Drift is back in Jeddah on December 4 and 5 with a new format: 90 seconds, pick your own line through the obstacles, park it in the box. Winner books a ticket to the 2027 World Final in Baku. 🅿️\n\n#redbullcarparkdrift #carparkdrift #jeddah #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-17-car-park-drift-jeddah/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "Red Bull-handle niet in sources.csv",
-   "source": "https://www.redbull.com/mea-en/red-bull-car-park-drift-returns-to-jeddah-with-a-new-competition-format",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:12:26.167610+00:00",
-   "built": "2026-11-17T14:16:51.835921+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [],
-   "missing_handles": [
-    "Red Bull Car Park Drift"
-   ],
-   "caption_by": null,
-   "format": null,
-   "title": "RED BULL CAR PARK DRIFT RETURNS TO JEDDAH"
-  },
-  {
    "id": "2026-11-17-adam-lz-leaves-fd",
    "kind": "news",
    "status": "check",
@@ -8475,763 +9796,6 @@
    "caption_by": null,
    "format": null,
    "title": "ADAM LZ WILL NOT RETURN TO FORMULA DRIFT IN 2027"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-9",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Down on power all season, Christian Cotrone was doing the rain dance at every FD round.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #RainDrift #Drifting #Corvette #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 2888.57
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:16:25.628484+00:00",
-   "built": "2026-11-17T14:16:25.628488+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-9/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "HE PRAYS FOR RAIN"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-8",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone has seen plans for a road course behind the OSW skid pad for years. The drifter in him says just pave it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @jako13 @formulad\n\n#Drifting #Florida #OSW #Grassroots #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 2621.31
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:15:49.160379+00:00",
-   "built": "2026-11-17T14:15:49.160383+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-8/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "OSW ROAD COURSE PLANS"
-  },
-  {
-   "id": "pod-3fa7ee22a33c-7",
-   "kind": "podcast_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone helped test the new Lead Foot venue in Florida and says the state needs two more tracks like it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattshulmannnn @formulad @jako13\n\n#Drifting #Florida #Grassroots #FormulaDrift #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 2520.51
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:14:52.644900+00:00",
-   "built": "2026-11-17T14:14:52.644907+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-7/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@mattshulmannnn",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "NEW FLORIDA DRIFT TRACK"
-  },
-  {
-   "id": "pod-fd2026r8-9",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ryan Tuerck rolled past Conor Shanahan with tears in his eyes after his last ever run. Conor used it to win the title.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @ryantuerck @formulad\n\n#formulad #formuladrift #ryantuerck #drifting #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 8260.46
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:21:19.726580+00:00",
-   "built": "2026-11-17T13:26:00.128585+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-9/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@ryantuerck",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "RYAN TUERCK'S TEARS MOTIVATED HIM"
-  },
-  {
-   "id": "pod-fd2026r8-8",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Two Drift Masters titles and now a Formula DRIFT championship. Conor Shanahan has a bio to update. 😅\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @formulad @driftmasters.gp\n\n#formulad #driftmasters #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 8209.46
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:20:45.338005+00:00",
-   "built": "2026-11-17T13:26:00.128315+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-8/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FD CHAMPION NEXT TO TWO DRIFT MASTERS TITLES"
-  },
-  {
-   "id": "pod-fd2026r8-7",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Seconds after winning the title, Conor Shanahan thanks his parents and his brother Jack. ❤️\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-7/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 8163.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:20:08.713587+00:00",
-   "built": "2026-11-17T13:26:00.128123+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-7/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FROM KID WITH A DREAM TO CHAMPION"
-  },
-  {
-   "id": "pod-fd2026r8-6",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "One judges' call away from the title. Conor Shanahan beats Jhonnattan Castro in Top 32 and is the 2026 Formula DRIFT champion. 🇮🇪🏆\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @jamesdeane130 @jackshanahan59 @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-6/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 8043.2
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:19:28.832840+00:00",
-   "built": "2026-11-17T13:26:00.127942+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-6/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jcastroracing",
-    "@jamesdeane130",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "CONOR SHANAHAN IS THE 2026 FD CHAMPION"
-  },
-  {
-   "id": "pod-fd2026r8-5",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Less than six inches, everywhere on track. Conor Shanahan chasing Jhonnattan Castro for the championship.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 7947.02
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:17:30.502928+00:00",
-   "built": "2026-11-17T13:26:00.127764+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-5/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jcastroracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHY THEY CALL HIM THE SHADOW"
-  },
-  {
-   "id": "pod-fd2026r8-4",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The run of his career with the title on the line: Conor Shanahan leads, Jhonnattan Castro grinds on his door.\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 7795.66
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:15:29.736443+00:00",
-   "built": "2026-11-17T13:26:00.127576+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-4/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jcastroracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "SHANAHAN LEADS FOR THE TITLE"
-  },
-  {
-   "id": "pod-fd2026r8-3",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "After 20+ years, 7 wins and 26 podiums, this was Ryan Tuerck's final Formula DRIFT battle. Thank you, Ryan. 🙏\n\n🎥 Footage: FD LONG BEACH FINALE\n@ryantuerck @watarudrift @formulad\n\n#formulad #formuladrift #ryantuerck #drifting #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 7229.52
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:13:32.874910+00:00",
-   "built": "2026-11-17T13:26:00.127351+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-3/clip.mp4",
-   "tags": [
-    "@ryantuerck",
-    "@watarudrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "RYAN TUERCK'S LAST EVER FD RUN"
-  },
-  {
-   "id": "pod-fd2026r8-2",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "10 mph faster on initiation and into the back of Dan Burkett. Was Odi Bakchis too aggressive? The data says yes.\n\n🎥 Footage: FD LONG BEACH FINALE\n@raddandrift @odidrift @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 6420.78
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:12:23.318081+00:00",
-   "built": "2026-11-17T13:26:00.127132+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-2/clip.mp4",
-   "tags": [
-    "@raddandrift",
-    "@odidrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "ODI TOO AGGRESSIVE?"
-  },
-  {
-   "id": "pod-fd2026r8-15",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire vs rookie of the year Cole Richards in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 8941
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:42:47.205156+00:00",
-   "built": "2026-11-17T13:26:00.126933+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-15/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "LEMAIRE VS RICHARDS"
-  },
-  {
-   "id": "pod-fd2026r8-14",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field vs Trenton Beechum, two V8s in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@mattfield777 @trenton_beechum @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 9163
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:41:43.030657+00:00",
-   "built": "2026-11-17T13:26:00.126740+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-14/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@trenton_beechum",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "FIELD VS BEECHUM"
-  },
-  {
-   "id": "pod-fd2026r8-13",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Adam LZ vs Derek Madison in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@adam_lz @derek_madison @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-13/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 3287
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:40:39.758612+00:00",
-   "built": "2026-11-17T13:26:00.126556+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-13/clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@derek_madison",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "ADAM LZ VS DEREK MADISON"
-  },
-  {
-   "id": "pod-fd2026r8-12",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The battle that decided the 2026 Formula DRIFT championship. Run 1 on top, run 2 below: who had the better lead, who had the better chase?\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 7789
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T08:01:13.503744+00:00",
-   "built": "2026-11-17T13:26:00.126334+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-12/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jcastroracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "THE TITLE BATTLE, SIDE BY SIDE"
-  },
-  {
-   "id": "pod-fd2026r8-11",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-11/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 9463.52
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:23:26.697529+00:00",
-   "built": "2026-11-17T13:26:00.126116+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-11/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "TOMMY MIRRORS COLE"
-  },
-  {
-   "id": "pod-fd2026r8-10",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Full lock, off throttle, trying to save it. Matt Field keeps it smart and moves on against Trenton Beechum.\n\n🎥 Footage: FD LONG BEACH FINALE\n@mattfield777 @trenton_beechum @formulad\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-10/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 9333.98
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:23:04.629551+00:00",
-   "built": "2026-11-17T13:26:00.125918+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-10/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@trenton_beechum",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "A BRICK ON THE GAS PEDAL"
-  },
-  {
-   "id": "pod-fd2026r8-1",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Andy Hateley's BMW won't launch, and James Deane takes the easiest win of his day.\n\n🎥 Footage: FD LONG BEACH FINALE\n@jamesdeane130 @hateleydrift @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 5227.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:06:23.362579+00:00",
-   "built": "2026-11-17T13:26:00.125727+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-1/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@hateleydrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FAILURE TO LAUNCH"
-  },
-  {
-   "id": "pod-fd2026r8-0",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "One more time, and Ben Hobson's bumper is dragging like a tail. Jeff Jones keeps it calm.\n\n🎥 Footage: FD LONG BEACH FINALE\n@benhobson213 @jeffjonesracing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 1904.02
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T22:04:59.998736+00:00",
-   "built": "2026-11-17T13:26:00.125507+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-0/clip.mp4",
-   "tags": [
-    "@benhobson213",
-    "@jeffjonesracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "HOBSON GREW A TAIL"
   },
   {
    "id": "pod-da5d8825120e-8",
@@ -9395,47 +9959,6 @@
    "title": "OFF-SEASON? WHAT OFF-SEASON?"
   },
   {
-   "id": "pod-da5d8825120e-14",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Conor Shanahan says he started left-foot braking on the chase run-up in Orlando, and others followed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @dylanhughes129 @jako13\n\n#formulad #formuladrift #drifting #driftfacts #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 3046.4
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:56:40.582350+00:00",
-   "built": "2026-11-17T13:26:00.105851+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-14/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@dylanhughes129",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "HE STARTED THE LEFT-FOOT TRICK"
-  },
-  {
    "id": "pod-6892a8b1e411-24",
    "kind": "podcast_clip",
    "status": "check",
@@ -9554,46 +10077,6 @@
    "caption_by": null,
    "format": null,
    "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL"
-  },
-  {
-   "id": "pod-4ff63fdc1bd8-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\n🎙 Full episode: The SileightyMania Podcast\n@sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
-   "media": [
-    "media/pod-4ff63fdc1bd8-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@sileightymania",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The SileightyMania Podcast",
-    "episode": "Keisuke Nagashima’s D1NZ Championship AE86 | Auto Biography",
-    "start": 65.45
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T16:22:14.001131+00:00",
-   "built": "2026-11-17T13:26:00.024868+00:00",
-   "want_at": null,
-   "video": "media/pod-4ff63fdc1bd8-0/clip.mp4",
-   "tags": [
-    "@sileightymania"
-   ],
-   "missing_handles": [
-    "Keisuke Nagashima"
-   ],
-   "caption_by": null,
-   "format": null,
-   "title": "BOUGHT AS A BARE SHELL"
   },
   {
    "id": "pod-1298fd1c600b-9",
@@ -9919,46 +10402,6 @@
    "title": "LET FD RUN TUBULAR SUBFRAMES"
   },
   {
-   "id": "pod-1298fd1c600b-20",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Why is the RTR Mustang so tricky? Chelsea DeNofa breaks it down.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #rtr #mustang #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-20/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 5973.01
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:19:33.078684+00:00",
-   "built": "2026-11-17T13:26:00.021343+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-20/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "WHY THE RTR MUSTANG IS HARD"
-  },
-  {
    "id": "pod-1298fd1c600b-2",
    "kind": "podcast_clip",
    "status": "check",
@@ -9997,86 +10440,6 @@
    "caption_by": null,
    "format": null,
    "title": "\"A NORMAL RUN SHOULD BE A 65\""
-  },
-  {
-   "id": "pod-1298fd1c600b-11",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa and his old rival still don't talk. One apology, he says, and they could be friends.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-11/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3701.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:18:34.481977+00:00",
-   "built": "2026-11-17T13:26:00.018310+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-11/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "STILL WAITING FOR AN APOLOGY"
-  },
-  {
-   "id": "pod-1298fd1c600b-10",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Years later, Chelsea DeNofa has no regrets about that New Jersey blow-up: he would do it again.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-10/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3645.66
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:17:48.287439+00:00",
-   "built": "2026-11-17T13:26:00.017895+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-10/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "\"I WOULD DO IT AGAIN\""
   },
   {
    "id": "pod-1298fd1c600b-1",
@@ -10157,71 +10520,6 @@
    "caption_by": null,
    "format": null,
    "title": "WHY FD IS SO HARD TO WIN"
-  },
-  {
-   "id": "2026-11-17-vgj-ready-to-rock-book",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "From a parking lot to a Ford partnership. Two-time Formula DRIFT champion @vaughngittinjr wrote the story of RTR together with Mike Spinelli: Ready To Rock, 256 pages with photography from top shooters. 📚\n\n#formulad #rtr #vaughngittinjr #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-17-vgj-ready-to-rock-book/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "nieuw format zonder foto",
-   "source": "https://www.thedrive.com/news/new-book-tells-the-story-of-rtr-an-american-drift-team-that-exploded-into-way-more",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T13:24:20.362064+00:00",
-   "built": "2026-11-17T13:26:00.016493+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [
-    "@vaughngittinjr"
-   ],
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "title": "VAUGHN GITTIN JR. TELLS THE RTR STORY"
-  },
-  {
-   "id": "2026-11-17-d1gp-sobakiri-champion",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Kodai Sobakiri is the 2026 D1 Grand Prix champion. 🇯🇵 A tense final weekend at TOKYO DRIFT in Odaiba: no qualifying on Saturday, then a Top 4 finish on Sunday to seal his first series title. He said he was nervous the whole time.\n\n#d1gp #tokyodrift #drifting #japan #sidewayswire",
-   "media": [
-    "media/2026-11-17-d1gp-sobakiri-champion/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "nieuw format zonder foto; handles van Sobakiri en Nakamura nog onbekend",
-   "source": "https://www.as-web.jp/drift/1374797",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T13:24:20.362064+00:00",
-   "built": "2026-11-17T13:25:59.721616+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": null,
-   "missing_handles": [
-    "Kodai Sobakiri",
-    "Naoki Nakamura"
-   ],
-   "caption_by": null,
-   "format": null,
-   "title": "KODAI SOBAKIRI IS THE 2026 D1GP CHAMPION"
   },
   {
    "id": "pod-1298fd1c600b-15",
@@ -10359,87 +10657,6 @@
    "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND"
   },
   {
-   "id": "pod-6892a8b1e411-7",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Someone told Tommy Lemaire to just build a C6 with a C7 body kit. Here is why the C7 is a different animal.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #corvette #c7corvette #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-7/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 2263.82
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T21:50:19.513325+00:00",
-   "built": "2026-11-16T21:56:41.561008+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-7/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "C7 VS C6: NOT JUST A RESHELL"
-  },
-  {
-   "id": "pod-1298fd1c600b-4",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @mattfield777 @jako13\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 2417.18
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:26:39.497424+00:00",
-   "built": "2026-11-16T21:56:41.531837+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-4/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@mattfield777",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "MATT IS NOT TRYING TO BE A VILLAIN"
-  },
-  {
    "id": "pod-1298fd1c600b-26",
    "kind": "podcast_clip",
    "status": "check",
@@ -10558,68 +10775,6 @@
    "caption_by": null,
    "format": null,
    "title": "EX-PROS BACK IN PRO SPEC? TEAMS CALLING?"
-  },
-  {
-   "id": "2026-11-16-fd-final-standings",
-   "kind": "standings",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-16-fd-final-standings/1.png",
-    "media/2026-11-16-fd-final-standings/2.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "eerste post met dit format: check jij eerst",
-   "source": null,
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-16T21:54:13.895590+00:00",
-   "built": "2026-11-16T21:56:41.507121+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": null,
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "title": "FD 2026 FINAL STANDINGS"
-  },
-  {
-   "id": "2026-11-16-dm-season-winners",
-   "kind": "standings",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Paweł Korpuliński wins his first Drift Masters title at home in Warsaw, 35 points clear of Conor Shanahan. Swipe for every round winner of 2026.\n\n#driftmasters #drifting #korpulinski #sidewayswire",
-   "media": [
-    "media/2026-11-16-dm-season-winners/1.png",
-    "media/2026-11-16-dm-season-winners/2.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "eerste post met dit format: check jij eerst",
-   "source": null,
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-16T21:54:13.895590+00:00",
-   "built": "2026-11-16T21:56:40.935602+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": null,
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "title": "DM 2026: EVERY ROUND WINNER"
   }
  ],
  "channels": {
