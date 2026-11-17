@@ -45,6 +45,13 @@ WATCH = [
     ("auto sport web · drift", "D1GP", "https://www.as-web.jp/drift", None),
     ("Nürburgring Drift Cup", "NDC", "https://nuerburgring.de/news", "drift"),
     ("Gatebil", "Gatebil", "https://gatebil.no", "drift"),
+    # Off-season: the stories are new cars, liveries, team moves and builds, not results.
+    ("Drift Masters", "DM", "https://driftmasters.gp/news", None),
+    ("Speedhunters", "FD + DM", "gnews:site:speedhunters.com drift", "drift"),
+    ("Google News", "FD + DM", "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"", "drift"),
+    ("Google News", "FD + DM", "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027", "drift"),
+    ("Google News", "FD", "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift", "drift"),
+    ("Google News", "D1GP", "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift", "drift"),
 ]
 
 
