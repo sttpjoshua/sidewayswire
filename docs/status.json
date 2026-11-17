@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:38:32.687763+00:00",
+ "updated": "2026-11-17T14:42:23.645845+00:00",
  "counts": {
   "ready": 103,
   "check": 27,
   "posted": 3,
-  "draft": 20
+  "draft": 24
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -4664,10 +4664,10 @@
       "topic": "AIM AT THE WALL, HOPE FOR THE BEST",
       "quote": "Yeah, I mean, being able to focus on my program has been huge. It's it's brought a level of enjoyment and consistency to my program that I don't think it's had previously. But man, everybody rips. So it's like, you know, I'm watching these dudes, Dragon Bumper in 32. And I'm like, OK, well, I guess I guess we're going for it all night long. And so, you know, it's kind of aim the car at the wall and hope you only hit it a little bit. You know, so yeah, I think if you weren't on 11 from 32, you weren't you weren't going through.",
       "why": "Kasey Kohl on finally focusing on his own program and a field that was flat out from Top 32.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-1/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4678,10 +4678,10 @@
       "topic": "GRIPPY VEGAS: THE FIX",
       "quote": "OK, the track is insanely grippy. I think this is the new asphalt's good. I felt like this is the grippiest surface I've driven on. Like, as far as the track is concerned, I definitely had my tire pressures up compared to where I'm normally running them. And so it took a little bit of figuring out like how to how to manage that grip and still get the car into the places we wanted. And, you know, the answer ended up just being more horsepower. Which, you know, we're cool with that. Yeah, of course. But yesterday was I honestly, I wasn't feeling it. And then today we came in, I looked at logs last night and it was like, no, the wheel speed is good. Like that's that all looks great and everything. And I felt like when we pulled too much grip out, the car started oversliding corners, we kept overstepping for I didn't like that. So I was like, I don't I don't want to, you know, crank the tire pressures up really. And so the answer was more horsepower. And so that's that's what we changed. And first lap out, I was like, OK, no, that was that was the call.",
       "why": "Kasey Kohl explains how the grippiest surface he ever drove on forced a setup change.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-2/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4692,10 +4692,10 @@
       "topic": "THREE LAPS PER TIRE",
       "quote": "These two 55s from GT are just insane. Like, I can't believe how much power I'm having to push this tire. Yeah. Tire wear. Was it an issue or? To the edge. So it was like I was getting about three laps. Well, really, I was chords, dude. I was in three. Second lap. Last outer zone just gone. You just got if I did two, there were good tires. They take home from my Z. That's wild. For real. There's a lot. I will say, like, at least on the pro side, there's a lot of like spares ready to go. Yeah, I was eyeing up a few. I'm like, who's going back to Florida soon? Like, like, yeah, it's a free tire.",
       "why": "On the grippy Vegas surface the rear tires lasted only two or three laps.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-3/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4706,10 +4706,10 @@
       "topic": "INNER CLIPS: YES OR NO?",
       "quote": "But track overall all outer zones. I'm a fan. I'm not a big fan of inside clips. I think it chokes off the chase driver. I like all the other zones. How do you guys feel about it? Four look nasty. I mean, outer zone is always a way because you get the goods and get some doors with everybody. Yeah, that's fair. That's fair. No excuse to get pinched off. Yeah. Braden, what do you think? I agree. I agree to extent. I think that the tracks that driftmasters do, that's I think that's why their level of drivers is like super like high is just because their tracks are super complicated and super technical. And I like that aspect of it. But yeah, no, I think I think all the outer zones are definitely the best for the show and putting on a show. So yeah, how do you feel about Connecticut?",
       "why": "An inner clip debate, with Braden Lons saying Drift Masters' technical tracks raise the level of drivers.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-441d4b7291ad-4/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,159 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-441d4b7291ad-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "All outer zones in Vegas. Is that better for the show than technical layouts like Drift Masters?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @driftmasters.gp @jako13\n\n#FormulaDRIFT #PROSPEC #DriftMasters #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 228.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:42:23.640671+00:00",
+   "built": "2026-11-17T14:42:23.640677+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-4/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad",
+    "@driftmasters.gp",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "INNER CLIPS: YES OR NO?"
+  },
+  {
+   "id": "pod-441d4b7291ad-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two or three laps and the tires were gone. Spare Pro tires suddenly looked very tempting in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 191.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:41:24.747405+00:00",
+   "built": "2026-11-17T14:41:24.747414+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-3/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THREE LAPS PER TIRE"
+  },
+  {
+   "id": "pod-441d4b7291ad-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #KaseyKohl #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 124.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:40:41.196838+00:00",
+   "built": "2026-11-17T14:40:41.196844+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-2/clip.mp4",
+   "tags": [
+    "@mspekperformance",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "GRIPPY VEGAS: THE FIX"
+  },
+  {
+   "id": "pod-441d4b7291ad-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Everybody rips, so you aim the car at the wall and hope you only hit it a little. Kasey Kohl after the Vegas PROSPEC podium.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #KaseyKohl #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 78.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:39:26.260274+00:00",
+   "built": "2026-11-17T14:39:26.260283+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-1/clip.mp4",
+   "tags": [
+    "@mspekperformance",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "AIM AT THE WALL, HOPE FOR THE BEST"
   },
   {
    "id": "pod-441d4b7291ad-0",

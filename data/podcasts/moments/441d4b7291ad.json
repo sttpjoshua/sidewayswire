@@ -48,7 +48,7 @@
   "check": true,
   "check_reason": "Name transcribed as 'Casey'; correct spelling Kasey Kohl.",
   "caption": "Everybody rips, so you aim the car at the wall and hope you only hit it a little. Kasey Kohl after the Vegas PROSPEC podium. #FormulaDRIFT #PROSPEC #KaseyKohl",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 99.4,
@@ -57,7 +57,11 @@
    "why": "grappige uitspraak, clou blijft verborgen"
   },
   "wait_name": "v2-441d4b7291ad-1-780-1092.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 103.12, \"start\": 99.4, \"text\": \"WHAT'S THE PLAN AT VEGAS?\", \"why\": \"grappige uitspraak, clou blijft verborgen\"}",
+  "made": "2026-11-17T14:39:26.259254+00:00"
  },
  {
   "start": 124.52,
@@ -74,7 +78,7 @@
   "check": true,
   "check_reason": "Speaker assumed Kasey Kohl ('Casey') from context.",
   "caption": "The grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas. #FormulaDRIFT #PROSPEC #KaseyKohl #FDLV",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 169.44,
@@ -83,7 +87,11 @@
    "why": "vraag zonder antwoord"
   },
   "wait_name": "v2-441d4b7291ad-2-1245-1757.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 172.36, \"start\": 169.44, \"text\": \"HOW DO YOU BEAT TOO MUCH GRIP?\", \"why\": \"vraag zonder antwoord\"}",
+  "made": "2026-11-17T14:40:41.195830+00:00"
  },
  {
   "start": 191.5,
@@ -100,7 +108,7 @@
   "check": true,
   "check_reason": "Speakers not certain (Braden Lons assumed); tire name garbled ('55s from GT').",
   "caption": "Two or three laps and the tires were gone. Spare Pro tires suddenly looked very tempting in Vegas. #FormulaDRIFT #PROSPEC #FDLV",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 201.92,
@@ -109,7 +117,11 @@
    "why": "cijfer is de clou"
   },
   "wait_name": "v2-441d4b7291ad-3-1915-2261.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-3/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 204.02, \"start\": 201.92, \"text\": \"HOW LONG DID A TIRE LAST?\", \"why\": \"cijfer is de clou\"}",
+  "made": "2026-11-17T14:41:24.746417+00:00"
  },
  {
   "start": 228.42,
@@ -126,7 +138,7 @@
   "check": true,
   "check_reason": "Who says the inner clip line (host or driver) is not certain.",
   "caption": "All outer zones in Vegas. Is that better for the show than technical layouts like Drift Masters? #FormulaDRIFT #PROSPEC #DriftMasters",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 232.92,
@@ -135,7 +147,11 @@
    "why": "mening, discussie"
   },
   "wait_name": "v2-441d4b7291ad-4-2284-2691.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-441d4b7291ad-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 235.64, \"start\": 232.92, \"text\": \"WHAT CHOKES OFF THE CHASE DRIVER?\", \"why\": \"mening, discussie\"}",
+  "made": "2026-11-17T14:42:23.639672+00:00"
  },
  {
   "start": 284.16,
