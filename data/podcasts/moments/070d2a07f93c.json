@@ -366,7 +366,7 @@
   "check": true,
   "check_reason": "Guest surname not stated in episode",
   "caption": "Every scoring device took a day to assemble, and a kit has 16 of them. The startup grind behind the tech on every FD roof. #RaceDataLabs #FormulaDrift #Drifting #Startup",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4694.21,
@@ -375,7 +375,11 @@
    "why": "concreet cijfer"
   },
   "wait_name": "v2-070d2a07f93c-12-46514-47182.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-12/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4697.73, \"start\": 4694.21, \"text\": \"HOW LONG TO BUILD ONE KIT?\", \"why\": \"concreet cijfer\"}",
+  "made": "2026-11-17T13:41:21.978303+00:00"
  },
  {
   "start": 5084.45,
@@ -391,7 +395,7 @@
   ],
   "check": false,
   "caption": "Teams that spent the most time in the data dashboard qualified highest, and the least time meant last. Almost one to one. #FormulaDrift #DriftData #Qualifying #FDPro",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5127.95,
@@ -400,7 +404,11 @@
    "why": "verband zonder uitleg"
   },
   "wait_name": "v2-070d2a07f93c-13-50844-51468.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-13/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5131.25, \"start\": 5127.95, \"text\": \"WHAT PREDICTS A TOP QUALIFIER?\", \"why\": \"verband zonder uitleg\"}",
+  "made": "2026-11-17T13:42:51.012779+00:00"
  },
  {
   "start": 5175.73,
@@ -416,7 +424,7 @@
   ],
   "check": false,
   "caption": "Qualifying scores are climbing as drivers learn the system. Jacob Gettins expects 95-point runs again, and tougher zones to follow. #FormulaDrift #DriftScoring #FDPro #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5202.25,
@@ -425,7 +433,11 @@
    "why": "voorspelling"
   },
   "wait_name": "v2-070d2a07f93c-14-51757-52149.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-14/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5204.19, \"start\": 5202.25, \"text\": \"WILL THE ZONES GET TOUGHER?\", \"why\": \"voorspelling\"}",
+  "made": "2026-11-17T13:43:51.539656+00:00"
  },
  {
   "start": 5269.85,
@@ -443,7 +455,7 @@
   "check": true,
   "check_reason": "Transcript says 'Noki Nakamura'; guest surname not stated",
   "caption": "Real data captured in Japan went into a sim pack, and one kid played it for 3,000 hours until he nailed the Kansai flick. #TrueDrift #SimDrifting #Drifting #NaokiNakamura",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5274.23,
@@ -452,7 +464,11 @@
    "why": "absurd getal"
   },
   "wait_name": "v2-070d2a07f93c-15-52698-53324.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-070d2a07f93c-15/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5276.81, \"start\": 5274.23, \"text\": \"HOW MANY HOURS FOR THE FLICK?\", \"why\": \"absurd getal\"}",
+  "made": "2026-11-17T13:45:22.170234+00:00"
  },
  {
   "start": 5332.43,

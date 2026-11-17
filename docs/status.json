@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T13:39:42.387157+00:00",
+ "updated": "2026-11-17T13:45:22.178128+00:00",
  "counts": {
   "check": 48,
-  "draft": 12,
+  "draft": 16,
   "posted": 3,
   "ready": 42
  },
@@ -4993,10 +4993,10 @@
       "topic": "BUILDING 16 DEVICES BY HAND",
       "quote": "You know, we couldn't afford to get vendors to like, you know, help with the assembly of the devices. It was a real hustle. Like it was again, small teams starting up. It was definitely challenging and taxing. Like it was not sustainable. We are fortunate now that, you know, with industry recognition and some of the amazing clients that we work with that, yeah, the product has matured. And yeah, we can lean on third party vendors to help us with assembly. So like to assemble one device is about a day. So when you have all the parts in front of you to assemble it, it takes about a day. A kit has 16 devices in it. So it's half a month. Okay. So if I need a kit, I need to like wipe out my calendar for half a month. I don't have that luxury. Right. So we have, well, we didn't have that luxury. Well, I didn't have the luxury of time and money. So I had to like find time and not sleep and do all that sort of stuff, assemble them, get them out the door.",
       "why": "Each scoring device took a day to build, so one 16-device kit cost half a month of no sleep.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-12/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -5007,10 +5007,10 @@
       "topic": "DO YOUR HOMEWORK, QUALIFY HIGHER",
       "quote": "I think there's going to be a world where because of the data collection and we've seen this, I had a stat. Sage gave me a write up on it and I don't have it in front of me, but it was basically, there's a direct correlation between the amount of time team spends in the dashboard to their qualifying scores. I may have given you that one if I, I don't know if I've got it. I probably, I've like, I've, I've all my notes from events in a binder, but like there is, it's an almost one to one correlation for hours spent in the dashboard to their ranking and qualifying, which is insane. It was the correlation between the amount of time that you spent analyzing data to your performance. Yeah. Was a strong, like a severely strong correlation. So the guy, the team that spent the most time on the dashboard was a top qualifier. And the team that spent the least amount of time was the last qualifier. And the person that spent the middle was in the middle. So that the chart was like a pretty steady for an exam.",
       "why": "Time teams spent in the data dashboard almost perfectly matched their qualifying order.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-13/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -5021,10 +5021,10 @@
       "topic": "DRIVERS WILL BEAT THE SYSTEM",
       "quote": "But then looking five years in the future, I think what this is going to do is breed a generation of drivers that are so good that we have to make this more difficult again. Yeah. Like, like the qualifying scores are that I know there's like a big, like all the qualifying scores are really low. They have come up, they have come up throughout the events. The drivers are getting better. They're learning the system. It is getting better. We're going to get to a point again where we're back to 95 point runs and we're going to have to make zones longer or we're going to have to be more stringent again, or the penalties are going to have to be more severe. That means that drivers will continuously get better.",
       "why": "He predicts drivers get so good that zones must get longer and penalties harsher again.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-14/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -5035,10 +5035,10 @@
       "topic": "3,000 HOURS TO LEARN THE FLICK",
       "quote": "I had this, a friend whose son played it and he said he did like 3000 hours on it to the point where he was, he started off like not getting it, but he just went out hour and hour and he was like, he showed me a video of it. He was like, he figured out cause to consign, which is a district in Japan and they've got a particular way. They initiate, they load up the front and they flick really hard. So it's like the whole purpose of this pack was to like teach kids or whoever how to like load up your car and do this epic flick. And this kid used true drift and this, this consign pack that we built and launched and he spent that and he was doing it. It was awesome. Like that kid, you put him in the car, like he might not get it. Like that's the skill and the muscle memory that he has after playing true drift for three, 3000 hours, whatever we played the graduation from not knowing to knowing to that. Like you can't compare. You can't, you cannot compare.",
       "why": "A kid learned the Kansai-style flick from real captured data after 3,000 hours in the sim.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-070d2a07f93c-15/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -6854,6 +6854,158 @@
    "caption_by": null,
    "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
+  },
+  {
+   "id": "pod-070d2a07f93c-15",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Real data captured in Japan went into a sim pack, and one kid played it for 3,000 hours until he nailed the Kansai flick.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#TrueDrift #SimDrifting #Drifting #NaokiNakamura #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 5269.85
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:45:22.171581+00:00",
+   "built": "2026-11-17T13:45:22.171587+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-15/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Naoki Nakamura"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "3,000 HOURS TO LEARN THE FLICK"
+  },
+  {
+   "id": "pod-070d2a07f93c-14",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Qualifying scores are climbing as drivers learn the system. Jacob Gettins expects 95-point runs again, and tougher zones to follow.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#FormulaDrift #DriftScoring #FDPro #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 5175.73
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:43:51.540963+00:00",
+   "built": "2026-11-17T13:43:51.540968+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-14/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DRIVERS WILL BEAT THE SYSTEM"
+  },
+  {
+   "id": "pod-070d2a07f93c-13",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Teams that spent the most time in the data dashboard qualified highest, and the least time meant last. Almost one to one.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#FormulaDrift #DriftData #Qualifying #FDPro #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 5084.45
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:42:51.014160+00:00",
+   "built": "2026-11-17T13:42:51.014166+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-13/clip.mp4",
+   "tags": [
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DO YOUR HOMEWORK, QUALIFY HIGHER"
+  },
+  {
+   "id": "pod-070d2a07f93c-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Every scoring device took a day to assemble, and a kit has 16 of them. The startup grind behind the tech on every FD roof.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#RaceDataLabs #FormulaDrift #Drifting #Startup #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Race Data Labs and True Drift",
+    "start": 4651.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T13:41:21.979642+00:00",
+   "built": "2026-11-17T13:41:21.979647+00:00",
+   "want_at": null,
+   "video": "media/pod-070d2a07f93c-12/clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Michael (Race Data Labs)"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "BUILDING 16 DEVICES BY HAND"
   },
   {
    "id": "pod-070d2a07f93c-11",
