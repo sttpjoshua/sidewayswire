@@ -16,7 +16,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller). Also verify the claim that Swiss circuit racing law changed this year.",
   "caption": "No tracks, decades of banned circuit racing, and drifters crossing borders every weekend. Rafael Muller on what it takes to drift from Switzerland. #drift #switzerland #grassrootsdrift #europeandrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 259.74,
@@ -25,7 +25,11 @@
    "why": "verrassende onthulling over de wet"
   },
   "wait_name": "v2-b5159f5c03f8-0-2429-2971.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 261.82, \"start\": 259.74, \"text\": \"NO RACE TRACKS IN SWITZERLAND?\", \"why\": \"verrassende onthulling over de wet\"}",
+  "made": "2026-11-17T15:18:19.446976+00:00"
  },
  {
   "start": 388.28,
@@ -43,7 +47,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "In Switzerland you need a separate trailer license to haul your drift car, and the order you hook it up matters. #drift #trailerlife #switzerland #driftlife",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 436.48,
@@ -52,7 +56,11 @@
    "why": "grappige clou in twee woorden"
   },
   "wait_name": "v2-b5159f5c03f8-1-3883-4389.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 438.9, \"start\": 436.48, \"text\": \"HOW DO YOU FAIL A TRAILER EXAM?\", \"why\": \"grappige clou in twee woorden\"}",
+  "made": "2026-11-17T15:19:18.251396+00:00"
  },
  {
   "start": 673.12,
@@ -71,7 +79,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "Two weeks after his driver license, Rafael Muller followed a stranger from a parking lot to a drift day in France. He had no idea what an LSD was. #drift #e36 #firstdriftday #grassrootsdrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 729.38,
@@ -80,7 +88,11 @@
    "why": "grappige onwetendheid, herkenbaar"
   },
   "wait_name": "v2-b5159f5c03f8-2-6731-7401.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 731.6, \"start\": 729.38, \"text\": \"WHAT'S AN LSD, AGAIN?\", \"why\": \"grappige onwetendheid, herkenbaar\"}",
+  "made": "2026-11-17T15:20:32.859799+00:00"
  },
  {
   "start": 903.16,

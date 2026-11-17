@@ -572,7 +572,7 @@
   "check": true,
   "check_reason": "'Villain Sports Land' is likely a garbled track name.",
   "caption": "Two years away, convinced the sport had rejected him. Then Matt Field drifted again and walked off into the field in tears.\n\n#formulad #drifting #mattfield #passion",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4289.29,
@@ -581,6 +581,10 @@
    "why": "emotionele piek"
   },
   "wait_name": "v2-8e09411f1d0d-18-42589-43118.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-8e09411f1d0d-18/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4292.27, \"start\": 4289.29, \"text\": \"WHAT HAPPENED AFTER TWO YEARS?\", \"why\": \"emotionele piek\"}",
+  "made": "2026-11-17T15:17:18.755298+00:00"
  }
 ]

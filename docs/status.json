@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T15:16:09.700260+00:00",
+ "updated": "2026-11-17T15:20:32.867571+00:00",
  "counts": {
   "ready": 102,
-  "draft": 61,
+  "draft": 65,
   "check": 26,
   "posted": 3
  },
@@ -2376,10 +2376,10 @@
       "topic": "SWITZERLAND'S RACING BAN IS OVER",
       "quote": "Being from Switzerland I found out at Tomodori that you guys do not have any race tracks and motorsports are completely illegal in the country. Well almost yeah like we don't have a race track and circuit racing was forbidden till now. Actually they changed the law this year. No way. Yeah so you could build a race track right now. What we have is like pretty cool hill climbs but like the hill climbs in Switzerland like nothing against them but it's like hard as a normal human you know like it's not easy access to be there. It's like the same old 50 drivers from like 30 years ago which like drive there. But other than that it's I would say yeah hard to do racing like even people who do like motocross they normally go to Italy or like we we go to like France for drifting",
       "why": "Swiss drifter explains a country with no race tracks where circuit racing was banned until this year.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-0/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2390,10 +2390,10 @@
       "topic": "THE SWISS TRAILER EXAM TRAP",
       "quote": "Yeah you need to do like a trailer license which is not I mean you just need to do it it's like a driver license but just for the trailer. Then he like back a trailer open stuff. Yeah yeah yeah I think I probably wouldn't have been able to get a trailer license for all. I mean yeah there is like if it's it's it's not hard it's just annoying to do because like you can get like a like a learning permit and you can drive for like two years and then you need to do like the exam and like I mean I drove around Europe with a trailer and like the exam you need to like it matters if you first you know like put the electric part on and then put the like the hitch it's called I feel. Yeah yeah yeah. You know like if you first do the hitch and then the electric part is already like oh no you know. You fail. Yeah you fail.",
       "why": "Swiss drifters need a special trailer license, and the exam can be failed on the order of plugging in.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-1/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -2404,10 +2404,10 @@
       "topic": "LICENSED 2 WEEKS, STRAIGHT TO TRACK",
       "quote": "I met him one or two days after I did my driver license randomly on a parking lot he was like shooting pictures of his e36 and I just had my new e30s I was feeling pretty cool you know I had my driver license and shit and he was like oh cool car and I was like yeah tomorrow I install coilovers on it and he was like if you need a hand like let me know and I actually fucked something up like my brake line you know I yeah I just fucked it up and I needed his help and he came over and he was like yeah you say like yesterday that you really like drifting and stuff I'm also interested and I checked last night that there's like a drift event in France should we just like go there and I was like yeah sure like and we went drifting I had my license for like two weeks I mean I didn't knew nothing like I bought the ticket to go drift there and he asked me like do you have an LSD and I was like what is an LSD right he was like yeah let's you know like let's hit that roundabout and I had actually I was lucky I had like OEM LSD with the winter package you know like e36",
       "why": "Origin story: two weeks after getting his license he drove seven hours to a French drift day without knowing what an LSD was.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-b5159f5c03f8-2/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4420,10 +4420,10 @@
       "topic": "WALKED INTO THE SUNSET CRYING",
       "quote": "Like I quit drifting for two full years. And I drove in the mountains every single night. But I was like this sport. I was like, it soured me entirely for my passion. And then when I finally when I got an opportunity to drive drift week and I built a C6, right? Through a set of knuckles on in the handbrake. When did drift week and met all my best friend, like the people that I love the most in this world. And then like, oh, where was I going with that? It was it. I literally got out of the car at Villain Sports Land because I had been lying to myself. I was like, I don't belong here. This sport obviously has rejected me like I don't. This is not my sport. And then when I finally went to Villain Sports Land and drifted again for the first time in like two years, like properly drifted. Then I like went back to my pits. I like just got in my car. Everybody's like, how was it? I was like, good. And I just walked off into the field like into the sunset. Just here, bawling. Because you know, yeah, I knew I was like, I do love this. And I am passionate about this.",
       "why": "After quitting for two years, Matt Field drifted again and walked off into the field in tears.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-8e09411f1d0d-18/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      }
     ]
@@ -9258,6 +9258,161 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-b5159f5c03f8-2",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two weeks after his driver license, Rafael Muller followed a stranger from a parking lot to a drift day in France. He had no idea what an LSD was.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #e36 #firstdriftday #grassrootsdrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 673.12
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:20:32.860868+00:00",
+   "built": "2026-11-17T15:20:32.860876+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-2/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "LICENSED 2 WEEKS, STRAIGHT TO TRACK"
+  },
+  {
+   "id": "pod-b5159f5c03f8-1",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "In Switzerland you need a separate trailer license to haul your drift car, and the order you hook it up matters.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #trailerlife #switzerland #driftlife #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 388.28
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:19:18.252453+00:00",
+   "built": "2026-11-17T15:19:18.252460+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-1/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE SWISS TRAILER EXAM TRAP"
+  },
+  {
+   "id": "pod-b5159f5c03f8-0",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "No tracks, decades of banned circuit racing, and drifters crossing borders every weekend. Rafael Muller on what it takes to drift from Switzerland.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #switzerland #grassrootsdrift #europeandrift #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@goodestcast",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 242.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:18:19.447943+00:00",
+   "built": "2026-11-17T15:18:19.447949+00:00",
+   "want_at": null,
+   "video": "media/pod-b5159f5c03f8-0/clip.mp4",
+   "tags": [
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [
+    "Rafael Muller"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SWITZERLAND'S RACING BAN IS OVER"
+  },
+  {
+   "id": "pod-8e09411f1d0d-18",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two years away, convinced the sport had rejected him. Then Matt Field drifted again and walked off into the field in tears.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #passion #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "At Gridlife Laguna",
+    "start": 4258.89
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:17:18.756432+00:00",
+   "built": "2026-11-17T15:17:18.756441+00:00",
+   "want_at": null,
+   "video": "media/pod-8e09411f1d0d-18/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@jako13",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "WALKED INTO THE SUNSET CRYING"
   },
   {
    "id": "pod-8e09411f1d0d-17",
