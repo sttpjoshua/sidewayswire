@@ -1,12 +1,15 @@
 {
- "phase": "model",
- "episode": null,
+ "phase": "download",
+ "episode": "8e09411f1d0d",
  "todo": [
   "8e09411f1d0d",
   "070d2a07f93c"
  ],
- "pct": null,
- "updated": "2026-11-17T08:30:46.806741+00:00",
+ "pct": 0.0,
+ "updated": "2026-11-17T08:30:48.965729+00:00",
  "started": "2026-11-17T08:30:41.348565+00:00",
- "run": "44047123362"
+ "run": "44047123362",
+ "title": "At Gridlife Laguna",
+ "podcast": "The Outerzone",
+ "episode_started": "2026-11-17T08:30:48.965711+00:00"
 }
