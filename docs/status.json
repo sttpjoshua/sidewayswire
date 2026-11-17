@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T09:35:27.339171+00:00",
+ "updated": "2026-11-17T13:11:15.811589+00:00",
  "counts": {
   "check": 7,
   "draft": 74,
@@ -1543,7 +1543,8 @@
       "status": "queued",
       "clip": "docs/media/pod-4ff63fdc1bd8-0/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      }
     ]
    },
@@ -1597,7 +1598,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-0/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 236.3,
@@ -1610,7 +1612,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-1/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 311.2,
@@ -1623,7 +1626,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-2/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 454.9,
@@ -1636,7 +1640,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-3/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 693.9,
@@ -1649,7 +1654,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-4/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 745,
@@ -1662,7 +1668,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-5/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 838.7,
@@ -1675,7 +1682,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-6/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1424.86,
@@ -1688,7 +1696,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-7/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1132.48,
@@ -1701,7 +1710,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-8/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1250,
@@ -1714,7 +1724,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-9/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1868.5,
@@ -1727,7 +1738,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-10/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1996.48,
@@ -1740,7 +1752,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-11/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2246.94,
@@ -1753,7 +1766,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-12/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2638.8,
@@ -1766,7 +1780,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-13/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3046.4,
@@ -1779,7 +1794,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-14/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3259.9,
@@ -1792,7 +1808,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-15/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3355.16,
@@ -1805,7 +1822,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-16/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3772.6,
@@ -1818,7 +1836,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-17/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3892.68,
@@ -1831,7 +1850,8 @@
       "status": "queued",
       "clip": "docs/media/pod-da5d8825120e-18/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      }
     ]
    },
@@ -1865,7 +1885,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-0/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1303.54,
@@ -1878,7 +1899,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-1/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1934.62,
@@ -1891,7 +1913,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-2/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2001.8,
@@ -1904,7 +1927,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-3/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2417.18,
@@ -1917,7 +1941,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-4/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2625.24,
@@ -1930,7 +1955,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-5/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2900.32,
@@ -1943,7 +1969,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-6/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3064.6,
@@ -1956,7 +1983,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-7/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3180.34,
@@ -1969,7 +1997,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-8/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3496.58,
@@ -1982,7 +2011,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-9/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3645.66,
@@ -1995,7 +2025,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-10/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3701.0,
@@ -2008,7 +2039,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-11/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3914.96,
@@ -2021,7 +2053,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-12/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3978.9,
@@ -2034,7 +2067,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-13/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 4317.32,
@@ -2047,7 +2081,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-14/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 4852.14,
@@ -2060,7 +2095,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-15/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 4924.31,
@@ -2073,7 +2109,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-16/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 5469.19,
@@ -2086,7 +2123,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-17/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 5586.95,
@@ -2099,7 +2137,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-18/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 5757.61,
@@ -2112,7 +2151,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-19/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 5973.01,
@@ -2125,7 +2165,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-20/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 6329.47,
@@ -2138,7 +2179,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-21/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 6519.13,
@@ -2151,7 +2193,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-22/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 6955.77,
@@ -2164,7 +2207,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-23/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 7184.35,
@@ -2177,7 +2221,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-24/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 7879.99,
@@ -2190,7 +2235,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-25/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 8175.73,
@@ -2203,7 +2249,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-26/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 8367.33,
@@ -2216,7 +2263,8 @@
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-27/clip.mp4",
       "mode": "audiogram",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      }
     ]
    },
@@ -2270,7 +2318,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 388.28,
@@ -2283,7 +2332,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 673.12,
@@ -2296,7 +2346,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 903.16,
@@ -2309,7 +2360,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1160.76,
@@ -2322,7 +2374,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1790.41,
@@ -2335,7 +2388,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2490.7,
@@ -2348,7 +2402,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2629.98,
@@ -2361,7 +2416,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2755.98,
@@ -2374,7 +2430,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2897.78,
@@ -2387,7 +2444,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2995.09,
@@ -2400,7 +2458,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3622.83,
@@ -2413,7 +2472,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4716.44,
@@ -2426,7 +2486,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5175.78,
@@ -2439,7 +2500,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5357.81,
@@ -2452,7 +2514,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5669.15,
@@ -2465,7 +2528,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5976.9,
@@ -2478,7 +2542,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 7276.13,
@@ -2491,7 +2556,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 7397.62,
@@ -2504,7 +2570,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 6955.38,
@@ -2517,7 +2584,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 8501.84,
@@ -2530,7 +2598,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 8869.04,
@@ -2543,7 +2612,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 9010.88,
@@ -2556,7 +2626,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 9248.6,
@@ -2569,7 +2640,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      }
     ]
    },
@@ -2603,7 +2675,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 192.88,
@@ -2616,7 +2689,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 246.4,
@@ -2629,7 +2703,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 331.96,
@@ -2642,7 +2717,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 456.42,
@@ -2655,7 +2731,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 601.76,
@@ -2668,7 +2745,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 668.48,
@@ -2681,7 +2759,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 708.8,
@@ -2694,7 +2773,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 767.1,
@@ -2707,7 +2787,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 848.38,
@@ -2720,7 +2801,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 960.74,
@@ -2733,7 +2815,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1024.2,
@@ -2746,7 +2829,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      }
     ]
    },
@@ -2780,7 +2864,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-0/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 5227.7,
@@ -2793,7 +2878,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-1/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 6420.78,
@@ -2806,7 +2892,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-2/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 7229.52,
@@ -2819,7 +2906,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-3/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 7795.66,
@@ -2832,7 +2920,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-4/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 7947.02,
@@ -2845,7 +2934,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-5/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 8043.2,
@@ -2858,7 +2948,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-6/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 8163.8,
@@ -2871,7 +2962,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-7/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 8209.46,
@@ -2884,7 +2976,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-8/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 8260.46,
@@ -2897,7 +2990,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-9/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 9333.98,
@@ -2910,7 +3004,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-10/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 9463.52,
@@ -2923,7 +3018,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-11/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 7789,
@@ -2936,7 +3032,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-12/clip.mp4",
       "mode": "split",
-      "wait_video": null
+      "wait_video": null,
+      "split": true
      },
      {
       "start": 3287,
@@ -2949,7 +3046,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-13/clip.mp4",
       "mode": "split",
-      "wait_video": null
+      "wait_video": null,
+      "split": true
      },
      {
       "start": 9163,
@@ -2962,7 +3060,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-14/clip.mp4",
       "mode": "split",
-      "wait_video": null
+      "wait_video": null,
+      "split": true
      },
      {
       "start": 8941,
@@ -2975,7 +3074,8 @@
       "status": "queued",
       "clip": "docs/media/pod-fd2026r8-15/clip.mp4",
       "mode": "split",
-      "wait_video": null
+      "wait_video": null,
+      "split": true
      }
     ]
    },
@@ -3009,7 +3109,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-0/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1222.36,
@@ -3022,7 +3123,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-1/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1353.7,
@@ -3035,7 +3137,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-2/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1462.98,
@@ -3048,7 +3151,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-3/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1553.64,
@@ -3061,7 +3165,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-4/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1682.7,
@@ -3074,7 +3179,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-5/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 1728.1,
@@ -3087,7 +3193,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-6/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2263.82,
@@ -3100,7 +3207,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-7/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2432.52,
@@ -3113,7 +3221,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-8/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2578.84,
@@ -3126,7 +3235,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-9/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2805.42,
@@ -3139,7 +3249,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-10/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2864.66,
@@ -3152,7 +3263,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-11/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 2935.1,
@@ -3165,7 +3277,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-12/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3169.74,
@@ -3178,7 +3291,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-13/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3297.42,
@@ -3191,7 +3305,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-14/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3534.11,
@@ -3204,7 +3319,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-15/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3590.65,
@@ -3217,7 +3333,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-16/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 3912.85,
@@ -3230,7 +3347,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-17/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 4206.23,
@@ -3243,7 +3361,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-18/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 4368.41,
@@ -3256,7 +3375,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-19/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 4539.07,
@@ -3269,7 +3389,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-20/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 4813.75,
@@ -3282,7 +3403,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-21/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 4902.27,
@@ -3295,7 +3417,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-22/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 5131.79,
@@ -3308,7 +3431,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-23/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      },
      {
       "start": 5256.05,
@@ -3321,7 +3445,8 @@
       "status": "queued",
       "clip": "docs/media/pod-6892a8b1e411-24/clip.mp4",
       "mode": "video",
-      "wait_video": null
+      "wait_video": null,
+      "split": false
      }
     ]
    },
@@ -3355,7 +3480,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 507.41,
@@ -3368,7 +3494,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 751.99,
@@ -3381,7 +3508,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 859.35,
@@ -3394,7 +3522,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 966.13,
@@ -3407,7 +3536,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1336.59,
@@ -3420,7 +3550,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1471.21,
@@ -3433,7 +3564,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1550.43,
@@ -3446,7 +3578,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1701.83,
@@ -3459,7 +3592,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1807.23,
@@ -3472,7 +3606,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1951.49,
@@ -3485,7 +3620,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2044.91,
@@ -3498,7 +3634,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      }
     ]
    },
@@ -3532,7 +3669,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 686.3,
@@ -3545,7 +3683,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 880.68,
@@ -3558,7 +3697,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 952.78,
@@ -3571,7 +3711,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1115.28,
@@ -3584,7 +3725,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2116.02,
@@ -3597,7 +3739,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2260.37,
@@ -3610,7 +3753,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2520.51,
@@ -3623,7 +3767,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2621.31,
@@ -3636,7 +3781,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2888.57,
@@ -3649,7 +3795,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3041.03,
@@ -3662,7 +3809,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3156.93,
@@ -3675,7 +3823,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3211.41,
@@ -3688,7 +3837,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3322.31,
@@ -3701,7 +3851,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3521.65,
@@ -3714,7 +3865,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3682.45,
@@ -3727,7 +3879,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3900.81,
@@ -3740,7 +3893,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3972.51,
@@ -3753,7 +3907,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4438.93,
@@ -3766,7 +3921,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4530.13,
@@ -3779,7 +3935,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4616.85,
@@ -3792,7 +3949,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4759.95,
@@ -3805,7 +3963,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4933.07,
@@ -3818,7 +3977,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5078.79,
@@ -3831,7 +3991,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5221.35,
@@ -3844,7 +4005,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5412.37,
@@ -3857,7 +4019,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5465.21,
@@ -3870,7 +4033,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 6065.91,
@@ -3883,7 +4047,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 6145.95,
@@ -3896,7 +4061,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 6403.71,
@@ -3909,7 +4075,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      }
     ]
    },
@@ -3943,7 +4110,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 470.46,
@@ -3956,7 +4124,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 643.2,
@@ -3969,7 +4138,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 988.7,
@@ -3982,7 +4152,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1290.88,
@@ -3995,7 +4166,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1651.38,
@@ -4008,7 +4180,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2027.16,
@@ -4021,7 +4194,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2106.98,
@@ -4034,7 +4208,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2746.96,
@@ -4047,7 +4222,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2795.04,
@@ -4060,7 +4236,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2845.02,
@@ -4073,7 +4250,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2908.54,
@@ -4086,7 +4264,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3047.82,
@@ -4099,7 +4278,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3122.1,
@@ -4112,7 +4292,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3248.76,
@@ -4125,7 +4306,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3603.47,
@@ -4138,7 +4320,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3699.13,
@@ -4151,7 +4334,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 3742.45,
@@ -4164,7 +4348,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4258.89,
@@ -4177,7 +4362,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      }
     ]
    },
@@ -4231,7 +4417,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 161.16,
@@ -4244,7 +4431,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 212.88,
@@ -4257,7 +4445,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 319.22,
@@ -4270,7 +4459,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 416.66,
@@ -4283,7 +4473,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 573.76,
@@ -4296,7 +4487,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 633.3,
@@ -4309,7 +4501,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 681.88,
@@ -4322,7 +4515,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 738.74,
@@ -4335,7 +4529,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 817.02,
@@ -4348,7 +4543,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 896.58,
@@ -4361,7 +4557,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      }
     ]
    },
@@ -4395,7 +4592,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 78.02,
@@ -4408,7 +4606,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 124.52,
@@ -4421,7 +4620,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 191.5,
@@ -4434,7 +4634,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 228.42,
@@ -4447,7 +4648,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 284.16,
@@ -4460,7 +4662,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 373.28,
@@ -4473,7 +4676,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 482.04,
@@ -4486,7 +4690,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 566.76,
@@ -4499,7 +4704,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 622.58,
@@ -4512,7 +4718,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 717.18,
@@ -4525,7 +4732,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      }
     ]
    },
@@ -4559,7 +4767,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1020.42,
@@ -4572,7 +4781,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1390.66,
@@ -4585,7 +4795,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1630.6,
@@ -4598,7 +4809,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1677.88,
@@ -4611,7 +4823,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 1797.12,
@@ -4624,7 +4837,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2015.06,
@@ -4637,7 +4851,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2162.04,
@@ -4650,7 +4865,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2873.04,
@@ -4663,7 +4879,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 2928.72,
@@ -4676,7 +4893,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4073.32,
@@ -4689,7 +4907,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4230.58,
@@ -4702,7 +4921,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 4651.41,
@@ -4715,7 +4935,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5084.45,
@@ -4728,7 +4949,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5175.73,
@@ -4741,7 +4963,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5269.85,
@@ -4754,7 +4977,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5332.43,
@@ -4767,7 +4991,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5423.13,
@@ -4780,7 +5005,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 5697.71,
@@ -4793,7 +5019,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 6011.35,
@@ -4806,7 +5033,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 6340.51,
@@ -4819,7 +5047,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 6535.95,
@@ -4832,7 +5061,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 7016.21,
@@ -4845,7 +5075,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 7380.38,
@@ -4858,7 +5089,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      },
      {
       "start": 7587.6,
@@ -4871,7 +5103,8 @@
       "status": "new",
       "clip": null,
       "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00"
+      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "split": false
      }
     ]
    }
@@ -4915,6 +5148,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "HIS LAST LAP IN FD"
   },
   {
@@ -4954,6 +5188,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "FAMOUS AT HOME DEPOT"
   },
   {
@@ -4993,6 +5228,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"GET RID OF QUALIFYING\""
   },
   {
@@ -5032,6 +5268,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"IF KIA MADE THE E36...\""
   },
   {
@@ -5071,6 +5308,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "FIX IT, DON'T RESHELL"
   },
   {
@@ -5110,6 +5348,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "A WHOLE COMP ON ONE PAIR OF TIRES"
   },
   {
@@ -5149,6 +5388,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "THE MILLION DOLLAR ROAD TO FD"
   },
   {
@@ -5188,6 +5428,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "WILL CHELSEA EVER JUDGE FD?"
   },
   {
@@ -5225,6 +5466,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "split",
    "title": "THE TITLE BATTLE, SIDE BY SIDE"
   },
   {
@@ -5264,6 +5506,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"THEY ALL BLOW UP\""
   },
   {
@@ -5301,6 +5544,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "SAVING RACE FUEL TO GET HOME"
   },
   {
@@ -5338,6 +5582,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "split",
    "title": "LEMAIRE VS RICHARDS"
   },
   {
@@ -5375,6 +5620,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "split",
    "title": "FIELD VS BEECHUM"
   },
   {
@@ -5412,6 +5658,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "split",
    "title": "ADAM LZ VS DEREK MADISON"
   },
   {
@@ -5449,6 +5696,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "TOMMY MIRRORS COLE"
   },
   {
@@ -5487,6 +5735,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "CHELSEA IN DRIFT MASTERS?"
   },
   {
@@ -5525,6 +5774,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "WALL RIDES BROKE THE FUEL CELL"
   },
   {
@@ -5562,6 +5812,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "LET FD RUN TUBULAR SUBFRAMES"
   },
   {
@@ -5599,6 +5850,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "WHY THE RTR MUSTANG IS HARD"
   },
   {
@@ -5636,6 +5888,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "STILL WAITING FOR AN APOLOGY"
   },
   {
@@ -5673,6 +5926,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"I WOULD DO IT AGAIN\""
   },
   {
@@ -5710,6 +5964,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"IF YOU WANT TO FIGHT, I WILL FIGHT YOU\""
   },
   {
@@ -5748,6 +6003,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"NO DISRESPECT, BUT...\""
   },
   {
@@ -5785,6 +6041,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "HE WON ORLANDO AND KNEW HE WAS DONE"
   },
   {
@@ -5822,6 +6079,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"DON'T TELL ME TO BE PATIENT\""
   },
   {
@@ -5859,6 +6117,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"I WOULD DRIVE LIKE A PSYCHO\""
   },
   {
@@ -5896,6 +6155,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"A NORMAL RUN SHOULD BE A 65\""
   },
   {
@@ -5933,6 +6193,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "62 DEGREES SHOULD BEAT 50"
   },
   {
@@ -5970,6 +6231,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "WHY FD IS SO HARD TO WIN"
   },
   {
@@ -6007,6 +6269,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "CHEVROLET IN FORMULA DRIFT?"
   },
   {
@@ -6044,6 +6307,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "NASCAR FRIENDS GET PAID TO SHOW UP"
   },
   {
@@ -6081,6 +6345,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "WHY DO DRIVERS PAY TO RACE FD?"
   },
   {
@@ -6118,6 +6383,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?"
   },
   {
@@ -6155,6 +6421,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "FACING JAMES DOES NOT CHANGE ANYTHING"
   },
   {
@@ -6192,6 +6459,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "THE NO-BEER SEASON BACKFIRED"
   },
   {
@@ -6229,6 +6497,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "HE PRACTISES HIS RUNS IN THE SAUNA"
   },
   {
@@ -6266,6 +6535,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"IT'S NEVER REALLY ENOUGH\""
   },
   {
@@ -6303,6 +6573,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "THE INSTRUCTOR KNEW HIM FROM A DRIFT VIDEO"
   },
   {
@@ -6340,6 +6611,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "SKYDIVING VS A GOOD CHASE"
   },
   {
@@ -6377,6 +6649,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "RACE DRIVERS LEARN TO DRIFT ON ICE"
   },
   {
@@ -6414,6 +6687,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "ICE DRIFTING ALMOST AS FAST AS ASPHALT"
   },
   {
@@ -6451,6 +6725,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL"
   },
   {
@@ -6488,6 +6763,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "THREE ENGINES IN ONE SEASON"
   },
   {
@@ -6525,6 +6801,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "WHY HE PICKED A C7 OVER A C6"
   },
   {
@@ -6562,6 +6839,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "80% SAID THE C7 WOULD FAIL"
   },
   {
@@ -6599,6 +6877,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "DOES A WHITE CAR CAUSE MORE CRASHES?"
   },
   {
@@ -6636,6 +6915,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "THE ORANGE LIVERY IN FD?"
   },
   {
@@ -6673,6 +6953,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "GREY WHEELS AND BLACK GLOVES HIDE CORRECTIONS"
   },
   {
@@ -6710,6 +6991,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "HIS ORANGE DEMO CAR IS 700 LBS HEAVIER"
   },
   {
@@ -6747,6 +7029,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "WHY THE CORVETTE MAKES TINY MISTAKES LOOK BIG"
   },
   {
@@ -6784,6 +7067,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "OFF-SEASON: NORWAY, ICE AND NEW WIRING"
   },
   {
@@ -6821,6 +7105,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "QUALIFYING SHOULD PAY MORE POINTS"
   },
   {
@@ -6858,6 +7143,7 @@
     "Keisuke Nagashima"
    ],
    "caption_by": null,
+   "format": null,
    "title": "BOUGHT AS A BARE SHELL"
   },
   {
@@ -6896,6 +7182,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "COULD HIROYA MINOWA RACE A US RALLY?"
   },
   {
@@ -6934,6 +7221,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"HE WAS GOING TO BE AN FD CHAMPION\""
   },
   {
@@ -6971,6 +7259,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"KEEP HATING ME, PLEASE\""
   },
   {
@@ -7008,6 +7297,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "BIG FD CHANGES COMING NEXT YEAR?"
   },
   {
@@ -7045,6 +7335,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\""
   },
   {
@@ -7082,6 +7373,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "OFF-SEASON? WHAT OFF-SEASON?"
   },
   {
@@ -7120,6 +7412,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "HE STARTED THE LEFT-FOOT TRICK"
   },
   {
@@ -7157,6 +7450,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "1,500 WHP AND NO NOS ALL YEAR"
   },
   {
@@ -7194,6 +7488,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "HIS CREW CHIEF DOES THE TESTING"
   },
   {
@@ -7232,6 +7527,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"JAMES BEATING US WAS THE BEST THING\""
   },
   {
@@ -7269,6 +7565,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"IF IT FAILS, MY AMERICAN JOURNEY IS OVER\""
   },
   {
@@ -7306,6 +7603,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "THE SECRET NUMBER SYSTEM"
   },
   {
@@ -7343,6 +7641,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT"
   },
   {
@@ -7380,6 +7679,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"ALMOST HAD YOU? BUT YOU DIDN'T\""
   },
   {
@@ -7417,6 +7717,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "\"YOU DRIVE HOW THE JUDGES TELL YOU\""
   },
   {
@@ -7454,6 +7755,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "ONE HAND ON THE TITLE, NOT BOTH"
   },
   {
@@ -7491,6 +7793,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "MUM'S KITCHEN TABLE RULE"
   },
   {
@@ -7528,6 +7831,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "THE TROPHY FLEW HOME IN A DRINKS CABINET"
   },
   {
@@ -7566,6 +7870,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "WIL 2018 JAMES DESTROY 2026 JAMES?"
   },
   {
@@ -7603,6 +7908,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "A BRICK ON THE GAS PEDAL"
   },
   {
@@ -7640,6 +7946,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "RYAN TUERCK'S TEARS MOTIVATED HIM"
   },
   {
@@ -7677,6 +7984,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "FD CHAMPION NEXT TO TWO DRIFT MASTERS TITLES"
   },
   {
@@ -7714,6 +8022,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "FROM KID WITH A DREAM TO CHAMPION"
   },
   {
@@ -7753,6 +8062,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "CONOR SHANAHAN IS THE 2026 FD CHAMPION"
   },
   {
@@ -7790,6 +8100,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "WHY THEY CALL HIM THE SHADOW"
   },
   {
@@ -7827,6 +8138,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "SHANAHAN LEADS FOR THE TITLE"
   },
   {
@@ -7864,6 +8176,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "RYAN TUERCK'S LAST EVER FD RUN"
   },
   {
@@ -7901,6 +8214,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "ODI TOO AGGRESSIVE?"
   },
   {
@@ -7938,6 +8252,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "FAILURE TO LAUNCH"
   },
   {
@@ -7975,6 +8290,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": "single",
    "title": "HOBSON GREW A TAIL"
   },
   {
@@ -8014,6 +8330,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND"
   },
   {
@@ -8053,6 +8370,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "C7 VS C6: NOT JUST A RESHELL"
   },
   {
@@ -8093,6 +8411,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "MATT IS NOT TRYING TO BE A VILLAIN"
   },
   {
@@ -8132,6 +8451,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "A MOUNTAIN INVITATIONAL NEXT YEAR?"
   },
   {
@@ -8171,6 +8491,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "DRIVERS HAD TO RAISE THEIR HANDS"
   },
   {
@@ -8210,6 +8531,7 @@
    ],
    "missing_handles": [],
    "caption_by": null,
+   "format": null,
    "title": "EX-PROS BACK IN PRO SPEC? TEAMS CALLING?"
   },
   {
@@ -8240,6 +8562,7 @@
    "tags": null,
    "missing_handles": null,
    "caption_by": null,
+   "format": null,
    "title": "FD 2026 FINAL STANDINGS"
   },
   {
@@ -8270,6 +8593,7 @@
    "tags": null,
    "missing_handles": null,
    "caption_by": null,
+   "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
   }
  ],

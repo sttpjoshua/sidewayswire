@@ -203,7 +203,7 @@ def run(limit: int = 120) -> dict:
                      or bool(m.get("check"))) and m.get("by") != "joshua"
             q.save({
                 "id": pid, "kind": "stream_clip" if ep.get("kind") == "stream" else "podcast_clip", "status": "draft", "slides": [], "title": m.get("topic"),
-                "video": str(out.relative_to(ROOT)), "caption": cap, "tags": tags, "missing_handles": missing,
+                "video": str(out.relative_to(ROOT)), "caption": cap, "tags": tags, "missing_handles": missing, "format": "split" if m.get("split") else "single",
                 "credit": m.get("credit"), "check": check,
                 "check_reason": ("livestream-clip: check jij eerst" if ep.get("kind") == "stream"
                                  else "gerucht uit een podcast" if m["kind"] == "rumor"

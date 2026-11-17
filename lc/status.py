@@ -26,7 +26,7 @@ def podcast_status() -> dict:
                                           "audio", "link", "art", "seconds", "error", "transcribed", "tries", "kind", "credit", "event")}
                    | {"has_transcript": (d / "t" / f"{e['id']}.txt").exists(),
                       "moments": [{k: m.get(k) for k in ("start", "end", "kind", "guest", "topic", "quote",
-                                                         "why", "status", "clip", "mode", "wait_video")} for m in moments]})
+                                                         "why", "status", "clip", "mode", "wait_video")} | {"split": bool(m.get("split"))} for m in moments]})
     feeds = {n: {k: f.get(k) for k in ("title", "episodes", "error", "ok")} for n, f in ix["feeds"].items()}
     return {"feeds": feeds, "episodes": eps}
 
@@ -45,7 +45,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         except Exception:
             return None
     keep = ("id", "kind", "status", "post_at", "posted_at", "caption", "media", "problems", "results", "credit",
-            "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video", "tags", "missing_handles", "caption_by")
+            "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video", "tags", "missing_handles", "caption_by", "format")
     status = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "counts": dict(Counter(p.get("status", "draft") for p in posts)),

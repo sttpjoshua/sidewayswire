@@ -13,6 +13,9 @@ nav.side a{display:flex;align-items:center;gap:10px;padding:11px 20px;text-decor
 nav.side a:hover{color:#fff;background:#18181a}nav.side a.on{color:#fff;border-color:var(--accent);background:#1b1b1d}
 nav.side a .cnt{margin-left:auto;background:var(--pink);color:#111;border-radius:10px;padding:1px 8px;font-size:11px}
 nav.side a .cnt:empty{display:none}
+nav.side .grp{padding:16px 20px 4px;font-size:10px;font-weight:800;letter-spacing:2px;color:#5b5b60}
+h2.cat{border-bottom:3px solid var(--accent);padding-bottom:6px}h2.cat.live{border-color:#ff7a00}h2.cat.battle{border-color:var(--pink)}h2.cat.posts{border-color:#4aa8ff}
+.tag.c-pod{background:var(--accent);color:#111}.tag.c-live{background:#ff7a00;color:#111}.tag.c-battle{background:var(--pink);color:#111}.tag.c-posts{background:#4aa8ff;color:#111}
 nav.side .foot{margin-top:auto;padding:14px 20px;font-size:11px;color:var(--mute);line-height:1.6}
 main{padding:26px 32px 80px;max-width:1300px;width:100%}
 h1,h2,h3,.n{font-family:"Bebas Neue",sans-serif;letter-spacing:1px;margin:0;font-weight:400}
@@ -85,7 +88,7 @@ section{display:none}section.on{display:block}
 @media(max-width:900px){
  .app{grid-template-columns:1fr}
  nav.side{position:fixed;bottom:0;top:auto;height:auto;width:100%;flex-direction:row;padding:0;z-index:10;border-right:none;border-top:2px solid #000;overflow-x:auto}
- nav.side img,nav.side .foot{display:none}nav.side a{padding:12px 12px;border-left:none;border-top:3px solid transparent;font-size:11px;white-space:nowrap}
+ nav.side img,nav.side .foot,nav.side .grp{display:none}nav.side a{padding:12px 12px;border-left:none;border-top:3px solid transparent;font-size:11px;white-space:nowrap}
  nav.side a.on{border-color:var(--accent)}
  main{padding:18px 14px 90px}.two{grid-template-columns:1fr}.rc{grid-template-columns:1fr}.rc .media{max-width:320px}
  .s{grid-template-columns:80px 1fr}.s .thumb{width:80px}
@@ -96,9 +99,15 @@ section{display:none}section.on{display:block}
   <img src="assets/woordmerk_kleur.svg" alt="Sideways Wire">
   <a href="#overzicht" data-s="overzicht">OVERZICHT</a>
   <a href="#beoordelen" data-s="beoordelen">BEOORDELEN <span class="cnt" id="c-rev"></span></a>
-  <a href="#clips" data-s="clips">CLIPS</a>
   <a href="#planning" data-s="planning">PLANNING</a>
-  <a href="#nieuws" data-s="nieuws">NIEUWS</a>
+  <div class="grp">REELS</div>
+  <a href="#clips/pod" data-s="clips" data-c="pod">PODCASTCLIPS <span class="cnt" id="c-pod"></span></a>
+  <a href="#clips/live" data-s="clips" data-c="live">LIVESTREAM <span class="cnt" id="c-live"></span></a>
+  <a href="#clips/battle" data-s="clips" data-c="battle">BATTLES <span class="cnt" id="c-battle"></span></a>
+  <div class="grp">POSTS</div>
+  <a href="#posts" data-s="posts">CARROUSELS <span class="cnt" id="c-posts"></span></a>
+  <a href="#nieuws" data-s="nieuws">NIEUWSBRONNEN</a>
+  <div class="grp">SYSTEEM</div>
   <a href="podcasts.html">STUDIO ↗</a>
   <a href="#kanalen" data-s="kanalen">KANALEN</a>
   <a href="#bronnen" data-s="bronnen">BRONNEN</a>
@@ -126,9 +135,15 @@ section{display:none}section.on{display:block}
 </section>
 
 <section id="s-clips">
-  <h1>CLIPS</h1><div class="sub">Alle gemaakte podcastclips. Momenten kiezen of aanpassen doe je in de <a href="podcasts.html">podcaststudio</a>.</div>
+  <h1 id="clip-h">REELS</h1><div class="sub" id="clip-sub"></div>
   <div class="filters" id="clip-f"></div>
   <div class="gal" id="gal"></div>
+</section>
+
+<section id="s-posts">
+  <h1>CARROUSELS EN POSTS</h1><div class="sub">Alle posts met beeld (nieuws, uitslagen, standen, seizoensoverzichten). Klik op een post om hem te beoordelen.</div>
+  <div class="filters" id="post-f"></div>
+  <div class="gal" id="pgal"></div>
 </section>
 
 <section id="s-planning">
@@ -165,6 +180,13 @@ section{display:none}section.on{display:block}
 const REPO="sttpjoshua/sidewayswire", API=`https://api.github.com/repos/${REPO}`;
 const ST={draft:"nieuw",check:"check nodig",approved:"goedgekeurd",ready:"ingepland",posted:"geplaatst",skipped:"overgeslagen",error:"fout"};
 const KIND={podcast_clip:"PODCASTCLIP",stream_clip:"LIVESTREAM",news:"NIEUWS",result:"UITSLAG",results:"UITSLAG",standings:"STAND",battle_reel:"BATTLE REEL",quote:"QUOTE",cover:"COVER",bracket:"BRACKET",zones:"ZONES",debate:"DEBAT",crash:"CRASH"};
+const CAT={pod:"PODCASTCLIPS",live:"LIVESTREAM",battle:"BATTLES",posts:"POSTS"};
+const CATSUB={pod:"Clips uit podcasts. Momenten kiezen of aanpassen doe je in de <a href=\"podcasts.html\">podcaststudio</a>.",
+  live:"Losse momenten uit de livestreams: battles, crashes, one more times, jury-calls en interviews.",
+  battle:"Split-screen battles: run 1 boven, run 2 onder. Eerst LEAD VS LEAD, dan CHASE VS CHASE.",
+  posts:"Posts en carrousels met beeld."};
+function cat(p){if(p.kind==="podcast_clip")return"pod";if(p.kind==="stream_clip")return p.format==="split"?"battle":"live";if(p.kind==="battle_reel")return"battle";return"posts"}
+const catTag=p=>`<span class="tag c-${cat(p)}">${CAT[cat(p)]}</span>`;
 const PLAT={instagram:"IG",facebook:"FB",tiktok:"TT",youtube:"YT"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const when=t=>t?new Date(t).toLocaleString("nl-NL",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}):"";
@@ -261,17 +283,19 @@ function drawOverview(){
 // ---------- beoordelen ----------
 let revFilter="ALLES";
 function drawReview(){
-  const R=toReview(), kinds=["ALLES",...new Set(R.map(p=>KIND[p.kind]||p.kind))];
-  document.getElementById("rev-f").innerHTML=kinds.map(k=>`<button class="${k===revFilter?"on":""}">${esc(k)}</button>`).join("");
-  const L=R.filter(p=>revFilter==="ALLES"||(KIND[p.kind]||p.kind)===revFilter).sort((a,b)=>needsCheck(b)-needsCheck(a)||String(a.created||"").localeCompare(String(b.created||"")));
+  const R=toReview(), cats=["ALLES",...Object.values(CAT).filter(c=>R.some(p=>CAT[cat(p)]===c))];
+  document.getElementById("rev-f").innerHTML=cats.map(k=>`<button class="${k===revFilter?"on":""}">${esc(k)} (${k==="ALLES"?R.length:R.filter(p=>CAT[cat(p)]===k).length})</button>`).join("");
+  const L=R.filter(p=>revFilter==="ALLES"||CAT[cat(p)]===revFilter).sort((a,b)=>Object.keys(CAT).indexOf(cat(a))-Object.keys(CAT).indexOf(cat(b))||needsCheck(b)-needsCheck(a)||String(a.created||"").localeCompare(String(b.created||"")));
+  let lastCat=null;
   rev.innerHTML=L.map(p=>{
+    const head=cat(p)!==lastCat?`<h2 class="cat ${cat(p)}">${CAT[cat(p)]} <small>${L.filter(x=>cat(x)===cat(p)).length} te beoordelen</small></h2>`:"";lastCat=cat(p);
     const m=p.video?[p.video]:(p.media||[]), v=isVid(m[0]||"");
     const ep=p.id.startsWith("pod-")?p.id.split("-")[1]:null;
-    return `<div class="rc ${needsCheck(p)?"chk":""}" id="r-${p.id}" data-id="${p.id}">
+    return head+`<div class="rc ${needsCheck(p)?"chk":""}" id="r-${p.id}" data-id="${p.id}">
       <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?`<video src="${esc(m[0])+ver(p)}" controls preload="metadata" playsinline></video>`:`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
         ${m.length>1?`<div class="nav"><button data-a="prev">‹</button><span class="tag" style="margin:4px 0">1/${m.length}</span><button data-a="next">›</button></div>`:""}</div>
       <div>
-        <div class="row"><span class="tag">${KIND[p.kind]||esc(p.kind)}</span>${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
+        <div class="row">${catTag(p)}${cat(p)==="posts"?`<span class="tag">${KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
         <h3 style="font-size:26px;margin-top:8px">${title(p)}</h3>
         ${needsCheck(p)?`<div class="why"><b>Waarom jij:</b> ${esc(p.check_reason||"deze soort post check jij altijd eerst")}</div>`:""}
         ${(p.problems||[]).length?`<div class="why">${p.problems.map(esc).join("<br>")}</div>`:""}
@@ -288,7 +312,7 @@ function drawReview(){
         </div>
       </div></div>`}).join("")||`<div class="empty">Niets te beoordelen. Nieuwe posts en clips verschijnen hier vanzelf.</div>`;
 }
-document.getElementById("rev-f").onclick=e=>{if(e.target.tagName==="BUTTON"){revFilter=e.target.textContent;drawReview()}};
+document.getElementById("rev-f").onclick=e=>{if(e.target.tagName==="BUTTON"){revFilter=e.target.textContent.replace(/ \(\d+\)$/,"");drawReview()}};
 rev.onclick=async e=>{
   const b=e.target.closest("button");if(!b)return;const card=b.closest(".rc"),id=card.dataset.id,p=posts().find(x=>x.id===id);
   if(b.dataset.a==="prev"||b.dataset.a==="next"){const box=card.querySelector(".media"),m=p.media||[];let i=(+box.dataset.i+(b.dataset.a==="next"?1:-1)+m.length)%m.length;box.dataset.i=i;box.querySelector("img").src=m[i];box.querySelector(".nav .tag").textContent=`${i+1}/${m.length}`;return}
@@ -313,10 +337,13 @@ rev.onclick=async e=>{
 
 // ---------- clips ----------
 let clipFilter="ALLES";
+let clipCat="pod";
 function drawClips(){
-  const C=posts().filter(p=>p.kind==="podcast_clip"||p.kind==="stream_clip"), F={"ALLES":()=>true,"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
+  document.getElementById("clip-h").textContent="REELS · "+CAT[clipCat];
+  document.getElementById("clip-sub").innerHTML=CATSUB[clipCat];
+  const C=posts().filter(p=>cat(p)===clipCat), F={"ALLES":()=>true,"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
   document.getElementById("clip-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===clipFilter?"on":""}">${k} (${C.filter(F[k]).length})</button>`).join("");
-  const making=((S.podcasts||{}).episodes||[]).reduce((n,e)=>n+e.moments.filter(m=>m.status==="new").length,0);
+  const making=((S.podcasts||{}).episodes||[]).filter(e=>(e.kind==="stream")===(clipCat!=="pod")).reduce((n,e)=>n+e.moments.filter(m=>m.status==="new"&&(clipCat==="pod"||!!m.split===(clipCat==="battle"))).length,0);
   const pn=CLIPNOW, busy=pn&&pn.phase==="clips"&&pn.total&&(Date.now()-new Date(pn.updated))<20*6e4;
   const left=busy&&pn.eta!=null?Math.max(1,Math.round((pn.eta-(Date.now()-new Date(pn.updated))/1000)/60)):null;
   gal.innerHTML=(busy?`<div class="banner" style="grid-column:1/-1;margin:0;border-color:var(--accent)"><b>Bezig met clips maken: ${pn.done+1} van ${pn.total}</b>${pn.remake?` (waarvan ${pn.remake} opnieuw in de nieuwe opmaak)`:""}${left?` · nog ongeveer ${left} min`:""}<br>Nu: ${esc(pn.podcast||"")} · ${esc(pn.topic||pn.title||"")}. Elke paar clips verschijnen hier de nieuwe versies.<div class="pbar" style="height:8px;background:#2c2c30;margin-top:8px"><i style="display:block;height:100%;background:var(--accent);width:${Math.round(100*pn.done/pn.total)}%"></i></div></div>`
@@ -326,6 +353,17 @@ function drawClips(){
       <div class="row" style="margin-top:8px">${["check","draft"].includes(p.status)?`<a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a>`:""}</div></div></div>`).join("")||(making?"":`<div class="empty">Nog geen clips.</div>`);
 }
 document.getElementById("clip-f").onclick=e=>{if(e.target.tagName==="BUTTON"){clipFilter=e.target.textContent.replace(/ \(\d+\)$/,"");drawClips()}};
+
+// ---------- posts ----------
+let postFilter="ALLES";
+function drawPosts(){
+  const C=posts().filter(p=>cat(p)==="posts"), F={"ALLES":()=>true,"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
+  document.getElementById("post-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===postFilter?"on":""}">${k} (${C.filter(F[k]).length})</button>`).join("");
+  pgal.innerHTML=C.filter(F[postFilter]).sort((a,b)=>String(b.created||"").localeCompare(String(a.created||""))).map(p=>{const m=p.media||[];
+    return `<a class="gc" href="#beoordelen/${p.id}" style="text-decoration:none;color:inherit">${m.length?`<img src="${esc(m[0])}" style="width:100%;display:block">`:`<div class="empty" style="aspect-ratio:4/5">Wordt gemaakt</div>`}
+      <div>${stTag(p)} <span class="tag">${KIND[p.kind]||esc(p.kind)}</span>${m.length>1?` <span class="muted">${m.length} slides</span>`:""}<br><b>${title(p)}</b><div class="cap">${esc(p.caption||"")}</div></div></a>`}).join("")||`<div class="empty">Nog geen posts.</div>`;
+}
+document.getElementById("post-f").onclick=e=>{if(e.target.tagName==="BUTTON"){postFilter=e.target.textContent.replace(/ \(\d+\)$/,"");drawPosts()}};
 
 // ---------- planning ----------
 let planFilter="KOMEND";
@@ -372,12 +410,14 @@ function drawSources(){
 function show(){
   const [s,id]=(location.hash.slice(1)||"overzicht").split("/");
   document.querySelectorAll("section").forEach(x=>x.classList.toggle("on",x.id==="s-"+s));
-  document.querySelectorAll("nav.side a[data-s]").forEach(a=>a.classList.toggle("on",a.dataset.s===s));
-  if(id){revFilter="ALLES";drawReview();setTimeout(()=>{const el=document.getElementById("r-"+id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})},50)}
+  document.querySelectorAll("nav.side a[data-s]").forEach(a=>a.classList.toggle("on",a.dataset.s===s&&(!a.dataset.c||a.dataset.c===id)));
+  if(s==="clips"){clipCat=CAT[id]?id:"pod";drawClips()}
+  else if(id){revFilter="ALLES";drawReview();setTimeout(()=>{const el=document.getElementById("r-"+id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})},50)}
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",show);
-function drawAll(){drawOverview();drawRuns();drawReview();drawClips();drawPlan();drawNews();drawChannels();drawSources();
+function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
+function drawAll(){drawOverview();drawRuns();drawReview();drawClips();drawPosts();drawCounts();drawPlan();drawNews();drawChannels();drawSources();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
   S=await fetch("status.json?"+Date.now()).then(r=>r.json());
