@@ -609,7 +609,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "New truck, closed trailer, fresh 265s every second lap, or a 10k car on a budget. Everyone spends everything they have on drifting. #drift #grassrootsdrift #driftlife #budgetdrift",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 7004.43,
@@ -618,7 +618,11 @@
    "why": "herkenbaar voor iedere drifter"
   },
   "wait_name": "v2-b5159f5c03f8-19-69554-70080.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7006.77, \"start\": 7004.43, \"text\": \"HOW MUCH OF YOUR PAY GOES TO DRIFT?\", \"why\": \"herkenbaar voor iedere drifter\"}",
+  "made": "2026-11-17T15:36:56.562526+00:00"
  },
  {
   "start": 8501.84,
@@ -637,7 +641,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller). 'Jimmy Yates' spelling from transcript; confirm.",
   "caption": "Palmer got asked to announce Final Bout. Rafael and a friend somehow sat at the judges' table all night and nobody stopped them. #drift #finalbout #grassrootsdrift #driftjudging",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 8557.62,
@@ -646,7 +650,11 @@
    "why": "ondeugend detail"
   },
   "wait_name": "v2-b5159f5c03f8-20-85018-85667.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-20/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8559.42, \"start\": 8557.62, \"text\": \"WHERE DID THEY SIT ALL NIGHT?\", \"why\": \"ondeugend detail\"}",
+  "made": "2026-11-17T15:38:06.393684+00:00"
  },
  {
   "start": 8869.04,
@@ -664,7 +672,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller).",
   "caption": "Cops at the entrance, a beer in hand, and a Wisconsin campsite lady who had never heard of covering your beer. A European at Final Bout. #drift #finalbout #wisconsin #roadtrip",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 8879.88,
@@ -673,7 +681,11 @@
    "why": "spannende confrontatie"
   },
   "wait_name": "v2-b5159f5c03f8-21-88690-89424.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-21/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8881.84, \"start\": 8879.88, \"text\": \"WHAT DID THE COP ASK HIM?\", \"why\": \"spannende confrontatie\"}",
+  "made": "2026-11-17T15:39:18.520660+00:00"
  },
  {
   "start": 9010.88,
@@ -691,7 +703,7 @@
   "check": true,
   "check_reason": "Guest surname transcribed as Mueller/Muller; confirm spelling (Muller vs Müller). Mentions a friend's rough period; check tone before posting.",
   "caption": "A tough year, a half-joking call and two weeks later Rafael Muller and his friend booked their first trip to Final Bout in the US. #drift #finalbout #roadtrip #driftfamily",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 9034.76,
@@ -700,7 +712,11 @@
    "why": "emotioneel begin"
   },
   "wait_name": "v2-b5159f5c03f8-22-90109-90778.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-b5159f5c03f8-22/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9037.3, \"start\": 9034.76, \"text\": \"HOW A JOKE CALL STARTED IT?\", \"why\": \"emotioneel begin\"}",
+  "made": "2026-11-17T15:40:26.033144+00:00"
  },
  {
   "start": 9248.6,
