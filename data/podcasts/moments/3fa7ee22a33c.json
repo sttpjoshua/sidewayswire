@@ -596,7 +596,7 @@
   "check": true,
   "check_reason": "Rumor; 'interclip' spelling of the series unverified",
   "caption": "Christian Cotrone said on The Outerzone that big things are brewing for Interclip with Formula DRIFT, but he can't say more yet. #FormulaDrift #Interclip #Drifting #DriveToSurvive",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4559.81,
@@ -605,7 +605,11 @@
    "why": "geheim, nieuwsgierig"
   },
   "wait_name": "v2-3fa7ee22a33c-19-45301-45779.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4561.69, \"start\": 4559.81, \"text\": \"IS INTERCLIP COMING BACK BIGGER?\", \"why\": \"geheim, nieuwsgierig\"}",
+  "made": "2026-11-17T14:27:48.005912+00:00"
  },
  {
   "start": 4616.85,
@@ -625,7 +629,7 @@
   "check": true,
   "check_reason": "Brandon assumed to be Brandon Scarpelli, Matt Field's manager",
   "caption": "Christian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime. #FormulaDrift #Interclip #Drifting #DriveToSurvive",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4666.33,
@@ -634,7 +638,11 @@
    "why": "indrukwekkend cijfer"
   },
   "wait_name": "v2-3fa7ee22a33c-20-46168-46754.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4669.11, \"start\": 4666.33, \"text\": \"DO FANS WATCH 40 MINUTE VIDEOS?\", \"why\": \"indrukwekkend cijfer\"}",
+  "made": "2026-11-17T14:29:00.346946+00:00"
  },
  {
   "start": 4759.95,
@@ -654,7 +662,7 @@
   "check": true,
   "check_reason": "Editor named as 'Loxie', assumed Loxley Lennox; spelling unverified",
   "caption": "Matt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras. #FormulaDrift #MattField #Interclip #Filmmaking",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4759.95,
@@ -663,7 +671,11 @@
    "why": "compliment aan Matt"
   },
   "wait_name": "v2-3fa7ee22a33c-21-47600-48121.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4763.51, \"start\": 4759.95, \"text\": \"HOW GOOD IS MATT ON CAMERA?\", \"why\": \"compliment aan Matt\"}",
+  "made": "2026-11-17T14:30:04.731702+00:00"
  },
  {
   "start": 4933.07,
@@ -681,7 +693,7 @@
   "photo_hint": "Matt Field on the podium",
   "check": false,
   "caption": "Interclip is cutting one big episode on Christian Cotrone's rounds two to four, and Matt Field's podium round is up next. #FormulaDrift #Interclip #MattField #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 4968.23,
@@ -690,7 +702,11 @@
    "why": "grappige zelfspot"
   },
   "wait_name": "v2-3fa7ee22a33c-22-49331-49740.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4971.87, \"start\": 4968.23, \"text\": \"WHY DID THEY NEED A WIN?\", \"why\": \"grappige zelfspot\"}",
+  "made": "2026-11-17T14:30:57.880288+00:00"
  },
  {
   "start": 5078.79,

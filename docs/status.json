@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:26:44.751334+00:00",
+ "updated": "2026-11-17T14:30:57.886811+00:00",
  "counts": {
   "ready": 103,
   "check": 27,
   "posted": 3,
-  "draft": 8
+  "draft": 12
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -3993,10 +3993,10 @@
       "topic": "BIG INTERCLIP NEWS COMING?",
       "quote": "I think all it truly comes down to it was like, of course we want to always elevate. Right. Like we all want to come out next year, like swinging. Um, of course it just comes down to. Funding and getting the right partners involved. Um, and so we're definitely in that process. Like again, we just want to elevate it and put the right people in place, but there's some pretty big, uh, things brewing on the interclip side, uh, along with formula drift that, uh, uh, we can't say just yet, but things, things are bubbling, so we're really, we're really excited. Um, hopefully these things really kind of go through. Um, and we want to grow, like the whole point of the series is like a drive to survive type of series.",
       "why": "He hints at something big brewing between Interclip and Formula DRIFT.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-19/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4007,10 +4007,10 @@
       "topic": "DRIFT NEEDS DRIVE TO SURVIVE",
       "quote": "I think drifting needs it. I think it will help with, um, the fan base. I think F1 got a huge, uh, uptick in, you know, fans after all that came out. Cause then the day then you can be, you can relate to the drivers, you know, and you can see what they're going and dealing with. Um, you can see how they handle these situations. Um, and I think it's super powerful. It's just, we are, uh, we're slowly starting to see, you know, kind of a wave of some guys trying it as well. Right. The longer form type of content. And that was such a big thing where we had a pitch to Matt and Brandon of like, it's going to be long form. It's not going to be like the snappy stuff, but like the viewer count and the watch time like speaks for itself. Like these are 40 minute videos and people are watching, you know, 98 % of the video. Like it's, it's insane. And so kind of like that really speaks for itself. It shows us, Hey, there is a demand.",
       "why": "Their 40 minute videos keep viewers for 98 percent of the runtime.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-20/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4021,10 +4021,10 @@
       "topic": "A WEEK PER EPISODE",
       "quote": "Matt's Matt's insane though. That man can riff off. And I'm like, Oh, just like, you know, partner bits of like, say this, say that. Like we just like tell him, and then he just like just nails it. I'm like, yeah, that's just like, and that comes with the experience, right? And all the years of doing that and being camera ready. Uh, but yeah, these interviews take a long time and just like the whole editing process, uh, the amount of time that Loxie will take for these edits. Uh, it's like a full week essentially. Um, and so it just takes a lot, um, from everything down to sound design for each and every clip and, and, and sinking of, uh, 12 cameras, you know, like everything is like time coded and go across the board so we can see what camera at what time, so we know we can pull it.",
       "why": "Matt Field nails every line, but each edit takes a week with 12 synced cameras.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-21/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4035,10 +4035,10 @@
       "topic": "COTRONE EPISODE COMING",
       "quote": "Uh, but they are, um, cooking up an episode that covers around two, three, and four of mine. So we have, of course, yeah. So we have the first round out in Atlanta, just kind of showcasing like how rough that round was, uh, and then we're going to have just like one big, uh, episode for myself here coming out in the next few weeks. So, uh, we're cranking out Matt's last round video and that should be going live this week and the weekend. So obviously on the podium. Uh, so we're super excited about that. Uh, I was just like, man, we got to get a win because no one wants to watch the same thing, dude blow the door up every round. And it's just like, we'll be back next round.",
       "why": "An Interclip episode on his rounds two to four is coming, plus Matt Field's podium video.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-22/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,165 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-22",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Interclip is cutting one big episode on Christian Cotrone's rounds two to four, and Matt Field's podium round is up next.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #Interclip #MattField #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 4933.07
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:30:57.881286+00:00",
+   "built": "2026-11-17T14:30:57.881294+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-22/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "COTRONE EPISODE COMING"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-21",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Interclip #Filmmaking #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 4759.95
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:30:04.732732+00:00",
+   "built": "2026-11-17T14:30:04.732739+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-21/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Loxley Lennox"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "A WEEK PER EPISODE"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-20",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #Interclip #Drifting #DriveToSurvive #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 4616.85
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:29:00.347922+00:00",
+   "built": "2026-11-17T14:29:00.347931+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-20/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [
+    "Brandon Scarpelli"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DRIFT NEEDS DRIVE TO SURVIVE"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-19",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone said on The Outerzone that big things are brewing for Interclip with Formula DRIFT, but he can't say more yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Interclip #Drifting #DriveToSurvive #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 4530.13
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:27:48.008627+00:00",
+   "built": "2026-11-17T14:27:48.008634+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-19/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BIG INTERCLIP NEWS COMING?"
   },
   {
    "id": "pod-3fa7ee22a33c-18",
