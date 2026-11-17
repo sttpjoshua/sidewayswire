@@ -725,7 +725,7 @@
   "check": true,
   "check_reason": "Spotter name garbled as 'chow'; Interclip crew names Jacob and Loxley unverified",
   "caption": "Interclip records Matt Field's team comms, and Christian Cotrone says the spotter can be brutal. It works for them. #FormulaDrift #MattField #Spotter #Drifting",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5127.07,
@@ -734,7 +734,11 @@
    "why": "nieuwsgierig naar comms"
   },
   "wait_name": "v2-3fa7ee22a33c-23-50788-51319.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-23/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5129.23, \"start\": 5127.07, \"text\": \"HOW HARSH IS MATT'S SPOTTER?\", \"why\": \"nieuwsgierig naar comms\"}",
+  "made": "2026-11-17T14:32:02.487279+00:00"
  },
  {
   "start": 5221.35,
@@ -751,7 +755,7 @@
   "photo_hint": "Christian Cotrone on grid",
   "check": false,
   "caption": "Business, FD rookie year, a docuseries and a second kid born between rounds two and three. Christian Cotrone on staying locked in. #FormulaDrift #PROSPEC #Drifting #Mindset",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5224.73,
@@ -760,7 +764,11 @@
    "why": "persoonlijk nieuws"
   },
   "wait_name": "v2-3fa7ee22a33c-24-52214-52928.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5228.29, \"start\": 5224.73, \"text\": \"HOW DID HE HANDLE ROUNDS TWO AND THREE?\", \"why\": \"persoonlijk nieuws\"}",
+  "made": "2026-11-17T14:33:23.969285+00:00"
  },
  {
   "start": 5412.37,
@@ -776,7 +784,7 @@
   ],
   "check": false,
   "caption": "Christian Cotrone works with a sports psychologist and says learning to breathe changed his life. #FormulaDrift #Mindset #Drifting #SportsPsychology",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5432.75,
@@ -785,7 +793,11 @@
    "why": "verrassende bekentenis"
   },
   "wait_name": "v2-3fa7ee22a33c-25-54124-54428.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-25/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5435.97, \"start\": 5432.75, \"text\": \"WHAT WAS HE NEVER TAUGHT?\", \"why\": \"verrassende bekentenis\"}",
+  "made": "2026-11-17T14:34:03.935751+00:00"
  },
  {
   "start": 5465.21,
@@ -802,7 +814,7 @@
   "photo_hint": "Christian Cotrone in the car",
   "check": false,
   "caption": "Christian Cotrone visualizes the judges pointing to him before every battle. Result: zero nerves all year. #FormulaDrift #Mindset #Drifting #PROSPEC",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 5484.81,
@@ -811,7 +823,11 @@
    "why": "sterke uitspraak"
   },
   "wait_name": "v2-3fa7ee22a33c-26-54652-55000.mp4",
-  "wait_video": "2026-11-17T09:35:27.125774+00:00"
+  "clip": "docs/media/pod-3fa7ee22a33c-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5487.93, \"start\": 5484.81, \"text\": \"HOW DOES A ROOKIE STAY CALM?\", \"why\": \"sterke uitspraak\"}",
+  "made": "2026-11-17T14:34:50.808801+00:00"
  },
  {
   "start": 6065.91,

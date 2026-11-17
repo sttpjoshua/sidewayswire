@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T14:30:57.886811+00:00",
+ "updated": "2026-11-17T14:34:50.816956+00:00",
  "counts": {
   "ready": 103,
   "check": 27,
   "posted": 3,
-  "draft": 12
+  "draft": 16
  },
  "collected": "2026-11-17T14:16:38.821618+00:00",
  "instagram": false,
@@ -4049,10 +4049,10 @@
       "topic": "INSIDE MATT FIELD'S COMMS",
       "quote": "Like we get to record all Matt's like teams comms. And so like, man, the editing on that has got to be wild. Oh my God. It's just, it's just funny. Cause like Jacob and Loxley, like they have, uh, you know, uh, ear whatever so they can hear everything just from their comms. Then we're recording that to basically and time coding that as well. And so we have all that, but man, like the stuff that they say and like how they just operate and flow throughout the day, it's like, I, you can listen to that stuff alone and it'd be like the best content ever. So it's just kind of going that extra level and, and, and that's the stuff that you're not going to hear or see anywhere else. Yeah. And so like having that and being like, this is what chow his spotters saying to him in this moment and stuff like that. Like he can be so brutal to Matt, like, but it's, it's, it works for them.",
       "why": "They record Matt Field's team radio, and the spotter can be brutal.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-23/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4063,10 +4063,10 @@
       "topic": "NEW BABY MID-SEASON",
       "quote": "Brother on top of that, I also, we had our second kid in between rounds two and three. Yeah. So I was told, I was like asked a ton of the end of the year, like, how are you going to operate your business, FD program, new kid, all the interclip stuff? Like, I'm just like, I'm the type of guy that's just like loaded up, you know, I might get through it. And I think just the motivation that keeps me going is that I'm able to do it. And I want to prove that I can do it and being able to like overcome whatever tasks is in front of me. I'm big on just mental performance, spend a lot of time and money on, on that stuff to get my mindset right. Um, and it trickles from, you know, business all the way down to FD. And it just, I walk in like, that's it. Like you, if you see me on grid, like I'm not the guy that's like out of my car, shooting the shit with every other driver right before we go on practice. Like I'm locked into my seat. I have everything, you know, I have my cool suit on. I have my earbuds in like I'm locked in and looking forward.",
       "why": "His second kid arrived between rounds two and three of his rookie FD year.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-24/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4077,10 +4077,10 @@
       "topic": "FD DRIVER'S SECRET WEAPON",
       "quote": "Yeah, I think sleep is number one, but also I work with a sports psychologist. Oh, nice. So having my mindset, but more so keeping me level minded and like saying certain things to myself when I need to say things, then even to practice breathing, like that was something where I was never taught how to properly breathe. And I was like, it sounds so woo woo and dumb, but it is one of the most life -changing things you can learn.",
       "why": "He works with a sports psychologist and calls learning to breathe life-changing.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-25/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null,
       "split": false
      },
      {
@@ -4091,10 +4091,10 @@
       "topic": "NO NERVES ALL YEAR",
       "quote": "Um, visualizing, like I visualize over and over and over again, the run, I visualize me winning the battle. I visualize the guy pointing to me, you got the win, like that type of stuff. And so when I do get in that position, I feel like I've already been there. And so all the, like I had no nerves whatsoever all year. And like, it's because I mentally prepared myself to be in that position, to be in that seat, especially with the SIM helping out of like literally seeing everything and knowing, okay, this is where I'm going to be.",
       "why": "He visualizes winning every battle so he had zero nerves as an FD rookie.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-17T09:35:27.125774+00:00",
+      "status": "queued",
+      "clip": "docs/media/pod-3fa7ee22a33c-26/clip.mp4",
+      "mode": "video",
+      "wait_video": null,
       "split": false
      },
      {
@@ -9258,6 +9258,159 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-26",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone visualizes the judges pointing to him before every battle. Result: zero nerves all year.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Mindset #Drifting #PROSPEC #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 5465.21
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:34:50.809737+00:00",
+   "built": "2026-11-17T14:34:50.809744+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-26/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "NO NERVES ALL YEAR"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-25",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone works with a sports psychologist and says learning to breathe changed his life.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Mindset #Drifting #SportsPsychology #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 5412.37
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:34:03.936751+00:00",
+   "built": "2026-11-17T14:34:03.936760+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-25/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FD DRIVER'S SECRET WEAPON"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-24",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Business, FD rookie year, a docuseries and a second kid born between rounds two and three. Christian Cotrone on staying locked in.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Drifting #Mindset #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 5221.35
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:33:23.970417+00:00",
+   "built": "2026-11-17T14:33:23.970427+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-24/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "NEW BABY MID-SEASON"
+  },
+  {
+   "id": "pod-3fa7ee22a33c-23",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Interclip records Matt Field's team comms, and Christian Cotrone says the spotter can be brutal. It works for them.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Spotter #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 5078.79
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:32:02.488297+00:00",
+   "built": "2026-11-17T14:32:02.488307+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-23/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "INSIDE MATT FIELD'S COMMS"
   },
   {
    "id": "pod-3fa7ee22a33c-22",
