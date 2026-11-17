@@ -139,7 +139,7 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Don't tell Chelsea DeNofa to be patient. And when he finally stayed five feet back, everyone crashed into him. 😂\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2635.78,
@@ -148,7 +148,11 @@
    "why": "de clou van het verhaal"
   },
   "wait_name": "v2-1298fd1c600b-5-26252-26743.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-5/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2640.95, \"start\": 2635.78, \"text\": \"NEVER TELL CHELSEA TO BE PATIENT\", \"why\": \"de clou van het verhaal\"}",
+  "made": "2026-11-17T01:13:54.307937+00:00"
  },
  {
   "start": 2900.32,
@@ -161,7 +165,7 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Chelsea DeNofa won in Orlando in 2023 and felt nothing. That's when he knew his FD career was over.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 2904.22,
@@ -170,7 +174,11 @@
    "why": "de clou van het verhaal"
   },
   "wait_name": "v2-1298fd1c600b-6-29003-29580.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-6/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2906.51, \"start\": 2904.22, \"text\": \"WHY QUIT RIGHT AFTER A WIN?\", \"why\": \"de clou van het verhaal\"}",
+  "made": "2026-11-17T01:15:06.019705+00:00"
  },
  {
   "start": 3064.6,
@@ -183,7 +191,7 @@
   "credit": "@formulad",
   "check": false,
   "caption": "Vaughn Gittin Jr. told Chelsea DeNofa to watch his runs. Chelsea's answer: no disrespect, but I'm about to disrespect you.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #rtr #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3068.74,
@@ -192,7 +200,11 @@
    "why": "de clou van het verhaal"
   },
   "wait_name": "v2-1298fd1c600b-7-30646-30922.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-7/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3070.83, \"start\": 3068.74, \"text\": \"WHAT CHELSEA TOLD HIS TEAMMATE\", \"why\": \"de clou van het verhaal\"}",
+  "made": "2026-11-17T01:15:50.715280+00:00"
  },
  {
   "start": 3180.34,
@@ -230,7 +242,7 @@
   "credit": "@formulad",
   "check": true,
   "caption": "Chelsea DeNofa tells his side of the infamous hood-pin rerun in New Jersey: what you could not see on the video.\n\nFull episode: The Outerzone, the official Formula DRIFT podcast @formulad @chelseadenofa\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
-  "status": "new",
+  "status": "queued",
   "by": "editor",
   "hook": {
    "start": 3520.38,
@@ -239,7 +251,11 @@
    "why": "de clou van het verhaal"
   },
   "wait_name": "v2-1298fd1c600b-9-34966-35481.mp4",
-  "wait_video": "2026-11-16T21:33:35.814011+00:00"
+  "clip": "docs/media/pod-1298fd1c600b-9/clip.mp4",
+  "mode": "audiogram",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3522.77, \"start\": 3520.38, \"text\": \"IT ALMOST GOT PHYSICAL IN FD\", \"why\": \"de clou van het verhaal\"}",
+  "made": "2026-11-17T01:17:01.119441+00:00"
  },
  {
   "start": 3645.66,

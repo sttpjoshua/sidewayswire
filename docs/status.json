@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T01:12:43.855461+00:00",
+ "updated": "2026-11-17T01:17:01.125114+00:00",
  "counts": {
   "check": 7,
-  "draft": 58,
+  "draft": 62,
   "ready": 11
  },
  "collected": "2026-11-16T23:54:06.460615+00:00",
@@ -1902,10 +1902,10 @@
       "topic": "\"DON'T TELL ME TO BE PATIENT\"",
       "quote": "Yeah, because patience is one of those words. It's like, you know, like like if you're a girlfriend or wife is mad at you or something and you're like, are you OK? That's what the word patience is like. Whenever someone says, hey, be patient, I'm like. It's a no trigger. Good to know. You know, like restraint is different. It's like, oh, if I just like five foot, I'll just win. Just beat everybody. Yeah. And then what happens is when I do that and this happened, like once I decided I was like the last year I'm done, I decided like how to win. And I was like, OK, how do I always was like, well, I'm always right there and I always get bummed because people in front of me do something or they don't do what I expected or whatever. I tap them, I lose. And then I'm mad. So I'm like, whatever. So I just five feet and just five feet. And then everyone just smashed into me all year after that. I was getting hit left and right.",
       "why": "Patience is a trigger word; it's restraint. When he stayed five feet back, everybody hit him instead.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-5/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 2900.32,
@@ -1915,10 +1915,10 @@
       "topic": "HE WON ORLANDO AND KNEW HE WAS DONE",
       "quote": "But anyways, with back to the 2023 thing in Orlando, I won and I was like, I'm done. I didn't even care that I won. I was like I had to drive away like and I had to do a thing. And like what I'm like, this ain't for me anymore. Like I had just reached the point where I'm like, I cannot locate the fun anymore. And like that's going to sound stupid because you're like a thousand horsepower car. And I'm like, but like there there I could. I was like going and driving my T.I. and my parking lot and being like, this is more fun than going to F.D. Like that might sound crazy to everybody because they aspire to it. But like it's just so much effort per lap. Yeah. And so much time and so many things have to align. And everybody's trying really hard. And like your best friend like hates you for like on the track. You know, something happened or whatever. And like it's just so competitive. And I'm like, that's like drifting should just be fun. And the competition should be like, oh, we're going to compete to see who did better today. Like, let's have fun.",
       "why": "Won Orlando 2023 and did not even care. Parking lot drifting felt more fun than FD.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-6/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 3064.6,
@@ -1928,10 +1928,10 @@
       "topic": "\"NO DISRESPECT, BUT...\"",
       "quote": "And I remember telling him, I was like, hey, man, no disrespect. Most Philly thing ever. No disrespect. But I'm about to disrespect. Yeah. Yeah. If I have to drive like you, I'm going to go home and never come back. Yeah. Because I was like, that's your thing. You like doing that. That's your process. That's what you like. I don't like any of that. You know, like I don't like and Von knows this. I don't like the style. I don't like the set up. I don't like the chases. I don't like the thing. I'm like, but I but I get it. Yeah, I see it. I know why you win.",
       "why": "What he told Vaughn when asked to watch his runs: if I have to drive like you I'm going home.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-7/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 3180.34,
@@ -1954,10 +1954,10 @@
       "topic": "\"IF YOU WANT TO FIGHT, I WILL FIGHT YOU\"",
       "quote": "So I'm like, dude, I try to like call five. I try to do this stuff. I go talk to the judges. I tell them like, yo, and then I'm like rolling back and I see Stuki like pulling out and I'm like, I let him have it, you know. And he's like, no, my guys, my guys. And I'm like, OK, I go over there. And his guys are like standing there like kind of threatening pose, have things in their hands and stuff. But you can't see this in the video. Yeah. That's why I'm like, yo, if you want to fight, I will fight you. Oh, like. I'm like, that's if that's what you're, you know, if that's what you're showing me right now. Right. Like, I don't care. Like this is like one of my things. I'm like, I will fight you. I don't care. Even if you're going to kick my ass, it doesn't matter. Because when if we fight each other, this is going to solve something. Yeah. Second Philly. Yeah. The Phillies coming. Well, it's like I go into a fight. No, I'm going to lose. I don't care. Yeah. But it's getting. Yeah. Whatever is happening is getting resolved.",
       "why": "His side of the New Jersey hood-pin rerun drama. Opponent name unclear in transcript, check.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
-      "wait_video": "2026-11-16T21:33:35.814011+00:00"
+      "status": "queued",
+      "clip": "docs/media/pod-1298fd1c600b-9/clip.mp4",
+      "mode": "audiogram",
+      "wait_video": null
      },
      {
       "start": 3645.66,
@@ -3362,6 +3362,155 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-1298fd1c600b-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa tells his side of the infamous hood-pin rerun in New Jersey: what you could not see on the video.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3496.58
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:17:01.120622+00:00",
+   "built": "2026-11-17T01:17:01.120628+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-9/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"IF YOU WANT TO FIGHT, I WILL FIGHT YOU\""
+  },
+  {
+   "id": "pod-1298fd1c600b-7",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Vaughn Gittin Jr. told Chelsea DeNofa to watch his runs. Chelsea's answer: no disrespect, but I'm about to disrespect you.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @vaughngittinjr @jako13\n\n#formulad #formuladrift #rtr #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3064.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:15:50.716362+00:00",
+   "built": "2026-11-17T01:15:50.716367+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-7/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@vaughngittinjr",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"NO DISRESPECT, BUT...\""
+  },
+  {
+   "id": "pod-1298fd1c600b-6",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa won in Orlando in 2023 and felt nothing. That's when he knew his FD career was over.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 2900.32
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:15:06.020880+00:00",
+   "built": "2026-11-17T01:15:06.020884+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-6/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "HE WON ORLANDO AND KNEW HE WAS DONE"
+  },
+  {
+   "id": "pod-1298fd1c600b-5",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Don't tell Chelsea DeNofa to be patient. And when he finally stayed five feet back, everyone crashed into him. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 2625.24
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:13:54.309078+00:00",
+   "built": "2026-11-17T01:13:54.309082+00:00",
+   "want_at": null,
+   "video": "media/pod-1298fd1c600b-5/clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "\"DON'T TELL ME TO BE PATIENT\""
   },
   {
    "id": "pod-1298fd1c600b-3",
