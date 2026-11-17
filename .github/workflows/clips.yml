@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: "11 */3 * * *"      # safety net
 concurrency: { group: clips, cancel-in-progress: false }
-permissions: { contents: write }
+permissions: { contents: write, actions: write }
 jobs:
   clips:
     runs-on: ubuntu-latest
