@@ -1,17 +1,19 @@
 {
- "phase": "transcribe",
+ "phase": "saved",
  "episode": "8e09411f1d0d",
  "todo": [
-  "8e09411f1d0d",
   "070d2a07f93c"
  ],
- "pct": 0.887,
- "updated": "2026-11-17T08:41:18.589095+00:00",
+ "pct": 1.0,
+ "updated": "2026-11-17T08:42:28.745156+00:00",
  "started": "2026-11-17T08:30:41.348565+00:00",
  "run": "44047123362",
  "title": "At Gridlife Laguna",
  "podcast": "The Outerzone",
  "episode_started": "2026-11-17T08:30:48.965711+00:00",
  "duration": 4457.592,
- "transcribe_started": "2026-11-17T08:31:06.640000+00:00"
+ "transcribe_started": "2026-11-17T08:31:06.640000+00:00",
+ "finished": [
+  "8e09411f1d0d"
+ ]
 }
