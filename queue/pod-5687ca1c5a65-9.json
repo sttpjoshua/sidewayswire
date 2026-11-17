@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-9",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "JAMES DEANE ON 9-YEAR-OLD CONOR",
  "video": "docs/media/pod-5687ca1c5a65-9/clip.mp4",
@@ -29,9 +29,5 @@
   "start": 848.38
  },
  "created": "2026-11-17T14:57:25.781454+00:00",
- "built": "2026-11-17T18:09:52.838055+00:00",
- "media": [
-  "docs/media/pod-5687ca1c5a65-9/clip.mp4"
- ],
- "problems": []
+ "built": "2026-11-17T18:43:34.806067+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-23",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "INSIDE MATT FIELD'S COMMS",
  "video": "docs/media/pod-3fa7ee22a33c-23/clip.mp4",
@@ -29,9 +29,5 @@
   "start": 5078.79
  },
  "created": "2026-11-17T14:32:02.488297+00:00",
- "built": "2026-11-17T18:09:52.782394+00:00",
- "media": [
-  "docs/media/pod-3fa7ee22a33c-23/clip.mp4"
- ],
- "problems": []
+ "built": "2026-11-17T18:39:45.167289+00:00"
 }

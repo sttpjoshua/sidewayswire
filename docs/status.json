@@ -1,9 +1,10 @@
 {
- "updated": "2026-11-17T18:09:53.290568+00:00",
+ "updated": "2026-11-17T18:43:34.820050+00:00",
  "counts": {
   "ready": 111,
-  "check": 126,
-  "posted": 3
+  "check": 122,
+  "posted": 3,
+  "draft": 4
  },
  "collected": "2026-11-17T18:09:41.818778+00:00",
  "instagram": false,
@@ -2860,7 +2861,7 @@
       "why": "James Deane remembers Conor Shanahan learning to drift at nine, too small to pull the handbrake himself.",
       "status": "queued",
       "clip": "docs/media/pod-5687ca1c5a65-9/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4050,7 +4051,7 @@
       "why": "They record Matt Field's team radio, and the spotter can be brutal.",
       "status": "queued",
       "clip": "docs/media/pod-3fa7ee22a33c-23/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4078,7 +4079,7 @@
       "why": "He works with a sports psychologist and calls learning to breathe life-changing.",
       "status": "queued",
       "clip": "docs/media/pod-3fa7ee22a33c-25/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4693,7 +4694,7 @@
       "why": "On the grippy Vegas surface the rear tires lasted only two or three laps.",
       "status": "queued",
       "clip": "docs/media/pod-441d4b7291ad-3/clip.mp4",
-      "mode": "audiogram",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9728,6 +9729,164 @@
    "photo": null
   },
   {
+   "id": "pod-5687ca1c5a65-9",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane on watching Conor Shanahan go from a nine-year-old who couldn't pull the handbrake to Formula DRIFT champion.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #JamesDeane #ConorShanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 848.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:57:25.781454+00:00",
+   "built": "2026-11-17T18:43:34.806067+00:00",
+   "want_at": null,
+   "video": "media/pod-5687ca1c5a65-9/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JAMES DEANE ON 9-YEAR-OLD CONOR",
+   "photo": null
+  },
+  {
+   "id": "pod-441d4b7291ad-3",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two or three laps and the tires were gone. Spare Pro tires suddenly looked very tempting in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #FDLV #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Vegas Prospec Podium",
+    "start": 191.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:41:24.747405+00:00",
+   "built": "2026-11-17T18:41:53.580685+00:00",
+   "want_at": null,
+   "video": "media/pod-441d4b7291ad-3/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THREE LAPS PER TIRE",
+   "photo": null
+  },
+  {
+   "id": "pod-3fa7ee22a33c-25",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Christian Cotrone works with a sports psychologist and says learning to breathe changed his life.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Mindset #Drifting #SportsPsychology #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 5412.37
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:34:03.936751+00:00",
+   "built": "2026-11-17T18:40:43.958434+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-25/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FD DRIVER'S SECRET WEAPON",
+   "photo": null
+  },
+  {
+   "id": "pod-3fa7ee22a33c-23",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Interclip records Matt Field's team comms, and Christian Cotrone says the spotter can be brutal. It works for them.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Spotter #Drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Christian Cotrone",
+    "start": 5078.79
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:32:02.488297+00:00",
+   "built": "2026-11-17T18:39:45.167289+00:00",
+   "want_at": null,
+   "video": "media/pod-3fa7ee22a33c-23/clip.mp4",
+   "tags": [
+    "@christiancotrone",
+    "@mattfield777",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "INSIDE MATT FIELD'S COMMS",
+   "photo": null
+  },
+  {
    "id": "pod-fd2026r8-15",
    "kind": "stream_clip",
    "status": "check",
@@ -12416,48 +12575,6 @@
    "photo": null
   },
   {
-   "id": "pod-5687ca1c5a65-9",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane on watching Conor Shanahan go from a nine-year-old who couldn't pull the handbrake to Formula DRIFT champion.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #JamesDeane #ConorShanahan #sidewayswire",
-   "media": [
-    "media/pod-5687ca1c5a65-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "LB2 Pro Podium",
-    "start": 848.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:57:25.781454+00:00",
-   "built": "2026-11-17T18:09:52.838055+00:00",
-   "want_at": null,
-   "video": "media/pod-5687ca1c5a65-9/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "JAMES DEANE ON 9-YEAR-OLD CONOR",
-   "photo": null
-  },
-  {
    "id": "pod-5687ca1c5a65-8",
    "kind": "podcast_clip",
    "status": "check",
@@ -13131,47 +13248,6 @@
    "photo": null
   },
   {
-   "id": "pod-441d4b7291ad-3",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Two or three laps and the tires were gone. Spare Pro tires suddenly looked very tempting in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #FDLV #sidewayswire",
-   "media": [
-    "media/pod-441d4b7291ad-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Prospec Podium",
-    "start": 191.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:41:24.747405+00:00",
-   "built": "2026-11-17T18:09:52.821573+00:00",
-   "want_at": null,
-   "video": "media/pod-441d4b7291ad-3/clip.mp4",
-   "tags": [
-    "@braden.lons",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "THREE LAPS PER TIRE",
-   "photo": null
-  },
-  {
    "id": "pod-441d4b7291ad-2",
    "kind": "podcast_clip",
    "status": "check",
@@ -13378,89 +13454,6 @@
    "caption_by": null,
    "format": "single",
    "title": "THIS ISN'T MY LEVEL",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-25",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone works with a sports psychologist and says learning to breathe changed his life.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Mindset #Drifting #SportsPsychology #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-25/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 5412.37
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:34:03.936751+00:00",
-   "built": "2026-11-17T18:09:52.795084+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-25/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FD DRIVER'S SECRET WEAPON",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-23",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Interclip records Matt Field's team comms, and Christian Cotrone says the spotter can be brutal. It works for them.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Spotter #Drifting #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-23/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 5078.79
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:32:02.488297+00:00",
-   "built": "2026-11-17T18:09:52.782394+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-23/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "INSIDE MATT FIELD'S COMMS",
    "photo": null
   },
   {
