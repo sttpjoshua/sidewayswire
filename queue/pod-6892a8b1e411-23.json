@@ -1,11 +1,17 @@
 {
  "id": "pod-6892a8b1e411-23",
  "kind": "podcast_clip",
- "status": "ready",
+ "status": "draft",
  "slides": [],
  "title": "NASCAR FRIENDS GET PAID TO SHOW UP",
  "video": "docs/media/pod-6892a8b1e411-23/clip.mp4",
  "caption": "Tommy Lemaire's friends in other series get paid to show up. He pays a lot to get to the track.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #nascar #drifting #sidewayswire",
+ "tags": [
+  "@tommy.lemaire",
+  "@formulad",
+  "@jako13"
+ ],
+ "missing_handles": [],
  "credit": "@formulad",
  "check": false,
  "check_reason": "",
@@ -21,16 +27,5 @@
   "start": 5131.79
  },
  "created": "2026-11-16T19:48:14.036036+00:00",
- "built": "2026-11-16T21:56:41.555148+00:00",
- "tags": [
-  "@tommy.lemaire",
-  "@formulad",
-  "@jako13"
- ],
- "missing_handles": [],
- "media": [
-  "docs/media/pod-6892a8b1e411-23/clip.mp4"
- ],
- "problems": [],
- "post_at": "2026-11-21T19:30:00+00:00"
+ "built": "2026-11-17T01:07:59.624039+00:00"
 }

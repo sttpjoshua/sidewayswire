@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-17T01:05:00.494407+00:00",
+ "updated": "2026-11-17T01:09:07.053187+00:00",
  "counts": {
-  "check": 9,
-  "ready": 13,
-  "draft": 50
+  "check": 7,
+  "ready": 11,
+  "draft": 54
  },
  "collected": "2026-11-16T23:54:06.460615+00:00",
  "instagram": false,
@@ -2974,84 +2974,6 @@
  },
  "posts": [
   {
-   "id": "pod-6892a8b1e411-23",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-21T19:30:00+00:00",
-   "posted_at": null,
-   "caption": "Tommy Lemaire's friends in other series get paid to show up. He pays a lot to get to the track.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #nascar #drifting #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-23/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 5131.79
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:48:14.036036+00:00",
-   "built": "2026-11-16T21:56:41.555148+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-23/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "NASCAR FRIENDS GET PAID TO SHOW UP"
-  },
-  {
-   "id": "pod-6892a8b1e411-22",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-11-21T16:30:00+00:00",
-   "posted_at": null,
-   "caption": "Drivers are the show, so why do they still pay to compete in Formula DRIFT? Tommy Lemaire asks the question.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-22/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 4902.27
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:47:41.481751+00:00",
-   "built": "2026-11-16T21:56:41.553724+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-22/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "WHY DO DRIVERS PAY TO RACE FD?"
-  },
-  {
    "id": "pod-6892a8b1e411-11",
    "kind": "podcast_clip",
    "status": "ready",
@@ -3440,6 +3362,154 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "\"THEY ALL BLOW UP\""
+  },
+  {
+   "id": "pod-6892a8b1e411-24",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: Tommy Lemaire tried to get Chevrolet Canada on board, and another driver is still trying.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #chevrolet #driftnews #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 5256.05
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:48:56.316044+00:00",
+   "built": "2026-11-17T01:09:07.049018+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-24/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "CHEVROLET IN FORMULA DRIFT?"
+  },
+  {
+   "id": "pod-6892a8b1e411-23",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire's friends in other series get paid to show up. He pays a lot to get to the track.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #nascar #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 5131.79
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:48:14.036036+00:00",
+   "built": "2026-11-17T01:07:59.624039+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-23/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "NASCAR FRIENDS GET PAID TO SHOW UP"
+  },
+  {
+   "id": "pod-6892a8b1e411-22",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Drivers are the show, so why do they still pay to compete in Formula DRIFT? Tommy Lemaire asks the question.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #drifting #driftnews #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 4902.27
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:47:41.481751+00:00",
+   "built": "2026-11-17T01:07:00.598777+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-22/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "WHY DO DRIVERS PAY TO RACE FD?"
+  },
+  {
+   "id": "pod-6892a8b1e411-21",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: there's a good chance Tommy Lemaire becomes Formula DRIFT's driver liaison next year. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #driftnews #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Tommy Lemaire",
+    "start": 4813.75
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:47:11.639470+00:00",
+   "built": "2026-11-17T01:06:01.330269+00:00",
+   "want_at": null,
+   "video": "media/pod-6892a8b1e411-21/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?"
   },
   {
    "id": "pod-6892a8b1e411-20",
@@ -5375,84 +5445,6 @@
    "missing_handles": [],
    "caption_by": null,
    "title": "C7 VS C6: NOT JUST A RESHELL"
-  },
-  {
-   "id": "pod-6892a8b1e411-24",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Tommy Lemaire tried to get Chevrolet Canada on board, and another driver is still trying.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #chevrolet #driftnews #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-24/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 5256.05
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:48:56.316044+00:00",
-   "built": "2026-11-16T21:56:41.555289+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-24/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "CHEVROLET IN FORMULA DRIFT?"
-  },
-  {
-   "id": "pod-6892a8b1e411-21",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: there's a good chance Tommy Lemaire becomes Formula DRIFT's driver liaison next year. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #driftnews #drifting #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-21/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 4813.75
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:47:11.639470+00:00",
-   "built": "2026-11-16T21:56:41.552233+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-21/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?"
   },
   {
    "id": "pod-1298fd1c600b-4",
