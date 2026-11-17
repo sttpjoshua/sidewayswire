@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-10",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "ready",
  "slides": [],
  "title": "\"I WOULD DO IT AGAIN\"",
  "video": "docs/media/pod-1298fd1c600b-10/clip.mp4",
@@ -13,7 +13,7 @@
  ],
  "missing_handles": [],
  "credit": "@formulad",
- "check": true,
+ "check": false,
  "check_reason": "namen nakijken",
  "platforms": [
   "instagram",
@@ -31,5 +31,6 @@
  "media": [
   "docs/media/pod-1298fd1c600b-10/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "post_at": "2026-12-04T22:00:00+00:00"
 }

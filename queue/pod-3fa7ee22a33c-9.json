@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-9",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HE PRAYS FOR RAIN",
  "video": "docs/media/pod-3fa7ee22a33c-9/clip.mp4",
@@ -28,5 +28,6 @@
   "start": 2888.57
  },
  "created": "2026-11-17T14:16:25.628484+00:00",
- "built": "2026-11-17T14:16:25.628488+00:00"
+ "built": "2026-11-17T14:16:25.628488+00:00",
+ "post_at": "2026-12-08T11:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-2",
  "kind": "stream_clip",
- "status": "check",
+ "status": "ready",
  "slides": [],
  "title": "ODI TOO AGGRESSIVE?",
  "video": "docs/media/pod-fd2026r8-2/clip.mp4",
@@ -13,7 +13,7 @@
  ],
  "missing_handles": [],
  "credit": "@formulad",
- "check": true,
+ "check": false,
  "check_reason": "livestream-clip: check jij eerst",
  "platforms": [
   "instagram",
@@ -32,5 +32,6 @@
  "media": [
   "docs/media/pod-fd2026r8-2/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "post_at": "2026-12-04T16:30:00+00:00"
 }

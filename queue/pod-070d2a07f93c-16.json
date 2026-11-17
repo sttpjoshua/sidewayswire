@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-16",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "ready",
  "slides": [],
  "title": "SIM WINNER TO TITLE CONTENDER",
  "video": "docs/media/pod-070d2a07f93c-16/clip.mp4",
@@ -15,7 +15,7 @@
  ],
  "format": "single",
  "credit": "@formulad",
- "check": true,
+ "check": false,
  "check_reason": "namen nakijken",
  "platforms": [
   "instagram",
@@ -33,5 +33,6 @@
  "media": [
   "docs/media/pod-070d2a07f93c-16/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "post_at": "2026-12-11T22:00:00+00:00"
 }

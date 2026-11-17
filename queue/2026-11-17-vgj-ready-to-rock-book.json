@@ -37,14 +37,15 @@
   "@vaughngittinjr"
  ],
  "source": "https://www.thedrive.com/news/new-book-tells-the-story-of-rtr-an-american-drift-team-that-exploded-into-way-more",
- "check": true,
+ "check": false,
  "check_reason": "nieuw format zonder foto",
- "status": "check",
+ "status": "ready",
  "created": "2026-11-17T13:24:20.362064+00:00",
  "by": "editor",
  "media": [
   "docs/media/2026-11-17-vgj-ready-to-rock-book/1.png"
  ],
  "problems": [],
- "built": "2026-11-17T13:26:00.016493+00:00"
+ "built": "2026-11-17T13:26:00.016493+00:00",
+ "post_at": "2026-12-04T07:30:00+00:00"
 }

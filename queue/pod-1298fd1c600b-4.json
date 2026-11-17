@@ -1,13 +1,13 @@
 {
  "id": "pod-1298fd1c600b-4",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "ready",
  "slides": [],
  "title": "MATT IS NOT TRYING TO BE A VILLAIN",
  "video": "docs/media/pod-1298fd1c600b-4/clip.mp4",
  "caption": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @mattfield777 @jako13\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
  "credit": "@formulad",
- "check": true,
+ "check": false,
  "check_reason": "namen nakijken",
  "platforms": [
   "instagram",
@@ -32,5 +32,6 @@
  "media": [
   "docs/media/pod-1298fd1c600b-4/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "post_at": "2026-12-02T11:30:00+00:00"
 }

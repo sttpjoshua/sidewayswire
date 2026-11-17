@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-10",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FD ROOKIE POWER TRAP",
  "video": "docs/media/pod-3fa7ee22a33c-10/clip.mp4",
@@ -28,5 +28,6 @@
   "start": 3041.03
  },
  "created": "2026-11-17T14:17:19.861758+00:00",
- "built": "2026-11-17T14:17:19.861764+00:00"
+ "built": "2026-11-17T14:17:19.861764+00:00",
+ "post_at": "2026-12-09T11:30:00+00:00"
 }

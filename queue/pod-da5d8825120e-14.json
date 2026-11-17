@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-14",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "ready",
  "slides": [],
  "title": "HE STARTED THE LEFT-FOOT TRICK",
  "video": "docs/media/pod-da5d8825120e-14/clip.mp4",
@@ -14,7 +14,7 @@
  ],
  "missing_handles": [],
  "credit": "@formulad",
- "check": true,
+ "check": false,
  "check_reason": "namen nakijken",
  "platforms": [
   "instagram",
@@ -32,5 +32,6 @@
  "media": [
   "docs/media/pod-da5d8825120e-14/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "post_at": "2026-12-03T22:00:00+00:00"
 }

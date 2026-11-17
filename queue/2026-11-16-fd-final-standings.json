@@ -131,9 +131,9 @@
   "James Deane",
   "Jhonnattan Castro"
  ],
- "check": true,
+ "check": false,
  "check_reason": "eerste post met dit format: check jij eerst",
- "status": "check",
+ "status": "ready",
  "created": "2026-11-16T21:54:13.895590+00:00",
  "by": "editor",
  "media": [
@@ -141,5 +141,6 @@
   "docs/media/2026-11-16-fd-final-standings/2.png"
  ],
  "problems": [],
- "built": "2026-11-16T21:56:41.507121+00:00"
+ "built": "2026-11-16T21:56:41.507121+00:00",
+ "post_at": "2026-12-02T07:30:00+00:00"
 }

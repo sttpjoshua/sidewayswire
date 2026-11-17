@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-7",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "NEW FLORIDA DRIFT TRACK",
  "video": "docs/media/pod-3fa7ee22a33c-7/clip.mp4",
@@ -15,7 +15,7 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
+ "check": false,
  "check_reason": "namen nakijken",
  "platforms": [
   "instagram",
@@ -29,5 +29,6 @@
   "start": 2520.51
  },
  "created": "2026-11-17T14:14:52.644900+00:00",
- "built": "2026-11-17T14:14:52.644907+00:00"
+ "built": "2026-11-17T14:14:52.644907+00:00",
+ "post_at": "2026-12-05T11:30:00+00:00"
 }
