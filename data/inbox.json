@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:16:38.821618+00:00",
+ "updated": "2026-11-17T17:09:29.678497+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -26,6 +26,44 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "a036e55ef8dcc3c9",
+   "title": "“It’s Just The Top 32”",
+   "series": "FD",
+   "buzz": 1,
+   "first_seen": "2026-11-17T17:09:20.169914+00:00",
+   "published": "2026-11-17T17:00:48+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "“It’s Just The Top 32”",
+     "url": "https://www.youtube.com/shorts/yyN0ouKFF_o",
+     "kind": "video",
+     "published": "2026-11-17T17:00:48+00:00",
+     "media_url": "https://i2.ytimg.com/vi/yyN0ouKFF_o/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "id": "d225e8ccd240098b",
+   "title": "🔥 What's your answer? 👀🏁",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-17T17:09:20.619900+00:00",
+   "published": "2026-11-17T15:40:15+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "🔥 What's your answer? 👀🏁",
+     "url": "https://www.youtube.com/shorts/2_Hwbq7ed8w",
+     "kind": "video",
+     "published": "2026-11-17T15:40:15+00:00",
+     "media_url": "https://i3.ytimg.com/vi/2_Hwbq7ed8w/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -239,25 +277,6 @@
    ]
   },
   {
-   "id": "0efbcce48dc65885",
-   "title": "Three for the weekend: Valmiera 734, Drift Masters, Polish Speedway / Article",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:05.633810+00:00",
-   "published": "2026-11-14T22:55:35+00:00",
-   "items": [
-    {
-     "source": "Google News · LSM",
-     "title": "Three for the weekend: Valmiera 734, Drift Masters, Polish Speedway / Article",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQblJKRGEyQTN4ajdMTGF2d2VteFdhNTBlSHZ0b2dhZWk3c1RYRHk1VTVKQ2tVbXlEcHZNU3c3ODhrVWZWSmltRjIxc0dsbmpsVW05ejRUREN1QUNFVVV0a0Y5ZlhkUjZQclBuVHFtTkRJTm5WV19nSGFONmFrb3A2dUZPVUlxdDhTbFUxQTNicDVtQThfWDZJbnRZc3pSblpKNnVaRWM5cUNWTy1xWGJCQWpwU2FzYUxpYjk5aTRQOUwyT2dhWnc?oc=5",
-     "kind": "article",
-     "published": "2026-11-14T22:55:35+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
-  },
-  {
    "id": "51aec147190e5234",
    "title": "ランク上位ふたりが予選落ちの波乱。中村直樹が今季初優勝で王者争いは三つ巴に／D1グランプリ第9戦",
    "series": "D1GP",
@@ -386,25 +405,6 @@
      "kind": "video",
      "published": "2026-11-13T20:00:12+00:00",
      "media_url": "https://i2.ytimg.com/vi/UFyDI5Fio_k/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "id": "2d0a4a50d15631c1",
-   "title": "Everything That Happened at the Shoreline Showdown",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:05.834357+00:00",
-   "published": "2026-11-13T19:29:58+00:00",
-   "items": [
-    {
-     "source": "Formula DRIFT",
-     "title": "Everything That Happened at the Shoreline Showdown",
-     "url": "https://www.youtube.com/shorts/4S0VH4aDz4U",
-     "kind": "video",
-     "published": "2026-11-13T19:29:58+00:00",
-     "media_url": "https://i1.ytimg.com/vi/4S0VH4aDz4U/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
@@ -1641,7 +1641,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
