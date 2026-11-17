@@ -3,7 +3,7 @@
 {# Transparent overlay for the battle reel: run 1 on top (y 300-820), run 2 below (y 912-1432).
    Safe zone for Reels/TikTok/Shorts: nothing in the top 200 px, the bottom 460 px,
    or the right 170 px from mid-height down (buttons).
-   Data: driver_a, driver_b, credit. Rendered with w=1080, h=1920, bg=transparent. #}
+   Data: driver_a, driver_b, credit, mode ('lead' or 'chase': one comparison at a time; empty: both). Rendered with w=1080, h=1920, bg=transparent. #}
 {% block body %}
 <img class="wordmark" alt="Sideways Wire" src="{{ logo }}" style="top:222px;width:260px">
 <div class="abs" style="right:70px;top:218px;text-align:right;font-size:20px;font-weight:800;letter-spacing:1px;line-height:1.35">
@@ -14,15 +14,17 @@
 <div class="abs" style="left:50px;top:{{ top }}px;display:flex;flex-direction:column;align-items:flex-start;gap:8px">
   <div class="bb" style="background:#111;color:#fff;border:4px solid #fff;padding:8px 14px;font-size:28px;transform:rotate(-1.5deg)">{{ run }}</div>
   <div style="display:flex;gap:8px;transform:rotate(-1deg)">
-    <div class="bb" data-fit data-size="38" data-min="26" data-maxright="900" style="background:var(--accent);color:#111;border:4px solid #111;padding:10px 14px;font-size:38px">{{ lead }} LEADS</div>
-    <div class="bb" data-fit data-size="38" data-min="26" data-maxright="900" style="background:var(--pink);color:#111;border:4px solid #111;padding:10px 14px;font-size:38px">{{ chase }} CHASES</div>
+    {% if mode != 'chase' %}<div class="bb" data-fit data-size="{{ 46 if mode else 38 }}" data-min="26" data-maxright="900" style="background:var(--accent);color:#111;border:4px solid #111;padding:10px 14px;font-size:{{ 46 if mode else 38 }}px">{{ lead }} LEADS</div>{% endif %}
+    {% if mode != 'lead' %}<div class="bb" data-fit data-size="{{ 46 if mode else 38 }}" data-min="26" data-maxright="900" style="background:var(--pink);color:#111;border:4px solid #111;padding:10px 14px;font-size:{{ 46 if mode else 38 }}px">{{ chase }} CHASES</div>{% endif %}
   </div>
 </div>
 {% endfor %}
 <div class="abs" style="left:70px;right:170px;top:828px;height:76px;display:flex;justify-content:center;align-items:center">
   <div style="display:flex;transform:rotate(-2deg)">
-    <div class="bb" style="background:var(--accent);color:#111;border:5px solid #111;padding:14px 20px;font-size:48px">LEAD VS LEAD</div>
-    <div class="bb" style="background:var(--pink);color:#111;border:5px solid #111;border-left:none;padding:14px 20px;font-size:48px">CHASE VS CHASE</div>
+    {% if mode == 'lead' %}<div class="bb" style="background:var(--accent);color:#111;border:5px solid #111;padding:14px 24px;font-size:56px">LEAD VS LEAD</div>
+    {% elif mode == 'chase' %}<div class="bb" style="background:var(--pink);color:#111;border:5px solid #111;padding:14px 24px;font-size:56px">CHASE VS CHASE</div>
+    {% else %}<div class="bb" style="background:var(--accent);color:#111;border:5px solid #111;padding:14px 20px;font-size:48px">LEAD VS LEAD</div>
+    <div class="bb" style="background:var(--pink);color:#111;border:5px solid #111;border-left:none;padding:14px 20px;font-size:48px">CHASE VS CHASE</div>{% endif %}
   </div>
 </div>
 {% endblock %}

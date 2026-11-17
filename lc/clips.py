@@ -201,26 +201,46 @@ def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | N
 
 
 def make_split(ep: dict, moment: dict, runs: list[str], out: str) -> dict:
-    """Split-screen battle reel: run 1 on top, run 2 below, synced at initiation.
+    """Battle reel in two turns, run 1 on top and run 2 below, synced on track:
+    first LEAD VS LEAD (both lead drivers labelled), then a white flash and the same runs again as
+    CHASE VS CHASE (both chase drivers labelled, sound of run 2).
 
-    moment["split"] = {"runs": [{"start", "end", "init"}, {...}], "lead": ["DRIVER A", "DRIVER B"]}
-    'init' is the initiation time in the stream (seconds); the piece starts at 'start'.
-    Each half shows one lead and one chase, so the rows read LEAD VS LEAD and CHASE VS CHASE.
+    moment["split"] = {"runs": [{"start", "end", "init"}, {...}], "lead": ["DRIVER A", "DRIVER B"],
+                       optional "shift": run 1 minus run 2 in seconds (else found from the pictures),
+                       "nudge": extra shift for run 2, "lead_in"}.
     """
-    from .video import battle_reel
+    from .video import battle_reel, sync_offset, duration
     sp = moment["split"]
     a, b = sp["lead"][0], sp["lead"][1]
-    offs = [float(r["init"]) - float(r["start"]) for r in sp["runs"]]
+    r1, r2 = sp["runs"]
+    o2 = float(r2["init"]) - float(r2["start"])
+    shift = sp.get("shift")
+    score = None
+    if shift is None:
+        shift, score = sync_offset(runs[0], runs[1])
+    o1 = o2 + shift if shift is not None else float(r1["init"]) - float(r1["start"])
+    lead_in = float(sp.get("lead_in", 1.5))
+    nudge = float(sp.get("nudge", 0.0))
+    run_len = min(float(r1["end"]) - float(r1["init"]), float(r2["end"]) - float(r2["init"]))
+    length = min(run_len + lead_in, duration(runs[0]) - max(0.0, o1 - lead_in),
+                 duration(runs[1]) - max(0.0, o2 + nudge - lead_in), 34.0)
     with tempfile.TemporaryDirectory() as tmp:
-        ov = str(Path(tmp) / "overlay.png")
+        parts = []
         with Renderer() as r:
-            r.render("reel_split_overlay.html", {"w": 1080, "h": 1920, "bg": "transparent", "driver_a": a, "driver_b": b,
-                                                 "credit": ep.get("credit") or moment.get("credit") or ""},
-                     ov, transparent=True)
-        raw = str(Path(tmp) / "raw.mp4")
-        res = battle_reel(runs[0], runs[1], ov, raw, offset1=offs[0], offset2=offs[1],
-                          lead_in=float(sp.get("lead_in", 2.0)), nudge=float(sp.get("nudge", 0.0)))
-        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", raw, "-c:v", "copy",
-                        "-af", "loudnorm=I=-15:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "160k",
-                        "-movflags", "+faststart", out], check=True)
-    return {"mode": "split", "out": out, **res}
+            for mode in ("lead", "chase"):
+                r.render("reel_split_overlay.html", {"w": 1080, "h": 1920, "bg": "transparent", "mode": mode,
+                                                     "driver_a": a, "driver_b": b,
+                                                     "credit": ep.get("credit") or moment.get("credit") or ""},
+                         str(Path(tmp) / f"ov_{mode}.png"), transparent=True)
+        for k, mode in enumerate(("lead", "chase")):
+            part = str(Path(tmp) / f"{mode}.mp4")
+            res = battle_reel(runs[0], runs[1], str(Path(tmp) / f"ov_{mode}.png"), part, offset1=o1, offset2=o2,
+                              lead_in=lead_in, nudge=nudge, length=length, audio=1 + k)
+            parts.append(part)
+        fade = 0.35
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", parts[0], "-i", parts[1], "-filter_complex",
+                        f"[0:v][1:v]xfade=transition=fadewhite:duration={fade}:offset={length - fade:.2f},format=yuv420p[v];"
+                        f"[0:a][1:a]acrossfade=d={fade}[a0];[a0]loudnorm=I=-15:TP=-1.5:LRA=11[a]",
+                        "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                        "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out], check=True)
+    return {"mode": "split", "out": out, "shift": shift, "sync_score": score, "phase": round(length, 2)}

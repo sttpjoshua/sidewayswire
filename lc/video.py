@@ -68,7 +68,7 @@ def find_initiation(path: str | Path) -> float:
 def battle_reel(run1: str, run2: str, overlay_png: str, out: str,
                 offset1: float | None = None, offset2: float | None = None,
                 lead_in: float = 1.0, length: float | None = None,
-                nudge: float = 0.0) -> dict:
+                nudge: float = 0.0, audio: int = 1) -> dict:
     """Make the stacked battle reel.
 
     offset1/offset2: initiation time per run (found automatically if None).
@@ -90,8 +90,9 @@ def battle_reel(run1: str, run2: str, overlay_png: str, out: str,
         f"fps={FPS},setsar=1[bg];"
         f"[bg][top]overlay=0:{TOP}[t1];[t1][bot]overlay=0:{TOP + HALF_H + GAP}[t2];"
         f"[t2][2:v]overlay=0:0:format=auto,format=yuv420p[v];"
-        # Audio: run 1 sound, so the reel keeps the real engine noise.
-        f"[0:a]atrim=start={s1:.3f}:duration={length:.3f},asetpts=PTS-STARTPTS[a]"
+        # Audio: the sound of one run (run 1 by default), so the reel keeps the real engine noise.
+        + (f"[0:a]atrim=start={s1:.3f}:duration={length:.3f},asetpts=PTS-STARTPTS[a]" if audio == 1 else
+         f"[1:a]atrim=start={s2:.3f}:duration={length:.3f},asetpts=PTS-STARTPTS[a]")
     )
     _run([
         "ffmpeg", "-y", "-v", "error", "-i", run1, "-i", run2, "-loop", "1", "-i", overlay_png,
@@ -101,3 +102,34 @@ def battle_reel(run1: str, run2: str, overlay_png: str, out: str,
     ])
     return {"out": out, "initiation_run1": round(o1, 2), "initiation_run2": round(o2, 2),
             "start_run1": round(s1, 2), "start_run2": round(s2, 2), "length": round(length, 2)}
+
+
+def sync_offset(run1: str, run2: str, fps: int = 8, maxd: float = 10.0, t: float = 30.0):
+    """How many seconds later run 1 is than run 2 at the same spot on track.
+
+    The broadcast uses the same fixed cameras for both runs, so the picture at the same corner
+    looks alike. Compare small grey thumbnails of every frame pair and pick the time shift where
+    the best-matching half of the frames agree most. Returns (shift, score) or (None, score).
+    """
+    import numpy as np
+
+    def thumbs(f):
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-i", f, "-t", str(t), "-vf",
+                              f"fps={fps},scale=48:27,format=gray", "-f", "rawvideo", "-"],
+                             capture_output=True, check=True).stdout
+        a = np.frombuffer(raw, np.uint8).reshape(-1, 27, 48).astype(np.float32)
+        a -= a.mean(axis=(1, 2), keepdims=True)
+        a /= a.std(axis=(1, 2), keepdims=True) + 1e-6
+        return a.reshape(len(a), -1)
+
+    A, B = thumbs(run1), thumbs(run2)
+    S = A @ B.T / A.shape[1]
+    best = (-1.0, None)
+    for d in range(-int(maxd * fps), int(maxd * fps) + 1):
+        i = np.arange(len(A)); j = i - d; ok = (j >= 0) & (j < len(B))
+        if ok.sum() < fps * 8:
+            continue
+        v = np.sort(S[i[ok], j[ok]])[-int(ok.sum() * 0.5):]
+        if v.mean() > best[0]:
+            best = (float(v.mean()), d / fps)
+    return (best[1] if best[0] > 0.4 else None), best[0]
