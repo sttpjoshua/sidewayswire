@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-23",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "PALMER'S NEW CAREER PLAN?",
  "video": "docs/media/pod-b5159f5c03f8-23/clip.mp4",
@@ -29,9 +29,5 @@
   "start": 9248.6
  },
  "created": "2026-11-17T15:41:04.638323+00:00",
- "built": "2026-11-17T18:09:52.845723+00:00",
- "media": [
-  "docs/media/pod-b5159f5c03f8-23/clip.mp4"
- ],
- "problems": []
+ "built": "2026-11-17T18:45:34.326934+00:00"
 }
