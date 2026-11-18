@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T01:03:54.240421+00:00",
+ "updated": "2026-11-18T01:35:02.995572+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -1619,9 +1619,8 @@
   {
    "source": "D1 Grand Prix (D1GP)",
    "url": "https://d1gp.co.jp",
-   "ok": true,
-   "items": 10,
-   "how": "feed"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='d1gp.co.jp', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<"
   },
   {
    "source": "auto sport web · drift",
