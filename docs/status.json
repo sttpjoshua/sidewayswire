@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T11:35:03.266304+00:00",
+ "updated": "2026-11-18T11:36:38.781116+00:00",
  "counts": {
   "ready": 113,
   "check": 124,
   "posted": 3
  },
- "collected": "2026-11-18T08:19:33.391496+00:00",
+ "collected": "2026-11-18T11:35:34.012766+00:00",
  "instagram": false,
  "sources": [
   {
@@ -185,6 +185,23 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "NOT A BAD DEBUT TO ROYAL DRIFT SERIES | First Time In China",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-18T10:00:06+00:00",
+   "items": [
+    {
+     "source": "Conor Shanahan",
+     "title": "NOT A BAD DEBUT TO ROYAL DRIFT SERIES | First Time In China",
+     "url": "https://www.youtube.com/watch?v=Ec4DbVLX694",
+     "kind": "video",
+     "published": "2026-11-18T10:00:06+00:00",
+     "media_url": "https://i2.ytimg.com/vi/Ec4DbVLX694/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -847,23 +864,6 @@
      "kind": "video",
      "published": "2026-11-11T16:17:22+00:00",
      "media_url": "https://i4.ytimg.com/vi/SRI042_srHA/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "The Outerzone Podcast - Conor Shanahan",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-11T15:00:23+00:00",
-   "items": [
-    {
-     "source": "Formula DRIFT",
-     "title": "The Outerzone Podcast - Conor Shanahan",
-     "url": "https://www.youtube.com/watch?v=hg9z1Hxq4lE",
-     "kind": "video",
-     "published": "2026-11-11T15:00:23+00:00",
-     "media_url": "https://i1.ytimg.com/vi/hg9z1Hxq4lE/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
