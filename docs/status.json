@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T07:54:05.961200+00:00",
+ "updated": "2026-11-18T08:01:43.100748+00:00",
  "counts": {
   "ready": 113,
   "check": 124,
   "posted": 3
  },
- "collected": "2026-11-18T04:48:54.265359+00:00",
+ "collected": "2026-11-18T08:01:42.392265+00:00",
  "instagram": false,
  "sources": [
   {
@@ -40,7 +40,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -117,7 +117,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
