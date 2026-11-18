@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:24:04.602572+00:00",
+ "updated": "2026-11-18T23:27:54.439629+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 60
+  "draft": 64
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -10463,9 +10463,9 @@
       "topic": "BRUTSKIY UNFLAPPABLE",
       "quote": "Lons throws it in on the big. Brodsky right there in tow. Look at Lawrence, a rock solid lead run by Brodsky. Not letting him go, avoiding that smoke trail. Not getting lost in the songs. Goes into the outside zone through the power rally. Goes Lawrence. He's doing everything he can to throw out Brodsky, but unphased, unflappable. Dimitri Brodsky, confident he crossed the finish line. Once...! And there it is. Brodsky, a little celebratory donuts. He had control of his vehicle. We have well beyond the finish.",
       "why": "Brutskiy blijft koel tegen Lons en viert met donuts",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10477,9 +10477,9 @@
       "topic": "60 DEGREES FROM SORENSEN",
       "quote": "Oh, wow. Look at that aggressive initiation by Brandon Sorensen. Blend it all hang out. Look at it. I mean, he's pouring more angle on it. 56 up to 60 degrees of angle on the bank towards the liner portion. Gets into that water, splashes it out, transitions past the inside clip, and brings it on in. 40, 240, 50, oh, 50 degrees of angle in the outside zone, And puts it across the finish line.",
       "why": "Agressieve initiatie en 60 graden hoek in de plassen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10491,9 +10491,9 @@
       "topic": "SHANAHAN VERY FLUID",
       "quote": "Let's see what Connor Shanhan's got for us. Connor, that Red Bull vehicle, he's got a big, aggressive, nice job. And here goes Connor, coming down to that flat portion of the track. Good transition. Looking a lot more comfortable and a lot drier. Look at that. That was just very fluid. I mean, just putting, pointing those front tires in the proper direction down the track with that rear end swing and that thing. Look at that thrown up, that tire debris across the finish line. Yeah, great work there.",
       "why": "Conor Shanahan vloeiende kwalificatierun",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-5/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10505,9 +10505,9 @@
       "topic": "RCP INCOMPLETE IN THE CHASE",
       "quote": "here goes Rome like you said both these guys are in like we need to win fighter play as a look at Rome Sharpeteer good initiation there Ben Hobson now real in a bit let's see how they handle this transition hypercritical area there Rome nails it that allows Ben Hobson to just chase them right into zone two now through that power alley crossing over the killer crossover let's see if Ben Hobson can execute this unfortunately that's where Rome came to go home basically incomplete in that chase for Rome Sharpen to your debate that more of a performance heatwave tire agent or that.",
       "why": "Rome Charpentier valt uit in de chase",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-6/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,161 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rome Charpentier nails the transition in the lead, but the chase run ends incomplete against Ben Hobson.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@romecp @benhobson213 @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 567.44
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:27:54.430712+00:00",
+   "built": "2026-11-18T23:27:54.430716+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-6/clip.mp4",
+   "tags": [
+    "@romecp",
+    "@benhobson213",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "RCP INCOMPLETE IN THE CHASE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan in the Red Bull 86, big and aggressive and very fluid through Stafford.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #connecticut #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 517.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:27:04.181884+00:00",
+   "built": "2026-11-18T23:27:04.181888+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-5/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN VERY FLUID",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen lets it all hang out. 56 up to 60 degrees of angle on the bank, splashing through the water.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 480.08
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:26:01.326429+00:00",
+   "built": "2026-11-18T23:26:01.326432+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-4/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "60 DEGREES FROM SORENSEN",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Braden Lons does everything he can to throw out Dmitriy Brutskiy, but he is unflappable. Celebratory donuts.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@dimabrutskiy @braden.lons @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 398.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:25:06.990425+00:00",
+   "built": "2026-11-18T23:25:06.990428+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-3/clip.mp4",
+   "tags": [
+    "@dimabrutskiy",
+    "@braden.lons",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BRUTSKIY UNFLAPPABLE",
    "photo": null
   },
   {
@@ -23896,171 +24051,6 @@
    "caption_by": null,
    "format": null,
    "title": "WHY FD IS SO HARD TO WIN",
-   "photo": null
-  },
-  {
-   "id": "2026-11-17-vgj-ready-to-rock-book",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "From a parking lot to a Ford partnership. Two-time Formula DRIFT champion @vaughngittinjr wrote the story of RTR together with Mike Spinelli: Ready To Rock, 256 pages with photography from top shooters. 📚\n\n#formulad #rtr #vaughngittinjr #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-17-vgj-ready-to-rock-book/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "foto nodig: voeg een foto toe",
-   "source": "https://www.thedrive.com/news/new-book-tells-the-story-of-rtr-an-american-drift-team-that-exploded-into-way-more",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T13:24:20.362064+00:00",
-   "built": "2026-11-17T13:26:00.016493+00:00",
-   "want_at": "2026-12-04T07:30:00+00:00",
-   "video": null,
-   "tags": [
-    "@vaughngittinjr"
-   ],
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "title": "VAUGHN GITTIN JR. TELLS THE RTR STORY",
-   "photo": {
-    "mode": "none",
-    "credit": ""
-   }
-  },
-  {
-   "id": "2026-11-17-d1gp-sobakiri-champion",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Kodai Sobakiri is the 2026 D1 Grand Prix champion. 🇯🇵 A tense final weekend at TOKYO DRIFT in Odaiba: no qualifying on Saturday, then a Top 4 finish on Sunday to seal his first series title. He said he was nervous the whole time.\n\n#d1gp #tokyodrift #drifting #japan #sidewayswire",
-   "media": [
-    "media/2026-11-17-d1gp-sobakiri-champion/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "foto nodig: voeg een foto toe",
-   "source": "https://www.as-web.jp/drift/1374797",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T13:24:20.362064+00:00",
-   "built": "2026-11-17T13:25:59.721616+00:00",
-   "want_at": "2026-12-03T07:30:00+00:00",
-   "video": null,
-   "tags": null,
-   "missing_handles": [
-    "Kodai Sobakiri",
-    "Naoki Nakamura"
-   ],
-   "caption_by": null,
-   "format": null,
-   "title": "KODAI SOBAKIRI IS THE 2026 D1GP CHAMPION",
-   "photo": {
-    "mode": "none",
-    "credit": ""
-   }
-  },
-  {
-   "id": "pod-1298fd1c600b-15",
-   "kind": "podcast_clip",
-   "status": "posted",
-   "post_at": "2026-11-17T11:30:00+00:00",
-   "posted_at": "2026-11-17T13:26:00.306626+00:00",
-   "caption": "Could Chelsea DeNofa be the next Formula DRIFT judge? Not yet, he says, and here's why.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": {
-    "instagram": "dry-run",
-    "facebook": "dry-run",
-    "tiktok": "dry-run",
-    "youtube": "dry-run"
-   },
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 4852.14
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:28:53.173250+00:00",
-   "built": "2026-11-16T21:56:41.519484+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-15/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "WILL CHELSEA EVER JUDGE FD?",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-14",
-   "kind": "podcast_clip",
-   "status": "posted",
-   "post_at": "2026-11-17T07:30:00+00:00",
-   "posted_at": "2026-11-17T13:26:00.306626+00:00",
-   "caption": "60k race engine or junkyard LS? Chelsea DeNofa says it doesn't matter, they all blow up.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #lsswap #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": {
-    "instagram": "dry-run",
-    "facebook": "dry-run",
-    "tiktok": "dry-run",
-    "youtube": "dry-run"
-   },
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 4317.32
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T21:30:31.621602+00:00",
-   "built": "2026-11-16T21:56:41.517712+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-14/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "\"THEY ALL BLOW UP\"",
    "photo": null
   }
  ],
