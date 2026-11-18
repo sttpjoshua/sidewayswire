@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T22:52:31.174859+00:00",
+ "updated": "2026-11-18T22:58:46.923832+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 36
+  "draft": 40
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6576,9 +6576,9 @@
       "topic": "STUCKEY VS MINOWA, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-31/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6590,9 +6590,9 @@
       "topic": "SORENSEN KNOCKED OUT BY FIELD",
       "quote": "All right scores scores are in who is it gonna be? Are we going one more time make some noise Las Vegas? Brandon Sorensen Matt field slide left for sorts of right for Matt field one vote for Matt field Two votes, Matt Field gets the win. Unfortunately for Sorensen, his night is done, but some great driving. Congratulations, the beast in the bay gets the win. Grandma right there in blue, cheering them on. Mom, dad, again, all the Sorensen family. And there it is, and all right, so Brandon Sorensen knocked out.",
       "why": "Sorensen ligt eruit in de Great 8, tegen Field",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-32/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6604,9 +6604,9 @@
       "topic": "FIELD CRANKED IT UP TO 11",
       "quote": "That was quite a battle. A lot on the line there. Yeah, big battle for sure. obviously for both of us we want to win. I know brand has got championship implications but I'm just trying to get a carbon fiber trophy at least once this year. Kid's a monster I mean he's not really a kid anymore he's a legit one of the baddest drivers on the field for sure. That was everything that I wanted it to be able to be in my chase. I hadn't been able to really crank it up to 11 yet. Really lack of runs, tracks changing just not quite sure how to attack it. Working on ECU and tune the entire time here. But the boys crank the link ECU up to 11 on that one. And I just kept my foot to the floor. That's what they told me I needed to do. So on to the next, I guess.",
       "why": "Field over zijn chase en de ECU op 11",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-33/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6618,9 +6618,9 @@
       "topic": "FORSBERG VS JACK, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-34/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -16520,6 +16520,166 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-34",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 7818.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:58:46.913621+00:00",
+   "built": "2026-11-18T22:58:46.913627+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-34/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "FORSBERG VS JACK, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-33",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field wants a carbon fiber trophy, and the crew cranked the ECU up to 11 for that chase on Brandon Sorensen.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 7610.11
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:57:02.970585+00:00",
+   "built": "2026-11-18T22:57:02.970593+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-33/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIELD CRANKED IT UP TO 11",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-32",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 7351.75
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:55:57.287419+00:00",
+   "built": "2026-11-18T22:55:57.287425+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-32/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SORENSEN KNOCKED OUT BY FIELD",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-31",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Daniel Stuckey against Shinji Minowa in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 6793
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:55:03.022868+00:00",
+   "built": "2026-11-18T22:55:03.022872+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-31/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey",
+    "Shinji Minowa"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "STUCKEY VS MINOWA, SIDE BY SIDE",
    "photo": null
   },
   {

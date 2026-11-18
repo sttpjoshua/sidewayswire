@@ -1082,10 +1082,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "spelling Daniel Stuckey (transcript: Stuckey/Stukie)",
-  "wait_name": "v2-yt8bwn2g2ssy-31r2-70150-70450.mp4"
+  "wait_name": "v2-yt8bwn2g2ssy-31r2-70150-70450.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-31/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T22:55:03.021975+00:00"
  },
  {
   "start": 7351.75,
@@ -1108,8 +1113,13 @@
    "why": "beslissende stem"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-32-73518-73878.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-32-73518-73878.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-32/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7365.07, \"start\": 7362.75, \"text\": \"A TITLE CONTENDER ON THE LINE\", \"why\": \"beslissende stem\"}",
+  "made": "2026-11-18T22:55:57.286461+00:00"
  },
  {
   "start": 7610.11,
@@ -1132,8 +1142,13 @@
    "why": "leuke uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-33-76101-76513.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-33-76101-76513.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-33/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7646.45, \"start\": 7643.77, \"text\": \"WHAT CHANGED IN THE CORVETTE?\", \"why\": \"leuke uitspraak\"}",
+  "made": "2026-11-18T22:57:02.969608+00:00"
  },
  {
   "start": 7818.3,
@@ -1168,8 +1183,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-34r2-79690-79890.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-34r2-79690-79890.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-34/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T22:58:46.912830+00:00"
  },
  {
   "start": 7969.05,
