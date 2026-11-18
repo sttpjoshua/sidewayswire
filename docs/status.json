@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T22:58:46.923832+00:00",
+ "updated": "2026-11-18T23:03:19.635612+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 40
+  "draft": 44
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6632,9 +6632,9 @@
       "topic": "FORSBERG AND JACK COLLIDE",
       "quote": "Shanahan ripping and slingshotting out from that start line. Shanahan initiates Forsberg right there. And tell him a little higher. Look at him just tucking right at night. And Forsberg, again, what transpired there as Shanahan and Forsberg had contact. Did he tap the wall? Was this kind of the opposite of TLO and Field earlier? Was there contact with the wall? Who hit who? Who hit the wall? Let's take a look at the replay.",
       "why": "Contact tussen Jack Shanahan en Forsberg",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-35/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6646,9 +6646,9 @@
       "topic": "A CLEAN CUT CALL FOR JACK",
       "quote": "So again, here we go. Slide them left for Forsberg, right for Shanahan. And Jack Shanahan gets one vote, two votes. And there it is. Jack Shanahan gets the victory. And again, the judge is saying pretty easy, pretty straightforward. Reese, I'm assuming that you're saying Chris hit, just goes in, Jack. That's it. So very clean cut. Forsberg taps the wall. He reacts the car reacts and it just slaps into Jack.",
       "why": "Jury: Forsberg raakt de muur en klapt in Jack",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-36/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6660,9 +6660,9 @@
       "topic": "SHANAHAN VS BEECHUM, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-37/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6674,9 +6674,9 @@
       "topic": "BEECHUM PUNTS THE ZONE MARKER",
       "quote": "Here we go. Connor Shannon initiates Trent Beecham, trying to get up to the side of that Red Bull 86. Jerry Yang racing prep vehicle outside zone four. Connor Shannon, oh, buddy. Trent Beecham overcooks it. He goes off course and absolutely punts that outside zone indicator.",
       "why": "Beechum gaat van de baan en ramt de zonemarkering",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-38/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,164 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-38",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Trenton Beechum overcooks it behind Conor Shanahan and takes out the outside zone marker.\n\n🎥 Footage: FD LAS VEGAS 2026\n@trenton_beechum @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 8184.49
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:03:19.626334+00:00",
+   "built": "2026-11-18T23:03:19.626337+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-38/clip.mp4",
+   "tags": [
+    "@trenton_beechum",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BEECHUM PUNTS THE ZONE MARKER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-37",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan against Trenton Beechum in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @trenton_beechum @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 8181
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:02:43.787630+00:00",
+   "built": "2026-11-18T23:02:43.787635+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-37/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "SHANAHAN VS BEECHUM, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-36",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The judges call it straightforward: Forsberg taps the wall and slaps into Jack Shanahan. Jack moves on.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #judging #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 8073.73
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:00:26.428516+00:00",
+   "built": "2026-11-18T23:00:26.428519+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-36/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "A CLEAN CUT CALL FOR JACK",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-35",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan leads, Chris Forsberg chases, and suddenly there is contact. Who hit the wall first?\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 7969.05
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:59:47.192656+00:00",
+   "built": "2026-11-18T22:59:47.192661+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-35/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FORSBERG AND JACK COLLIDE",
    "photo": null
   },
   {

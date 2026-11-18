@@ -1212,8 +1212,13 @@
    "why": "vraag na contact"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-35-79690-79995.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-35-79690-79995.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-35/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7997.11, \"start\": 7995.49, \"text\": \"WHO HIT WHO?\", \"why\": \"vraag na contact\"}",
+  "made": "2026-11-18T22:59:47.191763+00:00"
  },
  {
   "start": 8073.73,
@@ -1236,8 +1241,13 @@
    "why": "uitleg jury"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-36-80737-80969.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-36-80737-80969.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-36/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8096.89, \"start\": 8093.49, \"text\": \"WHO CAUSED THE CONTACT?\", \"why\": \"uitleg jury\"}",
+  "made": "2026-11-18T23:00:26.427622+00:00"
  },
  {
   "start": 8181,
@@ -1272,8 +1282,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-37r2-83020-83330.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-37r2-83020-83330.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-37/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T23:02:43.786887+00:00"
  },
  {
   "start": 8184.49,
@@ -1296,8 +1311,13 @@
    "why": "de klap"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-38-81845-82022.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-38-81845-82022.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-38/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8202.23, \"start\": 8199.03, \"text\": \"WHERE DID THAT MARKER GO?\", \"why\": \"de klap\"}",
+  "made": "2026-11-18T23:03:19.625478+00:00"
  },
  {
   "start": 8403.39,
