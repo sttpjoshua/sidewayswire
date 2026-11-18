@@ -1,10 +1,11 @@
 {
  "youtube": "SXNOqCs8w_o",
- "status": "error",
+ "status": "transcribed",
  "note": "video vastgelegd in het register",
  "seconds": 9670.0,
  "found_title": "Formula DRIFT Orlando 2026 - PRO, Round 3 - Top 32",
- "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+ "error": null,
  "at": 1794990328.2158332,
- "version": "15"
+ "version": "15",
+ "transcribed": "2026-11-18T19:50:57.233934+00:00"
 }
