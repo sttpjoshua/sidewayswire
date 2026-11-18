@@ -387,8 +387,13 @@
    "why": "spanning bij de stemmen"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-11-30808-31231.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-11-30808-31231.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3107.75, \"start\": 3105.87, \"text\": \"WHO SURVIVES THE ONE MORE TIME?\", \"why\": \"spanning bij de stemmen\"}",
+  "made": "2026-11-18T22:18:57.072371+00:00"
  },
  {
   "start": 3209,
@@ -423,8 +428,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-12r2-33180-33460.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-12r2-33180-33460.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-12/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T22:20:08.472763+00:00"
  },
  {
   "start": 3310.13,
@@ -447,8 +457,13 @@
    "why": "de spin"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-13-33101-33575.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-13-33101-33575.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3345.85, \"start\": 3342.87, \"text\": \"DID THE LEAD CAR CAUSE THIS?\", \"why\": \"de spin\"}",
+  "made": "2026-11-18T22:21:28.783247+00:00"
  },
  {
   "start": 3693.43,
@@ -471,8 +486,13 @@
    "why": "kern van de uitleg"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-14-36934-37583.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-14-36934-37583.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3758.29, \"start\": 3756.07, \"text\": \"WHY DID THE JUDGES DECIDE THIS?\", \"why\": \"kern van de uitleg\"}",
+  "made": "2026-11-18T22:23:03.104439+00:00"
  },
  {
   "start": 3831,

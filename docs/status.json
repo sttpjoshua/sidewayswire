@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T22:17:49.897978+00:00",
+ "updated": "2026-11-18T22:23:03.114514+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 16
+  "draft": 20
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6296,9 +6296,9 @@
       "topic": "SORENSEN SURVIVES THE ONE MORE TIME",
       "quote": "For me, Cole is very, he loses a bit of pace through the last half of this, whereas Brandon, you know, picked up the pace. So, jeez, I mean, dude, the drifting right now is just wild. I'm loving the track, new track, the pavement is perfect. Thank you to LVMS and FYI, we did sign a three -year contract. We will be back here 27 and 28. Slide them left for Sorensen, right for Cole Richards. Brandon Sorensen gets one vote, two votes. Brandon Sorensen gets the win, and it's a one more time, but it's unanimous. Sorry, not unanimous, but majority rules. Brandon Sorensen edges out Cole Richards. Cole, hold your head high. Rookie of the year 2026.",
       "why": "Uitslag van de one more time, Sorensen door",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-11/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6310,9 +6310,9 @@
       "topic": "BURKETT VS MINOWA, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-12/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6324,9 +6324,9 @@
       "topic": "BURKETT SPINS IN THE CHASE",
       "quote": "But what kind of approach does Dan Burkett take? It's got to be a little tepid and just let Shinji get the initiation done and dive in when you feel comfortable Shinji manoa out front. We got a clean start here manoa initiates into the bank rad dandric at so look at manoa You see him initiate kind of slow crawl into it not a lot of angle He does a decent placement there But manoa goes into that outside zone for off and into the crease now into outside zone five Rad dandric and there you go. So like you said tepid you see him backing off here Whoa, no! And Rat Danverkatt comes to a halt, and this could be, but the consideration here is, one, again, tire fire, two, it's very difficult to follow that lead run.",
       "why": "Burkett spint achter Minowa na een late D-cell",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-13/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6338,9 +6338,9 @@
       "topic": "JUDGES ON THE MINOWA WIN",
       "quote": "We go slide of left for Dan Burkett or right for Shinji Manoa Shinji Manoa gets one vote two vote and three votes Shinji Reese going through your headset on that took a lot of deliberation there That was a bit of a lackluster lead run there by Shinji and obviously Dan gets a zero, but I felt like it was an action reaction. What was your guys consensus? Yeah, we were looking at all the videos here just to kind of see the main thing was in the driver's meeting. We did say that there is a diesel zone right before going into outside zone six. We wanted to make sure that the diesel happened in that area and not going into outside zone six. And when we reviewed that, I mean the D cell that Manoa did in his lead was legal and Because it's legal and then he started firing off going through legal would legal be the proper verbiage or It was a lot he was allowed to do so he detailed in the appropriate area He wasn't he selling afterwards So we went to the wall system just to verify that he didn't bleed that D cell into that outside zone six It didn't happen which means that he was he was a right in D song in that spot the collision happened He ended up getting zero and that's why we put Minoa in the win.",
       "why": "Jury legt uit waarom de D-cell van Minowa legaal was",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-14/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,166 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Three votes for Shinji Minowa. The judges explain the deceleration zone and why Dan Burkett got a zero.\n\n🎥 Footage: FD LAS VEGAS 2026\n@raddandrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #judging #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 3693.43
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:23:03.105501+00:00",
+   "built": "2026-11-18T22:23:03.105509+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-14/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Shinji Minowa"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JUDGES ON THE MINOWA WIN",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dan Burkett gives Shinji Minowa room, and then it all goes wrong. A spin in the chase in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026\n@raddandrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 3310.13
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:21:28.784310+00:00",
+   "built": "2026-11-18T22:21:28.784319+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-13/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Shinji Minowa"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "BURKETT SPINS IN THE CHASE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dan Burkett against Shinji Minowa. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@raddandrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 3209
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:20:08.473543+00:00",
+   "built": "2026-11-18T22:20:08.473549+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-12/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Shinji Minowa"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "BURKETT VS MINOWA, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 3080.75
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:18:57.073254+00:00",
+   "built": "2026-11-18T22:18:57.073257+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-11/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SORENSEN SURVIVES THE ONE MORE TIME",
    "photo": null
   },
   {
