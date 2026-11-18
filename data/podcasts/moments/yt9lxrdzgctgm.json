@@ -192,8 +192,13 @@
    "why": "het moment dat hij stilvalt"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-6-27482-28046.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-6-27482-28046.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2763.24, \"start\": 2760.56, \"text\": \"WHAT HAPPENED TO THE MUSTANG?\", \"why\": \"het moment dat hij stilvalt\"}",
+  "made": "2026-11-18T23:53:23.106426+00:00"
  },
  {
   "start": 3162.92,
@@ -216,10 +221,15 @@
    "why": "contact"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Naam Daniel Stuckey uit spraakherkenning",
-  "wait_name": "v2-yt9lxrdzgctgm-7-31629-31955.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-7-31629-31955.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3173.16, \"start\": 3170.18, \"text\": \"LZ TAKES A HIT\", \"why\": \"contact\"}",
+  "made": "2026-11-18T23:54:13.083387+00:00"
  },
  {
   "start": 3807.8,
@@ -242,8 +252,13 @@
    "why": "kwetsbare uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-8-38078-38660.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-8-38078-38660.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3856.54, \"start\": 3854.5, \"text\": \"VAUGHN GETS HONEST\", \"why\": \"kwetsbare uitspraak\"}",
+  "made": "2026-11-18T23:55:42.526545+00:00"
  },
  {
   "start": 4607.42,
@@ -266,8 +281,13 @@
    "why": "bumper vliegt eraf"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-9-46074-46407.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-9-46074-46407.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4623.22, \"start\": 4620.64, \"text\": \"WHERE DID THAT BUMPER GO?\", \"why\": \"bumper vliegt eraf\"}",
+  "made": "2026-11-18T23:56:36.488270+00:00"
  },
  {
   "start": 4763.12,

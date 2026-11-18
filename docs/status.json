@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:51:47.770466+00:00",
+ "updated": "2026-11-18T23:56:36.500610+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 88
+  "draft": 92
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -2594,9 +2594,9 @@
       "topic": "VAUGHN'S MUSTANG GIVES UP",
       "quote": "As long as junior initiates RCP. Place the car. Kind of a slow drift there for a long and junior. The mustang. Some's wrong. Some's a foot here for the Mustang. He is not getting all the way out there. Shuts it down. So Vaughn and the Mustang comes to a halt and that's going to be unfortunate. That's going to hand the victory to RCP. So very much a bummer for Vaughn getting junior. But RCP will take the win against the two -time FD champ. And again, winner in Atlanta. I'm sure Sarice will get down there and see what happened. Yeah, that's tough. Even on the initiation, something felt off. Hard to say exactly what it is. My gut goes towards a drivetrain component of some kind. It's tough for Vaughn. It's such a such a hard thing to see a driver who came out of the gate like really good go out to it a mechanical issue",
       "why": "Mechanisch probleem: Vaughn valt stil in zijn leadrun",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-6/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2608,9 +2608,9 @@
       "topic": "STUCKEY HITS LZ TWICE",
       "quote": "Adam LZ will lead Daniel Sukey give a chase We got a clean start here in the chicane Adam LZ initiates into that first turn Daniel Sukey dives it Contact is made Adam stays in it takes the hit on the chin But keeps on keeping on and outside zone three Daniel Stuckey fit Oh gosh, back out like a track guy that goes inside of him. Daniel Stuge finally comes to a halt. Adam Elizin, unaffected, unflappable, as Adam, if he finishes this. I mean, that is one heck of a resilient BMW. We know he could take a hit, but the wall can definitely win.",
       "why": "Contact op initiatie, Stuckey valt uit, LZ rijdt door",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-7/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2622,9 +2622,9 @@
       "topic": "VAUGHN OPENS UP",
       "quote": "All right, guys. I am here with the champ, Von. You and I talked earlier and you said you were going to go out there, give it your all. It sounds like your transmission did not get the memo. It hurt to shift and then the transmission just left the chat. Yeah, pretty much. I shifted in there and when I let the clutch out, it just had no drive and I tried to shift into second. I was like, I'm just going to try to run the whole track in second gear, see what happens. And I wouldn't even come out of third. So I don't know what happened. I've never experienced a lot transmission like that before, but I had a blast. Thank you so much Long Beach and everyone that tuned in. I've been like internally like battling a lot this weekend to just like get back to this level. You know, I know it was ago, what you want Atlanta, but this is tough stuff and it takes a lot of like digging deep and a lot of just stuff comes up into the brain. I question in should I be here? Should I be doing this? And I really am proud of how I performed and like where I ended up and I saw myself going I'm a dream was to battle James in the finals here again, but unfortunately not gonna happen",
       "why": "Vaughn over zijn kapotte versnellingsbak en twijfels",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-8/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2636,9 +2636,9 @@
       "topic": "BURKETT TAKES OFF AASBØ'S BUMPER",
       "quote": "Frederick Osbob will lead Dan Burkett chasing him down. Let's see what Freddie's got for Dan Burkett. Good swing in front of Dan Burkett. Oh, holy cow. Frederick just keeps on going. That front bumper just got yeeted off. Wow. Okay. All right. Yeah, Dan just... Rad Dan turned into Sad Dan there. I as Mar, I've almost seen Mad Dan for a second. Yeah, I'm not sure what happened. He's not so glad, Dan. We're not doing this again. We did this once already this year.",
       "why": "Contact op initiatie in de Supra battle, bumper vliegt eraf",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-9/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16523,6 +16523,165 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Battle of the Supras at Long Beach, and it gets messy on initiation. Rad Dan into Fredric Aasbø.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@raddandrift @formulad @fredricaasbo\n\n#formulad #formuladrift #fredricaasbo #danburkett #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 4607.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:56:36.489170+00:00",
+   "built": "2026-11-18T23:56:36.489173+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-9/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "BURKETT TAKES OFF AASBØ'S BUMPER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Vaughn Gittin Jr. on his transmission failure and the inner battle of getting back to this level.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@vaughngittinjr @jamesdeane130 @formulad\n\n#formulad #formuladrift #vaughngittinjr #rtr #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 3807.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:55:42.527517+00:00",
+   "built": "2026-11-18T23:55:42.527520+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-8/clip.mp4",
+   "tags": [
+    "@vaughngittinjr",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "VAUGHN OPENS UP",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Daniel Stuckey dives in hard on Adam LZ and makes contact twice. LZ's BMW just keeps going.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@adam_lz @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 3162.92
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:54:13.085334+00:00",
+   "built": "2026-11-18T23:54:13.085349+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-7/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "STUCKEY HITS LZ TWICE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Vaughn Gittin Jr. initiates his lead run and the Mustang simply stops pulling. RCP moves on.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@vaughngittinjr @romecp @formulad\n\n#formulad #formuladrift #vaughngittinjr #rtr #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 2748.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:53:23.107369+00:00",
+   "built": "2026-11-18T23:53:23.107372+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-6/clip.mp4",
+   "tags": [
+    "@vaughngittinjr",
+    "@romecp",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "VAUGHN'S MUSTANG GIVES UP",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-5",
    "kind": "stream_clip",
    "status": "draft",
@@ -23849,172 +24008,6 @@
    "caption_by": null,
    "format": "single",
    "title": "DRIFT NEEDS DRIVE TO SURVIVE",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-19",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone said on The Outerzone that big things are brewing for Interclip with Formula DRIFT, but he can't say more yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Interclip #Drifting #DriveToSurvive #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-19/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 4530.13
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:27:48.008627+00:00",
-   "built": "2026-11-17T18:09:52.769290+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-19/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "BIG INTERCLIP NEWS COMING?",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-18",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone started out assisting the cinematographer behind Linkin Park and Michael Jackson music videos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Filmmaking #LinkinPark #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-18/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 4438.93
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:26:44.745462+00:00",
-   "built": "2026-11-17T18:09:52.769043+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-18/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Ross Richardson"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "LINKIN PARK CONNECTION",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-11",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "In Atlanta, Christian Cotrone's crew watched Matt Field's team fix wall damage in five minutes. One of them said: we got a lot of work to do.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Drifting #PitCrew #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-11/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 3156.93
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:19:24.215623+00:00",
-   "built": "2026-11-17T18:09:52.686886+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-11/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "WATCHING MATT FIELD'S CREW",
-   "photo": null
-  },
-  {
-   "id": "pod-070d2a07f93c-7",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jacob Gettins' goalie thought: judges in a container who only see the scoring data, not the cars or the drivers. Would you trust it?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#FormulaDrift #DriftJudging #Drifting #Telemetry #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-7/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 2162.04
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:33:58.989421+00:00",
-   "built": "2026-11-17T14:16:52.671698+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-7/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "BLIND JUDGES IN A BOX?",
    "photo": null
   }
  ],
