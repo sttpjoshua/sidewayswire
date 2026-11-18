@@ -1,9 +1,10 @@
 {
- "updated": "2026-11-18T13:33:42.168586+00:00",
+ "updated": "2026-11-18T19:36:15.464926+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
-  "posted": 3
+  "posted": 3,
+  "draft": 4
  },
  "collected": "2026-11-18T13:33:42.056868+00:00",
  "instagram": false,
@@ -8911,9 +8912,9 @@
       "topic": "DEANE: THAT BATTLE WAS STUPID",
       "quote": "James Dean, congratulations first step on the podium in the final round. You told me you were going to put it on the podium, not quite the top step, but boy did you battle hard all day. We definitely tried. Coming into this event, I knew this was our chance to try to go all the way. I really wanted to win the Ford Racing Mustang RTR. We qualified for it, so it was starting perfectly. We fought hard through the battles. Battle of Connor was just like stupid. It was crazy, the chances we were taking. And yeah, we tried everything. We were in the chase position, I just feel like the link to the Mustang was like grabbing the wall and it's like compromised. Are you going to hit his front wheel or are you going to hit him? Be on his door and be tapping the wall. and so we tried everything, unreal battle, went one more time and then we back with Dwayne for a third place in the podium we got the win what a way to wrap up and finish on the podium in the biggest riffle in the world.",
       "why": "Deane over de wilde battle met Conor en P3",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt3ujq9evdy6m-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8925,9 +8926,9 @@
       "topic": "CHAMPION: STILL CAN'T BELIEVE IT",
       "quote": "Of Al Korpilinski, you just took second step on the final round of the Driftmasters podium, but not only that, today you were crowned the 2026 Driftmasters champion. How do you feel? It's crazy, I still can't believe it. I'm holding the Golden Trophy in my hand but I still cannot believe that it just happened. I can't be more happy to be honest, it's a dream come true. I'm in a place I've been working for more than 10 years to be at. So it's a dream come true. I know that I've said that several times during this year, after my first win, after my second win and now after winning the championship but that's how I feel. That's my true emotions I've got inside of me. I'm simply speechless. I don't know how to describe what I'm feeling right now. It feels like... Except that it feels like a dream come true. It feels that we achieved something we were aiming for for many years and working hard towards. So it feels great. It's an incredible feeling.",
       "why": "Kersverse kampioen over tien jaar werken voor dit moment",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt3ujq9evdy6m-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8939,9 +8940,9 @@
       "topic": "110 PERCENT AGAINST CONOR",
       "quote": "Look, all the hard work paid off. It was a tough season. There were plenty of highs, plenty of lows. It didn't really start the way that we fought, but then halfway through the season you crept in and you've shown what a championship drive is all about. It's always about fighting, it's always about keeping on it. Today was a tough ask, there were some seriously tough battles in that final against Conor. It was just one foot too much. I knew I needed to go 110 % against Conor. I think it was our third time that we met here in the stadium and I want the third time to be mine. So I decided that I really needed to go 110 % and that didn't really pay off. I caught the wall at the outer fore and ended up in the same wall a few meters further. But yeah, I'm still happy because I knew I did everything to put on a best performance. So I'm happy with it and yeah, the most important thing is that we achieved what we wanted to achieve and I'm holding it in my hands.",
       "why": "Korpuliński ging all-in in de finale en raakte de muur",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt3ujq9evdy6m-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8953,9 +8954,9 @@
       "topic": "SHANAHAN: HE DESERVES IT",
       "quote": "Connor Shanahan, you just won the final round of Driftmasters 2026. That was an unbelievable drive. You got the nickname The Chano and I'll tell you one way today, you proved it. Yeah, amazing knife. Yeah, I came here with still a slight bit of chance, right? Of course, I'm going to hope that something happens. But I guess the main goal was the only way that that ever was going to happen was the wind event. We'd done that job. We were hoping for a little bit of luck along the way, but that didn't come. And Koppelinski deserves the championship. He's done a great job. And I'm very proud of him. His whole team, they've been knocking at the door for a long time. So hopefully they enjoy it. Yeah, P2 in the championship. Third time winning here. This stadium has only been won ever by an RS driver. It's insane.",
       "why": "Shanahan wint de ronde en feliciteert de kampioen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt3ujq9evdy6m-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16519,6 +16520,166 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt3ujq9evdy6m-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan wins the final round, misses the title, and gives full credit to the new champion.\n\n🎥 Footage: REACTIONS FROM THE PODIUM AT RED BULL DR\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #warsaw #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Reactions From The Podium At Red Bull Drift Masters Grand Finale",
+    "start": 259.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:36:15.455359+00:00",
+   "built": "2026-11-18T19:36:15.455366+00:00",
+   "want_at": null,
+   "video": "media/pod-yt3ujq9evdy6m-3/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN: HE DESERVES IT",
+   "photo": null
+  },
+  {
+   "id": "pod-yt3ujq9evdy6m-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Third meeting with Conor Shanahan in the stadium. Paweł Korpuliński went 110 percent and found the wall twice.\n\n🎥 Footage: REACTIONS FROM THE PODIUM AT RED BULL DR\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #final #poland #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Reactions From The Podium At Red Bull Drift Masters Grand Finale",
+    "start": 180.62
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:35:17.513374+00:00",
+   "built": "2026-11-18T19:35:17.513378+00:00",
+   "want_at": null,
+   "video": "media/pod-yt3ujq9evdy6m-2/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "110 PERCENT AGAINST CONOR",
+   "photo": null
+  },
+  {
+   "id": "pod-yt3ujq9evdy6m-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Golden trophy in hand, and Paweł Korpuliński still can't believe he is the 2026 Drift Masters champion.\n\n🎥 Footage: REACTIONS FROM THE PODIUM AT RED BULL DR\n@driftmasters.gp\n\n#driftmasters #drifting #champion #poland #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Reactions From The Podium At Red Bull Drift Masters Grand Finale",
+    "start": 116.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:34:02.824342+00:00",
+   "built": "2026-11-18T19:34:02.824349+00:00",
+   "want_at": null,
+   "video": "media/pod-yt3ujq9evdy6m-1/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CHAMPION: STILL CAN'T BELIEVE IT",
+   "photo": null
+  },
+  {
+   "id": "pod-yt3ujq9evdy6m-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane on his battle with Conor Shanahan: tapping the wall, chasing the door, and still fighting back to the podium.\n\n🎥 Footage: REACTIONS FROM THE PODIUM AT RED BULL DR\n@jamesdeane130 @conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #podium #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Reactions From The Podium At Red Bull Drift Masters Grand Finale",
+    "start": 28.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:32:41.482988+00:00",
+   "built": "2026-11-18T19:32:41.482995+00:00",
+   "want_at": null,
+   "video": "media/pod-yt3ujq9evdy6m-0/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Duane McKeever"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE: THAT BATTLE WAS STUPID",
    "photo": null
   },
   {
