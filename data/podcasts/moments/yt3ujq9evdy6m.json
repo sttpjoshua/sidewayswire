@@ -135,7 +135,12 @@
    "why": "zijn motivatie"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt3ujq9evdy6m-4-3099-3341.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt3ujq9evdy6m-4-3099-3341.mp4",
+  "clip": "docs/media/pod-yt3ujq9evdy6m-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 326.96, \"start\": 324.64, \"text\": \"WHAT MATTERED MOST TONIGHT?\", \"why\": \"zijn motivatie\"}",
+  "made": "2026-11-18T19:38:05.732948+00:00"
  }
 ]

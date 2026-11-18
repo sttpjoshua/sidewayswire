@@ -19,8 +19,13 @@
    "why": "kampioen weggesleept"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-0-1747-1987.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-0-1747-1987.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 194.42, \"start\": 190.8, \"text\": \"WHAT HAPPENED TO THE CHAMPION?\", \"why\": \"kampioen weggesleept\"}",
+  "made": "2026-11-18T19:38:51.222415+00:00"
  },
  {
   "start": 1467.72,
@@ -43,10 +48,15 @@
    "why": "pure reactie van Flav"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Flavor Flav is not a driver; check handle",
-  "wait_name": "v2-yt8bwn2g2ssy-1-14677-15061.mp4"
+  "wait_name": "v2-yt8bwn2g2ssy-1-14677-15061.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1505.22, \"start\": 1502.94, \"text\": \"FLAVOR FLAV GETS A DRIFT RIDE\", \"why\": \"pure reactie van Flav\"}",
+  "made": "2026-11-18T19:39:45.978408+00:00"
  },
  {
   "start": 1612,
@@ -81,8 +91,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-2r2-17260-17570.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-2r2-17260-17570.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-2/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T19:40:57.304664+00:00"
  },
  {
   "start": 1615.0,

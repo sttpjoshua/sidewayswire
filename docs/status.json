@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T19:36:15.464926+00:00",
+ "updated": "2026-11-18T19:40:57.317407+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 4
+  "draft": 8
  },
  "collected": "2026-11-18T13:33:42.056868+00:00",
  "instagram": false,
@@ -6142,9 +6142,9 @@
       "topic": "DEANE OUT EARLY IN VEGAS",
       "quote": "All right, up next then we have again, this was another giant killer, a five time champion of James the Machine Dean. You can see obviously a one more time James Dean went back to the pits, too much smoke, too much noise down a cylinder, unable to run. The five time and defending champion got towed off the track and he retires early as the sun was still up earlier today. As",
       "why": "Titelverdediger valt al in de top 32 uit met motorpech",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6156,9 +6156,9 @@
       "topic": "FLAVOR FLAV ON HIS DRIFT RIDE",
       "quote": "So Amanda took me on a drift ride. And the reason why it wasn't that exciting because the parking lot was a lot smaller than - You need a bigger playground, man. Yeah, yeah, there's actual track. So the ride she took me on was just a taste on the tip of the tongue. Yes, sir. Tonight, oh, no, I got to get the full meal. I got to get the full meal. And dessert. Yes, and let me tell you something. The girl is so amazing. At the end, she pulled off a 360. I lost my mind, man. I was like, yo!",
       "why": "Flavor Flav over zijn ritje met Amanda Sorensen, eindigend met een 360",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6170,9 +6170,9 @@
       "topic": "SORENSEN VS RICHARDS, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-2/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -8968,9 +8968,9 @@
       "topic": "FORGET THE CHAMPIONSHIP",
       "quote": "It's just the emotion the passion the love for drifting what we all experience in here and a lot of emotions It was a hard night. It was it was a difficult night Things were starting to get you know last messy and I was gonna try to stay somewhat right because I wanted to win They've been no matter what forget about the championship. I just wanted to win the event And that's the most important thing to me. So I'm super happy. Thank you to my team, family, my fans, everybody who makes this happen. Thank you so much.",
       "why": "Shanahan wilde alleen nog het event winnen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt3ujq9evdy6m-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      }
@@ -16520,6 +16520,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen against rookie Cole Richards. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 1612
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:40:57.305707+00:00",
+   "built": "2026-11-18T19:40:57.305717+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-2/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "SORENSEN VS RICHARDS, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Flavor Flav took a ride with Amanda Sorensen in Las Vegas, and the 360 at the end blew his mind.\n\n🎥 Footage: FD LAS VEGAS 2026\n@amanda.sorensen12 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 1467.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:39:45.979327+00:00",
+   "built": "2026-11-18T19:39:45.979335+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-1/clip.mp4",
+   "tags": [
+    "@amanda.sorensen12",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Flavor Flav"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FLAVOR FLAV ON HIS DRIFT RIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The five time and defending champion went back to the pits for a one more time and never came out. James Deane is out early in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 174.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:38:51.223326+00:00",
+   "built": "2026-11-18T19:38:51.223334+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-0/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE OUT EARLY IN VEGAS",
+   "photo": null
+  },
+  {
+   "id": "pod-yt3ujq9evdy6m-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Things got messy, but Conor Shanahan only had one goal left: win the event.\n\n🎥 Footage: REACTIONS FROM THE PODIUM AT RED BULL DR\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #poland #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Reactions From The Podium At Red Bull Drift Masters Grand Finale",
+    "start": 309.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:38:05.733935+00:00",
+   "built": "2026-11-18T19:38:05.733945+00:00",
+   "want_at": null,
+   "video": "media/pod-yt3ujq9evdy6m-4/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FORGET THE CHAMPIONSHIP",
    "photo": null
   },
   {
