@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T08:01:43.100748+00:00",
+ "updated": "2026-11-18T08:19:33.834393+00:00",
  "counts": {
   "ready": 113,
   "check": 124,
   "posted": 3
  },
- "collected": "2026-11-18T08:01:42.392265+00:00",
+ "collected": "2026-11-18T08:19:33.391496+00:00",
  "instagram": false,
  "sources": [
   {
@@ -40,7 +40,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -116,9 +116,8 @@
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
   },
   {
    "source": "Drift Masters",
@@ -4822,19 +4821,19 @@
     "podcast": "Formula DRIFT",
     "title": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
     "published": "2026-09-26",
-    "status": "transcribing",
+    "status": "transcribed",
     "youtube": "rbtps1zxw4I",
     "audio": null,
     "link": null,
     "art": null,
     "seconds": 10085.0,
     "error": null,
-    "transcribed": null,
+    "transcribed": "2026-11-18T07:55:48.382318+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
     "event": "FD LAS VEGAS 2026",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -4842,19 +4841,19 @@
     "podcast": "Formula DRIFT",
     "title": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
     "published": "2026-09-25",
-    "status": "new",
+    "status": "transcribed",
     "youtube": "NMN7gXUnKSk",
     "audio": null,
     "link": null,
     "art": null,
-    "seconds": null,
+    "seconds": 9310.0,
     "error": null,
-    "transcribed": null,
+    "transcribed": "2026-11-18T08:00:21.740712+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
     "event": "FD LAS VEGAS 2026",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -5253,19 +5252,19 @@
     "podcast": "Formula DRIFT",
     "title": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Top 32",
     "published": "2026-08-22",
-    "status": "new",
+    "status": "transcribed",
     "youtube": "OG8I68QcjXg",
     "audio": null,
     "link": null,
     "art": null,
-    "seconds": null,
+    "seconds": 7240.0,
     "error": null,
-    "transcribed": null,
+    "transcribed": "2026-11-18T08:04:00.056531+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
     "event": "FD SEATTLE 2026",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -5273,19 +5272,19 @@
     "podcast": "Formula DRIFT",
     "title": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
     "published": "2026-08-22",
-    "status": "new",
+    "status": "transcribed",
     "youtube": "zB6lkWi41kc",
     "audio": null,
     "link": null,
     "art": null,
-    "seconds": null,
+    "seconds": 10580.0,
     "error": null,
-    "transcribed": null,
+    "transcribed": "2026-11-18T08:08:19.666343+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
     "event": "FD SEATTLE 2026",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -5313,19 +5312,19 @@
     "podcast": "Formula DRIFT",
     "title": "Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Top 32",
     "published": "2026-08-01",
-    "status": "new",
+    "status": "transcribed",
     "youtube": "hnGly_d6cR0",
     "audio": null,
     "link": null,
     "art": null,
-    "seconds": null,
+    "seconds": 10690.0,
     "error": null,
-    "transcribed": null,
+    "transcribed": "2026-11-18T08:12:43.723793+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
     "event": "FD INDIANAPOLIS 2026",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -5333,12 +5332,12 @@
     "podcast": "Formula DRIFT",
     "title": "Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Qualifying",
     "published": "2026-07-31",
-    "status": "new",
+    "status": "transcribing",
     "youtube": "rM9nagg2XVU",
     "audio": null,
     "link": null,
     "art": null,
-    "seconds": null,
+    "seconds": 9170.0,
     "error": null,
     "transcribed": null,
     "tries": null,
@@ -5652,13 +5651,13 @@
  },
  "streams": {
   "total": 25,
-  "transcribed": 2,
+  "transcribed": 7,
   "moments": 1,
-  "next": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
+  "next": "Red Bull Drift Masters Grand Finale 2026 • Poland • Qualifying LIVE",
   "series": {
    "Formula DRIFT": {
     "total": 18,
-    "transcribed": 2
+    "transcribed": 7
    },
    "Drift Masters": {
     "total": 7,

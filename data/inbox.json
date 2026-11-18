@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:01:42.392265+00:00",
+ "updated": "2026-11-18T08:19:33.391496+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -1564,7 +1564,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -1640,9 +1640,8 @@
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
   },
   {
    "source": "Drift Masters",
