@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T22:46:33.095566+00:00",
+ "updated": "2026-11-18T22:52:31.174859+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 32
+  "draft": 36
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6520,9 +6520,9 @@
       "topic": "DRONE CAUGHT IN THE BATTLE",
       "quote": "Again, as Chris Forsforsberg initiates some sparks flying. Ken Gushi, tucking in some wavering there in the chase position now coming down into the crease, Forsberg and Gushi slammed down, narrowly escaping that contact was made and now ripping through the course looks like my drone might have been down as again Chris Forsberg goes into these final outside zones. Wow electricity in more ways than one. Wow it looked like they were narrowly gonna escape and then Gucci dove in there was contact. Wow. Yeah. Yeah. Justin smash lives to see another day. Our drone pilot got caught up in the mix. They built some, they built some very robust aircraft to Justin smash and team.",
       "why": "Contact in de one more time en de drone raakt het dak van Forsberg",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-27/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6534,9 +6534,9 @@
       "topic": "FORSBERG BEATS GUSHI AFTER OMT",
       "quote": "Mimic, very close, 55 and 60 percent. Proximity from Chris Forsberg though, 100 percent to the 71. So it looks like, you know, as we start to kind of add things up. The numbers don't lie. Yeah, yeah, it's a tight battle. Once again, judges having a hard time. Forresburg with more average angle throughout the run. Lead scores are pretty close. Tough go. It's a tough night to be a judge. Yeah, it's a tough night to be a hot dog of your bag. And Jerry Johnson. Bad night to be a hot dog. Slide of the left for Chris Forresburg, right for Kenshiro Gushi. One vote for Chris Forresburg. Two votes. After one more time, Chris Forresburg gets the win. Ken Gushi, some great driving, leaving it all out there on the track.",
       "why": "Uitslag na one more time tussen de legendes",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-28/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6548,9 +6548,9 @@
       "topic": "SORENSEN VS FIELD, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-29/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6562,9 +6562,9 @@
       "topic": "FIELD BULLIES THE POINTS CHASER",
       "quote": "Brandon Sorensen locking in, quad locking in. Oh, look, Matt Field gets to the side of the BMW, gonna run that one back and check out this truth serum, the overhead shot. As Brandon over cooks it, you get that back left GT radio off track and now coming into the outside zone five. Matt Field, look at him zeroing in like a magnet. He is locking in as well into the outside zone six. Now the final seven and eight. Matt, I mean, he is right in the mix. His fangs are sunken in to the side of the BMW of Sorensen. Well, we call him the beast in the bank because of that aggression and that's what we saw. And that is the Matt Field that so many people have grown to love is that just falls to the walls, throw everything at it. And, man, if they didn't make contact - Exactly. You're going to have to measure that with a microscope how close they got to each other.",
       "why": "Field zit in de deur van Sorensen in de Great 8",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-30/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,166 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-30",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field sinks his fangs into the door of title contender Brandon Sorensen. Measured with a microscope.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 6594.45
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:52:31.165195+00:00",
+   "built": "2026-11-18T22:52:31.165202+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-30/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIELD BULLIES THE POINTS CHASER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-29",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Title contender Brandon Sorensen against Matt Field in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 6591
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:51:09.112332+00:00",
+   "built": "2026-11-18T22:51:09.112340+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-29/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "SORENSEN VS FIELD, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-28",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After a one more time, the numbers and the judges side with Chris Forsberg over Ken Gushi.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #chrisforsberg #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 6365.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:49:01.244770+00:00",
+   "built": "2026-11-18T22:49:01.244778+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-28/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg",
+    "Ken Gushi"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FORSBERG BEATS GUSHI AFTER OMT",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-27",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Sparks, contact and a drone that got caught up in the mix during the Forsberg vs Gushi one more time.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 6152.35
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:47:56.914769+00:00",
+   "built": "2026-11-18T22:47:56.914773+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-27/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg",
+    "Ken Gushi"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DRONE CAUGHT IN THE BATTLE",
    "photo": null
   },
   {

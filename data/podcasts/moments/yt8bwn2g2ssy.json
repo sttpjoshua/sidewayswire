@@ -942,8 +942,13 @@
    "why": "drone geraakt"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-27-61524-61946.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-27-61524-61946.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6190.59, \"start\": 6188.47, \"text\": \"WHAT JUST HAPPENED TO THE DRONE?\", \"why\": \"drone geraakt\"}",
+  "made": "2026-11-18T22:47:56.913845+00:00"
  },
  {
   "start": 6365.41,
@@ -966,8 +971,13 @@
    "why": "beslissing"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-28-63654-64046.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-28-63654-64046.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6401.41, \"start\": 6399.03, \"text\": \"LEGEND VS LEGEND: WHO ADVANCES?\", \"why\": \"beslissing\"}",
+  "made": "2026-11-18T22:49:01.243814+00:00"
  },
  {
   "start": 6591,
@@ -1002,8 +1012,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-29r2-71750-72020.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-29r2-71750-72020.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-29/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T22:51:09.111505+00:00"
  },
  {
   "start": 6594.45,
@@ -1026,8 +1041,13 @@
    "why": "extreme proximity"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-30-65944-66441.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-30-65944-66441.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-30/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6644.11, \"start\": 6641.31, \"text\": \"HOW CLOSE IS TOO CLOSE?\", \"why\": \"extreme proximity\"}",
+  "made": "2026-11-18T22:52:31.164190+00:00"
  },
  {
   "start": 6793,
