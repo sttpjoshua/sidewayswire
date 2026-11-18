@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:07:47.819146+00:00",
+ "updated": "2026-11-18T23:13:43.351269+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 48
+  "draft": 52
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6744,9 +6744,9 @@
       "topic": "BROTHER VS BROTHER, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-43/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6758,9 +6758,9 @@
       "topic": "BROTHER VS BROTHER",
       "quote": "Yeah, here we go. That was a sorens in camp Look at that 86 of Connor Shanahan now And the whole body, Jack, really exceeding the outside zone. Four now coming into five. Ringling it back in and look at the execution. The chase by Connor Shanahan. Let's see how he executed. He was hanging out there. Very comfortable to that of Jack as the tire fire. Make some noise, Las Vegas! The Shanahan boys are here! Wow. Wow. It's what we wanted. It's what we expected. It's everything you want in an amazing drift battle. That is two drivers at the top of their game going head to head. Championship implications.",
       "why": "Broers Shanahan in de halve finale, commentaar juicht",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-44/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6772,9 +6772,9 @@
       "topic": "CONOR BEATS JACK",
       "quote": "So Matt's is actually spotting for both of them. Yes. So one spotter for both drivers, they are not talking to each other until right here, right now. Oh, wow. All right. So slide them left, slide them right. Shanahan or Jack Shanahan. Conor Shanahan gets one vote, two votes. Shanahan gets the win, but it's the Connor variety. Conor Shanahan's going to the finals. Jack just overcooks it, I assume, on that outside zone forward going into the crease. And that is what just sealed his fate.",
       "why": "Een spotter voor beide broers, Conor gaat naar de finale",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-45/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6786,9 +6786,9 @@
       "topic": "CONOR ON BEATING HIS BROTHER",
       "quote": "When I was talking to your brother, he said that there was no team orders. You just took a deep breath and said, oh my God, that moment between you and your brother, put it in words for us. Yeah, it never gets old. It's a bit emotional. I've chased the dream from a small town in Ireland. Here we are fighting at the front of the biggest championship in the world. It doesn't get much better than that. It's never easy. No matter who wins, it always kind of feels a little bit on the sad side for a minute. But just proud of everybody. I came here this weekend to do a job to maximize everything, either over first or second. And I'm just proud of everybody around me. The team is holding such composure. I'm trying my best to do everything I can in the car to fight for this championship. And I'm not looking at points. I came here to win the event.",
       "why": "Emotionele Conor na de broederstrijd",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-46/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,162 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-46",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan gets emotional after beating his brother: from a small town in Ireland to the front of the biggest championship in the world.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 9638.67
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:13:43.341254+00:00",
+   "built": "2026-11-18T23:13:43.341264+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-46/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONOR ON BEATING HIS BROTHER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-45",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "One spotter for both brothers, and the judges send Conor Shanahan to the final over big brother Jack.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 9463.63
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:12:29.736499+00:00",
+   "built": "2026-11-18T23:12:29.736503+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-45/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONOR BEATS JACK",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-44",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brother against brother in the final four. Jack leads, Conor chases, and Las Vegas goes wild.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 9366.61
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:11:43.341215+00:00",
+   "built": "2026-11-18T23:11:43.341221+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-44/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BROTHER VS BROTHER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-43",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor against Jack Shanahan in the final four. Who had the better lead, who had the better chase?\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 9235.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:10:31.179989+00:00",
+   "built": "2026-11-18T23:10:31.179994+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-43/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "BROTHER VS BROTHER, SIDE BY SIDE",
    "photo": null
   },
   {

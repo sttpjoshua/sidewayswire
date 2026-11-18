@@ -1484,8 +1484,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-43r2-93660-93970.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-43r2-93660-93970.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-43/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T23:10:31.179285+00:00"
  },
  {
   "start": 9366.61,
@@ -1508,8 +1513,13 @@
    "why": "juichend commentaar"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-44-93666-94106.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-44-93666-94106.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-44/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9398.73, \"start\": 9394.93, \"text\": \"BROTHER VS BROTHER IN VEGAS\", \"why\": \"juichend commentaar\"}",
+  "made": "2026-11-18T23:11:43.340238+00:00"
  },
  {
   "start": 9463.63,
@@ -1532,8 +1542,13 @@
    "why": "stemmen"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-45-94636-94915.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-45-94636-94915.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-45/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9477.53, \"start\": 9475.85, \"text\": \"ONE SPOTTER, TWO BROTHERS\", \"why\": \"stemmen\"}",
+  "made": "2026-11-18T23:12:29.735586+00:00"
  },
  {
   "start": 9638.67,
@@ -1556,8 +1571,13 @@
    "why": "emotioneel citaat"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-46-96387-96854.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-46-96387-96854.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-46/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9657.19, \"start\": 9653.97, \"text\": \"WHAT IT MEANS TO BEAT YOUR BROTHER\", \"why\": \"emotioneel citaat\"}",
+  "made": "2026-11-18T23:13:43.340214+00:00"
  },
  {
   "start": 10029.07,
