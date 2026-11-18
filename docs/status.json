@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:27:54.439629+00:00",
+ "updated": "2026-11-18T23:31:18.158530+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 64
+  "draft": 68
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -10519,9 +10519,9 @@
       "topic": "CASTRO RUNNING ON THE DOOR",
       "quote": "We've got a clean start. James Dean swings across the nose of the Toyota, that Ford Racing Vehicle. Look at this. Nice job there. And brings it. Look at Castro. Again, I don't know what it is with these two guys. They just have great battles. Maybe it's the confidence between the drivers and the trust fall between them both as James goes across. Again, that nose swings in the last outside zone. Look at Castro, running on the door, makes some noise for John and then Castro and James Dean. In Coppins. Yeah, it was Coppins.",
       "why": "Deane en Castro altijd spektakel",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-7/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10533,9 +10533,9 @@
       "topic": "FORSBERG OVERCOOKS ZONE ONE",
       "quote": "It's Chris Orsberg that Destin Industries all new Z, ripping into that first outside zone on 10 to 10. No, that was a big wide swing by Forsberg, overcooking it on the outside zone. That was definitely a flood there for Forsberg, nothing that Andy Hadley pushed him out there, but just posted on out on that outside zone one. So unfortunate turn of events there.",
       "why": "Forsberg schiet door in zone een",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-8/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10547,9 +10547,9 @@
       "topic": "OPENING THE DOOR LIKE A GENTLEMAN",
       "quote": "All right, clean start, let's see what we got. Benning and Jack Shanahan. Federico initiated, he is high on that bag. Jack, now we've reeled him in here, now coming down in the inside clip, brain position by both of them. Federico, watch this transition. Again, those Irish drivers and the Shanahan, and some of the best in that transition. Just barely letting him by, opening the door for him like a kind gentleman, but now he's gonna shut the door off. Well done by both the drivers. Again, Fedi, like he said, he wants to get down. The Pox -Shanein just rips around that cone.",
       "why": "Jack laat Sceriffo voorbij en sluit dan de deur",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-9/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10561,9 +10561,9 @@
       "topic": "LZ BITES OFF TOO MUCH",
       "quote": "Simon Olsen coming up that start. We got a clean start there. Simon aggressively initiates Adam Elze. Come on, get up there. RSVP'd definitely don't wanna be, fast will be late here on this one. Simon Olsen rips past that inside clip here goes Adam now he gains that ground good transition by both of them look at that Adam almost simultaneously now tucks in oh we got a little door banging Adam bites off more than he can chew and unfortunately spins out.",
       "why": "Deurcontact, Adam LZ spint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-10/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,164 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Door banging with Simen Olsen and Adam LZ bites off more than he can chew and spins.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@simenolsendrifting @adam_lz @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 723.64
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:31:18.148672+00:00",
+   "built": "2026-11-18T23:31:18.148676+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-10/clip.mp4",
+   "tags": [
+    "@simenolsendrifting",
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LZ BITES OFF TOO MUCH",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan opens the door for Federico Sceriffo like a kind gentleman, then shuts it.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@federicosceriffo17 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 687.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:30:29.540046+00:00",
+   "built": "2026-11-18T23:30:29.540049+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-9/clip.mp4",
+   "tags": [
+    "@federicosceriffo17",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "OPENING THE DOOR LIKE A GENTLEMAN",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A big wide swing by Chris Forsberg in the new Z and he overcooks outside zone one against Andy Hateley.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@hateleydrift @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 660.82
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:29:36.644645+00:00",
+   "built": "2026-11-18T23:29:36.644648+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-8/clip.mp4",
+   "tags": [
+    "@hateleydrift",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FORSBERG OVERCOOKS ZONE ONE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane and Jonathan Castro. These two just always have great battles. Castro running on the door.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #connecticut #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 628.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:28:52.441622+00:00",
+   "built": "2026-11-18T23:28:52.441631+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-7/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jonathan Castro"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CASTRO RUNNING ON THE DOOR",
    "photo": null
   },
   {
@@ -23887,170 +24045,6 @@
    "caption_by": null,
    "format": null,
    "title": "WALL RIDES BROKE THE FUEL CELL",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-22",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa wants Formula DRIFT to allow tubular subframes. Good S chassis subframes are almost gone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #s14 #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-22/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 6519.13
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:20:38.251779+00:00",
-   "built": "2026-11-17T13:26:00.022337+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-22/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "LET FD RUN TUBULAR SUBFRAMES",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-2",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa: the best drivers are insane at fun events, but FD rewards consistency over risk.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 1934.62
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:12:04.712322+00:00",
-   "built": "2026-11-17T13:26:00.018587+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-2/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "\"A NORMAL RUN SHOULD BE A 65\"",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-1",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Two runs fill every zone, one at 50 degrees, one at 62. Chelsea DeNofa says they should not get the same score.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 1303.54
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:11:01.514298+00:00",
-   "built": "2026-11-17T13:26:00.017566+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-1/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "62 DEGREES SHOULD BEAT 50",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa on why Formula DRIFT is one of the hardest motorsport championships to win.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 961.18
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:10:10.561684+00:00",
-   "built": "2026-11-17T13:26:00.017066+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-0/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "WHY FD IS SO HARD TO WIN",
    "photo": null
   }
  ],
