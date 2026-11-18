@@ -341,8 +341,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-11-7955-8234.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-11-7955-8234.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 817.66, \"start\": 815.38, \"text\": \"WHAT WENT WRONG?\", \"why\": \"technisch probleem\"}",
+  "made": "2026-11-18T23:32:10.645728+00:00"
  },
  {
   "start": 823.44,
@@ -365,8 +370,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-12-8234-8483.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-12-8234-8483.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 837.58, \"start\": 835.98, \"text\": \"WHO NEEDS A BUMPER ANYWAY?\", \"why\": \"schade\"}",
+  "made": "2026-11-18T23:32:52.210120+00:00"
  },
  {
   "start": 848.52,
@@ -389,8 +399,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-13-8485-8910.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-13-8485-8910.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 879.02, \"start\": 876.76, \"text\": \"WHAT FELL OFF THAT CAR?\", \"why\": \"gejuich\"}",
+  "made": "2026-11-18T23:33:51.965697+00:00"
  },
  {
   "start": 892.12,
@@ -413,8 +428,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-14-8921-9219.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-14-8921-9219.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 906.18, \"start\": 904.4, \"text\": \"CAN HE EVEN SEE?\", \"why\": \"rook\"}",
+  "made": "2026-11-18T23:34:38.097464+00:00"
  },
  {
   "start": 924.86,

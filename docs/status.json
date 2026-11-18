@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:31:18.158530+00:00",
+ "updated": "2026-11-18T23:34:38.107628+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 68
+  "draft": 72
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -10575,9 +10575,9 @@
       "topic": "AASBO CAN'T INITIATE",
       "quote": "He's not able to initiate. He's trying to throw it out there, and Ben, so here's the deal. Ben Hodson does need to complete his run, and he'll have a major advantage. All right, here he goes, transitioning pass into these outside zones. The Pezor Ultra Platinum Ford Mustang, you'd see him working it on in. Easy quick work. What went wrong with Freddie's car? Yeah, hard to say. It's not just, oh, that looked like a track race. The attitude of the car has just gone shock. All",
       "why": "Aasbo zijn auto weigert, Hobson hoeft alleen uit te rijden",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-11/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10589,9 +10589,9 @@
       "topic": "RIPPING OFF BACK BUMPERS",
       "quote": "All right, Ryan Turner coming into the outside zone. Matt Field right there, living the shot, quickly the correction by Boulton. But man, Ryan Turner, like you said, the clouds are coming off the car. Oh, Matt Field done. Oh, ripping off back bumpers. Staying in it, yes, sir. Battle damage, no big deal. Keep on keeping on. The front lap and that back right of Ryan Turner shredding some skin, molting like a lizard. Nice.",
       "why": "Field en Tuerck slopen bumpers, blijven erin",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-12/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10603,9 +10603,9 @@
       "topic": "BATTLE OF THE SPRINGS",
       "quote": "Here we go, James Maschine, Dean out front. the drips wizard is going against the five -time and defending champion let's see what James has got looks like he dwarfs that BMW as he initiates in that big outside time. James Dean throws it in a little wavering there by both the drivers Andy Haley still up in the mix still a conversation but he falls back going into inside zone two now three four and a five. Oh, Andy Haley! Let's go! James Dean stays in it! Man, we are throwing down here. It is the Battle of the Springs. And we did see some springs for coming out of there. Some bits, so we'll take a look there once again.",
       "why": "Hateley in de mix, er vliegen veren van de auto",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-13/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10617,9 +10617,9 @@
       "topic": "JACK CUTS THROUGH THE SMOKE",
       "quote": "Simon Olsen almost hitting that with a restart cone. Simon aggressive flick in that first outside zone. Could definitely be higher, but look how settled the car is. as they are cutting through that smoke. Now coming down, oh my gosh, can't even see Jack Shanahan, but somehow he cuts through it. You know what, he's on the right -hand side. Yeah, that's critical there, and that's definitely an advantage being on that right -hand drive. And now bringing it into that last outside zone. Simon and Shanahan really danched the machine, Dean. Doofworz town.",
       "why": "Jack ziet niets maar snijdt toch door de rook",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-14/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,164 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "You can't even see Jack Shanahan, but somehow he cuts through the smoke behind Simen Olsen.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@simenolsendrifting @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #connecticut #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 892.12
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:34:38.098391+00:00",
+   "built": "2026-11-18T23:34:38.098398+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-14/clip.mp4",
+   "tags": [
+    "@simenolsendrifting",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK CUTS THROUGH THE SMOKE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane against the drift wizard Andy Hateley. Springs flying, and it is the battle of the springs.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@jamesdeane130 @hateleydrift @formulad\n\n#formulad #formuladrift #drifting #connecticut #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 848.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:33:51.966622+00:00",
+   "built": "2026-11-18T23:33:51.966626+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-13/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@hateleydrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BATTLE OF THE SPRINGS",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field rips off the back bumper of Ryan Tuerck. Battle damage, no big deal, keep on keeping on.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@ryantuerck @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 823.44
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:32:52.210999+00:00",
+   "built": "2026-11-18T23:32:52.211002+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-12/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "RIPPING OFF BACK BUMPERS",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Fredric Aasbo is not able to initiate. Ben Hobson just has to complete his run.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@benhobson213 @formulad @fredricaasbo\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 795.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:32:10.646595+00:00",
+   "built": "2026-11-18T23:32:10.646600+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-11/clip.mp4",
+   "tags": [
+    "@benhobson213",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "AASBO CAN'T INITIATE",
    "photo": null
   },
   {
@@ -23879,172 +24037,6 @@
    "caption_by": null,
    "format": null,
    "title": "HE WON ORLANDO AND KNEW HE WAS DONE",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-5",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Don't tell Chelsea DeNofa to be patient. And when he finally stayed five feet back, everyone crashed into him. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 2625.24
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:13:54.309078+00:00",
-   "built": "2026-11-17T13:26:00.023830+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-5/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "\"DON'T TELL ME TO BE PATIENT\"",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-3",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "If everyone makes the bracket anyway, Chelsea DeNofa would drive two psycho laps in qualifying. His crew would not be happy.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #qualifying #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 2001.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:12:43.851308+00:00",
-   "built": "2026-11-17T13:26:00.023550+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-3/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "\"I WOULD DRIVE LIKE A PSYCHO\"",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-27",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Chelsea DeNofa would love to drive a couple of Drift Masters rounds.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @driftmasters.gp @jako13\n\n#driftmasters #formuladrift #driftnews #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-27/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 8367.33
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:22:28.854854+00:00",
-   "built": "2026-11-17T13:26:00.023192+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-27/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@driftmasters.gp",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "CHELSEA IN DRIFT MASTERS?",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-25",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa rode the Irwindale wall so hard he broke the fuel cell. Then Vaughn Gittin Jr. did the same.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @vaughngittinjr @jako13\n\n#formulad #formuladrift #irwindale #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-25/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 7879.99
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:21:49.872695+00:00",
-   "built": "2026-11-17T13:26:00.022882+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-25/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@vaughngittinjr",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "WALL RIDES BROKE THE FUEL CELL",
    "photo": null
   }
  ],
