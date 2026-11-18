@@ -45,9 +45,16 @@
   "https://royalds.cn/en/drivers/jack-shanahan-59",
   "https://www.youtube.com/watch?v=Ec4DbVLX694"
  ],
- "check": false,
- "status": "draft",
+ "check": true,
+ "status": "check",
  "created": "2026-11-18T13:02:04.701136+00:00",
  "by": "editor",
- "missing_handles": []
+ "missing_handles": [],
+ "needs_photo": true,
+ "check_reason": "foto nodig: voeg een foto toe",
+ "media": [
+  "docs/media/2026-11-18-jack-shanahan-royal-drift-china/1.png"
+ ],
+ "problems": [],
+ "built": "2026-11-18T13:05:39.418897+00:00"
 }
