@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:47:31.419464+00:00",
+ "updated": "2026-11-18T23:51:47.770466+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 84
+  "draft": 88
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -2538,9 +2538,9 @@
       "topic": "DEANE ON CONOR AT NINE YEARS OLD",
       "quote": "Alright guys, I'm here with James Dean. James, now that Conor has won the championship, that conversation is off the table. Is your head a little bit more clear now that you're going into this next battle? I mean, it's unbelievable. Firstly, huge congratulations to Conor Shannon and the whole Shannon crew for pulling off the championship win. It's like the best feeling in the world and I'm very lucky to have been watching and being present when Connor first drove a drift car when he was nine years old and I knew right then that he was going to be something serious for years to come and it's proven that time and time again.",
       "why": "Deane over Conor die hij als kind zag beginnen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2552,9 +2552,9 @@
       "topic": "JEFF JONES IS FRYING BREAD",
       "quote": "As Jack Shanahan leads Jeff Jones into the track. It's definitely transforming as well. Temperatures drop. The sun is dropping. Jeff Jones very aggressive on Jack. But look at Jack shoot out, going to outside zone three, going into four and five, and then into now there is outside zone six. Seven is the one and only inside clip. Look at Jeff. I mean like you said, being put on ice, could that slow down your momentum going from yesterday? Look at Jeff Jones. Man, he's sponsored by a fry bread company. Man, he is frying some bread right now, baby. Tires. Phenomenal work for Jeff Jones. I really love how aggressive he is with this. This is trust. You know that Jack Shanahan is going to throw down an incredible lead run. There's not going to be any games or anything strange. He set the standard for the D -cell map so you know how he drives. For Jeff Jones, he took advantage of it.",
       "why": "Jeff Jones extreem agressief in de chase op de nummer 1 qualifier",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2566,9 +2566,9 @@
       "topic": "JEFF JONES PUSHES BIG BRO",
       "quote": "Look at these scores. Look how similar they are left to right across the board. This is a really, really tough battle. Average angle. Jack's got a bit of it. Proximity. Jack's there. That's within three feet. Within three feet, 100 % of this run. That is one. So stats looking like maybe a little bit of a nod towards Jack but there's those couple of wheels off that might be the difference maker. Alright one vote for Jack Shanahan, two votes for Jack Shanahan, it's unanimous. Jack Shanahan gets the victory, big bro is moving on to the great eight here in O 'Reilly Auto Parts top 16. I gotta say though that is some of the best driving I've ever seen out of Jeff Jones. It's wild and I really want to see that all season next year. If that is how Jeff can drive all year next year, he's going to be an absolute force.",
       "why": "Uitslag na een close battle plus lof voor Jones",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2580,9 +2580,9 @@
       "topic": "JACK: JEFF MADE ME SWEAT",
       "quote": "To be honest, that's probably the best Jeff Jones has driven all year. You know, so thanks for that, Jeff. You know, you made me sweat a little bit. Spotter came on the radio and Felvie was like, yeah, you need to go like 8 .5 maybe, you know, like on a push. And I was like, okay, that's a bit interesting. I wasn't expecting it, but I did see his chase with Bin earlier on as well. So props to him for figuring it out. He's, he was definitely pushing that's for sure.",
       "why": "Jack geeft toe dat Jones hem onder druk zette",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-5/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16523,6 +16523,162 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Number one qualifier Jack Shanahan admits Jeff Jones made him work for his Top 16 win.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formulad #formuladrift #jackshanahan #jeffjones #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 2857.12
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:51:47.760679+00:00",
+   "built": "2026-11-18T23:51:47.760683+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-5/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jeffjonesracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK: JEFF MADE ME SWEAT",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jeff Jones gave Jack Shanahan everything in Top 16 at Long Beach. Was it enough?\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formulad #formuladrift #jackshanahan #jeffjones #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 2423.14
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:51:11.761509+00:00",
+   "built": "2026-11-18T23:51:11.761514+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-4/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jeffjonesracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JEFF JONES PUSHES BIG BRO",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jeff Jones came out swinging against number one qualifier Jack Shanahan, and the commentators loved it.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formulad #formuladrift #jeffjones #jackshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 2212.08
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:49:58.350518+00:00",
+   "built": "2026-11-18T23:49:58.350522+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-3/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jeffjonesracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JEFF JONES IS FRYING BREAD",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane on the new champion: he was there the first time Conor Shanahan ever drove a drift car.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jamesdeane130 @conorshanahan79 @formulad\n\n#formulad #formuladrift #jamesdeane #conorshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 1831.34
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:48:33.973268+00:00",
+   "built": "2026-11-18T23:48:33.973272+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-2/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE ON CONOR AT NINE YEARS OLD",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-1",
    "kind": "stream_clip",
    "status": "draft",
@@ -23859,166 +24015,6 @@
    "caption_by": null,
    "format": "single",
    "title": "BLIND JUDGES IN A BOX?",
-   "photo": null
-  },
-  {
-   "id": "pod-070d2a07f93c-2",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jacob Gettins says the best seat at Formula DRIFT is in the spotter tower, and he would sell five glassed-off seats to hear it all.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#FormulaDrift #Drifting #Spotter #FDPro #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 1390.66
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:27:37.944643+00:00",
-   "built": "2026-11-17T14:16:52.667556+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-2/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "A CHEF'S TABLE IN THE SPOTTER TOWER",
-   "photo": null
-  },
-  {
-   "id": "pod-070d2a07f93c-19",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jacob Gettins said on The Outerzone he will announce US Drift Circuit, a Florida pro-am series, this winter. Not official yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#Drifting #ProAm #GrassrootsDrifting #FormulaDrift #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-19/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 6011.35
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:51:21.865756+00:00",
-   "built": "2026-11-17T14:16:52.667146+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-19/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "GETTINS TAKES ON FLORIDA PRO-AM",
-   "photo": null
-  },
-  {
-   "id": "pod-070d2a07f93c-14",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Qualifying scores are climbing as drivers learn the system. Jacob Gettins expects 95-point runs again, and tougher zones to follow.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#FormulaDrift #DriftScoring #FDPro #Drifting #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 5175.73
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:43:51.540963+00:00",
-   "built": "2026-11-17T14:16:52.664618+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-14/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DRIVERS WILL BEAT THE SYSTEM",
-   "photo": null
-  },
-  {
-   "id": "pod-070d2a07f93c-13",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Teams that spent the most time in the data dashboard qualified highest, and the least time meant last. Almost one to one.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#FormulaDrift #DriftData #Qualifying #FDPro #sidewayswire",
-   "media": [
-    "media/pod-070d2a07f93c-13/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Race Data Labs and True Drift",
-    "start": 5084.45
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T13:42:51.014160+00:00",
-   "built": "2026-11-17T14:16:52.664150+00:00",
-   "want_at": null,
-   "video": "media/pod-070d2a07f93c-13/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DO YOUR HOMEWORK, QUALIFY HIGHER",
    "photo": null
   }
  ],

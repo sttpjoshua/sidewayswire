@@ -76,8 +76,13 @@
    "why": "mooi verhaal"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-2-18313-18640.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-2-18313-18640.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1858.08, \"start\": 1854.52, \"text\": \"DEANE SAW THIS COMING\", \"why\": \"mooi verhaal\"}",
+  "made": "2026-11-18T23:48:33.972373+00:00"
  },
  {
   "start": 2212.08,
@@ -100,8 +105,13 @@
    "why": "grappige commentaarregel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-3-22121-22641.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-3-22121-22641.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2246.82, \"start\": 2244.94, \"text\": \"WHAT IS JEFF JONES COOKING?\", \"why\": \"grappige commentaarregel\"}",
+  "made": "2026-11-18T23:49:58.349580+00:00"
  },
  {
   "start": 2423.14,
@@ -124,8 +134,13 @@
    "why": "beslissing"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-4-24231-24729.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-4-24231-24729.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2451.68, \"start\": 2449.84, \"text\": \"WHO MOVES ON?\", \"why\": \"beslissing\"}",
+  "made": "2026-11-18T23:51:11.760529+00:00"
  },
  {
   "start": 2857.12,
@@ -148,8 +163,13 @@
    "why": "eerlijke uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-5-28571-28758.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-5-28571-28758.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2861.68, \"start\": 2859.58, \"text\": \"JACK ADMITS SOMETHING\", \"why\": \"eerlijke uitspraak\"}",
+  "made": "2026-11-18T23:51:47.759774+00:00"
  },
  {
   "start": 2748.18,
