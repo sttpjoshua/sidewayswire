@@ -11,6 +11,27 @@ from . import queue as q
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def stream_summary() -> dict:
+    """How far the livestreams are: found, turned into text, moments picked."""
+    try:
+        from . import streams
+        items = streams.registry()
+    except Exception:
+        return {}
+    out = {"total": len(items), "transcribed": 0, "moments": 0, "next": None, "series": {}}
+    for st in sorted(items, key=lambda x: x.get("date", ""), reverse=True):
+        mac = ROOT / "data" / "streams" / "mac" / f"{st['id']}.json"
+        done = mac.exists() and json.loads(mac.read_text()).get("status") == "transcribed"
+        has_m = (ROOT / "data" / "podcasts" / "moments" / f"{st['id']}.json").exists()
+        out["transcribed"] += done
+        out["moments"] += has_m
+        ser = out["series"].setdefault(st.get("series", "?"), {"total": 0, "transcribed": 0})
+        ser["total"] += 1; ser["transcribed"] += done
+        if not done and not out["next"]:
+            out["next"] = st.get("title")
+    return out
+
+
 def photo_info(p: dict):
     """For news posts: does it have a photo, and whose (for the dashboard's photo button)."""
     sl = (p.get("slides") or [{}])[0]
@@ -64,6 +85,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         "sources": ib.get("sources", []),
         "inbox": [{k: s.get(k) for k in ("title", "series", "buzz", "published", "items")} for s in stories[:80]],
         "podcasts": podcast_status(),
+        "streams": stream_summary(),
         "posts": [{k: p.get(k) for k in keep} | {"media": [m.removeprefix("docs/") for m in p.get("media") or []],
                                                  "video": (p.get("video") or "").removeprefix("docs/") or None,
                                                  "title": clip_title(p), "photo": photo_info(p)}

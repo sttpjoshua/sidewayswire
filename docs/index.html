@@ -530,7 +530,20 @@ function drawLive(){
   const shown={clips:cn&&cn.phase==="clips",podcasts:pn&&pn.phase!=="done"};
   (RUNS||[]).filter(r=>r.status!=="completed"&&fresh(r.created_at,180)).forEach(r=>{const k=(r.path||"").split("/").pop().replace(".yml","");
     if(WF[k]&&!shown[k]&&!it.some(x=>x.includes(WF[k].toUpperCase()))){shown[k]=1;it.push(`<b>${WF[k].toUpperCase()}</b><span>${r.status==="queued"?"in de wachtrij":"bezig sinds "+ago(r.run_started_at||r.created_at).replace(" geleden","")}</span>`)}});
-  el.innerHTML=`<h4>NU BEZIG</h4>`+(it.length?it.map(x=>`<div class="it"><div class="pd"></div><div>${x}</div></div>`).join(""):`<div class="it" style="color:var(--mute)">Niets. Alles staat stil tot de volgende ronde.</div>`);
+  // what comes next
+  const nx=[], hhmm=d=>d.toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Amsterdam"});
+  if(!(ED&&ED.state==="busy"))nx.push(`<b>REDACTIE</b><span>volgende ronde ${nextEditor()}</span>`);
+  if(MAC&&MAC.seen){const seen=new Date(MAC.seen),mins=(now-seen)/6e4;
+    nx.push(mins>40?`<b>MAC STUDIO</b><span style="color:var(--pink)">geen teken van leven sinds ${ago(MAC.seen)}</span>`
+      :MAC.busy?`<b>MAC STUDIO</b><span>actief, laatst ${ago(MAC.seen)}</span>`:`<b>MAC STUDIO</b><span>volgende ronde rond ${hhmm(new Date(seen.getTime()+15*6e4))}</span>`)}
+  const st=S&&S.streams;
+  if(st&&st.total){const per=Object.entries(st.series||{}).map(([k,v])=>`${k.replace("Formula DRIFT","FD").replace("Drift Masters","DM")} ${v.transcribed}/${v.total}`).join(" · ");
+    nx.push(`<b>LIVESTREAMS</b><span>${st.transcribed} van ${st.total} omgezet naar tekst (${per}) · ${st.moments} met momenten${st.next&&st.transcribed<st.total?`<br>volgende: ${esc(st.next.replace(/^Formula DRIFT |^Red Bull /,"").slice(0,60))}`:""}</span>`)}
+  const up=(S?posts():[]).filter(p=>p.status==="ready"&&p.post_at&&new Date(p.post_at)>now).sort((a,b)=>new Date(a.post_at)-new Date(b.post_at))[0];
+  if(up)nx.push(`<b>EERSTVOLGENDE POST</b><span>${when(up.post_at)} · ${esc(String(up.title||"").slice(0,40))}</span>`);
+  nx.push(`<b>WACHTER</b><span>controleert alles elke ochtend om 08:41</span>`);
+  el.innerHTML=`<h4>NU BEZIG</h4>`+(it.length?it.map(x=>`<div class="it"><div class="pd"></div><div>${x}</div></div>`).join(""):`<div class="it" style="color:var(--mute)">Niets. Alles staat stil tot de volgende ronde.</div>`)
+    +`<h4 style="margin-top:14px">STRAKS</h4>`+nx.map(x=>`<div class="it"><div class="pd" style="animation:none;background:#55555b"></div><div>${x}</div></div>`).join("");
 }
 async function loadLive(){
   CLIPNOW=await liveJson("clips-now.json",CLIPNOW);PODNOW=await liveJson("podcasts-now.json",PODNOW);
