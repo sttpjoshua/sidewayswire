@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T13:05:30.415368+00:00",
+ "updated": "2026-11-18T13:09:58.250986+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -1646,9 +1646,10 @@
   },
   {
    "source": "Drift Masters",
-   "url": "https://driftmasters.gp/news",
-   "ok": false,
-   "error": "404 Client Error: Not Found for url: https://dm.gp/news"
+   "url": "https://dm.gp/articles/",
+   "ok": true,
+   "items": 0,
+   "how": "page"
   },
   {
    "source": "Speedhunters",
