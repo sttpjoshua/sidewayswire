@@ -19,8 +19,13 @@
    "why": "grappige onthulling kind"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-0-8368-8820.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-0-8368-8820.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 871.88, \"start\": 867.96, \"text\": \"WHAT CAR DOES HIS SON WANT?\", \"why\": \"grappige onthulling kind\"}",
+  "made": "2026-11-18T23:46:44.549364+00:00"
  },
  {
   "start": 998.64,
@@ -42,8 +47,13 @@
    "why": "kern van het afscheid"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-1-9986-10313.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-1-9986-10313.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1028.98, \"start\": 1025.5, \"text\": \"WHY IS TUERCK WALKING AWAY?\", \"why\": \"kern van het afscheid\"}",
+  "made": "2026-11-18T23:47:31.408686+00:00"
  },
  {
   "start": 1831.34,

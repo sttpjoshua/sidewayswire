@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:42:47.603088+00:00",
+ "updated": "2026-11-18T23:47:31.419464+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 80
+  "draft": 84
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -2510,9 +2510,9 @@
       "topic": "TUERCK'S SON SAYS GOODBYE",
       "quote": "And who is Ryan Turk to you? The best race car driver ever. And what do you have in your hand? Do you want to show me? Tell me about the Corolla. And who drives that? Ryan Turk. That's right. And Daddy's gonna stop driving his Corolla this year. What do you have? What do you think about that? And what do you want to be when you grow up Roman a race car driver like who I'm like, dada, but I'll put different car. I want to drive a Mustang. OK, anything else that you want to tell us, and anything else you want to tell Dada? I love you. We love you, Dada!",
       "why": "Zoontje van Ryan Tuerck neemt afscheid, emotioneel",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2524,9 +2524,9 @@
       "topic": "TUERCK HANGS UP HIS HELMET",
       "quote": "What drew me to drifting is really just the recklessness of the sport, I guess, and being able to control something that is basically out of control. You know, I've been doing drifting for so long. I've been chasing it for 20 years, and I just feel like I've given everything that I can give the sport, and I don't think I can do much more.",
       "why": "Ryan Tuerck legt uit waarom hij stopt na 20 jaar",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10743,9 +10743,9 @@
       "topic": "ALL IRISH PODIUM",
       "quote": "We start with third place coming up from Ireland in that Red Bull. Jerry Yang racing, 86. ! And the winner of the second place, the former pro championship,! former pro championship, from Ireland, it's Jack Shanahan! And the winner of the second place, the And now finally your winner points leader five time and defending Formula Drip champion piloting the O 'Reilly auto parts, Pennzoil, Nitto tires, Ford Racing, Ford RTR Mustang from Ireland and all Irish podium James the Machine Dean!",
       "why": "Podium: Deane, Jack en Conor, Iers 1-2-3",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-23/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10757,9 +10757,9 @@
       "topic": "SHANAHAN VS ODI",
       "quote": "",
       "why": "Split van het deurduel",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-24/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      }
@@ -16520,6 +16520,161 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After more than 20 years in Formula DRIFT, Ryan Tuerck explains why it is time to step away.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryantuerck @formulad\n\n#formulad #formuladrift #ryantuerck #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 998.64
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:47:31.409556+00:00",
+   "built": "2026-11-18T23:47:31.409559+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-1/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TUERCK HANGS UP HIS HELMET",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck's last Formula DRIFT event, and his son had a message for his dad. Not a dry eye in Long Beach.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryantuerck @formulad\n\n#formulad #formuladrift #ryantuerck #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 836.84
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:46:44.550278+00:00",
+   "built": "2026-11-18T23:46:44.550282+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-0/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TUERCK'S SON SAYS GOODBYE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-24",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Conor Shanahan and Odi Bakchis in Connecticut.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@conorshanahan79 @odidrift @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 985.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:45:47.300164+00:00",
+   "built": "2026-11-18T23:45:47.300176+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-24/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "SHANAHAN VS ODI",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-23",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan third, Jack Shanahan second, James Deane wins. An all Irish podium in Connecticut.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@jamesdeane130 @jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #connecticut #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 1371.48
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:44:10.440068+00:00",
+   "built": "2026-11-18T23:44:10.440071+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-23/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ALL IRISH PODIUM",
    "photo": null
   },
   {
@@ -23864,164 +24019,6 @@
    "caption_by": null,
    "format": "single",
    "title": "DO YOUR HOMEWORK, QUALIFY HIGHER",
-   "photo": null
-  },
-  {
-   "id": "2026-11-17-fia-idc-cirba",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "First FIA Intercontinental Drifting Cup win for Benediktas Čirba. He beat Martins Immermanis in the final at Serres, Stavros Gryllis took P3 and Greece won the Nations Cup in front of 3,000+ fans. 🏆\n\n#fiaidc #drifting #driftcup #serres #sidewayswire",
-   "media": [
-    "media/2026-11-17-fia-idc-cirba/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "foto nodig: voeg een foto toe",
-   "source": "https://www.fia.com/news/benediktas-cirba-takes-fia-intercontinental-drifting-cup-victory-greece-wins-nations-cup",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:12:26.167610+00:00",
-   "built": "2026-11-17T14:16:52.657821+00:00",
-   "want_at": "2026-12-06T07:30:00+00:00",
-   "video": null,
-   "tags": [],
-   "missing_handles": [
-    "Benediktas Čirba",
-    "Martins Immermanis",
-    "Stavros Gryllis",
-    "FIA"
-   ],
-   "caption_by": null,
-   "format": null,
-   "title": "BENEDIKTAS ČIRBA WINS THE FIA INTERCONTINENTAL DRIFTING CUP",
-   "photo": {
-    "mode": "none",
-    "credit": ""
-   }
-  },
-  {
-   "id": "2026-11-17-car-park-drift-jeddah",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Car Park Drift is back in Jeddah on December 4 and 5 with a new format: 90 seconds, pick your own line through the obstacles, park it in the box. Winner books a ticket to the 2027 World Final in Baku. 🅿️\n\n#redbullcarparkdrift #carparkdrift #jeddah #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-17-car-park-drift-jeddah/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "foto nodig: voeg een foto toe",
-   "source": "https://www.redbull.com/mea-en/red-bull-car-park-drift-returns-to-jeddah-with-a-new-competition-format",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:12:26.167610+00:00",
-   "built": "2026-11-17T14:16:51.835921+00:00",
-   "want_at": "2026-12-05T07:30:00+00:00",
-   "video": null,
-   "tags": [],
-   "missing_handles": [
-    "Red Bull Car Park Drift"
-   ],
-   "caption_by": null,
-   "format": null,
-   "title": "RED BULL CAR PARK DRIFT RETURNS TO JEDDAH",
-   "photo": {
-    "mode": "none",
-    "credit": ""
-   }
-  },
-  {
-   "id": "pod-da5d8825120e-8",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 1132.48
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:52:49.309223+00:00",
-   "built": "2026-11-17T13:26:00.122986+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-8/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
-   "photo": null
-  },
-  {
-   "id": "pod-da5d8825120e-5",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Conor Shanahan thinks we could see Hiroya Minowa at a US rally round next year. Not confirmed. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @hiroya.minowa @formulad @jako13\n\n#formulad #formuladrift #hiroyaminowa #drifting #driftnews #sidewayswire",
-   "media": [
-    "media/pod-da5d8825120e-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 745
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T17:57:06.794246+00:00",
-   "built": "2026-11-17T13:26:00.118133+00:00",
-   "want_at": null,
-   "video": "media/pod-da5d8825120e-5/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@hiroya.minowa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "COULD HIROYA MINOWA RACE A US RALLY?",
    "photo": null
   }
  ],

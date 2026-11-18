@@ -691,8 +691,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-23-13715-14297.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-23-13715-14297.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1401.14, \"start\": 1398.72, \"text\": \"WHO COMPLETES THE IRISH PODIUM?\", \"why\": \"podium\"}",
+  "made": "2026-11-18T23:44:10.439180+00:00"
  },
  {
   "start": 985.9,
@@ -727,7 +732,12 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-24r2-10363-10635.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-24r2-10363-10635.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-24/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T23:45:47.299422+00:00"
  }
 ]
