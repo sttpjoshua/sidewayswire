@@ -1,14 +1,16 @@
 {
- "phase": "download",
+ "phase": "transcribe",
  "episode": "300467cbd7bc",
  "todo": [
   "300467cbd7bc"
  ],
  "pct": 0.0,
- "updated": "2026-11-18T10:47:14.362412+00:00",
+ "updated": "2026-11-18T10:47:44.545926+00:00",
  "started": "2026-11-18T10:47:05.927789+00:00",
  "run": "44288126992",
  "title": "Brian Eggert",
  "podcast": "The Outerzone",
- "episode_started": "2026-11-18T10:47:14.362396+00:00"
+ "episode_started": "2026-11-18T10:47:14.362396+00:00",
+ "duration": 7223.904,
+ "transcribe_started": "2026-11-18T10:47:44.545906+00:00"
 }
