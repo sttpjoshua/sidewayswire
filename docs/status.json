@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T22:23:03.114514+00:00",
+ "updated": "2026-11-18T22:30:58.029432+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 20
+  "draft": 24
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6352,9 +6352,9 @@
       "topic": "STUCKEY VS HATELEY, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-15/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6366,9 +6366,9 @@
       "topic": "SORENSEN ON THE FIGHT OF HIS LIFE",
       "quote": "Yeah, I mean practice didn't really go great for us on Thursday. We had a couple issues we were fighting through them and the team got it fixed up ready for qualifying we were able to qualify p1 but Today, I think we got like one really good chase lap of practice or one chase lap total of practice. So that was really like my first practice run. It wasn't as clean as I'd liked it. But wow, what a fight. Cole Richards put out. That was one of the hardest fought battles I think I've ever had. What an incredible drive by him. I'm just incredibly lucky to be here in front of all of my family, have all my friends here supporting me. And I also want to shout out the national anthem singer. That was amazing and flavor flavor announcing he was there with me. He gave me the pep talk of a lifetime. And I'm hoping that thing carries me all the way to the finals.",
       "why": "Sorensen na zijn zwaarste battle ooit en de peptalk van Flavor Flav",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-16/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6380,9 +6380,9 @@
       "topic": "SHANAHAN VS LZ, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-17/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6394,9 +6394,9 @@
       "topic": "LZ LOOPS IT IN THE LEAD",
       "quote": "Connor Janiszczyk might have been a little bit of tap there, but as they continue on, Looking at a melzy massive angle going in overcooked adjust a touch gets that left rear off of the course Watch this transition is he gonna execute like he normally does LZ rotates so Okay Here's where I'm at though. And that's where we just saw Shinji and Dan Burkett. Well, yeah. But also, as we take a look here, a bunch of data from the Shanahan team. And they take a look at absolutely everything. Here's my concern though. And maybe I try not to give a driver an argument. That initiation, Connor caught Adam pretty heavily. And I'm wondering if there's any damage to Adam's car as we see SOPA, Inspector SOPA taking a look at it. It's a big initiation here. What are you focusing in on? So I'm focusing on when Adam lights off the tires, because Connor's gonna time this out perfectly and if Adam did not light off in time, that's the first contact.",
       "why": "LZ spint na contact bij initiatie, Shanahan door",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-18/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,165 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-18",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Contact at initiation, then Adam LZ loops it out in front of points leader Conor Shanahan. What caused it?\n\n🎥 Footage: FD LAS VEGAS 2026\n@adam_lz @conorshanahan79 @formulad @raddandrift\n\n#formulad #formuladrift #drifting #lasvegas #adamlz #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 4544.79
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:30:58.021281+00:00",
+   "built": "2026-11-18T22:30:58.021286+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-18/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@conorshanahan79",
+    "@formulad",
+    "@raddandrift"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LZ LOOPS IT IN THE LEAD",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-17",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Points leader Conor Shanahan against Adam LZ. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @adam_lz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #adamlz #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 4321
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:29:21.617071+00:00",
+   "built": "2026-11-18T22:29:21.617075+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-17/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "SHANAHAN VS LZ, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-16",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen calls his battle with Cole Richards one of the hardest of his career, and thanks Flavor Flav for the pep talk.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 4243.27
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:27:00.209140+00:00",
+   "built": "2026-11-18T22:27:00.209144+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-16/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SORENSEN ON THE FIGHT OF HIS LIFE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Daniel Stuckey against Andy Hateley. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@hateleydrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 3831
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:25:42.476019+00:00",
+   "built": "2026-11-18T22:25:42.476025+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-15/clip.mp4",
+   "tags": [
+    "@hateleydrift",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "STUCKEY VS HATELEY, SIDE BY SIDE",
    "photo": null
   },
   {
