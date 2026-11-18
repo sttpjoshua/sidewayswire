@@ -121,8 +121,13 @@
    "why": "grappige reactie Flav"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-3-16150-16579.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-3-16150-16579.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1650.42, \"start\": 1647.14, \"text\": \"FLAVOR FLAV IN THE COMMENTARY BOX\", \"why\": \"grappige reactie Flav\"}",
+  "made": "2026-11-18T19:42:07.417910+00:00"
  },
  {
   "start": 1870.36,
@@ -146,8 +151,13 @@
    "why": "grappige uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-4-18704-18924.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-4-18704-18924.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1887.96, \"start\": 1884.62, \"text\": \"FLAVOR FLAV JUDGES THE JUDGES\", \"why\": \"grappige uitspraak\"}",
+  "made": "2026-11-18T19:42:45.896380+00:00"
  },
  {
   "start": 2023.09,
@@ -170,10 +180,15 @@
    "why": "commentator gaat los"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "spelling Tommy LaMere (transcript: LaMere/LeMare/the mayor)",
-  "wait_name": "v2-yt8bwn2g2ssy-5-20231-20630.mp4"
+  "wait_name": "v2-yt8bwn2g2ssy-5-20231-20630.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2055.31, \"start\": 2052.13, \"text\": \"CORVETTE VS CORVETTE\", \"why\": \"commentator gaat los\"}",
+  "made": "2026-11-18T19:43:55.387882+00:00"
  },
  {
   "start": 2024.5,
@@ -208,10 +223,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "spelling Tommy LaMere (transcript: LaMere/LeMare/the mayor)",
-  "wait_name": "v2-yt8bwn2g2ssy-6r2-21310-21510.mp4"
+  "wait_name": "v2-yt8bwn2g2ssy-6r2-21310-21510.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-6/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T19:45:36.549113+00:00"
  },
  {
   "start": 2128.81,

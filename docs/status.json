@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T19:40:57.317407+00:00",
+ "updated": "2026-11-18T19:45:36.560582+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 8
+  "draft": 12
  },
  "collected": "2026-11-18T13:33:42.056868+00:00",
  "instagram": false,
@@ -6184,9 +6184,9 @@
       "topic": "FLAVOR FLAV CALLS THE BATTLE",
       "quote": "Brandon Sorensen can initiate here into the bank into the outside zone one, two, and three. Brandon Sorensen high on the wall. You can see the reflection of the taillights there. Cole Richards in tow. He is wheel to wheel dragging into the outside zone four. Let's see him transition there into five. Whoa, look at the transition rate of Brandon Sorensen out front. Cole Richards cannot be shaken. Looking like cotton candy out back. Oh, so sweet. And outside zone six, there goes Brandon Sorensen. Cole Richards dives in on the inside. Brandon keeps it on the outside and then putting a bow on it. There's Brandon Sorensen, Cole Richards bringing it home with a little flame. out back. Flav, what you think? Yeah, boy, Amazing Race. You know what I'm saying? Hey, hey, hey, and they call the song Amazing Race. Yes, sir. But that was Amazing Race. Amazing Race.",
       "why": "Eerste run van Sorensen tegen Richards met Flavor Flav in de commentaarbox",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6198,9 +6198,9 @@
       "topic": "ONE MORE TIME, FLAV APPROVES",
       "quote": "Here we go, slide them left for Sorensen, our three judges. Slide them left or right for Cole Richards. One more time, Cole Richards and our final judge, one more time. So again, majority rules, so they are going at it again. There was not a victor, they're gonna battle again. Can I tell you something? Yes, sir. The way you look to me, nobody won, they both won. Everybody lost. Nobody lost. They both won. It was like a tie.",
       "why": "Jury geeft one more time, Flavor Flav vindt dat iedereen gewonnen heeft",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6212,9 +6212,9 @@
       "topic": "TWIN CORVETTES DOOR TO DOOR",
       "quote": "All right, here we go. Matt Field, the Beast, and the Bay. That Portland performance, Heat Wave, Tire Agent, Corvanna from, we got a clean start there. Tommy Laverne, just tucking in very, very nicely. Good job by, again, Matt Field. Look at Tommy. Sparks are flying, going now, transitioning into outside zone five. Tommy O 'Mara right in the pocket. The beast from the bend, the Canadian crusher, coming out transitioning into the final outside zone three. This is such a great battle. Twin Corvettes, Amanda covers Canada. Come on now, Vegas. Dang, that was sick. What a way to have top 16 go. We've already got one more time, and then we get a battle like this where both of them are absolutely crushing.",
       "why": "Corvette tegen Corvette, LaMere plakt aan Field",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-5/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6226,9 +6226,9 @@
       "topic": "TWIN CORVETTES, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-6/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -16520,6 +16520,168 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field against Tommy LaMere, Corvette against Corvette. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 2024.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:45:36.549949+00:00",
+   "built": "2026-11-18T19:45:36.549956+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-6/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Tommy LaMere"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "TWIN CORVETTES, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Corvette against Corvette: Matt Field leads and Tommy LaMere sticks to his door through the Las Vegas bank.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #corvette #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 2023.09
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:43:55.388951+00:00",
+   "built": "2026-11-18T19:43:55.388961+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-5/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Tommy LaMere"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "TWIN CORVETTES DOOR TO DOOR",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The judges could not split Brandon Sorensen and Cole Richards, and Flavor Flav had his own take on the result.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 1870.36
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:42:45.897251+00:00",
+   "built": "2026-11-18T19:42:45.897255+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-4/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen",
+    "Flavor Flav"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "ONE MORE TIME, FLAV APPROVES",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen leads Cole Richards on the Las Vegas bank, with Flavor Flav in the booth giving his verdict.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 1615.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:42:07.418862+00:00",
+   "built": "2026-11-18T19:42:07.418865+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-3/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen",
+    "Flavor Flav"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FLAVOR FLAV CALLS THE BATTLE",
    "photo": null
   },
   {
