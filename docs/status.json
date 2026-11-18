@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:34:38.107628+00:00",
+ "updated": "2026-11-18T23:38:05.146558+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 72
+  "draft": 76
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -10631,9 +10631,9 @@
       "topic": "LIKE SYNCHRONIZED SWIMMERS",
       "quote": "Ryan Turk initiates. James Dean drops into formation. Ryan Turk bringing up all that wall. JC right there, shadowing him, the machine coming down, slamming down on the transition into the flatlands, into the outside zone, watch the transition simultaneous, like synchronized swimmers. Whoa! We're watching World Cup right now. Beggin' doors, running into the tire of the door. Exactly what I expected. Nailed it.",
       "why": "Deane schaduwt Tuerck, synchroon",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-15/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10645,9 +10645,9 @@
       "topic": "BLOW OVER BLOW",
       "quote": "And BMW swagger, here we go, Brandon Sorensen out front, across the nose. Jack already trying to nose tip to tail. Look at the smoke coming out the doors. Yeah, look at the angle for Brandon Sorensen as now transitioning. Oh, Jack! Jack the Ripper drops back in once again. Look at the chase shot! This is an absolute fight. Blow over blow going down. Are you kidding me? You kidding me? Let's go.",
       "why": "Absoluut gevecht tussen Sorensen en Jack",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-16/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10659,9 +10659,9 @@
       "topic": "ODI GRINDS ON THE DOOR",
       "quote": "Connor Shanahan against Odie Bob. She's our current points leader. This could shake things up, especially the outcome. But Ody Boxhees, yes sir, the field suspension PRZ, right there on the door. Connor Shannon, I'm telling you, he just has amazing awareness. Ody Boxhees, this could be the fast orange chase of the day. Holy cow, the timing is impeccable from Ody Boxhees. Look at that grinding that cheats in. Are you not entertaining? Look at that, holy cow, look at the battle moves. Let's go. Oh my gosh. Just grinding on that door. Wow. He gave him a rubber treatment. I can't wait to see what Connor's response is. That is unreal. And I love that Connor's staying in it. Oh, yeah.",
       "why": "Odi slijpt op de deur van Shanahan, publiek uitzinnig",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-17/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10673,9 +10673,9 @@
       "topic": "HOBSON'S BIGGEST BATTLE",
       "quote": "Ben Hobson ready to throw down. The helmets on the car don't see the drivers. Where is Ben Hobson? Ben's having a bit of a moment, but he's back out. I think the nerves might have got to him just a little bit. Okay, buddy, time to watch it. Here we go. Hey, you know what? This is exciting. All right, you know, okay, I don't even know what to say, but - This is the biggest battle he's had in his career. This is like a movie, man.",
       "why": "Hobson even van slag voor zijn grootste battle",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-18/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,163 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-18",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ben Hobson needs a moment before the biggest battle of his career. This is like a movie.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@benhobson213 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 1064.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:38:05.136168+00:00",
+   "built": "2026-11-18T23:38:05.136171+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-18/clip.mp4",
+   "tags": [
+    "@benhobson213",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HOBSON'S BIGGEST BATTLE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-17",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Points leader Conor Shanahan against Odi Bakchis, and Odi grinds on the door. Are you not entertained?\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@conorshanahan79 @odidrift @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 983.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:37:22.912574+00:00",
+   "built": "2026-11-18T23:37:22.912578+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-17/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ODI GRINDS ON THE DOOR",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-16",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen leads and Jack the Ripper drops back in. Blow over blow. Are you kidding me?\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 953.34
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:36:13.051092+00:00",
+   "built": "2026-11-18T23:36:13.051096+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-16/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "BLOW OVER BLOW",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck and James Deane transition simultaneously, like synchronized swimmers. Then bang, door.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@ryantuerck @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #connecticut #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 924.86
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:35:28.414694+00:00",
+   "built": "2026-11-18T23:35:28.414697+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-15/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LIKE SYNCHRONIZED SWIMMERS",
    "photo": null
   },
   {
@@ -23872,171 +24029,6 @@
    "caption_by": null,
    "format": null,
    "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?",
-   "photo": null
-  },
-  {
-   "id": "pod-6892a8b1e411-12",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#formulad #formuladrift #drifting #driftsetup #sidewayswire",
-   "media": [
-    "media/pod-6892a8b1e411-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Tommy Lemaire",
-    "start": 2935.1
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:40:42.465420+00:00",
-   "built": "2026-11-17T13:26:00.035848+00:00",
-   "want_at": null,
-   "video": "media/pod-6892a8b1e411-12/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-9",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa tells his side of the infamous hood-pin rerun in New Jersey: what you could not see on the video.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftdrama #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3496.58
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:17:01.120622+00:00",
-   "built": "2026-11-17T13:26:00.024596+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-9/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "\"IF YOU WANT TO FIGHT, I WILL FIGHT YOU\"",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-7",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Vaughn Gittin Jr. told Chelsea DeNofa to watch his runs. Chelsea's answer: no disrespect, but I'm about to disrespect you.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @vaughngittinjr @jako13\n\n#formulad #formuladrift #rtr #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-7/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3064.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:15:50.716362+00:00",
-   "built": "2026-11-17T13:26:00.024348+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-7/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@vaughngittinjr",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "\"NO DISRESPECT, BUT...\"",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-6",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa won in Orlando in 2023 and felt nothing. That's when he knew his FD career was over.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-6/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 2900.32
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:15:06.020880+00:00",
-   "built": "2026-11-17T13:26:00.024091+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-6/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "HE WON ORLANDO AND KNEW HE WAS DONE",
    "photo": null
   }
  ],
