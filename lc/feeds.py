@@ -46,7 +46,7 @@ WATCH = [
     ("Nürburgring Drift Cup", "NDC", "https://nuerburgring.de/news", "drift"),
     ("Gatebil", "Gatebil", "https://gatebil.no", "drift"),
     # Off-season: the stories are new cars, liveries, team moves and builds, not results.
-    ("Drift Masters", "DM", "https://driftmasters.gp/news", None),
+    ("Drift Masters", "DM", "https://dm.gp/articles/", None),
     ("Speedhunters", "FD + DM", "gnews:site:speedhunters.com drift", "drift"),
     ("Google News", "FD + DM", "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"", "drift"),
     ("Google News", "FD + DM", "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027", "drift"),
