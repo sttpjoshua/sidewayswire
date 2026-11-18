@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:45:36.560582+00:00",
+ "updated": "2026-11-18T21:09:40.204583+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
@@ -1541,37 +1541,37 @@
     "title": "The Outerzone - The Official Podcast of Formula DRIFT",
     "episodes": 188,
     "error": null,
-    "ok": "2026-11-18T10:47:08.454277+00:00"
+    "ok": "2026-11-18T21:09:38.033687+00:00"
    },
    "Drift Games Podcast": {
     "title": "The Drift Games Podcast",
     "episodes": 17,
     "error": null,
-    "ok": "2026-11-18T10:47:08.758960+00:00"
+    "ok": "2026-11-18T21:09:38.083986+00:00"
    },
    "The Goodest Cast": {
     "title": "The Goodest Cast - Hangout with the Drift Community",
     "episodes": 91,
     "error": null,
-    "ok": "2026-11-18T10:47:09.016480+00:00"
+    "ok": "2026-11-18T21:09:38.200258+00:00"
    },
    "The SileightyMania Podcast": {
     "title": "The SileightyMania Podcast - Drifting Interviews with OGs and Pioneers",
     "episodes": 45,
     "error": null,
-    "ok": "2026-11-18T10:47:09.371163+00:00"
+    "ok": "2026-11-18T21:09:38.373529+00:00"
    },
    "The Creative Drive": {
     "title": "The Creative Drive",
     "episodes": 53,
     "error": null,
-    "ok": "2026-11-18T10:47:09.518573+00:00"
+    "ok": "2026-11-18T21:09:38.701719+00:00"
    },
    "Behind The Wheel": {
     "title": "Konig - Behind The Wheel Podcast",
     "episodes": 377,
     "error": null,
-    "ok": "2026-11-18T10:47:10.601286+00:00"
+    "ok": "2026-11-18T21:09:39.928283+00:00"
    }
   },
   "episodes": [
@@ -8981,19 +8981,19 @@
     "podcast": "Drift Masters",
     "title": "Red Bull Drift Masters Grand Finale: What You Didn't See",
     "published": "2026-09-12",
-    "status": "error",
+    "status": "transcribed",
     "youtube": "Jxd0qi06rik",
     "audio": null,
     "link": null,
     "art": null,
     "seconds": 770.0,
-    "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "transcribed": null,
+    "error": null,
+    "transcribed": "2026-11-18T19:51:36.322130+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@driftmasters.gp",
     "event": "RED BULL DRIFT MASTERS GRAND FINALE: WHA",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -9638,19 +9638,19 @@
     "podcast": "Formula DRIFT",
     "title": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Top 16 On-Demand",
     "published": "2026-08-28",
-    "status": "error",
+    "status": "transcribed",
     "youtube": "0bEa634nI1I",
     "audio": null,
     "link": null,
     "art": null,
     "seconds": 9564.0,
-    "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "transcribed": null,
+    "error": null,
+    "transcribed": "2026-11-18T19:55:41.400876+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
     "event": "FD SEATTLE 2026",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -11375,19 +11375,19 @@
     "podcast": "Formula DRIFT",
     "title": "Formula DRIFT Orlando 2026 - PRO, Round 3 - Top 32",
     "published": "2026-05-30",
-    "status": "error",
+    "status": "transcribed",
     "youtube": "SXNOqCs8w_o",
     "audio": null,
     "link": null,
     "art": null,
     "seconds": 9670.0,
-    "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
-    "transcribed": null,
+    "error": null,
+    "transcribed": "2026-11-18T19:50:57.233934+00:00",
     "tries": null,
     "kind": "stream",
     "credit": "@formulad",
     "event": "FD ORLANDO 2026",
-    "has_transcript": false,
+    "has_transcript": true,
     "moments": []
    },
    {
@@ -11787,17 +11787,17 @@
  },
  "streams": {
   "total": 54,
-  "transcribed": 51,
+  "transcribed": 54,
   "moments": 26,
-  "next": "Red Bull Drift Masters Grand Finale: What You Didn't See",
+  "next": null,
   "series": {
    "Formula DRIFT": {
     "total": 38,
-    "transcribed": 36
+    "transcribed": 38
    },
    "Drift Masters": {
     "total": 16,
-    "transcribed": 15
+    "transcribed": 16
    }
   }
  },
