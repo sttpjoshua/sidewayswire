@@ -1,7 +1,10 @@
 {
  "youtube": "Jxd0qi06rik",
- "status": "transcribing",
+ "status": "error",
  "note": "video vastgelegd in het register",
  "seconds": 770.0,
- "found_title": "Red Bull Drift Masters Grand Finale: What You Didn't See"
+ "found_title": "Red Bull Drift Masters Grand Finale: What You Didn't See",
+ "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+ "at": 1794996432.2728891,
+ "version": "15"
 }
