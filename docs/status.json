@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:13:43.351269+00:00",
+ "updated": "2026-11-18T23:19:26.632494+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 52
+  "draft": 56
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6800,9 +6800,9 @@
       "topic": "FINAL RUN ONE IN THE SMOKE",
       "quote": "And here we go. We're ready to send it for the finals. Connor Shanahan leading. Matt Field in that change position. Shanahan wants it. Will be 47 points above James Dean. We're gonna drop it in the conviction. Right there. The feet's in the bed. The claws are out. The fangs are on. Come on now. Oh, Shanahan. looks like he exceeds that outside zone four and oh my god how Matt Field is seen through that smoke is beyond me transitioning into that outside zone six get a little bit wonky this is the walk as we've seen from these drivers all weekend this is pushing so hard right to the edge and they're stepping over it here and there but it's what needs to be done to get this wind done you know for Matt Field to get his first one of the season for Connor to push that championship fight even harder. You've got to find the limits of every single battle.",
       "why": "Finale run 1: Field verdwijnt in de rook achter Shanahan",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-47/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6814,9 +6814,9 @@
       "topic": "THE LAS VEGAS FINAL, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-48/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6828,9 +6828,9 @@
       "topic": "FINAL RUN TWO, TOO CLOSE TO CALL",
       "quote": "And look at that. A little tap of the brakes from both of them. Transitioning into six. Good anticipation by the Irish driver. Here goes Matt Field maxing out that angle into six into seven the tire fire signature let's break out that fire extinguisher once again and looks like it takes itself out and second going 88 miles per hour going back to the future we going back to the line or do we have a winner what do you think I have no idea at this point in time but I know is that this this is just an insane night being capped off with incredible run here that field on the wall this is so similar to what we saw on the previous one is the stats stacking on the right side Connor you can tell wants to fight wants to attack that field backing out of it there through four but Connor does a great job so I call him the shadow everywhere you go he is right there behind you through the transition powers through the smoke looks fantastic a little knock on the door of Matt Field both of back on a tire fire going what more could you ask for in a final battle late night in Las Vegas this is a tough call proximity Connor Shanahan 100 % mimicry a little bit higher but that line score that going offline could that be the nail in the coffin for Connor Shanahan? I have no idea. I honestly have no idea which way this goes.",
       "why": "Finale run 2 en niemand durft de winnaar te voorspellen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-49/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6842,9 +6842,9 @@
       "topic": "SHANAHAN WINS IN LAS VEGAS",
       "quote": "And now again, the championship up for grass, but who won here in Sin City, Smoke City, high stakes. Your winner here unanimously of round seven of the Formula Drift Pro Championship is... Connor Shanahan gets the win! Connor Shanahan gets the win. Matt Field, second place here in Las Vegas. It's a Matt Field sandwich with Shanahan's on either side. Connor Shanahan 47 points lead going into the final round.",
       "why": "Winnaar bekend: Conor Shanahan, 47 punten voorsprong",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-50/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,163 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-50",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Unanimous: Conor Shanahan wins round 7 in Las Vegas ahead of Matt Field and brother Jack, and leaves with a 47 point lead.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @mattfield777 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 10473.53
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:19:26.595902+00:00",
+   "built": "2026-11-18T23:19:26.595905+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-50/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@mattfield777",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN WINS IN LAS VEGAS",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-49",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field leads the final run, Conor Shanahan is his shadow. Even the commentators have no idea who wins.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 10178.43
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:18:26.914207+00:00",
+   "built": "2026-11-18T23:18:26.914211+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-49/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FINAL RUN TWO, TOO CLOSE TO CALL",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-48",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 10039
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:16:34.503173+00:00",
+   "built": "2026-11-18T23:16:34.503178+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-48/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "THE LAS VEGAS FINAL, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-47",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The Las Vegas final: Conor Shanahan leads and Matt Field chases blind through the smoke.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 10029.07
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:15:17.973795+00:00",
+   "built": "2026-11-18T23:15:17.973800+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-47/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FINAL RUN ONE IN THE SMOKE",
    "photo": null
   },
   {

@@ -1600,8 +1600,13 @@
    "why": "ongelovig commentaar"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-47-100291-100798.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-47-100291-100798.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-47/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10056.11, \"start\": 10052.71, \"text\": \"HOW CAN HE SEE THROUGH THIS?\", \"why\": \"ongelovig commentaar\"}",
+  "made": "2026-11-18T23:15:17.972815+00:00"
  },
  {
   "start": 10039,
@@ -1636,8 +1641,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-48r2-101615-101960.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-48r2-101615-101960.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-48/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T23:16:34.502417+00:00"
  },
  {
   "start": 10178.43,
@@ -1660,8 +1670,13 @@
    "why": "spanning"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-49-101784-102521.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-49-101784-102521.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-49/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10252.13, \"start\": 10248.83, \"text\": \"WHO WON THE FINAL?\", \"why\": \"spanning\"}",
+  "made": "2026-11-18T23:18:26.913195+00:00"
  },
  {
   "start": 10473.53,
@@ -1685,8 +1700,13 @@
    "why": "de onthulling"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-50-104735-105114.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-50-104735-105114.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-50/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10492.11, \"start\": 10490.23, \"text\": \"WHO WINS IN LAS VEGAS?\", \"why\": \"de onthulling\"}",
+  "made": "2026-11-18T23:19:26.595028+00:00"
  },
  {
   "start": 10571.93,
