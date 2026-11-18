@@ -151,7 +151,10 @@ def parse_page(html: str, url: str, source: str, series: str) -> list[dict]:
     host = urlparse(url).netloc
     for m in re.finditer(r'<a[^>]+href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', html, re.S | re.I):
         href = urljoin(url, unescape(m.group(1)))
-        text = unescape(re.sub(r"<[^>]+>|\s+", " ", m.group(2))).strip()
+        inner = m.group(2)
+        head = re.search(r"<h[1-4][^>]*>(.*?)</h[1-4]>", inner, re.S | re.I)   # card links: use the headline
+        text = unescape(re.sub(r"<[^>]+>|\s+", " ", head.group(1) if head else inner)).strip()
+        text = re.sub(r"\s+", " ", text)
         if urlparse(href).netloc != host or href in seen or len(text) < 25 or len(text) > 200:
             continue
         path = urlparse(href).path
