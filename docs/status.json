@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T22:39:13.540722+00:00",
+ "updated": "2026-11-18T22:46:33.095566+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 28
+  "draft": 32
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6464,9 +6464,9 @@
       "topic": "JACK VS TUERCK, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-23/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6478,9 +6478,9 @@
       "topic": "JACK SHANAHAN'S CHASE MASTERCLASS",
       "quote": "We got a clean start. Here we go. Ryan Turk now out front getting that clean Las Vegas air. Now transitioning in, look at Jack Shanahan tuck in. Very impressive on the chase. Ryan Turk a lot tidier out front as he goes down. He does go off track just a little bit. That allows Jack to catch up, get good proximity. Watch these transitions. Again, Jack the, oh my gosh, Jack the Ripper. Shanahan goes right on in and into those last outside zones. I mean, those transitions are just undeniably just sexy. That's literally years of him and his brother driving together in low horsepower cars on a track. And they just do it constantly and they just nailed that technique.",
       "why": "Jack Shanahan met een chase vol perfecte transities",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-24/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6492,9 +6492,9 @@
       "topic": "THE SHANAHANS RESET CHASING",
       "quote": "Him and Connor, I really did reset what good chasing was. James seen phenomenal chaser for sure. But it feels like the moment Connor came in, everyone had to change the way that they drove, especially in transition. It was like a digo -sito effect, right? Yes, very much so. That's kind of impressive. All right, Jack Shanahan gets one vote, two votes. And Jack Shanahan gets the victory.",
       "why": "Commentaar: de Shanahans veranderden het chasen, Jack wint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-25/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6506,9 +6506,9 @@
       "topic": "LEGENDS ONE MORE TIME, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-26/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -16520,6 +16520,164 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-26",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The one more time between Chris Forsberg and Ken Gushi. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 6149
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:46:33.086156+00:00",
+   "built": "2026-11-18T22:46:33.086165+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-26/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg",
+    "Ken Gushi"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "LEGENDS ONE MORE TIME, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-25",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan knocks out Ryan Tuerck, and the booth says the Shanahan brothers reset what good chasing looks like.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @ryantuerck @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 5813.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:43:38.333903+00:00",
+   "built": "2026-11-18T22:43:38.333910+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-25/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@ryantuerck",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THE SHANAHANS RESET CHASING",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-24",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck leads, Jack Shanahan chases, and the commentators lose it over those transitions.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @ryantuerck @formulad\n\n#formulad #formuladrift #drifting #lasvegas #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 5745.47
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:43:01.844790+00:00",
+   "built": "2026-11-18T22:43:01.844794+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-24/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK SHANAHAN'S CHASE MASTERCLASS",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-23",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan against Ryan Tuerck. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @ryantuerck @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 5623
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:41:46.457054+00:00",
+   "built": "2026-11-18T22:41:46.457061+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-23/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "JACK VS TUERCK, SIDE BY SIDE",
    "photo": null
   },
   {

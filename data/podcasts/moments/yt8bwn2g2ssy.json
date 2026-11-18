@@ -813,8 +813,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-23r2-57450-57740.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-23r2-57450-57740.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-23/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T22:41:46.456325+00:00"
  },
  {
   "start": 5745.47,
@@ -837,8 +842,13 @@
    "why": "commentaar flipt"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-24-57455-57908.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-24-57455-57908.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5767.27, \"start\": 5764.77, \"text\": \"WATCH THIS CHASE RUN\", \"why\": \"commentaar flipt\"}",
+  "made": "2026-11-18T22:43:01.843834+00:00"
  },
  {
   "start": 5813.31,
@@ -862,8 +872,13 @@
    "why": "sterke uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-25-58133-58335.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-25-58133-58335.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5818.01, \"start\": 5814.43, \"text\": \"WHO RESET THE ART OF CHASING?\", \"why\": \"sterke uitspraak\"}",
+  "made": "2026-11-18T22:43:38.333023+00:00"
  },
  {
   "start": 6149,
@@ -898,8 +913,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-26r2-62936-63280.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-26r2-62936-63280.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-26/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T22:46:33.085310+00:00"
  },
  {
   "start": 6152.35,
