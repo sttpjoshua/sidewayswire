@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T21:34:55.950086+00:00",
+ "updated": "2026-11-18T22:17:49.897978+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 12
+  "draft": 16
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6240,9 +6240,9 @@
       "topic": "WALL, CONTACT, CHAOS",
       "quote": "so see those lights there on the right again they extinguished that is go time that's the time to send it oh and we got okay it was chase car hit the cones no big deal Tommy the mayor going through in that first outside zone second third again that's bro! contact Matt Field dives in on the inside Tommy the mayor slams down Matt That gets out of the way, boy. Boy, the plot thickens.",
       "why": "LaMere raakt de muur en Field knalt erin",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-7/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6254,9 +6254,9 @@
       "topic": "EGGERT HANGS UP THE HEADSET",
       "quote": "So, our judge is Robin Ashida, Reese Marin, and our judge birthday boy Brian Eggert officially announcing he is hanging up his judging headset at the end of this 2026 season. So thank you so much Brian for all you've done for not only Formula Drift but drifting in general.",
       "why": "Jurylid Brian Eggert stopt na 2026 als FD-jurylid",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-8/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6268,9 +6268,9 @@
       "topic": "JUDGES EXPLAIN THE CORVETTE CRASH",
       "quote": "So here we go slide them left for field or right for Tommy LaMare Matt field gets one vote two votes Matt field Gets the win unanimously Matt field the beast on the bay gets the win I'd love for our judges to throw on their headset and elaborate Concurrently as he's talking all three judges Robbie Brian and now Reese Marin Reese you guys are discussing It was unanimous did Tommy's contact with the wall effect and impede on Matt was that that's the elephant in the room That's the Corvette in the room Just trying to see you know, where did this contact happen? We saw that Tommy hit the wall just before and then the ricochet happened went into So let's say we move Matt Field out of that equation. We just have Tom Leamer just taking a lead run. He would have hit the wall and would have messed up his lead line. Matt is close in proximity where it needed to be. So then when Tommy hit the wall and it rotated back and got into Matt Field's way, you know, we're not going to put that on Matt Field. We're putting that on the lead. We did take time just to double check everything, look at reviews, look at Wally, and that's what we ultimately came up with, all three of us. All right. Now that's fair.",
       "why": "Jury legt uit waarom Field wint na het contact",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-9/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6282,9 +6282,9 @@
       "topic": "THE ONE MORE TIME, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-10/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -16520,6 +16520,165 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 2858
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:17:49.888099+00:00",
+   "built": "2026-11-18T22:17:49.888104+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-10/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "THE ONE MORE TIME, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Unanimous for Matt Field after the Corvette contact. The judges explain why the blame lands on the lead car.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #judging #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 2449.47
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:15:15.800189+00:00",
+   "built": "2026-11-18T22:15:15.800196+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-9/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Tommy LaMere"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JUDGES EXPLAIN THE CORVETTE CRASH",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Longtime judge Brian Eggert is hanging up his Formula DRIFT judging headset at the end of the 2026 season.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 2412.67
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:13:46.556166+00:00",
+   "built": "2026-11-18T22:13:46.556172+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-8/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brian Eggert"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "EGGERT HANGS UP THE HEADSET",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy LaMere clips the wall in his lead run and Matt Field has nowhere to go. Who takes the blame?\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #corvette #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 2128.81
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:13:12.793979+00:00",
+   "built": "2026-11-18T22:13:12.793987+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-7/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Tommy LaMere"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WALL, CONTACT, CHAOS",
    "photo": null
   },
   {
