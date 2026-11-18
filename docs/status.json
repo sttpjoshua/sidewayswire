@@ -1,12 +1,11 @@
 {
- "updated": "2026-11-18T13:11:33.108222+00:00",
+ "updated": "2026-11-18T13:15:14.371871+00:00",
  "counts": {
-  "ready": 113,
-  "check": 125,
-  "posted": 3,
-  "draft": 3
+  "ready": 115,
+  "check": 126,
+  "posted": 3
  },
- "collected": "2026-11-18T13:09:58.250986+00:00",
+ "collected": "2026-11-18T13:15:12.679128+00:00",
  "instagram": false,
  "sources": [
   {
@@ -14854,6 +14853,46 @@
    "photo": null
   },
   {
+   "id": "pod-ytinepijspeek-2",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-10T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Ryan Litteral's qualifying run turns into a fireball and the booth is yelling for him to stop.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-ytinepijspeek-2/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 2218.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T13:08:14.519680+00:00",
+   "built": "2026-11-18T13:15:14.086511+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-2/clip.mp4",
+   "tags": [
+    "@ryanlitteral",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LITTERAL'S CAR ON FIRE",
+   "photo": null
+  },
+  {
    "id": "pod-070d2a07f93c-9",
    "kind": "podcast_clip",
    "status": "ready",
@@ -14978,6 +15017,47 @@
    "caption_by": null,
    "format": "single",
    "title": "FIELD VS DEANE: FIVE TAKES",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-1",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-09T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Jonathan Castro initiates and his GR86 just winds up and stops. Incomplete on qualifying run one.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "media/pod-ytinepijspeek-1/clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 2137.08
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T13:06:31.811721+00:00",
+   "built": "2026-11-18T13:15:14.078074+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-1/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jonathan Castro"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CASTRO'S GR86 WON'T GO",
    "photo": null
   },
   {
@@ -16444,12 +16524,14 @@
   {
    "id": "pod-ytinepijspeek-3",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "check",
    "post_at": null,
    "posted_at": null,
    "caption": "Tommy Lemaire has figured out the Corvette, and 85.66 makes him the new top qualifier at that point.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "media/pod-ytinepijspeek-3/clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": true,
@@ -16466,7 +16548,7 @@
     "youtube"
    ],
    "created": "2026-11-18T13:09:50.384596+00:00",
-   "built": "2026-11-18T13:09:50.384604+00:00",
+   "built": "2026-11-18T13:15:14.086832+00:00",
    "want_at": null,
    "video": "media/pod-ytinepijspeek-3/clip.mp4",
    "tags": [
@@ -16477,83 +16559,6 @@
    "caption_by": null,
    "format": "single",
    "title": "85.66 FROM LEMAIRE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytinepijspeek-2",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ryan Litteral's qualifying run turns into a fireball and the booth is yelling for him to stop.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
-    "start": 2218.72
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T13:08:14.519680+00:00",
-   "built": "2026-11-18T13:08:14.519684+00:00",
-   "want_at": null,
-   "video": "media/pod-ytinepijspeek-2/clip.mp4",
-   "tags": [
-    "@ryanlitteral",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "LITTERAL'S CAR ON FIRE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytinepijspeek-1",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jonathan Castro initiates and his GR86 just winds up and stops. Incomplete on qualifying run one.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
-    "start": 2137.08
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T13:06:31.811721+00:00",
-   "built": "2026-11-18T13:06:31.811724+00:00",
-   "want_at": null,
-   "video": "media/pod-ytinepijspeek-1/clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Jonathan Castro"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "CASTRO'S GR86 WON'T GO",
    "photo": null
   },
   {

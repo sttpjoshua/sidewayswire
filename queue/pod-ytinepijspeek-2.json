@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LITTERAL'S CAR ON FIRE",
  "video": "docs/media/pod-ytinepijspeek-2/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 2218.72
  },
  "created": "2026-11-18T13:08:14.519680+00:00",
- "built": "2026-11-18T13:08:14.519684+00:00"
+ "built": "2026-11-18T13:15:14.086511+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-2/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-10T16:30:00+00:00"
 }
