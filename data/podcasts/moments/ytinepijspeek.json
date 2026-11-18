@@ -19,7 +19,8 @@
    "why": "emotionele uitspraak"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-0-5715-6155.mp4"
  },
  {
   "start": 2137.08,
@@ -41,7 +42,13 @@
    "why": "de auto valt stil"
   },
   "by": "editor",
-  "status": "new"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-1-21371-21814.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2151.56, \"start\": 2148.54, \"text\": \"HIS QUALIFYING RUN LASTS SECONDS\", \"why\": \"de auto valt stil\"}",
+  "made": "2026-11-18T13:06:31.810836+00:00"
  },
  {
   "start": 2218.72,
@@ -63,7 +70,13 @@
    "why": "commentator: he is lit"
   },
   "by": "editor",
-  "status": "new"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-2-22187-22912.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2254.04, \"start\": 2250.86, \"text\": \"THIS RUN GETS WAY TOO HOT\", \"why\": \"commentator: he is lit\"}",
+  "made": "2026-11-18T13:08:14.518732+00:00"
  },
  {
   "start": 3027.96,
@@ -85,9 +98,15 @@
    "why": "voorspelling score"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
-  "check_reason": "spelling achternaam Tommy (Lemaire/LaMere) controleren"
+  "check_reason": "spelling achternaam Tommy (Lemaire/LaMere) controleren",
+  "wait_name": "v2-ytinepijspeek-3-30280-30948.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3063.4, \"start\": 3060.72, \"text\": \"HOW HIGH CAN THIS CORVETTE GO?\", \"why\": \"voorspelling score\"}",
+  "made": "2026-11-18T13:09:50.383616+00:00"
  },
  {
   "start": 3363.26,
@@ -109,7 +128,8 @@
    "why": "de wending in de run"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-4-33633-34138.mp4"
  },
  {
   "start": 5163.28,
@@ -131,7 +151,8 @@
    "why": "commentaar verwacht topscore"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-5-51633-52367.mp4"
  },
  {
   "start": 5812.54,
@@ -153,7 +174,8 @@
    "why": "commentator onder de indruk"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-6-58125-58687.mp4"
  },
  {
   "start": 6059.4,
@@ -175,7 +197,8 @@
    "why": "enthousiaste commentator"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-7-60594-61208.mp4"
  },
  {
   "start": 6257.04,
@@ -198,7 +221,8 @@
    "why": "spanning rond de stijlscore"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-8-62570-63294.mp4"
  },
  {
   "start": 7131.78,
@@ -220,7 +244,8 @@
    "why": "ongelooflijke toevalsscore"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-9-71318-71947.mp4"
  },
  {
   "start": 7208.7,
@@ -242,7 +267,8 @@
    "why": "mooie commentaarregel"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-10-72087-72721.mp4"
  },
  {
   "start": 7364.16,
@@ -264,7 +290,8 @@
    "why": "grappige commentaarregel"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-11-73642-74107.mp4"
  },
  {
   "start": 7996.66,
@@ -286,7 +313,8 @@
    "why": "afscheidsgevoel"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-12-79967-80497.mp4"
  },
  {
   "start": 8309.52,
@@ -308,7 +336,8 @@
    "why": "discussie over de jurering"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-13-83095-83747.mp4"
  },
  {
   "start": 8942.76,
@@ -330,7 +359,8 @@
    "why": "juichend commentaar"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-14-89428-89920.mp4"
  },
  {
   "start": 9145.0,
@@ -352,7 +382,8 @@
    "why": "de score valt"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-15-91450-91852.mp4"
  },
  {
   "start": 9208.72,
@@ -374,7 +405,8 @@
    "why": "bumper los"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-16-92087-92602.mp4"
  },
  {
   "start": 9720.02,
@@ -396,7 +428,8 @@
    "why": "emotioneel moment"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-17-97200-97852.mp4"
  },
  {
   "start": 9785.4,
@@ -418,7 +451,8 @@
    "why": "de score"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-18-97854-98519.mp4"
  },
  {
   "start": 9906.58,
@@ -440,7 +474,8 @@
    "why": "commentaar enthousiast"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-19-99066-99784.mp4"
  },
  {
   "start": 10052.0,
@@ -462,7 +497,8 @@
    "why": "grappige commentaarregel"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-20-100520-101252.mp4"
  },
  {
   "start": 10185.04,
@@ -484,7 +520,8 @@
    "why": "grappige bijnaam"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-21-101850-102559.mp4"
  },
  {
   "start": 10446.3,
@@ -506,7 +543,8 @@
    "why": "hoogste lijnscore"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-22-104463-105038.mp4"
  },
  {
   "start": 10712.2,
@@ -530,7 +568,8 @@
   "by": "editor",
   "status": "new",
   "check": true,
-  "check_reason": "voornaam/spelling Sorensen controleren"
+  "check_reason": "voornaam/spelling Sorensen controleren",
+  "wait_name": "v2-ytinepijspeek-23-107122-107725.mp4"
  },
  {
   "start": 10840.8,
@@ -553,7 +592,8 @@
    "why": "hoek van Deane"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-24-108408-108984.mp4"
  },
  {
   "start": 10926.36,
@@ -575,7 +615,8 @@
    "why": "twijfel commentaar"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-25-109264-109951.mp4"
  },
  {
   "start": 11020.04,
@@ -599,6 +640,7 @@
    "why": "spanning voor de uitslag"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytinepijspeek-26-110200-110691.mp4"
  }
 ]

@@ -19,7 +19,8 @@
    "why": "hij benoemt de stress zelf"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytpcbmjoufku-0-520-972.mp4"
  },
  {
   "start": 276.66,
@@ -43,7 +44,8 @@
   "by": "editor",
   "status": "new",
   "check": true,
-  "check_reason": "Spreker niet bij naam genoemd; coureur/team nakijken"
+  "check_reason": "Spreker niet bij naam genoemd; coureur/team nakijken",
+  "wait_name": "v2-ytpcbmjoufku-1-2767-3264.mp4"
  },
  {
   "start": 359.7,
@@ -67,7 +69,8 @@
   "by": "editor",
   "status": "new",
   "check": true,
-  "check_reason": "Gerucht; spreker niet zeker Korpuliński en 'Lucas' (wildcard) niet bij achternaam genoemd"
+  "check_reason": "Gerucht; spreker niet zeker Korpuliński en 'Lucas' (wildcard) niet bij achternaam genoemd",
+  "wait_name": "v2-ytpcbmjoufku-2-3597-4074.mp4"
  },
  {
   "start": 408.06,
@@ -89,6 +92,7 @@
    "why": "het nitrous-backupsysteem"
   },
   "by": "editor",
-  "status": "new"
+  "status": "new",
+  "wait_name": "v2-ytpcbmjoufku-3-4081-4584.mp4"
  }
 ]

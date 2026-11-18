@@ -1,9 +1,10 @@
 {
- "updated": "2026-11-18T13:05:39.817614+00:00",
+ "updated": "2026-11-18T13:11:00.455976+00:00",
  "counts": {
   "ready": 113,
   "check": 125,
-  "posted": 3
+  "posted": 3,
+  "draft": 3
  },
  "collected": "2026-11-18T13:05:30.415368+00:00",
  "instagram": false,
@@ -4467,9 +4468,9 @@
       "topic": "CASTRO'S GR86 WON'T GO",
       "quote": "Now coming to line, Jonathan Castro, Methyl Dom Toyota GR 86 from Dominican Republic. Let's see what cash has got for us. Initiates, throws it in. Oh no, does not throw it in. It comes to a halt. That's going to be, I have to assume that, yeah, that's going to be incomplete right there. Something does not sound good. Oh man, comes to a halt. That's going to be an incomplete right there and basically that's an unchaseable run. It did not fire off. The car is winding up so that's going to be an incomplete AKA zero. Yeah, this does not sound good for the car. He's still choosing to drive it. It's not going into gear. It's just like winding up and not dropping in.",
       "why": "Castro komt niet weg, nul op run een",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4481,9 +4482,9 @@
       "topic": "LITTERAL'S CAR ON FIRE",
       "quote": "All right. All right, here we go. Ryan Littoral literally got to throw down the NRG innovations as Chastie into the outside zone, tapping the brakes, throws it on. Yeah, look at that. Justin Smash getting all close and personal there. Oh, it comes out of, comes out of drift a little bit. Pass the navigate. Again, the RV army. I saw Jake, the drift squid is here. I mean, we're seeing some serious fireworks coming out of the hood of that vehicle. Ryan just sounding violent. He is lit. Literally, holy cow. That is a ton of fire coming out back and hopefully it extinguishes. Uh, nope, that's still going. We'll probably need to get a, wow. Need to get somebody on that. Get up, get up. Stop Ryan. Stop. Get him. Drive him. Drive. Stop near fire extinguisher. That was lit. Yeah. He's, uh, he's got a ton of wheelspeed in this right now and he is getting those tires very, very warm. Looks good. Tons of angle through here. And unfortunately the car just bit back over rotates just that little bit too much and Yeah, not a not a good time for him through that section That's gonna be a big detriment as you can already tell with that zone 3 score of only a point 5",
       "why": "Vlammen uit de motorkap, commentaar roept stop",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4495,9 +4496,9 @@
       "topic": "85.66 FROM LEMAIRE",
       "quote": "But yeah, Tommy just he's figured it out. He's kind of locked in and understood what this car needs to be. A lot of things that they've changed in it over the last two years. Tons of angle through there. I expect the angle score to be good. But yeah, had him on the other zone not that long ago. We went over kind of how things have changed and what he's done to adapt the car. This is looking like a solid run here for top of the man. 30s, 30s as far as the, again, you can see the digital telemetry giving you the, spitting it out, angle and line, 51 degree average. Yeah. He's going to be well into the eighties with this score. So we'll find out how far he's able to get into it. But yeah, great work here from Tommy. I mean, he just, he's got to be a, he is now, but as he progresses, he's going to be such a force to reckon with like his speed that he gets out of that car his placement now, you know, everybody laughed when he changed from the s jazz. He said, why would you, why would you go from something that you know, you've driven so well, and he wants a challenge. He wants a new vehicle. It's a beautiful car. Sounds like 85 .66 are new number one qualifier.",
       "why": "Corvette run van Lemaire, nieuwe nummer een",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16437,6 +16438,121 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire has figured out the Corvette, and 85.66 makes him the new top qualifier at that point.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 3027.96
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T13:09:50.384596+00:00",
+   "built": "2026-11-18T13:09:50.384604+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-3/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "85.66 FROM LEMAIRE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Litteral's qualifying run turns into a fireball and the booth is yelling for him to stop.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 2218.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T13:08:14.519680+00:00",
+   "built": "2026-11-18T13:08:14.519684+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-2/clip.mp4",
+   "tags": [
+    "@ryanlitteral",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LITTERAL'S CAR ON FIRE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jonathan Castro initiates and his GR86 just winds up and stops. Incomplete on qualifying run one.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 2137.08
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T13:06:31.811721+00:00",
+   "built": "2026-11-18T13:06:31.811724+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-1/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jonathan Castro"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CASTRO'S GR86 WON'T GO",
    "photo": null
   },
   {
