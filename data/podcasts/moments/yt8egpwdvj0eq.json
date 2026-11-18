@@ -19,8 +19,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-0-0-392.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-0-0-392.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 39.2, \"start\": 37.08, \"text\": \"BUILT IN A RUSH, BUT FAST?\", \"why\": \"enthousiast commentaar\"}",
+  "made": "2026-11-18T23:22:23.328599+00:00"
  },
  {
   "start": 146.8,
@@ -45,8 +50,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-1-1468-1758.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-1-1468-1758.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 151.76, \"start\": 150.12, \"text\": \"CAN HE BEAT THE POINTS LEADER?\", \"why\": \"vergelijking\"}",
+  "made": "2026-11-18T23:23:12.252422+00:00"
  },
  {
   "start": 177.62,
@@ -70,8 +80,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8egpwdvj0eq-2-1776-2096.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8egpwdvj0eq-2-1776-2096.mp4",
+  "clip": "docs/media/pod-yt8egpwdvj0eq-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 197.2, \"start\": 194.12, \"text\": \"WHICH SIDE WAS HE ON?\", \"why\": \"de fout\"}",
+  "made": "2026-11-18T23:24:04.592389+00:00"
  },
  {
   "start": 398.2,

@@ -1729,7 +1729,12 @@
    "why": "mooi citaat"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-51-105719-106401.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-51-105719-106401.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-51/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10622.67, \"start\": 10620.11, \"text\": \"TWO BROTHERS, ONE DREAM\", \"why\": \"mooi citaat\"}",
+  "made": "2026-11-18T23:21:22.693874+00:00"
  }
 ]

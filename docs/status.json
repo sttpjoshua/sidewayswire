@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:19:26.632494+00:00",
+ "updated": "2026-11-18T23:24:04.602572+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 56
+  "draft": 60
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6856,9 +6856,9 @@
       "topic": "CONOR AFTER THE WIN",
       "quote": "Yeah, unbelievable. Tough day. These days don't get any easier. That's for sure. And I just worked hard this weekend. Keep composure. Forget about the distractions. Forget about what's going on. my own game and what a team tires and fuel all weekend again and that's what it takes to lead this championship right now is you know everybody has to work together collectively and put in the hours at home before we come to the track and all the guys at Juri Yang Racing the crew I have on the ground Eric, Hardstock, Andrew, Juri all the boys who fell in at the end to give a hand thank you so much to my sponsors GT radial baby two wins back -to -back or third win of the year or four podium it doesn't get much better than that Red in juke erasing all the partners that me live my dream my mom and dad who stayed up again tonight love you guys all my family supporting good job to Jack and Petrie two brothers in America chasing a dream on a podium again amazing thank you so much the flight is on we go to California with as much composure as we can I'm gonna work hard in the next couple of weeks to train my ass off and hopefully we can lift a big one at the end of the weekend Connor thank you so much ladies and gentlemen your winner of Las Vegas Connor Shanahan.",
       "why": "Conor op het podium over composure, zijn team en Long Beach",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-51/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      }
@@ -10421,9 +10421,9 @@
       "topic": "JOHNSON, WHAT A RUN",
       "quote": "Side bite to really put down a run, keep in mind Jerry Johnson just thrashing to build that car before round one, so hopefully he's got the car where it needs to be, because he's going to be bringing it to the point, giving that to the crowd, across the nose of that Corvette, but Wiecek, right there, he is high, and it's high, and so on Johnson, look at the flame, goes, diving in on that Nissan Z, passing inside, cut, great placement, now through that power alley, transitioning Jerry Johnson, all the way I don't know if this was contact or not, but Jerry Johnson timing that so well. All the course. What a run. What a run.",
       "why": "Jerry Johnson met een vers gebouwde auto zet een topper neer",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10435,9 +10435,9 @@
       "topic": "LONS HAS SOMETHING TO PROVE",
       "quote": "So here we go. Lons ripping out the gates. He looks like a racehorse. Ashley pulling away from our points leader. Lons has something to prove right now against our current points and championship leader. Now Lons goes into the outside zone. Look at that angle there by Justin Smash past that transition point into the outside zone. The timing right now to Laska. He is fighting back. Make some noise. Come on, Connecticut. against New England. You're not new to this. You're true to this, baby. Come on. You really got to bring it.",
       "why": "Lons trekt weg van de puntenleider",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10449,9 +10449,9 @@
       "topic": "JOHNSON ON THE WRONG SIDE",
       "quote": "because Jerry Johnson, the flames are in your rear view mirror. Bistrac initiates. Now it looks like they're ulting it. Girl, look at this. Tucked in nicely. That Corvette riding beside the four busting. The pony keeps on prancing. But look at this now coming into that power alley. And drop it in. Jerry Johnson, wrong side, man. Oh, no. But Bistrac continues on. So here's a little bit of a scale, right? So Bistrac was back there, but he kept it between the white lines. Jerry was on the wrong side, getting off the start line.",
       "why": "Jerry Johnson aan de verkeerde kant van de inside clip",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8egpwdvj0eq-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,163 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jerry Johnson ends up on the wrong side, while his opponent kept it between the white lines.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 177.62
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:24:04.593280+00:00",
+   "built": "2026-11-18T23:24:04.593283+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-2/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jerry Johnson"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JOHNSON ON THE WRONG SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Braden Lons rips out the gates like a racehorse against the Pro Spec points leader Corey Tlaska.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 146.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:23:12.253338+00:00",
+   "built": "2026-11-18T23:23:12.253341+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-1/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Corey Tlaska"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "LONS HAS SOMETHING TO PROVE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jerry Johnson was thrashing to build this car before round one. Now look at him in Connecticut.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 0.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:22:23.329526+00:00",
+   "built": "2026-11-18T23:22:23.329530+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8egpwdvj0eq-0/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jerry Johnson"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JOHNSON, WHAT A RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-51",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan after winning in Las Vegas: keep composure, forget the distractions, and train hard for Long Beach.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 10571.93
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:21:22.694918+00:00",
+   "built": "2026-11-18T23:21:22.694923+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-51/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONOR AFTER THE WIN",
    "photo": null
   },
   {
@@ -23904,175 +24061,6 @@
    "caption_by": null,
    "format": null,
    "title": "\"THEY ALL BLOW UP\"",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-13",
-   "kind": "podcast_clip",
-   "status": "posted",
-   "post_at": "2026-11-16T22:00:00+00:00",
-   "posted_at": "2026-11-17T13:26:00.306626+00:00",
-   "caption": "Chelsea DeNofa's wild idea: buy a drift car on Monday, compete in Formula DRIFT that weekend, budget 25k.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #budgetdrift #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-13/clip.mp4"
-   ],
-   "problems": [],
-   "results": {
-    "instagram": "dry-run",
-    "facebook": "dry-run",
-    "tiktok": "dry-run",
-    "youtube": "dry-run"
-   },
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3978.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:27:52.294825+00:00",
-   "built": "2026-11-16T21:56:41.515438+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-13/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "BUY A CAR MONDAY, RACE FD THAT WEEKEND",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-26",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Chelsea DeNofa wants a big invitational mountain drift event next year. 🏔️\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#drifting #touge #driftnews #chelseadenofa #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-26/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 8175.73
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T21:32:19.478234+00:00",
-   "built": "2026-11-16T21:56:41.531713+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-26/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "A MOUNTAIN INVITATIONAL NEXT YEAR?",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-16",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The FD drivers' meeting where every driver had to raise a hand to prove they were listening.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-16/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 4924.31
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:29:29.193402+00:00",
-   "built": "2026-11-16T21:56:41.519688+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-16/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "DRIVERS HAD TO RAISE THEIR HANDS",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-12",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Chelsea DeNofa was close to a ProSpec comeback with other ex-pros, and teams have asked him to drive a few rounds.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftnews #chelseadenofa #sidewayswire",
-   "media": [
-    "media/pod-1298fd1c600b-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3914.96
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T21:29:22.646616+00:00",
-   "built": "2026-11-16T21:56:41.507560+00:00",
-   "want_at": null,
-   "video": "media/pod-1298fd1c600b-12/clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "EX-PROS BACK IN PRO SPEC? TEAMS CALLING?",
    "photo": null
   }
  ],
