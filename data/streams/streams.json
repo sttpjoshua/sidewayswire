@@ -59,6 +59,56 @@
    "since": "2026-01-01",
    "min_hours": 1.0,
    "limit": 80
+  },
+  {
+   "url": "https://www.youtube.com/@DriftMastersGrandPrix/videos",
+   "series": "Drift Masters",
+   "credit": "@driftmasters.gp",
+   "match": [
+    "final",
+    "top 16",
+    "top 32",
+    "battle",
+    " vs ",
+    "highlights"
+   ],
+   "exclude": [
+    "trailer",
+    "teaser",
+    "pro 2",
+    "pro2",
+    "podcast",
+    "vlog"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.05,
+   "limit": 120
+  },
+  {
+   "url": "https://www.youtube.com/@FormulaDRIFT/videos",
+   "series": "Formula DRIFT",
+   "credit": "@formulad",
+   "match": [
+    "highlights",
+    "final",
+    " vs ",
+    "top 16",
+    "great 8",
+    "battle"
+   ],
+   "exclude": [
+    "fdj",
+    "pro 2",
+    "pro2",
+    "prospec",
+    "proam",
+    "podcast",
+    "outerzone",
+    "trailer"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.05,
+   "limit": 150
   }
  ]
 }
