@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T22:30:58.029432+00:00",
+ "updated": "2026-11-18T22:39:13.540722+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 24
+  "draft": 28
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6408,9 +6408,9 @@
       "topic": "BEECHUM VS HANSEN, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-19/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6422,9 +6422,9 @@
       "topic": "RUDY HANSEN SPINS OUT",
       "quote": "Then Rudy Hanson, let's see how they handle the crease. Oh Boy So yeah Looked like again Rudy Hanson slammed down and that that played a role right there You saw it slammed down looks like Trenton got into the back of me couldn't go anywhere So I believe again at first glance that would just you know, you'd have to assume that Rudy came down Impeded contact was man. Yeah, I think I didn't don't yeah. Yeah. No, no, no. Yeah I mean you had real tired jumping conclusions. I think it would have looked like his Rudy's Suspension basically bottomed out and it kind of stalled up the wheel We'll take a look at it soon. I mean with beach and though very little tire smoke He's got a bunch of drive in the car where he's not too bad there But Beecham almost over sunk it and as soon as Rudy's car hops it loses traction And that's it. It's just that's all she wrote you'd be able to see it on this drone watch the suspension in the rear Oh, it's just blocked by Beecham's car. But yeah, unfortunately his car just couldn't handle the bump. He's already at full lock He's coming around. It's a perfect storm for him and the car over rotates.",
       "why": "Hansen raakt de crease, Beechum tikt hem, spin",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-20/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6436,9 +6436,9 @@
       "topic": "FORSBERG VS GUSHI, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-21/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6450,9 +6450,9 @@
       "topic": "LEGENDS GO ONE MORE TIME",
       "quote": "This is pretty heads up between the two of them. Yeah, we're going kind of just again going back and forth, kind of alternate. Again, these drivers, absolutely legendary status, icons of the sport, pioneers, and just have done so much for the sport. Toyota, Nissan, major manufacturers, both these guys on Kenda tires. Well, I'm really like shaped drifting today. Yeah, right. I think that needs to be Recognized that that you what you're looking at is if it wasn't for them this sport wouldn't be where it's at Absolutely slide them left for Chris Forsberg right for Ken Gucci one more time. Yeah one more time. Absolutely agree Yeah, and that was unanimous.",
       "why": "Forsberg en Gushi, twee pioniers, niet te scheiden",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-22/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,164 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-22",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chris Forsberg and Ken Gushi, two pioneers of the sport, cannot be separated. One more time, unanimous.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 5500.83
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:39:13.531411+00:00",
+   "built": "2026-11-18T22:39:13.531420+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-22/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg",
+    "Ken Gushi"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "LEGENDS GO ONE MORE TIME",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-21",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Two legends, Chris Forsberg and Ken Gushi. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 5304
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:38:07.660314+00:00",
+   "built": "2026-11-18T22:38:07.660320+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-21/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg",
+    "Ken Gushi"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "FORSBERG VS GUSHI, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-20",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rudy Hansen hits the crease, the suspension bottoms out and Trenton Beechum has nowhere to go.\n\n🎥 Footage: FD LAS VEGAS 2026\n@rudyhansen119 @trenton_beechum @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 4912.01
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:35:21.796450+00:00",
+   "built": "2026-11-18T22:35:21.796453+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-20/clip.mp4",
+   "tags": [
+    "@rudyhansen119",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "RUDY HANSEN SPINS OUT",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-19",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Trenton Beechum against Rudy Hansen. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@trenton_beechum @rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 4786
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:33:36.756231+00:00",
+   "built": "2026-11-18T22:33:36.756240+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-19/clip.mp4",
+   "tags": [
+    "@trenton_beechum",
+    "@rudyhansen119",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "BEECHUM VS HANSEN, SIDE BY SIDE",
    "photo": null
   },
   {

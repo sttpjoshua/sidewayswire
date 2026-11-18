@@ -669,10 +669,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "spelling Rudy Hansen (transcript: Hanson/Hansen)",
-  "wait_name": "v2-yt8bwn2g2ssy-19r2-48960-49250.mp4"
+  "wait_name": "v2-yt8bwn2g2ssy-19r2-48960-49250.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-19/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T22:33:36.755184+00:00"
  },
  {
   "start": 4912.01,
@@ -695,10 +700,15 @@
    "why": "uitleg van de spin"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "spelling Rudy Hansen (transcript: Hanson/Hansen)",
-  "wait_name": "v2-yt8bwn2g2ssy-20-49120-49750.mp4"
+  "wait_name": "v2-yt8bwn2g2ssy-20-49120-49750.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4923.33, \"start\": 4919.89, \"text\": \"WHAT SENT HIM AROUND?\", \"why\": \"uitleg van de spin\"}",
+  "made": "2026-11-18T22:35:21.795440+00:00"
  },
  {
   "start": 5304,
@@ -733,8 +743,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-21r2-54140-54490.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-21r2-54140-54490.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-21/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T22:38:07.659218+00:00"
  },
  {
   "start": 5500.83,
@@ -757,8 +772,13 @@
    "why": "jury beslist"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-22-55008-55430.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-22-55008-55430.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5539.19, \"start\": 5536.41, \"text\": \"LEGENDS THAT CANNOT BE SEPARATED\", \"why\": \"jury beslist\"}",
+  "made": "2026-11-18T22:39:13.530420+00:00"
  },
  {
   "start": 5623,
