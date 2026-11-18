@@ -1340,8 +1340,13 @@
    "why": "eerlijke uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-39-84034-84264.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-39-84034-84264.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-39/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8422.33, \"start\": 8419.03, \"text\": \"WILL HE GO EASY ON HIS BROTHER?\", \"why\": \"eerlijke uitspraak\"}",
+  "made": "2026-11-18T23:04:08.191413+00:00"
  },
  {
   "start": 8459.47,
@@ -1364,8 +1369,13 @@
    "why": "stoere uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt8bwn2g2ssy-40-84595-84837.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt8bwn2g2ssy-40-84595-84837.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-40/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8474.27, \"start\": 8471.37, \"text\": \"WHO CAN STOP CONOR TONIGHT?\", \"why\": \"stoere uitspraak\"}",
+  "made": "2026-11-18T23:04:52.957297+00:00"
  },
  {
   "start": 8775.5,
@@ -1400,10 +1410,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "spelling Daniel Stuckey (transcript: Stuckey/Stukie)",
-  "wait_name": "v2-yt8bwn2g2ssy-41r2-89320-89610.mp4"
+  "wait_name": "v2-yt8bwn2g2ssy-41r2-89320-89610.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-41/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-18T23:07:14.273071+00:00"
  },
  {
   "start": 9021.85,
@@ -1426,10 +1441,15 @@
    "why": "beslissing"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "spelling Daniel Stuckey (transcript: Stuckey/Stukie)",
-  "wait_name": "v2-yt8bwn2g2ssy-42-90218-90416.mp4"
+  "wait_name": "v2-yt8bwn2g2ssy-42-90218-90416.mp4",
+  "clip": "docs/media/pod-yt8bwn2g2ssy-42/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9028.05, \"start\": 9025.09, \"text\": \"WHO REACHES THE FINAL?\", \"why\": \"beslissing\"}",
+  "made": "2026-11-18T23:07:47.808911+00:00"
  },
  {
   "start": 9235.5,

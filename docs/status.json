@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:03:19.635612+00:00",
+ "updated": "2026-11-18T23:07:47.819146+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 44
+  "draft": 48
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -6688,9 +6688,9 @@
       "topic": "NO TEAM ORDERS FOR THE SHANAHANS",
       "quote": "Jack, you and your brother both going for a championship. Has there been any conversation about what would happen if you two saw each other early in battle? Not really, to be honest. There's never really been team orders. I think last weekend was the first, or two weekends ago at the Driftmasters, was the first battle that I ever didn't push to 100 % because it wasn't my championship to take. This one is my take, so he's on, you know. It's gonna be a fair game.",
       "why": "Jack: geen teamorders tegen broer Conor",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-39/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6702,9 +6702,9 @@
       "topic": "ONLY JACK CAN STOP CONOR",
       "quote": "Yeah, it's pretty incredible hearing that there's no team orders. Connor Shannon, he's been saying that you're one of the best going forward. So I think you're about to prove that, yeah? We'll see. We wanna, I think the only person that can stop him tonight is me. So I know him inside out. So we just push hard, see what happens. And if I can get that bit closer to him in the championship, I think he'll just make Long Beach 2 that even bit more exciting.",
       "why": "Jack: de enige die Conor vanavond kan stoppen ben ik",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-40/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6716,9 +6716,9 @@
       "topic": "FIELD VS STUCKEY, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-41/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -6730,9 +6730,9 @@
       "topic": "FIELD BOOKS HIS FINAL SPOT",
       "quote": "So let's see what the judges think. Slide him left for field right for Daniel Stuckey and Matt Field, the beefs in the Bay gets the victory. Unfortunately, Daniel Stuckey just outside of getting a podium, but man he did good again. His best finish to date for Daniel Stuckey and that kennet tires S15 great driving there.",
       "why": "Field wint de halve finale van Stuckey",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt8bwn2g2ssy-42/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16520,6 +16520,165 @@
    "caption_by": null,
    "format": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-42",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 9021.85
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:07:47.809813+00:00",
+   "built": "2026-11-18T23:07:47.809816+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-42/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIELD BOOKS HIS FINAL SPOT",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-41",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field against Daniel Stuckey in the final four. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 8775.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:07:14.273798+00:00",
+   "built": "2026-11-18T23:07:14.273802+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-41/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "FIELD VS STUCKEY, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-40",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan says the only person who can stop his brother Conor tonight is him.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formuladrift #drifting #jackshanahan #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 8459.47
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:04:52.958216+00:00",
+   "built": "2026-11-18T23:04:52.958220+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-40/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ONLY JACK CAN STOP CONOR",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-39",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan on facing his brother Conor: no team orders, it is a fair game.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @conorshanahan79 @formulad @driftmasters.gp\n\n#formuladrift #drifting #jackshanahan #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 8403.39
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:04:08.192330+00:00",
+   "built": "2026-11-18T23:04:08.192334+00:00",
+   "want_at": null,
+   "video": "media/pod-yt8bwn2g2ssy-39/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "NO TEAM ORDERS FOR THE SHANAHANS",
    "photo": null
   },
   {
