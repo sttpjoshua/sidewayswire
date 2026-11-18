@@ -114,7 +114,15 @@ Na het schrijven: commit en push, en start daarna de workflow `podcasts.yml` met
 3 uur op video van de Mac-helper; daarna wordt het een audiogram.
 
 
-## Livestreams (Formula DRIFT, later Drift Masters)
+## Livestreams (Formula DRIFT en Drift Masters)
+
+Joshua (18 nov 2026): podcasts staan even stil (`data/settings.json` "podcasts": false: geen nieuwe
+podcastmomenten maken). Haal juist ZO VEEL MOGELIJK uit de livestreams van heel 2026, vooral:
+1. goede kwalificatieruns (kind `qualify`): de hoogste scores en de runs waar het commentaar
+   uitflipt; één run per moment, van start tot score, `guest` = coureur, topic met de score
+   ("98 POINTS FROM DEANE"), hook op de score of de reactie;
+2. veel battles: van elke spannende battle een split-moment (zie hieronder) en de besten ook als
+   losse `battle` of `call`. Liever 30 sterke momenten per stream dan 10.
 
 Livestreams staan in `data/streams/streams.json` en (automatisch gevonden door de Mac)
 `data/streams/mac/_found.json`. Een stream is klaar voor momenten als
@@ -137,6 +145,7 @@ kunnen ver uit elkaar liggen (eerst alle eerste helften, dan de tweede). Zet `st
 één run (incomplete bij de start) is geen split.
 
 Kies zoveel mogelijk momenten, 15 tot 75 seconden, met het commentaar als leidraad:
+- `qualify`: een kwalificatierun met score
 - `battle`: een volledige battle of de beslissende run (lead en chase), `guest` = "DEANE VS SHANAHAN"
 - `crash`: contact, muur, uitvallen
 - `omt`: one more time
@@ -146,4 +155,4 @@ Kies zoveel mogelijk momenten, 15 tot 75 seconden, met het commentaar als leidra
 Begin bij het moment dat de auto's wegrijden of net voor de actie, eind na de afloop (uitslag,
 reactie van de commentatoren). Sla reclame, pauzes en herhalingen over. Topic: kort en sterk
 ("DEANE KNOCKED OUT IN TOP 16"). Kies ook hier een hook (de klap, de beslissing, de juichende
-commentator). Livestream-clips gaan altijd eerst langs Joshua.
+commentator).

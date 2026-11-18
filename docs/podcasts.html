@@ -77,7 +77,7 @@ dialog ol{padding-left:18px;line-height:1.6;font-size:14px}
 <input id="keyin" type="password" placeholder="github_pat_..."><div class="row" style="margin-top:10px"><button class="btn g" id="keysave">OPSLAAN</button><button class="btn" id="keyclear">VERWIJDEREN</button><button class="btn" onclick="keydlg.close()">SLUITEN</button></div></dialog>
 <script>
 const REPO="sttpjoshua/sidewayswire", RAW=`https://raw.githubusercontent.com/${REPO}/main/`, API=`https://api.github.com/repos/${REPO}`;
-const KIND={rumor:"GERUCHT",quote:"UITSPRAAK",fact:"WEETJE",moment:"MOMENT",battle:"BATTLE",crash:"CRASH",omt:"ONE MORE TIME",final:"FINALE",call:"JURYBESLISSING"};
+const KIND={rumor:"GERUCHT",quote:"UITSPRAAK",fact:"WEETJE",moment:"MOMENT",battle:"BATTLE",crash:"CRASH",omt:"ONE MORE TIME",final:"FINALE",call:"JURYBESLISSING",qualify:"KWALIFICATIE"};
 const ST={new:"wacht op clip",queued:"clip klaar",error:"fout",skipped:"overgeslagen"};
 const EPST={new:"wacht op transcript",transcribed:"transcript klaar",error:"fout",skipped:"niet over drift"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));

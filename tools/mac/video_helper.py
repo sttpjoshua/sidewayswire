@@ -16,6 +16,7 @@ keychain (service "sidewayswire-mac"); it is never written to a file.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -33,7 +34,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "14"
+VERSION = "15"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -401,20 +402,21 @@ def discover_streams(reg: dict, state: dict) -> list:
     """New replays on the series' YouTube channels (Top 32 / Top 16 etc.), every 6 hours.
     They go to data/streams/mac/_found.json, which only this Mac writes."""
     found = _json_or("data/streams/mac/_found.json", {"streams": []})
-    if time.time() - state.get("discovered", 0) < 6 * 3600:
+    sig = hashlib.md5(json.dumps(reg.get("channels", []), sort_keys=True).encode()).hexdigest()
+    if time.time() - state.get("discovered", 0) < 6 * 3600 and state.get("channels_sig") == sig:
         return found["streams"]
-    state["discovered"] = time.time()
+    state["discovered"], state["channels_sig"] = time.time(), sig        # changed channel list: look right away
     known = {s.get("youtube") for s in reg.get("streams", []) + found["streams"]}
     added = []
     for ch in reg.get("channels", []):
-        for line in _ytdlp_lines(["--flat-playlist", "--playlist-end", "25", "--print",
+        for line in _ytdlp_lines(["--flat-playlist", "--playlist-end", str(ch.get("limit", 25)), "--print",
                                   "%(id)s\t%(duration)s\t%(title)s\t%(release_date,upload_date)s", ch["url"]]):
             p = line.split("\t")
             if len(p) < 4 or p[0] in known:
                 continue
             dur = float(p[1]) if p[1].replace(".", "", 1).isdigit() else 0
             t, day = p[2].lower(), p[3] if p[3].isdigit() else ""
-            if dur < ch.get("min_hours", 1.5) * 3600 or not any(w in t for w in ch.get("match", [])):
+            if dur < ch.get("min_hours", 1.5) * 3600 or (ch.get("match") and not any(w in t for w in ch["match"])):
                 continue
             if any(w in t for w in ch.get("exclude", [])):
                 continue
@@ -578,6 +580,8 @@ def main():
         if mac.get("youtube") and mac.get("status") == "transcribed":
             all_eps.append({"id": st["id"], "kind": "stream", "podcast": st["series"], "title": st["title"],
                             "youtube": mac["youtube"], "seconds": mac.get("seconds")})
+    if not _json_or("data/settings.json", {}).get("podcasts", True):   # Joshua: podcasts paused, livestreams only
+        all_eps = [e for e in all_eps if e.get("kind") == "stream"]
     all_eps.sort(key=lambda e: e.get("kind") != "stream")      # livestream clips first, podcasts after
     for ep in all_eps:
         try:

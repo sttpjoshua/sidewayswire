@@ -7,7 +7,7 @@
 {# Safe zone for Reels/TikTok/Shorts: top 200 px (app header), bottom 460 px (caption, name, music)
    and right 170 px from mid-height down (like/comment/share buttons). Everything stays inside. #}
 {% set label = {'rumor': 'RUMOR', 'quote': 'THEY SAID IT', 'fact': 'DID YOU KNOW', 'moment': ('HIGHLIGHT' if stream else 'PODCAST CLIP'),
-                 'battle': 'BATTLE', 'crash': 'CRASH', 'omt': 'ONE MORE TIME', 'final': 'THE FINAL', 'call': 'JUDGES CALL'}.get(kind or 'moment', 'HIGHLIGHT') %}
+                 'battle': 'BATTLE', 'crash': 'CRASH', 'omt': 'ONE MORE TIME', 'final': 'THE FINAL', 'call': 'JUDGES CALL', 'qualify': 'QUALIFYING'}.get(kind or 'moment', 'HIGHLIGHT') %}
 {% set lbg = 'var(--pink)' if kind in ('rumor', 'crash', 'omt') else 'var(--accent)' %}
 <img class="wordmark" alt="Sideways Wire" src="{{ logo }}" style="top:215px;width:300px">
 <div class="abs badge bb" style="top:205px;background:{{ lbg }};font-size:32px;line-height:1">{% if stream %}LIVE<br>FOOTAGE{% else %}ON THE<br>POD{% endif %}</div>
