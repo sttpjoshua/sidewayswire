@@ -80,10 +80,15 @@
    "why": "Čirba op de deur"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Achternaam van rookie Lucas ('Tzemski/Zemzki') onduidelijk",
-  "wait_name": "v2-ytbnnz6o9wkaq-2-2004-2597.mp4"
+  "wait_name": "v2-ytbnnz6o9wkaq-2-2004-2597.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 255.7, \"start\": 253.18, \"text\": \"WATCH HIM CREEP UP\", \"why\": \"\\u010cirba op de deur\"}",
+  "made": "2026-11-19T06:54:32.065540+00:00"
  },
  {
   "start": 309.26,
@@ -106,10 +111,15 @@
    "why": "de reactie"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Tegenstander 'Kubezkonski/Kuba Byszcocki' (GR86); waarschijnlijk Jakub Przygoński, nakijken",
-  "wait_name": "v2-ytbnnz6o9wkaq-3-3093-3830.mp4"
+  "wait_name": "v2-ytbnnz6o9wkaq-3-3093-3830.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 382.96, \"start\": 380.98, \"text\": \"IS THIS TOO MUCH?\", \"why\": \"de reactie\"}",
+  "made": "2026-11-19T06:57:10.708804+00:00"
  },
  {
   "start": 393.5,
@@ -132,8 +142,13 @@
    "why": "bewondering commentator"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytbnnz6o9wkaq-4-3935-4368.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytbnnz6o9wkaq-4-3935-4368.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 434.06, \"start\": 430.88, \"text\": \"CAN DEANE SHAKE HIM?\", \"why\": \"bewondering commentator\"}",
+  "made": "2026-11-19T06:58:49.008394+00:00"
  },
  {
   "start": 444.9,
@@ -156,8 +171,13 @@
    "why": "spanning voor de beslissing"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytbnnz6o9wkaq-5-4449-5129.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytbnnz6o9wkaq-5-4449-5129.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 482.17, \"start\": 480.41, \"text\": \"WHO TAKES ROUND ONE?\", \"why\": \"spanning voor de beslissing\"}",
+  "made": "2026-11-19T07:01:04.785737+00:00"
  },
  {
   "start": 26.0,
