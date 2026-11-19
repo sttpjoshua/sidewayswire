@@ -1,0 +1,509 @@
+# Adam LZ: Making 900HP Actually Usable in My R32 Skyline
+
+
+[00:00] We got a little bit of everything going on in the shop today, but where we're starting is with the high horsepower,
+I think it makes 900 horsepower, R32 sedan, and if you remember the last time we drove it,
+we talked about adding traction control. And even though that sounds like something
+boomers would talk about in pretty much any high horsepower, half mile drag car,
+especially the stuff that runs on the street, you implement a traction control strategy with your
+standalone ECU. For the entirety of my existence, I've never had traction control on any car,
+
+[00:24] because you've never gone through the effort of setting it up. Now this car, what we needed,
+was first a drive shaft speed sensor that tells the ECU
+how fast the rear wheels are spinning,
+because I don't have any in the diff on this car in particular.
+But the biggest challenge was finding a wheel speed sensor for the front
+because there were no provisions and there were no rings on the knuckles that I had on this car before.
+It actually had a GK Tech angle kit.
+
+[00:45] And I kind of gave up after trying to source a set for a while
+because it only came on R34 rear wheel drive cars
+that had, I guess, some sort of ABS system that used the front wheel speed sensors
+until Prism mic came and visited,
+I saw you had an angle kit on his car,
+I said, yo, let me get your stock knuckles.
+So even though you can't see the ring,
+now we have a front wheel speed sensor,
+
+[01:05] and that in conjunction with the drive shaft speed sensor
+will allow the ECU to tell if there is a difference
+in speed between the rear wheels and the front wheels
+and apply some sort of traction control strategy.
+And the idea is you don't want to lean on it too hard,
+you want to do boost by gear, by speed,
+and all these other things,
+and then just have it as kind of like a safety
+if you hit a wet patch or something happens
+that you're not expected.
+The link ECU can do all that,
+We'll let Freddy's come by and we're about to test it
+
+[01:26] any minute.
+Yankee
+Yankee
+Yankee
+Guys, so today's video is proudly brought to you by Brooklyn Bedding.
+Now they reached out wanting to sponsor a video, but I wanted to try out their mattresses first.
+
+[01:50] And I didn't get a chance to before FD Long Beach, but this week I've been trying out my brand new
+Aurora Lux cooling mattress.
+Now silly me, I did a dumb move and I opened it up
+in the shop at first when it would've been way smarter
+to bring the box inside my house and open it there.
+I was just way too excited.
+Now personally, I'm a side sleeper
+and my previous mattress was way too firm.
+So right off the bat getting to select a soft mattress
+
+[02:10] and having the cloud pillow top,
+oh, I was lounging, it felt good.
+Now you guys hear me complain about my bad back quite often
+and between all the traveling,
+I do all the sitting down in cars,
+you can imagine sleeping can be quite tough too.
+It is very difficult for me to get comfortable and unfortunately
+I'm one of those people that doesn't function well if I don't get enough sleep
+But it needs to be quality sleep too and I can tell you this week. I felt very well rested
+
+[02:32] I'm sure you could tell by the energy in the content
+Another cool feature too is the thermo phase foam which is infused with temperature regulating material that helps absorb and releases heat to make sure
+That your body is a perfect temperature the thermostat for me always 69 the beds too hot
+I'm not sleeping right if you're not dumb like me
+They show up in a box that you can easily bring inside your house, and they also offer free shipping
+But I could do you one better. They've given me a code
+
+[02:54] You can visit Brooklyn bedding comm forward slash Adam Lz and use code Adam Lz and you'll get 30% off
+So if you guys happen to be shopping for a new mattress
+And now is the time to pull a trigger Brooklyn bedding was kind enough to reach out and wanted to support the channel and what
+We do and when you guys support the brands that support us it keeps everybody happy
+It keeps us building cool cars, and hopefully it's helping all of us sleep better at night. Thank you Brooklyn bedding
+
+[03:15] I appreciate you sponsoring this video and we're gonna get back to the builds
+You know Freddie we can do everything we want but it'll never be a 911. It's a 90s Skyler. I know
+I'm just thinking that it's a 90s Skyler. No matter what it'll never be a 911. It's a 2 wheel drive
+It's a fake GTR. It's not fake. It's faster. It's lightweight. Take the screen protector off. Yeah. Yeah
+
+[03:37] I'm excited. I'm gonna feel like I'm driving like
+You know the high horsepower GTRs and you can hear that they're making more boost in every gear and then you hear the track
+and go, yeah.
+Amateurs think that their tune is bad.
+Pros know that their tune is good.
+The first step is calibrating the wheel speed sensors.
+We've got a GPS speed out
+and we'll be able to match them all up together.
+Calibrate wheel speed.
+
+[03:58] Yup.
+Then we need to come to a stop,
+calibrate one through six gear ratios.
+Then I need to make a boost by gear table.
+Got it.
+And then the TC will come into play after that.
+I hear you in six.
+Yeah.
+Alright, go to five.
+Five.
+Four.
+
+[04:18] Four.
+Yeah, go to three.
+Three.
+Two.
+Alright, go to six.
+That didn't feel right, but go ahead.
+Second.
+Alright.
+It doesn't sound right in limiter.
+
+[04:39] It's pulling cuts back, just stand by.
+It needs it more in third.
+Third like needs it on the hit more than anything.
+Are you scrolling into second and then third?
+
+[05:04] I felt this start to work in third but I tightened it up a third gear and it ran away faster
+then it could recover it so I smacked the looker.
+One, two, three.
+
+[05:25] It's trying to pull it in but it's not.
+So in second gear we're just on the limiter with very little wheelspin
+to intervene sooner. Yeah, it didn't intervene at all
+
+[05:49] So that's the area do I just click for through the traction control
+Let it like catch the wheel speed up like you're driving a Honda.
+So like let it go through its cuts and bullsh** and then grab the next gear.
+I'm gonna try that real quick.
+Try to get whatever.
+Try leaving it on there and see what that does.
+
+[06:18] It says, good bye head gasket on my dash.
+What the f**k?
+Dude is that actually a good buyer?
+That was just like a safety.
+Well let's see how bad the coolant pressure went.
+That's the funniest warning I've ever gotten.
+It made 28 PSI coolant pressure.
+Is that alarming?
+
+[06:39] I don't know this car so I put 30 as though like, or 25ish as though like warning.
+So when you grab fourth gear that was the coolant pressure warning kicking in because
+but it's coming down so I don't think it's hurt.
+I didn't know you did that that was hilarious.
+
+[06:59] So the idea is you want it to be in traction drool but just a little bit not too much.
+You don't want it to be in it so you want to put enough boost in it to not be in TC.
+But then let's say you have a really good traction you want the extra couple PSI.
+Yeah, so you have to like find the fun balance of how much boost and how much TC?
+If you're living in TC the whole time, it's not a good day
+
+[07:19] Yeah, so I think in third we could take a little bit of boost out, but it was wrong in and out of it
+Yeah, hey Sean you wanna hear something funny. I thought we had flat shift
+I was just power shift in that box nine grand sitting on the limber three four two three
+Yeah, no, I didn't lift because I thought I had flat shift, but we didn't have it it worked though
+You knew you didn't have it.
+Yeah, well, I made it work.
+
+[07:41] All right, before we go try the car out again,
+we're gonna look at a little window behind
+what's going on in the ECU.
+So it's, I guess we'll start with the basics.
+Then we explain all the sh** we've done,
+kind of in the video.
+Yeah, I explained it.
+So this is, I imagine, one speed is the wheels
+and one speed is the front wheels.
+So you have drive shafts, DSS speed,
+and then front left speed.
+
+[08:03] And then you tell the ECU which one is driving the car
+and which one is being driven by the car.
+Yep, and that's how it knows what's doing what then you pretty much have to set a slip target
+So in second gear
+I gave you a pretty big slip window
+Because I feel like these tires you kind of want them to spin a little bit in second to heat up
+Get some traction and then we grab third they're a little more sticky
+
+[08:23] Versus living on the TC in second the whole time
+So a 20% slip would mean if the front was going 50 miles an hour
+It would allow me to go to 60 miles an hour in the rear as an example
+So my slip targets 20% you're at 17% slip you're going 77 in the rear and 66 in the front
+Got it
+So you can kind of watch these two graphs so before like as the boost is building
+
+[08:45] You're damn near one-to-one and as the turbocharger comes online you get some wheel spin
+So that's second gear, but we managed a lot of that with boost
+So we're going making 15 PSI in second gear anything more than that
+It just blows the tires off and you live on TC, but I don't want it to pull a bunch of timing and living cuts
+So we brought it pretty much to the wastegate.
+Then you grab third gear and the window gets much more tight.
+
+[09:08] So our slip target is anywhere from 7 to 8%.
+Now when you have low slip angle, I bring the window to allow slip bigger.
+That way it can try to haze if it needs to.
+And then if it senses a bunch of slip percentage coming in, then the target goes down and it
+grabs the car back.
+So it lets it kind of wheel spin a little bit if you need to.
+
+[09:30] But in third gear, I think we touched TC very very little to write down here at this
+Mm-hmm the ECU pulled back half a pound of boost took two and a half degrees of timing out and did not apply any cuts
+Pretty neat, right? So in an unexpected turn of events Freddy seems to be
+Mildly concerned that we may have indeed lifted the head a little bit. We're gonna do a poll and see if that is the case
+
+[09:51] Hey, thanks for helping me fix my AC
+Yeah, that was a waste of time
+We got it fixed. So it wasn't a waste of time
+So I guess this is one of those cool scenarios because we have the cool pressure sensor
+We'll be able to see if it is a lifted head because you'll see that go up and then it's
+Well only grab fourth and went up got it strange. No, it's not. It's an RB
+It's an Americanized RB. We could put a Jay-Z in this
+
+[10:13] Now you got to keep it true to its roots. You just need a better combo after the third head gasket
+I think about
+rolling any like or no rolling any like
+It might be the last one for a while so make it good make it make it count
+
+[10:39] I only saw 8 pounds of cool pressure.
+Yeah, why is it so low now?
+Maybe because the engine is cooler?
+That was good, I didn't lift on the shift.
+I know, I can tell.
+But I didn't really wheel spin.
+I fixed it.
+The AC fixed the cool pressure.
+It's cool having a fast rear wheel drive car and all, but I still prefer an all wheel drive
+
+[11:00] car that I can use a fast 0-60 over a rear wheel drive car that's 60-120 fast.
+It reminds me of the Super Add.
+You gotta go to go.
+But it's like, on the street it's not usable.
+Now if I could fit a 315 on the back of this thing.
+So in third it lived on TC a bit, but in fourth it barely tickled it.
+
+[11:20] So in third I'm gonna pull a little more boost now.
+I was watching the cool pressure the whole bullet it like barely moved
+This car would be cool to have a keypad and then have like a button that like allows me to choose different boost modes
+Or traction control versus no traction control
+They have the space for right here. You're like going it feels like you're like flying
+Well, I think maybe the tires get taller as they spin around. Maybe it's lifting you up
+
+[11:42] You think we're joking with is actually a thing. I'm not joking. No, no, I'm telling them. Okay. Got it
+It sounds like I'm making up and I might be I think we'll do a
+2, 3, 4
+5, 2, 3, 4
+
+[12:06] The fork had started getting away from us a little bit
+It was a no lift for a shift
+When you do that, the rear end starts to f***ing do weird s***
+Cooling pressure is good though
+Sure.
+Eight pounds of coolant pressure.
+No broken head gasket.
+Yeah, this thing, I mean part of it, we run drag radials at like what?
+
+[12:27] 18 pounds?
+So it's just squirming.
+There's no wheel spin happening there.
+Really?
+There's 3% slip.
+So not a lot.
+Not a lot.
+You gotta really hold on to this sucker.
+Second, it'll get kind of shimmy.
+Third, we have it pretty dialed.
+So you grab fourth gear here, kind of like a d*** head.
+And you caused a good bit of slip, but my error is only 5% because in fourth gear you're going so fast
+
+[12:51] I don't want much slip to happen. That makes sense. I want it to be super tight. So the low gear is it can kind of haze
+Grab some heat and then fourth gear fifth gear. It's super tight
+We know that way if it does try to wheel spin you're not crashing into a ditch makes sense
+So you grab fourth gear kind of like a d**khead you essentially clutch kicked into fourth
+It pulled back timing, pulled some boost,
+
+[13:13] and put some cup percentage in to try to grab it back down,
+which it did, because the slip went back down at two,
+three percent.
+It's pretty cool.
+I feel like this car, it needed it,
+but it didn't really need it.
+The car that needs this more than anything is a better
+Mustang.
+That thing needs a head gasket.
+Yeah, so that is also the problem.
+That's why that car hasn't been touched.
+It needs a head gasket.
+Yeah, but a lot of this is just managing the torque
+
+[13:34] by boost first.
+Got it.
+So right, well before we had 35 pounds of boost,
+and second and third, it's going to spin.
+And the TC is never gonna save it.
+It's gonna sound like it's breaking up the whole time
+because it is actually breaking up.
+So you have to first manage your torque, your boost,
+whatever you wanna call it,
+then you start applying some TC logic to save your ass
+
+[13:55] in case you hit a bump, a wet spot,
+or whatever the case may be.
+Now, I guess in the past, as this car's increased power,
+I just kept on putting more and more grip
+and more and more traction in it.
+I think I'm kinda capped out.
+I can't fit a bigger tire.
+I rub on the inside and the outside.
+Suspension-wise, I've kind of done every trick I can
+to get traction unless I did like a, what is it,
+called the drag race suspension thing, the four-lane?
+
+[14:16] Yeah, do a four-lane on it.
+How I'll never do that.
+So yeah, now traction-wise, kind of the next step.
+I just wanna be able to enjoy my car safely,
+because you never know, in Florida,
+you could've hit a wet patch.
+So here's an example of us doing a third-year pull,
+and it got 13% slip.
+The ECU is pulling boost back, it is applying a cut,
+and it is pulling a good bit of timing back,
+
+[14:37] but it's not capturing the motor
+because it simply has too much boost.
+Got it.
+So the first thing I did, I was like,
+okay, let me just drop the boost.
+So I dropped five pounds of boost out of third
+just to get it to not do that.
+It's very cool.
+So the ECU can add or it can take away boost.
+They can add it back in at a percent per second.
+How do you say it's like live?
+Yeah, it's quick.
+
+[14:58] It's very responsive.
+What is it?
+You know, like you have like a nature tank
+and it's like self-sustaining.
+Yeah.
+Yeah, it's that.
+It's like self-sustaining.
+Okay, I can add and subtract boost timing whatever it's a lot like a tank of turtles. Yeah
+All right AC test
+
+[15:33] It works
+I feel like it looks better now.
+We can turn the project each other boost up.
+Alright, I bet you have 5 pounds.
+Feels pretty good, right?
+
+[15:54] Yeah, 1 fourth.
+Once fourth hits, that's when it's like...
+That's all the boost is for the fourth.
+You feel the freight train.
+I feel like it definitely is more boost.
+It needs more?
+Yeah, I don't know why. Maybe it just has more traction now, now, and before it was a little wet.
+Is it just like dead hooks now?
+Yeah.
+Yeah, before it was a lot round here.
+
+[16:15] Yeah.
+I felt like third, it could take more second. I felt like it was on the verge of traction.
+Second, I think was spinning.
+Yeah.
+I felt it spinning.
+I can look at the log and see too.
+Hey, Freddie. So I was just looking at the log.
+in second gear it's perfect like I had the perfect amount of slip so I don't
+think you change second gear but then in third it like barely didn't spin like at
+
+[16:38] all. Fourth gear two it was a spinning so should I add two to that?
+That was fast.
+That was good.
+But it's still hooking.
+That felt faster.
+
+[17:08] I think that's pretty good.
+It like dead hooks now.
+You just gotta have that much more.
+traction now. Yeah. Alright the car's equally as monstrous as it was before but at least now
+there's a little bit more confidence going into driving it. I've realized we also didn't show some
+final shots of what the engine bay looks like. It's still not air quotes done but at least now
+
+[17:28] everything is new. Fresh powder coated, we've got that little delete panel, redid the AN lines.
+I still want to like brush some of the polished piping. JP wants to redo this so we don't need to
+have the squiggly thing but some small improvements of making the engine bay match how nice the rest
+to the car is. You guys saw the trunk, this was kind of the next step. It's hard to keep
+improving cars that are already really good, but somehow we can usually find a way. If
+
+[17:51] you guys didn't see my Instagram post, a little update on the giveaway Evo. First and foremost,
+massive thank you to all of you that entered. As I've said over and over again, you guys
+ordering from the LZMFG store, DriftHQ, SimHQ, all of those go into what makes everything
+possible here at the LZ Compound, and your support is not taken for granted. As for what
+What comes next?
+Stay on the lookout.
+
+[18:11] We have a third party company that processes all the entries and then they'll be reaching
+out to you guys because the winner needs to be confirmed that they are eligible with all
+the rules and requirements before we're able to publicly announce it, but fingers crossed
+that announcement will be happening this week and hopefully it's one of you guys.
+And if you guys saw in the last video, we did do a special farewell bundle for the E36
+with a discounted jersey, track hat, hero card bundle, but most importantly a signed
+
+[18:34] piece of the E36.
+Here's a little sample of some of the stuff I've been signing.
+I've definitely got my work cut out for me. We're like 80% sold out. We do still have some leftover
+We got taillights this one actually caught on fire brake caliper BC coilovers a lot of like bumper fender pieces
+These are probably gonna be the most common least rare, you know, it's like you're gonna pack a Pokemon cards
+This is the holographic thing right here. We cut up some wheels
+
+[18:58] We cut up some broken FDF angle kit parts even brake rotors, you name it
+I've been signing it.
+Just a cool way to kind of let the E36 live on
+in some of your guys' homes.
+I'll put a link in the description
+if you guys didn't check that out.
+And for the end of this video,
+we have a little bit of special footage
+that we filmed on a impromptu South Florida trip.
+Hope you guys enjoy it.
+
+[19:19] A little spur of the moment Miami trip.
+Went down here to pick up some parts,
+but while we were in town,
+we're actually gonna stop by.
+There's a pretty cool skate park I've never been to.
+And my buddy Alfredo Mancuso actually moved to Miami.
+I only get to see him once every couple of years.
+We're gonna ride bikes to the skate park for a little bit.
+Maybe get a couple clips before we head back up north.
+
+[19:40] Our skate park time got cut a little bit shorter than we thought.
+There's really, really, really bad traffic so we only have 45 minutes to ride.
+So it's going to be like an hour, almost an hour.
+What's up, bud?
+What up?
+Long time no see.
+Good to see you, dude.
+This is Mia.
+Hi Mia!
+
+[20:01] Her first time on a vlog.
+Oh my goodness.
+She's shy.
+I'm in his way.
+No.
+No.
+No.
+No.
+No.
+No.
+I like the little thing you got going on.
+Yeah.
+Yeah, I'm like riding in.
+I see I'm from far away going.
+
+[20:21] I thought it was going up rail.
+It was going up ledge.
+It's still pretty impressive.
+Yeah, it's still chill.
+Still start.
+Not bad.
+We got a short session, so I got a gym package.
+I got like 20, 30.
+I know.
+I know.
+I know.
+Oh.
+Oh my god.
+
+[20:44] Oh my god.
+Oh my god.
+I know the way you were adjusting.
+Give him a high five.
+Someone.
+There we go.
+Woo.
+
+[21:06] There she is.
+I don't want to get one try at this uprail.
+You want to watch Daddy?
+Here, you can sit down.
+You want to sit here? Look! Look! Oh my god, this is the coolest thing ever!
+Nope! Nope!
+I feel like I'm ready!
+Woo!
+
+[21:35] Bye! You want to give me a high five?
+High five!
+Down low!
+Oh! Oh!
+Oh, you got me!
+Good to see you.
+Let's go that way.
+Let's go that way.
+Yeah, okay.
+It's a good buy headjasket on my dash.
+
+[21:58] What the f***?
+Actually, a good buy or that was just like a safety.
+Oh, it's a bad.
