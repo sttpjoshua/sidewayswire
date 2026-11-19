@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:58:17.348352+00:00",
+ "updated": "2026-11-19T14:05:00.077122+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
@@ -1541,37 +1541,37 @@
     "title": "The Outerzone - The Official Podcast of Formula DRIFT",
     "episodes": 188,
     "error": null,
-    "ok": "2026-11-19T03:56:06.621695+00:00"
+    "ok": "2026-11-19T14:03:49.235564+00:00"
    },
    "Drift Games Podcast": {
     "title": "The Drift Games Podcast",
     "episodes": 17,
     "error": null,
-    "ok": "2026-11-19T03:56:06.675042+00:00"
+    "ok": "2026-11-19T14:03:49.332136+00:00"
    },
    "The Goodest Cast": {
     "title": "The Goodest Cast - Hangout with the Drift Community",
     "episodes": 91,
     "error": null,
-    "ok": "2026-11-19T03:56:06.845059+00:00"
+    "ok": "2026-11-19T14:03:49.925555+00:00"
    },
    "The SileightyMania Podcast": {
     "title": "The SileightyMania Podcast - Drifting Interviews with OGs and Pioneers",
     "episodes": 45,
     "error": null,
-    "ok": "2026-11-19T03:56:07.148381+00:00"
+    "ok": "2026-11-19T14:03:50.171445+00:00"
    },
    "The Creative Drive": {
     "title": "The Creative Drive",
     "episodes": 53,
     "error": null,
-    "ok": "2026-11-19T03:56:07.360523+00:00"
+    "ok": "2026-11-19T14:03:50.311295+00:00"
    },
    "Behind The Wheel": {
     "title": "Konig - Behind The Wheel Podcast",
     "episodes": 377,
     "error": null,
-    "ok": "2026-11-19T03:56:08.544260+00:00"
+    "ok": "2026-11-19T14:03:51.338712+00:00"
    }
   },
   "episodes": [
@@ -24020,7 +24020,7 @@
     "handle": "@sidewayswire",
     "url": "https://www.instagram.com/sidewayswire/",
     "connected": false,
-    "needs": "Meta-app met Instagram Business-account; IG_USER_ID en IG_TOKEN als GitHub-secret"
+    "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)"
    },
    {
     "id": "facebook",
@@ -24028,7 +24028,7 @@
     "handle": "Sideways Wire",
     "url": "",
     "connected": false,
-    "needs": "Facebook-pagina aan dezelfde Meta-app; FB_PAGE_ID en FB_PAGE_TOKEN als GitHub-secret"
+    "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)"
    },
    {
     "id": "tiktok",
@@ -24036,7 +24036,7 @@
     "handle": "@sidewayswire",
     "url": "https://www.tiktok.com/@sidewayswire",
     "connected": false,
-    "needs": "TikTok-account en de TikTok-app (Content Posting API) goedgekeurd"
+    "needs": "TikTok-ontwikkelaarsapp met Content Posting API; zonder goedkeuring (audit) alleen privé posten"
    },
    {
     "id": "youtube",
