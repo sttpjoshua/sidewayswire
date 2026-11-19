@@ -226,10 +226,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Namen nakijken",
-  "wait_name": "v2-ythcpensbcsdc-6r2-1910-2181.mp4"
+  "wait_name": "v2-ythcpensbcsdc-6r2-1910-2181.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-6/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T12:50:09.641101+00:00"
  },
  {
   "start": 232.0,
@@ -264,10 +269,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Naam Habali nakijken",
-  "wait_name": "v2-ythcpensbcsdc-7r2-2595-2853.mp4"
+  "wait_name": "v2-ythcpensbcsdc-7r2-2595-2853.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-7/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T12:52:12.554808+00:00"
  },
  {
   "start": 305.0,
@@ -302,9 +312,14 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Voornaam Keskikorpi nakijken",
-  "wait_name": "v2-ythcpensbcsdc-8r2-3325-3543.mp4"
+  "wait_name": "v2-ythcpensbcsdc-8r2-3325-3543.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-8/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T12:54:05.597562+00:00"
  }
 ]

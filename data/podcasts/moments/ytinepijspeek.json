@@ -19,8 +19,13 @@
    "why": "emotionele uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-0-5715-6155.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-0-5715-6155.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 592.76, \"start\": 589.26, \"text\": \"WHY HE CHOSE A LIFE SIDEWAYS\", \"why\": \"emotionele uitspraak\"}",
+  "made": "2026-11-19T12:55:34.688514+00:00"
  },
  {
   "start": 2137.08,

@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T12:48:02.415796+00:00",
+ "updated": "2026-11-19T12:55:34.712909+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 112
+  "draft": 116
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4455,9 +4455,9 @@
       "topic": "TUERCK'S LAST FD ROUND",
       "quote": "The driver who has made waves over 23 years of competing, the Rockstar Energy Drink driver, it is Ryan Turk. Yeah! What drew me to drifting is really just the recklessness of the sport, I guess, and being able to control something that is basically out of control. You know, I've been doing drifting for so long. I've been chasing it for 20 years. And I just feel like I've given everything that I can give the sport and I don't think I can do much more",
       "why": "Ryan Tuerck over zijn afscheid na 20 jaar drift",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10338,9 +10338,9 @@
       "topic": "KANDRASENKA VS HEINONEN SPLIT",
       "quote": "",
       "why": "Beide runs naast elkaar, Heinonen verliest vermogen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-6/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -10352,9 +10352,9 @@
       "topic": "MCKEEVER VS HABALI SPLIT",
       "quote": "",
       "why": "Beide runs naast elkaar in top 16",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-7/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -10366,9 +10366,9 @@
       "topic": "KESKIKORPI VS DEANE SPLIT",
       "quote": "",
       "why": "Strijd om P3 naast elkaar",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-8/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      }
@@ -20751,6 +20751,164 @@
    "photo": null
   },
   {
+   "id": "pod-ytinepijspeek-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck on why he fell for drifting, and why Long Beach is his last full Formula DRIFT round.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryantuerck @formulad\n\n#ryantuerck #formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 571.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:55:34.689792+00:00",
+   "built": "2026-11-19T12:55:34.689798+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-0/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TUERCK'S LAST FD ROUND",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side in the battle for third: Keskikorpi vs James Deane.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 305.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:54:05.598714+00:00",
+   "built": "2026-11-19T12:54:05.598719+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-8/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Keskikorpi"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "KESKIKORPI VS DEANE SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side: Duane McKeever and Nasser Habali in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 232.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:52:12.555956+00:00",
+   "built": "2026-11-19T12:52:12.555961+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-7/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Duane McKeever",
+    "Nasser Habali"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "MCKEEVER VS HABALI SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side: Lauri Heinonen and Raman Kandrasenka in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 166.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:50:09.642235+00:00",
+   "built": "2026-11-19T12:50:09.642241+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-6/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Raman Kandrasenka",
+    "Lauri Heinonen"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "KANDRASENKA VS HEINONEN SPLIT",
+   "photo": null
+  },
+  {
    "id": "pod-ythcpensbcsdc-5",
    "kind": "stream_clip",
    "status": "draft",
@@ -23878,165 +24036,6 @@
    "caption_by": null,
    "format": "single",
    "title": "SHANAHAN ON SHANAHAN CRIME",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-20",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chris Forsberg pulls away, Jack Shanahan tries to grind the tire on his door, and Jack takes the win.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1338.67
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:47:15.847859+00:00",
-   "built": "2026-11-19T07:47:15.847865+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-20/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Chris Forsberg"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "JACK GRINDS ON FORSBERG",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-19",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Adam LZ is back in business, but Conor Shanahan drives like nobody told him he is leading the championship.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @adam_lz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1199.55
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:45:32.503019+00:00",
-   "built": "2026-11-19T07:45:32.503025+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-19/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@adam_lz",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "PRESSURE DOESN'T GET TO HIM",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-18",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Las Vegas local Brandon Sorensen times the transition perfectly against Cole Richards.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@colerichardz @formulad @mattfield777\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1160.21
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:43:11.069174+00:00",
-   "built": "2026-11-19T07:43:11.069181+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-18/clip.mp4",
-   "tags": [
-    "@colerichardz",
-    "@formulad",
-    "@mattfield777"
-   ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SORENSEN PERFECTLY TIMED",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-17",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Twin Corvettes, America versus Canada. Matt Field takes it unanimously over Tommy Lemaire.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@mattfield777 @tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1119.65
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:41:41.305529+00:00",
-   "built": "2026-11-19T07:41:41.305534+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-17/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@tommy.lemaire",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "TWIN CORVETTES",
    "photo": null
   }
  ],
