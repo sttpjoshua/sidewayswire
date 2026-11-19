@@ -25,6 +25,8 @@ jobs:
         run: python -m lc.podclips
       - name: Short versions for TikTok and Shorts
         run: python -m lc.shorts 200 || true
+      - name: Light previews for the dashboard (phone)
+        run: python -m lc.previews 300 || true
       - name: Save
         run: python -m lc.planner && python -m lc.mediastore sync && python -m lc.status && python -m lc.gitsave "clips $(date -u +%FT%TZ)" data/podcasts queue docs/media docs/status.json
       - name: Build and plan the new clips (Plaatsen)

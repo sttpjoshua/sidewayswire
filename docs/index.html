@@ -446,7 +446,7 @@ function drawReview(){
     const m=p.video?[p.video]:(p.media||[]), v=isVid(m[0]||"");
     const ep=p.id.startsWith("pod-")?p.id.split("-")[1]:null;
     return head+`<div class="rc ${needsCheck(p)?"chk":""}" id="r-${p.id}" data-id="${p.id}">
-      <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?lazyVid(m[0]+ver(p),p.thumb):`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
+      <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?lazyVid(p.preview||(m[0]+ver(p)),p.thumb):`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
         ${m.length>1?`<div class="nav"><button data-a="prev">‹</button><span class="tag" style="margin:4px 0">1/${m.length}</span><button data-a="next">›</button></div>`:""}</div>
       <div>
         <div class="row">${catTag(p)}${cat(p)==="posts"?`<span class="tag">${KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
@@ -509,7 +509,7 @@ function drawClips(){
   const left=busy&&pn.eta!=null?Math.max(1,Math.round((pn.eta-(Date.now()-new Date(pn.updated))/1000)/60)):null;
   gal.innerHTML=(busy?`<div class="banner" style="grid-column:1/-1;margin:0;border-color:var(--accent)"><b>Bezig met clips maken: ${pn.done+1} van ${pn.total}</b>${pn.remake?` (waarvan ${pn.remake} opnieuw in de nieuwe opmaak)`:""}${left?` · nog ongeveer ${left} min`:""}<br>Nu: ${esc(pn.podcast||"")} · ${esc(pn.topic||pn.title||"")}. Elke paar clips verschijnen hier de nieuwe versies.<div class="pbar" style="height:8px;background:#2c2c30;margin-top:8px"><i style="display:block;height:100%;background:var(--accent);width:${Math.round(100*pn.done/pn.total)}%"></i></div></div>`
       :making?`<div class="empty" style="grid-column:1/-1">${making} clip${making>1?"s":""} wacht op video of op de volgende run. Bekijk het in de <a href="podcasts.html">podcaststudio</a>.</div>`:"")+
-    C.filter(F[clipFilter]).slice(0,clipLimit).map(p=>`<div class="gc">${lazyVid(p.video+ver(p),p.thumb)}
+    C.filter(F[clipFilter]).slice(0,clipLimit).map(p=>`<div class="gc">${lazyVid(p.preview||(p.video+ver(p)),p.thumb)}
       <div>${stTag(p)}${p.post_at&&p.status==="ready"?`<span class="muted">${when(p.post_at)}</span>`:""}<br><b>${title(p)}</b><div class="cap">${esc(p.caption||"")}</div>
       <div class="row" style="margin-top:8px">${["check","draft"].includes(p.status)?`<a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a>`:""}</div></div></div>`).join("")+(C.filter(F[clipFilter]).length>clipLimit?`<button class="btn" data-more="clips" style="grid-column:1/-1">MEER LADEN</button>`:"")||(making?"":`<div class="empty">Nog geen clips.</div>`);
 }
@@ -580,7 +580,7 @@ plan.onclick=e=>{
   const ev=e.target.closest(".ev[data-id]");if(!ev)return;const p=posts().find(x=>x.id===ev.dataset.id);if(!p)return;
   const u=med(p),t=p.posted_at||p.post_at||p.want_at;
   const md=document.createElement("div");md.className="calm";
-  md.innerHTML=`<div class="box"><div>${u?(isVid(u)?`<video src="${esc(u)+ver(p)}" controls playsinline></video>`:`<img src="${esc(u)}">`):`<div class="empty">Nog geen beeld</div>`}</div>
+  md.innerHTML=`<div class="box"><div>${u?(isVid(u)?`<video src="${esc(p.preview||(u+ver(p)))}" controls playsinline></video>${p.preview?`<a class="muted" href="${esc(u)}" target="_blank" style="display:block;margin-top:6px">volledige kwaliteit</a>`:""}`:`<img src="${esc(u)}">`):`<div class="empty">Nog geen beeld</div>`}</div>
     <div><div class="row">${catTag(p)}${stTag(p)}</div><h2 style="margin:8px 0">${title(p)}</h2>
     <div class="muted">${p.score!=null?`Score ${p.score} van 100 · `:""}${p.short?`korte versie ${p.short_len||""} s voor TikTok en YouTube`:p.short_none?"geen korte versie nodig":""}</div>
     <div class="pt">${Object.keys(RHYTHM).map(k=>{const r=(p.results||{})[k],tt=(p.plan||{})[k];return `<div><i class="pl pl-${k}">${PLAT[k]}</i> ${r?"geplaatst":tt?when(tt):k==="instagram"&&p.score!=null?"niet op Instagram (score te laag of jouw keuze)":(p.status==="ready"?"voorraad":"–")}</div>`}).join("")}</div>

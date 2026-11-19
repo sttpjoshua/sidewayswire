@@ -1,0 +1,20 @@
+# Light 360p previews of the clips on the Pages site of sttpjoshua/sidewayswire-media (see lc/previews.py).
+name: previews
+on: { workflow_dispatch: {} }
+concurrency: { group: clips, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  previews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      GH_TOKEN: ${{ github.token }}
+      MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests && sudo apt-get install -y -qq ffmpeg
+      - run: python -m lc.previews 700
+      - run: python -m lc.status && python -m lc.gitsave "previews $(date -u +%FT%TZ)" queue docs/status.json

@@ -19,5 +19,7 @@ jobs:
       - run: pip install requests && sudo apt-get install -y -qq ffmpeg
       - name: Make short versions
         run: python -m lc.shorts 600
+      - name: Light previews for the dashboard (phone)
+        run: python -m lc.previews 300 || true
       - name: Plan, move media, save
         run: python -m lc.planner && python -m lc.mediastore sync && python -m lc.status && python -m lc.gitsave "korte versies $(date -u +%FT%TZ)" queue docs/media docs/status.json
