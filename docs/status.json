@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T16:03:46.514640+00:00",
+ "updated": "2026-11-19T16:10:09.363067+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 168
+  "draft": 172
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4105,9 +4105,9 @@
       "topic": "IRISH ONE TWO THREE",
       "quote": "And last but definitely not least, again with that victory, it came down to that who was going to finish second and third in the championship. It was two points between the drivers. And now with this win, he slides into second overall the championship, but it's an all Irish one, two, and three overall. And it's Irish one and two. Your winner at round eight, Shoreline Showdown, the final round of the 2026 season, is your five time formative champion in the Ford Mustang RTR Nitto tires. James the Machine, Dean wins the Shoreline Showdown. under the lights in Long Beach. Congratulations to James, Jack, and Adam LZ, our podium.",
       "why": "Deane wint, Iers 1-2-3 in het kampioenschap",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-20/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4119,9 +4119,9 @@
       "topic": "DEANE: AMAZING WEEKEND FOR IRELAND",
       "quote": "Man, I tell you, they don't come easy, and especially with the driving level today in Formula Drift, it's unbelievable. And I feel like it's just been an amazing weekend for drifting in Ireland, you know, to have myself and Jack in the final, Connor winning his first championship in FD, and the three of us, one, two, three in the championship. It's just unbelievable. And really happy to get this win. It means a real lot to my heart, having my parents here, my sisters here, the whole RTR team. and this car, the Ford Racing Mustang or two or O 'Reilly pins did not give us one issue no matter how hard we drove it. And I'm just pumped. It's amazing. It's always going to be a fun battle with Jack. I knew that, you know, expect anything and we just tried our best and yeah, I perfect way to end the season. You could pilot any vehicle. I could throw you until a little tiny tight car and you would have that thing drifting this entire trip. Yeah, Drew, it might not fit. We'll have to fab it, but it's OK.",
       "why": "Deane over de Ierse 1-2-3 en zijn familie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-21/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4133,9 +4133,9 @@
       "topic": "JACK: I HAD IT UNTIL I DIDN'T",
       "quote": "Yeah, no, for sure. Like, to be honest, I feel like I had in bed until I didn't, you know. So at least that, you know, now I was very, very happy up until the moment of disaster, like today was good. I was to be honest, I feel completely zoned out. I honestly felt like I was just in a flow state. and everything was just happening around me and to be that comfortable in the car is I'm very proud of that you know what I mean like we're driving at the highest level and to be that relaxed and then to get to battle your friends in the final is absolutely unbelievable so yeah I know like we were after creating history this year with a one two three podium in an event and now we've done one two three the championship like I think I don't know it's a moment of history and who knows we could recreate it again next year but for now we're after rewriting history and I'm very, very glad to be back to that.",
       "why": "Jack eerlijk over zijn spin en flow state",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-22/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4147,9 +4147,9 @@
       "topic": "LZ STEPS AWAY FROM FD",
       "quote": "How are you feeling going into your off -season now? What are you planning? This is a little bittersweet for me. So earlier this year, I made the decision that I won't be competing next year in Formula Drift. And we've had a rough season, and it's been my goal to announce this on the podium. So like I felt so much pressure here because I was like I gotta I gotta do it, right? So yeah, it's it's nothing bad. It's not forever. I'll be coming back at some point but Yeah, I just I wanted this so bad and you know It's not first but I'm really proud to be standing here to get some results for all the fans for my partners Like it's been a rough year, but I'm really happy to be standing here Well, I feel incredibly honored to be one of the first people to receive this information at least publicly I want to thank you so much for everything that you've done for the sport the eyes and the attention and the fans Love you. We've loved having you out here. Thank you so much. I'm sad to see you go, but love to watch you leave You know, I'll be back. I love it here. It's it's a blast. I love driving. I love competing It's just right now. There's some stuff in my life That's a little more important to me and like I want a championship and I got to be fully dedicated to that and I got some Other stuff I got to focus on first what a guy I think it takes a lot of dedication and and and commitment to the sport to know when it's time to step back and then Come back full force",
       "why": "Adam LZ kondigt op het podium aan dat hij volgend jaar niet rijdt",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-23/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,163 @@
    "photo": null
   },
   {
+   "id": "pod-ytlgdw88ygzo4-23",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ uses the podium to announce he will not compete in Formula DRIFT next year. Not forever, he says.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@adam_lz @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1637.92
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:10:09.345868+00:00",
+   "built": "2026-11-19T16:10:09.345875+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-23/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LZ STEPS AWAY FROM FD",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-22",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan on the final: he had it in the bag until he did not, but he was in a total flow state all day.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1581.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:08:09.576035+00:00",
+   "built": "2026-11-19T16:08:09.576042+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-22/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK: I HAD IT UNTIL I DIDN'T",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-21",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane on an amazing weekend for Ireland: himself and Jack in the final, Conor champion, one two three.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jamesdeane130 @jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1511.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:06:52.645973+00:00",
+   "built": "2026-11-19T16:06:52.645979+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-21/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE: AMAZING WEEKEND FOR IRELAND",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-20",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane wins the Shoreline Showdown and it is an all Irish one, two, three in the 2026 championship.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jamesdeane130 @jackshanahan59 @adam_lz @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1449.54
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:05:13.607538+00:00",
+   "built": "2026-11-19T16:05:13.607543+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-20/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@adam_lz",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "IRISH ONE TWO THREE",
+   "photo": null
+  },
+  {
    "id": "pod-ytlgdw88ygzo4-19",
    "kind": "stream_clip",
    "status": "draft",
@@ -23839,162 +23996,6 @@
    "caption_by": null,
    "format": "single",
    "title": "LIKE A BALLERINA",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-25",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane pushes Rome Charpentier around and a body panel comes off in his face.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@romecp @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1859.68
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:56:17.388869+00:00",
-   "built": "2026-11-19T11:56:17.388875+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-25/clip.mp4",
-   "tags": [
-    "@romecp",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "BODY PANEL IN THE FACE",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-24",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ryan Tuerck executes flawlessly, and the news comes in from the pits: handbrake issues, little brake pressure.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@ryantuerck @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1775.28
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:54:43.479496+00:00",
-   "built": "2026-11-19T11:54:43.479502+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-24/clip.mp4",
-   "tags": [
-    "@ryantuerck",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DEANE BATTLING BRAKE ISSUES",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-23",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Godzilla vs King Kong. James Deane's Mustang against Federico Sceriffo's Ferrari.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @federicosceriffo17 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1665.1
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:53:14.998921+00:00",
-   "built": "2026-11-19T11:53:14.998926+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-23/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@federicosceriffo17",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "GODZILLA VS KING KONG",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-22",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane completely 90 degrees, one wheel almost off. How did that RTR not spin out?\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@adam_lz @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1616.52
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:51:33.650695+00:00",
-   "built": "2026-11-19T11:51:33.650701+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-22/clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "90 DEGREES AND STILL ON",
    "photo": null
   }
  ],
