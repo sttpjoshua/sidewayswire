@@ -135,7 +135,7 @@
    "url": "https://www.youtube.com/@tjhunt_/videos",
    "series": "TJ Hunt",
    "creator": "TJ Hunt",
-   "credit": "",
+   "credit": "@tjhunt_",
    "kind": "vlog",
    "match": [],
    "exclude": [
@@ -198,7 +198,7 @@
    "url": "https://www.youtube.com/@JimmyOakes/videos",
    "series": "Jimmy Oakes",
    "creator": "Jimmy Oakes",
-   "credit": "",
+   "credit": "@jimmyoakes",
    "kind": "vlog",
    "match": [],
    "exclude": [
@@ -277,6 +277,27 @@
    "max_hours": 1.5,
    "limit": 12,
    "permission": "ja, via DM aan Joshua (19 nov 2026)"
+  },
+  {
+   "url": "https://www.youtube.com/@candymachine3431/videos",
+   "series": "Piotr Więcek",
+   "creator": "Piotr Więcek",
+   "credit": "",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026); kanaal bevestigd door Joshua"
   }
  ]
 }
