@@ -544,8 +544,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-18-10039-10593.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-18-10039-10593.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1047.44, \"start\": 1043.54, \"text\": \"WHO WINS IN SEATTLE?\", \"why\": \"winnaar\"}",
+  "made": "2026-11-19T08:28:20.830647+00:00"
  },
  {
   "start": 408.0,
@@ -580,8 +585,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-19r2-4440-4689.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-19r2-4440-4689.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-19/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T08:30:50.500818+00:00"
  },
  {
   "start": 610.6,
@@ -616,8 +626,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-20r2-6435-6756.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-20r2-6435-6756.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-20/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T08:33:18.018187+00:00"
  },
  {
   "start": 764.2,
@@ -652,8 +667,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-21r2-8000-8255.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-21r2-8000-8255.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-21/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T08:34:19.212407+00:00"
  },
  {
   "start": 834.0,
