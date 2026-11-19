@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T13:52:42.774674+00:00",
+ "updated": "2026-11-19T13:58:17.348352+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 144
+  "draft": 148
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -10097,9 +10097,9 @@
       "topic": "MARINATED LIKE A BRISKET",
       "quote": "And here comes JJ coming in. Ooh, wow. OK, Christian throws it in there, has to back off a little bit, still holds that proximity. Here goes Jerry Johnson. Now coming past that inside clip. Jerry deeper than Christian. You can see that as Christian has to back off. He fades in the smoke, marinates it like a brisket. Now up high on the bank there goes Christian. And you can see Jerry bringing it on in.",
       "why": "Jerry Johnson dieper dan zijn tegenstander, tik op de neus",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytjrjhgpxtn6i-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10111,9 +10111,9 @@
       "topic": "TLASKA GRASPING AT STRAWS",
       "quote": "Yes, chassis to Alaska again, the winner in Atlanta. A lot of pressure on him. A lot of high hopes for this driver as booth drops in big angle pulling away from Alaska. He's looking like he's scrambling. He's grasping at straws here as this is consistent. Look at that. Just good transitioning. I mean, again, he's working with Cody Fox. She's the field suspension on the corners and on the doors as he brings it all the way home. Sean, very points leader to Alaska, could jump up quite a bit. He's sitting back there in fourth. He needs this win. He's going for a prospect championship.",
       "why": "Atlanta-winnaar Tlaska komt niet bij de leider",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytjrjhgpxtn6i-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10125,9 +10125,9 @@
       "topic": "BROTHER VS SISTER",
       "quote": "Cameron Sorensen will lead Amanda Sorensen, the big cyst. And I know they've won a new battle before, and Cameron really wants to take out his cyst. I remember a couple years ago, the interview, just want to battle my cyst and take her out. So again, this is like they're in their backyard having some fun with some side -by -sides, but no dirt, just ripping up some GT radial tires. Cameron Sorensen out in front of Amanda Sorensen. Look at that. You know, she's just looking at the white and the black just all over. Oh, and a sorens and a big correction there. Oh, she straightens out. Oh, man, a man of sorens in straightens out across the cheese position.",
       "why": "Broer tegen zus: Cameron wil zijn zus eruit halen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytjrjhgpxtn6i-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10139,9 +10139,9 @@
       "topic": "14 YEARS OLD AND UNSHAKEN",
       "quote": "Cameron Sorensen. He wants to get back on the box. And this a must win if either one of these gentlemen want a podium. That's that slickness we were talking about making history as Formula Drift is here at I. R. P. In the Raceway Park. Round three of the Lincoln Management ProSpec Championship. 14 years young, Cameron Sorensen, the Optin Batteries BMW initiates South African driver nonstop tuning Mustang in the chase position down low on angles. Jason Webb, Cameron maxing out the angle. Lots of smoke coming out the car. We got good conditions now, but again, coming to the outside zone seven, you got a tip toe. Oh no! As Wap really pushed it and Cameron still did it! Yes sir! Cameron, what a G! He took that on the chin!",
       "why": "Webb duwt hard, de 14-jarige Cameron houdt het vast",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytjrjhgpxtn6i-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      }
@@ -20751,6 +20751,165 @@
    "photo": null
   },
   {
+   "id": "pod-ytjrjhgpxtn6i-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jason Webb pushes hard and 14 year old Cameron Sorensen takes it on the chin and keeps it together. Podium on the line.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@webbdrift45 @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Indianapolis 2026 Highlights | Presented by Type S Auto",
+    "start": 474.32
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:58:17.325978+00:00",
+   "built": "2026-11-19T13:58:17.325984+00:00",
+   "want_at": null,
+   "video": "media/pod-ytjrjhgpxtn6i-4/clip.mp4",
+   "tags": [
+    "@webbdrift45",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Cameron Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "14 YEARS OLD AND UNSHAKEN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytjrjhgpxtn6i-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Cameron Sorensen leads his sister Amanda in a backyard battle at Indianapolis. He has wanted this one for years.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@amanda.sorensen12 @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Indianapolis 2026 Highlights | Presented by Type S Auto",
+    "start": 366.74
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:56:31.784173+00:00",
+   "built": "2026-11-19T13:56:31.784178+00:00",
+   "want_at": null,
+   "video": "media/pod-ytjrjhgpxtn6i-3/clip.mp4",
+   "tags": [
+    "@amanda.sorensen12",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Cameron Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "BROTHER VS SISTER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytjrjhgpxtn6i-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The Atlanta winner Corey Tlaska is under pressure as the lead car pulls away with big angle.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@_seanbooth @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Indianapolis 2026 Highlights | Presented by Type S Auto",
+    "start": 305.92
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:55:10.073215+00:00",
+   "built": "2026-11-19T13:55:10.073222+00:00",
+   "want_at": null,
+   "video": "media/pod-ytjrjhgpxtn6i-2/clip.mp4",
+   "tags": [
+    "@_seanbooth",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Corey Tlaska"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "TLASKA GRASPING AT STRAWS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytjrjhgpxtn6i-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jerry Johnson goes deeper while his opponent fades into the smoke and marinates in it like a brisket.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Indianapolis 2026 Highlights | Presented by Type S Auto",
+    "start": 276.96
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:53:55.161001+00:00",
+   "built": "2026-11-19T13:53:55.161007+00:00",
+   "want_at": null,
+   "video": "media/pod-ytjrjhgpxtn6i-1/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jerry Johnson"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "MARINATED LIKE A BRISKET",
+   "photo": null
+  },
+  {
    "id": "pod-ytjrjhgpxtn6i-0",
    "kind": "stream_clip",
    "status": "draft",
@@ -23849,162 +24008,6 @@
    "caption_by": null,
    "format": "single",
    "title": "SINKING IN THE SWORD",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-1",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Trenton Beechum dives in, then James Deane chases him down and gets right into the pocket. Hard to beat.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @trenton_beechum @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 79.3
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:42:56.054788+00:00",
-   "built": "2026-11-19T08:42:56.054795+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-1/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@trenton_beechum",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DEANE TAKES A DIFFERENT APPROACH",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-0",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The first battle of James Deane's 2025 season and there is contact behind Ryan Litteral. Very unlike the Machine.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@ryanlitteral @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 12.58
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:40:34.044945+00:00",
-   "built": "2026-11-19T08:40:34.044952+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-0/clip.mp4",
-   "tags": [
-    "@ryanlitteral",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "CONTACT IN DEANE'S FIRST BATTLE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytfwp7cvnodei-1",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "First time at the National Stadium, a hooked up track, and then a small touch nobody saw coming.\n\n🎥 Footage: INSIDE RED BULL DRIFT MASTERS 2026 GRAND\n@driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "Inside Red Bull Drift Masters 2026 Grand Finale 🔥",
-    "start": 26.96
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:39:03.189986+00:00",
-   "built": "2026-11-19T08:39:03.189992+00:00",
-   "want_at": null,
-   "video": "media/pod-ytfwp7cvnodei-1/clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Kevin Pozsar"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SMALL TOUCH IN WARSAW",
-   "photo": null
-  },
-  {
-   "id": "pod-ytfwp7cvnodei-0",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ten years of hard work, one night in Warsaw. Paweł Korpuliński is the 2026 Drift Masters champion.\n\n🎥 Footage: INSIDE RED BULL DRIFT MASTERS 2026 GRAND\n@driftmasters.gp\n\n#driftmasters #drifting #poland #champion #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "Inside Red Bull Drift Masters 2026 Grand Finale 🔥",
-    "start": 491.78
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:37:11.647243+00:00",
-   "built": "2026-11-19T08:37:11.647250+00:00",
-   "want_at": null,
-   "video": "media/pod-ytfwp7cvnodei-0/clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Paweł Korpuliński"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "KORPULINSKI IS CHAMPION",
    "photo": null
   }
  ],
