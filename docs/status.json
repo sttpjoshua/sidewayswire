@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T08:08:09.302359+00:00",
+ "updated": "2026-11-19T08:14:32.318654+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 44
+  "draft": 48
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -9764,9 +9764,9 @@
       "topic": "JACK SHANAHAN GETS HIS BREAKOUT",
       "quote": "Having a year of initiating at that 3 -2 -1 cone. They need to initiate before that one cone, and Nate does that. So pretty comparable to what we saw there, but Jack does not take that angle out. He does mimic the line. Nate puts it right in that second outside zone. Jack comes and pokes through that smoke, giving himself a little bit of room there. Want to get that overhead view. Again, this is just a smash with that FPV and then Aaron Jesse with that long lens. That was nice. I like that. I like how he dropped in formation. Gave him a hand side. And let's take a look. These are the results. There they are. Jack Shanahan, Nate Chen. Looks like Jack Shanahan gets one vote. Jack Shanahan gets two votes. And it's unanimous. Jack Shanahan gets the victory.",
       "why": "Jack Shanahan wint unaniem van Nate Chen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-6/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9778,9 +9778,9 @@
       "topic": "ODI CALLS A TIMEOUT",
       "quote": "That field suspension, Subaru BRZ, a new vehicle for him. Looks like he's been driving for multiple years. This is the freshman season with that vehicle. Rudy Hansen's seen a lot of track time, a lot of battles. But look at that. He keeps pace with Odie Bauch. She's now transitions into the outside zone three. Odie puts a back end. Rudy just a little short of that outside zone. Into the last outside zone, Odie dialed it in. Like I said, he's a dangerous man. Odie Odie is just so smooth right now. He is just again that beautiful I mean he's there the entire way through and has had no issues and we're oh We're hearing a five -minute time out here for Odie. That is a very uncharacteried man. Love those guys.",
       "why": "Odi zo smooth, en dan toch een time-out",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-7/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9792,9 +9792,9 @@
       "topic": "STRAIGHT INTO THE SIDE",
       "quote": "So Cody what thorough and Cody be dealing Hughes Chasing him down. Let's see what's Duke you can do as you said Might want to consider BMW. We'll see his tune might change after Going against Dylan Hughes so Dylan and see him giving him some distance here And the car is definitely tuned up dialed in again Dylan even the chase position has such good prowess right now with that vehicle Let's do key Stookie over cooks it a little Dylan Hughes that was a straight line into the side what happened there? Oh man. I mean he came out of outside zone two, came through the smoke and he just was beelining. That was a straight approach to the side of that BMW of Stuckey.",
       "why": "Hughes komt uit de rook en knalt recht in de zijkant",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-8/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9806,9 +9806,9 @@
       "topic": "FIELD KNOCKS OUT DEANE",
       "quote": "And James is just going to be trying Try to be right in that pocket. Don't exceed. You want to get back there and just absolutely mimic that initiation and does just that. So watch. There he goes. He's navigating that thing back. So not as close as Matt was to James. And here we are. We're splitting hairs right out of the gate because we know what's at stake here. Coming down to outside zone two. A little tapping and the brakes. And James Dean in outside zone three. Did he time that properly? We'll see again. Odie Box. She's going. James with the transition. He just jarted there right to the side. Part stop 16, slide him left for James right for Matt Field. Matt Field gets one vote. Matt Field takes down James the machine dean.",
       "why": "Omstreden: Field wint van Deane in top 16",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-9/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,161 @@
    "photo": null
   },
   {
+   "id": "pod-ytckqkb2axqe-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Splitting hairs from the start, a little tap of the brakes, and Matt Field takes down James Deane in top 16.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #seattle #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 438.58
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:14:32.298606+00:00",
+   "built": "2026-11-19T08:14:32.298612+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-9/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIELD KNOCKS OUT DEANE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dylan Hughes comes through the smoke and beelines straight into the side of the BMW.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@dylanhughes129 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 353.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:13:05.499426+00:00",
+   "built": "2026-11-19T08:13:05.499433+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-8/clip.mp4",
+   "tags": [
+    "@dylanhughes129",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "STRAIGHT INTO THE SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Odi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 283.64
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:11:24.519609+00:00",
+   "built": "2026-11-19T08:11:24.519615+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-7/clip.mp4",
+   "tags": [
+    "@odidrift",
+    "@rudyhansen119",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ODI CALLS A TIMEOUT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan pokes through the smoke and drops into formation on Nate Chen. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @nathaniel.chen @formulad\n\n#formulad #formuladrift #drifting #seattle #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 240.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:09:49.159094+00:00",
+   "built": "2026-11-19T08:09:49.159100+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-6/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@nathaniel.chen",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK SHANAHAN GETS HIS BREAKOUT",
+   "photo": null
+  },
+  {
    "id": "pod-ytckqkb2axqe-5",
    "kind": "stream_clip",
    "status": "draft",
@@ -23924,172 +24079,6 @@
    "caption_by": null,
    "format": "single",
    "title": "PALMER'S NEW CAREER PLAN?",
-   "photo": null
-  },
-  {
-   "id": "pod-5687ca1c5a65-9",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane on watching Conor Shanahan go from a nine-year-old who couldn't pull the handbrake to Formula DRIFT champion.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #JamesDeane #ConorShanahan #sidewayswire",
-   "media": [
-    "media/pod-5687ca1c5a65-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "LB2 Pro Podium",
-    "start": 848.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:57:25.781454+00:00",
-   "built": "2026-11-17T18:53:11.827897+00:00",
-   "want_at": null,
-   "video": "media/pod-5687ca1c5a65-9/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "JAMES DEANE ON 9-YEAR-OLD CONOR",
-   "photo": null
-  },
-  {
-   "id": "pod-441d4b7291ad-3",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Two or three laps and the tires were gone. Spare Pro tires suddenly looked very tempting in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #FDLV #sidewayswire",
-   "media": [
-    "media/pod-441d4b7291ad-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Prospec Podium",
-    "start": 191.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:41:24.747405+00:00",
-   "built": "2026-11-17T18:53:11.827642+00:00",
-   "want_at": null,
-   "video": "media/pod-441d4b7291ad-3/clip.mp4",
-   "tags": [
-    "@braden.lons",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "THREE LAPS PER TIRE",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-23",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Interclip records Matt Field's team comms, and Christian Cotrone says the spotter can be brutal. It works for them.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Spotter #Drifting #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-23/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 5078.79
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:32:02.488297+00:00",
-   "built": "2026-11-17T18:53:11.815857+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-23/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "INSIDE MATT FIELD'S COMMS",
-   "photo": null
-  },
-  {
-   "id": "pod-fd2026r8-15",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire vs rookie of the year Cole Richards in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 8941
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:42:47.205156+00:00",
-   "built": "2026-11-17T18:09:52.917124+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-15/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "LEMAIRE VS RICHARDS",
    "photo": null
   }
  ],

@@ -192,8 +192,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-6-2407-2795.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-6-2407-2795.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 276.98, \"start\": 275.34, \"text\": \"DOES JACK GET HIS BREAKOUT?\", \"why\": \"uitslag\"}",
+  "made": "2026-11-19T08:09:49.157704+00:00"
  },
  {
   "start": 283.64,
@@ -216,8 +221,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-7-2836-3231.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-7-2836-3231.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 319.94, \"start\": 317.24, \"text\": \"WHY DID HE STOP?\", \"why\": \"onverwachte time-out\"}",
+  "made": "2026-11-19T08:11:24.518221+00:00"
  },
  {
   "start": 353.66,
@@ -241,8 +251,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-8-3537-3971.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-8-3537-3971.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 383.36, \"start\": 379.6, \"text\": \"WHAT HAPPENED IN THE SMOKE?\", \"why\": \"de klap\"}",
+  "made": "2026-11-19T08:13:05.498053+00:00"
  },
  {
   "start": 438.58,
@@ -265,8 +280,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-9-4386-4761.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-9-4386-4761.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 476.06, \"start\": 473.12, \"text\": \"DID THE MACHINE JUST LOSE?\", \"why\": \"de uitslag\"}",
+  "made": "2026-11-19T08:14:32.297197+00:00"
  },
  {
   "start": 482.8,
