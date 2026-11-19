@@ -133,8 +133,13 @@
    "why": "de wending in de run"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-4-33633-34138.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-4-33633-34138.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3389.92, \"start\": 3387.16, \"text\": \"THE PRECISION PLAN LASTS TEN SECONDS\", \"why\": \"de wending in de run\"}",
+  "made": "2026-11-19T12:57:34.392260+00:00"
  },
  {
   "start": 5163.28,
@@ -156,8 +161,13 @@
    "why": "commentaar verwacht topscore"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-5-51633-52367.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-5-51633-52367.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5198.66, \"start\": 5195.16, \"text\": \"ONE OF THE RUNS OF THE NIGHT?\", \"why\": \"commentaar verwacht topscore\"}",
+  "made": "2026-11-19T13:00:14.521663+00:00"
  },
  {
   "start": 5812.54,
@@ -179,8 +189,13 @@
    "why": "commentator onder de indruk"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-6-58125-58687.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-6-58125-58687.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5828.96, \"start\": 5825.66, \"text\": \"THE BOOTH CALLS THIS ONE ABSURD\", \"why\": \"commentator onder de indruk\"}",
+  "made": "2026-11-19T13:02:16.597405+00:00"
  },
  {
   "start": 6059.4,
@@ -202,8 +217,13 @@
    "why": "enthousiaste commentator"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-7-60594-61208.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-7-60594-61208.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6082.62, \"start\": 6079.52, \"text\": \"51 DEGREES OF AVERAGE ANGLE\", \"why\": \"enthousiaste commentator\"}",
+  "made": "2026-11-19T13:04:29.360376+00:00"
  },
  {
   "start": 6257.04,

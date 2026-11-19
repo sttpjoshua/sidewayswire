@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T12:55:34.712909+00:00",
+ "updated": "2026-11-19T13:04:29.386121+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 116
+  "draft": 120
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4511,9 +4511,9 @@
       "topic": "HANSEN LOOPS IT IN ZONE SIX",
       "quote": "All right, pulling up to the line after this. Looks like it is Rudy Hansen. Rudy Hansen on the start line. And Jacob, I know you always talk about it. One of the quickest cars in formative competition. But we'll see how quick he is. He's going to take that approach, or he's going to kind of go more precision, as we've seen a lot of drivers do. Looks like he's going for that more precision, more placement of the vehicle. But just like I say that, he grabs another gear, goes for it, into those outside zones, watches transition into outside zone six, stands on the throttle, and over cooks it. Rudy Hansen will get an incomplete on his first qualifying run. Fortunately, he does have a shot in his second qualifying run, but that will be an incomplete, unfortunately for Hanson. Wow.",
       "why": "Hansen spint in zone zes, incomplete",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4525,9 +4525,9 @@
       "topic": "80.90 FROM HUGHES",
       "quote": "Yeah, we had a I think I called it the sugar -free era for a while where we had a bunch of white liveries all come At the same time Dylan often to wait a little bit wait till it comes back in a fashion looks really good here through That zone too. I think that is a part so many drivers have struggled with this weekend thus far But look at that 4 .5 Zone one's been a tough one for a lot of drivers too But I think Dylan able to attack the track really early is gonna be a massive benefit for him The way he sinks that car in through six gets back on throttle looks really smooth lots of angle through seven I mean as a whole this is gonna be up there with with our better runs for the weekend 35 and a 40 on angled 33 .9 at a 40 when it comes to mind So already looking quite good for him. We'll see what the judges think I mean not a lot of corrections. I can see it being a really good style score Coming out of this run for him What's going to be interesting is the way he's getting the car to transition right now. It seems like through a few of the spots, he'll throw a left foot brake to get the front end loaded up and rotate around. That's going to be really fun to chase when it comes to the top 32 tomorrow. All right. There it is. 80 .90. Yeah. And look at that. 35, 33. They're liking the driving style.",
       "why": "Witte BMW van Hughes, sterke eerste run",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-5/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4539,9 +4539,9 @@
       "topic": "87.93 FROM JACK SHANAHAN",
       "quote": "You might be looking at your top qualifier going so far. I mean, there's still the big swingers really to come. I mean, Jack is one of those big swingers, but your top three coming up after him. But from first glance, this looks absolutely absurd. Maybe you can pick up a few more points on the angle, but Other than that, I have a feeling the judges are going to be happy with the style side of it. It's aggressive. He's on throttle. He's not making a lot of corrections. He's pushing the pace of everything. I mean, it's what you need for a high level qualifying run. Very systematic, but it still had that great hit. But look at that. 37 .8 out of line. So again, wanted to get that telemetry. So a really great score. Can we take down or can Jack take down He is currently your number one qualifier, Jack Shanahan with 87 .93. Jumps to the number one spot, Jack Shanahan.",
       "why": "Jack Shanahan pakt nummer een met 87.93",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-6/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4553,9 +4553,9 @@
       "topic": "90.40 FROM DEANE",
       "quote": "He wants to get that car to drive out of it. He doesn't want to sit at angle for too long. He knows he's got to push to get the car out. This is a driver really knows how to pilot this vehicle. He knows all of its strengths, all of its weaknesses, and he's fighting for both of it. Angle -wise, this might be one of your top driver's angle. He's got this car almost on lock in the entire run. This is up there, 51 degrees. That is up there. That is massive. That is a big, big run. 36, 37. Do the math. I mean. And Jack's going to be a little bit concerned. Jack needs that top spot to be in title contention. James Dean does not. But as we know, there's a bunch of drivers not here, a bunch of drivers sitting on zeros. Got two fives, zone five and zone seven fully. All right, so did Jack Shanahan get knocked out? He knocked out TLO. And now James the machine Dean, what's he get? 90 .40, 17 out of 20 on style and rightfully so.",
       "why": "Deane met 51 graden gemiddeld, 90.40",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-7/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,159 @@
    "photo": null
   },
   {
+   "id": "pod-ytinepijspeek-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane holds the Mustang almost on full lock: 51 degrees average and a 90.40 on run one.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jamesdeane130 @formulad @jackshanahan59\n\n#jamesdeane #formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 6059.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:04:29.361739+00:00",
+   "built": "2026-11-19T13:04:29.361745+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-7/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad",
+    "@jackshanahan59"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "90.40 FROM DEANE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Aggressive, on throttle, barely a correction. Jack Shanahan jumps to the top with 87.93.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @formulad\n\n#jackshanahan #formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 5812.54
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:02:16.598807+00:00",
+   "built": "2026-11-19T13:02:16.598813+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-6/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "87.93 FROM JACK SHANAHAN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dylan Hughes attacks the early zones in the white BMW and lands an 80.90 on run one.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@dylanhughes129 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 5163.28
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:00:14.523105+00:00",
+   "built": "2026-11-19T13:00:14.523112+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-5/clip.mp4",
+   "tags": [
+    "@dylanhughes129",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "80.90 FROM HUGHES",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rudy Hansen grabs another gear, overcooks zone six and takes an incomplete on qualifying run one.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 3363.26
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:57:34.393587+00:00",
+   "built": "2026-11-19T12:57:34.393593+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-4/clip.mp4",
+   "tags": [
+    "@rudyhansen119",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HANSEN LOOPS IT IN ZONE SIX",
+   "photo": null
+  },
+  {
    "id": "pod-ytinepijspeek-0",
    "kind": "stream_clip",
    "status": "draft",
@@ -23878,164 +24031,6 @@
    "caption_by": null,
    "format": "split",
    "title": "LAS VEGAS FINAL",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-24",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1387.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:56:15.300415+00:00",
-   "built": "2026-11-19T07:56:15.300421+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-24/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "SHANAHAN BROTHERS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-23",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Conor Shanahan wins in Sin City. Three wins in 2026 and a 47 point lead going into Long Beach.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @mattfield777 @jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1681.15
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:53:11.794827+00:00",
-   "built": "2026-11-19T07:53:11.794834+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-23/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@mattfield777",
-    "@jackshanahan59",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "47 POINT LEAD FOR SHANAHAN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-22",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Final in Las Vegas. Matt Field leads, Conor Shanahan chases, and it was closer than it first looked.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@mattfield777 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1509.35
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:50:53.864355+00:00",
-   "built": "2026-11-19T07:50:53.864361+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-22/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "HOW DID FIELD SEE THROUGH THAT?",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-21",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The Shanahan boys are here. Conor takes down big brother Jack and goes to the final.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1424.17
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:48:48.194856+00:00",
-   "built": "2026-11-19T07:48:48.194862+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-21/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "SHANAHAN ON SHANAHAN CRIME",
    "photo": null
   }
  ],
