@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T15:37:46.603998+00:00",
+ "updated": "2026-11-19T15:45:38.340928+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 152
+  "draft": 156
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -3881,9 +3881,9 @@
       "topic": "SULLY BUMPS, ROME SPINS",
       "quote": "just like these two BMWs, RCP, Rome, sharp and tear, Connor O 'Sullivan. Let's see what they got for us. RCP way more calculated. So, again, look at O 'Souley, though. Just slid right in, good coasting, and just set sail here on the waterfront. Justin Smash with the angle there. and I mean, ooh, oh, oh, Sully, what the... Oh, Sully with the bump, Rome spinning out. This is where that Dcell map comes in and where you need to be on throttle. That's, to me, that's the big part here is, was Rome, should Rome have been back on throttle? And if he was, if there's a Dcell there... Data. Yeah. Then it's on, oh, Sully, if there wasn't a Dcell there, then it's on Rome. That's really what it comes down to.",
       "why": "O'Sullivan raakt Rome, wie is schuldig: decel of throttle?",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3895,9 +3895,9 @@
       "topic": "ONE MORE TIME FOR VAUGHN",
       "quote": "So here we go. Dylan Hughes leads the two time champ. He's back in the conversation. And he slides to the side of the BMW. Look at Dylan Hughes pulling away from that RTR Mustang into the outside zone on the wall. Dylan Hughes now transitioned through the power alley. Vaughn just surging back and forth, giving him Maybe too much line to run with. Again, consider Von Goet Jr. Two -time chip. This is only his second form of the round this year. As Dylan X Army, look at the precision Dylan Hughes has. He placed the car so properly. We've already had two, but Von Goet Jr. gets one. One more time, and this battle.",
       "why": "Dylan Hughes en Vaughn, one more time",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-5/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3909,9 +3909,9 @@
       "topic": "TUERCK'S LAST BATTLE",
       "quote": "Ryan Turk, that Rain -X Toyota GR Corolla. Initiates into zone one and two. Masayama tucking in nicely. As Ryan Turk transitions, good transition. Masayama comes up a bit short. Turk, great angle. I mean, look at that. Minimal corrections, if at all, from those front wheels in the outside zone six. Let's see how he handles that inside clip. Transitions nicely in that last outside zone. Masayama comes up shallow but now digs deep in the outside zone. But Turk really well done in that lead run. Now again the judges had a moment. Our entering top 32. Waturo Masayama, Ryan Turk. Masayama gets one vote and two votes. Masayama gets the win. Ryan Drift competition. Masayama stepping out of the car.",
       "why": "Ryan Tuerck verliest zijn laatste battle ooit",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-6/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3923,9 +3923,9 @@
       "topic": "THANK YOU, RYAN TUERCK",
       "quote": "I'm sure we'll still celebrate him in the driver introduction of the top 16, but as far as competition goes, it stops here for Ryan Turk. Ryan Turk, the rock star energy drink driver, drifter, ripper and gripper. Lip rear die is the motto of his home state and that's how he's lived. It's on his chest, it's on his brothers, it's on his dad's. And that is the motto of his state and the motto in his heart. Father, husband and friend to many, inspiration for a lot of automotive enthusiasts, not just a drifter, but just an absolute gentleman of a human being. Thank you, Ryan Turd, for all that you've done and doing. It's not goodbye, it's see you later. Goodness had it better, man. Goodness had it better. Just tough to see him go, but yeah, excited to see where he goes.",
       "why": "Afscheid van Ryan Tuerck in Long Beach",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-7/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,163 @@
    "photo": null
   },
   {
+   "id": "pod-ytlgdw88ygzo4-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "It stops here for Ryan Tuerck. Father, husband, friend to many, and an absolute gentleman of a human being.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@ryantuerck @formulad\n\n#formulad #formuladrift #drifting #longbeach #ryantuerck #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 444.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:45:38.321974+00:00",
+   "built": "2026-11-19T15:45:38.321979+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-7/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THANK YOU, RYAN TUERCK",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck puts down a great lead run in the final battle of his career, but the judges go Wataru Masuyama.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@ryantuerck @watarudrift @formulad\n\n#formulad #formuladrift #drifting #longbeach #ryantuerck #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 328.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:43:35.194479+00:00",
+   "built": "2026-11-19T15:43:35.194485+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-6/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@watarudrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TUERCK'S LAST BATTLE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dylan Hughes leads the two time champ and pulls away. One more time against Vaughn Gittin Jr.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@dylanhughes129 @vaughngittinjr @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 284.94
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:42:07.040500+00:00",
+   "built": "2026-11-19T15:42:07.040506+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-5/clip.mp4",
+   "tags": [
+    "@dylanhughes129",
+    "@vaughngittinjr",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ONE MORE TIME FOR VAUGHN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor O'Sullivan bumps Rome Charpentier into a spin. Was there a decel, or should Rome have been on throttle?\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@romecp @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 229.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:40:46.914850+00:00",
+   "built": "2026-11-19T15:40:46.914856+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-4/clip.mp4",
+   "tags": [
+    "@romecp",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Conor O'Sullivan",
+    "Connor O'Sullivan"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SULLY BUMPS, ROME SPINS",
+   "photo": null
+  },
+  {
    "id": "pod-ytlgdw88ygzo4-3",
    "kind": "stream_clip",
    "status": "draft",
@@ -23844,164 +24001,6 @@
    "caption_by": null,
    "format": "single",
    "title": "TWO MORE TIMES",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-9",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "These two have history from Orlando. In the one more time Jonathan Castro spins and comes to a halt.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 681.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:57:18.157934+00:00",
-   "built": "2026-11-19T08:57:18.157941+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-9/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Jonathan Castro"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "CASTRO SPINS IN THE OMT",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-8",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane gets aggressive and bashes the door of Jonathan Castro. They force a one more time.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 637.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:55:30.827138+00:00",
-   "built": "2026-11-19T08:55:30.827146+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-8/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Jonathan Castro"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "DEANE BASHES THE DOOR",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-7",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field has the clean air in the rain and James Deane gives himself too much of a buffer.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 553.74
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:53:50.066620+00:00",
-   "built": "2026-11-19T08:53:50.066626+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-7/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FIELD REELS HIM IN",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-6",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "He is from Ireland, a very wet country. James Deane is showboating in the rain against Jeff Jones.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jeffjonesracing @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 424.58
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:52:20.940428+00:00",
-   "built": "2026-11-19T08:52:20.940433+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-6/clip.mp4",
-   "tags": [
-    "@jeffjonesracing",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "SHOWBOATING IN THE WET",
    "photo": null
   }
  ],
