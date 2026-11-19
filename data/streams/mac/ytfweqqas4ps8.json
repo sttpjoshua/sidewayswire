@@ -1,7 +1,10 @@
 {
  "youtube": "FWEQqas4Ps8",
- "status": "transcribing",
+ "status": "error",
  "note": "video vastgelegd in het register",
  "seconds": 1493.0,
- "found_title": "T-Pain Gives Hert A Mustang We Built!!"
+ "found_title": "T-Pain Gives Hert A Mustang We Built!!",
+ "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+ "at": 1795120748.008982,
+ "version": "16"
 }
