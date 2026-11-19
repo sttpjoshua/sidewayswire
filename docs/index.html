@@ -46,8 +46,8 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .h b{display:block;font-size:14px}.h span{color:var(--mute)}
 .two{display:grid;grid-template-columns:1.4fr 1fr;gap:24px}
 .list{display:flex;flex-direction:column;gap:8px}
-.li{background:var(--card);display:grid;grid-template-columns:62px 1fr auto;gap:12px;align-items:center;padding:8px;text-decoration:none}
-.li .th{width:62px;aspect-ratio:9/16;background:#111 center/cover;position:relative;overflow:hidden}.li .th video,.li .th img{width:100%;height:100%;object-fit:cover}
+.li{background:var(--card);display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:12px;align-items:center;padding:6px 8px;text-decoration:none}
+.li .th{width:44px;aspect-ratio:9/16;background:#111 center/cover;position:relative;overflow:hidden}.li .th video,.li .th img{width:100%;height:100%;object-fit:cover}
 .li b{font-size:14px;display:block;line-height:1.3}.li small{color:var(--mute);font-size:12px}
 .check{display:flex;flex-direction:column;gap:6px}.check div{background:var(--card);padding:9px 12px;font-size:13px;display:flex;gap:10px;align-items:center}
 .check i{width:18px;height:18px;border:2px solid var(--mute);display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:12px;flex:none}
@@ -55,6 +55,18 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
 .filters button{background:var(--card);color:#fff;border:2px solid #333;padding:7px 12px;font:800 12px Inter;letter-spacing:1px;cursor:pointer}
 .filters button.on{background:var(--accent);color:#111;border-color:var(--accent)}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:-6px 0 18px;border-bottom:2px solid #2c2c30}
+.tabs a{padding:9px 14px;font-weight:800;font-size:12px;letter-spacing:1px;color:var(--mute);text-decoration:none;border-bottom:3px solid transparent;margin-bottom:-2px}
+.tabs a.on{color:#fff;border-color:var(--accent)}.tabs a .cnt{background:var(--pink);color:#111;border-radius:10px;padding:0 6px;font-size:10px;margin-left:4px}
+.pill{font-weight:800;font-size:12px;letter-spacing:1px;padding:7px 12px;text-decoration:none}.pill.ok{background:var(--accent);color:#111}.pill.bad{background:var(--pink);color:#111}
+.kpi .d{color:var(--mute);font-size:12px;margin-top:4px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px;margin-top:16px}
+.chart{background:var(--card);padding:14px 16px}.chart h3{font-size:20px;margin-bottom:10px}
+.bar{display:grid;grid-template-columns:150px 1fr 44px;gap:8px;align-items:center;font-size:12px;margin:5px 0}
+.bar span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#ddd}.bar i{display:block;height:12px;background:var(--accent)}.bar b{text-align:right;font-weight:800}
+.cols{display:flex;align-items:flex-end;gap:4px;height:120px;margin-top:6px}.cols div{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:3px;height:100%}
+.cols i{display:block;width:100%;background:var(--accent)}.cols small{font-size:9px;color:var(--mute)}
+.empty2{background:var(--card);padding:18px;color:var(--mute);font-size:14px;line-height:1.6}
 /* review cards */
 .rev{display:flex;flex-direction:column;gap:18px}
 .rc{background:var(--card);display:grid;grid-template-columns:300px 1fr;gap:20px;padding:16px;border-left:6px solid var(--accent)}
@@ -127,37 +139,41 @@ section{display:none}section.on{display:block}
 <div class="app">
 <nav class="side" id="nav">
   <img src="assets/woordmerk_kleur.svg" alt="Sideways Wire">
-  <a href="#overzicht" data-s="overzicht">OVERZICHT</a>
-  <a href="#beoordelen" data-s="beoordelen">BEOORDELEN <span class="cnt" id="c-rev"></span></a>
-  <a href="#planning" data-s="planning">PLANNING</a>
-  <div class="grp">REELS</div>
-  <a href="#clips/pod" data-s="clips" data-c="pod">PODCASTCLIPS <span class="cnt" id="c-pod"></span></a>
-  <a href="#clips/live" data-s="clips" data-c="live">LIVESTREAM <span class="cnt" id="c-live"></span></a>
-  <a href="#clips/battle" data-s="clips" data-c="battle">BATTLES <span class="cnt" id="c-battle"></span></a>
-  <a href="#clips/vlog" data-s="clips" data-c="vlog">VLOGS <span class="cnt" id="c-vlog"></span></a>
-  <div class="grp">POSTS</div>
-  <a href="#posts" data-s="posts">CARROUSELS <span class="cnt" id="c-posts"></span></a>
-  <a href="#nieuws" data-s="nieuws">NIEUWSBRONNEN</a>
-  <div class="grp">SYSTEEM</div>
-  <a href="podcasts.html">STUDIO ↗</a>
-  <a href="#kanalen" data-s="kanalen">KANALEN</a>
-  <a href="#bronnen" data-s="bronnen">BRONNEN</a>
-  <a href="#" id="keybtn">SLEUTEL</a>
+  <a href="#overzicht" data-s="overzicht" data-n="vandaag">VANDAAG</a>
+  <a href="#beoordelen" data-s="beoordelen" data-n="beoordelen">BEOORDELEN <span class="cnt" id="c-rev"></span></a>
+  <a href="#planning" data-s="planning" data-n="kalender">KALENDER</a>
+  <a href="#clips/live" data-s="clips" data-n="bieb">BIBLIOTHEEK</a>
+  <a href="#stats" data-s="stats" data-n="stats">STATISTIEKEN</a>
+  <a href="#kanalen" data-s="kanalen" data-n="inst">INSTELLINGEN</a>
   <div class="live" id="live"></div>
   <div class="foot" id="foot">laden...</div>
 </nav>
 <main>
 <section id="s-overzicht">
-  <h1>OVERZICHT</h1><div class="sub" id="ov-sub"></div>
+  <div class="row" style="justify-content:space-between"><h1>VANDAAG</h1><a href="#systeem" id="ov-health" class="pill"></a></div>
+  <div class="sub" id="ov-sub"></div>
   <div id="ov-mode"></div>
   <div class="kpis" id="kpis"></div>
-  <h2>SYSTEEM</h2><div class="health" id="health"></div>
-  <h2>PROCESSEN <small>laatste run per proces · rood = mislukt</small></h2><div class="health" id="runs"></div>
   <div class="two">
+    <div><h2>KOMENDE 48 UUR <small><a href="#planning">kalender</a></small></h2><div class="list" id="ov-next"></div></div>
     <div><h2>WACHT OP JOU <small><a href="#beoordelen">alles bekijken</a></small></h2><div class="list" id="ov-wait"></div>
-         <h2>VOLGENDE POSTS <small><a href="#planning">planning</a></small></h2><div class="list" id="ov-next"></div></div>
-    <div><h2>NAAR LIVEGANG</h2><div class="check" id="setup"></div></div>
+         <h2>NAAR LIVEGANG</h2><div class="check" id="setup"></div></div>
   </div>
+</section>
+
+<section id="s-stats">
+  <h1>STATISTIEKEN</h1><div class="sub" id="st-sub"></div>
+  <h2>BEREIK EN GROEI</h2><div id="st-reach"></div>
+  <h2>CONTENT</h2><div class="kpis" id="st-kpis"></div>
+  <div class="grid2" id="st-content"></div>
+</section>
+
+<section id="s-systeem">
+  <div class="tabs" data-tabs="inst"></div>
+  <h1>SYSTEEM</h1><div class="sub">Alles wat op de achtergrond draait. Je hoeft hier alleen te kijken als bovenaan iets roze staat.</div>
+  <h2>ONDERDELEN</h2><div class="health" id="health"></div>
+  <h2>PROCESSEN <small>laatste run per proces · rood = mislukt</small></h2><div class="health" id="runs"></div>
+  <h2>NU EN STRAKS</h2><div class="health" id="sys-live"></div>
 </section>
 
 <section id="s-beoordelen">
@@ -167,12 +183,14 @@ section{display:none}section.on{display:block}
 </section>
 
 <section id="s-clips">
+  <div class="tabs" data-tabs="bieb"></div>
   <h1 id="clip-h">REELS</h1><div class="sub" id="clip-sub"></div>
   <div class="filters" id="clip-f"></div>
   <div class="gal" id="gal"></div>
 </section>
 
 <section id="s-posts">
+  <div class="tabs" data-tabs="bieb"></div>
   <h1>CARROUSELS EN POSTS</h1><div class="sub">Alle posts met beeld (nieuws, uitslagen, standen, seizoensoverzichten). Klik op een post om hem te beoordelen.</div>
   <div class="banner" id="post-ed" style="border-color:#4aa8ff"></div>
   <div class="filters" id="post-f"></div>
@@ -186,18 +204,21 @@ section{display:none}section.on{display:block}
 </section>
 
 <section id="s-nieuws">
+  <div class="tabs" data-tabs="bieb"></div>
   <h1>NIEUWS</h1><div class="sub" id="news-sub"></div>
   <div class="filters" id="news-f"></div>
   <div id="inbox"></div>
 </section>
 
 <section id="s-kanalen">
+  <div class="tabs" data-tabs="inst"></div>
   <h1>KANALEN</h1><div class="sub">Waar Sideways Wire op post, en wat er nog nodig is.</div>
   <div class="row" style="margin-top:16px;gap:10px"><button class="btn" id="testconn" onclick="testConn()">KOPPELING TESTEN</button><span class="sub" id="testconn-msg" style="margin:0">Controleert Instagram en Facebook met de Meta-sleutel. Er wordt niets geplaatst.</span></div>
   <div class="ch" id="channels" style="margin-top:20px"></div>
 </section>
 
 <section id="s-bronnen">
+  <div class="tabs" data-tabs="inst"></div>
   <h1>BRONNEN</h1><div class="sub" id="src-sub"></div>
   <div class="src" id="sources" style="margin-top:18px"></div>
 </section>
@@ -231,7 +252,7 @@ const cls=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]/g,"");
 let key=null;try{key=localStorage.getItem("sw_gh_key")}catch(e){}
 const toastEl=document.getElementById("toast");
 function toast(m,err){toastEl.textContent=m;toastEl.className=err?"err":"";toastEl.style.display="block";clearTimeout(toast.t);toast.t=setTimeout(()=>toastEl.style.display="none",5000)}
-keybtn.onclick=e=>{e.preventDefault();keyin.value=key||"";keydlg.showModal()};
+document.addEventListener("click",e=>{if(e.target.closest("[data-key]")){e.preventDefault();keyin.value=key||"";keydlg.showModal()}});
 keysave.onclick=()=>{key=keyin.value.trim()||null;try{key?localStorage.setItem("sw_gh_key",key):localStorage.removeItem("sw_gh_key")}catch(e){};keydlg.close();toast(key?"Sleutel opgeslagen in deze browser":"Geen sleutel")};
 keyclear.onclick=()=>{key=null;try{localStorage.removeItem("sw_gh_key")}catch(e){};keyin.value="";toast("Sleutel verwijderd")};
 async function gh(path,opt={}){
@@ -315,7 +336,8 @@ const ver=p=>"?v="+encodeURIComponent(p.built||p.created||"");
 // Lists show a small still from the site (fast); the video itself only loads in the detail view.
 function thumb(p){const u=med(p);if(!u)return"";if(p.thumb)return `<img src="${esc(p.thumb)}" loading="lazy">`;return isVid(u)?`<div class="vph">▶</div>`:`<img src="${esc(u)}" loading="lazy">`}
 function title(p){const t=p.title?esc(p.title):esc((p.caption||"").split("\n")[0].slice(0,90));
-  return p.source?`${t}<span class="muted" style="font-family:Inter;font-size:13px;letter-spacing:0;display:block">${esc(p.source.podcast||"")}${p.source.episode?" · "+esc(p.source.episode):""}</span>`:t}
+  const ep=p.source&&p.source.episode?String(p.source.episode).replace(/\s*\|.*$/,"").replace(/^(Formula DRIFT|OFFICIAL HIGHLIGHTS)\s*/i,""):"";
+  return p.source&&p.source.podcast?`${t}<span class="muted" style="font-family:Inter;font-size:12px;letter-spacing:0;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(p.source.podcast)}${ep?" · "+esc(ep.slice(0,48)):""}</span>`:t}
 const needsCheck=p=>p.status==="check"||(p.status==="draft"&&p.check);
 function stTag(p){if(needsCheck(p))return `<span class="tag p">CHECK NODIG</span>`;const c={draft:"",approved:"g",ready:"g",posted:"o",skipped:"d"}[p.status]??"";return `<span class="tag ${c}">${esc(ST[p.status]||p.status).toUpperCase()}</span>`}
 function li(p,extra){return `<a class="li" href="#beoordelen/${p.id}"><div class="th">${thumb(p)}</div><div><b>${title(p)}</b><small><span class="tag">${KIND[p.kind]||esc(p.kind)}</span>${extra||""}</small></div><div>${stTag(p)}</div></a>`}
@@ -329,8 +351,14 @@ function drawOverview(){
   document.getElementById("c-rev").textContent=rev.length||"";
   document.getElementById("ov-sub").textContent=`Bijgewerkt ${ago(S.updated)} · nieuws verzameld ${ago(S.collected)}`;
   document.getElementById("ov-mode").innerHTML=ch.live?"":`<div class="banner"><b>Testmodus.</b> Er wordt nog niets echt geplaatst: de kanalen zijn nog niet gekoppeld. Alles wat je goedkeurt, wordt wel ingepland, zodat je ziet hoe het straks loopt.</div>`;
-  const k=[["WACHT OP JOU",rev.length,"#beoordelen","p"],["INGEPLAND (7 D)",planned.length,"#planning"],["GEPLAATST (7 D)",posted.length,"#planning"],["CLIPS",clips.length,"#clips"],["NIEUWS (24 U)",news24,"#nieuws"]];
-  kpis.innerHTML=k.map(([l,n,h,c])=>`<a class="kpi ${c||""}" href="${h}"><div class="n">${n}</div><small>${l}</small></a>`).join("");
+  const why={};rev.forEach(p=>{const r=(p.check_reason||"").replace(/:.*/,"")||"overig";why[r]=(why[r]||0)+1});
+  const stock=P.filter(p=>p.status==="ready"),last=P.flatMap(p=>Object.values(p.plan||{})).sort().pop();
+  const ch2=(ch.channels||[]).filter(x=>x.id!=="telegram"),con=ch2.filter(x=>x.connected).length;
+  const k=[["WACHT OP JOU",rev.length,"#beoordelen","p",Object.entries(why).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([r,n])=>`${n} ${r}`).join(" · ")],
+    ["VOORRAAD",stock.length,"#planning","",last?`gepland t/m ${new Date(last).toLocaleDateString("nl-NL",{day:"numeric",month:"short"})} · ${stock.filter(p=>!p.post_at).length} op voorraad`:""],
+    ["KANALEN",`${con}/${ch2.length}`,"#kanalen",con<ch2.length?"p":"",con<ch2.length?ch2.filter(x=>!x.connected).map(x=>x.name).join(", ")+" nog koppelen":"alles gekoppeld"],
+    ["GEPLAATST (7 D)",posted.length,"#stats","",`${news24} nieuwsverhalen binnen (24 u)`]];
+  kpis.innerHTML=k.map(([l,n,h,c,d])=>`<a class="kpi ${c||""}" href="${h}"><div class="n">${n}</div><small>${l}</small>${d?`<div class="d">${esc(d)}</div>`:""}</a>`).join("");
   // health
   const H=[];
   const c=S.collected?(now-new Date(S.collected))/6e4:1e9;
@@ -347,11 +375,60 @@ function drawOverview(){
   H.push([tg&&tg.connected?"":"x","Telegram-controle",tg&&tg.connected?"gekoppeld":"nog niet gekoppeld; beoordelen kan hier"]);
   const on=(ch.channels||[]).filter(x=>x.id!=="telegram"&&x.connected).length, all=(ch.channels||[]).filter(x=>x.id!=="telegram").length;
   H.push([ch.live&&on?"":"x","Plaatsen",ch.live?`live op ${on} van ${all} kanalen`:`testmodus · ${on} van ${all} kanalen gekoppeld`]);
+  const bad=H.filter(x=>x[0]==="r"||x[0]==="w"),pill=document.getElementById("ov-health");
+  if(pill){pill.className="pill "+(bad.length?"bad":"ok");pill.textContent=bad.length?`${bad.length} AANDACHTSPUNT${bad.length>1?"EN":""}: ${bad.map(x=>x[1].toUpperCase()).join(", ")}`:"✓ ALLES DRAAIT"}
   health.innerHTML=H.map(([d,t,s])=>`<div class="h"><div class="dot ${d}"></div><div><b>${t}</b><span>${s}</span></div></div>`).join("");
-  document.getElementById("ov-wait").innerHTML=rev.slice(0,5).map(p=>li(p,p.check_reason?esc(p.check_reason):"")).join("")||`<div class="empty">Niets. Alles is beoordeeld.</div>`;
-  const next=P.filter(p=>p.status==="ready"&&p.post_at).sort((a,b)=>new Date(a.post_at)-new Date(b.post_at)).slice(0,6);
-  document.getElementById("ov-next").innerHTML=next.map(p=>li(p,when(p.post_at))).join("")||`<div class="empty">Nog niets ingepland.</div>`;
+  document.getElementById("ov-wait").innerHTML=rev.slice(0,4).map(p=>li(p,p.check_reason?esc(p.check_reason):"")).join("")||`<div class="empty">Niets. Alles is beoordeeld.</div>`;
+  const from=Math.max(now,new Date("2026-12-01T00:00:00+01:00").getTime()),to=from+48*36e5;
+  const next=P.filter(p=>p.status==="ready").flatMap(entries).filter(x=>x.t&&new Date(x.t)>=from&&new Date(x.t)<to).sort((a,b)=>new Date(a.t)-new Date(b.t));
+  document.getElementById("ov-next").innerHTML=(from>now?`<div class="muted" style="margin-bottom:4px">Posten begint op 1 december. Dit zijn de eerste 48 uur:</div>`:"")+
+    (Object.values(next.reduce((o,x)=>{(o[x.p.id]=o[x.p.id]||{p:x.p,xs:[]}).xs.push(x);return o},{})).map(({p,xs})=>
+      li(p,xs.map(({t,pls})=>`${when(t).replace(/^\w+ /,"")} ${plBadges(pls)}`).join(" · "))).join("")||`<div class="empty">Nog niets ingepland.</div>`);
   setup.innerHTML=(ch.setup||[]).map(s=>`<div class="${s.done?"done":""}"><i>${s.done?"✓":""}</i>${esc(s.step)}</div>`).join("");
+}
+
+// ---------- statistieken ----------
+let STATS=null;
+function bars(rows,max){max=max||Math.max(1,...rows.map(r=>r[1]));return rows.map(([l,n,c])=>`<div class="bar"><span title="${esc(l)}">${esc(l)}</span><i style="width:${Math.max(2,100*n/max)}%;${c?"background:"+c:""}"></i><b>${n}</b></div>`).join("")}
+function count(arr){const o={};arr.forEach(k=>{if(k)o[k]=(o[k]||0)+1});return Object.entries(o).sort((a,b)=>b[1]-a[1])}
+function drawStats(){
+  if(!S)return;const P=posts(),live=P.filter(p=>!["skipped","posted"].includes(p.status)),now=Date.now();
+  document.getElementById("st-sub").textContent=`Bijgewerkt ${ago(S.updated)}${STATS&&STATS.updated?" · bereik bijgewerkt "+ago(STATS.updated):""}`;
+  // reach (once the channels are connected)
+  const days=STATS&&STATS.days?Object.entries(STATS.days).sort():[];
+  const rEl=document.getElementById("st-reach");
+  if(!days.length){rEl.innerHTML=`<div class="empty2">Hier komen volgers, bereik, weergaven en shares per platform, plus je best presterende posts en beste tijden. Dat begint zodra Instagram en Facebook gekoppeld zijn (Meta-sleutel) en de eerste posts online staan. TikTok en YouTube volgen na hun goedkeuring.</div>`}
+  else{const lastD=days[days.length-1][1],first=days[Math.max(0,days.length-8)][1];
+    const plat=["instagram","facebook"].map(k=>{const a=lastD[k]||{},b=first[k]||{};const g=(a.followers||0)-(b.followers||0);
+      return [k==="instagram"?"INSTAGRAM VOLGERS":"FACEBOOK VOLGERS",a.followers??"–",g?`${g>0?"+":""}${g} deze week`:"",k]});
+    const ig=days.slice(-14).map(([d,v])=>[d.slice(5),(v.instagram||{}).reach||0]);
+    const top=Object.entries(STATS.posts||{}).map(([id,r])=>{const i=r.instagram||{},fb=r.facebook||{};return {id,t:r.title,kind:r.kind,reach:(i.reach||0),views:(i.views||0),shares:(i.shares||0)+(fb.shares||0),inter:(i.total_interactions||0)+(fb.reactions||0)+(fb.comments||0),at:r.posted_at}})
+      .sort((a,b)=>b.views+b.reach-(a.views+a.reach)).slice(0,8);
+    const hours={};Object.values(STATS.posts||{}).forEach(r=>{const h=new Date(r.posted_at).toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Amsterdam"});const v=((r.instagram||{}).reach||0);(hours[h]=hours[h]||[]).push(v)});
+    const hrows=Object.entries(hours).map(([h,v])=>[h,Math.round(v.reduce((a,b)=>a+b,0)/v.length)]).sort();
+    rEl.innerHTML=`<div class="kpis">${plat.map(([l,n,d])=>`<div class="kpi"><div class="n">${n}</div><small>${l}</small><div class="d">${d}</div></div>`).join("")}
+      <div class="kpi"><div class="n">${(lastD.instagram||{}).reach??"–"}</div><small>IG BEREIK VANDAAG</small></div><div class="kpi"><div class="n">${(lastD.instagram||{}).profile_views??"–"}</div><small>IG PROFIELBEZOEKEN</small></div></div>
+      <div class="grid2"><div class="chart"><h3>INSTAGRAM BEREIK PER DAG</h3><div class="cols">${ig.map(([d,v])=>`<div><i style="height:${Math.max(2,100*v/Math.max(1,...ig.map(x=>x[1])))}%"></i><small>${d}</small></div>`).join("")}</div></div>
+      <div class="chart"><h3>BESTE POSTS (30 DAGEN)</h3>${top.length?bars(top.map(x=>[x.t||x.id,x.views||x.reach])):`<div class="muted">Nog geen gegevens.</div>`}</div>
+      <div class="chart"><h3>MEEST GEDEELD</h3>${top.length?bars([...top].sort((a,b)=>b.shares-a.shares).slice(0,6).map(x=>[x.t||x.id,x.shares],null)):""}</div>
+      <div class="chart"><h3>GEMIDDELD BEREIK PER TIJDSTIP</h3>${hrows.length?bars(hrows):`<div class="muted">Nog geen gegevens.</div>`}</div></div>`}
+  // content (available now)
+  const colors={pod:"var(--accent)",live:"#ff7a00",battle:"var(--pink)",vlog:"#b388ff",posts:"#4aa8ff"};
+  const ready=live.filter(p=>p.status==="ready"),planned=ready.filter(p=>p.post_at);
+  const sc=ready.filter(p=>p.score!=null).map(p=>p.score);
+  const wk=d=>{const x=new Date(d);const j=new Date(x.getFullYear(),0,1);return "wk "+Math.ceil(((x-j)/864e5+j.getDay()+1)/7)};
+  const perWeek={};P.forEach(p=>Object.entries(p.plan||{}).forEach(([pl,t])=>{const w=wk(t);perWeek[w]=perWeek[w]||{};perWeek[w][pl]=(perWeek[w][pl]||0)+1}));
+  const made={};P.forEach(p=>{const d=(p.created||"").slice(0,10);if(d&&now-new Date(d)<14*864e5)made[d]=(made[d]||0)+1});
+  const madeRows=Array.from({length:14},(_,i)=>{const d=new Date(now-(13-i)*864e5).toISOString().slice(0,10);return [String(+d.slice(8)),made[d]||0]});
+  document.getElementById("st-kpis").innerHTML=[["KLAAR OM TE POSTEN",ready.length],["INGEPLAND",planned.length],["OP VOORRAAD",ready.length-planned.length],["WACHT OP JOU",toReview().length],["GEM. SCORE",sc.length?Math.round(sc.reduce((a,b)=>a+b,0)/sc.length):"–"],["KORTE VERSIES",P.filter(p=>p.short).length]]
+    .map(([l,n])=>`<div class="kpi"><div class="n">${n}</div><small>${l}</small></div>`).join("");
+  document.getElementById("st-content").innerHTML=`
+    <div class="chart"><h3>VOORRAAD PER SOORT</h3>${bars(count(ready.map(p=>cat(p))).map(([c,n])=>[CAT[c]||c,n,colors[c]]))}</div>
+    <div class="chart"><h3>NIEUWE CONTENT PER DAG (14 D)</h3><div class="cols">${madeRows.map(([d,v])=>`<div><i style="height:${Math.max(2,100*v/Math.max(1,...madeRows.map(x=>x[1])))}%"></i><small>${d}</small></div>`).join("")}</div></div>
+    <div class="chart"><h3>MEEST IN BEELD (COUREURS)</h3>${bars(count(ready.flatMap(p=>p.people||[])).slice(0,10))}</div>
+    <div class="chart"><h3>PER SERIE / EVENT</h3>${bars(count(ready.map(p=>(p.source&&p.source.podcast)||KIND[p.kind]||p.kind)).slice(0,8))}</div>
+    <div class="chart"><h3>GEPLAND PER WEEK EN PLATFORM</h3>${Object.entries(perWeek).sort((a,b)=>+a[0].slice(3)-+b[0].slice(3)).slice(0,6).map(([w,v])=>`<div class="bar"><span>${w}</span><i style="width:${Math.min(100,(Object.values(v).reduce((a,b)=>a+b,0))/0.7)}%"></i><b>${Object.values(v).reduce((a,b)=>a+b,0)}</b></div><div class="muted" style="font-size:11px;margin:-2px 0 6px 158px">${Object.entries(v).map(([k,n])=>`${PLAT[k]||k} ${n}`).join(" · ")}</div>`).join("")}</div>
+    <div class="chart"><h3>KWALITEIT (SCORE VAN 0 TOT 100)</h3>${bars([["80 tot 100",sc.filter(x=>x>=80).length,"var(--accent)"],["60 tot 79",sc.filter(x=>x>=60&&x<80).length],["40 tot 59",sc.filter(x=>x>=40&&x<60).length,"#ff7a00"],["onder 40",sc.filter(x=>x<40).length,"var(--pink)"]])}</div>`;
 }
 
 // ---------- beoordelen ----------
@@ -575,8 +652,9 @@ function drawLive(){
   const up=(S?posts():[]).filter(p=>p.status==="ready"&&p.post_at&&new Date(p.post_at)>now).sort((a,b)=>new Date(a.post_at)-new Date(b.post_at))[0];
   if(up)nx.push(`<b>EERSTVOLGENDE POST</b><span>${when(up.post_at)} · ${esc(String(up.title||"").slice(0,40))}</span>`);
   nx.push(`<b>WACHTER</b><span>controleert alles elke ochtend om 08:41</span>`);
-  el.innerHTML=`<h4>NU BEZIG</h4>`+(it.length?it.map(x=>`<div class="it"><div class="pd"></div><div>${x}</div></div>`).join(""):`<div class="it" style="color:var(--mute)">Niets. Alles staat stil tot de volgende ronde.</div>`)
-    +`<h4 style="margin-top:14px">STRAKS</h4>`+nx.map(x=>`<div class="it"><div class="pd" style="animation:none;background:#55555b"></div><div>${x}</div></div>`).join("");
+  el.innerHTML=`<h4>NU BEZIG</h4>`+(it.length?it.slice(0,3).map(x=>`<div class="it"><div class="pd"></div><div>${x}</div></div>`).join("")+(it.length>3?`<div class="it" style="color:var(--mute)"><a href="#systeem">+${it.length-3} meer</a></div>`:""):`<div class="it" style="color:var(--mute)">Niets bezig.</div>`);
+  const sl=document.getElementById("sys-live");
+  if(sl)sl.innerHTML=[...it.map(x=>["",x]),...nx.map(x=>["x",x])].map(([d,x])=>`<div class="h"><div class="dot ${d}"></div><div>${x.replace(/<b>/,"<b>").replace(/<span/,"<span")}</div></div>`).join("");
 }
 async function loadLive(){
   CLIPNOW=await liveJson("clips-now.json",CLIPNOW);PODNOW=await liveJson("podcasts-now.json",PODNOW);
@@ -588,22 +666,31 @@ async function loadLive(){
 setInterval(()=>{if(!document.hidden)loadLive()},20000);
 
 // ---------- routing ----------
+const TABS={bieb:[["#clips/live","LIVESTREAM","live"],["#clips/battle","BATTLES","battle"],["#clips/vlog","VLOGS","vlog"],["#clips/pod","PODCASTS","pod"],["#posts","POSTS","posts"],["#nieuws","NIEUWSBRONNEN"]],
+  inst:[["#kanalen","KANALEN"],["#bronnen","BRONNEN"],["#systeem","SYSTEEM"],["podcasts.html","STUDIO ↗"],["#","SLEUTEL",null,1]]};
+const NAVOF={overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
+function drawTabs(){const h=location.hash||"#overzicht",R=S?toReview():[];
+  document.querySelectorAll("[data-tabs]").forEach(el=>{el.innerHTML=TABS[el.dataset.tabs].map(([href,label,c,isKey])=>{
+    const n=c?R.filter(p=>cat(p)===c).length:0;
+    return `<a href="${href}" ${isKey?"data-key":""} class="${!isKey&&h===href?"on":""}">${label}${n?`<span class="cnt">${n}</span>`:""}</a>`}).join("")})}
 function show(){
   const [s,id]=(location.hash.slice(1)||"overzicht").split("/");
+  document.querySelectorAll("nav.side a[data-n]").forEach(a=>a.classList.toggle("on",a.dataset.n===NAVOF[s]));
+  drawTabs();
   document.querySelectorAll("section").forEach(x=>x.classList.toggle("on",x.id==="s-"+s));
-  document.querySelectorAll("nav.side a[data-s]").forEach(a=>a.classList.toggle("on",a.dataset.s===s&&(!a.dataset.c||a.dataset.c===id)));
   if(s==="clips"){clipCat=CAT[id]?id:"pod";drawClips()}
   else if(id){revFilter="ALLES";drawReview();setTimeout(()=>{const el=document.getElementById("r-"+id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})},50)}
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
-function drawAll(){drawLive();drawOverview();drawRuns();drawReview();drawClips();drawPosts();drawCounts();drawPlan();drawNews();drawChannels();drawSources();
+function drawAll(){drawLive();drawOverview();drawStats();drawTabs();drawRuns();drawReview();drawClips();drawPosts();drawCounts();drawPlan();drawNews();drawChannels();drawSources();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
   S=await fetch("status.json?"+Date.now()).then(r=>r.json());
   PODNOW=await liveJson("podcasts-now.json",null);CLIPNOW=await liveJson("clips-now.json",null);
   try{ED=await fetch("editor.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
+  try{STATS=await fetch("stats.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
   await loadRuns();
   try{const r=await fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}});if(r.ok)MAC=JSON.parse((await r.json()).body||"{}")}catch(e){}
   drawAll();
