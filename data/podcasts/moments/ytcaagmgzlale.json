@@ -496,8 +496,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-16-10621-11086.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-16-10621-11086.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1083.67, \"start\": 1081.53, \"text\": \"WHAT HAPPENED TO CODY?\", \"why\": \"uitval\"}",
+  "made": "2026-11-19T07:40:10.898417+00:00"
  },
  {
   "start": 1119.65,
@@ -522,8 +527,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-17-11196-11594.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-17-11196-11594.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1149.05, \"start\": 1146.79, \"text\": \"AMERICA OR CANADA?\", \"why\": \"mooie matchup\"}",
+  "made": "2026-11-19T07:41:41.304182+00:00"
  },
  {
   "start": 1160.21,
@@ -546,8 +556,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-18-11602-11988.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-18-11602-11988.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1187.85, \"start\": 1185.33, \"text\": \"CAN THE LOCAL HERO DELIVER?\", \"why\": \"timing\"}",
+  "made": "2026-11-19T07:43:11.067775+00:00"
  },
  {
   "start": 1199.55,
@@ -570,8 +585,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-19-11996-12633.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-19-11996-12633.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1247.89, \"start\": 1246.19, \"text\": \"DOES HE EVEN FEEL PRESSURE?\", \"why\": \"lof\"}",
+  "made": "2026-11-19T07:45:32.501564+00:00"
  },
  {
   "start": 1338.67,
