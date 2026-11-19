@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T13:20:57.912778+00:00",
+ "updated": "2026-11-19T13:30:20.323377+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 128
+  "draft": 132
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4679,9 +4679,9 @@
       "topic": "STUCKEY'S EJECTO BUMPER",
       "quote": "We'll see if he can deliver and rise a little bit more to the occasion and into that power alley. Oh, we're losing front bumper now. He smiled with his bottom teeth. Here we go. To that last outside. Excuse me, the third glass, got a little ahead of myself there. In the inside clip, good navigation, last outside zone, there it is. And Stukey brings it on home. Nothing crazy on top. No, nothing crazy. Superceeds in a couple of zones, but as we said, it's equal deduction to kind of go off the zone as opposed to be shallow on it. So why not risk that? I think a lot of the drivers that have done well have realized that you know Just really riding the edge there and going a little bit off is not the worst thing of the world Look at that zone to 4 .8 up there when it comes to his scorers and their ejecto bumper.",
       "why": "Bumper vliegt eraf tijdens de run",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-16/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4693,9 +4693,9 @@
       "topic": "TUERCK'S FINAL QUALIFYING RUN",
       "quote": "Currently ninth, the man of the hour, the man of the weekend, Ryan Turk, again Simon Olson, another driver saying hey again for the unforeseeable future but Ryan Turk has stated thank you so much 20 plus years of drifting here in formal drift and beyond that so Ryan Turk the Ryan Turk farewell tour ends here in Long Beach let's see if we can make it a good one that Raynex Toyota GR Coroll the rock star driver rock star energy drink into outside zone three yes sir places it properly that again that That snub blunted back rear bumper barely just hanging over into that tight inside front clip. The hot hatch into the last outside zone. Yep. Brings it all the way out. Yeah, that was good. Yeah, yeah. A little a little weird to think that is the last time we're going to see Ryan Turk in qualifying. I won't lie. It was definitely paying attention, but thinking just about the legacy that is, you know, that Ryan Turk has.",
       "why": "Laatste kwalificatierun van Tuerck",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-17/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4707,9 +4707,9 @@
       "topic": "78.33 IN TUERCK'S LAST RUN",
       "quote": "But run -wise, I mean, looks good. Definitely looks good. He's so on and off throttle. I mean, I know he likes a car that's very punchy and hits hard, and I think they found that with this engine, with this package, especially, you know, you're gonna remember this thing came with that four cylinder they ran for a while, decided to swap over to the B58, the same engine that was in Osbose car, and sounds good, looks good. And for Ryan Turk, I mean, we'll find out how this sits with him. 76 flats on that first run. Is this going to be an improvement? I'm sure he'd love to find himself at the pointy end of the pack coming into qualifying to find a decent spot into our top 32. Yeah, he was definitely had some growing pains with going over to this motor and they finally figured out it changed the dynamics of the vehicle. You know, weight just weight wise. Yeah, it totally changed the dynamics. Because the four cylinder, you know, Freddie drove that for a little bit and then, you know, jumping over into it, Ryan Turk. And again, you know, this is final round. This final formative competition. And he does! 78 .33, so 17th position.",
       "why": "Score van Tuercks laatste run",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-18/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4721,9 +4721,9 @@
       "topic": "83.06 FROM HUGHES",
       "quote": "Damn, Dylan back at it again with the white BMW. There you go. Looking good, sounding good. I like the white dude. I do. I'm a big fan. As soon as I saw the livery reveal, I was like, okay. It's just so simple. Yeah, but it's good. It's just a clean looking car. Yeah, just generally I'm a fan of it. A fan of that second outside zone as well. Looks really good through there and that's where he's gonna catch that bit of understeer going into four. Throws on a lot of left foot brake and he's able to save it. As you can tell, his own scores are looking quite tidy here for Dylan Hughes. Is it enough to take our top spot? I don't know. We saw everybody else with a couple of regular fives and high in the fours. But this is a good one for sure. Yeah, oh dang. Look at all those. 80 .9. This is going to be up there. This is the story of Dylan. I'm going to, he's going to be, I mean, he'll be low eighties, but it's going to be in a person seven right now. Yeah. I mean, not good enough for him. This is our, I mean, he's already had a top qualifier already wants to see him. That's true. Earlier this year, we know what he's capable of 80 .9. Does he have what it takes? Let's see 83 .06.",
       "why": "Hughes verbetert naar 83.06",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-19/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,159 @@
    "photo": null
   },
   {
+   "id": "pod-ytinepijspeek-19",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Sparks off the front wheel and big countersteer. Dylan Hughes improves to 83.06.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@dylanhughes129 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 9906.58
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:30:20.300948+00:00",
+   "built": "2026-11-19T13:30:20.300953+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-19/clip.mp4",
+   "tags": [
+    "@dylanhughes129",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "83.06 FROM HUGHES",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-18",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck improves to 78.33 on his final qualifying run, enough for 17th.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryantuerck @formulad\n\n#ryantuerck #formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 9785.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:27:43.851675+00:00",
+   "built": "2026-11-19T13:27:43.851681+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-18/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "78.33 IN TUERCK'S LAST RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-17",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The farewell tour ends here. Ryan Tuerck's last ever Formula DRIFT qualifying run in the GR Corolla.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryantuerck @formulad\n\n#ryantuerck #formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 9720.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:25:20.142708+00:00",
+   "built": "2026-11-19T13:25:20.142713+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-17/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TUERCK'S FINAL QUALIFYING RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-16",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Daniel Stuckey loses his front bumper mid run and keeps on going.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 9208.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:23:04.261325+00:00",
+   "built": "2026-11-19T13:23:04.261331+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-16/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "STUCKEY'S EJECTO BUMPER",
+   "photo": null
+  },
+  {
    "id": "pod-ytinepijspeek-15",
    "kind": "stream_clip",
    "status": "draft",
@@ -23870,161 +24023,6 @@
    "caption_by": null,
    "format": "single",
    "title": "TUERCK PUTS OUT HIS OWN FIRE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-10",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Rome Charpentier leads and Jack Shanahan shadows him everywhere he goes. Same distance the whole way.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@romecp @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #seattle #jackshanahan #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 482.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:15:57.731545+00:00",
-   "built": "2026-11-19T08:15:57.731551+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-10/clip.mp4",
-   "tags": [
-    "@romecp",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "JACK THE SHADOW",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-9",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Splitting hairs from the start, a little tap of the brakes, and Matt Field takes down James Deane in top 16.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #seattle #jamesdeane #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 438.58
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:14:32.298606+00:00",
-   "built": "2026-11-19T08:14:32.298612+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-9/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FIELD KNOCKS OUT DEANE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-8",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Dylan Hughes comes through the smoke and beelines straight into the side of the BMW.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@dylanhughes129 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 353.66
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:13:05.499426+00:00",
-   "built": "2026-11-19T08:13:05.499433+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-8/clip.mp4",
-   "tags": [
-    "@dylanhughes129",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "STRAIGHT INTO THE SIDE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-7",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Odi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 283.64
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:11:24.519609+00:00",
-   "built": "2026-11-19T08:11:24.519615+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-7/clip.mp4",
-   "tags": [
-    "@odidrift",
-    "@rudyhansen119",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "ODI CALLS A TIMEOUT",
    "photo": null
   }
  ],

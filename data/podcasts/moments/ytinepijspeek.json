@@ -470,8 +470,13 @@
    "why": "bumper los"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-16-92087-92602.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-16-92087-92602.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9217.1, \"start\": 9213.9, \"text\": \"WAIT, WHAT JUST FELL OFF?\", \"why\": \"bumper los\"}",
+  "made": "2026-11-19T13:23:04.259983+00:00"
  },
  {
   "start": 9720.02,
@@ -493,8 +498,13 @@
    "why": "emotioneel moment"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-17-97200-97852.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-17-97200-97852.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9778.52, \"start\": 9775.26, \"text\": \"THE END OF AN ERA\", \"why\": \"emotioneel moment\"}",
+  "made": "2026-11-19T13:25:20.141377+00:00"
  },
  {
   "start": 9785.4,
@@ -516,8 +526,13 @@
    "why": "de score"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-18-97854-98519.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-18-97854-98519.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9851.9, \"start\": 9848.14, \"text\": \"DID HE GO OUT ON A HIGH?\", \"why\": \"de score\"}",
+  "made": "2026-11-19T13:27:43.850299+00:00"
  },
  {
   "start": 9906.58,
@@ -539,8 +554,13 @@
    "why": "commentaar enthousiast"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-19-99066-99784.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-19-99066-99784.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9908.74, \"start\": 9906.58, \"text\": \"THE WHITE BMW IS BACK\", \"why\": \"commentaar enthousiast\"}",
+  "made": "2026-11-19T13:30:20.299620+00:00"
  },
  {
   "start": 10052.0,
