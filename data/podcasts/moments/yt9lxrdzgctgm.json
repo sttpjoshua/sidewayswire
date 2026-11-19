@@ -792,8 +792,13 @@
    "why": "juichende commentator"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-26-99994-100323.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-26-99994-100323.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10027.58, \"start\": 10025.42, \"text\": \"THE BOOTH GOES WILD\", \"why\": \"juichende commentator\"}",
+  "made": "2026-11-19T00:19:23.505718+00:00"
  },
  {
   "start": 10167.04,
@@ -817,8 +822,13 @@
    "why": "uitleg jury"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-27-101670-102144.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-27-101670-102144.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10198.84, \"start\": 10195.78, \"text\": \"HOW DID THE JUDGE DECIDE?\", \"why\": \"uitleg jury\"}",
+  "made": "2026-11-19T00:20:31.626457+00:00"
  },
  {
   "start": 10215.1,
@@ -840,8 +850,13 @@
    "why": "grappig afscheid"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-28-102151-102545.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-28-102151-102545.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10230.22, \"start\": 10227.04, \"text\": \"A 15 YEAR CAREER, ONE LINE\", \"why\": \"grappig afscheid\"}",
+  "made": "2026-11-19T00:21:33.259613+00:00"
  },
  {
   "start": 10324.54,
@@ -864,8 +879,13 @@
    "why": "stilte na contact"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-29-103245-103888.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-29-103245-103888.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10336.72, \"start\": 10334.36, \"text\": \"WHAT JUST HAPPENED?\", \"why\": \"stilte na contact\"}",
+  "made": "2026-11-19T00:23:03.552387+00:00"
  },
  {
   "start": 10472.8,

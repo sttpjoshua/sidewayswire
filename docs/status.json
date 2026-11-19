@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T00:18:20.747486+00:00",
+ "updated": "2026-11-19T00:23:03.564938+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 108
+  "draft": 112
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -2874,9 +2874,9 @@
       "topic": "LZ FINDS HIS FORM",
       "quote": "As Adam LZ initiates outside zone two and Justin smash on the FPV goes in and drops So does Adam LZ. Watch the timing of Shanahan on his transition. Can he nail it like he normally does? Yes, he does. Could be a little deeper there. And look at Adam, right on that Razor's edge. And now into this last outside zone. I mean, look at that. Whoo -hoo! Yeah, baby! Well, there is the Adam LZ we all come to know and love.",
       "why": "Adam LZ met een sterke leadrun in de final four",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-26/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2888,9 +2888,9 @@
       "topic": "JUDGE EXPLAINS JACK VS LZ",
       "quote": "Jack Shanahan and Jack Shanahan gets the win so Jack gets the win Adam LZ knocked out. I'd love to bring in Brian and again the one more time there but you sided with Jack Shanahan. Why is that? Yeah. When you look at the runs, Jack's lead was pretty good and then when LZ ran his, he got into the wall a little bit before 7 -6 and then also when he was coming through he clipped the inner clip. When you look at the chases, LZ He did a really good job of getting into him right after the initiation and filled zone one a little bit better. But then Jack ends up catching up and then closes proximity after transition and then basically the rest of the run he's right on him.",
       "why": "Jurylid Eggert legt beslissing Final 4 uit",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-27/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2902,9 +2902,9 @@
       "topic": "JUDGE EGGERT SIGNS OFF",
       "quote": "Also Brian, thank you so much. It's a good opportunity. Fifteen years working for a former Jeff. Ryan, anything you want to say? I had a blast. That's it? I mean, I feel like you're Forrest Gump. I'm gonna go home now. Yeah. No, I probably won't go home. I'll figure out something else to do. But no, I enjoy it. It's a lot of fun. But I feel like I've been here long enough for that part of my chapter in this and what somebody else come in or what these guys continue to do, what they're doing. And I think the sports in a good place. It's way different than when I first got here. So a lot of things have changed and happened. And I mean, it's amazing. Like you go look at footage from even five years ago and the way these guys drive now, it's like night and day.",
       "why": "Afscheid van jurylid Brian Eggert na 15 jaar",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-28/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2916,9 +2916,9 @@
       "topic": "CONTACT IN THE FINAL FOUR",
       "quote": "James Dean will lead Matt field chasing him down tip to tail A hush falls over the crowd All right roll the tape and pull up pull up pull up the Wally race data labs data and And what went down, I mean, James initiated, I don't, I don't know. I just, of course, of course. That's it. James goes in across the nose, taps the brakes. So here's the questions. Here's the variables. Did James slow down? Was he allowed to D cell? Was not being too aggressive? Did he punch him in the back? At least from my understanding, and I will get corrected very swiftly. The lead car has to be given the room and ability to initiate. And I commend Matt for being aggressive because that is what you have to do against James Dean. 100%. You've got to go in for a big dive. You've got to push hard just to even have a chance.",
       "why": "Field raakt Deane op initiatie in de Final 4",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-29/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16523,6 +16523,164 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-29",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field dives in on James Deane in the Final 4 and it ends in contact on initiation.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #jamesdeane #mattfield #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 10324.54
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:23:03.553369+00:00",
+   "built": "2026-11-19T00:23:03.553376+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-29/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONTACT IN THE FINAL FOUR",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-28",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brian Eggert judged his final Formula DRIFT event after 15 years. His farewell is perfectly low key.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 10215.1
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:21:33.260567+00:00",
+   "built": "2026-11-19T00:21:33.260570+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-28/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brian Eggert"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JUDGE EGGERT SIGNS OFF",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-27",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Judge Brian Eggert explains why Jack Shanahan beat Adam LZ in the Final 4.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @adam_lz @formulad\n\n#formulad #formuladrift #jackshanahan #adamlz #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 10167.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:20:31.627380+00:00",
+   "built": "2026-11-19T00:20:31.627383+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-27/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brian Eggert"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JUDGE EXPLAINS JACK VS LZ",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-26",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ lays down a big lead run on Jack Shanahan in the Final 4, and the booth loves it.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@adam_lz @jackshanahan59 @formulad\n\n#formulad #formuladrift #adamlz #jackshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 9999.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:19:23.506627+00:00",
+   "built": "2026-11-19T00:19:23.506633+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-26/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LZ FINDS HIS FORM",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-25",
    "kind": "stream_clip",
    "status": "draft",
@@ -23792,174 +23950,6 @@
    "caption_by": null,
    "format": "single",
    "title": "JACK SHANAHAN: NEW CAR IN 4 WEEKS",
-   "photo": null
-  },
-  {
-   "id": "pod-5687ca1c5a65-5",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #Rumor #sidewayswire",
-   "media": [
-    "media/pod-5687ca1c5a65-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "LB2 Pro Podium",
-    "start": 601.76
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:53:19.827454+00:00",
-   "built": "2026-11-17T18:09:52.837175+00:00",
-   "want_at": null,
-   "video": "media/pod-5687ca1c5a65-5/clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@jamesdeane130",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "ADAM LZ'S PRO CAR: NEW PLANS?",
-   "photo": null
-  },
-  {
-   "id": "pod-5687ca1c5a65-4",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Adam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #LongBeach #sidewayswire",
-   "media": [
-    "media/pod-5687ca1c5a65-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "LB2 Pro Podium",
-    "start": 456.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:52:33.424357+00:00",
-   "built": "2026-11-17T18:09:52.836960+00:00",
-   "want_at": null,
-   "video": "media/pod-5687ca1c5a65-4/clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@jackshanahan59",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "ADAM LZ PLANNED HIS PODIUM GOODBYE",
-   "photo": null
-  },
-  {
-   "id": "pod-5687ca1c5a65-3",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Season over? Not for Jack Shanahan. Week after week of events before he even thinks about a break.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #Drift #sidewayswire",
-   "media": [
-    "media/pod-5687ca1c5a65-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "LB2 Pro Podium",
-    "start": 331.96
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:51:36.926400+00:00",
-   "built": "2026-11-17T18:09:52.836721+00:00",
-   "want_at": null,
-   "video": "media/pod-5687ca1c5a65-3/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "JACK'S NO-BREAK OFF SEASON",
-   "photo": null
-  },
-  {
-   "id": "pod-5687ca1c5a65-2",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #LongBeach #TireSmoke #sidewayswire",
-   "media": [
-    "media/pod-5687ca1c5a65-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "LB2 Pro Podium",
-    "start": 246.4
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:50:22.777911+00:00",
-   "built": "2026-11-17T18:09:52.836458+00:00",
-   "want_at": null,
-   "video": "media/pod-5687ca1c5a65-2/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@jackshanahan59",
-    "@adam_lz",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "NO SMOKING AT A DRIFT EVENT",
    "photo": null
   }
  ],
