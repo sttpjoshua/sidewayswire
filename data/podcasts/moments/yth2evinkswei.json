@@ -167,8 +167,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-5-3899-4110.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-5-3899-4110.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 399.48, \"start\": 397.72, \"text\": \"WHO CALLED JAMES DEANE?\", \"why\": \"het verhaal\"}",
+  "made": "2026-11-19T08:50:36.457970+00:00"
  },
  {
   "start": 424.58,
@@ -191,8 +196,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-6-4246-4681.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-6-4246-4681.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 434.66, \"start\": 433.06, \"text\": \"WHO DRIVES BEST IN THE RAIN?\", \"why\": \"regen\"}",
+  "made": "2026-11-19T08:52:20.939067+00:00"
  },
  {
   "start": 553.74,
@@ -215,8 +225,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-7-5537-5904.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-7-5537-5904.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 574.86, \"start\": 573.24, \"text\": \"DID DEANE GIVE TOO MUCH ROOM?\", \"why\": \"vis-vergelijking\"}",
+  "made": "2026-11-19T08:53:50.065250+00:00"
  },
  {
   "start": 637.7,
@@ -239,8 +254,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-8-6377-6813.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-8-6377-6813.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 665.1, \"start\": 663.36, \"text\": \"TOO AGGRESSIVE FROM THE CHAMP?\", \"why\": \"deurcontact\"}",
+  "made": "2026-11-19T08:55:30.825686+00:00"
  },
  {
   "start": 681.7,
