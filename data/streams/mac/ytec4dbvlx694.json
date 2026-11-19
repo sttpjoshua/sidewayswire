@@ -1,7 +1,10 @@
 {
  "youtube": "Ec4DbVLX694",
- "status": "transcribing",
+ "status": "error",
  "note": "video vastgelegd in het register",
  "seconds": 1842.0,
- "found_title": "NOT A BAD DEBUT TO ROYAL DRIFT SERIES | First Time In China"
+ "found_title": "NOT A BAD DEBUT TO ROYAL DRIFT SERIES | First Time In China",
+ "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+ "at": 1795119894.55306,
+ "version": "16"
 }
