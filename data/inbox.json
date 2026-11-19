@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T16:50:58.605831+00:00",
+ "updated": "2026-11-19T18:25:33.602518+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -26,6 +26,25 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "c22c43faf9909919",
+   "title": "Together with MOZA Racing, we brought drifting closer to you! 🔥",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-19T18:24:44.940273+00:00",
+   "published": "2026-11-19T16:57:44+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Together with MOZA Racing, we brought drifting closer to you! 🔥",
+     "url": "https://www.youtube.com/watch?v=G0sFwviiGnE",
+     "kind": "video",
+     "published": "2026-11-19T16:57:44+00:00",
+     "media_url": "https://i4.ytimg.com/vi/G0sFwviiGnE/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -1322,25 +1341,6 @@
    ]
   },
   {
-   "id": "625ab6ff6666ba9a",
-   "title": "The Outerzone Podcast - Chelsea DeNofa on 2023 Championship Win, The Stuke Incident, & Life After FD",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:05.880734+00:00",
-   "published": "2026-11-04T15:00:21+00:00",
-   "items": [
-    {
-     "source": "Formula DRIFT",
-     "title": "The Outerzone Podcast - Chelsea DeNofa on 2023 Championship Win, The Stuke Incident, & Life After FD",
-     "url": "https://www.youtube.com/watch?v=263p74ZeHjw",
-     "kind": "video",
-     "published": "2026-11-04T15:00:21+00:00",
-     "media_url": "https://i3.ytimg.com/vi/263p74ZeHjw/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "fd1a52f946070ebd",
    "title": "The Formula DRIFT Paddock on Ryan Tuerck Memories",
    "series": "FD",
@@ -1542,30 +1542,26 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drif"
   },
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=e"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&h"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&h"
   },
   {
    "source": "Formula DRIFT",
@@ -1641,7 +1637,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -1654,37 +1650,32 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20wh"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": true,
-   "items": 6,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20liver"
   },
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%"
   },
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn"
   },
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Pr"
   }
  ],
  "instagram": false
