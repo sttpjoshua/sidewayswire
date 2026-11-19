@@ -281,6 +281,7 @@ function nextEditor(){const sch=(ED&&ED.schedule)||["10:23","13:23","19:23","23:
   const now=new Date(),ams=new Date(now.toLocaleString("en-US",{timeZone:"Europe/Amsterdam"}));const m=ams.getHours()*60+ams.getMinutes();
   const t=sch.find(x=>{const[h,mm]=x.split(":").map(Number);return h*60+mm>m});return t?"vandaag "+t:"morgen "+sch[0]}
 function editorLine(){if(!ED)return "nog geen gegevens";
+  if(ED.state==="off")return "staat uit (sinds 19 nov, om credits te sparen)";
   if(ED.state==="busy")return `bezig sinds ${ago(ED.started)}: zoekt verhalen en maakt posts`;
   const n=(ED.posts||[]).length;return `laatst ${ago(ED.finished)} · ${n?n+" nieuwe post"+(n>1?"s":""):"geen nieuwe posts"}${ED.moments?" · "+ED.moments+" clipmomenten":""} · volgende ronde ${nextEditor()}`}
 let S=null, MAC=null, NOW=null, PODNOW=null, CLIPNOW=null, RUNS=null, runsAt=0;
@@ -532,7 +533,8 @@ function drawLive(){
     if(WF[k]&&!shown[k]&&!it.some(x=>x.includes(WF[k].toUpperCase()))){shown[k]=1;it.push(`<b>${WF[k].toUpperCase()}</b><span>${r.status==="queued"?"in de wachtrij":"bezig sinds "+ago(r.run_started_at||r.created_at).replace(" geleden","")}</span>`)}});
   // what comes next
   const nx=[], hhmm=d=>d.toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Amsterdam"});
-  if(!(ED&&ED.state==="busy"))nx.push(`<b>REDACTIE</b><span>volgende ronde ${nextEditor()}</span>`);
+  if(ED&&ED.state==="off")nx.push(`<b>REDACTIE</b><span style="color:var(--pink)">staat uit (om credits te sparen)</span>`);
+  else if(!(ED&&ED.state==="busy"))nx.push(`<b>REDACTIE</b><span>volgende ronde ${nextEditor()}</span>`);
   if(MAC&&MAC.seen){const seen=new Date(MAC.seen),mins=(now-seen)/6e4;
     nx.push(mins>40?`<b>MAC STUDIO</b><span style="color:var(--pink)">geen teken van leven sinds ${ago(MAC.seen)}</span>`
       :MAC.busy?`<b>MAC STUDIO</b><span>actief, laatst ${ago(MAC.seen)}</span>`:`<b>MAC STUDIO</b><span>volgende ronde rond ${hhmm(new Date(seen.getTime()+15*6e4))}</span>`)}
