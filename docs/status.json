@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T15:45:38.340928+00:00",
+ "updated": "2026-11-19T15:52:11.918184+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 156
+  "draft": 160
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -3937,9 +3937,9 @@
       "topic": "FAILURE TO LAUNCH OR TOO AGGRESSIVE?",
       "quote": "But right now here's the second half of the Rad Dan Burkett. Oh geez. What? Okay. Run that back. Was it failure to launch? Was it too aggressive Odie? This is this is where we pull in the race data labs. This is where Wally is utilized It's about momentum and I mean look at this. I mean Yeah, big collective sigh from the judges nobody wants to be judging a call with a bunch of incidents and then that's not what we signed up for but this is where we We go over to the wall. You're gonna get in here, you know already hearing calls. Hey pull that back up Let's take a look at it Slide him left. We bought you right for Dan Burkett. And Dan Burkett gets one, two, and unanimous. Rad Dan Burkett gets the win.",
       "why": "Odi botst achterop Burkett, jury kijkt naar data",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-8/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3951,9 +3951,9 @@
       "topic": "SHANAHAN CROWNED CHAMPION",
       "quote": "And here goes Shanahan filling all of the outside zone six. But Castro is not backing down at all in the outside zone seven and eight. Here he goes. And Castro grinding on the door. Let's go. There we go again. A very un - Shanahan from Ireland in his third season of the Formula Drift US Championship. One half of a battle left to find out will he be crowned your champion or is Castro gonna put a stop to it? John the Castro from Dominican Republic of Michigan. Shanahan knows his end. He bullies him around, but Castro goes into the outside zone. Here goes Shanahan, dropping into formation, precision driving, as Castro goes. Oh, that back bumper going in. Did Castro lead him out there? Shanahan chased him down. You can see the Irish on the tongue of that front bumper. Now past that inside clip, Shanahan a bit shallow. And at last, outside zone eight goes Shanahan and Castro. I mean, top of the win. He is your 2026 Formula J champion. Judges say one vote for Shanahan. Two! Carter Shanahan gets it!",
       "why": "Shanahan wordt kampioen 2026 tegen Castro",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-9/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3965,9 +3965,9 @@
       "topic": "THAT WAS A HATE TAP",
       "quote": "That's got for us out front. He's got the clean air. And Jack is just hanging out in his rear view mirror. Bang right there to it. Outside zone one and two. There it goes. Jeff and Jack transitioning out. Outside zone three. Right in front of the judges. Now going through the power alley. Good job by Jeff. Jack, go ahead. See him come through the smoke and drop into formation. Oh, Jeff goes a little bit deep, but Jack falls improperly, pats it inside clip. Little disruption there for both the drivers. Now bringing it on home. Jack gets a little. That wasn't a love tap. That was a hate tap there. It worked, Jack, but there's a couple of wheels off. That might be the difference maker. All right. One vote for Jack Shanahan. Two votes for Jack Shanahan. It's unanimous.",
       "why": "Jack geeft Jeff Jones een tik, wint unaniem",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-10/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3979,9 +3979,9 @@
       "topic": "RCP TAKES OUT VAUGHN",
       "quote": "All right, Rome. Through that start chicane. We got a clean start. No cones were hit and here we go again bond still give him enough room there, but coast his way to the side Look at those flames shooting out the back into this third outside zone Now let's see how they handle that power rally. Look at bond Mimicking the angle of rome And that bmw bond gives himself a little bit of room. He slides on up rome sharpens here Stays in it bond giving himself some distance Now in that last and final outside zone And there we go. Little bump and grind there towards the latter portion of that outside zone. I do love to make it official to RCP. And there it is. Rump -sharp interior gets the win taking out Vonke.",
       "why": "Rome wint van Vaughn Gittin Jr.",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-11/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,163 @@
    "photo": null
   },
   {
+   "id": "pod-ytlgdw88ygzo4-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Flames out the back, a little bump and grind, and Rome Charpentier takes out Vaughn Gittin Jr.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@romecp @vaughngittinjr @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 732.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:52:11.900656+00:00",
+   "built": "2026-11-19T15:52:11.900662+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-11/clip.mp4",
+   "tags": [
+    "@romecp",
+    "@vaughngittinjr",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "RCP TAKES OUT VAUGHN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "That wasn't a love tap, that was a hate tap. Jack Shanahan gets Jeff Jones unanimously.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jeffjonesracing @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 686.54
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:50:46.081432+00:00",
+   "built": "2026-11-19T15:50:46.081438+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-10/clip.mp4",
+   "tags": [
+    "@jeffjonesracing",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "THAT WAS A HATE TAP",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Castro grinds on the door, the title on the line. Conor Shanahan chases him down and is your 2026 Formula DRIFT champion.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #longbeach #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 620.48
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:49:18.843397+00:00",
+   "built": "2026-11-19T15:49:18.843402+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-9/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jonathan Castro"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN CROWNED CHAMPION",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Failure to launch, or was Odi Bakchis too aggressive? The judges pull the Race Data Labs data. Unanimous for Dan Burkett.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@raddandrift @odidrift @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 527.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:47:16.201420+00:00",
+   "built": "2026-11-19T15:47:16.201426+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-8/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FAILURE TO LAUNCH OR TOO AGGRESSIVE?",
+   "photo": null
+  },
+  {
    "id": "pod-ytlgdw88ygzo4-7",
    "kind": "stream_clip",
    "status": "draft",
@@ -23839,168 +23996,6 @@
    "caption_by": null,
    "format": "single",
    "title": "MUSTANG IN A BOX",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-13",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Norway versus Ireland, Mustang versus Supra, Ford versus Toyota. One more time in the rain at Road Atlanta.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 890.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T09:05:08.401217+00:00",
-   "built": "2026-11-19T09:05:08.401224+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-13/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "ONE MORE TIME IN THE RAIN",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-12",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Who is going to reign in the rain? James Deane leads, Fredric Aasbo dives in. That is hard to beat.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 835.98
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T09:03:06.400920+00:00",
-   "built": "2026-11-19T09:03:06.400927+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-12/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad",
-    "@fredricaasbo"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "A HARD ACT TO FOLLOW",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-11",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Phone lights up at Road Atlanta and Fredric Aasbo leads James Deane in the rain. Whoever makes the first mistake.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 777.76
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T09:01:16.930617+00:00",
-   "built": "2026-11-19T09:01:16.930623+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-11/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad",
-    "@fredricaasbo"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "RAIN BATTLE AT ROAD ATLANTA",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-10",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Two more times. Jonathan Castro needs a perfect lead, James Deane goes outside the track, but the spin decides it.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 727.18
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:59:09.464380+00:00",
-   "built": "2026-11-19T08:59:09.464386+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-10/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Jonathan Castro"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "TWO MORE TIMES",
    "photo": null
   }
  ],
