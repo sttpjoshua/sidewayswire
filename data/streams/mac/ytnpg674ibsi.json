@@ -1,7 +1,10 @@
 {
  "youtube": "NPG674Ib_sI",
- "status": "transcribing",
+ "status": "error",
  "note": "video vastgelegd in het register",
  "seconds": 682.0,
- "found_title": "Did We Make a 350Z Sound GOOD?!"
+ "found_title": "Did We Make a 350Z Sound GOOD?!",
+ "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+ "at": 1795117850.56881,
+ "version": "16"
 }
