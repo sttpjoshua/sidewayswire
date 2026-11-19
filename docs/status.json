@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T07:18:41.794410+00:00",
+ "updated": "2026-11-19T07:25:02.249819+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 16
+  "draft": 20
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -6967,9 +6967,9 @@
       "topic": "JOHNSON MAJOR MISTAKE IN OMT",
       "quote": "Maybe we go centers. Here we go. One more time. The one more time battle of Johnson and lands initiating into that first, second and third outside zone. That big wall there menacing as Jerry Johnson trying to get a little more refined here on this run. Oh, Lance comes off into that crease. Little bit of shake up there. Good proximity. Jerry Johnson now finds it in that outside zone five. Now transitioning into the final three. Let's see how they manage Johnson may be learning a little bit from that first run definitely a little tighter and Reiner lands as You can see him chasing a Lewis lands. Let's see slide him right for Lewis lands and unfortunately Johnson that major mistake",
       "why": "One more time, Johnson maakt grote fout",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6981,9 +6981,9 @@
       "topic": "HANSEN SLAMS INTO FARRELL",
       "quote": "Here we go. The DFR team going in, initiating there as Shelly Hanson drops to the side. DFR, let's talk about this. He is right there on the wall. Shelly Hanson, again, Dustin giving her a good opportunity to chase him down, transitioning it outside. Hello. Nice shot. Look at Shelly Hanson tucking in nicely into that smoke. Navigate state. Shelly Hanson slams that front left into the side of Dustin. All right, this is where, again, And Wally can see through the smoke, baby. That's what I love about it.",
       "why": "Shelly Hansen ramt de zijkant van Farrell",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-5/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6995,9 +6995,9 @@
       "topic": "GOOSEBUMPS FOR TWO YOUNG GUNS",
       "quote": "But Cameron Sorensen will lead in that comp cams, BMW lawns, and that no sympathy as chassis. Cameron initiates high on the bank outside zone one, two, and three, ticking them like boxes. Look at lawns sticking right to the door. Good execution by both these young pilots into outside zone five. and finding the outside line. Lons tucks in nicely as both these gentlemen. Wow, nice execution by Cameron Sorensen. Lons not giving them any room in that no sympathy S chassis. Are you serious? Down, Lons puts it right there. And what a great start. Woo, we got some goosebumps there. So for these two talented young drivers, Cameron Sorensen, Braden Lons. And it's a one more time. And Lons gets the win. Lons takes down Cameron Sorensen in our previous round in Indiana",
       "why": "Twee jonge rijders, one more time, Lons wint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-6/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -7009,9 +7009,9 @@
       "topic": "HEISHMAN GIVES IT THE HORNS",
       "quote": "Talaska and Heishman BMW vs Mustang. Talaska the fuel lab BMW. There's Erland. It looks like we're clear to start. Here we go. Alright here we go Talaska. Clean start no cones hit. No foul. Talaska initiates into the bank. Let's see what we got for him. It's the first outside zone, second and third. Now coming down. Oh, look at this. Heishman banging on the door of the BMW. The Mustang now giving it the horns in the outside zone 5. Heishman has to back down, not mimicking the exact angle of Tlaska. Now Tlaska finds that. And again, here comes Heishman in the second to last. And now that final outside zone goes to Tlaska and Heishman in 2026.",
       "why": "Heishman bonkt op de deur van Tlaska",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-7/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,165 @@
    "photo": null
   },
   {
+   "id": "pod-ytcaagmgzlale-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "BMW vs Mustang. Heishman bangs on the door of Corey Tlaska and gives it the horns.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 448.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:25:02.178995+00:00",
+   "built": "2026-11-19T07:25:02.179003+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-7/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Corey Tlaska"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "HEISHMAN GIVES IT THE HORNS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Cameron Sorensen and Braden Lons give us goosebumps. One more time, and Lons gets the win.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 397.17
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:23:22.354794+00:00",
+   "built": "2026-11-19T07:23:22.354799+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-6/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Cameron Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "GOOSEBUMPS FOR TWO YOUNG GUNS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Shelly Hansen tucks into the smoke and slams the front left into the side of Dustin Farrell.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 360.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:21:35.024216+00:00",
+   "built": "2026-11-19T07:21:35.024222+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-5/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Dustin Farrell",
+    "Shelly Hansen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "HANSEN SLAMS INTO FARRELL",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "One more time between Jerry Johnson and Braden Lons, and Johnson makes the major mistake.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 256.13
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:20:18.860425+00:00",
+   "built": "2026-11-19T07:20:18.860431+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-4/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jerry Johnson"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "JOHNSON MAJOR MISTAKE IN OMT",
+   "photo": null
+  },
+  {
    "id": "pod-ytcaagmgzlale-3",
    "kind": "stream_clip",
    "status": "draft",
@@ -23961,174 +24120,6 @@
    "caption_by": null,
    "format": "single",
    "title": "A PRINCE IN THE POLAND PADDOCK",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-4",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Swiss police patrol looking for modified cars, and a warning is rare. One friend of Rafael Muller paid over 10k and lost his license for two years.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #switzerland #carculture #driftcar #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 1160.76
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:22:52.907195+00:00",
-   "built": "2026-11-17T18:09:52.846254+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-4/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SWISS COPS HUNT MODIFIED CARS",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-3",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Want to lower your car in Switzerland? Approved coilovers only, paperwork, a lift inspection and a test drive.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #coilovers #switzerland #stance #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 903.16
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:21:37.640988+00:00",
-   "built": "2026-11-17T18:09:52.846045+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-3/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SWISS COILOVERS: 30% MORE AND A TEST",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-22",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A tough year, a half-joking call and two weeks later Rafael Muller and his friend booked their first trip to Final Bout in the US.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #roadtrip #driftfamily #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-22/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 9010.88
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:40:26.034214+00:00",
-   "built": "2026-11-17T18:09:52.845511+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-22/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "A JOKE THAT BECAME FINAL BOUT",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-21",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Cops at the entrance, a beer in hand, and a Wisconsin campsite lady who had never heard of covering your beer. A European at Final Bout.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #wisconsin #roadtrip #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-21/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 8869.04
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:39:18.521675+00:00",
-   "built": "2026-11-17T18:09:52.845312+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-21/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SWISS GUY VS AMERICAN BEER LAWS",
    "photo": null
   }
  ],
