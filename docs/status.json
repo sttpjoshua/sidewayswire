@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T08:20:17.973901+00:00",
+ "updated": "2026-11-19T08:26:09.946788+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 52
+  "draft": 56
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -9876,9 +9876,9 @@
       "topic": "BUCHANAN NOT INTIMIDATED",
       "quote": "The shadow, Connor Shanahan. Wow, look at this, here we go. The Irish pilot against the North Dakota native. And look at that, Connor Shanahan. Cody Buchanan knows he can throw down. Yes, sir. Cody, he's not intimidated, no big deal. Shanahan, winner at round one. But Cody Buchanan times it perfectly. The reboot, wide open sea. He is right there. Connor Shanahan sets a blaze to that back right corner. And Cody Buchanan sets a blaze to that chase run. Dude, and given Saturday and makes some noise for Connor Shanahan and Cody Buchanan. and make some noise and Connor Shanahan gets the win taking down Cody.",
       "why": "Buchanan zet het vuur in zijn chase op Shanahan",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-14/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9890,9 +9890,9 @@
       "topic": "SHEDDING HEADLIGHTS",
       "quote": "Eastern caution the wind. Let's do it. Let's do it. Let's send it. Hey, baby. Send it. Look the stamp COD cash on delivery. Adam LZ up high and tied to that wall. Brandon Sorensen. He's just 20 year old, 22 year old, just scrappy kid. Like I said, very. Oh, we tagged bumpers. We tag lights from the windows to the walls, baby. As we go past that inside clip and then into the last outside zone, we're shedding some headlights for shits. Here we have a winner, Sorentin Adam LZ. Sorentin, Brandon Sorentin takes it.",
       "why": "Bumpers en koplampen geraakt, Sorensen wint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-15/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9904,9 +9904,9 @@
       "topic": "AASBO GIVES NO ROOM",
       "quote": "This is great. So he wants his win. He wants to take down Frederick Osbob. Matt Field feeling it. And Frederick Osbob in formation. He is right there. He's not giving him any room here as the red, white, and blue flying on top of the radio. Obviously, you can see it into that third outside zone. Now into four. Now transitioning into five. Quick little yank of that handbrake in that last outside zone. Matt Field, Frederick Osbob. Fredrick White for Matt Field. Fredrick gets one vote and two votes. Osbough gets the win in Evergreen Speedway.",
       "why": "Aasbo zit vast op Field en wint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-16/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9918,9 +9918,9 @@
       "topic": "REVENGE FOR AASBO?",
       "quote": "Here we go. Back at it like a track at it. Here we go. Frederick Osbobell will lead. Connor Shanahan give a chase. And Connor Shanahan in formation. Again, we are talking about a Norwegian Irishman who's coming out on top. Some revenge for Frederick Osbobell. Going to the power alley. We want to get that replay for sure coming off that bank into two and Connor Shannon explodes that inside clip and crossing the finish line tire fire. Let him know you're here P and W baby.",
       "why": "Finale Seattle: kan Aasbo wraak nemen voor Long Beach?",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-17/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,167 @@
    "photo": null
   },
   {
+   "id": "pod-ytckqkb2axqe-17",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Final at Evergreen. Fredric Aasbo leads, Conor Shanahan chases. Revenge for Long Beach?\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @formulad @fredricaasbo\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 865.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:26:09.926464+00:00",
+   "built": "2026-11-19T08:26:09.926469+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-17/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "REVENGE FOR AASBO?",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-16",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Fredric Aasbo is right there and gives Matt Field no room at all. Aasbo wins at Evergreen.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@mattfield777 @formulad @fredricaasbo\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 798.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:24:46.445887+00:00",
+   "built": "2026-11-19T08:24:46.445914+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-16/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "AASBO GIVES NO ROOM",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@adam_lz @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 725.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:23:24.031280+00:00",
+   "built": "2026-11-19T08:23:24.031286+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-15/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHEDDING HEADLIGHTS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan sets a blaze on the back corner and Cody Buchanan sets a blaze to the chase. Not intimidated.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @cbuchanan272 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 681.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:22:01.883109+00:00",
+   "built": "2026-11-19T08:22:01.883115+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-14/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@cbuchanan272",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "BUCHANAN NOT INTIMIDATED",
+   "photo": null
+  },
+  {
    "id": "pod-ytckqkb2axqe-13",
    "kind": "stream_clip",
    "status": "draft",
@@ -23919,171 +24080,6 @@
    "caption_by": null,
    "format": "single",
    "title": "RUDY HANSEN SPINS OUT",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-19",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Trenton Beechum against Rudy Hansen. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@trenton_beechum @rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "media/pod-yt8bwn2g2ssy-19/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 4786
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:33:36.756231+00:00",
-   "built": "2026-11-19T01:11:25.161772+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8bwn2g2ssy-19/clip.mp4",
-   "tags": [
-    "@trenton_beechum",
-    "@rudyhansen119",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "BEECHUM VS HANSEN, SIDE BY SIDE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-15",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Daniel Stuckey against Andy Hateley. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@hateleydrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "media/pod-yt8bwn2g2ssy-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 3831
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:25:42.476019+00:00",
-   "built": "2026-11-19T01:11:25.119278+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8bwn2g2ssy-15/clip.mp4",
-   "tags": [
-    "@hateleydrift",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Daniel Stuckey"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "title": "STUCKEY VS HATELEY, SIDE BY SIDE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-1",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Flavor Flav took a ride with Amanda Sorensen in Las Vegas, and the 360 at the end blew his mind.\n\n🎥 Footage: FD LAS VEGAS 2026\n@amanda.sorensen12 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "media/pod-yt8bwn2g2ssy-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 1467.72
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T19:39:45.979327+00:00",
-   "built": "2026-11-19T01:11:25.051311+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8bwn2g2ssy-1/clip.mp4",
-   "tags": [
-    "@amanda.sorensen12",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Flavor Flav"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "FLAVOR FLAV ON HIS DRIFT RIDE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytinepijspeek-3",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire has figured out the Corvette, and 85.66 makes him the new top qualifier at that point.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-ytinepijspeek-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
-    "start": 3027.96
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T13:09:50.384596+00:00",
-   "built": "2026-11-18T13:15:14.086832+00:00",
-   "want_at": null,
-   "video": "media/pod-ytinepijspeek-3/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "85.66 FROM LEMAIRE",
    "photo": null
   }
  ],
