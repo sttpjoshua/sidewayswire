@@ -77,8 +77,13 @@
    "why": "zijn eigen wijsheid"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytn7sq14e5es-2-14690-15212.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytn7sq14e5es-2-14690-15212.mp4",
+  "clip": "docs/media/pod-ytn7sq14e5es-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1504.34, \"start\": 1501.24, \"text\": \"WHY THE FIRST BATTLE IS THE WORST\", \"why\": \"zijn eigen wijsheid\"}",
+  "made": "2026-11-19T16:18:20.119844+00:00"
  },
  {
   "start": 481.14,
@@ -100,8 +105,13 @@
    "why": "grappig detail"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytn7sq14e5es-3-4811-5471.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytn7sq14e5es-3-4811-5471.mp4",
+  "clip": "docs/media/pod-ytn7sq14e5es-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 538.42, \"start\": 536.6, \"text\": \"WHAT DOES HE SLEEP WITH?\", \"why\": \"grappig detail\"}",
+  "made": "2026-11-19T16:20:25.005816+00:00"
  },
  {
   "start": 775.02,
@@ -123,10 +133,15 @@
    "why": "de achtergrond"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Achternaam 'Grillis' uit transcript nakijken",
-  "wait_name": "v2-ytn7sq14e5es-4-7750-8275.mp4"
+  "wait_name": "v2-ytn7sq14e5es-4-7750-8275.mp4",
+  "clip": "docs/media/pod-ytn7sq14e5es-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 787.54, \"start\": 784.18, \"text\": \"HIS FIRST EVENT SINCE THAT CRASH\", \"why\": \"de achtergrond\"}",
+  "made": "2026-11-19T16:22:05.746124+00:00"
  },
  {
   "start": 852.9,
@@ -148,8 +163,13 @@
    "why": "de swap"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytn7sq14e5es-5-8529-8965.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytn7sq14e5es-5-8529-8965.mp4",
+  "clip": "docs/media/pod-ytn7sq14e5es-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 875.78, \"start\": 872.22, \"text\": \"WHAT IS UNDER THIS AE86?\", \"why\": \"de swap\"}",
+  "made": "2026-11-19T16:23:28.837026+00:00"
  },
  {
   "start": 1164.02,

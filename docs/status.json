@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T16:16:25.383707+00:00",
+ "updated": "2026-11-19T16:23:28.881462+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 176
+  "draft": 180
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -8401,9 +8401,9 @@
       "topic": "TENSION IN THE TITLE PIT",
       "quote": "Piotr Viensek is just heading out to Battle Island Hines. This is a defining moment in the Driftmaster season. I'm heading into Padel Korpilinski's pits. I'm gonna keep out the way. I just want to get the behind the scenes for you guys of the reaction here. Padel is in contention for a championship. This could mean a lot, so let's see how this goes. What's up? Just here, get your reaction, see the tension build. How are you feeling? Does it look like you had an amazing battle? Yeah, it was a tough one. A tough first battle, I would say. It always feels good to go through the first one. I usually say that the first one is the worst one. No, but just the saying, every battle is going to be equally tough, especially looking at the fact that I'm going to go against Kevin Pastore in top 16. so yeah even more pressure, even more stress on me but I will do my best.",
       "why": "In de pit van Korpuliński na zijn eerste battle",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytn7sq14e5es-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8415,9 +8415,9 @@
       "topic": "LIVING IN A DRIFT CAR",
       "quote": "That's amazing and just so everybody knows you've been living in this car as well right? Yeah so for those that don't know me Andy Howard's my name and I'm basically driving this car across the world in sport with make -away's so driving from Australia all the way back Ireland and drifting this thing living in the car and yeah taking it day by day awesome man I'm gonna have a good look that's alright for the drift masters YouTube channel awesome he's been living in this car there's his bed in there as well oh look at that! look at that! I recognise that one! that's my car The funny thing is, it's your car, it's on my car back in England as well. Yeah, that's it. Yeah, yeah. Four English cars. I mean, yours actually got two. Yeah, that's the thing. Yeah, it's awesome, man. The whole thing is pretty messy though. I'm trying to live in this thing, trying to sleep in it, trying to cook in it, have all my spare, so I sleep with all my steering racks, so I have two extra steering racks. I have loads of prop shafts, went through a gearbox with an engine in Australia, so much has happened. So, yeah, it's been a wild adventure.",
       "why": "Andy Howard rijdt en woont in zijn driftauto van Australië naar Ierland",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytn7sq14e5es-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8429,9 +8429,9 @@
       "topic": "STAVROS IS BACK",
       "quote": "Just want to stop by this man's pit. Stavros Grillis was one of the drivers when I first joined Driftmasters and in Austria he had a massive accident in his AE86. Stavros, welcome back My friend, it's good to see you. It's been a long time, man. How are you? Welcome back. How have you found today? It was good. We did a good first run. We went to Huskartre on the second run. But the conditions for the track were a bit strange. I was very sleepy on the first corner. I spin and we are out of competition. It's great to see you back though dude, it's been a long time, it's great to see you again man. Enjoy the rest of your evening. Yeah he's been around a long time, good to see him back and drift fast, even if he didn't get the result he wanted.",
       "why": "Stavros terug na zijn zware crash in Oostenrijk",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytn7sq14e5es-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8443,9 +8443,9 @@
       "topic": "WIECEK'S HONDA SWAPPED AE86",
       "quote": "Now, Piotr Viencic has got his spotter Lucas joining him in one of his bare warehouse cars. I've got to show you this as well. There's no way I can walk past this car and not show you this. This is Piotr Viencic's car that he arrived in and I spoke to him about it. There's an A86 with the wife end is on with a Honda s2000 f20c engine gearbox swap So this is an absolute ripper. He says it's one of his favorite cars He has to drive he loves this thing He brings it along the drift master pole run because he obviously lives here and it is so cool and that is loses JZX next to it. Look at these cars They're so cool. The color of that is beautiful. The wheels are beautiful. The arches are beautiful.",
       "why": "Więcek's straatauto: AE86 met S2000-motor",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytn7sq14e5es-5/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,164 @@
    "photo": null
   },
   {
+   "id": "pod-ytn7sq14e5es-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Piotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#driftmasters #drifting #ae86 #engineswap #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Behind The Scenes At The 2026 Red Bull Drift Masters Grand Finale",
+    "start": 852.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:23:28.838204+00:00",
+   "built": "2026-11-19T16:23:28.838210+00:00",
+   "want_at": null,
+   "video": "media/pod-ytn7sq14e5es-5/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Piotr Więcek"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "WIECEK'S HONDA SWAPPED AE86",
+   "photo": null
+  },
+  {
+   "id": "pod-ytn7sq14e5es-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After a massive accident in his AE86 in Austria, Stavros Grillis is back in the Drift Masters paddock.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#driftmasters #drifting #ae86 #comeback #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Behind The Scenes At The 2026 Red Bull Drift Masters Grand Finale",
+    "start": 775.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:22:05.747311+00:00",
+   "built": "2026-11-19T16:22:05.747317+00:00",
+   "want_at": null,
+   "video": "media/pod-ytn7sq14e5es-4/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Stavros Grillis"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "STAVROS IS BACK",
+   "photo": null
+  },
+  {
+   "id": "pod-ytn7sq14e5es-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Andy Howard is driving his drift car from Australia to Ireland, living in it the whole way.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#drifting #driftmasters #roadtrip #behindthescenes #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Behind The Scenes At The 2026 Red Bull Drift Masters Grand Finale",
+    "start": 481.14
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:20:25.007037+00:00",
+   "built": "2026-11-19T16:20:25.007043+00:00",
+   "want_at": null,
+   "video": "media/pod-ytn7sq14e5es-3/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Andy Howard"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "LIVING IN A DRIFT CAR",
+   "photo": null
+  },
+  {
+   "id": "pod-ytn7sq14e5es-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Inside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Behind The Scenes At The 2026 Red Bull Drift Masters Grand Finale",
+    "start": 1468.96
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:18:20.121040+00:00",
+   "built": "2026-11-19T16:18:20.121046+00:00",
+   "want_at": null,
+   "video": "media/pod-ytn7sq14e5es-2/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński",
+    "Piotr Więcek",
+    "Alan Hynes"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "TENSION IN THE TITLE PIT",
+   "photo": null
+  },
+  {
    "id": "pod-ytn7sq14e5es-1",
    "kind": "stream_clip",
    "status": "draft",
@@ -23835,164 +23993,6 @@
    "caption_by": null,
    "format": "single",
    "title": "DID DEANE PUSH LZ OFF?",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-33",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chris Forsberg paints the line against James Deane and throws a deuce out the window.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2492.78
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:12:57.350816+00:00",
-   "built": "2026-11-19T12:12:57.350821+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-33/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Chris Forsberg"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "FORSBERG THROWS A DEUCE",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-32",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Nick Noback is the giant killer in Utah. Can he take out James Deane too?\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2349.24
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:11:16.397677+00:00",
-   "built": "2026-11-19T12:11:16.397683+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-32/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Nick Noback"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE GIANT KILLER",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-31",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Andy Hateley the drift wizard is no pushover, but he pushes too hard against James Deane.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @hateleydrift @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2290.62
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:09:06.653927+00:00",
-   "built": "2026-11-19T12:09:06.653932+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-31/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@hateleydrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DRIFT WIZARD PUSHED TOO HARD",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-30",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field leaves it all out on the track in the final, straightens out and goes off course. James Deane's victory.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@mattfield777 @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2237.76
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:06:57.467355+00:00",
-   "built": "2026-11-19T12:06:57.467360+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-30/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FIELD GOES OFF IN THE FINAL",
    "photo": null
   }
  ],
