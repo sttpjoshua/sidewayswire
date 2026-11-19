@@ -558,8 +558,13 @@
    "why": "de klap"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-18-77649-78080.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-18-77649-78080.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7794.04, \"start\": 7790.88, \"text\": \"JACK TAKES A MASSIVE HIT\", \"why\": \"de klap\"}",
+  "made": "2026-11-19T00:09:43.149122+00:00"
  },
  {
   "start": 8014.32,
@@ -582,8 +587,13 @@
    "why": "vreemd moment"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-19-80143-80645.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-19-80143-80645.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8019.66, \"start\": 8018.0, \"text\": \"WHAT JUST HAPPENED?\", \"why\": \"vreemd moment\"}",
+  "made": "2026-11-19T00:11:05.243698+00:00"
  },
  {
   "start": 8374.28,
@@ -606,8 +616,13 @@
    "why": "technisch verhaal"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-20-83743-84277.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-20-83743-84277.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8390.5, \"start\": 8388.98, \"text\": \"HOW DID THIS BMW SURVIVE?\", \"why\": \"technisch verhaal\"}",
+  "made": "2026-11-19T00:12:31.630922+00:00"
  },
  {
   "start": 8632.26,
@@ -631,8 +646,13 @@
    "why": "eerlijke reactie"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-21-86323-86904.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-21-86323-86904.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8676.38, \"start\": 8674.32, \"text\": \"MATT FIELD ON THE CALL\", \"why\": \"eerlijke reactie\"}",
+  "made": "2026-11-19T00:13:52.785840+00:00"
  },
  {
   "start": 9143.14,
