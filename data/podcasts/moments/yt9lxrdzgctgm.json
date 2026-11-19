@@ -1155,8 +1155,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-38r2-23566-23870.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-38r2-23566-23870.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-38/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:36:03.028610+00:00"
  },
  {
   "start": 3163.0,
@@ -1191,10 +1196,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Naam Daniel Stuckey",
-  "wait_name": "v2-yt9lxrdzgctgm-39r2-41284-41660.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-39r2-41284-41660.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-39/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:38:52.759386+00:00"
  },
  {
   "start": 3535.4,
@@ -1229,10 +1239,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Rudy Hansen",
-  "wait_name": "v2-yt9lxrdzgctgm-40r2-36820-37190.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-40r2-36820-37190.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-40/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:40:12.563097+00:00"
  },
  {
   "start": 4305.6,
@@ -1267,8 +1282,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-41r2-44420-44820.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-41r2-44420-44820.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-41/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:43:11.966179+00:00"
  },
  {
   "start": 4609.2,

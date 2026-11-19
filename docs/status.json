@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T00:34:36.563563+00:00",
+ "updated": "2026-11-19T00:43:11.976299+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 120
+  "draft": 124
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -3042,9 +3042,9 @@
       "topic": "JACK VS JEFF, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-38/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3056,9 +3056,9 @@
       "topic": "LZ VS STUCKEY, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-39/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3070,9 +3070,9 @@
       "topic": "LITTERAL VS HANSEN, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-40/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3084,9 +3084,9 @@
       "topic": "DEANE VS MASUYAMA, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-41/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -16523,6 +16523,163 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-41",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane vs Wataru Masuyama, lead vs lead and chase vs chase.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jamesdeane130 @watarudrift @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 4305.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:43:11.966889+00:00",
+   "built": "2026-11-19T00:43:11.966892+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-41/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@watarudrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "DEANE VS MASUYAMA, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-40",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Litteral vs Rudy Hansen in Top 16. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryanlitteral @rudyhansen119 @formulad\n\n#formulad #formuladrift #ryanlitteral #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 3535.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:40:12.563856+00:00",
+   "built": "2026-11-19T00:40:12.563860+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-40/clip.mp4",
+   "tags": [
+    "@ryanlitteral",
+    "@rudyhansen119",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "LITTERAL VS HANSEN, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-39",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ vs Daniel Stuckey, both runs side by side. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@adam_lz @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 3163.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:38:52.760157+00:00",
+   "built": "2026-11-19T00:38:52.760165+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-39/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "LZ VS STUCKEY, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-38",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Top 16 at Long Beach: Jack Shanahan vs Jeff Jones. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formulad #formuladrift #jackshanahan #jeffjones #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 2209.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:36:03.029376+00:00",
+   "built": "2026-11-19T00:36:03.029381+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-38/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jeffjonesracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "JACK VS JEFF, SIDE BY SIDE",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-37",
    "kind": "stream_clip",
    "status": "draft",
@@ -23765,170 +23922,6 @@
    "caption_by": null,
    "format": "single",
    "title": "WHERE 'THIS MACHINE' COMES FROM",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-16",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "In Formula DRIFT he paid six crew members' flights and hotels. At Gridlife he showed up with no crew at all.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#formulad #drifting #mattfield #gridlife #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-16/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 3699.13
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:15:05.792762+00:00",
-   "built": "2026-11-17T18:09:52.839949+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-16/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "WORLD CLASS ON A GRASSROOTS BUDGET",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-15",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "People in the industry who brushed him off suddenly had time for Matt Field once his first video went everywhere.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #gridlife #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 3603.47
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:14:28.090094+00:00",
-   "built": "2026-11-17T18:09:52.839740+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-15/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHEN THE INDUSTRY NOTICED",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-14",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "If FD isn't first or second in your life, it is nothing. Matt Field on the anxiety that followed him to bed every night.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #mentalhealth #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 3248.76
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:13:48.920472+00:00",
-   "built": "2026-11-17T18:09:52.839524+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-14/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE PRICE OF RACING FD",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-13",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Matt Field would go back to Formula DRIFT, but only with the right people, the right team and a car built for today's sport.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#formulad #drifting #mattfield #comeback #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-13/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 3122.1
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:12:55.643442+00:00",
-   "built": "2026-11-17T18:09:52.839323+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-13/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "WOULD MATT FIELD RETURN TO FD?",
    "photo": null
   }
  ],
