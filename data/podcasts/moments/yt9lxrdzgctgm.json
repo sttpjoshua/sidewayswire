@@ -909,8 +909,13 @@
    "why": "pittige uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-30-104728-105144.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-30-104728-105144.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-30/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10500.18, \"start\": 10498.6, \"text\": \"JACK HAS A MESSAGE\", \"why\": \"pittige uitspraak\"}",
+  "made": "2026-11-19T00:24:11.050784+00:00"
  },
  {
   "start": 11127.86,
@@ -933,8 +938,13 @@
    "why": "beslissing"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-31-111279-111848.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-31-111279-111848.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-31/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 11152.76, \"start\": 11150.92, \"text\": \"IS THIS CORVETTE SAFE?\", \"why\": \"beslissing\"}",
+  "made": "2026-11-19T00:25:32.668657+00:00"
  },
  {
   "start": 11752.4,
@@ -957,8 +967,13 @@
    "why": "opvallend gebaar"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-32-117524-118158.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-32-117524-118158.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-32/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 11760.0, \"start\": 11757.34, \"text\": \"WHAT IS JACK DOING?\", \"why\": \"opvallend gebaar\"}",
+  "made": "2026-11-19T00:27:19.693701+00:00"
  },
  {
   "start": 11864.28,
@@ -981,8 +996,13 @@
    "why": "spin in de finale"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-33-118643-119142.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-33-118643-119142.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-33/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 11888.62, \"start\": 11887.1, \"text\": \"ALL OR NOTHING FOR SECOND\", \"why\": \"spin in de finale\"}",
+  "made": "2026-11-19T00:28:41.905465+00:00"
  },
  {
   "start": 12078.34,
