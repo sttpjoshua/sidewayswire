@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T13:30:20.323377+00:00",
+ "updated": "2026-11-19T13:39:59.329204+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 132
+  "draft": 136
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4735,9 +4735,9 @@
       "topic": "81.43 FROM MATT FIELD",
       "quote": "Wow. A rev -lover is nasty. If anybody was asleep in Long Beach, they are awake now. Wow. Sound ordinance fine. Inbound. I'm here for it, though. Well, listen, we'll start a pool. We'll pay for that. That sounds incredible. It's a really good looking run here for Matt Fields. 4 .54 is on zone three where the issues are for him. But I mean, the rest of this looks great. I like the way he's kind of got the car set up where the very top end, he's just blasting the tires off. And that's how he's holding angler, actually picking up some angle with the cars by just absolutely hitting that rev limiter super, super hard. Amazing sound there out of Matt Fields V8. I think they've lowered the rev limiter a little bit. I feel like they don't want to lose any more engines this year. And really, as we said, we don't need all 1 ,000 horsepower on this track. It's a good time to dial things back a little bit and tune it for this surface and this time. But dang, an absolute heater of a run. Impact -wise, it's all there. Yeah, all right. So again, Matt Field, seventh in standings. and eighth in qualified jumps up with a score of 81 .43.",
       "why": "Field slaat de begrenzer, heel Long Beach wakker",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-20/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4749,9 +4749,9 @@
       "topic": "83.43 FROM AASBO",
       "quote": "Well, it feels like we kind of have two osmos. We got Freddie the wild man and then Frederick the more, you know. It was folk. Yeah, just, you know, very clean, you know, cut, you know, calculated. And this year he's been flipping back and forth between those two personalities and sometimes Freddie is the way to go, sometimes Frederick's the way to go. He tried Freddie earlier on, now he's back to Frederick. Dr. Freddy and Dr. Frederick. Yeah, Mr. Gals. I like that. Well, we spitballed that one. No, no, it's good. We'll work on it. We'll workshop this a bit. But it's true. It's the two sides of him. And what's going to be the big decision maker for him moving forward is going to be when to pull out those two characters. You kind of see it with Odie Boxhees as well. Right? We talk about Odie versus Arma's Boxhees. But yeah, for Freddy, this one is a lot more calculated. It's very sweet. It's very smooth. It's very smooth. Yeah, it's very speed It's just it's a solid run and this score is gonna reflect that Yeah, you know zone five is in zone three and kind of the two pointers there I guess on one as well But you know not opting to really throw the car around just make sure you get the zones dialed and see what the judges think And it's an improvement 83 .43",
       "why": "Wilde Freddie of robot Frederick",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-21/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4763,9 +4763,9 @@
       "topic": "91.53 FROM JACK SHANAHAN",
       "quote": "Yeah, for Jack, it is kind of that do or die. He's going to need something big. And as we see the zone score is already coming in, that's the case is where C -4 is all the way across the board, a couple of fives in there as well. But yeah, Jack, he wants that by run. He needs to win the event to even have a shot. He needs to do really well here in qualifying as well. So from, you know, from this moment on, everything's got to be perfect for Jack Shanahan. And he's looking close to it. 38 .4 near perfect online. 51 % average. I just got word that is the highest line score we've gotten all day. To give you an idea, Jack is absolutely on it. This is 4 .2 in the second zone. Yeah, wild, wild. All right, can he re -assume that number one position? 91 .53. Jack Shanahan jumped up. And again, the judge like a 17 .33. out of 20.",
       "why": "Hoogste lijnscore van de dag, Jack wordt nummer een",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-22/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4777,9 +4777,9 @@
       "topic": "85.73 FROM SORENSEN",
       "quote": "Yeah first zone he's right on the wall floats out quite well to zone two Maybe just a little bit deeper through there We're gonna see a perfect five on the first zone four point five on the second third That is where a lot of drivers have been struggling, not able to fill that out. That 2 .6 might be the difference maker between the top spot and ranking a little bit further down. Now Brandon doesn't need this to potentially win the championship. It would obviously help. Every little point is gonna move you a little bit further. But those top spots are gonna be the difference between second and third in the championship order. So yeah, we're gonna find out how this one works out for him. Is it going to be an improvement over an 80 .6? I feel like it will. Wow. Is it going to be enough to take top spot though? Yeah. 36 and 34. I mean, already right there, that's 70. 70, 71 .4. So figure 81 .4. So yeah, he's definitely going to better it. And he does. 85 .73 jumps up to position five.",
       "why": "Sorensen verbetert naar 85.73",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-23/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,159 @@
    "photo": null
   },
   {
+   "id": "pod-ytinepijspeek-23",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen hits nearly every zone and jumps to fifth with an 85.73.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 10712.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:39:59.305581+00:00",
+   "built": "2026-11-19T13:39:59.305586+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-23/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "85.73 FROM SORENSEN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-22",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Do or die for Jack Shanahan. Highest line score of the day and a 91.53 to take top qualifier.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @formulad\n\n#jackshanahan #formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 10446.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:37:46.574731+00:00",
+   "built": "2026-11-19T13:37:46.574737+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-22/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "91.53 FROM JACK SHANAHAN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-21",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Wild man Freddie or calculated Frederick? The calm version of Fredric Aasbo shows up for 83.43.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@fredricaasbo @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 10185.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:35:46.118390+00:00",
+   "built": "2026-11-19T13:35:46.118396+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-21/clip.mp4",
+   "tags": [
+    "@fredricaasbo",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "83.43 FROM AASBO",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-20",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field bounces the V8 off the rev limiter. If anybody was asleep in Long Beach, they're awake now. 81.43.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 10052.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:33:06.233384+00:00",
+   "built": "2026-11-19T13:33:06.233389+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-20/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "81.43 FROM MATT FIELD",
+   "photo": null
+  },
+  {
    "id": "pod-ytinepijspeek-19",
    "kind": "stream_clip",
    "status": "draft",
@@ -23864,165 +24017,6 @@
    "caption_by": null,
    "format": "single",
    "title": "SHEDDING HEADLIGHTS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-14",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Conor Shanahan sets a blaze on the back corner and Cody Buchanan sets a blaze to the chase. Not intimidated.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @cbuchanan272 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 681.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:22:01.883109+00:00",
-   "built": "2026-11-19T08:22:01.883115+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-14/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@cbuchanan272",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "BUCHANAN NOT INTIMIDATED",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-13",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jack Shanahan bangs on the door of the Supra, but Fredric Aasbo does not crack. Jack pushes too hard.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @formulad @fredricaasbo\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 639.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:20:17.952235+00:00",
-   "built": "2026-11-19T08:20:17.952244+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-13/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@formulad",
-    "@fredricaasbo"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "AASBO DOESN'T CRACK",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-12",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Brandon Sorensen is on a tear in Seattle and the booth is speechless. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@trenton_beechum @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 566.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:18:47.483728+00:00",
-   "built": "2026-11-19T08:18:47.483734+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-12/clip.mp4",
-   "tags": [
-    "@trenton_beechum",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SORENSEN LEAVES THEM SPEECHLESS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-11",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A big tire fire on Ryan Tuerck's Corolla, and he goes back to the future to put it out himself.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@ryantuerck @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 522.4
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:17:13.134020+00:00",
-   "built": "2026-11-19T08:17:13.134026+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-11/clip.mp4",
-   "tags": [
-    "@ryantuerck",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "TUERCK PUTS OUT HIS OWN FIRE",
    "photo": null
   }
  ],

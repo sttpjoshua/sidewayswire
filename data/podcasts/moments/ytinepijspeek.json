@@ -582,8 +582,13 @@
    "why": "grappige commentaarregel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-20-100520-101252.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-20-100520-101252.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10059.1, \"start\": 10055.9, \"text\": \"NOBODY IS SLEEPING IN LONG BEACH\", \"why\": \"grappige commentaarregel\"}",
+  "made": "2026-11-19T13:33:06.232003+00:00"
  },
  {
   "start": 10185.04,
@@ -605,8 +610,13 @@
    "why": "grappige bijnaam"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-21-101850-102559.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-21-101850-102559.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10205.84, \"start\": 10203.86, \"text\": \"WHICH AASBO SHOWED UP?\", \"why\": \"grappige bijnaam\"}",
+  "made": "2026-11-19T13:35:46.116985+00:00"
  },
  {
   "start": 10446.3,
@@ -628,8 +638,13 @@
    "why": "hoogste lijnscore"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-22-104463-105038.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-22-104463-105038.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10484.78, \"start\": 10481.72, \"text\": \"THE BEST LINE OF THE ENTIRE DAY\", \"why\": \"hoogste lijnscore\"}",
+  "made": "2026-11-19T13:37:46.573353+00:00"
  },
  {
   "start": 10712.2,
@@ -651,10 +666,15 @@
    "why": "spanning"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "voornaam/spelling Sorensen controleren",
-  "wait_name": "v2-ytinepijspeek-23-107122-107725.mp4"
+  "wait_name": "v2-ytinepijspeek-23-107122-107725.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10756.66, \"start\": 10753.98, \"text\": \"CAN HE STEAL THE TOP SPOT?\", \"why\": \"spanning\"}",
+  "made": "2026-11-19T13:39:59.304228+00:00"
  },
  {
   "start": 10840.8,
