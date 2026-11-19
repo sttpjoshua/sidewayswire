@@ -866,8 +866,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-29-21433-22036.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-29-21433-22036.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2184.46, \"start\": 2182.4, \"text\": \"IS THIS A PHOTO OR VIDEO?\", \"why\": \"mooie beelden\"}",
+  "made": "2026-11-19T12:05:33.607618+00:00"
  },
  {
   "start": 2237.76,
@@ -890,8 +895,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-30-22378-22851.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-30-22378-22851.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-30/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2272.14, \"start\": 2270.42, \"text\": \"WHAT HAPPENED IN THE FINAL?\", \"why\": \"beslissende fout\"}",
+  "made": "2026-11-19T12:06:57.466030+00:00"
  },
  {
   "start": 2290.62,
@@ -914,8 +924,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-31-22906-23487.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-31-22906-23487.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-31/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2326.64, \"start\": 2324.8, \"text\": \"CAN THE WIZARD BEAT THE MACHINE?\", \"why\": \"fout\"}",
+  "made": "2026-11-19T12:09:06.652582+00:00"
  },
  {
   "start": 2349.24,
@@ -938,8 +953,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-32-23492-24091.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-32-23492-24091.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-32/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2357.56, \"start\": 2355.82, \"text\": \"CAN THE GIANT KILLER STRIKE AGAIN?\", \"why\": \"spanning\"}",
+  "made": "2026-11-19T12:11:16.396332+00:00"
  },
  {
   "start": 2492.78,
