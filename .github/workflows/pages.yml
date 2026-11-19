@@ -1,11 +1,16 @@
 # Publishes the dashboard (docs/) to GitHub Pages, only when something in docs/ changed.
 # The Mac and the editors commit data many times an hour; the old "deploy from branch" built the site on
 # every commit and the builds kept cancelling each other, so the site stopped updating.
+# Commits made by the workflows themselves (GITHUB_TOKEN) never start a push trigger, so the dashboard also
+# deploys when one of the workflows that write docs/ has finished (19 nov: phone previews stayed invisible).
 name: pages
 on:
   push:
     branches: [main]
     paths: ["docs/**"]
+  workflow_run:
+    workflows: [run, clips, previews, shorts, collect, podcasts, media, media-public, handles, connect]
+    types: [completed]
   workflow_dispatch:
 permissions: { contents: read, pages: write, id-token: write }
 concurrency: { group: pages, cancel-in-progress: false }
