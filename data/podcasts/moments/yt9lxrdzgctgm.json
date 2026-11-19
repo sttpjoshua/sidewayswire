@@ -1659,8 +1659,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-50r2-99958-100300.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-50r2-99958-100300.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-50/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T06:42:21.342696+00:00"
  },
  {
   "start": 11722.5,
@@ -1695,9 +1700,14 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Run 1 init geschat (geen commentaar tijdens run 1)",
-  "wait_name": "v2-yt9lxrdzgctgm-51r2-118646-119000.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-51r2-118646-119000.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-51/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T06:46:48.611632+00:00"
  }
 ]

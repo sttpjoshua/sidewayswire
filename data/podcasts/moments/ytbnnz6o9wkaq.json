@@ -20,8 +20,13 @@
    "why": "de fout van Król"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytbnnz6o9wkaq-0-300-1009.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytbnnz6o9wkaq-0-300-1009.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 56.38, \"start\": 54.48, \"text\": \"A BRAVE DIVE THAT BACKFIRED?\", \"why\": \"de fout van Kr\\u00f3l\"}",
+  "made": "2026-11-19T06:49:21.264327+00:00"
  },
  {
   "start": 114.44,
@@ -44,10 +49,15 @@
    "why": "de redding"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Hongaarse coureur 'Kevin Pascoli' (GR86) naam nakijken",
-  "wait_name": "v2-ytbnnz6o9wkaq-1-1144-1881.mp4"
+  "wait_name": "v2-ytbnnz6o9wkaq-1-1144-1881.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 167.08, \"start\": 164.9, \"text\": \"HOW IS HE STILL GOING?\", \"why\": \"de redding\"}",
+  "made": "2026-11-19T06:52:00.993321+00:00"
  },
  {
   "start": 200.42,

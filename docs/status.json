@@ -1,9 +1,10 @@
 {
- "updated": "2026-11-19T03:56:08.811652+00:00",
+ "updated": "2026-11-19T06:52:01.016427+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
-  "posted": 3
+  "posted": 3,
+  "draft": 4
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -3209,9 +3210,9 @@
       "topic": "JACK VS LZ, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-50/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3223,9 +3224,9 @@
       "topic": "THE FINAL, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-51/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      }
@@ -10934,9 +10935,9 @@
       "topic": "KROL RISKS EVERYTHING",
       "quote": "almost identical machines, the two very different driving styles. Look at this, from Kroll already tagging the door as Korpalinski pulls him on a very wide line. Yakov Kroll not messing around. Look at this from Yakov Kroll straight up on the inside once again. He knows the measure of Korpalinski as they fire down to outside zone seven and back once again. Yakov Kroll absolutely risking everything right now as he goes for another brave dive but it doesn't pay off. He mistimes it and stalls up. ...and the right to both of these guys, they come off the line. Kroll to lead our Korpalinski, we know that Korpalinski has struggled with a little bit of aggression in the past, and this has been a year where he opens it up the can of aggression and starts to throw some punches at Driftmasters, and he certainly does right now as he almost lands a punch on the door of Jakob Kroll's S14 .9. Shallow angle into outside zone 4 as Jakob Kroll now works his way through inner 5, and Korpalinski is right there with him, nothing dramatic at the moment, but the bumper -to -bumper transitions are absolutely ridiculous from Korpalinski, as he fires up the inside on outside Todate, a back across, known this time transition, but he has to straighten up the angle as he pulls it across the line. Another great battle, and this is also a testament when you've got equal equipment. Virgin Pavel Korpalinsky takes it through to the top 16.",
       "why": "Król duikt te dapper en valt stil, Korpuliński door",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytbnnz6o9wkaq-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10948,9 +10949,9 @@
       "topic": "SHANAHAN SAVES IT BACKWARDS",
       "quote": "Well, if he goes slamming through the gears, Shanahan fires him, but look at Pascoli straight down on the wheel up to the door as Kevin Pascoli now matches the angle and mirrors the pace as Conor Shanahan leads him through, outside zone three, big transition from Shanahan as Pascoli plays his safe shot. And the angle dives on the door once again, Kevin Pascoli is like a brand new man in 2026. It's incredible from the Hungarian as he fires up to the wall of the Irishman. Pascoli can't be shaken, Shanahan on a beautiful lead line. Oh, Pascoli goes for a dive! Onto the door across the line. The change seems to be working for the Hungarian right now, but now they have to lead out the defending champion as they come off the line and through the gears. Pascoli flicks that GR86 from left to right, and Shanahan's not going to give him an inch, or he drops in and out of that first outside zone as Pascoli finds the throttle once again, and it'll wobble into outside zone 3 as Pascoli fires it down. Shanahan's backwards, almost contact, as Pascoli finds the throttle. Shanahan, how did he pull that off? As he fires onto the throttle, Pascoli now starting to drive away as he flicks it to outside zone 8. Shanahan shallowing up the angle, Pascoli on an incredible line into outside zone 9 and across the line with Shanahan on the door. And it's going to be Conner Shanahan getting the win and advancing through to the top 16.",
       "why": "Shanahan bijna achterstevoren, toch winst",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytbnnz6o9wkaq-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20750,6 +20751,164 @@
    "photo": null
   },
   {
+   "id": "pod-ytbnnz6o9wkaq-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Almost backwards, almost contact, and Conor Shanahan still pulls it off against the Hungarian.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 114.44
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T06:52:00.994852+00:00",
+   "built": "2026-11-19T06:52:00.994859+00:00",
+   "want_at": null,
+   "video": "media/pod-ytbnnz6o9wkaq-1/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Kevin Pozsar"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN SAVES IT BACKWARDS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytbnnz6o9wkaq-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Equal machines, very different styles. Jakub Król risks everything with a brave dive, and Paweł Korpuliński goes through.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 30.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T06:49:21.265790+00:00",
+   "built": "2026-11-19T06:49:21.265796+00:00",
+   "want_at": null,
+   "video": "media/pod-ytbnnz6o9wkaq-0/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński",
+    "Jakub Król"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "KROL RISKS EVERYTHING",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-51",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The final of the 2026 season: Jack Shanahan vs James Deane. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #jackshanahan #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 11722.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T06:46:48.612811+00:00",
+   "built": "2026-11-19T06:46:48.612817+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-51/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "THE FINAL, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-50",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Final 4: Jack Shanahan vs Adam LZ, both runs side by side.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @adam_lz @formulad\n\n#formulad #formuladrift #jackshanahan #adamlz #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 9836.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T06:42:21.343875+00:00",
+   "built": "2026-11-19T06:42:21.343881+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-50/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "JACK VS LZ, SIDE BY SIDE",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-7",
    "kind": "stream_clip",
    "status": "check",
@@ -24001,172 +24160,6 @@
    "caption_by": null,
    "format": "single",
    "title": "WHY RAF SKIPS COMPETITION",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-1",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "In Switzerland you need a separate trailer license to haul your drift car, and the order you hook it up matters.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #trailerlife #switzerland #driftlife #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 388.28
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:19:18.252453+00:00",
-   "built": "2026-11-17T18:09:52.842595+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-1/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE SWISS TRAILER EXAM TRAP",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "No tracks, decades of banned circuit racing, and drifters crossing borders every weekend. Rafael Muller on what it takes to drift from Switzerland.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #switzerland #grassrootsdrift #europeandrift #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 242.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:18:19.447943+00:00",
-   "built": "2026-11-17T18:09:52.842389+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-0/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SWITZERLAND'S RACING BAN IS OVER",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-9",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "No rear weight, front everything: Matt Field explains why his car got walked on FD tracks like Road Atlanta, and why that helped him later.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #corvette #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 2795.04
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:08:34.821382+00:00",
-   "built": "2026-11-17T18:09:52.842183+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-9/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHY HIS FD CAR GOT WALKED",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-8",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Why is Matt Field so fast at Laguna Seca? He grew up doing 120 to 130 mph entries at Thunderhill as a teenager.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #lagunaseca #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 2746.96
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:07:32.023059+00:00",
-   "built": "2026-11-17T18:09:52.841972+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-8/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "130 MPH ENTRIES AT 17",
    "photo": null
   }
  ],
