@@ -1026,8 +1026,13 @@
    "why": "de winnaar"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-34-120783-121513.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-34-120783-121513.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-34/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12143.24, \"start\": 12139.56, \"text\": \"WHO WINS THE FINALE?\", \"why\": \"de winnaar\"}",
+  "made": "2026-11-19T00:30:48.132145+00:00"
  },
  {
   "start": 12171.72,
@@ -1051,8 +1056,13 @@
    "why": "trots moment"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-35-121717-122202.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-35-121717-122202.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-35/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12190.42, \"start\": 12188.66, \"text\": \"WHAT A NIGHT FOR IRELAND\", \"why\": \"trots moment\"}",
+  "made": "2026-11-19T00:32:01.017390+00:00"
  },
  {
   "start": 12242.02,
@@ -1076,8 +1086,13 @@
    "why": "zelfspot"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-36-122420-122850.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-36-122420-122850.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-36/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12245.54, \"start\": 12243.54, \"text\": \"JACK SUMS UP THE FINAL\", \"why\": \"zelfspot\"}",
+  "made": "2026-11-19T00:33:08.502400+00:00"
  },
  {
   "start": 12301.5,
@@ -1099,8 +1114,13 @@
    "why": "groot nieuws"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-37-123015-123591.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-37-123015-123591.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-37/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12308.02, \"start\": 12306.22, \"text\": \"ADAM LZ HAS AN ANNOUNCEMENT\", \"why\": \"groot nieuws\"}",
+  "made": "2026-11-19T00:34:36.551001+00:00"
  },
  {
   "start": 2209.4,

@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T00:28:41.918967+00:00",
+ "updated": "2026-11-19T00:34:36.563563+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 116
+  "draft": 120
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -2986,9 +2986,9 @@
       "topic": "DEANE WINS THE SEASON FINALE",
       "quote": "Third place, get on over there with the boys. Get on over there. Third place here at round eight, the Shoreline Showdown. Third place goes to Adam LZ. Second place, because we already know the outcome, second place goes to an Irishman, make some noise, Jack Shanahan. And last but definitely not least, again with that victory, it came down to that, who was going to finish second and third in the championship. It was two points between the drivers. And now with this win, he slides into second overall the championship, but it's an all Irish one, two and three overall, and it's Irish one and two. Your winner at round eight, Shoreline Showdown, the final round of the 2026 season is your five time formative champion in the Ford Mustang RTR Nitto tires. James, the machine, Dean wins the Shoreline Showdown under the lights in Long Beach. Congratulations to James, Jack and Adam LZ, our podium.",
       "why": "Podium Long Beach 2: Deane, Jack Shanahan, LZ",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-34/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3000,9 +3000,9 @@
       "topic": "A HISTORIC NIGHT FOR IRELAND",
       "quote": "Man I tell you they they don't come easy and especially with the driving level today in Formula Drift it's unbelievable and I feel like it's just been an amazing weekend for drifting in Ireland you know to have myself and Jack in the final, Connor winning his first championship in FD and the three of us one, two, three in the championship it's just unbelievable and really happy to get this win it means a real lot to my heart with having my parents here, my sisters here, the whole racing Mustang or to your oily pins I did not give us one issue no matter how hard we drove it and I'm just pumped it's amazing it's always gonna be a fun battle with Jack I knew that you know expect anything and we just tried our best and yeah I perfect way to end the season.",
       "why": "Deane over het Ierse 1-2-3",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-35/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3014,9 +3014,9 @@
       "topic": "I HAD HIM BEAT UNTIL I DIDN'T",
       "quote": "Yeah, no, for sure. Like to be honest, I feel like I had him bit until I didn't, you know? So at least that, you know? No, I was very, very happy up until the moment of disaster. Like today was good. To be honest, I feel completely zoned out. I honestly felt like I was just in a flow state and everything was just happening around me. And to be that comfortable in the car is, I'm very proud of that. You know what I mean? Like we're driving at the highest level and to be that relaxed and then to get to battle your friends in the final is absolutely unbelievable. So, yeah, like we were after creating history this year with a one, two, three podium in an event. And now we've done one, two, three in the championship. Like I think I don't know, it's a moment of history and who knows? We could recreate it again next year. But for now, we're after rewriting history and I'm very, very glad to be back to that.",
       "why": "Jack eerlijk over zijn spin in de finale",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-36/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3028,9 +3028,9 @@
       "topic": "ADAM LZ STEPS AWAY FROM FD",
       "quote": "This, uh, this is a little bittersweet for me. So, um, earlier this year, I made the decision that I won't be competing next year in Formula Drift and we've had a rough season and it's been my goal to announce this on the podium. So like I felt so much pressure here because I was like I gotta I gotta do it, right? So yeah, it's it's nothing bad. It's not forever. I'll be coming back at some point but Yeah, I just I wanted this so bad and you know It's not first but I'm really proud to be standing here to get some results for all the fans for my partners Like it's been a rough year, but I'm really happy to be standing here Well, I feel incredibly honored to be one of the first people to receive this information at least publicly I want to thank you so much for everything that you've done for the sport the eyes and the attention and the fans Love you. We've loved having you out here. Thank you so much. I'm sad to see you go, but love to watch you leave You know, I'll be back. I love it here. It's it's a blast. I love driving. I love competing It's just right now. There's some stuff in my life That's a little more important to me and like I want a championship and I got to be fully dedicated to that and I got some Other stuff I got to focus on first",
       "why": "LZ kondigt op het podium aan dat hij volgend jaar niet rijdt",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-37/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16523,6 +16523,164 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-37",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ used his podium moment to announce he will not compete in Formula DRIFT next year. Not forever, he says.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@adam_lz @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 12301.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:34:36.552067+00:00",
+   "built": "2026-11-19T00:34:36.552074+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-37/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ADAM LZ STEPS AWAY FROM FD",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-36",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan sums up his final against James Deane in one line, and talks about making Irish history.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jamesdeane130 @conorshanahan79 @formulad\n\n#formulad #formuladrift #jackshanahan #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 12242.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:33:08.503386+00:00",
+   "built": "2026-11-19T00:33:08.503390+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-36/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "I HAD HIM BEAT UNTIL I DIDN'T",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-35",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane on an unforgettable night for Irish drifting: a win, an all Irish final and a 1-2-3 in the championship.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jamesdeane130 @jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #jamesdeane #conorshanahan #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 12171.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:32:01.018425+00:00",
+   "built": "2026-11-19T00:32:01.018431+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-35/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "A HISTORIC NIGHT FOR IRELAND",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-34",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane wins the Shoreline Showdown at Long Beach. An all Irish top three in the 2026 championship.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad\n\n#formulad #formuladrift #jamesdeane #jackshanahan #adamlz #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 12078.34
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:30:48.133328+00:00",
+   "built": "2026-11-19T00:30:48.133339+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-34/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE WINS THE SEASON FINALE",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-33",
    "kind": "stream_clip",
    "status": "draft",
@@ -23771,174 +23929,6 @@
    "caption_by": null,
    "format": "single",
    "title": "WOULD MATT FIELD RETURN TO FD?",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-12",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field on standing at the golden door of Formula DRIFT, breaking his arm on the way to St. Louis, and what was behind the dusty door instead.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#formulad #drifting #mattfield #motivation #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 3047.82
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:12:05.600632+00:00",
-   "built": "2026-11-17T18:09:52.839119+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-12/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE GOLDEN DOOR",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-11",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Lead screws up? Then it's an impossible chase. The host explains how the Formula DRIFT judging panel has shifted toward style.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @mattfield777 @formulad\n\n#formulad #drifting #judging #formuladrift #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-11/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 2908.54
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:10:35.365843+00:00",
-   "built": "2026-11-17T18:09:52.838911+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-11/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Forrest Wang",
-    "Robbie Nishida"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "FD JUDGING HAS CHANGED",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-10",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Link over the crest all the way down to turn one at Laguna Seca? Other FD drivers told Matt Field it couldn't be done.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #lagunaseca #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-10/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 2845.02
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:09:28.470155+00:00",
-   "built": "2026-11-17T18:09:52.838688+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-10/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "'THAT'S IMPOSSIBLE'",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-1",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Natural talent only gets you so far. Said on The Outerzone: he is putting in the hard work now and hopes to be back where he once was next year.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#formulad #drifting #comeback #outerzone #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 470.46
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:01:40.405355+00:00",
-   "built": "2026-11-17T18:09:52.838481+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-1/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Mike Power"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "FROM TALENT TO HARD WORK",
    "photo": null
   }
  ],
