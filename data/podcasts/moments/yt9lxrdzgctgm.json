@@ -433,10 +433,15 @@
    "why": "contact"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Tommy Lemaire",
-  "wait_name": "v2-yt9lxrdzgctgm-14-59371-59891.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-14-59371-59891.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5956.48, \"start\": 5953.42, \"text\": \"WHO IS AT FAULT HERE?\", \"why\": \"contact\"}",
+  "made": "2026-11-19T00:04:14.391617+00:00"
  },
  {
   "start": 6605.2,
@@ -460,10 +465,15 @@
    "why": "onverwachte beslissing"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Tommy Lemaire",
-  "wait_name": "v2-yt9lxrdzgctgm-15-66052-66701.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-15-66052-66701.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6630.88, \"start\": 6628.0, \"text\": \"THREE JUDGES CANNOT AGREE\", \"why\": \"onverwachte beslissing\"}",
+  "made": "2026-11-19T00:05:40.893226+00:00"
  },
  {
   "start": 7491.52,
@@ -486,10 +496,15 @@
    "why": "muurtik"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Tommy Lemaire",
-  "wait_name": "v2-yt9lxrdzgctgm-16-74915-75607.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-16-74915-75607.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7521.06, \"start\": 7518.66, \"text\": \"THE ONE MORE TIME GETS SCRAPPY\", \"why\": \"muurtik\"}",
+  "made": "2026-11-19T00:07:33.605596+00:00"
  },
  {
   "start": 7600.24,
@@ -512,10 +527,15 @@
    "why": "grappige afsluiter"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Tommy Lemaire",
-  "wait_name": "v2-yt9lxrdzgctgm-17-76002-76303.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-17-76002-76303.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7630.28, \"start\": 7627.38, \"text\": \"CANADA OR AMERICA?\", \"why\": \"grappige afsluiter\"}",
+  "made": "2026-11-19T00:08:18.839994+00:00"
  },
  {
   "start": 7764.86,

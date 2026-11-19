@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T00:02:36.112534+00:00",
+ "updated": "2026-11-19T00:08:18.852133+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 96
+  "draft": 100
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -2706,9 +2706,9 @@
       "topic": "CORVETTE CONTACT IN ZONE THREE",
       "quote": "Matt field time in the mare field will be out front TLO chasing him down let's see how they handle this initiation Matt field rims in that first outside zone And then in the second, Tommy just posts on in, right to the side. In the outside zone three, our final battle, top 16. Tommy LeMare hits him, straight down. All right, so - See which way this goes. See which way this goes, again. I think we're really gonna have to look at data here. Again, we talk about not only the speed, but the Excel and Dcel getting out and getting into that pocket, transitioning. getting again the rate of the rate of the vehicle. That changes quite a bit with the temperatures dropping for sure for sure. Tommy LeMare definitely pushing hard trying to get a little bit of revenge on Matt Field from his loss in the top 16 in Vegas.",
       "why": "Contact tussen de twee Corvettes, begin van lange jurydiscussie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-14/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2720,9 +2720,9 @@
       "topic": "THREE JUDGES, THREE DIFFERENT CALLS",
       "quote": "Okay, we got a decision. We got a decision. So again, all that scrutinization. All right, here we go. So slide them. One way. One way or the other. Matt Field slide them left for Tommy right for Matt Field one more time. Matt Field and... They're going one more time. There we go. So again, it's majority rules, but one judge will one more time. Brian, down to you. You went with? I went with Tommy. And Vernon went with Field and Robbie did one more time. So we were comparing the footage looking at qualifying runs because of some more temperatures. And I felt the detail was a little bit early in the wrong spot. And I put it on Field and then went with LaMare's win. Vernon saw it the other way and didn't think it was that much and was cool with it and and went that way and Robbie said it was shared fault. They both were doing the wrong thing in the wrong spot.",
       "why": "Na lange analyse: elke jurylid een ander oordeel, one more time",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-15/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2734,9 +2734,9 @@
       "topic": "LEMAIRE KISSES THE WALL",
       "quote": "Field initiates outside zone one going into two coasting in you can see again just very slow on the G cell and then getting out of that hole. Now going into outside zone power alley, going into six. That field finds himself in there. T .L .O. swings that thing. And outside zone six going into that inside clip seven. Now into eight. Whoa, Tommy gets into that wall. So a bit of shimming there by T .L .O. in that chase position. And a little frustration from both drivers on that run. You tell Matt, just like I just want to go out and run this as quick as I can. Try and get a gap hold on the young Canadian. See it there, Matt. When he's got the grip in, he's looking really good. Tommy, you tell he wants the time. He wants to push. He doesn't want to get caught out at any point in time. You have a checkup at scene for both drivers after that zone is again into six, though. This is where Tommy's really trying to push the pace. Matt looks good. Coming through seven and then swinging back in for eight there, Tommy, with a quick little tap on the door, marking up that Borla logo and then back end on the wall.",
       "why": "One more time, Lemaire raakt de muur in de chase",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-16/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2748,9 +2748,9 @@
       "topic": "CANADA VS AMERICA SETTLED",
       "quote": "But here we go slide them left for Tommy right for Matt field It looks like Matt field gets the win And just Tommy in that in the latter portion of the run just got a little too loose Right kind of sent it out there and overcooked it and the outside zone eight. Yeah. Yeah, so tough go That's okay. Sorry Canada America. Yeah, I'm not gonna get into it Wasn't politics it was just you know, I'm proud to be American war of 1812",
       "why": "Uitslag van de one more time met grap over 1812",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-17/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16523,6 +16523,164 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-17",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Canada vs America in an all Corvette one more time. The commentators even bring up the war of 1812.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @mattfield777 @formulad\n\n#formulad #formuladrift #mattfield #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 7600.24
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:08:18.840926+00:00",
+   "built": "2026-11-19T00:08:18.840934+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-17/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CANADA VS AMERICA SETTLED",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-16",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The one more time between the two Corvettes gets scrappy: door contact and a wall tap in the final zone.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @mattfield777 @formulad\n\n#formulad #formuladrift #mattfield #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 7491.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:07:33.606578+00:00",
+   "built": "2026-11-19T00:07:33.606582+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-16/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LEMAIRE KISSES THE WALL",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After one of the longest deliberations in FD history, every judge saw it differently. Judge Brian Eggert explains.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @mattfield777 @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 6605.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:05:40.894218+00:00",
+   "built": "2026-11-19T00:05:40.894222+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-15/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brian Eggert"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THREE JUDGES, THREE DIFFERENT CALLS",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "An all Corvette battle in Top 16, and contact in zone three leaves the judges with a tough one.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @mattfield777 @formulad\n\n#formulad #formuladrift #mattfield #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 5937.06
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:04:14.392633+00:00",
+   "built": "2026-11-19T00:04:14.392637+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-14/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CORVETTE CONTACT IN ZONE THREE",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-13",
    "kind": "stream_clip",
    "status": "draft",
@@ -23826,173 +23984,6 @@
    "caption_by": null,
    "format": "single",
    "title": "CHUCK IT THROUGH THE SMOKE",
-   "photo": null
-  },
-  {
-   "id": "pod-441d4b7291ad-4",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "All outer zones in Vegas. Is that better for the show than technical layouts like Drift Masters?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @driftmasters.gp @jako13\n\n#FormulaDRIFT #PROSPEC #DriftMasters #sidewayswire",
-   "media": [
-    "media/pod-441d4b7291ad-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Prospec Podium",
-    "start": 228.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:42:23.640671+00:00",
-   "built": "2026-11-17T18:09:52.821790+00:00",
-   "want_at": null,
-   "video": "media/pod-441d4b7291ad-4/clip.mp4",
-   "tags": [
-    "@braden.lons",
-    "@formulad",
-    "@driftmasters.gp",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "INNER CLIPS: YES OR NO?",
-   "photo": null
-  },
-  {
-   "id": "pod-441d4b7291ad-2",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #KaseyKohl #FDLV #sidewayswire",
-   "media": [
-    "media/pod-441d4b7291ad-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Prospec Podium",
-    "start": 124.52
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:40:41.196838+00:00",
-   "built": "2026-11-17T18:09:52.821367+00:00",
-   "want_at": null,
-   "video": "media/pod-441d4b7291ad-2/clip.mp4",
-   "tags": [
-    "@mspekperformance",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "GRIPPY VEGAS: THE FIX",
-   "photo": null
-  },
-  {
-   "id": "pod-441d4b7291ad-1",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Everybody rips, so you aim the car at the wall and hope you only hit it a little. Kasey Kohl after the Vegas PROSPEC podium.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #KaseyKohl #sidewayswire",
-   "media": [
-    "media/pod-441d4b7291ad-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Prospec Podium",
-    "start": 78.02
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:39:26.260274+00:00",
-   "built": "2026-11-17T18:09:52.821155+00:00",
-   "want_at": null,
-   "video": "media/pod-441d4b7291ad-1/clip.mp4",
-   "tags": [
-    "@mspekperformance",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "AIM AT THE WALL, HOPE FOR THE BEST",
-   "photo": null
-  },
-  {
-   "id": "pod-441d4b7291ad-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Pro level driving from Top 32 on. The Vegas PROSPEC podium on why this was the best PROSPEC season yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@little_webbie16 @braden.lons @mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #FDLV #sidewayswire",
-   "media": [
-    "media/pod-441d4b7291ad-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Prospec Podium",
-    "start": 4.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:38:32.682236+00:00",
-   "built": "2026-11-17T18:09:52.820938+00:00",
-   "want_at": null,
-   "video": "media/pod-441d4b7291ad-0/clip.mp4",
-   "tags": [
-    "@little_webbie16",
-    "@braden.lons",
-    "@mspekperformance",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "BEST PROSPEC SEASON EVER?",
    "photo": null
   }
  ],
