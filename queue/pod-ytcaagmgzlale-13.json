@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-13",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "ODI HITS HIM ON A RESTART",
  "video": "docs/media/pod-ytcaagmgzlale-13/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 895.59
  },
  "created": "2026-11-19T07:35:19.981279+00:00",
- "built": "2026-11-19T07:35:19.981285+00:00"
+ "built": "2026-11-19T16:51:06.037131+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-13/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytn7sq14e5es-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "STAVROS IS BACK",
  "video": "docs/media/pod-ytn7sq14e5es-4/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 775.02
  },
  "created": "2026-11-19T16:22:05.747311+00:00",
- "built": "2026-11-19T16:22:05.747317+00:00"
+ "built": "2026-11-19T16:51:09.096327+00:00",
+ "media": [
+  "docs/media/pod-ytn7sq14e5es-4/clip.mp4"
+ ],
+ "problems": []
 }

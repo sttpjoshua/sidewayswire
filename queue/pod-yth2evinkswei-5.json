@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THE PHONE CALL FROM VAUGHN",
  "video": "docs/media/pod-yth2evinkswei-5/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 389.92
  },
  "created": "2026-11-19T08:50:36.459282+00:00",
- "built": "2026-11-19T08:50:36.459288+00:00"
+ "built": "2026-11-19T16:51:07.625975+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-5/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-27T11:30:00+00:00"
 }

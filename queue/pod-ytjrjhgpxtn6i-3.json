@@ -1,7 +1,7 @@
 {
  "id": "pod-ytjrjhgpxtn6i-3",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BROTHER VS SISTER",
  "video": "docs/media/pod-ytjrjhgpxtn6i-3/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 366.74
  },
  "created": "2026-11-19T13:56:31.784173+00:00",
- "built": "2026-11-19T13:56:31.784178+00:00"
+ "built": "2026-11-19T16:51:08.392111+00:00",
+ "media": [
+  "docs/media/pod-ytjrjhgpxtn6i-3/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

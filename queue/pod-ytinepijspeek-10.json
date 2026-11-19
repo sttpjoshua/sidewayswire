@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-10",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CASTRO FIGHTS HIS WAY IN",
  "video": "docs/media/pod-ytinepijspeek-10/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 7208.7
  },
  "created": "2026-11-19T13:11:38.497886+00:00",
- "built": "2026-11-19T13:11:38.497891+00:00"
+ "built": "2026-11-19T16:51:07.803850+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-10/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-30T07:30:00+00:00"
 }

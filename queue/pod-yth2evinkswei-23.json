@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-23",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "GODZILLA VS KING KONG",
  "video": "docs/media/pod-yth2evinkswei-23/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 1665.1
  },
  "created": "2026-11-19T11:53:14.998921+00:00",
- "built": "2026-11-19T11:53:14.998926+00:00"
+ "built": "2026-11-19T16:51:07.171387+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-23/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-20T22:00:00+00:00"
 }

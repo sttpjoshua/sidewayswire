@@ -1,7 +1,7 @@
 {
  "id": "pod-ytfwp7cvnodei-0",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "KORPULINSKI IS CHAMPION",
  "video": "docs/media/pod-ytfwp7cvnodei-0/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 491.78
  },
  "created": "2026-11-19T08:37:11.647243+00:00",
- "built": "2026-11-19T08:37:11.647250+00:00"
+ "built": "2026-11-19T16:51:06.835704+00:00",
+ "media": [
+  "docs/media/pod-ytfwp7cvnodei-0/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-15T22:00:00+00:00"
 }

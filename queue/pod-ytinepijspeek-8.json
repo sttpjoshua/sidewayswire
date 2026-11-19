@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-8",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CONOR NEEDS 18.8 STYLE",
  "video": "docs/media/pod-ytinepijspeek-8/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 6257.04
  },
  "created": "2026-11-19T13:07:15.613917+00:00",
- "built": "2026-11-19T13:07:15.613923+00:00"
+ "built": "2026-11-19T16:51:08.281547+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-8/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

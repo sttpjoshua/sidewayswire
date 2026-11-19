@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-19",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "PRESSURE DOESN'T GET TO HIM",
  "video": "docs/media/pod-ytcaagmgzlale-19/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 1199.55
  },
  "created": "2026-11-19T07:45:32.503019+00:00",
- "built": "2026-11-19T07:45:32.503025+00:00"
+ "built": "2026-11-19T16:51:06.141581+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-19/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-05T11:30:00+00:00"
 }

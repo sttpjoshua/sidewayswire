@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-3",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIELD GETS IT UNANIMOUSLY",
  "video": "docs/media/pod-ytckqkb2axqe-3/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 130.42
  },
  "created": "2026-11-19T08:05:14.205864+00:00",
- "built": "2026-11-19T08:05:14.205871+00:00"
+ "built": "2026-11-19T16:51:06.683215+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-3/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-13T22:00:00+00:00"
 }

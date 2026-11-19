@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-17",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "TWIN CORVETTES",
  "video": "docs/media/pod-ytcaagmgzlale-17/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 1119.65
  },
  "created": "2026-11-19T07:41:41.305529+00:00",
- "built": "2026-11-19T07:41:41.305534+00:00"
+ "built": "2026-11-19T16:51:06.100275+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-17/clip.mp4"
+ ],
+ "problems": []
 }

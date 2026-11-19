@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-10",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "16 YEAR OLD WINS IN VEGAS",
  "video": "docs/media/pod-ytcaagmgzlale-10/clip.mp4",
@@ -30,5 +30,9 @@
   "start": 680.97
  },
  "created": "2026-11-19T07:30:09.683658+00:00",
- "built": "2026-11-19T07:30:09.683665+00:00"
+ "built": "2026-11-19T16:51:05.997440+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-10/clip.mp4"
+ ],
+ "problems": []
 }

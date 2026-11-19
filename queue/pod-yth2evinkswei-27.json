@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-27",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ROOKIE JACK IN THE FINAL",
  "video": "docs/media/pod-yth2evinkswei-27/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 1955.54
  },
  "created": "2026-11-19T12:00:38.499990+00:00",
- "built": "2026-11-19T12:00:38.499995+00:00"
+ "built": "2026-11-19T16:51:07.247888+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-27/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-21T22:00:00+00:00"
 }

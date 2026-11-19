@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CIRBA VS ROED SPLIT",
  "video": "docs/media/pod-ythcpensbcsdc-5/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 75.6
  },
  "created": "2026-11-19T12:48:02.394206+00:00",
- "built": "2026-11-19T12:48:02.394212+00:00"
+ "built": "2026-11-19T16:51:07.758403+00:00",
+ "media": [
+  "docs/media/pod-ythcpensbcsdc-5/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-29T11:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-9",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CASTRO SPINS IN THE OMT",
  "video": "docs/media/pod-yth2evinkswei-9/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 681.7
  },
  "created": "2026-11-19T08:57:18.157934+00:00",
- "built": "2026-11-19T08:57:18.157941+00:00"
+ "built": "2026-11-19T16:51:07.713447+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-9/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-28T22:00:00+00:00"
 }

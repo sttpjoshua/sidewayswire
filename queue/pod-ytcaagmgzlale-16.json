@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-16",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BUCHANAN SHUTS IT DOWN",
  "video": "docs/media/pod-ytcaagmgzlale-16/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 1062.07
  },
  "created": "2026-11-19T07:40:10.899861+00:00",
- "built": "2026-11-19T07:40:10.899870+00:00"
+ "built": "2026-11-19T16:51:06.099956+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-16/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-04T22:00:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-34",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DID DEANE PUSH LZ OFF?",
  "video": "docs/media/pod-yth2evinkswei-34/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 2532.26
  },
  "created": "2026-11-19T12:15:37.223386+00:00",
- "built": "2026-11-19T12:15:37.223391+00:00"
+ "built": "2026-11-19T16:51:07.419457+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-34/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-24T11:30:00+00:00"
 }

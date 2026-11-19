@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-15",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "85.86 FROM ADAM LZ",
  "video": "docs/media/pod-ytinepijspeek-15/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 9145.0
  },
  "created": "2026-11-19T13:20:57.890244+00:00",
- "built": "2026-11-19T13:20:57.890250+00:00"
+ "built": "2026-11-19T16:51:07.933653+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-15/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-31T22:00:00+00:00"
 }

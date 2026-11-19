@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-17",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DID RCP TAKE DOWN DEANE?",
  "video": "docs/media/pod-yth2evinkswei-17/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 1196.42
  },
  "created": "2026-11-19T11:39:48.558909+00:00",
- "built": "2026-11-19T11:39:48.558915+00:00"
+ "built": "2026-11-19T16:51:07.020880+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-17/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-18T11:30:00+00:00"
 }

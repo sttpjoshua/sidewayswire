@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-51",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE FINAL, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-51/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 11722.5
  },
  "created": "2026-11-19T06:46:48.612811+00:00",
- "built": "2026-11-19T06:46:48.612817+00:00"
+ "built": "2026-11-19T16:51:05.860193+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-51/clip.mp4"
+ ],
+ "problems": []
 }

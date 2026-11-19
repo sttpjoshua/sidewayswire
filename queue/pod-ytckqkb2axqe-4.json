@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ONE MORE TIME, JONES VS RCP",
  "video": "docs/media/pod-ytckqkb2axqe-4/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 163.6
  },
  "created": "2026-11-19T08:06:39.135262+00:00",
- "built": "2026-11-19T08:06:39.135268+00:00"
+ "built": "2026-11-19T16:51:06.703888+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-4/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-14T07:30:00+00:00"
 }

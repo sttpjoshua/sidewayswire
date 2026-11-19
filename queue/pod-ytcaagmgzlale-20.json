@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-20",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK GRINDS ON FORSBERG",
  "video": "docs/media/pod-ytcaagmgzlale-20/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 1338.67
  },
  "created": "2026-11-19T07:47:15.847859+00:00",
- "built": "2026-11-19T07:47:15.847865+00:00"
+ "built": "2026-11-19T16:51:06.180621+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-20/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-06T07:30:00+00:00"
 }

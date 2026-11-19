@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-24",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "SHANAHAN BROTHERS",
  "video": "docs/media/pod-ytcaagmgzlale-24/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 1387.5
  },
  "created": "2026-11-19T07:56:15.300415+00:00",
- "built": "2026-11-19T07:56:15.300421+00:00"
+ "built": "2026-11-19T16:51:06.273691+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-24/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-07T11:30:00+00:00"
 }

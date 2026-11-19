@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "JOHNSON MAJOR MISTAKE IN OMT",
  "video": "docs/media/pod-ytcaagmgzlale-4/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 256.13
  },
  "created": "2026-11-19T07:20:18.860425+00:00",
- "built": "2026-11-19T07:20:18.860431+00:00"
+ "built": "2026-11-19T16:51:06.313983+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-4/clip.mp4"
+ ],
+ "problems": []
 }

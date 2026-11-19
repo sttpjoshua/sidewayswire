@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-15",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THIRD BATTLE IN THE RAIN",
  "video": "docs/media/pod-yth2evinkswei-15/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 1034.8
  },
  "created": "2026-11-19T09:09:00.428362+00:00",
- "built": "2026-11-19T09:09:00.428368+00:00"
+ "built": "2026-11-19T16:51:07.000081+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-15/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-18T07:30:00+00:00"
 }

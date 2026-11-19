@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-19",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "83.06 FROM HUGHES",
  "video": "docs/media/pod-ytinepijspeek-19/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 9906.58
  },
  "created": "2026-11-19T13:30:20.300948+00:00",
- "built": "2026-11-19T13:30:20.300953+00:00"
+ "built": "2026-11-19T16:51:08.026680+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-19/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

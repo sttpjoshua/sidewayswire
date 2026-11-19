@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-39",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ALL IRISH BATTLE",
  "video": "docs/media/pod-yth2evinkswei-39/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 152.0
  },
  "created": "2026-11-19T12:25:54.939087+00:00",
- "built": "2026-11-19T12:25:54.939096+00:00"
+ "built": "2026-11-19T16:51:07.505912+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-39/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-25T22:00:00+00:00"
 }

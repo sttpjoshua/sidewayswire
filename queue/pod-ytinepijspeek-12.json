@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-12",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "OLSEN'S LAST QUALIFYING RUN",
  "video": "docs/media/pod-ytinepijspeek-12/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 7996.66
  },
  "created": "2026-11-19T13:15:36.192624+00:00",
- "built": "2026-11-19T13:15:36.192629+00:00"
+ "built": "2026-11-19T16:51:07.847146+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-12/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-30T22:00:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-6",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK SHANAHAN GETS HIS BREAKOUT",
  "video": "docs/media/pod-ytckqkb2axqe-6/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 240.7
  },
  "created": "2026-11-19T08:09:49.159094+00:00",
- "built": "2026-11-19T08:09:49.159100+00:00"
+ "built": "2026-11-19T16:51:06.762848+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-6/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-14T22:00:00+00:00"
 }

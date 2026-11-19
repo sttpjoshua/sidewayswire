@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FORMER CHAMPION LOSES POWER",
  "video": "docs/media/pod-ythcpensbcsdc-2/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 162.24
  },
  "created": "2026-11-19T12:41:01.523313+00:00",
- "built": "2026-11-19T12:41:01.523320+00:00"
+ "built": "2026-11-19T16:51:07.736084+00:00",
+ "media": [
+  "docs/media/pod-ythcpensbcsdc-2/clip.mp4"
+ ],
+ "problems": []
 }

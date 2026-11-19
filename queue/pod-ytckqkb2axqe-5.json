@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ROOKIE FORCES FORSBERG TO OMT",
  "video": "docs/media/pod-ytckqkb2axqe-5/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 200.36
  },
  "created": "2026-11-19T08:08:09.284310+00:00",
- "built": "2026-11-19T08:08:09.284317+00:00"
+ "built": "2026-11-19T16:51:06.724696+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-5/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-14T11:30:00+00:00"
 }

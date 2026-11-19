@@ -1,7 +1,7 @@
 {
  "id": "pod-ytn7sq14e5es-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "TENSION IN THE TITLE PIT",
  "video": "docs/media/pod-ytn7sq14e5es-2/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 1468.96
  },
  "created": "2026-11-19T16:18:20.121040+00:00",
- "built": "2026-11-19T16:18:20.121046+00:00"
+ "built": "2026-11-19T16:51:09.071826+00:00",
+ "media": [
+  "docs/media/pod-ytn7sq14e5es-2/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

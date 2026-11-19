@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-41",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DEANE VS CASTRO",
  "video": "docs/media/pod-yth2evinkswei-41/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 595.3
  },
  "created": "2026-11-19T12:32:12.596433+00:00",
- "built": "2026-11-19T12:32:12.596438+00:00"
+ "built": "2026-11-19T16:51:07.580338+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-41/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-26T22:00:00+00:00"
 }

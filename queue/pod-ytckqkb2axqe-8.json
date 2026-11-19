@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-8",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "STRAIGHT INTO THE SIDE",
  "video": "docs/media/pod-ytckqkb2axqe-8/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 353.66
  },
  "created": "2026-11-19T08:13:05.499426+00:00",
- "built": "2026-11-19T08:13:05.499433+00:00"
+ "built": "2026-11-19T16:51:06.786667+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-8/clip.mp4"
+ ],
+ "problems": []
 }

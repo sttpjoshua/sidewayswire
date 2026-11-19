@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-18",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "NOBACK TOO AGGRESSIVE",
  "video": "docs/media/pod-yth2evinkswei-18/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 1248.3
  },
  "created": "2026-11-19T11:41:58.345846+00:00",
- "built": "2026-11-19T11:41:58.345852+00:00"
+ "built": "2026-11-19T16:51:07.041377+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-18/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-18T22:00:00+00:00"
 }

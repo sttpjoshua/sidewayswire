@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-42",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ROAD ATLANTA",
  "video": "docs/media/pod-yth2evinkswei-42/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 791.5
  },
  "created": "2026-11-19T12:35:33.488512+00:00",
- "built": "2026-11-19T12:35:33.488518+00:00"
+ "built": "2026-11-19T16:51:07.602050+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-42/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-27T07:30:00+00:00"
 }

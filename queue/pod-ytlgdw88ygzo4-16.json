@@ -1,7 +1,7 @@
 {
  "id": "pod-ytlgdw88ygzo4-16",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HAMMER VS MACHINE",
  "video": "docs/media/pod-ytlgdw88ygzo4-16/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 1004.94
  },
  "created": "2026-11-19T15:59:21.993775+00:00",
- "built": "2026-11-19T15:59:21.993781+00:00"
+ "built": "2026-11-19T16:51:08.601305+00:00",
+ "media": [
+  "docs/media/pod-ytlgdw88ygzo4-16/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

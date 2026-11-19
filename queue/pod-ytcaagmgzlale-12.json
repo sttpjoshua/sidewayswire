@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-12",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DAN TAKES ONE ON THE CHIN",
  "video": "docs/media/pod-ytcaagmgzlale-12/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 805.41
  },
  "created": "2026-11-19T07:33:30.742343+00:00",
- "built": "2026-11-19T07:33:30.742351+00:00"
+ "built": "2026-11-19T16:51:06.036817+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-12/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-03T07:30:00+00:00"
 }

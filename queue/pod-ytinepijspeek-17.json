@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-17",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "TUERCK'S FINAL QUALIFYING RUN",
  "video": "docs/media/pod-ytinepijspeek-17/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 9720.02
  },
  "created": "2026-11-19T13:25:20.142708+00:00",
- "built": "2026-11-19T13:25:20.142713+00:00"
+ "built": "2026-11-19T16:51:07.981444+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-17/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

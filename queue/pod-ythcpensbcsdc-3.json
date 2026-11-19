@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-3",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "MCKEEVER OUT IN TOP 16",
  "video": "docs/media/pod-ythcpensbcsdc-3/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 231.3
  },
  "created": "2026-11-19T12:43:24.092320+00:00",
- "built": "2026-11-19T12:43:24.092326+00:00"
+ "built": "2026-11-19T16:51:07.736454+00:00",
+ "media": [
+  "docs/media/pod-ythcpensbcsdc-3/clip.mp4"
+ ],
+ "problems": []
 }

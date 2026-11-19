@@ -1,7 +1,7 @@
 {
  "id": "pod-ytlgdw88ygzo4-8",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FAILURE TO LAUNCH OR TOO AGGRESSIVE?",
  "video": "docs/media/pod-ytlgdw88ygzo4-8/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 527.04
  },
  "created": "2026-11-19T15:47:16.201420+00:00",
- "built": "2026-11-19T15:47:16.201426+00:00"
+ "built": "2026-11-19T16:51:08.978395+00:00",
+ "media": [
+  "docs/media/pod-ytlgdw88ygzo4-8/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

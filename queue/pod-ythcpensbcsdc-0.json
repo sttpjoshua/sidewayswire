@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-0",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "DEANE'S LEAD CLINIC",
  "video": "docs/media/pod-ythcpensbcsdc-0/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 30.24
  },
  "created": "2026-11-19T12:36:51.823359+00:00",
- "built": "2026-11-19T12:36:51.823365+00:00"
+ "built": "2026-11-19T16:51:07.713761+00:00",
+ "media": [
+  "docs/media/pod-ythcpensbcsdc-0/clip.mp4"
+ ],
+ "problems": []
 }

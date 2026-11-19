@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-11",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "COLE RICHARDS AT 110 PERCENT",
  "video": "docs/media/pod-ytcaagmgzlale-11/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 759.47
  },
  "created": "2026-11-19T07:31:19.934776+00:00",
- "built": "2026-11-19T07:31:19.934784+00:00"
+ "built": "2026-11-19T16:51:06.017016+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-11/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-02T07:30:00+00:00"
 }

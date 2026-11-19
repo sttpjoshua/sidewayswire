@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-16",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "AASBO GIVES NO ROOM",
  "video": "docs/media/pod-ytckqkb2axqe-16/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 798.42
  },
  "created": "2026-11-19T08:24:46.445887+00:00",
- "built": "2026-11-19T08:24:46.445914+00:00"
+ "built": "2026-11-19T16:51:06.501465+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-16/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-11T07:30:00+00:00"
 }

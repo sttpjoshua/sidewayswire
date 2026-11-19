@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-20",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK VS THE HAMMER",
  "video": "docs/media/pod-ytckqkb2axqe-20/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 610.6
  },
  "created": "2026-11-19T08:33:18.019376+00:00",
- "built": "2026-11-19T08:33:18.019381+00:00"
+ "built": "2026-11-19T16:51:06.616257+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-20/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-12T22:00:00+00:00"
 }

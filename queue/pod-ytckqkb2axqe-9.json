@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-9",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIELD KNOCKS OUT DEANE",
  "video": "docs/media/pod-ytckqkb2axqe-9/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 438.58
  },
  "created": "2026-11-19T08:14:32.298606+00:00",
- "built": "2026-11-19T08:14:32.298612+00:00"
+ "built": "2026-11-19T16:51:06.811744+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-9/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-15T11:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-8",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FARRELL TRUST FALLS TO THE DOOR",
  "video": "docs/media/pod-ytcaagmgzlale-8/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 501.35
  },
  "created": "2026-11-19T07:26:45.897307+00:00",
- "built": "2026-11-19T07:26:45.897313+00:00"
+ "built": "2026-11-19T16:51:06.334818+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-8/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-08T11:30:00+00:00"
 }

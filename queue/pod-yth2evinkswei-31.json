@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-31",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DRIFT WIZARD PUSHED TOO HARD",
  "video": "docs/media/pod-yth2evinkswei-31/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 2290.62
  },
  "created": "2026-11-19T12:09:06.653927+00:00",
- "built": "2026-11-19T12:09:06.653932+00:00"
+ "built": "2026-11-19T16:51:07.355134+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-31/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-23T11:30:00+00:00"
 }

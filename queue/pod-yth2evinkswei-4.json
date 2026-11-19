@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "NO TEAM ORDERS",
  "video": "docs/media/pod-yth2evinkswei-4/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 324.72
  },
  "created": "2026-11-19T08:49:29.022442+00:00",
- "built": "2026-11-19T08:49:29.022449+00:00"
+ "built": "2026-11-19T16:51:07.538271+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-4/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-26T07:30:00+00:00"
 }

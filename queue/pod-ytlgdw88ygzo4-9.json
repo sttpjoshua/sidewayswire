@@ -1,7 +1,7 @@
 {
  "id": "pod-ytlgdw88ygzo4-9",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "SHANAHAN CROWNED CHAMPION",
  "video": "docs/media/pod-ytlgdw88ygzo4-9/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 620.48
  },
  "created": "2026-11-19T15:49:18.843397+00:00",
- "built": "2026-11-19T15:49:18.843402+00:00"
+ "built": "2026-11-19T16:51:09.001969+00:00",
+ "media": [
+  "docs/media/pod-ytlgdw88ygzo4-9/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-7",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "MCKEEVER VS HABALI SPLIT",
  "video": "docs/media/pod-ythcpensbcsdc-7/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 232.0
  },
  "created": "2026-11-19T12:52:12.555956+00:00",
- "built": "2026-11-19T12:52:12.555961+00:00"
+ "built": "2026-11-19T16:51:07.759023+00:00",
+ "media": [
+  "docs/media/pod-ythcpensbcsdc-7/clip.mp4"
+ ],
+ "problems": []
 }

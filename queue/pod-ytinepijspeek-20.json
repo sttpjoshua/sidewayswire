@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-20",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "81.43 FROM MATT FIELD",
  "video": "docs/media/pod-ytinepijspeek-20/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 10052.0
  },
  "created": "2026-11-19T13:33:06.233384+00:00",
- "built": "2026-11-19T13:33:06.233389+00:00"
+ "built": "2026-11-19T16:51:08.047341+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-20/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

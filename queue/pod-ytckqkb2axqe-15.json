@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-15",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "SHEDDING HEADLIGHTS",
  "video": "docs/media/pod-ytckqkb2axqe-15/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 725.04
  },
  "created": "2026-11-19T08:23:24.031280+00:00",
- "built": "2026-11-19T08:23:24.031286+00:00"
+ "built": "2026-11-19T16:51:06.481304+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-15/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-10T22:00:00+00:00"
 }

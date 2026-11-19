@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-14",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "SHANAHAN ALMOST PERFECT",
  "video": "docs/media/pod-ytcaagmgzlale-14/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 948.43
  },
  "created": "2026-11-19T07:37:02.426112+00:00",
- "built": "2026-11-19T07:37:02.426120+00:00"
+ "built": "2026-11-19T16:51:06.057284+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-14/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-04T07:30:00+00:00"
 }

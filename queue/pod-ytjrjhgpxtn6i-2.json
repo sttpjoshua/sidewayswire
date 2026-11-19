@@ -1,7 +1,7 @@
 {
  "id": "pod-ytjrjhgpxtn6i-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "TLASKA GRASPING AT STRAWS",
  "video": "docs/media/pod-ytjrjhgpxtn6i-2/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 305.92
  },
  "created": "2026-11-19T13:55:10.073215+00:00",
- "built": "2026-11-19T13:55:10.073222+00:00"
+ "built": "2026-11-19T16:51:08.369738+00:00",
+ "media": [
+  "docs/media/pod-ytjrjhgpxtn6i-2/clip.mp4"
+ ],
+ "problems": []
 }

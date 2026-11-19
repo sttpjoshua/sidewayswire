@@ -1,7 +1,7 @@
 {
  "id": "pod-ytinepijspeek-13",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HATELEY'S BIRTHDAY SCORE",
  "video": "docs/media/pod-ytinepijspeek-13/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 8309.52
  },
  "created": "2026-11-19T13:17:46.588253+00:00",
- "built": "2026-11-19T13:17:46.588259+00:00"
+ "built": "2026-11-19T16:51:07.883895+00:00",
+ "media": [
+  "docs/media/pod-ytinepijspeek-13/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-31T07:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-33",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FORSBERG THROWS A DEUCE",
  "video": "docs/media/pod-yth2evinkswei-33/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 2492.78
  },
  "created": "2026-11-19T12:12:57.350816+00:00",
- "built": "2026-11-19T12:12:57.350821+00:00"
+ "built": "2026-11-19T16:51:07.398394+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-33/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-24T07:30:00+00:00"
 }

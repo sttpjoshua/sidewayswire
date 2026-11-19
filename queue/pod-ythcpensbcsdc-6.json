@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-6",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "KANDRASENKA VS HEINONEN SPLIT",
  "video": "docs/media/pod-ythcpensbcsdc-6/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 166.0
  },
  "created": "2026-11-19T12:50:09.642235+00:00",
- "built": "2026-11-19T12:50:09.642241+00:00"
+ "built": "2026-11-19T16:51:07.758716+00:00",
+ "media": [
+  "docs/media/pod-ythcpensbcsdc-6/clip.mp4"
+ ],
+ "problems": []
 }

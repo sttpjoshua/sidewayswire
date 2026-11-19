@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-7",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ODI CALLS A TIMEOUT",
  "video": "docs/media/pod-ytckqkb2axqe-7/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 283.64
  },
  "created": "2026-11-19T08:11:24.519609+00:00",
- "built": "2026-11-19T08:11:24.519615+00:00"
+ "built": "2026-11-19T16:51:06.786261+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-7/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-15T07:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-26",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LIKE A BALLERINA",
  "video": "docs/media/pod-yth2evinkswei-26/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 1895.4
  },
  "created": "2026-11-19T11:58:34.786979+00:00",
- "built": "2026-11-19T11:58:34.786984+00:00"
+ "built": "2026-11-19T16:51:07.226663+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-26/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-21T11:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-15",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "SPARKS AND A DOOR BANG",
  "video": "docs/media/pod-ytcaagmgzlale-15/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 992.19
  },
  "created": "2026-11-19T07:38:15.018520+00:00",
- "built": "2026-11-19T07:38:15.018526+00:00"
+ "built": "2026-11-19T16:51:06.079384+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-15/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-04T11:30:00+00:00"
 }

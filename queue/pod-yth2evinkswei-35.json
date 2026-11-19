@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-35",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DOMINANT IN UTAH",
  "video": "docs/media/pod-yth2evinkswei-35/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 2606.68
  },
  "created": "2026-11-19T12:18:02.776189+00:00",
- "built": "2026-11-19T12:18:02.776195+00:00"
+ "built": "2026-11-19T16:51:07.441310+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-35/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-24T22:00:00+00:00"
 }

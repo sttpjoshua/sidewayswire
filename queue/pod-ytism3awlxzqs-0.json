@@ -1,7 +1,7 @@
 {
  "id": "pod-ytism3awlxzqs-0",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "MCKEEVER GOES TO TOP QUALIFYING",
  "video": "docs/media/pod-ytism3awlxzqs-0/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 314.82
  },
  "created": "2026-11-19T13:47:57.772876+00:00",
- "built": "2026-11-19T13:47:57.772881+00:00"
+ "built": "2026-11-19T16:51:08.325147+00:00",
+ "media": [
+  "docs/media/pod-ytism3awlxzqs-0/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-02-01T00:00:00+01:00"
 }

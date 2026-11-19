@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-13",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "AASBO DOESN'T CRACK",
  "video": "docs/media/pod-ytckqkb2axqe-13/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 639.8
  },
  "created": "2026-11-19T08:20:17.952235+00:00",
- "built": "2026-11-19T08:20:17.952244+00:00"
+ "built": "2026-11-19T16:51:06.440057+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-13/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-10T07:30:00+00:00"
 }

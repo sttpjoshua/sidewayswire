@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-50",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK VS LZ, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-50/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 9836.6
  },
  "created": "2026-11-19T06:42:21.343875+00:00",
- "built": "2026-11-19T06:42:21.343881+00:00"
+ "built": "2026-11-19T16:51:05.859592+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-50/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-26T07:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-11",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "TUERCK PUTS OUT HIS OWN FIRE",
  "video": "docs/media/pod-ytckqkb2axqe-11/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 522.4
  },
  "created": "2026-11-19T08:17:13.134020+00:00",
- "built": "2026-11-19T08:17:13.134026+00:00"
+ "built": "2026-11-19T16:51:06.418705+00:00",
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-11/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-09T22:00:00+00:00"
 }

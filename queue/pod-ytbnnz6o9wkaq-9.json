@@ -1,7 +1,7 @@
 {
  "id": "pod-ytbnnz6o9wkaq-9",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DEANE VS SHANAHAN FINAL SPLIT",
  "video": "docs/media/pod-ytbnnz6o9wkaq-9/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 403.0
  },
  "created": "2026-11-19T07:12:37.087543+00:00",
- "built": "2026-11-19T07:12:37.087550+00:00"
+ "built": "2026-11-19T16:51:05.977113+00:00",
+ "media": [
+  "docs/media/pod-ytbnnz6o9wkaq-9/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-31T07:30:00+00:00"
 }

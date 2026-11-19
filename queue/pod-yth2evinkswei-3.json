@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-3",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ONE MORE TIME IN LONG BEACH",
  "video": "docs/media/pod-yth2evinkswei-3/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 272.04
  },
  "created": "2026-11-19T08:47:00.630627+00:00",
- "built": "2026-11-19T08:47:00.630636+00:00"
+ "built": "2026-11-19T16:51:07.313605+00:00",
+ "media": [
+  "docs/media/pod-yth2evinkswei-3/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-22T22:00:00+00:00"
 }
