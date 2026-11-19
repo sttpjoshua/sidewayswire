@@ -29,6 +29,8 @@ jobs:
         run: python -m lc.collect
       - name: 2 build posts and handle Telegram answers
         run: python -m lc.build
+      - name: plan per platform (score, tijden, captions)
+        run: python -m lc.planner
       - name: media naar de releases, wat bijna online gaat naar de site
         run: python -m lc.mediastore sync
       - name: 3 publish what is due

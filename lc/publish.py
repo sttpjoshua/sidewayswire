@@ -55,35 +55,54 @@ def post_facebook(urls: list[str], caption: str) -> str:
     return r.json()["id"]
 
 
+def _urls(post: dict, platform: str) -> list[str]:
+    """TikTok and YouTube get the short version (max 30 s, starts with the action) when there is one."""
+    if platform in ("tiktok", "youtube") and post.get("short"):
+        return media_urls({"media": [post["short"]]})
+    return media_urls(post)
+
+
 def run(folder: Path = q.QUEUE, now: datetime | None = None) -> dict:
+    """Posts, per platform, what is due in the post's plan (see planner.py)."""
+    from . import planner
     now = now or datetime.now(timezone.utc)
     dry = os.environ.get("LC_DRY_RUN", "1") != "0"
     tg, ig = Telegram(), Instagram()
     report = {"posted": 0, "dry_run": dry, "errors": []}
     for p in q.load("ready", folder):
-        if datetime.fromisoformat(p["post_at"]) > now:
+        plan = p.get("plan") or ({pl: p["post_at"] for pl in p.get("platforms", [])} if p.get("post_at") else {})
+        due = [pl for pl, t in plan.items() if datetime.fromisoformat(t) <= now and pl not in (p.get("results") or {})]
+        if not due:
             continue
-        urls, results = media_urls(p), {}
-        for platform in p.get("platforms", ["instagram", "facebook"]):
+        results = dict(p.get("results") or {})
+        caps = p.get("captions") or {}
+        for platform in due:
+            caption = caps.get(platform) or p["caption"]
+            urls = _urls(p, platform)
             try:
                 if dry:
                     results[platform] = "dry-run"
                 elif platform == "instagram":
                     is_video = urls[0].endswith(".mp4")
-                    results[platform] = (ig.post_reel(urls[0], p["caption"]) if is_video
-                                         else ig.post_image(urls[0], p["caption"]) if len(urls) == 1
-                                         else ig.post_carousel(urls[:10], p["caption"]))
+                    collab = p.get("collaborators") or []
+                    results[platform] = (ig.post_reel(urls[0], caption, collaborators=collab) if is_video
+                                         else ig.post_image(urls[0], caption, collaborators=collab) if len(urls) == 1
+                                         else ig.post_carousel(urls[:10], caption, collaborators=collab))
                 elif platform == "facebook":
-                    results[platform] = post_facebook(urls, p["caption"])
+                    results[platform] = post_facebook(urls, caption)
                 else:
-                    # TikTok and YouTube switch on after their audits (see the audit doc).
+                    # TikTok and YouTube switch on after their audits; until then they are not 'connected'
+                    # and the planner does not plan them once LC_DRY_RUN is off.
                     results[platform] = "waiting for platform audit"
             except Exception as e:
                 results[platform] = f"ERROR {str(e)[:200]}"
                 report["errors"].append({"post": p["id"], "platform": platform, "error": str(e)[:200]})
-        p.update(status="posted", posted_at=now.isoformat(), results=results)
+            report["posted"] += 1
+        p["results"] = results
+        p.setdefault("posted_at", now.isoformat())
+        if not planner.remaining(p):
+            p.update(status="posted", posted_at=now.isoformat())
         q.save(p, folder)
-        report["posted"] += 1
     if report["errors"] and tg.on:
         tg.text("Sideways Wire: posten mislukt\n" + json.dumps(report["errors"], indent=1)[:3500])
     return report

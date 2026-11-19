@@ -8,6 +8,7 @@ same way as Bibleverse.
 """
 from __future__ import annotations
 
+import json
 import os
 import time
 from datetime import datetime
@@ -76,19 +77,25 @@ class Instagram:
             time.sleep(5)
         raise TimeoutError(container_id)
 
-    def post_image(self, image_url: str, caption: str) -> str:
-        c = self._post(f"{self.user_id}/media", image_url=image_url, caption=caption)["id"]
+    def post_image(self, image_url: str, caption: str, collaborators: list[str] | None = None) -> str:
+        extra = {"collaborators": json.dumps(collaborators[:3])} if collaborators else {}
+        c = self._post(f"{self.user_id}/media", image_url=image_url, caption=caption, **extra)["id"]
         return self._post(f"{self.user_id}/media_publish", creation_id=c)["id"]
 
-    def post_carousel(self, image_urls: list[str], caption: str) -> str:
+    def post_carousel(self, image_urls: list[str], caption: str, collaborators: list[str] | None = None) -> str:
         children = [self._post(f"{self.user_id}/media", image_url=u, is_carousel_item="true")["id"]
                     for u in image_urls]
+        extra = {"collaborators": json.dumps(collaborators[:3])} if collaborators else {}
         c = self._post(f"{self.user_id}/media", media_type="CAROUSEL",
-                       children=",".join(children), caption=caption)["id"]
+                       children=",".join(children), caption=caption, **extra)["id"]
         return self._post(f"{self.user_id}/media_publish", creation_id=c)["id"]
 
-    def post_reel(self, video_url: str, caption: str, cover_url: str | None = None) -> str:
+    def post_reel(self, video_url: str, caption: str, cover_url: str | None = None,
+                  collaborators: list[str] | None = None) -> str:
+        """collaborators: up to 3 usernames that get a collab invite (the post then also shows on their profile)."""
         data = {"media_type": "REELS", "video_url": video_url, "caption": caption}
+        if collaborators:
+            data["collaborators"] = json.dumps(collaborators[:3])
         if cover_url:
             data["cover_url"] = cover_url
         c = self._post(f"{self.user_id}/media", **data)["id"]

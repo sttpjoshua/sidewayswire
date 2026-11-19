@@ -96,6 +96,8 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
     # Approved or skipped on the dashboard: give approved posts a time (Joshua's own, or the next free slot).
     for p in q.load("approved", folder):
         p["status"] = "ready"
+        if p.get("want_at"):
+            p["pinned_at"] = p["want_at"]          # Joshua's own moment: the planner keeps it
         p["post_at"] = p.get("want_at") or q.next_slot(q.load(folder=folder), p["kind"]).isoformat()
         q.save(p, folder)
         report["ready"] += 1
@@ -134,7 +136,10 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
                     tg.check(p, str(ROOT / p["media"][0]), reason)
             else:
                 p["status"] = "ready"
-                p["post_at"] = p.pop("want_at", None) or q.next_slot(q.load(folder=folder), p["kind"]).isoformat()
+                want = p.pop("want_at", None)
+                if want:
+                    p["pinned_at"] = want
+                p["post_at"] = want or q.next_slot(q.load(folder=folder), p["kind"]).isoformat()
                 report["ready"] += 1
             p["built"] = datetime.now(timezone.utc).isoformat()
             q.save(p, folder)

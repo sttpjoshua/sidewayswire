@@ -222,6 +222,8 @@ def run(limit: int = 120) -> dict:
                 "source": {"podcast": ep["podcast"], "episode": ep["title"], "start": m["start"]},
                 "created": (post or {}).get("created") or datetime.now(timezone.utc).isoformat(),
                 "built": datetime.now(timezone.utc).isoformat(),
+                # Joshua's platform choice and the plan survive a remake; the short version is made again.
+                **{k: post[k] for k in ("ig", "pinned_at", "plan") if keep and post.get(k)},
             })
             report["clips"].append(f"{pid} ({res['mode']}{', upgraded' if upgrade else ''})")
         except Exception as e:

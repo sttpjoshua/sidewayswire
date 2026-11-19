@@ -1,0 +1,22 @@
+# Short versions (max 30 s) of the clips for TikTok and YouTube Shorts, see lc/shorts.py.
+# Also run at the end of every clips run; this one can be started by hand for the backlog.
+name: shorts
+on: { workflow_dispatch: {} }
+concurrency: { group: clips, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  shorts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests && sudo apt-get install -y -qq ffmpeg
+      - name: Make short versions
+        run: python -m lc.shorts 600
+      - name: Plan, move media, save
+        run: python -m lc.planner && python -m lc.mediastore sync && python -m lc.status && python -m lc.gitsave "korte versies $(date -u +%FT%TZ)" queue docs/media docs/status.json

@@ -30,12 +30,13 @@ def registry() -> dict:
     for r in csv.DictReader(CSV.open(encoding="utf-8")):
         ig = (r.get("Instagram") or "").strip()
         out[_key(r["Naam"])] = {"name": r["Naam"], "handle": ig.lower() if ig else "",
-                                "ok": r.get("Status") == "Gecontroleerd" and ig.startswith("@")}
+                                "ok": r.get("Status") == "Gecontroleerd" and ig.startswith("@"),
+                                "type": r.get("Type", ""), "prio": int(r.get("Prioriteit") or 3)}
     if MANUAL.exists():
         for name, ig in json.loads(MANUAL.read_text()).items():
             ig = "@" + ig.strip().lstrip("@").lower()
             if len(ig) > 1:
-                out[_key(name)] = {"name": name, "handle": ig, "ok": True}
+                out[_key(name)] = {**out.get(_key(name), {"type": "", "prio": 3}), "name": name, "handle": ig, "ok": True}
     return out
 
 

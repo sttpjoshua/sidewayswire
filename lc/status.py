@@ -77,7 +77,8 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         except Exception:
             return None
     keep = ("id", "kind", "status", "post_at", "posted_at", "caption", "media", "problems", "results", "credit",
-            "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video", "tags", "missing_handles", "caption_by", "format")
+            "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video", "tags", "missing_handles", "caption_by", "format",
+            "plan", "score", "captions", "ig", "collaborators", "people", "moment_kind", "pinned_at", "short_none", "short_len")
     status = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "counts": dict(Counter(p.get("status", "draft") for p in posts)),
@@ -89,6 +90,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         "streams": stream_summary(),
         "posts": [{k: p.get(k) for k in keep} | {"media": [mediastore.url(m) for m in p.get("media") or []],
                                                  "video": mediastore.url(p["video"]) if p.get("video") else None,
+                                                 "short": mediastore.url(p["short"]) if p.get("short") else None,
                                                  "title": clip_title(p), "photo": photo_info(p)}
                   for p in sorted(posts, key=lambda p: p.get("post_at") or p.get("built") or p.get("created") or "",
                                   reverse=True)[:300]],
