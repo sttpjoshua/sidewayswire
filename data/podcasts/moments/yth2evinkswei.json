@@ -1100,8 +1100,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-37-27887-28267.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-37-27887-28267.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-37/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2820.4, \"start\": 2816.48, \"text\": \"IS THE CHAMP OUT?\", \"why\": \"spanning\"}",
+  "made": "2026-11-19T12:21:50.345268+00:00"
  },
  {
   "start": 2985.26,
@@ -1124,8 +1129,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-38-29853-30501.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-38-29853-30501.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-38/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3036.1, \"start\": 3033.5, \"text\": \"DID THE MACHINE BREAK DOWN?\", \"why\": \"grote fout\"}",
+  "made": "2026-11-19T12:24:07.440640+00:00"
  },
  {
   "start": 152.0,
@@ -1160,8 +1170,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-39r2-1738-1973.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-39r2-1738-1973.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-39/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T12:25:54.937864+00:00"
  },
  {
   "start": 512.2,
@@ -1196,8 +1211,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-40r2-5580-5891.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-40r2-5580-5891.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-40/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T12:28:49.733412+00:00"
  },
  {
   "start": 595.3,
