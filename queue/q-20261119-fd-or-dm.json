@@ -1,0 +1,53 @@
+{
+ "id": "q-20261119-fd-or-dm",
+ "kind": "hook",
+ "hook": {
+  "type": "question"
+ },
+ "title": "FORMULA DRIFT OR DRIFT MASTERS?",
+ "people": [],
+ "slides": [
+  {
+   "template": "hook.html",
+   "data": {
+    "headline": [
+     "FORMULA DRIFT",
+     "OR DRIFT",
+     "MASTERS?"
+    ],
+    "label": "YOUR CALL",
+    "series": "",
+    "band": "#111111",
+    "photo": "../docs/media/stills/fd2026r8-12r1-1.jpg",
+    "photo_credit": "@formulad"
+   }
+  }
+ ],
+ "caption": "Two series, one weekend, one screen. Which one are you watching first? 👇\n\nPhoto: @formulad\n\n#formuladrift #driftmasters",
+ "platforms": [
+  "instagram",
+  "facebook"
+ ],
+ "status": "ready",
+ "created": "2026-11-19T21:24:02.125059+00:00",
+ "evergreen": "fd-or-dm",
+ "by": "hooks",
+ "media": [
+  "docs/media/q-20261119-fd-or-dm/1.png"
+ ],
+ "problems": [],
+ "post_at": "2026-12-06T07:30:00+00:00",
+ "built": "2026-11-19T21:24:14.771061+00:00",
+ "plan": {
+  "instagram": "2026-12-07T07:30:00+00:00",
+  "facebook": "2026-12-06T07:30:00+00:00"
+ },
+ "captions": {
+  "instagram": "Two series, one weekend, one screen. Which one are you watching first? 👇\n\nPhoto: @formulad\n\n#drift #formuladrift #driftmasters #sidewayswire",
+  "facebook": "Two series, one weekend, one screen. Which one are you watching first? 👇\n\nPhoto: @formulad\n\n#drift #formuladrift #sidewayswire",
+  "tiktok": "Two series, one weekend, one screen. Which one are you watching first? 👇\n#drift #formuladrift #driftmasters #sidewayswire",
+  "youtube_title": "FORMULA DRIFT OR DRIFT MASTERS?",
+  "youtube": "Two series, one weekend, one screen. Which one are you watching first? 👇\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #formuladrift #sidewayswire"
+ },
+ "collaborators": []
+}

@@ -1,13 +1,12 @@
 {
- "updated": "2026-11-19T21:17:08.561304+00:00",
+ "updated": "2026-11-19T21:24:22.437225+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 365,
-  "check": 192,
-  "posted": 3,
-  "draft": 4
+  "ready": 372,
+  "check": 193,
+  "posted": 3
  },
- "collected": "2026-11-19T19:13:06.604372+00:00",
+ "collected": "2026-11-19T21:24:01.992690+00:00",
  "instagram": false,
  "sources": [
   {
@@ -28,7 +27,7 @@
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
    "ok": true,
-   "items": 3,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -154,7 +153,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -187,6 +186,57 @@
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQTFGYUgyeF9lVmlZWkxVM2N2YmRxcGM0c3pQOURzbk8xNTM1RlBkYzRFYkRQN0FkcDJDS2ZQUTN3QmNNbkRicHdhYnJzbC1WM2dDWVctVnI0QS1LbWcyX3JIS2tnUmk2UDhwcl90QjU2N2tPcjJmZ3RBc0tYYmc2LU91XzJ5cHE5UVAzdExSWDFtSllJNEx3ZndoVEpDS0d3TEhkbzdPWTY0TmRVYVBHLVJkajJTWUk0VEFLS21UdkNRNkJaU2ZRMjdiVFg1dkd4dnJlZ1FtMnNZN1pTbHc?oc=5",
      "kind": "article",
      "published": "2026-11-17T01:12:22+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Cosmo Update + Compound Flooding",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-19T20:07:27+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "Cosmo Update + Compound Flooding",
+     "url": "https://www.youtube.com/watch?v=XWWDMH0eHLA",
+     "kind": "video",
+     "published": "2026-11-19T20:07:27+00:00",
+     "media_url": "https://i1.ytimg.com/vi/XWWDMH0eHLA/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Put together the ultimate rock 'n' roll band made up entirely of drifters and give it a name! 🤘🔥",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-19T20:05:27+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "Put together the ultimate rock 'n' roll band made up entirely of drifters and give it a name! 🤘🔥",
+     "url": "https://www.youtube.com/shorts/jU0KT7w1vGQ",
+     "kind": "video",
+     "published": "2026-11-19T20:05:27+00:00",
+     "media_url": "https://i3.ytimg.com/vi/jU0KT7w1vGQ/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "NightClub: Drift & Speed",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-19T18:29:51+00:00",
+   "items": [
+    {
+     "source": "Drifted.com",
+     "title": "NightClub: Drift & Speed",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JRW1qc0xadWpVZnhNQmtpZEdqbGZSaU9SeWhLY0hpa0ZqazM2Mk1JeGQtNkRCVkd2ZnpPVWljNjhmWmpxblljNEVzeUNJT210dnpTbkI0dkVoQQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-19T18:29:51+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -601,23 +651,6 @@
    ]
   },
   {
-   "title": "Enjoy your Sunday afternoon! ☀️😊",
-   "series": "DM",
-   "buzz": 1,
-   "published": "2026-11-15T15:35:28+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "Enjoy your Sunday afternoon! ☀️😊",
-     "url": "https://www.youtube.com/shorts/CXzfhHQrIQM",
-     "kind": "video",
-     "published": "2026-11-15T15:35:28+00:00",
-     "media_url": "https://i4.ytimg.com/vi/CXzfhHQrIQM/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "title": "JDM Japanese Drift Master Gets New 5000-Layer Livery Editor",
    "series": "FD + DM",
    "buzz": 1,
@@ -648,23 +681,6 @@
      "published": "2026-11-14T14:47:43+00:00",
      "media_url": null,
      "media_type": null
-    }
-   ]
-  },
-  {
-   "title": "Before we get old, let’s make some unforgettable memories! 🔥🏁",
-   "series": "DM",
-   "buzz": 1,
-   "published": "2026-11-14T14:45:33+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "Before we get old, let’s make some unforgettable memories! 🔥🏁",
-     "url": "https://www.youtube.com/shorts/NWG-p8qMH6w",
-     "kind": "video",
-     "published": "2026-11-14T14:45:33+00:00",
-     "media_url": "https://i3.ytimg.com/vi/NWG-p8qMH6w/hqdefault.jpg",
-     "media_type": "VIDEO"
     }
    ]
   },
@@ -1361,23 +1377,6 @@
      "kind": "video",
      "published": "2026-11-05T10:35:21+00:00",
      "media_url": "https://i4.ytimg.com/vi/338VCLDzkl8/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "The Formula DRIFT Paddock on Ryan Tuerck Memories",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-03T15:00:12+00:00",
-   "items": [
-    {
-     "source": "Formula DRIFT",
-     "title": "The Formula DRIFT Paddock on Ryan Tuerck Memories",
-     "url": "https://www.youtube.com/watch?v=lchTVinH8Ek",
-     "kind": "video",
-     "published": "2026-11-03T15:00:12+00:00",
-     "media_url": "https://i1.ytimg.com/vi/lchTVinH8Ek/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
@@ -6713,7 +6712,7 @@
  },
  "streams": {
   "total": 159,
-  "transcribed": 146,
+  "transcribed": 158,
   "moments": 26,
   "next": "T-Pain Gives Hert A Mustang We Built!!",
   "series": {
@@ -6751,7 +6750,7 @@
    },
    "Piotr Więcek": {
     "total": 12,
-    "transcribed": 0
+    "transcribed": 12
    },
    "Drift Masters": {
     "total": 16,
@@ -11175,6 +11174,72 @@
    "photo": null
   },
   {
+   "id": "q-20261119-deane-shanahan-prime",
+   "kind": "hook",
+   "status": "ready",
+   "post_at": "2026-12-08T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "One battle, both at their best, no rules on paper. Who takes it? 👇\n\nPhoto: @formulad\n\n#jamesdeane #conorshanahan",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/q-20261119-deane-shanahan-prime__1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": null,
+   "check_reason": null,
+   "source": null,
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-19T21:24:02.125174+00:00",
+   "built": "2026-11-19T21:24:14.080150+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": {
+    "instagram": "2026-12-09T07:30:00+00:00",
+    "facebook": "2026-12-08T07:30:00+00:00"
+   },
+   "score": null,
+   "captions": {
+    "instagram": "One battle, both at their best, no rules on paper. Who takes it? 👇\n\nPhoto: @formulad\n\n#drift #jamesdeane #conorshanahan #sidewayswire",
+    "facebook": "One battle, both at their best, no rules on paper. Who takes it? 👇\n\nPhoto: @formulad\n\n#drift #jamesdeane #sidewayswire",
+    "tiktok": "One battle, both at their best, no rules on paper. Who takes it? 👇\n#drift #jamesdeane #conorshanahan #sidewayswire",
+    "youtube_title": "DEANE VS SHANAHAN IN THEIR PRIME?",
+    "youtube": "One battle, both at their best, no rules on paper. Who takes it? 👇\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jamesdeane #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "jamesdeane130",
+    "conorshanahan79"
+   ],
+   "people": [
+    "James Deane",
+    "Conor Shanahan"
+   ],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": {
+    "type": "whatif"
+   },
+   "evergreen": "deane-shanahan-prime",
+   "short": null,
+   "title": "DEANE VS SHANAHAN IN THEIR PRIME?",
+   "photo": {
+    "mode": "auto",
+    "credit": "@formulad"
+   }
+  },
+  {
    "id": "pod-yth2evinkswei-40",
    "kind": "stream_clip",
    "status": "ready",
@@ -11611,6 +11676,131 @@
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8egpwdvj0eq-13__short.mp4",
    "title": "BATTLE OF THE SPRINGS",
    "photo": null
+  },
+  {
+   "id": "2026-11-17-conor-shanahan-wins-tokyo-drift",
+   "kind": "news",
+   "status": "ready",
+   "post_at": "2026-12-06T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/2026-11-17-conor-shanahan-wins-tokyo-drift__1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": null,
+   "source": "https://d1gp.co.jp/27462/",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-17T14:14:13.502153+00:00",
+   "built": "2026-11-17T18:58:05.365369+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": [
+    "@conorshanahan79"
+   ],
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": {
+    "instagram": "2026-12-06T07:30:00+00:00",
+    "facebook": "2026-12-07T07:30:00+00:00"
+   },
+   "score": null,
+   "captions": {
+    "instagram": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#drift #d1gp #tokyodrift #conorshanahan #sidewayswire",
+    "facebook": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#drift #d1gp #sidewayswire",
+    "tiktok": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n#drift #d1gp #tokyodrift #sidewayswire",
+    "youtube_title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
+    "youtube": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #d1gp #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Conor Shanahan",
+    "Naoki Nakamura",
+    "Kojiro Meguwa",
+    "Jack Shanahan"
+   ],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "short": null,
+   "title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
+   "photo": {
+    "mode": "auto",
+    "credit": "@formulad"
+   }
+  },
+  {
+   "id": "q-20261119-fd-or-dm",
+   "kind": "hook",
+   "status": "ready",
+   "post_at": "2026-12-06T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "Two series, one weekend, one screen. Which one are you watching first? 👇\n\nPhoto: @formulad\n\n#formuladrift #driftmasters",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/q-20261119-fd-or-dm__1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": null,
+   "check_reason": null,
+   "source": null,
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-19T21:24:02.125059+00:00",
+   "built": "2026-11-19T21:24:14.771061+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": {
+    "instagram": "2026-12-07T07:30:00+00:00",
+    "facebook": "2026-12-06T07:30:00+00:00"
+   },
+   "score": null,
+   "captions": {
+    "instagram": "Two series, one weekend, one screen. Which one are you watching first? 👇\n\nPhoto: @formulad\n\n#drift #formuladrift #driftmasters #sidewayswire",
+    "facebook": "Two series, one weekend, one screen. Which one are you watching first? 👇\n\nPhoto: @formulad\n\n#drift #formuladrift #sidewayswire",
+    "tiktok": "Two series, one weekend, one screen. Which one are you watching first? 👇\n#drift #formuladrift #driftmasters #sidewayswire",
+    "youtube_title": "FORMULA DRIFT OR DRIFT MASTERS?",
+    "youtube": "Two series, one weekend, one screen. Which one are you watching first? 👇\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #formuladrift #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": {
+    "type": "question"
+   },
+   "evergreen": "fd-or-dm",
+   "short": null,
+   "title": "FORMULA DRIFT OR DRIFT MASTERS?",
+   "photo": {
+    "mode": "auto",
+    "credit": "@formulad"
+   }
   },
   {
    "id": "pod-yt9lxrdzgctgm-46",
@@ -12121,6 +12311,66 @@
    "photo": null
   },
   {
+   "id": "q-20261119-omt-scrapped",
+   "kind": "hook",
+   "status": "ready",
+   "post_at": "2026-12-04T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "Best drama in the sport, or the reason events run late? Be honest 👇\n\nPhoto: @formulad\n\n#formuladrift #drift",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/q-20261119-omt-scrapped__1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": null,
+   "check_reason": null,
+   "source": null,
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-19T21:24:02.124930+00:00",
+   "built": "2026-11-19T21:24:15.323436+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": {
+    "instagram": "2026-12-05T07:30:00+00:00",
+    "facebook": "2026-12-04T07:30:00+00:00"
+   },
+   "score": null,
+   "captions": {
+    "instagram": "Best drama in the sport, or the reason events run late? Be honest 👇\n\nPhoto: @formulad\n\n#drift #formuladrift #sidewayswire",
+    "facebook": "Best drama in the sport, or the reason events run late? Be honest 👇\n\nPhoto: @formulad\n\n#drift #formuladrift #sidewayswire",
+    "tiktok": "Best drama in the sport, or the reason events run late? Be honest 👇\n#drift #formuladrift #sidewayswire",
+    "youtube_title": "SHOULD ONE MORE TIMES BE SCRAPPED?",
+    "youtube": "Best drama in the sport, or the reason events run late? Be honest 👇\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #formuladrift #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": {
+    "type": "debate"
+   },
+   "evergreen": "omt-scrapped",
+   "short": null,
+   "title": "SHOULD ONE MORE TIMES BE SCRAPPED?",
+   "photo": {
+    "mode": "auto",
+    "credit": "@formulad"
+   }
+  },
+  {
    "id": "pod-ytckqkb2axqe-21",
    "kind": "stream_clip",
    "status": "ready",
@@ -12341,71 +12591,6 @@
    "photo": null
   },
   {
-   "id": "2026-11-17-conor-shanahan-wins-tokyo-drift",
-   "kind": "news",
-   "status": "ready",
-   "post_at": "2026-12-03T07:30:00+00:00",
-   "posted_at": null,
-   "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/2026-11-17-conor-shanahan-wins-tokyo-drift__1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": false,
-   "check_reason": null,
-   "source": "https://d1gp.co.jp/27462/",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:14:13.502153+00:00",
-   "built": "2026-11-17T18:58:05.365369+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [
-    "@conorshanahan79"
-   ],
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "plan": {
-    "instagram": "2026-12-03T07:30:00+00:00",
-    "facebook": "2026-12-03T07:30:00+00:00"
-   },
-   "score": null,
-   "captions": {
-    "instagram": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#drift #d1gp #tokyodrift #conorshanahan #sidewayswire",
-    "facebook": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#drift #d1gp #sidewayswire",
-    "tiktok": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n#drift #d1gp #tokyodrift #sidewayswire",
-    "youtube_title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
-    "youtube": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #d1gp #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [],
-   "people": [
-    "Conor Shanahan",
-    "Naoki Nakamura",
-    "Kojiro Meguwa",
-    "Jack Shanahan"
-   ],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "short": null,
-   "title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
-   "photo": {
-    "mode": "auto",
-    "credit": "@formulad"
-   }
-  },
-  {
    "id": "pod-yt8egpwdvj0eq-24",
    "kind": "stream_clip",
    "status": "ready",
@@ -12623,28 +12808,27 @@
    "photo": null
   },
   {
-   "id": "2026-11-16-fd-final-standings",
-   "kind": "standings",
+   "id": "q-20261119-style-or-grip",
+   "kind": "hook",
    "status": "ready",
    "post_at": "2026-12-02T07:30:00+00:00",
    "posted_at": null,
-   "caption": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "caption": "We'll say it: big angle and smoke win hearts. But should they win battles? Pick a side 👇\n\nPhoto: @formulad\n\n#formuladrift #drift",
    "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/2026-11-16-fd-final-standings__1.png",
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/2026-11-16-fd-final-standings__2.png"
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/q-20261119-style-or-grip__1.png"
    ],
    "problems": [],
    "results": null,
    "credit": null,
-   "check": false,
-   "check_reason": "eerste post met dit format: check jij eerst",
+   "check": null,
+   "check_reason": null,
    "source": null,
    "platforms": [
     "instagram",
     "facebook"
    ],
-   "created": "2026-11-16T21:54:13.895590+00:00",
-   "built": "2026-11-16T21:56:41.507121+00:00",
+   "created": "2026-11-19T21:24:02.124751+00:00",
+   "built": "2026-11-19T21:24:15.946658+00:00",
    "want_at": null,
    "video": null,
    "tags": null,
@@ -12652,35 +12836,36 @@
    "caption_by": null,
    "format": null,
    "plan": {
-    "instagram": "2026-12-02T07:30:00+00:00",
+    "instagram": "2026-12-03T07:30:00+00:00",
     "facebook": "2026-12-02T07:30:00+00:00"
    },
    "score": null,
    "captions": {
-    "instagram": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#drift #formulad #formuladrift #conorshanahan #sidewayswire",
-    "facebook": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#drift #formulad #sidewayswire",
-    "tiktok": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n#drift #formulad #formuladrift #sidewayswire",
-    "youtube_title": "FD 2026 FINAL STANDINGS",
-    "youtube": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #formulad #sidewayswire"
+    "instagram": "We'll say it: big angle and smoke win hearts. But should they win battles? Pick a side 👇\n\nPhoto: @formulad\n\n#drift #formuladrift #sidewayswire",
+    "facebook": "We'll say it: big angle and smoke win hearts. But should they win battles? Pick a side 👇\n\nPhoto: @formulad\n\n#drift #formuladrift #sidewayswire",
+    "tiktok": "We'll say it: big angle and smoke win hearts. But should they win battles? Pick a side 👇\n#drift #formuladrift #sidewayswire",
+    "youtube_title": "STYLE OR GRIP: WHAT SHOULD JUDGES REWARD?",
+    "youtube": "We'll say it: big angle and smoke win hearts. But should they win battles? Pick a side 👇\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #formuladrift #sidewayswire"
    },
    "ig": null,
    "collaborators": [],
-   "people": [
-    "Conor Shanahan",
-    "James Deane",
-    "Jhonnattan Castro"
-   ],
+   "people": [],
    "moment_kind": null,
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
    "thumb": null,
    "preview": null,
-   "hook": null,
-   "evergreen": null,
+   "hook": {
+    "type": "debate"
+   },
+   "evergreen": "style-or-grip",
    "short": null,
-   "title": "FD 2026 FINAL STANDINGS",
-   "photo": null
+   "title": "STYLE OR GRIP: WHAT SHOULD JUDGES REWARD?",
+   "photo": {
+    "mode": "auto",
+    "credit": "@formulad"
+   }
   },
   {
    "id": "pod-ytckqkb2axqe-19",
@@ -12753,6 +12938,66 @@
    "evergreen": null,
    "short": null,
    "title": "DEANE VS FIELD TOP 16",
+   "photo": null
+  },
+  {
+   "id": "2026-11-16-fd-final-standings",
+   "kind": "standings",
+   "status": "ready",
+   "post_at": "2026-12-01T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/2026-11-16-fd-final-standings__1.png",
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/2026-11-16-fd-final-standings__2.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": "eerste post met dit format: check jij eerst",
+   "source": null,
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-16T21:54:13.895590+00:00",
+   "built": "2026-11-16T21:56:41.507121+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": {
+    "instagram": "2026-12-02T07:30:00+00:00",
+    "facebook": "2026-12-01T19:30:00+00:00"
+   },
+   "score": null,
+   "captions": {
+    "instagram": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#drift #formulad #formuladrift #conorshanahan #sidewayswire",
+    "facebook": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\n#drift #formulad #sidewayswire",
+    "tiktok": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n#drift #formulad #formuladrift #sidewayswire",
+    "youtube_title": "FD 2026 FINAL STANDINGS",
+    "youtube": "Three wins, the title clinched in Top 32 at Long Beach, and just 6 points ahead of James Deane. Conor Shanahan is the 2026 Formula DRIFT champion. 🇮🇪\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Conor Shanahan",
+    "James Deane",
+    "Jhonnattan Castro"
+   ],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "short": null,
+   "title": "FD 2026 FINAL STANDINGS",
    "photo": null
   },
   {
@@ -12963,12 +13208,14 @@
   {
    "id": "pod-ytoslpnfy2o5k-6",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "James Deane wins the Shoreline Showdown and Ireland goes one, two, three in the 2026 championship.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@jamesdeane130 @jackshanahan59 @adam_lz @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytoslpnfy2o5k-6__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -12985,7 +13232,7 @@
     "youtube"
    ],
    "created": "2026-11-19T21:16:56.490841+00:00",
-   "built": "2026-11-19T21:16:56.490846+00:00",
+   "built": "2026-11-19T21:24:10.636249+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytoslpnfy2o5k-6__clip.mp4",
    "tags": [
@@ -12998,13 +13245,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 85,
+   "captions": {
+    "instagram": "James Deane vs Jack Shanahan | Formula DRIFT Finale 2026\n\nJames Deane wins the Shoreline Showdown and Ireland goes one, two, three in the 2026 championship.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jamesdeane130 @jackshanahan59 @adam_lz @conorshanahan79 @formulad\n\n#formuladrift #formulad #jamesdeane #jackshanahan #sidewayswire",
+    "facebook": "James Deane vs Jack Shanahan | Formula DRIFT Finale 2026\n\nJames Deane wins the Shoreline Showdown and Ireland goes one, two, three in the 2026 championship.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jamesdeane130 @jackshanahan59 @adam_lz @conorshanahan79 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "James Deane vs Jack Shanahan | Formula DRIFT Finale 2026: James Deane wins the Shoreline Showdown and Ireland goes one, two, three in the 2026 championship.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Finale 2026 @jamesdeane130 @jackshanahan59 @adam_lz @conorshanahan79 @formulad\n#formuladrift #formulad #jamesdeane #sidewayswire",
+    "youtube_title": "James Deane vs Jack Shanahan | Formula DRIFT Finale 2026",
+    "youtube": "James Deane wins the Shoreline Showdown and Ireland goes one, two, three in the 2026 championship.\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jamesdeane130 @jackshanahan59 @adam_lz @conorshanahan79 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [
+    "jamesdeane130",
+    "jackshanahan59",
+    "adam_lz"
+   ],
+   "people": [
+    "James Deane",
+    "Jack Shanahan",
+    "Adam LZ"
+   ],
+   "moment_kind": "final",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13019,12 +13280,14 @@
   {
    "id": "pod-ytoslpnfy2o5k-5",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "check",
    "post_at": null,
    "posted_at": null,
    "caption": "Phone lights up, final run of 2026. Jack Shanahan spins and James Deane takes the win and second in the championship.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@jamesdeane130 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytoslpnfy2o5k-5__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": true,
@@ -13041,7 +13304,7 @@
     "youtube"
    ],
    "created": "2026-11-19T21:15:46.997996+00:00",
-   "built": "2026-11-19T21:15:46.998000+00:00",
+   "built": "2026-11-19T21:24:10.614013+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytoslpnfy2o5k-5__clip.mp4",
    "tags": [
@@ -13073,12 +13336,14 @@
   {
    "id": "pod-ytoslpnfy2o5k-4",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Jack Shanahan bangs the door, hand out the window, and calls out James Deane for the final.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@jackshanahan59 @adam_lz @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jackshanahan #sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytoslpnfy2o5k-4__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13095,7 +13360,7 @@
     "youtube"
    ],
    "created": "2026-11-19T21:14:27.098441+00:00",
-   "built": "2026-11-19T21:14:27.098446+00:00",
+   "built": "2026-11-19T21:24:10.613653+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytoslpnfy2o5k-4__clip.mp4",
    "tags": [
@@ -13107,13 +13372,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 85,
+   "captions": {
+    "instagram": "Jack Shanahan vs Adam LZ | Formula DRIFT Finale 2026\n\nJack Shanahan bangs the door, hand out the window, and calls out James Deane for the final.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @adam_lz @jamesdeane130 @formulad\n\n#formuladrift #formulad #jackshanahan #adamlz #sidewayswire",
+    "facebook": "Jack Shanahan vs Adam LZ | Formula DRIFT Finale 2026\n\nJack Shanahan bangs the door, hand out the window, and calls out James Deane for the final.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @adam_lz @jamesdeane130 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Jack Shanahan vs Adam LZ | Formula DRIFT Finale 2026: Jack Shanahan bangs the door, hand out the window, and calls out James Deane for the final.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Finale 2026 @jackshanahan59 @adam_lz @jamesdeane130 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
+    "youtube_title": "Jack Shanahan vs Adam LZ | Formula DRIFT Finale 2026",
+    "youtube": "Jack Shanahan bangs the door, hand out the window, and calls out James Deane for the final.\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @adam_lz @jamesdeane130 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [
+    "jackshanahan59",
+    "adam_lz",
+    "jamesdeane130"
+   ],
+   "people": [
+    "Jack Shanahan",
+    "Adam LZ",
+    "James Deane"
+   ],
+   "moment_kind": "battle",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13128,12 +13407,14 @@
   {
    "id": "pod-ytoslpnfy2o5k-3",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "The Irish contingent takes over Long Beach. It is going to be a loud night in Cork.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #longbeach #conorshanahan #sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytoslpnfy2o5k-3__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13150,7 +13431,7 @@
     "youtube"
    ],
    "created": "2026-11-19T21:13:06.665450+00:00",
-   "built": "2026-11-19T21:13:06.665455+00:00",
+   "built": "2026-11-19T21:24:10.580693+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytoslpnfy2o5k-3__clip.mp4",
    "tags": [
@@ -13160,13 +13441,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 66,
+   "captions": {
+    "instagram": "Conor Shanahan | Formula DRIFT Finale 2026\n\nThe Irish contingent takes over Long Beach. It is going to be a loud night in Cork.\n\n🎥 Footage: Formula DRIFT Finale 2026\n@conorshanahan79 @formulad\n\n#formuladrift #formulad #conorshanahan #drifting #sidewayswire",
+    "facebook": "Conor Shanahan | Formula DRIFT Finale 2026\n\nThe Irish contingent takes over Long Beach. It is going to be a loud night in Cork.\n\n🎥 Footage: Formula DRIFT Finale 2026\n@conorshanahan79 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Conor Shanahan | Formula DRIFT Finale 2026: The Irish contingent takes over Long Beach. It is going to be a loud night in Cork.\n🎥 Footage: Formula DRIFT Finale 2026 @conorshanahan79 @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
+    "youtube_title": "Conor Shanahan | Formula DRIFT Finale 2026",
+    "youtube": "The Irish contingent takes over Long Beach. It is going to be a loud night in Cork.\n\n🎥 Footage: Formula DRIFT Finale 2026\n@conorshanahan79 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [
+    "conorshanahan79"
+   ],
+   "people": [
+    "Conor Shanahan"
+   ],
+   "moment_kind": "moment",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13487,11 +13778,11 @@
    "plan": {},
    "score": 58,
    "captions": {
-    "instagram": "Piotr Więcek | Drift Masters 2026 Grand Final\n\nPiotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\n#driftmasters #drift #piotrwiecek #drifting #sidewayswire",
-    "facebook": "Piotr Więcek | Drift Masters 2026 Grand Final\n\nPiotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
-    "tiktok": "Piotr Więcek | Drift Masters 2026 Grand Final: Piotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n🎥 Footage: Drift Masters 2026 Grand Final @driftmasters.gp\n#driftmasters #drift #piotrwiecek #sidewayswire",
+    "instagram": "Piotr Więcek | Drift Masters 2026 Grand Final\n\nPiotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@piotrwiecek @driftmasters.gp\n\n#driftmasters #drift #piotrwiecek #drifting #sidewayswire",
+    "facebook": "Piotr Więcek | Drift Masters 2026 Grand Final\n\nPiotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@piotrwiecek @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+    "tiktok": "Piotr Więcek | Drift Masters 2026 Grand Final: Piotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n🎥 Footage: Drift Masters 2026 Grand Final @piotrwiecek @driftmasters.gp\n#driftmasters #drift #piotrwiecek #sidewayswire",
     "youtube_title": "Piotr Więcek | Drift Masters 2026 Grand Final",
-    "youtube": "Piotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+    "youtube": "Piotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@piotrwiecek @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
    },
    "ig": null,
    "collaborators": [
@@ -13675,11 +13966,11 @@
    "plan": {},
    "score": 62,
    "captions": {
-    "instagram": "Paweł Korpuliński | Drift Masters 2026 Grand Final\n\nInside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\n#driftmasters #drift #pawelkorpulinski #piotrwiecek #sidewayswire",
-    "facebook": "Paweł Korpuliński | Drift Masters 2026 Grand Final\n\nInside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
-    "tiktok": "Paweł Korpuliński | Drift Masters 2026 Grand Final: Inside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n🎥 Footage: Drift Masters 2026 Grand Final @driftmasters.gp\n#driftmasters #drift #pawelkorpulinski #sidewayswire",
+    "instagram": "Paweł Korpuliński | Drift Masters 2026 Grand Final\n\nInside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@piotrwiecek @driftmasters.gp\n\n#driftmasters #drift #pawelkorpulinski #piotrwiecek #sidewayswire",
+    "facebook": "Paweł Korpuliński | Drift Masters 2026 Grand Final\n\nInside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@piotrwiecek @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+    "tiktok": "Paweł Korpuliński | Drift Masters 2026 Grand Final: Inside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n🎥 Footage: Drift Masters 2026 Grand Final @piotrwiecek @driftmasters.gp\n#driftmasters #drift #pawelkorpulinski #sidewayswire",
     "youtube_title": "Paweł Korpuliński | Drift Masters 2026 Grand Final",
-    "youtube": "Inside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+    "youtube": "Inside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@piotrwiecek @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
    },
    "ig": null,
    "collaborators": [
