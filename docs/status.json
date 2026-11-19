@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T16:10:09.363067+00:00",
+ "updated": "2026-11-19T16:16:25.383707+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 172
+  "draft": 176
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4161,9 +4161,9 @@
       "topic": "LONG BEACH FINAL",
       "quote": "",
       "why": "Split van de finale",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-24/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -4175,9 +4175,9 @@
       "topic": "THE TITLE BATTLE",
       "quote": "",
       "why": "Split van de titelbattle",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-25/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      }
@@ -8373,9 +8373,9 @@
       "topic": "CROWNED IN WARSAW",
       "quote": "If Pavel Korpalinsky wins this battle, he wins the 2026 Drift Basters Championship. Has Pavel Korpalinsky done it? It's going to be Pavel Koppelinski, he gets the win and that means Pavel Koppelinski is your 2026 Driftmasters champion! I still can't believe it. I had no idea because I wasn't kind in the points. I didn't know that it's gonna be enough with the form. I was more focused on the other than on Connor. He was behind me, so I had no idea.",
       "why": "Kampioensbattle en zijn reactie in de pit",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytn7sq14e5es-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8387,9 +8387,9 @@
       "topic": "THEY CALL HIM THE SURGEON",
       "quote": "I think the best driver this year was the champion in Pawel Kropolinski. I 100 % agree with that top to bottom. Yeah. I think that's the best way to look at it. Absolutely phenomenal. I think you guys called him the surgeon, right? For sure. He is amazing. He's amazing. The championship is back in focus. Yeah. And this wonderful stadium, like this stadium, is absolutely amazing. And now we have to round it out. Seven countries, seven rounds, multiple different winners is each one champion, Pavel Korpinski. Congratulations, sir.",
       "why": "Presentatoren: beste coureur van het jaar is kampioen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytn7sq14e5es-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,163 @@
    "photo": null
   },
   {
+   "id": "pod-ytn7sq14e5es-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Seven countries, seven rounds, many winners, one champion. They call Paweł Korpuliński the surgeon.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#driftmasters #drifting #champion #poland #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Behind The Scenes At The 2026 Red Bull Drift Masters Grand Finale",
+    "start": 1707.44
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:16:25.365842+00:00",
+   "built": "2026-11-19T16:16:25.365847+00:00",
+   "want_at": null,
+   "video": "media/pod-ytn7sq14e5es-1/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "THEY CALL HIM THE SURGEON",
+   "photo": null
+  },
+  {
+   "id": "pod-ytn7sq14e5es-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "One win from the title. Paweł Korpuliński gets it and becomes 2026 Drift Masters champion, without even knowing the points.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#driftmasters #drifting #champion #warsaw #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Behind The Scenes At The 2026 Red Bull Drift Masters Grand Finale",
+    "start": 1640.08
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:15:25.107166+00:00",
+   "built": "2026-11-19T16:15:25.107171+00:00",
+   "want_at": null,
+   "video": "media/pod-ytn7sq14e5es-0/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CROWNED IN WARSAW",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-25",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Conor Shanahan and Jonathan Castro with the championship on the line.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 601.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:14:10.792061+00:00",
+   "built": "2026-11-19T16:14:10.792068+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-25/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jonathan Castro"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "THE TITLE BATTLE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-24",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1199.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:12:57.475084+00:00",
+   "built": "2026-11-19T16:12:57.475089+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-24/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "LONG BEACH FINAL",
+   "photo": null
+  },
+  {
    "id": "pod-ytlgdw88ygzo4-23",
    "kind": "stream_clip",
    "status": "draft",
@@ -23836,166 +23993,6 @@
    "caption_by": null,
    "format": "single",
    "title": "FIELD GOES OFF IN THE FINAL",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-29",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Two wins already this year. James Deane and Wataru Masuyama so close it looks like a still photo.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @watarudrift @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2143.26
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:05:33.608994+00:00",
-   "built": "2026-11-19T12:05:33.609000+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-29/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@watarudrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "LIKE A STILL PHOTO",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-28",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane holds the door and gives Brandon Sorensen a little hate tap. Not a love tap.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @driftmasters.gp\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2077.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:02:59.692739+00:00",
-   "built": "2026-11-19T12:02:59.692745+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-28/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad",
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "A LITTLE HATE TAP",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-27",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "An Irishman is going to win this final. Rookie Jack Shanahan or James Deane?\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @jackshanahan59 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1955.54
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:00:38.499990+00:00",
-   "built": "2026-11-19T12:00:38.499995+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-27/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "ROOKIE JACK IN THE FINAL",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-26",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane drops into formation like an absolute ballerina, then Fredric Aasbo spins.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1895.4
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:58:34.786979+00:00",
-   "built": "2026-11-19T11:58:34.786984+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-26/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad",
-    "@fredricaasbo"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "LIKE A BALLERINA",
    "photo": null
   }
  ],

@@ -726,8 +726,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytlgdw88ygzo4-24r2-12407-12706.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytlgdw88ygzo4-24r2-12407-12706.mp4",
+  "clip": "docs/media/pod-ytlgdw88ygzo4-24/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T16:12:57.474090+00:00"
  },
  {
   "start": 601.0,
@@ -762,7 +767,12 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytlgdw88ygzo4-25r2-6488-6780.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytlgdw88ygzo4-25r2-6488-6780.mp4",
+  "clip": "docs/media/pod-ytlgdw88ygzo4-25/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T16:14:10.790732+00:00"
  }
 ]

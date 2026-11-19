@@ -19,8 +19,13 @@
    "why": "spanning vlak voor de titel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytn7sq14e5es-0-16401-16872.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytn7sq14e5es-0-16401-16872.mp4",
+  "clip": "docs/media/pod-ytn7sq14e5es-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1648.4, \"start\": 1646.28, \"text\": \"HAS HE DONE IT?\", \"why\": \"spanning vlak voor de titel\"}",
+  "made": "2026-11-19T16:15:25.105998+00:00"
  },
  {
   "start": 1707.44,
@@ -42,8 +47,13 @@
    "why": "de bijnaam"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytn7sq14e5es-1-17074-17377.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytn7sq14e5es-1-17074-17377.mp4",
+  "clip": "docs/media/pod-ytn7sq14e5es-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1718.18, \"start\": 1716.24, \"text\": \"WHAT DO THEY CALL HIM?\", \"why\": \"de bijnaam\"}",
+  "made": "2026-11-19T16:16:25.364654+00:00"
  },
  {
   "start": 1468.96,
