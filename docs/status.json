@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:06:54.256003+00:00",
+ "updated": "2026-11-19T20:15:44.323871+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 365,
@@ -5863,13 +5863,13 @@
     "podcast": "Jimmy Oakes",
     "title": "These parts COMPLETELY changed my R34 GTR!",
     "published": "2026-10-18",
-    "status": "transcribing",
+    "status": "error",
     "youtube": "MIEEUWnl4co",
     "audio": null,
     "link": null,
     "art": null,
     "seconds": 1679.0,
-    "error": null,
+    "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
     "transcribed": null,
     "tries": null,
     "kind": "vlog",
@@ -5923,12 +5923,12 @@
     "podcast": "Jimmy Oakes",
     "title": "MASSIVE progress on the R34 GTR! (Looks incredible)",
     "published": "2026-10-15",
-    "status": "new",
+    "status": "transcribing",
     "youtube": "RpPeasbfKOw",
     "audio": null,
     "link": null,
     "art": null,
-    "seconds": null,
+    "seconds": 2088.0,
     "error": null,
     "transcribed": null,
     "tries": null,
@@ -6821,7 +6821,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yth2evinkswei-8__short.mp4",
    "title": "DEANE BASHES THE DOOR",
    "photo": null
@@ -6888,7 +6888,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 22.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytlgdw88ygzo4-17__short.mp4",
    "title": "JACK IS PRECISION",
    "photo": null
@@ -6956,7 +6956,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-11.jpg",
    "short": null,
    "title": "AASBO CAN'T INITIATE",
    "photo": null
@@ -7023,7 +7023,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytcaagmgzlale-22__short.mp4",
    "title": "HOW DID FIELD SEE THROUGH THAT?",
    "photo": null
@@ -7090,7 +7090,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 7.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yth2evinkswei-4__short.mp4",
    "title": "NO TEAM ORDERS",
    "photo": null
@@ -7157,7 +7157,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt9lxrdzgctgm-4__short.mp4",
    "title": "JEFF JONES PUSHES BIG BRO",
    "photo": null
@@ -7224,7 +7224,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytlgdw88ygzo4-6__short.mp4",
    "title": "TUERCK'S LAST BATTLE",
    "photo": null
@@ -7291,7 +7291,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-47.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-47__short.mp4",
    "title": "FINAL RUN ONE IN THE SMOKE",
    "photo": null
@@ -7358,7 +7358,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-42.jpg",
    "short": null,
    "title": "ROAD ATLANTA",
    "photo": null
@@ -7425,7 +7425,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-16.jpg",
    "short": null,
    "title": "BLOW OVER BLOW",
    "photo": null
@@ -7492,7 +7492,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 19.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-fd2026r8-0__short.mp4",
    "title": "HOBSON GREW A TAIL",
    "photo": null
@@ -7559,7 +7559,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytlgdw88ygzo4-13__short.mp4",
    "title": "OLSEN TAKES DOWN THE CHAMP",
    "photo": null
@@ -7626,7 +7626,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-7.jpg",
    "short": null,
    "title": "CASTRO RUNNING ON THE DOOR",
    "photo": null
@@ -7693,7 +7693,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 26.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-24.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-24__short.mp4",
    "title": "JACK SHANAHAN'S CHASE MASTERCLASS",
    "photo": null
@@ -7761,7 +7761,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytckqkb2axqe-16__short.mp4",
    "title": "AASBO GIVES NO ROOM",
    "photo": null
@@ -7828,7 +7828,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytcaagmgzlale-19__short.mp4",
    "title": "PRESSURE DOESN'T GET TO HIM",
    "photo": null
@@ -7895,7 +7895,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-41.jpg",
    "short": null,
    "title": "DEANE VS CASTRO",
    "photo": null
@@ -7962,7 +7962,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-35.jpg",
    "short": null,
    "title": "FORSBERG AND JACK COLLIDE",
    "photo": null
@@ -8025,7 +8025,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 10.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytfwp7cvnodei-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytfwp7cvnodei-0__short.mp4",
    "title": "KORPULINSKI IS CHAMPION",
    "photo": null
@@ -8092,7 +8092,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8egpwdvj0eq-17__short.mp4",
    "title": "ODI GRINDS ON THE DOOR",
    "photo": null
@@ -8160,7 +8160,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-48.jpg",
    "short": null,
    "title": "DEANE VS AASBØ, SIDE BY SIDE",
    "photo": null
@@ -8227,7 +8227,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-3__short.mp4",
    "title": "JEFF JONES IS FRYING BREAD",
    "photo": null
@@ -8294,7 +8294,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-32.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-32__short.mp4",
    "title": "SORENSEN KNOCKED OUT BY FIELD",
    "photo": null
@@ -8361,7 +8361,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 26.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-fd2026r8-4__short.mp4",
    "title": "SHANAHAN LEADS FOR THE TITLE",
    "photo": null
@@ -8428,7 +8428,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-33.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yth2evinkswei-33__short.mp4",
    "title": "FORSBERG THROWS A DEUCE",
    "photo": null
@@ -8497,7 +8497,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytlgdw88ygzo4-10__short.mp4",
    "title": "THAT WAS A HATE TAP",
    "photo": null
@@ -8566,7 +8566,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-29.jpg",
    "short": null,
    "title": "SORENSEN VS FIELD, SIDE BY SIDE",
    "photo": null
@@ -8635,7 +8635,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-25.jpg",
    "short": null,
    "title": "THE TITLE BATTLE",
    "photo": null
@@ -8704,7 +8704,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-25.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yth2evinkswei-25__short.mp4",
    "title": "BODY PANEL IN THE FACE",
    "photo": null
@@ -8773,7 +8773,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytcaagmgzlale-20__short.mp4",
    "title": "JACK GRINDS ON FORSBERG",
    "photo": null
@@ -8840,7 +8840,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__short.mp4",
    "title": "SHEDDING HEADLIGHTS",
    "photo": null
@@ -8909,7 +8909,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-38.jpg",
    "short": null,
    "title": "BEECHUM PUNTS THE ZONE MARKER",
    "photo": null
@@ -8978,7 +8978,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 24.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yth2evinkswei-7__short.mp4",
    "title": "FIELD REELS HIM IN",
    "photo": null
@@ -9045,7 +9045,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt9lxrdzgctgm-18__short.mp4",
    "title": "RCP SENDS JACK FLYING",
    "photo": null
@@ -9114,7 +9114,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytlgdw88ygzo4-15__short.mp4",
    "title": "LITTERAL GRIPS UP",
    "photo": null
@@ -9183,7 +9183,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytckqkb2axqe-5__short.mp4",
    "title": "ROOKIE FORCES FORSBERG TO OMT",
    "photo": null
@@ -9252,7 +9252,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytbnnz6o9wkaq-4__short.mp4",
    "title": "FINAL RUN ONE",
    "photo": null
@@ -9321,7 +9321,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 9.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-10__short.mp4",
    "title": "JACK THE SHADOW",
    "photo": null
@@ -9390,7 +9390,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-10.jpg",
    "short": null,
    "title": "LZ BITES OFF TOO MUCH",
    "photo": null
@@ -9459,7 +9459,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-8.jpg",
    "short": null,
    "title": "FORSBERG OVERCOOKS ZONE ONE",
    "photo": null
@@ -9528,7 +9528,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-9.jpg",
    "short": null,
    "title": "DEANE VS SHANAHAN FINAL SPLIT",
    "photo": null
@@ -9597,7 +9597,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-6__short.mp4",
    "title": "JACK SHANAHAN GETS HIS BREAKOUT",
    "photo": null
@@ -9664,7 +9664,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 22.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytcaagmgzlale-12__short.mp4",
    "title": "DAN TAKES ONE ON THE CHIN",
    "photo": null
@@ -9731,7 +9731,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-28.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-28__short.mp4",
    "title": "FORSBERG BEATS GUSHI AFTER OMT",
    "photo": null
@@ -9800,7 +9800,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-26.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt9lxrdzgctgm-26__short.mp4",
    "title": "LZ FINDS HIS FORM",
    "photo": null
@@ -9869,7 +9869,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-12.jpg",
    "short": null,
    "title": "RIPPING OFF BACK BUMPERS",
    "photo": null
@@ -9936,7 +9936,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-27.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-27__short.mp4",
    "title": "DRONE CAUGHT IN THE BATTLE",
    "photo": null
@@ -10005,7 +10005,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yth2evinkswei-6__short.mp4",
    "title": "SHOWBOATING IN THE WET",
    "photo": null
@@ -10074,7 +10074,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-14.jpg",
    "short": null,
    "title": "JACK CUTS THROUGH THE SMOKE",
    "photo": null
@@ -10143,7 +10143,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytckqkb2axqe-14__short.mp4",
    "title": "BUCHANAN NOT INTIMIDATED",
    "photo": null
@@ -10210,7 +10210,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8bwn2g2ssy-22__short.mp4",
    "title": "LEGENDS GO ONE MORE TIME",
    "photo": null
@@ -10279,7 +10279,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 24.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yth2evinkswei-0__short.mp4",
    "title": "CONTACT IN DEANE'S FIRST BATTLE",
    "photo": null
@@ -10349,7 +10349,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-20.jpg",
    "short": null,
    "title": "JACK VS THE HAMMER",
    "photo": null
@@ -10419,7 +10419,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-48.jpg",
    "short": null,
    "title": "THE LAS VEGAS FINAL, SIDE BY SIDE",
    "photo": null
@@ -10489,7 +10489,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytckqkb2axqe-7__short.mp4",
    "title": "ODI CALLS A TIMEOUT",
    "photo": null
@@ -10558,7 +10558,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8egpwdvj0eq-19__short.mp4",
    "title": "HOBSON BULLYING THE CHAMP",
    "photo": null
@@ -10628,7 +10628,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 30.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8egpwdvj0eq-9__short.mp4",
    "title": "OPENING THE DOOR LIKE A GENTLEMAN",
    "photo": null
@@ -10697,7 +10697,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-14__short.mp4",
    "title": "SHANAHAN ALMOST PERFECT",
    "photo": null
@@ -10767,7 +10767,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-3__short.mp4",
    "title": "FIELD GETS IT UNANIMOUSLY",
    "photo": null
@@ -10837,7 +10837,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-15.jpg",
    "short": null,
    "title": "LIKE SYNCHRONIZED SWIMMERS",
    "photo": null
@@ -10907,7 +10907,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-50.jpg",
    "short": null,
    "title": "JACK VS LZ, SIDE BY SIDE",
    "photo": null
@@ -10978,7 +10978,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-22.jpg",
    "short": null,
    "title": "SEATTLE FINAL",
    "photo": null
@@ -11048,7 +11048,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-40.jpg",
    "short": null,
    "title": "FIELD IN THE RAIN",
    "photo": null
@@ -11118,7 +11118,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-34.jpg",
    "short": null,
    "title": "FORSBERG VS JACK, SIDE BY SIDE",
    "photo": null
@@ -11188,7 +11188,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8egpwdvj0eq-6__short.mp4",
    "title": "RCP INCOMPLETE IN THE CHASE",
    "photo": null
@@ -11258,7 +11258,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-37.jpg",
    "short": null,
    "title": "SHANAHAN VS BEECHUM, SIDE BY SIDE",
    "photo": null
@@ -11328,7 +11328,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-15.jpg",
    "short": null,
    "title": "SPARKS AND A DOOR BANG",
    "photo": null
@@ -11398,7 +11398,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8egpwdvj0eq-13__short.mp4",
    "title": "BATTLE OF THE SPRINGS",
    "photo": null
@@ -11468,7 +11468,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-46.jpg",
    "short": null,
    "title": "JACK VS RCP, SIDE BY SIDE",
    "photo": null
@@ -11537,7 +11537,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-25.jpg",
    "short": null,
    "title": "LAS VEGAS FINAL",
    "photo": null
@@ -11607,7 +11607,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 22.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-fd2026r8-1__short.mp4",
    "title": "FAILURE TO LAUNCH",
    "photo": null
@@ -11675,7 +11675,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-26.jpg",
    "short": null,
    "title": "LEGENDS ONE MORE TIME, SIDE BY SIDE",
    "photo": null
@@ -11745,7 +11745,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-38.jpg",
    "short": null,
    "title": "JACK VS JEFF, SIDE BY SIDE",
    "photo": null
@@ -11815,7 +11815,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-17.jpg",
    "short": null,
    "title": "SHANAHAN VS LZ, SIDE BY SIDE",
    "photo": null
@@ -11885,7 +11885,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-39.jpg",
    "short": null,
    "title": "ALL IRISH BATTLE",
    "photo": null
@@ -11956,7 +11956,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-21.jpg",
    "short": null,
    "title": "AASBO VS FIELD",
    "photo": null
@@ -12026,7 +12026,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-41.jpg",
    "short": null,
    "title": "DEANE VS MASUYAMA, SIDE BY SIDE",
    "photo": null
@@ -12096,7 +12096,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-23.jpg",
    "short": null,
    "title": "JACK VS TUERCK, SIDE BY SIDE",
    "photo": null
@@ -12228,7 +12228,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-24.jpg",
    "short": null,
    "title": "SHANAHAN VS ODI",
    "photo": null
@@ -12298,7 +12298,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-47.jpg",
    "short": null,
    "title": "LZ VS LITTERAL, SIDE BY SIDE",
    "photo": null
@@ -12366,7 +12366,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-21.jpg",
    "short": null,
    "title": "FORSBERG VS GUSHI, SIDE BY SIDE",
    "photo": null
@@ -12493,7 +12493,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-19.jpg",
    "short": null,
    "title": "DEANE VS FIELD TOP 16",
    "photo": null
@@ -12563,7 +12563,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-24.jpg",
    "short": null,
    "title": "SHANAHAN BROTHERS",
    "photo": null
@@ -12631,7 +12631,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-6.jpg",
    "short": null,
    "title": "KORPULINSKI VS KROL SPLIT",
    "photo": null
@@ -12754,7 +12754,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytoslpnfy2o5k-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytoslpnfy2o5k-2__short.mp4",
    "title": "SHANAHAN IS CHAMPION",
    "photo": null
@@ -12816,7 +12816,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 25.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytoslpnfy2o5k-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytoslpnfy2o5k-1__short.mp4",
    "title": "TUERCK'S SON STEALS THE SHOW",
    "photo": null
@@ -12878,7 +12878,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytoslpnfy2o5k-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytoslpnfy2o5k-0__short.mp4",
    "title": "TUERCK SAYS GOODBYE",
    "photo": null
@@ -12946,7 +12946,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytn7sq14e5es-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytn7sq14e5es-6__short.mp4",
    "title": "DEANE WANTS THE TOP STEP",
    "photo": null
@@ -12999,7 +12999,9 @@
     "youtube": "Piotr Więcek's favourite car to drive: an AE86 with a Honda S2000 F20C engine and gearbox swap.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
    },
    "ig": null,
-   "collaborators": [],
+   "collaborators": [
+    "piotrwiecek"
+   ],
    "people": [
     "Piotr Więcek"
    ],
@@ -13007,7 +13009,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytn7sq14e5es-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytn7sq14e5es-5__short.mp4",
    "title": "WIECEK'S HONDA SWAPPED AE86",
    "photo": null
@@ -13060,7 +13062,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytn7sq14e5es-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytn7sq14e5es-4__short.mp4",
    "title": "STAVROS IS BACK",
    "photo": null
@@ -13121,7 +13123,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytn7sq14e5es-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytn7sq14e5es-3__short.mp4",
    "title": "LIVING IN A DRIFT CAR",
    "photo": null
@@ -13176,7 +13178,9 @@
     "youtube": "Inside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
    },
    "ig": null,
-   "collaborators": [],
+   "collaborators": [
+    "piotrwiecek"
+   ],
    "people": [
     "Paweł Korpuliński",
     "Piotr Więcek",
@@ -13186,7 +13190,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytn7sq14e5es-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytn7sq14e5es-2__short.mp4",
    "title": "TENSION IN THE TITLE PIT",
    "photo": null
@@ -13247,7 +13251,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytn7sq14e5es-1.jpg",
    "short": null,
    "title": "THEY CALL HIM THE SURGEON",
    "photo": null
@@ -13308,7 +13312,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytn7sq14e5es-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytn7sq14e5es-0__short.mp4",
    "title": "CROWNED IN WARSAW",
    "photo": null
@@ -13373,7 +13377,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytlgdw88ygzo4-9__short.mp4",
    "title": "SHANAHAN CROWNED CHAMPION",
    "photo": null
@@ -13438,7 +13442,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytlgdw88ygzo4-8__short.mp4",
    "title": "FAILURE TO LAUNCH OR TOO AGGRESSIVE?",
    "photo": null
@@ -13500,7 +13504,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytlgdw88ygzo4-7__short.mp4",
    "title": "THANK YOU, RYAN TUERCK",
    "photo": null
@@ -13565,7 +13569,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytlgdw88ygzo4-5__short.mp4",
    "title": "ONE MORE TIME FOR VAUGHN",
    "photo": null
@@ -13631,7 +13635,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytlgdw88ygzo4-4__short.mp4",
    "title": "SULLY BUMPS, ROME SPINS",
    "photo": null
@@ -13693,7 +13697,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytlgdw88ygzo4-3__short.mp4",
    "title": "85.86 FROM LZ",
    "photo": null
@@ -13758,7 +13762,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-24.jpg",
    "short": null,
    "title": "LONG BEACH FINAL",
    "photo": null
@@ -13820,7 +13824,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytlgdw88ygzo4-23__short.mp4",
    "title": "LZ STEPS AWAY FROM FD",
    "photo": null
@@ -13882,7 +13886,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 7.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytlgdw88ygzo4-22__short.mp4",
    "title": "JACK: I HAD IT UNTIL I DIDN'T",
    "photo": null
@@ -13950,7 +13954,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 25.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytlgdw88ygzo4-21__short.mp4",
    "title": "DEANE: AMAZING WEEKEND FOR IRELAND",
    "photo": null
@@ -14019,7 +14023,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytlgdw88ygzo4-20__short.mp4",
    "title": "IRISH ONE TWO THREE",
    "photo": null
@@ -14081,7 +14085,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytlgdw88ygzo4-2__short.mp4",
    "title": "SHANAHAN MISSES TOP SPOT",
    "photo": null
@@ -14146,7 +14150,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytlgdw88ygzo4-19__short.mp4",
    "title": "JACK OVERCOOKS IT IN THE FINAL",
    "photo": null
@@ -14211,7 +14215,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytlgdw88ygzo4-18__short.mp4",
    "title": "A HUSH FALLS OVER THE CROWD",
    "photo": null
@@ -14277,7 +14281,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytlgdw88ygzo4-16__short.mp4",
    "title": "HAMMER VS MACHINE",
    "photo": null
@@ -14330,7 +14334,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytlgdw88ygzo4-14__short.mp4",
    "title": "LEMAIRE INTO THE WALL",
    "photo": null
@@ -14396,7 +14400,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytlgdw88ygzo4-12__short.mp4",
    "title": "AASBO JUST NEEDS AN ACTIVE CHASE",
    "photo": null
@@ -14461,7 +14465,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytlgdw88ygzo4-11__short.mp4",
    "title": "RCP TAKES OUT VAUGHN",
    "photo": null
@@ -14523,7 +14527,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytlgdw88ygzo4-1__short.mp4",
    "title": "90.40 FROM DEANE",
    "photo": null
@@ -14585,7 +14589,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytlgdw88ygzo4-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytlgdw88ygzo4-0__short.mp4",
    "title": "91.53 FROM JACK SHANAHAN",
    "photo": null
@@ -14650,7 +14654,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytjrjhgpxtn6i-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytjrjhgpxtn6i-4__short.mp4",
    "title": "14 YEARS OLD AND UNSHAKEN",
    "photo": null
@@ -14715,7 +14719,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 14.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytjrjhgpxtn6i-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytjrjhgpxtn6i-3__short.mp4",
    "title": "BROTHER VS SISTER",
    "photo": null
@@ -14769,7 +14773,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytjrjhgpxtn6i-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytjrjhgpxtn6i-2__short.mp4",
    "title": "TLASKA GRASPING AT STRAWS",
    "photo": null
@@ -14822,7 +14826,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytjrjhgpxtn6i-1.jpg",
    "short": null,
    "title": "MARINATED LIKE A BRISKET",
    "photo": null
@@ -14876,7 +14880,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytjrjhgpxtn6i-0.jpg",
    "short": null,
    "title": "DUSTIN DUSTING THE COURSE",
    "photo": null
@@ -14929,7 +14933,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytism3awlxzqs-3.jpg",
    "short": null,
    "title": "SECRET NEW BUILD REVEALED",
    "photo": null
@@ -14990,7 +14994,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytism3awlxzqs-2.jpg",
    "short": null,
    "title": "CIRBA'S NEW BODY KIT",
    "photo": null
@@ -15051,7 +15055,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytism3awlxzqs-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytism3awlxzqs-1__short.mp4",
    "title": "TOP QUALIFIER IN A BORROWED CAR",
    "photo": null
@@ -15112,7 +15116,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytism3awlxzqs-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytism3awlxzqs-0__short.mp4",
    "title": "MCKEEVER GOES TO TOP QUALIFYING",
    "photo": null
@@ -15174,7 +15178,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytinepijspeek-9__short.mp4",
    "title": "IDENTICAL 83.26 FOR ROME",
    "photo": null
@@ -15239,7 +15243,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytinepijspeek-8__short.mp4",
    "title": "CONOR NEEDS 18.8 STYLE",
    "photo": null
@@ -15302,7 +15306,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytinepijspeek-7__short.mp4",
    "title": "90.40 FROM DEANE",
    "photo": null
@@ -15364,7 +15368,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 21.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytinepijspeek-6__short.mp4",
    "title": "87.93 FROM JACK SHANAHAN",
    "photo": null
@@ -15426,7 +15430,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytinepijspeek-5__short.mp4",
    "title": "80.90 FROM HUGHES",
    "photo": null
@@ -15488,7 +15492,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytinepijspeek-4__short.mp4",
    "title": "HANSEN LOOPS IT IN ZONE SIX",
    "photo": null
@@ -15556,7 +15560,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 8.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-26.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytinepijspeek-26__short.mp4",
    "title": "IRISH 1-2-3 IN QUALIFYING",
    "photo": null
@@ -15619,7 +15623,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-25.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytinepijspeek-25__short.mp4",
    "title": "CONOR'S TITLE QUALIFYING RUN",
    "photo": null
@@ -15684,7 +15688,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-24.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytinepijspeek-24__short.mp4",
    "title": "88.66 FROM DEANE",
    "photo": null
@@ -15737,7 +15741,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytinepijspeek-23__short.mp4",
    "title": "85.73 FROM SORENSEN",
    "photo": null
@@ -15799,7 +15803,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytinepijspeek-22__short.mp4",
    "title": "91.53 FROM JACK SHANAHAN",
    "photo": null
@@ -15861,7 +15865,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 24.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytinepijspeek-21__short.mp4",
    "title": "83.43 FROM AASBO",
    "photo": null
@@ -15923,7 +15927,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytinepijspeek-20__short.mp4",
    "title": "81.43 FROM MATT FIELD",
    "photo": null
@@ -15985,7 +15989,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 6.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytinepijspeek-19__short.mp4",
    "title": "83.06 FROM HUGHES",
    "photo": null
@@ -16047,7 +16051,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytinepijspeek-18__short.mp4",
    "title": "78.33 IN TUERCK'S LAST RUN",
    "photo": null
@@ -16109,7 +16113,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytinepijspeek-17__short.mp4",
    "title": "TUERCK'S FINAL QUALIFYING RUN",
    "photo": null
@@ -16170,7 +16174,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytinepijspeek-16__short.mp4",
    "title": "STUCKEY'S EJECTO BUMPER",
    "photo": null
@@ -16232,7 +16236,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytinepijspeek-15__short.mp4",
    "title": "85.86 FROM ADAM LZ",
    "photo": null
@@ -16293,7 +16297,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytinepijspeek-14__short.mp4",
    "title": "BEECHAM'S WILD RUN",
    "photo": null
@@ -16355,7 +16359,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytinepijspeek-13__short.mp4",
    "title": "HATELEY'S BIRTHDAY SCORE",
    "photo": null
@@ -16417,7 +16421,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytinepijspeek-12__short.mp4",
    "title": "OLSEN'S LAST QUALIFYING RUN",
    "photo": null
@@ -16479,7 +16483,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytinepijspeek-11__short.mp4",
    "title": "LITTERAL SOUNDS LIKE A DRAGON",
    "photo": null
@@ -16540,7 +16544,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytinepijspeek-10__short.mp4",
    "title": "CASTRO FIGHTS HIS WAY IN",
    "photo": null
@@ -16602,7 +16606,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 27.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytinepijspeek-0__short.mp4",
    "title": "TUERCK'S LAST FD ROUND",
    "photo": null
@@ -16656,7 +16660,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-8.jpg",
    "short": null,
    "title": "KESKIKORPI VS DEANE SPLIT",
    "photo": null
@@ -16710,7 +16714,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-7.jpg",
    "short": null,
    "title": "MCKEEVER VS HABALI SPLIT",
    "photo": null
@@ -16764,7 +16768,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-6.jpg",
    "short": null,
    "title": "KANDRASENKA VS HEINONEN SPLIT",
    "photo": null
@@ -16827,7 +16831,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-5.jpg",
    "short": null,
    "title": "CIRBA VS ROED SPLIT",
    "photo": null
@@ -16881,7 +16885,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ythcpensbcsdc-4__short.mp4",
    "title": "FIRST PODIUM FOR KESKIKORPI",
    "photo": null
@@ -16935,7 +16939,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ythcpensbcsdc-3__short.mp4",
    "title": "MCKEEVER OUT IN TOP 16",
    "photo": null
@@ -16989,7 +16993,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ythcpensbcsdc-2__short.mp4",
    "title": "FORMER CHAMPION LOSES POWER",
    "photo": null
@@ -17052,7 +17056,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ythcpensbcsdc-1__short.mp4",
    "title": "CIRBA SPINS, ONE MORE TIME",
    "photo": null
@@ -17106,7 +17110,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ythcpensbcsdc-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ythcpensbcsdc-0__short.mp4",
    "title": "DEANE'S LEAD CLINIC",
    "photo": null
@@ -17171,7 +17175,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yth2evinkswei-9__short.mp4",
    "title": "CASTRO SPINS IN THE OMT",
    "photo": null
@@ -17236,7 +17240,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-5.jpg",
    "short": null,
    "title": "THE PHONE CALL FROM VAUGHN",
    "photo": null
@@ -17301,7 +17305,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-38.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yth2evinkswei-38__short.mp4",
    "title": "DEANE COMES TO A HALT",
    "photo": null
@@ -17354,7 +17358,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-37.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yth2evinkswei-37__short.mp4",
    "title": "IS THE CHAMP TAKEN OUT?",
    "photo": null
@@ -17419,7 +17423,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-36.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yth2evinkswei-36__short.mp4",
    "title": "A MUSTANG IN A BOX",
    "photo": null
@@ -17484,7 +17488,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-35.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yth2evinkswei-35__short.mp4",
    "title": "DOMINANT IN UTAH",
    "photo": null
@@ -17550,7 +17554,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-34.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yth2evinkswei-34__short.mp4",
    "title": "DID DEANE PUSH LZ OFF?",
    "photo": null
@@ -17615,7 +17619,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-32.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yth2evinkswei-32__short.mp4",
    "title": "THE GIANT KILLER",
    "photo": null
@@ -17680,7 +17684,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-31.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yth2evinkswei-31__short.mp4",
    "title": "DRIFT WIZARD PUSHED TOO HARD",
    "photo": null
@@ -17745,7 +17749,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-30.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yth2evinkswei-30__short.mp4",
    "title": "FIELD GOES OFF IN THE FINAL",
    "photo": null
@@ -17811,7 +17815,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yth2evinkswei-3__short.mp4",
    "title": "ONE MORE TIME IN LONG BEACH",
    "photo": null
@@ -17876,7 +17880,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-29.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yth2evinkswei-29__short.mp4",
    "title": "LIKE A STILL PHOTO",
    "photo": null
@@ -17942,7 +17946,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-28.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yth2evinkswei-28__short.mp4",
    "title": "A LITTLE HATE TAP",
    "photo": null
@@ -18007,7 +18011,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-27.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yth2evinkswei-27__short.mp4",
    "title": "ROOKIE JACK IN THE FINAL",
    "photo": null
@@ -18073,7 +18077,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-26.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yth2evinkswei-26__short.mp4",
    "title": "LIKE A BALLERINA",
    "photo": null
@@ -18126,7 +18130,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-24.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yth2evinkswei-24__short.mp4",
    "title": "DEANE BATTLING BRAKE ISSUES",
    "photo": null
@@ -18191,7 +18195,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yth2evinkswei-23__short.mp4",
    "title": "GODZILLA VS KING KONG",
    "photo": null
@@ -18256,7 +18260,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yth2evinkswei-22__short.mp4",
    "title": "90 DEGREES AND STILL ON",
    "photo": null
@@ -18321,7 +18325,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yth2evinkswei-21__short.mp4",
    "title": "DEANE LOOPS IT OUT",
    "photo": null
@@ -18386,7 +18390,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yth2evinkswei-20__short.mp4",
    "title": "15 AND NOT SCARED",
    "photo": null
@@ -18451,7 +18455,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yth2evinkswei-2__short.mp4",
    "title": "SINKING IN THE SWORD",
    "photo": null
@@ -18516,7 +18520,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yth2evinkswei-19__short.mp4",
    "title": "RIDING THE HOOD",
    "photo": null
@@ -18581,7 +18585,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yth2evinkswei-18__short.mp4",
    "title": "NOBACK TOO AGGRESSIVE",
    "photo": null
@@ -18646,7 +18650,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yth2evinkswei-17__short.mp4",
    "title": "DID RCP TAKE DOWN DEANE?",
    "photo": null
@@ -18698,7 +18702,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yth2evinkswei-16__short.mp4",
    "title": "A FIST BUMP FOR HIMSELF",
    "photo": null
@@ -18764,7 +18768,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yth2evinkswei-15__short.mp4",
    "title": "THIRD BATTLE IN THE RAIN",
    "photo": null
@@ -18830,7 +18834,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 26.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yth2evinkswei-14__short.mp4",
    "title": "MUSTANG IN A BOX",
    "photo": null
@@ -18895,7 +18899,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yth2evinkswei-13__short.mp4",
    "title": "ONE MORE TIME IN THE RAIN",
    "photo": null
@@ -18961,7 +18965,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yth2evinkswei-12__short.mp4",
    "title": "A HARD ACT TO FOLLOW",
    "photo": null
@@ -19027,7 +19031,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yth2evinkswei-11__short.mp4",
    "title": "RAIN BATTLE AT ROAD ATLANTA",
    "photo": null
@@ -19092,7 +19096,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yth2evinkswei-10__short.mp4",
    "title": "TWO MORE TIMES",
    "photo": null
@@ -19145,7 +19149,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yth2evinkswei-1__short.mp4",
    "title": "DEANE TAKES A DIFFERENT APPROACH",
    "photo": null
@@ -19198,7 +19202,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytfwp7cvnodei-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytfwp7cvnodei-1__short.mp4",
    "title": "SMALL TOUCH IN WARSAW",
    "photo": null
@@ -19263,7 +19267,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-9__short.mp4",
    "title": "FIELD KNOCKS OUT DEANE",
    "photo": null
@@ -19315,7 +19319,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytckqkb2axqe-8__short.mp4",
    "title": "STRAIGHT INTO THE SIDE",
    "photo": null
@@ -19380,7 +19384,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-4__short.mp4",
    "title": "ONE MORE TIME, JONES VS RCP",
    "photo": null
@@ -19446,7 +19450,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytckqkb2axqe-2__short.mp4",
    "title": "DEANE GOES FOR NUMBER ONE",
    "photo": null
@@ -19514,7 +19518,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-18__short.mp4",
    "title": "SHANAHAN WINS SEATTLE",
    "photo": null
@@ -19580,7 +19584,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytckqkb2axqe-17__short.mp4",
    "title": "REVENGE FOR AASBO?",
    "photo": null
@@ -19646,7 +19650,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 22.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-13__short.mp4",
    "title": "AASBO DOESN'T CRACK",
    "photo": null
@@ -19700,7 +19704,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-12__short.mp4",
    "title": "SORENSEN LEAVES THEM SPEECHLESS",
    "photo": null
@@ -19765,7 +19769,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-11.jpg",
    "short": null,
    "title": "TUERCK PUTS OUT HIS OWN FIRE",
    "photo": null
@@ -19827,7 +19831,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-1__short.mp4",
    "title": "86.4 FROM CONOR SHANAHAN",
    "photo": null
@@ -19888,7 +19892,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytckqkb2axqe-0__short.mp4",
    "title": "86.36 FROM SORENSEN",
    "photo": null
@@ -19940,7 +19944,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytcaagmgzlale-9__short.mp4",
    "title": "LONS IS ON A TEAR",
    "photo": null
@@ -20005,7 +20009,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytcaagmgzlale-8__short.mp4",
    "title": "FARRELL TRUST FALLS TO THE DOOR",
    "photo": null
@@ -20058,7 +20062,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytcaagmgzlale-7__short.mp4",
    "title": "HEISHMAN GIVES IT THE HORNS",
    "photo": null
@@ -20112,7 +20116,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytcaagmgzlale-6__short.mp4",
    "title": "GOOSEBUMPS FOR TWO YOUNG GUNS",
    "photo": null
@@ -20166,7 +20170,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-5__short.mp4",
    "title": "HANSEN SLAMS INTO FARRELL",
    "photo": null
@@ -20220,7 +20224,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytcaagmgzlale-4__short.mp4",
    "title": "JOHNSON MAJOR MISTAKE IN OMT",
    "photo": null
@@ -20281,7 +20285,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytcaagmgzlale-3__short.mp4",
    "title": "89.13 FROM FORSBERG",
    "photo": null
@@ -20350,7 +20354,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-23__short.mp4",
    "title": "47 POINT LEAD FOR SHANAHAN",
    "photo": null
@@ -20415,7 +20419,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytcaagmgzlale-21__short.mp4",
    "title": "SHANAHAN ON SHANAHAN CRIME",
    "photo": null
@@ -20477,7 +20481,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytcaagmgzlale-2__short.mp4",
    "title": "90.03 FROM SHANAHAN",
    "photo": null
@@ -20543,7 +20547,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytcaagmgzlale-18__short.mp4",
    "title": "SORENSEN PERFECTLY TIMED",
    "photo": null
@@ -20596,7 +20600,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytcaagmgzlale-17__short.mp4",
    "title": "TWIN CORVETTES",
    "photo": null
@@ -20661,7 +20665,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 25.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytcaagmgzlale-16__short.mp4",
    "title": "BUCHANAN SHUTS IT DOWN",
    "photo": null
@@ -20714,7 +20718,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 27.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytcaagmgzlale-13__short.mp4",
    "title": "ODI HITS HIM ON A RESTART",
    "photo": null
@@ -20779,7 +20783,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-11.jpg",
    "short": null,
    "title": "COLE RICHARDS AT 110 PERCENT",
    "photo": null
@@ -20834,7 +20838,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytcaagmgzlale-10__short.mp4",
    "title": "16 YEAR OLD WINS IN VEGAS",
    "photo": null
@@ -20895,7 +20899,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytcaagmgzlale-1__short.mp4",
    "title": "91.4 FROM SORENSEN",
    "photo": null
@@ -20948,7 +20952,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytcaagmgzlale-0__short.mp4",
    "title": "WILLS WINS THE SEEDING FINAL",
    "photo": null
@@ -21003,7 +21007,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-8.jpg",
    "short": null,
    "title": "BERTANS VS PRZYGONSKI SPLIT",
    "photo": null
@@ -21057,7 +21061,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-7.jpg",
    "short": null,
    "title": "SHANAHAN VS PASCOLI SPLIT",
    "photo": null
@@ -21122,7 +21126,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytbnnz6o9wkaq-5__short.mp4",
    "title": "SHANAHAN WINS ROUND ONE",
    "photo": null
@@ -21177,7 +21181,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytbnnz6o9wkaq-3__short.mp4",
    "title": "BERTANS SHREDS BODY PANELS",
    "photo": null
@@ -21231,7 +21235,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytbnnz6o9wkaq-2__short.mp4",
    "title": "ROOKIE WILDCARD VS CIRBA",
    "photo": null
@@ -21285,7 +21289,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytbnnz6o9wkaq-1__short.mp4",
    "title": "SHANAHAN SAVES IT BACKWARDS",
    "photo": null
@@ -21348,7 +21352,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytbnnz6o9wkaq-0__short.mp4",
    "title": "KROL RISKS EVERYTHING",
    "photo": null
@@ -21401,7 +21405,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-51.jpg",
    "short": null,
    "title": "THE FINAL, SIDE BY SIDE",
    "photo": null
@@ -21467,7 +21471,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt9lxrdzgctgm-9__short.mp4",
    "title": "BURKETT TAKES OFF AASBØ'S BUMPER",
    "photo": null
@@ -21532,7 +21536,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt9lxrdzgctgm-8__short.mp4",
    "title": "VAUGHN OPENS UP",
    "photo": null
@@ -21586,7 +21590,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 15.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt9lxrdzgctgm-7__short.mp4",
    "title": "STUCKEY HITS LZ TWICE",
    "photo": null
@@ -21651,7 +21655,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 19.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt9lxrdzgctgm-6__short.mp4",
    "title": "VAUGHN'S MUSTANG GIVES UP",
    "photo": null
@@ -21716,7 +21720,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-5.jpg",
    "short": null,
    "title": "JACK: JEFF MADE ME SWEAT",
    "photo": null
@@ -21769,7 +21773,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-49.jpg",
    "short": null,
    "title": "FIELD VS OLSEN, SIDE BY SIDE",
    "photo": null
@@ -21822,7 +21826,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-45.jpg",
    "short": null,
    "title": "THE CORVETTE OMT, SIDE BY SIDE",
    "photo": null
@@ -21875,7 +21879,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-44.jpg",
    "short": null,
    "title": "CORVETTE VS CORVETTE, SIDE BY SIDE",
    "photo": null
@@ -21928,7 +21932,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-43.jpg",
    "short": null,
    "title": "THE CHAMP VS OLSEN, SIDE BY SIDE",
    "photo": null
@@ -21994,7 +21998,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-42.jpg",
    "short": null,
    "title": "BATTLE OF THE SUPRAS, SIDE BY SIDE",
    "photo": null
@@ -22047,7 +22051,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-40.jpg",
    "short": null,
    "title": "LITTERAL VS HANSEN, SIDE BY SIDE",
    "photo": null
@@ -22101,7 +22105,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-39.jpg",
    "short": null,
    "title": "LZ VS STUCKEY, SIDE BY SIDE",
    "photo": null
@@ -22163,7 +22167,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 10.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-37.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-37__short.mp4",
    "title": "ADAM LZ STEPS AWAY FROM FD",
    "photo": null
@@ -22231,7 +22235,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 7.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-36.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt9lxrdzgctgm-36__short.mp4",
    "title": "I HAD HIM BEAT UNTIL I DIDN'T",
    "photo": null
@@ -22299,7 +22303,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 22.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-35.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt9lxrdzgctgm-35__short.mp4",
    "title": "A HISTORIC NIGHT FOR IRELAND",
    "photo": null
@@ -22367,7 +22371,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-34.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt9lxrdzgctgm-34__short.mp4",
    "title": "DEANE WINS THE SEASON FINALE",
    "photo": null
@@ -22432,7 +22436,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-33.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt9lxrdzgctgm-33__short.mp4",
    "title": "THE FINAL BATTLE OF 2026",
    "photo": null
@@ -22497,7 +22501,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-32.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt9lxrdzgctgm-32__short.mp4",
    "title": "JACK'S HAND OUT THE WINDOW",
    "photo": null
@@ -22562,7 +22566,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-31.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt9lxrdzgctgm-31__short.mp4",
    "title": "FIELD RULED OUT OF THE FINAL FOUR",
    "photo": null
@@ -22630,7 +22634,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-30.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-30__short.mp4",
    "title": "JACK: STOP FIGHTING ON TRACK",
    "photo": null
@@ -22695,7 +22699,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-29.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-29__short.mp4",
    "title": "CONTACT IN THE FINAL FOUR",
    "photo": null
@@ -22756,7 +22760,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-28.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-28__short.mp4",
    "title": "JUDGE EGGERT SIGNS OFF",
    "photo": null
@@ -22824,7 +22828,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-27.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt9lxrdzgctgm-27__short.mp4",
    "title": "JUDGE EXPLAINS JACK VS LZ",
    "photo": null
@@ -22886,7 +22890,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-25.jpg",
    "short": null,
    "title": "CONOR'S WARNING FOR 2027",
    "photo": null
@@ -22940,7 +22944,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-24.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt9lxrdzgctgm-24__short.mp4",
    "title": "CHAMPION ON COMMENTARY",
    "photo": null
@@ -23002,7 +23006,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 15.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt9lxrdzgctgm-23__short.mp4",
    "title": "CHAMPION: I FORGOT HOW TO DRIVE",
    "photo": null
@@ -23068,7 +23072,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt9lxrdzgctgm-22__short.mp4",
    "title": "THE MACHINE VS THE HAMMER",
    "photo": null
@@ -23136,7 +23140,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-21__short.mp4",
    "title": "FIELD ON THE ONE MORE TIME CALL",
    "photo": null
@@ -23201,7 +23205,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 19.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-20__short.mp4",
    "title": "HOW JACK'S CAR SURVIVED THE HIT",
    "photo": null
@@ -23266,7 +23270,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-2__short.mp4",
    "title": "DEANE ON CONOR AT NINE YEARS OLD",
    "photo": null
@@ -23331,7 +23335,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 9.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-19__short.mp4",
    "title": "LITTERAL'S CAR GOES ROGUE",
    "photo": null
@@ -23384,7 +23388,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt9lxrdzgctgm-17__short.mp4",
    "title": "CANADA VS AMERICA SETTLED",
    "photo": null
@@ -23437,7 +23441,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt9lxrdzgctgm-16__short.mp4",
    "title": "LEMAIRE KISSES THE WALL",
    "photo": null
@@ -23492,7 +23496,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt9lxrdzgctgm-15__short.mp4",
    "title": "THREE JUDGES, THREE DIFFERENT CALLS",
    "photo": null
@@ -23545,7 +23549,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 24.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt9lxrdzgctgm-14__short.mp4",
    "title": "CORVETTE CONTACT IN ZONE THREE",
    "photo": null
@@ -23598,7 +23602,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt9lxrdzgctgm-13__short.mp4",
    "title": "FIRST WIN EVER OVER CONOR",
    "photo": null
@@ -23651,7 +23655,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 11.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-12__short.mp4",
    "title": "OLSEN TAKES DOWN THE CHAMP",
    "photo": null
@@ -23704,7 +23708,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-11__short.mp4",
    "title": "OLSEN HUNTS THE NEW CHAMPION",
    "photo": null
@@ -23772,7 +23776,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt9lxrdzgctgm-10__short.mp4",
    "title": "JEFF JONES HAS NO FILTER",
    "photo": null
@@ -23834,7 +23838,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt9lxrdzgctgm-1__short.mp4",
    "title": "TUERCK HANGS UP HIS HELMET",
    "photo": null
@@ -23896,7 +23900,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt9lxrdzgctgm-0__short.mp4",
    "title": "TUERCK'S SON SAYS GOODBYE",
    "photo": null
@@ -23958,7 +23962,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8egpwdvj0eq-5__short.mp4",
    "title": "SHANAHAN VERY FLUID",
    "photo": null
@@ -24019,7 +24023,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 8.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8egpwdvj0eq-4__short.mp4",
    "title": "60 DEGREES FROM SORENSEN",
    "photo": null
@@ -24072,7 +24076,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8egpwdvj0eq-3__short.mp4",
    "title": "BRUTSKIY UNFLAPPABLE",
    "photo": null
@@ -24140,7 +24144,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8egpwdvj0eq-23__short.mp4",
    "title": "ALL IRISH PODIUM",
    "photo": null
@@ -24208,7 +24212,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 22.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8egpwdvj0eq-22__short.mp4",
    "title": "GREATEST NIGHT IN DRIFTING",
    "photo": null
@@ -24273,7 +24277,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8egpwdvj0eq-21__short.mp4",
    "title": "JACK BOTCHES THE FINAL",
    "photo": null
@@ -24338,7 +24342,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8egpwdvj0eq-20__short.mp4",
    "title": "CONOR COMES OUT OF DRIFT",
    "photo": null
@@ -24391,7 +24395,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 24.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8egpwdvj0eq-2__short.mp4",
    "title": "JOHNSON ON THE WRONG SIDE",
    "photo": null
@@ -24456,7 +24460,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-18.jpg",
    "short": null,
    "title": "HOBSON'S BIGGEST BATTLE",
    "photo": null
@@ -24510,7 +24514,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-1.jpg",
    "short": null,
    "title": "LONS HAS SOMETHING TO PROVE",
    "photo": null
@@ -24571,7 +24575,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8egpwdvj0eq-0__short.mp4",
    "title": "JOHNSON, WHAT A RUN",
    "photo": null
@@ -24625,7 +24629,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-9__short.mp4",
    "title": "JUDGES EXPLAIN THE CORVETTE CRASH",
    "photo": null
@@ -24678,7 +24682,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-8.jpg",
    "short": null,
    "title": "EGGERT HANGS UP THE HEADSET",
    "photo": null
@@ -24732,7 +24736,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-7.jpg",
    "short": null,
    "title": "WALL, CONTACT, CHAOS",
    "photo": null
@@ -24786,7 +24790,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-6.jpg",
    "short": null,
    "title": "TWIN CORVETTES, SIDE BY SIDE",
    "photo": null
@@ -24851,7 +24855,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-51.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-51__short.mp4",
    "title": "CONOR AFTER THE WIN",
    "photo": null
@@ -24919,7 +24923,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 22.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-50.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-50__short.mp4",
    "title": "SHANAHAN WINS IN LAS VEGAS",
    "photo": null
@@ -24973,7 +24977,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-5__short.mp4",
    "title": "TWIN CORVETTES DOOR TO DOOR",
    "photo": null
@@ -25038,7 +25042,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-49.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-49__short.mp4",
    "title": "FINAL RUN TWO, TOO CLOSE TO CALL",
    "photo": null
@@ -25103,7 +25107,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-46.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-46__short.mp4",
    "title": "CONOR ON BEATING HIS BROTHER",
    "photo": null
@@ -25168,7 +25172,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-45.jpg",
    "short": null,
    "title": "CONOR BEATS JACK",
    "photo": null
@@ -25233,7 +25237,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-44.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8bwn2g2ssy-44__short.mp4",
    "title": "BROTHER VS BROTHER",
    "photo": null
@@ -25298,7 +25302,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-43.jpg",
    "short": null,
    "title": "BROTHER VS BROTHER, SIDE BY SIDE",
    "photo": null
@@ -25352,7 +25356,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-42.jpg",
    "short": null,
    "title": "FIELD BOOKS HIS FINAL SPOT",
    "photo": null
@@ -25406,7 +25410,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-41.jpg",
    "short": null,
    "title": "FIELD VS STUCKEY, SIDE BY SIDE",
    "photo": null
@@ -25471,7 +25475,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-40.jpg",
    "short": null,
    "title": "ONLY JACK CAN STOP CONOR",
    "photo": null
@@ -25538,7 +25542,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-4.jpg",
    "short": null,
    "title": "ONE MORE TIME, FLAV APPROVES",
    "photo": null
@@ -25604,7 +25608,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-39.jpg",
    "short": null,
    "title": "NO TEAM ORDERS FOR THE SHANAHANS",
    "photo": null
@@ -25669,7 +25673,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-36.jpg",
    "short": null,
    "title": "A CLEAN CUT CALL FOR JACK",
    "photo": null
@@ -25734,7 +25738,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-33.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-33__short.mp4",
    "title": "FIELD CRANKED IT UP TO 11",
    "photo": null
@@ -25788,7 +25792,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-31.jpg",
    "short": null,
    "title": "STUCKEY VS MINOWA, SIDE BY SIDE",
    "photo": null
@@ -25853,7 +25857,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-30.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-30__short.mp4",
    "title": "FIELD BULLIES THE POINTS CHASER",
    "photo": null
@@ -25920,7 +25924,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-3__short.mp4",
    "title": "FLAVOR FLAV CALLS THE BATTLE",
    "photo": null
@@ -25988,7 +25992,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-25.jpg",
    "short": null,
    "title": "THE SHANAHANS RESET CHASING",
    "photo": null
@@ -26041,7 +26045,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-20__short.mp4",
    "title": "RUDY HANSEN SPINS OUT",
    "photo": null
@@ -26106,7 +26110,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-2.jpg",
    "short": null,
    "title": "SORENSEN VS RICHARDS, SIDE BY SIDE",
    "photo": null
@@ -26159,7 +26163,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-19.jpg",
    "short": null,
    "title": "BEECHUM VS HANSEN, SIDE BY SIDE",
    "photo": null
@@ -26225,7 +26229,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-18__short.mp4",
    "title": "LZ LOOPS IT IN THE LEAD",
    "photo": null
@@ -26290,7 +26294,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-16__short.mp4",
    "title": "SORENSEN ON THE FIGHT OF HIS LIFE",
    "photo": null
@@ -26344,7 +26348,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-15.jpg",
    "short": null,
    "title": "STUCKEY VS HATELEY, SIDE BY SIDE",
    "photo": null
@@ -26409,7 +26413,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-14__short.mp4",
    "title": "JUDGES ON THE MINOWA WIN",
    "photo": null
@@ -26474,7 +26478,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8bwn2g2ssy-13__short.mp4",
    "title": "BURKETT SPINS IN THE CHASE",
    "photo": null
@@ -26539,7 +26543,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-12.jpg",
    "short": null,
    "title": "BURKETT VS MINOWA, SIDE BY SIDE",
    "photo": null
@@ -26604,7 +26608,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-11__short.mp4",
    "title": "SORENSEN SURVIVES THE ONE MORE TIME",
    "photo": null
@@ -26669,7 +26673,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-10.jpg",
    "short": null,
    "title": "THE ONE MORE TIME, SIDE BY SIDE",
    "photo": null
@@ -26723,7 +26727,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-1__short.mp4",
    "title": "FLAVOR FLAV ON HIS DRIFT RIDE",
    "photo": null
@@ -26785,7 +26789,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-0.jpg",
    "short": null,
    "title": "DEANE OUT EARLY IN VEGAS",
    "photo": null
@@ -26847,7 +26851,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt3ujq9evdy6m-4.jpg",
    "short": null,
    "title": "FORGET THE CHAMPIONSHIP",
    "photo": null
@@ -26912,7 +26916,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt3ujq9evdy6m-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt3ujq9evdy6m-3__short.mp4",
    "title": "SHANAHAN: HE DESERVES IT",
    "photo": null
@@ -26977,7 +26981,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt3ujq9evdy6m-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt3ujq9evdy6m-2__short.mp4",
    "title": "110 PERCENT AGAINST CONOR",
    "photo": null
@@ -27038,7 +27042,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt3ujq9evdy6m-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt3ujq9evdy6m-1__short.mp4",
    "title": "CHAMPION: STILL CAN'T BELIEVE IT",
    "photo": null
@@ -27106,7 +27110,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-yt3ujq9evdy6m-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt3ujq9evdy6m-0__short.mp4",
    "title": "DEANE: THAT BATTLE WAS STUPID",
    "photo": null
@@ -27158,7 +27162,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytinepijspeek-3__short.mp4",
    "title": "85.66 FROM LEMAIRE",
    "photo": null
@@ -27220,7 +27224,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytinepijspeek-2__short.mp4",
    "title": "LITTERAL'S CAR ON FIRE",
    "photo": null
@@ -27281,7 +27285,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 19.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-ytinepijspeek-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytinepijspeek-1__short.mp4",
    "title": "CASTRO'S GR86 WON'T GO",
    "photo": null
@@ -27451,7 +27455,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-c82113ef8385-5__short.mp4",
    "title": "CONOR: JAMES WOKE ME UP",
    "photo": null
@@ -27502,7 +27506,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-b9e6971ba742-8__short.mp4",
    "title": "500 HP JUNKYARD 5.3 VS CIVIC",
    "photo": null
@@ -27556,7 +27560,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-23.jpg",
    "short": null,
    "title": "PALMER'S NEW CAREER PLAN?",
    "photo": null
@@ -27610,7 +27614,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-9__short.mp4",
    "title": "JAMES DEANE ON 9-YEAR-OLD CONOR",
    "photo": null
@@ -27663,7 +27667,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-441d4b7291ad-3__short.mp4",
    "title": "THREE LAPS PER TIRE",
    "photo": null
@@ -27726,7 +27730,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-25.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-3fa7ee22a33c-25__short.mp4",
    "title": "FD DRIVER'S SECRET WEAPON",
    "photo": null
@@ -27780,7 +27784,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-3fa7ee22a33c-23__short.mp4",
    "title": "INSIDE MATT FIELD'S COMMS",
    "photo": null
@@ -27833,7 +27837,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-15.jpg",
    "short": null,
    "title": "LEMAIRE VS RICHARDS",
    "photo": null
@@ -27886,7 +27890,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-14.jpg",
    "short": null,
    "title": "FIELD VS BEECHUM",
    "photo": null
@@ -27939,7 +27943,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-13.jpg",
    "short": null,
    "title": "ADAM LZ VS DEREK MADISON",
    "photo": null
@@ -27992,7 +27996,7 @@
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-12.jpg",
    "short": null,
    "title": "THE TITLE BATTLE, SIDE BY SIDE",
    "photo": null
@@ -28045,7 +28049,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-c82113ef8385-9__short.mp4",
    "title": "MATT FIELD'S VEGAS BIRTHDAY",
    "photo": null
@@ -28114,7 +28118,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-c82113ef8385-8__short.mp4",
    "title": "THE SHANAHAN AIRBNB",
    "photo": null
@@ -28177,7 +28181,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-c82113ef8385-7__short.mp4",
    "title": "CONOR'S 12-YEAR-OLD DREAM",
    "photo": null
@@ -28240,7 +28244,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-c82113ef8385-6__short.mp4",
    "title": "ONE CHANGE ALL WEEKEND",
    "photo": null
@@ -28303,7 +28307,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 24.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-c82113ef8385-4__short.mp4",
    "title": "MATT FIELD: 'I'M BORED'",
    "photo": null
@@ -28369,7 +28373,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-c82113ef8385-3__short.mp4",
    "title": "JACK'S CAR: JUST TIRES AND FUEL",
    "photo": null
@@ -28424,7 +28428,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-2.jpg",
    "short": null,
    "title": "HOW PRO DRIFT CARS STAY COOL",
    "photo": null
@@ -28479,7 +28483,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-10.jpg",
    "short": null,
    "title": "NINE FLIGHTS CHANGED IN ONE YEAR",
    "photo": null
@@ -28534,7 +28538,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-c82113ef8385-1__short.mp4",
    "title": "VEGAS HEAT COOKED THE GRID",
    "photo": null
@@ -28590,7 +28594,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 25.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-c82113ef8385-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-c82113ef8385-0__short.mp4",
    "title": "MATT FIELD ON HIS VEGAS LAYOUT",
    "photo": null
@@ -28641,7 +28645,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-9.jpg",
    "short": null,
    "title": "CORVETTE GUYS CATCH STRAYS",
    "photo": null
@@ -28692,7 +28696,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 14.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-b9e6971ba742-7__short.mp4",
    "title": "WHY TYPE RS GOT STOLEN",
    "photo": null
@@ -28743,7 +28747,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b9e6971ba742-6__short.mp4",
    "title": "STREET RACING CHARGES TO OEM+",
    "photo": null
@@ -28794,7 +28798,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-b9e6971ba742-5__short.mp4",
    "title": "VR30 SWAP KIT FOR THE 350Z",
    "photo": null
@@ -28845,7 +28849,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 10.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-b9e6971ba742-4__short.mp4",
    "title": "COLD AIR INTAKES DON'T MAKE POWER",
    "photo": null
@@ -28896,7 +28900,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b9e6971ba742-3__short.mp4",
    "title": "GT-R TURBOS ON A VQ37",
    "photo": null
@@ -28947,7 +28951,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-b9e6971ba742-2__short.mp4",
    "title": "MUGEN IS NOT HONDA OEM",
    "photo": null
@@ -28998,7 +29002,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-b9e6971ba742-11__short.mp4",
    "title": "THE WING THAT BROKE THE INTERNET",
    "photo": null
@@ -29049,7 +29053,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-b9e6971ba742-10__short.mp4",
    "title": "WHERE OEM+ ENDS",
    "photo": null
@@ -29100,7 +29104,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-b9e6971ba742-1__short.mp4",
    "title": "IS OEM+ JUST LAZY?",
    "photo": null
@@ -29151,7 +29155,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b9e6971ba742-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-b9e6971ba742-0__short.mp4",
    "title": "WHEN EVERYTHING BECAME 'JDM'",
    "photo": null
@@ -29205,7 +29209,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-b5159f5c03f8-9__short.mp4",
    "title": "$200 VOLVOS AND WET LAPS",
    "photo": null
@@ -29259,7 +29263,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 15.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-8__short.mp4",
    "title": "THE ONE HOUR WRENCHING RULE",
    "photo": null
@@ -29313,7 +29317,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-b5159f5c03f8-7__short.mp4",
    "title": "WHY EURO DRIFT DAYS ARE WET",
    "photo": null
@@ -29367,7 +29371,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-b5159f5c03f8-6__short.mp4",
    "title": "ONE OF 3 STREET LEGAL SILVIAS",
    "photo": null
@@ -29421,7 +29425,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b5159f5c03f8-5__short.mp4",
    "title": "A PRINCE IN THE POLAND PADDOCK",
    "photo": null
@@ -29475,7 +29479,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-b5159f5c03f8-4__short.mp4",
    "title": "SWISS COPS HUNT MODIFIED CARS",
    "photo": null
@@ -29529,7 +29533,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-b5159f5c03f8-3__short.mp4",
    "title": "SWISS COILOVERS: 30% MORE AND A TEST",
    "photo": null
@@ -29583,7 +29587,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-b5159f5c03f8-22__short.mp4",
    "title": "A JOKE THAT BECAME FINAL BOUT",
    "photo": null
@@ -29637,7 +29641,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-b5159f5c03f8-21__short.mp4",
    "title": "SWISS GUY VS AMERICAN BEER LAWS",
    "photo": null
@@ -29692,7 +29696,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-b5159f5c03f8-20__short.mp4",
    "title": "THE NIGHT AT THE JUDGES' TABLE",
    "photo": null
@@ -29746,7 +29750,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-b5159f5c03f8-2__short.mp4",
    "title": "LICENSED 2 WEEKS, STRAIGHT TO TRACK",
    "photo": null
@@ -29800,7 +29804,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-b5159f5c03f8-19__short.mp4",
    "title": "100K CAR OR 10K CAR, SAME LOVE",
    "photo": null
@@ -29854,7 +29858,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-b5159f5c03f8-18__short.mp4",
    "title": "FRANCE'S HIDDEN OG",
    "photo": null
@@ -29908,7 +29912,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-17__short.mp4",
    "title": "EUROPE NEEDS A FINAL BOUT",
    "photo": null
@@ -29962,7 +29966,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-b5159f5c03f8-16__short.mp4",
    "title": "STRANDED IN SPAIN, BEST 2 WEEKS",
    "photo": null
@@ -30016,7 +30020,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-b5159f5c03f8-15__short.mp4",
    "title": "STYLE OVER PERFORMANCE?",
    "photo": null
@@ -30070,7 +30074,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b5159f5c03f8-14__short.mp4",
    "title": "DONE WITH DRIFTING?",
    "photo": null
@@ -30124,7 +30128,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-b5159f5c03f8-13__short.mp4",
    "title": "THE ALL-DRIFT APARTMENT",
    "photo": null
@@ -30178,7 +30182,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 27.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-b5159f5c03f8-12__short.mp4",
    "title": "EBISU RENTAL: NO THIRD GEAR",
    "photo": null
@@ -30232,7 +30236,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-b5159f5c03f8-11__short.mp4",
    "title": "DRIFT DAY STRESS? THINK 90",
    "photo": null
@@ -30286,7 +30290,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-b5159f5c03f8-10__short.mp4",
    "title": "WHY RAF SKIPS COMPETITION",
    "photo": null
@@ -30340,7 +30344,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-b5159f5c03f8-1__short.mp4",
    "title": "THE SWISS TRAILER EXAM TRAP",
    "photo": null
@@ -30394,7 +30398,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-0__short.mp4",
    "title": "SWITZERLAND'S RACING BAN IS OVER",
    "photo": null
@@ -30447,7 +30451,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-8e09411f1d0d-9__short.mp4",
    "title": "WHY HIS FD CAR GOT WALKED",
    "photo": null
@@ -30500,7 +30504,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-8e09411f1d0d-8__short.mp4",
    "title": "130 MPH ENTRIES AT 17",
    "photo": null
@@ -30556,7 +30560,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 24.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-8e09411f1d0d-7__short.mp4",
    "title": "THE SHANAHANS' ADVICE",
    "photo": null
@@ -30609,7 +30613,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-8e09411f1d0d-6__short.mp4",
    "title": "NEW CHASSIS AND STROKER 2JZ FOR NEXT YEAR",
    "photo": null
@@ -30663,7 +30667,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 6.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-8e09411f1d0d-5__short.mp4",
    "title": "FOUR ENGINES IN ONE ROOKIE SEASON",
    "photo": null
@@ -30715,7 +30719,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-4.jpg",
    "short": null,
    "title": "CALLED OUT BY A COMMENTER",
    "photo": null
@@ -30769,7 +30773,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-8e09411f1d0d-3__short.mp4",
    "title": "WHY HE WAS REMOVED FROM FD",
    "photo": null
@@ -30824,7 +30828,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-8e09411f1d0d-2__short.mp4",
    "title": "HOLE IN THE MOTOR AT LAGUNA SECA",
    "photo": null
@@ -30877,7 +30881,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-8e09411f1d0d-18__short.mp4",
    "title": "WALKED INTO THE SUNSET CRYING",
    "photo": null
@@ -30930,7 +30934,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-8e09411f1d0d-17__short.mp4",
    "title": "WHERE 'THIS MACHINE' COMES FROM",
    "photo": null
@@ -30983,7 +30987,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-16.jpg",
    "short": null,
    "title": "WORLD CLASS ON A GRASSROOTS BUDGET",
    "photo": null
@@ -31036,7 +31040,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-15.jpg",
    "short": null,
    "title": "WHEN THE INDUSTRY NOTICED",
    "photo": null
@@ -31089,7 +31093,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-8e09411f1d0d-14__short.mp4",
    "title": "THE PRICE OF RACING FD",
    "photo": null
@@ -31142,7 +31146,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-8e09411f1d0d-13__short.mp4",
    "title": "WOULD MATT FIELD RETURN TO FD?",
    "photo": null
@@ -31195,7 +31199,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-8e09411f1d0d-12__short.mp4",
    "title": "THE GOLDEN DOOR",
    "photo": null
@@ -31251,7 +31255,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-8e09411f1d0d-11__short.mp4",
    "title": "FD JUDGING HAS CHANGED",
    "photo": null
@@ -31304,7 +31308,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 19.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-8e09411f1d0d-10__short.mp4",
    "title": "'THAT'S IMPOSSIBLE'",
    "photo": null
@@ -31358,7 +31362,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-8e09411f1d0d-1__short.mp4",
    "title": "FROM TALENT TO HARD WORK",
    "photo": null
@@ -31413,7 +31417,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 10.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-8e09411f1d0d-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-8e09411f1d0d-0__short.mp4",
    "title": "'IT'S LIKE PROSPEC PLUS'",
    "photo": null
@@ -31466,7 +31470,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 11.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-5687ca1c5a65-8__short.mp4",
    "title": "JACK: TOO HARD IN THE FINAL?",
    "photo": null
@@ -31521,7 +31525,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-5687ca1c5a65-7__short.mp4",
    "title": "WHY JACK WANTS A NEW CAR",
    "photo": null
@@ -31574,7 +31578,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-5687ca1c5a65-6__short.mp4",
    "title": "JACK SHANAHAN: NEW CAR IN 4 WEEKS",
    "photo": null
@@ -31628,7 +31632,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-5687ca1c5a65-5__short.mp4",
    "title": "ADAM LZ'S PRO CAR: NEW PLANS?",
    "photo": null
@@ -31682,7 +31686,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-5687ca1c5a65-4__short.mp4",
    "title": "ADAM LZ PLANNED HIS PODIUM GOODBYE",
    "photo": null
@@ -31735,7 +31739,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-5687ca1c5a65-3__short.mp4",
    "title": "JACK'S NO-BREAK OFF SEASON",
    "photo": null
@@ -31790,7 +31794,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-5687ca1c5a65-2__short.mp4",
    "title": "NO SMOKING AT A DRIFT EVENT",
    "photo": null
@@ -31845,7 +31849,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-5687ca1c5a65-11__short.mp4",
    "title": "ADAM LZ: 'I'M COMING BACK'",
    "photo": null
@@ -31908,7 +31912,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-10__short.mp4",
    "title": "ADAM LZ'S BITTERSWEET PODIUM",
    "photo": null
@@ -31963,7 +31967,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-1__short.mp4",
    "title": "QUALIFYING BLIND AT NIGHT",
    "photo": null
@@ -32018,7 +32022,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-0.jpg",
    "short": null,
    "title": "ADAM LZ GOES FULL IRISH",
    "photo": null
@@ -32072,7 +32076,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-441d4b7291ad-9__short.mp4",
    "title": "ATTENTION BEATS DRIVING?",
    "photo": null
@@ -32125,7 +32129,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-441d4b7291ad-8__short.mp4",
    "title": "A MIDDLE FINGER TO THE RULES?",
    "photo": null
@@ -32180,7 +32184,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 14.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-441d4b7291ad-7__short.mp4",
    "title": "BRIAN WILLS' BMW: HOT TAKE",
    "photo": null
@@ -32234,7 +32238,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-441d4b7291ad-6__short.mp4",
    "title": "BRADEN LONS: BACK NEXT YEAR?",
    "photo": null
@@ -32287,7 +32291,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-5.jpg",
    "short": null,
    "title": "CHUCK IT THROUGH THE SMOKE",
    "photo": null
@@ -32341,7 +32345,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-441d4b7291ad-4__short.mp4",
    "title": "INNER CLIPS: YES OR NO?",
    "photo": null
@@ -32394,7 +32398,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-441d4b7291ad-2__short.mp4",
    "title": "GRIPPY VEGAS: THE FIX",
    "photo": null
@@ -32447,7 +32451,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-441d4b7291ad-1__short.mp4",
    "title": "AIM AT THE WALL, HOPE FOR THE BEST",
    "photo": null
@@ -32502,7 +32506,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 15.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-441d4b7291ad-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-441d4b7291ad-0__short.mp4",
    "title": "BEST PROSPEC SEASON EVER?",
    "photo": null
@@ -32555,7 +32559,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-29.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-3fa7ee22a33c-29__short.mp4",
    "title": "1JZ G SEDAN FOR RIDES",
    "photo": null
@@ -32610,7 +32614,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 25.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-28.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-3fa7ee22a33c-28__short.mp4",
    "title": "THIS ISN'T MY LEVEL",
    "photo": null
@@ -32673,7 +32677,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-27.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-3fa7ee22a33c-27__short.mp4",
    "title": "TOP 10 OR BUST",
    "photo": null
@@ -32736,7 +32740,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-26.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-3fa7ee22a33c-26__short.mp4",
    "title": "NO NERVES ALL YEAR",
    "photo": null
@@ -32799,7 +32803,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-24.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-3fa7ee22a33c-24__short.mp4",
    "title": "NEW BABY MID-SEASON",
    "photo": null
@@ -32865,7 +32869,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-3fa7ee22a33c-22__short.mp4",
    "title": "COTRONE EPISODE COMING",
    "photo": null
@@ -32921,7 +32925,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 9.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-3fa7ee22a33c-21__short.mp4",
    "title": "A WEEK PER EPISODE",
    "photo": null
@@ -32977,7 +32981,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-3fa7ee22a33c-20__short.mp4",
    "title": "DRIFT NEEDS DRIVE TO SURVIVE",
    "photo": null
@@ -33030,7 +33034,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-3fa7ee22a33c-19__short.mp4",
    "title": "BIG INTERCLIP NEWS COMING?",
    "photo": null
@@ -33085,7 +33089,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-3fa7ee22a33c-18__short.mp4",
    "title": "LINKIN PARK CONNECTION",
    "photo": null
@@ -33148,7 +33152,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 22.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-3fa7ee22a33c-17__short.mp4",
    "title": "$500 AND A FILM DREAM",
    "photo": null
@@ -33211,7 +33215,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 14.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-3fa7ee22a33c-16__short.mp4",
    "title": "ALREADY BUILDING FOR 2027",
    "photo": null
@@ -33277,7 +33281,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-3fa7ee22a33c-15__short.mp4",
    "title": "MATT FIELD'S TOUGH LOVE",
    "photo": null
@@ -33343,7 +33347,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-3fa7ee22a33c-14__short.mp4",
    "title": "HOW HE PITCHED MATT FIELD",
    "photo": null
@@ -33406,7 +33410,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-3fa7ee22a33c-13__short.mp4",
    "title": "HOW MUCH PRACTICE IN FD?",
    "photo": null
@@ -33472,7 +33476,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-3fa7ee22a33c-12__short.mp4",
    "title": "TWO LAPS, ONE WALL",
    "photo": null
@@ -33526,7 +33530,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-3fa7ee22a33c-11__short.mp4",
    "title": "WATCHING MATT FIELD'S CREW",
    "photo": null
@@ -33587,7 +33591,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-3fa7ee22a33c-10__short.mp4",
    "title": "FD ROOKIE POWER TRAP",
    "photo": null
@@ -33650,7 +33654,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-3fa7ee22a33c-6__short.mp4",
    "title": "FROM P5 TO CHAMPION",
    "photo": null
@@ -33716,7 +33720,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-3fa7ee22a33c-5__short.mp4",
    "title": "400 HP VS 1000 HP",
    "photo": null
@@ -33779,7 +33783,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-3fa7ee22a33c-4__short.mp4",
    "title": "HIS CORVETTE COST UNDER $2K",
    "photo": null
@@ -33842,7 +33846,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-3fa7ee22a33c-3__short.mp4",
    "title": "A NEW 350Z AT 17",
    "photo": null
@@ -33905,7 +33909,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-3fa7ee22a33c-2__short.mp4",
    "title": "FIRST CAR: A Z28 CAMARO",
    "photo": null
@@ -33968,7 +33972,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.2,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-3fa7ee22a33c-1__short.mp4",
    "title": "PRO CAR AT BLACK FRIDAY?",
    "photo": null
@@ -34031,7 +34035,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-0.jpg",
    "short": null,
    "title": "HIS HAPPY PLACE? OSW SKID PAD",
    "photo": null
@@ -34093,7 +34097,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-070d2a07f93c-9__short.mp4",
    "title": "SHOULD HISTORY JUDGE A RUN?",
    "photo": null
@@ -34156,7 +34160,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 9.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-070d2a07f93c-8__short.mp4",
    "title": "30 DEGREES MORE THAN THE FIELD",
    "photo": null
@@ -34208,7 +34212,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-070d2a07f93c-7__short.mp4",
    "title": "BLIND JUDGES IN A BOX?",
    "photo": null
@@ -34274,7 +34278,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-070d2a07f93c-6__short.mp4",
    "title": "FIELD VS DEANE: FIVE TAKES",
    "photo": null
@@ -34336,7 +34340,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-070d2a07f93c-5__short.mp4",
    "title": "WALL-E HATERS NOW SEND IDEAS",
    "photo": null
@@ -34399,7 +34403,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-070d2a07f93c-4__short.mp4",
    "title": "AASBO'S WORDS MELTED HIS HEART",
    "photo": null
@@ -34461,7 +34465,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 16.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-070d2a07f93c-3__short.mp4",
    "title": "THE BRIDGE THAT BROKE WALL-E AT LONG BEACH",
    "photo": null
@@ -34523,7 +34527,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 8.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-24.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-070d2a07f93c-24__short.mp4",
    "title": "'JUDGES DON'T DRIVE'? THINK AGAIN",
    "photo": null
@@ -34585,7 +34589,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-070d2a07f93c-23__short.mp4",
    "title": "JUDGE RECOGNISED AT LIBERTY WALK",
    "photo": null
@@ -34645,7 +34649,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-070d2a07f93c-22__short.mp4",
    "title": "THE COMMENTATOR WHO OUTDRIVES HIM",
    "photo": null
@@ -34707,7 +34711,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-070d2a07f93c-21__short.mp4",
    "title": "NOT PAID A CENT EXTRA",
    "photo": null
@@ -34769,7 +34773,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 24.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-070d2a07f93c-20__short.mp4",
    "title": "THE 50,000 DOLLAR DOMAIN",
    "photo": null
@@ -34821,7 +34825,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-070d2a07f93c-2__short.mp4",
    "title": "A CHEF'S TABLE IN THE SPOTTER TOWER",
    "photo": null
@@ -34873,7 +34877,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 21.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-070d2a07f93c-19__short.mp4",
    "title": "GETTINS TAKES ON FLORIDA PRO-AM",
    "photo": null
@@ -34937,7 +34941,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-070d2a07f93c-18__short.mp4",
    "title": "SIM KID LINKED TRACK IN SIX LAPS",
    "photo": null
@@ -34999,7 +35003,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 15.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-070d2a07f93c-17__short.mp4",
    "title": "REAL DRIFT CARS ARE SLOWER",
    "photo": null
@@ -35061,7 +35065,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-070d2a07f93c-16__short.mp4",
    "title": "SIM WINNER TO TITLE CONTENDER",
    "photo": null
@@ -35123,7 +35127,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 11.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-070d2a07f93c-15__short.mp4",
    "title": "3,000 HOURS TO LEARN THE FLICK",
    "photo": null
@@ -35175,7 +35179,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-070d2a07f93c-14__short.mp4",
    "title": "DRIVERS WILL BEAT THE SYSTEM",
    "photo": null
@@ -35227,7 +35231,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-070d2a07f93c-13__short.mp4",
    "title": "DO YOUR HOMEWORK, QUALIFY HIGHER",
    "photo": null
@@ -35289,7 +35293,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-070d2a07f93c-12__short.mp4",
    "title": "BUILDING 16 DEVICES BY HAND",
    "photo": null
@@ -35351,7 +35355,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-070d2a07f93c-11__short.mp4",
    "title": "A DASH GAUGE THAT GRADES YOUR FLICK",
    "photo": null
@@ -35413,7 +35417,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-070d2a07f93c-10__short.mp4",
    "title": "ZERO POINTS FOR A LAZY ENTRY",
    "photo": null
@@ -35475,7 +35479,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-070d2a07f93c-1__short.mp4",
    "title": "DRIFT FRANCE IS SELLING OUT",
    "photo": null
@@ -35537,7 +35541,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-070d2a07f93c-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-070d2a07f93c-0__short.mp4",
    "title": "PRO TEAMS PITTED IN FRENCH FRONT YARDS",
    "photo": null
@@ -35701,7 +35705,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-9.jpg",
    "short": null,
    "title": "HE PRAYS FOR RAIN",
    "photo": null
@@ -35762,7 +35766,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-3fa7ee22a33c-8__short.mp4",
    "title": "OSW ROAD COURSE PLANS",
    "photo": null
@@ -35826,7 +35830,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-3fa7ee22a33c-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-3fa7ee22a33c-7__short.mp4",
    "title": "NEW FLORIDA DRIFT TRACK",
    "photo": null
@@ -36065,7 +36069,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-9.jpg",
    "short": null,
    "title": "RYAN TUERCK'S TEARS MOTIVATED HIM",
    "photo": null
@@ -36128,7 +36132,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-8.jpg",
    "short": null,
    "title": "FD CHAMPION NEXT TO TWO DRIFT MASTERS TITLES",
    "photo": null
@@ -36193,7 +36197,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-7.jpg",
    "short": null,
    "title": "FROM KID WITH A DREAM TO CHAMPION",
    "photo": null
@@ -36262,7 +36266,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-fd2026r8-6__short.mp4",
    "title": "CONOR SHANAHAN IS THE 2026 FD CHAMPION",
    "photo": null
@@ -36327,7 +36331,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-fd2026r8-5__short.mp4",
    "title": "WHY THEY CALL HIM THE SHADOW",
    "photo": null
@@ -36392,7 +36396,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-fd2026r8-3__short.mp4",
    "title": "RYAN TUERCK'S LAST EVER FD RUN",
    "photo": null
@@ -36457,7 +36461,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-fd2026r8-2__short.mp4",
    "title": "ODI TOO AGGRESSIVE?",
    "photo": null
@@ -36522,7 +36526,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-11.jpg",
    "short": null,
    "title": "TOMMY MIRRORS COLE",
    "photo": null
@@ -36587,7 +36591,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 8.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-fd2026r8-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-fd2026r8-10__short.mp4",
    "title": "A BRICK ON THE GAS PEDAL",
    "photo": null
@@ -36650,7 +36654,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 27.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-da5d8825120e-9__short.mp4",
    "title": "THE SECRET NUMBER SYSTEM",
    "photo": null
@@ -36703,7 +36707,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-8.jpg",
    "short": null,
    "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
    "photo": null
@@ -36766,7 +36770,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-7.jpg",
    "short": null,
    "title": "\"ALMOST HAD YOU? BUT YOU DIDN'T\"",
    "photo": null
@@ -36829,7 +36833,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-da5d8825120e-6__short.mp4",
    "title": "\"YOU DRIVE HOW THE JUDGES TELL YOU\"",
    "photo": null
@@ -36883,7 +36887,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-da5d8825120e-5__short.mp4",
    "title": "COULD HIROYA MINOWA RACE A US RALLY?",
    "photo": null
@@ -36949,7 +36953,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-4.jpg",
    "short": null,
    "title": "\"HE WAS GOING TO BE AN FD CHAMPION\"",
    "photo": null
@@ -37012,7 +37016,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-3.jpg",
    "short": null,
    "title": "ONE HAND ON THE TITLE, NOT BOTH",
    "photo": null
@@ -37075,7 +37079,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-2.jpg",
    "short": null,
    "title": "MUM'S KITCHEN TABLE RULE",
    "photo": null
@@ -37138,7 +37142,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-18.jpg",
    "short": null,
    "title": "\"KEEP HATING ME, PLEASE\"",
    "photo": null
@@ -37191,7 +37195,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-17.jpg",
    "short": null,
    "title": "BIG FD CHANGES COMING NEXT YEAR?",
    "photo": null
@@ -37254,7 +37258,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-da5d8825120e-16__short.mp4",
    "title": "\"THE BEST VERSION EVER OF CONOR SHANAHAN\"",
    "photo": null
@@ -37307,7 +37311,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 7.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-da5d8825120e-15__short.mp4",
    "title": "OFF-SEASON? WHAT OFF-SEASON?",
    "photo": null
@@ -37371,7 +37375,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-da5d8825120e-14__short.mp4",
    "title": "HE STARTED THE LEFT-FOOT TRICK",
    "photo": null
@@ -37434,7 +37438,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-da5d8825120e-13__short.mp4",
    "title": "1,500 WHP AND NO NOS ALL YEAR",
    "photo": null
@@ -37497,7 +37501,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 25.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-da5d8825120e-12__short.mp4",
    "title": "HIS CREW CHIEF DOES THE TESTING",
    "photo": null
@@ -37561,7 +37565,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-11.jpg",
    "short": null,
    "title": "\"JAMES BEATING US WAS THE BEST THING\"",
    "photo": null
@@ -37624,7 +37628,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-da5d8825120e-10__short.mp4",
    "title": "\"IF IT FAILS, MY AMERICAN JOURNEY IS OVER\"",
    "photo": null
@@ -37687,7 +37691,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-da5d8825120e-1__short.mp4",
    "title": "THE TROPHY FLEW HOME IN A DRINKS CABINET",
    "photo": null
@@ -37753,7 +37757,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 9.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-da5d8825120e-0__short.mp4",
    "title": "WIL 2018 JAMES DESTROY 2026 JAMES?",
    "photo": null
@@ -37816,7 +37820,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-6892a8b1e411-9__short.mp4",
    "title": "WHY HE PICKED A C7 OVER A C6",
    "photo": null
@@ -37879,7 +37883,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-8.jpg",
    "short": null,
    "title": "80% SAID THE C7 WOULD FAIL",
    "photo": null
@@ -37942,7 +37946,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-6.jpg",
    "short": null,
    "title": "DOES A WHITE CAR CAUSE MORE CRASHES?",
    "photo": null
@@ -38005,7 +38009,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-5.jpg",
    "short": null,
    "title": "THE ORANGE LIVERY IN FD?",
    "photo": null
@@ -38068,7 +38072,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-6892a8b1e411-4__short.mp4",
    "title": "GREY WHEELS AND BLACK GLOVES HIDE CORRECTIONS",
    "photo": null
@@ -38131,7 +38135,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-3.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-6892a8b1e411-3__short.mp4",
    "title": "HIS ORANGE DEMO CAR IS 700 LBS HEAVIER",
    "photo": null
@@ -38184,7 +38188,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-24.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-6892a8b1e411-24__short.mp4",
    "title": "CHEVROLET IN FORMULA DRIFT?",
    "photo": null
@@ -38247,7 +38251,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.7,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-23.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-6892a8b1e411-23__short.mp4",
    "title": "NASCAR FRIENDS GET PAID TO SHOW UP",
    "photo": null
@@ -38310,7 +38314,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 27.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-6892a8b1e411-22__short.mp4",
    "title": "WHY DO DRIVERS PAY TO RACE FD?",
    "photo": null
@@ -38363,7 +38367,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-21.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-6892a8b1e411-21__short.mp4",
    "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?",
    "photo": null
@@ -38426,7 +38430,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-6892a8b1e411-20__short.mp4",
    "title": "FACING JAMES DOES NOT CHANGE ANYTHING",
    "photo": null
@@ -38489,7 +38493,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-6892a8b1e411-2__short.mp4",
    "title": "WHY THE CORVETTE MAKES TINY MISTAKES LOOK BIG",
    "photo": null
@@ -38552,7 +38556,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-6892a8b1e411-19__short.mp4",
    "title": "THE NO-BEER SEASON BACKFIRED",
    "photo": null
@@ -38615,7 +38619,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-6892a8b1e411-18__short.mp4",
    "title": "HE PRACTISES HIS RUNS IN THE SAUNA",
    "photo": null
@@ -38678,7 +38682,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-6892a8b1e411-17__short.mp4",
    "title": "\"IT'S NEVER REALLY ENOUGH\"",
    "photo": null
@@ -38741,7 +38745,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-6892a8b1e411-16__short.mp4",
    "title": "THE INSTRUCTOR KNEW HIM FROM A DRIFT VIDEO",
    "photo": null
@@ -38804,7 +38808,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-15.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-6892a8b1e411-15__short.mp4",
    "title": "SKYDIVING VS A GOOD CHASE",
    "photo": null
@@ -38867,7 +38871,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-14.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-6892a8b1e411-14__short.mp4",
    "title": "RACE DRIVERS LEARN TO DRIFT ON ICE",
    "photo": null
@@ -38930,7 +38934,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-13.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-6892a8b1e411-13__short.mp4",
    "title": "ICE DRIFTING ALMOST AS FAST AS ASPHALT",
    "photo": null
@@ -38983,7 +38987,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-6892a8b1e411-12__short.mp4",
    "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL",
    "photo": null
@@ -39046,7 +39050,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-6892a8b1e411-11__short.mp4",
    "title": "SAVING RACE FUEL TO GET HOME",
    "photo": null
@@ -39109,7 +39113,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 18.8,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-10.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-6892a8b1e411-10__short.mp4",
    "title": "THREE ENGINES IN ONE SEASON",
    "photo": null
@@ -39172,7 +39176,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-6892a8b1e411-1__short.mp4",
    "title": "OFF-SEASON: NORWAY, ICE AND NEW WIRING",
    "photo": null
@@ -39235,7 +39239,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-6892a8b1e411-0__short.mp4",
    "title": "QUALIFYING SHOULD PAY MORE POINTS",
    "photo": null
@@ -39296,7 +39300,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-4ff63fdc1bd8-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-4ff63fdc1bd8-0__short.mp4",
    "title": "BOUGHT AS A BARE SHELL",
    "photo": null
@@ -39349,7 +39353,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-9.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-1298fd1c600b-9__short.mp4",
    "title": "\"IF YOU WANT TO FIGHT, I WILL FIGHT YOU\"",
    "photo": null
@@ -39403,7 +39407,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-7.jpg",
    "short": null,
    "title": "\"NO DISRESPECT, BUT...\"",
    "photo": null
@@ -39456,7 +39460,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 10.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-6.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-1298fd1c600b-6__short.mp4",
    "title": "HE WON ORLANDO AND KNEW HE WAS DONE",
    "photo": null
@@ -39509,7 +39513,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-5.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-1298fd1c600b-5__short.mp4",
    "title": "\"DON'T TELL ME TO BE PATIENT\"",
    "photo": null
@@ -39562,7 +39566,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-3.jpg",
    "short": null,
    "title": "\"I WOULD DRIVE LIKE A PSYCHO\"",
    "photo": null
@@ -39616,7 +39620,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-27.jpg",
    "short": null,
    "title": "CHELSEA IN DRIFT MASTERS?",
    "photo": null
@@ -39670,7 +39674,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-25.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-1298fd1c600b-25__short.mp4",
    "title": "WALL RIDES BROKE THE FUEL CELL",
    "photo": null
@@ -39723,7 +39727,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-22.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-1298fd1c600b-22__short.mp4",
    "title": "LET FD RUN TUBULAR SUBFRAMES",
    "photo": null
@@ -39786,7 +39790,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-20.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-1298fd1c600b-20__short.mp4",
    "title": "WHY THE RTR MUSTANG IS HARD",
    "photo": null
@@ -39839,7 +39843,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-2.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-1298fd1c600b-2__short.mp4",
    "title": "\"A NORMAL RUN SHOULD BE A 65\"",
    "photo": null
@@ -39902,7 +39906,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 8.6,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-11.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-1298fd1c600b-11__short.mp4",
    "title": "STILL WAITING FOR AN APOLOGY",
    "photo": null
@@ -39965,7 +39969,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-10.jpg",
    "short": null,
    "title": "\"I WOULD DO IT AGAIN\"",
    "photo": null
@@ -40018,7 +40022,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-1.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-1298fd1c600b-1__short.mp4",
    "title": "62 DEGREES SHOULD BEAT 50",
    "photo": null
@@ -40071,7 +40075,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-0.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-0__short.mp4",
    "title": "WHY FD IS SO HARD TO WIN",
    "photo": null
@@ -40236,7 +40240,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-6892a8b1e411-7.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-6892a8b1e411-7__short.mp4",
    "title": "C7 VS C6: NOT JUST A RESHELL",
    "photo": null
@@ -40299,7 +40303,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 23.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-8.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-8__short.mp4",
    "title": "HIS LAST LAP IN FD",
    "photo": null
@@ -40363,7 +40367,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.5,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-4.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-1298fd1c600b-4__short.mp4",
    "title": "MATT IS NOT TRYING TO BE A VILLAIN",
    "photo": null
@@ -40416,7 +40420,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 8.0,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-26.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-26__short.mp4",
    "title": "A MOUNTAIN INVITATIONAL NEXT YEAR?",
    "photo": null
@@ -40479,7 +40483,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.4,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-24.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-1298fd1c600b-24__short.mp4",
    "title": "FAMOUS AT HOME DEPOT",
    "photo": null
@@ -40542,7 +40546,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-23.jpg",
    "short": null,
    "title": "\"GET RID OF QUALIFYING\"",
    "photo": null
@@ -40605,7 +40609,7 @@
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-21.jpg",
    "short": null,
    "title": "\"IF KIA MADE THE E36...\"",
    "photo": null
@@ -40668,7 +40672,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 7.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-19.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-1298fd1c600b-19__short.mp4",
    "title": "FIX IT, DON'T RESHELL",
    "photo": null
@@ -40731,7 +40735,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.1,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-18.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-1298fd1c600b-18__short.mp4",
    "title": "A WHOLE COMP ON ONE PAIR OF TIRES",
    "photo": null
@@ -40794,7 +40798,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-17.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-17__short.mp4",
    "title": "THE MILLION DOLLAR ROAD TO FD",
    "photo": null
@@ -40847,7 +40851,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 26.9,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-16.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-1298fd1c600b-16__short.mp4",
    "title": "DRIVERS HAD TO RAISE THEIR HANDS",
    "photo": null
@@ -40900,7 +40904,7 @@
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
-   "thumb": null,
+   "thumb": "media/thumbs/pod-1298fd1c600b-12.jpg",
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-1298fd1c600b-12__short.mp4",
    "title": "EX-PROS BACK IN PRO SPEC? TEAMS CALLING?",
    "photo": null
