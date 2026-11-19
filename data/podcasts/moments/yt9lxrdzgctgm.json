@@ -1323,8 +1323,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-42r2-56021-56360.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-42r2-56021-56360.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-42/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:46:08.358607+00:00"
  },
  {
   "start": 5205.5,
@@ -1359,10 +1364,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Simen Olsen",
-  "wait_name": "v2-yt9lxrdzgctgm-43r2-53510-53880.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-43r2-53510-53880.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-43/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:49:05.542092+00:00"
  },
  {
   "start": 5807.0,
@@ -1397,10 +1407,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Tommy Lemaire",
-  "wait_name": "v2-yt9lxrdzgctgm-44r2-59386-59750.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-44r2-59386-59750.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-44/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:51:46.281661+00:00"
  },
  {
   "start": 7358.6,
@@ -1435,10 +1450,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Tommy Lemaire",
-  "wait_name": "v2-yt9lxrdzgctgm-45r2-74875-75250.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-45r2-74875-75250.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-45/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:54:30.065440+00:00"
  },
  {
   "start": 7761.0,

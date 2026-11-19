@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T00:43:11.976299+00:00",
+ "updated": "2026-11-19T00:54:30.077656+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 124
+  "draft": 128
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -3098,9 +3098,9 @@
       "topic": "BATTLE OF THE SUPRAS, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-42/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3112,9 +3112,9 @@
       "topic": "THE CHAMP VS OLSEN, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-43/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3126,9 +3126,9 @@
       "topic": "CORVETTE VS CORVETTE, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-44/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3140,9 +3140,9 @@
       "topic": "THE CORVETTE OMT, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-45/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -16523,6 +16523,164 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-45",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The one more time between Tommy Lemaire and Matt Field. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @mattfield777 @formulad\n\n#formulad #formuladrift #mattfield #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 7358.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:54:30.066219+00:00",
+   "built": "2026-11-19T00:54:30.066225+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-45/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "THE CORVETTE OMT, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-44",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "All Corvette battle: Tommy Lemaire vs Matt Field, both runs side by side.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@tommy.lemaire @mattfield777 @formulad\n\n#formulad #formuladrift #mattfield #corvette #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 5807.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:51:46.282389+00:00",
+   "built": "2026-11-19T00:51:46.282394+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-44/clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "CORVETTE VS CORVETTE, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-43",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The new champion Conor Shanahan vs Simen Olsen. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 5205.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:49:05.542815+00:00",
+   "built": "2026-11-19T00:49:05.542819+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-43/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "THE CHAMP VS OLSEN, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-42",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Battle of the Supras: Fredric Aasbø vs Dan Burkett, both runs side by side.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@raddandrift @formulad @fredricaasbo\n\n#formulad #formuladrift #fredricaasbo #toyota #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 4609.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:46:08.359356+00:00",
+   "built": "2026-11-19T00:46:08.359361+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-42/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "BATTLE OF THE SUPRAS, SIDE BY SIDE",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-41",
    "kind": "stream_clip",
    "status": "draft",
@@ -23755,173 +23913,6 @@
    "caption_by": null,
    "format": "single",
    "title": "CALLED OUT BY A COMMENTER",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-3",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Missing rounds cost him his Formula DRIFT seat, and it still eats at him. This year he made sure he did not miss a single round.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#formulad #drifting #formuladrift #outerzone #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 988.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:03:33.851140+00:00",
-   "built": "2026-11-17T18:09:52.840788+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-3/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Mike Power"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHY HE WAS REMOVED FROM FD",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-2",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Engine blown, rolled down the Corkscrew into the pits, and Cole Richards spots a hole in the block. Gridlife Laguna did not go to plan.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@colerichardz @jako13 @formulad\n\n#drifting #gridlife #lagunaseca #engineblown #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 643.2
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:02:33.663987+00:00",
-   "built": "2026-11-17T18:09:52.840551+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-2/clip.mp4",
-   "tags": [
-    "@colerichardz",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Mike Power"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "HOLE IN THE MOTOR AT LAGUNA SECA",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-18",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Two years away, convinced the sport had rejected him. Then Matt Field drifted again and walked off into the field in tears.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #passion #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-18/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 4258.89
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:17:18.756432+00:00",
-   "built": "2026-11-17T18:09:52.840351+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-18/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "WALKED INTO THE SUNSET CRYING",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-17",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field's aviation theme comes from his dad, a warbird lover who crashed a T-28. The story behind the car.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @jako13 @formulad\n\n#formulad #drifting #mattfield #aviation #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-17/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "audiogram: er was geen video",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 3742.45
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:16:09.693110+00:00",
-   "built": "2026-11-17T18:09:52.840150+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-17/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHERE 'THIS MACHINE' COMES FROM",
    "photo": null
   }
  ],
