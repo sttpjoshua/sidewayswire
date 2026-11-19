@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T15:57:35.841062+00:00",
+ "updated": "2026-11-19T16:03:46.514640+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 164
+  "draft": 168
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4049,9 +4049,9 @@
       "topic": "HAMMER VS MACHINE",
       "quote": "All right, so here we go. Frederick Osbod now will be out front. James, the machine Dean. So the hammer versus the machine. What do we got? Who's going to get it done? The lights are on once they extinguish its go time. Let's send it. Here we go. Frederick Osbod, James Dean, the rockstar energy drink driver out front initiates in that first and second outside zone. James timed that so perfectly. See this coast right there to the side of that Toyota GR Supra. Now coming through that power rally, goes Freddy. Now transitioning into that sixth big radius turn. I mean, we are split hairs here, kids. Bring it in. Bring in the heat, that final outside zone. Yeah. Wow. James Wright for Freddy and one vote for James. Two vote for James. James Dean gets the win.",
       "why": "Aasbo tegen Deane, haarkloverij, Deane wint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-16/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4063,9 +4063,9 @@
       "topic": "JACK IS PRECISION",
       "quote": "LZ kind of needs to tighten it up. I'll tell you, against Ryan Littoral, had some loose sections, especially in the chase. So I mean, he's really going to need to bring it because Jack, when he's on it, he is precision in that Polestar Turbo Systems BMW initiating there. Here goes Jack, she had it, and there it goes. That's exactly what it needed to do. And to time that so properly, Adam LZ and Chase into that outside zone. Now here goes Jack, now transitioning into that power alley. Goes Adam LZ. Good timing there. So I feel like he's a lot more confident here. Tire fire out back on Adam LZ and his BMW. Now bringing that last outside zone eight. I wanna see that overhead of Adam and that last outside zone. Here we go. Final four, type S one more time. Jack Shanahan and Jack Shanahan gets the win.",
       "why": "Jack Shanahan wint van LZ in de top 8",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-17/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4077,9 +4077,9 @@
       "topic": "A HUSH FALLS OVER THE CROWD",
       "quote": "Gene Dean, Matt Field, James Dean will lead. Matt Field chasing him down, tip to tail. Whoa! Oh! Ah! A hush falls over the crowd. Alright, roll the tape and pull up, pull up, pull up. The Wally Race Data Labs data and what went down. I mean, James initiated overall. So James, the machine dean advances on into the finals. It's an all Irish podium once or excuse me one two all Irish podium in the championship",
       "why": "Contact in de halve finale, data beslist voor Deane",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-18/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4091,9 +4091,9 @@
       "topic": "JACK OVERCOOKS IT IN THE FINAL",
       "quote": "Let's send it for the final time. In 2026, James the Machine Dean and Jack the Shredding and the Hand. Yes, sir, we got panels, we got body parts, we got smoke, we got fire. There we are coming now into the power rally. Oh, look at that. James separate a little bit from Jack here. Jack jumps up. Jack over -hooked it. Jack over -hooked it. He spins out. And James continues on. James will get the win here in Long Beach. And he solidifies second in the championship with Jack Shanahan getting third. What a turn of events and a turn of a BMW. Jack over cooks it and burns the bangers and mash baby.",
       "why": "Jack spint in de finale, Deane wint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-19/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,164 @@
    "photo": null
   },
   {
+   "id": "pod-ytlgdw88ygzo4-19",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Phones lit up for the final run of 2026. Jack Shanahan over hooks it and spins, James Deane wins Long Beach.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1240.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:03:46.496818+00:00",
+   "built": "2026-11-19T16:03:46.496825+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-19/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK OVERCOOKS IT IN THE FINAL",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-18",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane leads, Matt Field chases tip to tail, and a hush falls over the crowd. Roll the Race Data Labs tape.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1113.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:02:09.112990+00:00",
+   "built": "2026-11-19T16:02:09.112995+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-18/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "A HUSH FALLS OVER THE CROWD",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-17",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "When Jack Shanahan is on it, he is precision. Adam LZ needed to bring it.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jackshanahan59 @adam_lz @formulad\n\n#formulad #formuladrift #drifting #longbeach #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1061.54
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:00:53.444874+00:00",
+   "built": "2026-11-19T16:00:53.444881+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-17/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK IS PRECISION",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-16",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The Hammer versus the Machine. Splitting hairs, and James Deane takes it over Fredric Aasbo.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 1004.94
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:59:21.993775+00:00",
+   "built": "2026-11-19T15:59:21.993781+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-16/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "HAMMER VS MACHINE",
+   "photo": null
+  },
+  {
    "id": "pod-ytlgdw88ygzo4-15",
    "kind": "stream_clip",
    "status": "draft",
@@ -23837,164 +23995,6 @@
    "caption_by": null,
    "format": "single",
    "title": "90 DEGREES AND STILL ON",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-21",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Final four, Norway versus Ireland. James Deane almost comes around getting parallel to the Supra.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1482.92
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:49:41.795126+00:00",
-   "built": "2026-11-19T11:49:41.795134+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-21/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "DEANE LOOPS IT OUT",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-20",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Hiroya Minowa would love to take down his hero. He might be 15, but he carries big angle and fights back.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@hiroya.minowa @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1376.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:46:36.174199+00:00",
-   "built": "2026-11-19T11:46:36.174204+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-20/clip.mp4",
-   "tags": [
-    "@hiroya.minowa",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "15 AND NOT SCARED",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-19",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "We are doing tandem riding the hood. A rodeo breaks out between Rome Charpentier and James Deane.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@romecp @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1314.32
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:44:06.242884+00:00",
-   "built": "2026-11-19T11:44:06.242889+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-19/clip.mp4",
-   "tags": [
-    "@romecp",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "RIDING THE HOOD",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-18",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Nick Noback tries to shove the champ around, but it hurts him more than it helps.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1248.3
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:41:58.345846+00:00",
-   "built": "2026-11-19T11:41:58.345852+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-18/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Nick Noback"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "NOBACK TOO AGGRESSIVE",
    "photo": null
   }
  ],
