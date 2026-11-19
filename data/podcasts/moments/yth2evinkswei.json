@@ -750,8 +750,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-25-18597-18954.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-25-18597-18954.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1886.8, \"start\": 1885.12, \"text\": \"WHAT JUST FLEW OFF?\", \"why\": \"losse onderdelen\"}",
+  "made": "2026-11-19T11:56:17.387592+00:00"
  },
  {
   "start": 1895.4,
@@ -774,8 +779,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-26-18954-19553.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-26-18954-19553.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1954.04, \"start\": 1951.88, \"text\": \"WHO HOLDS THE POINTS LEAD?\", \"why\": \"de spin\"}",
+  "made": "2026-11-19T11:58:34.785628+00:00"
  },
  {
   "start": 1955.54,
@@ -798,8 +808,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-27-19555-20088.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-27-19555-20088.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1970.1, \"start\": 1968.34, \"text\": \"WHICH IRISHMAN WINS?\", \"why\": \"finale\"}",
+  "made": "2026-11-19T12:00:38.498625+00:00"
  },
  {
   "start": 2077.7,
@@ -822,8 +837,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-28-20777-21409.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-28-20777-21409.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2134.66, \"start\": 2133.0, \"text\": \"LOVE TAP OR HATE TAP?\", \"why\": \"grappige regel\"}",
+  "made": "2026-11-19T12:02:59.691340+00:00"
  },
  {
   "start": 2143.26,
