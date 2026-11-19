@@ -258,8 +258,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-8-5014-5411.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-8-5014-5411.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 529.89, \"start\": 526.17, \"text\": \"HOW CLOSE CAN YOU GET?\", \"why\": \"proximity\"}",
+  "made": "2026-11-19T07:26:45.895985+00:00"
  },
  {
   "start": 541.07,
@@ -283,8 +288,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-9-5411-5953.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-9-5411-5953.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 550.43, \"start\": 548.71, \"text\": \"HORNS OR A TROPHY?\", \"why\": \"leuke regel\"}",
+  "made": "2026-11-19T07:28:42.536866+00:00"
  },
  {
   "start": 680.97,
@@ -310,8 +320,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-10-6810-7218.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-10-6810-7218.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 706.25, \"start\": 704.11, \"text\": \"WHO WON IN VEGAS?\", \"why\": \"winnaar\"}",
+  "made": "2026-11-19T07:30:09.682313+00:00"
  },
  {
   "start": 759.47,
@@ -334,8 +349,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-11-7595-7881.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-11-7595-7881.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 762.03, \"start\": 760.33, \"text\": \"CAN ANYONE SLOW THIS ROOKIE?\", \"why\": \"lof\"}",
+  "made": "2026-11-19T07:31:19.933310+00:00"
  },
  {
   "start": 805.41,

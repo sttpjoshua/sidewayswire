@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T07:25:02.249819+00:00",
+ "updated": "2026-11-19T07:31:19.954168+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 20
+  "draft": 24
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -7023,9 +7023,9 @@
       "topic": "FARRELL TRUST FALLS TO THE DOOR",
       "quote": "Dimitry Brutsky out front, Dustin Farrell from Arizona in that changed position. Dimitry Brutsky initiates high on the bent, Farrell in tow. He is not getting Dustin Farrell into the outside zone for massive angle from Brutsky really adding out that angle, but Farrell timed that really, really well. Man, he timed that really well now going in from five to six. Brutsky exceeded line just a little bit, but Farrell, He's, he's truss falling him right to the door of that BMW. Man, I'll tell you what, the way Demetri Brutski is at him or Farrell advancing on. Farrell gets one vote, one more time and... Justin Farrell gets the...",
       "why": "Farrell timet perfect op Brutskiy, one more time",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-8/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -7037,9 +7037,9 @@
       "topic": "LONS IS ON A TEAR",
       "quote": "There we go, Heishin pulling up to the line. Lon's throwing a shotgun, seems to be his signature sign right now. So we'll see if he can hang loose here at the bull ring. You mess with the bull, you get the horns or you get a trophy. We'll see if Lon's can finish this thing. Again, he is absolutely on a tear. No sympathy on the door, mind, and heart. Here we go. Lons initiates into, again, the outside zone, one, two, and three. And look at Heishmann. He talks in nicely. Heishmann chasing him down in that Ford Mustang. Lons in that zone, Ford, nicely. Lons, once again, Heishmann, the wall -hugged Mustang. Talking about, again, your story is not over. Neither is yours, Heishmann. And lawns continues on setting up high school for a great success there And I mean just textbook shows if this goes at one more time slide Oh right for high spin lawns get one advantage with one more time and lawns gets the win",
       "why": "Lons wint ook van Heishman",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-9/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -7051,9 +7051,9 @@
       "topic": "16 YEAR OLD WINS IN VEGAS",
       "quote": "And now your winner here, your winner at round four of the link engine management prospect championship, it was not unanimous. One of the judges going with the one more time. Again, not unanimous, but two to one. Your winner here in Las Vegas is... Brayden Lawnds gets the win. Lawnds gets the victory and wins here in Las Vegas. And with that, he also jumps up to third place. That's right. Superceding Cameron Sorensen in the championship by just a mere two points, I believe. That's seeding points, man.",
       "why": "16-jarige Lons wint de Pro Spec ronde",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-10/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -7065,9 +7065,9 @@
       "topic": "COLE RICHARDS AT 110 PERCENT",
       "quote": "Yeah, Cole Richards. He's like a hundred ten percent man. I love this kid again a runaway No octagon here we're talking about the pavement and those zones Richards keeps on keeping on O 'Souley trying to twist the screws here, but the young buck Cole Richards no problem for him again going for an owning that Rookie of the Year O 'Souley obviously just having some issues there and Richards",
       "why": "Rookie Cole Richards wint van O'Sullivan",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-11/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,165 @@
    "photo": null
   },
   {
+   "id": "pod-ytcaagmgzlale-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Cole Richards is a hundred and ten percent, man. The rookie keeps on keeping on against Conor O'Sullivan.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 759.47
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:31:19.934776+00:00",
+   "built": "2026-11-19T07:31:19.934784+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-11/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Conor O'Sullivan"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "COLE RICHARDS AT 110 PERCENT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Not unanimous, two to one, but 16 year old Braden Lons wins the Pro Spec round in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 680.97
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:30:09.683658+00:00",
+   "built": "2026-11-19T07:30:09.683665+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-10/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Casey Cole",
+    "Dustin Farrell"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "16 YEAR OLD WINS IN VEGAS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "You mess with the bull, you get the horns or a trophy. Braden Lons is on a tear in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 541.07
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:28:42.538398+00:00",
+   "built": "2026-11-19T07:28:42.538406+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-9/clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LONS IS ON A TEAR",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dustin Farrell times it perfectly and trust falls right to the door of Dmitriy Brutskiy.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@dimabrutskiy @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 501.35
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:26:45.897307+00:00",
+   "built": "2026-11-19T07:26:45.897313+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-8/clip.mp4",
+   "tags": [
+    "@dimabrutskiy",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Dustin Farrell"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FARRELL TRUST FALLS TO THE DOOR",
+   "photo": null
+  },
+  {
    "id": "pod-ytcaagmgzlale-7",
    "kind": "stream_clip",
    "status": "draft",
@@ -23952,174 +24111,6 @@
    "caption_by": null,
    "format": "single",
    "title": "$200 VOLVOS AND WET LAPS",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-8",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ten years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #e36compact #bmw #grassrootsdrift #m52 #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 2755.98
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:25:49.454790+00:00",
-   "built": "2026-11-17T18:09:52.847103+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-8/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE ONE HOUR WRENCHING RULE",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-7",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ever wondered why so many European drift days are wet only? Noise, and rubber left for the bike racers.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #wetdrift #europeandrift #trackday #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-7/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 2629.98
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:25:06.342562+00:00",
-   "built": "2026-11-17T18:09:52.846900+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-7/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHY EURO DRIFT DAYS ARE WET",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-6",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Only about three built Silvias are street legal in Switzerland. Rafael Muller asked the owner seven years earlier, then sold everything to buy it.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #silvia #s14 #switzerland #jdm #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-6/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 2490.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:24:25.225981+00:00",
-   "built": "2026-11-17T18:09:52.846671+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-6/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "ONE OF 3 STREET LEGAL SILVIAS",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-5",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #poland #driftevent #e36 #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 1790.41
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:23:32.646732+00:00",
-   "built": "2026-11-17T18:09:52.846463+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-5/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "A PRINCE IN THE POLAND PADDOCK",
    "photo": null
   }
  ],
