@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T15:52:11.918184+00:00",
+ "updated": "2026-11-19T15:57:35.841062+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 160
+  "draft": 164
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -3993,9 +3993,9 @@
       "topic": "AASBO JUST NEEDS AN ACTIVE CHASE",
       "quote": "And let's see what we got here from Rad Dampard Cat initiating Fred Joczmo, keeping his composure. This is another case where it's like you don't need to do too much if you're Frederick Osmo. You know, just have an active chase. Don't do anything stupid or crazy. And Brad Dan needs to put on a heater of a lead. Look at that angle from Brad Dan. I mean, you can see all the way up underneath that carriage, man. In this last outside zone goes Brad Dan Burkett. But it looks like the rock star pilot will advance on. You know the accent or accident excuse me earlier might take him out and it does Frederick Osmo gets the victory",
       "why": "Burkett moet een topper neerzetten, Aasbo gaat door",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-12/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4007,9 +4007,9 @@
       "topic": "OLSEN TAKES DOWN THE CHAMP",
       "quote": "There's something in the water man. All right. Well, here we go Connor Shanahan and Simon Olson Ireland versus Norway You know, we're gonna bring this up. There's a fact here going into that inside Excuse me that outside tone one and two now going into three. That's what she's been doing He's been doing that left foot break in the outside zone, but it makes that work really well for him. Going to outside zone, six, and now watch the inside clip. Simon Olsen, again, oh, he hit that inside clip. First time we've seen that, actually, which is... Oh! Simon Olsen, baby! Wow, Olsen, Olsen, man. Holy cow. That was wild. Slide him left for Shanahan, right for Simon Olsen. Simon Olsen takes down the champ! ! Wow!",
       "why": "Simen Olsen verslaat de net gekroonde kampioen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-13/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4021,9 +4021,9 @@
       "topic": "LEMAIRE INTO THE WALL",
       "quote": "Matt Field initiates. Outside zone one, going into two, coasting in. You can see again, just very slow on the D cell, then getting out of that hole. Now going into outside zone. Power alley going into six. Matt Field finds himself in there. TLO swings that thing. And outside zone six going into that inside clip seven now into eight Whoa Tommy gets into that wall so a bit of shimming there I'm left for Tommy right for Matt field it looks like Matt field gets the win",
       "why": "Lemaire raakt de muur, Field wint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-14/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4035,9 +4035,9 @@
       "topic": "LITTERAL GRIPS UP",
       "quote": "G innovations s chassis chasing him down. Let's see Adam initially. Whoa, right little shot in Where was Ryan literal going? Unfortunately the car just absolutely gripped up and that throws him way offline Here goes Adam LZ, Ryan Little trying to surge an attack just a bit wonky. Maybe just getting gripped up and shooting in, but Adam LZ keeps it consistent. Ryan Little ferocious in the chase. And Adam comes to a halt. Very unfortunate for the Chrome. Yeah, it's it's it's cool to see that, you know.",
       "why": "Litteral gript op en schiet offline",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-15/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,164 @@
    "photo": null
   },
   {
+   "id": "pod-ytlgdw88ygzo4-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Litteral's car grips up and throws him way offline behind Adam LZ.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@adam_lz @ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 966.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:57:35.803691+00:00",
+   "built": "2026-11-19T15:57:35.803696+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-15/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@ryanlitteral",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LITTERAL GRIPS UP",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field coasts in on the decel and Tommy Lemaire gets into the wall. Field goes through.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@mattfield777 @tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 930.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:56:19.778114+00:00",
+   "built": "2026-11-19T15:56:19.778120+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-14/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@tommy.lemaire",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LEMAIRE INTO THE WALL",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ireland vs Norway, and Simen Olsen takes down the freshly crowned champion Conor Shanahan.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 880.92
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:55:09.029550+00:00",
+   "built": "2026-11-19T15:55:09.029556+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-13/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "OLSEN TAKES DOWN THE CHAMP",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dan Burkett needs a heater of a lead run, but Fredric Aasbo just keeps it active and advances.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@raddandrift @formulad @fredricaasbo\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 837.16
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:53:41.196257+00:00",
+   "built": "2026-11-19T15:53:41.196263+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-12/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "AASBO JUST NEEDS AN ACTIVE CHASE",
+   "photo": null
+  },
+  {
    "id": "pod-ytlgdw88ygzo4-11",
    "kind": "stream_clip",
    "status": "draft",
@@ -23837,165 +23995,6 @@
    "caption_by": null,
    "format": "single",
    "title": "NOBACK TOO AGGRESSIVE",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-17",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane is a little delayed on initiation. Did Rome Charpentier just take him down?\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@romecp @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1196.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T11:39:48.558909+00:00",
-   "built": "2026-11-19T11:39:48.558915+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-17/clip.mp4",
-   "tags": [
-    "@romecp",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DID RCP TAKE DOWN DEANE?",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-16",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A great lead run against the four time champion, and he gives himself a fist bump. Rightfully so.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1141.52
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T09:10:35.886633+00:00",
-   "built": "2026-11-19T09:10:35.886640+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-16/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "A FIST BUMP FOR HIMSELF",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-15",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Wet, windy, cold, and the third battle between James Deane and Fredric Aasbo. A Mustang or a Supra on the wall.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 1034.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T09:09:00.428362+00:00",
-   "built": "2026-11-19T09:09:00.428368+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-15/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad",
-    "@fredricaasbo"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THIRD BATTLE IN THE RAIN",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-14",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Same order, one more time again. James Deane puts the Mustang in a box and Fredric Aasbo applies the pressure.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 940.88
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T09:07:02.844501+00:00",
-   "built": "2026-11-19T09:07:02.844507+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-14/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad",
-    "@fredricaasbo"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "MUSTANG IN A BOX",
    "photo": null
   }
  ],
