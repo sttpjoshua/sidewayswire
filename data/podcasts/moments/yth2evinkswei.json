@@ -982,8 +982,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-33-24928-25291.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-33-24928-25291.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-33/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2525.3, \"start\": 2523.36, \"text\": \"WHAT DID FORSBERG JUST DO?\", \"why\": \"gebaar\"}",
+  "made": "2026-11-19T12:12:57.349521+00:00"
  },
  {
   "start": 2532.26,
@@ -1006,8 +1011,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-34-25323-26064.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-34-25323-26064.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-34/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2601.78, \"start\": 2600.04, \"text\": \"WHO PUSHED WHO?\", \"why\": \"controverse\"}",
+  "made": "2026-11-19T12:15:37.221983+00:00"
  },
  {
   "start": 2606.68,
@@ -1030,8 +1040,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-35-26067-26735.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-35-26067-26735.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-35/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2638.14, \"start\": 2635.46, \"text\": \"CAN ANYONE STOP HIM IN 2025?\", \"why\": \"dominantie\"}",
+  "made": "2026-11-19T12:18:02.774820+00:00"
  },
  {
   "start": 2678.1,
@@ -1054,8 +1069,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-36-26781-27346.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-36-26781-27346.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-36/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2706.36, \"start\": 2704.64, \"text\": \"WHAT IS IN THE BOX?\", \"why\": \"grappige regel\"}",
+  "made": "2026-11-19T12:20:04.712510+00:00"
  },
  {
   "start": 2788.72,
