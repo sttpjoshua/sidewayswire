@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T14:05:00.077122+00:00",
+ "updated": "2026-11-19T15:37:46.603998+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 148
+  "draft": 152
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -3825,9 +3825,9 @@
       "topic": "91.53 FROM JACK SHANAHAN",
       "quote": "Man, he is not holding back at all. This is going for that number one spot. I mean, he wants it. Again, we don't know, again, it's unofficial if that number one qualifier will have potentially a bye run. I mean, everybody that had and completes grew down. But the Jack Shanahan, very aggressive on his second run, 87 .93 on his first run. I mean, he's really going to just have to level up on that second, and he did a great job. All right. Can he re -assume that number one position? 91 .53.",
       "why": "Jack Shanahan gaat vol voor de nummer 1 plek en scoort 91.53",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3839,9 +3839,9 @@
       "topic": "90.40 FROM DEANE",
       "quote": "so let's see how James Maschine does. Alright, though Riley Oediparz, Pento, Mustang, RTR, Pento, 5FD into that second outside zone. See him just slobbing the brakes there into that outside zone goes James. So, definitely not tiptoeing through the window right now. He is on throttle, right in that white line. These Irish drivers, they love this. Absolutely loving this flat track, good placement. Just getting that pendulum back out of that Mustang on the line. Man, could it be an all -Irish affair like Connecticut once again? Well, see, Dean, what's he get? 90 .40, 17 out of 20 on style, and rightfully so.",
       "why": "Deane op de witte lijn, 90.40 met 17 op stijl",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3853,9 +3853,9 @@
       "topic": "SHANAHAN MISSES TOP SPOT",
       "quote": "So, Connor Shanahan, yes, sir, brings it into that outside zone six. looking at that right -hand side switch to that right -hand drive 86 the Jerry Yang tire fire and go there it is so there it is again Connor Shannon lighten him up on that left side so again all eyes were on him he needed to qualify he's 7 .6 he does not get it he gets the number three spot with a style score of 16 but still really really strong so just a bit outside but a great style.",
       "why": "Conor Shanahan haalt de eerste plek niet, wordt derde",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -3867,9 +3867,9 @@
       "topic": "85.86 FROM LZ",
       "quote": "The drift HQ BMW initiates outside zone one deep on the two. So I think he wants to level up as far as line goes. You can see him left. So now going for that line approach. This is what I anticipate on his first run just executing just the precision aspect of we know what Adam could do. Tight on the inside zone, seven, the one lonely. Last outside zone. Yep. All right. So again, see the angles, see the telemetry. Pedal dance is a lot. 85 .86 puts him into fourth position. The judge is liking this.",
       "why": "LZ kiest voor lijn en scoort 85.86",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytlgdw88ygzo4-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,158 @@
    "photo": null
   },
   {
+   "id": "pod-ytlgdw88ygzo4-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ levels up on line in the Drift HQ BMW and goes 85.86 into fourth.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@adam_lz @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 171.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:37:46.583839+00:00",
+   "built": "2026-11-19T15:37:46.583845+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-3/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "85.86 FROM LZ",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "All eyes on Conor Shanahan with the title on the line. He does not get the top spot but qualifies third.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #longbeach #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 132.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:36:29.870976+00:00",
+   "built": "2026-11-19T15:36:29.870983+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-2/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN MISSES TOP SPOT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane on throttle, right on the white line. 90.40 with 17 out of 20 on style.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 60.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:35:24.512930+00:00",
+   "built": "2026-11-19T15:35:24.512936+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-1/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "90.40 FROM DEANE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytlgdw88ygzo4-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan is not holding back on his second qualifying run in Long Beach. 91.53.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
+    "start": 18.84
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T15:33:48.905074+00:00",
+   "built": "2026-11-19T15:33:48.905080+00:00",
+   "want_at": null,
+   "video": "media/pod-ytlgdw88ygzo4-0/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "91.53 FROM JACK SHANAHAN",
+   "photo": null
+  },
+  {
    "id": "pod-ytjrjhgpxtn6i-4",
    "kind": "stream_clip",
    "status": "draft",
@@ -23850,164 +24002,6 @@
    "caption_by": null,
    "format": "single",
    "title": "SHOWBOATING IN THE WET",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-5",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The phone rang over in Ireland. It was Vaughn Gittin Jr. with a car for James Deane. The rest is history.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @vaughngittinjr @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 389.92
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:50:36.459282+00:00",
-   "built": "2026-11-19T08:50:36.459288+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-5/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@vaughngittinjr",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE PHONE CALL FROM VAUGHN",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-4",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Teammates, no team orders. Vaughn Gittin Jr. twists the screws on James Deane. Four RTR Mustangs out here.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @vaughngittinjr @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 324.72
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:49:29.022442+00:00",
-   "built": "2026-11-19T08:49:29.022449+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-4/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@vaughngittinjr",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "NO TEAM ORDERS",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-3",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "One more time between James Deane and Fredric Aasbo. Absolute warriors of Formula DRIFT.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 272.04
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:47:00.630627+00:00",
-   "built": "2026-11-19T08:47:00.630636+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-3/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@formulad",
-    "@fredricaasbo"
-   ],
-   "missing_handles": [
-    "Fredric Aasbø"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "ONE MORE TIME IN LONG BEACH",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-2",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "No tomfoolery, no Irish games. James Deane sinks the sword into his fellow countryman Conor Shanahan. Bragging rights at the pub.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @conorshanahan79 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 148.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:44:58.310435+00:00",
-   "built": "2026-11-19T08:44:58.310440+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-2/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "SINKING IN THE SWORD",
    "photo": null
   }
  ],

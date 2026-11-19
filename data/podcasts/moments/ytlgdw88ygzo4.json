@@ -19,8 +19,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytlgdw88ygzo4-0-188-539.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytlgdw88ygzo4-0-188-539.mp4",
+  "clip": "docs/media/pod-ytlgdw88ygzo4-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 51.22, \"start\": 49.3, \"text\": \"CAN HE TAKE NUMBER ONE BACK?\", \"why\": \"de score\"}",
+  "made": "2026-11-19T15:33:48.903919+00:00"
  },
  {
   "start": 60.72,
@@ -42,8 +47,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytlgdw88ygzo4-1-607-1091.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytlgdw88ygzo4-1-607-1091.mp4",
+  "clip": "docs/media/pod-ytlgdw88ygzo4-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 107.32, \"start\": 103.6, \"text\": \"WHAT DID THE MACHINE SCORE?\", \"why\": \"de score\"}",
+  "made": "2026-11-19T15:35:24.511794+00:00"
  },
  {
   "start": 132.18,
@@ -65,8 +75,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytlgdw88ygzo4-2-1322-1668.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytlgdw88ygzo4-2-1322-1668.mp4",
+  "clip": "docs/media/pod-ytlgdw88ygzo4-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 159.8, \"start\": 157.54, \"text\": \"DOES HE GET THE TOP SPOT?\", \"why\": \"de uitslag\"}",
+  "made": "2026-11-19T15:36:29.869794+00:00"
  },
  {
   "start": 171.46,
@@ -88,8 +103,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytlgdw88ygzo4-3-1715-2125.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytlgdw88ygzo4-3-1715-2125.mp4",
+  "clip": "docs/media/pod-ytlgdw88ygzo4-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 209.98, \"start\": 206.98, \"text\": \"DID THE LINE APPROACH WORK?\", \"why\": \"de score\"}",
+  "made": "2026-11-19T15:37:46.582726+00:00"
  },
  {
   "start": 229.2,
