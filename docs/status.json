@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T07:01:04.804657+00:00",
+ "updated": "2026-11-19T07:12:37.105617+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 8
+  "draft": 12
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -11019,9 +11019,9 @@
       "topic": "KORPULINSKI VS KROL SPLIT",
       "quote": "",
       "why": "Twee runs naast elkaar, identieke auto's",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytbnnz6o9wkaq-6/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -11033,9 +11033,9 @@
       "topic": "SHANAHAN VS PASCOLI SPLIT",
       "quote": "",
       "why": "Beide runs naast elkaar",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytbnnz6o9wkaq-7/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -11047,9 +11047,9 @@
       "topic": "BERTANS VS PRZYGONSKI SPLIT",
       "quote": "",
       "why": "Beide runs naast elkaar",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytbnnz6o9wkaq-8/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -11061,9 +11061,9 @@
       "topic": "DEANE VS SHANAHAN FINAL SPLIT",
       "quote": "",
       "why": "Finale run 1 en 2 naast elkaar",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytbnnz6o9wkaq-9/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      }
@@ -20751,6 +20751,166 @@
    "photo": null
   },
   {
+   "id": "pod-ytbnnz6o9wkaq-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The round one final, lead vs lead and chase vs chase: James Deane and Conor Shanahan.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 403.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:12:37.087543+00:00",
+   "built": "2026-11-19T07:12:37.087550+00:00",
+   "want_at": null,
+   "video": "media/pod-ytbnnz6o9wkaq-9/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "DEANE VS SHANAHAN FINAL SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytbnnz6o9wkaq-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side: Nikolass Bertāns in Italy.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 311.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:09:52.167577+00:00",
+   "built": "2026-11-19T07:09:52.167582+00:00",
+   "want_at": null,
+   "video": "media/pod-ytbnnz6o9wkaq-8/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Nikolass Bertāns",
+    "Jakub Przygoński",
+    "Nikolass Bertans"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "BERTANS VS PRZYGONSKI SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytbnnz6o9wkaq-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side: Conor Shanahan and the Hungarian GR86 in Italy.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 113.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:07:07.074537+00:00",
+   "built": "2026-11-19T07:07:07.074543+00:00",
+   "want_at": null,
+   "video": "media/pod-ytbnnz6o9wkaq-7/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Kevin Pozsar"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "SHANAHAN VS PASCOLI SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytbnnz6o9wkaq-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side: Paweł Korpuliński and Jakub Król in Italy.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 26.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:04:05.158837+00:00",
+   "built": "2026-11-19T07:04:05.158843+00:00",
+   "want_at": null,
+   "video": "media/pod-ytbnnz6o9wkaq-6/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński",
+    "Jakub Król"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "KORPULINSKI VS KROL SPLIT",
+   "photo": null
+  },
+  {
    "id": "pod-ytbnnz6o9wkaq-5",
    "kind": "stream_clip",
    "status": "draft",
@@ -23983,174 +24143,6 @@
    "caption_by": null,
    "format": "single",
    "title": "FRANCE'S HIDDEN OG",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-17",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Rafael Muller thinks the language barrier is holding European drifting back, and that one shared language would give Europe its own Final Bout.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #europeandrift #grassrootsdrift #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-17/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 7276.13
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:35:09.005636+00:00",
-   "built": "2026-11-17T18:09:52.844273+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-17/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "EUROPE NEEDS A FINAL BOUT",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-16",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Broke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #roadtrip #spain #driftfamily #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-16/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 5976.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:33:55.892083+00:00",
-   "built": "2026-11-17T18:09:52.844059+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-16/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "STRANDED IN SPAIN, BEST 2 WEEKS",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-15",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Palmer used to roast anyone whose car wasn't low, Rafael lived by style over performance. Now it's all about balance.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #stance #stylevsperformance #grassrootsdrift #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-15/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 5669.15
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:33:00.819257+00:00",
-   "built": "2026-11-17T18:09:52.843852+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-15/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "STYLE OVER PERFORMANCE?",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-14",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Some people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #driftlife #grassrootsdrift #mentalhealth #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 5357.81
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:32:04.720260+00:00",
-   "built": "2026-11-17T18:09:52.843633+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-14/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "DONE WITH DRIFTING?",
    "photo": null
   }
  ],

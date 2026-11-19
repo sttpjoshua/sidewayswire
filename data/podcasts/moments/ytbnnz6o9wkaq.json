@@ -212,8 +212,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytbnnz6o9wkaq-6r2-575-940.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytbnnz6o9wkaq-6r2-575-940.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-6/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T07:04:05.157671+00:00"
  },
  {
   "start": 113.0,
@@ -248,10 +253,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Naam Hongaarse coureur nakijken",
-  "wait_name": "v2-ytbnnz6o9wkaq-7r2-1496-1830.mp4"
+  "wait_name": "v2-ytbnnz6o9wkaq-7r2-1496-1830.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-7/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T07:07:07.073415+00:00"
  },
  {
   "start": 311.0,
@@ -286,10 +296,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Tegenstander nakijken; init run 2 geschat",
-  "wait_name": "v2-ytbnnz6o9wkaq-8r2-3424-3782.mp4"
+  "wait_name": "v2-ytbnnz6o9wkaq-8r2-3424-3782.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-8/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T07:09:52.166424+00:00"
  },
  {
   "start": 403.0,
@@ -324,7 +339,12 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytbnnz6o9wkaq-9r2-4470-4783.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytbnnz6o9wkaq-9r2-4470-4783.mp4",
+  "clip": "docs/media/pod-ytbnnz6o9wkaq-9/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T07:12:37.086381+00:00"
  }
 ]
