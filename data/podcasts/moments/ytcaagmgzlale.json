@@ -22,8 +22,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-0-903-1349.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-0-903-1349.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 134.86, \"start\": 132.14, \"text\": \"WHO WINS THE SEEDING FINAL?\", \"why\": \"uitslag\"}",
+  "made": "2026-11-19T07:14:32.845525+00:00"
  },
  {
   "start": 137.6,
@@ -45,8 +50,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-1-1376-1777.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-1-1376-1777.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 172.06, \"start\": 170.38, \"text\": \"CAN THE LOCAL DO BETTER?\", \"why\": \"de score komt\"}",
+  "made": "2026-11-19T07:16:00.543224+00:00"
  },
  {
   "start": 178.18,
@@ -68,8 +78,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-2-1782-2182.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-2-1782-2182.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 214.91, \"start\": 213.28, \"text\": \"ANOTHER SCORE IN THE NINETIES?\", \"why\": \"de score\"}",
+  "made": "2026-11-19T07:17:23.582642+00:00"
  },
  {
   "start": 218.93,
@@ -91,8 +106,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-3-2189-2554.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-3-2189-2554.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 254.49, \"start\": 252.11, \"text\": \"WHERE DOES FORSBERG LAND?\", \"why\": \"de score\"}",
+  "made": "2026-11-19T07:18:41.776411+00:00"
  },
  {
   "start": 256.13,

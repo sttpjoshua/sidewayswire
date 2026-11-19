@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T07:12:37.105617+00:00",
+ "updated": "2026-11-19T07:18:41.794410+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 12
+  "draft": 16
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -6911,9 +6911,9 @@
       "topic": "WILLS WINS THE SEEDING FINAL",
       "quote": "Here we go. So Shulman out front. Brian Wills in the chase position. The finals of our Link Engine Management Pro Spec Seating Brackets. Shulman navigates properly. He was really on a tear earlier today. Good confidence. Again, consistent track conditions throughout the entirety of the seating brackets. That's always great. again very again just consistent heat on the track the Sun shining on it through the entirety and showman I mean but look at Wills he timed that really well it gave himself enough distance there and let's see if we can regain the conversation and again showman I mean just really really clinical and I don't want to say all right and let's make the announcement and there it is Brian Wills gets the win unanimously",
       "why": "Brian Wills wint de Pro Spec seeding finale unaniem",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6925,9 +6925,9 @@
       "topic": "91.4 FROM SORENSEN",
       "quote": "the qualifier Brandon Sorensen from right here in Las Vegas. Drans the bumper on the wall. Big angle here now coming into zone four. Now Snaps into zone five. You can see him working to the outside of zone five. And the final three, I mean the degree of angle, like a 60 -something percent, that might be, This might be another 40 that we saw from TLO. Yeah, it's gonna be better. Can he do better? Yes, he can. 91 .4 is in a brandon. Maybe need to throw a flashlight on the front end of that thing.",
       "why": "Thuisrijder Sorensen zet 91.4 neer in Las Vegas",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6939,9 +6939,9 @@
       "topic": "90.03 FROM SHANAHAN",
       "quote": "All right, so here we go, Connor Shanahan. In that's a Jukku Racing. Jerry Yang Racing. GT Radials rides the line. Now transitions into five. And he finds that white line. See how he manages into the final three. The question mark riding on that white line. Brings it out then in, into eight. I mean just the fluidity and I mean the placement of the back rear tires is so impressive. Again these top ten. And ninety point zero three. So another score there in the nineties.",
       "why": "Shanahan rijdt op de witte lijn, 90.03",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -6953,9 +6953,9 @@
       "topic": "89.13 FROM FORSBERG",
       "quote": "And he just an industry Z initiates into the bank. Nismo parts on the car. And again, Chris Forsberg, good angle from him into zone four. Perfect placement there into zone four, firing off. Flames out the back. It gets into zone five. Good placement in five. That transition, that rate to angle going into six was really, really well done. Like that. Now going into eight. Yeah, right on the eight. Good placement. Eighty nine point one three jumps up to third position.",
       "why": "Forsberg met vlammen naar 89.13 en plek drie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,161 @@
    "photo": null
   },
   {
+   "id": "pod-ytcaagmgzlale-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Flames out the back of the Z and Chris Forsberg jumps to third with an 89.13.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 218.93
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:18:41.777735+00:00",
+   "built": "2026-11-19T07:18:41.777741+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-3/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "89.13 FROM FORSBERG",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan rides the white line and goes into the nineties with a 90.03.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 178.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:17:23.583969+00:00",
+   "built": "2026-11-19T07:17:23.583975+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-2/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "90.03 FROM SHANAHAN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Las Vegas local Brandon Sorensen drags the bumper on the wall and puts down a 91.4 at home.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 137.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:16:00.544548+00:00",
+   "built": "2026-11-19T07:16:00.544554+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-1/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "91.4 FROM SORENSEN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Shulman was on a tear all day, but Brian Wills times the chase and wins the Pro Spec seeding brackets unanimously.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@mattshulmannnn @nh_fab @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 90.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:14:32.846872+00:00",
+   "built": "2026-11-19T07:14:32.846878+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-0/clip.mp4",
+   "tags": [
+    "@mattshulmannnn",
+    "@nh_fab",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "WILLS WINS THE SEEDING FINAL",
+   "photo": null
+  },
+  {
    "id": "pod-ytbnnz6o9wkaq-9",
    "kind": "stream_clip",
    "status": "draft",
@@ -23974,175 +24129,6 @@
    "caption_by": null,
    "format": "single",
    "title": "SWISS GUY VS AMERICAN BEER LAWS",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-20",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Palmer got asked to announce Final Bout. Rafael and a friend somehow sat at the judges' table all night and nobody stopped them.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #grassrootsdrift #driftjudging #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-20/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 8501.84
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:38:06.394726+00:00",
-   "built": "2026-11-17T18:09:52.845109+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-20/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller",
-    "Jimmy Yates"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE NIGHT AT THE JUDGES' TABLE",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-2",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Two weeks after his driver license, Rafael Muller followed a stranger from a parking lot to a drift day in France. He had no idea what an LSD was.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #e36 #firstdriftday #grassrootsdrift #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 673.12
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:20:32.860868+00:00",
-   "built": "2026-11-17T18:09:52.844905+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-2/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "LICENSED 2 WEEKS, STRAIGHT TO TRACK",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-19",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "New truck, closed trailer, fresh 265s every second lap, or a 10k car on a budget. Everyone spends everything they have on drifting.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #grassrootsdrift #driftlife #budgetdrift #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-19/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 6955.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:36:56.563556+00:00",
-   "built": "2026-11-17T18:09:52.844680+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-19/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "100K CAR OR 10K CAR, SAME LOVE",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-18",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "No big socials, no hype, just over 20 years of drifting a blue S13. Rafael Muller on one of France's real OGs.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #s13 #france #driftlegend #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-18/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 7397.62
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:35:52.657467+00:00",
-   "built": "2026-11-17T18:09:52.844476+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-18/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "FRANCE'S HIDDEN OG",
    "photo": null
   }
  ],
