@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Connecting TikTok · Sideways Wire Publisher</title>
+<style>body{font-family:system-ui,sans-serif;background:#151517;color:#fff;max-width:520px;margin:0 auto;padding:40px 20px}a{color:#C6FF00}</style></head><body>
+<h1>Connecting TikTok</h1>
+<p id="msg">Finishing the connection with TikTok...</p>
+<script>
+// TikTok sends the editor back here after Login with TikTok. The code is handed to the
+// publisher, which exchanges it on the server side; the client secret never reaches this page.
+const q=new URLSearchParams(location.search), m=document.getElementById("msg");
+if(q.get("error")) m.textContent="TikTok returned: "+(q.get("error_description")||q.get("error"));
+else if(q.get("code")){sessionStorage.setItem("tt_code",q.get("code"));sessionStorage.setItem("tt_state",q.get("state")||"");
+  m.innerHTML='Signed in. <a href="tiktok-post.html">Continue to the posting screen</a>.';}
+else m.textContent="No TikTok response found.";
+</script></body></html>
