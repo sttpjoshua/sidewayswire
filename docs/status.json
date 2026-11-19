@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-19T22:28:34.949442+00:00",
+ "updated": "2026-11-19T22:39:09.448688+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 372,
   "check": 193,
   "posted": 3
  },
- "collected": "2026-11-19T21:24:01.992690+00:00",
+ "collected": "2026-11-19T22:39:07.303602+00:00",
  "instagram": false,
  "sources": [
   {
@@ -34,7 +34,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -153,7 +153,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -10056,6 +10056,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {
+    "instagram": "2026-12-28T16:30:00+00:00",
     "facebook": "2026-12-17T11:30:00+00:00",
     "tiktok": "2026-12-13T11:30:00+00:00",
     "youtube": "2026-12-17T12:00:00+00:00"
@@ -10342,6 +10343,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {
+    "instagram": "2026-12-24T16:30:00+00:00",
     "facebook": "2026-12-15T11:30:00+00:00",
     "tiktok": "2026-12-11T20:30:00+00:00",
     "youtube": "2026-12-15T12:00:00+00:00"
@@ -10485,6 +10487,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
+    "instagram": "2026-12-18T16:30:00+00:00",
     "facebook": "2026-12-15T16:30:00+00:00",
     "tiktok": "2026-12-11T11:30:00+00:00",
     "youtube": "2026-12-15T19:00:00+00:00"
@@ -10556,7 +10559,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-27T16:30:00+00:00",
+    "instagram": "2026-12-21T16:30:00+00:00",
     "facebook": "2026-12-14T11:30:00+00:00",
     "tiktok": "2026-12-10T20:30:00+00:00",
     "youtube": "2026-12-14T12:00:00+00:00"
@@ -10629,7 +10632,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {
-    "instagram": "2026-12-25T16:30:00+00:00",
+    "instagram": "2026-12-20T16:30:00+00:00",
     "facebook": "2026-12-13T11:30:00+00:00",
     "tiktok": "2026-12-10T16:30:00+00:00",
     "youtube": "2026-12-13T12:00:00+00:00"
@@ -10919,7 +10922,6 @@
    "caption_by": null,
    "format": "single",
    "plan": {
-    "instagram": "2026-12-21T16:30:00+00:00",
     "facebook": "2026-12-11T11:30:00+00:00",
     "tiktok": "2026-12-09T11:30:00+00:00",
     "youtube": "2026-12-11T12:00:00+00:00"
@@ -10992,7 +10994,6 @@
    "caption_by": null,
    "format": "single",
    "plan": {
-    "instagram": "2026-12-28T16:30:00+00:00",
     "facebook": "2026-12-14T16:30:00+00:00",
     "tiktok": "2026-12-08T20:30:00+00:00",
     "youtube": "2026-12-14T19:00:00+00:00"
@@ -11140,7 +11141,6 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-23T16:30:00+00:00",
     "facebook": "2026-12-12T11:30:00+00:00",
     "tiktok": "2026-12-08T11:30:00+00:00",
     "youtube": "2026-12-12T12:00:00+00:00"
@@ -11278,7 +11278,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-16T16:30:00+00:00",
+    "instagram": "2026-12-17T16:30:00+00:00",
     "facebook": "2026-12-08T16:30:00+00:00",
     "tiktok": "2026-12-07T16:30:00+00:00",
     "youtube": "2026-12-08T19:00:00+00:00"
@@ -11310,79 +11310,6 @@
    "evergreen": null,
    "short": null,
    "title": "FIELD IN THE RAIN",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-34",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-07T11:30:00+00:00",
-   "posted_at": null,
-   "caption": "Chris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-34__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 7818.3
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:58:46.913621+00:00",
-   "built": "2026-11-19T01:11:25.411437+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-34__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Chris Forsberg"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": {
-    "instagram": "2026-12-14T16:30:00+00:00",
-    "facebook": "2026-12-07T16:30:00+00:00",
-    "tiktok": "2026-12-07T11:30:00+00:00",
-    "youtube": "2026-12-07T19:00:00+00:00"
-   },
-   "score": 87,
-   "captions": {
-    "instagram": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nChris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\n#formuladrift #formulad #chrisforsberg #jackshanahan #sidewayswire",
-    "facebook": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nChris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026: Chris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Las Vegas 2026 @jackshanahan59 @formulad\n#formuladrift #formulad #chrisforsberg #sidewayswire",
-    "youtube_title": "Forsberg vs Shanahan | Formula DRIFT Las Vegas 2026",
-    "youtube": "Chris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59"
-   ],
-   "people": [
-    "Chris Forsberg",
-    "Jack Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-34.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-34.mp4",
-   "hook": null,
-   "evergreen": null,
-   "short": null,
-   "title": "FORSBERG VS JACK, SIDE BY SIDE",
    "photo": null
   },
   {
@@ -11424,7 +11351,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {
-    "instagram": "2026-12-13T16:30:00+00:00",
+    "instagram": "2026-12-19T16:30:00+00:00",
     "facebook": "2026-12-07T11:30:00+00:00",
     "tiktok": "2026-12-07T20:30:00+00:00",
     "youtube": "2026-12-07T12:00:00+00:00"
@@ -11457,6 +11384,71 @@
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8egpwdvj0eq-6__short.mp4",
    "title": "RCP INCOMPLETE IN THE CHASE",
    "photo": null
+  },
+  {
+   "id": "2026-11-17-conor-shanahan-wins-tokyo-drift",
+   "kind": "news",
+   "status": "ready",
+   "post_at": "2026-12-07T07:30:00+00:00",
+   "posted_at": null,
+   "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/2026-11-17-conor-shanahan-wins-tokyo-drift__1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": false,
+   "check_reason": null,
+   "source": "https://d1gp.co.jp/27462/",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-17T14:14:13.502153+00:00",
+   "built": "2026-11-17T18:58:05.365369+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": [
+    "@conorshanahan79"
+   ],
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": {
+    "instagram": "2026-12-08T07:30:00+00:00",
+    "facebook": "2026-12-07T07:30:00+00:00"
+   },
+   "score": null,
+   "captions": {
+    "instagram": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#drift #d1gp #tokyodrift #conorshanahan #sidewayswire",
+    "facebook": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#drift #d1gp #sidewayswire",
+    "tiktok": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n#drift #d1gp #tokyodrift #sidewayswire",
+    "youtube_title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
+    "youtube": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #d1gp #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Conor Shanahan",
+    "Naoki Nakamura",
+    "Kojiro Meguwa",
+    "Jack Shanahan"
+   ],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "short": null,
+   "title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
+   "photo": {
+    "mode": "auto",
+    "credit": "@formulad"
+   }
   },
   {
    "id": "pod-yt8bwn2g2ssy-37",
@@ -11497,7 +11489,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-15T16:30:00+00:00",
+    "instagram": "2026-12-08T16:30:00+00:00",
     "facebook": "2026-12-08T11:30:00+00:00",
     "tiktok": "2026-12-06T20:30:00+00:00",
     "youtube": "2026-12-08T12:00:00+00:00"
@@ -11570,7 +11562,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {
-    "instagram": "2026-12-17T16:30:00+00:00",
+    "instagram": "2026-12-15T16:30:00+00:00",
     "facebook": "2026-12-09T11:30:00+00:00",
     "tiktok": "2026-12-06T16:30:00+00:00",
     "youtube": "2026-12-09T12:00:00+00:00"
@@ -11643,7 +11635,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {
-    "instagram": "2026-12-24T16:30:00+00:00",
+    "instagram": "2026-12-27T16:30:00+00:00",
     "facebook": "2026-12-12T16:30:00+00:00",
     "tiktok": "2026-12-06T11:30:00+00:00",
     "youtube": "2026-12-12T19:00:00+00:00"
@@ -11676,71 +11668,6 @@
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8egpwdvj0eq-13__short.mp4",
    "title": "BATTLE OF THE SPRINGS",
    "photo": null
-  },
-  {
-   "id": "2026-11-17-conor-shanahan-wins-tokyo-drift",
-   "kind": "news",
-   "status": "ready",
-   "post_at": "2026-12-06T07:30:00+00:00",
-   "posted_at": null,
-   "caption": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#d1gp #tokyodrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/2026-11-17-conor-shanahan-wins-tokyo-drift__1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": false,
-   "check_reason": null,
-   "source": "https://d1gp.co.jp/27462/",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:14:13.502153+00:00",
-   "built": "2026-11-17T18:58:05.365369+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [
-    "@conorshanahan79"
-   ],
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "plan": {
-    "instagram": "2026-12-06T07:30:00+00:00",
-    "facebook": "2026-12-07T07:30:00+00:00"
-   },
-   "score": null,
-   "captions": {
-    "instagram": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#drift #d1gp #tokyodrift #conorshanahan #sidewayswire",
-    "facebook": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\n#drift #d1gp #sidewayswire",
-    "tiktok": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n#drift #d1gp #tokyodrift #sidewayswire",
-    "youtube_title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
-    "youtube": "A guest win in Japan. @conorshanahan79 scraped through solo in 16th, then beat Naoki Nakamura in the final of D1GP Round 10 at TOKYO DRIFT in the wet. His explanation: it always rains in Ireland. 🇮🇪\n\n@conorshanahan79\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #d1gp #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [],
-   "people": [
-    "Conor Shanahan",
-    "Naoki Nakamura",
-    "Kojiro Meguwa",
-    "Jack Shanahan"
-   ],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "short": null,
-   "title": "CONOR SHANAHAN WINS D1GP TOKYO DRIFT",
-   "photo": {
-    "mode": "auto",
-    "credit": "@formulad"
-   }
   },
   {
    "id": "q-20261119-fd-or-dm",
@@ -11841,7 +11768,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-18T16:30:00+00:00",
+    "instagram": "2026-12-14T16:30:00+00:00",
     "facebook": "2026-12-09T16:30:00+00:00",
     "tiktok": "2026-12-05T20:30:00+00:00",
     "youtube": "2026-12-09T19:00:00+00:00"
@@ -11914,6 +11841,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
+    "instagram": "2026-12-25T16:30:00+00:00",
     "facebook": "2026-12-16T11:30:00+00:00",
     "tiktok": "2026-12-05T16:30:00+00:00",
     "youtube": "2026-12-16T12:00:00+00:00"
@@ -11986,7 +11914,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {
-    "instagram": "2026-12-20T16:30:00+00:00",
+    "instagram": "2026-12-23T16:30:00+00:00",
     "facebook": "2026-12-10T16:30:00+00:00",
     "tiktok": "2026-12-04T20:30:00+00:00",
     "youtube": "2026-12-10T19:00:00+00:00"
@@ -12060,7 +11988,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-08T16:30:00+00:00",
+    "instagram": "2026-12-09T16:30:00+00:00",
     "facebook": "2026-12-04T16:30:00+00:00",
     "tiktok": "2026-12-05T11:30:00+00:00",
     "youtube": "2026-12-04T19:00:00+00:00"
@@ -12203,7 +12131,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-11T16:30:00+00:00",
+    "instagram": "2026-12-04T16:30:00+00:00",
     "facebook": "2026-12-06T11:30:00+00:00",
     "tiktok": "2026-12-04T11:30:00+00:00",
     "youtube": "2026-12-06T12:00:00+00:00"
@@ -12276,7 +12204,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-07T16:30:00+00:00",
+    "instagram": "2026-12-12T16:30:00+00:00",
     "facebook": "2026-12-04T11:30:00+00:00",
     "tiktok": "2026-12-14T11:30:00+00:00",
     "youtube": "2026-12-04T12:00:00+00:00"
@@ -12411,7 +12339,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-09T16:30:00+00:00",
+    "instagram": "2026-12-13T16:30:00+00:00",
     "facebook": "2026-12-05T11:30:00+00:00",
     "tiktok": "2026-12-03T20:30:00+00:00",
     "youtube": "2026-12-05T12:00:00+00:00"
@@ -12483,7 +12411,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-12T16:30:00+00:00",
+    "instagram": "2026-12-07T16:30:00+00:00",
     "facebook": "2026-12-06T16:30:00+00:00",
     "tiktok": "2026-12-03T16:30:00+00:00",
     "youtube": "2026-12-06T19:00:00+00:00"
@@ -12629,7 +12557,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-19T16:30:00+00:00",
+    "instagram": "2026-12-16T16:30:00+00:00",
     "facebook": "2026-12-10T11:30:00+00:00",
     "tiktok": "2026-12-02T20:30:00+00:00",
     "youtube": "2026-12-10T12:00:00+00:00"
@@ -12702,7 +12630,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-05T16:30:00+00:00",
+    "instagram": "2026-12-11T16:30:00+00:00",
     "facebook": "2026-12-03T11:30:00+00:00",
     "tiktok": "2026-12-02T16:30:00+00:00",
     "youtube": "2026-12-03T12:00:00+00:00"
@@ -12776,7 +12704,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-04T16:30:00+00:00",
+    "instagram": "2026-12-05T16:30:00+00:00",
     "facebook": "2026-12-02T16:30:00+00:00",
     "tiktok": "2026-12-02T11:30:00+00:00",
     "youtube": "2026-12-02T19:00:00+00:00"
@@ -13001,6 +12929,79 @@
    "photo": null
   },
   {
+   "id": "pod-yt8bwn2g2ssy-34",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-01T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Chris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-34__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 7818.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:58:46.913621+00:00",
+   "built": "2026-11-19T01:11:25.411437+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-34__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": {
+    "instagram": "2026-12-01T16:30:00+00:00",
+    "facebook": "2026-12-07T16:30:00+00:00",
+    "tiktok": "2026-12-07T11:30:00+00:00",
+    "youtube": "2026-12-07T19:00:00+00:00"
+   },
+   "score": 87,
+   "captions": {
+    "instagram": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nChris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\n#formuladrift #formulad #chrisforsberg #jackshanahan #sidewayswire",
+    "facebook": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nChris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026: Chris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Las Vegas 2026 @jackshanahan59 @formulad\n#formuladrift #formulad #chrisforsberg #sidewayswire",
+    "youtube_title": "Forsberg vs Shanahan | Formula DRIFT Las Vegas 2026",
+    "youtube": "Chris Forsberg against Jack Shanahan in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": "yes",
+   "collaborators": [
+    "jackshanahan59"
+   ],
+   "people": [
+    "Chris Forsberg",
+    "Jack Shanahan"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-34.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-34.mp4",
+   "hook": null,
+   "evergreen": null,
+   "short": null,
+   "title": "FORSBERG VS JACK, SIDE BY SIDE",
+   "photo": null
+  },
+  {
    "id": "pod-ytcaagmgzlale-24",
    "kind": "stream_clip",
    "status": "ready",
@@ -13039,7 +13040,6 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-02T16:30:00+00:00",
     "facebook": "2026-12-01T16:30:00+00:00",
     "tiktok": "2026-12-01T16:30:00+00:00",
     "youtube": "2026-12-01T19:00:00+00:00"
@@ -13113,7 +13113,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "instagram": "2026-12-01T16:30:00+00:00",
+    "instagram": "2026-12-02T16:30:00+00:00",
     "facebook": "2026-12-01T11:30:00+00:00",
     "tiktok": "2026-12-01T11:30:00+00:00",
     "youtube": "2026-12-01T12:00:00+00:00"
