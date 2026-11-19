@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-38",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK VS JEFF, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-38/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 2209.4
  },
  "created": "2026-11-19T00:36:03.029376+00:00",
- "built": "2026-11-19T00:36:03.029381+00:00"
+ "built": "2026-11-19T01:11:26.696384+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-38/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-15T07:30:00+00:00"
 }

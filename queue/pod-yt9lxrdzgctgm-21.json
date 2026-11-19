@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-21",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIELD ON THE ONE MORE TIME CALL",
  "video": "docs/media/pod-yt9lxrdzgctgm-21/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 8632.26
  },
  "created": "2026-11-19T00:13:52.786915+00:00",
- "built": "2026-11-19T00:13:52.786924+00:00"
+ "built": "2026-11-19T01:11:26.306730+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-21/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-29T16:30:00+00:00"
 }

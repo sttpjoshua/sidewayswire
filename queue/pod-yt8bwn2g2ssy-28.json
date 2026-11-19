@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-28",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FORSBERG BEATS GUSHI AFTER OMT",
  "video": "docs/media/pod-yt8bwn2g2ssy-28/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 6365.41
  },
  "created": "2026-11-18T22:49:01.244770+00:00",
- "built": "2026-11-18T22:49:01.244778+00:00"
+ "built": "2026-11-19T01:11:25.296478+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-28/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-02T16:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-11",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "AASBO CAN'T INITIATE",
  "video": "docs/media/pod-yt8egpwdvj0eq-11/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 795.5
  },
  "created": "2026-11-18T23:32:10.646595+00:00",
- "built": "2026-11-18T23:32:10.646600+00:00"
+ "built": "2026-11-19T01:11:25.762429+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-11/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-15T19:30:00+00:00"
 }

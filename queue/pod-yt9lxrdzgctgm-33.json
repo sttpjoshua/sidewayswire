@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-33",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THE FINAL BATTLE OF 2026",
  "video": "docs/media/pod-yt9lxrdzgctgm-33/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 11864.28
  },
  "created": "2026-11-19T00:28:41.906419+00:00",
- "built": "2026-11-19T00:28:41.906422+00:00"
+ "built": "2026-11-19T01:11:26.566356+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-33/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-10T07:30:00+00:00"
 }

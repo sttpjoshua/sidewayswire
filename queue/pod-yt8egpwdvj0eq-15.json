@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-15",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LIKE SYNCHRONIZED SWIMMERS",
  "video": "docs/media/pod-yt8egpwdvj0eq-15/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 924.86
  },
  "created": "2026-11-18T23:35:28.414694+00:00",
- "built": "2026-11-18T23:35:28.414697+00:00"
+ "built": "2026-11-19T01:11:25.835928+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-15/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-17T19:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-33",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIELD CRANKED IT UP TO 11",
  "video": "docs/media/pod-yt8bwn2g2ssy-33/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 7610.11
  },
  "created": "2026-11-18T22:57:02.970585+00:00",
- "built": "2026-11-18T22:57:02.970593+00:00"
+ "built": "2026-11-19T01:11:25.395151+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-33/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-05T19:30:00+00:00"
 }

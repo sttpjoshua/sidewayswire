@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-1",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "LONS HAS SOMETHING TO PROVE",
  "video": "docs/media/pod-yt8egpwdvj0eq-1/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 146.8
  },
  "created": "2026-11-18T23:23:12.253338+00:00",
- "built": "2026-11-18T23:23:12.253341+00:00"
+ "built": "2026-11-19T01:11:25.705975+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-1/clip.mp4"
+ ],
+ "problems": []
 }

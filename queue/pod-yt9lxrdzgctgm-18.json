@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-18",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "RCP SENDS JACK FLYING",
  "video": "docs/media/pod-yt9lxrdzgctgm-18/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 7764.86
  },
  "created": "2026-11-19T00:09:43.150855+00:00",
- "built": "2026-11-19T00:09:43.150864+00:00"
+ "built": "2026-11-19T01:11:26.223515+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-18/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-27T16:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-23",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ALL IRISH PODIUM",
  "video": "docs/media/pod-yt8egpwdvj0eq-23/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 1371.48
  },
  "created": "2026-11-18T23:44:10.440068+00:00",
- "built": "2026-11-18T23:44:10.440071+00:00"
+ "built": "2026-11-19T01:11:25.987377+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-23/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-21T19:30:00+00:00"
 }

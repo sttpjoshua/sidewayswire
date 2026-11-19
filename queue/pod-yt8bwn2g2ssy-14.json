@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-14",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JUDGES ON THE MINOWA WIN",
  "video": "docs/media/pod-yt8bwn2g2ssy-14/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 3693.43
  },
  "created": "2026-11-18T22:23:03.105501+00:00",
- "built": "2026-11-18T22:23:03.105509+00:00"
+ "built": "2026-11-19T01:11:25.118918+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-14/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-21T16:30:00+00:00"
 }

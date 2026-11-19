@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-47",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FINAL RUN ONE IN THE SMOKE",
  "video": "docs/media/pod-yt8bwn2g2ssy-47/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 10029.07
  },
  "created": "2026-11-18T23:15:17.973795+00:00",
- "built": "2026-11-18T23:15:17.973800+00:00"
+ "built": "2026-11-19T01:11:25.613098+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-47/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-12T16:30:00+00:00"
 }

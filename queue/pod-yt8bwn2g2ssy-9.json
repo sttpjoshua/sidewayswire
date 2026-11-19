@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-9",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "JUDGES EXPLAIN THE CORVETTE CRASH",
  "video": "docs/media/pod-yt8bwn2g2ssy-9/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 2449.47
  },
  "created": "2026-11-18T22:15:15.800189+00:00",
- "built": "2026-11-18T22:15:15.800196+00:00"
+ "built": "2026-11-19T01:11:25.686556+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-9/clip.mp4"
+ ],
+ "problems": []
 }

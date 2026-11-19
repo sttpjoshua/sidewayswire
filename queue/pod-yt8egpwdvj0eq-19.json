@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-19",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HOBSON BULLYING THE CHAMP",
  "video": "docs/media/pod-yt8egpwdvj0eq-19/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 1094.94
  },
  "created": "2026-11-18T23:39:04.049448+00:00",
- "built": "2026-11-18T23:39:04.049451+00:00"
+ "built": "2026-11-19T01:11:25.911104+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-19/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-19T19:30:00+00:00"
 }

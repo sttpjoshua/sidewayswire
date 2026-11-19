@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-8",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FORSBERG OVERCOOKS ZONE ONE",
  "video": "docs/media/pod-yt8egpwdvj0eq-8/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 660.82
  },
  "created": "2026-11-18T23:29:36.644645+00:00",
- "built": "2026-11-18T23:29:36.644648+00:00"
+ "built": "2026-11-19T01:11:26.102461+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-8/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-24T19:30:00+00:00"
 }

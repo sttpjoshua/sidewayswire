@@ -1,7 +1,7 @@
 {
  "id": "pod-yt3ujq9evdy6m-1",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CHAMPION: STILL CAN'T BELIEVE IT",
  "video": "docs/media/pod-yt3ujq9evdy6m-1/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 116.76
  },
  "created": "2026-11-18T19:34:02.824342+00:00",
- "built": "2026-11-18T19:34:02.824349+00:00"
+ "built": "2026-11-19T01:11:24.989132+00:00",
+ "media": [
+  "docs/media/pod-yt3ujq9evdy6m-1/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-12T16:30:00+00:00"
 }

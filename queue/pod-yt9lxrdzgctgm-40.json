@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-40",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "LITTERAL VS HANSEN, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-40/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 3535.4
  },
  "created": "2026-11-19T00:40:12.563856+00:00",
- "built": "2026-11-19T00:40:12.563860+00:00"
+ "built": "2026-11-19T01:11:26.719894+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-40/clip.mp4"
+ ],
+ "problems": []
 }

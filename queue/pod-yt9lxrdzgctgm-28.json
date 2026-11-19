@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-28",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JUDGE EGGERT SIGNS OFF",
  "video": "docs/media/pod-yt9lxrdzgctgm-28/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 10215.1
  },
  "created": "2026-11-19T00:21:33.260567+00:00",
- "built": "2026-11-19T00:21:33.260570+00:00"
+ "built": "2026-11-19T01:11:26.434483+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-28/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-03T07:30:00+00:00"
 }

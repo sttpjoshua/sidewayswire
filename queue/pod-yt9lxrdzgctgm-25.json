@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-25",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CONOR'S WARNING FOR 2027",
  "video": "docs/media/pod-yt9lxrdzgctgm-25/clip.mp4",
@@ -27,5 +27,10 @@
   "start": 9603.82
  },
  "created": "2026-11-19T00:18:20.736892+00:00",
- "built": "2026-11-19T00:18:20.736896+00:00"
+ "built": "2026-11-19T01:11:26.370528+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-25/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-30T19:30:00+00:00"
 }

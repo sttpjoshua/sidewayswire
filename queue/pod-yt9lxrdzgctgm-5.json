@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK: JEFF MADE ME SWEAT",
  "video": "docs/media/pod-yt9lxrdzgctgm-5/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 2857.12
  },
  "created": "2026-11-18T23:51:47.760679+00:00",
- "built": "2026-11-18T23:51:47.760683+00:00"
+ "built": "2026-11-19T01:11:26.858332+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-5/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-22T07:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-47",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LZ VS LITTERAL, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-47/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 8011.0
  },
  "created": "2026-11-19T01:00:57.614071+00:00",
- "built": "2026-11-19T01:00:57.614075+00:00"
+ "built": "2026-11-19T01:11:26.811817+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-47/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-20T07:30:00+00:00"
 }

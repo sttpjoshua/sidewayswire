@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-7",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "WALL, CONTACT, CHAOS",
  "video": "docs/media/pod-yt8bwn2g2ssy-7/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 2128.81
  },
  "created": "2026-11-18T22:13:12.793979+00:00",
- "built": "2026-11-18T22:13:12.793987+00:00"
+ "built": "2026-11-19T01:11:25.685998+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-7/clip.mp4"
+ ],
+ "problems": []
 }

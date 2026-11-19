@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-46",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK VS RCP, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-46/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 7761.0
  },
  "created": "2026-11-19T00:57:51.403142+00:00",
- "built": "2026-11-19T00:57:51.403149+00:00"
+ "built": "2026-11-19T01:11:26.789031+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-46/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-19T07:30:00+00:00"
 }

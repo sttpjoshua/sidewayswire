@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-42",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FIELD BOOKS HIS FINAL SPOT",
  "video": "docs/media/pod-yt8bwn2g2ssy-42/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 9021.85
  },
  "created": "2026-11-18T23:07:47.809813+00:00",
- "built": "2026-11-18T23:07:47.809816+00:00"
+ "built": "2026-11-19T01:11:25.528788+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-42/clip.mp4"
+ ],
+ "problems": []
 }

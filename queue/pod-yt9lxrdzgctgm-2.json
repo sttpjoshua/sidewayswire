@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DEANE ON CONOR AT NINE YEARS OLD",
  "video": "docs/media/pod-yt9lxrdzgctgm-2/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 1831.34
  },
  "created": "2026-11-18T23:48:33.973268+00:00",
- "built": "2026-11-18T23:48:33.973272+00:00"
+ "built": "2026-11-19T01:11:26.264647+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-2/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-28T16:30:00+00:00"
 }

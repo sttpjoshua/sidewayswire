@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-27",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JUDGE EXPLAINS JACK VS LZ",
  "video": "docs/media/pod-yt9lxrdzgctgm-27/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 10167.04
  },
  "created": "2026-11-19T00:20:31.627380+00:00",
- "built": "2026-11-19T00:20:31.627383+00:00"
+ "built": "2026-11-19T01:11:26.412981+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-27/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-31T19:30:00+00:00"
 }

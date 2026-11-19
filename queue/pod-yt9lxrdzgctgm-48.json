@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-48",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DEANE VS AASBØ, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-48/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 8883.8
  },
  "created": "2026-11-19T01:03:43.051870+00:00",
- "built": "2026-11-19T01:03:43.051877+00:00"
+ "built": "2026-11-19T01:11:26.835165+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-48/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-21T07:30:00+00:00"
 }

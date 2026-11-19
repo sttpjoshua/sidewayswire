@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-49",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FINAL RUN TWO, TOO CLOSE TO CALL",
  "video": "docs/media/pod-yt8bwn2g2ssy-49/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 10178.43
  },
  "created": "2026-11-18T23:18:26.914207+00:00",
- "built": "2026-11-18T23:18:26.914211+00:00"
+ "built": "2026-11-19T01:11:25.648629+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-49/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-13T16:30:00+00:00"
 }

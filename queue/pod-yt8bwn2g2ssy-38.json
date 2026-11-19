@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-38",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BEECHUM PUNTS THE ZONE MARKER",
  "video": "docs/media/pod-yt8bwn2g2ssy-38/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 8184.49
  },
  "created": "2026-11-18T23:03:19.626334+00:00",
- "built": "2026-11-18T23:03:19.626337+00:00"
+ "built": "2026-11-19T01:11:25.477680+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-38/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-08T16:30:00+00:00"
 }

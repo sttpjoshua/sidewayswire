@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-13",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FIRST WIN EVER OVER CONOR",
  "video": "docs/media/pod-yt9lxrdzgctgm-13/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 5721.86
  },
  "created": "2026-11-19T00:02:36.100961+00:00",
- "built": "2026-11-19T00:02:36.100972+00:00"
+ "built": "2026-11-19T01:11:26.202366+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-13/clip.mp4"
+ ],
+ "problems": []
 }

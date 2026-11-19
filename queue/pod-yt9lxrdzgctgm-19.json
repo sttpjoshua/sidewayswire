@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-19",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LITTERAL'S CAR GOES ROGUE",
  "video": "docs/media/pod-yt9lxrdzgctgm-19/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 8014.32
  },
  "created": "2026-11-19T00:11:05.244679+00:00",
- "built": "2026-11-19T00:11:05.244683+00:00"
+ "built": "2026-11-19T01:11:26.244185+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-19/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-27T19:30:00+00:00"
 }

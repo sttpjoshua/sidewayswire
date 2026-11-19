@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-31",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIELD RULED OUT OF THE FINAL FOUR",
  "video": "docs/media/pod-yt9lxrdzgctgm-31/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 11127.86
  },
  "created": "2026-11-19T00:25:32.669602+00:00",
- "built": "2026-11-19T00:25:32.669606+00:00"
+ "built": "2026-11-19T01:11:26.522118+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-31/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-08T07:30:00+00:00"
 }

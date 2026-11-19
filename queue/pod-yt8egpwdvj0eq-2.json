@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "JOHNSON ON THE WRONG SIDE",
  "video": "docs/media/pod-yt8egpwdvj0eq-2/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 177.62
  },
  "created": "2026-11-18T23:24:04.593280+00:00",
- "built": "2026-11-18T23:24:04.593283+00:00"
+ "built": "2026-11-19T01:11:25.911574+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-2/clip.mp4"
+ ],
+ "problems": []
 }

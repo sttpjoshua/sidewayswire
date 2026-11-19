@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-26",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LEGENDS ONE MORE TIME, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-26/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 6149
  },
  "created": "2026-11-18T22:46:33.086156+00:00",
- "built": "2026-11-18T22:46:33.086165+00:00"
+ "built": "2026-11-19T01:11:25.265395+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-26/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-31T16:30:00+00:00"
 }

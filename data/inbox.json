@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:34:55.874631+00:00",
+ "updated": "2026-11-19T01:11:17.312973+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -26,6 +26,25 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "d7d51e2ee37666ae",
+   "title": "It's time to get the C8 refreshed for an even crazier 2027!",
+   "series": "FD",
+   "buzz": 1,
+   "first_seen": "2026-11-19T01:11:09.234707+00:00",
+   "published": "2026-11-19T00:53:27+00:00",
+   "items": [
+    {
+     "source": "Matt Field",
+     "title": "It's time to get the C8 refreshed for an even crazier 2027!",
+     "url": "https://www.youtube.com/shorts/3-aIHzl7pVo",
+     "kind": "video",
+     "published": "2026-11-19T00:53:27+00:00",
+     "media_url": "https://i4.ytimg.com/vi/3-aIHzl7pVo/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -1151,25 +1170,6 @@
    ]
   },
   {
-   "id": "af585d894dbf0335",
-   "title": "The FD Paddock Guess Car Parts | O’Reilly Random Part Challenge Long Beach 2",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:05.874603+00:00",
-   "published": "2026-11-06T15:00:19+00:00",
-   "items": [
-    {
-     "source": "Formula DRIFT",
-     "title": "The FD Paddock Guess Car Parts | O’Reilly Random Part Challenge Long Beach 2",
-     "url": "https://www.youtube.com/watch?v=CiohRkMBSnU",
-     "kind": "video",
-     "published": "2026-11-06T15:00:19+00:00",
-     "media_url": "https://i4.ytimg.com/vi/CiohRkMBSnU/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "f3ab487f2b674840",
    "title": "Drop your answers in the comments! 👇🔥",
    "series": "DM",
@@ -1542,9 +1542,8 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",

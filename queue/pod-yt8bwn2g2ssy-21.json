@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-21",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FORSBERG VS GUSHI, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-21/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 5304
  },
  "created": "2026-11-18T22:38:07.660314+00:00",
- "built": "2026-11-18T22:38:07.660320+00:00"
+ "built": "2026-11-19T01:11:25.190196+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-21/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-26T16:30:00+00:00"
 }

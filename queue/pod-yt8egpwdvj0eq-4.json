@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "60 DEGREES FROM SORENSEN",
  "video": "docs/media/pod-yt8egpwdvj0eq-4/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 480.08
  },
  "created": "2026-11-18T23:26:01.326429+00:00",
- "built": "2026-11-18T23:26:01.326432+00:00"
+ "built": "2026-11-19T01:11:26.026072+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-4/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-22T19:30:00+00:00"
 }

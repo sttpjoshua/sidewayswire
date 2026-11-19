@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-13",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BURKETT SPINS IN THE CHASE",
  "video": "docs/media/pod-yt8bwn2g2ssy-13/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 3310.13
  },
  "created": "2026-11-18T22:21:28.784310+00:00",
- "built": "2026-11-18T22:21:28.784319+00:00"
+ "built": "2026-11-19T01:11:25.104897+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-13/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-20T16:30:00+00:00"
 }

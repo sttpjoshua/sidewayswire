@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-10",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JEFF JONES HAS NO FILTER",
  "video": "docs/media/pod-yt9lxrdzgctgm-10/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 4763.12
  },
  "created": "2026-11-18T23:58:24.784040+00:00",
- "built": "2026-11-18T23:58:24.784047+00:00"
+ "built": "2026-11-19T01:11:26.201280+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-10/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-26T19:30:00+00:00"
 }

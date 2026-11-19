@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-22",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LEGENDS GO ONE MORE TIME",
  "video": "docs/media/pod-yt8bwn2g2ssy-22/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 5500.83
  },
  "created": "2026-11-18T22:39:13.531411+00:00",
- "built": "2026-11-18T22:39:13.531420+00:00"
+ "built": "2026-11-19T01:11:25.204514+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-22/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-27T16:30:00+00:00"
 }

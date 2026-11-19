@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-40",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ONLY JACK CAN STOP CONOR",
  "video": "docs/media/pod-yt8bwn2g2ssy-40/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 8459.47
  },
  "created": "2026-11-18T23:04:52.958216+00:00",
- "built": "2026-11-18T23:04:52.958220+00:00"
+ "built": "2026-11-19T01:11:25.528064+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-40/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-09T19:30:00+00:00"
 }

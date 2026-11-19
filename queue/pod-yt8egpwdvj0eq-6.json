@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-6",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "RCP INCOMPLETE IN THE CHASE",
  "video": "docs/media/pod-yt8egpwdvj0eq-6/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 567.44
  },
  "created": "2026-11-18T23:27:54.430712+00:00",
- "built": "2026-11-18T23:27:54.430716+00:00"
+ "built": "2026-11-19T01:11:26.064165+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-6/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-23T19:30:00+00:00"
 }

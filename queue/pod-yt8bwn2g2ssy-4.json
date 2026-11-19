@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ONE MORE TIME, FLAV APPROVES",
  "video": "docs/media/pod-yt8bwn2g2ssy-4/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 1870.36
  },
  "created": "2026-11-18T19:42:45.897251+00:00",
- "built": "2026-11-18T19:42:45.897255+00:00"
+ "built": "2026-11-19T01:11:25.511301+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-4/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-09T16:30:00+00:00"
 }

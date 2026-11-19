@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-36",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "A CLEAN CUT CALL FOR JACK",
  "video": "docs/media/pod-yt8bwn2g2ssy-36/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 8073.73
  },
  "created": "2026-11-18T23:00:26.428516+00:00",
- "built": "2026-11-18T23:00:26.428519+00:00"
+ "built": "2026-11-19T01:11:25.444817+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-36/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-07T16:30:00+00:00"
 }

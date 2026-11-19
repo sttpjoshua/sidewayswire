@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-43",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BROTHER VS BROTHER, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-43/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 9235.5
  },
  "created": "2026-11-18T23:10:31.179989+00:00",
- "built": "2026-11-18T23:10:31.179994+00:00"
+ "built": "2026-11-19T01:11:25.545251+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-43/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-10T16:30:00+00:00"
 }

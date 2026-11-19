@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-17",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "SHANAHAN VS LZ, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-17/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 4321
  },
  "created": "2026-11-18T22:29:21.617071+00:00",
- "built": "2026-11-18T22:29:21.617075+00:00"
+ "built": "2026-11-19T01:11:25.147077+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-17/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-23T16:30:00+00:00"
 }

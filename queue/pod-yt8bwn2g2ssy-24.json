@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-24",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JACK SHANAHAN'S CHASE MASTERCLASS",
  "video": "docs/media/pod-yt8bwn2g2ssy-24/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 5745.47
  },
  "created": "2026-11-18T22:43:01.844790+00:00",
- "built": "2026-11-18T22:43:01.844794+00:00"
+ "built": "2026-11-19T01:11:25.235041+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-24/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-29T16:30:00+00:00"
 }

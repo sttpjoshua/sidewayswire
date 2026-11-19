@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-20",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HOW JACK'S CAR SURVIVED THE HIT",
  "video": "docs/media/pod-yt9lxrdzgctgm-20/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 8374.28
  },
  "created": "2026-11-19T00:12:31.631941+00:00",
- "built": "2026-11-19T00:12:31.631945+00:00"
+ "built": "2026-11-19T01:11:26.285758+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-20/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-28T19:30:00+00:00"
 }

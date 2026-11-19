@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-18",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HOBSON'S BIGGEST BATTLE",
  "video": "docs/media/pod-yt8egpwdvj0eq-18/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 1064.9
  },
  "created": "2026-11-18T23:38:05.136168+00:00",
- "built": "2026-11-18T23:38:05.136171+00:00"
+ "built": "2026-11-19T01:11:25.892037+00:00",
+ "media": [
+  "docs/media/pod-yt8egpwdvj0eq-18/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-19T16:30:00+00:00"
 }

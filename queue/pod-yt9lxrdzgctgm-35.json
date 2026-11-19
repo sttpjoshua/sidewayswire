@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-35",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "A HISTORIC NIGHT FOR IRELAND",
  "video": "docs/media/pod-yt9lxrdzgctgm-35/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 12171.72
  },
  "created": "2026-11-19T00:32:01.018425+00:00",
- "built": "2026-11-19T00:32:01.018431+00:00"
+ "built": "2026-11-19T01:11:26.610796+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-35/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-12T07:30:00+00:00"
 }

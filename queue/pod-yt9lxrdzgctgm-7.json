@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-7",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "STUCKEY HITS LZ TWICE",
  "video": "docs/media/pod-yt9lxrdzgctgm-7/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 3162.92
  },
  "created": "2026-11-18T23:54:13.085334+00:00",
- "built": "2026-11-18T23:54:13.085349+00:00"
+ "built": "2026-11-19T01:11:26.882208+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-7/clip.mp4"
+ ],
+ "problems": []
 }

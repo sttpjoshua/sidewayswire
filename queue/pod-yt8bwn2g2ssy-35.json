@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-35",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FORSBERG AND JACK COLLIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-35/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 7969.05
  },
  "created": "2026-11-18T22:59:47.192656+00:00",
- "built": "2026-11-18T22:59:47.192661+00:00"
+ "built": "2026-11-19T01:11:25.428275+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-35/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-06T19:30:00+00:00"
 }

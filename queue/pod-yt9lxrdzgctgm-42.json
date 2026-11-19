@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-42",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BATTLE OF THE SUPRAS, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-42/clip.mp4",
@@ -30,5 +30,10 @@
   "start": 4609.2
  },
  "created": "2026-11-19T00:46:08.359356+00:00",
- "built": "2026-11-19T00:46:08.359361+00:00"
+ "built": "2026-11-19T01:11:26.765412+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-42/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-18T07:30:00+00:00"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-20",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "RUDY HANSEN SPINS OUT",
  "video": "docs/media/pod-yt8bwn2g2ssy-20/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 4912.01
  },
  "created": "2026-11-18T22:35:21.796450+00:00",
- "built": "2026-11-18T22:35:21.796453+00:00"
+ "built": "2026-11-19T01:11:25.176169+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-20/clip.mp4"
+ ],
+ "problems": []
 }

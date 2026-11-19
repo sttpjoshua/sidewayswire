@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-37",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "SHANAHAN VS BEECHUM, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-37/clip.mp4",
@@ -28,5 +28,10 @@
   "start": 8181
  },
  "created": "2026-11-18T23:02:43.787630+00:00",
- "built": "2026-11-18T23:02:43.787635+00:00"
+ "built": "2026-11-19T01:11:25.461403+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-37/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2027-01-07T19:30:00+00:00"
 }

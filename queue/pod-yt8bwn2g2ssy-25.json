@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-25",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THE SHANAHANS RESET CHASING",
  "video": "docs/media/pod-yt8bwn2g2ssy-25/clip.mp4",
@@ -29,5 +29,10 @@
   "start": 5813.31
  },
  "created": "2026-11-18T22:43:38.333903+00:00",
- "built": "2026-11-18T22:43:38.333910+00:00"
+ "built": "2026-11-19T01:11:25.250209+00:00",
+ "media": [
+  "docs/media/pod-yt8bwn2g2ssy-25/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-30T16:30:00+00:00"
 }
