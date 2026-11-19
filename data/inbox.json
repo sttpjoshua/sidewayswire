@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:11:17.312973+00:00",
+ "updated": "2026-11-19T02:52:10.675008+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -45,6 +45,25 @@
      "published": "2026-11-19T00:53:27+00:00",
      "media_url": "https://i4.ytimg.com/vi/3-aIHzl7pVo/hqdefault.jpg",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "id": "4ea701b92503cecd",
+   "title": "T-Roc R hits 333PS and five seconds, with drift mode in tow",
+   "series": "FD + DM",
+   "buzz": 1,
+   "first_seen": "2026-11-19T02:52:10.075030+00:00",
+   "published": "2026-11-18T20:29:02+00:00",
+   "items": [
+    {
+     "source": "Google News · RUSSPAIN.com",
+     "title": "T-Roc R hits 333PS and five seconds, with drift mode in tow",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX0w5NnlpS3BGbnd3VXNJRjdSNUFGVlBGTmloeXhRWUdZM2FFOU1BZVJrT3JzcDBmQ01wN3hVZ204VW5QeWt1WTZvWjRSNDlrTV9pVGdkazZYc0FOWlo3dlR4aFZOZHJIaUZPVlRLSllPS1lLTXAzeE5TeFk4WVJ5U0NPa3VjZWZxVlU2SmdvR2ticVpudzFz?oc=5",
+     "kind": "article",
+     "published": "2026-11-18T20:29:02+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1227,25 +1246,6 @@
    ]
   },
   {
-   "id": "884dc49a701bf77e",
-   "title": "Chelsea DeNofa on the Pressure of FD",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:05.875840+00:00",
-   "published": "2026-11-05T19:00:54+00:00",
-   "items": [
-    {
-     "source": "Formula DRIFT",
-     "title": "Chelsea DeNofa on the Pressure of FD",
-     "url": "https://www.youtube.com/shorts/PjYh99xgixM",
-     "kind": "video",
-     "published": "2026-11-05T19:00:54+00:00",
-     "media_url": "https://i1.ytimg.com/vi/PjYh99xgixM/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "ba56bf1c9b262587",
    "title": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
    "series": "FD",
@@ -1542,8 +1542,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -1668,7 +1669,7 @@
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "how": "feed"
   },
   {
