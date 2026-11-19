@@ -106,6 +106,8 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
         return report
     _add_stills(drafts)
     _add_portraits(drafts)
+    from . import hooks
+    hooks.add_media(drafts)          # kop-posts: colour, still, driver cut-out
     for p in drafts:              # Joshua: a post without a photo is never posted; it waits for his photo
         if (p.get("slides") or [{}])[0].get("template") == "news_text.html":
             p.update(check=True, needs_photo=True, check_reason="foto nodig: voeg een foto toe")

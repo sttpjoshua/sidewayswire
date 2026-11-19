@@ -9,6 +9,11 @@ A small language model (Qwen 2.5 via mlx-lm, downloaded once from Hugging Face) 
    transcript, never with times it makes up. Names are only kept when they are in data/sources.csv.
 2. News: at most two new posts per round from data/inbox.json (stories not handled yet), written only
    from the text of the source. They become drafts; the normal build adds stills or portraits.
+   Since v2 (Joshua, 19 nov, learned from DriftReady) the model also picks a kop-post format: breaking
+   (departure, transfer, new team), winner, look (new car or livery) or question (an open question on the
+   news: "Which team will X join?"). Those use templates/hook.html: one big headline, the driver in front.
+3. Replies: for the best comments on our own posts (data/replies.json, collected by lc/engage.py) it writes
+   a short, human reply. Joshua approves every reply on the dashboard; nothing is sent on its own.
 
 Rules from Joshua (EDITOR.md) apply: English, short, no em-dash, no drift or judging explainers,
 rumors only as rumor and always checked, no made-up handles.
@@ -25,7 +30,7 @@ import time
 import unicodedata
 from datetime import datetime, timezone
 
-VERSION = "1"
+VERSION = "2"
 MODEL_BIG = "mlx-community/Qwen2.5-14B-Instruct-4bit"     # about 8 GB, for Macs with 32 GB or more
 MODEL_SMALL = "mlx-community/Qwen2.5-7B-Instruct-4bit"    # about 4.5 GB
 WINDOW = 70                 # transcript segments per question to the model
@@ -34,6 +39,10 @@ KINDS = {"stream": ["battle", "qualify", "crash", "omt", "call", "final", "momen
          "vlog": ["moment", "quote", "crash", "fact", "rumor"],
          "podcast": ["quote", "rumor", "fact", "moment"]}
 NEWS_EVERY_H = 3
+HOOK_FORMATS = ("breaking", "winner", "look", "question")
+HOOK_LABELS = {"breaking": "BREAKING", "winner": "WINNER", "look": "NEW LOOK", "question": "YOUR CALL"}
+SERIES_LABEL = {"Formula DRIFT": "FORMULA DRIFT", "FD": "FORMULA DRIFT", "Drift Masters": "DRIFT MASTERS",
+                "DM": "DRIFT MASTERS", "D1GP": "D1 GRAND PRIX"}
 NEWS_PER_ROUND = 2
 
 _model = None
@@ -212,11 +221,20 @@ def moments_for(ep: dict, transcript: dict, known: dict, log, beat) -> list:
 SYSTEM_NEWS = """You write news posts for Sideways Wire, an English drift news channel for fans aged 16 to 35.
 Use ONLY facts that are in the text you get. Never guess results, numbers or quotes. Never use an em-dash.
 Never explain how drifting works. Answer ONLY with JSON:
-{"worth_it": true or false, "headline": ["MAX 16 CHARS", "MAX 16 CHARS", "MAX 16 CHARS"],
+{"worth_it": true or false, "format": "breaking" or "winner" or "look" or "question" or "news",
+ "headline": ["MAX 16 CHARS", "MAX 16 CHARS", "MAX 16 CHARS"],
  "kicker": "SERIES OR EVENT, short, capitals", "body": "2 or 3 short sentences",
  "caption": "1 to 3 short sentences for Instagram, no hashtags, no @handles",
  "people": ["Full Name", ...], "backdrop": "ONE WORD like the series or brand", "rumor": true or false}
-worth_it is false for ads, merchandise, ticket sales, results older than a week, or stories without real news."""
+worth_it is false for ads, merchandise, ticket sales, results older than a week, or stories without real news.
+format: "breaking" when a well-known driver leaves, joins, switches team or series, or retires;
+"winner" when someone won an event (headline names the driver and the win);
+"look" for a new car, build or livery reveal; "question" when the news leaves something open that fans
+will want to guess (headline is then that question, e.g. ["WHICH TEAM WILL", "LUKE FINK JOIN?"]);
+otherwise "news". The headline IS the post: short, strong, in capitals, max 3 lines.
+caption: 1 or 2 short sentences. Use a human detail from the text when there is one (a comeback, a new
+baby, a first win). A light opinion is fine ("he had style"), never mock or attack a person or series.
+For "question" end the caption with the question to the reader. For "breaking" no question needed."""
 
 
 def _article_text(url: str) -> str:
@@ -254,17 +272,31 @@ def news(gh, put, json_or, log, beat, known: dict) -> int:
         slug = re.sub(r"[^a-z0-9]+", "-", s["title"].lower()).strip("-")[:48]
         head = [_clean(h).upper()[:18] for h in (r.get("headline") or [])][:3] or [s["title"].upper()[:18]]
         source = (s["items"][0].get("source") or "").split("·")[-1].strip() if s.get("items") else ""
-        data = {"series_badge": [str(s.get("series") or "DRIFT")[:12]], "backdrop": _clean(r.get("backdrop") or s.get("series") or "DRIFT").upper()[:12],
-                "backdrop_size": 520, "kicker": _clean(r.get("kicker", "")).upper()[:40], "headline": head,
-                "body": _clean(r.get("body", ""))[:420], "source": source}
         rumor = bool(r.get("rumor"))
-        post = {"id": f"{day}-{slug}", "kind": "news", "story": s["title"], "title": " ".join(head),
-                "slides": [{"template": "news_text.html", "data": data}],
-                "caption": _clean(r.get("caption", "")) + (f"\n\nSource: {source}" if source else ""),
-                "people": fix_names(r.get("people"), known), "platforms": ["instagram", "facebook"],
+        fmt = r.get("format") if r.get("format") in HOOK_FORMATS else "news"
+        people = fix_names(r.get("people"), known)
+        if fmt == "look" and not people:
+            fmt = "news"
+        caption = _clean(r.get("caption", "")) + (f"\n\nSource: {source}" if source else "")
+        post = {"id": f"{day}-{slug}", "story": s["title"], "title": " ".join(head),
+                "caption": caption, "people": people, "platforms": ["instagram", "facebook"],
                 "check": rumor, "check_reason": "gerucht: check jij eerst" if rumor else "",
                 "status": "draft", "by": "local", "created": datetime.now(timezone.utc).isoformat(),
                 "source": s["items"][0]["url"] if s.get("items") else ""}
+        if fmt == "look":
+            # A still from the livestream shows the OLD car: no still, and Joshua adds a photo we may use, or skips.
+            post |= {"no_still": True, "check": True,
+                     "check_reason": "nieuwe auto of livery: voeg een foto toe die we mogen gebruiken, of sla over"}
+        if fmt in HOOK_FORMATS and not rumor:
+            post |= {"kind": "breaking" if fmt == "breaking" else "hook", "hook": {"type": fmt},
+                     "slides": [{"template": "hook.html", "data": {
+                         "headline": head, "label": HOOK_LABELS[fmt],
+                         "series": SERIES_LABEL.get(str(s.get("series") or ""), str(s.get("series") or "").upper())[:24]}}]}
+        else:
+            data = {"series_badge": [str(s.get("series") or "DRIFT")[:12]], "backdrop": _clean(r.get("backdrop") or s.get("series") or "DRIFT").upper()[:12],
+                    "backdrop_size": 520, "kicker": _clean(r.get("kicker", "")).upper()[:40], "headline": head,
+                    "body": _clean(r.get("body", ""))[:420], "source": source}
+            post |= {"kind": "news", "slides": [{"template": "news_text.html", "data": data}]}
         put(f"queue/{post['id']}.json", json.dumps(post, indent=1, ensure_ascii=False).encode(),
             f"lokale redactie: nieuws {post['id']}")
         made += 1
@@ -274,13 +306,51 @@ def news(gh, put, json_or, log, beat, known: dict) -> int:
     return made
 
 
+# ---------- replies to comments (Joshua approves every one) ----------
+SYSTEM_REPLY = """You run the Facebook and Instagram of Sideways Wire, an English drift news page, and you are a drift fan.
+A fan commented under one of our posts. Write ONE short reply, max 15 words, casual and human, like
+DriftReady does: sometimes a short agreement ("Valid point", "100%", "You're not wrong"), sometimes a
+short question back that keeps the talk going ("Would that ever be profitable though?").
+Never insult or mock anyone, never state facts that are not in the post title or the comment, never
+promise anything, no hashtags, no @names, never an em-dash. If the comment is spam, hateful, or about
+a crash, injury, death or politics, skip it. Answer ONLY with JSON: {"reply": "...", "skip": true or false}"""
+REPLIES_PER_ROUND = 12
+
+
+def replies(gh, put, json_or, log, beat) -> int:
+    """Drafts replies for new comments in data/replies.json into data/replies_suggested.json.
+    lc/engage.py merges them; Joshua approves, edits or skips each one on the dashboard."""
+    items = [x for x in json_or("data/replies.json", {}).get("items", []) if x.get("status") == "new"]
+    done = json_or("data/replies_suggested.json", {})
+    todo = [x for x in items if x["id"] not in done][:REPLIES_PER_ROUND]
+    for x in todo:
+        beat(f"lokale redactie: antwoord op {x.get('author', '')}")
+        try:
+            r = _json(ask(log, SYSTEM_REPLY, f"Our post: {x.get('post_title', '')}\nComment by {x.get('author', '')}: {x.get('text', '')}", 120))
+        except Exception as ex:
+            log("taalmodel antwoord:", ex)
+            continue
+        if not isinstance(r, dict):
+            continue
+        reply = _clean(r.get("reply", "")).replace("#", "").strip()
+        done[x["id"]] = {"skip": True} if r.get("skip") or not reply else {"reply": reply[:220]}
+    if todo:
+        put("data/replies_suggested.json", json.dumps(done, indent=1, ensure_ascii=False).encode(),
+            f"lokale redactie: {len(todo)} antwoordvoorstellen")
+    return len(todo)
+
+
 # ---------- one round ----------
 def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
     settings = json_or("data/settings.json", {})
     if not settings.get("local_editor"):
         return {"off": True}
-    t0, rep = time.time(), {"moments": 0, "episodes": 0, "news": 0}
+    t0, rep = time.time(), {"moments": 0, "episodes": 0, "news": 0, "replies": 0}
     known = known_people(json_or, gh)
+    try:                                   # replies first: fans wait, a transcript does not
+        rep["replies"] = replies(gh, put, json_or, log, beat)
+    except Exception as ex:
+        log("lokale redactie antwoorden:", ex)
     eps = []
     reg = json_or("data/streams/streams.json", {"streams": [], "channels": []})
     for st in reg.get("streams", []) + json_or("data/streams/mac/_found.json", {"streams": []}).get("streams", []):
@@ -311,9 +381,9 @@ def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
         rep["news"] = news(gh, put, json_or, log, beat, known)
         state["local_news"] = time.time()
     status = {"state": "local", "version": VERSION, "last_run": datetime.now(timezone.utc).isoformat(),
-              "note": f"Lokale redactie op de Mac: {rep['moments']} momenten uit {rep['episodes']} video's, {rep['news']} nieuwsposts",
+              "note": f"Lokale redactie op de Mac: {rep['moments']} momenten uit {rep['episodes']} video's, {rep['news']} nieuwsposts, {rep['replies']} antwoordvoorstellen",
               "schedule": ["elke 15 minuten, als de Mac aanstaat"]}
-    if rep["moments"] or rep["news"] or time.time() - state.get("local_status", 0) > 6 * 3600:
+    if rep["moments"] or rep["news"] or rep["replies"] or time.time() - state.get("local_status", 0) > 6 * 3600:
         put("docs/editor.json", json.dumps(status, indent=1, ensure_ascii=False).encode(), "lokale redactie: status")
         state["local_status"] = time.time()
     return rep

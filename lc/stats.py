@@ -70,6 +70,40 @@ def _fb_post(pid: str, token: str) -> dict:
         return {}
 
 
+REEL_KINDS = {"stream_clip", "podcast_clip", "battle_reel", "vlog_clip"}
+MIN_POSTS = 5             # a format needs this many measured posts before the system acts on it
+
+
+def format_of(p: dict) -> str:
+    """The kind of post as Joshua thinks about it: the kop-post type, or reel/news."""
+    if p.get("hook"):
+        return (p["hook"] or {}).get("type") or "hook"
+    if p.get("kind") in REEL_KINDS:
+        return "reel"
+    return p.get("kind") or "post"
+
+
+def by_format(posts: dict) -> dict:
+    """Average likes, comments and shares per post, per format, over both platforms."""
+    agg = {}
+    for row in posts.values():
+        f = row.get("format") or "post"
+        ig, fb = row.get("instagram") or {}, row.get("facebook") or {}
+        if not ig and not fb:
+            continue
+        a = agg.setdefault(f, {"posts": 0, "likes": 0, "comments": 0, "shares": 0})
+        a["posts"] += 1
+        a["likes"] += (ig.get("likes") or 0) + (fb.get("reactions") or 0)
+        a["comments"] += (ig.get("comments") or 0) + (fb.get("comments") or 0)
+        a["shares"] += (ig.get("shares") or 0) + (fb.get("shares") or 0)
+    for a in agg.values():
+        n = a["posts"]
+        a.update({k: round(a[k] / n, 1) for k in ("likes", "comments", "shares")})
+        a["engagement"] = round(a["likes"] + 3 * a["comments"] + 5 * a["shares"], 1)   # a comment or share counts more
+        a["enough"] = n >= MIN_POSTS
+    return agg
+
+
 def run(force: bool = False) -> dict:
     old = json.loads(OUT.read_text()) if OUT.exists() else {"days": {}, "posts": {}}
     now = datetime.now(timezone.utc)
@@ -99,6 +133,7 @@ def run(force: bool = False) -> dict:
             continue
         res, row = p.get("results") or {}, old["posts"].get(p["id"], {})
         row.update(title=p.get("title") or (p.get("caption") or "").split("\n")[0][:80], kind=p.get("kind"),
+                   format=format_of(p),
                    posted_at=p["posted_at"], score=p.get("score"), people=p.get("people"))
         ig, fb = res.get("instagram"), res.get("facebook")
         if ig and str(ig).isdigit() and a.get("ig_token"):
@@ -106,6 +141,7 @@ def run(force: bool = False) -> dict:
         if fb and "ERROR" not in str(fb) and fb != "dry-run" and a.get("page_token"):
             row["facebook"] = _fb_post(str(fb), a["page_token"])
         old["posts"][p["id"]] = row
+    old["by_format"] = by_format(old["posts"])
     old["updated"] = now.isoformat()
     OUT.write_text(json.dumps(old, indent=1, ensure_ascii=False))
     return {"day": day, "posts": len(old["posts"])}

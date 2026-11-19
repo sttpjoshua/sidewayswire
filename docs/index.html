@@ -137,6 +137,9 @@ section{display:none}section.on{display:block}
  main{padding:18px 14px 90px}.two{grid-template-columns:1fr}.rc{grid-template-columns:1fr}.rc .media{max-width:320px}
  .s{grid-template-columns:80px 1fr}.s .thumb{width:80px}
 }
+.replies{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;margin-bottom:22px}
+.rp{border:2px solid #333;padding:12px;background:#1b1b1e}.rp .cm{margin:6px 0 8px;font-size:15px;line-height:1.4}.rp textarea{width:100%;min-height:54px;background:#111;color:#fff;border:2px solid #444;font:inherit;font-size:15px;padding:8px}
+table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft th{padding:6px 4px;border-bottom:1px solid #2a2a2e;text-align:right}table.ft td:first-child,table.ft th:first-child{text-align:left}
 </style></head><body>
 <div class="app">
 <nav class="side" id="nav">
@@ -166,6 +169,7 @@ section{display:none}section.on{display:block}
 <section id="s-stats">
   <h1>STATISTIEKEN</h1><div class="sub" id="st-sub"></div>
   <h2>BEREIK EN GROEI</h2><div id="st-reach"></div>
+  <h2>WAT WERKT <small>per soort post, gemiddeld per post</small></h2><div id="st-format"></div>
   <h2>CONTENT</h2><div class="kpis" id="st-kpis"></div>
   <div class="grid2" id="st-content"></div>
 </section>
@@ -180,6 +184,7 @@ section{display:none}section.on{display:block}
 
 <section id="s-beoordelen">
   <h1>BEOORDELEN</h1><div class="sub">Alles wat klaarstaat en op jouw akkoord wacht. Goedgekeurd gaat naar de eerstvolgende vrije tijd, of naar de tijd die jij kiest.</div>
+  <div id="rev-replies"></div>
   <div class="filters" id="rev-f"></div>
   <div class="rev" id="rev"></div>
 </section>
@@ -236,7 +241,9 @@ section{display:none}section.on{display:block}
 <script>
 const REPO="sttpjoshua/sidewayswire", API=`https://api.github.com/repos/${REPO}`;
 const ST={draft:"nieuw",check:"check nodig",approved:"goedgekeurd",ready:"ingepland",posted:"geplaatst",skipped:"overgeslagen",error:"fout"};
-const KIND={podcast_clip:"PODCASTCLIP",stream_clip:"LIVESTREAM",vlog_clip:"VLOG",news:"NIEUWS",result:"UITSLAG",results:"UITSLAG",standings:"STAND",battle_reel:"BATTLE REEL",quote:"QUOTE",cover:"COVER",bracket:"BRACKET",zones:"ZONES",debate:"DEBAT",crash:"CRASH"};
+const KIND={podcast_clip:"PODCASTCLIP",stream_clip:"LIVESTREAM",vlog_clip:"VLOG",news:"NIEUWS",result:"UITSLAG",results:"UITSLAG",standings:"STAND",battle_reel:"BATTLE REEL",quote:"QUOTE",cover:"COVER",bracket:"BRACKET",zones:"ZONES",debate:"DEBAT",crash:"CRASH",hook:"KOP-POST",breaking:"BREAKING"};
+const HOOK={breaking:"BREAKING",winner:"WINNAAR",question:"OPEN VRAAG",whatif:"WAT ALS",debate:"GEVOELIG PUNT",look:"NIEUWE LOOK"};
+const FMT={...HOOK,reel:"REELS",news:"NIEUWS",hook:"KOP-POST",post:"POSTS"};
 const CAT={pod:"PODCASTCLIPS",live:"LIVESTREAM",battle:"BATTLES",vlog:"VLOGS",posts:"POSTS"};
 const CATSUB={pod:"Clips uit podcasts. Momenten kiezen of aanpassen doe je in de <a href=\"podcasts.html\">podcaststudio</a>.",
   live:"Losse momenten uit de livestreams: battles, crashes, one more times, jury-calls en interviews.",
@@ -269,16 +276,17 @@ async function replacePhoto(id,card){
   toast("Foto uploaden...");const data=await shrinkImg(file),path=`docs/media/photos/post-${id}-${Date.now()}.jpg`;
   await gh(`/contents/${path}`,{method:"PUT",body:JSON.stringify({message:`dashboard: foto voor ${id}`,content:data,branch:"main"})});
   await changePost(id,x=>{const d=x.slides[0].data,t=d.text_version||d;
+    if(x.slides[0].template==="hook.html"){d.photo="../"+path;d.photo_credit=cr||"@sidewayswire";x.no_still=true}else
     x.slides[0]={template:"news.html",data:{photo:"../"+path,photo_credit:cr||"@sidewayswire",series_badge:t.series_badge,headline:t.headline,marker:t.marker,body:t.body,source:t.source,text_version:t}};
     x.photo_by="joshua";delete x.photo_auto;if(x.post_at&&!x.want_at)x.want_at=x.post_at;
-    if(["ready","approved"].includes(x.status)||x.needs_photo||/foto nodig/.test(x.check_reason||"")){x.check=false;x.check_reason=""}delete x.needs_photo;x.status="draft";
+    if(["ready","approved"].includes(x.status)||x.needs_photo||/foto nodig|livery: voeg een foto/.test(x.check_reason||"")){x.check=false;x.check_reason=""}delete x.needs_photo;x.status="draft";
     if(cr&&!(x.caption||"").includes(cr))x.caption=(x.caption||"").replace("\n\n#",`\n\nPhoto: ${cr}\n\n#`)},"foto");
   await runBuild();toast("Foto opgeslagen. De post wordt opnieuw gemaakt en staat over een paar minuten met jouw foto in het dashboard. Hij houdt zijn plek in de planning.");
 }
 function photoCtl(p){
   const ph=p.photo;if(!ph)return "";
   const none=ph.mode==="none";
-  return `${none?`<div class="needph">FOTO NODIG<small>Deze post gaat pas online als er een foto in staat.</small></div>`:`<label>FOTO ${ph.mode==="joshua"?"(jouw foto)":ph.mode==="auto"?"(still uit de livestream)":""}</label>`}
+  return `${none?`<div class="needph">FOTO NODIG<small>Deze post gaat pas online als er een foto in staat.</small></div>`:`<label>FOTO ${ph.mode==="joshua"?"(jouw foto)":ph.mode==="auto"?"(still uit de livestream)":ph.mode==="optional"?"(optioneel)":""}</label>`}
   <div class="phrow"><input data-phc placeholder="credit, bijv. @fotograaf" value="${esc(ph.mode==="joshua"?(ph.credit||""):"")}">
   <label class="btn ${none?"g":""}">${none?"📷 FOTO TOEVOEGEN":"FOTO VERVANGEN"}<input type="file" accept="image/*" data-ph hidden></label></div>`}
 async function onPhotoPick(e){const inp=e.target.closest("input[data-ph]");if(!inp||!inp.files.length)return;
@@ -350,7 +358,7 @@ function drawOverview(){
   const rev=toReview(), planned=P.filter(p=>p.status==="ready"&&new Date(p.post_at)<week), posted=P.filter(p=>p.status==="posted"&&new Date(p.posted_at)>wk0);
   const clips=P.filter(p=>(p.kind==="podcast_clip"||p.kind==="stream_clip")&&p.status!=="skipped");
   const news24=(S.inbox||[]).filter(s=>now-new Date(s.published)<864e5).length;
-  document.getElementById("c-rev").textContent=rev.length||"";
+  document.getElementById("c-rev").textContent=(rev.length+replies().length)||"";
   document.getElementById("ov-sub").textContent=`Bijgewerkt ${ago(S.updated)} · nieuws verzameld ${ago(S.collected)}`;
   document.getElementById("ov-mode").innerHTML=ch.live?"":`<div class="banner"><b>Testmodus.</b> Er wordt nog niets echt geplaatst: de kanalen zijn nog niet gekoppeld. Alles wat je goedkeurt, wordt wel ingepland, zodat je ziet hoe het straks loopt.</div>`;
   const why={};rev.forEach(p=>{const r=(p.check_reason||"").replace(/:.*/,"")||"overig";why[r]=(why[r]||0)+1});
@@ -414,6 +422,12 @@ function drawStats(){
       <div class="chart"><h3>BESTE POSTS (30 DAGEN)</h3>${top.length?bars(top.map(x=>[x.t||x.id,x.views||x.reach])):`<div class="muted">Nog geen gegevens.</div>`}</div>
       <div class="chart"><h3>MEEST GEDEELD</h3>${top.length?bars([...top].sort((a,b)=>b.shares-a.shares).slice(0,6).map(x=>[x.t||x.id,x.shares],null)):""}</div>
       <div class="chart"><h3>GEMIDDELD BEREIK PER TIJDSTIP</h3>${hrows.length?bars(hrows):`<div class="muted">Nog geen gegevens.</div>`}</div></div>`}
+  // what works, per kind of post (lc/stats.py by_format); the question stock learns from this too
+  const bf=STATS&&STATS.by_format?Object.entries(STATS.by_format).sort((a,b)=>b[1].engagement-a[1].engagement):[];
+  document.getElementById("st-format").innerHTML=bf.length?`<div class="grid2">
+    <div class="chart"><h3>INTERACTIE PER POST <small>likes + 3× reacties + 5× shares</small></h3>${bars(bf.map(([f,v])=>[`${FMT[f]||f} (${v.posts})`,v.engagement]))}</div>
+    <div class="chart"><h3>GEMIDDELD PER POST</h3><table class="ft"><tr><th></th><th>likes</th><th>reacties</th><th>shares</th></tr>${bf.map(([f,v])=>`<tr><td>${FMT[f]||esc(f)}${v.enough?"":" <span class=muted>(nog weinig)</span>"}</td><td>${v.likes}</td><td>${v.comments}</td><td>${v.shares}</td></tr>`).join("")}</table></div></div>`
+    :`<div class="empty2">Zodra de eerste posts online staan, zie je hier per soort post (breaking, winnaar, open vraag, wat als, gevoelig punt, nieuwe look, reels, nieuws) hoeveel likes, reacties en shares ze gemiddeld halen. Na 5 posts per soort maakt het systeem vanzelf meer van de vraagposts die het best werken.</div>`;
   // content (available now)
   const colors={pod:"var(--accent)",live:"#ff7a00",battle:"var(--pink)",vlog:"#b388ff",posts:"#4aa8ff"};
   const ready=live.filter(p=>p.status==="ready"),planned=ready.filter(p=>p.post_at);
@@ -433,9 +447,38 @@ function drawStats(){
     <div class="chart"><h3>KWALITEIT (SCORE VAN 0 TOT 100)</h3>${bars([["80 tot 100",sc.filter(x=>x>=80).length,"var(--accent)"],["60 tot 79",sc.filter(x=>x>=60&&x<80).length],["40 tot 59",sc.filter(x=>x>=40&&x<60).length,"#ff7a00"],["onder 40",sc.filter(x=>x<40).length,"var(--pink)"]])}</div>`;
 }
 
+// ---------- antwoorden op reacties (lc/engage.py, voorstellen van de lokale redactie) ----------
+const DONE_REPLIES=new Set();
+function replies(){return (S&&S.replies||[]).filter(x=>!DONE_REPLIES.has(x.id))}
+function drawReplies(){
+  const R=replies(),el=document.getElementById("rev-replies");if(!el)return;
+  el.innerHTML=R.length?`<h2 class="cat posts">ANTWOORDEN OP REACTIES <small>${R.length} voorstel${R.length>1?"len":""}. Pas aan als je wilt; alleen wat jij verstuurt gaat online.</small></h2>
+    <div class="replies">${R.map(x=>`<div class="rp" data-rid="${esc(x.id)}">
+      <div class="muted" style="font-size:12px">${x.platform==="facebook"?"FACEBOOK":"INSTAGRAM"} · onder: ${esc(x.post_title||x.post)}${x.likes?` · ${x.likes} likes`:""}</div>
+      <div class="cm"><b>${esc(x.author||"fan")}</b> ${esc(x.text)}</div>
+      <textarea data-reply rows="2">${esc(x.reply||"")}</textarea>
+      <div class="row" style="margin-top:6px"><button class="btn g" data-ra="approved">VERSTUREN</button><button class="btn p" data-ra="skipped">OVERSLAAN</button></div>
+    </div>`).join("")}</div>`:"";
+}
+async function decideReply(id,status,reply){   // decisions go to their own file, so the run and the Mac never overwrite them
+  const path="/contents/data/replies_decisions.json";
+  for(let k=0;k<2;k++){
+    let f=null,d={};try{f=await gh(`${path}?ref=main&${Date.now()}`);d=JSON.parse(unb64(f.content))}catch(e){if(!/404/.test(String(e)))throw e}
+    d[id]={status,reply,at:new Date().toISOString()};
+    try{await gh(path,{method:"PUT",body:JSON.stringify({message:`dashboard: antwoord ${status==="approved"?"versturen":"overslaan"}`,content:b64(JSON.stringify(d,null,1)),...(f?{sha:f.sha}:{}),branch:"main"})});return}
+    catch(e){if(k||!/409|422/.test(String(e)))throw e}
+  }
+}
+document.addEventListener("click",async e=>{const b=e.target.closest("[data-ra]");if(!b)return;
+  const card=b.closest("[data-rid]"),id=card.dataset.rid,reply=card.querySelector("[data-reply]").value.trim();
+  if(b.dataset.ra==="approved"&&!reply){toast("Typ eerst een antwoord.",1);return}
+  b.disabled=true;try{await decideReply(id,b.dataset.ra,reply);DONE_REPLIES.add(id);drawReplies();document.getElementById("c-rev").textContent=(toReview().length+replies().length)||"";
+    toast(b.dataset.ra==="approved"?"Antwoord gaat bij de volgende ronde online.":"Overgeslagen.")}catch(x){b.disabled=false;toast(x.message,1)}});
+
 // ---------- beoordelen ----------
 let revFilter="ALLES";
 function drawReview(){
+  drawReplies();
   const R=toReview(), cats=["ALLES",...Object.values(CAT).filter(c=>R.some(p=>CAT[cat(p)]===c))];
   document.getElementById("rev-f").innerHTML=cats.map(k=>`<button class="${k===revFilter?"on":""}">${esc(k)} (${k==="ALLES"?R.length:R.filter(p=>CAT[cat(p)]===k).length})</button>`).join("");
   const L=R.filter(p=>revFilter==="ALLES"||CAT[cat(p)]===revFilter).sort((a,b)=>Object.keys(CAT).indexOf(cat(a))-Object.keys(CAT).indexOf(cat(b))||needsCheck(b)-needsCheck(a)||String(a.created||"").localeCompare(String(b.created||"")));
@@ -449,7 +492,7 @@ function drawReview(){
       <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?lazyVid(p.preview||(m[0]+ver(p)),p.thumb):`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
         ${m.length>1?`<div class="nav"><button data-a="prev">‹</button><span class="tag" style="margin:4px 0">1/${m.length}</span><button data-a="next">›</button></div>`:""}</div>
       <div>
-        <div class="row">${catTag(p)}${cat(p)==="posts"?`<span class="tag">${KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
+        <div class="row">${catTag(p)}${cat(p)==="posts"?`<span class="tag">${p.hook?HOOK[p.hook.type]||"KOP-POST":KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
         <h3 style="font-size:26px;margin-top:8px">${title(p)}</h3>
         ${needsCheck(p)?`<div class="why"><b>Waarom jij:</b> ${esc(p.check_reason||"deze soort post check jij altijd eerst")}</div>`:""}
         ${(p.problems||[]).length?`<div class="why">${p.problems.map(esc).join("<br>")}</div>`:""}

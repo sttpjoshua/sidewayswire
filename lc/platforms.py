@@ -7,7 +7,8 @@ Why (Joshua, 19 nov: "zorg dat de content op alle manieren geoptimaliseerd wordt
 - TikTok tests every video on its own and rewards completion and search: short versions (max 30 s) that
   start with the action, names and event in the caption, 3 posts a day.
 - YouTube Shorts are found through search: a clear title under 60 characters, 2 a day.
-- Facebook follows Instagram plus one extra reel a day.
+- Facebook follows Instagram plus one extra reel a day, and an evening image post: on Facebook the community
+  grows on kop-posts (one headline, a driver, a question), not on video (learned from DriftReady, 19 nov).
 """
 from __future__ import annotations
 
@@ -18,7 +19,7 @@ from . import handles
 # Amsterdam times. kind: "reel" (video) or "post" (image/carousel).
 RHYTHM = {
     "instagram": {"08:30": "post", "17:30": "reel"},
-    "facebook": {"08:30": "post", "12:30": "reel", "17:30": "reel"},
+    "facebook": {"08:30": "post", "12:30": "reel", "17:30": "reel", "20:30": "post"},   # 20:30: kop-post, the community slot
     "tiktok": {"12:30": "reel", "17:30": "reel", "21:30": "reel"},
     "youtube": {"13:00": "reel", "20:00": "reel"},
 }
@@ -99,7 +100,9 @@ def event_name(post: dict) -> str:
 
 def names(post: dict) -> list[str]:
     m = post.get("_moment") or {}
-    return [n for n in handles.people(m) if n][:3] if m else []
+    if m:
+        return [n for n in handles.people(m) if n][:3]
+    return [n for n in post.get("people") or [] if n][:3] if post.get("kind") in ("hook", "breaking") else []
 
 
 def keyword_line(post: dict) -> str:

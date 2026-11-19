@@ -1,6 +1,9 @@
 # Run by hand (Actions > handles > Run workflow) to refresh driver socials and FD portraits.
 name: handles
-on: { workflow_dispatch: {} }
+on:
+  workflow_dispatch:
+    inputs:
+      alleen_portretten: { description: "Alleen FD-portretten (met uitgeknipte versie voor kop-posts)", type: boolean, default: false }
 permissions: { contents: write }
 jobs:
   handles:
@@ -10,6 +13,8 @@ jobs:
         with: { ref: main }   # newest data, also when the run waited in the queue
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install requests pillow && python -m lc.find_handles
+      - run: pip install requests pillow
+      - if: ${{ !inputs.alleen_portretten }}
+        run: python -m lc.find_handles
       - run: python -m lc.portraits
       - run: python -m lc.gitsave "driver socials en portretten" data/sources.csv data/portraits.json docs/media/portraits

@@ -23,7 +23,7 @@ QUEUE = ROOT / "queue"
 SLOTS = ["08:30", "12:30", "17:30", "20:30", "23:00"]
 MAX_PER_DAY = 5          # race weekends: results skip the slots and post at once
 MIN_GAP_MIN = 90
-URGENT = {"result", "champion", "quali", "livestream"}
+URGENT = {"result", "champion", "quali", "livestream", "breaking"}   # breaking: kop-post, out within hours
 TZ = ZoneInfo("Europe/Amsterdam")
 START = datetime(2026, 12, 1, 0, 0, tzinfo=TZ)   # Joshua starts posting in December: nothing is planned before this
 # Content calendar: what each slot is for, so a day mixes reels and posts.

@@ -28,6 +28,8 @@ jobs:
       - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
       - name: 1 collect
         run: python -m lc.collect
+      - name: kop-posts (vragen op voorraad)
+        run: python -m lc.hooks
       - name: 2 build posts and handle Telegram answers
         run: python -m lc.build
       - name: plan per platform (score, tijden, captions)
@@ -36,6 +38,8 @@ jobs:
         run: python -m lc.mediastore sync
       - name: 3 publish what is due
         run: python -m lc.publish
+      - name: community (reacties liken, eerste reactie, goedgekeurde antwoorden)
+        run: python -m lc.engage || true
       - name: 4 dashboard
         run: python -m lc.stats || true; python -m lc.status
       - name: save

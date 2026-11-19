@@ -49,6 +49,24 @@ competitief driften. Werk in de repo `sttpjoshua/sidewayswire`.
   liveries, overstappen, builds, boeken en films, grote uitspraken, D1GP en andere series wereldwijd.
   Maximaal 3 nieuwe posts per run, kwaliteit boven aantal.
 
+## Kop-posts (Joshua, 19 nov 2026, geleerd van DriftReady)
+
+Op Facebook groeit de community op beeldposts met één grote kop, niet op video. Gebruik
+`templates/hook.html` (maak ze met `lc/hooks.make(...)`): de kop staat gecentreerd op een gekleurde
+tape, de coureur ervoor. Zet altijd `people`; de bouwstap zet er een still en het FD-portret in.
+
+| Soort (`hook.type`) | Wanneer | Doel |
+|---|---|---|
+| `breaking` | Vertrek, transfer, nieuw team, stoppen. Gaat binnen een paar uur online. | Delen |
+| `winner` | Na een overwinning. Caption met het verhaal in één zin ("van X naar Y"). | Bereik |
+| `question` | Nieuws laat iets open: "Which team will X join?" | Reacties |
+| `whatif` | Een fan-favoriet, "wat als". Alleen zonder feitenclaims. | Likes en reacties |
+| `debate` | Gevoelig punt (stijl tegenover grip, jurering, budget). Lichte positie, nooit afkraken. | Alles |
+| `look` | Nieuwe auto of livery. Alleen met een foto die we mogen gebruiken: anders `check: true`. | Likes |
+
+Caption: 1 of 2 zinnen, met een menselijk detail als de bron dat geeft. Maximaal 5 hashtags.
+`lc/hooks.py` houdt zelf een paar vraagposts zonder feitenclaims op voorraad (`data/hooks/questions.json`).
+
 ## Vaste formats
 
 | Moment | Post |

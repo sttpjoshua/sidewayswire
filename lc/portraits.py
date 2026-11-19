@@ -64,7 +64,8 @@ def run() -> dict:
                 r = requests.get(u, headers=UA, timeout=30)
                 if not r.ok:
                     continue
-                im = Image.open(io.BytesIO(r.content)).convert("RGB")
+                raw = Image.open(io.BytesIO(r.content))
+                im = raw.convert("RGBA") if raw.mode in ("RGBA", "LA", "P") else raw.convert("RGB")
                 w, h = im.size
                 if min(w, h) < 300:
                     continue
@@ -76,9 +77,18 @@ def run() -> dict:
             _, im, u = best
             im.thumbnail((900, 1200))
             dest = DIR / f"{slug}.jpg"
-            im.save(dest, quality=88)
-            ix[_key(name)] = {"src": str(dest.relative_to(ROOT)), "credit": "@formulad", "name": name,
-                              "page": f"{BASE}/drivers/{slug}", "url": u}
+            entry = {"src": str(dest.relative_to(ROOT)), "credit": "@formulad", "name": name,
+                     "page": f"{BASE}/drivers/{slug}", "url": u}
+            if im.mode == "RGBA" and im.getchannel("A").getextrema()[0] < 20:
+                # A real cut-out (transparent background): keep it for the kop-posts, driver in front of a still.
+                cut = DIR / "cutout" / f"{slug}.png"
+                cut.parent.mkdir(exist_ok=True)
+                im.crop(im.getbbox() or (0, 0, *im.size)).save(cut, optimize=True)
+                entry["cutout"] = str(cut.relative_to(ROOT))
+            bg = Image.new("RGB", im.size, (21, 21, 23))
+            bg.paste(im, mask=im.getchannel("A") if im.mode == "RGBA" else None)
+            bg.save(dest, quality=88)
+            ix[_key(name)] = entry
             report["saved"] += 1
             time.sleep(0.4)
         except Exception as e:

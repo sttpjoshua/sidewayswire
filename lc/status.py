@@ -36,9 +36,13 @@ def stream_summary() -> dict:
 def photo_info(p: dict):
     """For news posts: does it have a photo, and whose (for the dashboard's photo button)."""
     sl = (p.get("slides") or [{}])[0]
-    if sl.get("template") not in ("news.html", "news_text.html"):
+    if sl.get("template") not in ("news.html", "news_text.html", "hook.html"):
         return None
     d = sl.get("data") or {}
+    if sl["template"] == "hook.html":          # kop-post: a photo is optional, except for a new car or livery
+        mode = "joshua" if p.get("photo_by") == "joshua" else "auto" if d.get("photo") else \
+            "none" if (p.get("hook") or {}).get("type") == "look" else "optional"
+        return {"mode": mode, "credit": d.get("photo_credit", "")}
     mode = "none" if sl["template"] == "news_text.html" else "joshua" if p.get("photo_by") == "joshua" else "auto" if p.get("photo_auto") else "set"
     return {"mode": mode, "credit": d.get("photo_credit", "")}
 
@@ -71,6 +75,15 @@ def shown_posts(posts: list[dict]) -> list[dict]:
     return sorted(live + done, key=key, reverse=True)
 
 
+def _replies() -> list[dict]:
+    """Reply suggestions on our own posts that wait for Joshua (lc/engage.py, written by the local editor)."""
+    try:
+        from . import engage
+        return [x for x in engage.pending() if x.get("status") == "suggested"][:60]
+    except Exception:
+        return []
+
+
 def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> dict:
     posts = q.load(folder=folder)
     inbox = ROOT / "data" / "inbox.json"
@@ -86,7 +99,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
             return None
     keep = ("id", "kind", "status", "post_at", "posted_at", "caption", "media", "problems", "results", "credit",
             "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video", "tags", "missing_handles", "caption_by", "format",
-            "plan", "score", "captions", "ig", "collaborators", "people", "moment_kind", "pinned_at", "short_none", "short_len", "thumb", "preview")
+            "plan", "score", "captions", "ig", "collaborators", "people", "moment_kind", "pinned_at", "short_none", "short_len", "thumb", "preview", "hook", "evergreen")
     status = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "media_repo": mediastore.PUBLIC_REPO if mediastore.public() else mediastore.REPO,
@@ -103,6 +116,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
                                                  "thumb": p["thumb"].removeprefix("docs/") if p.get("thumb") else None,
                                                  "title": clip_title(p), "photo": photo_info(p)}
                   for p in shown_posts(posts)],
+        "replies": _replies(),
         "channels": json.loads((ROOT / "data" / "channels.json").read_text()) if (ROOT / "data" / "channels.json").exists() else {},
     }
     out.write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")

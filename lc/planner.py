@@ -85,6 +85,7 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
     taken = defaultdict(set)            # platform -> set of datetimes
     eps_on = defaultdict(set)           # (platform, date) -> episodes
     recent = defaultdict(list)          # platform -> people of the last reels
+    last_q = {}                         # platform -> last day with an evergreen question post
     for p in todo:
         m = moment_of(p)
         p["_moment"] = m
@@ -120,14 +121,16 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
                 if pl not in p["plan"] and t:
                     p["plan"][pl] = t
                     taken[pl].add(datetime.fromisoformat(t))
-    # Morning posts (news, carousels): oldest first.
+    # Image posts (news, kop-posts, carousels): oldest first; evergreen question posts only fill what is left,
+    # and never two of them in a row on one platform (news and real stories come first).
     posts_ = sorted((p for p in todo if p["_type"] == "post" and not p["plan"]),
-                    key=lambda p: p.get("created") or p.get("built") or "")
+                    key=lambda p: (bool(p.get("evergreen")), p.get("created") or p.get("built") or ""))
     # Reels: best first; Joshua's choice for Instagram wins.
     reels = sorted((p for p in todo if p["_type"] == "reel"),
                    key=lambda p: (-(p.get("score") or 0), p.get("created") or ""))
     days = [now.astimezone(q.TZ).date() + timedelta(days=d) for d in range(HORIZON_DAYS)]
     for pl in plats:
+        last_q[pl] = None
         queue_posts = [p for p in posts_ if pl in p["_want"] and pl not in p["plan"]]
         queue_reels = [p for p in reels if pl in p["_want"] and pl not in p["plan"]]
         if pl == "instagram":
@@ -147,6 +150,10 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
                         (fresh[0] if fresh else None)
                     if pick is None:
                         pick = pool[0] if pool and kind == "post" else None
+                    if pick is not None and kind == "post" and pick.get("evergreen") and last_q[pl] and (day - last_q[pl]).days < 2:
+                        continue                    # a question day, then a day off: keeps them special
+                    if pick is not None and kind == "post" and pick.get("evergreen"):
+                        last_q[pl] = day
                     if pick is None:
                         continue
                     pool.remove(pick)
