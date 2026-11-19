@@ -516,8 +516,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-17-11964-12426.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-17-11964-12426.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1241.74, \"start\": 1239.76, \"text\": \"UPSET IN NEW JERSEY?\", \"why\": \"spanning\"}",
+  "made": "2026-11-19T11:39:48.557575+00:00"
  },
  {
   "start": 1248.3,
@@ -540,8 +545,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-18-12483-13059.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-18-12483-13059.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1284.28, \"start\": 1282.4, \"text\": \"TOO AGGRESSIVE AGAINST THE CHAMP?\", \"why\": \"agressie\"}",
+  "made": "2026-11-19T11:41:58.344467+00:00"
  },
  {
   "start": 1314.32,
@@ -564,8 +574,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-19-13143-13712.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-19-13143-13712.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1333.72, \"start\": 1331.54, \"text\": \"IS THIS A RODEO?\", \"why\": \"rodeo\"}",
+  "made": "2026-11-19T11:44:06.241596+00:00"
  },
  {
   "start": 1376.8,
@@ -588,8 +603,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-20-13768-14437.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-20-13768-14437.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1431.2, \"start\": 1429.44, \"text\": \"CAN A 15 YEAR OLD WIN?\", \"why\": \"jonge rijder\"}",
+  "made": "2026-11-19T11:46:36.172829+00:00"
  },
  {
   "start": 1482.92,
