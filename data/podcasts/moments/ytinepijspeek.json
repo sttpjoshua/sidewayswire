@@ -358,8 +358,13 @@
    "why": "afscheidsgevoel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-12-79967-80497.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-12-79967-80497.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8042.76, \"start\": 8040.74, \"text\": \"NOTHING LEFT TO LOSE\", \"why\": \"afscheidsgevoel\"}",
+  "made": "2026-11-19T13:15:36.191284+00:00"
  },
  {
   "start": 8309.52,
@@ -381,8 +386,13 @@
    "why": "discussie over de jurering"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-13-83095-83747.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-13-83095-83747.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8352.78, \"start\": 8350.24, \"text\": \"A BIRTHDAY GIFT FROM THE JUDGES?\", \"why\": \"discussie over de jurering\"}",
+  "made": "2026-11-19T13:17:46.586863+00:00"
  },
  {
   "start": 8942.76,
@@ -404,8 +414,13 @@
    "why": "juichend commentaar"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-14-89428-89920.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-14-89428-89920.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8981.46, \"start\": 8978.7, \"text\": \"THE BOOTH CAN'T BELIEVE THIS RUN\", \"why\": \"juichend commentaar\"}",
+  "made": "2026-11-19T13:19:31.126030+00:00"
  },
  {
   "start": 9145.0,
@@ -427,8 +442,13 @@
    "why": "de score valt"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-15-91450-91852.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-15-91450-91852.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9179.58, \"start\": 9176.58, \"text\": \"CAN LZ BEAT HIS FIRST RUN?\", \"why\": \"de score valt\"}",
+  "made": "2026-11-19T13:20:57.888918+00:00"
  },
  {
   "start": 9208.72,

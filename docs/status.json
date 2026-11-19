@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T13:13:22.526313+00:00",
+ "updated": "2026-11-19T13:20:57.912778+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 124
+  "draft": 128
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4623,9 +4623,9 @@
       "topic": "OLSEN'S LAST QUALIFYING RUN",
       "quote": "All right, here we go. Simon Olson, Mark five. Super coming us from doorway. Simon into that second outside zone. Quick little correction with those front wheels. Get the car just right outside zone three consistent with the throttle in the super now transitioning to that big outside zone six right there on the course edge and minimal breaks right I'm not I'm not seeing that brake light go on as much as his first run and I mean that was that was really good fluidity just tapping it yeah just tapping it not left foot brake and that was that was really nice very smooth from Simon Olson yeah it looks really good maybe all the pressure is off right just knowing, hey, this is it. Just go out and have some fun as we get that replay of the last run for the foreseeable future and qualify for Simon Olson. But yeah, I agree.",
       "why": "Laatste kwalificatierun van Simen Olsen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-12/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4637,9 +4637,9 @@
       "topic": "HATELEY'S BIRTHDAY SCORE",
       "quote": "I don't know how you judge this one, to be perfectly honest. I really don't. I think style -wise this is like a zero or a one. I don't, I'm not sure. This is the bare minimum to get by. This is the old D's get degrees kind of scenario. Yeah, I mean, it's, you know, earlier, earlier, you know, we saw Castro fighting his car. They thought it was a clutch, not the issue. Don't know exactly what's going on. They don't either. So, ideally he gets a score and then they can work on the car. but again waiting to find out if it is scoreable. I mean, it is his birthday, do we just throw him a gift? Not a gift, you gotta earn it. I know, I know. I know, I know. The good of competition? I'll give you a high five and a hug, but we got a couple drift wizards in the building. I mean, Norwegian drift wizards. Yeah, the Norwegian, yeah. What? Those are, they made their own. That is wild. They're not even their own. So he does get a score of 46 .30 for Andy Hailey, so he does get in the show.",
       "why": "Commentaar twijfelt of de run wel telt",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-13/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4651,9 +4651,9 @@
       "topic": "BEECHAM'S WILD RUN",
       "quote": "All right. Try to beat them. Then how slash slide. Blown X BMW turning and burning rubber into that second outside zone. Man really strapping it on there in that second and third outside zone. Getting into that wall. Get into a tussle. Now going into that last outside zone. Throwing some rubber in the face. Firing off. Wow. Great run there by Trenton Beecham. Phenomenal run. Absolutely phenomenal run for him. Just, I mean, absolutely ripping. Flirting with that wall too. Yeah. Yeah. He's a bit of a wild man tonight, to say the least.",
       "why": "Beecham flirt met de muur, phenomenal run",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-14/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4665,9 +4665,9 @@
       "topic": "85.86 FROM ADAM LZ",
       "quote": "But the rest of these look at them and four nine four five four seven Like this is up there. It's up there average of 50 degrees sitting on a seventy eight point. Oh six right now Good candidate to make an improvement on that Yeah, look at that fifty average angle thirty five point five thirty five point seven You're really working the car too. On off throttle, really feathering it. He's got a light foot when it comes to the throttle. If you've ever watched his in car, he pedal dances a lot. 85 .86 puts him into fourth position. The judges like in the style 14 .66, so well executed.",
       "why": "LZ verbetert zich naar plek vier",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-15/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,159 @@
    "photo": null
   },
   {
+   "id": "pod-ytinepijspeek-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ pedal dances his way to 85.86 and jumps into fourth.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@adam_lz @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 9145.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:20:57.890244+00:00",
+   "built": "2026-11-19T13:20:57.890250+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-15/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "85.86 FROM ADAM LZ",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Trenton Beecham rips the BMW around Long Beach and the booth calls it absolutely phenomenal.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 8942.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:19:31.127309+00:00",
+   "built": "2026-11-19T13:19:31.127314+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-14/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Trenton Beecham"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "BEECHAM'S WILD RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "On his birthday Andy Hateley barely gets round. Is it even scoreable? The judges give him 46.30.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@hateleydrift @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 8309.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:17:46.588253+00:00",
+   "built": "2026-11-19T13:17:46.588259+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-13/clip.mp4",
+   "tags": [
+    "@hateleydrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "HATELEY'S BIRTHDAY SCORE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Simen Olsen's last Formula DRIFT qualifying run for the foreseeable future, and it's a smooth one.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@simenolsendrifting @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 7996.66
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:15:36.192624+00:00",
+   "built": "2026-11-19T13:15:36.192629+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-12/clip.mp4",
+   "tags": [
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "OLSEN'S LAST QUALIFYING RUN",
+   "photo": null
+  },
+  {
    "id": "pod-ytinepijspeek-11",
    "kind": "stream_clip",
    "status": "draft",
@@ -23872,163 +24025,6 @@
    "caption_by": null,
    "format": "single",
    "title": "ODI CALLS A TIMEOUT",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-6",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jack Shanahan pokes through the smoke and drops into formation on Nate Chen. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @nathaniel.chen @formulad\n\n#formulad #formuladrift #drifting #seattle #jackshanahan #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 240.7
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:09:49.159094+00:00",
-   "built": "2026-11-19T08:09:49.159100+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-6/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@nathaniel.chen",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "JACK SHANAHAN GETS HIS BREAKOUT",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-5",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Rookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 200.36
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:08:09.284310+00:00",
-   "built": "2026-11-19T08:08:09.284317+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-5/clip.mp4",
-   "tags": [
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Chris Forsberg"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "ROOKIE FORCES FORSBERG TO OMT",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-4",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jeffjonesracing @romecp @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 163.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:06:39.135262+00:00",
-   "built": "2026-11-19T08:06:39.135268+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-4/clip.mp4",
-   "tags": [
-    "@jeffjonesracing",
-    "@romecp",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "ONE MORE TIME, JONES VS RCP",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-3",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ryan Litteral looks confident out front, but Matt Field dives out of the smoke and takes it unanimously.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@ryanlitteral @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 130.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:05:14.205864+00:00",
-   "built": "2026-11-19T08:05:14.205871+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-3/clip.mp4",
-   "tags": [
-    "@ryanlitteral",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "FIELD GETS IT UNANIMOUSLY",
    "photo": null
   }
  ],
