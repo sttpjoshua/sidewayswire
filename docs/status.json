@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T11:46:36.198944+00:00",
+ "updated": "2026-11-19T11:54:43.501044+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 84
+  "draft": 88
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -20751,6 +20751,163 @@
    "photo": null
   },
   {
+   "id": "pod-yth2evinkswei-24",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck executes flawlessly, and the news comes in from the pits: handbrake issues, little brake pressure.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@ryantuerck @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 1775.28
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T11:54:43.479496+00:00",
+   "built": "2026-11-19T11:54:43.479502+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-24/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE BATTLING BRAKE ISSUES",
+   "photo": null
+  },
+  {
+   "id": "pod-yth2evinkswei-23",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Godzilla vs King Kong. James Deane's Mustang against Federico Sceriffo's Ferrari.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @federicosceriffo17 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 1665.1
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T11:53:14.998921+00:00",
+   "built": "2026-11-19T11:53:14.998926+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-23/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@federicosceriffo17",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "GODZILLA VS KING KONG",
+   "photo": null
+  },
+  {
+   "id": "pod-yth2evinkswei-22",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane completely 90 degrees, one wheel almost off. How did that RTR not spin out?\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@adam_lz @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 1616.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T11:51:33.650695+00:00",
+   "built": "2026-11-19T11:51:33.650701+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-22/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "90 DEGREES AND STILL ON",
+   "photo": null
+  },
+  {
+   "id": "pod-yth2evinkswei-21",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Final four, Norway versus Ireland. James Deane almost comes around getting parallel to the Supra.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 1482.92
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T11:49:41.795126+00:00",
+   "built": "2026-11-19T11:49:41.795134+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-21/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE LOOPS IT OUT",
+   "photo": null
+  },
+  {
    "id": "pod-yth2evinkswei-20",
    "kind": "stream_clip",
    "status": "draft",
@@ -23877,165 +24034,6 @@
    "caption_by": null,
    "format": "single",
    "title": "BERTANS SHREDS BODY PANELS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytbnnz6o9wkaq-2",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A Polish rookie wildcard in an Alfa Romeo leads Benediktas Čirba, who creeps right onto the door.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #alfaromeo #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
-    "start": 200.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T06:54:32.067011+00:00",
-   "built": "2026-11-19T06:54:32.067018+00:00",
-   "want_at": null,
-   "video": "media/pod-ytbnnz6o9wkaq-2/clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Benediktas Čirba",
-    "Lucas"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "ROOKIE WILDCARD VS CIRBA",
-   "photo": null
-  },
-  {
-   "id": "pod-ytbnnz6o9wkaq-1",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Almost backwards, almost contact, and Conor Shanahan still pulls it off against the Hungarian.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
-    "start": 114.44
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T06:52:00.994852+00:00",
-   "built": "2026-11-19T06:52:00.994859+00:00",
-   "want_at": null,
-   "video": "media/pod-ytbnnz6o9wkaq-1/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Kevin Pozsar"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "SHANAHAN SAVES IT BACKWARDS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytbnnz6o9wkaq-0",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Equal machines, very different styles. Jakub Król risks everything with a brave dive, and Paweł Korpuliński goes through.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #battle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
-    "start": 30.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T06:49:21.265790+00:00",
-   "built": "2026-11-19T06:49:21.265796+00:00",
-   "want_at": null,
-   "video": "media/pod-ytbnnz6o9wkaq-0/clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Paweł Korpuliński",
-    "Jakub Król"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "KROL RISKS EVERYTHING",
-   "photo": null
-  },
-  {
-   "id": "pod-yt9lxrdzgctgm-51",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The final of the 2026 season: Jack Shanahan vs James Deane. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #jackshanahan #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
-    "start": 11722.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T06:46:48.612811+00:00",
-   "built": "2026-11-19T06:46:48.612817+00:00",
-   "want_at": null,
-   "video": "media/pod-yt9lxrdzgctgm-51/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "THE FINAL, SIDE BY SIDE",
    "photo": null
   }
  ],
