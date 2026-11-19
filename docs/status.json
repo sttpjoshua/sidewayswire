@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T23:56:36.500610+00:00",
+ "updated": "2026-11-19T00:02:36.112534+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 92
+  "draft": 96
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -2650,9 +2650,9 @@
       "topic": "JEFF JONES HAS NO FILTER",
       "quote": "First off, that's just because I didn't give a damn. You know, I went through this whole year. I broke my hand. I got in a good wreck with Adam and that one funny track with the wall that everyone knows about coming down Long Beach. we're just gonna throw it in man like the team was ready to fix the car I was ready to absolutely send it but this track is it's they fixed it from last year last year sucked this year the judges maybe they walked it maybe they did something learned how to draw a right circle and it just worked out a lot better you can see the drivers are driving a lot faster a lot harder and it's the end of the year man we're gonna send these suckers we'll fix them the offseason absolutely absolutely and you are gonna be very busy in the offseason we know you have your hands on a lot of pots over here are there any final words that you want to send to the people at home to the people at home you always He's asking me how can you do this? Just get out there man. Find your local sanction body, promote them, help them, start driving yourself, you know, and do what you can. We got to thank my sponsors, Kumo tires, these suckers rock. The boys over here, Jack Shanahan, he drove like an animal. You beat me. But dude, I was so ready to beat you. You know, I'd like to go again on that one. And that call with Ben Hobson, I love Ben Hobson, but that was, judges tried to do me dirty. That boy, I pop started him on the line right there, man. What were these guys doing?",
       "why": "Jeff Jones ongefilterd over zijn seizoen en de jury",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-10/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2664,9 +2664,9 @@
       "topic": "OLSEN HUNTS THE NEW CHAMPION",
       "quote": "here we go. Connor Shanahan and Simon Olson. Ireland versus Norway. You know, we're going to bring this up. There's a fact here going into that inside. Excuse me. The outside zone one and two. Now going into three. That's what Shanahan's been doing. He's been doing that left foot break in the outside zone. But it makes that work really well for him. going to outside zone six and now watch the inside clip. Simon Olsen again. Oh, he hit that inside clip. First time we've seen that actually which is... Oh! Simon Olsen, baby! Wow, Olsen, Olsen, man. Holy cow. That was wild. The whole lap for Simon Olsen was great. I mean, I don't want to take anything away from his driving at all, but this seems like a very different person with that. The pressure taking off and just knowing, Hey, this is the last hurrah, the last dance if you will. And I did such a great job. Connor up front, it's just another qualifying run for him is what it feels like every time he goes out, he's setting a new standard for how good the driving is. And it's just amazing to see Simon gets caught up just for a minute there on zone seven, but then wraps things up with one of the best final zones we've seen all weekend.",
       "why": "Olsen jaagt de kersverse kampioen op, commentaar gaat los",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-11/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2678,9 +2678,9 @@
       "topic": "OLSEN TAKES DOWN THE CHAMP",
       "quote": "Slide them left for Shanahan, right for Simon Olson. Simon Olson takes down the champ. Wow. Simon Olson takes down Connor and that critical mistake, just that big correction. Simon had that mistake going and hitting that inside clip. But that was a massive straining by Connor Shanahan. But again, now, yeah, keep it going, Simon. His last of don't fall through. Yeah, please. Well, Simon elated. Again, he says for the unforeseeable future, he's hanging up his helmet here at FD in the States.",
       "why": "Kersverse kampioen ligt eruit in Top 16",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-12/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -2692,9 +2692,9 @@
       "topic": "FIRST WIN EVER OVER CONOR",
       "quote": "Congratulations, you just beat the 2026 champion and a little birdie told me that's the first time you've ever beaten Connor, a good friend of yours. Talk to him, how do you feel? Just go. I'm amazed. It's me and Connor has been friends long before I came over here. He's been a man that I've been watching up to like he's a true inspiration, a great friend and a phenomenal wheelman. So I've been battling him so many times now and tried to get that win so many times. It's been close a few times, but finally I got it. But oh, it feels good. What was different this time versus all the other times? Probably that. I'm just not thinking. I'm just going out there one step at a time, one battle at a time, one run by the time, and just try to enjoy everything and not overcomplicate it. Don't think too much. Just go out and enjoy it.",
       "why": "Olsen na zijn eerste overwinning ooit op Conor",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-13/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -16523,6 +16523,163 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Simen Olsen finally beats his good friend Conor Shanahan, in his final Formula DRIFT event.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@simenolsendrifting @conorshanahan79 @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 5721.86
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:02:36.100961+00:00",
+   "built": "2026-11-19T00:02:36.100972+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-13/clip.mp4",
+   "tags": [
+    "@simenolsendrifting",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIRST WIN EVER OVER CONOR",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The newly crowned 2026 champion is out in Top 16. Simen Olsen gets the win in his last FD event.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 5487.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:01:14.077091+00:00",
+   "built": "2026-11-19T00:01:14.077098+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-12/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "OLSEN TAKES DOWN THE CHAMP",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "In his final Formula DRIFT event, Simen Olsen chases the brand new champion Conor Shanahan and nails it.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 5202.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:00:17.848412+00:00",
+   "built": "2026-11-19T00:00:17.848420+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-11/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "OLSEN HUNTS THE NEW CHAMPION",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jeff Jones after his best drive of the year: a broken hand, a wild season and a jab at the judges.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jeffjonesracing @jackshanahan59 @benhobson213 @formulad\n\n#formulad #formuladrift #jeffjones #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 4763.12
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:58:24.784040+00:00",
+   "built": "2026-11-18T23:58:24.784047+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-10/clip.mp4",
+   "tags": [
+    "@jeffjonesracing",
+    "@jackshanahan59",
+    "@benhobson213",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JEFF JONES HAS NO FILTER",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-9",
    "kind": "stream_clip",
    "status": "draft",
@@ -23836,178 +23993,6 @@
    "caption_by": null,
    "format": "single",
    "title": "BEST PROSPEC SEASON EVER?",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-29",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone built a 1JZ G sedan with a four door cage just for ride-alongs, debuting at Black Friday.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#Drifting #1JZ #BlackFriday #FormulaDrift #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-29/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 6403.71
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:37:31.935882+00:00",
-   "built": "2026-11-17T18:09:52.820712+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-29/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "1JZ G SEDAN FOR RIDES",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-28",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Drifting #Top16 #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-28/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 6145.95
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:36:45.083534+00:00",
-   "built": "2026-11-17T18:09:52.820465+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-28/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Jerry Johnson"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "THIS ISN'T MY LEVEL",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-21",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Interclip #Filmmaking #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-21/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 4759.95
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:30:04.732732+00:00",
-   "built": "2026-11-17T18:09:52.769745+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-21/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Loxley Lennox"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "A WEEK PER EPISODE",
-   "photo": null
-  },
-  {
-   "id": "pod-3fa7ee22a33c-20",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Christian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #Interclip #Drifting #DriveToSurvive #sidewayswire",
-   "media": [
-    "media/pod-3fa7ee22a33c-20/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Christian Cotrone",
-    "start": 4616.85
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:29:00.347922+00:00",
-   "built": "2026-11-17T18:09:52.769511+00:00",
-   "want_at": null,
-   "video": "media/pod-3fa7ee22a33c-20/clip.mp4",
-   "tags": [
-    "@christiancotrone",
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Brandon Scarpelli"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "DRIFT NEEDS DRIVE TO SURVIVE",
    "photo": null
   }
  ],

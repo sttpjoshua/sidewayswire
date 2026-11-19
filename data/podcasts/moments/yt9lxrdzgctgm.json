@@ -311,8 +311,13 @@
    "why": "pittige uitspraak over jury"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-10-47631-48279.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-10-47631-48279.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4824.38, \"start\": 4821.94, \"text\": \"JEFF JONES HOLDS NOTHING BACK\", \"why\": \"pittige uitspraak over jury\"}",
+  "made": "2026-11-18T23:58:24.782972+00:00"
  },
  {
   "start": 5202.88,
@@ -335,10 +340,15 @@
    "why": "juichende commentator"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Simen Olsen (transcript: Simon Olson)",
-  "wait_name": "v2-yt9lxrdzgctgm-11-52029-52730.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-11-52029-52730.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5235.34, \"start\": 5233.26, \"text\": \"WHO IS CHASING THE CHAMPION?\", \"why\": \"juichende commentator\"}",
+  "made": "2026-11-19T00:00:17.847301+00:00"
  },
  {
   "start": 5487.42,
@@ -361,10 +371,15 @@
    "why": "de uitslag"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Simen Olsen",
-  "wait_name": "v2-yt9lxrdzgctgm-12-54874-55235.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-12-54874-55235.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5493.04, \"start\": 5489.54, \"text\": \"DID THE CHAMPION JUST LOSE?\", \"why\": \"de uitslag\"}",
+  "made": "2026-11-19T00:01:14.076144+00:00"
  },
  {
   "start": 5721.86,
@@ -387,10 +402,15 @@
    "why": "emotie na overwinning"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Simen Olsen",
-  "wait_name": "v2-yt9lxrdzgctgm-13-57219-57723.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-13-57219-57723.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5756.06, \"start\": 5752.34, \"text\": \"HOW LONG DID HE WAIT?\", \"why\": \"emotie na overwinning\"}",
+  "made": "2026-11-19T00:02:36.099886+00:00"
  },
  {
   "start": 5937.06,
