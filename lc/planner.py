@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MOMENTS = ROOT / "data" / "podcasts" / "moments"
 HORIZON_DAYS = 28
 FREEZE_HOURS = 36
+RECENT = 3                              # a driver comes back on the same platform after at least 3 other reels
 REEL_KINDS = {"stream_clip", "podcast_clip", "battle_reel"}
 URGENT = q.URGENT
 KIND_POINTS = {"battle": 30, "final": 30, "crash": 28, "omt": 28, "qualify": 24, "call": 18, "moment": 16,
@@ -83,6 +84,7 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
     todo = [p for p in posts if p.get("status") in ("ready", "approved")]
     taken = defaultdict(set)            # platform -> set of datetimes
     eps_on = defaultdict(set)           # (platform, date) -> episodes
+    recent = defaultdict(list)          # platform -> people of the last reels
     for p in todo:
         m = moment_of(p)
         p["_moment"] = m
@@ -135,13 +137,20 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
                 for t in _slots(pl, day, kind):
                     if t <= now or t in taken[pl]:
                         continue
-                    pick = next((p for p in pool if p["id"].rpartition("-")[0] not in eps_on[(pl, day)]), None)
+                    # Variety: not the same episode twice a day, and not the same driver as in the last
+                    # RECENT reels on this platform (falls back gracefully when the pool runs dry).
+                    seen = set(sum(recent[pl][-RECENT:], []))
+                    fresh = [p for p in pool if p["id"].rpartition("-")[0] not in eps_on[(pl, day)]]
+                    pick = next((p for p in fresh if not seen & set(p.get("people") or [])), None) or \
+                        (fresh[0] if fresh else None)
                     if pick is None:
                         pick = pool[0] if pool and kind == "post" else None
                     if pick is None:
                         continue
                     pool.remove(pick)
                     pick["plan"][pl] = t.isoformat()
+                    if kind == "reel":
+                        recent[pl].append(list(pick.get("people") or []))
                     taken[pl].add(t)
                     eps_on[(pl, day)].add(pick["id"].rpartition("-")[0])
     rep = defaultdict(int)

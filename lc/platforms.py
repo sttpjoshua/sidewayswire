@@ -66,24 +66,33 @@ def _parts(caption: str) -> dict:
     return out
 
 
+PLACES = ["Long Beach", "Las Vegas", "Connecticut", "Seattle", "Indianapolis", "Atlanta", "Orlando",
+          "Englishtown", "St. Louis", "Utah", "Irwindale", "Italy", "Spain", "Poland", "Ireland", "Latvia",
+          "Finland", "Germany", "Greece", "Hungary", "Belgium", "Sweden", "Ebisu", "Tokyo", "Odaiba"]
+
+
 def event_name(post: dict) -> str:
-    """'Formula DRIFT Las Vegas 2026', 'Drift Masters 2026 Round 1 Italy', or the show name for podcasts."""
-    series = _src(post).get("podcast", "")
-    src = _parts(post.get("caption", ""))["source"]
+    """'Formula DRIFT Las Vegas 2026', 'Drift Masters 2026 Round 1 Italy', 'Formula DRIFT Long Beach 2026
+    Qualifying'; the show name for podcasts. Built from the full episode title, not the cut-off source line."""
+    src = _src(post)
+    series = src.get("podcast", "")
     if post.get("kind") != "stream_clip":
-        return re.sub(r"^🎙\s*Full episode:\s*", "", src).split(",")[0].strip() or series
-    t = re.sub(r"^🎥\s*Footage:\s*", "", src)
-    t = re.split(r"\s*\|\s*", t)[0]
-    t = re.sub(r"\b(HIGHLIGHTS|OFFICIAL|PRESENTED.*|IN \d+ MINUTES.*|EVERY BATTLE FROM.*|BEHIND THE SCENES.*|"
-               r"INSIDE|REACTIONS.*|RED BULL)\b", "", t, flags=re.I)
-    t = re.sub(r"\b(FD|FORMULA DRIFT|DRIFT MASTERS|THE|AT)\b", "", t.strip(), flags=re.I).strip(" '-:")
-    t = re.sub(r"\bGRAND$", "Grand Final", t.strip(), flags=re.I)
-    t = " ".join(w if w.isdigit() else w.capitalize() for w in t.replace("'", "").split())
-    t = t if 3 <= len(t) <= 34 else ""
-    year = re.search(r"20\d\d", _src(post).get("episode", "") + src)
-    if t and year and year.group(0) not in t:
-        t = f"{t} {year.group(0)}"
-    return f"{series} {t}".strip() if t else f"{series} {year.group(0) if year else ''}".strip()
+        line = _parts(post.get("caption", ""))["source"]
+        return re.sub(r"^🎙\s*Full episode:\s*", "", line).split(",")[0].strip() or series
+    ep = f"{src.get('episode', '')} {_parts(post.get('caption', ''))['source']}"
+    year = (re.search(r"20\d\d", ep) or re.search(r"20\d\d", post.get("created", "")))
+    year = year.group(0) if year else ""
+    place = "Long Beach" if re.search(r"shoreline showdown|long beach", ep, re.I) else \
+        next((p for p in PLACES if re.search(rf"\b{re.escape(p)}\b", ep, re.I)), "")
+    rnd = re.search(r"round \d+", ep, re.I)
+    grand = re.search(r"grand final", ep, re.I)
+    stage = "Qualifying" if re.search(r"qualif", ep, re.I) else ""
+    if series == "Drift Masters":
+        parts = ["Drift Masters", year, "Grand Final" if grand else (rnd.group(0).title() if rnd else ""), place]
+    else:
+        fin = "Finale" if re.search(r"\bfinale\b", ep, re.I) and not place else ""
+        parts = [series or "Formula DRIFT", place, fin, year]
+    return " ".join(x for x in parts + [stage] if x)
 
 
 def names(post: dict) -> list[str]:
