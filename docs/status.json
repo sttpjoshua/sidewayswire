@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T08:02:03.087411+00:00",
+ "updated": "2026-11-19T08:08:09.302359+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 40
+  "draft": 44
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -9708,9 +9708,9 @@
       "topic": "DEANE GOES FOR NUMBER ONE",
       "quote": "So as James the machine Dean would love to knock down his fellow countrymen again Jack Shanahan excuse me Connor Shanahan with the number one qualified position James Dean flies into the outside zone to watch his transition backs it in. Oh he's going for it. He wants it. He'd love to have that number one qualified position and that by run into 16 doesn't have the panache doesn't have the feel. I mean he's obviously robotic. We call the machine for a reason. He's your five time in defending six four. All right, here we go. Let's find out You're number one qualifier, you know what? I'm sorry James I'll eat my words since the start line 30 feet closer to initiation point than previous year.",
       "why": "Deane gaat vol voor de toppositie, commentator moet woorden inslikken",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9722,9 +9722,9 @@
       "topic": "FIELD GETS IT UNANIMOUSLY",
       "quote": "So here we go Ryan literal out front He's got the fresh air and looking strong out the gate Look at that takes him a gap will be right now as again Matt field needs to gain that ground So the Ryan literal had that great proximity wasn't in the pocket, but Matt now here getting buried in that smoke See oh he dives out of it gets aggressive outside zone three and Ryan great angle here from literal a lot more confident He's really putting the car in the right place great placement by Ryan literal and Matt field chasing her field or right for Ryan literal There's one vote for Matt field and two votes Matt field gets the win unanimously",
       "why": "Matt Field komt uit de rook en wint unaniem van Litteral",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9736,9 +9736,9 @@
       "topic": "ONE MORE TIME, JONES VS RCP",
       "quote": "Jeff Jones big drift energy that needs some 370 Z Initiates in that big bank. Look at Rome. Reeling him in. Reeling him in. Takes a little angle out of it. So again, these chase drivers. Stability. But look at Rome. Now he is just getting aggressive here. Bates in the smoke. Comes and pokes out into the outside zone three. Good job by Jeff Jones. Now these guys both compete in the Hot Pit Auto Fest. Defense in Southern California. Look at Jevy transitions, Rome. He was right there. That was all right. There we go. Jeff Jones, RCP. Slide him left one more time. Yeah. One more time. I agree with that. All right. Well, that is again majority rules two to one.",
       "why": "Rome Charpentier wordt agressief, one more time",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9750,9 +9750,9 @@
       "topic": "ROOKIE FORCES FORSBERG TO OMT",
       "quote": "Going against a rookie. What a battle here. Cole Richards initiates in that Richards racing 86. Chris Forzberg, Destin, industry Z. He's got some wavering down a little bit low. Cole Richards absolutely ripping into outside zone two. Chris Forzberg, a shorter line into that power rail in outside zone three. Here goes Cole, brings it on in. Chris is definitely right there. I'll tell you what. Chris over the years. He always impresses me into that inside, into that last. All right, Cole Richards, Chris Forsberg, slide him left one more time and one more time. So Forsberg and Richards, oh, look at that. So Vernon Zvonneville going the way of Cole Richards.",
       "why": "Rookie Cole Richards dwingt Forsberg tot een one more time",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-5/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,164 @@
    "photo": null
   },
   {
+   "id": "pod-ytckqkb2axqe-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 200.36
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:08:09.284310+00:00",
+   "built": "2026-11-19T08:08:09.284317+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-5/clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Chris Forsberg"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "ROOKIE FORCES FORSBERG TO OMT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jeffjonesracing @romecp @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 163.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:06:39.135262+00:00",
+   "built": "2026-11-19T08:06:39.135268+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-4/clip.mp4",
+   "tags": [
+    "@jeffjonesracing",
+    "@romecp",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ONE MORE TIME, JONES VS RCP",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Litteral looks confident out front, but Matt Field dives out of the smoke and takes it unanimously.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@ryanlitteral @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 130.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:05:14.205864+00:00",
+   "built": "2026-11-19T08:05:14.205871+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-3/clip.mp4",
+   "tags": [
+    "@ryanlitteral",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIELD GETS IT UNANIMOUSLY",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane wants that number one qualifying position, and the commentators have to eat their words.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @conorshanahan79 @formulad @jackshanahan59\n\n#formulad #formuladrift #drifting #seattle #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 87.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:03:56.886638+00:00",
+   "built": "2026-11-19T08:03:56.886644+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-2/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@formulad",
+    "@jackshanahan59"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE GOES FOR NUMBER ONE",
+   "photo": null
+  },
+  {
    "id": "pod-ytckqkb2axqe-1",
    "kind": "stream_clip",
    "status": "draft",
@@ -23932,170 +24090,6 @@
    "caption_by": null,
    "format": "split",
    "title": "LEMAIRE VS RICHARDS",
-   "photo": null
-  },
-  {
-   "id": "pod-fd2026r8-14",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field vs Trenton Beechum, two V8s in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@mattfield777 @trenton_beechum @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-14/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 9163
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:41:43.030657+00:00",
-   "built": "2026-11-17T18:09:52.916909+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-14/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@trenton_beechum",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "FIELD VS BEECHUM",
-   "photo": null
-  },
-  {
-   "id": "pod-fd2026r8-13",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Adam LZ vs Derek Madison in Top 32 at Long Beach. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LONG BEACH FINALE\n@adam_lz @derek_madison @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-13/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 3287
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:40:39.758612+00:00",
-   "built": "2026-11-17T18:09:52.916678+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-13/clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@derek_madison",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "ADAM LZ VS DEREK MADISON",
-   "photo": null
-  },
-  {
-   "id": "pod-fd2026r8-12",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The battle that decided the 2026 Formula DRIFT championship. Run 1 on top, run 2 below: who had the better lead, who had the better chase?\n\n🎥 Footage: FD LONG BEACH FINALE\n@conorshanahan79 @jcastroracing @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
-   "media": [
-    "media/pod-fd2026r8-12/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 7789
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T08:01:13.503744+00:00",
-   "built": "2026-11-17T18:09:52.916455+00:00",
-   "want_at": null,
-   "video": "media/pod-fd2026r8-12/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jcastroracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "THE TITLE BATTLE, SIDE BY SIDE",
-   "photo": null
-  },
-  {
-   "id": "pod-c82113ef8385-9",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#FormulaDRIFT #MattField #FDLV #SEMA #sidewayswire",
-   "media": [
-    "media/pod-c82113ef8385-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Pro Podium",
-    "start": 817.02
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T16:02:25.700931+00:00",
-   "built": "2026-11-17T18:09:52.916225+00:00",
-   "want_at": null,
-   "video": "media/pod-c82113ef8385-9/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "MATT FIELD'S VEGAS BIRTHDAY",
    "photo": null
   }
  ],
