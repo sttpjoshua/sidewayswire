@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T12:28:49.758225+00:00",
+ "updated": "2026-11-19T12:38:39.255001+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 104
+  "draft": 108
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -10254,9 +10254,9 @@
       "topic": "DEANE'S LEAD CLINIC",
       "quote": "Go wide, Dean onto the front and rear wheel. Driver's day and they're not getting it here, but maybe it is under the bright hot sun of midday Spain where they're firing through the gears. Dean to lead out Pascualti, and look at this from Pascualti straight away. Already knows he can trust Dean, but he's got himself caught up on the inside early transition. It's going to be way on the inside as Pascualti now mirrors the angle, tries to find the front wheel and that Mustang as they fire through, down onto transition. As you can see, Pascualti back into it once again. Looks for the side of the Mustang as Dean puts in a clinic of a lead rough. And his unanimous James Dean gets the win and we lose.",
       "why": "Deane rijdt een perfecte lead en wint unaniem",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10268,9 +10268,9 @@
       "topic": "CIRBA SPINS, ONE MORE TIME",
       "quote": "It's going to be Espen -Rode to lead out Benedictus Czerba Norway. They'll take on Lithuania right now as they're quite through the gears. We know Czerba's an aggressive driver. What can he do in the chase against Espen -Rode? Brode a little wobble coming into outside zone three, though. They're far through. Czerba waits. That's him. The jaster now gets on it. Oh, attacks him and puts himself into a spin. And Benedictus Czerba looks like that may be an unfalced error from Czerba as Espen -Rode finishes up the run. Yeah, I'll have to take a look. I mean, I think from first glance, I definitely agree with you, but the replay is going to tell. It's going to be a one more time. So it's going to be a one more time. David Kalas, I have to quickly come to you. An interesting one there, David. Quickly talk us through that. And we needed to assess which driver was more to blame, and we decided that the blame was coming to Benedictus.",
       "why": "Čirba spint in de chase, jury geeft hem de schuld, one more time",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,166 @@
    "photo": null
   },
   {
+   "id": "pod-ythcpensbcsdc-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Benediktas Čirba attacks in the chase and spins himself. The judges blame Čirba and send it to one more time.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #onemoretime #spain #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 104.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:38:39.232966+00:00",
+   "built": "2026-11-19T12:38:39.232971+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-1/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Benediktas Čirba",
+    "Espen Røed"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CIRBA SPINS, ONE MORE TIME",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "James Deane puts on a lead run clinic under the Spanish sun and takes a unanimous win.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 30.24
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:36:51.823359+00:00",
+   "built": "2026-11-19T12:36:51.823365+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-0/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Kevin Pozsar"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE'S LEAD CLINIC",
+   "photo": null
+  },
+  {
+   "id": "pod-yth2evinkswei-42",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Fredric Aasbø and James Deane in 2025.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 791.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:35:33.488512+00:00",
+   "built": "2026-11-19T12:35:33.488518+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-42/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "ROAD ATLANTA",
+   "photo": null
+  },
+  {
+   "id": "pod-yth2evinkswei-41",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: James Deane and Jonathan Castro in 2025.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 595.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:32:12.596433+00:00",
+   "built": "2026-11-19T12:32:12.596438+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-41/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jonathan Castro"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "DEANE VS CASTRO",
+   "photo": null
+  },
+  {
    "id": "pod-yth2evinkswei-40",
    "kind": "stream_clip",
    "status": "draft",
@@ -23874,164 +24034,6 @@
    "caption_by": null,
    "format": "single",
    "title": "ODI HITS HIM ON A RESTART",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-12",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Simen Olsen gets to the side and Dan Burkett takes one on the chin. The judges go Burkett.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@raddandrift @simenolsendrifting @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 805.41
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:33:30.742343+00:00",
-   "built": "2026-11-19T07:33:30.742351+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-12/clip.mp4",
-   "tags": [
-    "@raddandrift",
-    "@simenolsendrifting",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DAN TAKES ONE ON THE CHIN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-11",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Cole Richards is a hundred and ten percent, man. The rookie keeps on keeping on against Conor O'Sullivan.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 759.47
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:31:19.934776+00:00",
-   "built": "2026-11-19T07:31:19.934784+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-11/clip.mp4",
-   "tags": [
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Conor O'Sullivan"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "COLE RICHARDS AT 110 PERCENT",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-10",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Not unanimous, two to one, but 16 year old Braden Lons wins the Pro Spec round in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 680.97
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:30:09.683658+00:00",
-   "built": "2026-11-19T07:30:09.683665+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-10/clip.mp4",
-   "tags": [
-    "@braden.lons",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Casey Cole",
-    "Dustin Farrell"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "16 YEAR OLD WINS IN VEGAS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-9",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "You mess with the bull, you get the horns or a trophy. Braden Lons is on a tear in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 541.07
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:28:42.538398+00:00",
-   "built": "2026-11-19T07:28:42.538406+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-9/clip.mp4",
-   "tags": [
-    "@braden.lons",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "LONS IS ON A TEAR",
    "photo": null
   }
  ],

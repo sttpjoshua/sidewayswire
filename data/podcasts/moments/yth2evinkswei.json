@@ -1252,8 +1252,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-41r2-6395-6764.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-41r2-6395-6764.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-41/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T12:32:12.595281+00:00"
  },
  {
   "start": 791.5,
@@ -1288,7 +1293,12 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-42r2-8376-8776.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-42r2-8376-8776.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-42/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T12:35:33.487375+00:00"
  }
 ]

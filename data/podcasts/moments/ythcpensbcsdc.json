@@ -20,10 +20,15 @@
    "why": "commentaar over Deane"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Tegenstander 'Pascualti' (Hongaar, GR86) naam nakijken",
-  "wait_name": "v2-ythcpensbcsdc-0-302-648.mp4"
+  "wait_name": "v2-ythcpensbcsdc-0-302-648.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 59.68, \"start\": 58.04, \"text\": \"A LEAD RUN MASTERCLASS?\", \"why\": \"commentaar over Deane\"}",
+  "made": "2026-11-19T12:36:51.822004+00:00"
  },
  {
   "start": 104.72,
@@ -46,8 +51,13 @@
    "why": "de spin"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ythcpensbcsdc-1-1047-1558.mp4"
+  "status": "queued",
+  "wait_name": "v2-ythcpensbcsdc-1-1047-1558.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 123.44, \"start\": 121.12, \"text\": \"TOO AGGRESSIVE IN THE CHASE?\", \"why\": \"de spin\"}",
+  "made": "2026-11-19T12:38:39.231622+00:00"
  },
  {
   "start": 162.24,
