@@ -34,7 +34,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "16"
+VERSION = "17"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -531,6 +531,23 @@ def self_update():
         log("helper bijwerken mislukt:", ex)
 
 
+def local_editor():
+    """Fetch the newest local_editor.py next to this helper and load it."""
+    import importlib.util
+    path = Path(__file__).with_name("local_editor.py")
+    try:
+        new = gh("/contents/tools/mac/local_editor.py?ref=main", raw=True)
+        compile(new, "local_editor.py", "exec")
+        if not path.exists() or path.read_bytes() != new:
+            path.write_bytes(new)
+    except Exception as ex:
+        log("lokale redactie ophalen mislukt:", ex)
+    spec = importlib.util.spec_from_file_location("local_editor", path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
 def daily_update(state: dict):
     if time.time() - state.get("updated_ytdlp", 0) < 86400 or not shutil.which("brew"):
         return
@@ -684,6 +701,15 @@ def main():
                 info["error"] = str(ex)[:160]
                 log("fout", name, ex)
         info["state"] = "klaar" if info["have"] >= info["need"] else info["state"]
+    try:                                   # Joshua's own editor on this Mac (no credits), see local_editor.py
+        if _json_or("data/settings.json", {}).get("local_editor"):
+            le = local_editor()
+            rep = le.run(gh, _put, _json_or, log, beat, state)
+            log("lokale redactie:", rep)
+            if rep.get("moments"):
+                gh("/actions/workflows/clips.yml/dispatches", "POST", {"ref": "main"})
+    except Exception as ex:
+        log("lokale redactie:", ex)
     newly_none = set(no_video) - set(old.get("no_video") or [])
     if uploaded or newly_none:      # new video, or clips that no longer need to wait: make them now
         gh("/actions/workflows/clips.yml/dispatches", "POST", {"ref": "main"})

@@ -287,6 +287,7 @@ function nextEditor(){const sch=(ED&&ED.schedule)||["10:23","13:23","19:23","23:
   const t=sch.find(x=>{const[h,mm]=x.split(":").map(Number);return h*60+mm>m});return t?"vandaag "+t:"morgen "+sch[0]}
 function editorLine(){if(!ED)return "nog geen gegevens";
   if(ED.state==="off")return "staat uit (sinds 19 nov, om credits te sparen)";
+  if(ED.state==="local")return `lokaal op je Mac Studio (geen credits) · laatst ${ago(ED.last_run)} · ${esc(ED.note||"")}`;
   if(ED.state==="busy")return `bezig sinds ${ago(ED.started)}: zoekt verhalen en maakt posts`;
   const n=(ED.posts||[]).length;return `laatst ${ago(ED.finished)} · ${n?n+" nieuwe post"+(n>1?"s":""):"geen nieuwe posts"}${ED.moments?" · "+ED.moments+" clipmomenten":""} · volgende ronde ${nextEditor()}`}
 let S=null, MAC=null, NOW=null, PODNOW=null, CLIPNOW=null, RUNS=null, runsAt=0;
@@ -432,7 +433,7 @@ let postFilter="ALLES";
 function drawPosts(){
   const pe=document.getElementById("post-ed");
   pe.innerHTML=ED&&ED.state==="busy"?`<b>De redactie is nu bezig</b> (sinds ${ago(ED.started)}): verhalen kiezen, feiten controleren en posts maken. Nieuwe posts verschijnen hier zodra ze gebouwd zijn.`
-    :`<b>Redactie:</b> ${editorLine()}.${ED&&(ED.posts||[]).length?`<br>Laatst gemaakt: ${ED.posts.map(esc).join(" · ")}`:""}<br><span class="muted">De redactie draait om ${((ED&&ED.schedule)||[]).join(", ")}. Daarna bouwt het proces "Plaatsen" de afbeeldingen (zie Overzicht, Processen).</span>`;
+    :`<b>Redactie:</b> ${editorLine()}.${ED&&(ED.posts||[]).length?`<br>Laatst gemaakt: ${ED.posts.map(esc).join(" · ")}`:""}<br><span class="muted">De redactie draait ${ED&&ED.state==="local"?"op je Mac, elke 15 minuten":"om "+((ED&&ED.schedule)||[]).join(", ")}. Daarna bouwt het proces "Plaatsen" de afbeeldingen (zie Overzicht, Processen).</span>`;
   const C=posts().filter(p=>cat(p)==="posts"), F={"ALLES":()=>true,"FOTO NODIG":p=>p.photo&&p.photo.mode==="none"&&!["posted","skipped"].includes(p.status),"WACHT OP JOU":p=>["check","draft"].includes(p.status),"INGEPLAND":p=>["approved","ready"].includes(p.status),"GEPLAATST":p=>p.status==="posted","OVERGESLAGEN":p=>p.status==="skipped"};
   document.getElementById("post-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===postFilter?"on":""}">${k} (${C.filter(F[k]).length})</button>`).join("");
   pgal.innerHTML=C.filter(F[postFilter]).sort((a,b)=>String(b.created||"").localeCompare(String(a.created||""))).map(p=>{const m=p.media||[];
@@ -561,6 +562,7 @@ function drawLive(){
   // what comes next
   const nx=[], hhmm=d=>d.toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Amsterdam"});
   if(ED&&ED.state==="off")nx.push(`<b>REDACTIE</b><span style="color:var(--pink)">staat uit (om credits te sparen)</span>`);
+  else if(ED&&ED.state==="local")nx.push(`<b>REDACTIE (MAC)</b><span>elke 15 minuten als de Mac aanstaat · laatst ${ago(ED.last_run)}</span>`);
   else if(!(ED&&ED.state==="busy"))nx.push(`<b>REDACTIE</b><span>volgende ronde ${nextEditor()}</span>`);
   if(MAC&&MAC.seen){const seen=new Date(MAC.seen),mins=(now-seen)/6e4;
     nx.push(mins>40?`<b>MAC STUDIO</b><span style="color:var(--pink)">geen teken van leven sinds ${ago(MAC.seen)}</span>`
