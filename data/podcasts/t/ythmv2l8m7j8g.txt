@@ -1,0 +1,784 @@
+# Vaughn Gittin Jr.: Preparing for My FIRST TimeAttack in the Mustang GTD!
+
+
+[00:00] What is going on friends? I am so pumped because I just got to the Ford Racing Tech Center.
+I'm getting some inside access and I'm going to be using the simulator today. Let's get to it!
+All right, so behind me, this is the simulator room. This is one of two they have here at the
+
+[00:29] Tech Center open, I've always seen the sim, but never really had a reason to use it.
+And this is the first time I'm sharing this, but I'm going to be heading to Gridlife Laguna
+Seca and competing in Time Attack with the GTD.
+So I reached out to Ford Racing, asked them if maybe I could get some sim time to get
+familiar with Laguna, test the GTD and just start to get familiar with breaking points
+
+[00:54] and that way I can use the car less and also conserve tires of the track and
+show up and hopefully be a little bit more up to speed and not look like a
+fool and they graciously said yes. I mean this is super exclusive this is for
+Ford Racing drivers only this is not a perk for having a GTD or anything like
+
+[01:17] that. Obviously my relationship with Ford is great but this is not a toy they want
+to make sure there's a real use to be leveraging this and doing
+it. So I also got approval to bring you guys behind the scenes
+for this inside access. Not many people see how this works. So
+it's a really, really cool system. And yeah, so step in and
+
+[01:40] we'll show you guys kind of how it works. So you can see up
+here, you've got all the data just like we would see inside of
+like our MoTeC. You can see the track map, all the overlays. And
+And so they'll be able to give me feedback,
+maybe even a little coaching,
+maybe we can even compare it to some of the GT3 stuff
+that they've done in here.
+
+[02:01] We've got, this will be a video screen.
+So you'll see what is the car actually on the track.
+And then this is a team that runs everything
+to keep it going for racing crew.
+And so I'm pumped to get in here, get some laps.
+I have been warned that 10% of people get motion sick.
+
+[02:23] I don't believe I'll be one of those but I've never done this so but yeah if you just take a look
+take a look in here so this is the buck so you look here this is obviously a best
+550 Mustang dash but the biggest thing obviously is the the line of sight so you can see
+
+[02:46] the hood you know line of sight and it just gives a really good representation of the vehicle the
+vehicle placement. And the way that this thing moves in the
+motion, it is exactly tuned with the dampers, every little
+millimeter is exact to the vehicle. And so, you know, a lot
+of racing drivers will come in here, you know, NASCAR ones
+
+[03:08] running like every single day with cup drivers coming in,
+practicing, learning new things. They have a Raptor, like I
+mentioned for off road testing and stuff like that. And it
+really allows them for product development, racing development,
+to get into the box again before you show up to the track. So
+
+[03:28] the other fun fact is that this is the first GTD model that they
+actually have. And I'll be the first one driving a GTD in here.
+So when I called and asked them, they were really close to
+having the model done. And they said it was a perfect reason for
+them to prioritize and accelerate wrapping it up. So
+I'll be the first to test that which is an absolute honor. Let's get to it friends
+
+[03:58] All right
+
+[04:26] That break it?
+Too big of a hit on that bump.
+That's why we do this.
+Get a broad sense of where they're operating.
+So most important thing is a speed trace always.
+From that you can tell a lot of performance information.
+
+[04:46] For example, these might be two different cars and we can see the different performance
+windows.
+That means min speeds or corner speeds as well as the braking and acceleration profile.
+Next, probably most important is steering wheel angle.
+That can tell us a lot about the balance of the car as well as the driver line, the sort
+
+[05:10] approach to the corner and how they are driving around the car's balance in a way.
+So you can see some stuff happening here that indicates maybe the car might be
+free on accident, meaning the rear end is starting to slide around.
+Next up is braking, especially in a sports car. The braking profile is really important to set
+
+[05:37] the car up into the corner in a good way to get the weight on the nose and balance the
+weight between the front and rear axle, but obviously to de-sell the car to the right
+speed at the middle of the corner. So we look at those traces and we can...
+Not feel like...
+Let me look at that.
+
+[06:01] So this is the fun part is you know understanding the model and trying to update it so that
+the physical response matches kind of what he expects because every model is somewhat
+wrong.
+We just have to be able to tune around it and kind of have to fly.
+
+[06:21] It's pretty accurate. I think it's like fine tuning with the inputs that this gives you.
+Yeah, just process it all and see what they have to say and yeah, just take a moment.
+When you say the bumps, like how is the force feedback?
+It's incredible. The car feels every inch of the track. And the response, like usually
+
+[06:46] Usually I'll crash a simulator, you know, a sim, you know, if I get in like a motion
+rig with a video game or a set of course or, you know, some Forza or something like that,
+I will crash multiple times before I dial in.
+And I was really, the dynamics of this are something unlike something I've ever felt.
+
+[07:06] It is so intuitive.
+Even like when the car like most of my experiences in a motion sim like I'm always so reactive
+and I was able to catch mistakes very quickly.
+So it's, yeah, it's incredible piece of equipment.
+So we're gonna, yeah.
+And you're still wearing?
+
+[07:27] Yeah, I think we're gonna.
+Yeah, just mostly the driver line.
+Yeah, they're all over the place.
+Yeah, and that's usually to be expected.
+Like you're getting used to the car,
+you're getting used to the track,
+you know, you just try a bunch of different stuff
+instead of figuring it out.
+Yeah.
+Yeah, I think I know where I should be.
+I'm just not getting there.
+So when I get in there the next couple laps I'll slow down a bit and work on the line a little bit better than just coming fast.
+
+[07:52] It feels very neutral.
+I'm getting a little bit of oversteer, only when I'm too aggressive coming out of the corner which is to be expected.
+TCS feels really good.
+Do you have data if I'm putting the power down? Is the TCS coming in?
+Like if it wasn't on it would be spinning?
+
+[08:14] Because when I'm at the GTD I usually ride like one bar or completely off on the VTC.
+You're available to you there been to Laguna Seca.
+Not driven road race car at Laguna Seca.
+I've been there drifting in like 06 they let us drift like a section of it.
+I've been on the track but I've not rode race on it.
+
+[08:36] In general.
+So what am I looking at here?
+So this is speed, this is just straight speed trace.
+So he's white?
+Yes. So his thesis is to get the minimum speed.
+So get all the way down and just feed the corner off a lot.
+That's turn one? Get it rotated.
+You are more floating in, getting the first apex, then getting the second apex, but floating wide.
+
+[09:00] So like try and point the nose in and then arc off a lot quicker and you can see that
+he has a lot more steering wheel input and that's because he's like stopping the car
+turning and then driving off and then unwinding.
+There's a shit ton more speed at the end of the corner.
+You can completely lift out of the throttle like don't try and like, they can go in here
+
+[09:25] and mop the thing and I'll just go into that next corner.
+Okay.
+I'm not sure how much the GTD likes that, but.
+It's fine.
+Yeah.
+I haven't found anything I cares about yet.
+Same thing there.
+You're down shifting.
+I think you're in the second or no,
+it's still third.
+Okay.
+So you're in the third.
+I'm staying fourth.
+Same thing.
+Just kind of roll speed and just.
+Yeah.
+I mean, you can see I'm using way more gears.
+
+[09:46] Yeah.
+You just got to wait until you can see the corner exit
+really with that one.
+At least that's what I've like,
+what I found with it.
+And once you can kind of see where you're going to be,
+you can gas it up and get off there.
+I would also say that's probably contributing
+a little bit to the squirilliness.
+If you're downshifting an extra gear,
+because there's no shift denying here.
+
+[10:08] So it's letting you do it,
+but then putting a bunch of engine braking.
+The real car would deny the downshift.
+Probably wouldn't actually get that kind of diff feeling.
+So yeah, I think floating an extra gear will help.
+This is going into the corkscrew, again breaking later, and one continuous brake zone.
+
+[10:32] So like you go up the hill, brake brake brake brake brake, and trail all the way until you're
+at the turn in.
+Got it.
+So your brake is going to start peeling out.
+So you're braking going off the hill and then between those two turns, you're just a little
+trail break in.
+I try to get all my braking done before I start turning in and then as I turn out I
+
+[10:57] just kind of watch and once I come down I can see the apex of the corkscrew.
+I'm like okay I'm not going to run off track that's the biggest thing there I think.
+At least for me if I try to gas up before I can see the apex I'm always off track.
+Okay.
+And if you pick up the throttle at the top it's you're just going whatever direction
+you're pointed at.
+is saying make sure you can see the second apex and the cars pointed there
+
+[11:21] then. Got it. Because if you pick up the throttle and you're still pointed that
+way yeah you'll drive off the mountain and if you pick up the throttle that way you're just gonna drive off.
+It's super wide so it's like. Are you confused about men like the off-road truck or the GCD?
+Yeah. I see dirt I'm like yeah let's go. Five seconds bud. You get there. Yeah. Five seconds here.
+
+[11:43] These few things like you'll pick up a second by pushing the brakes on a little bit deeper
+and then letting the car roll through the middle and then picking up the throttle, you'll pick up the second.
+Yeah, it'd be interesting to know what the GTD actually does there.
+Yeah, I would guess...
+Maybe we should bring you and you chomp in it and you let me know.
+
+[12:03] I'm gonna guess it's gonna be like, just based off of what he's...
+Are you gonna be there?
+No.
+You're saying if I tell you to, you'll come, okay?
+Yeah, you tell me to be there, I'll be there.
+But this is GD4 car, he's running a 131 but the GDE probably has like type horsepower that the 4 car has.
+
+[12:30] So there's a F-150 Raptor about very similar
+Can I open this?
+So it's very similar to
+Obviously the Mustang in there.
+So what is this cut out of?
+Just a foam or is it carbon?
+It's all carbon.
+Oh, okay.
+So wow, they actually make freaking mold out of this thing?
+
+[12:51] Incredible.
+So yeah, this is like current gen Raptor.
+And same thing, they'll put this in, test team will come out, load up all the Raptor software,
+and start kicking the desert's ass.
+Yes.
+I mean, the amount that you can save though,
+
+[13:13] by doing this first and just get in the box
+and then take it to real world, it's pretty incredible.
+Yeah, and that's kind of the justification behind it all
+is, I don't know the exact numbers,
+but you know, like the production team,
+when they order a change, you know,
+it's tens of thousands of dollars
+and a couple of weeks to manufacture products.
+Yeah.
+And whereas in here it takes a few minutes.
+
+[13:35] Yeah, I mean just, you know, just shock tuning alone, but would be incredible.
+Can you also test like breaking differentials?
+Like is there torque loads and you can just kind of take CAD from the supplier?
+Yeah.
+Material type of, you know, hardnesses and stuff like that?
+
+[13:57] I don't know if it's like the hardnesses, but they can simulate a lot of different stuff,
+with the diffs and shocks, like you said,
+because even so, all this is, it's not to get you,
+it's not a replacement for real world testing.
+It's to aid in your real world testing
+and to get it a lot closer than you would be.
+Yeah, just on paper and grains.
+Yeah, just confirm some assumptions
+
+[14:18] and then have a smaller box to work in
+when you get on code.
+Exactly, yep.
+So it saves a lot of time and money.
+I know that.
+Yeah.
+How many G's can you simulate with like the off-road? Like is there a way to do that?
+I could, I wouldn't feel confident giving you an actual number. I mean it's definitely not. So
+I could, like I said, I mostly do the NASCAR stuff and the more that we try to simulate the
+
+[14:42] actual G of like a NASCAR cup car, the more the drivers don't like it. So it's almost like a
+less is more thing. So we won't even get close to the number they're actually experiencing
+and they'll start like saying this doesn't feel real,
+like it feels like there's way too much motion.
+So it's all, the perception part of it
+is kind of hard to nail down, especially driver to driver,
+
+[15:04] because everybody perceives things differently, right?
+So it's, just because we can doesn't even mean we will,
+like our NASCAR, we don't even use near the capability
+that it has, and drivers feel like it's relatively close
+as far as motion goes.
+Yeah, because it would it's just hard because like you have the chassis wanting to go this
+way and you have the tires staying planted.
+
+[15:27] So you almost need like a mile runway to really simulate it.
+It's our one simulator, which I'm not sure if you're going to film or not, is I always
+tell people it's I mean they can hit 25 miles an hour from one side to the other before
+it stops.
+And I mean it's a space of like a year to the other side of that hobby.
+I mean it's incredible how fast it can accelerate.
+
+[15:49] But if you try to be the other natural driver,
+I mean you would lose as much as possible.
+Yeah, yeah.
+Yeah, yeah.
+I have to clean up my laps and listen to my coaching
+that I just got.
+All right, clean up these laps.
+Psssh!
+
+[16:22] Alright we're gonna fourth all the way.
+I just have a habit of downshifting on brake.
+That was how I work on that.
+We'll get a relatively close engagement.
+Yeah, my consistency of vehicle placement is really tough.
+
+[16:46] And that's usually my specialty.
+It's really interesting getting calibrated in this.
+See, I told you, that's a blessing for every time.
+Thanks for not stopping hard. We were joking here, we were like, oh this is gonna be as fast as
+a lap and he doesn't butcher the last corner. Yeah and I did didn't I? Yeah.
+
+[17:06] It's alright, we'll get back on it. I really appreciate the help, definitely seeing
+seeing the results of it, we'll get there. Yeah it's coming together, you just need more
+more laps. Yeah I'm just really struggling with placement of the car, like
+consistently and I think it's just you know this is I believe an acquired
+
+[17:26] skill at some level so I'm pretty happy with my progression. I have some good coaching going on.
+These guys, he acted like, oh I don't really coach but you know he knows what he's doing.
+So man, nice to meet you. How do you like it? It's cool. Yeah. Yeah I feel like it's a
+
+[17:46] very quiet taste. For sure. I'm definitely like vehicle placement is usually my specialty.
+And I'm really struggling with like consistent placement and like finding the place where
+my eyes should be looking.
+It's just, you know, it's a lack of senses.
+And we're like, you got to look there, but also at this tree you need to break.
+And then so you're just like, there's a lot of peripheral stuff, which I'm sure you used
+
+[18:08] to, but not differently.
+Yeah, it's just, it's just a different, different experience.
+But I feel like there's some progress from my first couple of laps.
+Yeah.
+Like I definitely know how to stab the brake pedal.
+Like that's pretty bad ass.
+you're not afraid to stop the car. Like the big thing I see though is trying to just from watching
+visually, like one corner that we really try to trail brake a lot is this corner right here, turn
+
+[18:32] five. It's kind of up the hill and it's a really late apex, right? So rather than trying to like
+dump out of the brake and get back to throttle, we can sometimes set the nose a little bit
+quick and then pull it off slowly so we still have some turn in by coming out of the brake
+slowly, right? Because if we jam on the brake a bunch and then we pop off of it,
+or we get right back on the gas, all we do is we start to turn and then we pick
+
+[18:56] up the weight off the nose, so the steering wheel input that we're doing is
+very helpful. So if we can do that a little bit slower, right, if we trail off
+the brake, we still get that little bit of steering wheel, the angle that we have
+in it, right? We can take advantage of it still coming off the brake a little bit slower.
+Yeah, comparing obviously the same. You have a lot more brake pressure in
+general, but in his lap he's kind of peeling out nice and linear and you're, I
+
+[19:22] know you have a lot more brake pressure, but you're like, should I not be using that
+much brake pressure? Maybe a little bit less. I would say the braking pedal
+here is odd. Yeah, with this buck the pedal is really hard to modulate.
+It's not gonna be anything like that. Yeah, it's pretty small, but the big thing too is
+like you see, so you have this big spike and then you jam right back off the brake
+
+[19:45] and this is that corner that I was just talking about.
+And then you get right back to at least a little bit of gas.
+In some corners, going back to maintenance throttle
+is a good thing.
+In other corners, having a coast phase in the center
+is not a bad thing, especially in a street car
+when we're just really trying to rotate.
+This thing's heavy at the end of the day.
+So if we can have a split second where we're off,
+
+[20:05] beat both pedals and still get in the car to rotate,
+what he's doing, and although you beat him back
+to full power, his time from throttle input
+The full throttle is like really quick, right? He's
+1%
+You're a 1%
+I get to like
+And then you go so it's like if we can just try to
+
+[20:27] Prioritize and and can be concise with like what we're trying to do. Yeah a little more
+Yeah, like I'd say the biggest thing is to just try even like don't care about how fast you're going or the speed of the
+lap time just do a couple laps where you don't just jam right out of the break.
+Try to trail off slowly and see that you go okay the front sticks for a little
+
+[20:49] bit longer because what you're probably doing here by trying to throttle up is
+because you know that throttling up can sometimes give you rotation right when
+you're drifting. You're doing that to try and slide the car but at the end of the
+day if the front's off the ground it doesn't want to do that. You're hurting
+yourself by doing that. Yeah okay. Yeah it's gonna feel odd and the car might
+actually went as you trail off in that really linear fashion you might actually
+
+[21:12] turn in more than you expect right because that's how the front end works
+yeah like it likes trail break and I only really like I watched you do this
+corner in this corner and here so taking away just some of the data and only
+going off of what I saw I'm like heard like you again I could hear you gem up
+come out of the break get right back to throttle this corner with it being
+
+[21:35] banked and more like uphill again coming out of the break and kind of letting the
+track do some of the turning for you can help so you almost get there with a
+little bit more speed not worried about getting back to the power right away.
+So this is backwards can you flip that?
+There's a reason you can't see it's upside down. So it's this left
+
+[21:56] hander here so we have this big long straightaway and this left hander that
+kind of climbs up a little bit.
+It is on camera on the inside.
+Yep.
+There's on camera on the inside.
+Yeah, sorry.
+You can't kind of follow the way on the exit.
+So again, that trail break,
+as you get closer to a corner
+where it's either uphill, cambered, or both, right?
+When we have the track doing both of those things,
+
+[22:17] or they're both gonna help us turn.
+Because as we get closer,
+the car starts to compress a little bit more,
+and it wants to kind of shoot up, right?
+Like that's why tracks, mass car tracks are all banked.
+It's because you just dig the right front shock
+into the tire, into the track.
+So if we get there and we're starting to trail off, right,
+we still have some weight on the nose
+and we have the track kind of coming up.
+
+[22:37] So we're pushing both together, like at the same time,
+it's gonna wanna create more.
+So rather than getting so hard on brakes here,
+it may be a little lighter and then trailing through.
+So I'd say in general,
+you can be a little bit lighter on the brake,
+but I'm not necessarily trying to tell you to brake softer.
+It's just don't hold like brake, brake, brake, brake, brake,
+brake, brake, off, like big, big, big,
+and then start to come off slowly.
+Right and then don't be afraid but you may be on throttle while you're still on the break a bit
+
+[23:04] Overlaps bad, okay
+We we have channels that actually calculate like how much how many seconds of overlap we have
+Perlaps such a habit of doing that for sure and that's all you're used to right as you're just trying to keep that happy media
+Yeah, yeah, okay
+Something I think to this buck is like I think you can get more pedal travel then is really necessary
+Like you're already at 100% breaking. I think you can push even past that right where you're not getting more breaking
+
+[23:29] That's why I asked her to 100 was but it's hard to count. Yes, sir. Really?
+It's really however hard you want to push it's almost like it needs to stop over much leg day you're doing
+So if you look at me like I'm not
+You're slowing down about the same rate as I am, but you're having double pedal effort. Got it. You know what I mean?
+So yeah, I don't think you need to break that far. You get the full potential of the breaking
+
+[23:52] So you are actually maxing it out.
+Yeah.
+So we see these tabletops here.
+That's you actually reaching the max break that it's going to possibly do.
+Yeah.
+And then you just come right out of it.
+No trail off.
+Can you zoom in on any?
+So you almost always want to trail off the break?
+At least a little bit, right?
+If we ever come from 100%, which you are at some...
+
+[24:13] Yeah, because you're...
+Because it's just tossing the car.
+You're basically like, okay, instead of...
+And then...
+Yeah, you're all this weight like this.
+And I think I took literal because I was before if you go to my previous map. I was I think
+trailing a bit more but you like I'm
+You know, I was getting some communication of not enough break. I got to my previous
+
+[24:36] So this time I took it a bit literal to commit to the brakes more
+Well, even the off-road stuff you do a lot of this too, right?
+I'm trying to keep a little bit of break in it. Yeah, there's never like yes
+Rock. Yes. I mean, they're always
+Yeah, I'm left foot breaking.
+I'm used to controlling every inch in that scenario,
+
+[24:57] but it makes a lot of sense that in a road course car,
+you don't necessarily need to do that
+because it's not as dynamic.
+Like there's not six whoops in that.
+And then, you know, the drift car, you know,
+I'll be on somebody's door and adapting to them
+in a moment's notice, whereas this,
+you can really just get into that rhythm
+and almost be perfect, there's a way to be perfect,
+
+[25:20] whereas in those sports, you really can,
+because perfect's always evolving.
+A lot more gray.
+That makes a lot of sense.
+So, in the real car, you'll find,
+when you get your next track day,
+when you're doing this in real life,
+it makes the car just feel more bound up, right?
+The car only wants to do one thing at a time.
+
+[25:40] So we're always trying to finesse,
+like the way I always explain it,
+and it sounds funny, but like when I'm coaching kids
+in karting, money is a great thing
+that they like to think about.
+So you're like, here's your $100.
+Every corner you can spend 100 bucks.
+How much are you gonna spend on brakes, gas, turning?
+And you can't spend $50 on braking
+and $60 on turning at the same time.
+
+[26:01] Yeah, that's the tire.
+Yeah, your own budget.
+I've heard that.
+Right, like I don't like to use the word coast
+because people think when you're coasting
+you're losing time, right?
+But sometimes being neutral pedal for a second,
+lets the car kind of come back from this state to settled, especially in a car like this, right?
+It's heavy. This makes over 800 horsepower, right?
+
+[26:21] So the thing wants to go as soon as you light it up.
+So when you're on both, like the car's fighting two things that it does very well.
+It's trying to do it against each other.
+If you go back out there, don't look at the dash, do like five laps.
+Don't care about the lap time. Just come in off the brake, then on throttle.
+Right.
+And then slowly work up your speed so you can get back to one or the other.
+
+[26:41] Yeah, that makes sense.
+Yeah.
+It's hard like a lot of people that
+Start driving cars like this a little bit later and they're really focusing on this stuff
+They want to drive with one foot right because it eliminates what we see here
+But when you do it right this is so much faster, right?
+It's like you're better off
+I tell you to go and just try one foot
+But I'm not you're better off like sitting here and just killing yourself until you know that you can do it with both
+
+[27:06] Yeah, it's interesting because
+Because in the GTD I'm not always two footing it.
+I am sometimes this.
+In the drift car in the off road truck I'm always two footing.
+For some reason in production Mustangs I don't always two foot.
+I will in some corners.
+But I am, I mean I can do both.
+
+[27:29] So you'll take your GTD to a track and some corners you'll left foot brake some corners
+you're right?
+Yeah.
+Just take one.
+Okay.
+That'll help you fix this, force yourself to just left foot brake.
+Okay.
+It's going to be a different operate.
+You have to get into a rhythm, right?
+Like I know where you're coming from.
+Right foot, left foot braking, street cars is just tricky, right?
+
+[27:51] Yeah.
+It's easier to get an ABS because we're used to driving race cars.
+You have to, you got a back shot brake pedal.
+You do that in a street car and you tell your things.
+So you're saying just use one foot?
+No, use both feet.
+Okay.
+If you're going to do it, do it all the time.
+Or the other.
+Yeah, the GTD is honestly the only street car that I can really drive on the racetrack
+
+[28:14] with both feet.
+Anything else I have to meet?
+Yeah, wonderful.
+Yeah, it's interesting.
+Yeah, it's because it's too much to assist.
+Because it's hard.
+And we're so used to just grenading brake pedals.
+We don't have the finesse in our left leg to go soft.
+Our right foot is perfect because it's a thousand and a half.
+Especially the drifting stuff.
+You're so good at pedal modulation.
+That's a thousand.
+And this thing just knows nothing or death.
+
+[28:37] Yeah, 100%.
+So what's your role?
+I'm a development driver for Ford.
+So I race in GT4 and GT3 in the US.
+Yeah, Jensen was really helpful.
+I mean, the whole team's been really helpful the whole time.
+But Jensen gave some great perspective.
+It's like between pedal feel and what I'm used to.
+
+[28:58] I'm just being a little bit too aggressive with, you know,
+throttle and braking.
+I'm just getting off the brakes too soon and not just letting the car settle.
+And I just end up chasing it.
+And so I'm just going to, just going to smooth things out.
+I do feel like if I was in the car, I would be a bit smoother now,
+but some of the things that I'm doing here are my default.
+
+[29:21] So it's definitely cool to like have that conscious mindset of,
+of smoothing these things out
+and just being a little bit more conscious
+with some of the inputs.
+Because the GTD does have a more standard brake system
+versus a race car, so you don't need to fully stand on it.
+And so I'm looking at my traces in there,
+
+[29:44] I'm like, I'm maxing it out.
+So we'll be a little smarter this time.
+
+[30:38] Heh.
+
+[31:25] Almost broken to that 130.
+Getting better, just the consistency.
+I'm definitely struggling.
+Well that helped a lot.
+That helped a lot.
+Yeah I'm just like, I'm struggling like locking in.
+
+[31:46] I get like really good with sections and then I'll blow it another and like
+it's so easy to get greedy and a sim because there's no consequences but I'm
+definitely learning a ton. This is gonna be massively helpful for me. That time I'm
+like making notes in my phone and I'll just remind myself of these sections but
+
+[32:10] yeah this is huge.
+which they see some of the turns, but the car does everything so well, right?
+And it is heavy, right?
+But they did everything so that the car stops despite its weight.
+It turns despite its weight.
+It goes despite the weight.
+So being patient is not a bad thing.
+Having some coast phase in the middle of the corner and just let the car do its
+thing so that when you do go back to gas, you don't have to do it.
+
+[32:34] Okay. Now I'm good.
+You can just hammer into it.
+So if you can give up that a little bit on entry, we do the same thing when we're
+racing too.
+I don't want to try and outbreak the guy if I'm following him if I'm second and he's first
+Because that means he's gonna be able to get back to power on the way out
+I want to break just before him so that I can get back on the power just before
+
+[33:17] The big thing that I see though, just comparative to the two, is braking a little bit earlier
+and trying to get off, right?
+So you're doing a good job of trying to trail off the brake a little bit sooner.
+Kind of use some triangles there, bud.
+That's it.
+We like to see.
+And then I'll pull up mine here.
+Yeah, I can do it.
+I can do it.
+Nope, nope, nope.
+
+[33:38] We don't ever want it to be vertical, right?
+Like if I was sitting here and yours was like this, but mine was vertical
+I'd say you were doing a better job because if any time you can go from zero to a hundred right away
+That means we oversold the entry a bunch. Okay, so having some role in is important, right?
+It's like some of mine are just a little bit shorter than yours, right?
+Like they're a little bit steeper. So you don't want them to be like this
+we're both gonna creep around like exit of two is a hard one to watch just because
+
+[34:02] You're getting into TC here more in the sin than you will in real life
+So it's just kind of a dance but like X in a three and X in a four
+Initially, you were coming in all the way out here, trying to get fancy and square up
+for a really good runoff, which works well in context.
+But because we're coming downhill and you can make up, if this corner was followed previously
+
+[34:25] by a corner that is like this, what you're doing is correct.
+But since we're coming off of such a long straightaway, we want to take advantage of
+that speed that we're carrying.
+So if we can break that a little bit deeper at 150 mile an hour versus trying to break deeper in a corner
+That's only 50 mile an hour. We can gain a lot more here. So trying to drive in a little bit more on the bottom
+
+[34:47] It will help you de-sell because you can keep your hands straighter for longer
+And then we kind of do a little bit more rotation
+Like you drive past this apex and then really start to crank the wheel a little bit more and you still get that same
+Drive off that you were getting right?
+So rather than trying to be out in like this,
+no man's land, you're saying get over sooner.
+A little bit, yep.
+
+[35:07] So again, you still, with this line,
+you still get the benefit of your squaring it off, right?
+You get that bad-ass drive off from the center,
+really straight, right?
+So you crank a bunch of wheel into it at the exit,
+but you get to drive it in a little bit deeper
+because you get to brake pan straighter.
+If you're doing this, since you start turning here,
+
+[35:28] let's say, you have to be braking here
+so that you can start to come off the brake and turn at the same time. Since I don't really start
+to turn until like here I can brake this much deeper on the way in. Does that make sense?
+Yep. And honestly the same thing for five, the braking technique, the line doesn't have to change
+much. Like your line through five is fine. Just carry some brake to the apex. A really good
+
+[35:50] reference is that yellow baller right at the apex of five. So this I'm just braking too early. A
+little bit. Yeah because I'm like I'm not on I'm on throttle through the apex. Yep and then and it
+It gets to a point where you're like, okay, I don't want to get back to throttle too early,
+but at some point you're like, well, I'm just wasting time if I don't.
+So I'll just get to some maintenance throttle and then I go all the way.
+So if you just shift what you're doing and you get rid of that maintenance throttle period,
+
+[36:13] you can brake, roll off, and then have a more smooth roll back to throttle.
+Got it.
+So again, your line, like just watching this run versus your last run, you switched this
+up and now it's perfect.
+We're turning in a little bit later.
+we're trying to get kind of that drive up the hill like we think about in turn two where we're trying to really get a
+Good square next and off
+
+[36:34] Yeah
+But now what we just want to do is carry the brake in a little bit deeper and then right as you start to turn
+Start to trail the brake. So really really later you break later. Yeah, and then so think of the trail brake is like
+You want to start releasing pressure here and you want to end it by here?
+Like you can almost use it as a timing thing
+So it's okay soon as I start to turn the wheel in I'm gonna start come on
+
+[36:55] But I want to come off at a rate so that right when I get to that yellow thing in the center
+is right when I'm all the way off so that I can roll back to power.
+And you'll watch that you can break deeper and deeper and then your throttle application
+will just be quicker and quicker and quicker.
+Sweet.
+This 9 and 10 look really good.
+I think you getting to fourth helped you a lot and like helped rhythm wise before you
+
+[37:20] got down into 10.
+Like it made, you had to get into a rhythm of breaking, doing that downshift to get to the bottom of nine.
+And once you did, right, you could take advantage again, kind of the G out, you just mash the gas, right?
+When you get to the bottom of the apex at nine and you can just shoot right back up to the top of the racetrack.
+Yeah, well, I think overall the improvement is just knowing where the freaking car is on the, on the sim.
+
+[37:41] My vehicle placement, I, now I actually think I can get the car where I want to.
+Because it's definitely like an acquired, it's acquired takes.
+For sure. The first time I came here, three or four years ago, I was worried I was going to suck.
+Because I'm not the best iRacer. I'm from a generation where everyone's good at iRacing.
+And I'm okay, but I'm not amazing. So I was like, man, if there's anything like computers,
+
+[38:07] I'm screwed. But it's real life enough that once you get the hang of it,
+this is your first time here? Anything? Yeah. Okay. It just takes some getting used to.
+No, it's cool. I'm definitely happy with the progress for sure.
+Cool. I really appreciate the time enough for today gentlemen. Absolutely. I learned a ton.
+Alright, what a day. You know, I've been here almost five hours. I was only supposed to be here four. Thank you for the extra time.
+
+[38:30] Yeah, it, massive progression. I think a lot of it was just really learning how to read and calibrate with the SIM and really I was struggling early on with vehicle placement.
+But then the last session I really got that down and then I could really take their feedback.
+Really cool to have Jensen, the development driver here to give me some feedback on actual
+
+[38:54] racing line and looking at traces.
+So I really improved on my on-brake, off-brake, my throttle application, just smoothing things
+out, trying to get that perfect kind of triangle of a brake trace versus like a hard stab and
+then a lift off.
+and I really felt that in the sim,
+
+[39:14] like as the, you know, being a bit smoother on the brake
+and coming off smoothly keeps the weight on the front,
+allows the car to turn better,
+which is a bit more intuitive in real life,
+but certainly helped a lot in this
+and it's a good habit to have.
+I switched from two footing to just single foot,
+which is how I normally drive the GTD,
+
+[39:35] and that helped me a lot too.
+I had a lot less overlap,
+and it just made me a bit smoother overall. So extremely helpful. I feel way
+more prepared going into Laguna. I'm really excited about grid life. It's
+gonna be a lot of fun. It's gonna be very challenging and if I can remember, you know,
+75% of the stuff I learned today about the track, the approach to corners, I think
+
+[40:00] I'm gonna do pretty well. So a huge thank you to Ford Racing, the entire team, for
+for giving me this opportunity to come out
+and I don't take the access lightly
+and I'm super grateful.
+So I saved a bunch of laps on my GTD
+and so my fresh tires will stay fresher
+while I have a little bit more learning
+
+[40:22] than I had when I showed up.
+So super pumped, hope you all enjoyed this.
+We'll see you soon friends.
+Much love, woo!
