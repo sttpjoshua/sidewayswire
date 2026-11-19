@@ -19,8 +19,13 @@
    "why": "de reactie na de run"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytism3awlxzqs-0-3148-3580.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytism3awlxzqs-0-3148-3580.mp4",
+  "clip": "docs/media/pod-ytism3awlxzqs-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 355.36, \"start\": 353.82, \"text\": \"WHERE DOES THIS RUN LAND?\", \"why\": \"de reactie na de run\"}",
+  "made": "2026-11-19T13:47:57.771549+00:00"
  },
  {
   "start": 363.04,

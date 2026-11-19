@@ -697,8 +697,13 @@
    "why": "hoek van Deane"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-24-108408-108984.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-24-108408-108984.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10876.14, \"start\": 10873.3, \"text\": \"IS 52 DEGREES ENOUGH?\", \"why\": \"hoek van Deane\"}",
+  "made": "2026-11-19T13:42:26.698628+00:00"
  },
  {
   "start": 10926.36,
@@ -720,8 +725,13 @@
    "why": "twijfel commentaar"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-25-109264-109951.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-25-109264-109951.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10979.26, \"start\": 10976.18, \"text\": \"WAS THAT ENOUGH FOR THE TITLE?\", \"why\": \"twijfel commentaar\"}",
+  "made": "2026-11-19T13:44:52.284108+00:00"
  },
  {
   "start": 11020.04,
@@ -745,7 +755,12 @@
    "why": "spanning voor de uitslag"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-26-110200-110691.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-26-110200-110691.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 11023.28, \"start\": 11020.04, \"text\": \"HOW CLOSE IS THIS GOING TO BE?\", \"why\": \"spanning voor de uitslag\"}",
+  "made": "2026-11-19T13:46:30.779975+00:00"
  }
 ]
