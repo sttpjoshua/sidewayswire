@@ -102,6 +102,8 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .calm{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:50;display:flex;align-items:center;justify-content:center;padding:20px}
 .calm .box{background:#1b1b1e;border:2px solid #333;max-width:760px;width:100%;max-height:90vh;overflow:auto;display:grid;grid-template-columns:260px 1fr;gap:18px;padding:18px}
 .vph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#222;color:#666;font-size:18px}
+.lv{aspect-ratio:9/16;width:100%;background:#111 center/cover;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.lv span{width:54px;height:54px;border-radius:50%;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff;border:2px solid #fff}
 .pl{font-style:normal;font-size:9px;font-weight:700;padding:1px 3px;margin-right:2px;border-radius:2px;background:#444;color:#fff}.pl-instagram{background:#d6297b}.pl-facebook{background:#1877f2}.pl-tiktok{background:#111;border:1px solid #25f4ee}.pl-youtube{background:#e00}
 .calm .pt{display:grid;gap:3px;font-size:13px;margin-top:8px}.calm .caps .btn.on{background:var(--accent);color:#111}
 .calm .box img,.calm .box video{width:100%;display:block;background:#000}.calm .cap{white-space:pre-wrap;font-size:13px;color:#ccc;margin-top:8px}
@@ -438,12 +440,13 @@ function drawReview(){
   document.getElementById("rev-f").innerHTML=cats.map(k=>`<button class="${k===revFilter?"on":""}">${esc(k)} (${k==="ALLES"?R.length:R.filter(p=>CAT[cat(p)]===k).length})</button>`).join("");
   const L=R.filter(p=>revFilter==="ALLES"||CAT[cat(p)]===revFilter).sort((a,b)=>Object.keys(CAT).indexOf(cat(a))-Object.keys(CAT).indexOf(cat(b))||needsCheck(b)-needsCheck(a)||String(a.created||"").localeCompare(String(b.created||"")));
   let lastCat=null;
+  const total=L.length;L.splice(revLimit);
   rev.innerHTML=L.map(p=>{
     const head=cat(p)!==lastCat?`<h2 class="cat ${cat(p)}">${CAT[cat(p)]} <small>${L.filter(x=>cat(x)===cat(p)).length} te beoordelen</small></h2>`:"";lastCat=cat(p);
     const m=p.video?[p.video]:(p.media||[]), v=isVid(m[0]||"");
     const ep=p.id.startsWith("pod-")?p.id.split("-")[1]:null;
     return head+`<div class="rc ${needsCheck(p)?"chk":""}" id="r-${p.id}" data-id="${p.id}">
-      <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?`<video src="${esc(m[0])+ver(p)}" ${p.thumb?`poster="${esc(p.thumb)}"`:""} controls preload="none" playsinline></video>`:`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
+      <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?lazyVid(m[0]+ver(p),p.thumb):`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
         ${m.length>1?`<div class="nav"><button data-a="prev">‹</button><span class="tag" style="margin:4px 0">1/${m.length}</span><button data-a="next">›</button></div>`:""}</div>
       <div>
         <div class="row">${catTag(p)}${cat(p)==="posts"?`<span class="tag">${KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
@@ -462,7 +465,7 @@ function drawReview(){
           <button class="btn p" data-a="skip">OVERSLAAN</button>
           ${ep?`<a class="btn" href="podcasts.html#${ep}">AANPASSEN IN PODCASTSTUDIO</a>`:""}
         </div>
-      </div></div>`}).join("")||`<div class="empty">Niets te beoordelen. Nieuwe posts en clips verschijnen hier vanzelf.</div>`;
+      </div></div>`}).join("")+(total>L.length?`<button class="btn" data-more="rev" style="margin-top:10px">MEER LADEN (${total-L.length} te gaan)</button>`:"")||`<div class="empty">Niets te beoordelen. Nieuwe posts en clips verschijnen hier vanzelf.</div>`;
 }
 document.getElementById("rev-f").onclick=e=>{if(e.target.tagName==="BUTTON"){revFilter=e.target.textContent.replace(/ \(\d+\)$/,"");drawReview()}};
 rev.onclick=async e=>{
@@ -491,6 +494,11 @@ rev.onclick=async e=>{
 // ---------- clips ----------
 let clipFilter="ALLES";
 let clipCat="pod";
+let clipLimit=40,revLimit=20;
+function lazyVid(src,poster){return `<div class="lv" data-src="${esc(src)}" style="${poster?`background-image:url('${esc(poster)}')`:""}"><span>▶</span></div>`}
+document.addEventListener("click",e=>{const t=e.target.closest(".lv");if(!t)return;e.preventDefault();
+  const v=document.createElement("video");v.src=t.dataset.src;v.controls=true;v.autoplay=true;v.playsInline=true;v.style.width="100%";t.replaceWith(v)});
+document.addEventListener("click",e=>{const m=e.target.closest("[data-more]");if(!m)return;if(m.dataset.more==="clips"){clipLimit+=40;drawClips()}else{revLimit+=20;drawReview()}});
 function drawClips(){
   document.getElementById("clip-h").textContent="REELS · "+CAT[clipCat];
   document.getElementById("clip-sub").innerHTML=CATSUB[clipCat];
@@ -501,9 +509,9 @@ function drawClips(){
   const left=busy&&pn.eta!=null?Math.max(1,Math.round((pn.eta-(Date.now()-new Date(pn.updated))/1000)/60)):null;
   gal.innerHTML=(busy?`<div class="banner" style="grid-column:1/-1;margin:0;border-color:var(--accent)"><b>Bezig met clips maken: ${pn.done+1} van ${pn.total}</b>${pn.remake?` (waarvan ${pn.remake} opnieuw in de nieuwe opmaak)`:""}${left?` · nog ongeveer ${left} min`:""}<br>Nu: ${esc(pn.podcast||"")} · ${esc(pn.topic||pn.title||"")}. Elke paar clips verschijnen hier de nieuwe versies.<div class="pbar" style="height:8px;background:#2c2c30;margin-top:8px"><i style="display:block;height:100%;background:var(--accent);width:${Math.round(100*pn.done/pn.total)}%"></i></div></div>`
       :making?`<div class="empty" style="grid-column:1/-1">${making} clip${making>1?"s":""} wacht op video of op de volgende run. Bekijk het in de <a href="podcasts.html">podcaststudio</a>.</div>`:"")+
-    C.filter(F[clipFilter]).map(p=>`<div class="gc"><video src="${esc(p.video)+ver(p)}" ${p.thumb?`poster="${esc(p.thumb)}"`:""} controls preload="none" playsinline></video>
+    C.filter(F[clipFilter]).slice(0,clipLimit).map(p=>`<div class="gc">${lazyVid(p.video+ver(p),p.thumb)}
       <div>${stTag(p)}${p.post_at&&p.status==="ready"?`<span class="muted">${when(p.post_at)}</span>`:""}<br><b>${title(p)}</b><div class="cap">${esc(p.caption||"")}</div>
-      <div class="row" style="margin-top:8px">${["check","draft"].includes(p.status)?`<a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a>`:""}</div></div></div>`).join("")||(making?"":`<div class="empty">Nog geen clips.</div>`);
+      <div class="row" style="margin-top:8px">${["check","draft"].includes(p.status)?`<a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a>`:""}</div></div></div>`).join("")+(C.filter(F[clipFilter]).length>clipLimit?`<button class="btn" data-more="clips" style="grid-column:1/-1">MEER LADEN</button>`:"")||(making?"":`<div class="empty">Nog geen clips.</div>`);
 }
 document.getElementById("clip-f").onclick=e=>{if(e.target.tagName==="BUTTON"){clipFilter=e.target.textContent.replace(/ \(\d+\)$/,"");drawClips()}};
 
@@ -678,22 +686,27 @@ function show(){
   document.querySelectorAll("nav.side a[data-n]").forEach(a=>a.classList.toggle("on",a.dataset.n===NAVOF[s]));
   drawTabs();
   document.querySelectorAll("section").forEach(x=>x.classList.toggle("on",x.id==="s-"+s));
-  if(s==="clips"){clipCat=CAT[id]?id:"pod";drawClips()}
-  else if(id){revFilter="ALLES";drawReview();setTimeout(()=>{const el=document.getElementById("r-"+id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})},50)}
+  if(S&&s==="clips"){clipCat=CAT[id]?id:"live";clipLimit=40;drawClips()}
+  else if(S&&id){revFilter="ALLES";revLimit=500;drawReview();setTimeout(()=>{const el=document.getElementById("r-"+id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})},50)}
+  else if(S)drawCurrent();
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
-function drawAll(){drawLive();drawOverview();drawStats();drawTabs();drawRuns();drawReview();drawClips();drawPosts();drawCounts();drawPlan();drawNews();drawChannels();drawSources();
+function drawCurrent(){const s=(location.hash.slice(1)||"overzicht").split("/")[0];
+  ({overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
+function drawAll(){drawLive();drawCounts();drawTabs();drawCurrent();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
-  S=await fetch("status.json?"+Date.now()).then(r=>r.json());
-  PODNOW=await liveJson("podcasts-now.json",null);CLIPNOW=await liveJson("clips-now.json",null);
-  try{ED=await fetch("editor.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
-  try{STATS=await fetch("stats.json?"+Date.now()).then(r=>r.ok?r.json():null)}catch(e){}
-  await loadRuns();
-  try{const r=await fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}});if(r.ok)MAC=JSON.parse((await r.json()).body||"{}")}catch(e){}
+  // First what you see (status.json from the site itself), then the extras at the same time, then redraw.
+  const [st,ed,stats]=await Promise.all([fetch("status.json?"+Date.now()).then(r=>r.json()),
+    fetch("editor.json?"+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
+    fetch("stats.json?"+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)]);
+  S=st;ED=ed||ED;STATS=stats||STATS;
   drawAll();
+  await Promise.all([liveJson("podcasts-now.json",null).then(x=>PODNOW=x),liveJson("clips-now.json",null).then(x=>CLIPNOW=x),loadRuns(),
+    fetch(API+"/releases/tags/video-sources",{headers:key?{Authorization:`Bearer ${key}`}:{}}).then(r=>r.ok?r.json():null).then(j=>{if(j)MAC=JSON.parse(j.body||"{}")}).catch(()=>{})]);
+  drawLive();drawCurrent();
 }
 load().then(show).catch(e=>{document.querySelector("main").innerHTML=`<div class="empty">Kon de gegevens niet laden: ${esc(e.message)}</div>`});
 setInterval(()=>{if(!document.querySelector("textarea:focus,input:focus"))load()},60000);
