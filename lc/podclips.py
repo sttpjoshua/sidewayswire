@@ -150,13 +150,13 @@ def run(limit: int = 120) -> dict:
             if not m.get("split") and not 10 <= length <= 90:
                 m.update(status="error", error=f"clip length {length:.0f}s, keep it 15-75 s")
                 continue
-            wants_video = ep.get("kind") == "stream" or (no_video is not None and mf.stem not in no_video)
+            wants_video = ep.get("kind") in ("stream", "vlog") or (no_video is not None and mf.stem not in no_video)
             if upgrade and wants_video and name not in assets:
                 continue                           # keep the current clip until the checked video piece is there
             if m.get("wait_name") != name:
                 m.pop("wait_video", None)          # new piece asked for: start the waiting time again
                 m["wait_name"] = name
-            if ep.get("kind") == "stream" and name not in assets:
+            if ep.get("kind") in ("stream", "vlog") and name not in assets:
                 report["waiting_for_video"].append(pid)
                 continue                           # a stream clip needs the footage, there is no audio-only version
             if no_video is not None and name not in assets and mf.stem not in no_video:   # Mac is alive: wait for video
@@ -210,7 +210,7 @@ def run(limit: int = 120) -> dict:
                      or bool(m.get("check"))) and m.get("by") != "joshua"
             keep = bool(post) and post.get("status") in ("ready", "approved") and post.get("post_at") and not check
             q.save({                                     # a remake keeps its place in the content calendar
-                "id": pid, "kind": "stream_clip" if ep.get("kind") == "stream" else "podcast_clip",
+                "id": pid, "kind": {"stream": "stream_clip", "vlog": "vlog_clip"}.get(ep.get("kind"), "podcast_clip"),
                 "status": "ready" if keep else "draft", **({"post_at": post["post_at"]} if keep else {}),
                 "slides": [], "title": m.get("topic"),
                 "video": str(out.relative_to(ROOT)), "caption": cap, "tags": tags, "missing_handles": missing, "format": "split" if m.get("split") else "single",
@@ -218,7 +218,8 @@ def run(limit: int = 120) -> dict:
                 "check_reason": ("gerucht uit een podcast" if m["kind"] == "rumor"
                                  else "namen nakijken" if m.get("check")
                                  else "audiogram: er was geen video" if res["mode"] == "audiogram" else ""),
-                "platforms": ["instagram", "facebook", "tiktok", "youtube"],
+                # Vlog clips never go back to YouTube itself (the maker's own footage: Content ID claims).
+                "platforms": ["instagram", "facebook", "tiktok"] + ([] if ep.get("kind") == "vlog" else ["youtube"]),
                 "source": {"podcast": ep["podcast"], "episode": ep["title"], "start": m["start"]},
                 "created": (post or {}).get("created") or datetime.now(timezone.utc).isoformat(),
                 "built": datetime.now(timezone.utc).isoformat(),

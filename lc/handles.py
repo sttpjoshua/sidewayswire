@@ -70,7 +70,7 @@ def compose(ep: dict, m: dict) -> tuple[str, list[str], list[str]]:
                 handles.append(r["handle"])
         elif n not in missing:
             missing.append(n)
-    if ep.get("kind") == "stream" and ep.get("credit") and ep["credit"].lower() not in handles:
+    if ep.get("kind") in ("stream", "vlog") and ep.get("credit") and ep["credit"].lower() not in handles:
         handles.append(ep["credit"].lower())
     text = m.get("caption") or m.get("topic", "").capitalize()
     tags = re.findall(r"#\w+", text)
@@ -80,7 +80,8 @@ def compose(ep: dict, m: dict) -> tuple[str, list[str], list[str]]:
     body = re.sub(r"[ \t]+", " ", re.sub(r" +([,.!?])", r"\1", body)).strip()
     if "#sidewayswire" not in [t.lower() for t in tags]:
         tags.append("#sidewayswire")
-    src = (f"🎥 Footage: {ep.get('event') or ep.get('title', '')}" if ep.get("kind") == "stream"
+    src = (f"🎥 Full video: {ep.get('creator') or ep.get('podcast')} on YouTube" if ep.get("kind") == "vlog"
+           else f"🎥 Footage: {ep.get('event') or ep.get('title', '')}" if ep.get("kind") == "stream"
            else f"🎙 Full episode: {show.get('label') or ep.get('podcast', '')}")
     caption = f"{body}\n\n{src}\n{' '.join(handles)}\n\n{' '.join(dict.fromkeys(tags))}".replace("\n\n\n", "\n\n")
     return caption, handles, missing

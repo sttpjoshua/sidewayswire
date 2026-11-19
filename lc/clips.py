@@ -87,7 +87,7 @@ def _render(ep: dict, transcript: dict, moment: dict, out: str, photo: str | Non
         data = {"w": W, "h": H, "bg": "transparent", "podcast": ep["podcast"], "guest": moment.get("guest", ""),
                 "topic": moment.get("topic"), "kind": moment.get("kind", "moment"),
                 "credit": moment.get("credit") or ep.get("credit"), "audiogram": mode == "audiogram", "photo": photo,
-                "stream": ep.get("kind") == "stream", "event": ep.get("event"), "hook": hook_text}
+                "stream": ep.get("kind") in ("stream", "vlog"), "vlog": ep.get("kind") == "vlog", "event": ep.get("event"), "hook": hook_text}
         r.render("clip_overlay.html", data, tmp / "layer.png", transparent=True)
         # Context photos (added by Joshua in the podcast studio), shown one after another
         photos = []

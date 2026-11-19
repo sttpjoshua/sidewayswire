@@ -34,7 +34,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "15"
+VERSION = "16"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -416,6 +416,8 @@ def discover_streams(reg: dict, state: dict) -> list:
                 continue
             dur = float(p[1]) if p[1].replace(".", "", 1).isdigit() else 0
             t, day = p[2].lower(), p[3] if p[3].isdigit() else ""
+            if dur > ch.get("max_hours", 99) * 3600:
+                continue
             if dur < ch.get("min_hours", 1.5) * 3600 or (ch.get("match") and not any(w in t for w in ch["match"])):
                 continue
             if any(w in t for w in ch.get("exclude", [])):
@@ -430,7 +432,7 @@ def discover_streams(reg: dict, state: dict) -> list:
             sid = "yt" + re.sub(r"[^a-z0-9]", "", p[0].lower())
             added.append({"id": sid, "series": ch["series"], "title": p[2], "event": p[2].split(" - ")[0].upper().replace("FORMULA DRIFT", "FD")[:40],
                           "date": f"{day[:4]}-{day[4:6]}-{day[6:]}", "credit": ch["credit"], "youtube": p[0],
-                          "auto": True})
+                          "auto": True, **({"kind": ch["kind"], "creator": ch.get("creator")} if ch.get("kind") else {})})
             known.add(p[0])
     if added:
         found["streams"] += added

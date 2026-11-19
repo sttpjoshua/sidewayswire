@@ -76,6 +76,8 @@ def event_name(post: dict) -> str:
     Qualifying'; the show name for podcasts. Built from the full episode title, not the cut-off source line."""
     src = _src(post)
     series = src.get("podcast", "")
+    if post.get("kind") == "vlog_clip":
+        return f"{series} vlog".strip()
     if post.get("kind") != "stream_clip":
         line = _parts(post.get("caption", ""))["source"]
         return re.sub(r"^🎙\s*Full episode:\s*", "", line).split(",")[0].strip() or series
@@ -128,7 +130,7 @@ def captions(post: dict) -> dict:
         return {p: c for p in RHYTHM} | {"youtube_title": (post.get("title") or keyword_line(post))[:60]}
     pt = _parts(post.get("caption", ""))
     kind = (post.get("_moment") or {}).get("kind", "")
-    is_clip = post.get("kind") in ("stream_clip", "podcast_clip", "battle_reel")
+    is_clip = post.get("kind") in ("stream_clip", "podcast_clip", "battle_reel", "vlog_clip")
     kw = keyword_line(post) if is_clip else ""
     share = SHARE_HOOKS[sum(map(ord, post.get("id", ""))) % len(SHARE_HOOKS)] if kind in SHARE_KINDS else ""
     hl = " ".join(pt["handles"])

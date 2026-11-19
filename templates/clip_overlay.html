@@ -10,7 +10,7 @@
                  'battle': 'BATTLE', 'crash': 'CRASH', 'omt': 'ONE MORE TIME', 'final': 'THE FINAL', 'call': 'JUDGES CALL', 'qualify': 'QUALIFYING'}.get(kind or 'moment', 'HIGHLIGHT') %}
 {% set lbg = 'var(--pink)' if kind in ('rumor', 'crash', 'omt') else 'var(--accent)' %}
 <img class="wordmark" alt="Sideways Wire" src="{{ logo }}" style="top:215px;width:300px">
-<div class="abs badge bb" style="top:205px;background:{{ lbg }};font-size:32px;line-height:1">{% if stream %}LIVE<br>FOOTAGE{% else %}ON THE<br>POD{% endif %}</div>
+<div class="abs badge bb" style="top:205px;background:{{ lbg }};font-size:32px;line-height:1">{% if vlog %}FROM THE<br>VLOG{% elif stream %}LIVE<br>FOOTAGE{% else %}ON THE<br>POD{% endif %}</div>
 {% if audiogram %}
 <div class="abs" style="left:265px;top:500px;width:450px;height:450px;border:6px solid #fff;transform:rotate(-2deg);overflow:hidden;background:#232326">
 {% if photo %}<img src="{{ photo }}" style="width:100%;height:100%;object-fit:cover">{% endif %}

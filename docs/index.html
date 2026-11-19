@@ -24,7 +24,7 @@ nav.side .live .pb{height:4px;background:#2c2c30;margin-top:4px}nav.side .live .
 nav.side .foot{margin-top:0!important}
 nav.side .grp{padding:16px 20px 4px;font-size:10px;font-weight:800;letter-spacing:2px;color:#5b5b60}
 h2.cat{border-bottom:3px solid var(--accent);padding-bottom:6px}h2.cat.live{border-color:#ff7a00}h2.cat.battle{border-color:var(--pink)}h2.cat.posts{border-color:#4aa8ff}
-.tag.c-pod{background:var(--accent);color:#111}.tag.c-live{background:#ff7a00;color:#111}.tag.c-battle{background:var(--pink);color:#111}.tag.c-posts{background:#4aa8ff;color:#111}
+.tag.c-pod{background:var(--accent);color:#111}.tag.c-live{background:#ff7a00;color:#111}.tag.c-battle{background:var(--pink);color:#111}.tag.c-posts{background:#4aa8ff;color:#111}.tag.c-vlog{background:#b388ff;color:#111}
 nav.side .foot{margin-top:auto;padding:14px 20px;font-size:11px;color:var(--mute);line-height:1.6}
 main{padding:26px 32px 80px;max-width:1300px;width:100%}
 h1,h2,h3,.n{font-family:"Bebas Neue",sans-serif;letter-spacing:1px;margin:0;font-weight:400}
@@ -85,7 +85,7 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .cal .ev{display:flex;gap:5px;align-items:center;font-size:11px;line-height:1.25;padding:3px 4px;background:#26262a;border-left:3px solid #777;cursor:pointer;color:#ddd;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .cal .ev:hover{background:#303035}.cal .ev b{font-weight:800;color:#fff;flex:none}.cal .ev span{overflow:hidden;text-overflow:ellipsis}
 .cal .ev.free{background:none;border-left:3px dashed #3a3a3f;color:#55555b;cursor:default}
-.cal .ev.c-pod{border-color:var(--accent)}.cal .ev.c-live{border-color:#ff7a00}.cal .ev.c-battle{border-color:var(--pink)}.cal .ev.c-posts{border-color:#4aa8ff}
+.cal .ev.c-pod{border-color:var(--accent)}.cal .ev.c-live{border-color:#ff7a00}.cal .ev.c-battle{border-color:var(--pink)}.cal .ev.c-posts{border-color:#4aa8ff}.cal .ev.c-vlog{border-color:#b388ff}
 .cal .ev.posted{opacity:.6}.cal .ev.wait{border-left-style:dotted}
 .calm{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:50;display:flex;align-items:center;justify-content:center;padding:20px}
 .calm .box{background:#1b1b1e;border:2px solid #333;max-width:760px;width:100%;max-height:90vh;overflow:auto;display:grid;grid-template-columns:260px 1fr;gap:18px;padding:18px}
@@ -133,6 +133,7 @@ section{display:none}section.on{display:block}
   <a href="#clips/pod" data-s="clips" data-c="pod">PODCASTCLIPS <span class="cnt" id="c-pod"></span></a>
   <a href="#clips/live" data-s="clips" data-c="live">LIVESTREAM <span class="cnt" id="c-live"></span></a>
   <a href="#clips/battle" data-s="clips" data-c="battle">BATTLES <span class="cnt" id="c-battle"></span></a>
+  <a href="#clips/vlog" data-s="clips" data-c="vlog">VLOGS <span class="cnt" id="c-vlog"></span></a>
   <div class="grp">POSTS</div>
   <a href="#posts" data-s="posts">CARROUSELS <span class="cnt" id="c-posts"></span></a>
   <a href="#nieuws" data-s="nieuws">NIEUWSBRONNEN</a>
@@ -211,13 +212,14 @@ section{display:none}section.on{display:block}
 <script>
 const REPO="sttpjoshua/sidewayswire", API=`https://api.github.com/repos/${REPO}`;
 const ST={draft:"nieuw",check:"check nodig",approved:"goedgekeurd",ready:"ingepland",posted:"geplaatst",skipped:"overgeslagen",error:"fout"};
-const KIND={podcast_clip:"PODCASTCLIP",stream_clip:"LIVESTREAM",news:"NIEUWS",result:"UITSLAG",results:"UITSLAG",standings:"STAND",battle_reel:"BATTLE REEL",quote:"QUOTE",cover:"COVER",bracket:"BRACKET",zones:"ZONES",debate:"DEBAT",crash:"CRASH"};
-const CAT={pod:"PODCASTCLIPS",live:"LIVESTREAM",battle:"BATTLES",posts:"POSTS"};
+const KIND={podcast_clip:"PODCASTCLIP",stream_clip:"LIVESTREAM",vlog_clip:"VLOG",news:"NIEUWS",result:"UITSLAG",results:"UITSLAG",standings:"STAND",battle_reel:"BATTLE REEL",quote:"QUOTE",cover:"COVER",bracket:"BRACKET",zones:"ZONES",debate:"DEBAT",crash:"CRASH"};
+const CAT={pod:"PODCASTCLIPS",live:"LIVESTREAM",battle:"BATTLES",vlog:"VLOGS",posts:"POSTS"};
 const CATSUB={pod:"Clips uit podcasts. Momenten kiezen of aanpassen doe je in de <a href=\"podcasts.html\">podcaststudio</a>.",
   live:"Losse momenten uit de livestreams: battles, crashes, one more times, jury-calls en interviews.",
   battle:"Split-screen battles: run 1 boven, run 2 onder. Eerst LEAD VS LEAD, dan CHASE VS CHASE.",
+  vlog:"Clips uit de YouTube-vlogs van coureurs die toestemming gaven. Gaan naar Instagram, Facebook en TikTok, niet naar YouTube.",
   posts:"Posts en carrousels met beeld."};
-function cat(p){if(p.kind==="podcast_clip")return"pod";if(p.kind==="stream_clip")return p.format==="split"?"battle":"live";if(p.kind==="battle_reel")return"battle";return"posts"}
+function cat(p){if(p.kind==="podcast_clip")return"pod";if(p.kind==="vlog_clip")return"vlog";if(p.kind==="stream_clip")return p.format==="split"?"battle":"live";if(p.kind==="battle_reel")return"battle";return"posts"}
 const catTag=p=>`<span class="tag c-${cat(p)}">${CAT[cat(p)]}</span>`;
 const PLAT={instagram:"IG",facebook:"FB",tiktok:"TT",youtube:"YT"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -475,7 +477,7 @@ function drawCal(L){
   const start=new Date(y,m,1),off=(start.getDay()+6)%7,days=new Date(y,m+1,0).getDate(),cells=Math.ceil((off+days)/7)*7,today=ymd(amsDate(Date.now()));
   let h=`<div class="cal-head"><button class="btn" data-cal="-1">◀</button><h2>${start.toLocaleDateString("nl-NL",{month:"long",year:"numeric"}).toUpperCase()}</h2><button class="btn" data-cal="1">▶</button>
     <span class="muted">${PLATN[planPlat].toLowerCase()} · ${inMonth} momenten deze maand${inMonth?" · "+Object.keys(CAT).filter(c=>counts[c]).map(c=>`${counts[c]} ${CAT[c].toLowerCase()}`).join(", "):""}</span></div>
-    <div class="cal-leg">${Object.keys(CAT).map(c=>`<span><i style="background:${{pod:"var(--accent)",live:"#ff7a00",battle:"var(--pink)",posts:"#4aa8ff"}[c]}"></i>${CAT[c]}</span>`).join("")}<span><i style="border:1px dashed #555"></i>VRIJE PLEK</span></div>
+    <div class="cal-leg">${Object.keys(CAT).map(c=>`<span><i style="background:${{pod:"var(--accent)",live:"#ff7a00",battle:"var(--pink)",vlog:"#b388ff",posts:"#4aa8ff"}[c]}"></i>${CAT[c]}</span>`).join("")}<span><i style="border:1px dashed #555"></i>VRIJE PLEK</span></div>
     <div class="cal">${["MA","DI","WO","DO","VR","ZA","ZO"].map(d=>`<div class="wd">${d}</div>`).join("")}`;
   for(let c=0;c<cells;c++){const d=new Date(y,m,c-off+1),k=ymd(d),xs=(byDay[k]||[]).sort((a,b)=>new Date(a.t)-new Date(b.t)),out=d.getMonth()!==m;
     const used=new Set(xs.map(x=>hm(x.t))),future=k>=today&&k>="2026-12-01";

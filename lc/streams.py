@@ -34,7 +34,7 @@ def episodes() -> dict:
         mac = json.loads(mf.read_text()) if mf.exists() else {}
         has_t = (ROOT / "data" / "podcasts" / "t" / f"{s['id']}.json").exists()
         out[s["id"]] = {
-            "id": s["id"], "kind": "stream", "podcast": s["series"], "title": s["title"],
+            "id": s["id"], "kind": s.get("kind", "stream"), "creator": s.get("creator"), "podcast": s["series"], "title": s["title"],
             "published": s.get("date", ""), "credit": s.get("credit"), "event": s.get("event", s["title"]),
             "youtube": s.get("youtube") or mac.get("youtube"), "seconds": mac.get("seconds"), "audio": None, "link": None, "art": None,
             "status": "transcribed" if has_t and mac.get("status") == "transcribed"

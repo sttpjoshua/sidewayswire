@@ -109,6 +109,174 @@
    "since": "2026-01-01",
    "min_hours": 0.05,
    "limit": 150
+  },
+  {
+   "url": "https://www.youtube.com/@adamlz/videos",
+   "series": "Adam LZ",
+   "creator": "Adam LZ",
+   "credit": "@adam_lz",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026)"
+  },
+  {
+   "url": "https://www.youtube.com/@tjhunt_/videos",
+   "series": "TJ Hunt",
+   "creator": "TJ Hunt",
+   "credit": "",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026)"
+  },
+  {
+   "url": "https://www.youtube.com/@ChelseaDeNofa/videos",
+   "series": "Chelsea DeNofa",
+   "creator": "Chelsea DeNofa",
+   "credit": "@chelseadenofa",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026)"
+  },
+  {
+   "url": "https://www.youtube.com/@ColleteDavis/videos",
+   "series": "Collete Davis",
+   "creator": "Collete Davis",
+   "credit": "@colletedavis",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026)"
+  },
+  {
+   "url": "https://www.youtube.com/@JimmyOakes/videos",
+   "series": "Jimmy Oakes",
+   "creator": "Jimmy Oakes",
+   "credit": "",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026)"
+  },
+  {
+   "url": "https://www.youtube.com/@JamesDeane130/videos",
+   "series": "James Deane",
+   "creator": "James Deane",
+   "credit": "@jamesdeane130",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026)"
+  },
+  {
+   "url": "https://www.youtube.com/@TheShanahans/videos",
+   "series": "The Shanahans",
+   "creator": "The Shanahans",
+   "credit": "@conorshanahan79",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026)"
+  },
+  {
+   "url": "https://www.youtube.com/@VaughnGittinJr/videos",
+   "series": "Vaughn Gittin Jr.",
+   "creator": "Vaughn Gittin Jr.",
+   "credit": "@vaughngittinjr",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (19 nov 2026)"
   }
  ]
 }

@@ -76,7 +76,7 @@ def cut(src: Path, parts: list[tuple[float, float]], out: Path) -> None:
 def run(limit: int = 400) -> dict:
     rep = {"made": 0, "not_needed": 0, "split": 0, "errors": []}
     posts = [p for p in q.load() if p.get("status") in ("ready", "approved", "check", "draft")
-             and p.get("kind") in ("stream_clip", "podcast_clip") and not p.get("short") and not p.get("short_none")
+             and p.get("kind") in ("stream_clip", "podcast_clip", "vlog_clip") and not p.get("short") and not p.get("short_none")
              and p.get("video")]
     posts.sort(key=lambda p: (p.get("post_at") is None, p.get("post_at") or "", -(p.get("score") or 0)))
     with tempfile.TemporaryDirectory() as tmp:

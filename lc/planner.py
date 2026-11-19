@@ -26,7 +26,7 @@ MOMENTS = ROOT / "data" / "podcasts" / "moments"
 HORIZON_DAYS = 28
 FREEZE_HOURS = 36
 RECENT = 3                              # a driver comes back on the same platform after at least 3 other reels
-REEL_KINDS = {"stream_clip", "podcast_clip", "battle_reel"}
+REEL_KINDS = {"stream_clip", "podcast_clip", "battle_reel", "vlog_clip"}
 URGENT = q.URGENT
 KIND_POINTS = {"battle": 30, "final": 30, "crash": 28, "omt": 28, "qualify": 24, "call": 18, "moment": 16,
                "quote": 12, "fact": 8, "rumor": 8}
@@ -48,7 +48,7 @@ def score(p: dict, m: dict, reg: dict) -> int:
     """0..100. Kind of moment, split battle, how well-known the drivers are, livestream footage, length."""
     s = KIND_POINTS.get(m.get("kind", ""), 10)
     s += 15 if p.get("format") == "split" or m.get("split") else 0
-    s += 12 if p.get("kind") == "stream_clip" else 0
+    s += {"stream_clip": 12, "vlog_clip": 8}.get(p.get("kind"), 0)
     prios = [reg[k]["prio"] for k in (handles._key(n) for n in handles.people(m)) if k in reg]
     s += {1: 25, 2: 14}.get(min(prios), 4) if prios else 0
     s += 5 if len(prios) >= 2 else 0
@@ -96,6 +96,8 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
         want = [x for x in (p.get("platforms") or ["instagram", "facebook"]) if x in plats]
         if not is_reel:
             want = [x for x in want if x not in platforms.VIDEO_ONLY]
+        if p.get("kind") == "vlog_clip":
+            want = [x for x in want if x != "youtube"]
         p["platforms"] = p.get("platforms") or ["instagram", "facebook"]
         p["_want"] = want
         old = p.get("plan") or {}
