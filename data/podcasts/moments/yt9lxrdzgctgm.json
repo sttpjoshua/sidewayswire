@@ -675,8 +675,13 @@
    "why": "spanning beslissing"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-22-91431-91858.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-22-91431-91858.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9167.4, \"start\": 9165.06, \"text\": \"TWO LEGENDS, ONE WINNER\", \"why\": \"spanning beslissing\"}",
+  "made": "2026-11-19T00:15:04.422444+00:00"
  },
  {
   "start": 9227.62,
@@ -698,8 +703,13 @@
    "why": "grappig eerlijk"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-23-92276-92723.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-23-92276-92723.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9239.5, \"start\": 9237.78, \"text\": \"THE CHAMPION ADMITS SOMETHING\", \"why\": \"grappig eerlijk\"}",
+  "made": "2026-11-19T00:16:06.717614+00:00"
  },
  {
   "start": 9276.4,
@@ -723,10 +733,15 @@
    "why": "expert analyse"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Simen Olsen",
-  "wait_name": "v2-yt9lxrdzgctgm-24-92764-93378.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-24-92764-93378.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9316.68, \"start\": 9315.02, \"text\": \"THE CHAMPION BREAKS IT DOWN\", \"why\": \"expert analyse\"}",
+  "made": "2026-11-19T00:17:42.391091+00:00"
  },
  {
   "start": 9603.82,
@@ -748,8 +763,13 @@
    "why": "ambitieuze uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-25-96038-96276.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-25-96038-96276.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9627.58, \"start\": 9625.88, \"text\": \"A WARNING FOR NEXT SEASON\", \"why\": \"ambitieuze uitspraak\"}",
+  "made": "2026-11-19T00:18:20.735963+00:00"
  },
  {
   "start": 9999.38,
