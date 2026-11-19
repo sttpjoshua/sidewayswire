@@ -80,10 +80,15 @@
    "why": "de pech"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Namen 'Raman Khandrasenka' en 'Laurie Heinden' uit commentaar; spelling nakijken",
-  "wait_name": "v2-ythcpensbcsdc-2-1622-2231.mp4"
+  "wait_name": "v2-ythcpensbcsdc-2-1622-2231.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 209.54, \"start\": 207.46, \"text\": \"WHAT HAPPENED TO THE FORMER CHAMPION?\", \"why\": \"de pech\"}",
+  "made": "2026-11-19T12:41:01.521928+00:00"
  },
  {
   "start": 231.3,
@@ -106,10 +111,15 @@
    "why": "de fout"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Naam 'Nassau Hobali' uit commentaar; spelling nakijken",
-  "wait_name": "v2-ythcpensbcsdc-3-2313-2990.mp4"
+  "wait_name": "v2-ythcpensbcsdc-3-2313-2990.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 282.72, \"start\": 279.74, \"text\": \"ONE MISTAKE AT THE WORST TIME\", \"why\": \"de fout\"}",
+  "made": "2026-11-19T12:43:24.090918+00:00"
  },
  {
   "start": 306.5,
@@ -132,10 +142,15 @@
    "why": "juichende commentator"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Voornaam van Keskikorpi ('Ismika Kesca Carpi' in transcript) nakijken",
-  "wait_name": "v2-ythcpensbcsdc-4-3065-3809.mp4"
+  "wait_name": "v2-ythcpensbcsdc-4-3065-3809.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 358.0, \"start\": 355.44, \"text\": \"CAN HE BEAT A LEGEND?\", \"why\": \"juichende commentator\"}",
+  "made": "2026-11-19T12:45:58.678320+00:00"
  },
  {
   "start": 75.6,
@@ -170,8 +185,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ythcpensbcsdc-5r2-1065-1325.mp4"
+  "status": "queued",
+  "wait_name": "v2-ythcpensbcsdc-5r2-1065-1325.mp4",
+  "clip": "docs/media/pod-ythcpensbcsdc-5/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T12:48:02.393006+00:00"
  },
  {
   "start": 166.0,

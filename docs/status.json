@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T12:38:39.255001+00:00",
+ "updated": "2026-11-19T12:48:02.415796+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 108
+  "draft": 112
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -10282,9 +10282,9 @@
       "topic": "FORMER CHAMPION LOSES POWER",
       "quote": "Ladies and gentlemen, taking on Raman Khandrasenka in the incredible Mercedes -AMG GT Coupe. But look at this, from Heindenen, a fresh engine. He's no fuss as he fires that car to outside zone for Khandrasenka. Doing a good job, goes a little wide, gets himself checked up now. Has to get back into it. Needs to shortcut. Dive onto the door of Heinden, but he can't find the pace to keep up with the former champion as they cross the line. Well, they're back on the line, Raman, to lead out Laurie Heinden. As they get the green light, they come off the line of 2JZ and say he's AMG GT. Koop fires into initiation. Laurie Heindland, a weird initiation. Looks like he's struggling maybe in the background. As Laurie Heindland seems to be forming away and he's got no power by the looks of it. Oh no! Heindland shuts it down! Raman Kandisenkar is going to finish off the run and it looks like our wildcard is going to take a step into the top 16. Wow, wow, it's gonna be Ramon Candrasenko getting the win",
       "why": "Heinonen valt stil, wildcard Kandrasenka naar top 16",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10296,9 +10296,9 @@
       "topic": "MCKEEVER OUT IN TOP 16",
       "quote": "Ray McKeever pilot in that James Dean built one eight yes X to Jay Z as he fires in That's our barley keeping within striking distance as they fire to outside So for a look at this from natural Oh, Hobali puts that car onto the door. And now he's in the pocket. There won't be any shaking. Whoa! The guy from the buyers. He fires in. Nassau Hobali is a man possessive of him. Oh, he's gliding, man. Kravan Kevlar, Nishan, 400z, as they get the green light to go, the V8 screams front of me to find it on the Kravan Kevlar. They hammer through the gears. Makiva won't want to let Nassau Hobali get away. Both guys catch a bit of understeer. Makiva's with him, though, as Makiva fires it in. and then a shallow jangle up. Look at Nassau Haabali though, barely any breaking into outside zone 4 as he now finds the edge of the circuit, Makiiba needs to make a dive and he does! On the outside zone. Oh! Makiiba catches himself out and washes off the edge of the track and back on again. Oh man, for Duane, yeah, same. Same thing. It's going to be Nassau Haabali getting the win, advancing through to the top 8, takes out Duane Makiiba.",
       "why": "McKeever duikt, gaat wijd en ligt eruit",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-3/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10310,9 +10310,9 @@
       "topic": "FIRST PODIUM FOR KESKIKORPI",
       "quote": "Well, here we go through the gears, down to initiation. Kesci Korpi flicks that car in, stands on the accelerator, pulls that car right to the edge of the circuit. This is a lot nicer from Kesci Korpi in the lead. Back on throw, just about keeps a wheel in the outside zone. But look at Dean into the smoke, onto the door as Kesci Korpi fires it back again. Big angle throw. Oh! Dean loses some ground. Kesci Korpi misses the zone and across the line. And now today's been really sticking it to the door. Well, here we go. Big time to prove you who you are Against one of the greats of drifting as they fire in to initiation Dean flicks that car to angle Kesci Korpi finds himself down the inside They transition back. Kesci Korpi Knows his that car onto the front wheel with a must -hanger. Dean fulfills all about side zone form. Look at Kesci Korpi There's no shaking the fin as he fires down the inside once again Kesci Korpi onto the front wheel on the door across the line. Wow Wow What a step up from Kesca Carpi. Decisions in, left for Kesca Carpi, right for Dean. Ismika Kesca Carpi takes down James Dean! For a third step on the podium, the Finnish driver does it in 2026. He gets his first Driftmasters podium, and what a reaction. Look what he means to him. Do you know what, Jacob? I am so stoked for that young man.",
       "why": "Finse coureur verslaat James Deane voor P3",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-4/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -10324,9 +10324,9 @@
       "topic": "CIRBA VS ROED SPLIT",
       "quote": "",
       "why": "Beide runs naast elkaar, run 2 eindigt in een spin",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ythcpensbcsdc-5/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -20751,6 +20751,166 @@
    "photo": null
   },
   {
+   "id": "pod-ythcpensbcsdc-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 75.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:48:02.394206+00:00",
+   "built": "2026-11-19T12:48:02.394212+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-5/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Benediktas Čirba",
+    "Espen Røed"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "CIRBA VS ROED SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Third place battle against one of the greats, and the Finnish driver takes down James Deane for his first Drift Masters podium.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 306.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:45:58.679707+00:00",
+   "built": "2026-11-19T12:45:58.679713+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-4/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Keskikorpi"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FIRST PODIUM FOR KESKIKORPI",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Duane McKeever needs to dive, does it, and washes off the edge of the track. Nasser Habali goes through to the top 8.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 231.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:43:24.092320+00:00",
+   "built": "2026-11-19T12:43:24.092326+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-3/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Duane McKeever",
+    "Nasser Habali"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "MCKEEVER OUT IN TOP 16",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #wildcard #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 162.24
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:41:01.523313+00:00",
+   "built": "2026-11-19T12:41:01.523320+00:00",
+   "want_at": null,
+   "video": "media/pod-ythcpensbcsdc-2/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Raman Kandrasenka",
+    "Lauri Heinonen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "FORMER CHAMPION LOSES POWER",
+   "photo": null
+  },
+  {
    "id": "pod-ythcpensbcsdc-1",
    "kind": "stream_clip",
    "status": "draft",
@@ -23877,163 +24037,6 @@
    "caption_by": null,
    "format": "single",
    "title": "TWIN CORVETTES",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-16",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ken Gushi and Cody Buchanan are like identical twin brothers, tip for tip, then Cody shuts it down.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@cbuchanan272 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1062.07
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:40:10.899861+00:00",
-   "built": "2026-11-19T07:40:10.899870+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-16/clip.mp4",
-   "tags": [
-    "@cbuchanan272",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Ken Gushi"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "BUCHANAN SHUTS IT DOWN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-15",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Sparks flying from Ben Hobson's Mustang and Adam LZ bangs the door. Sensational.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@benhobson213 @adam_lz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 992.19
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:38:15.018520+00:00",
-   "built": "2026-11-19T07:38:15.018526+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-15/clip.mp4",
-   "tags": [
-    "@benhobson213",
-    "@adam_lz",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "SPARKS AND A DOOR BANG",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-14",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Clinical, confident, smooth, controlled. Conor Shanahan is almost perfect on average.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@romecp @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 948.43
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:37:02.426112+00:00",
-   "built": "2026-11-19T07:37:02.426120+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-14/clip.mp4",
-   "tags": [
-    "@romecp",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "SHANAHAN ALMOST PERFECT",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-13",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "It was a restart. Odi Bakchis anticipated the initiation and went into the back of the lead car. Huge implications.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@hiroya.minowa @odidrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 895.59
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:35:19.981279+00:00",
-   "built": "2026-11-19T07:35:19.981285+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-13/clip.mp4",
-   "tags": [
-    "@hiroya.minowa",
-    "@odidrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "ODI HITS HIM ON A RESTART",
    "photo": null
   }
  ],
