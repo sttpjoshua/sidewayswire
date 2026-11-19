@@ -63,6 +63,14 @@ def podcast_status() -> dict:
     return {"feeds": feeds, "episodes": eps}
 
 
+def shown_posts(posts: list[dict]) -> list[dict]:
+    """Everything that is still to come (planned, in stock, to review) plus the 150 latest posted."""
+    key = lambda p: p.get("posted_at") or p.get("post_at") or p.get("built") or p.get("created") or ""
+    live = [p for p in posts if p.get("status") not in ("posted", "skipped")]
+    done = sorted((p for p in posts if p.get("status") in ("posted", "skipped")), key=key, reverse=True)[:150]
+    return sorted(live + done, key=key, reverse=True)
+
+
 def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> dict:
     posts = q.load(folder=folder)
     inbox = ROOT / "data" / "inbox.json"
@@ -92,8 +100,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
                                                  "video": mediastore.url(p["video"]) if p.get("video") else None,
                                                  "short": mediastore.url(p["short"]) if p.get("short") else None,
                                                  "title": clip_title(p), "photo": photo_info(p)}
-                  for p in sorted(posts, key=lambda p: p.get("post_at") or p.get("built") or p.get("created") or "",
-                                  reverse=True)[:300]],
+                  for p in shown_posts(posts)],
         "channels": json.loads((ROOT / "data" / "channels.json").read_text()) if (ROOT / "data" / "channels.json").exists() else {},
     }
     out.write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")
