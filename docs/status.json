@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T08:40:34.064970+00:00",
+ "updated": "2026-11-19T08:49:29.043505+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 64
+  "draft": 68
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -20751,6 +20751,164 @@
    "photo": null
   },
   {
+   "id": "pod-yth2evinkswei-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Teammates, no team orders. Vaughn Gittin Jr. twists the screws on James Deane. Four RTR Mustangs out here.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @vaughngittinjr @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 324.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:49:29.022442+00:00",
+   "built": "2026-11-19T08:49:29.022449+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-4/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@vaughngittinjr",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "NO TEAM ORDERS",
+   "photo": null
+  },
+  {
+   "id": "pod-yth2evinkswei-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "One more time between James Deane and Fredric Aasbo. Absolute warriors of Formula DRIFT.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 272.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:47:00.630627+00:00",
+   "built": "2026-11-19T08:47:00.630636+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-3/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "ONE MORE TIME IN LONG BEACH",
+   "photo": null
+  },
+  {
+   "id": "pod-yth2evinkswei-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "No tomfoolery, no Irish games. James Deane sinks the sword into his fellow countryman Conor Shanahan. Bragging rights at the pub.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @conorshanahan79 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 148.38
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:44:58.310435+00:00",
+   "built": "2026-11-19T08:44:58.310440+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-2/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "SINKING IN THE SWORD",
+   "photo": null
+  },
+  {
+   "id": "pod-yth2evinkswei-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Trenton Beechum dives in, then James Deane chases him down and gets right into the pocket. Hard to beat.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @trenton_beechum @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 79.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:42:56.054788+00:00",
+   "built": "2026-11-19T08:42:56.054795+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-1/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE TAKES A DIFFERENT APPROACH",
+   "photo": null
+  },
+  {
    "id": "pod-yth2evinkswei-0",
    "kind": "stream_clip",
    "status": "draft",
@@ -23901,172 +24059,6 @@
    "caption_by": null,
    "format": "single",
    "title": "OLSEN HUNTS THE NEW CHAMPION",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8egpwdvj0eq-3",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Braden Lons does everything he can to throw out Dmitriy Brutskiy, but he is unflappable. Celebratory donuts.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@dimabrutskiy @braden.lons @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
-   "media": [
-    "media/pod-yt8egpwdvj0eq-3/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
-    "start": 398.2
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:25:06.990425+00:00",
-   "built": "2026-11-19T01:11:26.007118+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8egpwdvj0eq-3/clip.mp4",
-   "tags": [
-    "@dimabrutskiy",
-    "@braden.lons",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "BRUTSKIY UNFLAPPABLE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8egpwdvj0eq-2",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jerry Johnson ends up on the wrong side, while his opponent kept it between the white lines.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
-   "media": [
-    "media/pod-yt8egpwdvj0eq-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
-    "start": 177.62
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:24:04.593280+00:00",
-   "built": "2026-11-19T01:11:25.911574+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8egpwdvj0eq-2/clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Jerry Johnson"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "JOHNSON ON THE WRONG SIDE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8egpwdvj0eq-1",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Braden Lons rips out the gates like a racehorse against the Pro Spec points leader Corey Tlaska.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
-   "media": [
-    "media/pod-yt8egpwdvj0eq-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
-    "start": 146.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:23:12.253338+00:00",
-   "built": "2026-11-19T01:11:25.705975+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8egpwdvj0eq-1/clip.mp4",
-   "tags": [
-    "@braden.lons",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Corey Tlaska"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "LONS HAS SOMETHING TO PROVE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-9",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Unanimous for Matt Field after the Corvette contact. The judges explain why the blame lands on the lead car.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #judging #sidewayswire",
-   "media": [
-    "media/pod-yt8bwn2g2ssy-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 2449.47
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:15:15.800189+00:00",
-   "built": "2026-11-19T01:11:25.686556+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8bwn2g2ssy-9/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Tommy LaMere"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "JUDGES EXPLAIN THE CORVETTE CRASH",
    "photo": null
   }
  ],
