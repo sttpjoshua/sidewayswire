@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T08:14:32.318654+00:00",
+ "updated": "2026-11-19T08:20:17.973901+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 48
+  "draft": 52
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -9820,9 +9820,9 @@
       "topic": "JACK THE SHADOW",
       "quote": "Here goes Rome Sharpens here. Initiates in the lead. Look at Jack. He is shadowing him everywhere he goes. Look at that. Wow. I mean, he is right there. He's in his back pocket. Transition into outside zone 3. And see how he dips back. That's where you want to be right there in that pocket of transition four into five He kept the same amount of distance proximity wise That was that was incredible. I would eat it starts going down. Yeah, Jack Shannon I mean, oh great effort there",
       "why": "Jack schaduwt Rome overal, 100 procent proximity",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-10/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9834,9 +9834,9 @@
       "topic": "TUERCK PUTS OUT HIS OWN FIRE",
       "quote": "He's got the fresh air And that hot hatchback initiates really properly. Sticks it to the wall, but Connor is not letting him get away. And he's doing it at angle, mimicking him as well. Again, we saw that 100 % mimic percentage that is unbelievable. Ryan Serk looks like he escapes that outside zone three a little bit. Tire fire there from Ryan. And wow, that is a long fire. That's a big tire fire. Wow, look at this. He's going back to the future and extinguishes his own fire. You",
       "why": "Tuerck zijn band vat vlam en hij dooft het zelf",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-11/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9848,9 +9848,9 @@
       "topic": "SORENSEN LEAVES THEM SPEECHLESS",
       "quote": "Cheer your favorite drivers on is it Trent Beach? Mr. Brandon Sorensen as we take a look you can see the fence is shaken here and Again, you can see Beach of exiting out of that zone coming down in the power Look at, I mean, Brandon Sorensen is timing that so much. Brandon Sorensen is on a tear. Wow, I mean, absolutely almost, wow, speechless, speechless. Well, he's in two, it just has a good flow, it has a good momentum. And Brandon Sorensen gets the victory and it is unanimous. Brandon Sorensen, Sorensen boards more than a sophomore when it comes to drifting. A very talented, love the guy, fantastic.",
       "why": "Sorensen op dreef, commentator sprakeloos",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-12/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9862,9 +9862,9 @@
       "topic": "AASBO DOESN'T CRACK",
       "quote": "We saw how well Jack mimicked in that previous battle and see if he could do it again. He did it against Roman. Now he is going to get three time champ. Here goes Jack Shannon information. Yep. Right there. That trains right on time. Pulsar turbo systems BMW banging on the door of the Supra and Frederick is taking it and keeps on keeping on. Look at that. Frederick fields at outside zone three, not feeling the pressure, not cracking. And the Norwegian hammer drops into formation. Jack, unfortunately, pushes too hard, has to back off the rail. So here we go. Slide him left for Jack or right for Frederick Osbow.",
       "why": "Jack bonkt op de deur, Aasbo blijft koel en wint",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-13/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,165 @@
    "photo": null
   },
   {
+   "id": "pod-ytckqkb2axqe-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan bangs on the door of the Supra, but Fredric Aasbo does not crack. Jack pushes too hard.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @formulad @fredricaasbo\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 639.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:20:17.952235+00:00",
+   "built": "2026-11-19T08:20:17.952244+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-13/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "AASBO DOESN'T CRACK",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen is on a tear in Seattle and the booth is speechless. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@trenton_beechum @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 566.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:18:47.483728+00:00",
+   "built": "2026-11-19T08:18:47.483734+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-12/clip.mp4",
+   "tags": [
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SORENSEN LEAVES THEM SPEECHLESS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A big tire fire on Ryan Tuerck's Corolla, and he goes back to the future to put it out himself.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@ryantuerck @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 522.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:17:13.134020+00:00",
+   "built": "2026-11-19T08:17:13.134026+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-11/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TUERCK PUTS OUT HIS OWN FIRE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rome Charpentier leads and Jack Shanahan shadows him everywhere he goes. Same distance the whole way.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@romecp @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #seattle #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 482.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:15:57.731545+00:00",
+   "built": "2026-11-19T08:15:57.731551+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-10/clip.mp4",
+   "tags": [
+    "@romecp",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "JACK THE SHADOW",
+   "photo": null
+  },
+  {
    "id": "pod-ytckqkb2axqe-9",
    "kind": "stream_clip",
    "status": "draft",
@@ -23925,160 +24084,6 @@
    "caption_by": null,
    "format": "single",
    "title": "85.66 FROM LEMAIRE",
-   "photo": null
-  },
-  {
-   "id": "2026-11-18-jack-shanahan-royal-drift-china",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "First time in China for @jackshanahan59: a Royal Drift Series debut at the Shaoxing finale in a GR86. Daigo Saito took the round, with FD and Drift Masters names all over the entry list. 🇨🇳\n\n@jackshanahan59\n\n#royaldriftseries #jackshanahan #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-18-jack-shanahan-royal-drift-china/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "foto nodig: voeg een foto toe",
-   "source": "https://royalds.cn/en/results/r5-shaoxing",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-18T13:02:04.701136+00:00",
-   "built": "2026-11-18T13:05:39.418897+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [
-    "@jackshanahan59"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "title": "JACK SHANAHAN DEBUTS IN CHINA",
-   "photo": {
-    "mode": "none",
-    "credit": ""
-   }
-  },
-  {
-   "id": "2026-11-17-adam-lz-leaves-fd",
-   "kind": "news",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Adam LZ signed off on the Long Beach podium with P3 and confirmed he won't be back in Formula DRIFT for 2027. His reasons are in his own video, Why I Quit Formula Drift. 🎤\n\n@adam_lz @formulad\n\n#formulad #adamlz #lzmfg #drifting #sidewayswire",
-   "media": [
-    "media/2026-11-17-adam-lz-leaves-fd/1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "aankondiging gecontroleerd via fan-upload van de livestream en Wikipedia (P3 LB2, 12e in stand); eigen video van LZ niet zelf bekeken, nieuws is van 25 okt",
-   "source": "https://www.youtube.com/watch?v=GnIngCZCsIc",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-17T14:12:26.167610+00:00",
-   "built": "2026-11-17T18:58:04.809894+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": [
-    "@adam_lz",
-    "@formulad"
-   ],
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "title": "ADAM LZ WILL NOT RETURN TO FORMULA DRIFT IN 2027",
-   "photo": {
-    "mode": "auto",
-    "credit": "@formulad"
-   }
-  },
-  {
-   "id": "pod-b9e6971ba742-8",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A junkyard 5.3 can make 500 hp with the right setup. A naturally aspirated Civic? Good luck. Why the V8 crowd chases power, not trim levels.\n\n🎙 Full episode: Behind The Wheel\n\n#LSswap #Hellcat #Honda #V8 #CarCulture #sidewayswire",
-   "media": [
-    "media/pod-b9e6971ba742-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 1701.83
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:49:16.658530+00:00",
-   "built": "2026-11-17T18:53:11.828437+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-8/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "500 HP JUNKYARD 5.3 VS CIVIC",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-23",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Palmer Sanderson said on The Goodest Cast that he's been thinking about going to school to become a therapist. Brand new info, nothing confirmed.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #podcast #goodestcast #driftcommunity #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-23/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 9248.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:41:04.638323+00:00",
-   "built": "2026-11-17T18:53:11.828160+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-23/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "PALMER'S NEW CAREER PLAN?",
    "photo": null
   }
  ],
