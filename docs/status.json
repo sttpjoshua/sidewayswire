@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T00:54:30.077656+00:00",
+ "updated": "2026-11-19T01:05:11.434235+00:00",
  "counts": {
   "ready": 115,
   "check": 126,
   "posted": 3,
-  "draft": 128
+  "draft": 132
  },
  "collected": "2026-11-18T21:34:55.874631+00:00",
  "instagram": false,
@@ -3154,9 +3154,9 @@
       "topic": "JACK VS RCP, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-46/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3168,9 +3168,9 @@
       "topic": "LZ VS LITTERAL, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-47/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3182,9 +3182,9 @@
       "topic": "DEANE VS AASBØ, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-48/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -3196,9 +3196,9 @@
       "topic": "FIELD VS OLSEN, SIDE BY SIDE",
       "quote": "",
       "why": "Split screen: run 1 boven, run 2 onder, gesynchroniseerd op initiatie",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-yt9lxrdzgctgm-49/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -16523,6 +16523,164 @@
    "photo": null
   },
   {
+   "id": "pod-yt9lxrdzgctgm-49",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 9273.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T01:05:11.421836+00:00",
+   "built": "2026-11-19T01:05:11.421842+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-49/clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "FIELD VS OLSEN, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-48",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The machine vs the hammer: James Deane vs Fredric Aasbø, lead vs lead and chase vs chase.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jamesdeane130 @formulad @fredricaasbo\n\n#formulad #formuladrift #jamesdeane #fredricaasbo #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 8883.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T01:03:43.051870+00:00",
+   "built": "2026-11-19T01:03:43.051877+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-48/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "DEANE VS AASBØ, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-47",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Great 8: Adam LZ vs Ryan Litteral. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@adam_lz @ryanlitteral @formulad\n\n#formulad #formuladrift #adamlz #ryanlitteral #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 8011.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T01:00:57.614071+00:00",
+   "built": "2026-11-19T01:00:57.614075+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-47/clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@ryanlitteral",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "LZ VS LITTERAL, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-46",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Great 8: Jack Shanahan vs Rome Charpentier, both runs side by side.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @romecp @formulad\n\n#formulad #formuladrift #jackshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 7761.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:57:51.403142+00:00",
+   "built": "2026-11-19T00:57:51.403149+00:00",
+   "want_at": null,
+   "video": "media/pod-yt9lxrdzgctgm-46/clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@romecp",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "JACK VS RCP, SIDE BY SIDE",
+   "photo": null
+  },
+  {
    "id": "pod-yt9lxrdzgctgm-45",
    "kind": "stream_clip",
    "status": "draft",
@@ -23746,173 +23904,6 @@
    "caption_by": null,
    "format": "single",
    "title": "130 MPH ENTRIES AT 17",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-7",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A gang of FD drivers at Adam LZ's shop, his Atlanta footage on screen, and Jack and Conor Shanahan with a clear verdict.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @adam_lz @jamesdeane130 @jako13 @formulad\n\n#formulad #drifting #shanahans #2jz #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-7/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 2106.98
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:06:37.156718+00:00",
-   "built": "2026-11-17T18:09:52.841739+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-7/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@conorshanahan79",
-    "@adam_lz",
-    "@jamesdeane130",
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "THE SHANAHANS' ADVICE",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-6",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: a new FR-S chassis with a gen two body kit and a stroker 2JZ for next season. Not confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\n#formulad #drifting #2jz #formuladrift #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-6/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 2027.16
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:05:54.852227+00:00",
-   "built": "2026-11-17T18:09:52.841509+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-6/clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "NEW CHASSIS AND STROKER 2JZ FOR NEXT YEAR",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-5",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Four engines in one Formula DRIFT rookie season: a push rod from a manufacturing fault, and two fresh rebuilds that simply wore out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@formulad @jako13\n\n#formulad #drifting #formuladrift #rookie #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 1651.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:04:49.064410+00:00",
-   "built": "2026-11-17T18:09:52.841301+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-5/clip.mp4",
-   "tags": [
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Fd Rookie (Name Tbc)"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "FOUR ENGINES IN ONE ROOKIE SEASON",
-   "photo": null
-  },
-  {
-   "id": "pod-8e09411f1d0d-4",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A commenter said he talks about supporting local but doesn't work for his local series. So he made one phone call.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jako13 @formulad\n\n#formulad #drifting #commentary #grassroots #sidewayswire",
-   "media": [
-    "media/pod-8e09411f1d0d-4/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "At Gridlife Laguna",
-    "start": 1290.88
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:04:06.462087+00:00",
-   "built": "2026-11-17T18:09:52.841097+00:00",
-   "want_at": null,
-   "video": "media/pod-8e09411f1d0d-4/clip.mp4",
-   "tags": [
-    "@jako13",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "CALLED OUT BY A COMMENTER",
    "photo": null
   }
  ],

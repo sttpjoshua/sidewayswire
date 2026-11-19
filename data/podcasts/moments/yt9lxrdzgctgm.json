@@ -1493,8 +1493,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-46r2-87150-87500.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-46r2-87150-87500.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-46/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T00:57:51.402337+00:00"
  },
  {
   "start": 8011.0,
@@ -1529,8 +1534,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-47r2-85165-85540.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-47r2-85165-85540.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-47/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T01:00:57.612929+00:00"
  },
  {
   "start": 8883.8,
@@ -1565,8 +1575,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yt9lxrdzgctgm-48r2-90235-90570.mp4"
+  "status": "queued",
+  "wait_name": "v2-yt9lxrdzgctgm-48r2-90235-90570.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-48/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T01:03:43.051117+00:00"
  },
  {
   "start": 9273.0,
@@ -1601,10 +1616,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Simen Olsen",
-  "wait_name": "v2-yt9lxrdzgctgm-49r2-94070-94440.mp4"
+  "wait_name": "v2-yt9lxrdzgctgm-49r2-94070-94440.mp4",
+  "clip": "docs/media/pod-yt9lxrdzgctgm-49/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T01:05:11.421070+00:00"
  },
  {
   "start": 9836.6,
