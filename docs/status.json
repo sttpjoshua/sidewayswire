@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T07:53:11.814919+00:00",
+ "updated": "2026-11-19T08:02:03.087411+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 36
+  "draft": 40
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -7247,9 +7247,9 @@
       "topic": "SHANAHAN BROTHERS",
       "quote": "",
       "why": "Split: broers Shanahan",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-24/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      },
@@ -7261,9 +7261,9 @@
       "topic": "LAS VEGAS FINAL",
       "quote": "",
       "why": "Split van de finale",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-25/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      }
@@ -9680,9 +9680,9 @@
       "topic": "86.36 FROM SORENSEN",
       "quote": "Oh, bro. All right. Well, here we go. Brandon Sorensen, high flying Soren, Brandon Sorensen. Sorensen Motorsports, BMW. He is right there, man. He is ready. He is poised, goes into that outside zone. Nice job from him. Good placement. Speaking of quad lock, he is locked in on the back of the door on the back bumper zeroed in on the inside clip riding shotgun with him. Powers across the finish line that. This is looking like a really good run. Oh 86 .36 and there you go Jacob you called it pulled out the crystal ball and there it is Brandon Sorensen 36 36 .7 and currently sitting in eighth",
       "why": "Sorensen zet een sterke kwalificatierun neer, voorspeld door de commentator",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -9694,9 +9694,9 @@
       "topic": "86.4 FROM CONOR SHANAHAN",
       "quote": "We're fighting the wall and we're fighting the vision right now into that second outside zone through that power alley Massive angle there from Shanahan Look at that coming on into that inside clip want to see that overhead where the place it was Wally Can see through that smoke and that's what I love about it, right? Like here's the naked eye, but Wally can see through Shanahan beat it 86 and there is number one qualifier 86 point four 86 point four. What was what was over? He needs a 86 point four or better a six point one.",
       "why": "Shanahan pakt de nummer 1 kwalificatieplek",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,161 @@
    "photo": null
   },
   {
+   "id": "pod-ytckqkb2axqe-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Fighting the wall and fighting the vision, Conor Shanahan goes 86.4 and takes the number one qualifying spot.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #seattle #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 55.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:02:03.067039+00:00",
+   "built": "2026-11-19T08:02:03.067046+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-1/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "86.4 FROM CONOR SHANAHAN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen locks in on the wall in Seattle and the score comes in at 86.36. Called it.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 5.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:00:50.916132+00:00",
+   "built": "2026-11-19T08:00:50.916139+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-0/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "86.36 FROM SORENSEN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-25",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: the Las Vegas final between Conor Shanahan and Matt Field.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 1465.3
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:59:20.848788+00:00",
+   "built": "2026-11-19T07:59:20.848793+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-25/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "LAS VEGAS FINAL",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-24",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 1387.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:56:15.300415+00:00",
+   "built": "2026-11-19T07:56:15.300421+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-24/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "title": "SHANAHAN BROTHERS",
+   "photo": null
+  },
+  {
    "id": "pod-ytcaagmgzlale-23",
    "kind": "stream_clip",
    "status": "draft",
@@ -23941,179 +24096,6 @@
    "caption_by": null,
    "format": "single",
    "title": "MATT FIELD'S VEGAS BIRTHDAY",
-   "photo": null
-  },
-  {
-   "id": "pod-c82113ef8385-2",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The fans came on 10 degrees earlier in Vegas. How Pro teams keep their drift cars cool between runs.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #FDLV #DriftTech #sidewayswire",
-   "media": [
-    "media/pod-c82113ef8385-2/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Pro Podium",
-    "start": 212.88
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:55:00.306829+00:00",
-   "built": "2026-11-17T18:09:52.850648+00:00",
-   "want_at": null,
-   "video": "media/pod-c82113ef8385-2/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@mattfield777",
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "HOW PRO DRIFT CARS STAY COOL",
-   "photo": null
-  },
-  {
-   "id": "pod-c82113ef8385-10",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Nine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\n#FormulaDRIFT #FDLV #LasVegas #sidewayswire",
-   "media": [
-    "media/pod-c82113ef8385-10/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Pro Podium",
-    "start": 896.58
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T16:03:07.646351+00:00",
-   "built": "2026-11-17T18:09:52.850444+00:00",
-   "want_at": null,
-   "video": "media/pod-c82113ef8385-10/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@conorshanahan79",
-    "@mattfield777",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "NINE FLIGHTS CHANGED IN ONE YEAR",
-   "photo": null
-  },
-  {
-   "id": "pod-c82113ef8385-1",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "No wind, no cooling. The Vegas podium on cars running hot all night at the Bullring.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #FDLV #LasVegas #sidewayswire",
-   "media": [
-    "media/pod-c82113ef8385-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Pro Podium",
-    "start": 161.16
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:54:23.295752+00:00",
-   "built": "2026-11-17T18:09:52.850243+00:00",
-   "want_at": null,
-   "video": "media/pod-c82113ef8385-1/clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@mattfield777",
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "VEGAS HEAT COOKED THE GRID",
-   "photo": null
-  },
-  {
-   "id": "pod-c82113ef8385-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field helped design the new Vegas layout, and says it will not stay the same in the coming years.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @ryantuerck @formulad @jako13\n\n#FormulaDRIFT #FDLV #MattField #LasVegas #sidewayswire",
-   "media": [
-    "media/pod-c82113ef8385-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Pro Podium",
-    "start": 49.18
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:53:16.815357+00:00",
-   "built": "2026-11-17T18:09:52.850039+00:00",
-   "want_at": null,
-   "video": "media/pod-c82113ef8385-0/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@ryantuerck",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [
-    "Ken Gushi"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "MATT FIELD ON HIS VEGAS LAYOUT",
    "photo": null
   }
  ],

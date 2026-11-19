@@ -19,8 +19,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-0-52-467.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-0-52-467.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 39.04, \"start\": 36.82, \"text\": \"DID THEY CALL THIS SCORE?\", \"why\": \"de score\"}",
+  "made": "2026-11-19T08:00:50.914780+00:00"
  },
  {
   "start": 55.0,
@@ -42,8 +47,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-1-550-869.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-1-550-869.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 80.42, \"start\": 78.38, \"text\": \"WHO TAKES NUMBER ONE?\", \"why\": \"nieuwe nummer 1\"}",
+  "made": "2026-11-19T08:02:03.065659+00:00"
  },
  {
   "start": 87.38,
