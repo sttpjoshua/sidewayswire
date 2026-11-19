@@ -89,6 +89,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
             "plan", "score", "captions", "ig", "collaborators", "people", "moment_kind", "pinned_at", "short_none", "short_len", "thumb")
     status = {
         "updated": datetime.now(timezone.utc).isoformat(),
+        "media_repo": mediastore.PUBLIC_REPO if mediastore.public() else mediastore.REPO,
         "counts": dict(Counter(p.get("status", "draft") for p in posts)),
         "collected": ib.get("updated"),
         "instagram": ib.get("instagram", False),

@@ -13,6 +13,7 @@ jobs:
     timeout-minutes: 300
     env:
       GH_TOKEN: ${{ github.token }}
+      MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
       PROGRESS_FILE: docs/clips-now.json
     steps:
       - uses: actions/checkout@v4

@@ -10,6 +10,7 @@ jobs:
     timeout-minutes: 240
     env:
       GH_TOKEN: ${{ github.token }}
+      MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }

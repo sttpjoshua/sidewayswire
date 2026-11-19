@@ -39,42 +39,63 @@ def tag_for(path: str) -> str:
     return f"media-{sum(map(ord, asset_name(path))) % BUCKETS}"
 
 
+PUBLIC_REPO = "sttpjoshua/sidewayswire-media"     # public: dashboard on any device, Meta/TikTok can fetch
+
+
+def public() -> bool:
+    """True once the media has moved to the public repo (data/settings.json "media_public")."""
+    try:
+        return bool(json.loads((ROOT / "data" / "settings.json").read_text()).get("media_public"))
+    except Exception:
+        return False
+
+
 def url(path: str) -> str:
     """Public address of a media file. Pinned files stay on the site, the rest is in a release."""
     p = path if path.startswith("docs/") else "docs/" + path
     if p.startswith(PINNED):
         return p.removeprefix("docs/")
-    return f"https://github.com/{REPO}/releases/download/{tag_for(p)}/{asset_name(p)}"
+    repo = PUBLIC_REPO if public() else REPO
+    return f"https://github.com/{repo}/releases/download/{tag_for(p)}/{asset_name(p)}"
 
 
 def is_pinned(path: str) -> bool:
     return path.startswith(PINNED)
 
 
-# ---------- GitHub releases ----------
-def _h() -> dict:
-    t = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+# ---------- GitHub releases (repo is the private main repo or the public media repo) ----------
+def _token(repo: str) -> str:
+    t = os.environ.get("MEDIA_TOKEN") if repo == PUBLIC_REPO else (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN"))
     if not t:
-        raise RuntimeError("GH_TOKEN ontbreekt")
-    return {"Authorization": f"Bearer {t}", "Accept": "application/vnd.github+json"}
+        raise RuntimeError(f"sleutel voor {repo} ontbreekt")
+    return t
+
+
+def _h(repo: str = REPO) -> dict:
+    return {"Authorization": f"Bearer {_token(repo)}", "Accept": "application/vnd.github+json"}
+
+
+def target() -> str:
+    """Where new files go: the public repo as soon as its key (MEDIA_TOKEN) is there."""
+    return PUBLIC_REPO if os.environ.get("MEDIA_TOKEN") else REPO
 
 
 @lru_cache(maxsize=None)
-def _release(tag: str) -> dict:
-    r = requests.get(f"{API}/repos/{REPO}/releases/tags/{tag}", headers=_h(), timeout=30)
+def _release(tag: str, repo: str = REPO) -> dict:
+    r = requests.get(f"{API}/repos/{repo}/releases/tags/{tag}", headers=_h(repo), timeout=30)
     if r.status_code == 404:
-        r = requests.post(f"{API}/repos/{REPO}/releases", headers=_h(), timeout=30,
+        r = requests.post(f"{API}/repos/{repo}/releases", headers=_h(repo), timeout=30,
                           json={"tag_name": tag, "name": tag, "make_latest": "false",
-                                "body": "Opslag voor media van Sideways Wire (niet op de website)."})
+                                "body": "Media van Sideways Wire (clips en posts)."})
     r.raise_for_status()
     return r.json()
 
 
 @lru_cache(maxsize=None)
-def _assets(tag: str) -> dict:
-    rel, out, page = _release(tag), {}, 1
+def _assets(tag: str, repo: str = REPO) -> dict:
+    rel, out, page = _release(tag, repo), {}, 1
     while True:
-        r = requests.get(f"{API}/repos/{REPO}/releases/{rel['id']}/assets", headers=_h(),
+        r = requests.get(f"{API}/repos/{repo}/releases/{rel['id']}/assets", headers=_h(repo),
                          params={"per_page": 100, "page": page}, timeout=30)
         r.raise_for_status()
         for a in r.json():
@@ -84,39 +105,80 @@ def _assets(tag: str) -> dict:
         page += 1
 
 
-def upload(path: str, data_file: Path) -> None:
+def upload(path: str, data_file: Path, repo: str | None = None) -> None:
     """Upload (or replace when the size changed) one file as a release asset."""
+    repo = repo or target()
     tag, name = tag_for(path), asset_name(path)
-    have, size = _assets(tag).get(name), data_file.stat().st_size
+    have, size = _assets(tag, repo).get(name), data_file.stat().st_size
     if have and have["size"] == size:
         return
     if have:
-        requests.delete(f"{API}/repos/{REPO}/releases/assets/{have['id']}", headers=_h(), timeout=30)
+        requests.delete(f"{API}/repos/{repo}/releases/assets/{have['id']}", headers=_h(repo), timeout=30)
     ctype = {".mp4": "video/mp4", ".png": "image/png", ".jpg": "image/jpeg"}.get(data_file.suffix, "application/octet-stream")
     with open(data_file, "rb") as f:
-        r = requests.post(f"https://uploads.github.com/repos/{REPO}/releases/{_release(tag)['id']}/assets",
-                          headers=_h() | {"Content-Type": ctype}, params={"name": name}, data=f, timeout=900)
+        r = requests.post(f"https://uploads.github.com/repos/{repo}/releases/{_release(tag, repo)['id']}/assets",
+                          headers=_h(repo) | {"Content-Type": ctype}, params={"name": name}, data=f, timeout=900)
     r.raise_for_status()
-    _assets(tag)[name] = r.json()
+    _assets(tag, repo)[name] = r.json()
+
+
+def _get(path: str, repo: str):
+    if repo == PUBLIC_REPO:
+        return requests.get(f"https://github.com/{repo}/releases/download/{tag_for(path)}/{asset_name(path)}",
+                            stream=True, timeout=300)
+    a = _assets(tag_for(path), repo).get(asset_name(path))     # private repo: via the API with the key
+    if not a:
+        return None
+    return requests.get(f"{API}/repos/{repo}/releases/assets/{a['id']}", stream=True, timeout=300,
+                        headers=_h(repo) | {"Accept": "application/octet-stream"})
 
 
 def download(path: str, out: Path) -> bool:
-    """The repo is private, so release files need the token (the API sends a short-lived link)."""
-    r = None
-    if os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN"):
-        a = _assets(tag_for(path)).get(asset_name(path))
-        if a:
-            r = requests.get(f"{API}/repos/{REPO}/releases/assets/{a['id']}", stream=True, timeout=300,
-                             headers=_h() | {"Accept": "application/octet-stream"})
-    if r is None:
-        r = requests.get(url(path), stream=True, timeout=300)
-    if not r.ok:
-        return False
-    out.parent.mkdir(parents=True, exist_ok=True)
-    with open(out, "wb") as f:
-        for c in r.iter_content(1 << 20):
-            f.write(c)
-    return True
+    for repo in (PUBLIC_REPO, REPO):
+        try:
+            r = _get(path, repo)
+        except Exception:
+            r = None
+        if r is not None and r.ok:
+            out.parent.mkdir(parents=True, exist_ok=True)
+            with open(out, "wb") as f:
+                for c in r.iter_content(1 << 20):
+                    f.write(c)
+            return True
+    return False
+
+
+def to_public() -> dict:
+    """Copy every asset of the private media releases to the public repo, then switch the addresses."""
+    rep = {"copied": 0, "had": 0, "errors": []}
+    with tempfile.TemporaryDirectory() as tmp:
+        for i in range(BUCKETS):
+            tag = f"media-{i}"
+            have = _assets(tag, PUBLIC_REPO)
+            for name, a in _assets(tag, REPO).items():
+                if name in have and have[name]["size"] == a["size"]:
+                    rep["had"] += 1
+                    continue
+                f = Path(tmp) / ("x" + Path(name).suffix)
+                try:
+                    r = requests.get(f"{API}/repos/{REPO}/releases/assets/{a['id']}", stream=True, timeout=300,
+                                     headers=_h(REPO) | {"Accept": "application/octet-stream"})
+                    r.raise_for_status()
+                    with open(f, "wb") as out:
+                        for c in r.iter_content(1 << 20):
+                            out.write(c)
+                    upload("docs/media/" + name.replace("__", "/"), f, PUBLIC_REPO)
+                    rep["copied"] += 1
+                except Exception as e:
+                    rep["errors"].append(f"{name}: {str(e)[:100]}")
+                f.unlink(missing_ok=True)
+            print(tag, rep["copied"], flush=True)
+    if not rep["errors"]:
+        st = ROOT / "data" / "settings.json"
+        d = json.loads(st.read_text())
+        d["media_public"] = True
+        st.write_text(json.dumps(d, indent=1, ensure_ascii=False) + "\n")
+    return rep
 
 
 # ---------- which files belong on the site ----------
@@ -192,4 +254,5 @@ def migrate() -> dict:
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "sync"
-    print(json.dumps(migrate() if cmd == "migrate" else sync(), indent=1)[:4000])
+    run = {"migrate": migrate, "public": to_public}.get(cmd, sync)
+    print(json.dumps(run(), indent=1)[:4000])

@@ -1,0 +1,23 @@
+# Once, after Joshua saved the MEDIA_TOKEN secret: copies all media from the private releases to the
+# public repo sttpjoshua/sidewayswire-media and switches the addresses (data/settings.json "media_public").
+name: media-public
+on: { workflow_dispatch: {} }
+concurrency: { group: media, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GH_TOKEN: ${{ github.token }}
+      MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: Copy media to the public repo
+        run: python -m lc.mediastore public
+      - name: Switch addresses and save
+        run: python -m lc.status && python -m lc.gitsave "media nu openbaar (sidewayswire-media)" data/settings.json docs/status.json

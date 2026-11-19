@@ -88,7 +88,7 @@ let key=null; try{key=localStorage.getItem("sw_gh_key")}catch(e){}
 async // Media lives in GitHub releases (see lc/mediastore.py); same bucket rule as the Python side.
 function mediaUrl(p){p=String(p||"").replace(/^docs\//,"");if(/^media\/(portraits|stills|photos)\//.test(p)||/^https?:/.test(p))return p;
   const n=p.replace(/^media\//,"").split("/").join("__");let s=0;for(const c of n)s+=c.charCodeAt(0);
-  return `https://github.com/sttpjoshua/sidewayswire/releases/download/media-${s%8}/${n}`}
+  return `https://github.com/${(typeof S!=="undefined"&&S&&S.media_repo)||"sttpjoshua/sidewayswire"}/releases/download/media-${s%8}/${n}`}
 function liveJson(name,old){   // progress files live on the branch "live" (keeps GitHub Pages deploys calm)
   try{if(key){const r=await fetch(`${API}/contents/docs/${name}?ref=live&${Date.now()}`,{headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github.raw+json"}});if(r.ok)return await r.json()}
     const r=await fetch(`https://raw.githubusercontent.com/${REPO}/live/docs/${name}?${Date.now()}`);if(r.ok)return await r.json()}catch(e){}

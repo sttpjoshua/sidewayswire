@@ -8,6 +8,7 @@ env:
   LC_DRY_RUN: ${{ vars.LC_DRY_RUN || '1' }}      # set repo variable LC_DRY_RUN=0 to go live
   PAGES_URL: ${{ vars.PAGES_URL }}
   GH_TOKEN: ${{ github.token }}
+  MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
   META_TOKEN: ${{ secrets.META_TOKEN }}
   IG_USER_ID: ${{ secrets.IG_USER_ID }}
   IG_TOKEN: ${{ secrets.IG_TOKEN }}
