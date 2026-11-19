@@ -283,8 +283,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-9-6817-7272.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-9-6817-7272.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 701.52, \"start\": 699.8, \"text\": \"WHO CRACKS IN THE REMATCH?\", \"why\": \"de spin\"}",
+  "made": "2026-11-19T08:57:18.156538+00:00"
  },
  {
   "start": 727.18,
@@ -307,8 +312,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-10-7272-7765.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-10-7272-7765.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 760.84, \"start\": 758.62, \"text\": \"CAN CASTRO FORCE AN ERROR?\", \"why\": \"fout Deane\"}",
+  "made": "2026-11-19T08:59:09.463007+00:00"
  },
  {
   "start": 777.76,
@@ -331,8 +341,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-11-7778-8359.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-11-7778-8359.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 816.02, \"start\": 813.78, \"text\": \"WHO MAKES THE FIRST MISTAKE?\", \"why\": \"dirt\"}",
+  "made": "2026-11-19T09:01:16.929199+00:00"
  },
  {
   "start": 835.98,
@@ -355,8 +370,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-yth2evinkswei-12-8360-8857.mp4"
+  "status": "queued",
+  "wait_name": "v2-yth2evinkswei-12-8360-8857.mp4",
+  "clip": "docs/media/pod-yth2evinkswei-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 883.06, \"start\": 881.3, \"text\": \"WHO REIGNS IN THE RAIN?\", \"why\": \"spanning\"}",
+  "made": "2026-11-19T09:03:06.399534+00:00"
  },
  {
   "start": 890.42,
