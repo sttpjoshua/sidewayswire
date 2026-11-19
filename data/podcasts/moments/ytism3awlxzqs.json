@@ -47,8 +47,13 @@
    "why": "verrassende onthulling"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytism3awlxzqs-1-3630-4277.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytism3awlxzqs-1-3630-4277.mp4",
+  "clip": "docs/media/pod-ytism3awlxzqs-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 386.78, \"start\": 383.92, \"text\": \"HIS CAR WASN'T EVEN READY\", \"why\": \"verrassende onthulling\"}",
+  "made": "2026-11-19T13:50:05.010334+00:00"
  },
  {
   "start": 281.2,
@@ -70,8 +75,13 @@
    "why": "de nieuwe auto"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytism3awlxzqs-2-2812-3048.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytism3awlxzqs-2-2812-3048.mp4",
+  "clip": "docs/media/pod-ytism3awlxzqs-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 288.8, \"start\": 287.24, \"text\": \"A BRAND NEW BODY KIT\", \"why\": \"de nieuwe auto\"}",
+  "made": "2026-11-19T13:50:51.580944+00:00"
  },
  {
   "start": 24.52,
@@ -93,9 +103,14 @@
    "why": "de onthulling"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Coureur niet genoemd (mogelijk Zwitsers Toyota-team); naam nakijken",
-  "wait_name": "v2-ytism3awlxzqs-3-245-458.mp4"
+  "wait_name": "v2-ytism3awlxzqs-3-245-458.mp4",
+  "clip": "docs/media/pod-ytism3awlxzqs-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 39.9, \"start\": 37.14, \"text\": \"THEY KEPT IT A SECRET\", \"why\": \"de onthulling\"}",
+  "made": "2026-11-19T13:51:40.514322+00:00"
  }
 ]
