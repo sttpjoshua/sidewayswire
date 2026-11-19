@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T13:04:29.386121+00:00",
+ "updated": "2026-11-19T13:13:22.526313+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 120
+  "draft": 124
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -4567,9 +4567,9 @@
       "topic": "CONOR NEEDS 18.8 STYLE",
       "quote": "Zone two, zone three, not nearly as much. She had a ton of left foot breaking through four, five, and six. Car did not want to rotate around. You can see the aggression that kind of comes out of that. He would have been frustrated that the car did not rotate around, but the rest of it looks absolutely stunning. Great score. Great score. It's going to be tight. It's going to come down to style to really figure out if he's going to be in the number one spot. But for him, he needs that right now. He really does. You want all the pressure off for tomorrow. All right. So 35, 36 .6. ! Jared's got the calculator out. 71 .6. Without, without it. So, yeah, and what did, what did, what did James have? Uh, total 90 .4. So minus 90 .4, he needs more than an 18 .8 in style score. I don't, I don't think he's got it. I don't think he's got it, but again, needs 18 .8 in style to get that number one spot. and survey says 87 .6 he does not get it he gets the number three spot with a style score of 16 but still really really strong so just a bit outside but a great style score and a great score overall",
       "why": "Commentator rekent live, Conor haalt het net niet",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-8/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4581,9 +4581,9 @@
       "topic": "IDENTICAL 83.26 FOR ROME",
       "quote": "Roam looks really good through this though. Very smooth very consistent big correction of angle there to try and get that car to come around for 70 I think the judges would have preferred to see him push the car out a little bit wider But it does look good all things considered Through the end of that run so expect it a decent score here for him He's gonna be enough to beat the eighty three point two six. That's gonna be a tough call It is a great run though firm from our CP All right waiting for the score for our CP room sharpens here Just enter our way and local time just before 8 p .m. We got a few drivers still coming up that are sitting on incomplete. So we'll get the story there. What the heck? An identical score 83 .26. That is insane. But everything else is different. That what? Yeah, that's a first. All right. Wild 83 .26 identical score. That was crazy.",
       "why": "Twee runs, exact dezelfde score 83.26",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-9/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4595,9 +4595,9 @@
       "topic": "CASTRO FIGHTS HIS WAY IN",
       "quote": "So here goes John the Castro. He does have an incomplete look like he had and it sounded like he had met. Oh, no. He's fighting the car. He looked at him clutch kick and you can see him just trying to get that thing He's a step out on him. He is fighting that car. He's struggling. But let's see if he can fight for his right to party into tomorrow's main event. He's into that outside zone. Does hit that inside clip. Into outside zone 8. Man, I'll tell you what. That was like a boxer that was on the ropes, and he just fought back. That was tremendous. Yeah, great word. I don't know if he's feeling like it's an incomplete or not, but I felt like he kept going because he's... I don't know. What are your thoughts? Well, we did get word that he changed the clutch in between, and they were hoping that was the case. They figured it was burnt out. I will say this is about the worst way to break in a clutch is by doing this.",
       "why": "Castro vecht met zijn auto en haalt toch een score",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-10/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -4609,9 +4609,9 @@
       "topic": "LITTERAL SOUNDS LIKE A DRAGON",
       "quote": "And you can see whoa Keep it off the wall there got a little precarious slid his way almost into that wall and outside zone, too You can see him ripping right now again the rb just like an angry dragon right now Let's see how it manages that last outside zone Haiti. Drax bumper shreds it like a lizard with a new skin. And Ryan Littoral just dragon bumper and sounded like a dragon. Wow. That was wild. I can tell you there's probably people four blocks away ducking right now and that car comes around. The pops and bangs are absolutely insane from Ryan Littoral still flagging that RB army and absolutely love it.",
       "why": "Bumper over de muur, pops and bangs",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytinepijspeek-11/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,160 @@
    "photo": null
   },
   {
+   "id": "pod-ytinepijspeek-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Litteral comes back from the fire and drags the bumper like a dragon. People four blocks away are ducking.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 7364.16
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:13:22.502871+00:00",
+   "built": "2026-11-19T13:13:22.502876+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-11/clip.mp4",
+   "tags": [
+    "@ryanlitteral",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "LITTERAL SOUNDS LIKE A DRAGON",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After an incomplete, Jonathan Castro fights a slipping clutch all the way round to stay in the show.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 7208.7
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:11:38.497886+00:00",
+   "built": "2026-11-19T13:11:38.497891+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-10/clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jonathan Castro"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "CASTRO FIGHTS HIS WAY IN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rome Charpentier puts down a completely different run and gets the exact same score: 83.26 twice.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@romecp @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 7131.78
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:09:22.648316+00:00",
+   "built": "2026-11-19T13:09:22.648322+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-9/clip.mp4",
+   "tags": [
+    "@romecp",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "IDENTICAL 83.26 FOR ROME",
+   "photo": null
+  },
+  {
+   "id": "pod-ytinepijspeek-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Points leader Conor Shanahan needs 18.8 on style to beat Deane. The booth grabs the calculator.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@conorshanahan79 @jamesdeane130 @formulad\n\n#conorshanahan #formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
+    "start": 6257.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:07:15.613917+00:00",
+   "built": "2026-11-19T13:07:15.613923+00:00",
+   "want_at": null,
+   "video": "media/pod-ytinepijspeek-8/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONOR NEEDS 18.8 STYLE",
+   "photo": null
+  },
+  {
    "id": "pod-ytinepijspeek-7",
    "kind": "stream_clip",
    "status": "draft",
@@ -23875,162 +24029,6 @@
    "caption_by": null,
    "format": "single",
    "title": "FIELD GETS IT UNANIMOUSLY",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-2",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "James Deane wants that number one qualifying position, and the commentators have to eat their words.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @conorshanahan79 @formulad @jackshanahan59\n\n#formulad #formuladrift #drifting #seattle #jamesdeane #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 87.38
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:03:56.886638+00:00",
-   "built": "2026-11-19T08:03:56.886644+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-2/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@conorshanahan79",
-    "@formulad",
-    "@jackshanahan59"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DEANE GOES FOR NUMBER ONE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-1",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Fighting the wall and fighting the vision, Conor Shanahan goes 86.4 and takes the number one qualifying spot.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #seattle #conorshanahan #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 55.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:02:03.067039+00:00",
-   "built": "2026-11-19T08:02:03.067046+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-1/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "86.4 FROM CONOR SHANAHAN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-0",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Brandon Sorensen locks in on the wall in Seattle and the score comes in at 86.36. Called it.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 5.2
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:00:50.916132+00:00",
-   "built": "2026-11-19T08:00:50.916139+00:00",
-   "want_at": null,
-   "video": "media/pod-ytckqkb2axqe-0/clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "86.36 FROM SORENSEN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-25",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Lead vs lead, chase vs chase: the Las Vegas final between Conor Shanahan and Matt Field.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1465.3
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:59:20.848788+00:00",
-   "built": "2026-11-19T07:59:20.848793+00:00",
-   "want_at": null,
-   "video": "media/pod-ytcaagmgzlale-25/clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "title": "LAS VEGAS FINAL",
    "photo": null
   }
  ],

@@ -246,8 +246,13 @@
    "why": "spanning rond de stijlscore"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-8-62570-63294.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-8-62570-63294.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6292.34, \"start\": 6289.08, \"text\": \"TIME TO GET THE CALCULATOR OUT\", \"why\": \"spanning rond de stijlscore\"}",
+  "made": "2026-11-19T13:07:15.612508+00:00"
  },
  {
   "start": 7131.78,
@@ -269,8 +274,13 @@
    "why": "ongelooflijke toevalsscore"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-9-71318-71947.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-9-71318-71947.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7181.56, \"start\": 7178.8, \"text\": \"WAIT, WHAT DID HE SCORE?\", \"why\": \"ongelooflijke toevalsscore\"}",
+  "made": "2026-11-19T13:09:22.646946+00:00"
  },
  {
   "start": 7208.7,
@@ -292,8 +302,13 @@
    "why": "mooie commentaarregel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-10-72087-72721.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-10-72087-72721.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7244.08, \"start\": 7241.56, \"text\": \"LIKE A BOXER ON THE ROPES\", \"why\": \"mooie commentaarregel\"}",
+  "made": "2026-11-19T13:11:38.496501+00:00"
  },
  {
   "start": 7364.16,
@@ -315,8 +330,13 @@
    "why": "grappige commentaarregel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytinepijspeek-11-73642-74107.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytinepijspeek-11-73642-74107.mp4",
+  "clip": "docs/media/pod-ytinepijspeek-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7396.8, \"start\": 7393.14, \"text\": \"THIS CAR DOESN'T SOUND NORMAL\", \"why\": \"grappige commentaarregel\"}",
+  "made": "2026-11-19T13:13:22.501555+00:00"
  },
  {
   "start": 7996.66,
