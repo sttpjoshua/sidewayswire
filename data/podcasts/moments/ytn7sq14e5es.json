@@ -193,7 +193,12 @@
    "why": "zijn doel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytn7sq14e5es-6-11640-12133.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytn7sq14e5es-6-11640-12133.mp4",
+  "clip": "docs/media/pod-ytn7sq14e5es-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1177.92, \"start\": 1176.34, \"text\": \"WHAT IS DEANE CHASING TODAY?\", \"why\": \"zijn doel\"}",
+  "made": "2026-11-19T16:25:22.534929+00:00"
  }
 ]

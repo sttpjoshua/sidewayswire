@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T16:23:28.881462+00:00",
+ "updated": "2026-11-19T16:30:03.865021+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 180
+  "draft": 184
  },
  "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
@@ -1964,9 +1964,9 @@
       "topic": "TUERCK SAYS GOODBYE",
       "quote": "But as far as competition goes, it stops here for Ryan Turk. Ryan Turk, the rock star energy drink driver, drifter, ripper, and gripper. Liffrier died at the motto of his home state, and that's how he lived. It's on his chest, it's on his brothers, it's on his dad's, and that is the motto of his state and the motto is hard. Father, husband, and friend to many, inspiration for a lot of automotive enthusiasts, not just a drifter, but just an absolute gentleman of a human being. Thank you, Ryan, for all that you've done and doing. It's not goodbye. I can see you later. In a better manner. In a better manner. Just tough to see him go.",
       "why": "Emotioneel afscheid van Ryan Tuerck na zijn laatste battle",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytoslpnfy2o5k-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -1978,9 +1978,9 @@
       "topic": "TUERCK'S SON STEALS THE SHOW",
       "quote": "And here we go. We have a special message for the legend with his wife by his side, Ryan Turk. We love you. And in your bravest voice, can you tell me who your favorite race car driver is? Ryan Turk. And who is Ryan Turk to you? The best race car driver ever. And what do you have in your hand? Do you want to show me? Turn on the Corolla. And who drives that? Ryan Turk. That's right. And daddy's going to stop driving his Corolla this year. What do you think about that? Dad, daddy's stopped driving with the Corolla. And what do you want to be when you grow up, Roman? A race car driver. A race car driver like who? Like dada, blah blah, but different car. I want to drive a Mustang. Okay, anything else that you want to tell us and anything else you want to tell Dada? I love you. We love you Dada! Who's the best race car driver of all time? Well, I think everybody can wipe their tears.",
       "why": "Zoontje Roman over zijn vader: tranen in de stand",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytoslpnfy2o5k-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -1992,9 +1992,9 @@
       "topic": "SHANAHAN IS CHAMPION",
       "quote": "Well, we just went from talking to Ryan Turk. That was emotional. Now I'm down here. And judges say one vote for Shanahan too. Carter Shanahan gets the win. And here's your 2026 Formula Drift Champion. The Irish driver makes his debut just a short three years ago and a very tough beginning of a season and the emotions from Ryan Turk to Shanahan. We'll be doing a lot of celebrating this weekend. There are so many beautiful moments to look back on.",
       "why": "Conor Shanahan wordt kampioen 2026",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytoslpnfy2o5k-2/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8457,9 +8457,9 @@
       "topic": "DEANE WANTS THE TOP STEP",
       "quote": "So made it down to James Dean's bit. Just had a quick word of him. He's chilling out in the background. He knows the jamming chip can't be won. What he did just tell me was the goal this weekend here in Poland is to get on the top step of the podium Him and Simon Olsen very relaxed having a bit of a team talk So he won't interrupt there with the boys going through a game plan the team are prepping all of the cars He got the Renko's car getting some work done as well Getting up with James Dean, Ford, Ripmaster with 26 Hey, Robbie! There you go! Right, made it down to the Shanahans pitch. She's had a quick chat with Jack Shanahan, who is out of contention for the championship. But could meet Conor in the top 16 if it all goes to plan for those two guys. But obviously this is driftmaster. This is drifting. It's always unpredictable.",
       "why": "Pitbezoek Deane en Shanahans op de finaledag",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytn7sq14e5es-6/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      }
@@ -20751,6 +20751,162 @@
    "photo": null
   },
   {
+   "id": "pod-ytoslpnfy2o5k-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The judges vote and Conor Shanahan is the 2026 Formula DRIFT champion, just three years after his debut.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #longbeach #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
+    "start": 337.96
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:30:03.823579+00:00",
+   "built": "2026-11-19T16:30:03.823585+00:00",
+   "want_at": null,
+   "video": "media/pod-ytoslpnfy2o5k-2/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jonathan Castro"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN IS CHAMPION",
+   "photo": null
+  },
+  {
+   "id": "pod-ytoslpnfy2o5k-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Tuerck's son has a message for the best race car driver ever. Everybody can wipe their tears.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@ryantuerck @formulad\n\n#formulad #formuladrift #drifting #longbeach #ryantuerck #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
+    "start": 128.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:28:57.168576+00:00",
+   "built": "2026-11-19T16:28:57.168582+00:00",
+   "want_at": null,
+   "video": "media/pod-ytoslpnfy2o5k-1/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TUERCK'S SON STEALS THE SHOW",
+   "photo": null
+  },
+  {
+   "id": "pod-ytoslpnfy2o5k-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Live free or die. Formula DRIFT says goodbye to Ryan Tuerck after his final competition run in Long Beach.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@ryantuerck @formulad\n\n#formulad #formuladrift #drifting #longbeach #ryantuerck #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
+    "start": 43.14
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:27:11.876142+00:00",
+   "built": "2026-11-19T16:27:11.876147+00:00",
+   "want_at": null,
+   "video": "media/pod-ytoslpnfy2o5k-0/clip.mp4",
+   "tags": [
+    "@ryantuerck",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "TUERCK SAYS GOODBYE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytn7sq14e5es-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The title is out of reach, so James Deane has one goal in Poland. Meanwhile Jack and Conor Shanahan could meet in the top 16.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@jamesdeane130 @jackshanahan59 @conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #behindthescenes #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Behind The Scenes At The 2026 Red Bull Drift Masters Grand Finale",
+    "start": 1164.02
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T16:25:22.536156+00:00",
+   "built": "2026-11-19T16:25:22.536162+00:00",
+   "want_at": null,
+   "video": "media/pod-ytn7sq14e5es-6/clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DEANE WANTS THE TOP STEP",
+   "photo": null
+  },
+  {
    "id": "pod-ytn7sq14e5es-5",
    "kind": "stream_clip",
    "status": "draft",
@@ -23836,163 +23992,6 @@
    "caption_by": null,
    "format": "single",
    "title": "DEANE COMES TO A HALT",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-37",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire puts on a show out front and James Deane falls back. Is the champ taken out?\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@tommy.lemaire @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2788.72
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:21:50.346529+00:00",
-   "built": "2026-11-19T12:21:50.346535+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-37/clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "IS THE CHAMP TAKEN OUT?",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-36",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "It is not about the walls, it is about the box on the ground. Step one, you put a Mustang in a box.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @rudyhansen119 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2678.1
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:20:04.713853+00:00",
-   "built": "2026-11-19T12:20:04.713859+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-36/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@rudyhansen119",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "A MUSTANG IN A BOX",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-35",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field against James Deane in Utah, and Deane dominant once again in 2025.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@mattfield777 @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2606.68
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:18:02.776189+00:00",
-   "built": "2026-11-19T12:18:02.776195+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-35/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DOMINANT IN UTAH",
-   "photo": null
-  },
-  {
-   "id": "pod-yth2evinkswei-34",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Wheels off, tires off, dirt action. Did Adam LZ push too hard, or did James Deane push him off track?\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @adam_lz @formulad @mattfield777\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 2532.26
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:15:37.223386+00:00",
-   "built": "2026-11-19T12:15:37.223391+00:00",
-   "want_at": null,
-   "video": "media/pod-yth2evinkswei-34/clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@adam_lz",
-    "@formulad",
-    "@mattfield777"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "title": "DID DEANE PUSH LZ OFF?",
    "photo": null
   }
  ],
