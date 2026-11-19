@@ -134,8 +134,12 @@ def add_media(drafts: list[dict]) -> None:
         d.setdefault("band", band(p["id"]))
         credits = []
         people = p.get("people") or []
-        if not d.get("photo") and not p.get("no_still"):
+        want = CREDIT_OF.get(d.get("series") or "")
+        foreign = bool(d.get("series")) and not want      # e.g. D1GP: an FD still would show the wrong series
+        if not d.get("photo") and not p.get("no_still") and not foreign:
             e = stills.pick(people, used)
+            if e and want and e["credit"] != want:
+                e = None
             if e:
                 used.add(e["src"])
                 d["photo"], d["photo_credit"] = "../" + e["src"], e["credit"]
@@ -156,7 +160,7 @@ def add_media(drafts: list[dict]) -> None:
                 d["photo"], d["photo_credit"] = "../" + e["src"], e["credit"]
                 credits.append(e["credit"])
         if not d.get("photo"):
-            d.setdefault("backdrop", {"FORMULA DRIFT": "FD", "DRIFT MASTERS": "DM"}.get(d.get("series") or "", "DRIFT"))
+            d.setdefault("backdrop", {"FORMULA DRIFT": "FD", "DRIFT MASTERS": "DM", "D1 GRAND PRIX": "D1"}.get(d.get("series") or "", "DRIFT"))
         credits = list(dict.fromkeys(c for c in credits if c))
         cap = p.get("caption") or ""
         line = "Photo: " + " ".join(credits) if credits else ""
