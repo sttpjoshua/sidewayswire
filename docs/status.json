@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T07:31:19.954168+00:00",
+ "updated": "2026-11-19T07:38:15.038142+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 24
+  "draft": 28
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -7079,9 +7079,9 @@
       "topic": "DAN TAKES ONE ON THE CHIN",
       "quote": "Rad Dan Burkett initiated across the nose of assignment. Olson and now Rad Dan Burkett initiating Simon. Also good proximity want to see him get back into that pocket. That's what he's going to need to do into outside zone for peaking the interest of the judges. Olson gets to the side. Look at Dan takes one on the chin and keeps on keeping on transition into those final three. The question mark is how are the judges going to take that into account again? They're going to take that data to Dan. Look at that, the carbon cap large. 2012, Reese Millen won the event. Frederick Osbough and other Norwegian pilot got second, and Von Ginn Jr. got third. Again, just a different era of vehicles, as I say. Make today a good old day. Those are awesome times. But again, let's take a look here. Slide them left for Olson. Slide them right for Dan Burkett. And Dan Burkett gets the win as we're going to converse with this. He got into the wall a couple times. So here we go.",
       "why": "Olsen naast Burkett, Burkett wint toch",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-12/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -7093,9 +7093,9 @@
       "topic": "ODI HITS HIM ON A RESTART",
       "quote": "And look at this, Andy Haley, kids. This is the second half of this battle. Correct. Second half of this battle. Shinji Minoa is leading. Frederick, excuse me. Odie Bakshi is chasing him down. So Odie quickly. Look at that. So again, the chase car is allowed to leave the start line in order to anticipate that. Oh, boy. Hooked him on the back. Okay, so here's the scenarios here. Two things, that was a restart. Can you kill by it? No, so here, boy, this is huge implications here because I wonder if Odie didn't see that it was a restart, anticipating Shinji initiating, and Odie just went into the back end of him, and that is the business end of that Subaru BRZ. unfortunate turn of event.",
       "why": "Odi rijdt achterop bij een herstart, grote gevolgen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-13/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -7107,9 +7107,9 @@
       "topic": "SHANAHAN ALMOST PERFECT",
       "quote": "Rome -Sharp material would love to see him get back on form. The car was really gripping and qualifying so let's see if he loosened that thing up and it looks like he did. Connor Shanahan good angle Rome -Sharp material lunging forward but is that too early as he might have to back off? No he keeps it up there in the mix diving through the smoke there. Shanahan set it and forget it right there in the outside zone five. Rome -Sharp material giving himself enough room but almost too much room on that transition five to six and finishing and out is Connor Shanahan. Very clinical, confident, smooth, controlled. All of those adjectives just really equate to. Which he is that close to, he's almost perfect on average. Well, a great lead run by Rome, but because of a Mustang RTR spec five, empty out front.",
       "why": "Shanahan klinisch tegen Rome",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-14/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -7121,9 +7121,9 @@
       "topic": "SPARKS AND A DOOR BANG",
       "quote": "Adam LZ in the chase position, Ben Hobson swings that thing, that Mustang. The pony slides on in the yellow, Pennzoil blending into that one. Adam LZ mimics the angle, going it out so look at the sparks flying here coming out into outside zone five Adam good timing there from the BMW Hobson really good lead run and it's aggressive Adam drops into formation he definitely bangs a door let's see how that affects again that was definitely sensational but how does he affect the vehicle",
       "why": "Vonken en deurcontact tussen Hobson en LZ",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytcaagmgzlale-15/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -20751,6 +20751,162 @@
    "photo": null
   },
   {
+   "id": "pod-ytcaagmgzlale-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Sparks flying from Ben Hobson's Mustang and Adam LZ bangs the door. Sensational.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@benhobson213 @adam_lz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 992.19
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:38:15.018520+00:00",
+   "built": "2026-11-19T07:38:15.018526+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-15/clip.mp4",
+   "tags": [
+    "@benhobson213",
+    "@adam_lz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "SPARKS AND A DOOR BANG",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Clinical, confident, smooth, controlled. Conor Shanahan is almost perfect on average.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@romecp @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 948.43
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:37:02.426112+00:00",
+   "built": "2026-11-19T07:37:02.426120+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-14/clip.mp4",
+   "tags": [
+    "@romecp",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "SHANAHAN ALMOST PERFECT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "It was a restart. Odi Bakchis anticipated the initiation and went into the back of the lead car. Huge implications.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@hiroya.minowa @odidrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 895.59
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:35:19.981279+00:00",
+   "built": "2026-11-19T07:35:19.981285+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-13/clip.mp4",
+   "tags": [
+    "@hiroya.minowa",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "ODI HITS HIM ON A RESTART",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Simen Olsen gets to the side and Dan Burkett takes one on the chin. The judges go Burkett.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@raddandrift @simenolsendrifting @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 805.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:33:30.742343+00:00",
+   "built": "2026-11-19T07:33:30.742351+00:00",
+   "want_at": null,
+   "video": "media/pod-ytcaagmgzlale-12/clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "DAN TAKES ONE ON THE CHIN",
+   "photo": null
+  },
+  {
    "id": "pod-ytcaagmgzlale-11",
    "kind": "stream_clip",
    "status": "draft",
@@ -23952,165 +24108,6 @@
    "caption_by": null,
    "format": "single",
    "title": "THE WING THAT BROKE THE INTERNET",
-   "photo": null
-  },
-  {
-   "id": "pod-b9e6971ba742-10",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Audi parts on a VW? OEM+. Mustang wheels on a Nissan? Not even close. Where do you draw the OEM+ line?\n\n🎙 Full episode: Behind The Wheel\n\n#OEMplus #Nissan #Mustang #Volkswagen #CarCulture #sidewayswire",
-   "media": [
-    "media/pod-b9e6971ba742-10/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 1951.49
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:50:54.593108+00:00",
-   "built": "2026-11-17T18:09:52.847939+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-10/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHERE OEM+ ENDS",
-   "photo": null
-  },
-  {
-   "id": "pod-b9e6971ba742-1",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Another white 96 Civic with the same Type R parts as 30 others in town? One host says OEM+ can get lazy. Agree?\n\n🎙 Full episode: Behind The Wheel\n\n#OEMplus #CivicTypeR #EK9 #HondaCivic #CarCulture #sidewayswire",
-   "media": [
-    "media/pod-b9e6971ba742-1/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 507.41
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:43:10.311867+00:00",
-   "built": "2026-11-17T18:09:52.847733+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-1/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "IS OEM+ JUST LAZY?",
-   "photo": null
-  },
-  {
-   "id": "pod-b9e6971ba742-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n\n#JDM #OEMplus #CarCulture #Honda #sidewayswire",
-   "media": [
-    "media/pod-b9e6971ba742-0/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Behind The Wheel",
-    "episode": "OEM+ vs. Custom Builds: What’s the BEST Way to Build a Car?",
-    "start": 86.01
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:42:08.080425+00:00",
-   "built": "2026-11-17T18:09:52.847515+00:00",
-   "want_at": null,
-   "video": "media/pod-b9e6971ba742-0/clip.mp4",
-   "tags": [],
-   "missing_handles": [
-    "Behind The Wheel"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WHEN EVERYTHING BECAME 'JDM'",
-   "photo": null
-  },
-  {
-   "id": "pod-b5159f5c03f8-9",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A French track where you can do whatever you want. It started as drunk demolition derby in cheap Volvos and became some of the best laps of Rafael Muller's life.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #wetdrift #france #grassrootsdrift #sidewayswire",
-   "media": [
-    "media/pod-b5159f5c03f8-9/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 2897.78
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:27:02.894756+00:00",
-   "built": "2026-11-17T18:09:52.847310+00:00",
-   "want_at": null,
-   "video": "media/pod-b5159f5c03f8-9/clip.mp4",
-   "tags": [
-    "@palmer_sndrsn",
-    "@goodestcast"
-   ],
-   "missing_handles": [
-    "Rafael Muller"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "$200 VOLVOS AND WET LAPS",
    "photo": null
   }
  ],

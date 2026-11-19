@@ -378,8 +378,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-12-8054-8597.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-12-8054-8597.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 823.61, \"start\": 821.13, \"text\": \"CONTACT, BUT WHO WINS?\", \"why\": \"contact\"}",
+  "made": "2026-11-19T07:33:30.740777+00:00"
  },
  {
   "start": 895.59,
@@ -404,8 +409,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-13-8956-9481.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-13-8956-9481.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 917.03, \"start\": 913.31, \"text\": \"DID HE MISS THE RESTART?\", \"why\": \"contact\"}",
+  "made": "2026-11-19T07:35:19.979948+00:00"
  },
  {
   "start": 948.43,
@@ -428,8 +438,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-14-9484-9916.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-14-9484-9916.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 980.11, \"start\": 976.79, \"text\": \"IS HE ALMOST PERFECT?\", \"why\": \"lof\"}",
+  "made": "2026-11-19T07:37:02.424697+00:00"
  },
  {
   "start": 992.19,
@@ -452,8 +467,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytcaagmgzlale-15-9922-10220.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytcaagmgzlale-15-9922-10220.mp4",
+  "clip": "docs/media/pod-ytcaagmgzlale-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1016.73, \"start\": 1014.93, \"text\": \"DID THAT HURT THE CAR?\", \"why\": \"contact\"}",
+  "made": "2026-11-19T07:38:15.017185+00:00"
  },
  {
   "start": 1062.07,
