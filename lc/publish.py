@@ -26,7 +26,14 @@ def media_urls(post: dict) -> list[str]:
 
 
 def post_facebook(urls: list[str], caption: str) -> str:
-    page, token = os.environ["FB_PAGE_ID"], os.environ["FB_PAGE_TOKEN"]
+    from .meta import accounts
+    a = accounts()
+    page, token = a["page_id"], a["page_token"]
+    if urls[0].endswith(".mp4"):
+        r = requests.post(f"{GRAPH}/{page}/videos", timeout=300,
+                          data={"file_url": urls[0], "description": caption, "access_token": token})
+        r.raise_for_status()
+        return r.json()["id"]
     if len(urls) == 1:
         r = requests.post(f"{GRAPH}/{page}/photos", timeout=60,
                           data={"url": urls[0], "caption": caption, "access_token": token})

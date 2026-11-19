@@ -7,7 +7,7 @@
    "handle": "@sidewayswire",
    "url": "https://www.instagram.com/sidewayswire/",
    "connected": false,
-   "needs": "Meta-app met Instagram Business-account; IG_USER_ID en IG_TOKEN als GitHub-secret"
+   "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)"
   },
   {
    "id": "facebook",
@@ -15,7 +15,7 @@
    "handle": "Sideways Wire",
    "url": "",
    "connected": false,
-   "needs": "Facebook-pagina aan dezelfde Meta-app; FB_PAGE_ID en FB_PAGE_TOKEN als GitHub-secret"
+   "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)"
   },
   {
    "id": "tiktok",
@@ -23,7 +23,7 @@
    "handle": "@sidewayswire",
    "url": "https://www.tiktok.com/@sidewayswire",
    "connected": false,
-   "needs": "TikTok-account en de TikTok-app (Content Posting API) goedgekeurd"
+   "needs": "TikTok-ontwikkelaarsapp met Content Posting API; zonder goedkeuring (audit) alleen privé posten"
   },
   {
    "id": "youtube",

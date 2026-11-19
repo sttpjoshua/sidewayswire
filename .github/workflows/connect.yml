@@ -1,0 +1,18 @@
+# Tests the Meta key (read-only, posts nothing) and marks Instagram and Facebook as connected.
+# Started from the dashboard (KANALEN > KOPPELING TESTEN) or by hand.
+name: connect
+on: { workflow_dispatch: {} }
+concurrency: { group: data, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  connect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests && python -m lc.meta
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+      - run: python -m lc.gitsave "koppeling getest" data/channels.json

@@ -189,6 +189,7 @@ section{display:none}section.on{display:block}
 
 <section id="s-kanalen">
   <h1>KANALEN</h1><div class="sub">Waar Sideways Wire op post, en wat er nog nodig is.</div>
+  <div class="row" style="margin-top:16px;gap:10px"><button class="btn" id="testconn" onclick="testConn()">KOPPELING TESTEN</button><span class="sub" id="testconn-msg" style="margin:0">Controleert Instagram en Facebook met de Meta-sleutel. Er wordt niets geplaatst.</span></div>
   <div class="ch" id="channels" style="margin-top:20px"></div>
 </section>
 
@@ -285,7 +286,7 @@ function editorLine(){if(!ED)return "nog geen gegevens";
   if(ED.state==="busy")return `bezig sinds ${ago(ED.started)}: zoekt verhalen en maakt posts`;
   const n=(ED.posts||[]).length;return `laatst ${ago(ED.finished)} · ${n?n+" nieuwe post"+(n>1?"s":""):"geen nieuwe posts"}${ED.moments?" · "+ED.moments+" clipmomenten":""} · volgende ronde ${nextEditor()}`}
 let S=null, MAC=null, NOW=null, PODNOW=null, CLIPNOW=null, RUNS=null, runsAt=0;
-const WF={collect:"Nieuws verzamelen",podcasts:"Podcasts transcriberen",clips:"Clips maken",run:"Plaatsen",handles:"Handles zoeken"};
+const WF={collect:"Nieuws verzamelen",podcasts:"Podcasts transcriberen",clips:"Clips maken",run:"Plaatsen",handles:"Handles zoeken",connect:"Koppeling testen"};
 async function loadRuns(){
   if(!key&&Date.now()-runsAt<10*6e4)return;           // without a key GitHub allows 60 requests an hour
   runsAt=Date.now();
@@ -507,8 +508,11 @@ function drawChannels(){
   channels.innerHTML=ch.map(c=>{const n=P.filter(p=>p.status==="posted"&&p.results&&p.results[c.id]).length;
     return `<div class="chc ${c.connected?"on":""}"><div class="row"><h3>${esc(c.name)}</h3><span class="tag ${c.connected?"g":"d"}" style="margin-left:auto">${c.connected?"GEKOPPELD":"NOG NIET GEKOPPELD"}</span></div>
       <p><b style="color:#fff">${esc(c.handle)}</b>${c.url?` · <a href="${esc(c.url)}" target="_blank">openen</a>`:""}</p>
-      <p>${c.connected?`${n} posts geplaatst`:`Nodig: ${esc(c.needs)}`}</p></div>`}).join("");
+      <p>${c.connected?`${n} posts geplaatst`:`Nodig: ${esc(c.needs)}`}</p>${c.check&&!c.connected?`<p style="color:#ff4f9a">Laatste test: ${esc(c.check)}</p>`:""}</div>`}).join("");
 }
+async function testConn(){const m=document.getElementById("testconn-msg");
+  try{await gh(`/actions/workflows/connect.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})});
+    m.textContent="Test gestart. Over ongeveer 3 minuten staat de uitkomst hieronder."}catch(e){m.textContent="Starten lukte niet: "+e.message}}
 function drawSources(){
   const L=S.sources||[];
   const bad=s=>s.ok===false||!!s.error;

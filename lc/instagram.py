@@ -23,6 +23,10 @@ class Instagram:
     def __init__(self, user_id: str | None = None, token: str | None = None):
         self.user_id = user_id or os.environ.get("IG_USER_ID")
         self.token = token or os.environ.get("IG_TOKEN")
+        if not (self.user_id and self.token) and os.environ.get("META_TOKEN"):
+            from .meta import accounts
+            a = accounts()
+            self.user_id, self.token = a.get("ig_user_id"), a.get("ig_token")
 
     def _get(self, path: str, **params):
         params["access_token"] = self.token
