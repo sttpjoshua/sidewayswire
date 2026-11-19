@@ -89,6 +89,7 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .cal .ev.posted{opacity:.6}.cal .ev.wait{border-left-style:dotted}
 .calm{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:50;display:flex;align-items:center;justify-content:center;padding:20px}
 .calm .box{background:#1b1b1e;border:2px solid #333;max-width:760px;width:100%;max-height:90vh;overflow:auto;display:grid;grid-template-columns:260px 1fr;gap:18px;padding:18px}
+.vph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#222;color:#666;font-size:18px}
 .pl{font-style:normal;font-size:9px;font-weight:700;padding:1px 3px;margin-right:2px;border-radius:2px;background:#444;color:#fff}.pl-instagram{background:#d6297b}.pl-facebook{background:#1877f2}.pl-tiktok{background:#111;border:1px solid #25f4ee}.pl-youtube{background:#e00}
 .calm .pt{display:grid;gap:3px;font-size:13px;margin-top:8px}.calm .caps .btn.on{background:var(--accent);color:#111}
 .calm .box img,.calm .box video{width:100%;display:block;background:#000}.calm .cap{white-space:pre-wrap;font-size:13px;color:#ccc;margin-top:8px}
@@ -311,7 +312,8 @@ const toReview=()=>posts().filter(p=>["check","draft"].includes(p.status));
 const med=p=>p.video||(p.media||[])[0]||"";
 const isVid=u=>/\.mp4($|\?)/.test(u);
 const ver=p=>"?v="+encodeURIComponent(p.built||p.created||"");
-function thumb(p){const u=med(p);if(!u)return"";return isVid(u)?`<video src="${esc(u)+ver(p)}#t=1" preload="metadata" muted playsinline></video>`:`<img src="${esc(u)}" loading="lazy">`}
+// Lists show a small still from the site (fast); the video itself only loads in the detail view.
+function thumb(p){const u=med(p);if(!u)return"";if(p.thumb)return `<img src="${esc(p.thumb)}" loading="lazy">`;return isVid(u)?`<div class="vph">▶</div>`:`<img src="${esc(u)}" loading="lazy">`}
 function title(p){const t=p.title?esc(p.title):esc((p.caption||"").split("\n")[0].slice(0,90));
   return p.source?`${t}<span class="muted" style="font-family:Inter;font-size:13px;letter-spacing:0;display:block">${esc(p.source.podcast||"")}${p.source.episode?" · "+esc(p.source.episode):""}</span>`:t}
 const needsCheck=p=>p.status==="check"||(p.status==="draft"&&p.check);
@@ -364,7 +366,7 @@ function drawReview(){
     const m=p.video?[p.video]:(p.media||[]), v=isVid(m[0]||"");
     const ep=p.id.startsWith("pod-")?p.id.split("-")[1]:null;
     return head+`<div class="rc ${needsCheck(p)?"chk":""}" id="r-${p.id}" data-id="${p.id}">
-      <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?`<video src="${esc(m[0])+ver(p)}" controls preload="metadata" playsinline></video>`:`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
+      <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?`<video src="${esc(m[0])+ver(p)}" ${p.thumb?`poster="${esc(p.thumb)}"`:""} controls preload="none" playsinline></video>`:`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
         ${m.length>1?`<div class="nav"><button data-a="prev">‹</button><span class="tag" style="margin:4px 0">1/${m.length}</span><button data-a="next">›</button></div>`:""}</div>
       <div>
         <div class="row">${catTag(p)}${cat(p)==="posts"?`<span class="tag">${KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
@@ -422,7 +424,7 @@ function drawClips(){
   const left=busy&&pn.eta!=null?Math.max(1,Math.round((pn.eta-(Date.now()-new Date(pn.updated))/1000)/60)):null;
   gal.innerHTML=(busy?`<div class="banner" style="grid-column:1/-1;margin:0;border-color:var(--accent)"><b>Bezig met clips maken: ${pn.done+1} van ${pn.total}</b>${pn.remake?` (waarvan ${pn.remake} opnieuw in de nieuwe opmaak)`:""}${left?` · nog ongeveer ${left} min`:""}<br>Nu: ${esc(pn.podcast||"")} · ${esc(pn.topic||pn.title||"")}. Elke paar clips verschijnen hier de nieuwe versies.<div class="pbar" style="height:8px;background:#2c2c30;margin-top:8px"><i style="display:block;height:100%;background:var(--accent);width:${Math.round(100*pn.done/pn.total)}%"></i></div></div>`
       :making?`<div class="empty" style="grid-column:1/-1">${making} clip${making>1?"s":""} wacht op video of op de volgende run. Bekijk het in de <a href="podcasts.html">podcaststudio</a>.</div>`:"")+
-    C.filter(F[clipFilter]).map(p=>`<div class="gc"><video src="${esc(p.video)+ver(p)}" controls preload="metadata" playsinline></video>
+    C.filter(F[clipFilter]).map(p=>`<div class="gc"><video src="${esc(p.video)+ver(p)}" ${p.thumb?`poster="${esc(p.thumb)}"`:""} controls preload="none" playsinline></video>
       <div>${stTag(p)}${p.post_at&&p.status==="ready"?`<span class="muted">${when(p.post_at)}</span>`:""}<br><b>${title(p)}</b><div class="cap">${esc(p.caption||"")}</div>
       <div class="row" style="margin-top:8px">${["check","draft"].includes(p.status)?`<a class="btn g" href="#beoordelen/${p.id}">BEOORDELEN</a>`:""}</div></div></div>`).join("")||(making?"":`<div class="empty">Nog geen clips.</div>`);
 }

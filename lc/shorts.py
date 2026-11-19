@@ -73,25 +73,40 @@ def cut(src: Path, parts: list[tuple[float, float]], out: Path) -> None:
                     "-movflags", "+faststart", str(out)], check=True)
 
 
+def thumb(src: Path, pid: str) -> str:
+    """Small still for the dashboard lists (on the site itself, so lists load fast)."""
+    out = ROOT / "docs" / "media" / "thumbs" / f"{pid}.jpg"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", "2.5", "-i", str(src), "-frames:v", "1",
+                    "-vf", "scale=270:-2", "-q:v", "6", str(out)], check=True)
+    return str(out.relative_to(ROOT))
+
+
 def run(limit: int = 400) -> dict:
     rep = {"made": 0, "not_needed": 0, "split": 0, "errors": []}
     posts = [p for p in q.load() if p.get("status") in ("ready", "approved", "check", "draft")
-             and p.get("kind") in ("stream_clip", "podcast_clip", "vlog_clip") and not p.get("short") and not p.get("short_none")
-             and p.get("video")]
+             and p.get("kind") in ("stream_clip", "podcast_clip", "vlog_clip") and p.get("video")
+             and (not p.get("thumb") or not (p.get("short") or p.get("short_none")))]
     posts.sort(key=lambda p: (p.get("post_at") is None, p.get("post_at") or "", -(p.get("score") or 0)))
     with tempfile.TemporaryDirectory() as tmp:
         for p in posts[:limit]:
-            if p.get("format") == "split":
-                p["short_none"] = "split"
-                rep["split"] += 1
-                q.save(p)
-                continue
             try:
                 src = ROOT / p["video"]
                 if not src.exists():
                     src = Path(tmp) / "src.mp4"
                     if not mediastore.download(p["video"], src):
                         raise RuntimeError("clip niet gevonden")
+                if not p.get("thumb"):
+                    p["thumb"] = thumb(src, p["id"])
+                    rep["thumbs"] = rep.get("thumbs", 0) + 1
+                if p.get("short") or p.get("short_none"):
+                    q.save(p)
+                    continue
+                if p.get("format") == "split":
+                    p["short_none"] = "split"
+                    rep["split"] += 1
+                    q.save(p)
+                    continue
                 parts = windows(planner.moment_of(p), _dur(src))
                 if parts is None:
                     p["short_none"] = "kort genoeg"

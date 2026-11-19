@@ -25,7 +25,7 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "docs" / "media"
 REPO = os.environ.get("GITHUB_REPOSITORY", "sttpjoshua/sidewayswire")
-PINNED = ("docs/media/portraits/", "docs/media/stills/", "docs/media/photos/", "docs/media/.gitkeep")
+PINNED = ("docs/media/portraits/", "docs/media/stills/", "docs/media/photos/", "docs/media/thumbs/", "docs/media/.gitkeep")
 STAGE_HOURS = 36
 BUCKETS = 8
 API = "https://api.github.com"
@@ -101,7 +101,15 @@ def upload(path: str, data_file: Path) -> None:
 
 
 def download(path: str, out: Path) -> bool:
-    r = requests.get(url(path), stream=True, timeout=300)
+    """The repo is private, so release files need the token (the API sends a short-lived link)."""
+    r = None
+    if os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN"):
+        a = _assets(tag_for(path)).get(asset_name(path))
+        if a:
+            r = requests.get(f"{API}/repos/{REPO}/releases/assets/{a['id']}", stream=True, timeout=300,
+                             headers=_h() | {"Accept": "application/octet-stream"})
+    if r is None:
+        r = requests.get(url(path), stream=True, timeout=300)
     if not r.ok:
         return False
     out.parent.mkdir(parents=True, exist_ok=True)
