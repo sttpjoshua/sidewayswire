@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-19T09:10:35.909350+00:00",
+ "updated": "2026-11-19T10:54:58.610756+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
   "draft": 80
  },
- "collected": "2026-11-19T02:52:10.675008+00:00",
+ "collected": "2026-11-19T10:54:58.531161+00:00",
  "instagram": false,
  "sources": [
   {
@@ -34,7 +34,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -146,14 +146,14 @@
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -186,6 +186,23 @@
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQTFGYUgyeF9lVmlZWkxVM2N2YmRxcGM0c3pQOURzbk8xNTM1RlBkYzRFYkRQN0FkcDJDS2ZQUTN3QmNNbkRicHdhYnJzbC1WM2dDWVctVnI0QS1LbWcyX3JIS2tnUmk2UDhwcl90QjU2N2tPcjJmZ3RBc0tYYmc2LU91XzJ5cHE5UVAzdExSWDFtSllJNEx3ZndoVEpDS0d3TEhkbzdPWTY0TmRVYVBHLVJkajJTWUk0VEFLS21UdkNRNkJaU2ZRMjdiVFg1dkd4dnJlZ1FtMnNZN1pTbHc?oc=5",
      "kind": "article",
      "published": "2026-11-17T01:12:22+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Not So 'Easy Peasy'. Learning How to Use Mustang's Drift Brake",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-19T05:47:01+00:00",
+   "items": [
+    {
+     "source": "Google News · Ford From the Road",
+     "title": "Not So 'Easy Peasy'. Learning How to Use Mustang's Drift Brake",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU0V0ZUExb2dqdVhlX0xlZzlVVmdrdGkzTUNGQ084U09sOXVkSmR4WDB0Z0JKaTNITjNsWlFDM1NSZ3FTLUlyNGFmUFR6Q2RLbjU5THFhX2RHb09qT1hfVDhvZEhTYTV0Q2J1TVkyRWZidXlpZnN6cklxQ2lBUHJNRGxEbXdaQzlLLUxFckQ3SlhxRVZsdWc?oc=5",
+     "kind": "article",
+     "published": "2026-11-19T05:47:01+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -1275,23 +1292,6 @@
      "kind": "video",
      "published": "2026-11-06T01:32:30+00:00",
      "media_url": "https://i3.ytimg.com/vi/ZrOE49Xb87c/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-05T18:20:22+00:00",
-   "items": [
-    {
-     "source": "Formula DRIFT",
-     "title": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
-     "url": "https://www.youtube.com/watch?v=OSLpNFY2O5k",
-     "kind": "video",
-     "published": "2026-11-05T18:20:22+00:00",
-     "media_url": "https://i4.ytimg.com/vi/OSLpNFY2O5k/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
