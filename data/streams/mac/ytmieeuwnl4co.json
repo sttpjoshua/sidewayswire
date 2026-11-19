@@ -1,7 +1,10 @@
 {
  "youtube": "MIEEUWnl4co",
- "status": "transcribing",
+ "status": "error",
  "note": "video vastgelegd in het register",
  "seconds": 1679.0,
- "found_title": "These parts COMPLETELY changed my R34 GTR!"
+ "found_title": "These parts COMPLETELY changed my R34 GTR!",
+ "error": "geluid van de stream niet op te halen: ERROR: unable to download video data: HTTP Error 403: Forbidden\n",
+ "at": 1795118785.3203342,
+ "version": "16"
 }
