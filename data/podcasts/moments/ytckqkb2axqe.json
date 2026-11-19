@@ -708,7 +708,12 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytckqkb2axqe-22r2-8660-8958.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytckqkb2axqe-22r2-8660-8958.mp4",
+  "clip": "docs/media/pod-ytckqkb2axqe-22/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-19T08:36:01.360746+00:00"
  }
 ]

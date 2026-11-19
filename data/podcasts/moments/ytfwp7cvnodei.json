@@ -19,8 +19,13 @@
    "why": "de vraag vlak voor de ontlading"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytfwp7cvnodei-0-4918-5241.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytfwp7cvnodei-0-4918-5241.mp4",
+  "clip": "docs/media/pod-ytfwp7cvnodei-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 497.14, \"start\": 494.52, \"text\": \"HAS HE DONE IT?\", \"why\": \"de vraag vlak voor de ontlading\"}",
+  "made": "2026-11-19T08:37:11.645925+00:00"
  },
  {
   "start": 26.96,
@@ -42,9 +47,14 @@
    "why": "de bezorgde vraag na de tik"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Onbekend welke coureur deze vlog praat; tegenstander 'Kevin Pissor' in transcript (spelling/identiteit nakijken)",
-  "wait_name": "v2-ytfwp7cvnodei-1-270-825.mp4"
+  "wait_name": "v2-ytfwp7cvnodei-1-270-825.mp4",
+  "clip": "docs/media/pod-ytfwp7cvnodei-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 65.22, \"start\": 62.92, \"text\": \"ARE YOU OKAY?\", \"why\": \"de bezorgde vraag na de tik\"}",
+  "made": "2026-11-19T08:39:03.188624+00:00"
  }
 ]

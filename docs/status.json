@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T08:34:19.234186+00:00",
+ "updated": "2026-11-19T08:40:34.064970+00:00",
  "counts": {
   "ready": 217,
   "check": 156,
   "posted": 3,
-  "draft": 60
+  "draft": 64
  },
  "collected": "2026-11-19T02:52:10.675008+00:00",
  "instagram": false,
@@ -8863,9 +8863,9 @@
       "topic": "KORPULINSKI IS CHAMPION",
       "quote": "He's on the line, ready to rock and roll. Has Pavel Korpilinski done it? Pavel Korpilinski is your 20 -26 Driftmasters champion! Ten years of hard work all came down to tonight. Pavel Korpilinski your 20 -26 Driftmasters champion! I don't know what to say, like for real, I have no idea.",
       "why": "Het kampioensmoment in een stadion met 50.000 Polen",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytfwp7cvnodei-0/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      },
@@ -8877,9 +8877,9 @@
       "topic": "SMALL TOUCH IN WARSAW",
       "quote": "Hello guys and welcome, it's top 32 today here at Pigeon, Aradobu. It is my first time and I am amazed and I cannot wait to see how the tribunes are going to be filled because it's promised to have 50 ,000 people or more here so I cannot wait. Practice went really well for us, the track is quite hooked up so we're trying to get the car set up well and get ready for our first battle with Kevin Pissor. Are you okay? Are you okay? What's happened? Small touch. Small touch? Okay. What's going on? when I see that S**T my goodness",
       "why": "Coureur vertelt over zijn eerste battle, daarna een tik en paniek in de pit",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytfwp7cvnodei-1/clip.mp4",
+      "mode": "video",
       "wait_video": null,
       "split": false
      }
@@ -9988,9 +9988,9 @@
       "topic": "SEATTLE FINAL",
       "quote": "",
       "why": "Split van de finale",
-      "status": "new",
-      "clip": null,
-      "mode": null,
+      "status": "queued",
+      "clip": "docs/media/pod-ytckqkb2axqe-22/clip.mp4",
+      "mode": "split",
       "wait_video": null,
       "split": true
      }
@@ -20751,6 +20751,164 @@
    "photo": null
   },
   {
+   "id": "pod-yth2evinkswei-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The first battle of James Deane's 2025 season and there is contact behind Ryan Litteral. Very unlike the Machine.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@ryanlitteral @jamesdeane130 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 12.58
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:40:34.044945+00:00",
+   "built": "2026-11-19T08:40:34.044952+00:00",
+   "want_at": null,
+   "video": "media/pod-yth2evinkswei-0/clip.mp4",
+   "tags": [
+    "@ryanlitteral",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "title": "CONTACT IN DEANE'S FIRST BATTLE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytfwp7cvnodei-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "First time at the National Stadium, a hooked up track, and then a small touch nobody saw coming.\n\n🎥 Footage: INSIDE RED BULL DRIFT MASTERS 2026 GRAND\n@driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Inside Red Bull Drift Masters 2026 Grand Finale 🔥",
+    "start": 26.96
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:39:03.189986+00:00",
+   "built": "2026-11-19T08:39:03.189992+00:00",
+   "want_at": null,
+   "video": "media/pod-ytfwp7cvnodei-1/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Kevin Pozsar"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "SMALL TOUCH IN WARSAW",
+   "photo": null
+  },
+  {
+   "id": "pod-ytfwp7cvnodei-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ten years of hard work, one night in Warsaw. Paweł Korpuliński is the 2026 Drift Masters champion.\n\n🎥 Footage: INSIDE RED BULL DRIFT MASTERS 2026 GRAND\n@driftmasters.gp\n\n#driftmasters #drifting #poland #champion #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "Inside Red Bull Drift Masters 2026 Grand Finale 🔥",
+    "start": 491.78
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:37:11.647243+00:00",
+   "built": "2026-11-19T08:37:11.647250+00:00",
+   "want_at": null,
+   "video": "media/pod-ytfwp7cvnodei-0/clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "title": "KORPULINSKI IS CHAMPION",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-22",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: the Seattle final between Conor Shanahan and Fredric Aasbo.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @formulad @fredricaasbo\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 834.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:36:01.361955+00:00",
+   "built": "2026-11-19T08:36:01.361961+00:00",
+   "want_at": null,
+   "video": "media/pod-ytckqkb2axqe-22/clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@fredricaasbo"
+   ],
+   "missing_handles": [
+    "Fredric Aasbø"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "title": "SEATTLE FINAL",
+   "photo": null
+  },
+  {
    "id": "pod-ytckqkb2axqe-21",
    "kind": "stream_clip",
    "status": "draft",
@@ -23909,173 +24067,6 @@
    "caption_by": null,
    "format": "single",
    "title": "JUDGES EXPLAIN THE CORVETTE CRASH",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-8",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Longtime judge Brian Eggert is hanging up his Formula DRIFT judging headset at the end of the 2026 season.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "media/pod-yt8bwn2g2ssy-8/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 2412.67
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:13:46.556166+00:00",
-   "built": "2026-11-19T01:11:25.686283+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8bwn2g2ssy-8/clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Brian Eggert"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "EGGERT HANGS UP THE HEADSET",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-7",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy LaMere clips the wall in his lead run and Matt Field has nowhere to go. Who takes the blame?\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #corvette #sidewayswire",
-   "media": [
-    "media/pod-yt8bwn2g2ssy-7/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 2128.81
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:13:12.793979+00:00",
-   "built": "2026-11-19T01:11:25.685998+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8bwn2g2ssy-7/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Tommy LaMere"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "WALL, CONTACT, CHAOS",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-6",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field against Tommy LaMere, Corvette against Corvette. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "media/pod-yt8bwn2g2ssy-6/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 2024.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T19:45:36.549949+00:00",
-   "built": "2026-11-19T01:11:25.685671+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8bwn2g2ssy-6/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Tommy LaMere"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "title": "TWIN CORVETTES, SIDE BY SIDE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-5",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Corvette against Corvette: Matt Field leads and Tommy LaMere sticks to his door through the Las Vegas bank.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #corvette #sidewayswire",
-   "media": [
-    "media/pod-yt8bwn2g2ssy-5/clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 2023.09
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T19:43:55.388951+00:00",
-   "built": "2026-11-19T01:11:25.649104+00:00",
-   "want_at": null,
-   "video": "media/pod-yt8bwn2g2ssy-5/clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Tommy LaMere"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "title": "TWIN CORVETTES DOOR TO DOOR",
    "photo": null
   }
  ],
