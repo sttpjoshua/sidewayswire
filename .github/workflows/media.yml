@@ -1,0 +1,36 @@
+# Once (and safe to run again): moves every post image and clip from docs/media to the releases
+# media-0 .. media-7, so the website stays far below GitHub's 1 GB limit. Uses a blobless, sparse
+# checkout: files are fetched one at a time, uploaded and removed from git.
+name: media
+on: { workflow_dispatch: {} }
+concurrency: { group: media, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          sparse-checkout: |
+            lc
+            data
+            queue
+          sparse-checkout-cone-mode: true
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: Move media to the releases
+        run: python -m lc.mediastore migrate
+      - name: Save (only removals from git)
+        run: |
+          git -c user.name=sidewayswire-bot -c user.email=bot@users.noreply.github.com commit -qm "media verhuisd naar releases (site onder 1 GB)" || exit 0
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep 10
+          done
+          exit 1

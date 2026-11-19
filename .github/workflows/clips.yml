@@ -23,7 +23,7 @@ jobs:
       - name: Make clips
         run: python -m lc.podclips
       - name: Save
-        run: python -m lc.status && python -m lc.gitsave "clips $(date -u +%FT%TZ)" data/podcasts queue docs/media docs/status.json
+        run: python -m lc.mediastore sync && python -m lc.status && python -m lc.gitsave "clips $(date -u +%FT%TZ)" data/podcasts queue docs/media docs/status.json
       - name: Build and plan the new clips (Plaatsen)
         run: gh workflow run run.yml --ref main || true
       - name: Tell the dashboard the clips run is over

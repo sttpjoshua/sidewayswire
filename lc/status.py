@@ -6,6 +6,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+from . import mediastore
 from . import queue as q
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -86,8 +87,8 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         "inbox": [{k: s.get(k) for k in ("title", "series", "buzz", "published", "items")} for s in stories[:80]],
         "podcasts": podcast_status(),
         "streams": stream_summary(),
-        "posts": [{k: p.get(k) for k in keep} | {"media": [m.removeprefix("docs/") for m in p.get("media") or []],
-                                                 "video": (p.get("video") or "").removeprefix("docs/") or None,
+        "posts": [{k: p.get(k) for k in keep} | {"media": [mediastore.url(m) for m in p.get("media") or []],
+                                                 "video": mediastore.url(p["video"]) if p.get("video") else None,
                                                  "title": clip_title(p), "photo": photo_info(p)}
                   for p in sorted(posts, key=lambda p: p.get("post_at") or p.get("built") or p.get("created") or "",
                                   reverse=True)[:300]],

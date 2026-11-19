@@ -21,8 +21,10 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def media_urls(post: dict) -> list[str]:
+    """Site address when the file is staged on the site (Meta prefers that), else the release address."""
+    from . import mediastore
     base = os.environ.get("PAGES_URL", "").rstrip("/")
-    return [f"{base}/{m.removeprefix('docs/')}" for m in post["media"]]
+    return [f"{base}/{m.removeprefix('docs/')}" if (ROOT / m).exists() else mediastore.url(m) for m in post["media"]]
 
 
 def post_facebook(urls: list[str], caption: str) -> str:

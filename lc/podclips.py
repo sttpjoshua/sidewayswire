@@ -90,7 +90,8 @@ def save_partial(note: str):
     if not os.environ.get("GITHUB_ACTIONS"):
         return
     try:
-        from . import gitsave, status
+        from . import gitsave, mediastore, status
+        print("media:", mediastore.sync())
         status.run()
         gitsave.save(f"clips: {note}", ["data/podcasts", "queue", "docs/media", "docs/status.json"])
     except Exception as e:

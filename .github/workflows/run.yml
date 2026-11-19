@@ -7,6 +7,7 @@ permissions: { contents: write }
 env:
   LC_DRY_RUN: ${{ vars.LC_DRY_RUN || '1' }}      # set repo variable LC_DRY_RUN=0 to go live
   PAGES_URL: ${{ vars.PAGES_URL }}
+  GH_TOKEN: ${{ github.token }}
   META_TOKEN: ${{ secrets.META_TOKEN }}
   IG_USER_ID: ${{ secrets.IG_USER_ID }}
   IG_TOKEN: ${{ secrets.IG_TOKEN }}
@@ -28,6 +29,8 @@ jobs:
         run: python -m lc.collect
       - name: 2 build posts and handle Telegram answers
         run: python -m lc.build
+      - name: media naar de releases, wat bijna online gaat naar de site
+        run: python -m lc.mediastore sync
       - name: 3 publish what is due
         run: python -m lc.publish
       - name: 4 dashboard

@@ -85,7 +85,11 @@ const mmss=x=>{x=Math.max(0,Math.floor(x));const h=Math.floor(x/3600),m=Math.flo
 const parseT=v=>{const p=String(v).trim().split(":").map(Number);return p.some(isNaN)?NaN:p.reduce((a,b)=>a*60+b,0)};
 const day=t=>new Date(t).toLocaleDateString("nl-NL",{day:"numeric",month:"short",year:"numeric"});
 let key=null; try{key=localStorage.getItem("sw_gh_key")}catch(e){}
-async function liveJson(name,old){   // progress files live on the branch "live" (keeps GitHub Pages deploys calm)
+async // Media lives in GitHub releases (see lc/mediastore.py); same bucket rule as the Python side.
+function mediaUrl(p){p=String(p||"").replace(/^docs\//,"");if(/^media\/(portraits|stills|photos)\//.test(p)||/^https?:/.test(p))return p;
+  const n=p.replace(/^media\//,"").split("/").join("__");let s=0;for(const c of n)s+=c.charCodeAt(0);
+  return `https://github.com/sttpjoshua/sidewayswire/releases/download/media-${s%8}/${n}`}
+function liveJson(name,old){   // progress files live on the branch "live" (keeps GitHub Pages deploys calm)
   try{if(key){const r=await fetch(`${API}/contents/docs/${name}?ref=live&${Date.now()}`,{headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github.raw+json"}});if(r.ok)return await r.json()}
     const r=await fetch(`https://raw.githubusercontent.com/${REPO}/live/docs/${name}?${Date.now()}`);if(r.ok)return await r.json()}catch(e){}
   try{const r=await fetch(name+"?"+Date.now());if(r.ok)return await r.json()}catch(e){}
@@ -188,7 +192,7 @@ function drawMoments(){
   mos.innerHTML=M.map((m,i)=>`<div class="mo ${m.kind==="rumor"?"rumor":""} ${m.status==="skipped"?"skipped":""}" data-i="${i}">
    <div class="row"><span class="tag ${m.kind==="rumor"?"p":"g"}">${KIND[m.kind]||m.kind}</span><b>${mmss(m.start)} tot ${mmss(m.end)}</b><span class="muted">(${Math.round(m.end-m.start)} s) · ${esc(ST[m.status]||m.status)}${m.mode?" · "+(m.mode==="video"?"video":"audiogram"):""}${m.by==="joshua"?" · door jou":""}${m.wait_video&&m.status==="new"?" · wacht op video van de Mac":""}${m.error?" · "+esc(m.error):""}</span>
    <span style="margin-left:auto" class="row"><button class="btn" data-a="play">▶ LUISTER</button></span></div>
-   <div class="clip" style="margin-top:10px">${m.clip?`<video controls preload="none" src="${esc(m.clip.replace(/^docs\//,""))}?${Date.now()}"></video>`:""}
+   <div class="clip" style="margin-top:10px">${m.clip?`<video controls preload="none" src="${esc(mediaUrl(m.clip))}?${Date.now()}"></video>`:""}
    <div style="flex:1">
    <div class="grid"><label>BEGIN<input data-f="start" value="${mmss(m.start)}"></label><label>EIND<input data-f="end" value="${mmss(m.end)}"></label>
    <label>SOORT<select data-f="kind">${Object.keys(KIND).map(k=>`<option value="${k}" ${k===m.kind?"selected":""}>${KIND[k]}</option>`).join("")}</select></label>
