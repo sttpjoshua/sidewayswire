@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:52:49.105332+00:00",
+ "updated": "2026-11-20T15:01:48.530641+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 485,
@@ -53822,7 +53822,9 @@
     "handle": "@SidewaysWire",
     "url": "https://www.youtube.com/@SidewaysWire",
     "connected": false,
-    "needs": "Google Cloud-project met YouTube Data API; YT_CLIENT_ID en YT_CLIENT_SECRET als GitHub-secret; daarna KOPPEL YOUTUBE"
+    "needs": "Google Cloud-project met YouTube Data API; YT_CLIENT_ID en YT_CLIENT_SECRET als GitHub-secret; daarna KOPPEL YOUTUBE",
+    "check": "gekoppeld als Sttp.Joshua (@sttp.joshua); posten start na de YouTube-audit",
+    "linked": true
    },
    {
     "id": "telegram",
