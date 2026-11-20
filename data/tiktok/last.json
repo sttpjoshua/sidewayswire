@@ -1,6 +1,8 @@
 {
- "action": "test",
- "at": "2026-11-20T08:59:18.849318+00:00",
- "ok": false,
- "error": "TikTok post/publish/video/init/: [unaudited_client_can_only_post_to_private_accounts] Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+ "action": "draft",
+ "at": "2026-11-20T11:58:06.907607+00:00",
+ "ok": true,
+ "post": "pod-ytckqkb2axqe-16",
+ "draft": true,
+ "publish_id": "v_inbox_file~v2.7710220454992168982"
 }
