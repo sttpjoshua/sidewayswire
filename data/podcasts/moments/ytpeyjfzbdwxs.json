@@ -340,8 +340,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-11-9737-10312.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-11-9737-10312.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 998.82, \"start\": 995.94, \"text\": \"HOW CLOSE CAN IT GET?\", \"why\": \"gejuich\"}",
+  "made": "2026-11-20T01:16:35.169562+00:00"
  },
  {
   "start": 1032.08,
@@ -364,8 +369,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-12-10321-10945.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-12-10321-10945.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1050.54, \"start\": 1047.68, \"text\": \"CAN HE TAKE OUT THE CHAMP?\", \"why\": \"spanning\"}",
+  "made": "2026-11-20T01:18:04.334478+00:00"
  },
  {
   "start": 1101.6,
@@ -388,8 +398,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-13-11016-11738.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-13-11016-11738.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1153.5, \"start\": 1149.76, \"text\": \"DID THE MACHINE JUST CRACK?\", \"why\": \"de fout\"}",
+  "made": "2026-11-20T01:19:51.169616+00:00"
  },
  {
   "start": 1191.8,
@@ -412,8 +427,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-14-11918-12363.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-14-11918-12363.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1211.4, \"start\": 1209.5, \"text\": \"DID HE GO RALLY RACING?\", \"why\": \"replay van de offroad\"}",
+  "made": "2026-11-20T01:20:58.803576+00:00"
  },
  {
   "start": 1281.68,
