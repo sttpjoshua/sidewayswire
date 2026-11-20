@@ -745,8 +745,13 @@
    "why": "commentaar"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-25-132278-132866.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-25-132278-132866.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13265.42, \"start\": 13261.64, \"text\": \"DRIFTING GREATNESS OVER AND OVER\", \"why\": \"commentaar\"}",
+  "made": "2026-11-20T11:47:12.678820+00:00"
  },
  {
   "start": 13294.6,
@@ -768,8 +773,13 @@
    "why": "de score"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-26-132946-133451.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-26-132946-133451.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13338.52, \"start\": 13335.46, \"text\": \"WHERE DOES THE HOME HERO LAND?\", \"why\": \"de score\"}",
+  "made": "2026-11-20T11:48:38.340832+00:00"
  },
  {
   "start": 13435.98,
@@ -792,8 +802,13 @@
    "why": "grappige regel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-27-134360-134931.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-27-134360-134931.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13449.0, \"start\": 13446.86, \"text\": \"I WANT MY FOOTBALL BACK\", \"why\": \"grappige regel\"}",
+  "made": "2026-11-20T11:50:15.537751+00:00"
  },
  {
   "start": 13535.36,
@@ -817,8 +832,13 @@
    "why": "de score"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-28-135354-135900.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-28-135354-135900.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13582.12, \"start\": 13578.96, \"text\": \"IS THE LEADER LOSING HIS GRIP?\", \"why\": \"de score\"}",
+  "made": "2026-11-20T11:51:45.005201+00:00"
  },
  {
   "start": 13600.24,
