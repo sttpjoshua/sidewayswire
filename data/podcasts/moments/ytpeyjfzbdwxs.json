@@ -108,8 +108,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-3-4595-4866.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-3-4595-4866.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 472.28, \"start\": 470.42, \"text\": \"DIRT OR NO DIRT?\", \"why\": \"dirt actie\"}",
+  "made": "2026-11-20T01:07:55.974047+00:00"
  },
  {
   "start": 546.34,
@@ -132,8 +137,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-4-5463-5678.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-4-5463-5678.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 560.94, \"start\": 558.88, \"text\": \"WHAT HAPPENED TO LZ?\", \"why\": \"LZ van de baan\"}",
+  "made": "2026-11-20T01:08:35.319929+00:00"
  },
  {
   "start": 571.78,
@@ -156,8 +166,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-5-5718-6041.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-5-5718-6041.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 589.5, \"start\": 585.64, \"text\": \"TOO AGGRESSIVE OR BRAKE CHECK?\", \"why\": \"de duw\"}",
+  "made": "2026-11-20T01:09:31.072103+00:00"
  },
  {
   "start": 629.5,
@@ -180,8 +195,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-6-6295-6791.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-6-6295-6791.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 639.1, \"start\": 635.22, \"text\": \"WHAT JUST HAPPENED?\", \"why\": \"de klap\"}",
+  "made": "2026-11-20T01:10:41.046134+00:00"
  },
  {
   "start": 750.16,
