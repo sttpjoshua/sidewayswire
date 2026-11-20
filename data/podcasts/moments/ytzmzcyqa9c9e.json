@@ -47,8 +47,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-1-898-1164.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytzmzcyqa9c9e-1-898-1164.mp4",
+  "clip": "docs/media/pod-ytzmzcyqa9c9e-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 114.8, \"start\": 112.96, \"text\": \"THREE WEEKS OLD AND ALREADY FAST?\", \"why\": \"nieuwe leider\"}",
+  "made": "2026-11-20T12:25:40.721800+00:00"
  },
  {
   "start": 117.48,
@@ -70,8 +75,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-2-1175-1541.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytzmzcyqa9c9e-2-1175-1541.mp4",
+  "clip": "docs/media/pod-ytzmzcyqa9c9e-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 147.94, \"start\": 146.18, \"text\": \"CAN ANYONE BEAT THE MACHINE?\", \"why\": \"de score van Deane\"}",
+  "made": "2026-11-20T12:26:36.377107+00:00"
  },
  {
   "start": 164.74,
