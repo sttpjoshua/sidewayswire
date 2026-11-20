@@ -19,8 +19,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytth2l4tyizj4-0-121-450.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytth2l4tyizj4-0-121-450.mp4",
+  "clip": "docs/media/pod-ytth2l4tyizj4-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 31.1, \"start\": 28.96, \"text\": \"HOW DEEP CAN HE GO?\", \"why\": \"ongeloof in de booth\"}",
+  "made": "2026-11-20T05:49:02.810068+00:00"
  },
  {
   "start": 45.32,
@@ -42,8 +47,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytth2l4tyizj4-1-453-754.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytth2l4tyizj4-1-453-754.mp4",
+  "clip": "docs/media/pod-ytth2l4tyizj4-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 75.1, \"start\": 71.3, \"text\": \"IS THIS ROOKIE FOR REAL?\", \"why\": \"lof voor de rookie\"}",
+  "made": "2026-11-20T05:50:10.223590+00:00"
  },
  {
   "start": 117.28,
@@ -65,8 +75,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytth2l4tyizj4-2-1173-1420.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytth2l4tyizj4-2-1173-1420.mp4",
+  "clip": "docs/media/pod-ytth2l4tyizj4-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 136.94, \"start\": 134.8, \"text\": \"WET OR DRY, DOES IT MATTER?\", \"why\": \"commentaar juicht\"}",
+  "made": "2026-11-20T05:51:04.238653+00:00"
  },
  {
   "start": 146.66,

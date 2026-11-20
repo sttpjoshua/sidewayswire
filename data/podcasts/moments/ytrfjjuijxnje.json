@@ -136,7 +136,12 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrfjjuijxnje-4-8526-8944.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrfjjuijxnje-4-8526-8944.mp4",
+  "clip": "docs/media/pod-ytrfjjuijxnje-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 867.82, \"start\": 866.12, \"text\": \"HAS DRIFTING GONE TOO NERDY?\", \"why\": \"enthousiaste afsluiter\"}",
+  "made": "2026-11-20T05:47:54.703447+00:00"
  }
 ]
