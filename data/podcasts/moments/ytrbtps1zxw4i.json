@@ -19,8 +19,13 @@
    "why": "eerste titelkans"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-0-3892-4354.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-0-3892-4354.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 411.0, \"start\": 408.22, \"text\": \"WHAT'S ON THE LINE FOR CONOR?\", \"why\": \"eerste titelkans\"}",
+  "made": "2026-11-20T04:09:08.203792+00:00"
  },
  {
   "start": 923.82,

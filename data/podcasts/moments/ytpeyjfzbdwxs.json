@@ -456,8 +456,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-15-12817-13098.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-15-12817-13098.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1293.9, \"start\": 1292.3, \"text\": \"DID HE LOSE HIS VOICE?\", \"why\": \"grappige reactie\"}",
+  "made": "2026-11-20T04:05:07.019193+00:00"
  },
  {
   "start": 1399.28,
@@ -481,8 +486,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-16-13993-14420.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-16-13993-14420.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1436.2, \"start\": 1434.36, \"text\": \"WHO TOOK ROAD ATLANTA?\", \"why\": \"winnaar\"}",
+  "made": "2026-11-20T04:06:23.431413+00:00"
  },
  {
   "start": 752.3,
@@ -517,7 +527,12 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-17r2-7835-8120.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-17r2-7835-8120.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-17/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T04:07:32.450507+00:00"
  }
 ]
