@@ -485,10 +485,15 @@
    "why": "verbaasde commentator"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Driver name unknown: BMW G87 2JZ driver, speech recognition gave Itaes Sade / a sadder",
-  "wait_name": "v2-ytvphv55wk1ja-16-109494-110085.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-16-109494-110085.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10994.68, \"start\": 10991.38, \"text\": \"ALL OR NOTHING AFTER A ZERO\", \"why\": \"verbaasde commentator\"}",
+  "made": "2026-11-20T06:49:14.856658+00:00"
  },
  {
   "start": 12488.18,
@@ -510,8 +515,13 @@
    "why": "spoiler op de muur"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-17-124882-125337.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-17-124882-125337.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12529.88, \"start\": 12526.72, \"text\": \"BACK ON FORM?\", \"why\": \"spoiler op de muur\"}",
+  "made": "2026-11-20T06:50:59.060161+00:00"
  },
  {
   "start": 12639.7,
@@ -533,10 +543,15 @@
    "why": "reactie commentaar"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Falvey (transcript Falvy/Falvey)",
-  "wait_name": "v2-ytvphv55wk1ja-18-126397-126910.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-18-126397-126910.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12682.9, \"start\": 12679.62, \"text\": \"WHAT IS IN THE IRISH WATER?\", \"why\": \"reactie commentaar\"}",
+  "made": "2026-11-20T06:52:53.949579+00:00"
  },
  {
   "start": 12776.94,
@@ -558,8 +573,13 @@
    "why": "spanning"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-19-127769-128363.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-19-127769-128363.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12820.58, \"start\": 12817.54, \"text\": \"UNCOMFORTABLE FOR EVERYBODY\", \"why\": \"spanning\"}",
+  "made": "2026-11-20T06:55:01.044343+00:00"
  },
  {
   "start": 12843.38,
