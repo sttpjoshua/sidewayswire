@@ -20,10 +20,15 @@
    "why": "juichende commentator"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Namen uit verhaspeld commentaar ('Kovalinsky', 'Konef', 'Fauvi'); finalisten nakijken",
-  "wait_name": "v2-ytue2s78ftfay-0-3239-3601.mp4"
+  "wait_name": "v2-ytue2s78ftfay-0-3239-3601.mp4",
+  "clip": "docs/media/pod-ytue2s78ftfay-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 348.34, \"start\": 345.7, \"text\": \"WATCH THIS TRANSITION\", \"why\": \"juichende commentator\"}",
+  "made": "2026-11-20T06:13:56.800272+00:00"
  },
  {
   "start": 410.32,
@@ -45,8 +50,13 @@
    "why": "het moment van de eerste zege"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytue2s78ftfay-1-4103-4518.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytue2s78ftfay-1-4103-4518.mp4",
+  "clip": "docs/media/pod-ytue2s78ftfay-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 420.26, \"start\": 418.02, \"text\": \"A FIRST THAT CHANGES EVERYTHING\", \"why\": \"het moment van de eerste zege\"}",
+  "made": "2026-11-20T06:15:13.271942+00:00"
  },
  {
   "start": 74.08,
@@ -69,9 +79,14 @@
    "why": "rivaliteit"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Ierse spreker niet bij naam genoemd; mogelijk Conor Falvey",
-  "wait_name": "v2-ytue2s78ftfay-2-741-1009.mp4"
+  "wait_name": "v2-ytue2s78ftfay-2-741-1009.mp4",
+  "clip": "docs/media/pod-ytue2s78ftfay-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 92.52, \"start\": 89.62, \"text\": \"BACK FOR VENGEANCE\", \"why\": \"rivaliteit\"}",
+  "made": "2026-11-20T06:16:08.418135+00:00"
  }
 ]
