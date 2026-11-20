@@ -341,10 +341,21 @@ def replies(gh, put, json_or, log, beat) -> int:
 
 
 # ---------- one round ----------
+def busy_hours(settings: dict, now: datetime | None = None) -> bool:
+    """Joshua works on this Mac on weekdays 08:30-18:00 (20 nov): the model stays off then, so the Mac is
+    all his. Evenings, nights and weekends it works. settings.local_editor_quiet = {"days": [0-4], "from", "to"}."""
+    from zoneinfo import ZoneInfo
+    qh = settings.get("local_editor_quiet") or {"days": [0, 1, 2, 3, 4], "from": "08:30", "to": "18:00"}
+    t = (now or datetime.now(timezone.utc)).astimezone(ZoneInfo("Europe/Amsterdam"))
+    return t.weekday() in qh.get("days", []) and qh.get("from", "08:30") <= t.strftime("%H:%M") < qh.get("to", "18:00")
+
+
 def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
     settings = json_or("data/settings.json", {})
     if not settings.get("local_editor"):
         return {"off": True}
+    if busy_hours(settings):
+        return {"off": True, "why": "werktijd: de Mac is van Joshua"}
     t0, rep = time.time(), {"moments": 0, "episodes": 0, "news": 0, "replies": 0}
     known = known_people(json_or, gh)
     try:                                   # replies first: fans wait, a transcript does not

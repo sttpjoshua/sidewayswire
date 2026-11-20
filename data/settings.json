@@ -3,5 +3,17 @@
  "note": "Joshua 18 nov: genoeg podcasts, alleen livestreams (kwalificatie en battles)",
  "local_editor": true,
  "local_editor_note": "Joshua 19 nov: lokale redactie op de Mac Studio aan (geen credits)",
- "media_public": true
+ "media_public": true,
+ "local_editor_quiet": {
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "from": "08:30",
+  "to": "18:00"
+ },
+ "local_editor_quiet_note": "Joshua 20 nov: op werkdagen 08:30-18:00 gebruikt hij de Mac zelf; de lokale redactie draait daarbuiten"
 }
