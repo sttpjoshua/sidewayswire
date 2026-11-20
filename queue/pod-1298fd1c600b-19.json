@@ -1,14 +1,21 @@
 {
  "id": "pod-1298fd1c600b-19",
  "kind": "podcast_clip",
- "status": "ready",
+ "status": "draft",
  "slides": [],
  "title": "FIX IT, DON'T RESHELL",
  "video": "docs/media/pod-1298fd1c600b-19/clip.mp4",
  "caption": "Chelsea DeNofa's biggest advice: crashed your car? Fix it, don't reshell. Even his championship car was hammered.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#drifting #driftcar #formuladrift #grassrootsdrift #sidewayswire",
+ "tags": [
+  "@chelseadenofa",
+  "@formulad",
+  "@jako13"
+ ],
+ "missing_handles": [],
+ "format": "single",
  "credit": "@formulad",
- "check": false,
- "check_reason": "",
+ "check": true,
+ "check_reason": "audiogram: er was geen video",
  "platforms": [
   "instagram",
   "facebook",
@@ -21,37 +28,5 @@
   "start": 5757.61
  },
  "created": "2026-11-16T19:31:56.934237+00:00",
- "built": "2026-11-16T21:56:41.526528+00:00",
- "tags": [
-  "@chelseadenofa",
-  "@formulad",
-  "@jako13"
- ],
- "missing_handles": [],
- "media": [
-  "docs/media/pod-1298fd1c600b-19/clip.mp4"
- ],
- "problems": [],
- "post_at": null,
- "score": 25,
- "moment_kind": "fact",
- "people": [
-  "Chelsea Denofa"
- ],
- "plan": {},
- "captions": {
-  "instagram": "Chelsea Denofa | The Outerzone\n\nChelsea DeNofa's biggest advice: crashed your car? Fix it, don't reshell. Even his championship car was hammered.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#drift #chelseadenofa #drifting #driftcar #sidewayswire",
-  "facebook": "Chelsea Denofa | The Outerzone\n\nChelsea DeNofa's biggest advice: crashed your car? Fix it, don't reshell. Even his championship car was hammered.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#drift #chelseadenofa #sidewayswire",
-  "tiktok": "Chelsea Denofa | The Outerzone: Chelsea DeNofa's biggest advice: crashed your car? Fix it, don't reshell. Even his championship car was hammered.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @chelseadenofa @formulad @jako13\n#drift #chelseadenofa #drifting #sidewayswire",
-  "youtube_title": "Chelsea Denofa | The Outerzone",
-  "youtube": "Chelsea DeNofa's biggest advice: crashed your car? Fix it, don't reshell. Even his championship car was hammered.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #chelseadenofa #sidewayswire"
- },
- "collaborators": [
-  "chelseadenofa"
- ],
- "short": "docs/media/pod-1298fd1c600b-19/short.mp4",
- "short_len": 7.9,
- "thumb": "docs/media/thumbs/pod-1298fd1c600b-19.jpg",
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-1298fd1c600b-19.mp4",
- "preview_of": "2026-11-16T21:56:41.526528+00:00"
+ "built": "2026-11-20T11:33:58.577129+00:00"
 }
