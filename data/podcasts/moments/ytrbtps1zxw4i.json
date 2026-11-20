@@ -167,10 +167,15 @@
    "why": "spanning voor incident"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Naam Shinji Minowa (vader van Hiroya) controleren",
-  "wait_name": "v2-ytrbtps1zxw4i-5-23348-24011.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-5-23348-24011.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2401.08, \"start\": 2398.5, \"text\": \"THEY HOPED THIS WOULDN'T HAPPEN\", \"why\": \"spanning voor incident\"}",
+  "made": "2026-11-20T04:18:28.244839+00:00"
  },
  {
   "start": 2707.54,
@@ -193,8 +198,13 @@
    "why": "het contact"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-6-27075-27405.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-6-27075-27405.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2727.92, \"start\": 2724.98, \"text\": \"WATCH THE LEAD CAR TAKE THIS\", \"why\": \"het contact\"}",
+  "made": "2026-11-20T04:19:43.940587+00:00"
  },
  {
   "start": 2926.44,
@@ -217,8 +227,13 @@
    "why": "verdeelde jury"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-7-29264-29948.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-7-29264-29948.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2934.46, \"start\": 2932.94, \"text\": \"ONE JUDGE SAW IT DIFFERENTLY\", \"why\": \"verdeelde jury\"}",
+  "made": "2026-11-20T04:21:36.569664+00:00"
  },
  {
   "start": 3249.12,
@@ -241,8 +256,13 @@
    "why": "grappige commentaar"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-8-32491-33212.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-8-32491-33212.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3272.6, \"start\": 3270.38, \"text\": \"THE DRIFT WIZARD CASTS A SPELL\", \"why\": \"grappige commentaar\"}",
+  "made": "2026-11-20T04:23:44.049540+00:00"
  },
  {
   "start": 3344.18,
