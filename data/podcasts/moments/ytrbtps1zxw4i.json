@@ -1448,10 +1448,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Init run 2 geschat",
-  "wait_name": "v2-ytrbtps1zxw4i-45r2-60350-60720.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-45r2-60350-60720.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-45/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T05:34:19.285915+00:00"
  },
  {
   "start": 6822.4,
@@ -1486,8 +1491,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-46r2-69670-70030.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-46r2-69670-70030.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-46/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T05:37:06.561594+00:00"
  },
  {
   "start": 7171.5,
@@ -1522,8 +1532,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-47r2-72795-73140.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-47r2-72795-73140.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-47/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T05:40:04.045381+00:00"
  },
  {
   "start": 8752.5,
@@ -1558,9 +1573,14 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Init run 2 geschat",
-  "wait_name": "v2-ytrbtps1zxw4i-48r2-89440-89810.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-48r2-89440-89810.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-48/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T05:42:56.095037+00:00"
  }
 ]
