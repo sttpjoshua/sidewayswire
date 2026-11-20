@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T22:46:15.252897+00:00",
+ "updated": "2026-11-20T22:54:29.355788+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 453,
-  "check": 198,
+  "ready": 452,
+  "check": 195,
   "posted": 3,
-  "draft": 69
+  "draft": 73
  },
  "collected": "2026-11-20T17:22:32.850511+00:00",
  "instagram": false,
@@ -12994,6 +12994,230 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side in the battle for third: Keskikorpi vs James Deane.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 305.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:54:05.598714+00:00",
+   "built": "2026-11-20T22:54:26.620735+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ythcpensbcsdc-8__clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Keskikorpi"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "KESKIKORPI VS DEANE SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side: Duane McKeever and Nasser Habali in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 232.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:52:12.555956+00:00",
+   "built": "2026-11-20T22:52:26.438060+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ythcpensbcsdc-7__clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Duane McKeever",
+    "Nasser Habali"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "MCKEEVER VS HABALI SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Both runs side by side: Lauri Heinonen and Raman Kandrasenka in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 166.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:50:09.642235+00:00",
+   "built": "2026-11-20T22:50:16.161955+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ythcpensbcsdc-6__clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Raman Kandrasenka",
+    "Lauri Heinonen"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "KANDRASENKA VS HEINONEN SPLIT",
+   "photo": null
+  },
+  {
+   "id": "pod-ythcpensbcsdc-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
+    "start": 75.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T12:48:02.394206+00:00",
+   "built": "2026-11-20T22:48:29.075570+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ythcpensbcsdc-5__clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Benediktas Čirba",
+    "Espen Røed"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "CIRBA VS ROED SPLIT",
    "photo": null
   },
   {
@@ -30904,247 +31128,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytinepijspeek-0__short.mp4",
    "title": "TUERCK'S LAST FD ROUND",
-   "photo": null
-  },
-  {
-   "id": "pod-ythcpensbcsdc-8",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Both runs side by side in the battle for third: Keskikorpi vs James Deane.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ythcpensbcsdc-8__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
-    "start": 305.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:54:05.598714+00:00",
-   "built": "2026-11-19T16:51:07.759272+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ythcpensbcsdc-8__clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Keskikorpi"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ythcpensbcsdc-8.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ythcpensbcsdc-8.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "KESKIKORPI VS DEANE SPLIT",
-   "photo": null
-  },
-  {
-   "id": "pod-ythcpensbcsdc-7",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Both runs side by side: Duane McKeever and Nasser Habali in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ythcpensbcsdc-7__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
-    "start": 232.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:52:12.555956+00:00",
-   "built": "2026-11-19T16:51:07.759023+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ythcpensbcsdc-7__clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Duane McKeever",
-    "Nasser Habali"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ythcpensbcsdc-7.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ythcpensbcsdc-7.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "MCKEEVER VS HABALI SPLIT",
-   "photo": null
-  },
-  {
-   "id": "pod-ythcpensbcsdc-6",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Both runs side by side: Lauri Heinonen and Raman Kandrasenka in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ythcpensbcsdc-6__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
-    "start": 166.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:50:09.642235+00:00",
-   "built": "2026-11-19T16:51:07.758716+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ythcpensbcsdc-6__clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Raman Kandrasenka",
-    "Lauri Heinonen"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ythcpensbcsdc-6.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ythcpensbcsdc-6.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "KANDRASENKA VS HEINONEN SPLIT",
-   "photo": null
-  },
-  {
-   "id": "pod-ythcpensbcsdc-5",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Lead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ythcpensbcsdc-5__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
-    "start": 75.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:48:02.394206+00:00",
-   "built": "2026-11-19T16:51:07.758403+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ythcpensbcsdc-5__clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Benediktas Čirba",
-    "Espen Røed"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": {},
-   "score": 71,
-   "captions": {
-    "instagram": "Benediktas Čirba vs Espen Røed | Drift Masters 2026 Round 2 Spain\n\nLead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@driftmasters.gp\n\n#driftmasters #drift #benediktascirba #espenroed #sidewayswire",
-    "facebook": "Benediktas Čirba vs Espen Røed | Drift Masters 2026 Round 2 Spain\n\nLead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
-    "tiktok": "Benediktas Čirba vs Espen Røed | Drift Masters 2026 Round 2 Spain: Lead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\nTag the person you watch drift with 👇\n🎥 Footage: Drift Masters 2026 Round 2 Spain @driftmasters.gp\n#driftmasters #drift #benediktascirba #sidewayswire",
-    "youtube_title": "Čirba vs Røed | Drift Masters 2026 Round 2 Spain",
-    "youtube": "Lead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [],
-   "people": [
-    "Benediktas Čirba",
-    "Espen Røed"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ythcpensbcsdc-5.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ythcpensbcsdc-5.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "CIRBA VS ROED SPLIT",
    "photo": null
   },
   {
