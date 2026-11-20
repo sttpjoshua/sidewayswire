@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-12",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "THE TITLE BATTLE, SIDE BY SIDE",
  "video": "docs/media/pod-fd2026r8-12/clip.mp4",
@@ -14,8 +14,8 @@
  "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
- "check": true,
- "check_reason": "livestream-clip: check jij eerst",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -28,13 +28,5 @@
   "start": 7789
  },
  "created": "2026-11-17T08:01:13.503744+00:00",
- "built": "2026-11-17T18:09:52.916455+00:00",
- "media": [
-  "docs/media/pod-fd2026r8-12/clip.mp4"
- ],
- "problems": [],
- "short_none": "split",
- "thumb": "docs/media/thumbs/pod-fd2026r8-12.jpg",
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-fd2026r8-12.mp4",
- "preview_of": "2026-11-17T18:09:52.916455+00:00"
+ "built": "2026-11-20T17:32:05.698768+00:00"
 }
