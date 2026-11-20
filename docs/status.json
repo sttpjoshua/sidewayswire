@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-20T08:42:58.413681+00:00",
+ "updated": "2026-11-20T08:43:46.387151+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 464,
   "check": 221,
   "posted": 3
  },
- "collected": "2026-11-20T07:02:22.697365+00:00",
+ "collected": "2026-11-20T08:43:11.755079+00:00",
  "instagram": false,
  "sources": [
   {
@@ -26,8 +26,9 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 4,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -138,7 +139,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -152,7 +153,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "how": "feed"
   },
   {
