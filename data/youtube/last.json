@@ -1,5 +1,6 @@
 {
- "action": "login",
- "at": "2026-11-20T15:02:50.846219+00:00",
- "ok": true
+ "action": "exchange",
+ "at": "2026-11-20T15:05:43.777557+00:00",
+ "ok": false,
+ "error": "dit Google-account heeft geen YouTube-kanaal"
 }
