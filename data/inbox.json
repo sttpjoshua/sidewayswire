@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:39:07.303602+00:00",
+ "updated": "2026-11-20T01:21:33.043231+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -24,6 +24,25 @@
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQTFGYUgyeF9lVmlZWkxVM2N2YmRxcGM0c3pQOURzbk8xNTM1RlBkYzRFYkRQN0FkcDJDS2ZQUTN3QmNNbkRicHdhYnJzbC1WM2dDWVctVnI0QS1LbWcyX3JIS2tnUmk2UDhwcl90QjU2N2tPcjJmZ3RBc0tYYmc2LU91XzJ5cHE5UVAzdExSWDFtSllJNEx3ZndoVEpDS0d3TEhkbzdPWTY0TmRVYVBHLVJkajJTWUk0VEFLS21UdkNRNkJaU2ZRMjdiVFg1dkd4dnJlZ1FtMnNZN1pTbHc?oc=5",
      "kind": "article",
      "published": "2026-11-17T01:12:22+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "c8765d526afcce0b",
+   "title": "D1LT RD.11 茂原 チケット情報",
+   "series": "D1GP",
+   "buzz": 1,
+   "first_seen": "2026-11-20T01:21:04.138085+00:00",
+   "published": "2026-11-20T00:33:26+00:00",
+   "items": [
+    {
+     "source": "D1 Grand Prix (D1GP)",
+     "title": "D1LT RD.11 茂原 チケット情報",
+     "url": "https://d1gp.co.jp/27535/",
+     "kind": "article",
+     "published": "2026-11-20T00:33:26+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -671,25 +690,6 @@
      "kind": "video",
      "published": "2026-11-13T20:00:12+00:00",
      "media_url": "https://i2.ytimg.com/vi/UFyDI5Fio_k/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "id": "512810c81746e6fa",
-   "title": "Will this be your motto for the weekend? 👀🔥",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:06.078661+00:00",
-   "published": "2026-11-13T17:35:20+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "Will this be your motto for the weekend? 👀🔥",
-     "url": "https://www.youtube.com/shorts/saGVKVlOpI4",
-     "kind": "video",
-     "published": "2026-11-13T17:35:20+00:00",
-     "media_url": "https://i4.ytimg.com/vi/saGVKVlOpI4/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
@@ -1557,7 +1557,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -1640,9 +1640,8 @@
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
   },
   {
    "source": "Drift Masters",
@@ -1676,7 +1675,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "how": "feed"
   },
   {
