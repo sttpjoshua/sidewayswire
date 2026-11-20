@@ -1,5 +1,18 @@
 {
- "action": "login",
- "at": "2026-11-20T08:48:50.790748+00:00",
- "ok": true
+ "action": "exchange",
+ "at": "2026-11-20T08:50:05.933954+00:00",
+ "creator_nickname": "sidewayswire",
+ "creator_username": "sidewayswire",
+ "creator_avatar_url": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-avt-0068-euttp/3fffd777916f6f060ac360858f36363d~tplv-tiktokx-cropcenter:168:168.webp?dr=10397&refresh_token=de4f136e&x-expires=1795334400&x-signature=uAro07nxGdWbljSKiZ%2FL8rQjMFA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=bbadf38d&idc=no1a",
+ "privacy_level_options": [
+  "PUBLIC_TO_EVERYONE",
+  "MUTUAL_FOLLOW_FRIENDS",
+  "SELF_ONLY"
+ ],
+ "comment_disabled": false,
+ "duet_disabled": false,
+ "stitch_disabled": false,
+ "max_video_post_duration_sec": 3600,
+ "checked": "2026-11-20T08:50:05.933396+00:00",
+ "connected": true
 }

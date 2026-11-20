@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T08:48:50.951198+00:00",
+ "updated": "2026-11-20T08:50:06.104856+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 464,
@@ -50889,8 +50889,9 @@
     "name": "TikTok",
     "handle": "@sidewayswire",
     "url": "https://www.tiktok.com/@sidewayswire",
-    "connected": false,
-    "needs": "TikTok-ontwikkelaarsapp met Content Posting API; zonder goedkeuring (audit) alleen privé posten"
+    "connected": true,
+    "needs": "TikTok-ontwikkelaarsapp met Content Posting API; zonder goedkeuring (audit) alleen privé posten",
+    "check": "verbonden als @sidewayswire"
    },
    {
     "id": "youtube",
