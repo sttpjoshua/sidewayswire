@@ -107,7 +107,12 @@
    "why": "het nitrous-backupsysteem"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpcbmjoufku-3-4081-4584.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpcbmjoufku-3-4081-4584.mp4",
+  "clip": "docs/media/pod-ytpcbmjoufku-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 432.14, \"start\": 429.2, \"text\": \"THEIR SECRET WEAPON FOR THE FINAL\", \"why\": \"het nitrous-backupsysteem\"}",
+  "made": "2026-11-20T01:04:44.761412+00:00"
  }
 ]

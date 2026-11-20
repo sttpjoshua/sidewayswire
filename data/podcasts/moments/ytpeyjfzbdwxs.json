@@ -21,8 +21,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-0-234-416.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-0-234-416.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 26.02, \"start\": 23.42, \"text\": \"WHAT HAS THIS KID BEEN ON?\", \"why\": \"verbaasde commentator\"}",
+  "made": "2026-11-20T01:05:18.866137+00:00"
  },
  {
   "start": 392.0,
@@ -46,8 +51,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-1-3920-4253.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-1-3920-4253.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 425.28, \"start\": 423.1, \"text\": \"CAN HE BREAK INTO THE 90S?\", \"why\": \"de score\"}",
+  "made": "2026-11-20T01:06:10.783962+00:00"
  },
  {
   "start": 431.02,
@@ -69,8 +79,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpeyjfzbdwxs-2-4310-4594.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpeyjfzbdwxs-2-4310-4594.mp4",
+  "clip": "docs/media/pod-ytpeyjfzbdwxs-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 447.4, \"start\": 445.64, \"text\": \"TOO SMOOTH TO SCORE BIG?\", \"why\": \"mooie beelden\"}",
+  "made": "2026-11-20T01:06:57.582992+00:00"
  },
  {
   "start": 459.46,
