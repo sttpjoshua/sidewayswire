@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-18",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "BACK TO BACK IRISH",
  "video": "docs/media/pod-ytvphv55wk1ja-18/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 12639.7
  },
  "created": "2026-11-20T06:52:53.950976+00:00",
- "built": "2026-11-20T06:52:53.950984+00:00"
+ "built": "2026-11-20T07:02:33.760745+00:00",
+ "media": [
+  "docs/media/pod-ytvphv55wk1ja-18/clip.mp4"
+ ],
+ "problems": []
 }

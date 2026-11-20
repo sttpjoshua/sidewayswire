@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-18",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "DEANE'S CREW: DOWN A CYLINDER",
  "video": "docs/media/pod-ytrbtps1zxw4i-18/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 5912.04
  },
  "created": "2026-11-20T04:40:24.051512+00:00",
- "built": "2026-11-20T04:40:24.051518+00:00"
+ "built": "2026-11-20T07:02:31.140518+00:00",
+ "media": [
+  "docs/media/pod-ytrbtps1zxw4i-18/clip.mp4"
+ ],
+ "problems": []
 }

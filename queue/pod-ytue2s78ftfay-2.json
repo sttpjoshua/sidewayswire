@@ -1,7 +1,7 @@
 {
  "id": "pod-ytue2s78ftfay-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "A CHILDHOOD DREAM AT HOME",
  "video": "docs/media/pod-ytue2s78ftfay-2/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 74.08
  },
  "created": "2026-11-20T06:16:08.419350+00:00",
- "built": "2026-11-20T06:16:08.419356+00:00"
+ "built": "2026-11-20T07:02:33.605157+00:00",
+ "media": [
+  "docs/media/pod-ytue2s78ftfay-2/clip.mp4"
+ ],
+ "problems": []
 }

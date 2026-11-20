@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-1",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "95.7 FROM SIMEN OLSEN",
  "video": "docs/media/pod-ytvphv55wk1ja-1/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 2734.78
  },
  "created": "2026-11-20T06:19:13.879871+00:00",
- "built": "2026-11-20T06:19:13.879876+00:00"
+ "built": "2026-11-20T07:02:33.605700+00:00",
+ "media": [
+  "docs/media/pod-ytvphv55wk1ja-1/clip.mp4"
+ ],
+ "problems": []
 }

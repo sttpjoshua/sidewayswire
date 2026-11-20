@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "LEAD RUN GOES OFF COURSE",
  "video": "docs/media/pod-ytrbtps1zxw4i-2/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 1121.38
  },
  "created": "2026-11-20T04:12:10.801743+00:00",
- "built": "2026-11-20T04:12:10.801749+00:00"
+ "built": "2026-11-20T07:02:31.179838+00:00",
+ "media": [
+  "docs/media/pod-ytrbtps1zxw4i-2/clip.mp4"
+ ],
+ "problems": []
 }

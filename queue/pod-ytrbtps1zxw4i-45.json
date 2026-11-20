@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-45",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "HUGHES VS BEECHUM",
  "video": "docs/media/pod-ytrbtps1zxw4i-45/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 5952.9
  },
  "created": "2026-11-20T05:34:19.286997+00:00",
- "built": "2026-11-20T05:34:19.287003+00:00"
+ "built": "2026-11-20T07:02:32.118773+00:00",
+ "media": [
+  "docs/media/pod-ytrbtps1zxw4i-45/clip.mp4"
+ ],
+ "problems": []
 }

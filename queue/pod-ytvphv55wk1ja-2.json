@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "SAME WALL TWICE IN ONE DAY",
  "video": "docs/media/pod-ytvphv55wk1ja-2/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 3016.22
  },
  "created": "2026-11-20T06:20:37.403693+00:00",
- "built": "2026-11-20T06:20:37.403699+00:00"
+ "built": "2026-11-20T07:02:33.808098+00:00",
+ "media": [
+  "docs/media/pod-ytvphv55wk1ja-2/clip.mp4"
+ ],
+ "problems": []
 }

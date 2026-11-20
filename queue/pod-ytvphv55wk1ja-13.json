@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-13",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE WALL MOVED?",
  "video": "docs/media/pod-ytvphv55wk1ja-13/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 9816.02
  },
  "created": "2026-11-20T06:43:09.365671+00:00",
- "built": "2026-11-20T06:43:09.365679+00:00"
+ "built": "2026-11-20T07:02:33.712730+00:00",
+ "media": [
+  "docs/media/pod-ytvphv55wk1ja-13/clip.mp4"
+ ],
+ "problems": []
 }

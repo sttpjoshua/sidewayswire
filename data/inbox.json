@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T01:21:33.043231+00:00",
+ "updated": "2026-11-20T07:02:22.697365+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -1549,9 +1549,8 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 4,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
@@ -1640,8 +1639,9 @@
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": false,
-   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Drift Masters",
@@ -1675,7 +1675,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {

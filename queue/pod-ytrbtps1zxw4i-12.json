@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-12",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "MADISON THREE WHEELS OFF?",
  "video": "docs/media/pod-ytrbtps1zxw4i-12/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 4402.76
  },
  "created": "2026-11-20T04:30:48.004428+00:00",
- "built": "2026-11-20T04:30:48.004435+00:00"
+ "built": "2026-11-20T07:02:30.983307+00:00",
+ "media": [
+  "docs/media/pod-ytrbtps1zxw4i-12/clip.mp4"
+ ],
+ "problems": []
 }

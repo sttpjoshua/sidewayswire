@@ -1,7 +1,7 @@
 {
  "id": "pod-ytpcbmjoufku-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THREE SUPRAS: A 2027 TEASER?",
  "video": "docs/media/pod-ytpcbmjoufku-2/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 359.7
  },
  "created": "2026-11-20T01:03:29.804238+00:00",
- "built": "2026-11-20T01:03:29.804243+00:00"
+ "built": "2026-11-20T07:02:30.184798+00:00",
+ "media": [
+  "docs/media/pod-ytpcbmjoufku-2/clip.mp4"
+ ],
+ "problems": []
 }

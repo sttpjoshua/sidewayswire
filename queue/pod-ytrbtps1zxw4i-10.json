@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-10",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "LEMAIRE DEDICATES HIS WIN",
  "video": "docs/media/pod-ytrbtps1zxw4i-10/clip.mp4",
@@ -27,5 +27,9 @@
   "start": 3532.02
  },
  "created": "2026-11-20T04:27:49.023222+00:00",
- "built": "2026-11-20T04:27:49.023228+00:00"
+ "built": "2026-11-20T07:02:30.944355+00:00",
+ "media": [
+  "docs/media/pod-ytrbtps1zxw4i-10/clip.mp4"
+ ],
+ "problems": []
 }

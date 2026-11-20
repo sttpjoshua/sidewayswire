@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-15",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "94 FROM ALAN HYNES",
  "video": "docs/media/pod-ytvphv55wk1ja-15/clip.mp4",
@@ -28,5 +28,9 @@
   "start": 10813.42
  },
  "created": "2026-11-20T06:46:49.817287+00:00",
- "built": "2026-11-20T06:46:49.817294+00:00"
+ "built": "2026-11-20T07:02:33.713308+00:00",
+ "media": [
+  "docs/media/pod-ytvphv55wk1ja-15/clip.mp4"
+ ],
+ "problems": []
 }

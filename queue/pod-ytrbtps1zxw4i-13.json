@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-13",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE DATA SAW THREE TIRES OFF",
  "video": "docs/media/pod-ytrbtps1zxw4i-13/clip.mp4",
@@ -29,5 +29,9 @@
   "start": 4492.18
  },
  "created": "2026-11-20T04:31:58.248366+00:00",
- "built": "2026-11-20T04:31:58.248372+00:00"
+ "built": "2026-11-20T07:02:30.983574+00:00",
+ "media": [
+  "docs/media/pod-ytrbtps1zxw4i-13/clip.mp4"
+ ],
+ "problems": []
 }
