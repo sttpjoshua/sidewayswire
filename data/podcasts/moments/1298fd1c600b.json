@@ -608,9 +608,9 @@
   "status": "queued",
   "by": "editor",
   "clip": "docs/media/pod-1298fd1c600b-23/clip.mp4",
-  "mode": "video",
-  "layout": 3,
-  "made": "2026-11-16T20:22:11.381967+00:00",
+  "mode": "audiogram",
+  "layout": 4,
+  "made": "2026-11-20T11:35:25.373673+00:00",
   "hook": {
    "start": 6964.21,
    "end": 6968.82,
@@ -634,9 +634,9 @@
   "status": "queued",
   "by": "editor",
   "clip": "docs/media/pod-1298fd1c600b-24/clip.mp4",
-  "mode": "video",
-  "layout": 3,
-  "made": "2026-11-16T20:23:32.352003+00:00",
+  "mode": "audiogram",
+  "layout": 4,
+  "made": "2026-11-20T11:36:07.091990+00:00",
   "hook": {
    "start": 7189.39,
    "end": 7192.5,
@@ -692,10 +692,10 @@
    "why": "de onthulling"
   },
   "clip": "docs/media/pod-1298fd1c600b-26/clip.mp4",
-  "mode": "video",
-  "layout": 3,
+  "mode": "audiogram",
+  "layout": 4,
   "hook_sig": "{\"end\": 8178.78, \"start\": 8175.97, \"text\": \"A MOUNTAIN DRIFT EVENT?\", \"why\": \"de onthulling\"}",
-  "made": "2026-11-16T21:32:19.478071+00:00",
+  "made": "2026-11-20T11:37:00.036699+00:00",
   "wait_name": "v2-1298fd1c600b-26-81757-82256.mp4"
  },
  {

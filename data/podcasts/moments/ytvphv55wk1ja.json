@@ -601,8 +601,13 @@
    "why": "nerveuze commentator"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-20-128434-128996.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-20-128434-128996.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12878.44, \"start\": 12876.26, \"text\": \"IS IT ENOUGH?\", \"why\": \"nerveuze commentator\"}",
+  "made": "2026-11-20T11:38:31.776138+00:00"
  },
  {
   "start": 12910.82,
