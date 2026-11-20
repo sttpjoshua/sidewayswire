@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T20:17:04.680506+00:00",
+ "updated": "2026-11-20T20:24:22.767287+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 460,
-  "check": 211,
+  "ready": 458,
+  "check": 209,
   "posted": 3,
-  "draft": 49
+  "draft": 53
  },
  "collected": "2026-11-20T17:22:32.850511+00:00",
  "instagram": false,
@@ -13043,6 +13043,229 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytbnnz6o9wkaq-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The final in Italy, run one. James Deane leads and Conor Shanahan cannot be shaken.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 393.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T06:58:49.009744+00:00",
+   "built": "2026-11-20T20:24:11.702611+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytbnnz6o9wkaq-4__clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FINAL RUN ONE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytbnnz6o9wkaq-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A Polish rookie wildcard in an Alfa Romeo leads Benediktas Čirba, who creeps right onto the door.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #alfaromeo #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 200.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T06:54:32.067011+00:00",
+   "built": "2026-11-20T20:22:57.504732+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytbnnz6o9wkaq-2__clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Benediktas Čirba",
+    "Lucas"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ROOKIE WILDCARD VS CIRBA",
+   "photo": null
+  },
+  {
+   "id": "pod-ytbnnz6o9wkaq-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Almost backwards, almost contact, and Conor Shanahan still pulls it off against the Hungarian.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 114.44
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T06:52:00.994852+00:00",
+   "built": "2026-11-20T20:20:55.550466+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytbnnz6o9wkaq-1__clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Kevin Pozsar"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SHANAHAN SAVES IT BACKWARDS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytbnnz6o9wkaq-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Equal machines, very different styles. Jakub Król risks everything with a brave dive, and Paweł Korpuliński goes through.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #battle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@driftmasters.gp",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Drift Masters",
+    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
+    "start": 30.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T06:49:21.265790+00:00",
+   "built": "2026-11-20T20:18:56.799159+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytbnnz6o9wkaq-0__clip.mp4",
+   "tags": [
+    "@driftmasters.gp"
+   ],
+   "missing_handles": [
+    "Paweł Korpuliński",
+    "Jakub Król"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "KROL RISKS EVERYTHING",
    "photo": null
   },
   {
@@ -35207,75 +35430,6 @@
    "photo": null
   },
   {
-   "id": "pod-ytbnnz6o9wkaq-4",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The final in Italy, run one. James Deane leads and Conor Shanahan cannot be shaken.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #conorshanahan #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytbnnz6o9wkaq-4__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
-    "start": 393.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T06:58:49.009744+00:00",
-   "built": "2026-11-19T16:51:05.914368+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytbnnz6o9wkaq-4__clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@conorshanahan79",
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "James Deane vs Conor Shanahan | Drift Masters 2026 Round 1 Italy\n\nThe final in Italy, run one. James Deane leads and Conor Shanahan cannot be shaken.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@jamesdeane130 @conorshanahan79 @driftmasters.gp\n\n#driftmasters #drift #jamesdeane #conorshanahan #sidewayswire",
-    "facebook": "James Deane vs Conor Shanahan | Drift Masters 2026 Round 1 Italy\n\nThe final in Italy, run one. James Deane leads and Conor Shanahan cannot be shaken.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@jamesdeane130 @conorshanahan79 @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
-    "tiktok": "James Deane vs Conor Shanahan | Drift Masters 2026 Round 1 Italy: The final in Italy, run one. James Deane leads and Conor Shanahan cannot be shaken.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Drift Masters 2026 Round 1 Italy @jamesdeane130 @conorshanahan79 @driftmasters.gp\n#driftmasters #drift #jamesdeane #sidewayswire",
-    "youtube_title": "Deane vs Shanahan | Drift Masters 2026 Round 1 Italy",
-    "youtube": "The final in Italy, run one. James Deane leads and Conor Shanahan cannot be shaken.\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@jamesdeane130 @conorshanahan79 @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jamesdeane130",
-    "conorshanahan79"
-   ],
-   "people": [
-    "James Deane",
-    "Conor Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-4.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytbnnz6o9wkaq-4.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytbnnz6o9wkaq-4__short.mp4",
-   "title": "FINAL RUN ONE",
-   "photo": null
-  },
-  {
    "id": "pod-ytbnnz6o9wkaq-3",
    "kind": "stream_clip",
    "status": "check",
@@ -35332,189 +35486,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytbnnz6o9wkaq-3__short.mp4",
    "title": "BERTANS SHREDS BODY PANELS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytbnnz6o9wkaq-2",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "A Polish rookie wildcard in an Alfa Romeo leads Benediktas Čirba, who creeps right onto the door.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #alfaromeo #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytbnnz6o9wkaq-2__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
-    "start": 200.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T06:54:32.067011+00:00",
-   "built": "2026-11-19T16:51:05.894623+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytbnnz6o9wkaq-2__clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Benediktas Čirba",
-    "Lucas"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-2.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytbnnz6o9wkaq-2.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytbnnz6o9wkaq-2__short.mp4",
-   "title": "ROOKIE WILDCARD VS CIRBA",
-   "photo": null
-  },
-  {
-   "id": "pod-ytbnnz6o9wkaq-1",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Almost backwards, almost contact, and Conor Shanahan still pulls it off against the Hungarian.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytbnnz6o9wkaq-1__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
-    "start": 114.44
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T06:52:00.994852+00:00",
-   "built": "2026-11-19T16:51:05.894298+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytbnnz6o9wkaq-1__clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Kevin Pozsar"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-1.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytbnnz6o9wkaq-1.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytbnnz6o9wkaq-1__short.mp4",
-   "title": "SHANAHAN SAVES IT BACKWARDS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytbnnz6o9wkaq-0",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Equal machines, very different styles. Jakub Król risks everything with a brave dive, and Paweł Korpuliński goes through.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #battle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytbnnz6o9wkaq-0__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@driftmasters.gp",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Drift Masters",
-    "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
-    "start": 30.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T06:49:21.265790+00:00",
-   "built": "2026-11-19T16:51:05.893867+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytbnnz6o9wkaq-0__clip.mp4",
-   "tags": [
-    "@driftmasters.gp"
-   ],
-   "missing_handles": [
-    "Paweł Korpuliński",
-    "Jakub Król"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 75,
-   "captions": {
-    "instagram": "Paweł Korpuliński vs Jakub Król | Drift Masters 2026 Round 1 Italy\n\nEqual machines, very different styles. Jakub Król risks everything with a brave dive, and Paweł Korpuliński goes through.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@driftmasters.gp\n\n#driftmasters #drift #pawelkorpulinski #jakubkrol #sidewayswire",
-    "facebook": "Paweł Korpuliński vs Jakub Król | Drift Masters 2026 Round 1 Italy\n\nEqual machines, very different styles. Jakub Król risks everything with a brave dive, and Paweł Korpuliński goes through.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
-    "tiktok": "Paweł Korpuliński vs Jakub Król | Drift Masters 2026 Round 1 Italy: Equal machines, very different styles. Jakub Król risks everything with a brave dive, and Paweł Korpuliński goes through.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Drift Masters 2026 Round 1 Italy @driftmasters.gp\n#driftmasters #drift #pawelkorpulinski #sidewayswire",
-    "youtube_title": "Korpuliński vs Król | Drift Masters 2026 Round 1 Italy",
-    "youtube": "Equal machines, very different styles. Jakub Król risks everything with a brave dive, and Paweł Korpuliński goes through.\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [],
-   "people": [
-    "Paweł Korpuliński",
-    "Jakub Król"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytbnnz6o9wkaq-0.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytbnnz6o9wkaq-0.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytbnnz6o9wkaq-0__short.mp4",
-   "title": "KROL RISKS EVERYTHING",
    "photo": null
   },
   {
