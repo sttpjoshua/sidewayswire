@@ -129,7 +129,7 @@ def _post(path: str, body: dict | None = None) -> dict:
     j = r.json()
     err = (j.get("error") or {})
     if r.status_code >= 400 or (err.get("code") not in (None, "ok")):
-        raise RuntimeError(f"TikTok {path}: {err.get('message') or err.get('code') or r.text[:200]}")
+        raise RuntimeError(f"TikTok {path}: [{err.get('code')}] {err.get('message') or r.text[:200]}")
     return j.get("data") or {}
 
 
