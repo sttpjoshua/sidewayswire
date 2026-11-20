@@ -629,8 +629,13 @@
    "why": "de reactie"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-21-129108-129830.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-21-129108-129830.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 12978.28, \"start\": 12975.48, \"text\": \"COMMENTATORS RUN OUT OF WORDS\", \"why\": \"de reactie\"}",
+  "made": "2026-11-20T11:40:40.043672+00:00"
  },
  {
   "start": 12984.06,
@@ -652,8 +657,13 @@
    "why": "de score"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-22-129841-130530.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-22-129841-130530.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13034.04, \"start\": 13032.04, \"text\": \"CAN ANYONE FIND A MISTAKE?\", \"why\": \"de score\"}",
+  "made": "2026-11-20T11:42:29.913534+00:00"
  },
  {
   "start": 13082.44,
@@ -677,8 +687,13 @@
    "why": "grappige vraag"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-23-130824-131524.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-23-130824-131524.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13129.88, \"start\": 13127.84, \"text\": \"WHAT IS IN THE WATER?\", \"why\": \"grappige vraag\"}",
+  "made": "2026-11-20T11:44:21.948649+00:00"
  },
  {
   "start": 13177.94,
@@ -702,8 +717,13 @@
    "why": "de uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-24-131779-132112.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-24-131779-132112.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13202.08, \"start\": 13198.14, \"text\": \"WHO IS NERVOUS FOR TOMORROW?\", \"why\": \"de uitspraak\"}",
+  "made": "2026-11-20T11:45:22.802000+00:00"
  },
  {
   "start": 13227.78,
