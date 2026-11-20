@@ -140,8 +140,13 @@
    "why": "de bijnaam"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-4-49926-50373.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-4-49926-50373.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5034.36, \"start\": 5032.32, \"text\": \"WHAT IS HIS NEW NICKNAME?\", \"why\": \"de bijnaam\"}",
+  "made": "2026-11-20T06:24:19.004885+00:00"
  },
  {
   "start": 5097.54,
@@ -163,8 +168,13 @@
    "why": "mooie commentaarregel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-5-50975-51337.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-5-50975-51337.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5118.0, \"start\": 5115.16, \"text\": \"FROM NERVOUS ROOKIE TO THIS\", \"why\": \"mooie commentaarregel\"}",
+  "made": "2026-11-20T06:25:41.424879+00:00"
  },
  {
   "start": 5776.36,
@@ -186,8 +196,13 @@
    "why": "de klap"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-6-57764-58297.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-6-57764-58297.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5801.66, \"start\": 5799.82, \"text\": \"NO BRAKING INTO ZONE FOUR\", \"why\": \"de klap\"}",
+  "made": "2026-11-20T06:27:31.836435+00:00"
  },
  {
   "start": 5934.92,
@@ -209,8 +224,13 @@
    "why": "finish en reactie"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-7-59349-59917.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-7-59349-59917.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5991.7, \"start\": 5989.68, \"text\": \"CAN DEANE MATCH THE TOP SCORE?\", \"why\": \"finish en reactie\"}",
+  "made": "2026-11-20T06:29:24.719654+00:00"
  },
  {
   "start": 6081.32,
