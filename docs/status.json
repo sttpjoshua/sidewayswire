@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T18:41:22.876539+00:00",
+ "updated": "2026-11-20T18:51:19.906595+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 471,
-  "check": 226,
+  "ready": 470,
+  "check": 224,
   "posted": 3,
-  "draft": 23
+  "draft": 26
  },
  "collected": "2026-11-20T17:22:32.850511+00:00",
  "instagram": false,
@@ -8792,10 +8792,8 @@
    "post_at": "2026-12-19T11:30:00+00:00",
    "posted_at": null,
    "caption": "Conor against Jack Shanahan in the final four. Who had the better lead, who had the better chase?\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-43__clip.mp4"
-   ],
-   "problems": [],
+   "media": [],
+   "problems": null,
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -8812,7 +8810,7 @@
     "youtube"
    ],
    "created": "2026-11-18T23:10:31.179989+00:00",
-   "built": "2026-11-19T01:11:25.545251+00:00",
+   "built": "2026-11-20T18:49:42.460150+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-43__clip.mp4",
    "tags": [
@@ -8828,29 +8826,17 @@
     "tiktok": "2026-12-19T11:30:00+00:00",
     "youtube": "2026-12-28T12:00:00+00:00"
    },
-   "score": 87,
-   "captions": {
-    "instagram": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nConor against Jack Shanahan in the final four. Who had the better lead, who had the better chase?\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formuladrift #formulad #conorshanahan #jackshanahan #sidewayswire",
-    "facebook": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nConor against Jack Shanahan in the final four. Who had the better lead, who had the better chase?\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026: Conor against Jack Shanahan in the final four. Who had the better lead, who had the better chase?\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Las Vegas 2026 @conorshanahan79 @jackshanahan59 @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
-    "youtube_title": "Shanahan vs Shanahan | Formula DRIFT Las Vegas 2026",
-    "youtube": "Conor against Jack Shanahan in the final four. Who had the better lead, who had the better chase?\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
+   "score": null,
+   "captions": null,
    "ig": null,
-   "collaborators": [
-    "conorshanahan79",
-    "jackshanahan59"
-   ],
-   "people": [
-    "Conor Shanahan",
-    "Jack Shanahan"
-   ],
-   "moment_kind": "battle",
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
    "pinned_at": null,
-   "short_none": "split",
+   "short_none": null,
    "short_len": null,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-43.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-43.mp4",
+   "thumb": null,
+   "preview": null,
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
@@ -13182,6 +13168,173 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-44",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brother against brother in the final four. Jack leads, Conor chases, and Las Vegas goes wild.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 9366.61
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:11:43.341215+00:00",
+   "built": "2026-11-20T18:51:10.021268+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8bwn2g2ssy-44__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "BROTHER VS BROTHER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-42",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 9021.85
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:07:47.809813+00:00",
+   "built": "2026-11-20T18:46:01.090982+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-42__clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FIELD BOOKS HIS FINAL SPOT",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-41",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field against Daniel Stuckey in the final four. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 8775.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:07:14.273798+00:00",
+   "built": "2026-11-20T18:44:49.541779+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-41__clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Daniel Stuckey"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FIELD VS STUCKEY, SIDE BY SIDE",
    "photo": null
   },
   {
@@ -38447,191 +38600,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-46__short.mp4",
    "title": "CONOR ON BEATING HIS BROTHER",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-44",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Brother against brother in the final four. Jack leads, Conor chases, and Las Vegas goes wild.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8bwn2g2ssy-44__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 9366.61
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:11:43.341215+00:00",
-   "built": "2026-11-19T01:11:25.562201+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8bwn2g2ssy-44__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Las Vegas 2026\n\nBrother against brother in the final four. Jack leads, Conor chases, and Las Vegas goes wild.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formuladrift #formulad #jackshanahan #conorshanahan #sidewayswire",
-    "facebook": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Las Vegas 2026\n\nBrother against brother in the final four. Jack leads, Conor chases, and Las Vegas goes wild.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Las Vegas 2026: Brother against brother in the final four. Jack leads, Conor chases, and Las Vegas goes wild.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @jackshanahan59 @conorshanahan79 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Shanahan vs Shanahan | Formula DRIFT Las Vegas 2026",
-    "youtube": "Brother against brother in the final four. Jack leads, Conor chases, and Las Vegas goes wild.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "conorshanahan79"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Conor Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-44.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-44.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8bwn2g2ssy-44__short.mp4",
-   "title": "BROTHER VS BROTHER",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-42",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-42__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 9021.85
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:07:47.809813+00:00",
-   "built": "2026-11-19T01:11:25.528788+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-42__clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Daniel Stuckey"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-42.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-42.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "FIELD BOOKS HIS FINAL SPOT",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-41",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field against Daniel Stuckey in the final four. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-41__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 8775.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:07:14.273798+00:00",
-   "built": "2026-11-19T01:11:25.528480+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-41__clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Daniel Stuckey"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-41.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-41.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "FIELD VS STUCKEY, SIDE BY SIDE",
    "photo": null
   },
   {
