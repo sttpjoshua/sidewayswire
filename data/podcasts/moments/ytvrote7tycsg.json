@@ -675,10 +675,15 @@
    "why": "grappige vloek"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
-  "wait_name": "v2-ytvrote7tycsg-23-79709-80404.mp4"
+  "wait_name": "v2-ytvrote7tycsg-23-79709-80404.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8021.25, \"start\": 8018.19, \"text\": \"HE FORGOT HE WAS LIVE\", \"why\": \"grappige vloek\"}",
+  "made": "2026-11-20T12:15:45.997666+00:00"
  },
  {
   "start": 8151.55,
@@ -701,10 +706,15 @@
    "why": "schrikmoment"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Nate Chen)",
-  "wait_name": "v2-ytvrote7tycsg-24-81516-82173.mp4"
+  "wait_name": "v2-ytvrote7tycsg-24-81516-82173.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8166.85, \"start\": 8163.49, \"text\": \"OH BOY, SOMETHING'S WRONG\", \"why\": \"schrikmoment\"}",
+  "made": "2026-11-20T12:17:31.548874+00:00"
  },
  {
   "start": 8536.73,
@@ -726,8 +736,13 @@
    "why": "grappige wending"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-25-85367-85858.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-25-85367-85858.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8549.17, \"start\": 8547.15, \"text\": \"BUT MORE IMPORTANTLY\", \"why\": \"grappige wending\"}",
+  "made": "2026-11-20T12:18:42.096439+00:00"
  },
  {
   "start": 8958.97,
@@ -750,10 +765,15 @@
    "why": "verrassende start"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Federico Sceriffo)",
-  "wait_name": "v2-ytvrote7tycsg-26-89590-90316.mp4"
+  "wait_name": "v2-ytvrote7tycsg-26-89590-90316.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 8968.61, \"start\": 8965.11, \"text\": \"DID HE JUST FALL ASLEEP?\", \"why\": \"verrassende start\"}",
+  "made": "2026-11-20T12:20:26.711899+00:00"
  },
  {
   "start": 9136.09,
