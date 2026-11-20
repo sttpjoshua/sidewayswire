@@ -92,7 +92,10 @@ def run(folder: Path = q.QUEUE, now: datetime | None = None) -> dict:
                     results[platform] = post_facebook(urls, caption)
                 elif platform == "tiktok" and tiktok.connected():
                     # Until TikTok has audited the app, posts are private (settings.tiktok_privacy).
-                    results[platform] = tiktok.post_for(p, caption)
+                    draft = json.loads((ROOT / "data" / "settings.json").read_text()).get("tiktok_mode", "draft") != "direct"
+                    pid = tiktok.post_for(p, caption, draft=draft)
+                    # A draft carries no text (TikTok's rule): the dashboard shows it, ready to copy.
+                    results[platform] = f"draft:{pid}" if draft else pid
                 else:
                     # YouTube switches on after its audit; until then it is not 'connected'
                     # and the planner does not plan it once LC_DRY_RUN is off.

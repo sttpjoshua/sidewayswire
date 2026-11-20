@@ -17,5 +17,7 @@
  },
  "local_editor_quiet_note": "Joshua 20 nov: op werkdagen 08:30-18:00 gebruikt hij de Mac zelf; de lokale redactie draait daarbuiten",
  "tiktok_privacy": "SELF_ONLY",
- "tiktok_privacy_note": "Zonder TikTok-audit kan alleen SELF_ONLY (privé). Na goedkeuring: PUBLIC_TO_EVERYONE"
+ "tiktok_privacy_note": "Zonder TikTok-audit kan alleen SELF_ONLY (privé). Na goedkeuring: PUBLIC_TO_EVERYONE",
+ "tiktok_mode": "draft",
+ "tiktok_mode_note": "draft: TikTok-clips gaan als concept naar de TikTok-inbox (zonder tekst; die staat in het dashboard om te kopiëren). Na de TikTok-goedkeuring: direct"
 }

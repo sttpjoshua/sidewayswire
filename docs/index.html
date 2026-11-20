@@ -158,6 +158,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <div class="row" style="justify-content:space-between"><h1>VANDAAG</h1><a href="#systeem" id="ov-health" class="pill"></a></div>
   <div class="sub" id="ov-sub"></div>
   <div id="ov-mode"></div>
+  <div id="ov-tiktok"></div>
   <div class="kpis" id="kpis"></div>
   <div class="two">
     <div><h2>KOMENDE 48 UUR <small><a href="#planning">kalender</a></small></h2><div class="list" id="ov-next"></div></div>
@@ -353,7 +354,18 @@ function stTag(p){if(needsCheck(p))return `<span class="tag p">CHECK NODIG</span
 function li(p,extra){return `<a class="li" href="#beoordelen/${p.id}"><div class="th">${thumb(p)}</div><div><b>${title(p)}</b><small><span class="tag">${KIND[p.kind]||esc(p.kind)}</span>${extra||""}</small></div><div>${stTag(p)}</div></a>`}
 
 // ---------- overzicht ----------
+// TikTok tot de goedkeuring: clips komen als concept in de TikTok-inbox, zonder tekst. Hier staat de tekst klaar.
+function drawTikTok(){const el=document.getElementById("ov-tiktok");if(!el)return;
+  const L=posts().filter(p=>String((p.results||{}).tiktok||"").startsWith("draft:")&&!p.tiktok_done);
+  el.innerHTML=L.length?`<h2 class="cat posts">TIKTOK: KLAAR OM TE POSTEN <small>${L.length} concept${L.length>1?"en":""} in je TikTok-inbox. Kopieer de tekst, open het concept in TikTok, plak en post.</small></h2>
+   <div class="replies">${L.map(p=>`<div class="rp" data-tt="${esc(p.id)}"><div class="muted" style="font-size:12px">${esc(p.title||p.id)} · ${p.posted_at?ago(p.posted_at):""}</div>
+     <textarea rows="5" readonly>${esc(((p.captions||{}).tiktok)||p.caption||"")}</textarea>
+     <div class="row" style="margin-top:6px"><button class="btn g" data-ttc>KOPIEER TEKST</button><button class="btn" data-ttd>GEPOST</button></div></div>`).join("")}</div>`:"";}
+document.addEventListener("click",async e=>{const c=e.target.closest("[data-ttc],[data-ttd]");if(!c)return;const card=c.closest("[data-tt]"),id=card.dataset.tt;
+  if(c.hasAttribute("data-ttc")){const t=card.querySelector("textarea");try{await navigator.clipboard.writeText(t.value)}catch(x){t.select();document.execCommand("copy")}toast("Tekst gekopieerd. Plak hem in TikTok.");return}
+  c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTok();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
 function drawOverview(){
+  drawTikTok();
   const now=Date.now(), week=now+7*864e5, wk0=now-7*864e5, P=posts(), ch=S.channels||{};
   const rev=toReview(), planned=P.filter(p=>p.status==="ready"&&new Date(p.post_at)<week), posted=P.filter(p=>p.status==="posted"&&new Date(p.posted_at)>wk0);
   const clips=P.filter(p=>(p.kind==="podcast_clip"||p.kind==="stream_clip")&&p.status!=="skipped");
