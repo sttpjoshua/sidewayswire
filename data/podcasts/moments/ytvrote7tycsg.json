@@ -796,8 +796,13 @@
    "why": "de spin"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-27-91361-91829.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-27-91361-91829.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9159.77, \"start\": 9156.63, \"text\": \"ONE MISTAKE, GAME OVER\", \"why\": \"de spin\"}",
+  "made": "2026-11-20T12:21:53.126846+00:00"
  },
  {
   "start": 9688.47,
@@ -847,8 +852,13 @@
    "why": "spannende beslissing"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-29-99120-99488.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-29-99120-99488.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9926.87, \"start\": 9923.81, \"text\": \"WHICH WAY IS IT GOING?\", \"why\": \"spannende beslissing\"}",
+  "made": "2026-11-20T12:22:43.846863+00:00"
  },
  {
   "start": 10087.19,
@@ -871,8 +881,13 @@
    "why": "verwijzing naar viral moment"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-30-100872-101377.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-30-100872-101377.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-30/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10122.79, \"start\": 10119.59, \"text\": \"REMEMBER UTAH?\", \"why\": \"verwijzing naar viral moment\"}",
+  "made": "2026-11-20T12:23:56.503241+00:00"
  },
  {
   "start": 10156.57,

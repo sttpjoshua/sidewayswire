@@ -19,8 +19,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-0-527-835.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytzmzcyqa9c9e-0-527-835.mp4",
+  "clip": "docs/media/pod-ytzmzcyqa9c9e-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 79.64, \"start\": 77.18, \"text\": \"WHAT DID THE NEW Z SCORE?\", \"why\": \"de score komt binnen\"}",
+  "made": "2026-11-20T12:24:45.655874+00:00"
  },
  {
   "start": 89.78,
