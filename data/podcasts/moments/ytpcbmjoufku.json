@@ -19,8 +19,13 @@
    "why": "hij benoemt de stress zelf"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytpcbmjoufku-0-520-972.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytpcbmjoufku-0-520-972.mp4",
+  "clip": "docs/media/pod-ytpcbmjoufku-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 91.76, \"start\": 89.32, \"text\": \"THE PRESSURE BEFORE THE TITLE DECIDER\", \"why\": \"hij benoemt de stress zelf\"}",
+  "made": "2026-11-20T01:01:20.366832+00:00"
  },
  {
   "start": 276.66,
@@ -42,10 +47,15 @@
    "why": "de onverwachte oplossing"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spreker niet bij naam genoemd; coureur/team nakijken",
-  "wait_name": "v2-ytpcbmjoufku-1-2767-3264.mp4"
+  "wait_name": "v2-ytpcbmjoufku-1-2767-3264.mp4",
+  "clip": "docs/media/pod-ytpcbmjoufku-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 308.42, \"start\": 305.96, \"text\": \"WHAT DID THEY DO TO THE PISTONS?\", \"why\": \"de onverwachte oplossing\"}",
+  "made": "2026-11-20T01:02:26.660540+00:00"
  },
  {
   "start": 359.7,
@@ -67,10 +77,15 @@
    "why": "het ontwijkende antwoord"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Gerucht; spreker niet zeker Korpuliński en 'Lucas' (wildcard) niet bij achternaam genoemd",
-  "wait_name": "v2-ytpcbmjoufku-2-3597-4074.mp4"
+  "wait_name": "v2-ytpcbmjoufku-2-3597-4074.mp4",
+  "clip": "docs/media/pod-ytpcbmjoufku-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 391.28, \"start\": 389.5, \"text\": \"A TEASER FOR 2027?\", \"why\": \"het ontwijkende antwoord\"}",
+  "made": "2026-11-20T01:03:29.803249+00:00"
  },
  {
   "start": 408.06,
