@@ -472,8 +472,13 @@
    "why": "de grote initiatie"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-16-64113-64841.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-16-64113-64841.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6445.29, \"start\": 6441.45, \"text\": \"THE ROOKIE GOES ALL OUT\", \"why\": \"de grote initiatie\"}",
+  "made": "2026-11-20T12:10:02.288445+00:00"
  },
  {
   "start": 6914.53,
@@ -495,8 +500,13 @@
    "why": "eerlijke quote"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-17-69145-69803.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-17-69145-69803.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6921.89, \"start\": 6918.69, \"text\": \"HIS MOST STRESSFUL BATTLE YET\", \"why\": \"eerlijke quote\"}",
+  "made": "2026-11-20T12:11:19.460655+00:00"
  },
  {
   "start": 7146.37,
@@ -577,10 +587,15 @@
    "why": "grappige ruzie"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
-  "wait_name": "v2-ytvrote7tycsg-20-73445-73908.mp4"
+  "wait_name": "v2-ytvrote7tycsg-20-73445-73908.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7366.43, \"start\": 7363.69, \"text\": \"YOU SHUT YOUR MOUTH\", \"why\": \"grappige ruzie\"}",
+  "made": "2026-11-20T12:12:20.627675+00:00"
  },
  {
   "start": 7580.51,
@@ -632,8 +647,13 @@
    "why": "de klap"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-22-77091-77710.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-22-77091-77710.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7719.51, \"start\": 7716.63, \"text\": \"OH BOY, ADAM\", \"why\": \"de klap\"}",
+  "made": "2026-11-20T12:13:58.731016+00:00"
  },
  {
   "start": 7970.93,
