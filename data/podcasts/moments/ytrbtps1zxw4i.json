@@ -640,8 +640,13 @@
    "why": "het moment"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-21-65128-65862.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-21-65128-65862.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6541.82, \"start\": 6539.04, \"text\": \"THE CHAMPION'S CAR WON'T MAKE IT\", \"why\": \"het moment\"}",
+  "made": "2026-11-20T04:46:12.393495+00:00"
  },
  {
   "start": 6592.78,
@@ -665,8 +670,13 @@
    "why": "sportief"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-22-65928-66448.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-22-65928-66448.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6644.84, \"start\": 6641.06, \"text\": \"THE NORWEGIAN HAMMER'S HONEST VERDICT\", \"why\": \"sportief\"}",
+  "made": "2026-11-20T04:47:45.920810+00:00"
  },
  {
   "start": 6664.48,
@@ -688,8 +698,13 @@
    "why": "grappig"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-23-66645-67182.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-23-66645-67182.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6684.04, \"start\": 6680.42, \"text\": \"WHAT DOES THIS CHAMPION DO ON WEEKENDS?\", \"why\": \"grappig\"}",
+  "made": "2026-11-20T04:49:16.151806+00:00"
  },
  {
   "start": 6819.4,
@@ -712,8 +727,13 @@
    "why": "de fout"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-24-68194-68504.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-24-68194-68504.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6845.92, \"start\": 6842.24, \"text\": \"THE CHASE CAR PUSHES TOO HARD\", \"why\": \"de fout\"}",
+  "made": "2026-11-20T04:50:25.354405+00:00"
  },
  {
   "start": 7069.76,
