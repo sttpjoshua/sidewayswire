@@ -365,10 +365,15 @@
    "why": "reactie commentaar"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Kuwaiti GT86 driver, transcript says Ali Maxi/Maxid",
-  "wait_name": "v2-ytvphv55wk1ja-12-75318-75822.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-12-75318-75822.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7582.24, \"start\": 7580.3, \"text\": \"A VERY SCARY MOVE\", \"why\": \"reactie commentaar\"}",
+  "made": "2026-11-20T06:40:52.928277+00:00"
  },
  {
   "start": 9816.02,
@@ -390,10 +395,15 @@
    "why": "grappige regel"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Transcript says Simon Olsen; assumed Simen Olsen",
-  "wait_name": "v2-ytvphv55wk1ja-13-98160-98797.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-13-98160-98797.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9879.74, \"start\": 9877.06, \"text\": \"WHOSE FAULT WAS IT?\", \"why\": \"grappige regel\"}",
+  "made": "2026-11-20T06:43:09.364252+00:00"
  },
  {
   "start": 9956.3,
@@ -415,10 +425,15 @@
    "why": "grappige vraag"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Check that the 99 record belongs to Kalle Rovanperä (transcript: Callie Robe-Perra)",
-  "wait_name": "v2-ytvphv55wk1ja-14-99563-100102.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-14-99563-100102.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10004.92, \"start\": 10001.86, \"text\": \"WHO STOLE THE PERFECT SCORE?\", \"why\": \"grappige vraag\"}",
+  "made": "2026-11-20T06:45:03.094002+00:00"
  },
  {
   "start": 10813.42,
@@ -440,10 +455,15 @@
    "why": "reactie commentaar"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Transcript says Alan Hines/Heinz",
-  "wait_name": "v2-ytvphv55wk1ja-15-108134-108622.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-15-108134-108622.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10862.18, \"start\": 10858.58, \"text\": \"THIS IS REALLY BIG\", \"why\": \"reactie commentaar\"}",
+  "made": "2026-11-20T06:46:49.815872+00:00"
  },
  {
   "start": 10949.38,
