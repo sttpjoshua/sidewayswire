@@ -1,6 +1,6 @@
 {
  "action": "test",
- "at": "2026-11-20T08:57:28.929657+00:00",
+ "at": "2026-11-20T08:59:18.849318+00:00",
  "ok": false,
- "error": "TikTok post/publish/video/init/: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+ "error": "TikTok post/publish/video/init/: [unaudited_client_can_only_post_to_private_accounts] Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
 }
