@@ -452,8 +452,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytth2l4tyizj4-15-9446-9774.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytth2l4tyizj4-15-9446-9774.mp4",
+  "clip": "docs/media/pod-ytth2l4tyizj4-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 964.16, \"start\": 962.52, \"text\": \"COULD THIS FINALLY BE THE YEAR?\", \"why\": \"de grote vraag\"}",
+  "made": "2026-11-20T06:07:33.736884+00:00"
  },
  {
   "start": 997.78,
@@ -475,8 +480,13 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytth2l4tyizj4-16-9978-10300.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytth2l4tyizj4-16-9978-10300.mp4",
+  "clip": "docs/media/pod-ytth2l4tyizj4-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1019.4, \"start\": 1016.6, \"text\": \"WHO TOOK THE WIN IN ORLANDO?\", \"why\": \"winnaar genoemd\"}",
+  "made": "2026-11-20T06:08:31.738164+00:00"
  },
  {
   "start": 300.2,
@@ -511,8 +521,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytth2l4tyizj4-17r2-3249-3500.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytth2l4tyizj4-17r2-3249-3500.mp4",
+  "clip": "docs/media/pod-ytth2l4tyizj4-17/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T06:10:38.432171+00:00"
  },
  {
   "start": 530.0,
@@ -547,8 +562,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytth2l4tyizj4-18r2-5595-5864.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytth2l4tyizj4-18r2-5595-5864.mp4",
+  "clip": "docs/media/pod-ytth2l4tyizj4-18/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T06:11:32.015345+00:00"
  },
  {
   "start": 698.4,
