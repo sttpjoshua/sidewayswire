@@ -19,10 +19,15 @@
    "why": "de uitroep van commentaar"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of Shcherenko (transcript: Sharenko/Scharenko)",
-  "wait_name": "v2-ytvphv55wk1ja-0-15176-15591.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-0-15176-15591.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1549.9, \"start\": 1548.36, \"text\": \"CHECKERS OR WRECKERS?\", \"why\": \"de uitroep van commentaar\"}",
+  "made": "2026-11-20T06:17:52.122268+00:00"
  },
  {
   "start": 2734.78,
@@ -45,10 +50,15 @@
    "why": "commentaar gaat los"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Transcript says Simon Olsen; assumed Norwegian driver Simen Olsen",
-  "wait_name": "v2-ytvphv55wk1ja-1-27348-27709.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-1-27348-27709.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2763.54, \"start\": 2761.36, \"text\": \"ON AN ABSOLUTE FLYER\", \"why\": \"commentaar gaat los\"}",
+  "made": "2026-11-20T06:19:13.878606+00:00"
  },
  {
   "start": 3016.22,
@@ -70,10 +80,15 @@
    "why": "de klap"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Finnish BMW M2 driver, name from speech recognition (Timo Asunma/Sunma)",
-  "wait_name": "v2-ytvphv55wk1ja-2-30162-30545.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-2-30162-30545.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3045.12, \"start\": 3042.88, \"text\": \"DID THE RALLY CHAMPION LEARN?\", \"why\": \"de klap\"}",
+  "made": "2026-11-20T06:20:37.402471+00:00"
  },
  {
   "start": 3488.3,
@@ -95,10 +110,15 @@
    "why": "reactie na de run"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Name in transcript Jakob Kroll; check Polish spelling",
-  "wait_name": "v2-ytvphv55wk1ja-3-34883-35427.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-3-34883-35427.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3535.68, \"start\": 3532.78, \"text\": \"NOT THE 98, BUT...\", \"why\": \"reactie na de run\"}",
+  "made": "2026-11-20T06:22:36.037619+00:00"
  },
  {
   "start": 4992.56,
