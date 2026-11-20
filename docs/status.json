@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-20T15:11:00.472447+00:00",
+ "updated": "2026-11-20T17:22:33.084416+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 485,
   "check": 235,
   "posted": 3
  },
- "collected": "2026-11-20T13:45:21.287383+00:00",
+ "collected": "2026-11-20T17:22:32.850511+00:00",
  "instagram": false,
  "sources": [
   {
@@ -111,7 +111,7 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "how": "page"
   },
   {
@@ -153,7 +153,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -188,6 +188,23 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Ryan Tuerck's final Formula DRIFT run. 🛸",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-20T17:01:35+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "Ryan Tuerck's final Formula DRIFT run. 🛸",
+     "url": "https://www.youtube.com/shorts/_7lH-tntL9U",
+     "kind": "video",
+     "published": "2026-11-20T17:01:35+00:00",
+     "media_url": "https://i4.ytimg.com/vi/_7lH-tntL9U/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -935,23 +952,6 @@
      "kind": "video",
      "published": "2026-11-12T15:09:08+00:00",
      "media_url": "https://i3.ytimg.com/vi/JsLLenYcrz4/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Let’s make unforgettable drifting memories together! 🔥🏁",
-   "series": "DM",
-   "buzz": 1,
-   "published": "2026-11-12T13:45:30+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "Let’s make unforgettable drifting memories together! 🔥🏁",
-     "url": "https://www.youtube.com/shorts/y47p5ggHOd0",
-     "kind": "video",
-     "published": "2026-11-12T13:45:30+00:00",
-     "media_url": "https://i2.ytimg.com/vi/y47p5ggHOd0/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
