@@ -46,9 +46,16 @@ def asset_name(ep_id: str, i: int, m: dict) -> str:
 def pieces(ep_id: str, i: int, m: dict) -> list[str]:
     """Must match tools/mac/video_helper.py pieces(): one piece, or one per run for a split battle."""
     if m.get("split"):
-        return [f"v2-{ep_id}-{i}r{k + 1}-{int(round(float(r['start']) * 10))}-{int(round(float(r['end']) * 10))}.mp4"
+        return [f"v2-{ep_id}-{i}r{k + 1}-{int(round(float(r['start']) * 10))}-{int(round(float(piece_end(m, k)) * 10))}.mp4"
                 for k, r in enumerate(m["split"]["runs"])]
     return [asset_name(ep_id, i, m)]
+
+
+def piece_end(m: dict, k: int) -> float:
+    """Run 2's piece runs on to the judges' call (lc/results.py). Must match tools/mac/video_helper.py."""
+    r = m["split"]["runs"][k]
+    res = m["split"].get("result")
+    return max(float(r["end"]), float(res["to"])) if res and k == len(m["split"]["runs"]) - 1 else float(r["end"])
 
 
 def video_assets() -> tuple[dict, list]:
@@ -139,6 +146,7 @@ def run(limit: int = 120) -> dict:
                 assets = {k: v for k, v in assets.items() if k != name}   # all runs or nothing
             upgrade = (m.get("status") == "queued" and not (post and post.get("status") == "posted")
                        and ((m.get("mode") == "audiogram" and name in assets) or m.get("layout", 1) < LAYOUT
+                            or m.get("redo")
                             or m.get("hook_sig", json.dumps({})) != hook_sig))
             retry = m.get("status") == "error" and m.get("tries", 0) < 3 and "already posted" not in (m.get("error") or "")
             if not (m.get("status", "new") == "new" or upgrade or retry) or len(tasks) >= limit:
@@ -202,6 +210,7 @@ def run(limit: int = 120) -> dict:
             m.pop("wait_video", None)
             m.pop("error", None)
             m.pop("tries", None)
+            m.pop("redo", None)
             m.update(status="queued", clip=str(out.relative_to(ROOT)), mode=res["mode"], layout=LAYOUT,
                      hook_sig=json.dumps(m.get("hook") or {}, sort_keys=True),
                      made=datetime.now(timezone.utc).isoformat())

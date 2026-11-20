@@ -22,7 +22,7 @@ jobs:
         with: { python-version: "3.12", cache: pip }
       - run: pip install requests jinja2 playwright pillow feedparser numpy && python -m playwright install --with-deps chromium && sudo apt-get install -y -qq ffmpeg
       - name: Make clips
-        run: python -m lc.podclips
+        run: python -m lc.results && python -m lc.podclips
       - name: Short versions for TikTok and Shorts
         run: python -m lc.shorts 200 || true
       - name: Light previews for the dashboard (phone)

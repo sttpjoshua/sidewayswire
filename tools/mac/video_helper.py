@@ -34,7 +34,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "17"
+VERSION = "18"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -502,8 +502,13 @@ def asset_name(ep_id: str, i: int, m: dict) -> str:
 def pieces(ep_id: str, i: int, m: dict) -> list[tuple[str, dict]]:
     """The video pieces one moment needs: one, or one per run for a split-screen battle."""
     if m.get("split"):
-        return [(f"v2-{ep_id}-{i}r{k + 1}-{int(round(r['start'] * 10))}-{int(round(r['end'] * 10))}.mp4",
-                 {"start": r["start"], "end": r["end"]}) for k, r in enumerate(m["split"]["runs"])]
+        runs, res = m["split"]["runs"], m["split"].get("result")
+        out = []
+        for k, r in enumerate(runs):   # v18: run 2 runs on to the judges' call (lc/results.py, piece_end)
+            end = max(float(r["end"]), float(res["to"])) if res and k == len(runs) - 1 else float(r["end"])
+            out.append((f"v2-{ep_id}-{i}r{k + 1}-{int(round(float(r['start']) * 10))}-{int(round(end * 10))}.mp4",
+                        {"start": r["start"], "end": end}))
+        return out
     return [(asset_name(ep_id, i, m), m)]
 
 

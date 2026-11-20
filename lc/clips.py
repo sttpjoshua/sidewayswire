@@ -213,6 +213,48 @@ def make_split(ep: dict, moment: dict, runs: list[str], out: str) -> dict:
                        optional "shift": run 1 minus run 2 in seconds (else found from the pictures),
                        "nudge": extra shift for run 2, "lead_in"}.
     """
+    sp = moment["split"]
+    res = sp.get("result")
+    if res and float(res["to"]) > float(sp["runs"][1]["end"]) + 1.0:
+        # Joshua (20 nov): the reel ends with the judges' call, full screen, like in the stream.
+        with tempfile.TemporaryDirectory() as tmp:
+            main = str(Path(tmp) / "main.mp4")
+            info = _make_split(ep, moment, runs, main)
+            r2 = sp["runs"][1]
+            add_result_tail(main, runs[1], float(r2["end"]) - float(r2["start"]) - 0.5,
+                            ep.get("credit") or moment.get("credit") or "", out)
+        return info | {"out": out, "result_tail": round(float(res["to"]) - float(r2["end"]), 1)}
+    return _make_split(ep, moment, runs, out)
+
+
+def add_result_tail(main: str, src: str, t0: float, credit: str, out: str) -> None:
+    """main (the split reel) + a white flash + src from t0 to its end: the broadcast frame centred over a
+    blurred copy, under a tape THE JUDGES' CALL."""
+    from .video import duration
+    fade = 0.35
+    with tempfile.TemporaryDirectory() as tmp:
+        ov = str(Path(tmp) / "ov.png")
+        with Renderer() as r:
+            r.render("result_overlay.html", {"w": W, "h": H, "bg": "transparent", "credit": credit}, ov, transparent=True)
+        tail = str(Path(tmp) / "tail.mp4")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{max(0.0, t0):.2f}", "-i", src, "-i", ov, "-filter_complex",
+                        f"[0:v]split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=30:2,"
+                        f"eq=brightness=-0.35,fps={FPS},setsar=1[bg];[b]scale={W}:-2,fps={FPS},setsar=1[fg];"
+                        f"[bg][fg]overlay=0:(H-h)/2[v1];[v1][1:v]overlay=0:0:format=auto,format=yuv420p[v];"
+                        f"[0:a]aresample=48000,aformat=channel_layouts=stereo[a]",
+                        "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                        "-c:a", "aac", "-b:a", "160k", tail], check=True)
+        d = duration(main)
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", main, "-i", tail, "-filter_complex",
+                        f"[0:v]fps={FPS},scale={W}:{H},setsar=1,format=yuv420p[m];[1:v]fps={FPS},setsar=1,format=yuv420p[t];"
+                        f"[m][t]xfade=transition=fadewhite:duration={fade}:offset={d - fade:.2f},format=yuv420p[v];"
+                        f"[0:a]aresample=48000,aformat=channel_layouts=stereo[a0];[1:a]aresample=48000[a1];"
+                        f"[a0][a1]acrossfade=d={fade}[a2];[a2]loudnorm=I=-15:TP=-1.5:LRA=11[a]",
+                        "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                        "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out], check=True)
+
+
+def _make_split(ep: dict, moment: dict, runs: list[str], out: str) -> dict:
     from .video import battle_reel, sync_offset, duration, scene_cuts, cut_alignment
     sp = moment["split"]
     a, b = sp["lead"][0], sp["lead"][1]
