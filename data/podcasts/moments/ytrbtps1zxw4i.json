@@ -1282,8 +1282,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-41r2-31655-32000.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-41r2-31655-32000.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-41/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T05:23:54.286153+00:00"
  },
  {
   "start": 4302,
@@ -1318,10 +1323,15 @@
    ]
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Daniel Stuckey",
-  "wait_name": "v2-ytrbtps1zxw4i-42r2-44035-44370.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-42r2-44035-44370.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-42/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T05:26:52.658725+00:00"
  },
  {
   "start": 4588.5,
@@ -1356,8 +1366,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-43r2-46947-47280.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-43r2-46947-47280.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-43/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T05:29:48.799577+00:00"
  },
  {
   "start": 4841,
@@ -1392,8 +1407,13 @@
    ]
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-44r2-57625-57950.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-44r2-57625-57950.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-44/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-20T05:31:09.529048+00:00"
  },
  {
   "start": 5952.9,
