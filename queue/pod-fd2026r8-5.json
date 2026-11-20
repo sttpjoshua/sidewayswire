@@ -1,7 +1,7 @@
 {
  "id": "pod-fd2026r8-5",
  "kind": "stream_clip",
- "status": "ready",
+ "status": "draft",
  "slides": [],
  "title": "WHY THEY CALL HIM THE SHADOW",
  "video": "docs/media/pod-fd2026r8-5/clip.mp4",
@@ -12,9 +12,10 @@
   "@formulad"
  ],
  "missing_handles": [],
+ "format": "single",
  "credit": "@formulad",
  "check": false,
- "check_reason": "livestream-clip: check jij eerst",
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -27,34 +28,5 @@
   "start": 7947.02
  },
  "created": "2026-11-16T22:17:30.502928+00:00",
- "built": "2026-11-17T13:26:00.127764+00:00",
- "format": "single",
- "media": [
-  "docs/media/pod-fd2026r8-5/clip.mp4"
- ],
- "problems": [],
- "post_at": null,
- "score": 75,
- "moment_kind": "battle",
- "people": [
-  "Conor Shanahan",
-  "Jhonnattan Castro"
- ],
- "plan": {},
- "captions": {
-  "instagram": "Conor Shanahan vs Jhonnattan Castro | Formula DRIFT Long Beach 2026\n\nLess than six inches, everywhere on track. Conor Shanahan chasing Jhonnattan Castro for the championship.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @jcastroracing @formulad\n\n#formuladrift #formulad #conorshanahan #jhonnattancastro #sidewayswire",
-  "facebook": "Conor Shanahan vs Jhonnattan Castro | Formula DRIFT Long Beach 2026\n\nLess than six inches, everywhere on track. Conor Shanahan chasing Jhonnattan Castro for the championship.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @jcastroracing @formulad\n\n#formuladrift #formulad #sidewayswire",
-  "tiktok": "Conor Shanahan vs Jhonnattan Castro | Formula DRIFT Long Beach 2026: Less than six inches, everywhere on track. Conor Shanahan chasing Jhonnattan Castro for the championship.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Long Beach 2026 @conorshanahan79 @jcastroracing @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
-  "youtube_title": "Shanahan vs Castro | Formula DRIFT Long Beach 2026",
-  "youtube": "Less than six inches, everywhere on track. Conor Shanahan chasing Jhonnattan Castro for the championship.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @jcastroracing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
- },
- "collaborators": [
-  "conorshanahan79",
-  "jcastroracing"
- ],
- "short": "docs/media/pod-fd2026r8-5/short.mp4",
- "short_len": 29.3,
- "thumb": "docs/media/thumbs/pod-fd2026r8-5.jpg",
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-fd2026r8-5.mp4",
- "preview_of": "2026-11-17T13:26:00.127764+00:00"
+ "built": "2026-11-20T17:29:44.714502+00:00"
 }
