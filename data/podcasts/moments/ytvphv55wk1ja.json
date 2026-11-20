@@ -866,8 +866,13 @@
    "why": "de uitslag"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-29-136002-136502.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-29-136002-136502.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13611.34, \"start\": 13607.6, \"text\": \"WHO TOPS THE FINAL QUALIFYING?\", \"why\": \"de uitslag\"}",
+  "made": "2026-11-20T11:52:56.597232+00:00"
  },
  {
   "start": 13847.98,
@@ -890,8 +895,13 @@
    "why": "de setup"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-30-138480-139012.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-30-138480-139012.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-30/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 13871.02, \"start\": 13867.76, \"text\": \"DRIFT CAR VS FORMULA ONE CAR\", \"why\": \"de setup\"}",
+  "made": "2026-11-20T11:54:23.673903+00:00"
  },
  {
   "start": 13996.7,
@@ -917,9 +927,14 @@
    "why": "de reactie op de bracket"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Top 32 opponent of Shanahan named Sherbert in transcript; assumed Benediktas Čirba",
-  "wait_name": "v2-ytvphv55wk1ja-31-139967-140545.mp4"
+  "wait_name": "v2-ytvphv55wk1ja-31-139967-140545.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-31/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 14041.9, \"start\": 14038.42, \"text\": \"WHERE DO THE CONTENDERS SIT?\", \"why\": \"de reactie op de bracket\"}",
+  "made": "2026-11-20T11:55:31.693921+00:00"
  }
 ]

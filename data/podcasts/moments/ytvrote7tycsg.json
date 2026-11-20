@@ -19,8 +19,13 @@
    "why": "emotioneel moment"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-0-5027-5287.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-0-5027-5287.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 522.42, \"start\": 520.56, \"text\": \"TWENTY YEARS, AND NOW THIS\", \"why\": \"emotioneel moment\"}",
+  "made": "2026-11-20T11:56:12.636272+00:00"
  },
  {
   "start": 640.64,
