@@ -47,8 +47,13 @@
    "why": "de aankondiging"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-1-6406-6717.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-1-6406-6717.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 652.78, \"start\": 650.18, \"text\": \"THE END OF A CHAPTER\", \"why\": \"de aankondiging\"}",
+  "made": "2026-11-20T11:57:05.932406+00:00"
  },
  {
   "start": 1294.34,
@@ -98,8 +103,13 @@
    "why": "de klap"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-3-14566-15273.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-3-14566-15273.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1474.12, \"start\": 1471.2, \"text\": \"SOME BUMPERS WERE TAPPED\", \"why\": \"de klap\"}",
+  "made": "2026-11-20T11:58:51.654323+00:00"
  },
  {
   "start": 1635.8,
@@ -122,8 +132,13 @@
    "why": "de uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-4-16358-16735.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-4-16358-16735.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1648.14, \"start\": 1645.96, \"text\": \"THE BOOTH HAS MADE ITS CALL\", \"why\": \"de uitspraak\"}",
+  "made": "2026-11-20T11:59:50.082134+00:00"
  },
  {
   "start": 1995.46,
@@ -174,8 +189,13 @@
    "why": "schokkende uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-6-26492-27016.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-6-26492-27016.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2671.4, \"start\": 2667.82, \"text\": \"HOW BAD IS THE DAMAGE?\", \"why\": \"schokkende uitspraak\"}",
+  "made": "2026-11-20T12:01:10.341052+00:00"
  },
  {
   "start": 3209.33,
