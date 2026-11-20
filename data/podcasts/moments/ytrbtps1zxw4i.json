@@ -522,8 +522,13 @@
    "why": "plotwending"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-17-53108-53589.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-17-53108-53589.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5326.92, \"start\": 5324.72, \"text\": \"WAIT, THIS ISN'T OVER\", \"why\": \"plotwending\"}",
+  "made": "2026-11-20T04:39:23.566071+00:00"
  },
  {
   "start": 5912.04,
@@ -545,10 +550,15 @@
    "why": "diagnose"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Naam crew chief (Shelby?) staat in quote, niet in people",
-  "wait_name": "v2-ytrbtps1zxw4i-18-59120-59402.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-18-59120-59402.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5924.16, \"start\": 5921.68, \"text\": \"WHAT'S WRONG WITH DEANE'S MUSTANG?\", \"why\": \"diagnose\"}",
+  "made": "2026-11-20T04:40:24.050298+00:00"
  },
  {
   "start": 5956.52,
@@ -571,8 +581,13 @@
    "why": "vechtpartij"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-19-59565-60296.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-19-59565-60296.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6018.04, \"start\": 6014.32, \"text\": \"THIS RIVALRY GOES BACK YEARS\", \"why\": \"vechtpartij\"}",
+  "made": "2026-11-20T04:42:52.142206+00:00"
  },
  {
   "start": 6116.76,
@@ -595,8 +610,13 @@
    "why": "brand"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-20-61168-61524.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-20-61168-61524.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6125.06, \"start\": 6122.86, \"text\": \"WHAT'S COMING FROM UNDER THE HOOD?\", \"why\": \"brand\"}",
+  "made": "2026-11-20T04:44:03.284273+00:00"
  },
  {
   "start": 6512.78,
