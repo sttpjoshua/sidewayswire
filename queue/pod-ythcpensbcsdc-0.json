@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-0",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "DEANE'S LEAD CLINIC",
  "video": "docs/media/pod-ythcpensbcsdc-0/clip.mp4",
@@ -29,14 +29,5 @@
   "start": 30.24
  },
  "created": "2026-11-19T12:36:51.823359+00:00",
- "built": "2026-11-19T16:51:07.713761+00:00",
- "media": [
-  "docs/media/pod-ythcpensbcsdc-0/clip.mp4"
- ],
- "problems": [],
- "short": "docs/media/pod-ythcpensbcsdc-0/short.mp4",
- "short_len": 29.3,
- "thumb": "docs/media/thumbs/pod-ythcpensbcsdc-0.jpg",
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ythcpensbcsdc-0.mp4",
- "preview_of": "2026-11-19T16:51:07.713761+00:00"
+ "built": "2026-11-20T22:39:32.907406+00:00"
 }
