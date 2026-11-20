@@ -404,10 +404,15 @@
    "why": "de beslissing"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Daniel Stuckey controleren",
-  "wait_name": "v2-ytrbtps1zxw4i-13-44922-45249.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-13-44922-45249.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4504.56, \"start\": 4501.86, \"text\": \"THE SENSOR SAW THROUGH THE SMOKE\", \"why\": \"de beslissing\"}",
+  "made": "2026-11-20T04:31:58.247124+00:00"
  },
  {
   "start": 4695.68,
@@ -430,8 +435,13 @@
    "why": "bijnaam"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-14-46957-47680.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-14-46957-47680.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4737.36, \"start\": 4735.56, \"text\": \"WHAT DO THEY CALL HIM?\", \"why\": \"bijnaam\"}",
+  "made": "2026-11-20T04:34:18.815475+00:00"
  },
  {
   "start": 4832.92,
@@ -454,8 +464,13 @@
    "why": "contact"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-15-48329-48837.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-15-48329-48837.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4867.88, \"start\": 4864.16, \"text\": \"THE FORMER RTR DRIVER ATTACKS\", \"why\": \"contact\"}",
+  "made": "2026-11-20T04:36:01.562721+00:00"
  },
  {
   "start": 5201.08,
@@ -478,8 +493,13 @@
    "why": "dichte chase"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-16-52011-52499.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-16-52011-52499.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5224.6, \"start\": 5220.64, \"text\": \"THE UNDERDOG GETS RIGHT ON THE CHAMP\", \"why\": \"dichte chase\"}",
+  "made": "2026-11-20T04:37:46.838812+00:00"
  },
  {
   "start": 5310.78,
