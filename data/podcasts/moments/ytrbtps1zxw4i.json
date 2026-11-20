@@ -985,10 +985,15 @@
    "why": "de muur"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Naam Wataru Masuyama controleren (transcript: Watoro Masayama)",
-  "wait_name": "v2-ytrbtps1zxw4i-33-91339-91677.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-33-91339-91677.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-33/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9167.72, \"start\": 9163.98, \"text\": \"ONE CORNER ENDS IT ALL\", \"why\": \"de muur\"}",
+  "made": "2026-11-20T05:04:15.343023+00:00"
  },
  {
   "start": 9260.4,
@@ -1010,8 +1015,13 @@
    "why": "grappige uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-34-92604-93045.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-34-92604-93045.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-34/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9304.46, \"start\": 9301.14, \"text\": \"WHAT IS HAPPENING TO ALL THESE CARS?\", \"why\": \"grappige uitspraak\"}",
+  "made": "2026-11-20T05:05:45.083835+00:00"
  },
  {
   "start": 9355.2,
@@ -1034,8 +1044,13 @@
    "why": "rivaliteit broers"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-35-93552-93950.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-35-93552-93950.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-35/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9372.98, \"start\": 9369.1, \"text\": \"BROTHER VS BROTHER FOR THE TITLE?\", \"why\": \"rivaliteit broers\"}",
+  "made": "2026-11-20T05:07:04.949269+00:00"
  },
  {
   "start": 9415.52,
@@ -1058,8 +1073,13 @@
    "why": "grappig"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-36-94155-94691.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-36-94155-94691.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-36/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9465.24, \"start\": 9462.4, \"text\": \"A RAP LEGEND RIDES SHOTGUN\", \"why\": \"grappig\"}",
+  "made": "2026-11-20T05:08:48.830806+00:00"
  },
  {
   "start": 1121.5,
