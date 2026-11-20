@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T08:43:11.755079+00:00",
+ "updated": "2026-11-20T13:06:36.641439+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -26,6 +26,44 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "3e77c8a9b27090b6",
+   "title": "🔥 More freedom to build means more room for creativity!",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-20T13:06:28.202402+00:00",
+   "published": "2026-11-20T11:07:25+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "🔥 More freedom to build means more room for creativity!",
+     "url": "https://www.youtube.com/watch?v=dhvQQ24XJ9g",
+     "kind": "video",
+     "published": "2026-11-20T11:07:25+00:00",
+     "media_url": "https://i1.ytimg.com/vi/dhvQQ24XJ9g/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "id": "33a3960f5ffa3fb2",
+   "title": "We know how much you love the wild and unconventional builds that hit our tracks! 🔥🏎️",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-20T13:06:28.205134+00:00",
+   "published": "2026-11-20T10:25:23+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "We know how much you love the wild and unconventional builds that hit our tracks! 🔥🏎️",
+     "url": "https://www.youtube.com/shorts/KWkmBdG-5J0",
+     "kind": "video",
+     "published": "2026-11-20T10:25:23+00:00",
+     "media_url": "https://i4.ytimg.com/vi/KWkmBdG-5J0/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -771,25 +809,6 @@
    ]
   },
   {
-   "id": "3fd2a0116bf1a934",
-   "title": "Something to think about 👀",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:06.079990+00:00",
-   "published": "2026-11-13T06:35:18+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "Something to think about 👀",
-     "url": "https://www.youtube.com/shorts/JTXyyPhz1aY",
-     "kind": "video",
-     "published": "2026-11-13T06:35:18+00:00",
-     "media_url": "https://i3.ytimg.com/vi/JTXyyPhz1aY/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "4651300c9d45e619",
    "title": "STRIPPING THE 2026 FORMULA DRIFT S54 | The Post Mortem",
    "series": "FD + DM",
@@ -824,25 +843,6 @@
      "published": "2026-11-12T21:00:00+00:00",
      "media_url": null,
      "media_type": null
-    }
-   ]
-  },
-  {
-   "id": "9cd381e194ab17d9",
-   "title": "Time to guess! 👀🔥",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:06.081213+00:00",
-   "published": "2026-11-12T15:35:17+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "Time to guess! 👀🔥",
-     "url": "https://www.youtube.com/shorts/RoiaD0t285w",
-     "kind": "video",
-     "published": "2026-11-12T15:35:17+00:00",
-     "media_url": "https://i3.ytimg.com/vi/RoiaD0t285w/hqdefault.jpg",
-     "media_type": "VIDEO"
     }
    ]
   },
@@ -1564,7 +1564,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "how": "feed"
   },
   {
@@ -1676,7 +1676,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {

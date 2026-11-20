@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-12",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "EX-PROS BACK IN PRO SPEC? TEAMS CALLING?",
  "video": "docs/media/pod-1298fd1c600b-12/clip.mp4",
@@ -28,10 +28,14 @@
   "start": 3914.96
  },
  "created": "2026-11-16T21:29:22.646616+00:00",
- "built": "2026-11-20T11:29:11.445476+00:00",
+ "built": "2026-11-20T13:06:43.449053+00:00",
  "thumb": "docs/media/thumbs/pod-1298fd1c600b-12.jpg",
  "short": "docs/media/pod-1298fd1c600b-12/short.mp4",
  "short_len": 29.3,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-1298fd1c600b-12.mp4",
- "preview_of": "2026-11-20T11:29:11.445476+00:00"
+ "preview_of": "2026-11-20T11:29:11.445476+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-12/clip.mp4"
+ ],
+ "problems": []
 }

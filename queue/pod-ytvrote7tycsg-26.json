@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-26",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FEDE SLEEPS ON THE LIGHT",
  "video": "docs/media/pod-ytvrote7tycsg-26/clip.mp4",
@@ -28,10 +28,14 @@
   "start": 8958.97
  },
  "created": "2026-11-20T12:20:26.712973+00:00",
- "built": "2026-11-20T12:20:26.712977+00:00",
+ "built": "2026-11-20T13:06:43.819861+00:00",
  "thumb": "docs/media/thumbs/pod-ytvrote7tycsg-26.jpg",
  "short": "docs/media/pod-ytvrote7tycsg-26/short.mp4",
  "short_len": 15.3,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-26.mp4",
- "preview_of": "2026-11-20T12:20:26.712977+00:00"
+ "preview_of": "2026-11-20T12:20:26.712977+00:00",
+ "media": [
+  "docs/media/pod-ytvrote7tycsg-26/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-31",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "THE TITLE FIGHT GOES TO TOP 32",
  "video": "docs/media/pod-ytvphv55wk1ja-31/clip.mp4",
@@ -32,10 +32,14 @@
   "start": 13996.7
  },
  "created": "2026-11-20T11:55:31.695002+00:00",
- "built": "2026-11-20T11:55:31.695008+00:00",
+ "built": "2026-11-20T13:06:43.685789+00:00",
  "thumb": "docs/media/thumbs/pod-ytvphv55wk1ja-31.jpg",
  "short": "docs/media/pod-ytvphv55wk1ja-31/short.mp4",
  "short_len": 29.3,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvphv55wk1ja-31.mp4",
- "preview_of": "2026-11-20T11:55:31.695008+00:00"
+ "preview_of": "2026-11-20T11:55:31.695008+00:00",
+ "media": [
+  "docs/media/pod-ytvphv55wk1ja-31/clip.mp4"
+ ],
+ "problems": []
 }

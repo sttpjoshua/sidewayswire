@@ -1,7 +1,7 @@
 {
  "id": "pod-1298fd1c600b-4",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "MATT IS NOT TRYING TO BE A VILLAIN",
  "video": "docs/media/pod-1298fd1c600b-4/clip.mp4",
@@ -29,10 +29,14 @@
   "start": 2417.18
  },
  "created": "2026-11-16T19:26:39.497424+00:00",
- "built": "2026-11-20T11:27:14.582416+00:00",
+ "built": "2026-11-20T13:06:43.451126+00:00",
  "thumb": "docs/media/thumbs/pod-1298fd1c600b-4.jpg",
  "short": "docs/media/pod-1298fd1c600b-4/short.mp4",
  "short_len": 20.5,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-1298fd1c600b-4.mp4",
- "preview_of": "2026-11-20T11:27:14.582416+00:00"
+ "preview_of": "2026-11-20T11:27:14.582416+00:00",
+ "media": [
+  "docs/media/pod-1298fd1c600b-4/clip.mp4"
+ ],
+ "problems": []
 }
