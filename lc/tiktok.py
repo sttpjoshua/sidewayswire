@@ -229,5 +229,6 @@ if __name__ == "__main__":
             _mark(False, str(e)[:160])
     res.pop("url", None) if act == "login" else None
     print(json.dumps(res, indent=1, ensure_ascii=False))
+    DIR.mkdir(parents=True, exist_ok=True)
     (DIR / "last.json").write_text(json.dumps({"action": act, "at": datetime.now(timezone.utc).isoformat(), **res},
-                                              indent=1, ensure_ascii=False) + "\n") if DIR.exists() else None
+                                              indent=1, ensure_ascii=False) + "\n")
