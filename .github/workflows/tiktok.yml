@@ -3,7 +3,7 @@ name: tiktok
 on:
   workflow_dispatch:
     inputs:
-      action: { description: "login | exchange | info | test | draft", required: true, default: info }
+      action: { description: "login | exchange | info | test | draft | publish", required: true, default: info }
       post: { description: "for test: post id (its short version is posted privately)", required: false, default: "" }
 permissions: { contents: write }
 concurrency: { group: tiktok, cancel-in-progress: false }

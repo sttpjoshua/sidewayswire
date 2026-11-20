@@ -1,20 +1,24 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Post to TikTok · Sideways Wire Publisher</title>
 <style>
-body{font-family:system-ui,sans-serif;background:#151517;color:#fff;max-width:520px;margin:0 auto;padding:20px}
+body{font-family:system-ui,sans-serif;background:#151517;color:#fff;max-width:560px;margin:0 auto;padding:20px}
 h1{font-size:22px}label{display:block;margin:16px 0 6px;font-weight:700}
-select,textarea{width:100%;padding:10px;background:#232326;color:#fff;border:1px solid #555;border-radius:6px;font:inherit}
-video,.ph{width:100%;aspect-ratio:9/16;background:#000;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#888}
+select,textarea{width:100%;padding:10px;background:#232326;color:#fff;border:1px solid #555;border-radius:6px;font:inherit;box-sizing:border-box}
+video,.ph{width:100%;max-height:560px;aspect-ratio:9/16;background:#000;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#888}
 .row{display:flex;align-items:center;gap:10px;margin:10px 0}.box{background:#232326;padding:12px;border-radius:6px;margin-top:8px}
-button{width:100%;padding:14px;margin-top:20px;background:#C6FF00;border:0;border-radius:6px;font-weight:800;font-size:16px}button:disabled{opacity:.4}
-small{color:#B8B8BC}a{color:#C6FF00}
+.who{display:flex;align-items:center;gap:12px}.who img{width:44px;height:44px;border-radius:50%}
+button{width:100%;padding:14px;margin-top:20px;background:#C6FF00;border:0;border-radius:6px;font-weight:800;font-size:16px;cursor:pointer}button:disabled{opacity:.4;cursor:default}
+button.sec{background:#fff}small{color:#B8B8BC}a{color:#C6FF00}.ok{color:#C6FF00}.err{color:#ff4f9a}
 </style></head><body>
 <h1>Post to TikTok</h1>
-<div class="box">Posting as: <b id="nick">(sign in to load your TikTok name)</b></div>
-<label>Preview</label><div class="ph" id="ph">video preview</div>
-<label for="cap">Caption</label><textarea id="cap" rows="3"></textarea>
+<div class="box who" id="who"><span>Loading your TikTok account...</span></div>
+<button class="sec" id="signin" hidden>Sign in with TikTok</button>
+<div id="form" hidden>
+<label for="clip">Video</label><select id="clip"></select>
+<label>Preview</label><video id="vid" controls playsinline muted></video>
+<label for="cap">Caption</label><textarea id="cap" rows="4" maxlength="2200"></textarea>
 <label for="priv">Who can view this video</label>
 <select id="priv"><option value="" selected disabled>Select privacy level</option></select>
-<small>Options come from your TikTok account settings. Nothing is selected for you.</small>
+<small>The options come from your TikTok account. Nothing is selected for you.</small>
 <label>Allow users to</label>
 <div class="row"><input type="checkbox" id="c"><span>Comment</span><input type="checkbox" id="d"><span>Duet</span><input type="checkbox" id="s"><span>Stitch</span></div>
 <label>Commercial content</label>
@@ -24,21 +28,64 @@ small{color:#B8B8BC}a{color:#C6FF00}
  <div class="row"><input type="checkbox" id="paid"><span>Branded content (paid partnership)</span></div>
  <small id="comnote"></small>
 </div>
-<p><small id="consent">By posting, you agree to TikTok's <a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en">Music Usage Confirmation</a>.</small></p>
+<p><small id="consent"></small></p>
 <button id="go" disabled>Post to TikTok</button>
+<p id="msg"></p>
+<small>After posting, it can take a few minutes before the video shows on your profile.</small>
+</div>
 <script>
-// Demo of the posting screen TikTok asks for in its audit. In production the name and
-// the privacy options come from /v2/post/publish/creator_info/query/ for the signed-in account.
-const $=id=>document.getElementById(id);
-["PUBLIC_TO_EVERYONE","MUTUAL_FOLLOW_FRIENDS","SELF_ONLY"].forEach(v=>priv.add(new Option({PUBLIC_TO_EVERYONE:"Everyone",MUTUAL_FOLLOW_FRIENDS:"Friends",SELF_ONLY:"Only me"}[v],v)));
+// The posting screen TikTok asks for (Content Sharing Guidelines): the account we post as, the video,
+// the caption, privacy chosen by the person (no default), interactions, commercial content disclosure
+// and the consent line. Posting goes through the private publisher (workflow tiktok.yml, lc/tiktok.py);
+// this page only passes the person's choices. The dashboard key in this browser authorises it.
+const $=id=>document.getElementById(id), API="https://api.github.com/repos/sttpjoshua/sidewayswire";
+let key=null;try{key=localStorage.getItem("sw_gh_key")}catch(e){}
+const gh=async(p,o={})=>{const r=await fetch(API+p,{...o,headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github+json","Content-Type":"application/json"}});
+  if(!r.ok)throw new Error(`GitHub ${r.status}`);return r.status===204?null:r.json()};
+const b64=s=>btoa(unescape(encodeURIComponent(s))), unb64=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+const read=async p=>JSON.parse(unb64((await gh(`/contents/${p}?ref=main&${Date.now()}`)).content));
+const LABEL={PUBLIC_TO_EVERYONE:"Everyone",MUTUAL_FOLLOW_FRIENDS:"Friends",FOLLOWER_OF_CREATOR:"Followers",SELF_ONLY:"Only me"};
+let CI={},CLIPS=[];
 function upd(){
   comopts.hidden=!com.checked;
   const need=com.checked&&!own.checked&&!paid.checked;
-  comnote.textContent=need?"Select at least one option.":paid.checked?"Your video will be labeled 'Paid partnership'.":own.checked?"Your video will be labeled 'Promotional content'.":"";
-  if(paid.checked&&priv.value==="SELF_ONLY"){priv.value="";}
-  priv.options[3].disabled=paid.checked;
-  consent.innerHTML="By posting, you agree to TikTok's "+(paid.checked?'<a href="https://www.tiktok.com/legal/page/global/bc-policy/en">Branded Content Policy</a> and ':"")+'<a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en">Music Usage Confirmation</a>.';
-  go.disabled=!priv.value||need;
+  comnote.textContent=need?"You need to indicate if your content promotes yourself, a third party, or both.":paid.checked?"Your video will be labeled 'Paid partnership'.":own.checked?"Your video will be labeled 'Promotional content'.":"";
+  const so=[...priv.options].find(o=>o.value==="SELF_ONLY");
+  if(so){so.disabled=paid.checked;if(paid.checked&&priv.value==="SELF_ONLY")priv.value=""}
+  consent.innerHTML="By posting, you agree to TikTok's "+(paid.checked?'<a href="https://www.tiktok.com/legal/page/global/bc-policy/en" target="_blank">Branded Content Policy</a> and ':"")+'<a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en" target="_blank">Music Usage Confirmation</a>.';
+  go.disabled=!priv.value||need||!clip.value;
 }
-document.addEventListener("change",upd);upd();
+document.addEventListener("change",e=>{if(e.target.id==="clip")pick();upd()});
+function pick(){const p=CLIPS.find(x=>x.id===clip.value);if(!p)return;
+  vid.src=p.preview||"";cap.value=((p.captions||{}).tiktok||p.caption||"").slice(0,2200)}
+async function signin(){signinBtn.disabled=true;const t0=new Date().toISOString();
+  await gh(`/actions/workflows/tiktok.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:{action:"login"}})});
+  who.innerHTML="<span>Opening TikTok sign-in...</span>";
+  for(let i=0;i<40;i++){await new Promise(r=>setTimeout(r,5000));try{const d=await read("data/tiktok/auth.json");if(d.at>t0){location.href=d.url;return}}catch(e){}}
+  who.innerHTML="<span class=err>Sign-in link took too long. Try again.</span>";signinBtn.disabled=false}
+const signinBtn=$("signin");signinBtn.onclick=signin;
+go.onclick=async()=>{go.disabled=true;const t0=new Date().toISOString();msg.className="";msg.textContent="Sending to TikTok...";
+  try{const req={post:clip.value,caption:cap.value,privacy:priv.value,comment:c.checked,duet:d.checked,stitch:s.checked,
+      brand_organic:com.checked&&own.checked,brand_content:com.checked&&paid.checked,at:t0};
+    let sha;try{sha=(await gh(`/contents/data/tiktok/request.json?ref=main`)).sha}catch(e){}
+    await gh(`/contents/data/tiktok/request.json`,{method:"PUT",body:JSON.stringify({message:"tiktok: post request",branch:"main",content:b64(JSON.stringify(req)),...(sha?{sha}:{})})});
+    await gh(`/actions/workflows/tiktok.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:{action:"publish"}})});
+    for(let i=0;i<60;i++){await new Promise(r=>setTimeout(r,5000));
+      try{const r=await read("data/tiktok/last.json");if(r.action==="publish"&&r.at>t0){
+        if(r.ok===false){msg.className="err";msg.textContent="TikTok said: "+r.error;go.disabled=false;return}
+        msg.className="ok";msg.textContent="Posted to TikTok. It can take a few minutes before it shows on your profile.";return}}catch(e){}}
+    msg.className="err";msg.textContent="This takes longer than expected. Check your TikTok profile in a few minutes.";
+  }catch(e){msg.className="err";msg.textContent="Something went wrong: "+e.message;go.disabled=false}};
+(async()=>{
+  if(!key){who.innerHTML="<span class=err>Open the Sideways Wire dashboard in this browser first and set the key.</span>";return}
+  try{CI=await read("data/tiktok/creator.json")}catch(e){who.innerHTML="<span>Not connected to TikTok yet.</span>";signinBtn.hidden=false;return}
+  who.innerHTML=`${CI.creator_avatar_url?`<img src="${CI.creator_avatar_url}">`:""}<span>Posting as <b>${CI.creator_nickname||""}</b> (@${CI.creator_username||""})</span>`;
+  (CI.privacy_level_options||[]).forEach(v=>priv.add(new Option(LABEL[v]||v,v)));
+  c.disabled=!!CI.comment_disabled;d.disabled=!!CI.duet_disabled;s.disabled=!!CI.stitch_disabled;
+  const st=await (await fetch("status.json?"+Date.now())).json();
+  const maxd=CI.max_video_post_duration_sec||600;
+  CLIPS=(st.posts||[]).filter(p=>p.short&&(p.platforms||[]).includes("tiktok")&&!["skipped","posted"].includes(p.status)&&(p.short_len||0)<=maxd).slice(0,40);
+  CLIPS.forEach(p=>clip.add(new Option((p.title||p.id).slice(0,70),p.id)));
+  $("form").hidden=false;pick();upd();
+})();
 </script></body></html>

@@ -148,6 +148,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <a href="#beoordelen" data-s="beoordelen" data-n="beoordelen">BEOORDELEN <span class="cnt" id="c-rev"></span></a>
   <a href="#planning" data-s="planning" data-n="kalender">KALENDER</a>
   <a href="#clips/live" data-s="clips" data-n="bieb">BIBLIOTHEEK</a>
+  <a href="#tiktok" data-s="tiktok" data-n="tiktok">TIKTOK <span class="cnt" id="c-tt"></span></a>
   <a href="#stats" data-s="stats" data-n="stats">STATISTIEKEN</a>
   <a href="#kanalen" data-s="kanalen" data-n="inst">INSTELLINGEN</a>
   <div class="live" id="live"></div>
@@ -167,6 +168,12 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   </div>
 </section>
 
+<section id="s-tiktok">
+  <h1>TIKTOK</h1><div class="sub">Tot TikTok de app heeft goedgekeurd, komen de clips als concept in je TikTok-inbox, zonder tekst. Hier staat de tekst per clip klaar: kopiëren, concept openen in TikTok, plakken, posten. Daarna tik je op GEPOST.</div>
+  <div class="row" style="gap:10px;margin:10px 0 18px"><a class="btn" href="tiktok-post.html" target="_blank">POSTPAGINA (VOOR DE TIKTOK-AANVRAAG) ↗</a></div>
+  <div id="tt-ready"></div>
+  <h2>KOMENDE TIKTOKS <small>de tekst die bij elk concept hoort, al vast om te bekijken of te kopiëren</small></h2><div id="tt-next"></div>
+</section>
 <section id="s-stats">
   <h1>STATISTIEKEN</h1><div class="sub" id="st-sub"></div>
   <h2>BEREIK EN GROEI</h2><div id="st-reach"></div>
@@ -354,16 +361,23 @@ function stTag(p){if(needsCheck(p))return `<span class="tag p">CHECK NODIG</span
 function li(p,extra){return `<a class="li" href="#beoordelen/${p.id}"><div class="th">${thumb(p)}</div><div><b>${title(p)}</b><small><span class="tag">${KIND[p.kind]||esc(p.kind)}</span>${extra||""}</small></div><div>${stTag(p)}</div></a>`}
 
 // ---------- overzicht ----------
-// TikTok tot de goedkeuring: clips komen als concept in de TikTok-inbox, zonder tekst. Hier staat de tekst klaar.
-function drawTikTok(){const el=document.getElementById("ov-tiktok");if(!el)return;
-  const L=posts().filter(p=>String((p.results||{}).tiktok||"").startsWith("draft:")&&!p.tiktok_done);
-  el.innerHTML=L.length?`<h2 class="cat posts">TIKTOK: KLAAR OM TE POSTEN <small>${L.length} concept${L.length>1?"en":""} in je TikTok-inbox. Kopieer de tekst, open het concept in TikTok, plak en post.</small></h2>
-   <div class="replies">${L.map(p=>`<div class="rp" data-tt="${esc(p.id)}"><div class="muted" style="font-size:12px">${esc(p.title||p.id)} · ${p.posted_at?ago(p.posted_at):""}</div>
-     <textarea rows="5" readonly>${esc(((p.captions||{}).tiktok)||p.caption||"")}</textarea>
-     <div class="row" style="margin-top:6px"><button class="btn g" data-ttc>KOPIEER TEKST</button><button class="btn" data-ttd>GEPOST</button></div></div>`).join("")}</div>`:"";}
+// TikTok tot de goedkeuring: clips komen als concept in de TikTok-inbox, zonder tekst. De tekst staat in TIKTOK.
+const ttReady=()=>posts().filter(p=>String((p.results||{}).tiktok||"").startsWith("draft:")&&!p.tiktok_done);
+const ttCap=p=>((p.captions||{}).tiktok)||p.caption||"";
+const ttCard=(p,ready)=>`<div class="rp" data-tt="${esc(p.id)}"><div class="muted" style="font-size:12px">${esc(p.title||p.id)} · ${ready?(p.posted_at?"concept sinds "+ago(p.posted_at):""):fmtWhen((p.plan||{}).tiktok)}</div>
+  <textarea rows="5" readonly>${esc(ttCap(p))}</textarea>
+  <div class="row" style="margin-top:6px"><button class="btn g" data-ttc>KOPIEER TEKST</button>${ready?`<button class="btn" data-ttd>GEPOST</button>`:""}</div></div>`;
+function fmtWhen(iso){if(!iso)return"";const d=new Date(iso);return d.toLocaleDateString("nl-NL",{weekday:"short",day:"numeric",month:"short"})+", "+d.toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit"})}
+function drawTikTok(){const el=document.getElementById("ov-tiktok"),n=ttReady().length;document.getElementById("c-tt").textContent=n||"";if(!el)return;
+  el.innerHTML=n?`<a href="#tiktok" class="pill" style="display:inline-block;margin:6px 0 14px">TIKTOK: ${n} CONCEPT${n>1?"EN":""} KLAAR OM TE POSTEN →</a>`:""}
+function drawTikTokPage(){drawTikTok();const R=ttReady(),now=new Date().toISOString();
+  document.getElementById("tt-ready").innerHTML=R.length?`<h2 class="cat posts">KLAAR OM TE POSTEN <small>${R.length} in je TikTok-inbox</small></h2><div class="replies">${R.map(p=>ttCard(p,1)).join("")}</div>`
+    :`<div class="empty2" style="margin-bottom:18px">Er staan geen TikTok-concepten klaar. Vanaf 1 december komen ze hier om 12:30, 17:30 en 21:30.</div>`;
+  const N=posts().filter(p=>(p.plan||{}).tiktok&&p.plan.tiktok>now&&!(p.results||{}).tiktok).sort((a,b)=>a.plan.tiktok<b.plan.tiktok?-1:1).slice(0,21);
+  document.getElementById("tt-next").innerHTML=N.length?`<div class="replies">${N.map(p=>ttCard(p,0)).join("")}</div>`:`<div class="empty2">Nog niets ingepland voor TikTok.</div>`}
 document.addEventListener("click",async e=>{const c=e.target.closest("[data-ttc],[data-ttd]");if(!c)return;const card=c.closest("[data-tt]"),id=card.dataset.tt;
   if(c.hasAttribute("data-ttc")){const t=card.querySelector("textarea");try{await navigator.clipboard.writeText(t.value)}catch(x){t.select();document.execCommand("copy")}toast("Tekst gekopieerd. Plak hem in TikTok.");return}
-  c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTok();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
+  c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTokPage();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
 function drawOverview(){
   drawTikTok();
   const now=Date.now(), week=now+7*864e5, wk0=now-7*864e5, P=posts(), ch=S.channels||{};
@@ -746,7 +760,7 @@ setInterval(()=>{if(!document.hidden)loadLive()},20000);
 // ---------- routing ----------
 const TABS={bieb:[["#clips/live","LIVESTREAM","live"],["#clips/battle","BATTLES","battle"],["#clips/vlog","VLOGS","vlog"],["#clips/pod","PODCASTS","pod"],["#posts","POSTS","posts"],["#nieuws","NIEUWSBRONNEN"]],
   inst:[["#kanalen","KANALEN"],["#bronnen","BRONNEN"],["#systeem","SYSTEEM"],["podcasts.html","STUDIO ↗"],["#","SLEUTEL",null,1]]};
-const NAVOF={overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
+const NAVOF={tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
 function drawTabs(){const h=location.hash||"#overzicht",R=S?toReview():[];
   document.querySelectorAll("[data-tabs]").forEach(el=>{el.innerHTML=TABS[el.dataset.tabs].map(([href,label,c,isKey])=>{
     const n=c?R.filter(p=>cat(p)===c).length:0;
@@ -764,8 +778,8 @@ function show(){
 window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
 function drawCurrent(){const s=(location.hash.slice(1)||"overzicht").split("/")[0];
-  ({overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
-function drawAll(){drawLive();drawCounts();drawTabs();drawCurrent();
+  ({tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
+function drawAll(){drawLive();drawCounts();drawTikTok();drawTabs();drawCurrent();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
   // First what you see (status.json from the site itself), then the extras at the same time, then redraw.
