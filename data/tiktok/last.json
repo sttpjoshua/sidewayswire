@@ -1,18 +1,7 @@
 {
- "action": "exchange",
- "at": "2026-11-20T13:44:19.654681+00:00",
- "creator_nickname": "sidewayswire",
- "creator_username": "sidewayswire",
- "creator_avatar_url": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-avt-0068-euttp/3fffd777916f6f060ac360858f36363d~tplv-tiktokx-cropcenter:168:168.webp?dr=10397&refresh_token=5df2aa78&x-expires=1795352400&x-signature=ThvnCEGE83k3%2FaYLA%2Feosrtf7jE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=bbadf38d&idc=no1a",
- "privacy_level_options": [
-  "FOLLOWER_OF_CREATOR",
-  "MUTUAL_FOLLOW_FRIENDS",
-  "SELF_ONLY"
- ],
- "comment_disabled": false,
- "duet_disabled": true,
- "stitch_disabled": true,
- "max_video_post_duration_sec": 3600,
- "checked": "2026-11-20T13:44:19.654163+00:00",
- "connected": true
+ "action": "publish",
+ "at": "2026-11-20T13:46:23.799318+00:00",
+ "ok": true,
+ "post": "pod-ytcaagmgzlale-14",
+ "publish_id": "v_pub_file~v2-1.7710249426304829462"
 }
