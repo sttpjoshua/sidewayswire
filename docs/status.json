@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T18:59:09.210488+00:00",
+ "updated": "2026-11-20T19:05:54.330585+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 468,
-  "check": 224,
+  "ready": 465,
+  "check": 223,
   "posted": 3,
-  "draft": 28
+  "draft": 32
  },
  "collected": "2026-11-20T17:22:32.850511+00:00",
  "instagram": false,
@@ -13140,6 +13140,227 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "In his final Formula DRIFT event, Simen Olsen chases the brand new champion Conor Shanahan and nails it.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 5202.88
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T00:00:17.848412+00:00",
+   "built": "2026-11-20T19:05:44.661213+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-11__clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "OLSEN HUNTS THE NEW CHAMPION",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jeff Jones gave Jack Shanahan everything in Top 16 at Long Beach. Was it enough?\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formulad #formuladrift #jackshanahan #jeffjones #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 2423.14
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:51:11.761509+00:00",
+   "built": "2026-11-20T19:03:37.105105+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt9lxrdzgctgm-4__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jeffjonesracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "JEFF JONES PUSHES BIG BRO",
+   "photo": null
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jeff Jones came out swinging against number one qualifier Jack Shanahan, and the commentators loved it.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formulad #formuladrift #jeffjones #jackshanahan #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 2212.08
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:49:58.350518+00:00",
+   "built": "2026-11-20T19:02:13.344434+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-3__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jeffjonesracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "JEFF JONES IS FRYING BREAD",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-50",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Unanimous: Conor Shanahan wins round 7 in Las Vegas ahead of Matt Field and brother Jack, and leaves with a 47 point lead.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @mattfield777 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 10473.53
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:19:26.595902+00:00",
+   "built": "2026-11-20T19:00:33.787083+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-50__clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@mattfield777",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SHANAHAN WINS IN LAS VEGAS",
    "photo": null
   },
   {
@@ -35199,75 +35420,6 @@
    "photo": null
   },
   {
-   "id": "pod-yt9lxrdzgctgm-4",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jeff Jones gave Jack Shanahan everything in Top 16 at Long Beach. Was it enough?\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formulad #formuladrift #jackshanahan #jeffjones #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt9lxrdzgctgm-4__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
-    "start": 2423.14
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:51:11.761509+00:00",
-   "built": "2026-11-19T01:11:26.719404+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt9lxrdzgctgm-4__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@jeffjonesracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Jack Shanahan vs Jeff Jones | Formula DRIFT Long Beach 2026\n\nJeff Jones gave Jack Shanahan everything in Top 16 at Long Beach. Was it enough?\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formuladrift #formulad #jackshanahan #jeffjones #sidewayswire",
-    "facebook": "Jack Shanahan vs Jeff Jones | Formula DRIFT Long Beach 2026\n\nJeff Jones gave Jack Shanahan everything in Top 16 at Long Beach. Was it enough?\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Jeff Jones | Formula DRIFT Long Beach 2026: Jeff Jones gave Jack Shanahan everything in Top 16 at Long Beach. Was it enough?\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @jackshanahan59 @jeffjonesracing @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Jack Shanahan vs Jeff Jones | Formula DRIFT Long Beach 2026",
-    "youtube": "Jeff Jones gave Jack Shanahan everything in Top 16 at Long Beach. Was it enough?\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "jeffjonesracing"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Jeff Jones"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-4.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-4.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt9lxrdzgctgm-4__short.mp4",
-   "title": "JEFF JONES PUSHES BIG BRO",
-   "photo": null
-  },
-  {
    "id": "pod-yt9lxrdzgctgm-39",
    "kind": "stream_clip",
    "status": "check",
@@ -35884,75 +36036,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-30__short.mp4",
    "title": "JACK: STOP FIGHTING ON TRACK",
-   "photo": null
-  },
-  {
-   "id": "pod-yt9lxrdzgctgm-3",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jeff Jones came out swinging against number one qualifier Jack Shanahan, and the commentators loved it.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formulad #formuladrift #jeffjones #jackshanahan #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-3__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
-    "start": 2212.08
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:49:58.350518+00:00",
-   "built": "2026-11-19T01:11:26.478058+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-3__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@jeffjonesracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Jack Shanahan vs Jeff Jones | Formula DRIFT Long Beach 2026\n\nJeff Jones came out swinging against number one qualifier Jack Shanahan, and the commentators loved it.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formuladrift #formulad #jackshanahan #jeffjones #sidewayswire",
-    "facebook": "Jack Shanahan vs Jeff Jones | Formula DRIFT Long Beach 2026\n\nJeff Jones came out swinging against number one qualifier Jack Shanahan, and the commentators loved it.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Jeff Jones | Formula DRIFT Long Beach 2026: Jeff Jones came out swinging against number one qualifier Jack Shanahan, and the commentators loved it.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Long Beach 2026 @jackshanahan59 @jeffjonesracing @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Jack Shanahan vs Jeff Jones | Formula DRIFT Long Beach 2026",
-    "youtube": "Jeff Jones came out swinging against number one qualifier Jack Shanahan, and the commentators loved it.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @jeffjonesracing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "jeffjonesracing"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Jeff Jones"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-3.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-3.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-3__short.mp4",
-   "title": "JEFF JONES IS FRYING BREAD",
    "photo": null
   },
   {
@@ -37042,63 +37125,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt9lxrdzgctgm-12__short.mp4",
    "title": "OLSEN TAKES DOWN THE CHAMP",
-   "photo": null
-  },
-  {
-   "id": "pod-yt9lxrdzgctgm-11",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "In his final Formula DRIFT event, Simen Olsen chases the brand new champion Conor Shanahan and nails it.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formulad #formuladrift #conorshanahan #drifting #longbeach #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-11__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
-    "start": 5202.88
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T00:00:17.848412+00:00",
-   "built": "2026-11-19T01:11:26.201781+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-11__clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@simenolsendrifting",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-11.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-11.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt9lxrdzgctgm-11__short.mp4",
-   "title": "OLSEN HUNTS THE NEW CHAMPION",
    "photo": null
   },
   {
@@ -38403,78 +38429,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-51__short.mp4",
    "title": "CONOR AFTER THE WIN",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-50",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Unanimous: Conor Shanahan wins round 7 in Las Vegas ahead of Matt Field and brother Jack, and leaves with a 47 point lead.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @mattfield777 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-50__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 10473.53
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:19:26.595902+00:00",
-   "built": "2026-11-19T01:11:25.667036+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-50__clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@mattfield777",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026\n\nUnanimous: Conor Shanahan wins round 7 in Las Vegas ahead of Matt Field and brother Jack, and leaves with a 47 point lead.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @jackshanahan59 @formulad\n\n#formuladrift #formulad #conorshanahan #mattfield #sidewayswire",
-    "facebook": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026\n\nUnanimous: Conor Shanahan wins round 7 in Las Vegas ahead of Matt Field and brother Jack, and leaves with a 47 point lead.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026: Unanimous: Conor Shanahan wins round 7 in Las Vegas ahead of Matt Field and brother Jack, and leaves with a 47 point lead.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @conorshanahan79 @mattfield777 @jackshanahan59 @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
-    "youtube_title": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026",
-    "youtube": "Unanimous: Conor Shanahan wins round 7 in Las Vegas ahead of Matt Field and brother Jack, and leaves with a 47 point lead.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "conorshanahan79",
-    "mattfield777",
-    "jackshanahan59"
-   ],
-   "people": [
-    "Conor Shanahan",
-    "Matt Field",
-    "Jack Shanahan"
-   ],
-   "moment_kind": "final",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 22.6,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-50.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-50.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-50__short.mp4",
-   "title": "SHANAHAN WINS IN LAS VEGAS",
    "photo": null
   },
   {
