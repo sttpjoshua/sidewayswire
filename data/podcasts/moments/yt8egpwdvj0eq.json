@@ -1,7 +1,7 @@
 [
  {
   "start": 0.0,
-  "end": 39.2,
+  "end": 45.2,
   "kind": "battle",
   "guest": "JERRY JOHNSON",
   "topic": "JOHNSON, WHAT A RUN",
@@ -25,11 +25,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 39.2, \"start\": 37.08, \"text\": \"BUILT IN A RUSH, BUT FAST?\", \"why\": \"enthousiast commentaar\"}",
-  "made": "2026-11-18T23:22:23.328599+00:00"
+  "made": "2026-11-18T23:22:23.328599+00:00",
+  "run_end": 39.2,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 146.8,
-  "end": 175.76,
+  "end": 181.8,
   "kind": "battle",
   "guest": "LONS VS TLASKA",
   "topic": "LONS HAS SOMETHING TO PROVE",
@@ -56,7 +59,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 151.76, \"start\": 150.12, \"text\": \"CAN HE BEAT THE POINTS LEADER?\", \"why\": \"vergelijking\"}",
-  "made": "2026-11-18T23:23:12.252422+00:00"
+  "made": "2026-11-18T23:23:12.252422+00:00",
+  "run_end": 175.76,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 177.62,
@@ -90,7 +96,7 @@
  },
  {
   "start": 398.2,
-  "end": 433.96,
+  "end": 440.0,
   "kind": "battle",
   "guest": "LONS VS BRUTSKIY",
   "topic": "BRUTSKIY UNFLAPPABLE",
@@ -117,7 +123,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 428.44, \"start\": 426.54, \"text\": \"CAN ANYONE RATTLE HIM?\", \"why\": \"feestje\"}",
-  "made": "2026-11-18T23:25:06.989521+00:00"
+  "made": "2026-11-18T23:25:06.989521+00:00",
+  "run_end": 433.96,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 480.08,
@@ -177,7 +186,7 @@
  },
  {
   "start": 567.44,
-  "end": 601.14,
+  "end": 607.1,
   "kind": "battle",
   "guest": "CHARPENTIER VS HOBSON",
   "topic": "RCP INCOMPLETE IN THE CHASE",
@@ -202,11 +211,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 595.5, \"start\": 593.36, \"text\": \"WHAT WENT WRONG FOR RCP?\", \"why\": \"incomplete\"}",
-  "made": "2026-11-18T23:27:54.429777+00:00"
+  "made": "2026-11-18T23:27:54.429777+00:00",
+  "run_end": 601.14,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 628.6,
-  "end": 658.76,
+  "end": 664.8,
   "kind": "battle",
   "guest": "DEANE VS CASTRO",
   "topic": "CASTRO RUNNING ON THE DOOR",
@@ -231,7 +243,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 651.98, \"start\": 650.0, \"text\": \"WHY ARE THESE BATTLES ALWAYS GREAT?\", \"why\": \"deurcontact\"}",
-  "made": "2026-11-18T23:28:52.440531+00:00"
+  "made": "2026-11-18T23:28:52.440531+00:00",
+  "run_end": 658.76,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 660.82,
@@ -264,7 +279,7 @@
  },
  {
   "start": 687.6,
-  "end": 722.18,
+  "end": 728.2,
   "kind": "battle",
   "guest": "SCERIFFO VS JACK SHANAHAN",
   "topic": "OPENING THE DOOR LIKE A GENTLEMAN",
@@ -289,7 +304,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 713.74, \"start\": 712.06, \"text\": \"HOW POLITE CAN A CHASE BE?\", \"why\": \"mooie vergelijking\"}",
-  "made": "2026-11-18T23:30:29.539169+00:00"
+  "made": "2026-11-18T23:30:29.539169+00:00",
+  "run_end": 722.18,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 723.64,
@@ -380,7 +398,7 @@
  },
  {
   "start": 848.52,
-  "end": 890.98,
+  "end": 897.0,
   "kind": "battle",
   "guest": "DEANE VS HATELEY",
   "topic": "BATTLE OF THE SPRINGS",
@@ -405,11 +423,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 879.02, \"start\": 876.76, \"text\": \"WHAT FELL OFF THAT CAR?\", \"why\": \"gejuich\"}",
-  "made": "2026-11-18T23:33:51.965697+00:00"
+  "made": "2026-11-18T23:33:51.965697+00:00",
+  "run_end": 890.98,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 892.12,
-  "end": 921.94,
+  "end": 927.9,
   "kind": "battle",
   "guest": "OLSEN VS JACK SHANAHAN",
   "topic": "JACK CUTS THROUGH THE SMOKE",
@@ -434,11 +455,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 906.18, \"start\": 904.4, \"text\": \"CAN HE EVEN SEE?\", \"why\": \"rook\"}",
-  "made": "2026-11-18T23:34:38.097464+00:00"
+  "made": "2026-11-18T23:34:38.097464+00:00",
+  "run_end": 921.94,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 924.86,
-  "end": 951.7,
+  "end": 957.7,
   "kind": "battle",
   "guest": "TUERCK VS DEANE",
   "topic": "LIKE SYNCHRONIZED SWIMMERS",
@@ -463,11 +487,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 943.68, \"start\": 941.36, \"text\": \"HOW ARE THEY THIS IN SYNC?\", \"why\": \"synchroon\"}",
-  "made": "2026-11-18T23:35:28.413807+00:00"
+  "made": "2026-11-18T23:35:28.413807+00:00",
+  "run_end": 951.7,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 953.34,
-  "end": 982.84,
+  "end": 988.8,
   "kind": "battle",
   "guest": "SORENSEN VS JACK SHANAHAN",
   "topic": "BLOW OVER BLOW",
@@ -492,11 +519,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 977.66, \"start\": 975.62, \"text\": \"ARE YOU KIDDING ME?\", \"why\": \"gevecht\"}",
-  "made": "2026-11-18T23:36:13.050259+00:00"
+  "made": "2026-11-18T23:36:13.050259+00:00",
+  "run_end": 982.84,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 983.18,
-  "end": 1034.6,
+  "end": 1040.6,
   "kind": "battle",
   "guest": "SHANAHAN VS BAKCHIS",
   "topic": "ODI GRINDS ON THE DOOR",
@@ -521,7 +551,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1021.14, \"start\": 1019.12, \"text\": \"ARE YOU NOT ENTERTAINED?\", \"why\": \"deurcontact\"}",
-  "made": "2026-11-18T23:37:22.911615+00:00"
+  "made": "2026-11-18T23:37:22.911615+00:00",
+  "run_end": 1034.6,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1064.9,
@@ -554,7 +587,7 @@
  },
  {
   "start": 1094.94,
-  "end": 1126.7,
+  "end": 1145.2,
   "kind": "battle",
   "guest": "HOBSON VS DEANE",
   "topic": "HOBSON BULLYING THE CHAMP",
@@ -579,7 +612,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1121.94, \"start\": 1120.32, \"text\": \"WHO IS BULLYING WHO?\", \"why\": \"druk\"}",
-  "made": "2026-11-18T23:39:04.048534+00:00"
+  "made": "2026-11-18T23:39:04.048534+00:00",
+  "run_end": 1126.7,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1127.3,
@@ -612,7 +648,7 @@
  },
  {
   "start": 1176.18,
-  "end": 1244.92,
+  "end": 1250.9,
   "kind": "final",
   "guest": "DEANE VS JACK SHANAHAN",
   "topic": "JACK BOTCHES THE FINAL",
@@ -637,7 +673,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1228.32, \"start\": 1225.28, \"text\": \"WHO WINS THE ALL IRISH FINAL?\", \"why\": \"beslissende fout\"}",
-  "made": "2026-11-18T23:41:45.911257+00:00"
+  "made": "2026-11-18T23:41:45.911257+00:00",
+  "run_end": 1244.92,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1292.88,
@@ -671,7 +710,7 @@
  },
  {
   "start": 1371.48,
-  "end": 1429.7,
+  "end": 1435.7,
   "kind": "final",
   "guest": "JAMES DEANE",
   "topic": "ALL IRISH PODIUM",
@@ -697,11 +736,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1401.14, \"start\": 1398.72, \"text\": \"WHO COMPLETES THE IRISH PODIUM?\", \"why\": \"podium\"}",
-  "made": "2026-11-18T23:44:10.439180+00:00"
+  "made": "2026-11-18T23:44:10.439180+00:00",
+  "run_end": 1429.7,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 985.9,
-  "end": 1063.5,
+  "end": 1069.5,
   "kind": "battle",
   "guest": "SHANAHAN VS BAKCHIS",
   "topic": "SHANAHAN VS ODI",
@@ -722,7 +764,11 @@
    "lead": [
     "CONOR SHANAHAN",
     "ODI BAKCHIS"
-   ]
+   ],
+   "result": {
+    "from": 1063.5,
+    "to": 1069.5
+   }
   },
   "why": "Split van het deurduel",
   "caption": "Lead vs lead, chase vs chase: Conor Shanahan and Odi Bakchis in Connecticut.\n\n#formulad #formuladrift #drifting #connecticut",
@@ -738,6 +784,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-18T23:45:47.299422+00:00"
+  "made": "2026-11-18T23:45:47.299422+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

@@ -70,7 +70,7 @@
  },
  {
   "start": 164.74,
-  "end": 199.56,
+  "end": 229.6,
   "kind": "battle",
   "guest": "SHANAHAN VS GUSHI",
   "topic": "GUSHI INTO THE WALL",
@@ -90,11 +90,14 @@
   "credit": "@formulad",
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-3-1647-1996.mp4"
+  "wait_name": "v2-ytzmzcyqa9c9e-3-1647-2296.mp4",
+  "run_end": 199.56,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 233.6,
-  "end": 255.48,
+  "end": 261.5,
   "kind": "omt",
   "guest": "OLSEN VS BUCHANAN",
   "topic": "ROOKIE BUCHANAN NO PUSHOVER",
@@ -114,11 +117,14 @@
   "credit": "@formulad",
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-4-2336-2555.mp4"
+  "wait_name": "v2-ytzmzcyqa9c9e-4-2336-2615.mp4",
+  "run_end": 255.48,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 332.18,
-  "end": 356.42,
+  "end": 362.4,
   "kind": "battle",
   "guest": "HIGA VS DEANE",
   "topic": "DEANE MAJOR MISTAKE",
@@ -138,11 +144,14 @@
   "credit": "@formulad",
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-5-3322-3564.mp4"
+  "wait_name": "v2-ytzmzcyqa9c9e-5-3322-3624.mp4",
+  "run_end": 356.42,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 357.6,
-  "end": 383.26,
+  "end": 389.3,
   "kind": "battle",
   "guest": "TUERCK VS SORENSEN",
   "topic": "BIG HIT IN ZONE FIVE",
@@ -162,11 +171,14 @@
   "credit": "@formulad",
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-6-3576-3833.mp4"
+  "wait_name": "v2-ytzmzcyqa9c9e-6-3576-3893.mp4",
+  "run_end": 383.26,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 439.18,
-  "end": 485.98,
+  "end": 492.0,
   "kind": "battle",
   "guest": "SHANAHAN VS HIGA",
   "topic": "HIGA SURGES, RICHARDS SAVES IT",
@@ -187,11 +199,14 @@
   "credit": "@formulad",
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-7-4392-4860.mp4"
+  "wait_name": "v2-ytzmzcyqa9c9e-7-4392-4920.mp4",
+  "run_end": 485.98,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 511.48,
-  "end": 535.54,
+  "end": 565.5,
   "kind": "final",
   "guest": "AASBO VS SHANAHAN",
   "topic": "LITTLE IRISH GRINDER",
@@ -211,11 +226,14 @@
   "credit": "@formulad",
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-8-5115-5355.mp4"
+  "wait_name": "v2-ytzmzcyqa9c9e-8-5115-5655.mp4",
+  "run_end": 535.54,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 583.86,
-  "end": 644.02,
+  "end": 650.0,
   "kind": "final",
   "guest": "CONOR SHANAHAN",
   "topic": "SHANAHAN WINS LONG BEACH",
@@ -235,11 +253,14 @@
   "credit": "@formulad",
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-9-5839-6440.mp4"
+  "wait_name": "v2-ytzmzcyqa9c9e-9-5839-6500.mp4",
+  "run_end": 644.02,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 487.6,
-  "end": 536.0,
+  "end": 566.0,
   "kind": "battle",
   "guest": "SHANAHAN VS AASBO",
   "topic": "LONG BEACH FINAL",
@@ -260,7 +281,11 @@
    "lead": [
     "CONOR SHANAHAN",
     "FREDRIC AASBO"
-   ]
+   ],
+   "result": {
+    "from": 536.0,
+    "to": 566.0
+   }
   },
   "why": "Finale split: beide runs naast elkaar",
   "caption": "Lead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\n#formulad #formuladrift #drifting #longbeach",
@@ -271,6 +296,8 @@
   "credit": "@formulad",
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytzmzcyqa9c9e-10r2-5143-5360.mp4"
+  "wait_name": "v2-ytzmzcyqa9c9e-10r2-5143-5660.mp4",
+  "result_done": 1,
+  "redo": false
  }
 ]

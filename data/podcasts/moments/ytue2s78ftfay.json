@@ -1,7 +1,7 @@
 [
  {
   "start": 323.88,
-  "end": 360.1,
+  "end": 366.1,
   "kind": "final",
   "guest": "KORPULINSKI VS FALVEY",
   "topic": "FINAL AT MONDELLO",
@@ -28,7 +28,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 348.34, \"start\": 345.7, \"text\": \"WATCH THIS TRANSITION\", \"why\": \"juichende commentator\"}",
-  "made": "2026-11-20T06:13:56.800272+00:00"
+  "made": "2026-11-20T06:13:56.800272+00:00",
+  "run_end": 360.1,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 410.32,

@@ -86,7 +86,7 @@
  },
  {
   "start": 2212.08,
-  "end": 2264.08,
+  "end": 2270.1,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS JEFF JONES",
   "topic": "JEFF JONES IS FRYING BREAD",
@@ -111,11 +111,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2246.82, \"start\": 2244.94, \"text\": \"WHAT IS JEFF JONES COOKING?\", \"why\": \"grappige commentaarregel\"}",
-  "made": "2026-11-18T23:49:58.349580+00:00"
+  "made": "2026-11-18T23:49:58.349580+00:00",
+  "run_end": 2264.08,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2423.14,
-  "end": 2472.94,
+  "end": 2478.9,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS JEFF JONES",
   "topic": "JEFF JONES PUSHES BIG BRO",
@@ -140,7 +143,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2451.68, \"start\": 2449.84, \"text\": \"WHO MOVES ON?\", \"why\": \"beslissing\"}",
-  "made": "2026-11-18T23:51:11.760529+00:00"
+  "made": "2026-11-18T23:51:11.760529+00:00",
+  "run_end": 2472.94,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2857.12,
@@ -321,7 +327,7 @@
  },
  {
   "start": 5202.88,
-  "end": 5272.96,
+  "end": 5279.0,
   "kind": "battle",
   "guest": "CONOR SHANAHAN VS SIMEN OLSEN",
   "topic": "OLSEN HUNTS THE NEW CHAMPION",
@@ -348,11 +354,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 5235.34, \"start\": 5233.26, \"text\": \"WHO IS CHASING THE CHAMPION?\", \"why\": \"juichende commentator\"}",
-  "made": "2026-11-19T00:00:17.847301+00:00"
+  "made": "2026-11-19T00:00:17.847301+00:00",
+  "run_end": 5272.96,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 5487.42,
-  "end": 5523.52,
+  "end": 5545.1,
   "kind": "battle",
   "guest": "CONOR SHANAHAN VS SIMEN OLSEN",
   "topic": "OLSEN TAKES DOWN THE CHAMP",
@@ -379,7 +388,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 5493.04, \"start\": 5489.54, \"text\": \"DID THE CHAMPION JUST LOSE?\", \"why\": \"de uitslag\"}",
-  "made": "2026-11-19T00:01:14.076144+00:00"
+  "made": "2026-11-19T00:01:14.076144+00:00",
+  "run_end": 5523.52,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 5721.86,
@@ -414,7 +426,7 @@
  },
  {
   "start": 5937.06,
-  "end": 5989.12,
+  "end": 5995.1,
   "kind": "battle",
   "guest": "TOMMY LEMAIRE VS MATT FIELD",
   "topic": "CORVETTE CONTACT IN ZONE THREE",
@@ -441,7 +453,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 5956.48, \"start\": 5953.42, \"text\": \"WHO IS AT FAULT HERE?\", \"why\": \"contact\"}",
-  "made": "2026-11-19T00:04:14.391617+00:00"
+  "made": "2026-11-19T00:04:14.391617+00:00",
+  "run_end": 5989.12,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 6605.2,
@@ -477,7 +492,7 @@
  },
  {
   "start": 7491.52,
-  "end": 7560.7,
+  "end": 7581.52,
   "kind": "omt",
   "guest": "TOMMY LEMAIRE VS MATT FIELD",
   "topic": "LEMAIRE KISSES THE WALL",
@@ -504,11 +519,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 7521.06, \"start\": 7518.66, \"text\": \"THE ONE MORE TIME GETS SCRAPPY\", \"why\": \"muurtik\"}",
-  "made": "2026-11-19T00:07:33.605596+00:00"
+  "made": "2026-11-19T00:07:33.605596+00:00",
+  "run_end": 7560.7,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 7600.24,
-  "end": 7630.28,
+  "end": 7638.2,
   "kind": "omt",
   "guest": "TOMMY LEMAIRE VS MATT FIELD",
   "topic": "CANADA VS AMERICA SETTLED",
@@ -535,7 +553,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 7630.28, \"start\": 7627.38, \"text\": \"CANADA OR AMERICA?\", \"why\": \"grappige afsluiter\"}",
-  "made": "2026-11-19T00:08:18.839994+00:00"
+  "made": "2026-11-19T00:08:18.839994+00:00",
+  "run_end": 7630.28,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 7764.86,
@@ -656,7 +677,7 @@
  },
  {
   "start": 9143.14,
-  "end": 9185.84,
+  "end": 9206.7,
   "kind": "battle",
   "guest": "JAMES DEANE VS FREDRIC AASBØ",
   "topic": "THE MACHINE VS THE HAMMER",
@@ -681,7 +702,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 9167.4, \"start\": 9165.06, \"text\": \"TWO LEGENDS, ONE WINNER\", \"why\": \"spanning beslissing\"}",
-  "made": "2026-11-19T00:15:04.422444+00:00"
+  "made": "2026-11-19T00:15:04.422444+00:00",
+  "run_end": 9185.84,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 9227.62,
@@ -713,7 +737,7 @@
  },
  {
   "start": 9276.4,
-  "end": 9337.8,
+  "end": 9352.9,
   "kind": "battle",
   "guest": "MATT FIELD VS SIMEN OLSEN",
   "topic": "CHAMPION ON COMMENTARY",
@@ -741,7 +765,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 9316.68, \"start\": 9315.02, \"text\": \"THE CHAMPION BREAKS IT DOWN\", \"why\": \"expert analyse\"}",
-  "made": "2026-11-19T00:17:42.391091+00:00"
+  "made": "2026-11-19T00:17:42.391091+00:00",
+  "run_end": 9337.8,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 9603.82,
@@ -773,7 +800,7 @@
  },
  {
   "start": 9999.38,
-  "end": 10032.3,
+  "end": 10038.3,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS ADAM LZ",
   "topic": "LZ FINDS HIS FORM",
@@ -798,7 +825,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 10027.58, \"start\": 10025.42, \"text\": \"THE BOOTH GOES WILD\", \"why\": \"juichende commentator\"}",
-  "made": "2026-11-19T00:19:23.505718+00:00"
+  "made": "2026-11-19T00:19:23.505718+00:00",
+  "run_end": 10032.3,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 10167.04,
@@ -948,7 +978,7 @@
  },
  {
   "start": 11752.4,
-  "end": 11815.82,
+  "end": 11824.9,
   "kind": "final",
   "guest": "JACK SHANAHAN VS JAMES DEANE",
   "topic": "JACK'S HAND OUT THE WINDOW",
@@ -973,11 +1003,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 11760.0, \"start\": 11757.34, \"text\": \"WHAT IS JACK DOING?\", \"why\": \"opvallend gebaar\"}",
-  "made": "2026-11-19T00:27:19.693701+00:00"
+  "made": "2026-11-19T00:27:19.693701+00:00",
+  "run_end": 11815.82,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 11864.28,
-  "end": 11914.18,
+  "end": 11920.2,
   "kind": "final",
   "guest": "JACK SHANAHAN VS JAMES DEANE",
   "topic": "THE FINAL BATTLE OF 2026",
@@ -1002,11 +1035,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 11888.62, \"start\": 11887.1, \"text\": \"ALL OR NOTHING FOR SECOND\", \"why\": \"spin in de finale\"}",
-  "made": "2026-11-19T00:28:41.905465+00:00"
+  "made": "2026-11-19T00:28:41.905465+00:00",
+  "run_end": 11914.18,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 12078.34,
-  "end": 12151.26,
+  "end": 12168.34,
   "kind": "final",
   "guest": "JAMES DEANE",
   "topic": "DEANE WINS THE SEASON FINALE",
@@ -1032,7 +1068,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 12143.24, \"start\": 12139.56, \"text\": \"WHO WINS THE FINALE?\", \"why\": \"de winnaar\"}",
-  "made": "2026-11-19T00:30:48.132145+00:00"
+  "made": "2026-11-19T00:30:48.132145+00:00",
+  "run_end": 12151.26,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 12171.72,
@@ -1124,7 +1163,7 @@
  },
  {
   "start": 2209.4,
-  "end": 2387,
+  "end": 2393.0,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS JEFF JONES",
   "topic": "JACK VS JEFF, SIDE BY SIDE",
@@ -1152,7 +1191,11 @@
    "lead": [
     "JACK SHANAHAN",
     "JEFF JONES"
-   ]
+   ],
+   "result": {
+    "from": 2387.0,
+    "to": 2393.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1161,11 +1204,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:36:03.028610+00:00"
+  "made": "2026-11-19T00:36:03.028610+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 3163.0,
-  "end": 4166,
+  "end": 4196.0,
   "kind": "battle",
   "guest": "ADAM LZ VS DANIEL STUCKEY",
   "topic": "LZ VS STUCKEY, SIDE BY SIDE",
@@ -1193,7 +1238,11 @@
    "lead": [
     "ADAM LZ",
     "DANIEL STUCKEY"
-   ]
+   ],
+   "result": {
+    "from": 4166.0,
+    "to": 4196.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1204,11 +1253,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:38:52.759386+00:00"
+  "made": "2026-11-19T00:38:52.759386+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 3535.4,
-  "end": 3719,
+  "end": 3741.8,
   "kind": "battle",
   "guest": "RYAN LITTERAL VS RUDY HANSEN",
   "topic": "LITTERAL VS HANSEN, SIDE BY SIDE",
@@ -1236,7 +1287,11 @@
    "lead": [
     "RYAN LITTERAL",
     "RUDY HANSEN"
-   ]
+   ],
+   "result": {
+    "from": 3719.0,
+    "to": 3741.8
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1247,11 +1302,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:40:12.563097+00:00"
+  "made": "2026-11-19T00:40:12.563097+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 4305.6,
-  "end": 4482,
+  "end": 4512.0,
   "kind": "battle",
   "guest": "JAMES DEANE VS WATARU MASUYAMA",
   "topic": "DEANE VS MASUYAMA, SIDE BY SIDE",
@@ -1279,7 +1336,11 @@
    "lead": [
     "JAMES DEANE",
     "WATARU MASUYAMA"
-   ]
+   ],
+   "result": {
+    "from": 4482.0,
+    "to": 4512.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1288,11 +1349,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:43:11.966179+00:00"
+  "made": "2026-11-19T00:43:11.966179+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 4609.2,
-  "end": 5636,
+  "end": 5642.0,
   "kind": "battle",
   "guest": "FREDRIC AASBØ VS DAN BURKETT",
   "topic": "BATTLE OF THE SUPRAS, SIDE BY SIDE",
@@ -1320,7 +1383,11 @@
    "lead": [
     "FREDRIC AASBØ",
     "DAN BURKETT"
-   ]
+   ],
+   "result": {
+    "from": 5636.0,
+    "to": 5642.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1329,11 +1396,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:46:08.358607+00:00"
+  "made": "2026-11-19T00:46:08.358607+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 5205.5,
-  "end": 5388,
+  "end": 5394.0,
   "kind": "battle",
   "guest": "CONOR SHANAHAN VS SIMEN OLSEN",
   "topic": "THE CHAMP VS OLSEN, SIDE BY SIDE",
@@ -1361,7 +1430,11 @@
    "lead": [
     "CONOR SHANAHAN",
     "SIMEN OLSEN"
-   ]
+   ],
+   "result": {
+    "from": 5388.0,
+    "to": 5394.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1372,11 +1445,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:49:05.542092+00:00"
+  "made": "2026-11-19T00:49:05.542092+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 5807.0,
-  "end": 5975,
+  "end": 5981.0,
   "kind": "battle",
   "guest": "TOMMY LEMAIRE VS MATT FIELD",
   "topic": "CORVETTE VS CORVETTE, SIDE BY SIDE",
@@ -1404,7 +1479,11 @@
    "lead": [
     "TOMMY LEMAIRE",
     "MATT FIELD"
-   ]
+   ],
+   "result": {
+    "from": 5975.0,
+    "to": 5981.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1415,11 +1494,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:51:46.281661+00:00"
+  "made": "2026-11-19T00:51:46.281661+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 7358.6,
-  "end": 7525,
+  "end": 7531.0,
   "kind": "battle",
   "guest": "TOMMY LEMAIRE VS MATT FIELD",
   "topic": "THE CORVETTE OMT, SIDE BY SIDE",
@@ -1447,7 +1528,11 @@
    "lead": [
     "TOMMY LEMAIRE",
     "MATT FIELD"
-   ]
+   ],
+   "result": {
+    "from": 7525.0,
+    "to": 7531.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1458,11 +1543,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:54:30.065440+00:00"
+  "made": "2026-11-19T00:54:30.065440+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 7761.0,
-  "end": 8750,
+  "end": 8756.0,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS ROME CHARPENTIER",
   "topic": "JACK VS RCP, SIDE BY SIDE",
@@ -1490,7 +1577,11 @@
    "lead": [
     "JACK SHANAHAN",
     "ROME CHARPENTIER"
-   ]
+   ],
+   "result": {
+    "from": 8750.0,
+    "to": 8756.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1499,11 +1590,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T00:57:51.402337+00:00"
+  "made": "2026-11-19T00:57:51.402337+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 8011.0,
-  "end": 8554,
+  "end": 8560.0,
   "kind": "battle",
   "guest": "ADAM LZ VS RYAN LITTERAL",
   "topic": "LZ VS LITTERAL, SIDE BY SIDE",
@@ -1531,7 +1624,11 @@
    "lead": [
     "ADAM LZ",
     "RYAN LITTERAL"
-   ]
+   ],
+   "result": {
+    "from": 8554.0,
+    "to": 8560.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1540,11 +1637,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T01:00:57.612929+00:00"
+  "made": "2026-11-19T01:00:57.612929+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 8883.8,
-  "end": 9057,
+  "end": 9063.0,
   "kind": "battle",
   "guest": "JAMES DEANE VS FREDRIC AASBØ",
   "topic": "DEANE VS AASBØ, SIDE BY SIDE",
@@ -1572,7 +1671,11 @@
    "lead": [
     "JAMES DEANE",
     "FREDRIC AASBØ"
-   ]
+   ],
+   "result": {
+    "from": 9057.0,
+    "to": 9063.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1581,11 +1684,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T01:03:43.051117+00:00"
+  "made": "2026-11-19T01:03:43.051117+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 9273.0,
-  "end": 9444,
+  "end": 9450.0,
   "kind": "battle",
   "guest": "MATT FIELD VS SIMEN OLSEN",
   "topic": "FIELD VS OLSEN, SIDE BY SIDE",
@@ -1613,7 +1718,11 @@
    "lead": [
     "MATT FIELD",
     "SIMEN OLSEN"
-   ]
+   ],
+   "result": {
+    "from": 9444.0,
+    "to": 9450.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1624,11 +1733,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T01:05:11.421070+00:00"
+  "made": "2026-11-19T01:05:11.421070+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 9836.6,
-  "end": 10030,
+  "end": 10036.0,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS ADAM LZ",
   "topic": "JACK VS LZ, SIDE BY SIDE",
@@ -1656,7 +1767,11 @@
    "lead": [
     "JACK SHANAHAN",
     "ADAM LZ"
-   ]
+   ],
+   "result": {
+    "from": 10030.0,
+    "to": 10036.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1665,11 +1780,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T06:42:21.342696+00:00"
+  "made": "2026-11-19T06:42:21.342696+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 11722.5,
-  "end": 11900,
+  "end": 11906.0,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS JAMES DEANE",
   "topic": "THE FINAL, SIDE BY SIDE",
@@ -1697,7 +1814,11 @@
    "lead": [
     "JACK SHANAHAN",
     "JAMES DEANE"
-   ]
+   ],
+   "result": {
+    "from": 11900.0,
+    "to": 11906.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -1708,6 +1829,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T06:46:48.611632+00:00"
+  "made": "2026-11-19T06:46:48.611632+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

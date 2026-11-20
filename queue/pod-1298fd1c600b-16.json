@@ -1,11 +1,18 @@
 {
  "id": "pod-1298fd1c600b-16",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "DRIVERS HAD TO RAISE THEIR HANDS",
  "video": "docs/media/pod-1298fd1c600b-16/clip.mp4",
  "caption": "The FD drivers' meeting where every driver had to raise a hand to prove they were listening.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+ "tags": [
+  "@chelseadenofa",
+  "@formulad",
+  "@jako13"
+ ],
+ "missing_handles": [],
+ "format": "single",
  "credit": "@formulad",
  "check": true,
  "check_reason": "namen nakijken",
@@ -21,20 +28,5 @@
   "start": 4924.31
  },
  "created": "2026-11-16T19:29:29.193402+00:00",
- "built": "2026-11-16T21:56:41.519688+00:00",
- "tags": [
-  "@chelseadenofa",
-  "@formulad",
-  "@jako13"
- ],
- "missing_handles": [],
- "media": [
-  "docs/media/pod-1298fd1c600b-16/clip.mp4"
- ],
- "problems": [],
- "short": "docs/media/pod-1298fd1c600b-16/short.mp4",
- "short_len": 26.9,
- "thumb": "docs/media/thumbs/pod-1298fd1c600b-16.jpg",
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-1298fd1c600b-16.mp4",
- "preview_of": "2026-11-16T21:56:41.519688+00:00"
+ "built": "2026-11-20T11:29:58.547189+00:00"
 }

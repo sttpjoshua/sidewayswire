@@ -1,7 +1,7 @@
 [
  {
   "start": 30.24,
-  "end": 64.8,
+  "end": 70.8,
   "kind": "battle",
   "guest": "DEANE VS POZSAR",
   "topic": "DEANE'S LEAD CLINIC",
@@ -28,11 +28,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 59.68, \"start\": 58.04, \"text\": \"A LEAD RUN MASTERCLASS?\", \"why\": \"commentaar over Deane\"}",
-  "made": "2026-11-19T12:36:51.822004+00:00"
+  "made": "2026-11-19T12:36:51.822004+00:00",
+  "run_end": 64.8,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 104.72,
-  "end": 155.8,
+  "end": 161.8,
   "kind": "omt",
   "guest": "CIRBA VS ROED",
   "topic": "CIRBA SPINS, ONE MORE TIME",
@@ -57,11 +60,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 123.44, \"start\": 121.12, \"text\": \"TOO AGGRESSIVE IN THE CHASE?\", \"why\": \"de spin\"}",
-  "made": "2026-11-19T12:38:39.231622+00:00"
+  "made": "2026-11-19T12:38:39.231622+00:00",
+  "run_end": 155.8,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 162.24,
-  "end": 223.1,
+  "end": 229.1,
   "kind": "battle",
   "guest": "KANDRASENKA VS HEINONEN",
   "topic": "FORMER CHAMPION LOSES POWER",
@@ -88,11 +94,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 209.54, \"start\": 207.46, \"text\": \"WHAT HAPPENED TO THE FORMER CHAMPION?\", \"why\": \"de pech\"}",
-  "made": "2026-11-19T12:41:01.521928+00:00"
+  "made": "2026-11-19T12:41:01.521928+00:00",
+  "run_end": 223.1,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 231.3,
-  "end": 299.0,
+  "end": 305.0,
   "kind": "battle",
   "guest": "MCKEEVER VS HABALI",
   "topic": "MCKEEVER OUT IN TOP 16",
@@ -119,11 +128,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 282.72, \"start\": 279.74, \"text\": \"ONE MISTAKE AT THE WORST TIME\", \"why\": \"de fout\"}",
-  "made": "2026-11-19T12:43:24.090918+00:00"
+  "made": "2026-11-19T12:43:24.090918+00:00",
+  "run_end": 299.0,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 306.5,
-  "end": 380.92,
+  "end": 386.9,
   "kind": "battle",
   "guest": "KESKIKORPI VS DEANE",
   "topic": "FIRST PODIUM FOR KESKIKORPI",
@@ -150,11 +162,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 358.0, \"start\": 355.44, \"text\": \"CAN HE BEAT A LEGEND?\", \"why\": \"juichende commentator\"}",
-  "made": "2026-11-19T12:45:58.678320+00:00"
+  "made": "2026-11-19T12:45:58.678320+00:00",
+  "run_end": 380.92,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 75.6,
-  "end": 132.5,
+  "end": 146.9,
   "kind": "battle",
   "guest": "CIRBA VS ROED",
   "topic": "CIRBA VS ROED SPLIT",
@@ -182,7 +197,11 @@
    "lead": [
     "CIRBA",
     "ROED"
-   ]
+   ],
+   "result": {
+    "from": 132.5,
+    "to": 146.9
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -191,11 +210,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T12:48:02.393006+00:00"
+  "made": "2026-11-19T12:48:02.393006+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 166.0,
-  "end": 218.1,
+  "end": 224.1,
   "kind": "battle",
   "guest": "KANDRASENKA VS HEINONEN",
   "topic": "KANDRASENKA VS HEINONEN SPLIT",
@@ -223,7 +244,11 @@
    "lead": [
     "HEINONEN",
     "KANDRASENKA"
-   ]
+   ],
+   "result": {
+    "from": 218.1,
+    "to": 224.1
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -234,11 +259,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T12:50:09.641101+00:00"
+  "made": "2026-11-19T12:50:09.641101+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 232.0,
-  "end": 285.3,
+  "end": 300.5,
   "kind": "battle",
   "guest": "MCKEEVER VS HABALI",
   "topic": "MCKEEVER VS HABALI SPLIT",
@@ -266,7 +293,11 @@
    "lead": [
     "MCKEEVER",
     "HABALI"
-   ]
+   ],
+   "result": {
+    "from": 285.3,
+    "to": 300.5
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -277,11 +308,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T12:52:12.554808+00:00"
+  "made": "2026-11-19T12:52:12.554808+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 305.0,
-  "end": 354.3,
+  "end": 367.7,
   "kind": "battle",
   "guest": "KESKIKORPI VS DEANE",
   "topic": "KESKIKORPI VS DEANE SPLIT",
@@ -309,7 +342,11 @@
    "lead": [
     "KESKIKORPI",
     "DEANE"
-   ]
+   ],
+   "result": {
+    "from": 354.3,
+    "to": 367.7
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -320,6 +357,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T12:54:05.597562+00:00"
+  "made": "2026-11-19T12:54:05.597562+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

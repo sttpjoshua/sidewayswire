@@ -117,16 +117,17 @@
   "status": "queued",
   "by": "editor",
   "clip": "docs/media/pod-1298fd1c600b-4/clip.mp4",
-  "mode": "video",
-  "layout": 3,
-  "made": "2026-11-16T20:06:27.188039+00:00",
+  "mode": "audiogram",
+  "layout": 4,
+  "made": "2026-11-20T11:27:14.581411+00:00",
   "hook": {
    "start": 2431.56,
    "end": 2433.55,
    "text": "IS MATT THE VILLAIN OF FD?",
    "why": "de uitspraak zelf"
   },
-  "hook_sig": "{\"end\": 2433.55, \"start\": 2431.56, \"text\": \"IS MATT THE VILLAIN OF FD?\", \"why\": \"de uitspraak zelf\"}"
+  "hook_sig": "{\"end\": 2433.55, \"start\": 2431.56, \"text\": \"IS MATT THE VILLAIN OF FD?\", \"why\": \"de uitspraak zelf\"}",
+  "wait_name": "v2-1298fd1c600b-4-24172-24520.mp4"
  },
  {
   "start": 2625.24,
@@ -220,16 +221,17 @@
   "status": "queued",
   "by": "editor",
   "clip": "docs/media/pod-1298fd1c600b-8/clip.mp4",
-  "mode": "video",
-  "layout": 3,
-  "made": "2026-11-16T20:08:00.572391+00:00",
+  "mode": "audiogram",
+  "layout": 4,
+  "made": "2026-11-20T11:28:06.388114+00:00",
   "hook": {
    "start": 3194.26,
    "end": 3197.93,
    "text": "HIS LAST EVER LAP IN FD",
    "why": "de clou van het verhaal"
   },
-  "hook_sig": "{\"end\": 3197.93, \"start\": 3194.26, \"text\": \"HIS LAST EVER LAP IN FD\", \"why\": \"de clou van het verhaal\"}"
+  "hook_sig": "{\"end\": 3197.93, \"start\": 3194.26, \"text\": \"HIS LAST EVER LAP IN FD\", \"why\": \"de clou van het verhaal\"}",
+  "wait_name": "v2-1298fd1c600b-8-31803-32216.mp4"
  },
  {
   "start": 3496.58,
@@ -329,10 +331,11 @@
    "why": "de onthulling"
   },
   "clip": "docs/media/pod-1298fd1c600b-12/clip.mp4",
-  "mode": "video",
-  "layout": 3,
+  "mode": "audiogram",
+  "layout": 4,
   "hook_sig": "{\"end\": 3951.85, \"start\": 3949.38, \"text\": \"CHELSEA BACK IN FD?\", \"why\": \"de onthulling\"}",
-  "made": "2026-11-16T21:29:22.646537+00:00"
+  "made": "2026-11-20T11:29:11.444386+00:00",
+  "wait_name": "v2-1298fd1c600b-12-39150-39788.mp4"
  },
  {
   "start": 3978.9,
@@ -423,16 +426,17 @@
   "status": "queued",
   "by": "editor",
   "clip": "docs/media/pod-1298fd1c600b-16/clip.mp4",
-  "mode": "video",
-  "layout": 3,
-  "made": "2026-11-16T20:13:38.263560+00:00",
+  "mode": "audiogram",
+  "layout": 4,
+  "made": "2026-11-20T11:29:58.546184+00:00",
   "hook": {
    "start": 4942.81,
    "end": 4945.94,
    "text": "FD DRIVERS TREATED LIKE KIDS?",
    "why": "de clou van het verhaal"
   },
-  "hook_sig": "{\"end\": 4945.94, \"start\": 4942.81, \"text\": \"FD DRIVERS TREATED LIKE KIDS?\", \"why\": \"de clou van het verhaal\"}"
+  "hook_sig": "{\"end\": 4945.94, \"start\": 4942.81, \"text\": \"FD DRIVERS TREATED LIKE KIDS?\", \"why\": \"de clou van het verhaal\"}",
+  "wait_name": "v2-1298fd1c600b-16-49243-49657.mp4"
  },
  {
   "start": 5469.19,
@@ -457,7 +461,8 @@
    "text": "WHAT DOES IT COST TO REACH FD?",
    "why": "het verrassende feit"
   },
-  "hook_sig": "{\"end\": 5498.5, \"start\": 5496.51, \"text\": \"WHAT DOES IT COST TO REACH FD?\", \"why\": \"het verrassende feit\"}"
+  "hook_sig": "{\"end\": 5498.5, \"start\": 5496.51, \"text\": \"WHAT DOES IT COST TO REACH FD?\", \"why\": \"het verrassende feit\"}",
+  "wait_name": "v2-1298fd1c600b-17-54692-55365.mp4"
  },
  {
   "start": 5586.95,
@@ -482,7 +487,8 @@
    "text": "A WHOLE COMP ON ONE SET?",
    "why": "het verrassende feit"
   },
-  "hook_sig": "{\"end\": 5601.62, \"start\": 5598.33, \"text\": \"A WHOLE COMP ON ONE SET?\", \"why\": \"het verrassende feit\"}"
+  "hook_sig": "{\"end\": 5601.62, \"start\": 5598.33, \"text\": \"A WHOLE COMP ON ONE SET?\", \"why\": \"het verrassende feit\"}",
+  "wait_name": "v2-1298fd1c600b-18-55870-56253.mp4"
  },
  {
   "start": 5757.61,
@@ -507,7 +513,8 @@
    "text": "CHELSEA'S NUMBER ONE BUILD TIP",
    "why": "het verrassende feit"
   },
-  "hook_sig": "{\"end\": 5761.5, \"start\": 5759.63, \"text\": \"CHELSEA'S NUMBER ONE BUILD TIP\", \"why\": \"het verrassende feit\"}"
+  "hook_sig": "{\"end\": 5761.5, \"start\": 5759.63, \"text\": \"CHELSEA'S NUMBER ONE BUILD TIP\", \"why\": \"het verrassende feit\"}",
+  "wait_name": "v2-1298fd1c600b-19-57576-58286.mp4"
  },
  {
   "start": 5973.01,
@@ -558,7 +565,8 @@
    "text": "CHELSEA, A KIA GUY?",
    "why": "de uitspraak zelf"
   },
-  "hook_sig": "{\"end\": 6351.52, \"start\": 6346.21, \"text\": \"CHELSEA, A KIA GUY?\", \"why\": \"de uitspraak zelf\"}"
+  "hook_sig": "{\"end\": 6351.52, \"start\": 6346.21, \"text\": \"CHELSEA, A KIA GUY?\", \"why\": \"de uitspraak zelf\"}",
+  "wait_name": "v2-1298fd1c600b-21-63295-63562.mp4"
  },
  {
   "start": 6519.13,
@@ -609,7 +617,8 @@
    "text": "SHOULD FD SCRAP QUALIFYING?",
    "why": "de uitspraak zelf"
   },
-  "hook_sig": "{\"end\": 6968.82, \"start\": 6964.21, \"text\": \"SHOULD FD SCRAP QUALIFYING?\", \"why\": \"de uitspraak zelf\"}"
+  "hook_sig": "{\"end\": 6968.82, \"start\": 6964.21, \"text\": \"SHOULD FD SCRAP QUALIFYING?\", \"why\": \"de uitspraak zelf\"}",
+  "wait_name": "v2-1298fd1c600b-23-69558-69809.mp4"
  },
  {
   "start": 7184.35,
@@ -634,7 +643,8 @@
    "text": "FAMOUS... AT HOME DEPOT?",
    "why": "de clou van het verhaal"
   },
-  "hook_sig": "{\"end\": 7192.5, \"start\": 7189.39, \"text\": \"FAMOUS... AT HOME DEPOT?\", \"why\": \"de clou van het verhaal\"}"
+  "hook_sig": "{\"end\": 7192.5, \"start\": 7189.39, \"text\": \"FAMOUS... AT HOME DEPOT?\", \"why\": \"de clou van het verhaal\"}",
+  "wait_name": "v2-1298fd1c600b-24-71844-72170.mp4"
  },
  {
   "start": 7879.99,
@@ -685,7 +695,8 @@
   "mode": "video",
   "layout": 3,
   "hook_sig": "{\"end\": 8178.78, \"start\": 8175.97, \"text\": \"A MOUNTAIN DRIFT EVENT?\", \"why\": \"de onthulling\"}",
-  "made": "2026-11-16T21:32:19.478071+00:00"
+  "made": "2026-11-16T21:32:19.478071+00:00",
+  "wait_name": "v2-1298fd1c600b-26-81757-82256.mp4"
  },
  {
   "start": 8367.33,

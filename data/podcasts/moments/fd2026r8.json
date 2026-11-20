@@ -1,7 +1,7 @@
 [
  {
   "start": 1904.02,
-  "end": 1953.9,
+  "end": 1983.9,
   "kind": "omt",
   "guest": "HOBSON VS JONES",
   "topic": "HOBSON GREW A TAIL",
@@ -26,11 +26,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1919.08, \"start\": 1916.48, \"text\": \"HE GREW A TAIL\", \"why\": \"grappige commentaarregel\"}",
-  "made": "2026-11-16T22:04:59.997615+00:00"
+  "made": "2026-11-16T22:04:59.997615+00:00",
+  "run_end": 1953.9,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 5227.7,
-  "end": 5272.5,
+  "end": 5298.4,
   "kind": "battle",
   "guest": "DEANE VS HATELEY",
   "topic": "FAILURE TO LAUNCH",
@@ -55,7 +58,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 5245.2, \"start\": 5242.68, \"text\": \"FAILURE TO LAUNCH\", \"why\": \"de pech van Andy\"}",
-  "made": "2026-11-16T22:06:23.361497+00:00"
+  "made": "2026-11-16T22:06:23.361497+00:00",
+  "run_end": 5272.5,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 6420.78,
@@ -117,7 +123,7 @@
  },
  {
   "start": 7795.66,
-  "end": 7865.32,
+  "end": 7871.3,
   "kind": "battle",
   "guest": "SHANAHAN VS CASTRO",
   "topic": "SHANAHAN LEADS FOR THE TITLE",
@@ -142,11 +148,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 7816.98, \"start\": 7814.38, \"text\": \"CASTRO ON HIS DOOR\", \"why\": \"deurcontact in de titelrun\"}",
-  "made": "2026-11-16T22:15:29.735365+00:00"
+  "made": "2026-11-16T22:15:29.735365+00:00",
+  "run_end": 7865.32,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 7947.02,
-  "end": 8019.56,
+  "end": 8037.02,
   "kind": "battle",
   "guest": "CASTRO VS SHANAHAN",
   "topic": "WHY THEY CALL HIM THE SHADOW",
@@ -171,7 +180,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 8019.56, \"start\": 8017.82, \"text\": \"THIS IS WHY\", \"why\": \"de bijnaam als punchline\"}",
-  "made": "2026-11-16T22:17:30.501879+00:00"
+  "made": "2026-11-16T22:17:30.501879+00:00",
+  "run_end": 8019.56,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 8043.2,
@@ -321,7 +333,7 @@
  },
  {
   "start": 9463.52,
-  "end": 9491.84,
+  "end": 9497.8,
   "kind": "battle",
   "guest": "RICHARDS VS LEMAIRE",
   "topic": "TOMMY MIRRORS COLE",
@@ -346,11 +358,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 9488.48, \"start\": 9484.88, \"text\": \"PERFECT MIRROR\", \"why\": \"proximity\"}",
-  "made": "2026-11-17T01:23:26.696426+00:00"
+  "made": "2026-11-17T01:23:26.696426+00:00",
+  "run_end": 9491.84,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 7789,
-  "end": 7976,
+  "end": 7982.0,
   "kind": "battle",
   "guest": "CONOR SHANAHAN VS JHONNATTAN CASTRO",
   "topic": "THE TITLE BATTLE, SIDE BY SIDE",
@@ -379,7 +394,11 @@
     "CONOR SHANAHAN",
     "JHONNATTAN CASTRO"
    ],
-   "lead_in": 2.0
+   "lead_in": 2.0,
+   "result": {
+    "from": 7976.0,
+    "to": 7982.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -388,11 +407,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-17T16:04:06.197325+00:00"
+  "made": "2026-11-17T16:04:06.197325+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 3287,
-  "end": 3480,
+  "end": 3510.0,
   "kind": "battle",
   "guest": "ADAM LZ VS DEREK MADISON",
   "topic": "ADAM LZ VS DEREK MADISON",
@@ -421,7 +442,11 @@
     "ADAM LZ",
     "DEREK MADISON"
    ],
-   "lead_in": 2.0
+   "lead_in": 2.0,
+   "result": {
+    "from": 3480.0,
+    "to": 3510.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -430,11 +455,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-17T16:06:14.708504+00:00"
+  "made": "2026-11-17T16:06:14.708504+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 9163,
-  "end": 9324,
+  "end": 9330.0,
   "kind": "battle",
   "guest": "MATT FIELD VS TRENTON BEECHUM",
   "topic": "FIELD VS BEECHUM",
@@ -463,7 +490,11 @@
     "MATT FIELD",
     "TRENTON BEECHUM"
    ],
-   "lead_in": 2.0
+   "lead_in": 2.0,
+   "result": {
+    "from": 9324.0,
+    "to": 9330.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -472,11 +503,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-17T16:08:16.233874+00:00"
+  "made": "2026-11-17T16:08:16.233874+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 8941,
-  "end": 9496,
+  "end": 9526.0,
   "kind": "battle",
   "guest": "TOMMY LEMAIRE VS COLE RICHARDS",
   "topic": "LEMAIRE VS RICHARDS",
@@ -505,7 +538,11 @@
     "TOMMY LEMAIRE",
     "COLE RICHARDS"
    ],
-   "lead_in": 2.0
+   "lead_in": 2.0,
+   "result": {
+    "from": 9496.0,
+    "to": 9526.0
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -514,6 +551,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-17T16:10:16.377095+00:00"
+  "made": "2026-11-17T16:10:16.377095+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

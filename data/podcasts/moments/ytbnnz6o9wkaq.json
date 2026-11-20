@@ -1,7 +1,7 @@
 [
  {
   "start": 30.0,
-  "end": 100.9,
+  "end": 106.9,
   "kind": "battle",
   "guest": "KORPULINSKI VS KROL",
   "topic": "KROL RISKS EVERYTHING",
@@ -26,11 +26,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 56.38, \"start\": 54.48, \"text\": \"A BRAVE DIVE THAT BACKFIRED?\", \"why\": \"de fout van Kr\\u00f3l\"}",
-  "made": "2026-11-19T06:49:21.264327+00:00"
+  "made": "2026-11-19T06:49:21.264327+00:00",
+  "run_end": 100.9,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 114.44,
-  "end": 188.14,
+  "end": 194.1,
   "kind": "battle",
   "guest": "SHANAHAN VS PASCOLI",
   "topic": "SHANAHAN SAVES IT BACKWARDS",
@@ -57,11 +60,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 167.08, \"start\": 164.9, \"text\": \"HOW IS HE STILL GOING?\", \"why\": \"de redding\"}",
-  "made": "2026-11-19T06:52:00.993321+00:00"
+  "made": "2026-11-19T06:52:00.993321+00:00",
+  "run_end": 188.14,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 200.42,
-  "end": 259.68,
+  "end": 289.7,
   "kind": "battle",
   "guest": "CIRBA VS WILDCARD",
   "topic": "ROOKIE WILDCARD VS CIRBA",
@@ -88,11 +94,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 255.7, \"start\": 253.18, \"text\": \"WATCH HIM CREEP UP\", \"why\": \"\\u010cirba op de deur\"}",
-  "made": "2026-11-19T06:54:32.065540+00:00"
+  "made": "2026-11-19T06:54:32.065540+00:00",
+  "run_end": 259.68,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 309.26,
-  "end": 382.96,
+  "end": 389.0,
   "kind": "battle",
   "guest": "BERTANS VS PRZYGONSKI",
   "topic": "BERTANS SHREDS BODY PANELS",
@@ -119,11 +128,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 382.96, \"start\": 380.98, \"text\": \"IS THIS TOO MUCH?\", \"why\": \"de reactie\"}",
-  "made": "2026-11-19T06:57:10.708804+00:00"
+  "made": "2026-11-19T06:57:10.708804+00:00",
+  "run_end": 382.96,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 393.5,
-  "end": 436.76,
+  "end": 442.8,
   "kind": "battle",
   "guest": "DEANE VS SHANAHAN",
   "topic": "FINAL RUN ONE",
@@ -148,11 +160,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 434.06, \"start\": 430.88, \"text\": \"CAN DEANE SHAKE HIM?\", \"why\": \"bewondering commentator\"}",
-  "made": "2026-11-19T06:58:49.008394+00:00"
+  "made": "2026-11-19T06:58:49.008394+00:00",
+  "run_end": 436.76,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 444.9,
-  "end": 512.91,
+  "end": 518.9,
   "kind": "final",
   "guest": "DEANE VS SHANAHAN",
   "topic": "SHANAHAN WINS ROUND ONE",
@@ -177,11 +192,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 482.17, \"start\": 480.41, \"text\": \"WHO TAKES ROUND ONE?\", \"why\": \"spanning voor de beslissing\"}",
-  "made": "2026-11-19T07:01:04.785737+00:00"
+  "made": "2026-11-19T07:01:04.785737+00:00",
+  "run_end": 512.91,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 26.0,
-  "end": 94.0,
+  "end": 102.4,
   "kind": "battle",
   "guest": "KORPULINSKI VS KROL",
   "topic": "KORPULINSKI VS KROL SPLIT",
@@ -209,7 +227,11 @@
    "lead": [
     "KORPULINSKI",
     "KROL"
-   ]
+   ],
+   "result": {
+    "from": 94.0,
+    "to": 102.4
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -218,11 +240,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T07:04:05.157671+00:00"
+  "made": "2026-11-19T07:04:05.157671+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 113.0,
-  "end": 183.0,
+  "end": 189.6,
   "kind": "battle",
   "guest": "SHANAHAN VS PASCOLI",
   "topic": "SHANAHAN VS PASCOLI SPLIT",
@@ -250,7 +274,11 @@
    "lead": [
     "SHANAHAN",
     "PASCOLI"
-   ]
+   ],
+   "result": {
+    "from": 183.0,
+    "to": 189.6
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -261,11 +289,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T07:07:07.073415+00:00"
+  "made": "2026-11-19T07:07:07.073415+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 311.0,
-  "end": 378.2,
+  "end": 384.2,
   "kind": "battle",
   "guest": "BERTANS VS PRZYGONSKI",
   "topic": "BERTANS VS PRZYGONSKI SPLIT",
@@ -293,7 +323,11 @@
    "lead": [
     "BERTANS",
     "PRZYGONSKI"
-   ]
+   ],
+   "result": {
+    "from": 378.2,
+    "to": 384.2
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -304,11 +338,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T07:09:52.166424+00:00"
+  "made": "2026-11-19T07:09:52.166424+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 403.0,
-  "end": 478.3,
+  "end": 483.7,
   "kind": "battle",
   "guest": "DEANE VS SHANAHAN",
   "topic": "DEANE VS SHANAHAN FINAL SPLIT",
@@ -336,7 +372,11 @@
    "lead": [
     "DEANE",
     "SHANAHAN"
-   ]
+   ],
+   "result": {
+    "from": 478.3,
+    "to": 483.7
+   }
   },
   "by": "editor",
   "status": "queued",
@@ -345,6 +385,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T07:12:37.086381+00:00"
+  "made": "2026-11-19T07:12:37.086381+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

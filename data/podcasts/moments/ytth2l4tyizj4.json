@@ -142,7 +142,7 @@
  },
  {
   "start": 240.24,
-  "end": 269.46,
+  "end": 275.5,
   "kind": "battle",
   "guest": "HOBSON VS CASTRO",
   "topic": "CASTRO HAS NIGHT VISION",
@@ -167,11 +167,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 269.46, \"start\": 267.68, \"text\": \"HOW DID HE SEE THROUGH THAT?\", \"why\": \"night vision grap\"}",
-  "made": "2026-11-20T05:54:42.745542+00:00"
+  "made": "2026-11-20T05:54:42.745542+00:00",
+  "run_end": 269.46,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 324.9,
-  "end": 353.14,
+  "end": 359.1,
   "kind": "battle",
   "guest": "SHANAHAN VS DEANE",
   "topic": "DEANE STICKS IT TO THE DOOR",
@@ -196,7 +199,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 347.98, \"start\": 345.1, \"text\": \"WHO BLINKS FIRST?\", \"why\": \"deurcontact\"}",
-  "made": "2026-11-20T05:55:46.412503+00:00"
+  "made": "2026-11-20T05:55:46.412503+00:00",
+  "run_end": 353.14,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 372.74,
@@ -229,7 +235,7 @@
  },
  {
   "start": 415.68,
-  "end": 443.86,
+  "end": 449.9,
   "kind": "battle",
   "guest": "CASTRO VS JACK SHANAHAN",
   "topic": "BANGING AND GRINDING",
@@ -254,7 +260,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 436.72, \"start\": 434.52, \"text\": \"HOW CLOSE IS TOO CLOSE?\", \"why\": \"contact tot de finish\"}",
-  "made": "2026-11-20T05:58:16.134747+00:00"
+  "made": "2026-11-20T05:58:16.134747+00:00",
+  "run_end": 443.86,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 476.1,
@@ -287,7 +296,7 @@
  },
  {
   "start": 505.04,
-  "end": 530.5,
+  "end": 536.5,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS BAKCHIS",
   "topic": "ODI THE MAGICIAN",
@@ -312,11 +321,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 520.58, \"start\": 518.6, \"text\": \"WHERE DID HE COME FROM?\", \"why\": \"magische chase\"}",
-  "made": "2026-11-20T06:00:14.150526+00:00"
+  "made": "2026-11-20T06:00:14.150526+00:00",
+  "run_end": 530.5,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 531.36,
-  "end": 586.4,
+  "end": 592.4,
   "kind": "battle",
   "guest": "DEANE VS FIELD",
   "topic": "FIELD TRIES TO BULLY THE CHAMP",
@@ -341,11 +353,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 586.4, \"start\": 583.3, \"text\": \"CAN FIELD SHAKE THE MACHINE?\", \"why\": \"spannende conclusie\"}",
-  "made": "2026-11-20T06:02:09.726604+00:00"
+  "made": "2026-11-20T06:02:09.726604+00:00",
+  "run_end": 586.4,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 620.84,
-  "end": 648.3,
+  "end": 654.3,
   "kind": "battle",
   "guest": "SORENSEN VS BAKCHIS",
   "topic": "ODI IS LIKE A CAT",
@@ -370,11 +385,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 644.48, \"start\": 642.04, \"text\": \"WHAT MAKES HIM SO SMOOTH?\", \"why\": \"kat-vergelijking\"}",
-  "made": "2026-11-20T06:03:13.402295+00:00"
+  "made": "2026-11-20T06:03:13.402295+00:00",
+  "run_end": 648.3,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 654.9,
-  "end": 682.26,
+  "end": 688.3,
   "kind": "battle",
   "guest": "AASBO VS DEANE",
   "topic": "HAMMER VS MACHINE",
@@ -399,11 +417,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 663.64, \"start\": 660.06, \"text\": \"CAN ANYONE SHAKE DEANE?\", \"why\": \"zij aan zij\"}",
-  "made": "2026-11-20T06:04:19.497825+00:00"
+  "made": "2026-11-20T06:04:19.497825+00:00",
+  "run_end": 682.26,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 741.34,
-  "end": 807.0,
+  "end": 831.34,
   "kind": "final",
   "guest": "BAKCHIS VS DEANE",
   "topic": "ODI WALKS AWAY FROM DEANE",
@@ -428,7 +449,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 803.46, \"start\": 801.86, \"text\": \"HAS ANYONE EVER DONE THIS?\", \"why\": \"zeldzaam moment\"}",
-  "made": "2026-11-20T06:06:22.950898+00:00"
+  "made": "2026-11-20T06:06:22.950898+00:00",
+  "run_end": 807.0,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 944.64,
@@ -462,7 +486,7 @@
  },
  {
   "start": 997.78,
-  "end": 1030.04,
+  "end": 1036.0,
   "kind": "final",
   "guest": "ODI BAKCHIS",
   "topic": "ODI WINS ORLANDO",
@@ -486,11 +510,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1019.4, \"start\": 1016.6, \"text\": \"WHO TOOK THE WIN IN ORLANDO?\", \"why\": \"winnaar genoemd\"}",
-  "made": "2026-11-20T06:08:31.738164+00:00"
+  "made": "2026-11-20T06:08:31.738164+00:00",
+  "run_end": 1030.04,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 300.2,
-  "end": 350.0,
+  "end": 356.0,
   "kind": "battle",
   "guest": "DEANE VS SHANAHAN",
   "topic": "ALL IRISH BATTLE",
@@ -511,7 +538,11 @@
    "lead": [
     "JAMES DEANE",
     "CONOR SHANAHAN"
-   ]
+   ],
+   "result": {
+    "from": 350.0,
+    "to": 356.0
+   }
   },
   "why": "Split: Deane en Shanahan beide runs",
   "caption": "Lead vs lead, chase vs chase: James Deane and Conor Shanahan in Orlando.\n\n#formulad #formuladrift #drifting #orlando",
@@ -527,11 +558,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-20T06:10:38.432171+00:00"
+  "made": "2026-11-20T06:10:38.432171+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 530.0,
-  "end": 586.4,
+  "end": 592.4,
   "kind": "battle",
   "guest": "DEANE VS FIELD",
   "topic": "DEANE VS FIELD",
@@ -552,7 +585,11 @@
    "lead": [
     "JAMES DEANE",
     "MATT FIELD"
-   ]
+   ],
+   "result": {
+    "from": 586.4,
+    "to": 592.4
+   }
   },
   "why": "Split: Deane en Field beide runs",
   "caption": "Lead vs lead, chase vs chase: James Deane and Matt Field in Orlando.\n\n#formulad #formuladrift #drifting #orlando",
@@ -568,11 +605,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-20T06:11:32.015345+00:00"
+  "made": "2026-11-20T06:11:32.015345+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 698.4,
-  "end": 752.0,
+  "end": 758.0,
   "kind": "battle",
   "guest": "DEANE VS BAKCHIS",
   "topic": "ORLANDO FINAL",
@@ -593,7 +632,11 @@
    "lead": [
     "JAMES DEANE",
     "ODI BAKCHIS"
-   ]
+   ],
+   "result": {
+    "from": 752.0,
+    "to": 758.0
+   }
   },
   "why": "Split van de finale: Deane en Odi",
   "caption": "Lead vs lead, chase vs chase: the Orlando final between James Deane and Odi Bakchis.\n\n#formulad #formuladrift #drifting #orlando",
@@ -609,6 +652,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-20T06:12:41.456350+00:00"
+  "made": "2026-11-20T06:12:41.456350+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

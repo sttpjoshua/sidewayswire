@@ -47,7 +47,7 @@
  },
  {
   "start": 1294.34,
-  "end": 1342.34,
+  "end": 1348.3,
   "kind": "battle",
   "guest": "HIGA VS BURKETT",
   "topic": "HIGA GOES BAM",
@@ -67,7 +67,10 @@
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-2-12943-13423.mp4"
+  "wait_name": "v2-ytvrote7tycsg-2-12943-13483.mp4",
+  "run_end": 1342.34,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 1456.56,
@@ -119,7 +122,7 @@
  },
  {
   "start": 1995.46,
-  "end": 2045.36,
+  "end": 2066.3,
   "kind": "battle",
   "guest": "DEANE VS MADISON",
   "topic": "D-MADS GOES THE WRONG WAY",
@@ -141,7 +144,10 @@
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Derek Madison / D-Mads)",
-  "wait_name": "v2-ytvrote7tycsg-5-19955-20454.mp4"
+  "wait_name": "v2-ytvrote7tycsg-5-19955-20663.mp4",
+  "run_end": 2045.36,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 2649.24,
@@ -215,7 +221,7 @@
  },
  {
   "start": 3730.19,
-  "end": 3797.87,
+  "end": 3803.9,
   "kind": "battle",
   "guest": "OLSEN VS BUCHANAN",
   "topic": "ROOKIE TAKES IT TO OLSEN",
@@ -237,11 +243,14 @@
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Cody Buchanan)",
-  "wait_name": "v2-ytvrote7tycsg-9-37302-37979.mp4"
+  "wait_name": "v2-ytvrote7tycsg-9-37302-38039.mp4",
+  "run_end": 3797.87,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 3932.87,
-  "end": 3979.77,
+  "end": 4003.1,
   "kind": "omt",
   "guest": "OLSEN VS BUCHANAN",
   "topic": "ROOKIE FORCES A ONE MORE TIME",
@@ -261,11 +270,14 @@
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-10-39329-39798.mp4"
+  "wait_name": "v2-ytvrote7tycsg-10-39329-40031.mp4",
+  "run_end": 3979.77,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 4157.15,
-  "end": 4224.83,
+  "end": 4230.8,
   "kind": "battle",
   "guest": "TUERCK VS MASUYAMA",
   "topic": "TUERCK'S TINY BUMPER RUN",
@@ -285,7 +297,10 @@
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-11-41572-42248.mp4"
+  "wait_name": "v2-ytvrote7tycsg-11-41572-42308.mp4",
+  "run_end": 4224.83,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 4890.57,
@@ -315,7 +330,7 @@
  },
  {
   "start": 5245.87,
-  "end": 5307.33,
+  "end": 5313.3,
   "kind": "battle",
   "guest": "OLSEN VS BUCHANAN",
   "topic": "ROOKIE WON'T BACK DOWN",
@@ -335,11 +350,14 @@
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-13-52459-53073.mp4"
+  "wait_name": "v2-ytvrote7tycsg-13-52459-53133.mp4",
+  "run_end": 5307.33,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 5557.63,
-  "end": 5619.09,
+  "end": 5625.1,
   "kind": "battle",
   "guest": "LZ VS LITTERAL",
   "topic": "LZ AND LITTERAL MAKE CONTACT",
@@ -359,7 +377,10 @@
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-14-55576-56191.mp4"
+  "wait_name": "v2-ytvrote7tycsg-14-55576-56251.mp4",
+  "run_end": 5619.09,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 5824.05,
@@ -434,7 +455,7 @@
  },
  {
   "start": 7146.37,
-  "end": 7220.11,
+  "end": 7226.1,
   "kind": "battle",
   "guest": "RICHARDS VS LEMARRE",
   "topic": "COLE RICHARDS IS ON FIRE",
@@ -456,11 +477,14 @@
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Cole Richards, Tommy LeMarre / TLO)",
-  "wait_name": "v2-ytvrote7tycsg-18-71464-72201.mp4"
+  "wait_name": "v2-ytvrote7tycsg-18-71464-72261.mp4",
+  "run_end": 7220.11,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 7269.37,
-  "end": 7303.65,
+  "end": 7309.6,
   "kind": "battle",
   "guest": "LEMARRE VS RICHARDS",
   "topic": "GO GO GADGET BUMPER",
@@ -482,7 +506,10 @@
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
-  "wait_name": "v2-ytvrote7tycsg-19-72694-73036.mp4"
+  "wait_name": "v2-ytvrote7tycsg-19-72694-73096.mp4",
+  "run_end": 7303.65,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 7344.51,
@@ -512,7 +539,7 @@
  },
  {
   "start": 7580.51,
-  "end": 7646.03,
+  "end": 7653.2,
   "kind": "battle",
   "guest": "SHANAHAN VS HANSEN",
   "topic": "JACK SHANAHAN SLIDES INTO THE POCKET",
@@ -534,7 +561,10 @@
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Rudy Hansen)",
-  "wait_name": "v2-ytvrote7tycsg-21-75805-76460.mp4"
+  "wait_name": "v2-ytvrote7tycsg-21-75805-76532.mp4",
+  "run_end": 7646.03,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 7709.11,
@@ -686,7 +716,7 @@
  },
  {
   "start": 9688.47,
-  "end": 9755.45,
+  "end": 9761.5,
   "kind": "battle",
   "guest": "HUGHES VS FIELD",
   "topic": "DOZER'S MASSIVE HUCK",
@@ -706,7 +736,10 @@
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-28-96885-97554.mp4"
+  "wait_name": "v2-ytvrote7tycsg-28-96885-97615.mp4",
+  "run_end": 9755.45,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 9911.99,
@@ -758,7 +791,7 @@
  },
  {
   "start": 10156.57,
-  "end": 10199.83,
+  "end": 10205.8,
   "kind": "battle",
   "guest": "MINOWA VS HATELEY",
   "topic": "MINOWA TICKS EVERY BOX",
@@ -778,11 +811,14 @@
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-31-101566-101998.mp4"
+  "wait_name": "v2-ytvrote7tycsg-31-101566-102058.mp4",
+  "run_end": 10199.83,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 10595.33,
-  "end": 10627.53,
+  "end": 10633.5,
   "kind": "battle",
   "guest": "AASBO VS BEECHUM",
   "topic": "TOP 16 IS SET",
@@ -802,11 +838,14 @@
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-32-105953-106275.mp4"
+  "wait_name": "v2-ytvrote7tycsg-32-105953-106335.mp4",
+  "run_end": 10627.53,
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 1186.0,
-  "end": 1338.0,
+  "end": 1344.0,
   "kind": "battle",
   "guest": "BURKETT VS HIGA",
   "topic": "BURKETT VS HIGA SPLIT",
@@ -834,15 +873,21 @@
    "lead": [
     "BURKETT",
     "HIGA"
-   ]
+   ],
+   "result": {
+    "from": 1338.0,
+    "to": 1344.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-33r2-13050-13380.mp4"
+  "wait_name": "v2-ytvrote7tycsg-33r2-13050-13440.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 3606.0,
-  "end": 3760.0,
+  "end": 3790.0,
   "kind": "battle",
   "guest": "OLSEN VS BUCHANAN",
   "topic": "OLSEN VS BUCHANAN SPLIT",
@@ -870,15 +915,21 @@
    "lead": [
     "OLSEN",
     "BUCHANAN"
-   ]
+   ],
+   "result": {
+    "from": 3760.0,
+    "to": 3790.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-34r2-37270-37600.mp4"
+  "wait_name": "v2-ytvrote7tycsg-34r2-37270-37900.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 5245.87,
-  "end": 6441.0,
+  "end": 6447.0,
   "kind": "battle",
   "guest": "OLSEN VS BUCHANAN",
   "topic": "OLSEN VS BUCHANAN OMT SPLIT",
@@ -906,15 +957,21 @@
    "lead": [
     "OLSEN",
     "BUCHANAN"
-   ]
+   ],
+   "result": {
+    "from": 6441.0,
+    "to": 6447.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-35r2-64072-64410.mp4"
+  "wait_name": "v2-ytvrote7tycsg-35r2-64072-64470.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 4163.0,
-  "end": 4296.0,
+  "end": 4326.0,
   "kind": "battle",
   "guest": "TUERCK VS MASUYAMA",
   "topic": "TUERCK VS MASUYAMA SPLIT",
@@ -942,15 +999,21 @@
    "lead": [
     "TUERCK",
     "MASUYAMA"
-   ]
+   ],
+   "result": {
+    "from": 4296.0,
+    "to": 4326.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-36r2-42640-42960.mp4"
+  "wait_name": "v2-ytvrote7tycsg-36r2-42640-43260.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 4892.0,
-  "end": 5031.0,
+  "end": 5038.4,
   "kind": "battle",
   "guest": "SORENSEN VS STUCKEY",
   "topic": "SORENSEN VS STUCKEY SPLIT",
@@ -978,17 +1041,23 @@
    "lead": [
     "SORENSEN",
     "STUCKEY"
-   ]
+   ],
+   "result": {
+    "from": 5031.0,
+    "to": 5038.4
+   }
   },
   "by": "editor",
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
-  "wait_name": "v2-ytvrote7tycsg-37r2-49980-50310.mp4"
+  "wait_name": "v2-ytvrote7tycsg-37r2-49980-50384.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 6081.5,
-  "end": 6243.0,
+  "end": 6249.0,
   "kind": "battle",
   "guest": "SORENSEN VS STUCKEY",
   "topic": "SORENSEN VS STUCKEY OMT SPLIT",
@@ -1016,17 +1085,23 @@
    "lead": [
     "SORENSEN",
     "STUCKEY"
-   ]
+   ],
+   "result": {
+    "from": 6243.0,
+    "to": 6249.0
+   }
   },
   "by": "editor",
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
-  "wait_name": "v2-ytvrote7tycsg-38r2-62104-62430.mp4"
+  "wait_name": "v2-ytvrote7tycsg-38r2-62104-62490.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 5559.0,
-  "end": 6721.0,
+  "end": 6727.0,
   "kind": "battle",
   "guest": "LZ VS LITTERAL",
   "topic": "LZ VS LITTERAL SPLIT",
@@ -1054,15 +1129,21 @@
    "lead": [
     "LZ",
     "LITTERAL"
-   ]
+   ],
+   "result": {
+    "from": 6721.0,
+    "to": 6727.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-39r2-66884-67210.mp4"
+  "wait_name": "v2-ytvrote7tycsg-39r2-66884-67270.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 7712.5,
-  "end": 7858.0,
+  "end": 7864.0,
   "kind": "battle",
   "guest": "LZ VS LITTERAL",
   "topic": "LZ VS LITTERAL OMT SPLIT",
@@ -1090,15 +1171,21 @@
    "lead": [
     "LZ",
     "LITTERAL"
-   ]
+   ],
+   "result": {
+    "from": 7858.0,
+    "to": 7864.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-40r2-78260-78580.mp4"
+  "wait_name": "v2-ytvrote7tycsg-40r2-78260-78640.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 7147.0,
-  "end": 7305.0,
+  "end": 7311.0,
   "kind": "battle",
   "guest": "RICHARDS VS LEMARRE",
   "topic": "RICHARDS VS LEMARRE SPLIT",
@@ -1126,17 +1213,23 @@
    "lead": [
     "RICHARDS",
     "LEMARRE"
-   ]
+   ],
+   "result": {
+    "from": 7305.0,
+    "to": 7311.0
+   }
   },
   "by": "editor",
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
-  "wait_name": "v2-ytvrote7tycsg-41r2-72720-73050.mp4"
+  "wait_name": "v2-ytvrote7tycsg-41r2-72720-73110.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 7476.0,
-  "end": 7616.0,
+  "end": 7645.8,
   "kind": "battle",
   "guest": "SHANAHAN VS HANSEN",
   "topic": "SHANAHAN VS HANSEN SPLIT",
@@ -1164,17 +1257,23 @@
    "lead": [
     "SHANAHAN",
     "HANSEN"
-   ]
+   ],
+   "result": {
+    "from": 7616.0,
+    "to": 7645.8
+   }
   },
   "by": "editor",
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
-  "wait_name": "v2-ytvrote7tycsg-42r2-75840-76160.mp4"
+  "wait_name": "v2-ytvrote7tycsg-42r2-75840-76458.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 8606.7,
-  "end": 8802.0,
+  "end": 8825.4,
   "kind": "battle",
   "guest": "BAKCHIS VS O'SULLIVAN",
   "topic": "BAKCHIS VS O'SULLIVAN SPLIT",
@@ -1202,17 +1301,23 @@
    "lead": [
     "BAKCHIS",
     "O'SULLIVAN"
-   ]
+   ],
+   "result": {
+    "from": 8802.0,
+    "to": 8825.4
+   }
   },
   "by": "editor",
   "status": "new",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Connor O'Sullivan)",
-  "wait_name": "v2-ytvrote7tycsg-43r2-87700-88020.mp4"
+  "wait_name": "v2-ytvrote7tycsg-43r2-87700-88254.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 9138.0,
-  "end": 9992.0,
+  "end": 9998.0,
   "kind": "battle",
   "guest": "FORSBERG VS CASTRO",
   "topic": "FORSBERG VS CASTRO SPLIT",
@@ -1240,15 +1345,21 @@
    "lead": [
     "FORSBERG",
     "CASTRO"
-   ]
+   ],
+   "result": {
+    "from": 9992.0,
+    "to": 9998.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-44r2-99620-99920.mp4"
+  "wait_name": "v2-ytvrote7tycsg-44r2-99620-99980.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 9597.0,
-  "end": 9736.0,
+  "end": 9742.0,
   "kind": "battle",
   "guest": "FIELD VS HUGHES",
   "topic": "FIELD VS HUGHES SPLIT",
@@ -1276,15 +1387,21 @@
    "lead": [
     "FIELD",
     "HUGHES"
-   ]
+   ],
+   "result": {
+    "from": 9736.0,
+    "to": 9742.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-45r2-97024-97360.mp4"
+  "wait_name": "v2-ytvrote7tycsg-45r2-97024-97420.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 10149.5,
-  "end": 10296.0,
+  "end": 10302.0,
   "kind": "battle",
   "guest": "MINOWA VS HATELEY",
   "topic": "MINOWA VS HATELEY SPLIT",
@@ -1312,15 +1429,21 @@
    "lead": [
     "MINOWA",
     "HATELEY"
-   ]
+   ],
+   "result": {
+    "from": 10296.0,
+    "to": 10302.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-46r2-102633-102960.mp4"
+  "wait_name": "v2-ytvrote7tycsg-46r2-102633-103020.mp4",
+  "result_done": 1,
+  "redo": false
  },
  {
   "start": 10409.9,
-  "end": 10551.0,
+  "end": 10557.0,
   "kind": "battle",
   "guest": "AASBO VS BEECHUM",
   "topic": "AASBO VS BEECHUM SPLIT",
@@ -1348,10 +1471,16 @@
    "lead": [
     "AASBO",
     "BEECHUM"
-   ]
+   ],
+   "result": {
+    "from": 10551.0,
+    "to": 10557.0
+   }
   },
   "by": "editor",
   "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-47r2-105182-105510.mp4"
+  "wait_name": "v2-ytvrote7tycsg-47r2-105182-105570.mp4",
+  "result_done": 1,
+  "redo": false
  }
 ]

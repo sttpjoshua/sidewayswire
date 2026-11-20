@@ -86,7 +86,7 @@
  },
  {
   "start": 130.42,
-  "end": 163.6,
+  "end": 193.6,
   "kind": "battle",
   "guest": "LITTERAL VS FIELD",
   "topic": "FIELD GETS IT UNANIMOUSLY",
@@ -111,11 +111,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 163.6, \"start\": 160.62, \"text\": \"WHO COMES OUT OF THE SMOKE?\", \"why\": \"uitslag\"}",
-  "made": "2026-11-19T08:05:14.204481+00:00"
+  "made": "2026-11-19T08:05:14.204481+00:00",
+  "run_end": 163.6,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 163.6,
-  "end": 199.9,
+  "end": 229.9,
   "kind": "omt",
   "guest": "JONES VS CHARPENTIER",
   "topic": "ONE MORE TIME, JONES VS RCP",
@@ -140,11 +143,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 194.22, \"start\": 192.38, \"text\": \"CAN THE JUDGES SPLIT THEM?\", \"why\": \"one more time call\"}",
-  "made": "2026-11-19T08:06:39.133887+00:00"
+  "made": "2026-11-19T08:06:39.133887+00:00",
+  "run_end": 199.9,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 200.36,
-  "end": 240.38,
+  "end": 270.4,
   "kind": "omt",
   "guest": "RICHARDS VS FORSBERG",
   "topic": "ROOKIE FORCES FORSBERG TO OMT",
@@ -169,11 +175,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 235.48, \"start\": 233.44, \"text\": \"CAN A ROOKIE HANG WITH FORSBERG?\", \"why\": \"OMT tegen een kampioen\"}",
-  "made": "2026-11-19T08:08:09.282876+00:00"
+  "made": "2026-11-19T08:08:09.282876+00:00",
+  "run_end": 240.38,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 240.7,
-  "end": 279.5,
+  "end": 281.5,
   "kind": "battle",
   "guest": "CHEN VS JACK SHANAHAN",
   "topic": "JACK SHANAHAN GETS HIS BREAKOUT",
@@ -198,11 +207,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 276.98, \"start\": 275.34, \"text\": \"DOES JACK GET HIS BREAKOUT?\", \"why\": \"uitslag\"}",
-  "made": "2026-11-19T08:09:49.157704+00:00"
+  "made": "2026-11-19T08:09:49.157704+00:00",
+  "run_end": 279.5,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 283.64,
-  "end": 323.14,
+  "end": 329.1,
   "kind": "battle",
   "guest": "BAKCHIS VS HANSEN",
   "topic": "ODI CALLS A TIMEOUT",
@@ -227,7 +239,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 319.94, \"start\": 317.24, \"text\": \"WHY DID HE STOP?\", \"why\": \"onverwachte time-out\"}",
-  "made": "2026-11-19T08:11:24.518221+00:00"
+  "made": "2026-11-19T08:11:24.518221+00:00",
+  "run_end": 323.14,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 353.66,
@@ -290,7 +305,7 @@
  },
  {
   "start": 482.8,
-  "end": 514.64,
+  "end": 544.6,
   "kind": "battle",
   "guest": "CHARPENTIER VS JACK SHANAHAN",
   "topic": "JACK THE SHADOW",
@@ -315,7 +330,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 488.32, \"start\": 486.36, \"text\": \"CAN YOU CHASE CLOSER THAN THIS?\", \"why\": \"perfecte chase\"}",
-  "made": "2026-11-19T08:15:57.730208+00:00"
+  "made": "2026-11-19T08:15:57.730208+00:00",
+  "run_end": 514.64,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 522.4,
@@ -348,7 +366,7 @@
  },
  {
   "start": 566.42,
-  "end": 608.6,
+  "end": 614.6,
   "kind": "battle",
   "guest": "BEECHUM VS SORENSEN",
   "topic": "SORENSEN LEAVES THEM SPEECHLESS",
@@ -375,11 +393,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 593.54, \"start\": 591.16, \"text\": \"WHAT LEFT THEM SPEECHLESS?\", \"why\": \"sprakeloze commentator\"}",
-  "made": "2026-11-19T08:18:47.482374+00:00"
+  "made": "2026-11-19T08:18:47.482374+00:00",
+  "run_end": 608.6,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 639.8,
-  "end": 678.48,
+  "end": 700.3,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS AASBO",
   "topic": "AASBO DOESN'T CRACK",
@@ -404,11 +425,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 657.2, \"start\": 654.44, \"text\": \"WILL THE HAMMER CRACK?\", \"why\": \"deurcontact\"}",
-  "made": "2026-11-19T08:20:17.950771+00:00"
+  "made": "2026-11-19T08:20:17.950771+00:00",
+  "run_end": 678.48,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 681.38,
-  "end": 722.44,
+  "end": 752.4,
   "kind": "battle",
   "guest": "SHANAHAN VS BUCHANAN",
   "topic": "BUCHANAN NOT INTIMIDATED",
@@ -433,11 +457,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 711.7, \"start\": 709.24, \"text\": \"IS THE ROOKIE INTIMIDATED?\", \"why\": \"sterke chase\"}",
-  "made": "2026-11-19T08:22:01.881711+00:00"
+  "made": "2026-11-19T08:22:01.881711+00:00",
+  "run_end": 722.44,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 725.04,
-  "end": 760.36,
+  "end": 766.4,
   "kind": "battle",
   "guest": "LZ VS SORENSEN",
   "topic": "SHEDDING HEADLIGHTS",
@@ -462,11 +489,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 744.3, \"start\": 742.66, \"text\": \"WHO LOST A HEADLIGHT?\", \"why\": \"contact\"}",
-  "made": "2026-11-19T08:23:24.029960+00:00"
+  "made": "2026-11-19T08:23:24.029960+00:00",
+  "run_end": 760.36,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 798.42,
-  "end": 832.74,
+  "end": 838.7,
   "kind": "battle",
   "guest": "FIELD VS AASBO",
   "topic": "AASBO GIVES NO ROOM",
@@ -491,11 +521,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 832.74, \"start\": 830.34, \"text\": \"CAN FIELD ESCAPE THE HAMMER?\", \"why\": \"uitslag\"}",
-  "made": "2026-11-19T08:24:46.444496+00:00"
+  "made": "2026-11-19T08:24:46.444496+00:00",
+  "run_end": 832.74,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 865.98,
-  "end": 899.02,
+  "end": 905.0,
   "kind": "final",
   "guest": "AASBO VS SHANAHAN",
   "topic": "REVENGE FOR AASBO?",
@@ -520,11 +553,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 882.1, \"start\": 879.64, \"text\": \"IS THIS REVENGE TIME?\", \"why\": \"spanning finale\"}",
-  "made": "2026-11-19T08:26:09.925047+00:00"
+  "made": "2026-11-19T08:26:09.925047+00:00",
+  "run_end": 899.02,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1003.88,
-  "end": 1059.32,
+  "end": 1065.3,
   "kind": "final",
   "guest": "CONOR SHANAHAN",
   "topic": "SHANAHAN WINS SEATTLE",
@@ -550,11 +586,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1047.44, \"start\": 1043.54, \"text\": \"WHO WINS IN SEATTLE?\", \"why\": \"winnaar\"}",
-  "made": "2026-11-19T08:28:20.830647+00:00"
+  "made": "2026-11-19T08:28:20.830647+00:00",
+  "run_end": 1059.32,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 408.0,
-  "end": 468.9,
+  "end": 477.6,
   "kind": "battle",
   "guest": "DEANE VS FIELD",
   "topic": "DEANE VS FIELD TOP 16",
@@ -575,7 +614,11 @@
    "lead": [
     "JAMES DEANE",
     "MATT FIELD"
-   ]
+   ],
+   "result": {
+    "from": 468.9,
+    "to": 477.6
+   }
   },
   "why": "Split van de omstreden battle",
   "caption": "Lead vs lead, chase vs chase: the much discussed James Deane vs Matt Field battle in Seattle.\n\n#formulad #formuladrift #drifting #seattle",
@@ -591,11 +634,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T08:30:50.500818+00:00"
+  "made": "2026-11-19T08:30:50.500818+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 610.6,
-  "end": 675.6,
+  "end": 682.5,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS AASBO",
   "topic": "JACK VS THE HAMMER",
@@ -616,7 +661,11 @@
    "lead": [
     "JACK SHANAHAN",
     "FREDRIC AASBO"
-   ]
+   ],
+   "result": {
+    "from": 675.6,
+    "to": 682.5
+   }
   },
   "why": "Split: Jack Shanahan tegen Aasbo",
   "caption": "Lead vs lead, chase vs chase: Jack Shanahan and Fredric Aasbo in Seattle.\n\n#formulad #formuladrift #drifting #seattle",
@@ -632,11 +681,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T08:33:18.018187+00:00"
+  "made": "2026-11-19T08:33:18.018187+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 764.2,
-  "end": 825.5,
+  "end": 834.2,
   "kind": "battle",
   "guest": "AASBO VS FIELD",
   "topic": "AASBO VS FIELD",
@@ -657,7 +708,11 @@
    "lead": [
     "FREDRIC AASBO",
     "MATT FIELD"
-   ]
+   ],
+   "result": {
+    "from": 825.5,
+    "to": 834.2
+   }
   },
   "why": "Split: Aasbo tegen Field",
   "caption": "Lead vs lead, chase vs chase: Fredric Aasbo and Matt Field in Seattle.\n\n#formulad #formuladrift #drifting #seattle",
@@ -673,11 +728,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T08:34:19.212407+00:00"
+  "made": "2026-11-19T08:34:19.212407+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 834.0,
-  "end": 895.8,
+  "end": 901.8,
   "kind": "battle",
   "guest": "SHANAHAN VS AASBO",
   "topic": "SEATTLE FINAL",
@@ -698,7 +755,11 @@
    "lead": [
     "CONOR SHANAHAN",
     "FREDRIC AASBO"
-   ]
+   ],
+   "result": {
+    "from": 895.8,
+    "to": 901.8
+   }
   },
   "why": "Split van de finale",
   "caption": "Lead vs lead, chase vs chase: the Seattle final between Conor Shanahan and Fredric Aasbo.\n\n#formulad #formuladrift #drifting #seattle",
@@ -714,6 +775,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T08:36:01.360746+00:00"
+  "made": "2026-11-19T08:36:01.360746+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

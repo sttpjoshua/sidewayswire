@@ -57,7 +57,7 @@
  },
  {
   "start": 337.96,
-  "end": 367.64,
+  "end": 373.6,
   "kind": "final",
   "guest": "CONOR SHANAHAN",
   "topic": "SHANAHAN IS CHAMPION",
@@ -82,7 +82,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 350.78, \"start\": 347.36, \"text\": \"IS IRELAND CROWNING A CHAMPION?\", \"why\": \"de titel\"}",
-  "made": "2026-11-19T16:30:03.822410+00:00"
+  "made": "2026-11-19T16:30:03.822410+00:00",
+  "run_end": 367.64,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 397.98,
@@ -114,7 +117,7 @@
  },
  {
   "start": 433.74,
-  "end": 471.86,
+  "end": 484.3,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS ADAM LZ",
   "topic": "BRING IT, JAMES",
@@ -140,11 +143,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 467.34, \"start\": 464.74, \"text\": \"WHO IS HE CALLING OUT?\", \"why\": \"hand uit het raam\"}",
-  "made": "2026-11-19T21:14:27.097292+00:00"
+  "made": "2026-11-19T21:14:27.097292+00:00",
+  "run_end": 471.86,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 520.18,
-  "end": 562.7,
+  "end": 568.5,
   "kind": "final",
   "guest": "DEANE VS JACK SHANAHAN",
   "topic": "SPIN IN THE FINAL",
@@ -171,11 +177,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 550.54, \"start\": 548.92, \"text\": \"WHO CRACKS IN THE FINAL?\", \"why\": \"de spin\"}",
-  "made": "2026-11-19T21:15:46.996896+00:00"
+  "made": "2026-11-19T21:15:46.996896+00:00",
+  "run_end": 562.7,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 564.28,
-  "end": 604.28,
+  "end": 610.3,
   "kind": "final",
   "guest": "JAMES DEANE",
   "topic": "ALL IRISH ONE TWO THREE",
@@ -202,11 +211,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 580.62, \"start\": 578.22, \"text\": \"HAS THIS EVER HAPPENED BEFORE?\", \"why\": \"historisch Iers podium\"}",
-  "made": "2026-11-19T21:16:56.489677+00:00"
+  "made": "2026-11-19T21:16:56.489677+00:00",
+  "run_end": 604.28,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 485.0,
-  "end": 552.5,
+  "end": 557.6,
   "kind": "battle",
   "guest": "JACK SHANAHAN VS DEANE",
   "topic": "LONG BEACH FINAL",
@@ -227,7 +239,11 @@
    "lead": [
     "JACK SHANAHAN",
     "JAMES DEANE"
-   ]
+   ],
+   "result": {
+    "from": 552.5,
+    "to": 557.6
+   }
   },
   "why": "Finale split: Jack leidt, dan Deane",
   "caption": "Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\n#formulad #formuladrift #drifting #longbeach",
@@ -243,6 +259,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-20T01:00:15.579317+00:00"
+  "made": "2026-11-20T01:00:15.579317+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

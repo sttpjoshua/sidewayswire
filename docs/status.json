@@ -1,9 +1,10 @@
 {
- "updated": "2026-11-20T08:59:19.039274+00:00",
+ "updated": "2026-11-20T11:30:12.873464+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 464,
-  "check": 221,
+  "ready": 462,
+  "check": 219,
+  "draft": 4,
   "posted": 3
  },
  "collected": "2026-11-20T08:43:11.755079+00:00",
@@ -2286,7 +2287,7 @@
      },
      {
       "start": 337.96,
-      "end": 367.64,
+      "end": 373.6,
       "kind": "final",
       "guest": "CONOR SHANAHAN",
       "topic": "SHANAHAN IS CHAMPION",
@@ -2314,7 +2315,7 @@
      },
      {
       "start": 433.74,
-      "end": 471.86,
+      "end": 484.3,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS ADAM LZ",
       "topic": "BRING IT, JAMES",
@@ -2328,7 +2329,7 @@
      },
      {
       "start": 520.18,
-      "end": 562.7,
+      "end": 568.5,
       "kind": "final",
       "guest": "DEANE VS JACK SHANAHAN",
       "topic": "SPIN IN THE FINAL",
@@ -2342,7 +2343,7 @@
      },
      {
       "start": 564.28,
-      "end": 604.28,
+      "end": 610.3,
       "kind": "final",
       "guest": "JAMES DEANE",
       "topic": "ALL IRISH ONE TWO THREE",
@@ -2356,7 +2357,7 @@
      },
      {
       "start": 485.0,
-      "end": 552.5,
+      "end": 557.6,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS DEANE",
       "topic": "LONG BEACH FINAL",
@@ -2475,7 +2476,7 @@
       "why": "On Matt (Field, not named in clip): not a villain, he expects everyone to be at their best.",
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-4/clip.mp4",
-      "mode": "video",
+      "mode": "audiogram",
       "wait_video": null,
       "split": false
      },
@@ -2531,7 +2532,7 @@
       "why": "On his final FD battle and the practice session where he stopped 45 minutes early.",
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-8/clip.mp4",
-      "mode": "video",
+      "mode": "audiogram",
       "wait_video": null,
       "split": false
      },
@@ -2587,7 +2588,7 @@
       "why": "Rumor of ex-pros running ProSpec; budget killed it. Teams reached out to have him drive a few rounds.",
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-12/clip.mp4",
-      "mode": "video",
+      "mode": "audiogram",
       "wait_video": null,
       "split": false
      },
@@ -2643,7 +2644,7 @@
       "why": "A judge made all drivers raise their hands to prove they were listening at a meeting. Judge name unclear, check.",
       "status": "queued",
       "clip": "docs/media/pod-1298fd1c600b-16/clip.mp4",
-      "mode": "video",
+      "mode": "audiogram",
       "wait_video": null,
       "split": false
      },
@@ -2986,7 +2987,7 @@
      },
      {
       "start": 2212.08,
-      "end": 2264.08,
+      "end": 2270.1,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS JEFF JONES",
       "topic": "JEFF JONES IS FRYING BREAD",
@@ -3000,7 +3001,7 @@
      },
      {
       "start": 2423.14,
-      "end": 2472.94,
+      "end": 2478.9,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS JEFF JONES",
       "topic": "JEFF JONES PUSHES BIG BRO",
@@ -3098,7 +3099,7 @@
      },
      {
       "start": 5202.88,
-      "end": 5272.96,
+      "end": 5279.0,
       "kind": "battle",
       "guest": "CONOR SHANAHAN VS SIMEN OLSEN",
       "topic": "OLSEN HUNTS THE NEW CHAMPION",
@@ -3112,7 +3113,7 @@
      },
      {
       "start": 5487.42,
-      "end": 5523.52,
+      "end": 5545.1,
       "kind": "battle",
       "guest": "CONOR SHANAHAN VS SIMEN OLSEN",
       "topic": "OLSEN TAKES DOWN THE CHAMP",
@@ -3140,7 +3141,7 @@
      },
      {
       "start": 5937.06,
-      "end": 5989.12,
+      "end": 5995.1,
       "kind": "battle",
       "guest": "TOMMY LEMAIRE VS MATT FIELD",
       "topic": "CORVETTE CONTACT IN ZONE THREE",
@@ -3168,7 +3169,7 @@
      },
      {
       "start": 7491.52,
-      "end": 7560.7,
+      "end": 7581.52,
       "kind": "omt",
       "guest": "TOMMY LEMAIRE VS MATT FIELD",
       "topic": "LEMAIRE KISSES THE WALL",
@@ -3182,7 +3183,7 @@
      },
      {
       "start": 7600.24,
-      "end": 7630.28,
+      "end": 7638.2,
       "kind": "omt",
       "guest": "TOMMY LEMAIRE VS MATT FIELD",
       "topic": "CANADA VS AMERICA SETTLED",
@@ -3252,7 +3253,7 @@
      },
      {
       "start": 9143.14,
-      "end": 9185.84,
+      "end": 9206.7,
       "kind": "battle",
       "guest": "JAMES DEANE VS FREDRIC AASBØ",
       "topic": "THE MACHINE VS THE HAMMER",
@@ -3280,7 +3281,7 @@
      },
      {
       "start": 9276.4,
-      "end": 9337.8,
+      "end": 9352.9,
       "kind": "battle",
       "guest": "MATT FIELD VS SIMEN OLSEN",
       "topic": "CHAMPION ON COMMENTARY",
@@ -3308,7 +3309,7 @@
      },
      {
       "start": 9999.38,
-      "end": 10032.3,
+      "end": 10038.3,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS ADAM LZ",
       "topic": "LZ FINDS HIS FORM",
@@ -3392,7 +3393,7 @@
      },
      {
       "start": 11752.4,
-      "end": 11815.82,
+      "end": 11824.9,
       "kind": "final",
       "guest": "JACK SHANAHAN VS JAMES DEANE",
       "topic": "JACK'S HAND OUT THE WINDOW",
@@ -3406,7 +3407,7 @@
      },
      {
       "start": 11864.28,
-      "end": 11914.18,
+      "end": 11920.2,
       "kind": "final",
       "guest": "JACK SHANAHAN VS JAMES DEANE",
       "topic": "THE FINAL BATTLE OF 2026",
@@ -3420,7 +3421,7 @@
      },
      {
       "start": 12078.34,
-      "end": 12151.26,
+      "end": 12168.34,
       "kind": "final",
       "guest": "JAMES DEANE",
       "topic": "DEANE WINS THE SEASON FINALE",
@@ -3476,7 +3477,7 @@
      },
      {
       "start": 2209.4,
-      "end": 2387,
+      "end": 2393.0,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS JEFF JONES",
       "topic": "JACK VS JEFF, SIDE BY SIDE",
@@ -3490,7 +3491,7 @@
      },
      {
       "start": 3163.0,
-      "end": 4166,
+      "end": 4196.0,
       "kind": "battle",
       "guest": "ADAM LZ VS DANIEL STUCKEY",
       "topic": "LZ VS STUCKEY, SIDE BY SIDE",
@@ -3504,7 +3505,7 @@
      },
      {
       "start": 3535.4,
-      "end": 3719,
+      "end": 3741.8,
       "kind": "battle",
       "guest": "RYAN LITTERAL VS RUDY HANSEN",
       "topic": "LITTERAL VS HANSEN, SIDE BY SIDE",
@@ -3518,7 +3519,7 @@
      },
      {
       "start": 4305.6,
-      "end": 4482,
+      "end": 4512.0,
       "kind": "battle",
       "guest": "JAMES DEANE VS WATARU MASUYAMA",
       "topic": "DEANE VS MASUYAMA, SIDE BY SIDE",
@@ -3532,7 +3533,7 @@
      },
      {
       "start": 4609.2,
-      "end": 5636,
+      "end": 5642.0,
       "kind": "battle",
       "guest": "FREDRIC AASBØ VS DAN BURKETT",
       "topic": "BATTLE OF THE SUPRAS, SIDE BY SIDE",
@@ -3546,7 +3547,7 @@
      },
      {
       "start": 5205.5,
-      "end": 5388,
+      "end": 5394.0,
       "kind": "battle",
       "guest": "CONOR SHANAHAN VS SIMEN OLSEN",
       "topic": "THE CHAMP VS OLSEN, SIDE BY SIDE",
@@ -3560,7 +3561,7 @@
      },
      {
       "start": 5807.0,
-      "end": 5975,
+      "end": 5981.0,
       "kind": "battle",
       "guest": "TOMMY LEMAIRE VS MATT FIELD",
       "topic": "CORVETTE VS CORVETTE, SIDE BY SIDE",
@@ -3574,7 +3575,7 @@
      },
      {
       "start": 7358.6,
-      "end": 7525,
+      "end": 7531.0,
       "kind": "battle",
       "guest": "TOMMY LEMAIRE VS MATT FIELD",
       "topic": "THE CORVETTE OMT, SIDE BY SIDE",
@@ -3588,7 +3589,7 @@
      },
      {
       "start": 7761.0,
-      "end": 8750,
+      "end": 8756.0,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS ROME CHARPENTIER",
       "topic": "JACK VS RCP, SIDE BY SIDE",
@@ -3602,7 +3603,7 @@
      },
      {
       "start": 8011.0,
-      "end": 8554,
+      "end": 8560.0,
       "kind": "battle",
       "guest": "ADAM LZ VS RYAN LITTERAL",
       "topic": "LZ VS LITTERAL, SIDE BY SIDE",
@@ -3616,7 +3617,7 @@
      },
      {
       "start": 8883.8,
-      "end": 9057,
+      "end": 9063.0,
       "kind": "battle",
       "guest": "JAMES DEANE VS FREDRIC AASBØ",
       "topic": "DEANE VS AASBØ, SIDE BY SIDE",
@@ -3630,7 +3631,7 @@
      },
      {
       "start": 9273.0,
-      "end": 9444,
+      "end": 9450.0,
       "kind": "battle",
       "guest": "MATT FIELD VS SIMEN OLSEN",
       "topic": "FIELD VS OLSEN, SIDE BY SIDE",
@@ -3644,7 +3645,7 @@
      },
      {
       "start": 9836.6,
-      "end": 10030,
+      "end": 10036.0,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS ADAM LZ",
       "topic": "JACK VS LZ, SIDE BY SIDE",
@@ -3658,7 +3659,7 @@
      },
      {
       "start": 11722.5,
-      "end": 11900,
+      "end": 11906.0,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS JAMES DEANE",
       "topic": "THE FINAL, SIDE BY SIDE",
@@ -4489,7 +4490,7 @@
      },
      {
       "start": 284.94,
-      "end": 325.54,
+      "end": 327.5,
       "kind": "omt",
       "guest": "HUGHES VS GITTIN JR",
       "topic": "ONE MORE TIME FOR VAUGHN",
@@ -4503,7 +4504,7 @@
      },
      {
       "start": 328.02,
-      "end": 373.36,
+      "end": 394.3,
       "kind": "battle",
       "guest": "TUERCK VS MASUYAMA",
       "topic": "TUERCK'S LAST BATTLE",
@@ -4545,7 +4546,7 @@
      },
      {
       "start": 620.48,
-      "end": 686.44,
+      "end": 706.7,
       "kind": "final",
       "guest": "SHANAHAN VS CASTRO",
       "topic": "SHANAHAN CROWNED CHAMPION",
@@ -4559,7 +4560,7 @@
      },
      {
       "start": 686.54,
-      "end": 730.18,
+      "end": 732.2,
       "kind": "battle",
       "guest": "JONES VS JACK SHANAHAN",
       "topic": "THAT WAS A HATE TAP",
@@ -4573,7 +4574,7 @@
      },
      {
       "start": 732.9,
-      "end": 779.02,
+      "end": 785.0,
       "kind": "battle",
       "guest": "CHARPENTIER VS GITTIN JR",
       "topic": "RCP TAKES OUT VAUGHN",
@@ -4587,7 +4588,7 @@
      },
      {
       "start": 837.16,
-      "end": 875.7,
+      "end": 881.7,
       "kind": "battle",
       "guest": "BURKETT VS AASBO",
       "topic": "AASBO JUST NEEDS AN ACTIVE CHASE",
@@ -4601,7 +4602,7 @@
      },
      {
       "start": 880.92,
-      "end": 926.48,
+      "end": 930.2,
       "kind": "battle",
       "guest": "SHANAHAN VS OLSEN",
       "topic": "OLSEN TAKES DOWN THE CHAMP",
@@ -4615,7 +4616,7 @@
      },
      {
       "start": 930.7,
-      "end": 966.18,
+      "end": 972.2,
       "kind": "battle",
       "guest": "FIELD VS LEMAIRE",
       "topic": "LEMAIRE INTO THE WALL",
@@ -4643,7 +4644,7 @@
      },
      {
       "start": 1004.94,
-      "end": 1060.76,
+      "end": 1062.8,
       "kind": "battle",
       "guest": "AASBO VS DEANE",
       "topic": "HAMMER VS MACHINE",
@@ -4657,7 +4658,7 @@
      },
      {
       "start": 1061.54,
-      "end": 1112.28,
+      "end": 1142.3,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS LZ",
       "topic": "JACK IS PRECISION",
@@ -4685,7 +4686,7 @@
      },
      {
       "start": 1240.72,
-      "end": 1290.66,
+      "end": 1296.7,
       "kind": "final",
       "guest": "JACK SHANAHAN VS DEANE",
       "topic": "JACK OVERCOOKS IT IN THE FINAL",
@@ -4699,7 +4700,7 @@
      },
      {
       "start": 1449.54,
-      "end": 1490.74,
+      "end": 1496.7,
       "kind": "final",
       "guest": "JAMES DEANE",
       "topic": "IRISH ONE TWO THREE",
@@ -4755,7 +4756,7 @@
      },
      {
       "start": 1199.0,
-      "end": 1270.6,
+      "end": 1275.3,
       "kind": "battle",
       "guest": "JACK SHANAHAN VS DEANE",
       "topic": "LONG BEACH FINAL",
@@ -4769,7 +4770,7 @@
      },
      {
       "start": 601.0,
-      "end": 678.0,
+      "end": 685.8,
       "kind": "battle",
       "guest": "SHANAHAN VS CASTRO",
       "topic": "THE TITLE BATTLE",
@@ -4804,7 +4805,7 @@
     "moments": [
      {
       "start": 1904.02,
-      "end": 1953.9,
+      "end": 1983.9,
       "kind": "omt",
       "guest": "HOBSON VS JONES",
       "topic": "HOBSON GREW A TAIL",
@@ -4818,7 +4819,7 @@
      },
      {
       "start": 5227.7,
-      "end": 5272.5,
+      "end": 5298.4,
       "kind": "battle",
       "guest": "DEANE VS HATELEY",
       "topic": "FAILURE TO LAUNCH",
@@ -4860,7 +4861,7 @@
      },
      {
       "start": 7795.66,
-      "end": 7865.32,
+      "end": 7871.3,
       "kind": "battle",
       "guest": "SHANAHAN VS CASTRO",
       "topic": "SHANAHAN LEADS FOR THE TITLE",
@@ -4874,7 +4875,7 @@
      },
      {
       "start": 7947.02,
-      "end": 8019.56,
+      "end": 8037.02,
       "kind": "battle",
       "guest": "CASTRO VS SHANAHAN",
       "topic": "WHY THEY CALL HIM THE SHADOW",
@@ -4958,7 +4959,7 @@
      },
      {
       "start": 9463.52,
-      "end": 9491.84,
+      "end": 9497.8,
       "kind": "battle",
       "guest": "RICHARDS VS LEMAIRE",
       "topic": "TOMMY MIRRORS COLE",
@@ -4972,7 +4973,7 @@
      },
      {
       "start": 7789,
-      "end": 7976,
+      "end": 7982.0,
       "kind": "battle",
       "guest": "CONOR SHANAHAN VS JHONNATTAN CASTRO",
       "topic": "THE TITLE BATTLE, SIDE BY SIDE",
@@ -4986,7 +4987,7 @@
      },
      {
       "start": 3287,
-      "end": 3480,
+      "end": 3510.0,
       "kind": "battle",
       "guest": "ADAM LZ VS DEREK MADISON",
       "topic": "ADAM LZ VS DEREK MADISON",
@@ -5000,7 +5001,7 @@
      },
      {
       "start": 9163,
-      "end": 9324,
+      "end": 9330.0,
       "kind": "battle",
       "guest": "MATT FIELD VS TRENTON BEECHUM",
       "topic": "FIELD VS BEECHUM",
@@ -5014,7 +5015,7 @@
      },
      {
       "start": 8941,
-      "end": 9496,
+      "end": 9526.0,
       "kind": "battle",
       "guest": "TOMMY LEMAIRE VS COLE RICHARDS",
       "topic": "LEMAIRE VS RICHARDS",
@@ -13277,6 +13278,223 @@
    "evergreen": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-1298fd1c600b-16",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The FD drivers' meeting where every driver had to raise a hand to prove they were listening.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 4924.31
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:29:29.193402+00:00",
+   "built": "2026-11-20T11:29:58.547189+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-1298fd1c600b-16__clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "short": null,
+   "title": "DRIVERS HAD TO RAISE THEIR HANDS",
+   "photo": null
+  },
+  {
+   "id": "pod-1298fd1c600b-12",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Said on The Outerzone: Chelsea DeNofa was close to a ProSpec comeback with other ex-pros, and teams have asked him to drive a few rounds.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftnews #chelseadenofa #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3914.96
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T21:29:22.646616+00:00",
+   "built": "2026-11-20T11:29:11.445476+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-1298fd1c600b-12__clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "short": null,
+   "title": "EX-PROS BACK IN PRO SPEC? TEAMS CALLING?",
+   "photo": null
+  },
+  {
+   "id": "pod-1298fd1c600b-8",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "audiogram: er was geen video",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 3180.34
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:27:15.482747+00:00",
+   "built": "2026-11-20T11:28:06.389134+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-8__clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "short": null,
+   "title": "HIS LAST LAP IN FD",
+   "photo": null
+  },
+  {
+   "id": "pod-1298fd1c600b-4",
+   "kind": "podcast_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @mattfield777 @jako13\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Chelsea DeNofa",
+    "start": 2417.18
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:26:39.497424+00:00",
+   "built": "2026-11-20T11:27:14.582416+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-1298fd1c600b-4__clip.mp4",
+   "tags": [
+    "@chelseadenofa",
+    "@formulad",
+    "@mattfield777",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "short": null,
+   "title": "MATT IS NOT TRYING TO BE A VILLAIN",
    "photo": null
   },
   {
@@ -50167,139 +50385,6 @@
    "photo": null
   },
   {
-   "id": "pod-1298fd1c600b-8",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #chelseadenofa #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-8__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3180.34
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:27:15.482747+00:00",
-   "built": "2026-11-16T21:56:41.533227+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-8__clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "plan": {},
-   "score": 43,
-   "captions": {
-    "instagram": "Chelsea Denofa | The Outerzone\n\nChelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#drift #chelseadenofa #formulad #formuladrift #sidewayswire",
-    "facebook": "Chelsea Denofa | The Outerzone\n\nChelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#drift #chelseadenofa #sidewayswire",
-    "tiktok": "Chelsea Denofa | The Outerzone: Chelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @chelseadenofa @formulad @jako13\n#drift #chelseadenofa #formulad #sidewayswire",
-    "youtube_title": "Chelsea Denofa | The Outerzone",
-    "youtube": "Chelsea DeNofa's final lap in Formula DRIFT, and why he parked the car 45 minutes early in practice.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #chelseadenofa #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "chelseadenofa"
-   ],
-   "people": [
-    "Chelsea Denofa"
-   ],
-   "moment_kind": "moment",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 23.4,
-   "thumb": "media/thumbs/pod-1298fd1c600b-8.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-1298fd1c600b-8.mp4",
-   "hook": null,
-   "evergreen": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-8__short.mp4",
-   "title": "HIS LAST LAP IN FD",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-4",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @mattfield777 @jako13\n\n#formulad #formuladrift #mattfield #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-1298fd1c600b-4__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 2417.18
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:26:39.497424+00:00",
-   "built": "2026-11-16T21:56:41.531837+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-1298fd1c600b-4__clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@mattfield777",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "plan": {},
-   "score": 39,
-   "captions": {
-    "instagram": "Chelsea Denofa | The Outerzone\n\nChelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @mattfield777 @jako13\n\n#drift #chelseadenofa #formulad #formuladrift #sidewayswire",
-    "facebook": "Chelsea Denofa | The Outerzone\n\nChelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @mattfield777 @jako13\n\n#drift #chelseadenofa #sidewayswire",
-    "tiktok": "Chelsea Denofa | The Outerzone: Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @chelseadenofa @formulad @mattfield777 @jako13\n#drift #chelseadenofa #formulad #sidewayswire",
-    "youtube_title": "Chelsea Denofa | The Outerzone",
-    "youtube": "Chelsea DeNofa on why some fans see Matt Field as the villain, and why he thinks they are wrong.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @mattfield777 @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #chelseadenofa #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "chelseadenofa"
-   ],
-   "people": [
-    "Chelsea Denofa"
-   ],
-   "moment_kind": "quote",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 20.5,
-   "thumb": "media/thumbs/pod-1298fd1c600b-4.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-1298fd1c600b-4.mp4",
-   "hook": null,
-   "evergreen": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-1298fd1c600b-4__short.mp4",
-   "title": "MATT IS NOT TRYING TO BE A VILLAIN",
-   "photo": null
-  },
-  {
    "id": "pod-1298fd1c600b-26",
    "kind": "podcast_clip",
    "status": "check",
@@ -50749,118 +50834,6 @@
    "evergreen": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-1298fd1c600b-17__short.mp4",
    "title": "THE MILLION DOLLAR ROAD TO FD",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-16",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The FD drivers' meeting where every driver had to raise a hand to prove they were listening.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftjudging #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-1298fd1c600b-16__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 4924.31
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:29:29.193402+00:00",
-   "built": "2026-11-16T21:56:41.519688+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-1298fd1c600b-16__clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 26.9,
-   "thumb": "media/thumbs/pod-1298fd1c600b-16.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-1298fd1c600b-16.mp4",
-   "hook": null,
-   "evergreen": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-1298fd1c600b-16__short.mp4",
-   "title": "DRIVERS HAD TO RAISE THEIR HANDS",
-   "photo": null
-  },
-  {
-   "id": "pod-1298fd1c600b-12",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Said on The Outerzone: Chelsea DeNofa was close to a ProSpec comeback with other ex-pros, and teams have asked him to drive a few rounds.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@chelseadenofa @formulad @jako13\n\n#formulad #formuladrift #driftnews #chelseadenofa #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-1298fd1c600b-12__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Chelsea DeNofa",
-    "start": 3914.96
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T21:29:22.646616+00:00",
-   "built": "2026-11-16T21:56:41.507560+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-1298fd1c600b-12__clip.mp4",
-   "tags": [
-    "@chelseadenofa",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-1298fd1c600b-12.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-1298fd1c600b-12.mp4",
-   "hook": null,
-   "evergreen": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-1298fd1c600b-12__short.mp4",
-   "title": "EX-PROS BACK IN PRO SPEC? TEAMS CALLING?",
    "photo": null
   }
  ],

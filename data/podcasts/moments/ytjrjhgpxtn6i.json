@@ -1,7 +1,7 @@
 [
  {
   "start": 246.2,
-  "end": 272.24,
+  "end": 302.2,
   "kind": "battle",
   "guest": "FARRELL VS LEONARD",
   "topic": "DUSTIN DUSTING THE COURSE",
@@ -28,11 +28,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 264.66, \"start\": 262.8, \"text\": \"DID HE JUST LEAVE THE TRACK?\", \"why\": \"woordgrap op de naam\"}",
-  "made": "2026-11-19T13:52:42.749490+00:00"
+  "made": "2026-11-19T13:52:42.749490+00:00",
+  "run_end": 272.24,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 276.96,
-  "end": 302.08,
+  "end": 310.3,
   "kind": "battle",
   "guest": "JOHNSON VS CHRISTIAN",
   "topic": "MARINATED LIKE A BRISKET",
@@ -58,11 +61,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 296.74, \"start\": 293.92, \"text\": \"LOST IN THE SMOKE?\", \"why\": \"brisket-grap\"}",
-  "made": "2026-11-19T13:53:55.159733+00:00"
+  "made": "2026-11-19T13:53:55.159733+00:00",
+  "run_end": 302.08,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 305.92,
-  "end": 339.6,
+  "end": 355.2,
   "kind": "battle",
   "guest": "BOOTH VS TLASKA",
   "topic": "TLASKA GRASPING AT STRAWS",
@@ -89,11 +95,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 319.84, \"start\": 318.18, \"text\": \"CAN THE ATLANTA WINNER KEEP UP?\", \"why\": \"druk op Tlaska\"}",
-  "made": "2026-11-19T13:55:10.071888+00:00"
+  "made": "2026-11-19T13:55:10.071888+00:00",
+  "run_end": 339.6,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 366.74,
-  "end": 400.54,
+  "end": 406.5,
   "kind": "battle",
   "guest": "CAMERON VS AMANDA SORENSEN",
   "topic": "BROTHER VS SISTER",
@@ -118,11 +127,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 376.68, \"start\": 374.62, \"text\": \"BROTHER VS SISTER, WHO WINS?\", \"why\": \"familieduel\"}",
-  "made": "2026-11-19T13:56:31.782858+00:00"
+  "made": "2026-11-19T13:56:31.782858+00:00",
+  "run_end": 400.54,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 474.32,
-  "end": 521.82,
+  "end": 527.8,
   "kind": "battle",
   "guest": "SORENSEN VS WEBB",
   "topic": "14 YEARS OLD AND UNSHAKEN",
@@ -147,6 +159,9 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 514.98, \"start\": 511.12, \"text\": \"CAN A 14 YEAR OLD HOLD THIS?\", \"why\": \"contact en redding\"}",
-  "made": "2026-11-19T13:58:17.324658+00:00"
+  "made": "2026-11-19T13:58:17.324658+00:00",
+  "run_end": 521.82,
+  "result_done": 1,
+  "redo": true
  }
 ]

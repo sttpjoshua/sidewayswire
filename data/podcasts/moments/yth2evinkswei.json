@@ -1,7 +1,7 @@
 [
  {
   "start": 12.58,
-  "end": 49.28,
+  "end": 55.3,
   "kind": "battle",
   "guest": "LITTERAL VS DEANE",
   "topic": "CONTACT IN DEANE'S FIRST BATTLE",
@@ -26,11 +26,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 32.6, \"start\": 30.72, \"text\": \"DID THE MACHINE JUST MESS UP?\", \"why\": \"ongewoon voor Deane\"}",
-  "made": "2026-11-19T08:40:34.043531+00:00"
+  "made": "2026-11-19T08:40:34.043531+00:00",
+  "run_end": 49.28,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 79.3,
-  "end": 132.62,
+  "end": 138.6,
   "kind": "battle",
   "guest": "DEANE VS BEECHUM",
   "topic": "DEANE TAKES A DIFFERENT APPROACH",
@@ -57,11 +60,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 105.92, \"start\": 103.22, \"text\": \"CAN ANYONE BEAT THIS?\", \"why\": \"dominantie\"}",
-  "made": "2026-11-19T08:42:56.053379+00:00"
+  "made": "2026-11-19T08:42:56.053379+00:00",
+  "run_end": 132.62,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 148.38,
-  "end": 199.62,
+  "end": 205.6,
   "kind": "battle",
   "guest": "DEANE VS SHANAHAN",
   "topic": "SINKING IN THE SWORD",
@@ -86,11 +92,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 189.04, \"start\": 187.2, \"text\": \"BRAGGING RIGHTS AT THE PUB?\", \"why\": \"Ierse rivaliteit\"}",
-  "made": "2026-11-19T08:44:58.309004+00:00"
+  "made": "2026-11-19T08:44:58.309004+00:00",
+  "run_end": 199.62,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 272.04,
-  "end": 322.54,
+  "end": 328.5,
   "kind": "omt",
   "guest": "DEANE VS AASBO",
   "topic": "ONE MORE TIME IN LONG BEACH",
@@ -115,11 +124,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 300.8, \"start\": 297.66, \"text\": \"WHO BLINKS IN THE OMT?\", \"why\": \"strijders\"}",
-  "made": "2026-11-19T08:47:00.629189+00:00"
+  "made": "2026-11-19T08:47:00.629189+00:00",
+  "run_end": 322.54,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 324.72,
-  "end": 388.02,
+  "end": 394.0,
   "kind": "battle",
   "guest": "DEANE VS GITTIN JR",
   "topic": "NO TEAM ORDERS",
@@ -144,7 +156,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 328.76, \"start\": 327.06, \"text\": \"WILL THE BOSS LET HIM WIN?\", \"why\": \"teamgenoten\"}",
-  "made": "2026-11-19T08:49:29.020990+00:00"
+  "made": "2026-11-19T08:49:29.020990+00:00",
+  "run_end": 388.02,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 389.92,
@@ -177,7 +192,7 @@
  },
  {
   "start": 424.58,
-  "end": 468.06,
+  "end": 474.1,
   "kind": "battle",
   "guest": "JONES VS DEANE",
   "topic": "SHOWBOATING IN THE WET",
@@ -202,11 +217,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 434.66, \"start\": 433.06, \"text\": \"WHO DRIVES BEST IN THE RAIN?\", \"why\": \"regen\"}",
-  "made": "2026-11-19T08:52:20.939067+00:00"
+  "made": "2026-11-19T08:52:20.939067+00:00",
+  "run_end": 468.06,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 553.74,
-  "end": 590.44,
+  "end": 596.4,
   "kind": "battle",
   "guest": "DEANE VS FIELD",
   "topic": "FIELD REELS HIM IN",
@@ -231,11 +249,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 574.86, \"start\": 573.24, \"text\": \"DID DEANE GIVE TOO MUCH ROOM?\", \"why\": \"vis-vergelijking\"}",
-  "made": "2026-11-19T08:53:50.065250+00:00"
+  "made": "2026-11-19T08:53:50.065250+00:00",
+  "run_end": 590.44,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 637.7,
-  "end": 681.34,
+  "end": 683.3,
   "kind": "battle",
   "guest": "CASTRO VS DEANE",
   "topic": "DEANE BASHES THE DOOR",
@@ -260,11 +281,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 665.1, \"start\": 663.36, \"text\": \"TOO AGGRESSIVE FROM THE CHAMP?\", \"why\": \"deurcontact\"}",
-  "made": "2026-11-19T08:55:30.825686+00:00"
+  "made": "2026-11-19T08:55:30.825686+00:00",
+  "run_end": 681.34,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 681.7,
-  "end": 727.18,
+  "end": 731.7,
   "kind": "omt",
   "guest": "DEANE VS CASTRO",
   "topic": "CASTRO SPINS IN THE OMT",
@@ -289,11 +313,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 701.52, \"start\": 699.8, \"text\": \"WHO CRACKS IN THE REMATCH?\", \"why\": \"de spin\"}",
-  "made": "2026-11-19T08:57:18.156538+00:00"
+  "made": "2026-11-19T08:57:18.156538+00:00",
+  "run_end": 727.18,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 727.18,
-  "end": 776.48,
+  "end": 782.5,
   "kind": "omt",
   "guest": "CASTRO VS DEANE",
   "topic": "TWO MORE TIMES",
@@ -318,11 +345,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 760.84, \"start\": 758.62, \"text\": \"CAN CASTRO FORCE AN ERROR?\", \"why\": \"fout Deane\"}",
-  "made": "2026-11-19T08:59:09.463007+00:00"
+  "made": "2026-11-19T08:59:09.463007+00:00",
+  "run_end": 776.48,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 777.76,
-  "end": 835.88,
+  "end": 841.9,
   "kind": "battle",
   "guest": "AASBO VS DEANE",
   "topic": "RAIN BATTLE AT ROAD ATLANTA",
@@ -347,11 +377,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 816.02, \"start\": 813.78, \"text\": \"WHO MAKES THE FIRST MISTAKE?\", \"why\": \"dirt\"}",
-  "made": "2026-11-19T09:01:16.929199+00:00"
+  "made": "2026-11-19T09:01:16.929199+00:00",
+  "run_end": 835.88,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 835.98,
-  "end": 885.68,
+  "end": 893.6,
   "kind": "battle",
   "guest": "DEANE VS AASBO",
   "topic": "A HARD ACT TO FOLLOW",
@@ -376,11 +409,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 883.06, \"start\": 881.3, \"text\": \"WHO REIGNS IN THE RAIN?\", \"why\": \"spanning\"}",
-  "made": "2026-11-19T09:03:06.399534+00:00"
+  "made": "2026-11-19T09:03:06.399534+00:00",
+  "run_end": 885.68,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 890.42,
-  "end": 936.94,
+  "end": 942.9,
   "kind": "omt",
   "guest": "AASBO VS DEANE",
   "topic": "ONE MORE TIME IN THE RAIN",
@@ -405,11 +441,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 906.12, \"start\": 903.94, \"text\": \"CAN THE JUDGES PICK ONE?\", \"why\": \"duel\"}",
-  "made": "2026-11-19T09:05:08.399823+00:00"
+  "made": "2026-11-19T09:05:08.399823+00:00",
+  "run_end": 936.94,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 940.88,
-  "end": 990.14,
+  "end": 1003.9,
   "kind": "omt",
   "guest": "DEANE VS AASBO",
   "topic": "MUSTANG IN A BOX",
@@ -434,11 +473,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 963.74, \"start\": 962.12, \"text\": \"STILL NO WINNER?\", \"why\": \"grappige regel\"}",
-  "made": "2026-11-19T09:07:02.843112+00:00"
+  "made": "2026-11-19T09:07:02.843112+00:00",
+  "run_end": 990.14,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1034.8,
-  "end": 1089.84,
+  "end": 1110.3,
   "kind": "final",
   "guest": "DEANE VS AASBO",
   "topic": "THIRD BATTLE IN THE RAIN",
@@ -463,11 +505,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1077.1, \"start\": 1075.36, \"text\": \"WHO TAKES ROAD ATLANTA?\", \"why\": \"finale\"}",
-  "made": "2026-11-19T09:09:00.426991+00:00"
+  "made": "2026-11-19T09:09:00.426991+00:00",
+  "run_end": 1089.84,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1141.52,
-  "end": 1179.3,
+  "end": 1209.3,
   "kind": "battle",
   "guest": "DEANE VS AUSTIN",
   "topic": "A FIST BUMP FOR HIMSELF",
@@ -493,7 +538,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1170.9, \"start\": 1168.9, \"text\": \"WHY THE FIST BUMP?\", \"why\": \"leuk moment\"}",
-  "made": "2026-11-19T09:10:35.885233+00:00"
+  "made": "2026-11-19T09:10:35.885233+00:00",
+  "run_end": 1179.3,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1196.42,
@@ -526,7 +574,7 @@
  },
  {
   "start": 1248.3,
-  "end": 1305.86,
+  "end": 1311.9,
   "kind": "battle",
   "guest": "DEANE VS NOBACK",
   "topic": "NOBACK TOO AGGRESSIVE",
@@ -551,7 +599,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1284.28, \"start\": 1282.4, \"text\": \"TOO AGGRESSIVE AGAINST THE CHAMP?\", \"why\": \"agressie\"}",
-  "made": "2026-11-19T11:41:58.344467+00:00"
+  "made": "2026-11-19T11:41:58.344467+00:00",
+  "run_end": 1305.86,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1314.32,
@@ -584,7 +635,7 @@
  },
  {
   "start": 1376.8,
-  "end": 1443.68,
+  "end": 1449.7,
   "kind": "battle",
   "guest": "MINOWA VS DEANE",
   "topic": "15 AND NOT SCARED",
@@ -609,11 +660,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1431.2, \"start\": 1429.44, \"text\": \"CAN A 15 YEAR OLD WIN?\", \"why\": \"jonge rijder\"}",
-  "made": "2026-11-19T11:46:36.172829+00:00"
+  "made": "2026-11-19T11:46:36.172829+00:00",
+  "run_end": 1443.68,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1482.92,
-  "end": 1531.06,
+  "end": 1537.1,
   "kind": "battle",
   "guest": "AASBO VS DEANE",
   "topic": "DEANE LOOPS IT OUT",
@@ -638,11 +692,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1517.42, \"start\": 1515.74, \"text\": \"DID HE JUST LOSE IT?\", \"why\": \"bijna spin\"}",
-  "made": "2026-11-19T11:49:41.793670+00:00"
+  "made": "2026-11-19T11:49:41.793670+00:00",
+  "run_end": 1531.06,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1616.52,
-  "end": 1664.92,
+  "end": 1670.9,
   "kind": "battle",
   "guest": "LZ VS DEANE",
   "topic": "90 DEGREES AND STILL ON",
@@ -667,11 +724,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1641.26, \"start\": 1639.12, \"text\": \"HOW DID THIS NOT SPIN?\", \"why\": \"extreme hoek\"}",
-  "made": "2026-11-19T11:51:33.649348+00:00"
+  "made": "2026-11-19T11:51:33.649348+00:00",
+  "run_end": 1664.92,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1665.1,
-  "end": 1710.58,
+  "end": 1716.6,
   "kind": "battle",
   "guest": "DEANE VS SCERIFFO",
   "topic": "GODZILLA VS KING KONG",
@@ -696,11 +756,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1678.0, \"start\": 1675.86, \"text\": \"WHO IS KING KONG?\", \"why\": \"vergelijking\"}",
-  "made": "2026-11-19T11:53:14.997555+00:00"
+  "made": "2026-11-19T11:53:14.997555+00:00",
+  "run_end": 1710.58,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1775.28,
-  "end": 1816.6,
+  "end": 1822.6,
   "kind": "battle",
   "guest": "TUERCK VS DEANE",
   "topic": "DEANE BATTLING BRAKE ISSUES",
@@ -727,11 +790,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1811.9, \"start\": 1810.16, \"text\": \"WHAT WAS WRONG WITH THE CAR?\", \"why\": \"pech\"}",
-  "made": "2026-11-19T11:54:43.478202+00:00"
+  "made": "2026-11-19T11:54:43.478202+00:00",
+  "run_end": 1816.6,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1859.68,
-  "end": 1895.4,
+  "end": 1897.7,
   "kind": "battle",
   "guest": "CHARPENTIER VS DEANE",
   "topic": "BODY PANEL IN THE FACE",
@@ -756,11 +822,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1886.8, \"start\": 1885.12, \"text\": \"WHAT JUST FLEW OFF?\", \"why\": \"losse onderdelen\"}",
-  "made": "2026-11-19T11:56:17.387592+00:00"
+  "made": "2026-11-19T11:56:17.387592+00:00",
+  "run_end": 1895.4,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1895.4,
-  "end": 1955.26,
+  "end": 1985.3,
   "kind": "battle",
   "guest": "AASBO VS DEANE",
   "topic": "LIKE A BALLERINA",
@@ -785,11 +854,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1954.04, \"start\": 1951.88, \"text\": \"WHO HOLDS THE POINTS LEAD?\", \"why\": \"de spin\"}",
-  "made": "2026-11-19T11:58:34.785628+00:00"
+  "made": "2026-11-19T11:58:34.785628+00:00",
+  "run_end": 1955.26,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1955.54,
-  "end": 2008.78,
+  "end": 2014.8,
   "kind": "final",
   "guest": "DEANE VS JACK SHANAHAN",
   "topic": "ROOKIE JACK IN THE FINAL",
@@ -814,11 +886,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1970.1, \"start\": 1968.34, \"text\": \"WHICH IRISHMAN WINS?\", \"why\": \"finale\"}",
-  "made": "2026-11-19T12:00:38.498625+00:00"
+  "made": "2026-11-19T12:00:38.498625+00:00",
+  "run_end": 2008.78,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2077.7,
-  "end": 2140.9,
+  "end": 2152.7,
   "kind": "battle",
   "guest": "DEANE VS SORENSEN",
   "topic": "A LITTLE HATE TAP",
@@ -843,11 +918,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2134.66, \"start\": 2133.0, \"text\": \"LOVE TAP OR HATE TAP?\", \"why\": \"grappige regel\"}",
-  "made": "2026-11-19T12:02:59.691340+00:00"
+  "made": "2026-11-19T12:02:59.691340+00:00",
+  "run_end": 2140.9,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2143.26,
-  "end": 2203.6,
+  "end": 2211.0,
   "kind": "battle",
   "guest": "DEANE VS MASUYAMA",
   "topic": "LIKE A STILL PHOTO",
@@ -872,11 +950,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2184.46, \"start\": 2182.4, \"text\": \"IS THIS A PHOTO OR VIDEO?\", \"why\": \"mooie beelden\"}",
-  "made": "2026-11-19T12:05:33.607618+00:00"
+  "made": "2026-11-19T12:05:33.607618+00:00",
+  "run_end": 2203.6,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2237.76,
-  "end": 2285.1,
+  "end": 2291.1,
   "kind": "final",
   "guest": "FIELD VS DEANE",
   "topic": "FIELD GOES OFF IN THE FINAL",
@@ -901,11 +982,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2272.14, \"start\": 2270.42, \"text\": \"WHAT HAPPENED IN THE FINAL?\", \"why\": \"beslissende fout\"}",
-  "made": "2026-11-19T12:06:57.466030+00:00"
+  "made": "2026-11-19T12:06:57.466030+00:00",
+  "run_end": 2285.1,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2290.62,
-  "end": 2348.74,
+  "end": 2377.3,
   "kind": "battle",
   "guest": "DEANE VS HATELEY",
   "topic": "DRIFT WIZARD PUSHED TOO HARD",
@@ -930,11 +1014,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2326.64, \"start\": 2324.8, \"text\": \"CAN THE WIZARD BEAT THE MACHINE?\", \"why\": \"fout\"}",
-  "made": "2026-11-19T12:09:06.652582+00:00"
+  "made": "2026-11-19T12:09:06.652582+00:00",
+  "run_end": 2348.74,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2349.24,
-  "end": 2409.12,
+  "end": 2421.8,
   "kind": "battle",
   "guest": "DEANE VS NOBACK",
   "topic": "THE GIANT KILLER",
@@ -959,11 +1046,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2357.56, \"start\": 2355.82, \"text\": \"CAN THE GIANT KILLER STRIKE AGAIN?\", \"why\": \"spanning\"}",
-  "made": "2026-11-19T12:11:16.396332+00:00"
+  "made": "2026-11-19T12:11:16.396332+00:00",
+  "run_end": 2409.12,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2492.78,
-  "end": 2529.14,
+  "end": 2559.1,
   "kind": "battle",
   "guest": "FORSBERG VS DEANE",
   "topic": "FORSBERG THROWS A DEUCE",
@@ -988,7 +1078,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2525.3, \"start\": 2523.36, \"text\": \"WHAT DID FORSBERG JUST DO?\", \"why\": \"gebaar\"}",
-  "made": "2026-11-19T12:12:57.349521+00:00"
+  "made": "2026-11-19T12:12:57.349521+00:00",
+  "run_end": 2529.14,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2532.26,
@@ -1021,7 +1114,7 @@
  },
  {
   "start": 2606.68,
-  "end": 2673.5,
+  "end": 2679.5,
   "kind": "final",
   "guest": "FIELD VS DEANE",
   "topic": "DOMINANT IN UTAH",
@@ -1046,11 +1139,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2638.14, \"start\": 2635.46, \"text\": \"CAN ANYONE STOP HIM IN 2025?\", \"why\": \"dominantie\"}",
-  "made": "2026-11-19T12:18:02.774820+00:00"
+  "made": "2026-11-19T12:18:02.774820+00:00",
+  "run_end": 2673.5,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2678.1,
-  "end": 2734.62,
+  "end": 2740.6,
   "kind": "battle",
   "guest": "DEANE VS HANSEN",
   "topic": "A MUSTANG IN A BOX",
@@ -1075,11 +1171,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2706.36, \"start\": 2704.64, \"text\": \"WHAT IS IN THE BOX?\", \"why\": \"grappige regel\"}",
-  "made": "2026-11-19T12:20:04.712510+00:00"
+  "made": "2026-11-19T12:20:04.712510+00:00",
+  "run_end": 2734.62,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2788.72,
-  "end": 2826.72,
+  "end": 2832.7,
   "kind": "battle",
   "guest": "LEMAIRE VS DEANE",
   "topic": "IS THE CHAMP TAKEN OUT?",
@@ -1106,7 +1205,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 2820.4, \"start\": 2816.48, \"text\": \"IS THE CHAMP OUT?\", \"why\": \"spanning\"}",
-  "made": "2026-11-19T12:21:50.345268+00:00"
+  "made": "2026-11-19T12:21:50.345268+00:00",
+  "run_end": 2826.72,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 2985.26,
@@ -1139,7 +1241,7 @@
  },
  {
   "start": 152.0,
-  "end": 197.3,
+  "end": 203.3,
   "kind": "battle",
   "guest": "DEANE VS SHANAHAN",
   "topic": "ALL IRISH BATTLE",
@@ -1160,7 +1262,11 @@
    "lead": [
     "JAMES DEANE",
     "CONOR SHANAHAN"
-   ]
+   ],
+   "result": {
+    "from": 197.3,
+    "to": 203.3
+   }
   },
   "why": "Split: beide runs van deane vs shanahan",
   "caption": "Lead vs lead, chase vs chase: James Deane and Conor Shanahan in 2025.\n\n#formulad #formuladrift #jamesdeane #drifting",
@@ -1176,11 +1282,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T12:25:54.937864+00:00"
+  "made": "2026-11-19T12:25:54.937864+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 512.2,
-  "end": 589.1,
+  "end": 595.1,
   "kind": "battle",
   "guest": "DEANE VS FIELD",
   "topic": "FIELD IN THE RAIN",
@@ -1201,7 +1309,11 @@
    "lead": [
     "JAMES DEANE",
     "MATT FIELD"
-   ]
+   ],
+   "result": {
+    "from": 589.1,
+    "to": 595.1
+   }
   },
   "why": "Split: beide runs van deane vs field",
   "caption": "Lead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\n#formulad #formuladrift #jamesdeane #drifting",
@@ -1217,11 +1329,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T12:28:49.733412+00:00"
+  "made": "2026-11-19T12:28:49.733412+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 595.3,
-  "end": 676.4,
+  "end": 682.8,
   "kind": "battle",
   "guest": "DEANE VS CASTRO",
   "topic": "DEANE VS CASTRO",
@@ -1242,7 +1356,11 @@
    "lead": [
     "JAMES DEANE",
     "JONATHAN CASTRO"
-   ]
+   ],
+   "result": {
+    "from": 676.4,
+    "to": 682.8
+   }
   },
   "why": "Split: beide runs van deane vs castro",
   "caption": "Lead vs lead, chase vs chase: James Deane and Jonathan Castro in 2025.\n\n#formulad #formuladrift #jamesdeane #drifting",
@@ -1258,11 +1376,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T12:32:12.595281+00:00"
+  "made": "2026-11-19T12:32:12.595281+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 791.5,
-  "end": 877.6,
+  "end": 893.6,
   "kind": "battle",
   "guest": "AASBO VS DEANE",
   "topic": "ROAD ATLANTA",
@@ -1283,7 +1403,11 @@
    "lead": [
     "FREDRIC AASBO",
     "JAMES DEANE"
-   ]
+   ],
+   "result": {
+    "from": 877.6,
+    "to": 893.6
+   }
   },
   "why": "Split: beide runs van aasbo vs deane",
   "caption": "Lead vs lead, chase vs chase: Fredric Aasbø and James Deane in 2025.\n\n#formulad #formuladrift #jamesdeane #drifting",
@@ -1299,6 +1423,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T12:35:33.487375+00:00"
+  "made": "2026-11-19T12:35:33.487375+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]

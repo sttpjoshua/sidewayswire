@@ -1,7 +1,7 @@
 [
  {
   "start": 90.3,
-  "end": 134.86,
+  "end": 139.1,
   "kind": "battle",
   "guest": "SHULMAN VS WILLS",
   "topic": "WILLS WINS THE SEEDING FINAL",
@@ -28,7 +28,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 134.86, \"start\": 132.14, \"text\": \"WHO WINS THE SEEDING FINAL?\", \"why\": \"uitslag\"}",
-  "made": "2026-11-19T07:14:32.845525+00:00"
+  "made": "2026-11-19T07:14:32.845525+00:00",
+  "run_end": 134.86,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 137.6,
@@ -116,7 +119,7 @@
  },
  {
   "start": 256.13,
-  "end": 294.31,
+  "end": 300.3,
   "kind": "omt",
   "guest": "JOHNSON VS LONS",
   "topic": "JOHNSON MAJOR MISTAKE IN OMT",
@@ -143,7 +146,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 294.31, \"start\": 292.01, \"text\": \"WHO CRACKS IN THE OMT?\", \"why\": \"de fout\"}",
-  "made": "2026-11-19T07:20:18.859089+00:00"
+  "made": "2026-11-19T07:20:18.859089+00:00",
+  "run_end": 294.31,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 360.31,
@@ -178,7 +184,7 @@
  },
  {
   "start": 397.17,
-  "end": 446.97,
+  "end": 453.0,
   "kind": "omt",
   "guest": "CAMERON SORENSEN VS LONS",
   "topic": "GOOSEBUMPS FOR TWO YOUNG GUNS",
@@ -205,11 +211,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 434.07, \"start\": 432.43, \"text\": \"TOO CLOSE TO CALL?\", \"why\": \"kippenvel\"}",
-  "made": "2026-11-19T07:23:22.353439+00:00"
+  "made": "2026-11-19T07:23:22.353439+00:00",
+  "run_end": 446.97,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 448.31,
-  "end": 494.39,
+  "end": 524.4,
   "kind": "battle",
   "guest": "TLASKA VS HEISHMAN",
   "topic": "HEISHMAN GIVES IT THE HORNS",
@@ -235,11 +244,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 476.59, \"start\": 474.75, \"text\": \"BMW VS MUSTANG, WHO WINS?\", \"why\": \"deurcontact\"}",
-  "made": "2026-11-19T07:25:02.177559+00:00"
+  "made": "2026-11-19T07:25:02.177559+00:00",
+  "run_end": 494.39,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 501.35,
-  "end": 541.07,
+  "end": 547.1,
   "kind": "omt",
   "guest": "BRUTSKIY VS FARRELL",
   "topic": "FARRELL TRUST FALLS TO THE DOOR",
@@ -264,11 +276,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 529.89, \"start\": 526.17, \"text\": \"HOW CLOSE CAN YOU GET?\", \"why\": \"proximity\"}",
-  "made": "2026-11-19T07:26:45.895985+00:00"
+  "made": "2026-11-19T07:26:45.895985+00:00",
+  "run_end": 541.07,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 541.07,
-  "end": 595.29,
+  "end": 611.0,
   "kind": "battle",
   "guest": "LONS VS HEISHMAN",
   "topic": "LONS IS ON A TEAR",
@@ -294,11 +309,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 550.43, \"start\": 548.71, \"text\": \"HORNS OR A TROPHY?\", \"why\": \"leuke regel\"}",
-  "made": "2026-11-19T07:28:42.536866+00:00"
+  "made": "2026-11-19T07:28:42.536866+00:00",
+  "run_end": 595.29,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 680.97,
-  "end": 721.77,
+  "end": 727.8,
   "kind": "final",
   "guest": "BRADEN LONS",
   "topic": "16 YEAR OLD WINS IN VEGAS",
@@ -326,11 +344,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 706.25, \"start\": 704.11, \"text\": \"WHO WON IN VEGAS?\", \"why\": \"winnaar\"}",
-  "made": "2026-11-19T07:30:09.682313+00:00"
+  "made": "2026-11-19T07:30:09.682313+00:00",
+  "run_end": 721.77,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 759.47,
-  "end": 788.13,
+  "end": 818.1,
   "kind": "battle",
   "guest": "RICHARDS VS O'SULLIVAN",
   "topic": "COLE RICHARDS AT 110 PERCENT",
@@ -355,11 +376,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 762.03, \"start\": 760.33, \"text\": \"CAN ANYONE SLOW THIS ROOKIE?\", \"why\": \"lof\"}",
-  "made": "2026-11-19T07:31:19.933310+00:00"
+  "made": "2026-11-19T07:31:19.933310+00:00",
+  "run_end": 788.13,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 805.41,
-  "end": 859.71,
+  "end": 865.7,
   "kind": "battle",
   "guest": "BURKETT VS OLSEN",
   "topic": "DAN TAKES ONE ON THE CHIN",
@@ -384,7 +408,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 823.61, \"start\": 821.13, \"text\": \"CONTACT, BUT WHO WINS?\", \"why\": \"contact\"}",
-  "made": "2026-11-19T07:33:30.740777+00:00"
+  "made": "2026-11-19T07:33:30.740777+00:00",
+  "run_end": 859.71,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 895.59,
@@ -419,7 +446,7 @@
  },
  {
   "start": 948.43,
-  "end": 991.57,
+  "end": 997.6,
   "kind": "battle",
   "guest": "CHARPENTIER VS SHANAHAN",
   "topic": "SHANAHAN ALMOST PERFECT",
@@ -444,11 +471,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 980.11, \"start\": 976.79, \"text\": \"IS HE ALMOST PERFECT?\", \"why\": \"lof\"}",
-  "made": "2026-11-19T07:37:02.424697+00:00"
+  "made": "2026-11-19T07:37:02.424697+00:00",
+  "run_end": 991.57,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 992.19,
-  "end": 1021.97,
+  "end": 1028.0,
   "kind": "battle",
   "guest": "HOBSON VS LZ",
   "topic": "SPARKS AND A DOOR BANG",
@@ -473,7 +503,10 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1016.73, \"start\": 1014.93, \"text\": \"DID THAT HURT THE CAR?\", \"why\": \"contact\"}",
-  "made": "2026-11-19T07:38:15.017185+00:00"
+  "made": "2026-11-19T07:38:15.017185+00:00",
+  "run_end": 1021.97,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1062.07,
@@ -506,7 +539,7 @@
  },
  {
   "start": 1119.65,
-  "end": 1159.35,
+  "end": 1161.3,
   "kind": "battle",
   "guest": "FIELD VS LEMAIRE",
   "topic": "TWIN CORVETTES",
@@ -533,11 +566,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1149.05, \"start\": 1146.79, \"text\": \"AMERICA OR CANADA?\", \"why\": \"mooie matchup\"}",
-  "made": "2026-11-19T07:41:41.304182+00:00"
+  "made": "2026-11-19T07:41:41.304182+00:00",
+  "run_end": 1159.35,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1160.21,
-  "end": 1198.81,
+  "end": 1200.8,
   "kind": "battle",
   "guest": "SORENSEN VS RICHARDS",
   "topic": "SORENSEN PERFECTLY TIMED",
@@ -562,11 +598,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1187.85, \"start\": 1185.33, \"text\": \"CAN THE LOCAL HERO DELIVER?\", \"why\": \"timing\"}",
-  "made": "2026-11-19T07:43:11.067775+00:00"
+  "made": "2026-11-19T07:43:11.067775+00:00",
+  "run_end": 1198.81,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1199.55,
-  "end": 1263.27,
+  "end": 1289.55,
   "kind": "battle",
   "guest": "SHANAHAN VS LZ",
   "topic": "PRESSURE DOESN'T GET TO HIM",
@@ -591,11 +630,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1247.89, \"start\": 1246.19, \"text\": \"DOES HE EVEN FEEL PRESSURE?\", \"why\": \"lof\"}",
-  "made": "2026-11-19T07:45:32.501564+00:00"
+  "made": "2026-11-19T07:45:32.501564+00:00",
+  "run_end": 1263.27,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1338.67,
-  "end": 1379.57,
+  "end": 1385.6,
   "kind": "battle",
   "guest": "FORSBERG VS JACK SHANAHAN",
   "topic": "JACK GRINDS ON FORSBERG",
@@ -620,11 +662,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1379.57, \"start\": 1377.37, \"text\": \"WHO WINS, CHAMP OR SHANAHAN?\", \"why\": \"uitslag\"}",
-  "made": "2026-11-19T07:47:15.846538+00:00"
+  "made": "2026-11-19T07:47:15.846538+00:00",
+  "run_end": 1379.57,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1424.17,
-  "end": 1461.37,
+  "end": 1463.4,
   "kind": "battle",
   "guest": "JACK VS CONOR SHANAHAN",
   "topic": "SHANAHAN ON SHANAHAN CRIME",
@@ -649,11 +694,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1453.87, \"start\": 1449.95, \"text\": \"WHICH BROTHER GOES THROUGH?\", \"why\": \"broers\"}",
-  "made": "2026-11-19T07:48:48.193534+00:00"
+  "made": "2026-11-19T07:48:48.193534+00:00",
+  "run_end": 1461.37,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1509.35,
-  "end": 1564.87,
+  "end": 1594.9,
   "kind": "final",
   "guest": "FIELD VS SHANAHAN",
   "topic": "HOW DID FIELD SEE THROUGH THAT?",
@@ -678,11 +726,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1521.47, \"start\": 1519.13, \"text\": \"WHO TAKES VEGAS?\", \"why\": \"spanning finale\"}",
-  "made": "2026-11-19T07:50:53.862973+00:00"
+  "made": "2026-11-19T07:50:53.862973+00:00",
+  "run_end": 1564.87,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1681.15,
-  "end": 1745.29,
+  "end": 1747.3,
   "kind": "final",
   "guest": "CONOR SHANAHAN",
   "topic": "47 POINT LEAD FOR SHANAHAN",
@@ -709,11 +760,14 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1698.91, \"start\": 1694.93, \"text\": \"IS THE TITLE ALREADY DECIDED?\", \"why\": \"winnaar\"}",
-  "made": "2026-11-19T07:53:11.793326+00:00"
+  "made": "2026-11-19T07:53:11.793326+00:00",
+  "run_end": 1745.29,
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1387.5,
-  "end": 1450.0,
+  "end": 1462.9,
   "kind": "battle",
   "guest": "CONOR VS JACK SHANAHAN",
   "topic": "SHANAHAN BROTHERS",
@@ -734,7 +788,11 @@
    "lead": [
     "CONOR SHANAHAN",
     "JACK SHANAHAN"
-   ]
+   ],
+   "result": {
+    "from": 1450.0,
+    "to": 1462.9
+   }
   },
   "why": "Split: broers Shanahan",
   "caption": "Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\n#formulad #formuladrift #drifting #lasvegas",
@@ -750,11 +808,13 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T07:56:15.299263+00:00"
+  "made": "2026-11-19T07:56:15.299263+00:00",
+  "result_done": 1,
+  "redo": true
  },
  {
   "start": 1465.3,
-  "end": 1541.5,
+  "end": 1553.5,
   "kind": "battle",
   "guest": "SHANAHAN VS FIELD",
   "topic": "LAS VEGAS FINAL",
@@ -775,7 +835,11 @@
    "lead": [
     "CONOR SHANAHAN",
     "MATT FIELD"
-   ]
+   ],
+   "result": {
+    "from": 1541.5,
+    "to": 1553.5
+   }
   },
   "why": "Split van de finale",
   "caption": "Lead vs lead, chase vs chase: the Las Vegas final between Conor Shanahan and Matt Field.\n\n#formulad #formuladrift #drifting #lasvegas",
@@ -791,6 +855,8 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-19T07:59:20.847599+00:00"
+  "made": "2026-11-19T07:59:20.847599+00:00",
+  "result_done": 1,
+  "redo": true
  }
 ]
