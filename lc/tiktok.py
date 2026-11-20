@@ -162,9 +162,11 @@ def _privacy(options: list[str]) -> str:
     raise RuntimeError(f"privacy {want} niet toegestaan door TikTok ({options})")
 
 
-def post_video(src: str, caption: str) -> str:
-    """Posts one video (file path or https url) straight to the profile. Returns the publish id."""
-    ci = info()
+def post_video(src: str, caption: str, draft: bool = False) -> str:
+    """Posts one video (file path or https url) straight to the profile. Returns the publish id.
+    draft=True: "Upload to TikTok" instead: the video lands in the creator's TikTok inbox as a draft and
+    Joshua posts it himself in the app (no caption or privacy via the API then)."""
+    ci = {} if draft else info()
     path = Path(src) if not str(src).startswith("http") else None
     with __import__("tempfile").TemporaryDirectory() as tmp:
         if path is None:
@@ -179,7 +181,8 @@ def post_video(src: str, caption: str) -> str:
         # one takes the rest (total_chunk_count = size // chunk_size, as TikTok asks).
         chunk = size if size <= CHUNK else CHUNK
         n = 1 if size <= CHUNK else size // chunk
-        d = _post("post/publish/video/init/", {
+        src_info = {"source": "FILE_UPLOAD", "video_size": size, "chunk_size": chunk, "total_chunk_count": n}
+        d = _post("post/publish/inbox/video/init/", {"source_info": src_info}) if draft else _post("post/publish/video/init/", {
             "post_info": {"title": caption[:2200], "privacy_level": _privacy(ci.get("privacy_level_options")),
                           "disable_comment": bool(ci.get("comment_disabled")), "disable_duet": bool(ci.get("duet_disabled")),
                           "disable_stitch": bool(ci.get("stitch_disabled")), "brand_content_toggle": False,
@@ -200,6 +203,8 @@ def post_video(src: str, caption: str) -> str:
     for _ in range(40):                                  # TikTok processes the video; wait for the verdict
         s = _post("post/publish/status/fetch/", {"publish_id": pid})
         st = s.get("status")
+        if st == "SEND_TO_USER_INBOX" and draft:
+            return pid
         if st == "PUBLISH_COMPLETE":
             ids = s.get("publicaly_available_post_id") or s.get("publicly_available_post_id") or []
             return str(ids[0]) if ids else pid
@@ -224,10 +229,10 @@ def fetch_for(post: dict, out_dir: Path) -> Path:
     raise RuntimeError(f"geen video gevonden voor {post.get('id')}")
 
 
-def post_for(post: dict, caption: str) -> str:
+def post_for(post: dict, caption: str, draft: bool = False) -> str:
     import tempfile
     with tempfile.TemporaryDirectory() as tmp:
-        return post_video(str(fetch_for(post, Path(tmp))), caption)
+        return post_video(str(fetch_for(post, Path(tmp))), caption, draft)
 
 
 def status_for_dashboard() -> dict:
@@ -240,11 +245,12 @@ def status_for_dashboard() -> dict:
 if __name__ == "__main__":
     act = (sys.argv[1:] or ["info"])[0]
     try:
-        if act == "test":                          # a post id: its short version, exactly as TikTok will get it
+        if act in ("test", "draft"):               # a post id: its short version, exactly as TikTok will get it
             from . import queue as q
             tp = json.loads((q.QUEUE / f"{sys.argv[2]}.json").read_text())
-            res = {"ok": True, "post": tp["id"], "publish_id": post_for(tp, ((tp.get("captions") or {}).get("tiktok")
-                                                                             or tp.get("caption") or "")[:2000])}
+            res = {"ok": True, "post": tp["id"], "draft": act == "draft",
+                   "publish_id": post_for(tp, ((tp.get("captions") or {}).get("tiktok") or tp.get("caption") or "")[:2000],
+                                          draft=act == "draft")}
         else:
             res = {"login": login, "exchange": exchange, "info": info}[act]()
     except Exception as e:
