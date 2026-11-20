@@ -686,10 +686,10 @@ document.getElementById("news-f").onclick=e=>{if(e.target.tagName==="BUTTON"){ne
 function drawChannels(){
   const ch=(S.channels||{}).channels||[], P=posts();
   channels.innerHTML=ch.map(c=>{const n=P.filter(p=>p.status==="posted"&&p.results&&p.results[c.id]).length;
-    return `<div class="chc ${c.connected?"on":""}"><div class="row"><h3>${esc(c.name)}</h3><span class="tag ${c.connected?"g":"d"}" style="margin-left:auto">${c.connected?"GEKOPPELD":"NOG NIET GEKOPPELD"}</span></div>
+    return `<div class="chc ${c.connected?"on":""}"><div class="row"><h3>${esc(c.name)}</h3><span class="tag ${c.connected?"g":"d"}" style="margin-left:auto">${c.connected?"GEKOPPELD":c.linked?"GEKOPPELD, WACHT OP AUDIT":"NOG NIET GEKOPPELD"}</span></div>
       <p><b style="color:#fff">${esc(c.handle)}</b>${c.url?` · <a href="${esc(c.url)}" target="_blank">openen</a>`:""}</p>
-      <p>${c.connected?`${n} posts geplaatst`:`Nodig: ${esc(c.needs)}`}</p>${c.check&&!c.connected?`<p style="color:#ff4f9a">Laatste test: ${esc(c.check)}</p>`:""}${c.connected&&c.check?`<p class="muted">${esc(c.check)}</p>`:""}
-      ${c.id==="tiktok"?`<div class="row" style="gap:8px;margin-top:8px"><button class="btn g" onclick="connectTikTok(this)">${c.connected?"OPNIEUW KOPPELEN":"KOPPEL TIKTOK"}</button>${c.connected?`<button class="btn" onclick="tiktokTest(this)">TESTPOST (PRIVÉ)</button>`:""}</div><p class="muted" id="tt-msg" style="font-size:13px"></p>`:""}</div>`}).join("");
+      <p>${c.connected?`${n} posts geplaatst`:`Nodig: ${esc(c.needs)}`}</p>${c.check&&!c.connected&&!c.linked?`<p style="color:#ff4f9a">Laatste test: ${esc(c.check)}</p>`:""}${(c.connected||c.linked)&&c.check?`<p class="muted">${esc(c.check)}</p>`:""}
+      ${c.id==="tiktok"?`<div class="row" style="gap:8px;margin-top:8px"><button class="btn g" onclick="connectTikTok(this)">${c.connected?"OPNIEUW KOPPELEN":"KOPPEL TIKTOK"}</button>${c.connected?`<button class="btn" onclick="tiktokTest(this)">TESTPOST (PRIVÉ)</button>`:""}</div><p class="muted" id="tt-msg" style="font-size:13px"></p>`:""}${c.id==="youtube"?`<div class="row" style="gap:8px;margin-top:8px"><button class="btn g" onclick="connectYouTube(this)">${c.linked||c.connected?"OPNIEUW KOPPELEN":"KOPPEL YOUTUBE"}</button>${c.linked||c.connected?`<button class="btn" onclick="youtubeTest(this)">TESTUPLOAD (PRIVÉ)</button>`:""}</div><p class="muted" id="yt-msg" style="font-size:13px"></p>`:""}</div>`}).join("");
 }
 // TikTok koppelen (lc/tiktok.py): de workflow maakt de inloglink, jij logt in bij TikTok, de terugkeerpagina rondt af.
 async function connectTikTok(b){const m=document.getElementById("tt-msg"),t0=new Date().toISOString();b.disabled=true;
@@ -699,6 +699,20 @@ async function connectTikTok(b){const m=document.getElementById("tt-msg"),t0=new
       try{const f=await gh(`/contents/data/tiktok/auth.json?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));
         if(d.at>t0){m.textContent="Je gaat nu naar TikTok. Log in met @sidewayswire en klik op Authorize.";location.href=d.url;return}}catch(e){}}
     m.textContent="Het duurde te lang. Probeer het nog eens.";}catch(e){m.textContent="Starten lukte niet: "+e.message}b.disabled=false}
+// YouTube koppelen (lc/youtube.py): zelfde route als TikTok, met Google-inlog.
+async function connectYouTube(b){const m=document.getElementById("yt-msg"),t0=new Date().toISOString();b.disabled=true;
+  try{await gh(`/actions/workflows/youtube.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:{action:"login"}})});
+    m.textContent="Inloglink wordt gemaakt (ongeveer een halve minuut)...";
+    for(let i=0;i<40;i++){await new Promise(r=>setTimeout(r,5000));
+      try{const f=await gh(`/contents/data/youtube/auth.json?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));
+        if(d.at>t0){m.textContent="Je gaat nu naar Google. Kies het Sideways Wire-account en sta de app toe.";location.href=d.url;return}}catch(e){}}
+    m.textContent="Het duurde te lang. Probeer het nog eens.";}catch(e){m.textContent="Starten lukte niet: "+e.message}b.disabled=false}
+async function youtubeTest(b){const m=document.getElementById("yt-msg");
+  const p=posts().find(x=>x.short&&["ready","approved","check","draft"].includes(x.status));
+  if(!p){m.textContent="Geen clip met korte versie gevonden.";return}
+  if(!confirm(`Testupload naar YouTube, privé:\n${p.title||p.id}`))return;b.disabled=true;
+  try{await gh(`/actions/workflows/youtube.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:{action:"test",post:p.id}})});
+    m.textContent="Testupload gestart. Over een paar minuten staat hij privé in YouTube Studio."}catch(e){m.textContent="Starten lukte niet: "+e.message;b.disabled=false}}
 async function tiktokTest(b){const m=document.getElementById("tt-msg");
   const p=posts().find(x=>x.short&&["ready","approved","check","draft"].includes(x.status));
   if(!p){m.textContent="Geen clip met korte versie gevonden.";return}

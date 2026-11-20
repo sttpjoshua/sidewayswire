@@ -1,0 +1,26 @@
+# YouTube connection (lc/youtube.py). Started from the dashboard (KOPPEL YOUTUBE) and by the sign-in page.
+name: youtube
+on:
+  workflow_dispatch:
+    inputs:
+      action: { description: "login | exchange | info | test", required: true, default: info }
+      post: { description: "for test: post id (uploaded privately)", required: false, default: "" }
+permissions: { contents: write }
+concurrency: { group: youtube, cancel-in-progress: false }
+jobs:
+  youtube:
+    runs-on: ubuntu-latest
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install requests cryptography jinja2
+      - env: { ACT: "${{ inputs.action }}", POST: "${{ inputs.post }}" }
+        run: python -m lc.youtube "$ACT" ${POST:+"$POST"}
+      - run: python -m lc.status && python -m lc.gitsave "youtube" data/youtube data/channels.json docs/status.json

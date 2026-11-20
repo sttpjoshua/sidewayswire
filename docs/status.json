@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:46:23.953711+00:00",
+ "updated": "2026-11-20T14:39:25.504240+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 485,
@@ -53794,16 +53794,18 @@
     "name": "Instagram",
     "handle": "@sidewayswire",
     "url": "https://www.instagram.com/sidewayswire/",
-    "connected": false,
-    "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)"
+    "connected": true,
+    "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)",
+    "check": "verbonden"
    },
    {
     "id": "facebook",
     "name": "Facebook",
     "handle": "Sideways Wire",
-    "url": "",
-    "connected": false,
-    "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)"
+    "url": "https://www.facebook.com/1512717541920881",
+    "connected": true,
+    "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)",
+    "check": "verbonden"
    },
    {
     "id": "tiktok",
@@ -53817,10 +53819,10 @@
    {
     "id": "youtube",
     "name": "YouTube Shorts",
-    "handle": "@sidewayswire",
-    "url": "https://www.youtube.com/@sidewayswire",
+    "handle": "@SidewaysWire",
+    "url": "https://www.youtube.com/@SidewaysWire",
     "connected": false,
-    "needs": "YouTube-kanaal en een Google-app met YouTube Data API"
+    "needs": "Google Cloud-project met YouTube Data API; YT_CLIENT_ID en YT_CLIENT_SECRET als GitHub-secret; daarna KOPPEL YOUTUBE"
    },
    {
     "id": "telegram",
@@ -53838,23 +53840,23 @@
    },
    {
     "step": "Meta-app (Instagram en Facebook)",
-    "done": false
+    "done": true
    },
    {
     "step": "Instagram-account @sidewayswire als zakelijk account",
-    "done": false
+    "done": true
    },
    {
     "step": "Facebook-pagina Sideways Wire",
-    "done": false
+    "done": true
    },
    {
     "step": "TikTok-account en app",
-    "done": false
+    "done": true
    },
    {
     "step": "YouTube-kanaal",
-    "done": false
+    "done": true
    },
    {
     "step": "cron-job.org: elke 15 minuten de run starten",

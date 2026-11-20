@@ -12,6 +12,8 @@ env:
   META_TOKEN: ${{ secrets.META_TOKEN }}
   TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
   TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+  YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+  YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
   IG_USER_ID: ${{ secrets.IG_USER_ID }}
   IG_TOKEN: ${{ secrets.IG_TOKEN }}
   FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}

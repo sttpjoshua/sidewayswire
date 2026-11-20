@@ -31,10 +31,10 @@
   {
    "id": "youtube",
    "name": "YouTube Shorts",
-   "handle": "@sidewayswire",
-   "url": "https://www.youtube.com/@sidewayswire",
+   "handle": "@SidewaysWire",
+   "url": "https://www.youtube.com/@SidewaysWire",
    "connected": false,
-   "needs": "YouTube-kanaal en een Google-app met YouTube Data API"
+   "needs": "Google Cloud-project met YouTube Data API; YT_CLIENT_ID en YT_CLIENT_SECRET als GitHub-secret; daarna KOPPEL YOUTUBE"
   },
   {
    "id": "telegram",
@@ -64,11 +64,11 @@
   },
   {
    "step": "TikTok-account en app",
-   "done": false
+   "done": true
   },
   {
    "step": "YouTube-kanaal",
-   "done": false
+   "done": true
   },
   {
    "step": "cron-job.org: elke 15 minuten de run starten",

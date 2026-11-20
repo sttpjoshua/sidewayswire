@@ -64,7 +64,7 @@ def _urls(post: dict, platform: str) -> list[str]:
 
 def run(folder: Path = q.QUEUE, now: datetime | None = None) -> dict:
     """Posts, per platform, what is due in the post's plan (see planner.py)."""
-    from . import planner, tiktok
+    from . import planner, tiktok, youtube
     now = now or datetime.now(timezone.utc)
     dry = os.environ.get("LC_DRY_RUN", "1") != "0"
     tg, ig = Telegram(), Instagram()
@@ -96,6 +96,9 @@ def run(folder: Path = q.QUEUE, now: datetime | None = None) -> dict:
                     pid = tiktok.post_for(p, caption, draft=draft)
                     # A draft carries no text (TikTok's rule): the dashboard shows it, ready to copy.
                     results[platform] = f"draft:{pid}" if draft else pid
+                elif platform == "youtube" and youtube.live():
+                    t, d = youtube.texts(p)
+                    results[platform] = youtube.post_for(p, t, d)
                 else:
                     # YouTube switches on after its audit; until then it is not 'connected'
                     # and the planner does not plan it once LC_DRY_RUN is off.

@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Connecting YouTube · Sideways Wire Publisher</title>
+<style>body{font-family:system-ui,sans-serif;background:#151517;color:#fff;max-width:520px;margin:0 auto;padding:40px 20px;line-height:1.5}a{color:#C6FF00}
+.ok{color:#C6FF00}.err{color:#ff4f9a}img{width:64px;height:64px;border-radius:50%;vertical-align:middle;margin-right:12px}</style></head><body>
+<h1>Connecting YouTube</h1>
+<p id="msg">Finishing the connection with YouTube...</p>
+<p><a href="./#instellingen">Back to the dashboard</a></p>
+<script>
+// Google sends Joshua back here after signing in. This page hands the one-time code to the
+// publisher (data/youtube/code.json in the private repo, with the dashboard key stored in this browser)
+// and starts the exchange; the client secret never reaches this page (lc/youtube.py, workflow youtube.yml).
+const q=new URLSearchParams(location.search), m=document.getElementById("msg");
+const API="https://api.github.com/repos/sttpjoshua/sidewayswire";
+let key=null;try{key=localStorage.getItem("sw_gh_key")}catch(e){}
+const gh=async(p,o={})=>{const r=await fetch(API+p,{...o,headers:{Authorization:`Bearer ${key}`,Accept:"application/vnd.github+json","Content-Type":"application/json"}});
+  if(!r.ok)throw new Error(`GitHub ${r.status}`);return r.status===204?null:r.json()};
+const b64=s=>btoa(unescape(encodeURIComponent(s))), unb64=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+const say=(t,c)=>{m.className=c||"";m.innerHTML=t};
+(async()=>{
+  if(q.get("error")){say("Google returned: "+(q.get("error_description")||q.get("error")),"err");return}
+  if(!q.get("code")){say("No Google response found.","err");return}
+  if(!key){say("This browser has no dashboard key. Open the dashboard here first, set the key, and connect again.","err");return}
+  history.replaceState(null,"",location.pathname);      // the code is used once; keep it out of the address bar
+  const t0=new Date().toISOString();
+  try{
+    let sha;try{sha=(await gh(`/contents/data/youtube/code.json?ref=main`)).sha}catch(e){}
+    await gh(`/contents/data/youtube/code.json`,{method:"PUT",body:JSON.stringify({message:"youtube: inlogcode",branch:"main",
+      content:b64(JSON.stringify({code:q.get("code"),state:q.get("state")||"",at:t0})),...(sha?{sha}:{})})});
+    await gh(`/actions/workflows/youtube.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:{action:"exchange"}})});
+    say("Signed in at Google. Connecting the publisher (about a minute)...");
+    for(let i=0;i<36;i++){await new Promise(r=>setTimeout(r,5000));
+      try{const d=JSON.parse(unb64((await gh(`/contents/data/youtube/last.json?ref=main&${Date.now()}`)).content));
+        if(d.action==="exchange"&&d.at>t0){
+          if(d.ok===false){say("Connecting failed: "+d.error,"err");return}
+          say(`${d.thumb?`<img src="${d.thumb}">`:""}Connected to <b>${d.title||""}</b> ${d.handle||""}.`,"ok");return}}catch(e){}}
+    say("This takes longer than expected. Check the dashboard in a few minutes.","err");
+  }catch(e){say("Something went wrong: "+e.message,"err")}
+})();
+</script></body></html>
