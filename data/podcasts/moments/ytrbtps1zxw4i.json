@@ -285,8 +285,13 @@
    "why": "de klap"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-9-33442-34188.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-9-33442-34188.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3383.76, \"start\": 3381.54, \"text\": \"THE RESTART THAT WENT WRONG\", \"why\": \"de klap\"}",
+  "made": "2026-11-20T04:26:09.708402+00:00"
  },
  {
   "start": 3532.02,
@@ -308,10 +313,15 @@
    "why": "emotioneel"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Tommy Lemaire controleren",
-  "wait_name": "v2-ytrbtps1zxw4i-10-35320-35841.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-10-35320-35841.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3584.06, \"start\": 3581.58, \"text\": \"WHO IS THIS WIN FOR?\", \"why\": \"emotioneel\"}",
+  "made": "2026-11-20T04:27:49.021983+00:00"
  },
  {
   "start": 4009.66,
@@ -334,8 +344,13 @@
    "why": "stoere uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytrbtps1zxw4i-11-40097-40447.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytrbtps1zxw4i-11-40097-40447.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4042.6, \"start\": 4039.18, \"text\": \"HOW MANY CHAMPIONS HAS HE BEATEN?\", \"why\": \"stoere uitspraak\"}",
+  "made": "2026-11-20T04:29:00.289851+00:00"
  },
  {
   "start": 4402.76,
@@ -358,10 +373,15 @@
    "why": "de fout"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling Daniel Stuckey controleren",
-  "wait_name": "v2-ytrbtps1zxw4i-12-44028-44545.mp4"
+  "wait_name": "v2-ytrbtps1zxw4i-12-44028-44545.mp4",
+  "clip": "docs/media/pod-ytrbtps1zxw4i-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4419.94, \"start\": 4416.22, \"text\": \"HOW MANY WHEELS DID HE DROP?\", \"why\": \"de fout\"}",
+  "made": "2026-11-20T04:30:48.003048+00:00"
  },
  {
   "start": 4492.18,
