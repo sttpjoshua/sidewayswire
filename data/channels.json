@@ -6,16 +6,18 @@
    "name": "Instagram",
    "handle": "@sidewayswire",
    "url": "https://www.instagram.com/sidewayswire/",
-   "connected": false,
-   "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)"
+   "connected": true,
+   "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)",
+   "check": "verbonden"
   },
   {
    "id": "facebook",
    "name": "Facebook",
    "handle": "Sideways Wire",
-   "url": "",
-   "connected": false,
-   "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)"
+   "url": "https://www.facebook.com/1512717541920881",
+   "connected": true,
+   "needs": "één Meta-sleutel als GitHub-secret META_TOKEN (systeemgebruiker in Meta Business)",
+   "check": "verbonden"
   },
   {
    "id": "tiktok",
@@ -50,15 +52,15 @@
   },
   {
    "step": "Meta-app (Instagram en Facebook)",
-   "done": false
+   "done": true
   },
   {
    "step": "Instagram-account @sidewayswire als zakelijk account",
-   "done": false
+   "done": true
   },
   {
    "step": "Facebook-pagina Sideways Wire",
-   "done": false
+   "done": true
   },
   {
    "step": "TikTok-account en app",
