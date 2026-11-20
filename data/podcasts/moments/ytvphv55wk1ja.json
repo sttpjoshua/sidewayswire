@@ -252,8 +252,13 @@
    "why": "commentaar gaat los"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-8-60813-61435.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-8-60813-61435.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6120.38, \"start\": 6117.6, \"text\": \"ON AN ABSOLUTE FLYER\", \"why\": \"commentaar gaat los\"}",
+  "made": "2026-11-20T06:31:41.364034+00:00"
  },
  {
   "start": 6260.36,
@@ -275,8 +280,13 @@
    "why": "eerlijke uitspraak"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-9-62604-63302.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-9-62604-63302.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6295.98, \"start\": 6293.08, \"text\": \"WHAT HAPPENED IN ZONE FIVE?\", \"why\": \"eerlijke uitspraak\"}",
+  "made": "2026-11-20T06:34:13.517097+00:00"
  },
  {
   "start": 6339.66,
@@ -299,8 +309,13 @@
    "why": "commentaarzin"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-10-63397-64025.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-10-63397-64025.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6400.0, \"start\": 6397.58, \"text\": \"THE MOST IMPORTANT RUN OF HIS LIFE?\", \"why\": \"commentaarzin\"}",
+  "made": "2026-11-20T06:36:25.252690+00:00"
  },
  {
   "start": 6516.46,
@@ -322,8 +337,13 @@
    "why": "de analyse"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvphv55wk1ja-11-65165-65858.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvphv55wk1ja-11-65165-65858.mp4",
+  "clip": "docs/media/pod-ytvphv55wk1ja-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6569.96, \"start\": 6568.18, \"text\": \"IS THE LEADER CRACKING?\", \"why\": \"de analyse\"}",
+  "made": "2026-11-20T06:38:51.047577+00:00"
  },
  {
   "start": 7531.78,
