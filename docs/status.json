@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:10:09.657040+00:00",
+ "updated": "2026-11-20T15:11:00.472447+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 485,
@@ -53823,7 +53823,7 @@
     "url": "https://www.youtube.com/@SidewaysWire",
     "connected": false,
     "needs": "Google Cloud-project met YouTube Data API; YT_CLIENT_ID en YT_CLIENT_SECRET als GitHub-secret; daarna KOPPEL YOUTUBE",
-    "check": "dit Google-account heeft geen YouTube-kanaal",
+    "check": "Google-antwoord hoort niet bij deze koppelpoging (state); begin opnieuw",
     "linked": true
    },
    {

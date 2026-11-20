@@ -1,5 +1,6 @@
 {
- "action": "login",
- "at": "2026-11-20T15:10:09.442644+00:00",
- "ok": true
+ "action": "exchange",
+ "at": "2026-11-20T15:11:00.314900+00:00",
+ "ok": false,
+ "error": "Google-antwoord hoort niet bij deze koppelpoging (state); begin opnieuw"
 }
