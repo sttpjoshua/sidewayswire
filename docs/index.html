@@ -579,7 +579,7 @@ document.getElementById("post-f").onclick=e=>{if(e.target.tagName==="BUTTON"){po
 // ---------- planning ----------
 let planFilter="MAAND", calMonth=null;
 // Each platform has its own rhythm (lc/platforms.py RHYTHM).
-const RHYTHM={instagram:{"08:30":"post","17:30":"reel"},facebook:{"08:30":"post","12:30":"reel","17:30":"reel"},tiktok:{"12:30":"reel","17:30":"reel","21:30":"reel"},youtube:{"13:00":"reel","20:00":"reel"}};
+const RHYTHM={instagram:{"08:30":"post","17:30":"reel"},facebook:{"08:30":"post","12:30":"reel","17:30":"reel","20:30":"post"},tiktok:{"12:30":"reel","17:30":"reel","21:30":"reel"},youtube:{"13:00":"reel","20:00":"reel"}};
 let planPlat="ALLE";
 const PLATN={ALLE:"ALLE PLATFORMS",instagram:"INSTAGRAM",facebook:"FACEBOOK",tiktok:"TIKTOK",youtube:"YOUTUBE"};
 // One entry per moment a post goes out; a post can go to several platforms at the same moment.
@@ -662,8 +662,23 @@ function drawChannels(){
   channels.innerHTML=ch.map(c=>{const n=P.filter(p=>p.status==="posted"&&p.results&&p.results[c.id]).length;
     return `<div class="chc ${c.connected?"on":""}"><div class="row"><h3>${esc(c.name)}</h3><span class="tag ${c.connected?"g":"d"}" style="margin-left:auto">${c.connected?"GEKOPPELD":"NOG NIET GEKOPPELD"}</span></div>
       <p><b style="color:#fff">${esc(c.handle)}</b>${c.url?` · <a href="${esc(c.url)}" target="_blank">openen</a>`:""}</p>
-      <p>${c.connected?`${n} posts geplaatst`:`Nodig: ${esc(c.needs)}`}</p>${c.check&&!c.connected?`<p style="color:#ff4f9a">Laatste test: ${esc(c.check)}</p>`:""}</div>`}).join("");
+      <p>${c.connected?`${n} posts geplaatst`:`Nodig: ${esc(c.needs)}`}</p>${c.check&&!c.connected?`<p style="color:#ff4f9a">Laatste test: ${esc(c.check)}</p>`:""}${c.connected&&c.check?`<p class="muted">${esc(c.check)}</p>`:""}
+      ${c.id==="tiktok"?`<div class="row" style="gap:8px;margin-top:8px"><button class="btn g" onclick="connectTikTok(this)">${c.connected?"OPNIEUW KOPPELEN":"KOPPEL TIKTOK"}</button>${c.connected?`<button class="btn" onclick="tiktokTest(this)">TESTPOST (PRIVÉ)</button>`:""}</div><p class="muted" id="tt-msg" style="font-size:13px"></p>`:""}</div>`}).join("");
 }
+// TikTok koppelen (lc/tiktok.py): de workflow maakt de inloglink, jij logt in bij TikTok, de terugkeerpagina rondt af.
+async function connectTikTok(b){const m=document.getElementById("tt-msg"),t0=new Date().toISOString();b.disabled=true;
+  try{await gh(`/actions/workflows/tiktok.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:{action:"login"}})});
+    m.textContent="Inloglink wordt gemaakt (ongeveer een halve minuut)...";
+    for(let i=0;i<40;i++){await new Promise(r=>setTimeout(r,5000));
+      try{const f=await gh(`/contents/data/tiktok/auth.json?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));
+        if(d.at>t0){m.textContent="Je gaat nu naar TikTok. Log in met @sidewayswire en klik op Authorize.";location.href=d.url;return}}catch(e){}}
+    m.textContent="Het duurde te lang. Probeer het nog eens.";}catch(e){m.textContent="Starten lukte niet: "+e.message}b.disabled=false}
+async function tiktokTest(b){const m=document.getElementById("tt-msg");
+  const p=posts().find(x=>x.short&&["ready","approved","check","draft"].includes(x.status));
+  if(!p){m.textContent="Geen clip met korte versie gevonden.";return}
+  if(!confirm(`Testpost naar TikTok, alleen zichtbaar voor jou:\n${p.title||p.id}`))return;b.disabled=true;
+  try{await gh(`/actions/workflows/tiktok.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:{action:"test",post:p.id}})});
+    m.textContent="Testpost gestart. Over een paar minuten staat hij privé op je TikTok-profiel."}catch(e){m.textContent="Starten lukte niet: "+e.message;b.disabled=false}}
 async function testConn(){const m=document.getElementById("testconn-msg");
   try{await gh(`/actions/workflows/connect.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})});
     m.textContent="Test gestart. Over ongeveer 3 minuten staat de uitkomst hieronder."}catch(e){m.textContent="Starten lukte niet: "+e.message}}

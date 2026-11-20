@@ -64,7 +64,7 @@ def _urls(post: dict, platform: str) -> list[str]:
 
 def run(folder: Path = q.QUEUE, now: datetime | None = None) -> dict:
     """Posts, per platform, what is due in the post's plan (see planner.py)."""
-    from . import planner
+    from . import planner, tiktok
     now = now or datetime.now(timezone.utc)
     dry = os.environ.get("LC_DRY_RUN", "1") != "0"
     tg, ig = Telegram(), Instagram()
@@ -90,9 +90,12 @@ def run(folder: Path = q.QUEUE, now: datetime | None = None) -> dict:
                                          else ig.post_carousel(urls[:10], caption, collaborators=collab))
                 elif platform == "facebook":
                     results[platform] = post_facebook(urls, caption)
+                elif platform == "tiktok" and tiktok.connected():
+                    # Until TikTok has audited the app, posts are private (settings.tiktok_privacy).
+                    results[platform] = tiktok.post_video(urls[0], caption)
                 else:
-                    # TikTok and YouTube switch on after their audits; until then they are not 'connected'
-                    # and the planner does not plan them once LC_DRY_RUN is off.
+                    # YouTube switches on after its audit; until then it is not 'connected'
+                    # and the planner does not plan it once LC_DRY_RUN is off.
                     results[platform] = "waiting for platform audit"
             except Exception as e:
                 results[platform] = f"ERROR {str(e)[:200]}"

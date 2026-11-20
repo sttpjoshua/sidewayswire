@@ -9,7 +9,7 @@ on:
     branches: [main]
     paths: ["docs/**"]
   workflow_run:
-    workflows: [run, clips, previews, shorts, collect, podcasts, media, media-public, handles, connect]
+    workflows: [run, clips, previews, shorts, collect, podcasts, media, media-public, handles, connect, tiktok]
     types: [completed]
   workflow_dispatch:
 permissions: { contents: read, pages: write, id-token: write }
