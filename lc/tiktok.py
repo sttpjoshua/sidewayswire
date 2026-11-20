@@ -207,6 +207,27 @@ def post_video(src: str, caption: str) -> str:
     return pid
 
 
+def fetch_for(post: dict, out_dir: Path) -> Path:
+    """The file TikTok gets: the short version, else the full clip; from this checkout or the media store."""
+    from . import mediastore
+    for rel in [post.get("short"), post.get("video")] + list(post.get("media") or []):
+        if not rel or not str(rel).endswith(".mp4"):
+            continue
+        local = ROOT / rel
+        if local.exists() and local.stat().st_size > 0:
+            return local
+        out = out_dir / Path(rel).name
+        if mediastore.download(rel, out):
+            return out
+    raise RuntimeError(f"geen video gevonden voor {post.get('id')}")
+
+
+def post_for(post: dict, caption: str) -> str:
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        return post_video(str(fetch_for(post, Path(tmp))), caption)
+
+
 def status_for_dashboard() -> dict:
     out = {"connected": TOKEN.exists(), "auth_waiting": AUTH.exists()}
     if INFO.exists():
@@ -216,13 +237,14 @@ def status_for_dashboard() -> dict:
 
 if __name__ == "__main__":
     act = (sys.argv[1:] or ["info"])[0]
-    if act == "test" and len(sys.argv) > 2 and not sys.argv[2].startswith(("http", "/", "docs/")):
-        from . import queue as q
-        from .publish import _urls                 # a post id: its short version, as TikTok would get it
-        sys.argv[2] = _urls(json.loads((q.QUEUE / f"{sys.argv[2]}.json").read_text()), "tiktok")[0]
     try:
-        res = {"login": login, "exchange": exchange, "info": info}[act]() if act != "test" else \
-            {"publish_id": post_video(sys.argv[2], "Test post from the Sideways Wire publisher (private)")}
+        if act == "test":                          # a post id: its short version, exactly as TikTok will get it
+            from . import queue as q
+            tp = json.loads((q.QUEUE / f"{sys.argv[2]}.json").read_text())
+            res = {"ok": True, "post": tp["id"], "publish_id": post_for(tp, ((tp.get("captions") or {}).get("tiktok")
+                                                                             or tp.get("caption") or "")[:2000])}
+        else:
+            res = {"login": login, "exchange": exchange, "info": info}[act]()
     except Exception as e:
         res = {"ok": False, "error": str(e)}
         if act in ("exchange", "info"):
