@@ -38,7 +38,7 @@ AUTH, CODE, TOKEN, INFO = DIR / "auth.json", DIR / "code.json", DIR / "token.enc
 REDIRECT = "https://sttpjoshua.github.io/sidewayswire/tiktok-callback.html"
 SCOPES = "user.info.basic,video.upload,video.publish"
 API = "https://open.tiktokapis.com/v2"
-CHUNK = 10 * 1024 * 1024
+CHUNK = 64 * 1024 * 1024          # TikTok: one piece up to 64 MB (our clips are far smaller)
 
 
 def _keys() -> tuple[str, str]:
@@ -175,8 +175,10 @@ def post_video(src: str, caption: str) -> str:
                     for b in r.iter_content(1 << 20):
                         f.write(b)
         size = path.stat().st_size
+        # One piece when it fits (then chunk_size must equal the file size); else 64 MB pieces, the last
+        # one takes the rest (total_chunk_count = size // chunk_size, as TikTok asks).
         chunk = size if size <= CHUNK else CHUNK
-        n = max(1, size // chunk) if size > CHUNK else 1
+        n = 1 if size <= CHUNK else size // chunk
         d = _post("post/publish/video/init/", {
             "post_info": {"title": caption[:2200], "privacy_level": _privacy(ci.get("privacy_level_options")),
                           "disable_comment": bool(ci.get("comment_disabled")), "disable_duet": bool(ci.get("duet_disabled")),
