@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T17:48:58.546412+00:00",
+ "updated": "2026-11-20T17:58:04.079922+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 478,
-  "check": 230,
+  "ready": 475,
+  "check": 229,
   "posted": 3,
-  "draft": 12
+  "draft": 16
  },
  "collected": "2026-11-20T17:22:32.850511+00:00",
  "instagram": false,
@@ -13301,6 +13301,230 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dan Burkett against Shinji Minowa. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@raddandrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 3209
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:20:08.473543+00:00",
+   "built": "2026-11-20T17:57:54.652587+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-12__clip.mp4",
+   "tags": [
+    "@raddandrift",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Shinji Minowa"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "BURKETT VS MINOWA, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "After a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 3080.75
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:18:57.073254+00:00",
+   "built": "2026-11-20T17:56:05.560263+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-11__clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SORENSEN SURVIVES THE ONE MORE TIME",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 2858
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:17:49.888099+00:00",
+   "built": "2026-11-20T17:54:57.925868+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-10__clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Brandon Sorensen"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "THE ONE MORE TIME, SIDE BY SIDE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field against Tommy LaMere, Corvette against Corvette. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 2024.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T19:45:36.549949+00:00",
+   "built": "2026-11-20T17:51:23.732702+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-6__clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Tommy LaMere"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "TWIN CORVETTES, SIDE BY SIDE",
    "photo": null
   },
   {
@@ -37607,64 +37831,6 @@
    "photo": null
   },
   {
-   "id": "pod-yt8bwn2g2ssy-6",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field against Tommy LaMere, Corvette against Corvette. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-6__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 2024.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T19:45:36.549949+00:00",
-   "built": "2026-11-19T01:11:25.685671+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-6__clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Tommy LaMere"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-6.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-6.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "TWIN CORVETTES, SIDE BY SIDE",
-   "photo": null
-  },
-  {
    "id": "pod-yt8bwn2g2ssy-51",
    "kind": "stream_clip",
    "status": "ready",
@@ -39251,213 +39417,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8bwn2g2ssy-13__short.mp4",
    "title": "BURKETT SPINS IN THE CHASE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-12",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Dan Burkett against Shinji Minowa. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@raddandrift @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-12__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 3209
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:20:08.473543+00:00",
-   "built": "2026-11-19T01:11:25.090835+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-12__clip.mp4",
-   "tags": [
-    "@raddandrift",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Shinji Minowa"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": {},
-   "score": 76,
-   "captions": {
-    "instagram": "Dan Burkett vs Shinji Minowa | Formula DRIFT Las Vegas 2026\n\nDan Burkett against Shinji Minowa. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@raddandrift @formulad\n\n#formuladrift #formulad #danburkett #shinjiminowa #sidewayswire",
-    "facebook": "Dan Burkett vs Shinji Minowa | Formula DRIFT Las Vegas 2026\n\nDan Burkett against Shinji Minowa. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@raddandrift @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Dan Burkett vs Shinji Minowa | Formula DRIFT Las Vegas 2026: Dan Burkett against Shinji Minowa. Run 1 on top, run 2 below.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Las Vegas 2026 @raddandrift @formulad\n#formuladrift #formulad #danburkett #sidewayswire",
-    "youtube_title": "Dan Burkett vs Shinji Minowa | Formula DRIFT Las Vegas 2026",
-    "youtube": "Dan Burkett against Shinji Minowa. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@raddandrift @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "raddandrift"
-   ],
-   "people": [
-    "Dan Burkett",
-    "Shinji Minowa"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-12.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-12.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "BURKETT VS MINOWA, SIDE BY SIDE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-11",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "After a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-11__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 3080.75
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:18:57.073254+00:00",
-   "built": "2026-11-19T01:11:25.077392+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-11__clip.mp4",
-   "tags": [
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 62,
-   "captions": {
-    "instagram": "Brandon Sorensen vs Cole Richards | Formula DRIFT Las Vegas 2026\n\nAfter a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #brandonsorensen #colerichards #sidewayswire",
-    "facebook": "Brandon Sorensen vs Cole Richards | Formula DRIFT Las Vegas 2026\n\nAfter a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Brandon Sorensen vs Cole Richards | Formula DRIFT Las Vegas 2026: After a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @colerichardz @formulad\n#formuladrift #formulad #brandonsorensen #sidewayswire",
-    "youtube_title": "Sorensen vs Richards | Formula DRIFT Las Vegas 2026",
-    "youtube": "After a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "colerichardz"
-   ],
-   "people": [
-    "Brandon Sorensen",
-    "Cole Richards"
-   ],
-   "moment_kind": "omt",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-11.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-11.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-11__short.mp4",
-   "title": "SORENSEN SURVIVES THE ONE MORE TIME",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-10",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-10__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 2858
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T22:17:49.888099+00:00",
-   "built": "2026-11-19T01:11:25.063695+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-10__clip.mp4",
-   "tags": [
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": {},
-   "score": 71,
-   "captions": {
-    "instagram": "Brandon Sorensen vs Cole Richards | Formula DRIFT Las Vegas 2026\n\nThe one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #brandonsorensen #colerichards #sidewayswire",
-    "facebook": "Brandon Sorensen vs Cole Richards | Formula DRIFT Las Vegas 2026\n\nThe one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Brandon Sorensen vs Cole Richards | Formula DRIFT Las Vegas 2026: The one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @colerichardz @formulad\n#formuladrift #formulad #brandonsorensen #sidewayswire",
-    "youtube_title": "Sorensen vs Richards | Formula DRIFT Las Vegas 2026",
-    "youtube": "The one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "colerichardz"
-   ],
-   "people": [
-    "Brandon Sorensen",
-    "Cole Richards"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-10.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-10.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "THE ONE MORE TIME, SIDE BY SIDE",
    "photo": null
   },
   {
