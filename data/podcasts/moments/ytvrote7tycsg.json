@@ -218,8 +218,13 @@
    "why": "het moment van teleurstelling"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-7-32093-32677.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-7-32093-32677.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3216.17, \"start\": 3213.55, \"text\": \"THE CAR WAS ROLLING, THEN\", \"why\": \"het moment van teleurstelling\"}",
+  "made": "2026-11-20T12:02:51.852614+00:00"
  },
  {
   "start": 3510.89,
@@ -241,8 +246,13 @@
    "why": "strijdlustige quote"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-8-35109-35834.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-8-35109-35834.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3582.65, \"start\": 3580.47, \"text\": \"CONOR IS NOT DONE YET\", \"why\": \"strijdlustige quote\"}",
+  "made": "2026-11-20T12:04:27.126082+00:00"
  },
  {
   "start": 3730.19,
@@ -348,10 +358,15 @@
    "why": "discussiepunt"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Sorensen, Stuckey)",
-  "wait_name": "v2-ytvrote7tycsg-12-48906-49564.mp4"
+  "wait_name": "v2-ytvrote7tycsg-12-48906-49564.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4924.27, \"start\": 4921.19, \"text\": \"WAS THIS LEAD EVEN CHASEABLE?\", \"why\": \"discussiepunt\"}",
+  "made": "2026-11-20T12:06:12.117448+00:00"
  },
  {
   "start": 5245.87,
@@ -428,8 +443,13 @@
    "why": "ongewone regel"
   },
   "by": "editor",
-  "status": "new",
-  "wait_name": "v2-ytvrote7tycsg-15-58240-58867.mp4"
+  "status": "queued",
+  "wait_name": "v2-ytvrote7tycsg-15-58240-58867.mp4",
+  "clip": "docs/media/pod-ytvrote7tycsg-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5867.67, \"start\": 5865.37, \"text\": \"IT'S NOT A BYE RUN\", \"why\": \"ongewone regel\"}",
+  "made": "2026-11-20T12:07:48.731605+00:00"
  },
  {
   "start": 6411.27,
