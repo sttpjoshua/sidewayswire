@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21T05:23:28.493134+00:00",
+ "updated": "2026-11-21T05:24:41.786906+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 425,
   "check": 184,
   "posted": 3,
-  "draft": 138
+  "draft": 139
  },
  "collected": "2026-11-21T04:04:30.799834+00:00",
  "instagram": false,
@@ -12843,6 +12843,61 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytvrote7tycsg-47",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Fredric Aasbo against Trenton Beechum, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@fredricaasbo @trenton_beechum @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
+    "start": 10409.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-21T05:24:41.674486+00:00",
+   "built": "2026-11-21T05:24:41.674489+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-47__clip.mp4",
+   "tags": [
+    "@fredricaasbo",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "AASBO VS BEECHUM SPLIT",
    "photo": null
   },
   {

@@ -1686,9 +1686,13 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-47r2-105182-105570.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-47/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T05:24:41.673762+00:00"
  }
 ]
