@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21T02:58:22.217274+00:00",
+ "updated": "2026-11-21T03:09:13.791966+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 426,
-  "check": 187,
+  "ready": 425,
+  "check": 185,
   "posted": 3,
-  "draft": 107
+  "draft": 110
  },
  "collected": "2026-11-20T23:19:29.497299+00:00",
  "instagram": false,
@@ -10903,10 +10903,8 @@
    "post_at": "2026-12-08T11:30:00+00:00",
    "posted_at": null,
    "caption": "Chris Forsberg vs Jeff Jones in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jeffjonesracing @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytrbtps1zxw4i-46__clip.mp4"
-   ],
-   "problems": [],
+   "media": [],
+   "problems": null,
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -10923,7 +10921,7 @@
     "youtube"
    ],
    "created": "2026-11-20T05:37:06.562712+00:00",
-   "built": "2026-11-20T07:02:32.161517+00:00",
+   "built": "2026-11-21T03:04:08.679259+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytrbtps1zxw4i-46__clip.mp4",
    "tags": [
@@ -10941,28 +10939,17 @@
     "tiktok": "2026-12-08T11:30:00+00:00",
     "youtube": "2026-12-13T12:00:00+00:00"
    },
-   "score": 87,
-   "captions": {
-    "instagram": "Chris Forsberg vs Jeff Jones | Formula DRIFT Las Vegas 2026\n\nChris Forsberg vs Jeff Jones in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jeffjonesracing @formulad\n\n#formuladrift #formulad #chrisforsberg #jeffjones #sidewayswire",
-    "facebook": "Chris Forsberg vs Jeff Jones | Formula DRIFT Las Vegas 2026\n\nChris Forsberg vs Jeff Jones in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jeffjonesracing @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Chris Forsberg vs Jeff Jones | Formula DRIFT Las Vegas 2026: Chris Forsberg vs Jeff Jones in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Las Vegas 2026 @jeffjonesracing @formulad\n#formuladrift #formulad #chrisforsberg #sidewayswire",
-    "youtube_title": "Chris Forsberg vs Jeff Jones | Formula DRIFT Las Vegas 2026",
-    "youtube": "Chris Forsberg vs Jeff Jones in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jeffjonesracing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
+   "score": null,
+   "captions": null,
    "ig": null,
-   "collaborators": [
-    "jeffjonesracing"
-   ],
-   "people": [
-    "Chris Forsberg",
-    "Jeff Jones"
-   ],
-   "moment_kind": "battle",
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
    "pinned_at": null,
-   "short_none": "split",
+   "short_none": null,
    "short_len": null,
-   "thumb": "media/thumbs/pod-ytrbtps1zxw4i-46.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytrbtps1zxw4i-46.mp4",
+   "thumb": null,
+   "preview": null,
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
@@ -12856,6 +12843,172 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytrbtps1zxw4i-48",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan vs Jhonnattan Castro in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
+    "start": 8752.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T05:42:56.096220+00:00",
+   "built": "2026-11-21T03:09:13.682391+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytrbtps1zxw4i-48__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jcastroracing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SHANAHAN VS CASTRO",
+   "photo": null
+  },
+  {
+   "id": "pod-ytrbtps1zxw4i-47",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Cody Buchanan vs Ken Gushi in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@cbuchanan272 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
+    "start": 7171.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T05:40:04.046508+00:00",
+   "built": "2026-11-21T03:06:44.591057+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytrbtps1zxw4i-47__clip.mp4",
+   "tags": [
+    "@cbuchanan272",
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Ken Gushi"
+   ],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "BUCHANAN VS GUSHI",
+   "photo": null
+  },
+  {
+   "id": "pod-ytrbtps1zxw4i-45",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dylan Hughes vs Trenton Beechum in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@dylanhughes129 @trenton_beechum @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": true,
+   "check_reason": "namen nakijken",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
+    "start": 5952.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T05:34:19.286997+00:00",
+   "built": "2026-11-21T03:01:09.902280+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytrbtps1zxw4i-45__clip.mp4",
+   "tags": [
+    "@dylanhughes129",
+    "@trenton_beechum",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "HUGHES VS BEECHUM",
    "photo": null
   },
   {
@@ -24664,189 +24817,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytrbtps1zxw4i-7__short.mp4",
    "title": "JUDGE EXPLAINS SPLIT DECISION",
-   "photo": null
-  },
-  {
-   "id": "pod-ytrbtps1zxw4i-48",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jack Shanahan vs Jhonnattan Castro in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytrbtps1zxw4i-48__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
-    "start": 8752.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T05:42:56.096220+00:00",
-   "built": "2026-11-20T07:02:32.210045+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytrbtps1zxw4i-48__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@jcastroracing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytrbtps1zxw4i-48.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytrbtps1zxw4i-48.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "SHANAHAN VS CASTRO",
-   "photo": null
-  },
-  {
-   "id": "pod-ytrbtps1zxw4i-47",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Cody Buchanan vs Ken Gushi in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@cbuchanan272 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytrbtps1zxw4i-47__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
-    "start": 7171.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T05:40:04.046508+00:00",
-   "built": "2026-11-20T07:02:32.209545+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytrbtps1zxw4i-47__clip.mp4",
-   "tags": [
-    "@cbuchanan272",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Ken Gushi"
-   ],
-   "caption_by": null,
-   "format": "split",
-   "plan": {},
-   "score": 76,
-   "captions": {
-    "instagram": "Cody Buchanan vs Ken Gushi | Formula DRIFT Las Vegas 2026\n\nCody Buchanan vs Ken Gushi in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@cbuchanan272 @formulad\n\n#formuladrift #formulad #codybuchanan #kengushi #sidewayswire",
-    "facebook": "Cody Buchanan vs Ken Gushi | Formula DRIFT Las Vegas 2026\n\nCody Buchanan vs Ken Gushi in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@cbuchanan272 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Cody Buchanan vs Ken Gushi | Formula DRIFT Las Vegas 2026: Cody Buchanan vs Ken Gushi in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @cbuchanan272 @formulad\n#formuladrift #formulad #codybuchanan #sidewayswire",
-    "youtube_title": "Cody Buchanan vs Ken Gushi | Formula DRIFT Las Vegas 2026",
-    "youtube": "Cody Buchanan vs Ken Gushi in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@cbuchanan272 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "cbuchanan272"
-   ],
-   "people": [
-    "Cody Buchanan",
-    "Ken Gushi"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytrbtps1zxw4i-47.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytrbtps1zxw4i-47.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "BUCHANAN VS GUSHI",
-   "photo": null
-  },
-  {
-   "id": "pod-ytrbtps1zxw4i-45",
-   "kind": "stream_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Dylan Hughes vs Trenton Beechum in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@dylanhughes129 @trenton_beechum @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytrbtps1zxw4i-45__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
-    "start": 5952.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T05:34:19.286997+00:00",
-   "built": "2026-11-20T07:02:32.118773+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytrbtps1zxw4i-45__clip.mp4",
-   "tags": [
-    "@dylanhughes129",
-    "@trenton_beechum",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytrbtps1zxw4i-45.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytrbtps1zxw4i-45.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "HUGHES VS BEECHUM",
    "photo": null
   },
   {
