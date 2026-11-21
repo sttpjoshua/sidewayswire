@@ -954,11 +954,15 @@
    "why": "commentator telt zones"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-31-101566-102058.mp4",
   "run_end": 10199.83,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-31/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10161.25, \"start\": 10158.41, \"text\": \"ONE TWO THREE FOUR FIVE\", \"why\": \"commentator telt zones\"}",
+  "made": "2026-11-21T04:49:04.363255+00:00"
  },
  {
   "start": 10595.33,
@@ -981,11 +985,15 @@
    "why": "beslissing"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-32-105953-106335.mp4",
   "run_end": 10627.53,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-32/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 10617.19, \"start\": 10615.11, \"text\": \"WHO TAKES THE LAST SPOT?\", \"why\": \"beslissing\"}",
+  "made": "2026-11-21T04:49:51.893775+00:00"
  },
  {
   "start": 1186.0,
@@ -1024,10 +1032,14 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-33r2-13050-13440.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-33/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T04:51:51.824164+00:00"
  },
  {
   "start": 3606.0,
@@ -1066,10 +1078,14 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-34r2-37270-37900.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-34/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T04:53:21.230634+00:00"
  },
  {
   "start": 5245.87,
