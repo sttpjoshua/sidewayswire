@@ -1500,12 +1500,16 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Connor O'Sullivan)",
   "wait_name": "v2-ytvrote7tycsg-43r2-87700-88254.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-43/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T05:16:11.859931+00:00"
  },
  {
   "start": 9138.0,
@@ -1544,10 +1548,14 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-44r2-99620-99980.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-44/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T05:18:29.665603+00:00"
  },
  {
   "start": 9597.0,
@@ -1586,10 +1594,14 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-45r2-97024-97420.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-45/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T05:21:00.106162+00:00"
  },
  {
   "start": 10149.5,
@@ -1628,10 +1640,14 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-46r2-102633-103020.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-46/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T05:23:28.389481+00:00"
  },
  {
   "start": 10409.9,
