@@ -557,13 +557,17 @@
    "why": "juichend commentaar"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Cole Richards, Tommy LeMarre / TLO)",
   "wait_name": "v2-ytvrote7tycsg-18-71464-72261.mp4",
   "run_end": 7220.11,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7220.11, \"start\": 7217.09, \"text\": \"A QUIET KILLER\", \"why\": \"juichend commentaar\"}",
+  "made": "2026-11-21T03:24:18.890435+00:00"
  },
  {
   "start": 7269.37,
@@ -586,13 +590,17 @@
    "why": "bumper vliegt"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
   "wait_name": "v2-ytvrote7tycsg-19-72694-73096.mp4",
   "run_end": 7303.65,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7290.09, \"start\": 7287.91, \"text\": \"SOMETHING JUST FLEW OFF\", \"why\": \"bumper vliegt\"}",
+  "made": "2026-11-21T03:25:21.065406+00:00"
  },
  {
   "start": 7344.51,
@@ -646,13 +654,17 @@
    "why": "beslissend moment"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Rudy Hansen)",
   "wait_name": "v2-ytvrote7tycsg-21-75805-76532.mp4",
   "run_end": 7646.03,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 7601.01, \"start\": 7598.77, \"text\": \"EXACTLY WHAT HE NEEDED\", \"why\": \"beslissend moment\"}",
+  "made": "2026-11-21T03:27:00.539326+00:00"
  },
  {
   "start": 7709.11,
@@ -853,11 +865,15 @@
    "why": "juichend commentaar"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-28-96885-97615.mp4",
   "run_end": 9755.45,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 9736.93, \"start\": 9733.79, \"text\": \"AN ABSOLUTELY MASSIVE HUCK\", \"why\": \"juichend commentaar\"}",
+  "made": "2026-11-21T03:28:46.067184+00:00"
  },
  {
   "start": 9911.99,
