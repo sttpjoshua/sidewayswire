@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:32:39.532647+00:00",
+ "updated": "2026-11-21T13:27:14.002311+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -1550,14 +1550,14 @@
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
    "ok": true,
-   "items": 3,
+   "items": 4,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -1676,7 +1676,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "how": "feed"
   },
   {
