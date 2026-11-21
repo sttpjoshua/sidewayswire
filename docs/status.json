@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T20:45:26.726712+00:00",
+ "updated": "2026-11-21T23:58:09.066604+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
   "check": 241,
   "posted": 3
  },
- "collected": "2026-11-21T20:45:22.476429+00:00",
+ "collected": "2026-11-21T23:58:08.857363+00:00",
  "instagram": false,
  "sources": [
   {
@@ -1575,6 +1575,46 @@
    }
   },
   "episodes": [
+   {
+    "id": "yts3wlc40df5m",
+    "podcast": "Jimmy Oakes",
+    "title": "My S14 Is UNRECOGNIZABLE After This Transformation!",
+    "published": "2026-11-21",
+    "status": "transcribed",
+    "youtube": "S3wlC40dF5M",
+    "audio": null,
+    "link": null,
+    "art": null,
+    "seconds": 1749.0,
+    "error": null,
+    "transcribed": "2026-11-21T20:48:10.793871+00:00",
+    "tries": null,
+    "kind": "vlog",
+    "credit": "@jimmyoakes",
+    "event": "MY S14 IS UNRECOGNIZABLE AFTER THIS TRAN",
+    "has_transcript": true,
+    "moments": []
+   },
+   {
+    "id": "yt9ujkuwx23pq",
+    "podcast": "The Shanahans",
+    "title": "EXPLORING THE CUSCO RACING GRAVEYARD | Japan Trip 🇯🇵",
+    "published": "2026-11-21",
+    "status": "transcribed",
+    "youtube": "9ujKUWx23PQ",
+    "audio": null,
+    "link": null,
+    "art": null,
+    "seconds": 857.0,
+    "error": null,
+    "transcribed": "2026-11-21T20:48:46.894349+00:00",
+    "tries": null,
+    "kind": "vlog",
+    "credit": "@conorshanahan79",
+    "event": "EXPLORING THE CUSCO RACING GRAVEYARD | J",
+    "has_transcript": true,
+    "moments": []
+   },
    {
     "id": "ytbz9sqo22uai",
     "podcast": "Collete Davis",
@@ -6667,55 +6707,23 @@
     "event": "SURPRISING SABRINA WITH NEW WHEELS!",
     "has_transcript": true,
     "moments": []
-   },
-   {
-    "id": "ytvzpeqcjbgfk",
-    "podcast": "Adam LZ",
-    "title": "My 1000HP Cosmo Build Just Got Serious",
-    "published": "2026-10-13",
-    "status": "transcribed",
-    "youtube": "vzPEqcJBgFk",
-    "audio": null,
-    "link": null,
-    "art": null,
-    "seconds": 1194.0,
-    "error": null,
-    "transcribed": "2026-11-19T19:17:31.758203+00:00",
-    "tries": null,
-    "kind": "vlog",
-    "credit": "@adam_lz",
-    "event": "MY 1000HP COSMO BUILD JUST GOT SERIOUS",
-    "has_transcript": true,
-    "moments": []
-   },
-   {
-    "id": "ytzitm1bolpy",
-    "podcast": "Jimmy Oakes",
-    "title": "Time to FINISH my R34 GTR!",
-    "published": "2026-10-13",
-    "status": "transcribed",
-    "youtube": "Zitm-1bOLpY",
-    "audio": null,
-    "link": null,
-    "art": null,
-    "seconds": 1333.0,
-    "error": null,
-    "transcribed": "2026-11-19T20:08:50.903644+00:00",
-    "tries": null,
-    "kind": "vlog",
-    "credit": "",
-    "event": "TIME TO FINISH MY R34 GTR!",
-    "has_transcript": true,
-    "moments": []
    }
   ]
  },
  "streams": {
-  "total": 162,
-  "transcribed": 162,
-  "moments": 162,
+  "total": 164,
+  "transcribed": 164,
+  "moments": 164,
   "next": null,
   "series": {
+   "Jimmy Oakes": {
+    "total": 14,
+    "transcribed": 14
+   },
+   "The Shanahans": {
+    "total": 13,
+    "transcribed": 13
+   },
    "Collete Davis": {
     "total": 13,
     "transcribed": 13
@@ -6727,14 +6735,6 @@
    "TJ Hunt": {
     "total": 13,
     "transcribed": 13
-   },
-   "Jimmy Oakes": {
-    "total": 13,
-    "transcribed": 13
-   },
-   "The Shanahans": {
-    "total": 12,
-    "transcribed": 12
    },
    "James Deane": {
     "total": 11,
