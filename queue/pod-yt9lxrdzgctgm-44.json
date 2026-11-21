@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-44",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "CORVETTE VS CORVETTE, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-44/clip.mp4",
@@ -28,9 +28,13 @@
   "start": 5807.0
  },
  "created": "2026-11-19T00:51:46.282389+00:00",
- "built": "2026-11-20T19:50:23.626980+00:00",
+ "built": "2026-11-21T11:55:32.299691+00:00",
  "thumb": "docs/media/thumbs/pod-yt9lxrdzgctgm-44.jpg",
  "short_none": "split",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-44.mp4",
- "preview_of": "2026-11-20T19:50:23.626980+00:00"
+ "preview_of": "2026-11-20T19:50:23.626980+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-44/clip.mp4"
+ ],
+ "problems": []
 }

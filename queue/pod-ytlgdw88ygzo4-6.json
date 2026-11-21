@@ -2,7 +2,7 @@
  "id": "pod-ytlgdw88ygzo4-6",
  "kind": "stream_clip",
  "status": "ready",
- "post_at": "2026-12-24T20:30:00+00:00",
+ "post_at": null,
  "slides": [],
  "title": "TUERCK'S LAST BATTLE",
  "video": "docs/media/pod-ytlgdw88ygzo4-6/clip.mp4",
@@ -30,9 +30,7 @@
  },
  "created": "2026-11-19T15:43:35.194479+00:00",
  "built": "2026-11-20T22:57:11.459521+00:00",
- "plan": {
-  "tiktok": "2026-12-24T20:30:00+00:00"
- },
+ "plan": {},
  "thumb": "docs/media/thumbs/pod-ytlgdw88ygzo4-6.jpg",
  "short": "docs/media/pod-ytlgdw88ygzo4-6/short.mp4",
  "short_len": 29.3,

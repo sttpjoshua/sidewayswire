@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-24",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "CHAMPION ON COMMENTARY",
  "video": "docs/media/pod-yt9lxrdzgctgm-24/clip.mp4",
@@ -29,10 +29,14 @@
   "start": 9276.4
  },
  "created": "2026-11-19T00:17:42.392130+00:00",
- "built": "2026-11-20T19:16:17.890959+00:00",
+ "built": "2026-11-21T11:55:32.170893+00:00",
  "thumb": "docs/media/thumbs/pod-yt9lxrdzgctgm-24.jpg",
  "short": "docs/media/pod-yt9lxrdzgctgm-24/short.mp4",
  "short_len": 29.3,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-24.mp4",
- "preview_of": "2026-11-20T19:16:17.890959+00:00"
+ "preview_of": "2026-11-20T19:16:17.890959+00:00",
+ "media": [
+  "docs/media/pod-yt9lxrdzgctgm-24/clip.mp4"
+ ],
+ "problems": []
 }

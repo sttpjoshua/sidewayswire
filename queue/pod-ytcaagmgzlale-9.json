@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-9",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "LONS IS ON A TEAR",
  "video": "docs/media/pod-ytcaagmgzlale-9/clip.mp4",
@@ -27,10 +27,14 @@
   "start": 541.07
  },
  "created": "2026-11-19T07:28:42.538398+00:00",
- "built": "2026-11-20T22:29:16.966666+00:00",
+ "built": "2026-11-21T11:55:32.441657+00:00",
  "thumb": "docs/media/thumbs/pod-ytcaagmgzlale-9.jpg",
  "short": "docs/media/pod-ytcaagmgzlale-9/short.mp4",
  "short_len": 13.2,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytcaagmgzlale-9.mp4",
- "preview_of": "2026-11-20T22:29:16.966666+00:00"
+ "preview_of": "2026-11-20T22:29:16.966666+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-9/clip.mp4"
+ ],
+ "problems": []
 }

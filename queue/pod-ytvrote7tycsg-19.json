@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-19",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "GO GO GADGET BUMPER",
  "video": "docs/media/pod-ytvrote7tycsg-19/clip.mp4",
@@ -29,10 +29,14 @@
   "start": 7269.37
  },
  "created": "2026-11-21T03:25:21.066383+00:00",
- "built": "2026-11-21T03:25:21.066387+00:00",
+ "built": "2026-11-21T11:55:33.240544+00:00",
  "thumb": "docs/media/thumbs/pod-ytvrote7tycsg-19.jpg",
  "short": "docs/media/pod-ytvrote7tycsg-19/short.mp4",
  "short_len": 25.1,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-19.mp4",
- "preview_of": "2026-11-21T03:25:21.066387+00:00"
+ "preview_of": "2026-11-21T03:25:21.066387+00:00",
+ "media": [
+  "docs/media/pod-ytvrote7tycsg-19/clip.mp4"
+ ],
+ "problems": []
 }

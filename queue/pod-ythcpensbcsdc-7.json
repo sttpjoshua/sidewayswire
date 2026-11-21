@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-7",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "MCKEEVER VS HABALI SPLIT",
  "video": "docs/media/pod-ythcpensbcsdc-7/clip.mp4",
@@ -29,9 +29,13 @@
   "start": 232.0
  },
  "created": "2026-11-19T12:52:12.555956+00:00",
- "built": "2026-11-20T22:52:26.438060+00:00",
+ "built": "2026-11-21T11:55:32.485987+00:00",
  "thumb": "docs/media/thumbs/pod-ythcpensbcsdc-7.jpg",
  "short_none": "split",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ythcpensbcsdc-7.mp4",
- "preview_of": "2026-11-20T22:52:26.438060+00:00"
+ "preview_of": "2026-11-20T22:52:26.438060+00:00",
+ "media": [
+  "docs/media/pod-ythcpensbcsdc-7/clip.mp4"
+ ],
+ "problems": []
 }

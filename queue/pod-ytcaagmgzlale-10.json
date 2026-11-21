@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-10",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "16 YEAR OLD WINS IN VEGAS",
  "video": "docs/media/pod-ytcaagmgzlale-10/clip.mp4",
@@ -30,10 +30,14 @@
   "start": 680.97
  },
  "created": "2026-11-19T07:30:09.683658+00:00",
- "built": "2026-11-20T22:30:27.641620+00:00",
+ "built": "2026-11-21T11:55:32.355091+00:00",
  "thumb": "docs/media/thumbs/pod-ytcaagmgzlale-10.jpg",
  "short": "docs/media/pod-ytcaagmgzlale-10/short.mp4",
  "short_len": 29.6,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytcaagmgzlale-10.mp4",
- "preview_of": "2026-11-20T22:30:27.641620+00:00"
+ "preview_of": "2026-11-20T22:30:27.641620+00:00",
+ "media": [
+  "docs/media/pod-ytcaagmgzlale-10/clip.mp4"
+ ],
+ "problems": []
 }

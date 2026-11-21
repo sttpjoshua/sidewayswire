@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "FIRST PODIUM FOR KESKIKORPI",
  "video": "docs/media/pod-ythcpensbcsdc-4/clip.mp4",
@@ -29,10 +29,14 @@
   "start": 306.5
  },
  "created": "2026-11-19T12:45:58.679707+00:00",
- "built": "2026-11-20T22:46:15.132410+00:00",
+ "built": "2026-11-21T11:55:32.463787+00:00",
  "thumb": "docs/media/thumbs/pod-ythcpensbcsdc-4.jpg",
  "short": "docs/media/pod-ythcpensbcsdc-4/short.mp4",
  "short_len": 29.3,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ythcpensbcsdc-4.mp4",
- "preview_of": "2026-11-20T22:46:15.132410+00:00"
+ "preview_of": "2026-11-20T22:46:15.132410+00:00",
+ "media": [
+  "docs/media/pod-ythcpensbcsdc-4/clip.mp4"
+ ],
+ "problems": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-45",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "HUGHES VS BEECHUM",
  "video": "docs/media/pod-ytrbtps1zxw4i-45/clip.mp4",
@@ -28,9 +28,13 @@
   "start": 5952.9
  },
  "created": "2026-11-20T05:34:19.286997+00:00",
- "built": "2026-11-21T03:01:09.902280+00:00",
+ "built": "2026-11-21T11:55:33.085076+00:00",
  "thumb": "docs/media/thumbs/pod-ytrbtps1zxw4i-45.jpg",
  "short_none": "split",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytrbtps1zxw4i-45.mp4",
- "preview_of": "2026-11-21T03:01:09.902280+00:00"
+ "preview_of": "2026-11-21T03:01:09.902280+00:00",
+ "media": [
+  "docs/media/pod-ytrbtps1zxw4i-45/clip.mp4"
+ ],
+ "problems": []
 }

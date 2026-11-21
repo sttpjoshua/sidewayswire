@@ -1,7 +1,7 @@
 {
  "id": "pod-ytbnnz6o9wkaq-1",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "SHANAHAN SAVES IT BACKWARDS",
  "video": "docs/media/pod-ytbnnz6o9wkaq-1/clip.mp4",
@@ -29,10 +29,14 @@
   "start": 114.44
  },
  "created": "2026-11-19T06:52:00.994852+00:00",
- "built": "2026-11-20T20:20:55.550466+00:00",
+ "built": "2026-11-21T11:55:32.333528+00:00",
  "thumb": "docs/media/thumbs/pod-ytbnnz6o9wkaq-1.jpg",
  "short": "docs/media/pod-ytbnnz6o9wkaq-1/short.mp4",
  "short_len": 29.3,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytbnnz6o9wkaq-1.mp4",
- "preview_of": "2026-11-20T20:20:55.550466+00:00"
+ "preview_of": "2026-11-20T20:20:55.550466+00:00",
+ "media": [
+  "docs/media/pod-ytbnnz6o9wkaq-1/clip.mp4"
+ ],
+ "problems": []
 }
