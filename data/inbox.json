@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:11:30.469811+00:00",
+ "updated": "2026-11-21T19:44:20.361941+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -1640,8 +1640,9 @@
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": false,
-   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drift Masters",

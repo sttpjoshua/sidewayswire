@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-21T19:11:37.093434+00:00",
+ "updated": "2026-11-21T19:44:20.571383+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
   "check": 241,
   "posted": 3
  },
- "collected": "2026-11-21T19:11:30.469811+00:00",
+ "collected": "2026-11-21T19:44:20.361941+00:00",
  "instagram": false,
  "sources": [
   {
@@ -117,8 +117,9 @@
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": false,
-   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drift Masters",
