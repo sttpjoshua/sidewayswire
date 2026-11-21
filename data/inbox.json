@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:27:14.002311+00:00",
+ "updated": "2026-11-21T19:11:30.469811+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -26,6 +26,25 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "04caa32ddf3ccd19",
+   "title": "EXPLORING THE CUSCO RACING GRAVEYARD | Japan Trip 🇯🇵",
+   "series": "FD + DM",
+   "buzz": 1,
+   "first_seen": "2026-11-21T19:10:59.552021+00:00",
+   "published": "2026-11-21T17:00:16+00:00",
+   "items": [
+    {
+     "source": "Conor Shanahan",
+     "title": "EXPLORING THE CUSCO RACING GRAVEYARD | Japan Trip 🇯🇵",
+     "url": "https://www.youtube.com/watch?v=9ujKUWx23PQ",
+     "kind": "video",
+     "published": "2026-11-21T17:00:16+00:00",
+     "media_url": "https://i2.ytimg.com/vi/9ujKUWx23PQ/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -980,25 +999,6 @@
    ]
   },
   {
-   "id": "474f95f70a6c3703",
-   "title": "Non-stop, full throttle!",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:06.084860+00:00",
-   "published": "2026-11-11T13:30:24+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "Non-stop, full throttle!",
-     "url": "https://www.youtube.com/shorts/W_lb83JaKN8",
-     "kind": "video",
-     "published": "2026-11-11T13:30:24+00:00",
-     "media_url": "https://i4.ytimg.com/vi/W_lb83JaKN8/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "08e6b3f199f42ede",
    "title": "飲食ブースでは選手とのコラボフードを実施",
    "series": "D1GP",
@@ -1550,14 +1550,14 @@
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -1640,9 +1640,8 @@
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
   },
   {
    "source": "Drift Masters",
@@ -1662,7 +1661,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -1676,7 +1675,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "how": "feed"
   },
   {
