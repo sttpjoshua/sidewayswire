@@ -1124,10 +1124,14 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-35r2-64072-64470.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-35/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T04:55:54.009977+00:00"
  },
  {
   "start": 4163.0,
@@ -1166,10 +1170,14 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-36r2-42640-43260.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-36/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T04:58:52.472349+00:00"
  },
  {
   "start": 4892.0,
@@ -1208,12 +1216,16 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
   "wait_name": "v2-ytvrote7tycsg-37r2-49980-50384.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-37/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T05:01:32.502467+00:00"
  },
  {
   "start": 6081.5,
@@ -1252,12 +1264,16 @@
    }
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify",
   "wait_name": "v2-ytvrote7tycsg-38r2-62104-62490.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-38/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-21T05:04:00.338340+00:00"
  },
  {
   "start": 5559.0,
