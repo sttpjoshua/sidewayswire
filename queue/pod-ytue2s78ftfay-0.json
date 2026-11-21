@@ -1,7 +1,7 @@
 {
  "id": "pod-ytue2s78ftfay-0",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "FINAL AT MONDELLO",
  "video": "docs/media/pod-ytue2s78ftfay-0/clip.mp4",
@@ -29,14 +29,5 @@
   "start": 323.88
  },
  "created": "2026-11-20T06:13:56.801497+00:00",
- "built": "2026-11-20T07:02:33.558995+00:00",
- "media": [
-  "docs/media/pod-ytue2s78ftfay-0/clip.mp4"
- ],
- "problems": [],
- "thumb": "docs/media/thumbs/pod-ytue2s78ftfay-0.jpg",
- "short": "docs/media/pod-ytue2s78ftfay-0/short.mp4",
- "short_len": 29.2,
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytue2s78ftfay-0.mp4",
- "preview_of": "2026-11-20T07:02:33.558995+00:00"
+ "built": "2026-11-21T03:10:17.408318+00:00"
 }

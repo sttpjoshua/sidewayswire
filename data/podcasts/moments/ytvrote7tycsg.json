@@ -76,11 +76,15 @@
    "why": "enthousiaste commentator"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-2-12943-13483.mp4",
   "run_end": 1342.34,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1332.74, \"start\": 1330.5, \"text\": \"APPLES TO APPLES, NO CONTEST\", \"why\": \"enthousiaste commentator\"}",
+  "made": "2026-11-21T03:11:37.740400+00:00"
  },
  {
   "start": 1456.56,
@@ -161,13 +165,17 @@
    "why": "komisch commentaar"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Derek Madison / D-Mads)",
   "wait_name": "v2-ytvrote7tycsg-5-19955-20663.mp4",
   "run_end": 2045.36,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2029.06, \"start\": 2026.6, \"text\": \"HE'S GOING THE OTHER WAY!\", \"why\": \"komisch commentaar\"}",
+  "made": "2026-11-21T03:13:15.898385+00:00"
  },
  {
   "start": 2649.24,
@@ -275,13 +283,17 @@
    "why": "lof voor de rookie"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "check": true,
   "check_reason": "Spelling of driver name from speech recognition, please verify (Cody Buchanan)",
   "wait_name": "v2-ytvrote7tycsg-9-37302-38039.mp4",
   "run_end": 3797.87,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3797.87, \"start\": 3795.87, \"text\": \"HE'S SHUTTING UP A LOT OF PEOPLE\", \"why\": \"lof voor de rookie\"}",
+  "made": "2026-11-21T03:15:04.657117+00:00"
  },
  {
   "start": 3932.87,
