@@ -316,11 +316,15 @@
    "why": "de jurybeslissing"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-10-39329-40031.mp4",
   "run_end": 3979.77,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3946.93, \"start\": 3944.51, \"text\": \"THE JUDGES CAN'T SPLIT THEM\", \"why\": \"de jurybeslissing\"}",
+  "made": "2026-11-21T03:16:50.255788+00:00"
  },
  {
   "start": 4157.15,
@@ -343,11 +347,15 @@
    "why": "grappige commentaarregel"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-11-41572-42308.mp4",
   "run_end": 4224.83,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4177.31, \"start\": 4173.65, \"text\": \"THE TINIEST BUMPER ON THE GRID\", \"why\": \"grappige commentaarregel\"}",
+  "made": "2026-11-21T03:18:43.861688+00:00"
  },
  {
   "start": 4890.57,
@@ -401,11 +409,15 @@
    "why": "rookie laat zich gelden"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-13-52459-53133.mp4",
   "run_end": 5307.33,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5272.55, \"start\": 5269.75, \"text\": \"GUESS WHO IS HERE\", \"why\": \"rookie laat zich gelden\"}",
+  "made": "2026-11-21T03:20:27.497368+00:00"
  },
  {
   "start": 5557.63,
@@ -428,11 +440,15 @@
    "why": "het contact"
   },
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytvrote7tycsg-14-55576-56251.mp4",
   "run_end": 5619.09,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytvrote7tycsg-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5585.21, \"start\": 5583.29, \"text\": \"RIGHT AT THE END\", \"why\": \"het contact\"}",
+  "made": "2026-11-21T03:22:10.101030+00:00"
  },
  {
   "start": 5824.05,
