@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T10:21:23.763725+00:00",
+ "updated": "2026-11-22T10:23:07.343277+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
   "check": 241,
   "posted": 3
  },
- "collected": "2026-11-22T06:34:21.434473+00:00",
+ "collected": "2026-11-22T10:22:57.823924+00:00",
  "instagram": false,
  "sources": [
   {
@@ -34,7 +34,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 3,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -139,7 +139,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 3,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -153,7 +153,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "how": "feed"
   },
   {
