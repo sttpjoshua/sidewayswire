@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-22T01:16:19.212888+00:00",
+ "updated": "2026-11-22T06:34:21.584322+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
   "check": 241,
   "posted": 3
  },
- "collected": "2026-11-22T01:16:12.797654+00:00",
+ "collected": "2026-11-22T06:34:21.434473+00:00",
  "instagram": false,
  "sources": [
   {
@@ -41,7 +41,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -1612,6 +1612,26 @@
     "kind": "vlog",
     "credit": "@conorshanahan79",
     "event": "EXPLORING THE CUSCO RACING GRAVEYARD | J",
+    "has_transcript": true,
+    "moments": []
+   },
+   {
+    "id": "ytbz04bvcy3y",
+    "podcast": "TJ Hunt",
+    "title": "World's Largest Ferrari Collector Appraises my Ferrari 488 GT3...",
+    "published": "2026-11-21",
+    "status": "transcribed",
+    "youtube": "bz04B-vCY3Y",
+    "audio": null,
+    "link": null,
+    "art": null,
+    "seconds": 1414.0,
+    "error": null,
+    "transcribed": "2026-11-22T02:48:42.945702+00:00",
+    "tries": null,
+    "kind": "vlog",
+    "credit": "@tjhunt_",
+    "event": "WORLD'S LARGEST FERRARI COLLECTOR APPRAI",
     "has_transcript": true,
     "moments": []
    },
@@ -6687,33 +6707,13 @@
       "split": false
      }
     ]
-   },
-   {
-    "id": "ytxkhxep2ts68",
-    "podcast": "TJ Hunt",
-    "title": "SURPRISING SABRINA WITH NEW WHEELS!",
-    "published": "2026-10-14",
-    "status": "transcribed",
-    "youtube": "XKhXEp2Ts68",
-    "audio": null,
-    "link": null,
-    "art": null,
-    "seconds": 1364.0,
-    "error": null,
-    "transcribed": "2026-11-19T19:28:39.013783+00:00",
-    "tries": null,
-    "kind": "vlog",
-    "credit": "",
-    "event": "SURPRISING SABRINA WITH NEW WHEELS!",
-    "has_transcript": true,
-    "moments": []
    }
   ]
  },
  "streams": {
-  "total": 164,
-  "transcribed": 164,
-  "moments": 164,
+  "total": 165,
+  "transcribed": 165,
+  "moments": 165,
   "next": null,
   "series": {
    "Jimmy Oakes": {
@@ -6724,15 +6724,15 @@
     "total": 13,
     "transcribed": 13
    },
+   "TJ Hunt": {
+    "total": 14,
+    "transcribed": 14
+   },
    "Collete Davis": {
     "total": 13,
     "transcribed": 13
    },
    "Adam LZ": {
-    "total": 13,
-    "transcribed": 13
-   },
-   "TJ Hunt": {
     "total": 13,
     "transcribed": 13
    },
