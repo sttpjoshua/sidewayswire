@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:07:26.403976+00:00",
+ "updated": "2026-11-22T19:33:41.039248+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -714,6 +714,25 @@
    ]
   },
   {
+   "id": "8cddbc754a754ad1",
+   "title": "NASCAR Cup Series Veteran Gets Shaken Up as Cleetus McFarland Unleashes 1,000-HP Cadillac Drift",
+   "series": "FD + DM",
+   "buzz": 1,
+   "first_seen": "2026-11-22T19:33:40.582765+00:00",
+   "published": "2026-11-14T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Heavy.com",
+     "title": "NASCAR Cup Series Veteran Gets Shaken Up as Cleetus McFarland Unleashes 1,000-HP Cadillac Drift",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRDV5czB3RGluSjJvNGpaYU4ySWk0UUJORER0MmZfLVl2T2pSM1dtajQ0OFRMLUtkRDQyLW84V3BzbU5NaDFaelhEbDQ1WExCV2FBbXg3djFvVUg1b1NtUVJrQ0JBdkdkaWV2bVRqc19yQTY5T0ZxSU1FQy1Va1hBZWpnM2pEVTBhcmVjOXRrQkZuS3hhWElvcGlPdENhMlVrcU1ncFRjWWxneHk4a3Zib2lmZ0JFU2hVeFRSVjNKeXZuVUVYaHc?oc=5",
+     "kind": "article",
+     "published": "2026-11-14T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "id": "5bc8f11087d78f01",
    "title": "Quick overview on how coilovers are built #automobile #mechanic #cartok #garage #drift",
    "series": "FD",
@@ -1090,25 +1109,6 @@
      "published": "2026-11-10T03:42:04+00:00",
      "media_url": null,
      "media_type": null
-    }
-   ]
-  },
-  {
-   "id": "9d1ded17fc2d3722",
-   "title": "Fantastic from every angle 😍",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:06.089501+00:00",
-   "published": "2026-11-09T14:30:26+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "Fantastic from every angle 😍",
-     "url": "https://www.youtube.com/shorts/SFWj-Z3H07g",
-     "kind": "video",
-     "published": "2026-11-09T14:30:26+00:00",
-     "media_url": "https://i4.ytimg.com/vi/SFWj-Z3H07g/hqdefault.jpg",
-     "media_type": "VIDEO"
     }
    ]
   },
@@ -1669,7 +1669,7 @@
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "how": "feed"
   },
   {
