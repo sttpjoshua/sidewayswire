@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:00:46.359385+00:00",
+ "updated": "2026-11-22T23:55:46.565574+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -252,6 +252,25 @@
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU0V0ZUExb2dqdVhlX0xlZzlVVmdrdGkzTUNGQ084U09sOXVkSmR4WDB0Z0JKaTNITjNsWlFDM1NSZ3FTLUlyNGFmUFR6Q2RLbjU5THFhX2RHb09qT1hfVDhvZEhTYTV0Q2J1TVkyRWZidXlpZnN6cklxQ2lBUHJNRGxEbXdaQzlLLUxFckQ3SlhxRVZsdWc?oc=5",
      "kind": "article",
      "published": "2026-11-19T05:47:01+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "eb0bea27757a2ba6",
+   "title": "Not So 'Easy Peasy'. Learning How to Use Mustang's Drift Brake",
+   "series": "FD",
+   "buzz": 1,
+   "first_seen": "2026-11-22T23:55:36.627235+00:00",
+   "published": "2026-11-19T04:37:34+00:00",
+   "items": [
+    {
+     "source": "Google News · Ford From the Road",
+     "title": "Not So 'Easy Peasy'. Learning How to Use Mustang's Drift Brake",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOc2JmbG5vNURxSEVROHNIMVF2MmRYUWY4VktZQUZ0T0ZQakM5SVE2MHhRVkVQYk1KdmhidkdrQWNYMWtDeE42a0RkS1YybHNiRzZMakY2NU55RzJ2Y2drQVY2dTRXMkFpU1RRengzQTRhVkFJNkJvNUF4OXRrdHBLcFczZ3BuRDlGbnpza1gxYw?oc=5",
+     "kind": "article",
+     "published": "2026-11-19T04:37:34+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -1113,25 +1132,6 @@
    ]
   },
   {
-   "id": "40cc9a66c40f0135",
-   "title": "High-speed battles on a fast track 🏎️💥",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:06.091277+00:00",
-   "published": "2026-11-09T09:30:47+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "High-speed battles on a fast track 🏎️💥",
-     "url": "https://www.youtube.com/shorts/wt6feI5gi-Q",
-     "kind": "video",
-     "published": "2026-11-09T09:30:47+00:00",
-     "media_url": "https://i4.ytimg.com/vi/wt6feI5gi-Q/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "ac81cc5bc6b65ff6",
    "title": "【特別ゲスト】土屋圭市氏のサイン会決定！！",
    "series": "D1GP",
@@ -1557,7 +1557,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -1676,7 +1676,7 @@
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
