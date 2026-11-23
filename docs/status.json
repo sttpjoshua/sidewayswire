@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T20:37:43.620168+00:00",
+ "updated": "2026-11-23T20:39:23.447336+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
   "check": 241,
   "posted": 3
  },
- "collected": "2026-11-23T12:27:25.070569+00:00",
+ "collected": "2026-11-23T20:39:13.671837+00:00",
  "instagram": false,
  "sources": [
   {
@@ -41,7 +41,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -111,14 +111,14 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "how": "page"
   },
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -305,6 +305,23 @@
      "url": "https://d1gp.co.jp/27535/",
      "kind": "article",
      "published": "2026-11-20T00:33:26+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Oman s King of Drift",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-20T00:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Red Bull",
+     "title": "Oman s King of Drift",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tS2ZRcTlqR0NuTUhnWVNKeFpsdUxFZ240RlplTW9NUG1kMDQ2U3VpVUd6UThJQ1o5OE9wTkh4dHAzTGhuSU4tS0Z1ZFFuOVBFaXR4aUJ3ZmVqWUk1aE0waG1nbEpnODVLNVE?oc=5",
+     "kind": "article",
+     "published": "2026-11-20T00:00:00+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -1208,23 +1225,6 @@
      "published": "2026-11-09T07:41:01+00:00",
      "media_url": null,
      "media_type": null
-    }
-   ]
-  },
-  {
-   "title": "...and I'm not planning to stop! 😍",
-   "series": "DM",
-   "buzz": 1,
-   "published": "2026-11-07T14:35:18+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "...and I'm not planning to stop! 😍",
-     "url": "https://www.youtube.com/shorts/4ZMseFJrwqg",
-     "kind": "video",
-     "published": "2026-11-07T14:35:18+00:00",
-     "media_url": "https://i1.ytimg.com/vi/4ZMseFJrwqg/hqdefault.jpg",
-     "media_type": "VIDEO"
     }
    ]
   },
