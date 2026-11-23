@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T20:39:23.447336+00:00",
+ "updated": "2026-11-23T21:45:41.618156+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
   "check": 241,
   "posted": 3
  },
- "collected": "2026-11-23T20:39:13.671837+00:00",
+ "collected": "2026-11-23T21:45:41.440450+00:00",
  "instagram": false,
  "sources": [
   {
@@ -19,30 +19,26 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drif"
   },
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=e"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&h"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&h"
   },
   {
    "source": "Formula DRIFT",
@@ -118,7 +114,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -131,37 +127,32 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20wh"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": true,
-   "items": 4,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20liver"
   },
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%"
   },
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn"
   },
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Pr"
   }
  ],
  "inbox": [
@@ -188,6 +179,23 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "The Flooding Has Gotten MUCH Worse...",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-23T21:18:54+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "The Flooding Has Gotten MUCH Worse...",
+     "url": "https://www.youtube.com/watch?v=Cfi9qIdzFeY",
+     "kind": "video",
+     "published": "2026-11-23T21:18:54+00:00",
+     "media_url": "https://i4.ytimg.com/vi/Cfi9qIdzFeY/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -1275,23 +1283,6 @@
      "kind": "video",
      "published": "2026-11-06T20:26:48+00:00",
      "media_url": "https://i2.ytimg.com/vi/m5jsytyfiAk/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "The weekend starts right NOW! 🔥😎",
-   "series": "DM",
-   "buzz": 1,
-   "published": "2026-11-06T17:20:24+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "The weekend starts right NOW! 🔥😎",
-     "url": "https://www.youtube.com/shorts/iHEYzw_1NLY",
-     "kind": "video",
-     "published": "2026-11-06T17:20:24+00:00",
-     "media_url": "https://i2.ytimg.com/vi/iHEYzw_1NLY/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
