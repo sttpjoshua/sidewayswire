@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:39:39.421336+00:00",
+ "updated": "2026-11-23T08:18:43.799894+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -1634,15 +1634,14 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "how": "page"
   },
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
   },
   {
    "source": "Drift Masters",
