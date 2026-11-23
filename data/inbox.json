@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:43:59.693050+00:00",
+ "updated": "2026-11-23T12:27:25.070569+00:00",
  "stories": [
   {
    "id": "a76133a089c40ddf",
@@ -26,6 +26,25 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "39eb2d07293f9bfa",
+   "title": "A battle to remember! 🔥",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-23T12:27:17.167196+00:00",
+   "published": "2026-11-23T11:35:19+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "A battle to remember! 🔥",
+     "url": "https://www.youtube.com/shorts/3yWbe-Ls6Eg",
+     "kind": "video",
+     "published": "2026-11-23T11:35:19+00:00",
+     "media_url": "https://i4.ytimg.com/vi/3yWbe-Ls6Eg/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -1151,25 +1170,6 @@
    ]
   },
   {
-   "id": "a553a4c0e85fea4e",
-   "title": "And most importantly... build a life that's yours! ❤️‍🔥✨",
-   "series": "DM",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:06.093331+00:00",
-   "published": "2026-11-08T15:35:36+00:00",
-   "items": [
-    {
-     "source": "Drift Masters",
-     "title": "And most importantly... build a life that's yours! ❤️‍🔥✨",
-     "url": "https://www.youtube.com/shorts/8In1Uxye2c4",
-     "kind": "video",
-     "published": "2026-11-08T15:35:36+00:00",
-     "media_url": "https://i1.ytimg.com/vi/8In1Uxye2c4/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "0d8b2722cd737332",
    "title": "...and I'm not planning to stop! 😍",
    "series": "DM",
@@ -1634,7 +1634,7 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "how": "page"
   },
   {
