@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:53:38.281118+00:00",
+ "updated": "2026-11-24T23:55:19.257658+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
@@ -7,7 +7,7 @@
   "skipped": 26,
   "posted": 3
  },
- "collected": "2026-11-24T18:29:04.227499+00:00",
+ "collected": "2026-11-24T23:55:12.631500+00:00",
  "instagram": false,
  "sources": [
   {
@@ -35,7 +35,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "how": "feed"
   },
   {
@@ -118,8 +118,9 @@
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": false,
-   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Drift Masters",
@@ -146,7 +147,7 @@
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -168,8 +169,8 @@
   {
    "title": "FORMULA DRIFT ANNOUNCES 2027 SCHEDULE WITH EXCITING VENUE UPDATES",
    "series": "FD",
-   "buzz": 3,
-   "published": "2026-11-24T15:27:00+00:00",
+   "buzz": 4,
+   "published": "2026-11-24T18:46:14+00:00",
    "items": [
     {
      "source": "Formula DRIFT",
@@ -195,6 +196,15 @@
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTWpoZS1CeDZobTJubjdpRFpnbDQyZ25LTm5hTHhoZkJRenV3WUhtclozTFZJalN6U3FtcnpIbWV5RjRqVzkxdHRCdWpZaDlTYVF3TWNyOW5FLXVyUDFEY3lLZTUyU3pzWTJ5Y1JOcUZHQjRPZnlSS3p6cU5sQnVhbmhZN2c5aFFNYlN0a3J0UnBURWNGVW5zU3Fn?oc=5",
      "kind": "article",
      "published": "2026-11-24T15:27:00+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "Google News · Las Vegas Motor Speedway",
+     "title": "Formula DRIFT Announces 2027 Schedule With Exciting Venue Updates",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOEwtdTN1NkgwV1pjM1dDYmU4U0VPR2NqVFhfMFN1cGU5YXFNcVNmY0NQQ2txRGxYOUpNY0hPRkVWeHo5UlplMEJmdlk1bDRCS3N5VW0wNjNrZW4xT2ctV29WWFBYZ1BDamhwSXpiWHJGMDZZR0ItamlyQkFpOE5aY3pMMUhLSXhmZjRoLVNTcEh0VW5sRXJpTnlDOUl0MXVQbWJmOA?oc=5",
+     "kind": "article",
+     "published": "2026-11-24T18:46:14+00:00",
      "media_url": null,
      "media_type": null
     }
