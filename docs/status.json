@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:35:46.652733+00:00",
+ "updated": "2026-11-24T13:37:29.038553+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
@@ -7,7 +7,7 @@
   "skipped": 26,
   "posted": 3
  },
- "collected": "2026-11-24T05:37:00.998577+00:00",
+ "collected": "2026-11-24T13:37:21.201644+00:00",
  "instagram": false,
  "sources": [
   {
@@ -28,7 +28,7 @@
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -140,7 +140,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "how": "feed"
   },
   {
