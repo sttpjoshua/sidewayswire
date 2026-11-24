@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T02:11:04.606778+00:00",
+ "updated": "2026-11-24T02:12:33.671675+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
   "check": 241,
   "posted": 3
  },
- "collected": "2026-11-23T21:45:41.440450+00:00",
+ "collected": "2026-11-24T02:12:30.458005+00:00",
  "instagram": false,
  "sources": [
   {
@@ -19,26 +19,30 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drif"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=e"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&h"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&h"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
@@ -127,32 +131,37 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20wh"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20liver"
+   "ok": true,
+   "items": 4,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%"
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Pr"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   }
  ],
  "inbox": [
