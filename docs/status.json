@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:26:36.976184+00:00",
+ "updated": "2026-11-24T18:29:09.145053+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
@@ -7,7 +7,7 @@
   "skipped": 26,
   "posted": 3
  },
- "collected": "2026-11-24T16:24:15.118883+00:00",
+ "collected": "2026-11-24T18:29:04.227499+00:00",
  "instagram": false,
  "sources": [
   {
@@ -112,15 +112,14 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "how": "page"
   },
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='gatebil.no', port=443): Read timed out. (read timeout=25)"
   },
   {
    "source": "Drift Masters",
@@ -140,7 +139,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 3,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -224,6 +223,23 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "🔥 Moments like these... coming soon! 🏎️💥👀",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-24T16:35:19+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "🔥 Moments like these... coming soon! 🏎️💥👀",
+     "url": "https://www.youtube.com/shorts/LMnfDVcWhpk",
+     "kind": "video",
+     "published": "2026-11-24T16:35:19+00:00",
+     "media_url": "https://i1.ytimg.com/vi/LMnfDVcWhpk/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -1039,23 +1055,6 @@
      "kind": "video",
      "published": "2026-11-13T20:00:12+00:00",
      "media_url": "https://i2.ytimg.com/vi/UFyDI5Fio_k/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Kicking off matsuri with a proper can’t see a damn through this windshield rip on north course.",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-13T15:46:50+00:00",
-   "items": [
-    {
-     "source": "Matt Field",
-     "title": "Kicking off matsuri with a proper can’t see a damn through this windshield rip on north course.",
-     "url": "https://www.youtube.com/shorts/c5BPfMU2wo0",
-     "kind": "video",
-     "published": "2026-11-13T15:46:50+00:00",
-     "media_url": "https://i4.ytimg.com/vi/c5BPfMU2wo0/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
