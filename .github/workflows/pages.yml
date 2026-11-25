@@ -25,3 +25,10 @@ jobs:
         with: { path: docs }
       - id: d
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      # 25 nov: about 1 in 3 deploys failed on "Fetching artifact metadata failed" (a GitHub hiccup).
+      # One more try after a short wait instead of a red run and an old dashboard.
+      - if: steps.d.outcome == 'failure'
+        run: sleep 45
+      - if: steps.d.outcome == 'failure'
+        uses: actions/deploy-pages@v4

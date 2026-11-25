@@ -68,6 +68,41 @@ def _download_video(youtube_id: str, start: float, end: float, out: Path) -> boo
         return False
 
 
+def _pcm(args: list[str], sr: int = 4000):
+    import numpy as np
+    r = subprocess.run(["ffmpeg", "-v", "error", *args, "-ac", "1", "-ar", str(sr), "-f", "s16le", "-"],
+                       capture_output=True, timeout=300)
+    return np.frombuffer(r.stdout, dtype=np.int16).astype(np.float32)
+
+
+def fine_offset(video: Path, audio_src: str, start: float, length: float, search: float = 3.0) -> float | None:
+    """Joshua (25 nov): pictures must be in sync. The video piece was cut by the Mac on matching words,
+    which can be a few tenths off. This compares the sound of the piece with the podcast sound and returns
+    how many seconds the piece runs ahead (+) or behind (-) the podcast time `start`; None if unsure."""
+    import numpy as np
+    sr, n = 4000, min(length, 20.0)
+    try:
+        v = _pcm(["-i", str(video), "-t", f"{n:.2f}"], sr)
+        a0 = max(0.0, start - search)
+        p = _pcm(["-ss", f"{a0:.2f}", "-t", f"{n + 2 * search:.2f}", "-i", audio_src], sr)
+    except Exception:
+        return None
+    if len(v) < sr * 4 or len(p) < len(v):
+        return None
+    v = v - v.mean()
+    vn = float(np.sqrt((v * v).sum()))
+    if vn == 0:
+        return None
+    m = 1 << int(np.ceil(np.log2(len(p) + len(v))))
+    corr = np.fft.irfft(np.fft.rfft(p, m) * np.conj(np.fft.rfft(v, m)), m)[:len(p) - len(v) + 1]
+    c = np.concatenate([[0.0], np.cumsum(p.astype(np.float64) ** 2)])
+    ncc = corr / (np.sqrt(np.maximum(c[len(v):] - c[:-len(v)], 1e-9)) * vn)
+    i = int(np.argmax(ncc))
+    if ncc[i] < 0.45:
+        return None                  # different sound (music claim, other mix): do not guess
+    return round(a0 + i / sr - start, 3)
+
+
 def _render(ep: dict, transcript: dict, moment: dict, out: str, photo: str | None = None,
             allow_video: bool = False, video_src: Path | str | None = None, src_offset: float = 0.0,
             hook_text: str | None = None) -> dict:
@@ -84,6 +119,12 @@ def _render(ep: dict, transcript: dict, moment: dict, out: str, photo: str | Non
             if _download_video(ep["youtube"], start, end, v):
                 video = v
         mode = "video" if video else "audiogram"
+        shift = 0.0
+        if video and ep.get("audio") and ep.get("kind") not in ("stream", "vlog"):
+            off = fine_offset(video, ep["audio"], start - src_offset, length + src_offset)  # video 0 = podcast start - src_offset
+            if off is not None and 0.08 <= abs(off) <= 3.0:
+                shift = off               # captions (and podcast sound) follow the picture
+                caps = [(max(0.0, a - shift), max(0.0, b - shift), t) for a, b, t in caps]
         data = {"w": W, "h": H, "bg": "transparent", "podcast": ep["podcast"], "guest": moment.get("guest", ""),
                 "topic": moment.get("topic"), "kind": moment.get("kind", "moment"),
                 "credit": moment.get("credit") or ep.get("credit"), "audiogram": mode == "audiogram", "photo": photo,
@@ -114,7 +155,7 @@ def _render(ep: dict, transcript: dict, moment: dict, out: str, photo: str | Non
             audio = "0:a"
             if ep.get("audio") and ep.get("kind") != "stream" and _silent(video):
                 # YouTube muted this part (music claim): use the podcast sound instead
-                inputs += ["-ss", f"{start:.2f}", "-t", f"{length:.2f}", "-i", ep["audio"]]
+                inputs += ["-ss", f"{start + shift:.2f}", "-t", f"{length:.2f}", "-i", ep["audio"]]
                 audio = "1:a"
             cap_y = 1180
         else:
@@ -165,7 +206,7 @@ def _render(ep: dict, transcript: dict, moment: dict, out: str, photo: str | Non
         _ff([*inputs, "-filter_complex", ";".join(filt), "-map", "[v]", "-map", "[a]",
              "-t", f"{length:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
              "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out])
-    return {"mode": mode, "out": out, "captions": len(caps)}
+    return {"mode": mode, "out": out, "captions": len(caps), "sync_shift": round(shift, 2)}
 
 
 def make_clip(ep: dict, transcript: dict, moment: dict, out: str, photo: str | None = None,

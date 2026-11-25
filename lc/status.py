@@ -84,6 +84,15 @@ def _replies() -> list[dict]:
         return []
 
 
+def _names(posts: list[dict]) -> list[dict]:
+    try:
+        from . import handles
+        return handles.open_names(posts)
+    except Exception as e:
+        print("names:", e)
+        return []
+
+
 def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> dict:
     posts = q.load(folder=folder)
     inbox = ROOT / "data" / "inbox.json"
@@ -117,6 +126,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
                                                  "title": clip_title(p), "photo": photo_info(p)}
                   for p in shown_posts(posts)],
         "replies": _replies(),
+        "names": _names(posts),
         "channels": json.loads((ROOT / "data" / "channels.json").read_text()) if (ROOT / "data" / "channels.json").exists() else {},
     }
     out.write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")

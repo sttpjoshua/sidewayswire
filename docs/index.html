@@ -148,6 +148,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <a href="#beoordelen" data-s="beoordelen" data-n="beoordelen">BEOORDELEN <span class="cnt" id="c-rev"></span></a>
   <a href="#planning" data-s="planning" data-n="kalender">KALENDER</a>
   <a href="#clips/live" data-s="clips" data-n="bieb">BIBLIOTHEEK</a>
+  <a href="#tags" data-s="tags" data-n="tags">TAGS <span class="cnt" id="c-tags"></span></a>
   <a href="#tiktok" data-s="tiktok" data-n="tiktok">TIKTOK <span class="cnt" id="c-tt"></span></a>
   <a href="#stats" data-s="stats" data-n="stats">STATISTIEKEN</a>
   <a href="#kanalen" data-s="kanalen" data-n="inst">INSTELLINGEN</a>
@@ -166,6 +167,11 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
     <div><h2>WACHT OP JOU <small><a href="#beoordelen">alles bekijken</a></small></h2><div class="list" id="ov-wait"></div>
          <h2>NAAR LIVEGANG</h2><div class="check" id="setup"></div></div>
   </div>
+</section>
+
+<section id="s-tags">
+  <h1>TAGS</h1><div class="sub">Iedereen die we taggen staat in één lijst. Hier staan alleen de namen die nog posts tegenhouden, de meeste eerst. Eén keer invullen en alle posts met die naam worden bijgewerkt; posts die alleen op de spelling van een naam wachtten, gaan daarna vanzelf door.</div>
+  <div id="tags-list"></div>
 </section>
 
 <section id="s-tiktok">
@@ -378,6 +384,32 @@ function drawTikTokPage(){drawTikTok();const R=ttReady(),now=new Date().toISOStr
 document.addEventListener("click",async e=>{const c=e.target.closest("[data-ttc],[data-ttd]");if(!c)return;const card=c.closest("[data-tt]"),id=card.dataset.tt;
   if(c.hasAttribute("data-ttc")){const t=card.querySelector("textarea");try{await navigator.clipboard.writeText(t.value)}catch(x){t.select();document.execCommand("copy")}toast("Tekst gekopieerd. Plak hem in TikTok.");return}
   c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTokPage();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
+// ---------- tags: één lijst van iedereen (lc/handles.py, data/sources.csv + data/handles_manual.json) ----------
+const openNames=()=>(S.names||[]).filter(n=>!TAGDONE[n.name]);const TAGDONE={};
+function drawTagCount(){const n=openNames().reduce((a,x)=>a+x.posts,0);document.getElementById("c-tags").textContent=openNames().length||""}
+function drawTags(){drawTagCount();const L=openNames(),el=document.getElementById("tags-list");
+  if(!L.length){el.innerHTML=`<div class="empty2">Geen namen meer die posts tegenhouden.</div>`;return}
+  el.innerHTML=`<div class="replies">${L.map(n=>`<div class="rp" data-tag="${esc(n.name)}">
+    <div class="row" style="gap:8px;align-items:baseline"><b style="color:#fff;font-size:16px">${esc(n.name)}</b>${n.series?`<span class="tag">${esc(n.series)}</span>`:""}<span class="muted" style="margin-left:auto">${n.posts} post${n.posts>1?"s":""} wachten</span></div>
+    ${n.known&&n.handle?`<p class="muted" style="margin:6px 0">Bekend met <b>${esc(n.handle)}</b>, maar nog niet nagekeken. <a href="https://www.instagram.com/${esc(n.handle.replace(/^@/,""))}/" target="_blank">profiel openen ↗</a></p>`:""}
+    ${(n.suggest||[]).length?`<p class="muted" style="margin:6px 0">Bedoelen we iemand die we al kennen?</p><div class="row" style="gap:6px;flex-wrap:wrap">${n.suggest.map(x=>`<button class="btn" data-tg="=${esc(x)}">IS ${esc(x.toUpperCase())}</button>`).join("")}</div>`:""}
+    <div class="row" style="gap:8px;margin-top:8px;flex-wrap:wrap">
+      ${n.known&&n.handle?`<button class="btn g" data-tg="${esc(n.handle)}">KLOPT, ${esc(n.handle.toUpperCase())}</button>`:""}
+      <input data-tgi placeholder="@instagramnaam" style="flex:1;min-width:160px"><button class="btn" data-tg="input">OPSLAAN</button>
+      <button class="btn" data-tg="-">GEEN INSTAGRAM</button>
+      <a class="btn" href="https://www.instagram.com/explore/search/keyword/?q=${encodeURIComponent(n.name)}" target="_blank">ZOEKEN ↗</a></div></div>`).join("")}</div>`}
+async function saveManual(name,val){const path="/contents/data/handles_manual.json";
+  for(let k=0;k<2;k++){const f=await gh(`${path}?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));d[name]=val;
+    try{await gh(path,{method:"PUT",body:JSON.stringify({message:`dashboard: tag ${name}`,content:b64(JSON.stringify(d,null,1)),sha:f.sha,branch:"main"})});break}catch(e){if(k||!/409|422/.test(String(e)))throw e}}
+  try{await gh(`/actions/workflows/clips.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main"})})}catch(e){}}
+document.addEventListener("click",async e=>{const b=e.target.closest("[data-tg]");if(!b)return;const card=b.closest("[data-tag]"),name=card.dataset.tag;
+  let v=b.dataset.tg;if(v==="input"){v=card.querySelector("[data-tgi]").value.trim().replace(/^@/,"");
+    if(!/^[A-Za-z0-9_.]{2,30}$/.test(v)){toast("Dat is geen geldige Instagram-naam.",1);return}v="@"+v.toLowerCase()}
+  if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
+  card.querySelectorAll("button").forEach(x=>x.disabled=true);
+  try{await saveManual(name,v);TAGDONE[name]=1;drawTags();
+    toast(v==="-"?`${name}: geen Instagram. Opgeslagen.`:v.startsWith("=")?`${name} is ${v.slice(1)}. Opgeslagen.`:`${v} opgeslagen voor ${name}.`+" De posts worden over een paar minuten bijgewerkt.")}
+  catch(x){card.querySelectorAll("button").forEach(y=>y.disabled=false);toast(x.message,1)}});
 function drawOverview(){
   drawTikTok();
   const now=Date.now(), week=now+7*864e5, wk0=now-7*864e5, P=posts(), ch=S.channels||{};
@@ -774,7 +806,7 @@ setInterval(()=>{if(!document.hidden)loadLive()},20000);
 // ---------- routing ----------
 const TABS={bieb:[["#clips/live","LIVESTREAM","live"],["#clips/battle","BATTLES","battle"],["#clips/vlog","VLOGS","vlog"],["#clips/pod","PODCASTS","pod"],["#posts","POSTS","posts"],["#nieuws","NIEUWSBRONNEN"]],
   inst:[["#kanalen","KANALEN"],["#bronnen","BRONNEN"],["#systeem","SYSTEEM"],["podcasts.html","STUDIO ↗"],["#","SLEUTEL",null,1]]};
-const NAVOF={tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
+const NAVOF={tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
 function drawTabs(){const h=location.hash||"#overzicht",R=S?toReview():[];
   document.querySelectorAll("[data-tabs]").forEach(el=>{el.innerHTML=TABS[el.dataset.tabs].map(([href,label,c,isKey])=>{
     const n=c?R.filter(p=>cat(p)===c).length:0;
@@ -792,8 +824,8 @@ function show(){
 window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
 function drawCurrent(){const s=(location.hash.slice(1)||"overzicht").split("/")[0];
-  ({tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
-function drawAll(){drawLive();drawCounts();drawTikTok();drawTabs();drawCurrent();
+  ({tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
+function drawAll(){drawLive();drawCounts();drawTikTok();drawTagCount();drawTabs();drawCurrent();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
   // First what you see (status.json from the site itself), then the extras at the same time, then redraw.

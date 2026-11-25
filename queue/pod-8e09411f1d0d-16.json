@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-16",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "skipped",
  "slides": [],
  "title": "WORLD CLASS ON A GRASSROOTS BUDGET",
  "video": "docs/media/pod-8e09411f1d0d-16/clip.mp4",
@@ -36,5 +36,6 @@
  "short_none": "kort genoeg",
  "thumb": "docs/media/thumbs/pod-8e09411f1d0d-16.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-8e09411f1d0d-16.mp4",
- "preview_of": "2026-11-17T18:09:52.839949+00:00"
+ "preview_of": "2026-11-17T18:09:52.839949+00:00",
+ "skip_reason": "geen beeld"
 }

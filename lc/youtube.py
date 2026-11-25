@@ -136,7 +136,19 @@ def exchange() -> dict:
     TOKEN.unlink(missing_ok=True)
     _save_token(t)
     AUTH.unlink(missing_ok=True)
-    return info() | {"connected": True}
+    try:
+        ch = info()
+    except Exception:
+        TOKEN.unlink(missing_ok=True)
+        raise
+    want = _settings().get("youtube_handle", "@sidewayswire").lower()
+    if (ch.get("handle") or "").lower() != want:
+        # 21 nov: the first try linked Joshua's own channel. Only the Sideways Wire channel may be linked.
+        TOKEN.unlink(missing_ok=True)
+        INFO.unlink(missing_ok=True)
+        _mark(False, f"verkeerd kanaal gekozen ({ch.get('title')} {ch.get('handle') or ''}); koppel opnieuw met Sideways Wire", False)
+        raise RuntimeError(f"verkeerd kanaal: {ch.get('title')} {ch.get('handle') or ''}. Kies bij Google het Sideways Wire-kanaal")
+    return ch | {"connected": True}
 
 
 def _get(path: str, **params) -> dict:

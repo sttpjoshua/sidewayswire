@@ -22,5 +22,6 @@
  "tiktok_mode_note": "draft: TikTok-clips gaan als concept naar de TikTok-inbox (zonder tekst; die staat in het dashboard om te kopiëren). Na de TikTok-goedkeuring: direct",
  "youtube_live": false,
  "youtube_privacy": "public",
- "youtube_note": "Zonder Google-audit zet YouTube elke API-upload vast op privé. Na goedkeuring: youtube_live true"
+ "youtube_note": "Zonder Google-audit zet YouTube elke API-upload vast op privé. Na goedkeuring: youtube_live true",
+ "youtube_handle": "@sidewayswire"
 }

@@ -173,7 +173,7 @@ def collaborators(post: dict) -> list[str]:
     reg = handles.registry()
     out = []
     for n in names(post):
-        r = reg.get(handles._key(n))
+        r = handles.lookup(reg, n)
         if r and r.get("ok") and r.get("type") == "Coureur":
             out.append(r["handle"].lstrip("@"))
     return out[:3]

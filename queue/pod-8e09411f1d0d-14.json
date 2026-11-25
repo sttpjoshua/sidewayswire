@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-14",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "skipped",
  "slides": [],
  "title": "THE PRICE OF RACING FD",
  "video": "docs/media/pod-8e09411f1d0d-14/clip.mp4",
@@ -37,5 +37,6 @@
  "short_len": 29.3,
  "thumb": "docs/media/thumbs/pod-8e09411f1d0d-14.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-8e09411f1d0d-14.mp4",
- "preview_of": "2026-11-17T18:09:52.839524+00:00"
+ "preview_of": "2026-11-17T18:09:52.839524+00:00",
+ "skip_reason": "geen beeld"
 }

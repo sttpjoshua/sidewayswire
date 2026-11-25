@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-20",
  "kind": "podcast_clip",
- "status": "ready",
+ "status": "skipped",
  "slides": [],
  "title": "THE 50,000 DOLLAR DOMAIN",
  "video": "docs/media/pod-070d2a07f93c-20/clip.mp4",
@@ -34,7 +34,6 @@
   "docs/media/pod-070d2a07f93c-20/clip.mp4"
  ],
  "problems": [],
- "post_at": null,
  "score": 24,
  "moment_kind": "moment",
  "people": [
@@ -53,5 +52,6 @@
  "short_len": 24.6,
  "thumb": "docs/media/thumbs/pod-070d2a07f93c-20.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-070d2a07f93c-20.mp4",
- "preview_of": "2026-11-17T14:16:52.667939+00:00"
+ "preview_of": "2026-11-17T14:16:52.667939+00:00",
+ "skip_reason": "geen beeld"
 }

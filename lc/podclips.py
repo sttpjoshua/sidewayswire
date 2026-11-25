@@ -16,6 +16,7 @@ Clips are 15 to 75 seconds.
 from __future__ import annotations
 
 import json
+import re
 import os
 import tempfile
 import time
@@ -34,6 +35,7 @@ MEDIA = ROOT / "docs" / "media"
 
 
 LAYOUT = 4                 # raise when the clip design changes: unposted clips are made again
+NO_PICTURE = "geen beeld"
 WAIT_VIDEO = 3 * 3600      # how long a YouTube episode waits for the Mac helper before we fall back to audiogram
 TAG = "video-sources"
 
@@ -41,6 +43,22 @@ TAG = "video-sources"
 def asset_name(ep_id: str, i: int, m: dict) -> str:
     """Must match tools/mac/video_helper.py: changing start or end asks for a new video."""
     return f"v2-{ep_id}-{i}-{int(round(float(m['start']) * 10))}-{int(round(float(m['end']) * 10))}.mp4"
+
+
+NAME_DOUBT = re.compile(r"spell|spelling|naam|name|surname|transcri|spraak|speech|mueller|muller", re.I)
+
+
+def names_settled(m: dict, post: dict) -> bool:
+    """True when the only reason to check was a doubt about how a name is spelled, and every person
+    in the moment is now known in the people database (official spelling, alias or one clear near match)."""
+    if post.get("check_reason") != "namen nakijken" or m.get("kind") == "rumor" or m.get("by") == "joshua":
+        return False
+    why = m.get("check_reason") or ""
+    if why and not NAME_DOUBT.search(why):
+        return False                    # e.g. who is speaking: that stays with Joshua
+    reg = handles.registry()
+    names = handles.people(m)
+    return bool(names) and all(handles.lookup(reg, n) for n in names) and not post.get("missing_handles")
 
 
 def pieces(ep_id: str, i: int, m: dict) -> list[str]:
@@ -132,8 +150,18 @@ def run(limit: int = 120) -> dict:
                 cap, tags, missing = handles.compose(ep, m)       # tags always from the checked registry
                 if post.get("caption_by") == "joshua":    # his own text stays; only the tag info is refreshed
                     cap = post.get("caption")
-                if post.get("caption") != cap or post.get("missing_handles") != missing or post.get("tags") != tags:
-                    post.update(caption=cap, tags=tags, missing_handles=missing)
+                ppl = handles.people(m)[:6]
+                changed = (post.get("caption") != cap or post.get("missing_handles") != missing
+                           or post.get("tags") != tags or post.get("people") != ppl)
+                if changed:
+                    post.update(caption=cap, tags=tags, missing_handles=missing, people=ppl)
+                if post.get("status") == "check" and names_settled(m, post):
+                    # Joshua (25 nov): the people database answers the editor's spelling question, so the
+                    # post no longer waits for him; build.py treats it as a normal post on the next run.
+                    post.update(status="draft", check=False, check_reason="", names_by="people database")
+                    m["check"] = False
+                    changed = True
+                if changed:
                     q.save(post)
             if m.get("status") == "skipped":
                 if post and post.get("status") not in ("posted", "skipped"):
@@ -144,7 +172,8 @@ def run(limit: int = 120) -> dict:
             name = need[-1]
             if not all(n in assets for n in need):
                 assets = {k: v for k, v in assets.items() if k != name}   # all runs or nothing
-            upgrade = (m.get("status") == "queued" and not (post and post.get("status") == "posted")
+            joshua_skipped = bool(post) and post.get("status") == "skipped" and post.get("skip_reason") != NO_PICTURE
+            upgrade = (m.get("status") == "queued" and not (post and post.get("status") == "posted") and not joshua_skipped
                        and ((m.get("mode") == "audiogram" and name in assets) or m.get("layout", 1) < LAYOUT
                             or m.get("redo")
                             or m.get("hook_sig", json.dumps({})) != hook_sig))
@@ -167,11 +196,18 @@ def run(limit: int = 120) -> dict:
             if ep.get("kind") in ("stream", "vlog") and name not in assets:
                 report["waiting_for_video"].append(pid)
                 continue                           # a stream clip needs the footage, there is no audio-only version
-            if no_video is not None and name not in assets and mf.stem not in no_video:   # Mac is alive: wait for video
-                since = m.setdefault("wait_video", now.isoformat())
-                if (now - datetime.fromisoformat(since)).total_seconds() < WAIT_VIDEO:
+            if name not in assets:
+                # Joshua (25 nov): no content without picture. No audiogram any more: a moment waits for
+                # its video, and an episode that has no video on YouTube gives no clips at all.
+                if no_video is not None and mf.stem in no_video:
+                    m.update(status="skipped", skip_reason=NO_PICTURE)
+                    if post and post.get("status") not in ("posted", "skipped"):
+                        post.update(status="skipped", skip_reason=NO_PICTURE)
+                        q.save(post)
+                else:
+                    m.setdefault("wait_video", now.isoformat())
                     report["waiting_for_video"].append(pid)
-                    continue                       # the Mac helper will bring the video
+                continue
             tasks.append((mf, ep, tf, i, m, post, name, upgrade))
     for mf, moments in files.items():
         mf.write_text(json.dumps(moments, indent=1, ensure_ascii=False))

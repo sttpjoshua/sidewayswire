@@ -1,7 +1,7 @@
 {
  "id": "pod-070d2a07f93c-24",
  "kind": "podcast_clip",
- "status": "ready",
+ "status": "skipped",
  "slides": [],
  "title": "'JUDGES DON'T DRIVE'? THINK AGAIN",
  "video": "docs/media/pod-070d2a07f93c-24/clip.mp4",
@@ -34,7 +34,6 @@
   "docs/media/pod-070d2a07f93c-24/clip.mp4"
  ],
  "problems": [],
- "post_at": null,
  "score": 20,
  "moment_kind": "quote",
  "people": [
@@ -53,5 +52,6 @@
  "short_len": 8.7,
  "thumb": "docs/media/thumbs/pod-070d2a07f93c-24.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-070d2a07f93c-24.mp4",
- "preview_of": "2026-11-17T14:16:52.669464+00:00"
+ "preview_of": "2026-11-17T14:16:52.669464+00:00",
+ "skip_reason": "geen beeld"
 }

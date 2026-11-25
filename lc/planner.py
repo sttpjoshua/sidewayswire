@@ -49,7 +49,7 @@ def score(p: dict, m: dict, reg: dict) -> int:
     s = KIND_POINTS.get(m.get("kind", ""), 10)
     s += 15 if p.get("format") == "split" or m.get("split") else 0
     s += {"stream_clip": 12, "vlog_clip": 8}.get(p.get("kind"), 0)
-    prios = [reg[k]["prio"] for k in (handles._key(n) for n in handles.people(m)) if k in reg]
+    prios = [r["prio"] for r in (handles.lookup(reg, n) for n in handles.people(m)) if r]
     s += {1: 25, 2: 14}.get(min(prios), 4) if prios else 0
     s += 5 if len(prios) >= 2 else 0
     length = float(m.get("end", 0)) - float(m.get("start", 0))

@@ -1,7 +1,7 @@
 {
  "id": "pod-8e09411f1d0d-5",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "skipped",
  "slides": [],
  "title": "FOUR ENGINES IN ONE ROOKIE SEASON",
  "video": "docs/media/pod-8e09411f1d0d-5/clip.mp4",
@@ -38,5 +38,6 @@
  "short_len": 6.0,
  "thumb": "docs/media/thumbs/pod-8e09411f1d0d-5.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-8e09411f1d0d-5.mp4",
- "preview_of": "2026-11-17T18:09:52.841301+00:00"
+ "preview_of": "2026-11-17T18:09:52.841301+00:00",
+ "skip_reason": "geen beeld"
 }
