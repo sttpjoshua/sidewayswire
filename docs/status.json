@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:50:53.694306+00:00",
+ "updated": "2026-11-25T02:52:26.412573+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 507,
@@ -7,7 +7,7 @@
   "skipped": 26,
   "posted": 3
  },
- "collected": "2026-11-25T01:02:23.291124+00:00",
+ "collected": "2026-11-25T02:52:21.508212+00:00",
  "instagram": false,
  "sources": [
   {
@@ -41,8 +41,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
