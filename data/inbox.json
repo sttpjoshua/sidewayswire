@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:21:44.769848+00:00",
+ "updated": "2026-11-25T19:38:15.709194+00:00",
  "stories": [
   {
    "id": "f02a1c6d916e4faa",
@@ -72,6 +72,25 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "7d8aec87573335b7",
+   "title": "JACK 0 DOSS 2 | D1GP Odaiba, Tokyo",
+   "series": "FD + DM",
+   "buzz": 1,
+   "first_seen": "2026-11-25T19:38:07.469358+00:00",
+   "published": "2026-11-25T19:30:29+00:00",
+   "items": [
+    {
+     "source": "Conor Shanahan",
+     "title": "JACK 0 DOSS 2 | D1GP Odaiba, Tokyo",
+     "url": "https://www.youtube.com/watch?v=WFi3yuvYZDo",
+     "kind": "video",
+     "published": "2026-11-25T19:30:29+00:00",
+     "media_url": "https://i4.ytimg.com/vi/WFi3yuvYZDo/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -1482,25 +1501,6 @@
    ]
   },
   {
-   "id": "dceccb2830464df2",
-   "title": "🔊 One last time to 'Crank It Up' this season!",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:07.598999+00:00",
-   "published": "2026-10-28T19:25:55+00:00",
-   "items": [
-    {
-     "source": "Matt Field",
-     "title": "🔊 One last time to 'Crank It Up' this season!",
-     "url": "https://www.youtube.com/shorts/OpRvwxAfg9M",
-     "kind": "video",
-     "published": "2026-10-28T19:25:55+00:00",
-     "media_url": "https://i4.ytimg.com/vi/OpRvwxAfg9M/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "2781e23cc1e32e19",
    "title": "My Last Round of Formula Drift - FD LB2 Podium",
    "series": "FD",
@@ -1583,8 +1583,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
