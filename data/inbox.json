@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:57:15.429714+00:00",
+ "updated": "2026-11-25T09:46:10.756111+00:00",
  "stories": [
   {
    "id": "f02a1c6d916e4faa",
@@ -1576,9 +1576,8 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
