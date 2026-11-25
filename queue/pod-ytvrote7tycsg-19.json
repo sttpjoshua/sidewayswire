@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-19",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "GO GO GADGET BUMPER",
  "video": "docs/media/pod-ytvrote7tycsg-19/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 7269.37
  },
  "created": "2026-11-21T03:25:21.066383+00:00",
- "built": "2026-11-21T11:55:33.240544+00:00",
+ "built": "2026-11-25T08:57:24.211229+00:00",
  "thumb": "docs/media/thumbs/pod-ytvrote7tycsg-19.jpg",
  "short": "docs/media/pod-ytvrote7tycsg-19/short.mp4",
  "short_len": 25.1,
@@ -42,5 +42,20 @@
   "Tommy LeMarre",
   "Cole Richards"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 74,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Tommy LeMarre vs Cole Richards | Formula DRIFT Long Beach 2026\n\nTLO kisses the wall, Cole Richards noses in and loses his bumper. Purely cosmetic, says the booth.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@tommy.lemaire @colerichardz @formulad\n\n#formuladrift #formulad #tommylemarre #colerichards #sidewayswire",
+  "facebook": "Tommy LeMarre vs Cole Richards | Formula DRIFT Long Beach 2026\n\nTLO kisses the wall, Cole Richards noses in and loses his bumper. Purely cosmetic, says the booth.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@tommy.lemaire @colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Tommy LeMarre vs Cole Richards | Formula DRIFT Long Beach 2026: TLO kisses the wall, Cole Richards noses in and loses his bumper. Purely cosmetic, says the booth.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @tommy.lemaire @colerichardz @formulad\n#formuladrift #formulad #tommylemarre #sidewayswire",
+  "youtube_title": "LeMarre vs Richards | Formula DRIFT Long Beach 2026",
+  "youtube": "TLO kisses the wall, Cole Richards noses in and loses his bumper. Purely cosmetic, says the booth.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@tommy.lemaire @colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "tommy.lemaire",
+  "colerichardz"
+ ]
 }

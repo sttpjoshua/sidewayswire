@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-0",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BEST PROSPEC SEASON EVER?",
  "video": "docs/media/pod-441d4b7291ad-0/clip.mp4",
@@ -30,7 +30,7 @@
   "start": 4.38
  },
  "created": "2026-11-17T14:38:32.682236+00:00",
- "built": "2026-11-17T18:09:52.820938+00:00",
+ "built": "2026-11-25T08:57:23.056926+00:00",
  "media": [
   "docs/media/pod-441d4b7291ad-0/clip.mp4"
  ],
@@ -45,5 +45,21 @@
   "Braden Lons",
   "Kasey Kohl"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 44,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Dustyn Farrell | The Outerzone\n\nPro level driving from Top 32 on. The Vegas PROSPEC podium on why this was the best PROSPEC season yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@little_webbie16 @braden.lons @mspekperformance @formulad @jako13\n\n#drift #dustynfarrell #bradenlons #formuladrift #sidewayswire",
+  "facebook": "Dustyn Farrell | The Outerzone\n\nPro level driving from Top 32 on. The Vegas PROSPEC podium on why this was the best PROSPEC season yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@little_webbie16 @braden.lons @mspekperformance @formulad @jako13\n\n#drift #dustynfarrell #sidewayswire",
+  "tiktok": "Dustyn Farrell | The Outerzone: Pro level driving from Top 32 on. The Vegas PROSPEC podium on why this was the best PROSPEC season yet.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @little_webbie16 @braden.lons @mspekperformance @formulad @jako13\n#drift #dustynfarrell #bradenlons #sidewayswire",
+  "youtube_title": "Dustyn Farrell | The Outerzone",
+  "youtube": "Pro level driving from Top 32 on. The Vegas PROSPEC podium on why this was the best PROSPEC season yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@little_webbie16 @braden.lons @mspekperformance @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #dustynfarrell #sidewayswire"
+ },
+ "collaborators": [
+  "little_webbie16",
+  "braden.lons",
+  "mspekperformance"
+ ]
 }

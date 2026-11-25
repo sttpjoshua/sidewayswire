@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:24:11.675083+00:00",
+ "updated": "2026-11-25T08:57:15.429714+00:00",
  "stories": [
   {
    "id": "f02a1c6d916e4faa",
@@ -70,6 +70,25 @@
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQTFGYUgyeF9lVmlZWkxVM2N2YmRxcGM0c3pQOURzbk8xNTM1RlBkYzRFYkRQN0FkcDJDS2ZQUTN3QmNNbkRicHdhYnJzbC1WM2dDWVctVnI0QS1LbWcyX3JIS2tnUmk2UDhwcl90QjU2N2tPcjJmZ3RBc0tYYmc2LU91XzJ5cHE5UVAzdExSWDFtSllJNEx3ZndoVEpDS0d3TEhkbzdPWTY0TmRVYVBHLVJkajJTWUk0VEFLS21UdkNRNkJaU2ZRMjdiVFg1dkd4dnJlZ1FtMnNZN1pTbHc?oc=5",
      "kind": "article",
      "published": "2026-11-17T01:12:22+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "id": "2d90c3fd2e0b55f2",
+   "title": "Wicklow Man To Complete 35,000km Global Drift Car Journey This Week",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-25T08:57:07.009085+00:00",
+   "published": "2026-11-25T08:40:09+00:00",
+   "items": [
+    {
+     "source": "Google News · East Coast FM",
+     "title": "Wicklow Man To Complete 35,000km Global Drift Car Journey This Week",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMm0xS3hfSHZKODk0YjlvVE5LUTMxS3l0S01ReHE1UXVwaDQ2RzZJNl82YXZlOWM2djRlU3cyamFjMnNDOEFUMHd1a0lLbzNfMFhlRTdmNWM4c2pBbGdtV1RmOG1NcXpKNHZpX0lUS1RuNkkyelcwWS0ySlAtZ2tYaFNrX1ZqZnFaX2pPTEdWSlM4WDVMdUQ3Y3BqV3dIVjVUVTRlNFRiQnZpX1dYNHE0?oc=5",
+     "kind": "article",
+     "published": "2026-11-25T08:40:09+00:00",
      "media_url": null,
      "media_type": null
     }
@@ -1083,25 +1102,6 @@
    ]
   },
   {
-   "id": "a0995f20679a59d7",
-   "title": "Go to Japan. Get Ichiran. Drink many beers. Go drifting with your boys. You won't regret it.",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:07.586165+00:00",
-   "published": "2026-11-12T15:09:08+00:00",
-   "items": [
-    {
-     "source": "Matt Field",
-     "title": "Go to Japan. Get Ichiran. Drink many beers. Go drifting with your boys. You won't regret it.",
-     "url": "https://www.youtube.com/shorts/JsLLenYcrz4",
-     "kind": "video",
-     "published": "2026-11-12T15:09:08+00:00",
-     "media_url": "https://i3.ytimg.com/vi/JsLLenYcrz4/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "id": "baad3db768a9e566",
    "title": "TOKYO DIRFT レースアンバサダー紹介",
    "series": "D1GP",
@@ -1591,7 +1591,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "how": "feed"
   },
   {

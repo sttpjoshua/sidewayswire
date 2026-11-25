@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-12",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HE COPIED ANOTHER DRIVER'S STEERING WHEEL",
  "video": "docs/media/pod-6892a8b1e411-12/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 2935.1
  },
  "created": "2026-11-16T19:40:42.465420+00:00",
- "built": "2026-11-17T13:26:00.035848+00:00",
+ "built": "2026-11-25T08:57:23.197231+00:00",
  "media": [
   "docs/media/pod-6892a8b1e411-12/clip.mp4"
  ],
@@ -40,5 +40,19 @@
  "people": [
   "Tommy Lemaire"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 35,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Tommy Lemaire | The Outerzone\n\nTommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#drift #tommylemaire #formulad #formuladrift #sidewayswire",
+  "facebook": "Tommy Lemaire | The Outerzone\n\nTommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#drift #tommylemaire #sidewayswire",
+  "tiktok": "Tommy Lemaire | The Outerzone: Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @tommy.lemaire @formulad @jako13\n#drift #tommylemaire #formulad #sidewayswire",
+  "youtube_title": "Tommy Lemaire | The Outerzone",
+  "youtube": "Tommy Lemaire saw a rival's bigger steering wheel, texted him for the same one, and now runs it in FD.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #tommylemaire #sidewayswire"
+ },
+ "collaborators": [
+  "tommy.lemaire"
+ ]
 }

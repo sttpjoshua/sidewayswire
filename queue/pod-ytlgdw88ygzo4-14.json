@@ -1,7 +1,7 @@
 {
  "id": "pod-ytlgdw88ygzo4-14",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LEMAIRE INTO THE WALL",
  "video": "docs/media/pod-ytlgdw88ygzo4-14/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 930.7
  },
  "created": "2026-11-19T15:56:19.778114+00:00",
- "built": "2026-11-21T11:55:32.585213+00:00",
+ "built": "2026-11-25T08:57:23.925585+00:00",
  "thumb": "docs/media/thumbs/pod-ytlgdw88ygzo4-14.jpg",
  "short": "docs/media/pod-ytlgdw88ygzo4-14/short.mp4",
  "short_len": 29.3,
@@ -42,5 +42,22 @@
   "Matt Field",
   "Tommy Lemaire"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": "2026-12-24T16:30:00+00:00",
+ "score": 85,
+ "moment_kind": "battle",
+ "plan": {
+  "tiktok": "2026-12-24T16:30:00+00:00"
+ },
+ "captions": {
+  "instagram": "Matt Field vs Tommy Lemaire | Formula DRIFT Long Beach 2026\n\nMatt Field coasts in on the decel and Tommy Lemaire gets into the wall. Field goes through.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @tommy.lemaire @formulad\n\n#formuladrift #formulad #mattfield #tommylemaire #sidewayswire",
+  "facebook": "Matt Field vs Tommy Lemaire | Formula DRIFT Long Beach 2026\n\nMatt Field coasts in on the decel and Tommy Lemaire gets into the wall. Field goes through.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @tommy.lemaire @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Matt Field vs Tommy Lemaire | Formula DRIFT Long Beach 2026: Matt Field coasts in on the decel and Tommy Lemaire gets into the wall. Field goes through.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Long Beach 2026 @mattfield777 @tommy.lemaire @formulad\n#formuladrift #formulad #mattfield #sidewayswire",
+  "youtube_title": "Matt Field vs Tommy Lemaire | Formula DRIFT Long Beach 2026",
+  "youtube": "Matt Field coasts in on the decel and Tommy Lemaire gets into the wall. Field goes through.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @tommy.lemaire @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "mattfield777",
+  "tommy.lemaire"
+ ]
 }

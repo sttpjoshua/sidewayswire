@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-11",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "OLSEN HUNTS THE NEW CHAMPION",
  "video": "docs/media/pod-yt9lxrdzgctgm-11/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 5202.88
  },
  "created": "2026-11-19T00:00:17.848412+00:00",
- "built": "2026-11-21T11:55:32.149410+00:00",
+ "built": "2026-11-25T08:57:23.360926+00:00",
  "thumb": "docs/media/thumbs/pod-yt9lxrdzgctgm-11.jpg",
  "short": "docs/media/pod-yt9lxrdzgctgm-11/short.mp4",
  "short_len": 29.3,
@@ -42,5 +42,20 @@
   "Conor Shanahan",
   "Simen Olsen"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 75,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Conor Shanahan vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nIn his final Formula DRIFT event, Simen Olsen chases the brand new champion Conor Shanahan and nails it.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formuladrift #formulad #conorshanahan #simenolsen #sidewayswire",
+  "facebook": "Conor Shanahan vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nIn his final Formula DRIFT event, Simen Olsen chases the brand new champion Conor Shanahan and nails it.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Conor Shanahan vs Simen Olsen | Formula DRIFT Long Beach 2026: In his final Formula DRIFT event, Simen Olsen chases the brand new champion Conor Shanahan and nails it.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @conorshanahan79 @simenolsendrifting @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
+  "youtube_title": "Shanahan vs Olsen | Formula DRIFT Long Beach 2026",
+  "youtube": "In his final Formula DRIFT event, Simen Olsen chases the brand new champion Conor Shanahan and nails it.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "conorshanahan79",
+  "simenolsendrifting"
+ ]
 }

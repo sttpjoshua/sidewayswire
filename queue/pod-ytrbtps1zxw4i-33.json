@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-33",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "MASUYAMA SLAPS THE WALL",
  "video": "docs/media/pod-ytrbtps1zxw4i-33/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 9133.92
  },
  "created": "2026-11-20T05:04:15.344352+00:00",
- "built": "2026-11-20T07:02:31.765618+00:00",
+ "built": "2026-11-25T08:57:24.048511+00:00",
  "media": [
   "docs/media/pod-ytrbtps1zxw4i-33/clip.mp4"
  ],
@@ -42,5 +42,20 @@
   "Wataru Masuyama",
   "Ryan Tuerck"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 83,
+ "moment_kind": "crash",
+ "plan": {},
+ "captions": {
+  "instagram": "Wataru Masuyama | Formula DRIFT Las Vegas 2026\n\nFinal battle of Top 32 and it's over in one corner. The wall ends it for the Evangelion GR86.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@watarudrift @ryantuerck @formulad\n\n#formuladrift #formulad #watarumasuyama #ryantuerck #sidewayswire",
+  "facebook": "Wataru Masuyama | Formula DRIFT Las Vegas 2026\n\nFinal battle of Top 32 and it's over in one corner. The wall ends it for the Evangelion GR86.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@watarudrift @ryantuerck @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Wataru Masuyama | Formula DRIFT Las Vegas 2026: Final battle of Top 32 and it's over in one corner. The wall ends it for the Evangelion GR86.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Las Vegas 2026 @watarudrift @ryantuerck @formulad\n#formuladrift #formulad #watarumasuyama #sidewayswire",
+  "youtube_title": "Wataru Masuyama | Formula DRIFT Las Vegas 2026",
+  "youtube": "Final battle of Top 32 and it's over in one corner. The wall ends it for the Evangelion GR86.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@watarudrift @ryantuerck @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "watarudrift",
+  "ryantuerck"
+ ]
 }

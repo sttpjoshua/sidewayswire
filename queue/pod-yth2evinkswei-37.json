@@ -1,7 +1,7 @@
 {
  "id": "pod-yth2evinkswei-37",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "IS THE CHAMP TAKEN OUT?",
  "video": "docs/media/pod-yth2evinkswei-37/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 2788.72
  },
  "created": "2026-11-19T12:21:50.346529+00:00",
- "built": "2026-11-19T16:51:07.462575+00:00",
+ "built": "2026-11-25T08:57:23.834980+00:00",
  "media": [
   "docs/media/pod-yth2evinkswei-37/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Tommy Lemaire",
   "James Deane"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": "2026-12-28T11:30:00+00:00",
+ "score": 85,
+ "moment_kind": "battle",
+ "plan": {
+  "tiktok": "2026-12-28T11:30:00+00:00"
+ },
+ "captions": {
+  "instagram": "Tommy Lemaire vs James Deane | Formula DRIFT 2025\n\nTommy Lemaire puts on a show out front and James Deane falls back. Is the champ taken out?\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT 2025\n@tommy.lemaire @jamesdeane130 @formulad\n\n#formuladrift #formulad #tommylemaire #jamesdeane #sidewayswire",
+  "facebook": "Tommy Lemaire vs James Deane | Formula DRIFT 2025\n\nTommy Lemaire puts on a show out front and James Deane falls back. Is the champ taken out?\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT 2025\n@tommy.lemaire @jamesdeane130 @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Tommy Lemaire vs James Deane | Formula DRIFT 2025: Tommy Lemaire puts on a show out front and James Deane falls back. Is the champ taken out?\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT 2025 @tommy.lemaire @jamesdeane130 @formulad\n#formuladrift #formulad #tommylemaire #sidewayswire",
+  "youtube_title": "Tommy Lemaire vs James Deane | Formula DRIFT 2025",
+  "youtube": "Tommy Lemaire puts on a show out front and James Deane falls back. Is the champ taken out?\n\n🎥 Footage: Formula DRIFT 2025\n@tommy.lemaire @jamesdeane130 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "tommy.lemaire",
+  "jamesdeane130"
+ ]
 }

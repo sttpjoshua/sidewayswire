@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-11",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "WATCHING MATT FIELD'S CREW",
  "video": "docs/media/pod-3fa7ee22a33c-11/clip.mp4",
@@ -29,7 +29,7 @@
   "start": 3156.93
  },
  "created": "2026-11-17T14:19:24.215623+00:00",
- "built": "2026-11-17T18:09:52.686886+00:00",
+ "built": "2026-11-25T08:57:23.001968+00:00",
  "media": [
   "docs/media/pod-3fa7ee22a33c-11/clip.mp4"
  ],
@@ -43,5 +43,20 @@
   "Christian Cotrone",
   "Matt Field"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 54,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Christian Cotrone | The Outerzone\n\nIn Atlanta, Christian Cotrone's crew watched Matt Field's team fix wall damage in five minutes. One of them said: we got a lot of work to do.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#drift #christiancotrone #mattfield #formuladrift #sidewayswire",
+  "facebook": "Christian Cotrone | The Outerzone\n\nIn Atlanta, Christian Cotrone's crew watched Matt Field's team fix wall damage in five minutes. One of them said: we got a lot of work to do.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#drift #christiancotrone #sidewayswire",
+  "tiktok": "Christian Cotrone | The Outerzone: In Atlanta, Christian Cotrone's crew watched Matt Field's team fix wall damage in five minutes. One of them said: we got a lot of work to do.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @christiancotrone @mattfield777 @formulad @jako13\n#drift #christiancotrone #mattfield #sidewayswire",
+  "youtube_title": "Christian Cotrone | The Outerzone",
+  "youtube": "In Atlanta, Christian Cotrone's crew watched Matt Field's team fix wall damage in five minutes. One of them said: we got a lot of work to do.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #christiancotrone #sidewayswire"
+ },
+ "collaborators": [
+  "christiancotrone",
+  "mattfield777"
+ ]
 }

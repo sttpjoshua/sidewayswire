@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-49",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIELD VS OLSEN, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-49/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 9273.0
  },
  "created": "2026-11-19T01:05:11.421836+00:00",
- "built": "2026-11-21T11:55:32.299877+00:00",
+ "built": "2026-11-25T08:57:23.623646+00:00",
  "thumb": "docs/media/thumbs/pod-yt9lxrdzgctgm-49.jpg",
  "short_none": "split",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-49.mp4",
@@ -41,5 +41,24 @@
   "Matt Field",
   "Simen Olsen"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": "2026-12-14T11:30:00+00:00",
+ "score": 87,
+ "moment_kind": "battle",
+ "plan": {
+  "facebook": "2026-12-15T11:30:00+00:00",
+  "tiktok": "2026-12-14T11:30:00+00:00",
+  "youtube": "2026-12-15T12:00:00+00:00"
+ },
+ "captions": {
+  "instagram": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nGreat 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formuladrift #formulad #mattfield #simenolsen #sidewayswire",
+  "facebook": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nGreat 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026: Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Long Beach 2026 @mattfield777 @simenolsendrifting @formulad\n#formuladrift #formulad #mattfield #sidewayswire",
+  "youtube_title": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026",
+  "youtube": "Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "mattfield777",
+  "simenolsendrifting"
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-26",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FEDE SLEEPS ON THE LIGHT",
  "video": "docs/media/pod-ytvrote7tycsg-26/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 8958.97
  },
  "created": "2026-11-20T12:20:26.712973+00:00",
- "built": "2026-11-20T13:06:43.819861+00:00",
+ "built": "2026-11-25T08:57:24.336964+00:00",
  "thumb": "docs/media/thumbs/pod-ytvrote7tycsg-26.jpg",
  "short": "docs/media/pod-ytvrote7tycsg-26/short.mp4",
  "short_len": 15.3,
@@ -42,5 +42,20 @@
   "Federico Sceriffo",
   "Ben Hobson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 63,
+ "moment_kind": "call",
+ "plan": {},
+ "captions": {
+  "instagram": "Federico Sceriffo | Formula DRIFT Long Beach 2026\n\nFederico Sceriffo waits too long at the lights and gets a strike, then his BMW shuts down. Ben Hobson moves on.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@federicosceriffo17 @benhobson213 @formulad\n\n#formuladrift #formulad #federicosceriffo #benhobson #sidewayswire",
+  "facebook": "Federico Sceriffo | Formula DRIFT Long Beach 2026\n\nFederico Sceriffo waits too long at the lights and gets a strike, then his BMW shuts down. Ben Hobson moves on.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@federicosceriffo17 @benhobson213 @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Federico Sceriffo | Formula DRIFT Long Beach 2026: Federico Sceriffo waits too long at the lights and gets a strike, then his BMW shuts down. Ben Hobson moves on.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @federicosceriffo17 @benhobson213 @formulad\n#formuladrift #formulad #federicosceriffo #sidewayswire",
+  "youtube_title": "Federico Sceriffo | Formula DRIFT Long Beach 2026",
+  "youtube": "Federico Sceriffo waits too long at the lights and gets a strike, then his BMW shuts down. Ben Hobson moves on.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@federicosceriffo17 @benhobson213 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "federicosceriffo17",
+  "benhobson213"
+ ]
 }

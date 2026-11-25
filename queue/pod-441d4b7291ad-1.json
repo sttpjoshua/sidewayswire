@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-1",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "AIM AT THE WALL, HOPE FOR THE BEST",
  "video": "docs/media/pod-441d4b7291ad-1/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 78.02
  },
  "created": "2026-11-17T14:39:26.260274+00:00",
- "built": "2026-11-17T18:09:52.821155+00:00",
+ "built": "2026-11-25T08:57:23.078550+00:00",
  "media": [
   "docs/media/pod-441d4b7291ad-1/clip.mp4"
  ],
@@ -41,5 +41,19 @@
  "people": [
   "Kasey Kohl"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 43,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Kasey Kohl | The Outerzone\n\nEverybody rips, so you aim the car at the wall and hope you only hit it a little. Kasey Kohl after the Vegas PROSPEC podium.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #formuladrift #prospec #sidewayswire",
+  "facebook": "Kasey Kohl | The Outerzone\n\nEverybody rips, so you aim the car at the wall and hope you only hit it a little. Kasey Kohl after the Vegas PROSPEC podium.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #sidewayswire",
+  "tiktok": "Kasey Kohl | The Outerzone: Everybody rips, so you aim the car at the wall and hope you only hit it a little. Kasey Kohl after the Vegas PROSPEC podium.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @mspekperformance @formulad @jako13\n#drift #kaseykohl #formuladrift #sidewayswire",
+  "youtube_title": "Kasey Kohl | The Outerzone",
+  "youtube": "Everybody rips, so you aim the car at the wall and hope you only hit it a little. Kasey Kohl after the Vegas PROSPEC podium.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #kaseykohl #sidewayswire"
+ },
+ "collaborators": [
+  "mspekperformance"
+ ]
 }

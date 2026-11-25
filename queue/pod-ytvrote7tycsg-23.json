@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-23",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "COLE RICHARDS FORGETS HE'S LIVE",
  "video": "docs/media/pod-ytvrote7tycsg-23/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 7970.93
  },
  "created": "2026-11-20T12:15:45.998738+00:00",
- "built": "2026-11-20T13:06:43.800336+00:00",
+ "built": "2026-11-25T08:57:24.286119+00:00",
  "thumb": "docs/media/thumbs/pod-ytvrote7tycsg-23.jpg",
  "short": "docs/media/pod-ytvrote7tycsg-23/short.mp4",
  "short_len": 29.3,
@@ -40,5 +40,19 @@
  "people": [
   "Cole Richards"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 46,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Cole Richards | Formula DRIFT Long Beach 2026\n\nPro rookie Cole Richards is into the Top 16 and has some very honest advice about this track. Live TV, Cole.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #colerichards #drifting #sidewayswire",
+  "facebook": "Cole Richards | Formula DRIFT Long Beach 2026\n\nPro rookie Cole Richards is into the Top 16 and has some very honest advice about this track. Live TV, Cole.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Cole Richards | Formula DRIFT Long Beach 2026: Pro rookie Cole Richards is into the Top 16 and has some very honest advice about this track. Live TV, Cole.\n🎥 Footage: Formula DRIFT Long Beach 2026 @colerichardz @formulad\n#formuladrift #formulad #colerichards #sidewayswire",
+  "youtube_title": "Cole Richards | Formula DRIFT Long Beach 2026",
+  "youtube": "Pro rookie Cole Richards is into the Top 16 and has some very honest advice about this track. Live TV, Cole.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "colerichardz"
+ ]
 }

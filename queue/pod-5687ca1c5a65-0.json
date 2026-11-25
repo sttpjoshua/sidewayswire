@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-0",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ADAM LZ GOES FULL IRISH",
  "video": "docs/media/pod-5687ca1c5a65-0/clip.mp4",
@@ -30,7 +30,7 @@
   "start": 109.4
  },
  "created": "2026-11-17T14:48:38.563149+00:00",
- "built": "2026-11-17T18:09:52.823056+00:00",
+ "built": "2026-11-25T08:57:23.131926+00:00",
  "media": [
   "docs/media/pod-5687ca1c5a65-0/clip.mp4"
  ],
@@ -44,5 +44,21 @@
   "Jack Shanahan",
   "Adam LZ"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 59,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "James Deane | The Outerzone\n\nAdam LZ has picked up more Irish than you'd think. The Long Beach podium on the American who speaks fluent Irish slang.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#drift #jamesdeane #jackshanahan #formuladrift #sidewayswire",
+  "facebook": "James Deane | The Outerzone\n\nAdam LZ has picked up more Irish than you'd think. The Long Beach podium on the American who speaks fluent Irish slang.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#drift #jamesdeane #sidewayswire",
+  "tiktok": "James Deane | The Outerzone: Adam LZ has picked up more Irish than you'd think. The Long Beach podium on the American who speaks fluent Irish slang.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n#drift #jamesdeane #jackshanahan #sidewayswire",
+  "youtube_title": "James Deane | The Outerzone",
+  "youtube": "Adam LZ has picked up more Irish than you'd think. The Long Beach podium on the American who speaks fluent Irish slang.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jamesdeane #sidewayswire"
+ },
+ "collaborators": [
+  "jamesdeane130",
+  "jackshanahan59",
+  "adam_lz"
+ ]
 }

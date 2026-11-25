@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-20",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "YOU SHUT YOUR MOUTH",
  "video": "docs/media/pod-ytvrote7tycsg-20/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 7344.51
  },
  "created": "2026-11-20T12:12:20.628684+00:00",
- "built": "2026-11-20T13:06:43.781079+00:00",
+ "built": "2026-11-25T08:57:24.236226+00:00",
  "thumb": "docs/media/thumbs/pod-ytvrote7tycsg-20.jpg",
  "short": "docs/media/pod-ytvrote7tycsg-20/short.mp4",
  "short_len": 26.8,
@@ -42,5 +42,20 @@
   "Cole Richards",
   "Tommy LeMarre"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 57,
+ "moment_kind": "call",
+ "plan": {},
+ "captions": {
+  "instagram": "Cole Richards | Formula DRIFT Long Beach 2026\n\nThe booth argues about another one more time, then the judges decide. Cole Richards takes out TLO.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@colerichardz @tommy.lemaire @formulad\n\n#formuladrift #formulad #colerichards #tommylemarre #sidewayswire",
+  "facebook": "Cole Richards | Formula DRIFT Long Beach 2026\n\nThe booth argues about another one more time, then the judges decide. Cole Richards takes out TLO.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@colerichardz @tommy.lemaire @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Cole Richards | Formula DRIFT Long Beach 2026: The booth argues about another one more time, then the judges decide. Cole Richards takes out TLO.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @colerichardz @tommy.lemaire @formulad\n#formuladrift #formulad #colerichards #sidewayswire",
+  "youtube_title": "Cole Richards | Formula DRIFT Long Beach 2026",
+  "youtube": "The booth argues about another one more time, then the judges decide. Cole Richards takes out TLO.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@colerichardz @tommy.lemaire @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "colerichardz",
+  "tommy.lemaire"
+ ]
 }

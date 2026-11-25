@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-10",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "LEMAIRE DEDICATES HIS WIN",
  "video": "docs/media/pod-ytrbtps1zxw4i-10/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 3532.02
  },
  "created": "2026-11-20T04:27:49.023222+00:00",
- "built": "2026-11-20T07:02:30.944355+00:00",
+ "built": "2026-11-25T08:57:23.999468+00:00",
  "media": [
   "docs/media/pod-ytrbtps1zxw4i-10/clip.mp4"
  ],
@@ -40,5 +40,19 @@
  "people": [
   "Tommy Lemaire"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 46,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Tommy Lemaire | Formula DRIFT Las Vegas 2026\n\nTommy Lemaire on finally proving the chassis switch right, and the person this win is for.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@tommy.lemaire @formulad\n\n#formuladrift #formulad #tommylemaire #drifting #sidewayswire",
+  "facebook": "Tommy Lemaire | Formula DRIFT Las Vegas 2026\n\nTommy Lemaire on finally proving the chassis switch right, and the person this win is for.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@tommy.lemaire @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Tommy Lemaire | Formula DRIFT Las Vegas 2026: Tommy Lemaire on finally proving the chassis switch right, and the person this win is for.\n🎥 Footage: Formula DRIFT Las Vegas 2026 @tommy.lemaire @formulad\n#formuladrift #formulad #tommylemaire #sidewayswire",
+  "youtube_title": "Tommy Lemaire | Formula DRIFT Las Vegas 2026",
+  "youtube": "Tommy Lemaire on finally proving the chassis switch right, and the person this win is for.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@tommy.lemaire @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "tommy.lemaire"
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-24",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "NATE CHEN SHUTS DOWN",
  "video": "docs/media/pod-ytvrote7tycsg-24/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 8151.55
  },
  "created": "2026-11-20T12:17:31.549915+00:00",
- "built": "2026-11-20T13:06:43.800578+00:00",
+ "built": "2026-11-25T08:57:24.312139+00:00",
  "thumb": "docs/media/thumbs/pod-ytvrote7tycsg-24.jpg",
  "short": "docs/media/pod-ytvrote7tycsg-24/short.mp4",
  "short_len": 20.8,
@@ -42,5 +42,20 @@
   "Nate Chen",
   "Jeff Jones"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 57,
+ "moment_kind": "call",
+ "plan": {},
+ "captions": {
+  "instagram": "Nate Chen | Formula DRIFT Long Beach 2026\n\nNate Chen loses drive mid run. Did his car pop out of gear, or was Jeff Jones on the wrong side?\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@nathaniel.chen @jeffjonesracing @formulad\n\n#formuladrift #formulad #natechen #jeffjones #sidewayswire",
+  "facebook": "Nate Chen | Formula DRIFT Long Beach 2026\n\nNate Chen loses drive mid run. Did his car pop out of gear, or was Jeff Jones on the wrong side?\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@nathaniel.chen @jeffjonesracing @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Nate Chen | Formula DRIFT Long Beach 2026: Nate Chen loses drive mid run. Did his car pop out of gear, or was Jeff Jones on the wrong side?\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @nathaniel.chen @jeffjonesracing @formulad\n#formuladrift #formulad #natechen #sidewayswire",
+  "youtube_title": "Nate Chen | Formula DRIFT Long Beach 2026",
+  "youtube": "Nate Chen loses drive mid run. Did his car pop out of gear, or was Jeff Jones on the wrong side?\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@nathaniel.chen @jeffjonesracing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "nathaniel.chen",
+  "jeffjonesracing"
+ ]
 }

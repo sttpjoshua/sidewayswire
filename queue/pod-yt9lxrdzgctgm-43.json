@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-43",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THE CHAMP VS OLSEN, SIDE BY SIDE",
  "video": "docs/media/pod-yt9lxrdzgctgm-43/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 5205.5
  },
  "created": "2026-11-19T00:49:05.542815+00:00",
- "built": "2026-11-21T11:55:32.299557+00:00",
+ "built": "2026-11-25T08:57:23.556138+00:00",
  "thumb": "docs/media/thumbs/pod-yt9lxrdzgctgm-43.jpg",
  "short_none": "split",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-43.mp4",
@@ -41,5 +41,24 @@
   "Conor Shanahan",
   "Simen Olsen"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": "2026-12-12T11:30:00+00:00",
+ "score": 87,
+ "moment_kind": "battle",
+ "plan": {
+  "facebook": "2026-12-25T16:30:00+00:00",
+  "tiktok": "2026-12-12T11:30:00+00:00",
+  "youtube": "2026-12-25T19:00:00+00:00"
+ },
+ "captions": {
+  "instagram": "Conor Shanahan vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nThe new champion Conor Shanahan vs Simen Olsen. Run 1 on top, run 2 below.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formuladrift #formulad #conorshanahan #simenolsen #sidewayswire",
+  "facebook": "Conor Shanahan vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nThe new champion Conor Shanahan vs Simen Olsen. Run 1 on top, run 2 below.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Conor Shanahan vs Simen Olsen | Formula DRIFT Long Beach 2026: The new champion Conor Shanahan vs Simen Olsen. Run 1 on top, run 2 below.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Long Beach 2026 @conorshanahan79 @simenolsendrifting @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
+  "youtube_title": "Shanahan vs Olsen | Formula DRIFT Long Beach 2026",
+  "youtube": "The new champion Conor Shanahan vs Simen Olsen. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @simenolsendrifting @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "conorshanahan79",
+  "simenolsendrifting"
+ ]
 }

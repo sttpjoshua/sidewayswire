@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-15",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "OFF-SEASON? WHAT OFF-SEASON?",
  "video": "docs/media/pod-da5d8825120e-15/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 3259.9
  },
  "created": "2026-11-16T19:57:09.113931+00:00",
- "built": "2026-11-17T13:26:00.106055+00:00",
+ "built": "2026-11-25T08:57:23.234756+00:00",
  "media": [
   "docs/media/pod-da5d8825120e-15/clip.mp4"
  ],
@@ -40,5 +40,19 @@
  "people": [
   "Conor Shanahan"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 54,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Conor Shanahan | The Outerzone\n\nThe champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #formulad #formuladrift #sidewayswire",
+  "facebook": "Conor Shanahan | The Outerzone\n\nThe champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #sidewayswire",
+  "tiktok": "Conor Shanahan | The Outerzone: The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @conorshanahan79 @formulad @jako13\n#drift #conorshanahan #formulad #sidewayswire",
+  "youtube_title": "Conor Shanahan | The Outerzone",
+  "youtube": "The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #conorshanahan #sidewayswire"
+ },
+ "collaborators": [
+  "conorshanahan79"
+ ]
 }

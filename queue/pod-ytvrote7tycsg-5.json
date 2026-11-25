@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "D-MADS GOES THE WRONG WAY",
  "video": "docs/media/pod-ytvrote7tycsg-5/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 1995.46
  },
  "created": "2026-11-21T03:13:15.899401+00:00",
- "built": "2026-11-21T11:55:33.597534+00:00",
+ "built": "2026-11-25T08:57:24.427360+00:00",
  "thumb": "docs/media/thumbs/pod-ytvrote7tycsg-5.jpg",
  "short": "docs/media/pod-ytvrote7tycsg-5/short.mp4",
  "short_len": 29.3,
@@ -42,5 +42,20 @@
   "James Deane",
   "Derek Madison"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 75,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "James Deane vs Derek Madison | Formula DRIFT Long Beach 2026\n\nDerek Madison's wounded car gives up during his lead run against James Deane, and suddenly he is heading the other way.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jamesdeane130 @derek_madison @formulad\n\n#formuladrift #formulad #jamesdeane #derekmadison #sidewayswire",
+  "facebook": "James Deane vs Derek Madison | Formula DRIFT Long Beach 2026\n\nDerek Madison's wounded car gives up during his lead run against James Deane, and suddenly he is heading the other way.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jamesdeane130 @derek_madison @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "James Deane vs Derek Madison | Formula DRIFT Long Beach 2026: Derek Madison's wounded car gives up during his lead run against James Deane, and suddenly he is heading the other way.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Long Beach 2026 @jamesdeane130 @derek_madison @formulad\n#formuladrift #formulad #jamesdeane #sidewayswire",
+  "youtube_title": "James Deane vs Derek Madison | Formula DRIFT Long Beach 2026",
+  "youtube": "Derek Madison's wounded car gives up during his lead run against James Deane, and suddenly he is heading the other way.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jamesdeane130 @derek_madison @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "jamesdeane130",
+  "derek_madison"
+ ]
 }
