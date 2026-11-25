@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-15",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "OFF-SEASON? WHAT OFF-SEASON?",
  "video": "docs/media/pod-da5d8825120e-15/clip.mp4",
@@ -13,8 +13,8 @@
  ],
  "missing_handles": [],
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -36,5 +36,9 @@
  "short_len": 7.8,
  "thumb": "docs/media/thumbs/pod-da5d8825120e-15.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-da5d8825120e-15.mp4",
- "preview_of": "2026-11-17T13:26:00.106055+00:00"
+ "preview_of": "2026-11-17T13:26:00.106055+00:00",
+ "people": [
+  "Conor Shanahan"
+ ],
+ "names_by": "people database"
 }

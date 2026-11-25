@@ -1,22 +1,21 @@
 {
  "id": "pod-ytvrote7tycsg-18",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "COLE RICHARDS IS ON FIRE",
  "video": "docs/media/pod-ytvrote7tycsg-18/clip.mp4",
- "caption": "Pro rookie Cole Richards puts down a lead run that stuns the booth. A quiet guy who turns into a monster behind the wheel.\n\n🎥 Footage: FD LONG BEACH 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+ "caption": "Pro rookie Cole Richards puts down a lead run that stuns the booth. A quiet guy who turns into a monster behind the wheel.\n\n🎥 Footage: FD LONG BEACH 2026\n@colerichardz @tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
  "tags": [
   "@colerichardz",
+  "@tommy.lemaire",
   "@formulad"
  ],
- "missing_handles": [
-  "Tommy LeMarre"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +37,10 @@
  "media": [
   "docs/media/pod-ytvrote7tycsg-18/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Cole Richards",
+  "Tommy LeMarre"
+ ],
+ "names_by": "people database"
 }

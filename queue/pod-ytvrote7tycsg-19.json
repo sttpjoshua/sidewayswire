@@ -1,22 +1,21 @@
 {
  "id": "pod-ytvrote7tycsg-19",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "GO GO GADGET BUMPER",
  "video": "docs/media/pod-ytvrote7tycsg-19/clip.mp4",
- "caption": "TLO kisses the wall, Cole Richards noses in and loses his bumper. Purely cosmetic, says the booth.\n\n🎥 Footage: FD LONG BEACH 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+ "caption": "TLO kisses the wall, Cole Richards noses in and loses his bumper. Purely cosmetic, says the booth.\n\n🎥 Footage: FD LONG BEACH 2026\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
  "tags": [
+  "@tommy.lemaire",
   "@colerichardz",
   "@formulad"
  ],
- "missing_handles": [
-  "Tommy LeMarre"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +37,10 @@
  "media": [
   "docs/media/pod-ytvrote7tycsg-19/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Tommy LeMarre",
+  "Cole Richards"
+ ],
+ "names_by": "people database"
 }

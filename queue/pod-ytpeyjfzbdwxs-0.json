@@ -1,7 +1,7 @@
 {
  "id": "pod-ytpeyjfzbdwxs-0",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "15 YEAR OLD SIM KID",
  "video": "docs/media/pod-ytpeyjfzbdwxs-0/clip.mp4",
@@ -13,8 +13,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -35,5 +35,9 @@
  "thumb": "docs/media/thumbs/pod-ytpeyjfzbdwxs-0.jpg",
  "short_none": "kort genoeg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytpeyjfzbdwxs-0.mp4",
- "preview_of": "2026-11-20T07:02:30.223036+00:00"
+ "preview_of": "2026-11-20T07:02:30.223036+00:00",
+ "people": [
+  "Braden Lons"
+ ],
+ "names_by": "people database"
 }

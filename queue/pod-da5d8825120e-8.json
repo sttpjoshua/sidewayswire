@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-8",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
  "video": "docs/media/pod-da5d8825120e-8/clip.mp4",
@@ -13,8 +13,8 @@
  ],
  "missing_handles": [],
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -35,5 +35,9 @@
  "short_none": "kort genoeg",
  "thumb": "docs/media/thumbs/pod-da5d8825120e-8.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-da5d8825120e-8.mp4",
- "preview_of": "2026-11-17T13:26:00.122986+00:00"
+ "preview_of": "2026-11-17T13:26:00.122986+00:00",
+ "people": [
+  "Conor Shanahan"
+ ],
+ "names_by": "people database"
 }

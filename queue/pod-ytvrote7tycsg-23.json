@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-23",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "COLE RICHARDS FORGETS HE'S LIVE",
  "video": "docs/media/pod-ytvrote7tycsg-23/clip.mp4",
@@ -13,8 +13,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -36,5 +36,9 @@
  "media": [
   "docs/media/pod-ytvrote7tycsg-23/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Cole Richards"
+ ],
+ "names_by": "people database"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-19",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "BEECHUM VS HANSEN, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-19/clip.mp4",
@@ -14,8 +14,8 @@
  "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -36,5 +36,10 @@
  "media": [
   "docs/media/pod-yt8bwn2g2ssy-19/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Trenton Beechum",
+  "Rudy Hansen"
+ ],
+ "names_by": "people database"
 }

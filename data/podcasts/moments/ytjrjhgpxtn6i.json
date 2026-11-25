@@ -79,7 +79,7 @@
    "Corey Tlaska",
    "Sean Booth"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "namen Sean Booth en Corey Tlaska uit spraakherkenning",
   "hook": {
    "start": 318.18,

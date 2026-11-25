@@ -44,7 +44,7 @@
    "James Deane",
    "Trenton Beechum"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling Trenton Beechum",
   "hook": {
    "start": 103.22,
@@ -522,7 +522,7 @@
   "people": [
    "James Deane"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "naam tegenstander (Austin ...) onduidelijk",
   "hook": {
    "start": 1168.9,
@@ -1189,7 +1189,7 @@
    "Tommy Lemaire",
    "James Deane"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling Tommy Lemaire",
   "hook": {
    "start": 2816.48,

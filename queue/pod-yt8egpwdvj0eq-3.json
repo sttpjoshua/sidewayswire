@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8egpwdvj0eq-3",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "BRUTSKIY UNFLAPPABLE",
  "video": "docs/media/pod-yt8egpwdvj0eq-3/clip.mp4",
@@ -14,8 +14,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -37,5 +37,10 @@
  "short_len": 29.3,
  "thumb": "docs/media/thumbs/pod-yt8egpwdvj0eq-3.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8egpwdvj0eq-3.mp4",
- "preview_of": "2026-11-19T01:11:26.007118+00:00"
+ "preview_of": "2026-11-19T01:11:26.007118+00:00",
+ "people": [
+  "Dmitriy Brutskiy",
+  "Braden Lons"
+ ],
+ "names_by": "people database"
 }

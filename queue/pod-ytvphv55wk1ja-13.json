@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-13",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "THE WALL MOVED?",
  "video": "docs/media/pod-ytvphv55wk1ja-13/clip.mp4",
@@ -13,8 +13,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -36,5 +36,9 @@
  "short": "docs/media/pod-ytvphv55wk1ja-13/short.mp4",
  "short_len": 29.3,
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvphv55wk1ja-13.mp4",
- "preview_of": "2026-11-20T07:02:33.712730+00:00"
+ "preview_of": "2026-11-20T07:02:33.712730+00:00",
+ "people": [
+  "Simen Olsen"
+ ],
+ "names_by": "people database"
 }

@@ -12,7 +12,7 @@
    "Matt Shulman",
    "Brian Wills"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling Pro Spec namen",
   "hook": {
    "start": 132.14,
@@ -226,7 +226,7 @@
   "people": [
    "Corey Tlaska"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "voornaam Heishman onbekend",
   "hook": {
    "start": 474.75,
@@ -290,7 +290,7 @@
   "people": [
    "Braden Lons"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling Braden Lons, voornaam Heishman",
   "hook": {
    "start": 548.71,
@@ -543,7 +543,7 @@
    "Matt Field",
    "Tommy Lemaire"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling Tommy Lemaire",
   "hook": {
    "start": 1146.79,

@@ -43,7 +43,7 @@
    "Braden Lons",
    "Corey Tlaska"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling namen Pro Spec rijders",
   "hook": {
    "start": 150.12,
@@ -107,7 +107,7 @@
    "Dmitriy Brutskiy",
    "Braden Lons"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling namen, onduidelijk of dit de Pro Spec finale is",
   "hook": {
    "start": 426.54,

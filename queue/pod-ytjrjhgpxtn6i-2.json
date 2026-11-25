@@ -1,22 +1,21 @@
 {
  "id": "pod-ytjrjhgpxtn6i-2",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "TLASKA GRASPING AT STRAWS",
  "video": "docs/media/pod-ytjrjhgpxtn6i-2/clip.mp4",
- "caption": "The Atlanta winner Corey Tlaska is under pressure as the lead car pulls away with big angle.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@_seanbooth @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
+ "caption": "The Atlanta winner Corey Tlaska is under pressure as the lead car pulls away with big angle.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@corytalaska @_seanbooth @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
  "tags": [
+  "@corytalaska",
   "@_seanbooth",
   "@formulad"
  ],
- "missing_handles": [
-  "Corey Tlaska"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +37,10 @@
  "short_len": 17.7,
  "thumb": "docs/media/thumbs/pod-ytjrjhgpxtn6i-2.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytjrjhgpxtn6i-2.mp4",
- "preview_of": "2026-11-19T16:51:08.369738+00:00"
+ "preview_of": "2026-11-19T16:51:08.369738+00:00",
+ "people": [
+  "Corey Tlaska",
+  "Sean Booth"
+ ],
+ "names_by": "people database"
 }

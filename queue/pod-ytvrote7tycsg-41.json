@@ -1,22 +1,21 @@
 {
  "id": "pod-ytvrote7tycsg-41",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "RICHARDS VS LEMARRE SPLIT",
  "video": "docs/media/pod-ytvrote7tycsg-41/clip.mp4",
- "caption": "Cole Richards against Tommy LeMarre, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+ "caption": "Cole Richards against Tommy LeMarre, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@colerichardz @tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
  "tags": [
   "@colerichardz",
+  "@tommy.lemaire",
   "@formulad"
  ],
- "missing_handles": [
-  "Tommy LeMarre"
- ],
+ "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -37,5 +36,10 @@
  "media": [
   "docs/media/pod-ytvrote7tycsg-41/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Cole Richards",
+  "Tommy LeMarre"
+ ],
+ "names_by": "people database"
 }

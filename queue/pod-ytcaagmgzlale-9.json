@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-9",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "LONS IS ON A TEAR",
  "video": "docs/media/pod-ytcaagmgzlale-9/clip.mp4",
@@ -13,8 +13,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -36,5 +36,9 @@
  "media": [
   "docs/media/pod-ytcaagmgzlale-9/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Braden Lons"
+ ],
+ "names_by": "people database"
 }

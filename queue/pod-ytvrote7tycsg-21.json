@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-21",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "JACK SHANAHAN SLIDES INTO THE POCKET",
  "video": "docs/media/pod-ytvrote7tycsg-21/clip.mp4",
@@ -14,8 +14,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -37,5 +37,10 @@
  "media": [
   "docs/media/pod-ytvrote7tycsg-21/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Jack Shanahan",
+  "Rudy Hansen"
+ ],
+ "names_by": "people database"
 }

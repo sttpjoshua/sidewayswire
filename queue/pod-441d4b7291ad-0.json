@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-0",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "BEST PROSPEC SEASON EVER?",
  "video": "docs/media/pod-441d4b7291ad-0/clip.mp4",
@@ -16,8 +16,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -39,5 +39,11 @@
  "short_len": 15.4,
  "thumb": "docs/media/thumbs/pod-441d4b7291ad-0.jpg",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-441d4b7291ad-0.mp4",
- "preview_of": "2026-11-17T18:09:52.820938+00:00"
+ "preview_of": "2026-11-17T18:09:52.820938+00:00",
+ "people": [
+  "Dustyn Farrell",
+  "Braden Lons",
+  "Kasey Kohl"
+ ],
+ "names_by": "people database"
 }

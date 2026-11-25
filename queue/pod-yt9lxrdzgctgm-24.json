@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-24",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "CHAMPION ON COMMENTARY",
  "video": "docs/media/pod-yt9lxrdzgctgm-24/clip.mp4",
@@ -15,8 +15,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,11 @@
  "media": [
   "docs/media/pod-yt9lxrdzgctgm-24/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Matt Field",
+  "Simen Olsen",
+  "Conor Shanahan"
+ ],
+ "names_by": "people database"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvrote7tycsg-26",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "FEDE SLEEPS ON THE LIGHT",
  "video": "docs/media/pod-ytvrote7tycsg-26/clip.mp4",
@@ -14,8 +14,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -37,5 +37,10 @@
  "media": [
   "docs/media/pod-ytvrote7tycsg-26/clip.mp4"
  ],
- "problems": []
+ "problems": [],
+ "people": [
+  "Federico Sceriffo",
+  "Ben Hobson"
+ ],
+ "names_by": "people database"
 }
