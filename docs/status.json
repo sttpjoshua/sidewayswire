@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:20:20.107994+00:00",
+ "updated": "2026-11-25T19:21:52.883130+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 542,
@@ -7,7 +7,7 @@
   "skipped": 69,
   "posted": 3
  },
- "collected": "2026-11-25T09:46:10.756111+00:00",
+ "collected": "2026-11-25T19:21:44.769848+00:00",
  "instagram": false,
  "sources": [
   {
@@ -27,15 +27,15 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": true,
-   "items": 7,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
   },
   {
    "source": "Google News",
@@ -232,6 +232,40 @@
      "published": "2026-11-17T01:12:22+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "👀🔥 Just a few days left... until the announcement you've all been asking us about! 🏎️💥",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-25T15:35:38+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "👀🔥 Just a few days left... until the announcement you've all been asking us about! 🏎️💥",
+     "url": "https://www.youtube.com/shorts/awjxecpZWtE",
+     "kind": "video",
+     "published": "2026-11-25T15:35:38+00:00",
+     "media_url": "https://i2.ytimg.com/vi/awjxecpZWtE/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The Outerzone Podcast - Ryan Tuerck",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-25T15:00:16+00:00",
+   "items": [
+    {
+     "source": "Formula DRIFT",
+     "title": "The Outerzone Podcast - Ryan Tuerck",
+     "url": "https://www.youtube.com/watch?v=qq0_y-UOWOM",
+     "kind": "video",
+     "published": "2026-11-25T15:00:16+00:00",
+     "media_url": "https://i2.ytimg.com/vi/qq0_y-UOWOM/hqdefault.jpg",
+     "media_type": "VIDEO"
     }
    ]
   },
@@ -1222,23 +1256,6 @@
    ]
   },
   {
-   "title": "Drifting is a contact sport so, if your wheels aren't getting banged up, you aren't driving close en",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-11T16:17:22+00:00",
-   "items": [
-    {
-     "source": "Matt Field",
-     "title": "Drifting is a contact sport so, if your wheels aren't getting banged up, you aren't driving close en",
-     "url": "https://www.youtube.com/shorts/SRI042_srHA",
-     "kind": "video",
-     "published": "2026-11-11T16:17:22+00:00",
-     "media_url": "https://i4.ytimg.com/vi/SRI042_srHA/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "title": "飲食ブースでは選手とのコラボフードを実施",
    "series": "D1GP",
    "buzz": 1,
@@ -1354,23 +1371,6 @@
      "published": "2026-11-06T20:58:42+00:00",
      "media_url": null,
      "media_type": null
-    }
-   ]
-  },
-  {
-   "title": "One Last Battle - Leaving It All On The Streets of Long Beach! | Inner Clip Season Finale",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-06T20:26:48+00:00",
-   "items": [
-    {
-     "source": "Matt Field",
-     "title": "One Last Battle - Leaving It All On The Streets of Long Beach! | Inner Clip Season Finale",
-     "url": "https://www.youtube.com/watch?v=m5jsytyfiAk",
-     "kind": "video",
-     "published": "2026-11-06T20:26:48+00:00",
-     "media_url": "https://i2.ytimg.com/vi/m5jsytyfiAk/hqdefault.jpg",
-     "media_type": "VIDEO"
     }
    ]
   },
