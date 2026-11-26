@@ -137,12 +137,21 @@ function draw(){
   document.getElementById("of-hud").innerHTML=hud();
   panel()}
 
+window.officePick=id=>{pick=id;panel()};
 window.drawOffice=async function(){
-  if(!Object.keys(AG).length){document.getElementById("of-box").innerHTML=`<div class="empty2">Kantoor gaat open...</div>`}
-  draw();try{await loadAgents()}catch(e){}draw();
-  clearInterval(timer);timer=setInterval(()=>{if(location.hash.startsWith("#kantoor")&&!document.hidden)draw()},30000)};
+  const b3=document.getElementById("of3"),b2=document.getElementById("of-box");
+  document.getElementById("of-hud").innerHTML=hud();panel();
+  try{await loadAgents()}catch(e){}
+  document.getElementById("of-hud").innerHTML=hud();panel();
+  // 3D-terrein als de browser het kan; anders het pixel-kantoor
+  const use3d=window.office3d&&!window.__no3d&&office3d.start();
+  b3.parentElement.style.display=use3d?"":"none";b2.style.display=use3d?"none":"";
+  if(!use3d)draw();
+  clearInterval(timer);timer=setInterval(()=>{if(!location.hash.startsWith("#kantoor")||document.hidden){if(window.office3d)office3d.stop();return}
+    document.getElementById("of-hud").innerHTML=hud();panel();if(use3d){office3d.start()}else draw()},30000)};
+window.addEventListener("hashchange",()=>{if(!location.hash.startsWith("#kantoor")&&window.office3d)office3d.stop()});
 
 document.addEventListener("click",e=>{const g=e.target.closest&&e.target.closest("#s-kantoor [data-of]");if(!g)return;
   pick=g.dataset.of;panel();document.querySelectorAll("#s-kantoor .of-seat").forEach(x=>x.classList.toggle("of-sel",x.dataset.of===pick))});
 })();
-if(location.hash.startsWith("#kantoor")&&typeof S!=="undefined"&&S)drawOffice();
+window.addEventListener("office3d-ready",()=>{if(location.hash.startsWith("#kantoor")&&typeof S!=="undefined"&&S)drawOffice()});
