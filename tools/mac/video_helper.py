@@ -34,7 +34,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "18"
+VERSION = "19"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -99,12 +99,12 @@ def norm(w: str) -> str:
 def captions(youtube_id: str) -> list[tuple[float, str]]:
     """Word-level (time, word) from YouTube's automatic English captions, cached per video."""
     CACHE.mkdir(parents=True, exist_ok=True)
-    vtts = list(CACHE.glob(f"{youtube_id}*.vtt"))
+    vtts = list(CACHE.glob(f"{vkey(youtube_id)}*.vtt"))
     if not vtts:
         r = subprocess.run(["yt-dlp", "--no-warnings", "--skip-download", "--write-auto-subs", "--write-subs",
-                            "--sub-langs", "en.*,en,-live_chat", "--sub-format", "vtt/best", "-o", str(CACHE / youtube_id),
-                            f"https://www.youtube.com/watch?v={youtube_id}"], capture_output=True, text=True, timeout=300)
-        vtts = list(CACHE.glob(f"{youtube_id}*.vtt"))
+                            "--sub-langs", "en.*,en,-live_chat", "--sub-format", "vtt/best", "-o", str(CACHE / vkey(youtube_id)),
+                            vurl(youtube_id)], capture_output=True, text=True, timeout=300)
+        vtts = list(CACHE.glob(f"{vkey(youtube_id)}*.vtt"))
         if not vtts:
             log(f"yt-dlp ondertitels {youtube_id} (code {r.returncode}):", (r.stderr or r.stdout)[-600:].replace("\n", " | "))
     if not vtts:
@@ -202,14 +202,14 @@ def _load(path: Path):
 
 def youtube_audio(youtube_id: str) -> Path:
     CACHE.mkdir(parents=True, exist_ok=True)
-    out = CACHE / f"{youtube_id}.yt.s16"
+    out = CACHE / f"{vkey(youtube_id)}.yt.s16"
     if out.exists():
         return out
-    src = list(CACHE.glob(f"{youtube_id}.audio.*"))
+    src = list(CACHE.glob(f"{vkey(youtube_id)}.audio.*"))
     if not src:
-        r = subprocess.run(["yt-dlp", "--no-warnings", "-f", "ba[ext=m4a]/ba", "-o", str(CACHE / f"{youtube_id}.audio.%(ext)s"),
-                            f"https://www.youtube.com/watch?v={youtube_id}"], capture_output=True, text=True, timeout=1800)
-        src = [p for p in CACHE.glob(f"{youtube_id}.audio.*") if not p.name.endswith(".part")]
+        r = subprocess.run(["yt-dlp", "--no-warnings", "-f", "ba[ext=m4a]/ba/b[height<=480]/b", "-o", str(CACHE / f"{vkey(youtube_id)}.audio.%(ext)s"),
+                            vurl(youtube_id)], capture_output=True, text=True, timeout=1800)
+        src = [p for p in CACHE.glob(f"{vkey(youtube_id)}.audio.*") if not p.name.endswith(".part")]
         if not src:
             raise RuntimeError("YouTube-geluid niet op te halen: " + (r.stderr or "")[-300:].replace("\n", " | "))
     _decode(str(src[0]), out)
@@ -247,6 +247,34 @@ def audio_offset(pod, yt, at: float, length: float = 20.0) -> float | None:
 
 
 # ---------- the right video ----------
+def vurl(v: str) -> str:
+    """A video is a YouTube id or a full link (Red Bull TV replays of Drift Masters, used with permission)."""
+    return v if v.startswith("http") else f"https://www.youtube.com/watch?v={v}"
+
+
+def vkey(v: str) -> str:
+    """Safe file name for a video: the YouTube id itself, or a short hash of a full link."""
+    return v if not v.startswith("http") else "rb" + hashlib.md5(v.encode()).hexdigest()[:12]
+
+
+def _ytdlp_fresh() -> None:
+    """Red Bull TV changes its site now and then: keep yt-dlp up to date (at most once a day)."""
+    stamp = CACHE / "ytdlp-updated"
+    if stamp.exists() and time.time() - stamp.stat().st_mtime < 86400:
+        return
+    CACHE.mkdir(parents=True, exist_ok=True)
+    for cmd in (["yt-dlp", "-U"], ["brew", "upgrade", "yt-dlp"],
+                [sys.executable, "-m", "pip", "install", "-q", "--user", "-U", "yt-dlp"]):
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+            if r.returncode == 0:
+                log("yt-dlp bijgewerkt via", cmd[0])
+                break
+        except Exception:
+            continue
+    stamp.touch()
+
+
 def _ytdlp_lines(args: list[str]) -> list[str]:
     r = subprocess.run(["yt-dlp", "--no-warnings", *args], capture_output=True, text=True, timeout=300)
     return [l for l in r.stdout.splitlines() if l.strip()]
@@ -261,7 +289,7 @@ def video_for(ep: dict, state: dict) -> str | None:
     want = float(ep.get("seconds") or 0)
     pick = None
     if ep.get("youtube"):
-        d = _ytdlp_lines(["--print", "%(duration)s", f"https://www.youtube.com/watch?v={ep['youtube']}"])
+        d = _ytdlp_lines(["--print", "%(duration)s", vurl(ep['youtube'])])
         dur = float(d[0]) if d and d[0].replace(".", "", 1).isdigit() else 0
         if not want or (dur and 0.85 * want <= dur <= 1.2 * want):
             pick = ep["youtube"]
@@ -376,11 +404,11 @@ def transcribe_stream(s: dict, yid: str) -> dict:
     """Download the sound of the stream and transcribe it with Whisper for Apple chips."""
     mlx_whisper = mlx()
     CACHE.mkdir(parents=True, exist_ok=True)
-    src = [p for p in CACHE.glob(f"{yid}.full.*") if not p.name.endswith(".part")]
+    src = [p for p in CACHE.glob(f"{vkey(yid)}.full.*") if not p.name.endswith(".part")]
     if not src:
-        r = subprocess.run(["yt-dlp", "--no-warnings", "-f", "ba[ext=m4a]/ba", "-o", str(CACHE / f"{yid}.full.%(ext)s"),
-                            f"https://www.youtube.com/watch?v={yid}"], capture_output=True, text=True, timeout=7200)
-        src = [p for p in CACHE.glob(f"{yid}.full.*") if not p.name.endswith(".part")]
+        r = subprocess.run(["yt-dlp", "--no-warnings", "-f", "ba[ext=m4a]/ba/b[height<=480]/b", "-o", str(CACHE / f"{vkey(yid)}.full.%(ext)s"),
+                            vurl(yid)], capture_output=True, text=True, timeout=7200)
+        src = [p for p in CACHE.glob(f"{vkey(yid)}.full.*") if not p.name.endswith(".part")]
         if not src:
             raise RuntimeError("geluid van de stream niet op te halen: " + (r.stderr or "")[-300:])
     log(f"{s['id']}: transcriberen ({src[0].stat().st_size // 1_000_000} MB geluid)")
@@ -425,7 +453,7 @@ def discover_streams(reg: dict, state: dict) -> list:
             if day and ch.get("since") and f"{day[:4]}-{day[4:6]}-{day[6:]}" < ch["since"]:
                 continue
             if not day:          # date unknown in the list: ask for it
-                d = _ytdlp_lines(["--print", "%(release_date,upload_date)s", f"https://www.youtube.com/watch?v={p[0]}"])
+                d = _ytdlp_lines(["--print", "%(release_date,upload_date)s", vurl(p[0])])
                 day = d[0] if d and d[0].isdigit() else ""
                 if not day or (ch.get("since") and f"{day[:4]}-{day[4:6]}-{day[6:]}" < ch["since"]):
                     continue
@@ -448,7 +476,7 @@ def streams_work(beat, state=None) -> None:
     for s in reg.get("streams", []) + [x for x in extra if x["id"] not in {r["id"] for r in reg.get("streams", [])}]:
         mpath = f"data/streams/mac/{s['id']}.json"
         mac = _json_or(mpath, {})
-        if s.get("youtube") and mac.get("youtube") != s["youtube"]:   # a video chosen by hand always wins
+        if s.get("youtube") and mac.get("youtube") not in [s["youtube"]] + s.get("alt", []):   # a video chosen by hand always wins
             mac = {"youtube": s["youtube"], "status": "transcribing", "note": "video vastgelegd in het register"}
         if mac.get("status") == "transcribed":
             continue
@@ -464,8 +492,17 @@ def streams_work(beat, state=None) -> None:
                     raise RuntimeError("geen replay gevonden die bij het evenement past")
                 pick = next(c for c in cands if c["id"] == yid)
                 mac.update(youtube=yid, seconds=pick["seconds"], found_title=pick["title"], status="transcribing")
+            if not mac.get("seconds") and mac["youtube"].startswith("http"):
+                _ytdlp_fresh()
+                for u in [mac["youtube"]] + [a for a in s.get("alt", []) if a != mac["youtube"]]:
+                    d = _ytdlp_lines(["--print", "%(duration)s\t%(title)s", u])
+                    if d and "\t" in d[0]:
+                        mac["youtube"] = u          # the first link yt-dlp can read
+                        break
+                else:
+                    raise RuntimeError("Red Bull TV-replay niet te lezen met yt-dlp (link of yt-dlp-versie)")
             if not mac.get("seconds"):
-                d = _ytdlp_lines(["--print", "%(duration)s\t%(title)s", f"https://www.youtube.com/watch?v={mac['youtube']}"])
+                d = _ytdlp_lines(["--print", "%(duration)s\t%(title)s", vurl(mac['youtube'])])
                 if d and "\t" in d[0]:
                     mac.update(seconds=float(d[0].split("\t")[0] or 0), found_title=d[0].split("\t", 1)[1])
             log(f"{s['id']}: replay: {mac.get('found_title')} ({(mac.get('seconds') or 0) / 3600:.1f} uur)")
@@ -515,7 +552,7 @@ def pieces(ep_id: str, i: int, m: dict) -> list[tuple[str, dict]]:
 def download(youtube_id: str, a: float, b: float, out: Path) -> bool:
     r = subprocess.run(["yt-dlp", "-q", "--no-warnings", "-f", "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b",
                         "--merge-output-format", "mp4", "--download-sections", f"*{a:.2f}-{b:.2f}",
-                        "--force-keyframes-at-cuts", "-o", str(out), f"https://www.youtube.com/watch?v={youtube_id}"],
+                        "--force-keyframes-at-cuts", "-o", str(out), vurl(youtube_id)],
                        capture_output=True, text=True, timeout=900)
     if r.returncode:
         log("yt-dlp:", r.stderr[-400:])
@@ -599,7 +636,7 @@ def main():
     for st in (_json_or("data/streams/streams.json", {"streams": []}).get("streams", [])
                + _json_or("data/streams/mac/_found.json", {"streams": []}).get("streams", [])):
         mac = _json_or(f"data/streams/mac/{st['id']}.json", {})
-        if st.get("youtube"):
+        if st.get("youtube") and mac.get("youtube") not in [st["youtube"]] + st.get("alt", []):
             mac["youtube"] = st["youtube"]
         if mac.get("youtube") and mac.get("status") == "transcribed":
             all_eps.append({"id": st["id"], "kind": "stream", "podcast": st["series"], "title": st["title"],
