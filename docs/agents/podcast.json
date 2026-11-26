@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · This Could Cost Us the Championship.. | Formula Drift Vegas",
- "updated": "2026-11-26T19:24:43.678547+00:00",
+ "doing": "leest: James Deane · 130 SHOWDOWN: THE MOVIE",
+ "updated": "2026-11-26T19:24:48.045661+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:47.310488+00:00",
+   "text": "0 momenten uit This Could Cost Us the Championship.. | Formula Drift Vegas",
+   "ref": "ytqtkzzrr0gv8"
+  },
   {
    "at": "2026-11-26T19:24:42.859282+00:00",
    "text": "0 momenten uit How We Filmed James Deane Drifting an Entire Mountain Pass!",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:10.283911+00:00",
    "text": "0 momenten uit They Let Me Drive a $1,000,000 Combine!",
    "ref": "yte6sy0bdgu5c"
-  },
-  {
-   "at": "2026-11-26T19:23:06.194242+00:00",
-   "text": "0 momenten uit Jet vs Car FACE-OFF! | Formula Drift Season Finale",
-   "ref": "ytmmnhgfc3x60"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 61
+  "made": 62
  },
  "version": "3"
 }
