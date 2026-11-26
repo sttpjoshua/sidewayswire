@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: The Shanahans · THE MOST CRAIC WE’VE HAD AT FORMULA DRIFT | LAS VEGAS",
- "updated": "2026-11-26T19:25:30.630961+00:00",
+ "doing": "leest: The Shanahans · I THOUGHT THE DREAM WAS OVER | FIRE IN THE SUPRA AT THE 130 SHOWDOWN",
+ "updated": "2026-11-26T19:25:35.762367+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:35.106612+00:00",
+   "text": "0 momenten uit THE MOST CRAIC WE’VE HAD AT FORMULA DRIFT | LAS VEGAS",
+   "ref": "yttqpdebf1jg"
+  },
   {
    "at": "2026-11-26T19:25:30.059220+00:00",
    "text": "0 momenten uit FROM A SMALL TOWN IN IRELAND TO THE STREETS OF LONG BEACH | Formula Drift Finale",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:54.623808+00:00",
    "text": "0 momenten uit BACK IN JAPAN - This is the GREATEST car I own… ",
    "ref": "ytsj9srnktads"
-  },
-  {
-   "at": "2026-11-26T19:23:50.846231+00:00",
-   "text": "0 momenten uit Things Got SERIOUS at Japans CRAZIEST track.. ",
-   "ref": "ytd1ksysbfu8o"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 72
+  "made": 73
  },
  "version": "3"
 }
