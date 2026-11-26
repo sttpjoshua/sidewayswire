@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: TJ Hunt · Rest In Peace, My Porsche GT3...",
- "updated": "2026-11-26T19:21:58.611509+00:00",
+ "doing": "leest: TJ Hunt · Finally Finished My Dream R34 GTR!",
+ "updated": "2026-11-26T19:22:03.677102+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:22:02.967420+00:00",
+   "text": "0 momenten uit Rest In Peace, My Porsche GT3...",
+   "ref": "ytsaamxboepms"
+  },
   {
    "at": "2026-11-26T19:21:57.869523+00:00",
    "text": "0 momenten uit 900HP 2JZ Supra Vs. Canadian Police",
@@ -124,7 +129,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 21
+  "made": 22
  },
  "version": "3"
 }
