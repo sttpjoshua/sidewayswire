@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-24",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "approved",
  "slides": [],
  "title": "CHEVROLET IN FORMULA DRIFT?",
  "video": "docs/media/pod-6892a8b1e411-24/clip.mp4",
@@ -44,5 +44,6 @@
   "hard": [],
   "soft": [],
   "at": "2026-11-26T19:31:44.213248+00:00"
- }
+ },
+ "approved": "2026-11-26T20:54:57.655Z"
 }
