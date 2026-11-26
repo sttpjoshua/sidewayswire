@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: The Shanahans · STRIPPING THE 2026 FORMULA DRIFT S54 | The Post Mortem",
- "updated": "2026-11-26T19:25:23.157821+00:00",
+ "doing": "leest: The Shanahans · FROM A SMALL TOWN IN IRELAND TO THE STREETS OF LONG BEACH | Formula Drift Finale",
+ "updated": "2026-11-26T19:25:26.961842+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:26.256655+00:00",
+   "text": "0 momenten uit STRIPPING THE 2026 FORMULA DRIFT S54 | The Post Mortem",
+   "ref": "yt12ek9clvcc8"
+  },
   {
    "at": "2026-11-26T19:25:22.585433+00:00",
    "text": "0 momenten uit NOT A BAD DEBUT TO ROYAL DRIFT SERIES | First Time In China",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:45.373504+00:00",
    "text": "0 momenten uit I JOIN A JAPANESE DRIFT TEAM!!",
    "ref": "ytheirtxu7udq"
-  },
-  {
-   "at": "2026-11-26T19:23:41.755907+00:00",
-   "text": "0 momenten uit We Lost Almost All Our Practice… Then Went For It. ",
-   "ref": "ytklixjawbn0s"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 70
+  "made": 71
  },
  "version": "3"
 }
