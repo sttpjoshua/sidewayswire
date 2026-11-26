@@ -47,18 +47,39 @@ def candidates(name: str) -> list[str]:
     return list(dict.fromkeys(base))
 
 
-def page_handles(name: str) -> list[str]:
-    """Instagram links on the official driver pages (Drift Masters, Formula DRIFT)."""
-    slug = re.sub(r"[^a-z0-9]+", "-", _plain(name)).strip("-")
-    out = []
-    for url in (f"https://dm.gp/drivers/{slug}/", f"https://www.formulad.com/drivers/{slug}"):
+_BASE: dict[str, set] = {}
+
+
+def _base(host: str, url: str) -> set:
+    """Handles that are on every page of a site (header, footer, sponsors): never a driver's own."""
+    if host not in _BASE:
         try:
-            r = requests.get(url, headers=UA, timeout=20)
-            if r.status_code == 200:
-                out += [h.lower().rstrip(".") for h in re.findall(r"instagram\.com/([A-Za-z0-9_.]+)", r.text)
-                        if h.lower() not in ("formulad", "driftmasters.gp", "p", "reel", "explore", "driftmasters")]
+            t = requests.get(url, headers=UA, timeout=20).text
+            _BASE[host] = {h.lower().rstrip(".") for h in re.findall(r"instagram\.com/([A-Za-z0-9_.]+)", t)}
         except Exception:
-            pass
+            _BASE[host] = set()
+    return _BASE[host]
+
+
+def page_handles(name: str) -> list[str]:
+    """Instagram links on the official driver page (Drift Masters, Formula DRIFT). Only when the page
+    really is that driver's page: no redirect, his name on it, and not a link that every page has
+    (26 nov: dm.gp sent unknown drivers to a general page with @adam_lz on it)."""
+    slug = re.sub(r"[^a-z0-9]+", "-", _plain(name)).strip("-")
+    last = _plain(name).split()[-1]
+    out = []
+    for host, url, dummy in (("dm.gp", f"https://dm.gp/drivers/{slug}/", "https://dm.gp/drivers/zz-not-a-driver/"),
+                             ("formulad", f"https://www.formulad.com/drivers/{slug}", "https://www.formulad.com/drivers/zz-not-a-driver")):
+        try:
+            r = requests.get(url, headers=UA, timeout=20, allow_redirects=True)
+        except Exception:
+            continue
+        if r.status_code != 200 or slug not in r.url or last not in _plain(r.text):
+            continue
+        base = _base(host, dummy)
+        hs = [h.lower().rstrip(".") for h in re.findall(r"instagram\.com/([A-Za-z0-9_.]+)", r.text)]
+        hs = [h for h in hs if h not in base and h not in ("p", "reel", "explore")]
+        out += hs[:1]
     return list(dict.fromkeys(out))
 
 
@@ -79,7 +100,7 @@ def fits(name: str, acc: dict, official: bool) -> tuple[bool, str]:
     last = re.sub(r"[^a-z]", "", _plain(name).split()[-1])
     has_last = last and last in re.sub(r"[^a-z]", "", who + _plain(acc.get("username", "")))
     drift = bool(DRIFT.search(bio + " " + (acc.get("name") or "")))
-    if official:
+    if official and (sim >= 0.5 or has_last or drift):
         return True, "staat op de officiële rijderspagina"
     if (sim >= 0.8 or has_last) and drift:
         return True, f"naam past ({acc.get('name')}), bio over drift"
