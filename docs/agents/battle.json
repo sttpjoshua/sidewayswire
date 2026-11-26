@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "bezig",
- "doing": "leest: Formula DRIFT · Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
- "updated": "2026-11-26T19:46:18.816183+00:00",
+ "doing": "nog 27 video's te lezen",
+ "updated": "2026-11-26T19:56:03.125349+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:55:14.890495+00:00",
+   "text": "30 momenten uit Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+   "ref": "ytnmn7gxunksk"
+  },
   {
    "at": "2026-11-26T19:20:28.324947+00:00",
    "text": "0 momenten uit The Wildest Runs of Formula DRIFT 2025 (Full Season Highlights) | Presented by Type S Auto",
@@ -126,19 +131,16 @@
    "at": "2026-11-26T19:18:40.254667+00:00",
    "text": "0 momenten uit Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Qualifying",
    "ref": "ytrm9nagg2xvu"
-  },
-  {
-   "at": "2026-11-26T19:18:36.604209+00:00",
-   "text": "0 momenten uit Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Top 32",
-   "ref": "ythnglyd6cr0"
   }
  ],
  "errors": [],
- "drops": {},
+ "drops": {
+  "te kort of te lang": 20
+ },
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 28
+  "made": 29
  },
  "version": "3"
 }
