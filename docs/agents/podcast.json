@@ -2,17 +2,29 @@
  "id": "podcast",
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
- "state": "bezig",
- "doing": "leest: Adam LZ · I DESTROYED My JZX100 on the Minami Jump",
- "updated": "2026-11-26T19:20:29.305882+00:00",
+ "state": "fout",
+ "doing": "leest: Adam LZ · Ebisu Circuit YouTuber Takeover",
+ "updated": "2026-11-26T19:20:33.010597+00:00",
  "note": "",
- "history": [],
- "errors": [],
+ "history": [
+  {
+   "at": "2026-11-26T19:20:32.280882+00:00",
+   "text": "0 momenten uit I DESTROYED My JZX100 on the Minami Jump",
+   "ref": "yttg8zjtomzhu"
+  }
+ ],
+ "errors": [
+  "taalmodel: No module named 'mlx_lm'",
+  "taalmodel: No module named 'mlx_lm'",
+  "taalmodel: No module named 'mlx_lm'",
+  "taalmodel: No module named 'mlx_lm'",
+  "taalmodel: No module named 'mlx_lm'"
+ ],
  "drops": {},
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 0
+  "made": 1
  },
  "version": "3"
 }
