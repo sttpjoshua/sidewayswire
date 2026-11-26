@@ -74,9 +74,25 @@ def model(log):
     try:
         import mlx_lm  # noqa: F401
     except ImportError:
-        log("taalmodel: mlx-lm installeren (eenmalig)")
-        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "--disable-pip-version-check", "mlx-lm"],
-                       check=True)
+        # 26 nov: this never ran in v2, because ask() imported mlx_lm before calling model(). That is why the
+        # editor found 0 moments from 19 to 26 nov. Install for this Python only (--user), once.
+        import importlib
+        import site
+        log("taalmodel: mlx-lm installeren (eenmalig, alleen voor deze Python)")
+        last = ""
+        for extra in (["--user"], []):
+            r = subprocess.run([sys.executable, "-m", "pip", "install", "-q", "--disable-pip-version-check", *extra,
+                                "mlx-lm"], capture_output=True, text=True)
+            if r.returncode == 0:
+                break
+            last = (r.stderr or r.stdout)[-300:]
+        else:
+            raise RuntimeError(f"mlx-lm installeren lukte niet ({sys.executable}): {last}")
+        try:
+            sys.path.append(site.getusersitepackages())
+        except Exception:
+            pass
+        importlib.invalidate_caches()
     from mlx_lm import load
     name = MODEL_BIG if _ram_gb() >= 30 else MODEL_SMALL
     log(f"taalmodel laden: {name} (de eerste keer wordt het gedownload)")
@@ -85,9 +101,9 @@ def model(log):
 
 
 def ask(log, system: str, user: str, max_tokens: int = 1800) -> str:
+    name, m, tok = model(log)               # first: installs and loads the model when needed
     from mlx_lm import generate
     from mlx_lm.sample_utils import make_sampler
-    name, m, tok = model(log)
     msgs = [{"role": "system", "content": system}, {"role": "user", "content": user}]
     prompt = tok.apply_chat_template(msgs, add_generation_prompt=True, tokenize=False)
     try:
@@ -518,6 +534,15 @@ def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
             ag[a].flush("pauze" if on[a] else "uit", note[a])
         return {"off": True, "why": "werktijd: de Mac is van Joshua"}
     t0, rep = time.time(), {"moments": 0, "episodes": 0, "news": 0, "replies": 0}
+    try:
+        model(log)                          # no model, no work: stop here instead of writing empty results
+    except Exception as ex:
+        for a in AGENTS:
+            ag[a].doing = "wacht: het taalmodel start niet op deze Mac"
+            ag[a].error(f"taalmodel: {ex}")
+            ag[a].flush("fout", note[a])
+        log("taalmodel start niet:", ex)
+        return {"off": True, "why": f"taalmodel: {ex}"}
     known = known_people(json_or, gh)
     if on["community"]:
         ag["community"].doing = "leest nieuwe reacties"
@@ -544,12 +569,12 @@ def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
                 for e in ix.get("episodes", {}).values() if e.get("status") == "transcribed"]
     eps.sort(key=lambda e: {"stream": 0, "vlog": 1}.get(e["kind"], 2))
     # v2 wrote [] for 144 videos without finding anything: those are read again by v3 (once)
-    redo = set(state.get("v3_redo") or [])
-    if not state.get("v3_redo_set"):
+    redo = set(state.get("v3b_redo") or [])
+    if not state.get("v3b_redo_set"):
         for e in eps:
             if json_or(f"data/podcasts/moments/{e['id']}.json", None) == []:
                 redo.add(e["id"])
-        state["v3_redo"], state["v3_redo_set"] = sorted(redo), True
+        state["v3b_redo"], state["v3b_redo_set"] = sorted(redo), True
     todo = {"battle": 0, "podcast": 0}
     for ep in eps:
         aid = "battle" if ep["kind"] == "stream" else "podcast"
@@ -565,11 +590,14 @@ def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
         a = ag[aid]
         a.doing = f"leest: {ep.get('podcast') or ''} · {ep.get('title') or ep['id']}"[:120]
         a.flush("bezig", note[aid])
+        n_err = len(a.errors)
         ms = moments_for(ep, t, known, log, beat, a, note[aid])
+        if not ms and len(a.errors) > n_err:
+            break                           # the model failed: keep this video for the next round
         put(f"data/podcasts/moments/{ep['id']}.json", json.dumps(ms, indent=1, ensure_ascii=False).encode(),
             f"{AGENTS[aid].lower()}: {len(ms)} momenten uit {ep['id']}")
         redo.discard(ep["id"])
-        state["v3_redo"] = sorted(redo)
+        state["v3b_redo"] = sorted(redo)
         todo[aid] -= 1
         rep["moments"] += len(ms)
         rep["episodes"] += 1
