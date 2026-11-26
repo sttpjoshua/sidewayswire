@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T22:59:56.293077+00:00",
+ "updated": "2026-11-26T23:01:46.092516+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 697,
@@ -7,7 +7,7 @@
   "check": 17,
   "posted": 3
  },
- "collected": "2026-11-26T22:59:53.057067+00:00",
+ "collected": "2026-11-26T23:01:40.963737+00:00",
  "instagram": true,
  "sources": [
   {
@@ -34,9 +34,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": true,
-   "items": 11,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
   },
   {
    "source": "Google News",
@@ -119,7 +118,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
