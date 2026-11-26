@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Collete Davis · I Raced Cleetus McFarland’s LeMullets… Our Car Got DESTROYED!",
- "updated": "2026-11-26T19:22:54.174358+00:00",
+ "doing": "leest: Collete Davis · Can You Really Do SEMA in ONE DAY? | DDPAI Z100 Master Demo! ",
+ "updated": "2026-11-26T19:22:57.774284+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:22:57.195354+00:00",
+   "text": "0 momenten uit I Raced Cleetus McFarland’s LeMullets… Our Car Got DESTROYED!",
+   "ref": "ytsp8iwpkm8wi"
+  },
   {
    "at": "2026-11-26T19:22:53.490276+00:00",
    "text": "0 momenten uit Why Japan Is the Best Place to Drift - The Final Day I Will Never Forget",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:21:13.404590+00:00",
    "text": "0 momenten uit My 4.0L Porsche 964 Is Back With Bigger Cams and a Secret Mod!",
    "ref": "ytha0olbpf9pg"
-  },
-  {
-   "at": "2026-11-26T19:21:09.656277+00:00",
-   "text": "0 momenten uit My 1000HP Cosmo Build Just Got Serious",
-   "ref": "ytvzpeqcjbgfk"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 34
+  "made": 35
  },
  "version": "3"
 }
