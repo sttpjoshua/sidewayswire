@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Formula DRIFT · Formula DRIFT Shoreline Showdown 2025 - Top 16 ALL ACTION",
- "updated": "2026-11-26T19:20:20.931435+00:00",
+ "doing": "leest: Formula DRIFT · The Wildest Runs of Formula DRIFT 2025 (Full Season Highlights) | Presented by Type S Auto",
+ "updated": "2026-11-26T19:20:25.207297+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:20:24.207753+00:00",
+   "text": "0 momenten uit Formula DRIFT Shoreline Showdown 2025 - Top 16 ALL ACTION",
+   "ref": "ytrghpuwys2uc"
+  },
   {
    "at": "2026-11-26T19:20:19.489053+00:00",
    "text": "0 momenten uit Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 16 On-Demand",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:18:32.755601+00:00",
    "text": "0 momenten uit Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
    "ref": "ytzb6lkwi41kc"
-  },
-  {
-   "at": "2026-11-26T19:18:28.791728+00:00",
-   "text": "0 momenten uit Formula DRIFT Seattle 2026 - PRO, Round 6 - Top 32",
-   "ref": "ytog8i68qcjxg"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 26
+  "made": 27
  },
  "version": "3"
 }
