@@ -170,10 +170,15 @@
   "why": "Engaging betting discussion with a local angle.",
   "caption": "Mr. Lindsay bets on the Sorensen brothers for Formula Drift.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytnmn7gxunksk-6-8573-9082.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-6-8573-9082.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-26T20:45:30.643961+00:00"
  },
  {
   "start": 962.14,
@@ -186,7 +191,7 @@
   "why": "High tension and excitement, showcasing Dean's skill.",
   "caption": "James The Machine Dean nails his qualifying run with a thrilling off-the-line move.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -195,7 +200,12 @@
    "text": "IS HE GOING OFF?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-7-9621-10405.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-7-9621-10405.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1015.44, \"start\": 1014.34, \"text\": \"IS HE GOING OFF?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:47:23.829696+00:00"
  },
  {
   "start": 1096.2,
@@ -208,7 +218,7 @@
   "why": "Shows a legendary driver adapting to the track.",
   "caption": "Shinjiminawa looks more comfortable behind the wheel, making a strong comeback.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -217,7 +227,12 @@
    "text": "HAS HE GOT HIS TOUCH BACK?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-8-10962-11499.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-8-10962-11499.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1126.18, \"start\": 1122.28, \"text\": \"HAS HE GOT HIS TOUCH BACK?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:48:47.198464+00:00"
  },
  {
   "start": 1206.68,
@@ -232,7 +247,7 @@
   "why": "Rookie driver's first run",
   "caption": "Nate Chen's rookie season qualifying run",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -241,7 +256,12 @@
    "text": "HOW DID NATE CHEN DO?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-9-12067-12570.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-9-12067-12570.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1253.8, \"start\": 1251.26, \"text\": \"HOW DID NATE CHEN DO?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:49:58.520849+00:00"
  },
  {
   "start": 1359.72,
