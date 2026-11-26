@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · How We Filmed James Deane Drifting an Entire Mountain Pass!",
- "updated": "2026-11-26T19:24:39.538737+00:00",
+ "doing": "leest: James Deane · This Could Cost Us the Championship.. | Formula Drift Vegas",
+ "updated": "2026-11-26T19:24:43.678547+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:42.859282+00:00",
+   "text": "0 momenten uit How We Filmed James Deane Drifting an Entire Mountain Pass!",
+   "ref": "ytbxfclacq13q"
+  },
   {
    "at": "2026-11-26T19:24:38.900956+00:00",
    "text": "0 momenten uit Making History With The Boys | FD Long Beach",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:06.194242+00:00",
    "text": "0 momenten uit Jet vs Car FACE-OFF! | Formula Drift Season Finale",
    "ref": "ytmmnhgfc3x60"
-  },
-  {
-   "at": "2026-11-26T19:23:00.863279+00:00",
-   "text": "0 momenten uit Can You Really Do SEMA in ONE DAY? | DDPAI Z100 Master Demo! ",
-   "ref": "ytiusi5oy73u"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 60
+  "made": 61
  },
  "version": "3"
 }
