@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:30:16.651939+00:00",
+ "updated": "2026-11-26T20:32:02.051099+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 613,
@@ -7,7 +7,7 @@
   "skipped": 70,
   "posted": 3
  },
- "collected": "2026-11-26T20:30:16.340717+00:00",
+ "collected": "2026-11-26T20:31:57.447774+00:00",
  "instagram": true,
  "sources": [
   {
@@ -175,7 +175,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 6,
+   "items": 11,
    "how": "feed"
   },
   {
@@ -620,6 +620,23 @@
      "published": "2026-11-25T19:23:39+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/930414131_18646535401035812_3714229299269410576_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VxyQx7jisU8Q7kNvwEnzuh-&_nc_oc=AdqLIYAbD5DXEaVYL0oSPOFgItiwqRD0YaW5LJHgczml4lN79EmYkj8QdzFzKacSdDI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQFaUvXvCMOiY2fKmZi9ekFe3FgOo_AFUHf2VCYE-ZfRw&oe=6B0E713B",
      "media_type": "CAROUSEL_ALBUM"
+    }
+   ]
+  },
+  {
+   "title": "Roguelike autobattler Drift Scrappers demo released",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-25T08:17:23+00:00",
+   "items": [
+    {
+     "source": "Google News · 게임메카",
+     "title": "Roguelike autobattler Drift Scrappers demo released",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UM2t3N0RUeXNiRGdCc2p6OUFUSGhLeHRxZElEMEIyNmg3ckJhNGlDeFY2WFZDRnZZQ3daSVNEaWpmNE5FTFNPTmQzV3dRV3RZY0F0bzVPVi0wZzB6?oc=5",
+     "kind": "article",
+     "published": "2026-11-25T08:17:23+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1232,23 +1249,6 @@
      "published": "2026-11-17T08:00:00+00:00",
      "media_url": null,
      "media_type": null
-    }
-   ]
-  },
-  {
-   "title": "2013 ⏩️ 2026.. Como pasa el tiempo. 🥵",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-16T19:53:35+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "2013 ⏩️ 2026.. Como pasa el tiempo. 🥵",
-     "url": "https://www.instagram.com/p/Df0Jvsnm6a3/",
-     "kind": "instagram",
-     "published": "2026-11-16T19:53:35+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905521543_18650052874023119_3767471028247885939_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=A66gRMAZaMoQ7kNvwGMZVHg&_nc_oc=AdquXCLXZWOHu3dN78TeZjt-95od0X2UgxA8P-91qqQUxraY5PnHuXtADkexM4_XfKw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=XO1wYlqk1Rk1SXmLpUMlpw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRwEfRiYXl0KsyEpFNPuXiR183L0GACyEZKj1tcVO2RMg&oe=6B0E4DCA",
-     "media_type": "CAROUSEL_ALBUM"
     }
    ]
   },

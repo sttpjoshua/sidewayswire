@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:30:16.340717+00:00",
+ "updated": "2026-11-26T20:31:57.447774+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -591,6 +591,33 @@
     ],
     "skip": false,
     "feature": true
+   }
+  },
+  {
+   "id": "c3ab8bd9c117afc2",
+   "title": "Roguelike autobattler Drift Scrappers demo released",
+   "series": "FD + DM",
+   "buzz": 1,
+   "first_seen": "2026-11-26T20:31:53.567699+00:00",
+   "published": "2026-11-25T08:17:23+00:00",
+   "items": [
+    {
+     "source": "Google News · 게임메카",
+     "title": "Roguelike autobattler Drift Scrappers demo released",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UM2t3N0RUeXNiRGdCc2p6OUFUSGhLeHRxZElEMEIyNmg3ckJhNGlDeFY2WFZDRnZZQ3daSVNEaWpmNE5FTFNPTmQzV3dRV3RZY0F0bzVPVi0wZzB6?oc=5",
+     "kind": "article",
+     "published": "2026-11-25T08:17:23+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ],
+   "scout": {
+    "score": 30,
+    "why": [
+     "evenement"
+    ],
+    "skip": false,
+    "feature": false
    }
   },
   {
@@ -1560,33 +1587,6 @@
    }
   },
   {
-   "id": "cb1a52f2b5cfc21c",
-   "title": "2013 ⏩️ 2026.. Como pasa el tiempo. 🥵",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-26T19:52:31.980644+00:00",
-   "published": "2026-11-16T19:53:35+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "2013 ⏩️ 2026.. Como pasa el tiempo. 🥵",
-     "url": "https://www.instagram.com/p/Df0Jvsnm6a3/",
-     "kind": "instagram",
-     "published": "2026-11-16T19:53:35+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905521543_18650052874023119_3767471028247885939_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=A66gRMAZaMoQ7kNvwGMZVHg&_nc_oc=AdquXCLXZWOHu3dN78TeZjt-95od0X2UgxA8P-91qqQUxraY5PnHuXtADkexM4_XfKw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=XO1wYlqk1Rk1SXmLpUMlpw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRwEfRiYXl0KsyEpFNPuXiR183L0GACyEZKj1tcVO2RMg&oe=6B0E4DCA",
-     "media_type": "CAROUSEL_ALBUM"
-    }
-   ],
-   "scout": {
-    "score": 25,
-    "why": [
-     "bekende rijder"
-    ],
-    "skip": true,
-    "feature": true
-   }
-  },
-  {
    "id": "43faea34639b40b4",
    "title": "RB just loving some limiter",
    "series": "FD",
@@ -2454,7 +2454,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 6,
+   "items": 11,
    "how": "feed"
   },
   {
