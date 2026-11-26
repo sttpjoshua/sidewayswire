@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: The Shanahans · DID WE LOSE OUR SHOT AT THE CHAMPIONSHIP IN SEATTLE? | FORMULA DRIFT",
- "updated": "2026-11-26T19:25:47.128434+00:00",
+ "doing": "leest: The Shanahans · WE SHOULD HAVE BROUGHT A BOAT TO FORMULA DRIFT INDIANAPOLIS",
+ "updated": "2026-11-26T19:25:51.075319+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:50.341506+00:00",
+   "text": "0 momenten uit DID WE LOSE OUR SHOT AT THE CHAMPIONSHIP IN SEATTLE? | FORMULA DRIFT",
+   "ref": "ytzpzuabnjhxq"
+  },
   {
    "at": "2026-11-26T19:25:46.554184+00:00",
    "text": "0 momenten uit 130 SHOWDOWN PREP | SUPRA BUILD | PART I",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:24:11.039629+00:00",
    "text": "0 momenten uit We start my R34 GTR for the FIRST TIME!!",
    "ref": "ytrvwcz0n7i8"
-  },
-  {
-   "at": "2026-11-26T19:24:05.899060+00:00",
-   "text": "0 momenten uit OFFICIALLY bringing a car to SEMA! ",
-   "ref": "ytz0wfxwbxkpu"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 76
+  "made": 77
  },
  "version": "3"
 }
