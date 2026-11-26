@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Jimmy Oakes · These parts COMPLETELY changed my R34 GTR!",
- "updated": "2026-11-26T19:24:11.625113+00:00",
+ "doing": "leest: Jimmy Oakes · MASSIVE progress on the R34 GTR! (Looks incredible)",
+ "updated": "2026-11-26T19:24:15.424873+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:14.750567+00:00",
+   "text": "0 momenten uit These parts COMPLETELY changed my R34 GTR!",
+   "ref": "ytmieeuwnl4co"
+  },
   {
    "at": "2026-11-26T19:24:11.039629+00:00",
    "text": "0 momenten uit We start my R34 GTR for the FIRST TIME!!",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:22:35.851221+00:00",
    "text": "0 momenten uit We Somehow Won LZ World Tour at E-Town",
    "ref": "ytan8rltswsxk"
-  },
-  {
-   "at": "2026-11-26T19:22:31.791734+00:00",
-   "text": "0 momenten uit BMW Never Sold This E46 in America… So We Built the Ultimate One",
-   "ref": "ytul8vkf87hqe"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 53
+  "made": 54
  },
  "version": "3"
 }
