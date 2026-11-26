@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Chelsea DeNofa · Why Japan Is the Best Place to Drift - The Final Day I Will Never Forget",
- "updated": "2026-11-26T19:22:50.111692+00:00",
+ "doing": "leest: Collete Davis · I Raced Cleetus McFarland’s LeMullets… Our Car Got DESTROYED!",
+ "updated": "2026-11-26T19:22:54.174358+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:22:53.490276+00:00",
+   "text": "0 momenten uit Why Japan Is the Best Place to Drift - The Final Day I Will Never Forget",
+   "ref": "yt238gnot2fqo"
+  },
   {
    "at": "2026-11-26T19:22:49.472573+00:00",
    "text": "0 momenten uit This Is What a Life in Drifting Looks Like | 2025",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:21:09.656277+00:00",
    "text": "0 momenten uit My 1000HP Cosmo Build Just Got Serious",
    "ref": "ytvzpeqcjbgfk"
-  },
-  {
-   "at": "2026-11-26T19:21:05.867813+00:00",
-   "text": "0 momenten uit I bought a “sleeper” SUV",
-   "ref": "ytzmcpwxlywga"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 33
+  "made": 34
  },
  "version": "3"
 }
