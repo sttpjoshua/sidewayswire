@@ -2,7 +2,7 @@
  "id": "pod-yt8bwn2g2ssy-45",
  "kind": "stream_clip",
  "status": "ready",
- "post_at": "2026-12-27T20:30:00+00:00",
+ "post_at": "2026-12-25T16:30:00+00:00",
  "slides": [],
  "title": "CONOR BEATS JACK",
  "video": "docs/media/pod-yt8bwn2g2ssy-45/clip.mp4",
@@ -31,7 +31,7 @@
  "created": "2026-11-18T23:12:29.736499+00:00",
  "built": "2026-11-20T18:52:17.113546+00:00",
  "plan": {
-  "tiktok": "2026-12-27T20:30:00+00:00"
+  "tiktok": "2026-12-25T16:30:00+00:00"
  },
  "thumb": "docs/media/thumbs/pod-yt8bwn2g2ssy-45.jpg",
  "short": "docs/media/pod-yt8bwn2g2ssy-45/short.mp4",
@@ -54,5 +54,10 @@
  "collaborators": [
   "conorshanahan79",
   "jackshanahan59"
- ]
+ ],
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.254904+00:00"
+ }
 }

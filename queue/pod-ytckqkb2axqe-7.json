@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-7",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ODI CALLS A TIMEOUT",
  "video": "docs/media/pod-ytckqkb2axqe-7/clip.mp4",
@@ -28,9 +28,33 @@
   "start": 283.64
  },
  "created": "2026-11-19T08:11:24.519609+00:00",
- "built": "2026-11-26T15:28:27.676932+00:00",
+ "built": "2026-11-26T19:31:38.563490+00:00",
  "people": [
   "Aurimas Bakchis",
   "Rudy Hansen"
+ ],
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-7/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.298228+00:00"
+ },
+ "score": 80,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Aurimas Bakchis vs Rudy Hansen | Formula DRIFT Seattle 2026\n\nOdi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@odidrift @rudyhansen119 @formulad\n\n#formuladrift #formulad #aurimasbakchis #rudyhansen #sidewayswire",
+  "facebook": "Aurimas Bakchis vs Rudy Hansen | Formula DRIFT Seattle 2026\n\nOdi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@odidrift @rudyhansen119 @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Aurimas Bakchis vs Rudy Hansen | Formula DRIFT Seattle 2026: Odi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Seattle 2026 @odidrift @rudyhansen119 @formulad\n#formuladrift #formulad #aurimasbakchis #sidewayswire",
+  "youtube_title": "Aurimas Bakchis vs Rudy Hansen | Formula DRIFT Seattle 2026",
+  "youtube": "Odi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@odidrift @rudyhansen119 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "odidrift",
+  "rudyhansen119"
  ]
 }

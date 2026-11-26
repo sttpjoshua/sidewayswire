@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-4",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "COLD AIR INTAKES DON'T MAKE POWER",
  "video": "docs/media/pod-b9e6971ba742-4/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 966.13
  },
  "created": "2026-11-17T15:45:48.477306+00:00",
- "built": "2026-11-17T18:09:52.848773+00:00",
+ "built": "2026-11-26T19:31:37.022108+00:00",
  "media": [
   "docs/media/pod-b9e6971ba742-4/clip.mp4"
  ],
@@ -39,5 +39,22 @@
  "people": [
   "Behind The Wheel"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.224071+00:00"
+ },
+ "score": 29,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Behind The Wheel | Behind The Wheel\n\nCold air intakes don't make power, says Behind The Wheel. Why factory engineers often get more out of an exhaust manifold than you think.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #coldairintake #carmods #sidewayswire",
+  "facebook": "Behind The Wheel | Behind The Wheel\n\nCold air intakes don't make power, says Behind The Wheel. Why factory engineers often get more out of an exhaust manifold than you think.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #sidewayswire",
+  "tiktok": "Behind The Wheel | Behind The Wheel: Cold air intakes don't make power, says Behind The Wheel. Why factory engineers often get more out of an exhaust manifold than you think.\n🎙 Full episode: Behind The Wheel @formulad\n#drift #behindthewheel #coldairintake #sidewayswire",
+  "youtube_title": "Behind The Wheel | Behind The Wheel",
+  "youtube": "Cold air intakes don't make power, says Behind The Wheel. Why factory engineers often get more out of an exhaust manifold than you think.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #behindthewheel #sidewayswire"
+ },
+ "collaborators": []
 }

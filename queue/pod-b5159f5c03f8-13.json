@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-13",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THE ALL-DRIFT APARTMENT",
  "video": "docs/media/pod-b5159f5c03f8-13/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 5175.78
  },
  "created": "2026-11-17T15:31:04.574032+00:00",
- "built": "2026-11-17T18:09:52.843433+00:00",
+ "built": "2026-11-26T19:31:36.247451+00:00",
  "media": [
   "docs/media/pod-b5159f5c03f8-13/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Rafael Muller",
   "Palmer Sanderson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.217094+00:00"
+ },
+ "score": 48,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nTires in the apartment, sim rigs in the living room and parts runs at 1am on a Tuesday. Rafael Muller misses his old drift team life.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #driftteam #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nTires in the apartment, sim rigs in the living room and parts runs at 1am on a Tuesday. Rafael Muller misses his old drift team life.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: Tires in the apartment, sim rigs in the living room and parts runs at 1am on a Tuesday. Rafael Muller misses his old drift team life.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "Tires in the apartment, sim rigs in the living room and parts runs at 1am on a Tuesday. Rafael Muller misses his old drift team life.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

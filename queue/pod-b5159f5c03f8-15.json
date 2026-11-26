@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-15",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "STYLE OVER PERFORMANCE?",
  "video": "docs/media/pod-b5159f5c03f8-15/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 5669.15
  },
  "created": "2026-11-17T15:33:00.819257+00:00",
- "built": "2026-11-17T18:09:52.843852+00:00",
+ "built": "2026-11-26T19:31:36.303165+00:00",
  "media": [
   "docs/media/pod-b5159f5c03f8-15/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Rafael Muller",
   "Palmer Sanderson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.217645+00:00"
+ },
+ "score": 44,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nPalmer used to roast anyone whose car wasn't low, Rafael lived by style over performance. Now it's all about balance.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #stance #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nPalmer used to roast anyone whose car wasn't low, Rafael lived by style over performance. Now it's all about balance.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: Palmer used to roast anyone whose car wasn't low, Rafael lived by style over performance. Now it's all about balance.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "Palmer used to roast anyone whose car wasn't low, Rafael lived by style over performance. Now it's all about balance.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

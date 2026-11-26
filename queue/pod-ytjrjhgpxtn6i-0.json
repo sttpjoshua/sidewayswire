@@ -1,7 +1,7 @@
 {
  "id": "pod-ytjrjhgpxtn6i-0",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "DUSTIN DUSTING THE COURSE",
  "video": "docs/media/pod-ytjrjhgpxtn6i-0/clip.mp4",
@@ -29,9 +29,20 @@
   "start": 246.2
  },
  "created": "2026-11-19T13:52:42.750769+00:00",
- "built": "2026-11-26T16:45:23.006110+00:00",
+ "built": "2026-11-26T19:31:39.591757+00:00",
  "people": [
   "Dustin Farrell",
   "Chris Leonard"
- ]
+ ],
+ "media": [
+  "docs/media/pod-ytjrjhgpxtn6i-0/clip.mp4"
+ ],
+ "problems": [],
+ "qc": {
+  "hard": [],
+  "soft": [
+   "tags nog open: Chris Leonard"
+  ],
+  "at": "2026-11-26T19:31:44.342412+00:00"
+ }
 }

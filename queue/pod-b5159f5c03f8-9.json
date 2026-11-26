@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-9",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "$200 VOLVOS AND WET LAPS",
  "video": "docs/media/pod-b5159f5c03f8-9/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 2897.78
  },
  "created": "2026-11-17T15:27:02.894756+00:00",
- "built": "2026-11-17T18:09:52.847310+00:00",
+ "built": "2026-11-26T19:31:36.718522+00:00",
  "media": [
   "docs/media/pod-b5159f5c03f8-9/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Rafael Muller",
   "Palmer Sanderson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.222130+00:00"
+ },
+ "score": 38,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nA French track where you can do whatever you want. It started as drunk demolition derby in cheap Volvos and became some of the best laps of Rafael Muller's life.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #wetdrift #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nA French track where you can do whatever you want. It started as drunk demolition derby in cheap Volvos and became some of the best laps of Rafael Muller's life.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: A French track where you can do whatever you want. It started as drunk demolition derby in cheap Volvos and became some of the best laps of Rafael Muller's life.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "A French track where you can do whatever you want. It started as drunk demolition derby in cheap Volvos and became some of the best laps of Rafael Muller's life.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ONE MORE TIME, JONES VS RCP",
  "video": "docs/media/pod-ytckqkb2axqe-4/clip.mp4",
@@ -28,9 +28,33 @@
   "start": 163.6
  },
  "created": "2026-11-19T08:06:39.135262+00:00",
- "built": "2026-11-26T15:24:27.646837+00:00",
+ "built": "2026-11-26T19:31:38.493876+00:00",
  "people": [
   "Jeff Jones",
   "Rome Charpentier"
+ ],
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-4/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.297404+00:00"
+ },
+ "score": 67,
+ "moment_kind": "omt",
+ "plan": {},
+ "captions": {
+  "instagram": "Jeff Jones vs Rome Charpentier | Formula DRIFT Seattle 2026\n\nJeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jeffjonesracing @romecp @formulad\n\n#formuladrift #formulad #jeffjones #romecharpentier #sidewayswire",
+  "facebook": "Jeff Jones vs Rome Charpentier | Formula DRIFT Seattle 2026\n\nJeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jeffjonesracing @romecp @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Jeff Jones vs Rome Charpentier | Formula DRIFT Seattle 2026: Jeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @jeffjonesracing @romecp @formulad\n#formuladrift #formulad #jeffjones #sidewayswire",
+  "youtube_title": "Jeff Jones vs Rome Charpentier | Formula DRIFT Seattle 2026",
+  "youtube": "Jeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jeffjonesracing @romecp @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "jeffjonesracing",
+  "romecp"
  ]
 }

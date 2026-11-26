@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-2",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "MUGEN IS NOT HONDA OEM",
  "video": "docs/media/pod-b9e6971ba742-2/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 751.99
  },
  "created": "2026-11-17T15:44:00.618287+00:00",
- "built": "2026-11-17T18:09:52.848343+00:00",
+ "built": "2026-11-26T19:31:36.864482+00:00",
  "media": [
   "docs/media/pod-b9e6971ba742-2/clip.mp4"
  ],
@@ -39,5 +39,22 @@
  "people": [
   "Behind The Wheel"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.223535+00:00"
+ },
+ "score": 20,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Behind The Wheel | Behind The Wheel\n\nLots of newer fans think Mugen parts are factory Honda. They are not, and the brand now sells floor mats next to race parts.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #mugen #honda #sidewayswire",
+  "facebook": "Behind The Wheel | Behind The Wheel\n\nLots of newer fans think Mugen parts are factory Honda. They are not, and the brand now sells floor mats next to race parts.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #sidewayswire",
+  "tiktok": "Behind The Wheel | Behind The Wheel: Lots of newer fans think Mugen parts are factory Honda. They are not, and the brand now sells floor mats next to race parts.\n🎙 Full episode: Behind The Wheel @formulad\n#drift #behindthewheel #mugen #sidewayswire",
+  "youtube_title": "Behind The Wheel | Behind The Wheel",
+  "youtube": "Lots of newer fans think Mugen parts are factory Honda. They are not, and the brand now sells floor mats next to race parts.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #behindthewheel #sidewayswire"
+ },
+ "collaborators": []
 }

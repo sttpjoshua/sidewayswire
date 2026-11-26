@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-28",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THIS ISN'T MY LEVEL",
  "video": "docs/media/pod-3fa7ee22a33c-28/clip.mp4",
@@ -29,7 +29,7 @@
   "start": 6145.95
  },
  "created": "2026-11-17T14:36:45.083534+00:00",
- "built": "2026-11-17T18:09:52.820465+00:00",
+ "built": "2026-11-26T19:31:36.098720+00:00",
  "media": [
   "docs/media/pod-3fa7ee22a33c-28/clip.mp4"
  ],
@@ -43,5 +43,24 @@
   "Christian Cotrone",
   "Jerry Johnson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.198494+00:00"
+ },
+ "score": 44,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Christian Cotrone | The Outerzone\n\nChristian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @jerrydrift @formulad @jako13\n\n#drift #christiancotrone #jerryjohnson #formuladrift #sidewayswire",
+  "facebook": "Christian Cotrone | The Outerzone\n\nChristian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @jerrydrift @formulad @jako13\n\n#drift #christiancotrone #sidewayswire",
+  "tiktok": "Christian Cotrone | The Outerzone: Christian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @christiancotrone @jerrydrift @formulad @jako13\n#drift #christiancotrone #jerryjohnson #sidewayswire",
+  "youtube_title": "Christian Cotrone | The Outerzone",
+  "youtube": "Christian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @jerrydrift @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #christiancotrone #sidewayswire"
+ },
+ "collaborators": [
+  "christiancotrone"
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-18",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BACK TO BACK IRISH",
  "video": "docs/media/pod-ytvphv55wk1ja-18/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 12639.7
  },
  "created": "2026-11-20T06:52:53.950976+00:00",
- "built": "2026-11-20T07:02:33.760745+00:00",
+ "built": "2026-11-26T19:31:42.034755+00:00",
  "media": [
   "docs/media/pod-ytvphv55wk1ja-18/clip.mp4"
  ],
@@ -40,5 +40,24 @@
  "people": [
   "Conor Falvey"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.388331+00:00"
+ },
+ "score": 69,
+ "moment_kind": "qualify",
+ "plan": {},
+ "captions": {
+  "instagram": "Conor Falvey | Drift Masters 2026 Grand Final Poland Qualifying\n\n18 years old and fearless: Conor Falvey tips the cone and the spoiler dangles off the S15. The judges gave 92.7.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@conorfalvey412 @driftmasters.gp\n\n#driftmasters #drift #conorfalvey #drifting #sidewayswire",
+  "facebook": "Conor Falvey | Drift Masters 2026 Grand Final Poland Qualifying\n\n18 years old and fearless: Conor Falvey tips the cone and the spoiler dangles off the S15. The judges gave 92.7.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@conorfalvey412 @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Conor Falvey | Drift Masters 2026 Grand Final Poland Qualifying: 18 years old and fearless: Conor Falvey tips the cone and the spoiler dangles off the S15. The judges gave 92.7.\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying @conorfalvey412 @driftmasters.gp\n#driftmasters #drift #conorfalvey #sidewayswire",
+  "youtube_title": "Conor Falvey | Drift Masters Grand Final Poland Qualifying",
+  "youtube": "18 years old and fearless: Conor Falvey tips the cone and the spoiler dangles off the S15. The judges gave 92.7.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@conorfalvey412 @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "conorfalvey412"
+ ]
 }

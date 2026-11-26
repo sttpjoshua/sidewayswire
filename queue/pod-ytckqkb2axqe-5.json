@@ -1,7 +1,7 @@
 {
  "id": "pod-ytckqkb2axqe-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ROOKIE FORCES FORSBERG TO OMT",
  "video": "docs/media/pod-ytckqkb2axqe-5/clip.mp4",
@@ -28,9 +28,33 @@
   "start": 200.36
  },
  "created": "2026-11-19T08:08:09.284310+00:00",
- "built": "2026-11-26T15:26:07.148749+00:00",
+ "built": "2026-11-26T19:31:38.528850+00:00",
  "people": [
   "Cole Richards",
   "Chris Forsberg"
+ ],
+ "media": [
+  "docs/media/pod-ytckqkb2axqe-5/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.297674+00:00"
+ },
+ "score": 73,
+ "moment_kind": "omt",
+ "plan": {},
+ "captions": {
+  "instagram": "Cole Richards vs Chris Forsberg | Formula DRIFT Seattle 2026\n\nRookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@colerichardz @chrisforsberg64 @formulad\n\n#formuladrift #formulad #colerichards #chrisforsberg #sidewayswire",
+  "facebook": "Cole Richards vs Chris Forsberg | Formula DRIFT Seattle 2026\n\nRookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@colerichardz @chrisforsberg64 @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Cole Richards vs Chris Forsberg | Formula DRIFT Seattle 2026: Rookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Seattle 2026 @colerichardz @chrisforsberg64 @formulad\n#formuladrift #formulad #colerichards #sidewayswire",
+  "youtube_title": "Cole Richards vs Chris Forsberg | Formula DRIFT Seattle 2026",
+  "youtube": "Rookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@colerichardz @chrisforsberg64 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "colerichardz",
+  "chrisforsberg64"
  ]
 }

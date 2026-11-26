@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-7",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "WALL, CONTACT, CHAOS",
  "video": "docs/media/pod-yt8bwn2g2ssy-7/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 2128.81
  },
  "created": "2026-11-18T22:13:12.793979+00:00",
- "built": "2026-11-19T01:11:25.685998+00:00",
+ "built": "2026-11-26T19:31:37.446139+00:00",
  "media": [
   "docs/media/pod-yt8bwn2g2ssy-7/clip.mp4"
  ],
@@ -41,5 +41,25 @@
   "Tommy LaMere",
   "Matt Field"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.257690+00:00"
+ },
+ "score": 83,
+ "moment_kind": "crash",
+ "plan": {},
+ "captions": {
+  "instagram": "Tommy LaMere | Formula DRIFT Las Vegas 2026\n\nTommy LaMere clips the wall in his lead run and Matt Field has nowhere to go. Who takes the blame?\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@tommy.lemaire @mattfield777 @formulad\n\n#formuladrift #formulad #tommylamere #mattfield #sidewayswire",
+  "facebook": "Tommy LaMere | Formula DRIFT Las Vegas 2026\n\nTommy LaMere clips the wall in his lead run and Matt Field has nowhere to go. Who takes the blame?\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@tommy.lemaire @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Tommy LaMere | Formula DRIFT Las Vegas 2026: Tommy LaMere clips the wall in his lead run and Matt Field has nowhere to go. Who takes the blame?\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Las Vegas 2026 @tommy.lemaire @mattfield777 @formulad\n#formuladrift #formulad #tommylamere #sidewayswire",
+  "youtube_title": "Tommy LaMere | Formula DRIFT Las Vegas 2026",
+  "youtube": "Tommy LaMere clips the wall in his lead run and Matt Field has nowhere to go. Who takes the blame?\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@tommy.lemaire @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "tommy.lemaire",
+  "mattfield777"
+ ]
 }

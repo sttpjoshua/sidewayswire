@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-42",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "STUCKEY VS MADISON",
  "video": "docs/media/pod-ytrbtps1zxw4i-42/clip.mp4",
@@ -28,9 +28,18 @@
   "start": 4302
  },
  "created": "2026-11-20T05:26:52.659816+00:00",
- "built": "2026-11-26T17:06:06.809125+00:00",
+ "built": "2026-11-26T19:31:40.864991+00:00",
  "people": [
   "Daniel Stuckey",
   "Derek Madison"
- ]
+ ],
+ "media": [
+  "docs/media/pod-ytrbtps1zxw4i-42/clip.mp4"
+ ],
+ "problems": [],
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.373647+00:00"
+ }
 }

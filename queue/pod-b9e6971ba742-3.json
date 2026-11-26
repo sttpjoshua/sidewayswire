@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-3",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "GT-R TURBOS ON A VQ37",
  "video": "docs/media/pod-b9e6971ba742-3/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 859.35
  },
  "created": "2026-11-17T15:44:57.221769+00:00",
- "built": "2026-11-17T18:09:52.848544+00:00",
+ "built": "2026-11-26T19:31:36.992768+00:00",
  "media": [
   "docs/media/pod-b9e6971ba742-3/clip.mp4"
  ],
@@ -39,5 +39,22 @@
  "people": [
   "Behind The Wheel"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.223804+00:00"
+ },
+ "score": 28,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Behind The Wheel | Behind The Wheel\n\nGT-R twin turbos on a VQ37: OEM+ for fitment, even though aftermarket kits might do better. Stay in the box or go for what's best?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #vq37 #nissangtr #sidewayswire",
+  "facebook": "Behind The Wheel | Behind The Wheel\n\nGT-R twin turbos on a VQ37: OEM+ for fitment, even though aftermarket kits might do better. Stay in the box or go for what's best?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #sidewayswire",
+  "tiktok": "Behind The Wheel | Behind The Wheel: GT-R twin turbos on a VQ37: OEM+ for fitment, even though aftermarket kits might do better. Stay in the box or go for what's best?\n🎙 Full episode: Behind The Wheel @formulad\n#drift #behindthewheel #vq37 #sidewayswire",
+  "youtube_title": "Behind The Wheel | Behind The Wheel",
+  "youtube": "GT-R twin turbos on a VQ37: OEM+ for fitment, even though aftermarket kits might do better. Stay in the box or go for what's best?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #behindthewheel #sidewayswire"
+ },
+ "collaborators": []
 }

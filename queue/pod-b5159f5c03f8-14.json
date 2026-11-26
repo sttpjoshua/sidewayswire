@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-14",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DONE WITH DRIFTING?",
  "video": "docs/media/pod-b5159f5c03f8-14/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 5357.81
  },
  "created": "2026-11-17T15:32:04.720260+00:00",
- "built": "2026-11-17T18:09:52.843633+00:00",
+ "built": "2026-11-26T19:31:36.274479+00:00",
  "media": [
   "docs/media/pod-b5159f5c03f8-14/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Rafael Muller",
   "Palmer Sanderson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.217373+00:00"
+ },
+ "score": 39,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nSome people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #driftlife #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nSome people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: Some people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "Some people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

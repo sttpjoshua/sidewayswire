@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "A PRINCE IN THE POLAND PADDOCK",
  "video": "docs/media/pod-b5159f5c03f8-5/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 1790.41
  },
  "created": "2026-11-17T15:23:32.646732+00:00",
- "built": "2026-11-17T18:09:52.846463+00:00",
+ "built": "2026-11-26T19:31:36.593550+00:00",
  "media": [
   "docs/media/pod-b5159f5c03f8-5/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Rafael Muller",
   "Palmer Sanderson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.220938+00:00"
+ },
+ "score": 48,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nA full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #poland #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nA full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

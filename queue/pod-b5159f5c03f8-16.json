@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-16",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "STRANDED IN SPAIN, BEST 2 WEEKS",
  "video": "docs/media/pod-b5159f5c03f8-16/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 5976.9
  },
  "created": "2026-11-17T15:33:55.892083+00:00",
- "built": "2026-11-17T18:09:52.844059+00:00",
+ "built": "2026-11-26T19:31:36.331726+00:00",
  "media": [
   "docs/media/pod-b5159f5c03f8-16/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Rafael Muller",
   "Palmer Sanderson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.217915+00:00"
+ },
+ "score": 43,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nBroke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #roadtrip #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nBroke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: Broke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "Broke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

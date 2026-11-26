@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-5",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "VR30 SWAP KIT FOR THE 350Z",
  "video": "docs/media/pod-b9e6971ba742-5/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 1336.59
  },
  "created": "2026-11-17T15:46:42.532610+00:00",
- "built": "2026-11-17T18:09:52.848997+00:00",
+ "built": "2026-11-26T19:31:37.051625+00:00",
  "media": [
   "docs/media/pod-b9e6971ba742-5/clip.mp4"
  ],
@@ -39,5 +39,22 @@
  "people": [
   "Behind The Wheel"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.224328+00:00"
+ },
+ "score": 20,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Behind The Wheel | Behind The Wheel\n\nWiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #350z #vr30 #sidewayswire",
+  "facebook": "Behind The Wheel | Behind The Wheel\n\nWiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #sidewayswire",
+  "tiktok": "Behind The Wheel | Behind The Wheel: Wiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n🎙 Full episode: Behind The Wheel @formulad\n#drift #behindthewheel #350z #sidewayswire",
+  "youtube_title": "Behind The Wheel | Behind The Wheel",
+  "youtube": "Wiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #behindthewheel #sidewayswire"
+ },
+ "collaborators": []
 }

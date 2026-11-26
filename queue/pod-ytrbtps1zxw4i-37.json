@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-37",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "O'SULLIVAN VS RICHARDS",
  "video": "docs/media/pod-ytrbtps1zxw4i-37/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 1121.5
  },
  "created": "2026-11-20T05:11:55.555396+00:00",
- "built": "2026-11-21T11:55:33.060976+00:00",
+ "built": "2026-11-26T19:31:40.852858+00:00",
  "thumb": "docs/media/thumbs/pod-ytrbtps1zxw4i-37.jpg",
  "short_none": "split",
  "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytrbtps1zxw4i-37.mp4",
@@ -41,5 +41,25 @@
   "Connor O'Sullivan",
   "Cole Richards"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.371798+00:00"
+ },
+ "score": 76,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Connor O'Sullivan vs Cole Richards | Formula DRIFT Las Vegas 2026\n\nConnor O'Sullivan vs Cole Richards in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@connor_osully @colerichardz @formulad\n\n#formuladrift #formulad #connorosullivan #colerichards #sidewayswire",
+  "facebook": "Connor O'Sullivan vs Cole Richards | Formula DRIFT Las Vegas 2026\n\nConnor O'Sullivan vs Cole Richards in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@connor_osully @colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Connor O'Sullivan vs Cole Richards | Formula DRIFT Las Vegas 2026: Connor O'Sullivan vs Cole Richards in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Las Vegas 2026 @connor_osully @colerichardz @formulad\n#formuladrift #formulad #connorosullivan #sidewayswire",
+  "youtube_title": "O'Sullivan vs Richards | Formula DRIFT Las Vegas 2026",
+  "youtube": "Connor O'Sullivan vs Cole Richards in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@connor_osully @colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "connor_osully",
+  "colerichardz"
+ ]
 }

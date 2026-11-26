@@ -1,7 +1,7 @@
 {
  "id": "pod-ytzmzcyqa9c9e-6",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BIG HIT IN ZONE FIVE",
  "video": "docs/media/pod-ytzmzcyqa9c9e-6/clip.mp4",
@@ -28,5 +28,33 @@
   "start": 357.6
  },
  "created": "2026-11-26T18:19:23.292360+00:00",
- "built": "2026-11-26T18:19:23.292371+00:00"
+ "built": "2026-11-26T19:31:43.324079+00:00",
+ "media": [
+  "docs/media/pod-ytzmzcyqa9c9e-6/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.411289+00:00"
+ },
+ "score": 85,
+ "moment_kind": "battle",
+ "people": [
+  "Ryan Tuerck",
+  "Brandon Sorensen"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Ryan Tuerck vs Brandon Sorensen | Formula DRIFT Long Beach 2026\n\nBrandon Sorensen has been at 11 all day, and he slams outside zone five against Ryan Tuerck.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@ryantuerck @branden_sorensen @formulad\n\n#formuladrift #formulad #ryantuerck #brandonsorensen #sidewayswire",
+  "facebook": "Ryan Tuerck vs Brandon Sorensen | Formula DRIFT Long Beach 2026\n\nBrandon Sorensen has been at 11 all day, and he slams outside zone five against Ryan Tuerck.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@ryantuerck @branden_sorensen @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Ryan Tuerck vs Brandon Sorensen | Formula DRIFT Long Beach 2026: Brandon Sorensen has been at 11 all day, and he slams outside zone five against Ryan Tuerck.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @ryantuerck @branden_sorensen @formulad\n#formuladrift #formulad #ryantuerck #sidewayswire",
+  "youtube_title": "Tuerck vs Sorensen | Formula DRIFT Long Beach 2026",
+  "youtube": "Brandon Sorensen has been at 11 all day, and he slams outside zone five against Ryan Tuerck.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@ryantuerck @branden_sorensen @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "ryantuerck",
+  "branden_sorensen"
+ ]
 }

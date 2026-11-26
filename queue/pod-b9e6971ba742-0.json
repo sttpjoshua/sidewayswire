@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-0",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "WHEN EVERYTHING BECAME 'JDM'",
  "video": "docs/media/pod-b9e6971ba742-0/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 86.01
  },
  "created": "2026-11-17T15:42:08.080425+00:00",
- "built": "2026-11-17T18:09:52.847515+00:00",
+ "built": "2026-11-26T19:31:36.746977+00:00",
  "media": [
   "docs/media/pod-b9e6971ba742-0/clip.mp4"
  ],
@@ -39,5 +39,22 @@
  "people": [
   "Behind The Wheel"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.222415+00:00"
+ },
+ "score": 20,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Behind The Wheel | Behind The Wheel\n\nEverything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #jdm #oemplus #sidewayswire",
+  "facebook": "Behind The Wheel | Behind The Wheel\n\nEverything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #sidewayswire",
+  "tiktok": "Behind The Wheel | Behind The Wheel: Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n🎙 Full episode: Behind The Wheel @formulad\n#drift #behindthewheel #jdm #sidewayswire",
+  "youtube_title": "Behind The Wheel | Behind The Wheel",
+  "youtube": "Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #behindthewheel #sidewayswire"
+ },
+ "collaborators": []
 }

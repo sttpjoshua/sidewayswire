@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-9",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CORVETTE GUYS CATCH STRAYS",
  "video": "docs/media/pod-b9e6971ba742-9/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 1807.23
  },
  "created": "2026-11-17T15:49:50.078598+00:00",
- "built": "2026-11-17T18:09:52.849835+00:00",
+ "built": "2026-11-26T19:31:37.184125+00:00",
  "media": [
   "docs/media/pod-b9e6971ba742-9/clip.mp4"
  ],
@@ -38,5 +38,22 @@
  "people": [
   "Behind The Wheel"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.225437+00:00"
+ },
+ "score": 33,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Behind The Wheel | Behind The Wheel\n\nHigh socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #corvette #nissan #sidewayswire",
+  "facebook": "Behind The Wheel | Behind The Wheel\n\nHigh socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #sidewayswire",
+  "tiktok": "Behind The Wheel | Behind The Wheel: High socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n🎙 Full episode: Behind The Wheel @formulad\n#drift #behindthewheel #corvette #sidewayswire",
+  "youtube_title": "Behind The Wheel | Behind The Wheel",
+  "youtube": "High socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #behindthewheel #sidewayswire"
+ },
+ "collaborators": []
 }

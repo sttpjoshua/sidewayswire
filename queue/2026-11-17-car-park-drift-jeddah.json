@@ -47,5 +47,12 @@
  "problems": [],
  "built": "2026-11-17T14:16:51.835921+00:00",
  "want_at": "2026-12-05T07:30:00+00:00",
- "needs_photo": true
+ "needs_photo": true,
+ "qc": {
+  "hard": [],
+  "soft": [
+   "tags nog open: Red Bull Car Park Drift"
+  ],
+  "at": "2026-11-26T19:31:44.190148+00:00"
+ }
 }

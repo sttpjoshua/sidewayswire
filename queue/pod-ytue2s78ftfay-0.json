@@ -1,7 +1,7 @@
 {
  "id": "pod-ytue2s78ftfay-0",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FINAL AT MONDELLO",
  "video": "docs/media/pod-ytue2s78ftfay-0/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 323.88
  },
  "created": "2026-11-20T06:13:56.801497+00:00",
- "built": "2026-11-21T11:55:33.132439+00:00",
+ "built": "2026-11-26T19:31:41.915944+00:00",
  "thumb": "docs/media/thumbs/pod-ytue2s78ftfay-0.jpg",
  "short": "docs/media/pod-ytue2s78ftfay-0/short.mp4",
  "short_len": 29.2,
@@ -42,5 +42,25 @@
   "Paweł Korpuliński",
   "Conor Falvey"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.384505+00:00"
+ },
+ "score": 85,
+ "moment_kind": "final",
+ "plan": {},
+ "captions": {
+  "instagram": "Paweł Korpuliński vs Conor Falvey | Drift Masters 2026 Ireland\n\nThe final at Mondello Park. Paweł Korpuliński leads, Conor Falvey chases with a spectacular transition and the whole grandstand behind him.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Drift Masters 2026 Ireland\n@pawelkorpulinski @conorfalvey412 @driftmasters.gp\n\n#driftmasters #drift #pawelkorpulinski #conorfalvey #sidewayswire",
+  "facebook": "Paweł Korpuliński vs Conor Falvey | Drift Masters 2026 Ireland\n\nThe final at Mondello Park. Paweł Korpuliński leads, Conor Falvey chases with a spectacular transition and the whole grandstand behind him.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Drift Masters 2026 Ireland\n@pawelkorpulinski @conorfalvey412 @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Paweł Korpuliński vs Conor Falvey | Drift Masters 2026 Ireland: The final at Mondello Park. Paweł Korpuliński leads, Conor Falvey chases with a spectacular transition and the whole grandstand behind him.\nSend this to your drift group chat 🔥\n🎥 Footage: Drift Masters 2026 Ireland @pawelkorpulinski @conorfalvey412 @driftmasters.gp\n#driftmasters #drift #pawelkorpulinski #sidewayswire",
+  "youtube_title": "Korpuliński vs Falvey | Drift Masters 2026 Ireland",
+  "youtube": "The final at Mondello Park. Paweł Korpuliński leads, Conor Falvey chases with a spectacular transition and the whole grandstand behind him.\n\n🎥 Footage: Drift Masters 2026 Ireland\n@pawelkorpulinski @conorfalvey412 @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "pawelkorpulinski",
+  "conorfalvey412"
+ ]
 }

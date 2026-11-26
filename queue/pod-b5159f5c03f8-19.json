@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-19",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "100K CAR OR 10K CAR, SAME LOVE",
  "video": "docs/media/pod-b5159f5c03f8-19/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 6955.38
  },
  "created": "2026-11-17T15:36:56.563556+00:00",
- "built": "2026-11-17T18:09:52.844680+00:00",
+ "built": "2026-11-26T19:31:36.426495+00:00",
  "media": [
   "docs/media/pod-b5159f5c03f8-19/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Rafael Muller",
   "Palmer Sanderson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.218757+00:00"
+ },
+ "score": 39,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nNew truck, closed trailer, fresh 265s every second lap, or a 10k car on a budget. Everyone spends everything they have on drifting.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #grassrootsdrift #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nNew truck, closed trailer, fresh 265s every second lap, or a 10k car on a budget. Everyone spends everything they have on drifting.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: New truck, closed trailer, fresh 265s every second lap, or a 10k car on a budget. Everyone spends everything they have on drifting.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "New truck, closed trailer, fresh 265s every second lap, or a 10k car on a budget. Everyone spends everything they have on drifting.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

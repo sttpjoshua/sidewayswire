@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:05:16.569865+00:00",
+ "updated": "2026-11-26T19:31:26.006630+00:00",
  "stories": [
   {
    "id": "fea79a4ad63ac204",
@@ -253,7 +253,7 @@
     }
    ],
    "scout": {
-    "score": 17,
+    "score": 16,
     "why": [],
     "skip": false
    }
@@ -2188,9 +2188,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
   },
   {
    "source": "Google News",

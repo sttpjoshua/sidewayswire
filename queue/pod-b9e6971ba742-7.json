@@ -1,7 +1,7 @@
 {
  "id": "pod-b9e6971ba742-7",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "WHY TYPE RS GOT STOLEN",
  "video": "docs/media/pod-b9e6971ba742-7/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 1550.43
  },
  "created": "2026-11-17T15:48:22.718057+00:00",
- "built": "2026-11-17T18:09:52.849404+00:00",
+ "built": "2026-11-26T19:31:37.110516+00:00",
  "media": [
   "docs/media/pod-b9e6971ba742-7/clip.mp4"
  ],
@@ -39,5 +39,22 @@
  "people": [
   "Behind The Wheel"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.224870+00:00"
+ },
+ "score": 25,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Behind The Wheel | Behind The Wheel\n\nThe OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #typer #integragsr #sidewayswire",
+  "facebook": "Behind The Wheel | Behind The Wheel\n\nThe OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#drift #behindthewheel #sidewayswire",
+  "tiktok": "Behind The Wheel | Behind The Wheel: The OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n🎙 Full episode: Behind The Wheel @formulad\n#drift #behindthewheel #typer #sidewayswire",
+  "youtube_title": "Behind The Wheel | Behind The Wheel",
+  "youtube": "The OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #behindthewheel #sidewayswire"
+ },
+ "collaborators": []
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-31",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THE TITLE FIGHT GOES TO TOP 32",
  "video": "docs/media/pod-ytvphv55wk1ja-31/clip.mp4",
@@ -31,7 +31,7 @@
   "start": 13996.7
  },
  "created": "2026-11-20T11:55:31.695002+00:00",
- "built": "2026-11-20T13:06:43.685789+00:00",
+ "built": "2026-11-26T19:31:42.265088+00:00",
  "thumb": "docs/media/thumbs/pod-ytvphv55wk1ja-31.jpg",
  "short": "docs/media/pod-ytvphv55wk1ja-31/short.mp4",
  "short_len": 29.3,
@@ -44,9 +44,28 @@
  "people": [
   "Piotr Więcek",
   "Paweł Korpuliński",
-  "Conor Shanahan",
-  "James Deane",
-  "Benediktas Čirba"
+  "Conor Shanahan"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.392808+00:00"
+ },
+ "score": 66,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Piotr Więcek | Drift Masters 2026 Grand Final Poland Qualifying\n\nWięcek 436, Korpuliński 421, Shanahan 374. James Deane is out of contention, and the bracket splits all the contenders.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@piotrwiecek @pawelkorpulinski @conorshanahan79 @jamesdeane130 @benediktascirba @driftmasters.gp\n\n#driftmasters #drift #piotrwiecek #pawelkorpulinski #sidewayswire",
+  "facebook": "Piotr Więcek | Drift Masters 2026 Grand Final Poland Qualifying\n\nWięcek 436, Korpuliński 421, Shanahan 374. James Deane is out of contention, and the bracket splits all the contenders.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@piotrwiecek @pawelkorpulinski @conorshanahan79 @jamesdeane130 @benediktascirba @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Piotr Więcek | Drift Masters 2026 Grand Final Poland Qualifying: Więcek 436, Korpuliński 421, Shanahan 374. James Deane is out of contention, and the bracket splits all the contenders.\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying @piotrwiecek @pawelkorpulinski @conorshanahan79 @jamesdeane130 @benediktascirba @driftmasters.gp\n#driftmasters #drift #piotrwiecek #sidewayswire",
+  "youtube_title": "Piotr Więcek | Drift Masters Grand Final Poland Qualifying",
+  "youtube": "Więcek 436, Korpuliński 421, Shanahan 374. James Deane is out of contention, and the bracket splits all the contenders.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@piotrwiecek @pawelkorpulinski @conorshanahan79 @jamesdeane130 @benediktascirba @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "piotrwiecek",
+  "pawelkorpulinski",
+  "conorshanahan79"
+ ]
 }

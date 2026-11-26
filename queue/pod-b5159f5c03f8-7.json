@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-7",
  "kind": "podcast_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "WHY EURO DRIFT DAYS ARE WET",
  "video": "docs/media/pod-b5159f5c03f8-7/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 2629.98
  },
  "created": "2026-11-17T15:25:06.342562+00:00",
- "built": "2026-11-17T18:09:52.846900+00:00",
+ "built": "2026-11-26T19:31:36.661564+00:00",
  "media": [
   "docs/media/pod-b5159f5c03f8-7/clip.mp4"
  ],
@@ -42,5 +42,22 @@
   "Rafael Muller",
   "Palmer Sanderson"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.221511+00:00"
+ },
+ "score": 40,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nEver wondered why so many European drift days are wet only? Noise, and rubber left for the bike racers.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #wetdrift #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nEver wondered why so many European drift days are wet only? Noise, and rubber left for the bike racers.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: Ever wondered why so many European drift days are wet only? Noise, and rubber left for the bike racers.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "Ever wondered why so many European drift days are wet only? Noise, and rubber left for the bike racers.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

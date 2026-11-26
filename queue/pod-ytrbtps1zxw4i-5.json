@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "SHINJI MINOWA STICKS IT TO ODI",
  "video": "docs/media/pod-ytrbtps1zxw4i-5/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 2334.8
  },
  "created": "2026-11-20T04:18:28.246224+00:00",
- "built": "2026-11-21T11:55:33.108853+00:00",
+ "built": "2026-11-26T19:31:40.902271+00:00",
  "thumb": "docs/media/thumbs/pod-ytrbtps1zxw4i-5.jpg",
  "short": "docs/media/pod-ytrbtps1zxw4i-5/short.mp4",
  "short_len": 29.3,
@@ -42,5 +42,25 @@
   "Aurimas Bakchis",
   "Shinji Minowa"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.375636+00:00"
+ },
+ "score": 75,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Aurimas Bakchis vs Shinji Minowa | Formula DRIFT Las Vegas 2026\n\nShinji Minowa stepped in for his son mid season and now he's all over championship contender Odi Bakchis.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@odidrift @shinjiminowa @formulad\n\n#formuladrift #formulad #aurimasbakchis #shinjiminowa #sidewayswire",
+  "facebook": "Aurimas Bakchis vs Shinji Minowa | Formula DRIFT Las Vegas 2026\n\nShinji Minowa stepped in for his son mid season and now he's all over championship contender Odi Bakchis.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@odidrift @shinjiminowa @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Aurimas Bakchis vs Shinji Minowa | Formula DRIFT Las Vegas 2026: Shinji Minowa stepped in for his son mid season and now he's all over championship contender Odi Bakchis.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @odidrift @shinjiminowa @formulad\n#formuladrift #formulad #aurimasbakchis #sidewayswire",
+  "youtube_title": "Bakchis vs Minowa | Formula DRIFT Las Vegas 2026",
+  "youtube": "Shinji Minowa stepped in for his son mid season and now he's all over championship contender Odi Bakchis.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@odidrift @shinjiminowa @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "odidrift",
+  "shinjiminowa"
+ ]
 }

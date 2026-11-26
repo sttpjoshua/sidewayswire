@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-42",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIELD BOOKS HIS FINAL SPOT",
  "video": "docs/media/pod-yt8bwn2g2ssy-42/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 9021.85
  },
  "created": "2026-11-18T23:07:47.809813+00:00",
- "built": "2026-11-21T11:55:32.054354+00:00",
+ "built": "2026-11-26T19:31:37.357589+00:00",
  "thumb": "docs/media/thumbs/pod-yt8bwn2g2ssy-42.jpg",
  "short": "docs/media/pod-yt8bwn2g2ssy-42/short.mp4",
  "short_len": 11.3,
@@ -42,5 +42,25 @@
   "Matt Field",
   "Daniel Stuckey"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.254012+00:00"
+ },
+ "score": 80,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Matt Field vs Daniel Stuckey | Formula DRIFT Las Vegas 2026\n\nMatt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @stuke.racing @formulad\n\n#formuladrift #formulad #mattfield #danielstuckey #sidewayswire",
+  "facebook": "Matt Field vs Daniel Stuckey | Formula DRIFT Las Vegas 2026\n\nMatt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @stuke.racing @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Matt Field vs Daniel Stuckey | Formula DRIFT Las Vegas 2026: Matt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @mattfield777 @stuke.racing @formulad\n#formuladrift #formulad #mattfield #sidewayswire",
+  "youtube_title": "Matt Field vs Daniel Stuckey | Formula DRIFT Las Vegas 2026",
+  "youtube": "Matt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @stuke.racing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "mattfield777",
+  "stuke.racing"
+ ]
 }

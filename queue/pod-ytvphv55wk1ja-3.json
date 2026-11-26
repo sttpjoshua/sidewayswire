@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-3",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "94.2 FROM THE HOME HERO",
  "video": "docs/media/pod-ytvphv55wk1ja-3/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 3488.3
  },
  "created": "2026-11-20T06:22:36.038934+00:00",
- "built": "2026-11-20T07:02:33.808397+00:00",
+ "built": "2026-11-26T19:31:42.145518+00:00",
  "media": [
   "docs/media/pod-ytvphv55wk1ja-3/clip.mp4"
  ],
@@ -40,5 +40,24 @@
  "people": [
   "Jakub Król"
  ],
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T19:31:44.392165+00:00"
+ },
+ "score": 58,
+ "moment_kind": "qualify",
+ "plan": {},
+ "captions": {
+  "instagram": "Jakub Król | Drift Masters 2026 Grand Final Poland Qualifying\n\nThe Polish flags are out and the home crowd is on its feet. Last year's top qualifier delivers again: 94.2.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@jakubkrol225 @driftmasters.gp\n\n#driftmasters #drift #jakubkrol #drifting #sidewayswire",
+  "facebook": "Jakub Król | Drift Masters 2026 Grand Final Poland Qualifying\n\nThe Polish flags are out and the home crowd is on its feet. Last year's top qualifier delivers again: 94.2.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@jakubkrol225 @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Jakub Król | Drift Masters 2026 Grand Final Poland Qualifying: The Polish flags are out and the home crowd is on its feet. Last year's top qualifier delivers again: 94.2.\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying @jakubkrol225 @driftmasters.gp\n#driftmasters #drift #jakubkrol #sidewayswire",
+  "youtube_title": "Jakub Król | Drift Masters Grand Final Poland Qualifying",
+  "youtube": "The Polish flags are out and the home crowd is on its feet. Last year's top qualifier delivers again: 94.2.\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@jakubkrol225 @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "jakubkrol225"
+ ]
 }
