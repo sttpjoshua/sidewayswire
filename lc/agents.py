@@ -70,13 +70,15 @@ def scout(inbox_path: Path = ROOT / "data" / "inbox.json", now: datetime | None 
     note = cfg["note"].lower()
     hist, top = [], []
     import csv
-    known = []
+    known, handles_known = [], {}
     src = ROOT / "data" / "sources.csv"
     if src.exists():
         for r in csv.DictReader(src.open(encoding="utf-8")):
             if r.get("Type") in ("Coureur", "Presentator") and r.get("Prioriteit") in ("1", "2"):
                 last = r["Naam"].split()[-1].lower()
                 known.append((r["Naam"].lower(), last, 3 - int(r["Prioriteit"])))
+                if (r.get("Instagram") or "").startswith("@"):
+                    handles_known[r["Instagram"].lower()] = r["Naam"]
     for s in d.get("stories", []):
         t = " ".join([s.get("title", "")] + [i.get("title", "") for i in s.get("items", [])[:4]]).lower()
         pts, why = 0, []
@@ -86,6 +88,8 @@ def scout(inbox_path: Path = ROOT / "data" / "inbox.json", now: datetime | None 
                 why.append(label)
                 break
         stars = [n for n, last, w in known if n in t or (len(last) > 5 and re.search(rf"\b{re.escape(last)}\b", t))]
+        stars += [handles_known[i["source"].lower()] for i in s.get("items", [])[:4]
+                  if str(i.get("source", "")).lower() in handles_known]
         if stars:
             # Off-season radar (Joshua, 26 nov): what the pros do between seasons is news for us.
             pts += min(30, 15 * len(stars))
