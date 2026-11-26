@@ -1,21 +1,20 @@
 {
  "id": "pod-ytvphv55wk1ja-14",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "THE 99 NOBODY HAS BEATEN",
  "video": "docs/media/pod-ytvphv55wk1ja-14/clip.mp4",
- "caption": "The highest qualifying score ever at this stadium is still a 99 from Kalle Rovanperä. So who took the last point?\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #rovanpera #sidewayswire",
+ "caption": "The highest qualifying score ever at this stadium is still a 99 from Kalle Rovanperä. So who took the last point?\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@kallerovanpera @driftmasters.gp\n\n#driftmasters #drifting #poland #rovanpera #sidewayswire",
  "tags": [
+  "@kallerovanpera",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Kalle Rovanperä"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -47,5 +46,6 @@
    "tags nog open: Kalle Rovanperä"
   ],
   "at": "2026-11-26T19:31:44.387216+00:00"
- }
+ },
+ "names_by": "people database"
 }

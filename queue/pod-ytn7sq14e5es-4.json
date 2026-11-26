@@ -1,21 +1,20 @@
 {
  "id": "pod-ytn7sq14e5es-4",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "STAVROS IS BACK",
  "video": "docs/media/pod-ytn7sq14e5es-4/clip.mp4",
- "caption": "After a massive accident in his AE86 in Austria, Stavros Grillis is back in the Drift Masters paddock.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#driftmasters #drifting #ae86 #comeback #sidewayswire",
+ "caption": "After a massive accident in his AE86 in Austria, Stavros Grillis is back in the Drift Masters paddock.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@stavrosgrillis08 @driftmasters.gp\n\n#driftmasters #drifting #ae86 #comeback #sidewayswire",
  "tags": [
+  "@stavrosgrillis08",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Stavros Grillis"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -47,5 +46,6 @@
    "tags nog open: Stavros Grillis"
   ],
   "at": "2026-11-26T19:31:44.352645+00:00"
- }
+ },
+ "names_by": "people database"
 }

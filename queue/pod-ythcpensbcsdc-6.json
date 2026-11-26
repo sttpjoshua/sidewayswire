@@ -1,22 +1,20 @@
 {
  "id": "pod-ythcpensbcsdc-6",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "KANDRASENKA VS HEINONEN SPLIT",
  "video": "docs/media/pod-ythcpensbcsdc-6/clip.mp4",
- "caption": "Both runs side by side: Lauri Heinonen and Raman Kandrasenka in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+ "caption": "Both runs side by side: Lauri Heinonen and Raman Kandrasenka in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@lauriheinonen18 @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
  "tags": [
+  "@lauriheinonen18",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Raman Kandrasenka",
-  "Lauri Heinonen"
- ],
+ "missing_handles": [],
  "format": "split",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -48,5 +46,6 @@
    "tags nog open: Raman Kandrasenka, Lauri Heinonen"
   ],
   "at": "2026-11-26T19:31:44.313685+00:00"
- }
+ },
+ "names_by": "people database"
 }

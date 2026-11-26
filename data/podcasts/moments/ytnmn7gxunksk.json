@@ -513,7 +513,7 @@
   "why": "Insight into how drivers are adapting their strategies.",
   "caption": "Drivers now focus on pleasing the judges, not just Wally.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -522,7 +522,12 @@
    "text": "ARE DRIVERS FIGURING OUT THE JUDGES?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-19-28808-29597.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-19-28808-29597.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2928.01, \"start\": 2925.29, \"text\": \"ARE DRIVERS FIGURING OUT THE JUDGES?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:48:09.141097+00:00"
  },
  {
   "start": 2997.89,
@@ -535,7 +540,7 @@
   "why": "Strong run with good execution and flair.",
   "caption": "Trent Beecham delivers a solid qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -544,7 +549,12 @@
    "text": "HOW DID TRENT DO?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-20-29979-30429.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-20-29979-30429.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3025.45, \"start\": 3021.57, \"text\": \"HOW DID TRENT DO?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:49:15.409943+00:00"
  },
  {
   "start": 3116.55,
@@ -557,7 +567,7 @@
   "why": "Highlights a strong qualifying run with impressive commitment",
   "caption": "Rad Dan's commitment in qualifying earns applause",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -566,7 +576,12 @@
    "text": "HOW DID RAD DAN COMMIT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-21-31166-31983.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-21-31166-31983.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3161.69, \"start\": 3158.87, \"text\": \"HOW DID RAD DAN COMMIT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:50:59.519599+00:00"
  },
  {
   "start": 3356.41,
@@ -579,7 +594,7 @@
   "why": "Qualifying run with a focus on new strategies.",
   "caption": "Adam LZ takes risks, trying new approaches in qualifying.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -588,7 +603,12 @@
    "text": "WHAT DID HE TRY?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-22-33564-34018.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-22-33564-34018.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3386.47, \"start\": 3382.09, \"text\": \"WHAT DID HE TRY?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:52:03.583503+00:00"
  },
  {
   "start": 3555.69,

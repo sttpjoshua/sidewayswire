@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-26T21:46:28.449387+00:00",
+ "updated": "2026-11-26T21:52:41.649814+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 653,
-  "check": 52,
+  "check": 31,
   "skipped": 71,
-  "posted": 3
+  "posted": 3,
+  "draft": 25
  },
  "collected": "2026-11-26T21:46:23.410391+00:00",
  "instagram": true,
@@ -12863,6 +12864,218 @@
    }
   },
   {
+   "id": "pod-ytnmn7gxunksk-22",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ takes risks, trying new approaches in qualifying.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 3356.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T21:52:03.584967+00:00",
+   "built": "2026-11-26T21:52:03.584970+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytnmn7gxunksk-22__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ADAM LZ RISKS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-21",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rad Dan's commitment in qualifying earns applause\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 3116.55
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T21:50:59.521083+00:00",
+   "built": "2026-11-26T21:50:59.521086+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytnmn7gxunksk-21__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "DAN'S COMMITMENT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-20",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Trent Beecham delivers a solid qualifying run.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 2997.89
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T21:49:15.411459+00:00",
+   "built": "2026-11-26T21:49:15.411464+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytnmn7gxunksk-20__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "TRENT'S STRONG RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-19",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Drivers now focus on pleasing the judges, not just Wally.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 2880.83
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T21:48:09.142600+00:00",
+   "built": "2026-11-26T21:48:09.142604+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytnmn7gxunksk-19__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "DRIVERS ADAPTING TO JUDGING",
+   "photo": null
+  },
+  {
    "id": "pod-ytnmn7gxunksk-18",
    "kind": "stream_clip",
    "status": "ready",
@@ -15017,7 +15230,9 @@
    "people": [
     "Piotr Więcek",
     "Paweł Korpuliński",
-    "Conor Shanahan"
+    "Conor Shanahan",
+    "James Deane",
+    "Benediktas Čirba"
    ],
    "moment_kind": "moment",
    "pinned_at": null,
@@ -16955,18 +17170,18 @@
   {
    "id": "pod-ytjrjhgpxtn6i-0",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Dustin Farrell and his chaser both flirt with the dirt at Indianapolis. Living up to the name.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@little_webbie16 @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
+   "caption": "Dustin Farrell and his chaser both flirt with the dirt at Indianapolis. Living up to the name.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@little_webbie16 @thechrisleonard @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytjrjhgpxtn6i-0__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Indianapolis 2026 Highlights | Presented by Type S Auto",
@@ -16984,11 +17199,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytjrjhgpxtn6i-0__clip.mp4",
    "tags": [
     "@little_webbie16",
+    "@thechrisleonard",
     "@formulad"
    ],
-   "missing_handles": [
-    "Chris Leonard"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -19883,7 +20097,8 @@
    "people": [
     "Conor Shanahan",
     "Matt Field",
-    "Jack Shanahan"
+    "Jack Shanahan",
+    "James Deane"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -28933,7 +29148,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -29282,7 +29498,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -29783,18 +30000,18 @@
   {
    "id": "pod-ythcpensbcsdc-8",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Both runs side by side in the battle for third: Keskikorpi vs James Deane.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
+   "caption": "Both runs side by side in the battle for third: Keskikorpi vs James Deane.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@keskikorpimotorsport @jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ythcpensbcsdc-8__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
@@ -29811,12 +30028,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ythcpensbcsdc-8__clip.mp4",
    "tags": [
+    "@keskikorpimotorsport",
     "@jamesdeane130",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Mika Keski-Korpi"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "split",
    "plan": null,
@@ -29844,18 +30060,18 @@
   {
    "id": "pod-ythcpensbcsdc-7",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Both runs side by side: Duane McKeever and Nasser Habali in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@duanemckeever25 @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "caption": "Both runs side by side: Duane McKeever and Nasser Habali in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@duanemckeever25 @nasseralharbali @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ythcpensbcsdc-7__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
@@ -29873,11 +30089,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ythcpensbcsdc-7__clip.mp4",
    "tags": [
     "@duanemckeever25",
+    "@nasseralharbali",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Nasser Habali"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "split",
    "plan": null,
@@ -29905,18 +30120,18 @@
   {
    "id": "pod-ythcpensbcsdc-6",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Both runs side by side: Lauri Heinonen and Raman Kandrasenka in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "caption": "Both runs side by side: Lauri Heinonen and Raman Kandrasenka in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@lauriheinonen18 @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ythcpensbcsdc-6__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
@@ -29933,12 +30148,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ythcpensbcsdc-6__clip.mp4",
    "tags": [
+    "@lauriheinonen18",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Raman Kandrasenka",
-    "Lauri Heinonen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "split",
    "plan": null,
@@ -29969,7 +30182,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Lead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@benediktascirba @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "caption": "Lead vs lead, chase vs chase: Benediktas Čirba and Espen Røed in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@benediktascirba @espenrohde @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ythcpensbcsdc-5__clip.mp4"
    ],
@@ -29995,11 +30208,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ythcpensbcsdc-5__clip.mp4",
    "tags": [
     "@benediktascirba",
+    "@espenrohde",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Espen Røed"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "split",
    "plan": {},
@@ -30035,18 +30247,18 @@
   {
    "id": "pod-ythcpensbcsdc-4",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Third place battle against one of the greats, and the Finnish driver takes down James Deane for his first Drift Masters podium.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
+   "caption": "Third place battle against one of the greats, and the Finnish driver takes down James Deane for his first Drift Masters podium.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@keskikorpimotorsport @jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ythcpensbcsdc-4__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
@@ -30063,12 +30275,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ythcpensbcsdc-4__clip.mp4",
    "tags": [
+    "@keskikorpimotorsport",
     "@jamesdeane130",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Mika Keski-Korpi"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -30096,18 +30307,18 @@
   {
    "id": "pod-ythcpensbcsdc-3",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Duane McKeever needs to dive, does it, and washes off the edge of the track. Nasser Habali goes through to the top 8.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@duanemckeever25 @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+   "caption": "Duane McKeever needs to dive, does it, and washes off the edge of the track. Nasser Habali goes through to the top 8.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@duanemckeever25 @nasseralharbali @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ythcpensbcsdc-3__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
@@ -30125,11 +30336,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ythcpensbcsdc-3__clip.mp4",
    "tags": [
     "@duanemckeever25",
+    "@nasseralharbali",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Nasser Habali"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -30157,18 +30367,18 @@
   {
    "id": "pod-ythcpensbcsdc-2",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "A weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #wildcard #sidewayswire",
+   "caption": "A weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@lauriheinonen18 @driftmasters.gp\n\n#driftmasters #drifting #spain #wildcard #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ythcpensbcsdc-2__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
@@ -30185,12 +30395,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ythcpensbcsdc-2__clip.mp4",
    "tags": [
+    "@lauriheinonen18",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Raman Kandrasenka",
-    "Lauri Heinonen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -30221,7 +30429,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Benediktas Čirba attacks in the chase and spins himself. The judges blame Čirba and send it to one more time.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@benediktascirba @driftmasters.gp\n\n#driftmasters #drifting #onemoretime #spain #sidewayswire",
+   "caption": "Benediktas Čirba attacks in the chase and spins himself. The judges blame Čirba and send it to one more time.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@benediktascirba @espenrohde @driftmasters.gp\n\n#driftmasters #drifting #onemoretime #spain #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ythcpensbcsdc-1__clip.mp4"
    ],
@@ -30247,11 +30455,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ythcpensbcsdc-1__clip.mp4",
    "tags": [
     "@benediktascirba",
+    "@espenrohde",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Espen Røed"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -30494,7 +30701,7 @@
   {
    "id": "pod-ytcaagmgzlale-10",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "Not unanimous, two to one, but 16 year old Braden Lons wins the Pro Spec round in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@braden.lons @little_webbie16 @formulad @camrensorensen\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
@@ -30504,8 +30711,8 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
@@ -30527,9 +30734,7 @@
     "@formulad",
     "@camrensorensen"
    ],
-   "missing_handles": [
-    "Casey Cole"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -30687,7 +30892,7 @@
   {
    "id": "pod-ytbnnz6o9wkaq-2",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "A Polish rookie wildcard in an Alfa Romeo leads Benediktas Čirba, who creeps right onto the door.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@benediktascirba @driftmasters.gp\n\n#driftmasters #drifting #italy #alfaromeo #sidewayswire",
@@ -30697,8 +30902,8 @@
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
@@ -30718,9 +30923,7 @@
     "@benediktascirba",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Lucas"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -34229,7 +34432,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "A four rotor Pikes Peak monster against a Formula One car in a donut showdown. Guess who won.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #madmike #sidewayswire",
+   "caption": "A four rotor Pikes Peak monster against a Formula One car in a donut showdown. Guess who won.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@madmike.123 @p.friesacher @driftmasters.gp\n\n#driftmasters #drifting #poland #madmike #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytvphv55wk1ja-30__clip.mp4"
    ],
@@ -34254,12 +34457,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytvphv55wk1ja-30__clip.mp4",
    "tags": [
+    "@madmike.123",
+    "@p.friesacher",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Mike Whiddett",
-    "Patrick Friesacher"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -34353,7 +34555,10 @@
    "people": [
     "James Deane",
     "Paweł Korpuliński",
-    "Duane McKeever"
+    "Duane McKeever",
+    "Simen Olsen",
+    "Conor Shanahan",
+    "Piotr Więcek"
    ],
    "moment_kind": "qualify",
    "pinned_at": null,
@@ -35881,7 +36086,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "From a nervous newcomer to the big fish in a big pond. Mika Keski-Korpi jumps to second in qualifying.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #qualifying #sidewayswire",
+   "caption": "From a nervous newcomer to the big fish in a big pond. Mika Keski-Korpi jumps to second in qualifying.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@keskikorpimotorsport @driftmasters.gp\n\n#driftmasters #drifting #poland #qualifying #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytvphv55wk1ja-5__clip.mp4"
    ],
@@ -35906,11 +36111,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytvphv55wk1ja-5__clip.mp4",
    "tags": [
+    "@keskikorpimotorsport",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Mika Keski-Korpi"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -35948,7 +36152,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Mika Keski-Korpi paints the wall with his BMW and earns a new nickname. The judges gave it 95.5.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #bmw #sidewayswire",
+   "caption": "Mika Keski-Korpi paints the wall with his BMW and earns a new nickname. The judges gave it 95.5.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@keskikorpimotorsport @driftmasters.gp\n\n#driftmasters #drifting #poland #bmw #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytvphv55wk1ja-4__clip.mp4"
    ],
@@ -35973,11 +36177,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytvphv55wk1ja-4__clip.mp4",
    "tags": [
+    "@keskikorpimotorsport",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Mika Keski-Korpi"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -36012,18 +36215,18 @@
   {
    "id": "pod-ytvphv55wk1ja-2",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "He ripped a wheel off in practice, the team rebuilt the car, and then the same wall bit again in qualifying.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #crash #sidewayswire",
+   "caption": "He ripped a wheel off in practice, the team rebuilt the car, and then the same wall bit again in qualifying.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@teemuasunmaa @driftmasters.gp\n\n#driftmasters #drifting #poland #crash #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytvphv55wk1ja-2__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Red Bull Drift Masters Grand Finale 2026 • Poland • Qualifying LIVE",
@@ -36040,11 +36243,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytvphv55wk1ja-2__clip.mp4",
    "tags": [
+    "@teemuasunmaa",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Timo Asunmaa"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -36203,18 +36405,18 @@
   {
    "id": "pod-ytvphv55wk1ja-16",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "A zero on run one after losing the alternator belt, so everything on one run. Front bumper on the wall and he makes the show.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #bmw #sidewayswire",
+   "caption": "A zero on run one after losing the alternator belt, so everything on one run. Front bumper on the wall and he makes the show.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@itay.sadeh @driftmasters.gp\n\n#driftmasters #drifting #poland #bmw #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytvphv55wk1ja-16__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Red Bull Drift Masters Grand Finale 2026 • Poland • Qualifying LIVE",
@@ -36231,11 +36433,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytvphv55wk1ja-16__clip.mp4",
    "tags": [
+    "@itay.sadeh",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Itaes Sade"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -36262,18 +36463,18 @@
   {
    "id": "pod-ytvphv55wk1ja-15",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Alan Hynes paints the line across the wall in his S15 and improves to 94. Dangerous for tomorrow.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #s15 #sidewayswire",
+   "caption": "Alan Hynes paints the line across the wall in his S15 and improves to 94. Dangerous for tomorrow.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@hynesz_official @driftmasters.gp\n\n#driftmasters #drifting #poland #s15 #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytvphv55wk1ja-15__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Red Bull Drift Masters Grand Finale 2026 • Poland • Qualifying LIVE",
@@ -36290,11 +36491,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytvphv55wk1ja-15__clip.mp4",
    "tags": [
+    "@hynesz_official",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Alan Hynes"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -36321,18 +36521,18 @@
   {
    "id": "pod-ytvphv55wk1ja-14",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "The highest qualifying score ever at this stadium is still a 99 from Kalle Rovanperä. So who took the last point?\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #rovanpera #sidewayswire",
+   "caption": "The highest qualifying score ever at this stadium is still a 99 from Kalle Rovanperä. So who took the last point?\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@kallerovanpera @driftmasters.gp\n\n#driftmasters #drifting #poland #rovanpera #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytvphv55wk1ja-14__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Red Bull Drift Masters Grand Finale 2026 • Poland • Qualifying LIVE",
@@ -36349,11 +36549,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytvphv55wk1ja-14__clip.mp4",
    "tags": [
+    "@kallerovanpera",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Kalle Rovanperä"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -36380,18 +36579,18 @@
   {
    "id": "pod-ytvphv55wk1ja-12",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "An engine failure in practice, a rushed repair, and then a 94.5 on the second run with tail lights on the wall.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #gt86 #sidewayswire",
+   "caption": "An engine failure in practice, a rushed repair, and then a 94.5 on the second run with tail lights on the wall.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@alimakhseed71 @driftmasters.gp\n\n#driftmasters #drifting #poland #gt86 #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytvphv55wk1ja-12__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Red Bull Drift Masters Grand Finale 2026 • Poland • Qualifying LIVE",
@@ -36408,11 +36607,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytvphv55wk1ja-12__clip.mp4",
    "tags": [
+    "@alimakhseed71",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Ali Makhseed"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -36574,18 +36772,18 @@
   {
    "id": "pod-ytvphv55wk1ja-0",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "One last chance at the final round and Konstantin Shcherenko goes all in. The commentators thought it was over.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #gt86 #sidewayswire",
+   "caption": "One last chance at the final round and Konstantin Shcherenko goes all in. The commentators thought it was over.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@shchurenko_konstantyn @driftmasters.gp\n\n#driftmasters #drifting #poland #gt86 #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvphv55wk1ja-0__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Red Bull Drift Masters Grand Finale 2026 • Poland • Qualifying LIVE",
@@ -36602,11 +36800,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvphv55wk1ja-0__clip.mp4",
    "tags": [
+    "@shchurenko_konstantyn",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Konstantyn Shchurenko"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -36633,18 +36830,18 @@
   {
    "id": "pod-ytue2s78ftfay-2",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "A childhood dream to win a Drift Masters round at home. First up: Dylan Garvey, back for vengeance.\n\n🎥 Footage: THE MOST INTENSE TOP 32 IN DRIFT MASTERS\n@conorfalvey412 @driftmasters.gp\n\n#driftmasters #drifting #ireland #mondello #sidewayswire",
+   "caption": "A childhood dream to win a Drift Masters round at home. First up: Dylan Garvey, back for vengeance.\n\n🎥 Footage: THE MOST INTENSE TOP 32 IN DRIFT MASTERS\n@conorfalvey412 @dylangarvey26 @driftmasters.gp\n\n#driftmasters #drifting #ireland #mondello #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytue2s78ftfay-2__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "The Most Intense Top 32 in Drift Masters History?! (Ireland Behind the Scenes)",
@@ -36662,11 +36859,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytue2s78ftfay-2__clip.mp4",
    "tags": [
     "@conorfalvey412",
+    "@dylangarvey26",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Dylan Garvey"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -39335,7 +39531,7 @@
   {
    "id": "pod-ytpcbmjoufku-1",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "Out of stroker parts, a 3 litre swapped in, and the valves hitting the pistons. So they ground the pistons at the track.\n\n🎥 Footage: WHAT HAPPENS BEFORE THE RED BULL DRIFT M\n@driftmasters.gp\n\n#driftmasters #drifting #enginebuild #behindthescenes #sidewayswire",
@@ -39345,8 +39541,8 @@
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "What Happens Before the Red Bull Drift Masters Grand Finale?",
@@ -39365,9 +39561,7 @@
    "tags": [
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Unknown driver"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -39796,18 +39990,18 @@
   {
    "id": "pod-ytn7sq14e5es-4",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "After a massive accident in his AE86 in Austria, Stavros Grillis is back in the Drift Masters paddock.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#driftmasters #drifting #ae86 #comeback #sidewayswire",
+   "caption": "After a massive accident in his AE86 in Austria, Stavros Grillis is back in the Drift Masters paddock.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@stavrosgrillis08 @driftmasters.gp\n\n#driftmasters #drifting #ae86 #comeback #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytn7sq14e5es-4__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Behind The Scenes At The 2026 Red Bull Drift Masters Grand Finale",
@@ -39824,11 +40018,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytn7sq14e5es-4__clip.mp4",
    "tags": [
+    "@stavrosgrillis08",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Stavros Grillis"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -39858,7 +40051,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Andy Howard is driving his drift car from Australia to Ireland, living in it the whole way.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftmasters.gp\n\n#drifting #driftmasters #roadtrip #behindthescenes #sidewayswire",
+   "caption": "Andy Howard is driving his drift car from Australia to Ireland, living in it the whole way.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@driftacrosstheworld @driftmasters.gp\n\n#drifting #driftmasters #roadtrip #behindthescenes #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytn7sq14e5es-3__clip.mp4"
    ],
@@ -39883,11 +40076,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytn7sq14e5es-3__clip.mp4",
    "tags": [
+    "@driftacrosstheworld",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Andy Howard"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -39923,7 +40115,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Inside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@pawelkorpulinski @piotrwiecek @driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
+   "caption": "Inside Paweł Korpuliński's pit as the title fight builds. Next up in the top 16: even more pressure.\n\n🎥 Footage: BEHIND THE SCENES AT THE 2026 RED BULL D\n@pawelkorpulinski @piotrwiecek @hynesz_official @driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytn7sq14e5es-2__clip.mp4"
    ],
@@ -39950,11 +40142,10 @@
    "tags": [
     "@pawelkorpulinski",
     "@piotrwiecek",
+    "@hynesz_official",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Alan Hynes"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -40869,7 +41060,7 @@
   {
    "id": "pod-ytism3awlxzqs-3",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "They kept it a secret until round one in Italy. A brand new Toyota build surprises the paddock.\n\n🎥 Footage: DRIFT MASTERS 2026 ROUND 1 ITALY | QUALI\n@driftmasters.gp\n\n#driftmasters #drifting #newbuild #toyota #sidewayswire",
@@ -40879,8 +41070,8 @@
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Drift Masters 2026 Round 1 Italy | Qualifying Highlights & New Builds",
@@ -40899,9 +41090,7 @@
    "tags": [
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Unknown driver"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -43344,18 +43533,18 @@
   {
    "id": "pod-ytcaagmgzlale-5",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Shelly Hansen tucks into the smoke and slams the front left into the side of Dustin Farrell.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@little_webbie16 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+   "caption": "Shelly Hansen tucks into the smoke and slams the front left into the side of Dustin Farrell.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@little_webbie16 @chelleehansen @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-5__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
@@ -43373,11 +43562,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-5__clip.mp4",
    "tags": [
     "@little_webbie16",
+    "@chelleehansen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Shelly Hansen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -48388,18 +48576,18 @@
   {
    "id": "pod-b5159f5c03f8-20",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Palmer got asked to announce Final Bout. Rafael and a friend somehow sat at the judges' table all night and nobody stopped them.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #finalbout #grassrootsdrift #driftjudging #sidewayswire",
+   "caption": "Palmer got asked to announce Final Bout. Rafael and a friend somehow sat at the judges' table all night and nobody stopped them.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @jyw0rld @goodestcast\n\n#drift #finalbout #grassrootsdrift #driftjudging #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-b5159f5c03f8-20__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@goodestcast",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "The Goodest Cast",
     "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
@@ -48418,11 +48606,10 @@
    "tags": [
     "@thama56",
     "@palmer_sndrsn",
+    "@jyw0rld",
     "@goodestcast"
    ],
-   "missing_handles": [
-    "Jimmy Yates"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -51016,7 +51203,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Matt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Interclip #Filmmaking #sidewayswire",
+   "caption": "Matt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @locksleylennox @formulad @jako13\n\n#FormulaDrift #MattField #Interclip #Filmmaking #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-3fa7ee22a33c-21__clip.mp4"
    ],
@@ -51043,12 +51230,11 @@
    "tags": [
     "@christiancotrone",
     "@mattfield777",
+    "@locksleylennox",
     "@formulad",
     "@jako13"
    ],
-   "missing_handles": [
-    "Loxley Lennox"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -51089,7 +51275,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Christian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #Interclip #Drifting #DriveToSurvive #sidewayswire",
+   "caption": "Christian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @mrscarpelli @formulad @jako13\n\n#FormulaDrift #Interclip #Drifting #DriveToSurvive #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-3fa7ee22a33c-20__clip.mp4"
    ],
@@ -51116,12 +51302,11 @@
    "tags": [
     "@christiancotrone",
     "@mattfield777",
+    "@mrscarpelli",
     "@formulad",
     "@jako13"
    ],
-   "missing_handles": [
-    "Brandon Scarpelli"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -51258,9 +51443,7 @@
     "@formulad",
     "@jako13"
    ],
-   "missing_handles": [
-    "Ross Richardson"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -51842,7 +52025,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Christian Cotrone showed up to Clutch Kickers with 400 hp and podium dreams, then met the 1,000 hp cars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #Drifting #Corvette #ClutchKickers #sidewayswire",
+   "caption": "Christian Cotrone showed up to Clutch Kickers with 400 hp and podium dreams, then met the 1,000 hp cars.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @jonathannerren @formulad @jako13\n\n#FormulaDrift #Drifting #Corvette #ClutchKickers #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-3fa7ee22a33c-5__clip.mp4"
    ],
@@ -51868,12 +52051,11 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-3fa7ee22a33c-5__clip.mp4",
    "tags": [
     "@christiancotrone",
+    "@jonathannerren",
     "@formulad",
     "@jako13"
    ],
-   "missing_handles": [
-    "Jonathan Nerren"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -54605,7 +54787,8 @@
    "people": [
     "Conor Shanahan",
     "Jhonnattan Castro",
-    "James Deane"
+    "James Deane",
+    "Jack Shanahan"
    ],
    "moment_kind": "call",
    "pinned_at": null,
@@ -57524,7 +57707,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\n🎙 Full episode: The SileightyMania Podcast\n@sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
+   "caption": "Keisuke Nagashima's D1NZ title-winning AE86 started life as a bare shell with just a roll cage, bought from a D1NZ judge. 🔧\n\n🎙 Full episode: The SileightyMania Podcast\n@86fighters @sileightymania\n\n#ae86 #hachiroku #d1nz #drifting #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-4ff63fdc1bd8-0__clip.mp4"
    ],
@@ -57549,11 +57732,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-4ff63fdc1bd8-0__clip.mp4",
    "tags": [
+    "@86fighters",
     "@sileightymania"
    ],
-   "missing_handles": [
-    "Keisuke Nagashima"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": null,
    "plan": {},

@@ -1,23 +1,22 @@
 {
  "id": "pod-b5159f5c03f8-20",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "THE NIGHT AT THE JUDGES' TABLE",
  "video": "docs/media/pod-b5159f5c03f8-20/clip.mp4",
- "caption": "Palmer got asked to announce Final Bout. Rafael and a friend somehow sat at the judges' table all night and nobody stopped them.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #finalbout #grassrootsdrift #driftjudging #sidewayswire",
+ "caption": "Palmer got asked to announce Final Bout. Rafael and a friend somehow sat at the judges' table all night and nobody stopped them.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @jyw0rld @goodestcast\n\n#drift #finalbout #grassrootsdrift #driftjudging #sidewayswire",
  "tags": [
   "@thama56",
   "@palmer_sndrsn",
+  "@jyw0rld",
   "@goodestcast"
  ],
- "missing_handles": [
-  "Jimmy Yates"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@goodestcast",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -51,5 +50,6 @@
    "tags nog open: Jimmy Yates"
   ],
   "at": "2026-11-26T19:31:44.219320+00:00"
- }
+ },
+ "names_by": "people database"
 }

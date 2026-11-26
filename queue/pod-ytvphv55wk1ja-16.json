@@ -1,21 +1,20 @@
 {
  "id": "pod-ytvphv55wk1ja-16",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "ONE RUN, NO MARGIN",
  "video": "docs/media/pod-ytvphv55wk1ja-16/clip.mp4",
- "caption": "A zero on run one after losing the alternator belt, so everything on one run. Front bumper on the wall and he makes the show.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #bmw #sidewayswire",
+ "caption": "A zero on run one after losing the alternator belt, so everything on one run. Front bumper on the wall and he makes the show.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@itay.sadeh @driftmasters.gp\n\n#driftmasters #drifting #poland #bmw #sidewayswire",
  "tags": [
+  "@itay.sadeh",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Itaes Sade"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -47,5 +46,6 @@
    "tags nog open: Itaes Sade"
   ],
   "at": "2026-11-26T19:31:44.387763+00:00"
- }
+ },
+ "names_by": "people database"
 }

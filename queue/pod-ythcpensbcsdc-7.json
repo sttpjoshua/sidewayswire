@@ -1,22 +1,21 @@
 {
  "id": "pod-ythcpensbcsdc-7",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "MCKEEVER VS HABALI SPLIT",
  "video": "docs/media/pod-ythcpensbcsdc-7/clip.mp4",
- "caption": "Both runs side by side: Duane McKeever and Nasser Habali in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@duanemckeever25 @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+ "caption": "Both runs side by side: Duane McKeever and Nasser Habali in Spain.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@duanemckeever25 @nasseralharbali @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
  "tags": [
   "@duanemckeever25",
+  "@nasseralharbali",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Nasser Habali"
- ],
+ "missing_handles": [],
  "format": "split",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -48,5 +47,6 @@
    "tags nog open: Nasser Habali"
   ],
   "at": "2026-11-26T19:31:44.313976+00:00"
- }
+ },
+ "names_by": "people database"
 }

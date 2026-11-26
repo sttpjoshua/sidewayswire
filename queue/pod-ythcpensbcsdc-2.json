@@ -1,22 +1,20 @@
 {
  "id": "pod-ythcpensbcsdc-2",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "FORMER CHAMPION LOSES POWER",
  "video": "docs/media/pod-ythcpensbcsdc-2/clip.mp4",
- "caption": "A weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #spain #wildcard #sidewayswire",
+ "caption": "A weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@lauriheinonen18 @driftmasters.gp\n\n#driftmasters #drifting #spain #wildcard #sidewayswire",
  "tags": [
+  "@lauriheinonen18",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Raman Kandrasenka",
-  "Lauri Heinonen"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -49,5 +47,6 @@
    "tags nog open: Raman Kandrasenka, Lauri Heinonen"
   ],
   "at": "2026-11-26T19:31:44.312547+00:00"
- }
+ },
+ "names_by": "people database"
 }

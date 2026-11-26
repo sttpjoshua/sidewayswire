@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-10",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "16 YEAR OLD WINS IN VEGAS",
  "video": "docs/media/pod-ytcaagmgzlale-10/clip.mp4",
@@ -12,13 +12,11 @@
   "@formulad",
   "@camrensorensen"
  ],
- "missing_handles": [
-  "Casey Cole"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -52,5 +50,6 @@
    "tags nog open: Casey Cole"
   ],
   "at": "2026-11-26T19:31:44.285584+00:00"
- }
+ },
+ "names_by": "people database"
 }

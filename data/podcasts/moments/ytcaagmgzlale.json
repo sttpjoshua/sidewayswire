@@ -162,7 +162,7 @@
    "Dustin Farrell",
    "Shelly Hansen"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling Shelly Hansen",
   "hook": {
    "start": 381.61,
@@ -322,7 +322,7 @@
    "Casey Cole",
    "Dustin Farrell"
   ],
-  "check": true,
+  "check": false,
   "check_reason": "spelling Braden Lons",
   "hook": {
    "start": 704.11,

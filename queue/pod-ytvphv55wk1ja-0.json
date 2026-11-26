@@ -1,21 +1,20 @@
 {
  "id": "pod-ytvphv55wk1ja-0",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "CHECKERS OR WRECKERS",
  "video": "docs/media/pod-ytvphv55wk1ja-0/clip.mp4",
- "caption": "One last chance at the final round and Konstantin Shcherenko goes all in. The commentators thought it was over.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #gt86 #sidewayswire",
+ "caption": "One last chance at the final round and Konstantin Shcherenko goes all in. The commentators thought it was over.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@shchurenko_konstantyn @driftmasters.gp\n\n#driftmasters #drifting #poland #gt86 #sidewayswire",
  "tags": [
+  "@shchurenko_konstantyn",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Konstantyn Shchurenko"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -47,5 +46,6 @@
    "tags nog open: Konstantyn Shchurenko"
   ],
   "at": "2026-11-26T19:31:44.385364+00:00"
- }
+ },
+ "names_by": "people database"
 }

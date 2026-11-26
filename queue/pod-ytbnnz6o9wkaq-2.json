@@ -1,7 +1,7 @@
 {
  "id": "pod-ytbnnz6o9wkaq-2",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "ROOKIE WILDCARD VS CIRBA",
  "video": "docs/media/pod-ytbnnz6o9wkaq-2/clip.mp4",
@@ -10,13 +10,11 @@
   "@benediktascirba",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Lucas"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -49,5 +47,6 @@
    "tags nog open: Lucas"
   ],
   "at": "2026-11-26T19:31:44.282555+00:00"
- }
+ },
+ "names_by": "people database"
 }

@@ -1,22 +1,21 @@
 {
  "id": "pod-ythcpensbcsdc-3",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "MCKEEVER OUT IN TOP 16",
  "video": "docs/media/pod-ythcpensbcsdc-3/clip.mp4",
- "caption": "Duane McKeever needs to dive, does it, and washes off the edge of the track. Nasser Habali goes through to the top 8.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@duanemckeever25 @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
+ "caption": "Duane McKeever needs to dive, does it, and washes off the edge of the track. Nasser Habali goes through to the top 8.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@duanemckeever25 @nasseralharbali @driftmasters.gp\n\n#driftmasters #drifting #spain #battle #sidewayswire",
  "tags": [
   "@duanemckeever25",
+  "@nasseralharbali",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Nasser Habali"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -49,5 +48,6 @@
    "tags nog open: Nasser Habali"
   ],
   "at": "2026-11-26T19:31:44.312824+00:00"
- }
+ },
+ "names_by": "people database"
 }
