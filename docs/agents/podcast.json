@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · From P1 Qualifying to Chaos in Battle | Formula Drift Seattle",
- "updated": "2026-11-26T19:25:10.373831+00:00",
+ "doing": "leest: James Deane · 98 Points...Then It All Went Wrong | Drift Masters Germany",
+ "updated": "2026-11-26T19:25:15.596407+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:14.906378+00:00",
+   "text": "0 momenten uit From P1 Qualifying to Chaos in Battle | Formula Drift Seattle",
+   "ref": "ytbdsp1ounolq"
+  },
   {
    "at": "2026-11-26T19:25:09.787114+00:00",
    "text": "0 momenten uit FD Championship Winning S15 Returns in 2 Weeks! Rebuild P2",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:34.144153+00:00",
    "text": "0 momenten uit I Learned the Secrets of Drifting from Chelsea Denofa",
    "ref": "ythqb0h20wlfe"
-  },
-  {
-   "at": "2026-11-26T19:23:30.765356+00:00",
-   "text": "0 momenten uit I Never Thought This Day Would Come ...",
-   "ref": "ytf141shriru"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 67
+  "made": 68
  },
  "version": "3"
 }
