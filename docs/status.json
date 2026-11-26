@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T16:48:37.652591+00:00",
+ "updated": "2026-11-26T16:53:50.286149+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 486,
+  "ready": 482,
   "check": 129,
   "skipped": 70,
   "posted": 3,
-  "draft": 63
+  "draft": 67
  },
  "collected": "2026-11-26T11:27:46.116993+00:00",
  "instagram": false,
@@ -12295,6 +12295,225 @@
    "photo": null
   },
   {
+   "id": "pod-ytpeyjfzbdwxs-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Shanahan vs Shanahan. Little brother Conor says he is going to take down big brother Jack.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #shanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
+    "start": 750.16
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T01:12:26.376201+00:00",
+   "built": "2026-11-26T16:53:39.153615+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytpeyjfzbdwxs-7__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "BROTHER VS BROTHER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytpeyjfzbdwxs-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Andy Hateley throws up some dirt and Odi Bakchis shows the veteran move.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @hateleydrift @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
+    "start": 459.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T01:07:55.975023+00:00",
+   "built": "2026-11-26T16:52:02.597972+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-3__clip.mp4",
+   "tags": [
+    "@odidrift",
+    "@hateleydrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "HATELEY THROWS UP DIRT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytpeyjfzbdwxs-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "What has this 15 year old been on? Pro Spec rookie Braden Lons is absolutely dominant out front at Road Atlanta.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
+    "start": 23.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T01:05:18.867083+00:00",
+   "built": "2026-11-26T16:50:37.274916+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytpeyjfzbdwxs-0__clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "15 YEAR OLD SIM KID",
+   "photo": null
+  },
+  {
+   "id": "pod-ytjrjhgpxtn6i-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jason Webb pushes hard and 14 year old Cameron Sorensen takes it on the chin and keeps it together. Podium on the line.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@camrensorensen @webbdrift45 @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Indianapolis 2026 Highlights | Presented by Type S Auto",
+    "start": 474.32
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T13:58:17.325978+00:00",
+   "built": "2026-11-26T16:49:54.907930+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytjrjhgpxtn6i-4__clip.mp4",
+   "tags": [
+    "@camrensorensen",
+    "@webbdrift45",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "14 YEARS OLD AND UNSHAKEN",
+   "photo": null
+  },
+  {
    "id": "pod-ytjrjhgpxtn6i-3",
    "kind": "stream_clip",
    "status": "draft",
@@ -16949,72 +17168,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytrbtps1zxw4i-10__short.mp4",
    "title": "LEMAIRE DEDICATES HIS WIN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytpeyjfzbdwxs-0",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "What has this 15 year old been on? Pro Spec rookie Braden Lons is absolutely dominant out front at Road Atlanta.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #prospec #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytpeyjfzbdwxs-0__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
-    "start": 23.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T01:05:18.867083+00:00",
-   "built": "2026-11-25T08:57:23.975375+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytpeyjfzbdwxs-0__clip.mp4",
-   "tags": [
-    "@braden.lons",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 69,
-   "captions": {
-    "instagram": "Braden Lons | Formula DRIFT Atlanta 2026\n\nWhat has this 15 year old been on? Pro Spec rookie Braden Lons is absolutely dominant out front at Road Atlanta.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@braden.lons @formulad\n\n#formuladrift #formulad #bradenlons #drifting #sidewayswire",
-    "facebook": "Braden Lons | Formula DRIFT Atlanta 2026\n\nWhat has this 15 year old been on? Pro Spec rookie Braden Lons is absolutely dominant out front at Road Atlanta.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@braden.lons @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Braden Lons | Formula DRIFT Atlanta 2026: What has this 15 year old been on? Pro Spec rookie Braden Lons is absolutely dominant out front at Road Atlanta.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Atlanta 2026 @braden.lons @formulad\n#formuladrift #formulad #bradenlons #sidewayswire",
-    "youtube_title": "Braden Lons | Formula DRIFT Atlanta 2026",
-    "youtube": "What has this 15 year old been on? Pro Spec rookie Braden Lons is absolutely dominant out front at Road Atlanta.\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@braden.lons @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "braden.lons"
-   ],
-   "people": [
-    "Braden Lons"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytpeyjfzbdwxs-0.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytpeyjfzbdwxs-0.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "15 YEAR OLD SIM KID",
    "photo": null
   },
   {
@@ -32281,75 +32434,6 @@
    "photo": null
   },
   {
-   "id": "pod-ytpeyjfzbdwxs-7",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Shanahan vs Shanahan. Little brother Conor says he is going to take down big brother Jack.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #shanahan #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytpeyjfzbdwxs-7__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
-    "start": 750.16
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T01:12:26.376201+00:00",
-   "built": "2026-11-20T07:02:30.777777+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytpeyjfzbdwxs-7__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 75,
-   "captions": {
-    "instagram": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Atlanta 2026\n\nShanahan vs Shanahan. Little brother Conor says he is going to take down big brother Jack.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formuladrift #formulad #jackshanahan #conorshanahan #sidewayswire",
-    "facebook": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Atlanta 2026\n\nShanahan vs Shanahan. Little brother Conor says he is going to take down big brother Jack.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Atlanta 2026: Shanahan vs Shanahan. Little brother Conor says he is going to take down big brother Jack.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Atlanta 2026 @jackshanahan59 @conorshanahan79 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Atlanta 2026",
-    "youtube": "Shanahan vs Shanahan. Little brother Conor says he is going to take down big brother Jack.\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "conorshanahan79"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Conor Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytpeyjfzbdwxs-7.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytpeyjfzbdwxs-7.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytpeyjfzbdwxs-7__short.mp4",
-   "title": "BROTHER VS BROTHER",
-   "photo": null
-  },
-  {
    "id": "pod-ytpeyjfzbdwxs-6",
    "kind": "stream_clip",
    "status": "ready",
@@ -32554,75 +32638,6 @@
    "tiktok_done": null,
    "short": null,
    "title": "LZ WAY OFF COURSE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytpeyjfzbdwxs-3",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Andy Hateley throws up some dirt and Odi Bakchis shows the veteran move.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @hateleydrift @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-3__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
-    "start": 459.46
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T01:07:55.975023+00:00",
-   "built": "2026-11-20T07:02:30.623105+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-3__clip.mp4",
-   "tags": [
-    "@odidrift",
-    "@hateleydrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Aurimas Bakchis vs Andy Hateley | Formula DRIFT Atlanta 2026\n\nAndy Hateley throws up some dirt and Odi Bakchis shows the veteran move.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@odidrift @hateleydrift @formulad\n\n#formuladrift #formulad #aurimasbakchis #andyhateley #sidewayswire",
-    "facebook": "Aurimas Bakchis vs Andy Hateley | Formula DRIFT Atlanta 2026\n\nAndy Hateley throws up some dirt and Odi Bakchis shows the veteran move.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@odidrift @hateleydrift @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Aurimas Bakchis vs Andy Hateley | Formula DRIFT Atlanta 2026: Andy Hateley throws up some dirt and Odi Bakchis shows the veteran move.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Atlanta 2026 @odidrift @hateleydrift @formulad\n#formuladrift #formulad #aurimasbakchis #sidewayswire",
-    "youtube_title": "Aurimas Bakchis vs Andy Hateley | Formula DRIFT Atlanta 2026",
-    "youtube": "Andy Hateley throws up some dirt and Odi Bakchis shows the veteran move.\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@odidrift @hateleydrift @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "odidrift",
-    "hateleydrift"
-   ],
-   "people": [
-    "Aurimas Bakchis",
-    "Andy Hateley"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytpeyjfzbdwxs-3.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytpeyjfzbdwxs-3.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "HATELEY THROWS UP DIRT",
    "photo": null
   },
   {
@@ -34886,75 +34901,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytlgdw88ygzo4-0__short.mp4",
    "title": "91.53 FROM JACK SHANAHAN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytjrjhgpxtn6i-4",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jason Webb pushes hard and 14 year old Cameron Sorensen takes it on the chin and keeps it together. Podium on the line.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@webbdrift45 @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytjrjhgpxtn6i-4__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Indianapolis 2026 Highlights | Presented by Type S Auto",
-    "start": 474.32
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T13:58:17.325978+00:00",
-   "built": "2026-11-19T16:51:08.413869+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytjrjhgpxtn6i-4__clip.mp4",
-   "tags": [
-    "@webbdrift45",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Cameron Sorensen"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 64,
-   "captions": {
-    "instagram": "Cameron Sorensen vs Jason Webb | Formula DRIFT Indianapolis 2026\n\nJason Webb pushes hard and 14 year old Cameron Sorensen takes it on the chin and keeps it together. Podium on the line.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@webbdrift45 @formulad\n\n#formuladrift #formulad #cameronsorensen #jasonwebb #sidewayswire",
-    "facebook": "Cameron Sorensen vs Jason Webb | Formula DRIFT Indianapolis 2026\n\nJason Webb pushes hard and 14 year old Cameron Sorensen takes it on the chin and keeps it together. Podium on the line.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@webbdrift45 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Cameron Sorensen vs Jason Webb | Formula DRIFT Indianapolis 2026: Jason Webb pushes hard and 14 year old Cameron Sorensen takes it on the chin and keeps it together. Podium on the line.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Indianapolis 2026 @webbdrift45 @formulad\n#formuladrift #formulad #cameronsorensen #sidewayswire",
-    "youtube_title": "Sorensen vs Webb | Formula DRIFT Indianapolis 2026",
-    "youtube": "Jason Webb pushes hard and 14 year old Cameron Sorensen takes it on the chin and keeps it together. Podium on the line.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@webbdrift45 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "webbdrift45"
-   ],
-   "people": [
-    "Cameron Sorensen",
-    "Jason Webb"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytjrjhgpxtn6i-4.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytjrjhgpxtn6i-4.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytjrjhgpxtn6i-4__short.mp4",
-   "title": "14 YEARS OLD AND UNSHAKEN",
    "photo": null
   },
   {
@@ -55478,17 +55424,6 @@
    "suggest": [
     "Christopher Leonard"
    ]
-  },
-  {
-   "name": "Cameron Sorensen",
-   "posts": 1,
-   "ids": [
-    "pod-ytjrjhgpxtn6i-4"
-   ],
-   "handle": "@camrensorensen",
-   "known": true,
-   "series": "FD",
-   "suggest": []
   },
   {
    "name": "Andy Howard",
