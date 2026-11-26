@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · Mad Mike Is In Ireland & We Gave Him The 4-Rotor RX7 + S15 FIRST START!",
- "updated": "2026-11-26T19:24:58.587741+00:00",
+ "doing": "leest: James Deane · Getting Out of Hand FAST before LZ World Tour",
+ "updated": "2026-11-26T19:25:02.783133+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:02.125646+00:00",
+   "text": "0 momenten uit Mad Mike Is In Ireland & We Gave Him The 4-Rotor RX7 + S15 FIRST START!",
+   "ref": "ytcuuvijzhp1u"
+  },
   {
    "at": "2026-11-26T19:24:57.956510+00:00",
    "text": "0 momenten uit Drifting in front of 55,000 People | Drift Masters Poland",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:22.367382+00:00",
    "text": "0 momenten uit My 350Z Is UNRECOGNIZABLE… Widebody Kit Install!",
    "ref": "yttcsbefl4v1k"
-  },
-  {
-   "at": "2026-11-26T19:23:18.476266+00:00",
-   "text": "0 momenten uit Can We Wrap My Entire 350Z in 48 HOURS?!",
-   "ref": "ytoiwg9kzm3k8"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 64
+  "made": 65
  },
  "version": "3"
 }
