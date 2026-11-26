@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T15:21:17.302968+00:00",
+ "updated": "2026-11-26T15:27:18.518819+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 524,
+  "ready": 521,
   "check": 132,
   "skipped": 70,
   "posted": 3,
-  "draft": 22
+  "draft": 25
  },
  "collected": "2026-11-26T11:27:46.116993+00:00",
  "instagram": false,
@@ -7052,10 +7052,8 @@
    "post_at": "2026-12-24T20:30:00+00:00",
    "posted_at": null,
    "caption": "Jack Shanahan pokes through the smoke and drops into formation on Nate Chen. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @nathaniel.chen @formulad\n\n#formulad #formuladrift #drifting #seattle #jackshanahan #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-6__clip.mp4"
-   ],
-   "problems": [],
+   "media": [],
+   "problems": null,
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -7072,7 +7070,7 @@
     "youtube"
    ],
    "created": "2026-11-19T08:09:49.159094+00:00",
-   "built": "2026-11-19T16:51:06.762848+00:00",
+   "built": "2026-11-26T15:27:06.288072+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-6__clip.mp4",
    "tags": [
@@ -7086,33 +7084,21 @@
    "plan": {
     "tiktok": "2026-12-24T20:30:00+00:00"
    },
-   "score": 85,
-   "captions": {
-    "instagram": "Jack Shanahan vs Nate Chen | Formula DRIFT Seattle 2026\n\nJack Shanahan pokes through the smoke and drops into formation on Nate Chen. Unanimous.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jackshanahan59 @nathaniel.chen @formulad\n\n#formuladrift #formulad #jackshanahan #natechen #sidewayswire",
-    "facebook": "Jack Shanahan vs Nate Chen | Formula DRIFT Seattle 2026\n\nJack Shanahan pokes through the smoke and drops into formation on Nate Chen. Unanimous.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jackshanahan59 @nathaniel.chen @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Nate Chen | Formula DRIFT Seattle 2026: Jack Shanahan pokes through the smoke and drops into formation on Nate Chen. Unanimous.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @jackshanahan59 @nathaniel.chen @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Jack Shanahan vs Nate Chen | Formula DRIFT Seattle 2026",
-    "youtube": "Jack Shanahan pokes through the smoke and drops into formation on Nate Chen. Unanimous.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jackshanahan59 @nathaniel.chen @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
+   "score": null,
+   "captions": null,
    "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "nathaniel.chen"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Nate Chen"
-   ],
-   "moment_kind": "battle",
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
    "pinned_at": null,
    "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-6.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-6.mp4",
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-6__short.mp4",
+   "short": null,
    "title": "JACK SHANAHAN GETS HIS BREAKOUT",
    "photo": null
   },
@@ -12488,6 +12474,171 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@colerichardz @chrisforsberg64 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 200.36
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:08:09.284310+00:00",
+   "built": "2026-11-26T15:26:07.148749+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytckqkb2axqe-5__clip.mp4",
+   "tags": [
+    "@colerichardz",
+    "@chrisforsberg64",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ROOKIE FORCES FORSBERG TO OMT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jeffjonesracing @romecp @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 163.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:06:39.135262+00:00",
+   "built": "2026-11-26T15:24:27.646837+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-4__clip.mp4",
+   "tags": [
+    "@jeffjonesracing",
+    "@romecp",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ONE MORE TIME, JONES VS RCP",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Litteral looks confident out front, but Matt Field dives out of the smoke and takes it unanimously.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@ryanlitteral @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 130.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:05:14.205864+00:00",
+   "built": "2026-11-26T15:22:53.267760+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-3__clip.mp4",
+   "tags": [
+    "@ryanlitteral",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FIELD GETS IT UNANIMOUSLY",
    "photo": null
   },
   {
@@ -37407,213 +37558,6 @@
    "photo": null
   },
   {
-   "id": "pod-ytckqkb2axqe-5",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Rookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytckqkb2axqe-5__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 200.36
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:08:09.284310+00:00",
-   "built": "2026-11-19T16:51:06.724696+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytckqkb2axqe-5__clip.mp4",
-   "tags": [
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Chris Forsberg"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 73,
-   "captions": {
-    "instagram": "Cole Richards vs Chris Forsberg | Formula DRIFT Seattle 2026\n\nRookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #colerichards #chrisforsberg #sidewayswire",
-    "facebook": "Cole Richards vs Chris Forsberg | Formula DRIFT Seattle 2026\n\nRookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Cole Richards vs Chris Forsberg | Formula DRIFT Seattle 2026: Rookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Seattle 2026 @colerichardz @formulad\n#formuladrift #formulad #colerichards #sidewayswire",
-    "youtube_title": "Cole Richards vs Chris Forsberg | Formula DRIFT Seattle 2026",
-    "youtube": "Rookie Cole Richards rips against three time champion Chris Forsberg and forces a one more time.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "colerichardz"
-   ],
-   "people": [
-    "Cole Richards",
-    "Chris Forsberg"
-   ],
-   "moment_kind": "omt",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-5.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-5.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytckqkb2axqe-5__short.mp4",
-   "title": "ROOKIE FORCES FORSBERG TO OMT",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-4",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jeffjonesracing @romecp @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-4__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 163.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:06:39.135262+00:00",
-   "built": "2026-11-19T16:51:06.703888+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-4__clip.mp4",
-   "tags": [
-    "@jeffjonesracing",
-    "@romecp",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 67,
-   "captions": {
-    "instagram": "Jeff Jones vs Rome Charpentier | Formula DRIFT Seattle 2026\n\nJeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jeffjonesracing @romecp @formulad\n\n#formuladrift #formulad #jeffjones #romecharpentier #sidewayswire",
-    "facebook": "Jeff Jones vs Rome Charpentier | Formula DRIFT Seattle 2026\n\nJeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jeffjonesracing @romecp @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jeff Jones vs Rome Charpentier | Formula DRIFT Seattle 2026: Jeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @jeffjonesracing @romecp @formulad\n#formuladrift #formulad #jeffjones #sidewayswire",
-    "youtube_title": "Jeff Jones vs Rome Charpentier | Formula DRIFT Seattle 2026",
-    "youtube": "Jeff Jones and Rome Charpentier, two Hot Pit Autofest regulars, can't be split. One more time.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jeffjonesracing @romecp @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jeffjonesracing",
-    "romecp"
-   ],
-   "people": [
-    "Jeff Jones",
-    "Rome Charpentier"
-   ],
-   "moment_kind": "omt",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-4.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-4.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-4__short.mp4",
-   "title": "ONE MORE TIME, JONES VS RCP",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-3",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ryan Litteral looks confident out front, but Matt Field dives out of the smoke and takes it unanimously.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@ryanlitteral @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-3__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 130.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:05:14.205864+00:00",
-   "built": "2026-11-19T16:51:06.683215+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-3__clip.mp4",
-   "tags": [
-    "@ryanlitteral",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Ryan Litteral vs Matt Field | Formula DRIFT Seattle 2026\n\nRyan Litteral looks confident out front, but Matt Field dives out of the smoke and takes it unanimously.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@ryanlitteral @mattfield777 @formulad\n\n#formuladrift #formulad #ryanlitteral #mattfield #sidewayswire",
-    "facebook": "Ryan Litteral vs Matt Field | Formula DRIFT Seattle 2026\n\nRyan Litteral looks confident out front, but Matt Field dives out of the smoke and takes it unanimously.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@ryanlitteral @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Ryan Litteral vs Matt Field | Formula DRIFT Seattle 2026: Ryan Litteral looks confident out front, but Matt Field dives out of the smoke and takes it unanimously.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Seattle 2026 @ryanlitteral @mattfield777 @formulad\n#formuladrift #formulad #ryanlitteral #sidewayswire",
-    "youtube_title": "Ryan Litteral vs Matt Field | Formula DRIFT Seattle 2026",
-    "youtube": "Ryan Litteral looks confident out front, but Matt Field dives out of the smoke and takes it unanimously.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@ryanlitteral @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "ryanlitteral",
-    "mattfield777"
-   ],
-   "people": [
-    "Ryan Litteral",
-    "Matt Field"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-3.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-3.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-3__short.mp4",
-   "title": "FIELD GETS IT UNANIMOUSLY",
-   "photo": null
-  },
-  {
    "id": "pod-ytckqkb2axqe-2",
    "kind": "stream_clip",
    "status": "ready",
@@ -55676,7 +55620,7 @@
   },
   {
    "name": "Chris Forsberg",
-   "posts": 19,
+   "posts": 18,
    "ids": [
     "pod-yt8bwn2g2ssy-21",
     "pod-yt8bwn2g2ssy-22",
