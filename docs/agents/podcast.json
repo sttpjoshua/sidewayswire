@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Jimmy Oakes · We start my R34 GTR for the FIRST TIME!!",
- "updated": "2026-11-26T19:24:06.493937+00:00",
+ "doing": "leest: Jimmy Oakes · These parts COMPLETELY changed my R34 GTR!",
+ "updated": "2026-11-26T19:24:11.625113+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:11.039629+00:00",
+   "text": "0 momenten uit We start my R34 GTR for the FIRST TIME!!",
+   "ref": "ytrvwcz0n7i8"
+  },
   {
    "at": "2026-11-26T19:24:05.899060+00:00",
    "text": "0 momenten uit OFFICIALLY bringing a car to SEMA! ",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:22:31.791734+00:00",
    "text": "0 momenten uit BMW Never Sold This E46 in America… So We Built the Ultimate One",
    "ref": "ytul8vkf87hqe"
-  },
-  {
-   "at": "2026-11-26T19:22:28.321633+00:00",
-   "text": "0 momenten uit Grant and I test a SECRET Drift Tire! Is It Competition Ready?",
-   "ref": "ytcgfqwpzchi"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 52
+  "made": 53
  },
  "version": "3"
 }
