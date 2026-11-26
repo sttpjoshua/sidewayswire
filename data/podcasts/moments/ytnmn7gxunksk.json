@@ -623,7 +623,7 @@
   "why": "Exciting run with a close call.",
   "caption": "Ben Hobson's run ends with a thrilling finish.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -632,7 +632,12 @@
    "text": "WHAT HAPPPENED TO HOBSON?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-23-35557-36244.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-23-35557-36244.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3608.39, \"start\": 3604.93, \"text\": \"WHAT HAPPPENED TO HOBSON?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:54:10.791643+00:00"
  },
  {
   "start": 3880.87,
@@ -647,7 +652,7 @@
   "why": "Highly descriptive commentary, strong visuals, and impressive score.",
   "caption": "Cole Richards' qualifying run is a violent yet precise display of skill.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -656,7 +661,12 @@
    "text": "IS THIS PERFECT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-24-38809-39680.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-24-38809-39680.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3918.47, \"start\": 3915.61, \"text\": \"IS THIS PERFECT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:56:00.696114+00:00"
  },
  {
   "start": 4063.49,
@@ -669,7 +679,7 @@
   "why": "Notable driver, clear score, and placement information.",
   "caption": "Ryan Turk's qualifying run ends with a score of 64.46, placing him 16th.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -678,7 +688,12 @@
    "text": "WHAT DID TURK SCORE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-25-40635-41170.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-25-40635-41170.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4094.73, \"start\": 4093.37, \"text\": \"WHAT DID TURK SCORE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:56:53.645673+00:00"
  },
  {
   "start": 4240.91,
@@ -693,7 +708,7 @@
   "why": "Smooth transitions and close score to the leader",
   "caption": "Dylan Hughes shows smooth transitions in his qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -702,7 +717,12 @@
    "text": "HOW DID HE DO?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-26-42409-43042.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-26-42409-43042.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4290.13, \"start\": 4288.39, \"text\": \"HOW DID HE DO?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:58:16.879984+00:00"
  },
  {
   "start": 4513.07,
