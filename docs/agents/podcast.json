@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Adam LZ · I bought a “sleeper” SUV",
- "updated": "2026-11-26T19:21:02.924055+00:00",
+ "doing": "leest: Adam LZ · My 1000HP Cosmo Build Just Got Serious",
+ "updated": "2026-11-26T19:21:06.553048+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:21:05.867813+00:00",
+   "text": "0 momenten uit I bought a “sleeper” SUV",
+   "ref": "ytzmcpwxlywga"
+  },
   {
    "at": "2026-11-26T19:21:02.295271+00:00",
    "text": "0 momenten uit I Made My Porsche 964 Even FASTER - The Ultimate Smokies Test!",
@@ -59,7 +64,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 8
+  "made": 9
  },
  "version": "3"
 }
