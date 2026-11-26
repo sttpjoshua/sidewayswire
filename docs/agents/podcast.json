@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: The Shanahans · NOT A BAD DEBUT TO ROYAL DRIFT SERIES | First Time In China",
- "updated": "2026-11-26T19:25:19.265831+00:00",
+ "doing": "leest: The Shanahans · STRIPPING THE 2026 FORMULA DRIFT S54 | The Post Mortem",
+ "updated": "2026-11-26T19:25:23.157821+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:22.585433+00:00",
+   "text": "0 momenten uit NOT A BAD DEBUT TO ROYAL DRIFT SERIES | First Time In China",
+   "ref": "ytec4dbvlx694"
+  },
   {
    "at": "2026-11-26T19:25:18.574066+00:00",
    "text": "0 momenten uit 98 Points...Then It All Went Wrong | Drift Masters Germany",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:41.755907+00:00",
    "text": "0 momenten uit We Lost Almost All Our Practice… Then Went For It. ",
    "ref": "ytklixjawbn0s"
-  },
-  {
-   "at": "2026-11-26T19:23:37.784491+00:00",
-   "text": "0 momenten uit We Actually Did This… ",
-   "ref": "ytwvi5xp35xe"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 69
+  "made": 70
  },
  "version": "3"
 }
