@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T15:07:56.966964+00:00",
+ "updated": "2026-11-26T15:12:27.454597+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 529,
+  "ready": 526,
   "check": 132,
   "skipped": 70,
   "posted": 3,
-  "draft": 17
+  "draft": 20
  },
  "collected": "2026-11-26T11:27:46.116993+00:00",
  "instagram": false,
@@ -8991,10 +8991,8 @@
    "post_at": "2026-12-15T16:30:00+00:00",
    "posted_at": null,
    "caption": "Sparks flying from Ben Hobson's Mustang and Adam LZ bangs the door. Sensational.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@benhobson213 @adam_lz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytcaagmgzlale-15__clip.mp4"
-   ],
-   "problems": [],
+   "media": [],
+   "problems": null,
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -9011,7 +9009,7 @@
     "youtube"
    ],
    "created": "2026-11-19T07:38:15.018520+00:00",
-   "built": "2026-11-19T16:51:06.079384+00:00",
+   "built": "2026-11-26T15:10:10.064890+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytcaagmgzlale-15__clip.mp4",
    "tags": [
@@ -9025,29 +9023,17 @@
    "plan": {
     "tiktok": "2026-12-15T16:30:00+00:00"
    },
-   "score": 85,
-   "captions": {
-    "instagram": "Ben Hobson vs Adam LZ | Formula DRIFT Las Vegas 2026\n\nSparks flying from Ben Hobson's Mustang and Adam LZ bangs the door. Sensational.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@benhobson213 @adam_lz @formulad\n\n#formuladrift #formulad #benhobson #adamlz #sidewayswire",
-    "facebook": "Ben Hobson vs Adam LZ | Formula DRIFT Las Vegas 2026\n\nSparks flying from Ben Hobson's Mustang and Adam LZ bangs the door. Sensational.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@benhobson213 @adam_lz @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Ben Hobson vs Adam LZ | Formula DRIFT Las Vegas 2026: Sparks flying from Ben Hobson's Mustang and Adam LZ bangs the door. Sensational.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @benhobson213 @adam_lz @formulad\n#formuladrift #formulad #benhobson #sidewayswire",
-    "youtube_title": "Ben Hobson vs Adam LZ | Formula DRIFT Las Vegas 2026",
-    "youtube": "Sparks flying from Ben Hobson's Mustang and Adam LZ bangs the door. Sensational.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@benhobson213 @adam_lz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
+   "score": null,
+   "captions": null,
    "ig": null,
-   "collaborators": [
-    "benhobson213",
-    "adam_lz"
-   ],
-   "people": [
-    "Ben Hobson",
-    "Adam LZ"
-   ],
-   "moment_kind": "battle",
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
    "pinned_at": null,
-   "short_none": "kort genoeg",
+   "short_none": null,
    "short_len": null,
-   "thumb": "media/thumbs/pod-ytcaagmgzlale-15.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytcaagmgzlale-15.mp4",
+   "thumb": null,
+   "preview": null,
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
@@ -12530,6 +12516,171 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-21",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The Shanahan boys are here. Conor takes down big brother Jack and goes to the final.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 1424.17
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:48:48.194856+00:00",
+   "built": "2026-11-26T15:12:17.057548+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytcaagmgzlale-21__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SHANAHAN ON SHANAHAN CRIME",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-20",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Chris Forsberg pulls away, Jack Shanahan tries to grind the tire on his door, and Jack takes the win.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@chrisforsberg64 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 1338.67
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:47:15.847859+00:00",
+   "built": "2026-11-26T15:11:15.128246+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytcaagmgzlale-20__clip.mp4",
+   "tags": [
+    "@chrisforsberg64",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "JACK GRINDS ON FORSBERG",
+   "photo": null
+  },
+  {
+   "id": "pod-ytcaagmgzlale-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Clinical, confident, smooth, controlled. Conor Shanahan is almost perfect on average.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@romecp @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 948.43
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:37:02.426112+00:00",
+   "built": "2026-11-26T15:09:13.945116+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-14__clip.mp4",
+   "tags": [
+    "@romecp",
+    "@conorshanahan79",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SHANAHAN ALMOST PERFECT",
    "photo": null
   },
   {
@@ -38323,144 +38474,6 @@
    "photo": null
   },
   {
-   "id": "pod-ytcaagmgzlale-21",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The Shanahan boys are here. Conor takes down big brother Jack and goes to the final.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #shanahan #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytcaagmgzlale-21__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1424.17
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:48:48.194856+00:00",
-   "built": "2026-11-19T16:51:06.214242+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytcaagmgzlale-21__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 85,
-   "captions": {
-    "instagram": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Las Vegas 2026\n\nThe Shanahan boys are here. Conor takes down big brother Jack and goes to the final.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formuladrift #formulad #jackshanahan #conorshanahan #sidewayswire",
-    "facebook": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Las Vegas 2026\n\nThe Shanahan boys are here. Conor takes down big brother Jack and goes to the final.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Conor Shanahan | Formula DRIFT Las Vegas 2026: The Shanahan boys are here. Conor takes down big brother Jack and goes to the final.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @jackshanahan59 @conorshanahan79 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Shanahan vs Shanahan | Formula DRIFT Las Vegas 2026",
-    "youtube": "The Shanahan boys are here. Conor takes down big brother Jack and goes to the final.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @conorshanahan79 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "conorshanahan79"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Conor Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytcaagmgzlale-21.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytcaagmgzlale-21.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytcaagmgzlale-21__short.mp4",
-   "title": "SHANAHAN ON SHANAHAN CRIME",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-20",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Chris Forsberg pulls away, Jack Shanahan tries to grind the tire on his door, and Jack takes the win.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytcaagmgzlale-20__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1338.67
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:47:15.847859+00:00",
-   "built": "2026-11-19T16:51:06.180621+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytcaagmgzlale-20__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Chris Forsberg"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nChris Forsberg pulls away, Jack Shanahan tries to grind the tire on his door, and Jack takes the win.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\n#formuladrift #formulad #chrisforsberg #jackshanahan #sidewayswire",
-    "facebook": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nChris Forsberg pulls away, Jack Shanahan tries to grind the tire on his door, and Jack takes the win.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Chris Forsberg vs Jack Shanahan | Formula DRIFT Las Vegas 2026: Chris Forsberg pulls away, Jack Shanahan tries to grind the tire on his door, and Jack takes the win.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @jackshanahan59 @formulad\n#formuladrift #formulad #chrisforsberg #sidewayswire",
-    "youtube_title": "Forsberg vs Shanahan | Formula DRIFT Las Vegas 2026",
-    "youtube": "Chris Forsberg pulls away, Jack Shanahan tries to grind the tire on his door, and Jack takes the win.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59"
-   ],
-   "people": [
-    "Chris Forsberg",
-    "Jack Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytcaagmgzlale-20.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytcaagmgzlale-20.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytcaagmgzlale-20__short.mp4",
-   "title": "JACK GRINDS ON FORSBERG",
-   "photo": null
-  },
-  {
    "id": "pod-ytcaagmgzlale-2",
    "kind": "stream_clip",
    "status": "ready",
@@ -38593,75 +38606,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytcaagmgzlale-16__short.mp4",
    "title": "BUCHANAN SHUTS IT DOWN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytcaagmgzlale-14",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Clinical, confident, smooth, controlled. Conor Shanahan is almost perfect on average.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@romecp @conorshanahan79 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-14__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 948.43
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:37:02.426112+00:00",
-   "built": "2026-11-19T16:51:06.057284+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-14__clip.mp4",
-   "tags": [
-    "@romecp",
-    "@conorshanahan79",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Rome Charpentier vs Conor Shanahan | Formula DRIFT Las Vegas 2026\n\nClinical, confident, smooth, controlled. Conor Shanahan is almost perfect on average.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@romecp @conorshanahan79 @formulad\n\n#formuladrift #formulad #romecharpentier #conorshanahan #sidewayswire",
-    "facebook": "Rome Charpentier vs Conor Shanahan | Formula DRIFT Las Vegas 2026\n\nClinical, confident, smooth, controlled. Conor Shanahan is almost perfect on average.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@romecp @conorshanahan79 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Rome Charpentier vs Conor Shanahan | Formula DRIFT Las Vegas 2026: Clinical, confident, smooth, controlled. Conor Shanahan is almost perfect on average.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @romecp @conorshanahan79 @formulad\n#formuladrift #formulad #romecharpentier #sidewayswire",
-    "youtube_title": "Charpentier vs Shanahan | Formula DRIFT Las Vegas 2026",
-    "youtube": "Clinical, confident, smooth, controlled. Conor Shanahan is almost perfect on average.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@romecp @conorshanahan79 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "romecp",
-    "conorshanahan79"
-   ],
-   "people": [
-    "Rome Charpentier",
-    "Conor Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytcaagmgzlale-14.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytcaagmgzlale-14.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytcaagmgzlale-14__short.mp4",
-   "title": "SHANAHAN ALMOST PERFECT",
    "photo": null
   },
   {
@@ -55791,7 +55735,7 @@
   },
   {
    "name": "Chris Forsberg",
-   "posts": 20,
+   "posts": 19,
    "ids": [
     "pod-yt8bwn2g2ssy-21",
     "pod-yt8bwn2g2ssy-22",
