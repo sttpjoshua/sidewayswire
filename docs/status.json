@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-26T20:34:05.225468+00:00",
+ "updated": "2026-11-26T20:44:11.832687+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 613,
-  "check": 73,
+  "check": 66,
   "skipped": 70,
-  "posted": 3
+  "posted": 3,
+  "draft": 11
  },
  "collected": "2026-11-26T20:31:57.447774+00:00",
  "instagram": true,
@@ -12717,6 +12718,221 @@
    "photo": null
   },
   {
+   "id": "pod-ytnmn7gxunksk-5",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Las Vegas Motor Speedway shares its excitement for Formula Drift.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 725.1
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T20:44:01.928676+00:00",
+   "built": "2026-11-26T20:44:01.928683+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytnmn7gxunksk-5__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FORMULA DRIFT EXCITEMENT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-4",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Wally, the new judging system, revolutionizes Formula Drift\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 388.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T20:42:52.571478+00:00",
+   "built": "2026-11-26T20:42:52.571483+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytnmn7gxunksk-4__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "WALLY SYSTEM",
+   "photo": null
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Turk says goodbye after the 2026 season\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad @mattfield777 @colerichardz @dylanhughes129\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 302.06
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T20:41:50.159226+00:00",
+   "built": "2026-11-26T20:41:50.159232+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytnmn7gxunksk-3__clip.mp4",
+   "tags": [
+    "@formulad",
+    "@mattfield777",
+    "@colerichardz",
+    "@dylanhughes129"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "RYAN TURK'S LAST SEASON",
+   "photo": null
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Shanahan and Gushi battle it out\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 154.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T20:41:12.065095+00:00",
+   "built": "2026-11-26T20:41:12.065102+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytnmn7gxunksk-0__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SHANAHAN VS GUSHI",
+   "photo": null
+  },
+  {
    "id": "pod-ytzmzcyqa9c9e-9",
    "kind": "stream_clip",
    "status": "ready",
@@ -13330,7 +13546,9 @@
    "people": [
     "Piotr Więcek",
     "Paweł Korpuliński",
-    "Conor Shanahan"
+    "Conor Shanahan",
+    "James Deane",
+    "Benediktas Čirba"
    ],
    "moment_kind": "moment",
    "pinned_at": null,
@@ -14167,7 +14385,7 @@
   {
    "id": "pod-ytrbtps1zxw4i-42",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "Daniel Stuckey vs Derek Madison in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@stuke.racing @derek_madison @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
@@ -14177,8 +14395,8 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
@@ -15328,7 +15546,7 @@
   {
    "id": "pod-ytjrjhgpxtn6i-1",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "Jerry Johnson goes deeper while his opponent fades into the smoke and marinates in it like a brisket.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@jerrydrift @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
@@ -15338,8 +15556,8 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Indianapolis 2026 Highlights | Presented by Type S Auto",
@@ -18122,7 +18340,7 @@
   {
    "id": "pod-ytcaagmgzlale-6",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "Cameron Sorensen and Braden Lons give us goosebumps. One more time, and Lons gets the win.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@camrensorensen @braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
@@ -18132,8 +18350,8 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
@@ -18305,7 +18523,8 @@
    "people": [
     "Conor Shanahan",
     "Matt Field",
-    "Jack Shanahan"
+    "Jack Shanahan",
+    "James Deane"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -27422,7 +27641,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -27840,7 +28060,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -28304,7 +28525,7 @@
     "@driftmasters.gp"
    ],
    "missing_handles": [
-    "Keskikorpi"
+    "Mika Keski-Korpi"
    ],
    "caption_by": null,
    "format": "split",
@@ -28556,7 +28777,7 @@
     "@driftmasters.gp"
    ],
    "missing_handles": [
-    "Keskikorpi"
+    "Mika Keski-Korpi"
    ],
    "caption_by": null,
    "format": "single",
@@ -28776,18 +28997,18 @@
   {
    "id": "pod-ythcpensbcsdc-0",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "James Deane puts on a lead run clinic under the Spanish sun and takes a unanimous win.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
+   "caption": "James Deane puts on a lead run clinic under the Spanish sun and takes a unanimous win.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@jamesdeane130 @kpesur @driftmasters.gp\n\n#driftmasters #drifting #jamesdeane #spain #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ythcpensbcsdc-0__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 2 | Spain",
@@ -28805,11 +29026,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ythcpensbcsdc-0__clip.mp4",
    "tags": [
     "@jamesdeane130",
+    "@kpesur",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Kevin Pesur"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -29168,18 +29388,18 @@
   {
    "id": "pod-ytbnnz6o9wkaq-7",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Both runs side by side: Conor Shanahan and the Hungarian GR86 in Italy.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
+   "caption": "Both runs side by side: Conor Shanahan and the Hungarian GR86 in Italy.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @kpesur @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytbnnz6o9wkaq-7__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
@@ -29197,11 +29417,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytbnnz6o9wkaq-7__clip.mp4",
    "tags": [
     "@conorshanahan79",
+    "@kpesur",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Kevin Pesur"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "split",
    "plan": null,
@@ -29359,18 +29578,18 @@
   {
    "id": "pod-ytbnnz6o9wkaq-1",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Almost backwards, almost contact, and Conor Shanahan still pulls it off against the Hungarian.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
+   "caption": "Almost backwards, almost contact, and Conor Shanahan still pulls it off against the Hungarian.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @kpesur @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytbnnz6o9wkaq-1__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "OFFICIAL HIGHLIGHTS | Drift Masters 2026 – Round 1 | Italy",
@@ -29388,11 +29607,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytbnnz6o9wkaq-1__clip.mp4",
    "tags": [
     "@conorshanahan79",
+    "@kpesur",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Kevin Pesur"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -32953,7 +33171,10 @@
    "people": [
     "James Deane",
     "Paweł Korpuliński",
-    "Duane McKeever"
+    "Duane McKeever",
+    "Simen Olsen",
+    "Conor Shanahan",
+    "Piotr Więcek"
    ],
    "moment_kind": "qualify",
    "pinned_at": null,
@@ -41599,18 +41820,18 @@
   {
    "id": "pod-ytfwp7cvnodei-1",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "First time at the National Stadium, a hooked up track, and then a small touch nobody saw coming.\n\n🎥 Footage: INSIDE RED BULL DRIFT MASTERS 2026 GRAND\n@driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
+   "caption": "First time at the National Stadium, a hooked up track, and then a small touch nobody saw coming.\n\n🎥 Footage: INSIDE RED BULL DRIFT MASTERS 2026 GRAND\n@kpesur @driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytfwp7cvnodei-1__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@driftmasters.gp",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Drift Masters",
     "episode": "Inside Red Bull Drift Masters 2026 Grand Finale 🔥",
@@ -41627,11 +41848,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytfwp7cvnodei-1__clip.mp4",
    "tags": [
+    "@kpesur",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Kevin Pesur"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -53129,7 +53349,8 @@
    "people": [
     "Conor Shanahan",
     "Jhonnattan Castro",
-    "James Deane"
+    "James Deane",
+    "Jack Shanahan"
    ],
    "moment_kind": "call",
    "pinned_at": null,
@@ -57095,18 +57316,18 @@
  "replies": [],
  "names": [
   {
-   "name": "Kevin Pesur",
+   "name": "Mika Keski-Korpi",
    "posts": 4,
    "ids": [
-    "pod-ytbnnz6o9wkaq-1",
-    "pod-ytbnnz6o9wkaq-7",
-    "pod-ytfwp7cvnodei-1",
-    "pod-ythcpensbcsdc-0"
+    "pod-ythcpensbcsdc-4",
+    "pod-ythcpensbcsdc-8",
+    "pod-ytvphv55wk1ja-4",
+    "pod-ytvphv55wk1ja-5"
    ],
-   "handle": "@kpesur",
+   "handle": "@keskikorpimotorsport",
    "known": true,
    "series": "DM",
-   "why": "gevonden door Claude 2026-11-26: naam past (Kevin Pesur), bio over drift",
+   "why": "gevonden door Claude 26-11: Instagram-profiel 'Keski-Korpi Mika', bio '@driftmasters.gp driver from Finland'; ook gelinkt vanaf zijn YouTube",
    "suggest": []
   },
   {
@@ -57168,19 +57389,6 @@
    ]
   },
   {
-   "name": "Keskikorpi",
-   "posts": 2,
-   "ids": [
-    "pod-ythcpensbcsdc-4",
-    "pod-ythcpensbcsdc-8"
-   ],
-   "handle": "@keskikorpimotorsport",
-   "known": true,
-   "series": "DM",
-   "why": "gevonden door Claude 26-11: Instagram-profiel 'Keski-Korpi Mika', bio '@driftmasters.gp driver from Finland'; ook gelinkt vanaf zijn YouTube",
-   "suggest": []
-  },
-  {
    "name": "Unknown driver",
    "posts": 2,
    "ids": [
@@ -57204,19 +57412,6 @@
    "known": true,
    "series": "DM",
    "why": "gevonden door Claude 26-11: Instagram 'Alan HynesZ', bio 'Professional Drifter from Ireland, 2024 Irish Drift Champion'; gelinkt vanaf zijn YouTube",
-   "suggest": []
-  },
-  {
-   "name": "Mika Keski-Korpi",
-   "posts": 2,
-   "ids": [
-    "pod-ytvphv55wk1ja-4",
-    "pod-ytvphv55wk1ja-5"
-   ],
-   "handle": "@keskikorpimotorsport",
-   "known": true,
-   "series": "DM",
-   "why": "gevonden door Claude 26-11: Instagram-profiel 'Keski-Korpi Mika', bio '@driftmasters.gp driver from Finland'; ook gelinkt vanaf zijn YouTube",
    "suggest": []
   },
   {

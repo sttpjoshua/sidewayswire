@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrbtps1zxw4i-42",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "STUCKEY VS MADISON",
  "video": "docs/media/pod-ytrbtps1zxw4i-42/clip.mp4",
@@ -14,8 +14,8 @@
  "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -41,5 +41,6 @@
   "hard": [],
   "soft": [],
   "at": "2026-11-26T19:31:44.373647+00:00"
- }
+ },
+ "names_by": "people database"
 }

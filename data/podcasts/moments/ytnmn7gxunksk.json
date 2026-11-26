@@ -10,7 +10,7 @@
   "why": "Exciting championship battle",
   "caption": "Shanahan and Gushi battle it out",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -18,11 +18,17 @@
    "end": 174.92,
    "text": "WHO WINS THE BATTLE?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-0-1546-1839.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 174.92, \"start\": 171.46, \"text\": \"WHO WINS THE BATTLE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:41:12.063716+00:00"
  },
  {
   "start": 194.84,
-  "end": 224.64,
+  "end": 230.6,
   "kind": "battle",
   "people": [
    "VAUGHN GITTIN JR"
@@ -41,11 +47,15 @@
    "end": 215.92,
    "text": "WHO WINS ORLANDO?",
    "why": "lokale redactie"
-  }
+  },
+  "run_end": 224.64,
+  "result_done": 1,
+  "redo": false,
+  "wait_name": "v2-ytnmn7gxunksk-1-1948-2306.mp4"
  },
  {
   "start": 248.08,
-  "end": 268.28,
+  "end": 274.3,
   "kind": "final",
   "people": [],
   "guest": "Formula DRIFT",
@@ -62,7 +72,11 @@
    "end": 256.96,
    "text": "ALL IRISH ON THE PODIUM?",
    "why": "lokale redactie"
-  }
+  },
+  "run_end": 268.28,
+  "result_done": 1,
+  "redo": false,
+  "wait_name": "v2-ytnmn7gxunksk-2-2481-2743.mp4"
  },
  {
   "start": 302.06,
@@ -75,7 +89,7 @@
   "why": "Emotional farewell for a long-time competitor",
   "caption": "Ryan Turk says goodbye after the 2026 season",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -83,7 +97,13 @@
    "end": 321.56,
    "text": "RYAN TURK'S FINAL SEASON?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-3-3021-3272.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 321.56, \"start\": 316.84, \"text\": \"RYAN TURK'S FINAL SEASON?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:41:50.157847+00:00"
  },
  {
   "start": 388.6,
@@ -96,7 +116,7 @@
   "why": "Introduction of a game-changing technology",
   "caption": "Wally, the new judging system, revolutionizes Formula Drift",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -104,7 +124,13 @@
    "end": 411.18,
    "text": "WALLY CHANGES DRIFTING?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-4-3886-4320.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 411.18, \"start\": 406.26, \"text\": \"WALLY CHANGES DRIFTING?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:42:52.569792+00:00"
  },
  {
   "start": 725.1,
@@ -117,7 +143,7 @@
   "why": "Shows the venue's enthusiasm for the event.",
   "caption": "Las Vegas Motor Speedway shares its excitement for Formula Drift.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -125,7 +151,13 @@
    "end": 778.74,
    "text": "WHAT EXCITEMENT DOES IT BRING?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-5-7251-7830.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 778.74, \"start\": 774.94, \"text\": \"WHAT EXCITEMENT DOES IT BRING?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:44:01.927152+00:00"
  },
  {
   "start": 857.32,
@@ -140,7 +172,8 @@
   "credit": "@formulad",
   "status": "new",
   "by": "local",
-  "score_hint": 0
+  "score_hint": 0,
+  "wait_name": "v2-ytnmn7gxunksk-6-8573-9082.mp4"
  },
  {
   "start": 962.14,
@@ -161,7 +194,8 @@
    "end": 1015.44,
    "text": "IS HE GOING OFF?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-7-9621-10405.mp4"
  },
  {
   "start": 1096.2,
@@ -182,7 +216,8 @@
    "end": 1126.18,
    "text": "HAS HE GOT HIS TOUCH BACK?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-8-10962-11499.mp4"
  },
  {
   "start": 1206.68,
@@ -205,7 +240,8 @@
    "end": 1253.8,
    "text": "HOW DID NATE CHEN DO?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-9-12067-12570.mp4"
  },
  {
   "start": 1359.72,
@@ -228,7 +264,8 @@
    "end": 1415.56,
    "text": "WILL JEFF JONES GET AN INCOMPLETE?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-10-13597-14365.mp4"
  },
  {
   "start": 1449.44,
@@ -249,7 +286,8 @@
    "end": 1481.44,
    "text": "NEW CAR, SAME DRIVER?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-11-14494-14814.mp4"
  },
  {
   "start": 1625.7,
@@ -270,7 +308,8 @@
    "end": 1670.84,
    "text": "WHAT DID DRIVERS LEARN TODAY?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-12-16257-16867.mp4"
  },
  {
   "start": 1735.22,
@@ -291,7 +330,8 @@
    "end": 1778.58,
    "text": "IS IT A MECHANICAL ISSUE?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-13-17352-17995.mp4"
  },
  {
   "start": 1915.06,
@@ -312,7 +352,8 @@
    "end": 1925.9,
    "text": "WHAT'S HIS SCORE?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-14-19151-19313.mp4"
  },
  {
   "start": 2075.72,
@@ -327,7 +368,8 @@
   "credit": "@formulad",
   "status": "new",
   "by": "local",
-  "score_hint": 0
+  "score_hint": 0,
+  "wait_name": "v2-ytnmn7gxunksk-15-20757-21099.mp4"
  },
  {
   "start": 2137.9,
@@ -348,7 +390,8 @@
    "end": 2176.56,
    "text": "HOW MUCH ANGLE CAN HE THROW?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-16-21379-22020.mp4"
  },
  {
   "start": 2327.9,
@@ -369,7 +412,8 @@
    "end": 2372.11,
    "text": "WHAT WAS HIS SCORE?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-17-23279-23721.mp4"
  },
  {
   "start": 2768.15,
@@ -390,7 +434,8 @@
    "end": 2828.63,
    "text": "CAN HE MATCH TLO'S SCORE?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-18-27682-28520.mp4"
  },
  {
   "start": 2880.83,
@@ -411,7 +456,8 @@
    "end": 2928.01,
    "text": "ARE DRIVERS FIGURING OUT THE JUDGES?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-19-28808-29597.mp4"
  },
  {
   "start": 2997.89,
@@ -432,7 +478,8 @@
    "end": 3025.45,
    "text": "HOW DID TRENT DO?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-20-29979-30429.mp4"
  },
  {
   "start": 3116.55,
@@ -453,7 +500,8 @@
    "end": 3161.69,
    "text": "HOW DID RAD DAN COMMIT?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-21-31166-31983.mp4"
  },
  {
   "start": 3356.41,
@@ -474,7 +522,8 @@
    "end": 3386.47,
    "text": "WHAT DID HE TRY?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-22-33564-34018.mp4"
  },
  {
   "start": 3555.69,
@@ -497,7 +546,8 @@
    "end": 3608.39,
    "text": "WHAT HAPPPENED TO HOBSON?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-23-35557-36244.mp4"
  },
  {
   "start": 3880.87,
@@ -520,7 +570,8 @@
    "end": 3918.47,
    "text": "IS THIS PERFECT?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-24-38809-39680.mp4"
  },
  {
   "start": 4063.49,
@@ -541,7 +592,8 @@
    "end": 4094.73,
    "text": "WHAT DID TURK SCORE?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-25-40635-41170.mp4"
  },
  {
   "start": 4240.91,
@@ -564,7 +616,8 @@
    "end": 4290.13,
    "text": "HOW DID HE DO?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-26-42409-43042.mp4"
  },
  {
   "start": 4513.07,
@@ -585,7 +638,8 @@
    "end": 4542.11,
    "text": "WHAT SCORE DID HE GET",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-27-45131-45421.mp4"
  },
  {
   "start": 4713.65,
@@ -600,7 +654,8 @@
   "credit": "@formulad",
   "status": "new",
   "by": "local",
-  "score_hint": 0
+  "score_hint": 0,
+  "wait_name": "v2-ytnmn7gxunksk-28-47136-47412.mp4"
  },
  {
   "start": 4746.99,
@@ -621,6 +676,7 @@
    "end": 4766.71,
    "text": "CAN HE BEAT THAT?",
    "why": "lokale redactie"
-  }
+  },
+  "wait_name": "v2-ytnmn7gxunksk-29-47470-47774.mp4"
  }
 ]

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytjrjhgpxtn6i-1",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "MARINATED LIKE A BRISKET",
  "video": "docs/media/pod-ytjrjhgpxtn6i-1/clip.mp4",
@@ -13,8 +13,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -39,5 +39,6 @@
   "hard": [],
   "soft": [],
   "at": "2026-11-26T19:31:44.342688+00:00"
- }
+ },
+ "names_by": "people database"
 }

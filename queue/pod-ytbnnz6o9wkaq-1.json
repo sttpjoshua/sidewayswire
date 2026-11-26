@@ -1,22 +1,21 @@
 {
  "id": "pod-ytbnnz6o9wkaq-1",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "SHANAHAN SAVES IT BACKWARDS",
  "video": "docs/media/pod-ytbnnz6o9wkaq-1/clip.mp4",
- "caption": "Almost backwards, almost contact, and Conor Shanahan still pulls it off against the Hungarian.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
+ "caption": "Almost backwards, almost contact, and Conor Shanahan still pulls it off against the Hungarian.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@conorshanahan79 @kpesur @driftmasters.gp\n\n#driftmasters #drifting #conorshanahan #italy #sidewayswire",
  "tags": [
   "@conorshanahan79",
+  "@kpesur",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Kevin Pesur"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -49,5 +48,6 @@
    "tags nog open: Kevin Pesur"
   ],
   "at": "2026-11-26T19:31:44.282293+00:00"
- }
+ },
+ "names_by": "people database"
 }

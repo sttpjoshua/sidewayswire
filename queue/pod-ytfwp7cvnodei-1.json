@@ -1,21 +1,20 @@
 {
  "id": "pod-ytfwp7cvnodei-1",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "SMALL TOUCH IN WARSAW",
  "video": "docs/media/pod-ytfwp7cvnodei-1/clip.mp4",
- "caption": "First time at the National Stadium, a hooked up track, and then a small touch nobody saw coming.\n\n🎥 Footage: INSIDE RED BULL DRIFT MASTERS 2026 GRAND\n@driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
+ "caption": "First time at the National Stadium, a hooked up track, and then a small touch nobody saw coming.\n\n🎥 Footage: INSIDE RED BULL DRIFT MASTERS 2026 GRAND\n@kpesur @driftmasters.gp\n\n#driftmasters #drifting #behindthescenes #warsaw #sidewayswire",
  "tags": [
+  "@kpesur",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Kevin Pesur"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -47,5 +46,6 @@
    "tags nog open: Kevin Pesur"
   ],
   "at": "2026-11-26T19:31:44.299406+00:00"
- }
+ },
+ "names_by": "people database"
 }
