@@ -1,7 +1,7 @@
 {
  "id": "pod-ytlgdw88ygzo4-1",
  "kind": "stream_clip",
- "status": "check",
+ "status": "approved",
  "slides": [],
  "title": "90.40 FROM DEANE",
  "video": "docs/media/pod-ytlgdw88ygzo4-1/clip.mp4",
@@ -13,7 +13,7 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
+ "check": false,
  "check_reason": "controle: zelfde moment als pod-ytinepijspeek-7",
  "platforms": [
   "instagram",
@@ -60,5 +60,7 @@
   ],
   "soft": [],
   "at": "2026-11-26T21:16:00.513710+00:00"
- }
+ },
+ "approved_by": "joshua",
+ "approved": "2026-11-26T22:54:27.799Z"
 }
