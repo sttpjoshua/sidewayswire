@@ -2,9 +2,9 @@
  "id": "podcast",
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
- "state": "fout",
- "doing": "nog 27 video's te lezen",
- "updated": "2026-11-26T19:26:49.042364+00:00",
+ "state": "bezig",
+ "doing": "nog 116 video's te lezen",
+ "updated": "2026-11-26T19:56:04.576428+00:00",
  "note": "",
  "history": [
   {
@@ -133,13 +133,7 @@
    "ref": "ytcuuvijzhp1u"
   }
  ],
- "errors": [
-  "taalmodel: No module named 'mlx_lm'",
-  "taalmodel: No module named 'mlx_lm'",
-  "taalmodel: No module named 'mlx_lm'",
-  "taalmodel: No module named 'mlx_lm'",
-  "taalmodel: No module named 'mlx_lm'"
- ],
+ "errors": [],
  "drops": {},
  "sample": "",
  "counts": {
