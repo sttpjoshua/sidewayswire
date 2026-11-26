@@ -1,18 +1,17 @@
 {
  "id": "pod-ytbnnz6o9wkaq-3",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "BERTANS SHREDS BODY PANELS",
  "video": "docs/media/pod-ytbnnz6o9wkaq-3/clip.mp4",
- "caption": "Tag, tag again, body panels shredded. Nikolass Bertāns goes through in Italy.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@driftmasters.gp\n\n#driftmasters #drifting #italy #battle #sidewayswire",
+ "caption": "Tag, tag again, body panels shredded. Nikolass Bertāns goes through in Italy.\n\n🎥 Footage: OFFICIAL HIGHLIGHTS | DRIFT MASTERS 2026\n@niknakdrift @kuba_przygonski @driftmasters.gp\n\n#driftmasters #drifting #italy #battle #sidewayswire",
  "tags": [
+  "@niknakdrift",
+  "@kuba_przygonski",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Nikolass Bertans",
-  "Jakub Przygoński"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
  "check": true,
@@ -29,18 +28,5 @@
   "start": 309.26
  },
  "created": "2026-11-19T06:57:10.710394+00:00",
- "built": "2026-11-19T16:51:05.894907+00:00",
- "media": [
-  "docs/media/pod-ytbnnz6o9wkaq-3/clip.mp4"
- ],
- "problems": [],
- "short": "docs/media/pod-ytbnnz6o9wkaq-3/short.mp4",
- "short_len": 29.3,
- "thumb": "docs/media/thumbs/pod-ytbnnz6o9wkaq-3.jpg",
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytbnnz6o9wkaq-3.mp4",
- "preview_of": "2026-11-19T16:51:05.894907+00:00",
- "people": [
-  "Nikolass Bertāns",
-  "Jakub Przygoński"
- ]
+ "built": "2026-11-26T15:03:22.746184+00:00"
 }
