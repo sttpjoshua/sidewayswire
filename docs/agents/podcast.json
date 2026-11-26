@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · Making History With The Boys | FD Long Beach",
- "updated": "2026-11-26T19:24:35.747575+00:00",
+ "doing": "leest: James Deane · How We Filmed James Deane Drifting an Entire Mountain Pass!",
+ "updated": "2026-11-26T19:24:39.538737+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:38.900956+00:00",
+   "text": "0 momenten uit Making History With The Boys | FD Long Beach",
+   "ref": "ytvsyush0kuak"
+  },
   {
    "at": "2026-11-26T19:24:34.968444+00:00",
    "text": "0 momenten uit Street Drifting the RTR Mustang in Cork City!",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:00.863279+00:00",
    "text": "0 momenten uit Can You Really Do SEMA in ONE DAY? | DDPAI Z100 Master Demo! ",
    "ref": "ytiusi5oy73u"
-  },
-  {
-   "at": "2026-11-26T19:22:57.195354+00:00",
-   "text": "0 momenten uit I Raced Cleetus McFarland’s LeMullets… Our Car Got DESTROYED!",
-   "ref": "ytsp8iwpkm8wi"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 59
+  "made": 60
  },
  "version": "3"
 }
