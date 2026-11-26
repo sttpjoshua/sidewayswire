@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "bezig",
- "doing": "turbo · leest: Formula DRIFT · Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
- "updated": "2026-11-26T21:29:57.370345+00:00",
+ "doing": "nog 22 video's te lezen",
+ "updated": "2026-11-26T21:41:03.765468+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T21:40:16.381770+00:00",
+   "text": "30 momenten uit Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+   "ref": "ytfoarlpj6qji"
+  },
   {
    "at": "2026-11-26T21:29:56.535068+00:00",
    "text": "30 momenten uit Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Qualifying",
@@ -126,21 +131,16 @@
    "at": "2026-11-26T19:19:01.379352+00:00",
    "text": "0 momenten uit Formula DRIFT Atlanta 2026 - PRO, Round 2 - Top 32",
    "ref": "ytekbpdtoudc"
-  },
-  {
-   "at": "2026-11-26T19:18:57.148631+00:00",
-   "text": "0 momenten uit Formula DRIFT Orlando 2026 - PRO, Round 3 - Qualifying",
-   "ref": "ytolgdjklz8pk"
   }
  ],
  "errors": [],
  "drops": {
-  "te kort of te lang": 52
+  "te kort of te lang": 61
  },
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 33
+  "made": 34
  },
  "version": "3"
 }
