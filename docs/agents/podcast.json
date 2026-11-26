@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · Getting Out of Hand FAST before LZ World Tour",
- "updated": "2026-11-26T19:25:02.783133+00:00",
+ "doing": "leest: James Deane · FD Championship Winning S15 Returns in 2 Weeks! Rebuild P2",
+ "updated": "2026-11-26T19:25:06.710722+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:06.098743+00:00",
+   "text": "0 momenten uit Getting Out of Hand FAST before LZ World Tour",
+   "ref": "yt0pwptmf03gw"
+  },
   {
    "at": "2026-11-26T19:25:02.125646+00:00",
    "text": "0 momenten uit Mad Mike Is In Ireland & We Gave Him The 4-Rotor RX7 + S15 FIRST START!",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:27.068016+00:00",
    "text": "0 momenten uit What REALLY Happened at Formula Drift Indianapolis…",
    "ref": "ytnaueovnzlso"
-  },
-  {
-   "at": "2026-11-26T19:23:22.367382+00:00",
-   "text": "0 momenten uit My 350Z Is UNRECOGNIZABLE… Widebody Kit Install!",
-   "ref": "yttcsbefl4v1k"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 65
+  "made": 66
  },
  "version": "3"
 }
