@@ -399,6 +399,11 @@ def news(gh, put, json_or, log, beat, known: dict, agent=None, note: str = "") -
         slug = re.sub(r"[^a-z0-9]+", "-", s["title"].lower()).strip("-")[:48]
         head = [_clean(h).upper()[:18] for h in (r.get("headline") or [])][:3] or [s["title"].upper()[:18]]
         source = (s["items"][0].get("source") or "").split("·")[-1].strip() if s.get("items") else ""
+        if is_tip or source.lower().startswith("tip"):
+            # never "Source: tip van Joshua" in a caption: name the site of the link instead
+            from urllib.parse import urlparse
+            host = urlparse(s["items"][0].get("url") or "").netloc.replace("www.", "") if s.get("items") else ""
+            source = host.split(".")[0].upper() if host else ""
         rumor = bool(r.get("rumor"))
         fmt = r.get("format") if r.get("format") in HOOK_FORMATS else "news"
         people = fix_names(r.get("people"), known)

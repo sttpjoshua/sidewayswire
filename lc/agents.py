@@ -138,6 +138,25 @@ def scout(inbox_path: Path = ROOT / "data" / "inbox.json", now: datetime | None 
 
 # ---------- quality control ----------
 EM = "—"
+VENUES = [("shoreline showdown", "long beach 2"), ("long beach 2", "long beach 2"), ("long beach", "long beach"),
+          ("atlanta", "atlanta"), ("orlando", "orlando"), ("connecticut", "connecticut"), ("stafford", "connecticut"),
+          ("seattle", "seattle"), ("evergreen", "seattle"), ("indianapolis", "indianapolis"), ("vegas", "las vegas"),
+          ("riga", "latvia"), ("latvia", "latvia"), ("finland", "finland"), ("ireland", "ireland"), ("mondello", "ireland"),
+          ("spain", "spain"), ("jarama", "spain"), ("italy", "italy"), ("vallelunga", "italy"), ("germany", "germany"),
+          ("ferropolis", "germany"), ("poland", "poland"), ("warsaw", "poland"), ("odaiba", "odaiba")]
+
+
+def event_key(p: dict) -> str | None:
+    """Which event a clip is from (venue + year), so the same run from the full stream and from a
+    highlights video is seen as one moment (26 nov: '90.40 FROM DEANE' twice)."""
+    src = p.get("source") if isinstance(p.get("source"), dict) else {}
+    t = f"{src.get('episode') or ''} {src.get('podcast') or ''}".lower()
+    year = re.search(r"20\d\d", t)
+    for k, v in VENUES:
+        if re.search(rf"\b{re.escape(k)}\b", t):       # 'long beach 2' must not match 'long beach 2026'
+
+            return f"{v} {year.group(0) if year else ''}".strip()
+    return None
 
 
 def qc(folder: Path | None = None) -> dict:
@@ -147,6 +166,9 @@ def qc(folder: Path | None = None) -> dict:
     folder = folder or q.QUEUE
     posts = q.load(folder=folder)
     seen_captions = {}
+    seen_moments = {}
+    order = {"ready": 0, "approved": 0, "check": 1, "draft": 2}
+    posts = sorted(posts, key=lambda p: (order.get(p.get("status"), 3), p.get("created") or ""))
     stopped, warned, ok = [], 0, 0
     for p in posts:
         if p.get("status") not in ("draft", "ready", "approved", "check"):
@@ -166,6 +188,13 @@ def qc(folder: Path | None = None) -> dict:
             hard.append(f"dubbel met {seen_captions[sig]}")
         elif sig:
             seen_captions[sig] = p["id"]
+        ek = event_key(p) if clip else None
+        if ek and p.get("title"):
+            mk = (ek, p["title"].strip().upper())
+            if mk in seen_moments and seen_moments[mk] != p["id"]:
+                hard.append(f"zelfde moment als {seen_moments[mk]}")
+            else:
+                seen_moments[mk] = p["id"]
         if len(cap) > 2100:
             soft.append("caption erg lang")
         if p.get("missing_handles"):

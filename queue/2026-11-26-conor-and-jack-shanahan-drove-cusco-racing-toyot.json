@@ -1,87 +1,38 @@
 {
  "id": "2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot",
- "story": "Conor and Jack Shanahan drove CUSCO Racing Toyota GR Corollas (Conor #97 Red Bull CUSCO, Jack #59 RADBODY CUSCO) as guest entries at the D1 Grand Prix season finale, Tokyo Drift at Odaiba, 14-15 November 2026. The result is not confirmed: do not name a winner or a placing.",
- "title": "CONOR AND JACK SHANAHAN IN D1GP",
- "caption": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n\nSource: tip van Joshua",
+ "kind": "hook",
+ "hook": {
+  "type": "winner"
+ },
+ "title": "CONOR SHANAHAN WINS IN JAPAN",
  "people": [
   "Conor Shanahan",
-  "Jack Shanahan"
+  "Jack Shanahan",
+  "Naoki Nakamura"
  ],
+ "slides": [
+  {
+   "template": "hook.html",
+   "data": {
+    "headline": [
+     "CONOR SHANAHAN",
+     "WINS IN",
+     "JAPAN"
+    ],
+    "label": "WINNER",
+    "series": "D1 GRAND PRIX"
+   }
+  }
+ ],
+ "caption": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix",
  "platforms": [
   "instagram",
   "facebook"
  ],
- "check": false,
- "check_reason": "",
- "status": "ready",
- "by": "local",
+ "status": "draft",
  "created": "2026-11-26T20:55:46.126185+00:00",
- "source": "https://jdm.guide/events/d1gp-tokyo-drift-odaiba-2026",
- "fresh_hours": 120,
+ "source": "https://d1gp.co.jp/27462/",
+ "fresh_hours": 240,
  "tip": "shanahan-d1gp",
- "kind": "news",
- "slides": [
-  {
-   "template": "news.html",
-   "data": {
-    "photo": "../docs/media/stills/fd2026r8-12r1-0.jpg",
-    "photo_credit": "@formulad",
-    "series_badge": [
-     "D1GP"
-    ],
-    "headline": [
-     "CONOR AND JACK",
-     "SHANAHAN IN",
-     "D1GP"
-    ],
-    "marker": null,
-    "body": "Conor and Jack Shanahan drove CUSCO Racing Toyota GR Corollas as guest entries at the D1 Grand Prix season finale in Tokyo.",
-    "source": "tip van Joshua",
-    "text_version": {
-     "series_badge": [
-      "D1GP"
-     ],
-     "backdrop": "D1GP",
-     "backdrop_size": 520,
-     "kicker": "D1GP",
-     "headline": [
-      "CONOR AND JACK",
-      "SHANAHAN IN",
-      "D1GP"
-     ],
-     "body": "Conor and Jack Shanahan drove CUSCO Racing Toyota GR Corollas as guest entries at the D1 Grand Prix season finale in Tokyo.",
-     "source": "tip van Joshua"
-    },
-    "portrait": {
-     "src": "../docs/media/portraits/conor-shanahan.jpg",
-     "name": "CONOR SHANAHAN",
-     "credit": "@formulad"
-    }
-   }
-  }
- ],
- "photo_auto": "docs/media/stills/fd2026r8-12r1-0.jpg",
- "media": [
-  "docs/media/2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot/1.png"
- ],
- "problems": [],
- "post_at": "2026-12-06T19:30:00+00:00",
- "built": "2026-11-26T20:57:33.629626+00:00",
- "qc": {
-  "hard": [],
-  "soft": [],
-  "at": "2026-11-26T20:57:34.414727+00:00"
- },
- "plan": {
-  "instagram": "2026-12-07T07:30:00+00:00",
-  "facebook": "2026-12-06T19:30:00+00:00"
- },
- "captions": {
-  "instagram": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n\nSource: tip van Joshua\n\n#drift #sidewayswire",
-  "facebook": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n\nSource: tip van Joshua\n\n#drift #sidewayswire",
-  "tiktok": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n#drift #sidewayswire",
-  "youtube_title": "CONOR AND JACK SHANAHAN IN D1GP",
-  "youtube": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n\nSource: tip van Joshua\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #sidewayswire"
- },
- "collaborators": []
+ "by": "claude"
 }
