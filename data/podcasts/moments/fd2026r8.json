@@ -349,15 +349,14 @@
   },
   "by": "editor",
   "status": "queued",
-  "wait_name": "v2-fd2026r8-11-94635-94918.mp4",
+  "wait_name": "v2-fd2026r8-11-94635-94978.mp4",
   "clip": "docs/media/pod-fd2026r8-11/clip.mp4",
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 9488.48, \"start\": 9484.88, \"text\": \"PERFECT MIRROR\", \"why\": \"proximity\"}",
-  "made": "2026-11-17T01:23:26.696426+00:00",
+  "made": "2026-11-26T14:42:14.762214+00:00",
   "run_end": 9491.84,
-  "result_done": 1,
-  "redo": true
+  "result_done": 1
  },
  {
   "start": 7789,

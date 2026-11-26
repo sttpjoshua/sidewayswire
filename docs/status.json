@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-26T11:27:46.348705+00:00",
+ "updated": "2026-11-26T14:45:41.032272+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 541,
-  "check": 137,
+  "ready": 537,
+  "check": 134,
   "skipped": 70,
-  "posted": 3
+  "posted": 3,
+  "draft": 7
  },
  "collected": "2026-11-26T11:27:46.116993+00:00",
  "instagram": false,
@@ -12616,6 +12617,226 @@
    "photo": null
   },
   {
+   "id": "pod-yt8egpwdvj0eq-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Braden Lons does everything he can to throw out Dmitriy Brutskiy, but he is unflappable. Celebratory donuts.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@dimabrutskiy @braden.lons @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 398.2
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:25:06.990425+00:00",
+   "built": "2026-11-26T14:45:25.419973+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8egpwdvj0eq-3__clip.mp4",
+   "tags": [
+    "@dimabrutskiy",
+    "@braden.lons",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "BRUTSKIY UNFLAPPABLE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Braden Lons rips out the gates like a racehorse against the Pro Spec points leader Corey Tlaska.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@braden.lons @corytalaska @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 146.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:23:12.253338+00:00",
+   "built": "2026-11-26T14:44:21.759597+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8egpwdvj0eq-1__clip.mp4",
+   "tags": [
+    "@braden.lons",
+    "@corytalaska",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "LONS HAS SOMETHING TO PROVE",
+   "photo": null
+  },
+  {
+   "id": "pod-yt8egpwdvj0eq-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jerry Johnson was thrashing to build this car before round one. Now look at him in Connecticut.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
+    "start": 0.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:22:23.329526+00:00",
+   "built": "2026-11-26T14:43:24.239194+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8egpwdvj0eq-0__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [
+    "Jerry Johnson"
+   ],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "JOHNSON, WHAT A RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-fd2026r8-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
+    "start": 9463.52
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T01:23:26.697529+00:00",
+   "built": "2026-11-26T14:42:14.763355+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-fd2026r8-11__clip.mp4",
+   "tags": [
+    "@tommy.lemaire",
+    "@colerichardz",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "TOMMY MIRRORS COLE",
+   "photo": null
+  },
+  {
    "id": "pod-yth2evinkswei-9",
    "kind": "stream_clip",
    "status": "ready",
@@ -15142,144 +15363,6 @@
    "photo": null
   },
   {
-   "id": "pod-yt8egpwdvj0eq-3",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Braden Lons does everything he can to throw out Dmitriy Brutskiy, but he is unflappable. Celebratory donuts.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@dimabrutskiy @braden.lons @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8egpwdvj0eq-3__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
-    "start": 398.2
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:25:06.990425+00:00",
-   "built": "2026-11-25T08:57:23.339989+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8egpwdvj0eq-3__clip.mp4",
-   "tags": [
-    "@dimabrutskiy",
-    "@braden.lons",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 74,
-   "captions": {
-    "instagram": "Dmitriy Brutskiy vs Braden Lons | Formula DRIFT Connecticut 2026\n\nBraden Lons does everything he can to throw out Dmitriy Brutskiy, but he is unflappable. Celebratory donuts.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@dimabrutskiy @braden.lons @formulad\n\n#formuladrift #formulad #dmitriybrutskiy #bradenlons #sidewayswire",
-    "facebook": "Dmitriy Brutskiy vs Braden Lons | Formula DRIFT Connecticut 2026\n\nBraden Lons does everything he can to throw out Dmitriy Brutskiy, but he is unflappable. Celebratory donuts.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@dimabrutskiy @braden.lons @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Dmitriy Brutskiy vs Braden Lons | Formula DRIFT Connecticut 2026: Braden Lons does everything he can to throw out Dmitriy Brutskiy, but he is unflappable. Celebratory donuts.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Connecticut 2026 @dimabrutskiy @braden.lons @formulad\n#formuladrift #formulad #dmitriybrutskiy #sidewayswire",
-    "youtube_title": "Brutskiy vs Lons | Formula DRIFT Connecticut 2026",
-    "youtube": "Braden Lons does everything he can to throw out Dmitriy Brutskiy, but he is unflappable. Celebratory donuts.\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@dimabrutskiy @braden.lons @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "dimabrutskiy",
-    "braden.lons"
-   ],
-   "people": [
-    "Dmitriy Brutskiy",
-    "Braden Lons"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-3.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8egpwdvj0eq-3.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8egpwdvj0eq-3__short.mp4",
-   "title": "BRUTSKIY UNFLAPPABLE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8egpwdvj0eq-1",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Braden Lons rips out the gates like a racehorse against the Pro Spec points leader Corey Tlaska.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@braden.lons @corytalaska @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8egpwdvj0eq-1__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
-    "start": 146.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:23:12.253338+00:00",
-   "built": "2026-11-25T08:57:23.319031+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8egpwdvj0eq-1__clip.mp4",
-   "tags": [
-    "@braden.lons",
-    "@corytalaska",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 74,
-   "captions": {
-    "instagram": "Braden Lons vs Corey Tlaska | Formula DRIFT Connecticut 2026\n\nBraden Lons rips out the gates like a racehorse against the Pro Spec points leader Corey Tlaska.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@braden.lons @corytalaska @formulad\n\n#formuladrift #formulad #bradenlons #coreytlaska #sidewayswire",
-    "facebook": "Braden Lons vs Corey Tlaska | Formula DRIFT Connecticut 2026\n\nBraden Lons rips out the gates like a racehorse against the Pro Spec points leader Corey Tlaska.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@braden.lons @corytalaska @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Braden Lons vs Corey Tlaska | Formula DRIFT Connecticut 2026: Braden Lons rips out the gates like a racehorse against the Pro Spec points leader Corey Tlaska.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Connecticut 2026 @braden.lons @corytalaska @formulad\n#formuladrift #formulad #bradenlons #sidewayswire",
-    "youtube_title": "Braden Lons vs Corey Tlaska | Formula DRIFT Connecticut 2026",
-    "youtube": "Braden Lons rips out the gates like a racehorse against the Pro Spec points leader Corey Tlaska.\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@braden.lons @corytalaska @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "braden.lons",
-    "corytalaska"
-   ],
-   "people": [
-    "Braden Lons",
-    "Corey Tlaska"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-1.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8egpwdvj0eq-1.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "LONS HAS SOMETHING TO PROVE",
-   "photo": null
-  },
-  {
    "id": "pod-yt8bwn2g2ssy-20",
    "kind": "stream_clip",
    "status": "ready",
@@ -16311,7 +16394,7 @@
    "status": "check",
    "post_at": null,
    "posted_at": null,
-   "caption": "The one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "caption": "The one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-38__clip.mp4"
    ],
@@ -16336,10 +16419,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-38__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
    "missing_handles": [
-    "Brandon Sorensen",
     "Daniel Stuckey"
    ],
    "caption_by": null,
@@ -16372,7 +16455,7 @@
    "status": "check",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen against Daniel Stuckey, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "caption": "Brandon Sorensen against Daniel Stuckey, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytvrote7tycsg-37__clip.mp4"
    ],
@@ -16397,10 +16480,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytvrote7tycsg-37__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
    "missing_handles": [
-    "Brandon Sorensen",
     "Daniel Stuckey"
    ],
    "caption_by": null,
@@ -18224,7 +18307,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -18572,7 +18656,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -19767,7 +19852,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Las Vegas local Brandon Sorensen times the transition perfectly against Cole Richards.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@colerichardz @formulad @mattfield777\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Las Vegas local Brandon Sorensen times the transition perfectly against Cole Richards.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@branden_sorensen @colerichardz @formulad @mattfield777\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytcaagmgzlale-18__clip.mp4"
    ],
@@ -19792,13 +19877,12 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytcaagmgzlale-18__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@colerichardz",
     "@formulad",
     "@mattfield777"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -21410,7 +21494,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "The judges could not split Brandon Sorensen and Cole Richards, and Flavor Flav had his own take on the result.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "caption": "The judges could not split Brandon Sorensen and Cole Richards, and Flavor Flav had his own take on the result.\n\n🎥 Footage: FD LAS VEGAS 2026\n@branden_sorensen @colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8bwn2g2ssy-4__clip.mp4"
    ],
@@ -21435,11 +21519,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8bwn2g2ssy-4__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@colerichardz",
     "@formulad"
    ],
    "missing_handles": [
-    "Brandon Sorensen",
     "Flavor Flav"
    ],
    "caption_by": null,
@@ -21542,7 +21626,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Matt Field sinks his fangs into the door of title contender Brandon Sorensen. Measured with a microscope.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Matt Field sinks his fangs into the door of title contender Brandon Sorensen. Measured with a microscope.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-30__clip.mp4"
    ],
@@ -21568,11 +21652,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-30__clip.mp4",
    "tags": [
     "@mattfield777",
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -21611,7 +21694,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen leads Cole Richards on the Las Vegas bank, with Flavor Flav in the booth giving his verdict.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Brandon Sorensen leads Cole Richards on the Las Vegas bank, with Flavor Flav in the booth giving his verdict.\n\n🎥 Footage: FD LAS VEGAS 2026\n@branden_sorensen @colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-3__clip.mp4"
    ],
@@ -21636,11 +21719,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-3__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@colerichardz",
     "@formulad"
    ],
    "missing_handles": [
-    "Brandon Sorensen",
     "Flavor Flav"
    ],
    "caption_by": null,
@@ -21885,7 +21968,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen against rookie Cole Richards. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Brandon Sorensen against rookie Cole Richards. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@branden_sorensen @colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-2__clip.mp4"
    ],
@@ -21910,12 +21993,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-2__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@colerichardz",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "split",
    "plan": {},
@@ -22084,7 +22166,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "After a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "caption": "After a one more time, Brandon Sorensen edges out rookie Cole Richards in front of his home crowd.\n\n🎥 Footage: FD LAS VEGAS 2026\n@branden_sorensen @colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-11__clip.mp4"
    ],
@@ -22109,12 +22191,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yt8bwn2g2ssy-11__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@colerichardz",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -22153,7 +22234,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "The one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
+   "caption": "The one more time between Brandon Sorensen and Cole Richards. Who had the better lead and chase?\n\n🎥 Footage: FD LAS VEGAS 2026\n@branden_sorensen @colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #onemoretime #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-10__clip.mp4"
    ],
@@ -22178,12 +22259,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-yt8bwn2g2ssy-10__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@colerichardz",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "split",
    "plan": {},
@@ -22831,7 +22911,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [],
    "problems": null,
    "results": null,
@@ -22855,11 +22935,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-32__clip.mp4",
    "tags": [
     "@mattfield777",
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -22898,7 +22977,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Title contender Brandon Sorensen against Matt Field in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Title contender Brandon Sorensen against Matt Field in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@branden_sorensen @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [],
    "problems": null,
    "results": null,
@@ -22921,12 +23000,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8bwn2g2ssy-29__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@mattfield777",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "split",
    "plan": {},
@@ -23844,7 +23922,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen on why the battle with Daniel Stuckey was his most stressful yet, and chasing 100 point runs every time.\n\n🎥 Footage: FD LONG BEACH 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "caption": "Brandon Sorensen on why the battle with Daniel Stuckey was his most stressful yet, and chasing 100 point runs every time.\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytvrote7tycsg-17__clip.mp4"
    ],
@@ -23869,11 +23947,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytvrote7tycsg-17__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -24047,7 +24124,7 @@
    "status": "check",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen backs it deep into the wall and Daniel Stuckey spins behind him. Was that lead run even chaseable?\n\n🎥 Footage: FD LONG BEACH 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "caption": "Brandon Sorensen backs it deep into the wall and Daniel Stuckey spins behind him. Was that lead run even chaseable?\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-12__clip.mp4"
    ],
@@ -24072,10 +24149,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-12__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
    "missing_handles": [
-    "Brandon Sorensen",
     "Daniel Stuckey"
    ],
    "caption_by": null,
@@ -24428,7 +24505,10 @@
    "people": [
     "James Deane",
     "Paweł Korpuliński",
-    "Duane McKeever"
+    "Duane McKeever",
+    "Simen Olsen",
+    "Conor Shanahan",
+    "Piotr Więcek"
    ],
    "moment_kind": "qualify",
    "pinned_at": null,
@@ -27086,7 +27166,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Wataru Masuyama loses the back left tire and keeps going on steel with Brandon Sorensen pushing him around.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@watarudrift @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
+   "caption": "Wataru Masuyama loses the back left tire and keeps going on steel with Brandon Sorensen pushing him around.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@watarudrift @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytth2l4tyizj4-7__clip.mp4"
    ],
@@ -27112,11 +27192,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytth2l4tyizj4-7__clip.mp4",
    "tags": [
     "@watarudrift",
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -27701,7 +27780,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Odi Bakchis and his drift whiskers. He times the chase on Brandon Sorensen perfectly, again.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
+   "caption": "Odi Bakchis and his drift whiskers. He times the chase on Brandon Sorensen perfectly, again.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@branden_sorensen @odidrift @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytth2l4tyizj4-12__clip.mp4"
    ],
@@ -27726,12 +27805,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytth2l4tyizj4-12__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@odidrift",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -30352,7 +30430,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen against the five time champion for a spot in an RTR final. His dream scenario.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #jamesdeane #sidewayswire",
+   "caption": "Brandon Sorensen against the five time champion for a spot in an RTR final. His dream scenario.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #jamesdeane #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-12__clip.mp4"
    ],
@@ -30378,11 +30456,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-12__clip.mp4",
    "tags": [
     "@jamesdeane130",
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -30490,7 +30567,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Holy cow, the proximity. Ryan Tuerck gets too close to Brandon Sorensen and could not save it.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@ryantuerck @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
+   "caption": "Holy cow, the proximity. Ryan Tuerck gets too close to Brandon Sorensen and could not save it.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@branden_sorensen @ryantuerck @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytpeyjfzbdwxs-10__clip.mp4"
    ],
@@ -30515,12 +30592,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytpeyjfzbdwxs-10__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@ryantuerck",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -30556,18 +30632,18 @@
   {
    "id": "pod-ytpeyjfzbdwxs-1",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "He wants to get into the 90s and prove everybody wrong. Brandon Sorensen goes to number one with an 83.43.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
+   "caption": "He wants to get into the 90s and prove everybody wrong. Brandon Sorensen goes to number one with an 83.43.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytpeyjfzbdwxs-1__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
@@ -30584,11 +30660,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytpeyjfzbdwxs-1__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -33390,18 +33465,18 @@
   {
    "id": "pod-ytinepijspeek-23",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen hits nearly every zone and jumps to fifth with an 85.73.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "caption": "Brandon Sorensen hits nearly every zone and jumps to fifth with an 85.73.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytinepijspeek-23__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Qualifying",
@@ -33418,11 +33493,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytinepijspeek-23__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -35273,7 +35347,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "James Deane holds the door and gives Brandon Sorensen a little hate tap. Not a love tap.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @formulad @driftmasters.gp\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
+   "caption": "James Deane holds the door and gives Brandon Sorensen a little hate tap. Not a love tap.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @branden_sorensen @formulad @driftmasters.gp\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yth2evinkswei-28__clip.mp4"
    ],
@@ -35299,12 +35373,11 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yth2evinkswei-28__clip.mp4",
    "tags": [
     "@jamesdeane130",
+    "@branden_sorensen",
     "@formulad",
     "@driftmasters.gp"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -36981,7 +37054,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Unanimous between these two drivers. Conor Shanahan wins round six in Seattle, Fredric Aasbo second, Brandon Sorensen third.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @fredricaasbo @formulad\n\n#formulad #formuladrift #drifting #seattle #conorshanahan #sidewayswire",
+   "caption": "Unanimous between these two drivers. Conor Shanahan wins round six in Seattle, Fredric Aasbo second, Brandon Sorensen third.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @fredricaasbo @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #seattle #conorshanahan #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-18__clip.mp4"
    ],
@@ -37008,11 +37081,10 @@
    "tags": [
     "@conorshanahan79",
     "@fredricaasbo",
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -37053,7 +37125,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@adam_lz @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "caption": "Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@adam_lz @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__clip.mp4"
    ],
@@ -37079,11 +37151,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__clip.mp4",
    "tags": [
     "@adam_lz",
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -37257,18 +37328,18 @@
   {
    "id": "pod-ytckqkb2axqe-12",
    "kind": "stream_clip",
-   "status": "check",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen is on a tear in Seattle and the booth is speechless. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@trenton_beechum @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "caption": "Brandon Sorensen is on a tear in Seattle and the booth is speechless. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@trenton_beechum @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-12__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
+   "check": false,
+   "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
@@ -37286,11 +37357,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-12__clip.mp4",
    "tags": [
     "@trenton_beechum",
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": null,
@@ -37525,7 +37595,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen locks in on the wall in Seattle and the score comes in at 86.36. Called it.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "caption": "Brandon Sorensen locks in on the wall in Seattle and the score comes in at 86.36. Called it.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytckqkb2axqe-0__clip.mp4"
    ],
@@ -37550,11 +37620,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytckqkb2axqe-0__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -37829,7 +37898,8 @@
    "people": [
     "Conor Shanahan",
     "Matt Field",
-    "Jack Shanahan"
+    "Jack Shanahan",
+    "James Deane"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -38321,7 +38391,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Las Vegas local Brandon Sorensen drags the bumper on the wall and puts down a 91.4 at home.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Las Vegas local Brandon Sorensen drags the bumper on the wall and puts down a 91.4 at home.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytcaagmgzlale-1__clip.mp4"
    ],
@@ -38346,11 +38416,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytcaagmgzlale-1__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -40292,7 +40361,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen lets it all hang out. 56 up to 60 degrees of angle on the bank, splashing through the water.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "caption": "Brandon Sorensen lets it all hang out. 56 up to 60 degrees of angle on the bank, splashing through the water.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8egpwdvj0eq-4__clip.mp4"
    ],
@@ -40317,11 +40386,10 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-yt8egpwdvj0eq-4__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -40905,7 +40973,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen leads and Jack the Ripper drops back in. Blow over blow. Are you kidding me?\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
+   "caption": "Brandon Sorensen leads and Jack the Ripper drops back in. Blow over blow. Are you kidding me?\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@branden_sorensen @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #connecticut #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8egpwdvj0eq-16__clip.mp4"
    ],
@@ -40930,12 +40998,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt8egpwdvj0eq-16__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@jackshanahan59",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -41173,71 +41240,6 @@
    "tiktok_done": null,
    "short": null,
    "title": "AASBO CAN'T INITIATE",
-   "photo": null
-  },
-  {
-   "id": "pod-yt8egpwdvj0eq-0",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jerry Johnson was thrashing to build this car before round one. Now look at him in Connecticut.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8egpwdvj0eq-0__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Connecticut 2026 Highlights | Presented by Type S Auto",
-    "start": 0.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:22:23.329526+00:00",
-   "built": "2026-11-19T01:11:25.705434+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8egpwdvj0eq-0__clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [
-    "Jerry Johnson"
-   ],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 50,
-   "captions": {
-    "instagram": "Jerry Johnson | Formula DRIFT Connecticut 2026\n\nJerry Johnson was thrashing to build this car before round one. Now look at him in Connecticut.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@formulad\n\n#formuladrift #formulad #jerryjohnson #drifting #sidewayswire",
-    "facebook": "Jerry Johnson | Formula DRIFT Connecticut 2026\n\nJerry Johnson was thrashing to build this car before round one. Now look at him in Connecticut.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jerry Johnson | Formula DRIFT Connecticut 2026: Jerry Johnson was thrashing to build this car before round one. Now look at him in Connecticut.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Connecticut 2026 @formulad\n#formuladrift #formulad #jerryjohnson #sidewayswire",
-    "youtube_title": "Jerry Johnson | Formula DRIFT Connecticut 2026",
-    "youtube": "Jerry Johnson was thrashing to build this car before round one. Now look at him in Connecticut.\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [],
-   "people": [
-    "Jerry Johnson"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-yt8egpwdvj0eq-0.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8egpwdvj0eq-0.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8egpwdvj0eq-0__short.mp4",
-   "title": "JOHNSON, WHAT A RUN",
    "photo": null
   },
   {
@@ -41911,7 +41913,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Matt Field wants a carbon fiber trophy, and the crew cranked the ECU up to 11 for that chase on Brandon Sorensen.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
+   "caption": "Matt Field wants a carbon fiber trophy, and the crew cranked the ECU up to 11 for that chase on Brandon Sorensen.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-33__clip.mp4"
    ],
@@ -41937,11 +41939,10 @@
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt8bwn2g2ssy-33__clip.mp4",
    "tags": [
     "@mattfield777",
+    "@branden_sorensen",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -42050,7 +42051,7 @@
    "status": "ready",
    "post_at": null,
    "posted_at": null,
-   "caption": "Brandon Sorensen calls his battle with Cole Richards one of the hardest of his career, and thanks Flavor Flav for the pep talk.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Brandon Sorensen calls his battle with Cole Richards one of the hardest of his career, and thanks Flavor Flav for the pep talk.\n\n🎥 Footage: FD LAS VEGAS 2026\n@branden_sorensen @colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [
     "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-16__clip.mp4"
    ],
@@ -42075,12 +42076,11 @@
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-yt8bwn2g2ssy-16__clip.mp4",
    "tags": [
+    "@branden_sorensen",
     "@colerichardz",
     "@formulad"
    ],
-   "missing_handles": [
-    "Brandon Sorensen"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {},
@@ -51998,7 +51998,8 @@
    "people": [
     "Conor Shanahan",
     "Jhonnattan Castro",
-    "James Deane"
+    "James Deane",
+    "Jack Shanahan"
    ],
    "moment_kind": "call",
    "pinned_at": null,
@@ -52149,75 +52150,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-fd2026r8-2__short.mp4",
    "title": "ODI TOO AGGRESSIVE?",
-   "photo": null
-  },
-  {
-   "id": "pod-fd2026r8-11",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Tommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\n\n🎥 Footage: FD LONG BEACH FINALE\n@tommy.lemaire @colerichardz @formulad\n\n#formulad #formuladrift #tommylemaire #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-fd2026r8-11__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "livestream-clip: check jij eerst",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Shoreline Showdown (Long Beach 2) 2026 · finale",
-    "start": 9463.52
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T01:23:26.697529+00:00",
-   "built": "2026-11-17T13:26:00.126116+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-fd2026r8-11__clip.mp4",
-   "tags": [
-    "@tommy.lemaire",
-    "@colerichardz",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 74,
-   "captions": {
-    "instagram": "Tommy Lemaire vs Cole Richards | Formula DRIFT Long Beach 2026\n\nTommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@tommy.lemaire @colerichardz @formulad\n\n#formuladrift #formulad #tommylemaire #colerichards #sidewayswire",
-    "facebook": "Tommy Lemaire vs Cole Richards | Formula DRIFT Long Beach 2026\n\nTommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@tommy.lemaire @colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Tommy Lemaire vs Cole Richards | Formula DRIFT Long Beach 2026: Tommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @tommy.lemaire @colerichardz @formulad\n#formuladrift #formulad #tommylemaire #sidewayswire",
-    "youtube_title": "Lemaire vs Richards | Formula DRIFT Long Beach 2026",
-    "youtube": "Tommy Lemaire mirrors every angle of rookie of the year Cole Richards in the last battle of Top 32.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@tommy.lemaire @colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "tommy.lemaire",
-    "colerichardz"
-   ],
-   "people": [
-    "Tommy Lemaire",
-    "Cole Richards"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-fd2026r8-11.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-fd2026r8-11.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "TOMMY MIRRORS COLE",
    "photo": null
   },
   {
@@ -56032,26 +55964,6 @@
  ],
  "replies": [],
  "names": [
-  {
-   "name": "Brandon Sorensen",
-   "posts": 29,
-   "ids": [
-    "pod-yt8bwn2g2ssy-10",
-    "pod-yt8bwn2g2ssy-11",
-    "pod-yt8bwn2g2ssy-16",
-    "pod-yt8bwn2g2ssy-2",
-    "pod-yt8bwn2g2ssy-29",
-    "pod-yt8bwn2g2ssy-3"
-   ],
-   "handle": "",
-   "known": false,
-   "series": "",
-   "suggest": [
-    "Branden Sorensen",
-    "Amanda Sorensen",
-    "Camren Sorensen"
-   ]
-  },
   {
    "name": "Rafael Muller",
    "posts": 24,

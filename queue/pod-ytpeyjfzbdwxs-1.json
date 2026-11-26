@@ -1,21 +1,20 @@
 {
  "id": "pod-ytpeyjfzbdwxs-1",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "83.43 FROM SORENSEN",
  "video": "docs/media/pod-ytpeyjfzbdwxs-1/clip.mp4",
- "caption": "He wants to get into the 90s and prove everybody wrong. Brandon Sorensen goes to number one with an 83.43.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
+ "caption": "He wants to get into the 90s and prove everybody wrong. Brandon Sorensen goes to number one with an 83.43.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
  "tags": [
+  "@branden_sorensen",
   "@formulad"
  ],
- "missing_handles": [
-  "Brandon Sorensen"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -40,5 +39,6 @@
  "preview_of": "2026-11-20T07:02:30.223589+00:00",
  "people": [
   "Brandon Sorensen"
- ]
+ ],
+ "names_by": "people database"
 }

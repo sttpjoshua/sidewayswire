@@ -667,7 +667,7 @@
   },
   "by": "editor",
   "status": "queued",
-  "check": true,
+  "check": false,
   "check_reason": "voornaam/spelling Sorensen controleren",
   "wait_name": "v2-ytinepijspeek-23-107122-107725.mp4",
   "clip": "docs/media/pod-ytinepijspeek-23/clip.mp4",
