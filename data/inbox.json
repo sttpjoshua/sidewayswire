@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:01:39.399960+00:00",
+ "updated": "2026-11-26T21:11:19.316608+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -38,7 +38,7 @@
     }
    ],
    "scout": {
-    "score": 51,
+    "score": 50,
     "why": [
      "bekende rijder",
      "3 bronnen",
@@ -533,7 +533,7 @@
     }
    ],
    "scout": {
-    "score": 18,
+    "score": 17,
     "why": [],
     "skip": false,
     "feature": false
@@ -2449,8 +2449,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
+   "ok": true,
+   "items": 4,
+   "how": "feed"
   },
   {
    "source": "Google News",

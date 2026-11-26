@@ -1,14 +1,13 @@
 {
- "updated": "2026-11-26T21:02:29.759771+00:00",
+ "updated": "2026-11-26T21:11:23.503640+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 642,
-  "check": 63,
+  "ready": 644,
+  "check": 62,
   "skipped": 70,
-  "posted": 3,
-  "draft": 1
+  "posted": 3
  },
- "collected": "2026-11-26T21:01:39.399960+00:00",
+ "collected": "2026-11-26T21:11:19.316608+00:00",
  "instagram": true,
  "sources": [
   {
@@ -168,8 +167,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
+   "ok": true,
+   "items": 4,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -12799,12 +12799,14 @@
   {
    "id": "pod-ytnmn7gxunksk-18",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Daniel Stuckey's fluid run, can he match TLO's score?\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad @stuke.racing\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytnmn7gxunksk-18__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -12821,7 +12823,7 @@
     "youtube"
    ],
    "created": "2026-11-26T21:01:52.196032+00:00",
-   "built": "2026-11-26T21:01:52.196037+00:00",
+   "built": "2026-11-26T21:11:20.606494+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytnmn7gxunksk-18__clip.mp4",
    "tags": [
@@ -12831,13 +12833,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 64,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Las Vegas 2026 Qualifying\n\nDaniel Stuckey's fluid run, can he match TLO's score?\n\n🎥 Footage: Formula DRIFT Las Vegas 2026 Qualifying\n@formulad @stuke.racing\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Las Vegas 2026 Qualifying\n\nDaniel Stuckey's fluid run, can he match TLO's score?\n\n🎥 Footage: Formula DRIFT Las Vegas 2026 Qualifying\n@formulad @stuke.racing\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Las Vegas 2026 Qualifying: Daniel Stuckey's fluid run, can he match TLO's score?\n🎥 Footage: Formula DRIFT Las Vegas 2026 Qualifying @formulad @stuke.racing\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Las Vegas 2026 Qualifying",
+    "youtube": "Daniel Stuckey's fluid run, can he match TLO's score?\n\n🎥 Footage: Formula DRIFT Las Vegas 2026 Qualifying\n@formulad @stuke.racing\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -50955,7 +50965,7 @@
   {
    "id": "pod-3fa7ee22a33c-20",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Christian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #Interclip #Drifting #DriveToSurvive #sidewayswire",
@@ -50965,7 +50975,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50993,17 +51003,26 @@
    ],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 46,
+   "captions": {
+    "instagram": "Christian Cotrone | The Outerzone\n\nChristian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#drift #christiancotrone #mattfield #formuladrift #sidewayswire",
+    "facebook": "Christian Cotrone | The Outerzone\n\nChristian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#drift #christiancotrone #sidewayswire",
+    "tiktok": "Christian Cotrone | The Outerzone: Christian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @christiancotrone @mattfield777 @formulad @jako13\n#drift #christiancotrone #mattfield #sidewayswire",
+    "youtube_title": "Christian Cotrone | The Outerzone",
+    "youtube": "Christian Cotrone thinks drifting needs a Drive to Survive. Their 40 minute videos hold viewers for 98 percent of the runtime.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #christiancotrone #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "christiancotrone",
+    "mattfield777"
+   ],
    "people": [
     "Christian Cotrone",
     "Matt Field",
     "Brandon Scarpelli"
    ],
-   "moment_kind": null,
+   "moment_kind": "fact",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -58455,46 +58474,7 @@
   }
  ],
  "replies": [],
- "names": [
-  {
-   "name": "Espen Røed",
-   "posts": 2,
-   "ids": [
-    "pod-ythcpensbcsdc-1",
-    "pod-ythcpensbcsdc-5"
-   ],
-   "handle": "",
-   "known": true,
-   "series": "DM",
-   "why": "",
-   "suggest": []
-  },
-  {
-   "name": "Nasser Habali",
-   "posts": 2,
-   "ids": [
-    "pod-ythcpensbcsdc-3",
-    "pod-ythcpensbcsdc-7"
-   ],
-   "handle": "",
-   "known": true,
-   "series": "DM",
-   "why": "",
-   "suggest": []
-  },
-  {
-   "name": "Itaes Sade",
-   "posts": 1,
-   "ids": [
-    "pod-ytvphv55wk1ja-16"
-   ],
-   "handle": "",
-   "known": true,
-   "series": "DM",
-   "why": "",
-   "suggest": []
-  }
- ],
+ "names": [],
  "channels": {
   "live": false,
   "channels": [
