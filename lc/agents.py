@@ -179,6 +179,9 @@ def qc(folder: Path | None = None) -> dict:
         p_old = p.get("qc") or {}
         p["qc"] = {"hard": hard, "soft": soft, "at": datetime.now(timezone.utc).isoformat()}
         changed = p_old.get("hard") != hard or p_old.get("soft") != soft
+        if p.get("approved") and hard != ["geen video"]:
+            hard = []                        # Joshua approved it himself: only a missing video stops it
+            p["qc"]["hard"] = []
         if hard and p.get("status") in ("draft", "ready", "approved"):
             p.update(status="check", check=True, check_reason="controle: " + ", ".join(hard))
             stopped.append(p["id"])

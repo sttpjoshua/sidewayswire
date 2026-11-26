@@ -364,7 +364,12 @@ function drawRuns(){
     const busy=r.status!=="completed", bad=d&&d.conclusion==="failure";
     return `<div class="h"><div class="dot ${bad?"r":busy?"":"g"}"></div><div><b>${WF[k]}</b><span>${busy?"bezig sinds "+ago(r.run_started_at||r.created_at):"laatst "+ago(r.updated_at)}${bad?` · <a href="${d.html_url}" target="_blank">laatste run mislukt</a>`:d?" · gelukt":""}</span></div></div>`}).join("");
 }
-const posts=()=>S.posts||[];
+// 26 nov: after an approve/skip/tag the site needs a few minutes to rebuild status.json. Until then a reload
+// showed the old state ("it comes back"). Own actions are remembered for 45 minutes and laid over the data.
+const MINE_KEY="sw_mine";let MINE={};try{MINE=JSON.parse(localStorage.getItem(MINE_KEY)||"{}")}catch(e){}
+function remember(kind,id,val){MINE[kind+":"+id]={v:val,t:Date.now()};try{localStorage.setItem(MINE_KEY,JSON.stringify(MINE))}catch(e){}}
+function mineOf(kind,id){const m=MINE[kind+":"+id];if(!m)return null;if(Date.now()-m.t>45*60e3){delete MINE[kind+":"+id];return null}return m.v}
+const posts=()=>(S.posts||[]).map(p=>{const st=mineOf("post",p.id);if(st&&(!S.updated||new Date(S.updated).getTime()<MINE["post:"+p.id].t))return {...p,status:st,check:false};return p});
 const toReview=()=>posts().filter(p=>["check","draft"].includes(p.status));
 const med=p=>p.video||(p.media||[])[0]||"";
 const isVid=u=>/\.mp4($|\?)/.test(u);
@@ -447,7 +452,7 @@ document.addEventListener("click",async e=>{if(!e.target.closest("#tip-send"))re
     m.textContent="Tip verstuurd. De nieuwsredacteur pakt hem op in de eerstvolgende ronde buiten je werktijd."}catch(x){toast(x.message,1)}btn.disabled=false});
 
 // ---------- tags: één lijst van iedereen (lc/handles.py, data/sources.csv + data/handles_manual.json) ----------
-const openNames=()=>(S.names||[]).filter(n=>!TAGDONE[n.name]);const TAGDONE={};
+const openNames=()=>(S.names||[]).filter(n=>!TAGDONE[n.name]&&!mineOf("tag",n.name));const TAGDONE={};
 function drawTagCount(){const n=openNames().reduce((a,x)=>a+x.posts,0);document.getElementById("c-tags").textContent=openNames().length||""}
 function drawTags(){drawTagCount();const L=openNames(),el=document.getElementById("tags-list");
   if(!L.length){el.innerHTML=`<div class="empty2">Geen namen meer die posts tegenhouden.</div>`;return}
@@ -469,7 +474,7 @@ document.addEventListener("click",async e=>{const b=e.target.closest("[data-tg]"
     if(!/^[A-Za-z0-9_.]{2,30}$/.test(v)){toast("Dat is geen geldige Instagram-naam.",1);return}v="@"+v.toLowerCase()}
   if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
   card.querySelectorAll("button").forEach(x=>x.disabled=true);
-  try{await saveManual(name,v);TAGDONE[name]=1;drawTags();
+  try{await saveManual(name,v);TAGDONE[name]=1;remember("tag",name,v);drawTags();
     toast(v==="-"?`${name}: geen Instagram. Opgeslagen.`:v.startsWith("=")?`${name} is ${v.slice(1)}. Opgeslagen.`:`${v} opgeslagen voor ${name}.`+" De posts worden over een paar minuten bijgewerkt.")}
   catch(x){card.querySelectorAll("button").forEach(y=>y.disabled=false);toast(x.message,1)}});
 function drawOverview(){
@@ -648,9 +653,9 @@ rev.onclick=async e=>{
     const mine=cap!==(p.caption||"");
     if(b.dataset.a==="save"){await changePost(id,x=>{x.caption=cap;if(mine)x.caption_by="joshua"},"caption");p.caption=cap;toast("Caption opgeslagen.")}
     if(b.dataset.a==="ok"){const want=w?new Date(w).toISOString():null;
-      await changePost(id,x=>{x.caption=cap;if(mine)x.caption_by="joshua";x.status="approved";x.approved=new Date().toISOString();if(want)x.want_at=want;else delete x.want_at},"approve");
-      Object.assign(p,{caption:cap,status:"approved",want_at:want});await runBuild();toast(want?`Goedgekeurd voor ${when(want)}.`:"Goedgekeurd. Hij krijgt de eerstvolgende vrije plek.");drawAll()}
-    if(b.dataset.a==="skip"){await changePost(id,x=>{x.status="skipped"},"skip");p.status="skipped";toast("Overgeslagen.");drawAll()}
+      await changePost(id,x=>{x.caption=cap;if(mine)x.caption_by="joshua";x.status="approved";x.check=false;x.approved_by="joshua";x.approved=new Date().toISOString();if(want)x.want_at=want;else delete x.want_at},"approve");
+      Object.assign(p,{caption:cap,status:"approved",want_at:want});remember("post",id,"approved");await runBuild();toast(want?`Goedgekeurd voor ${when(want)}.`:"Goedgekeurd. Hij krijgt de eerstvolgende vrije plek.");drawAll()}
+    if(b.dataset.a==="skip"){await changePost(id,x=>{x.status="skipped"},"skip");p.status="skipped";remember("post",id,"skipped");toast("Overgeslagen.");drawAll()}
   }catch(x){toast(x.message,1)}finally{b.disabled=false}
 };
 

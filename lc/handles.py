@@ -177,6 +177,8 @@ def open_names(posts: list[dict]) -> list[dict]:
             names += [x for x in (p.get("people") or []) if not lookup(reg, x)]
         for nm in dict.fromkeys(names):
             r = lookup(reg, nm)
+            if r and (r.get("ok") or r.get("none")):
+                continue                     # answered on the dashboard; the clips round updates the post
             e = out.setdefault(nm, {"name": nm, "posts": 0, "ids": [],
                                     "handle": (r or {}).get("handle", ""), "known": bool(r),
                                     "series": (r or {}).get("series", ""),

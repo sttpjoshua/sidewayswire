@@ -251,12 +251,21 @@ def run(limit: int = 120) -> dict:
                      hook_sig=json.dumps(m.get("hook") or {}, sort_keys=True),
                      made=datetime.now(timezone.utc).isoformat())
             cap, tags, missing = handles.compose(ep, m)
+            # 26 nov: a remake (new video, battle result, sync) brought approved posts back to review.
+            # Joshua's approval, time and own caption now survive it.
+            joshua_ok = bool(post) and bool(post.get("approved")) and post.get("status") in ("ready", "approved")
             check = (m["kind"] == "rumor" or res["mode"] == "audiogram"
-                     or bool(m.get("check"))) and m.get("by") != "joshua"
-            keep = bool(post) and post.get("status") in ("ready", "approved") and post.get("post_at") and not check
+                     or bool(m.get("check"))) and m.get("by") != "joshua" and not joshua_ok
+            keep = bool(post) and post.get("status") in ("ready", "approved") and (post.get("post_at") or joshua_ok) and not check
+            if joshua_ok:
+                m["check"] = False
+            if post and post.get("caption_by") == "joshua":
+                cap = post.get("caption") or cap
             q.save({                                     # a remake keeps its place in the content calendar
                 "id": pid, "kind": {"stream": "stream_clip", "vlog": "vlog_clip"}.get(ep.get("kind"), "podcast_clip"),
-                "status": "ready" if keep else "draft", **({"post_at": post["post_at"]} if keep else {}),
+                "status": ("ready" if post.get("post_at") else "approved") if keep else "draft",
+                **({"post_at": post["post_at"]} if keep and post.get("post_at") else {}),
+                **{k: post[k] for k in ("approved", "want_at", "caption_by", "approved_by") if keep and post.get(k)},
                 "slides": [], "title": m.get("topic"),
                 "video": str(out.relative_to(ROOT)), "caption": cap, "tags": tags, "missing_handles": missing, "format": "split" if m.get("split") else "single",
                 "credit": m.get("credit"), "check": check,
