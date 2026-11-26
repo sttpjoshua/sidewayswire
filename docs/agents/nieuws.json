@@ -4,15 +4,26 @@
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "wacht",
  "doing": null,
- "updated": "2026-11-26T19:26:50.752435+00:00",
+ "updated": "2026-11-26T21:41:05.264063+00:00",
  "note": "",
- "history": [],
+ "history": [
+  {
+   "at": "2026-11-26T20:55:59.762629+00:00",
+   "text": "nieuwspost: FD 2027 VENUE UPDATES ANNOUNCED",
+   "ref": "2026-11-26-formula-drift-announces-2027-schedule-with-excit"
+  },
+  {
+   "at": "2026-11-26T20:55:47.906707+00:00",
+   "text": "nieuwspost: CONOR AND JACK SHANAHAN IN D1GP (jouw tip)",
+   "ref": "2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot"
+  }
+ ],
  "errors": [],
  "drops": {},
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 0
+  "made": 2
  },
  "version": "3"
 }
