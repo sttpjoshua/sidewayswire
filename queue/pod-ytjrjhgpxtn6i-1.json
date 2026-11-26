@@ -1,17 +1,16 @@
 {
  "id": "pod-ytjrjhgpxtn6i-1",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "MARINATED LIKE A BRISKET",
  "video": "docs/media/pod-ytjrjhgpxtn6i-1/clip.mp4",
- "caption": "Jerry Johnson goes deeper while his opponent fades into the smoke and marinates in it like a brisket.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
+ "caption": "Jerry Johnson goes deeper while his opponent fades into the smoke and marinates in it like a brisket.\n\n🎥 Footage: FD INDIANAPOLIS 2026 HIGHLIGHTS | PRESEN\n@jerrydrift @formulad\n\n#formulad #formuladrift #prospec #drifting #indianapolis #sidewayswire",
  "tags": [
+  "@jerrydrift",
   "@formulad"
  ],
- "missing_handles": [
-  "Jerry Johnson"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
  "check": true,
@@ -28,16 +27,5 @@
   "start": 276.96
  },
  "created": "2026-11-19T13:53:55.161001+00:00",
- "built": "2026-11-19T16:51:08.369379+00:00",
- "media": [
-  "docs/media/pod-ytjrjhgpxtn6i-1/clip.mp4"
- ],
- "problems": [],
- "short_none": "kort genoeg",
- "thumb": "docs/media/thumbs/pod-ytjrjhgpxtn6i-1.jpg",
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytjrjhgpxtn6i-1.mp4",
- "preview_of": "2026-11-19T16:51:08.369379+00:00",
- "people": [
-  "Jerry Johnson"
- ]
+ "built": "2026-11-26T16:46:16.474182+00:00"
 }
