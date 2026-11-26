@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:16:14.617598+00:00",
+ "updated": "2026-11-26T20:19:39.413717+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 613,
@@ -2592,6 +2592,26 @@
     "kind": "vlog",
     "credit": "@adam_lz",
     "event": "RIPPING THE WORLD'S MOST EXPENSIVE R32 G",
+    "has_transcript": true,
+    "moments": []
+   },
+   {
+    "id": "ytm5jsytyfiak",
+    "podcast": "Matt Field",
+    "title": "One Last Battle - Leaving It All On The Streets of Long Beach! | Inner Clip Season Finale",
+    "published": "2026-11-06",
+    "status": "transcribed",
+    "youtube": "m5jsytyfiAk",
+    "audio": null,
+    "link": null,
+    "art": null,
+    "seconds": 2541.0,
+    "error": null,
+    "transcribed": "2026-11-26T20:17:58.598060+00:00",
+    "tries": null,
+    "kind": "vlog",
+    "credit": "@mattfield777",
+    "event": "ONE LAST BATTLE",
     "has_transcript": true,
     "moments": []
    },
@@ -6255,34 +6275,14 @@
     "event": "HOW WE FILMED JAMES DEANE DRIFTING AN EN",
     "has_transcript": true,
     "moments": []
-   },
-   {
-    "id": "ytoa9uijuowfw",
-    "podcast": "Adam LZ",
-    "title": "I Made My Porsche 964 Even FASTER - The Ultimate Smokies Test!",
-    "published": "2026-10-18",
-    "status": "transcribed",
-    "youtube": "oA9uijuoWfw",
-    "audio": null,
-    "link": null,
-    "art": null,
-    "seconds": 1226.0,
-    "error": null,
-    "transcribed": "2026-11-19T19:14:07.131134+00:00",
-    "tries": null,
-    "kind": "vlog",
-    "credit": "@adam_lz",
-    "event": "I MADE MY PORSCHE 964 EVEN FASTER",
-    "has_transcript": true,
-    "moments": []
    }
   ]
  },
  "streams": {
-  "total": 170,
-  "transcribed": 170,
+  "total": 179,
+  "transcribed": 171,
   "moments": 170,
-  "next": null,
+  "next": "Rising To The Occasion At Formula Drift High Stakes!",
   "series": {
    "The Shanahans": {
     "total": 14,
@@ -6307,6 +6307,10 @@
    "James Deane": {
     "total": 11,
     "transcribed": 11
+   },
+   "Matt Field": {
+    "total": 9,
+    "transcribed": 1
    },
    "Formula DRIFT": {
     "total": 38,
@@ -57097,7 +57101,7 @@
     "pod-ytfwp7cvnodei-1",
     "pod-ythcpensbcsdc-0"
    ],
-   "handle": "",
+   "handle": "@kpesur",
    "known": true,
    "series": "DM",
    "suggest": []
