@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-2",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "GRIPPY VEGAS: THE FIX",
  "video": "docs/media/pod-441d4b7291ad-2/clip.mp4",
@@ -47,5 +47,19 @@
   "at": "2026-11-26T19:31:44.201875+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-26T21:11:18.671Z"
+ "approved": "2026-11-26T21:11:18.671Z",
+ "post_at": null,
+ "score": 30,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Kasey Kohl | The Outerzone\n\nThe grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #formuladrift #prospec #sidewayswire",
+  "facebook": "Kasey Kohl | The Outerzone\n\nThe grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #sidewayswire",
+  "tiktok": "Kasey Kohl | The Outerzone: The grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @mspekperformance @formulad @jako13\n#drift #kaseykohl #formuladrift #sidewayswire",
+  "youtube_title": "Kasey Kohl | The Outerzone",
+  "youtube": "The grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #kaseykohl #sidewayswire"
+ },
+ "collaborators": [
+  "mspekperformance"
+ ]
 }

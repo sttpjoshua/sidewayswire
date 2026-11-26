@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-26T21:11:23.503640+00:00",
+ "updated": "2026-11-26T21:13:01.080146+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 644,
-  "check": 62,
+  "ready": 650,
+  "check": 56,
   "skipped": 70,
   "posted": 3
  },
- "collected": "2026-11-26T21:11:19.316608+00:00",
+ "collected": "2026-11-26T21:12:56.731786+00:00",
  "instagram": true,
  "sources": [
   {
@@ -119,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -50332,7 +50332,7 @@
   {
    "id": "pod-441d4b7291ad-6",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "He just won in Vegas, but Braden Lons has 'not a clue' about next year, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @little_webbie16 @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #BradenLons #Rumor #sidewayswire",
@@ -50342,7 +50342,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -50368,19 +50368,28 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 40,
+   "captions": {
+    "instagram": "Braden Lons | The Outerzone\n\nHe just won in Vegas, but Braden Lons has 'not a clue' about next year, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @little_webbie16 @formulad @jako13\n\n#drift #bradenlons #dustynfarrell #formuladrift #sidewayswire",
+    "facebook": "Braden Lons | The Outerzone\n\nHe just won in Vegas, but Braden Lons has 'not a clue' about next year, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @little_webbie16 @formulad @jako13\n\n#drift #bradenlons #sidewayswire",
+    "tiktok": "Braden Lons | The Outerzone: He just won in Vegas, but Braden Lons has 'not a clue' about next year, said on The Outerzone.\nSend this to your drift group chat 🔥\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @braden.lons @little_webbie16 @formulad @jako13\n#drift #bradenlons #dustynfarrell #sidewayswire",
+    "youtube_title": "Braden Lons | The Outerzone",
+    "youtube": "He just won in Vegas, but Braden Lons has 'not a clue' about next year, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @little_webbie16 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #bradenlons #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "braden.lons",
+    "little_webbie16"
+   ],
    "people": [
     "Braden Lons",
     "Dustyn Farrell"
    ],
-   "moment_kind": null,
+   "moment_kind": "rumor",
    "pinned_at": null,
    "short_none": null,
-   "short_len": 29.0,
+   "short_len": 29,
    "thumb": "media/thumbs/pod-441d4b7291ad-6.jpg",
    "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-441d4b7291ad-6.mp4",
    "hook": null,
@@ -50393,7 +50402,7 @@
   {
    "id": "pod-441d4b7291ad-5",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Smoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #FDLV #sidewayswire",
@@ -50403,7 +50412,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50428,15 +50437,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 43,
+   "captions": {
+    "instagram": "Kasey Kohl | The Outerzone\n\nSmoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #formuladrift #prospec #sidewayswire",
+    "facebook": "Kasey Kohl | The Outerzone\n\nSmoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #sidewayswire",
+    "tiktok": "Kasey Kohl | The Outerzone: Smoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @mspekperformance @formulad @jako13\n#drift #kaseykohl #formuladrift #sidewayswire",
+    "youtube_title": "Kasey Kohl | The Outerzone",
+    "youtube": "Smoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #kaseykohl #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "mspekperformance"
+   ],
    "people": [
     "Kasey Kohl"
    ],
-   "moment_kind": null,
+   "moment_kind": "moment",
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
@@ -50452,7 +50469,7 @@
   {
    "id": "pod-441d4b7291ad-4",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "All outer zones in Vegas. Is that better for the show than technical layouts like Drift Masters?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @driftmasters.gp @jako13\n\n#FormulaDRIFT #PROSPEC #DriftMasters #sidewayswire",
@@ -50462,7 +50479,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50488,15 +50505,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 39,
+   "captions": {
+    "instagram": "Braden Lons | The Outerzone\n\nAll outer zones in Vegas. Is that better for the show than technical layouts like Drift Masters?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @driftmasters.gp @jako13\n\n#drift #bradenlons #formuladrift #prospec #sidewayswire",
+    "facebook": "Braden Lons | The Outerzone\n\nAll outer zones in Vegas. Is that better for the show than technical layouts like Drift Masters?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @driftmasters.gp @jako13\n\n#drift #bradenlons #sidewayswire",
+    "tiktok": "Braden Lons | The Outerzone: All outer zones in Vegas. Is that better for the show than technical layouts like Drift Masters?\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @braden.lons @formulad @driftmasters.gp @jako13\n#drift #bradenlons #formuladrift #sidewayswire",
+    "youtube_title": "Braden Lons | The Outerzone",
+    "youtube": "All outer zones in Vegas. Is that better for the show than technical layouts like Drift Masters?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@braden.lons @formulad @driftmasters.gp @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #bradenlons #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "braden.lons"
+   ],
    "people": [
     "Braden Lons"
    ],
-   "moment_kind": null,
+   "moment_kind": "quote",
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.1,
@@ -50512,7 +50537,7 @@
   {
    "id": "pod-441d4b7291ad-2",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "The grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #KaseyKohl #FDLV #sidewayswire",
@@ -50522,7 +50547,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50547,15 +50572,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 30,
+   "captions": {
+    "instagram": "Kasey Kohl | The Outerzone\n\nThe grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #formuladrift #prospec #sidewayswire",
+    "facebook": "Kasey Kohl | The Outerzone\n\nThe grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #sidewayswire",
+    "tiktok": "Kasey Kohl | The Outerzone: The grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @mspekperformance @formulad @jako13\n#drift #kaseykohl #formuladrift #sidewayswire",
+    "youtube_title": "Kasey Kohl | The Outerzone",
+    "youtube": "The grippiest surface he has ever driven on. Kasey Kohl on the one change that fixed his car in Vegas.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #kaseykohl #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "mspekperformance"
+   ],
    "people": [
     "Kasey Kohl"
    ],
-   "moment_kind": null,
+   "moment_kind": "fact",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -50571,7 +50604,7 @@
   {
    "id": "pod-3fa7ee22a33c-29",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Christian Cotrone built a 1JZ G sedan with a four door cage just for ride-alongs, debuting at Black Friday.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#Drifting #1JZ #BlackFriday #FormulaDrift #sidewayswire",
@@ -50581,7 +50614,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50606,15 +50639,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 35,
+   "captions": {
+    "instagram": "Christian Cotrone | The Outerzone\n\nChristian Cotrone built a 1JZ G sedan with a four door cage just for ride-alongs, debuting at Black Friday.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#drift #christiancotrone #drifting #1jz #sidewayswire",
+    "facebook": "Christian Cotrone | The Outerzone\n\nChristian Cotrone built a 1JZ G sedan with a four door cage just for ride-alongs, debuting at Black Friday.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#drift #christiancotrone #sidewayswire",
+    "tiktok": "Christian Cotrone | The Outerzone: Christian Cotrone built a 1JZ G sedan with a four door cage just for ride-alongs, debuting at Black Friday.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @christiancotrone @formulad @jako13\n#drift #christiancotrone #drifting #sidewayswire",
+    "youtube_title": "Christian Cotrone | The Outerzone",
+    "youtube": "Christian Cotrone built a 1JZ G sedan with a four door cage just for ride-alongs, debuting at Black Friday.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #christiancotrone #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "christiancotrone"
+   ],
    "people": [
     "Christian Cotrone"
    ],
-   "moment_kind": null,
+   "moment_kind": "fact",
    "pinned_at": null,
    "short_none": null,
    "short_len": 12.9,
@@ -50901,7 +50942,7 @@
   {
    "id": "pod-3fa7ee22a33c-21",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Matt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#FormulaDrift #MattField #Interclip #Filmmaking #sidewayswire",
@@ -50911,7 +50952,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50939,17 +50980,26 @@
    ],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 46,
+   "captions": {
+    "instagram": "Christian Cotrone | The Outerzone\n\nMatt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#drift #christiancotrone #mattfield #formuladrift #sidewayswire",
+    "facebook": "Christian Cotrone | The Outerzone\n\nMatt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\n#drift #christiancotrone #sidewayswire",
+    "tiktok": "Christian Cotrone | The Outerzone: Matt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @christiancotrone @mattfield777 @formulad @jako13\n#drift #christiancotrone #mattfield #sidewayswire",
+    "youtube_title": "Christian Cotrone | The Outerzone",
+    "youtube": "Matt Field can riff anything on camera, but each Interclip edit still takes a full week and 12 timecoded cameras.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @mattfield777 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #christiancotrone #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "christiancotrone",
+    "mattfield777"
+   ],
    "people": [
     "Christian Cotrone",
     "Matt Field",
     "Loxley Lennox"
    ],
-   "moment_kind": null,
+   "moment_kind": "fact",
    "pinned_at": null,
    "short_none": null,
    "short_len": 9.3,

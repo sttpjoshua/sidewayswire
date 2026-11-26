@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-5",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "CHUCK IT THROUGH THE SMOKE",
  "video": "docs/media/pod-441d4b7291ad-5/clip.mp4",
@@ -46,5 +46,19 @@
   "at": "2026-11-26T19:31:44.202825+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-26T21:11:45.089Z"
+ "approved": "2026-11-26T21:11:45.089Z",
+ "post_at": null,
+ "score": 43,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Kasey Kohl | The Outerzone\n\nSmoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #formuladrift #prospec #sidewayswire",
+  "facebook": "Kasey Kohl | The Outerzone\n\nSmoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\n#drift #kaseykohl #sidewayswire",
+  "tiktok": "Kasey Kohl | The Outerzone: Smoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @mspekperformance @formulad @jako13\n#drift #kaseykohl #formuladrift #sidewayswire",
+  "youtube_title": "Kasey Kohl | The Outerzone",
+  "youtube": "Smoked out, flat footed, and deciding handbrake or throttle the second it clears. Chasing in Vegas PROSPEC.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mspekperformance @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #kaseykohl #sidewayswire"
+ },
+ "collaborators": [
+  "mspekperformance"
+ ]
 }
