@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · Drifting in front of 55,000 People | Drift Masters Poland",
- "updated": "2026-11-26T19:24:54.339993+00:00",
+ "doing": "leest: James Deane · Mad Mike Is In Ireland & We Gave Him The 4-Rotor RX7 + S15 FIRST START!",
+ "updated": "2026-11-26T19:24:58.587741+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:57.956510+00:00",
+   "text": "0 momenten uit Drifting in front of 55,000 People | Drift Masters Poland",
+   "ref": "ytlnxuejjqs7w"
+  },
   {
    "at": "2026-11-26T19:24:53.196838+00:00",
    "text": "0 momenten uit 130 SHOWDOWN: THE MOVIE",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:18.476266+00:00",
    "text": "0 momenten uit Can We Wrap My Entire 350Z in 48 HOURS?!",
    "ref": "ytoiwg9kzm3k8"
-  },
-  {
-   "at": "2026-11-26T19:23:14.789344+00:00",
-   "text": "0 momenten uit Did We Make a 350Z Sound GOOD?!",
-   "ref": "ytnpg674ibsi"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 63
+  "made": 64
  },
  "version": "3"
 }
