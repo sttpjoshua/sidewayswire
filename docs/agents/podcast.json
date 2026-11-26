@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Collete Davis · Jet vs Car FACE-OFF! | Formula Drift Season Finale",
- "updated": "2026-11-26T19:23:01.469254+00:00",
+ "doing": "leest: Collete Davis · They Let Me Drive a $1,000,000 Combine!",
+ "updated": "2026-11-26T19:23:06.984579+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:23:06.194242+00:00",
+   "text": "0 momenten uit Jet vs Car FACE-OFF! | Formula Drift Season Finale",
+   "ref": "ytmmnhgfc3x60"
+  },
   {
    "at": "2026-11-26T19:23:00.863279+00:00",
    "text": "0 momenten uit Can You Really Do SEMA in ONE DAY? | DDPAI Z100 Master Demo! ",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:21:23.676561+00:00",
    "text": "0 momenten uit My Abandoned Japan Project Car...",
    "ref": "yt6h3gkv5grxi"
-  },
-  {
-   "at": "2026-11-26T19:21:19.249992+00:00",
-   "text": "0 momenten uit We Destroyed the 4 Rotor Supra to Win This Event",
-   "ref": "ytvumdkclg5ri"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 36
+  "made": 37
  },
  "version": "3"
 }
