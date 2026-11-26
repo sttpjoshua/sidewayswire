@@ -1,7 +1,7 @@
 {
  "id": "pod-ytnmn7gxunksk-9",
  "kind": "stream_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "NATE CHEN QUALIFYING",
  "video": "docs/media/pod-ytnmn7gxunksk-9/clip.mp4",
@@ -28,5 +28,27 @@
  },
  "created": "2026-11-26T20:49:58.522315+00:00",
  "built": "2026-11-26T20:49:58.522320+00:00",
- "approved": "2026-11-26T20:53:54.096Z"
+ "approved": "2026-11-26T20:53:54.096Z",
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T20:55:12.303077+00:00"
+ },
+ "score": 58,
+ "moment_kind": "qualify",
+ "people": [
+  "Nate Chen"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Nate Chen | Formula DRIFT Las Vegas 2026 Qualifying\n\nNate Chen's rookie season qualifying run\n\n🎥 Footage: Formula DRIFT Las Vegas 2026 Qualifying\n@nathaniel.chen @formulad\n\n#formuladrift #formulad #natechen #sidewayswire",
+  "facebook": "Nate Chen | Formula DRIFT Las Vegas 2026 Qualifying\n\nNate Chen's rookie season qualifying run\n\n🎥 Footage: Formula DRIFT Las Vegas 2026 Qualifying\n@nathaniel.chen @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Nate Chen | Formula DRIFT Las Vegas 2026 Qualifying: Nate Chen's rookie season qualifying run\n🎥 Footage: Formula DRIFT Las Vegas 2026 Qualifying @nathaniel.chen @formulad\n#formuladrift #formulad #natechen #sidewayswire",
+  "youtube_title": "Nate Chen | Formula DRIFT Las Vegas 2026 Qualifying",
+  "youtube": "Nate Chen's rookie season qualifying run\n\n🎥 Footage: Formula DRIFT Las Vegas 2026 Qualifying\n@nathaniel.chen @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "nathaniel.chen"
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:48:09.008862+00:00",
+ "updated": "2026-11-26T20:55:04.317523+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -2401,7 +2401,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2464,7 +2464,7 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
