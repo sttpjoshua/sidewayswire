@@ -42,7 +42,7 @@ def test_planner_questions_fill_gaps_and_breaking_first():
         posts.append(hooks.make(x["type"], x["headline"], x["caption"], post_id=f"q-{i}", evergreen=x["id"])
                      | {"status": "ready", "media": ["a.png"], "created": f"2026-11-0{i + 1}"})
     posts.append({"id": "n1", "kind": "news", "status": "ready", "media": ["a.png"], "caption": "x",
-                  "created": "2026-11-20", "platforms": ["instagram", "facebook"]})
+                  "created": "2026-11-30T20:00:00+00:00", "platforms": ["instagram", "facebook"]})  # fresh: news older than 48 h is skipped
     br = hooks.make("breaking", ["X LEAVES FD"], "Big news.", post_id="b1") | {
         "status": "ready", "media": ["a.png"], "post_at": "2026-12-01T09:10:00+00:00"}
     posts.append(br)

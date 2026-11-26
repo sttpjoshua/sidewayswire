@@ -144,9 +144,7 @@ def qc(folder: Path | None = None) -> dict:
     """Checks every post that is not posted yet. Hard problems stop a post (status check with the reason);
     small ones are only noted. Joshua then only sees what failed, not everything."""
     from . import queue as q
-    from . import handles
     folder = folder or q.QUEUE
-    reg = handles.registry()
     posts = q.load(folder=folder)
     seen_captions = {}
     stopped, warned, ok = [], 0, 0
