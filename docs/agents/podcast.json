@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: TJ Hunt · My Aston Martin Vantage GT3 is DONE!",
- "updated": "2026-11-26T19:21:24.580325+00:00",
+ "doing": "leest: TJ Hunt · I Secretly Listed Sabrina's Car For Sale",
+ "updated": "2026-11-26T19:21:28.734350+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:21:27.781826+00:00",
+   "text": "0 momenten uit My Aston Martin Vantage GT3 is DONE!",
+   "ref": "yt5clya3ypbs"
+  },
   {
    "at": "2026-11-26T19:21:23.676561+00:00",
    "text": "0 momenten uit My Abandoned Japan Project Car...",
@@ -84,7 +89,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 13
+  "made": 14
  },
  "version": "3"
 }
