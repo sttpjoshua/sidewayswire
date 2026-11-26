@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "bezig",
- "doing": "turbo · leest: Formula DRIFT · Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Qualifying",
- "updated": "2026-11-26T21:20:10.379874+00:00",
+ "doing": "turbo · leest: Formula DRIFT · Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+ "updated": "2026-11-26T21:29:57.370345+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T21:29:56.535068+00:00",
+   "text": "30 momenten uit Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Qualifying",
+   "ref": "ytrm9nagg2xvu"
+  },
   {
    "at": "2026-11-26T21:20:08.965593+00:00",
    "text": "30 momenten uit Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Top 32",
@@ -126,21 +131,16 @@
    "at": "2026-11-26T19:18:57.148631+00:00",
    "text": "0 momenten uit Formula DRIFT Orlando 2026 - PRO, Round 3 - Qualifying",
    "ref": "ytolgdjklz8pk"
-  },
-  {
-   "at": "2026-11-26T19:18:53.362469+00:00",
-   "text": "0 momenten uit Formula DRIFT Orlando 2026 - PRO, Round 3 - Top 32",
-   "ref": "ytsxnoqcs8wo"
   }
  ],
  "errors": [],
  "drops": {
-  "te kort of te lang": 36
+  "te kort of te lang": 52
  },
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 32
+  "made": 33
  },
  "version": "3"
 }
