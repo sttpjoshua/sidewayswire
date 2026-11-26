@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Chelsea DeNofa · This Is What a Life in Drifting Looks Like | 2025",
- "updated": "2026-11-26T19:22:46.298004+00:00",
+ "doing": "leest: Chelsea DeNofa · Why Japan Is the Best Place to Drift - The Final Day I Will Never Forget",
+ "updated": "2026-11-26T19:22:50.111692+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:22:49.472573+00:00",
+   "text": "0 momenten uit This Is What a Life in Drifting Looks Like | 2025",
+   "ref": "ytrqxw9u1sf6y"
+  },
   {
    "at": "2026-11-26T19:22:45.592396+00:00",
    "text": "0 momenten uit This Frozen Lake Might Be the Best Drift Track Ever",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:21:05.867813+00:00",
    "text": "0 momenten uit I bought a “sleeper” SUV",
    "ref": "ytzmcpwxlywga"
-  },
-  {
-   "at": "2026-11-26T19:21:02.295271+00:00",
-   "text": "0 momenten uit I Made My Porsche 964 Even FASTER - The Ultimate Smokies Test!",
-   "ref": "ytoa9uijuowfw"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 32
+  "made": 33
  },
  "version": "3"
 }
