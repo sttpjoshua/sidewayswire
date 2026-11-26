@@ -229,11 +229,15 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytzmzcyqa9c9e-7-4392-4920.mp4",
   "run_end": 485.98,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytzmzcyqa9c9e-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 472.84, \"start\": 470.32, \"text\": \"HOW DID HE KEEP IT OFF?\", \"why\": \"redding van Cole\"}",
+  "made": "2026-11-26T18:21:46.187975+00:00"
  },
  {
   "start": 511.48,
@@ -256,11 +260,15 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytzmzcyqa9c9e-8-5115-5655.mp4",
   "run_end": 535.54,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytzmzcyqa9c9e-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 532.96, \"start\": 531.24, \"text\": \"WHO WINS THE FINAL?\", \"why\": \"deurcontact in de finale\"}",
+  "made": "2026-11-26T18:23:47.463935+00:00"
  },
  {
   "start": 583.86,
@@ -283,11 +291,15 @@
   },
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytzmzcyqa9c9e-9-5839-6500.mp4",
   "run_end": 644.02,
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytzmzcyqa9c9e-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 630.08, \"start\": 626.16, \"text\": \"WHO WON ROUND ONE?\", \"why\": \"de winnaar wordt genoemd\"}",
+  "made": "2026-11-26T18:26:05.962389+00:00"
  },
  {
   "start": 487.6,
@@ -326,9 +338,13 @@
   ],
   "credit": "@formulad",
   "by": "editor",
-  "status": "new",
+  "status": "queued",
   "wait_name": "v2-ytzmzcyqa9c9e-10r2-5143-5660.mp4",
   "result_done": 1,
-  "redo": false
+  "clip": "docs/media/pod-ytzmzcyqa9c9e-10/clip.mp4",
+  "mode": "split",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-26T18:28:23.248613+00:00"
  }
 ]
