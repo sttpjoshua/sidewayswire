@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · 130 SHOWDOWN: THE MOVIE",
- "updated": "2026-11-26T19:24:48.045661+00:00",
+ "doing": "leest: James Deane · Drifting in front of 55,000 People | Drift Masters Poland",
+ "updated": "2026-11-26T19:24:54.339993+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:53.196838+00:00",
+   "text": "0 momenten uit 130 SHOWDOWN: THE MOVIE",
+   "ref": "ytawp3pwyhhi"
+  },
   {
    "at": "2026-11-26T19:24:47.310488+00:00",
    "text": "0 momenten uit This Could Cost Us the Championship.. | Formula Drift Vegas",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:23:14.789344+00:00",
    "text": "0 momenten uit Did We Make a 350Z Sound GOOD?!",
    "ref": "ytnpg674ibsi"
-  },
-  {
-   "at": "2026-11-26T19:23:10.283911+00:00",
-   "text": "0 momenten uit They Let Me Drive a $1,000,000 Combine!",
-   "ref": "yte6sy0bdgu5c"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 62
+  "made": 63
  },
  "version": "3"
 }
