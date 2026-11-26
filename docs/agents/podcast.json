@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: The Shanahans · From High Hopes to out in Top 32 | DRIFT MASTERS RIGA",
- "updated": "2026-11-26T19:25:56.205106+00:00",
+ "doing": "leest: The Shanahans · I BOUGHT MY DREAM CAR",
+ "updated": "2026-11-26T19:25:59.892363+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:59.304239+00:00",
+   "text": "0 momenten uit From High Hopes to out in Top 32 | DRIFT MASTERS RIGA",
+   "ref": "ytgqsbndx9s94"
+  },
   {
    "at": "2026-11-26T19:25:55.517343+00:00",
    "text": "0 momenten uit WE SHOULD HAVE BROUGHT A BOAT TO FORMULA DRIFT INDIANAPOLIS",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:24:18.567583+00:00",
    "text": "0 momenten uit MASSIVE progress on the R34 GTR! (Looks incredible)",
    "ref": "ytrppeasbfkow"
-  },
-  {
-   "at": "2026-11-26T19:24:14.750567+00:00",
-   "text": "0 momenten uit These parts COMPLETELY changed my R34 GTR!",
-   "ref": "ytmieeuwnl4co"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 78
+  "made": 79
  },
  "version": "3"
 }
