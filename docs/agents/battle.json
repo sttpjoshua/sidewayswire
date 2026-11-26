@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Drift Masters · Drift Masters Round 2 2026 • Spain • Qualifying LIVE",
- "updated": "2026-11-26T19:19:39.655222+00:00",
+ "doing": "leest: Drift Masters · Drift Masters Round 1 2026 • Italy • Qualifying LIVE",
+ "updated": "2026-11-26T19:19:43.887440+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:19:42.851749+00:00",
+   "text": "0 momenten uit Drift Masters Round 2 2026 • Spain • Qualifying LIVE",
+   "ref": "ytigkljzjjdxq"
+  },
   {
    "at": "2026-11-26T19:19:38.520368+00:00",
    "text": "0 momenten uit Red Bull Drift Masters Round 3 2026 • Ireland • Qualifying LIVE",
@@ -109,7 +114,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 18
+  "made": 19
  },
  "version": "3"
 }
