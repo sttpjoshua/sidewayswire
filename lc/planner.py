@@ -34,6 +34,11 @@ KIND_POINTS = {"battle": 30, "final": 30, "crash": 28, "omt": 28, "qualify": 24,
                "quote": 12, "fact": 8, "rumor": 8}
 
 
+# Podcast clips run along with less priority: one reel every POD_EVERY days per platform (settings
+# "podcast_every_days", 0 = no podcast reels at all).
+_SET = ROOT / "data" / "settings.json"
+POD_EVERY = int(json.loads(_SET.read_text()).get("podcast_every_days", 2)) if _SET.exists() else 2
+
 # ---------- score ----------
 def moment_of(p: dict) -> dict:
     if p.get("kind") not in REEL_KINDS or not p.get("id", "").startswith("pod-"):
@@ -89,6 +94,7 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
     eps_on = defaultdict(set)           # (platform, date) -> episodes
     recent = defaultdict(list)          # platform -> people of the last reels
     last_q = {}                         # platform -> last day with an evergreen question post
+    last_pod = {}                       # platform -> last day with a podcast reel
     for p in todo:
         m = moment_of(p)
         p["_moment"] = m
@@ -149,6 +155,15 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
                     # RECENT reels on this platform (falls back gracefully when the pool runs dry).
                     seen = set(sum(recent[pl][-RECENT:], []))
                     fresh = [p for p in pool if p["id"].rpartition("-")[0] not in eps_on[(pl, day)]]
+                    if kind == "reel":
+                        # Joshua: podcasts run along, with less priority. Livestream clips and battles come
+                        # first; a podcast clip gets one reel slot (the day's last) every POD_EVERY days per platform.
+                        last_slot = list(_slots(pl, day, "reel"))[-1:]
+                        lp = last_pod.get(pl)
+                        if POD_EVERY and t in last_slot and (lp is None or (day - lp).days >= POD_EVERY):
+                            fresh = sorted(fresh, key=lambda p: p.get("kind") != "podcast_clip")
+                        else:
+                            fresh = [p for p in fresh if p.get("kind") != "podcast_clip"]
                     pick = next((p for p in fresh if not seen & set(p.get("people") or [])), None) or \
                         (fresh[0] if fresh else None)
                     if pick is None:
@@ -163,6 +178,8 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
                     pick["plan"][pl] = t.isoformat()
                     if kind == "reel":
                         recent[pl].append(list(pick.get("people") or []))
+                        if pick.get("kind") == "podcast_clip":
+                            last_pod[pl] = day
                     taken[pl].add(t)
                     eps_on[(pl, day)].add(pick["id"].rpartition("-")[0])
     rep = defaultdict(int)

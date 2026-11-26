@@ -1,6 +1,7 @@
 {
- "podcasts": false,
- "note": "Joshua 18 nov: genoeg podcasts, alleen livestreams (kwalificatie en battles)",
+ "podcasts": true,
+ "podcast_every_days": 2,
+ "note": "Joshua 27 nov: podcasts draaien weer mee, met minder voorrang (1 podcastreel per platform per 2 dagen; livestreams en battles eerst)",
  "local_editor": true,
  "local_editor_note": "Joshua 19 nov: lokale redactie op de Mac Studio aan (geen credits)",
  "media_public": true,
