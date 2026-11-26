@@ -42,8 +42,8 @@ def candidates(name: str) -> list[str]:
     if len(parts) < 2:
         return []
     f, l = parts[0], parts[-1]
-    base = [f + l, f + "_" + l, f + "." + l, l + f, f + l + "drift", f + "_" + l + "_", f[0] + l,
-            l + "drift", f + l + "_", "_" + f + l, f + "." + l + "_"]
+    # 26 nov: eleven guesses per name used up Meta's hourly limit; three is enough as a last resort
+    base = [f + l, f + "_" + l, f + "." + l]
     return list(dict.fromkeys(base))
 
 
