@@ -87,6 +87,9 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .phrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:6px}.phrow .btn{cursor:pointer}.phrow input[data-phc]{flex:1;min-width:140px}
 .gc>div{padding:10px 12px;font-size:13px;line-height:1.4}.gc .cap{color:var(--mute);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px;font-size:12px}
 /* planning */
+.stk{background:var(--card,#1c1c1f);border:1px solid #2a2a2e;padding:14px 16px;margin:10px 0 16px}.stk h2{margin:0 0 10px;font-size:15px;letter-spacing:.06em}
+.stk-k{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:12px}.stk-k div{background:#121214;padding:10px 12px}.stk-k b{display:block;font-size:24px;color:#fff}.stk-k span{font-size:11px;letter-spacing:.06em;color:var(--mute)}
+.stk-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.stk-r{display:grid;grid-template-columns:110px 1fr 120px;gap:8px;align-items:center;font-size:13px;margin:4px 0}.stk-r .bar{height:10px;background:#2a2a2e}.stk-r .bar i{display:block;height:100%}.stk-r small{color:var(--mute);text-align:right}
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -232,6 +235,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
 
 <section id="s-planning">
   <h1>PLANNING</h1><div class="sub">De contentkalender (Nederlandse tijd). Klik op een post om hem te bekijken.</div>
+  <div id="plan-stock"></div>
   <div class="filters" id="plan-f"></div>
   <div id="plan"></div>
 </section>
@@ -715,7 +719,29 @@ function entries(p){const pl=p.plan&&Object.keys(p.plan).length?p.plan:null;
 const plBadges=pls=>pls.map(x=>`<i class="pl pl-${x}">${PLAT[x]||x}</i>`).join("");
 const amsDate=t=>new Date(new Date(t).toLocaleString("en-US",{timeZone:"Europe/Amsterdam"}));
 const ymd=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+// Stock: what is ready, how far the calendar is filled, and the split per series and per kind.
+function serieOf(p){const t=JSON.stringify([p.title,p.caption,p.collaborators,p.media,p.hook]).toLowerCase();
+  return /drift ?masters|driftmasters|\bdmgp\b/.test(t)?"Drift Masters":/formula ?d(rift)?\b|formulad|\bfd\b/.test(t)?"Formula DRIFT":/d1gp/.test(t)?"D1GP":"Overig"}
+function drawStock(){
+  const P=posts(),ready=P.filter(p=>["ready","approved"].includes(p.status)),now=Date.now();
+  const planned=ready.filter(p=>Object.values(p.plan||{}).some(t=>new Date(t)>now)),loose=ready.length-planned.length;
+  const times=planned.flatMap(p=>Object.values(p.plan||{})).filter(t=>new Date(t)>now).sort(),last=times[times.length-1];
+  const spanDays=last?Math.max(1,(new Date(last)-now)/864e5):0,perDay=spanDays?planned.length/spanDays:0;
+  const extra=perDay?Math.floor(loose/perDay):0;
+  const d=t=>new Date(t).toLocaleDateString("nl-NL",{day:"numeric",month:"short"});
+  const rows=(pairs,colors)=>{const max=Math.max(1,...pairs.map(x=>x[1]));return pairs.map(([k,n,pl])=>`<div class="stk-r"><span>${esc(k)}</span><div class="bar"><i style="width:${Math.round(n/max*100)}%;background:${colors[k]||"var(--accent)"}"></i></div><small>${n}${pl!=null?` · ${pl} gepl.`:""}</small></div>`).join("")};
+  const grp=f=>{const o={};ready.forEach(p=>{const k=f(p);o[k]=o[k]||[0,0];o[k][0]++;if(planned.includes(p))o[k][1]++});return Object.entries(o).sort((a,b)=>b[1][0]-a[1][0]).map(([k,[n,pl]])=>[k,n,pl])};
+  const SC={"Formula DRIFT":"#ff7a00","Drift Masters":"var(--pink)","D1GP":"#4aa8ff","Overig":"#888"};
+  const CC={[CAT.pod]:"var(--accent)",[CAT.live]:"#ff7a00",[CAT.battle]:"var(--pink)",[CAT.vlog]:"#b388ff",[CAT.posts]:"#4aa8ff"};
+  document.getElementById("plan-stock").innerHTML=`<div class="stk"><h2>VOORRAAD</h2><div class="stk-k">
+    <div><b>${ready.length}</b><span>KLAAR OM TE POSTEN</span></div>
+    <div><b>${planned.length}</b><span>INGEPLAND${last?` T/M ${d(last).toUpperCase()}`:""}</span></div>
+    <div><b>${loose}</b><span>NOG NIET INGEPLAND</span></div>
+    <div><b>${last?"± "+(Math.round(spanDays)+extra)+" dagen":"–"}</b><span>GENOEG VOOR (HUIDIG TEMPO, ${perDay?Math.round(perDay*10)/10:0} PER DAG)</span></div></div>
+    <div class="stk-g"><div><span class="muted" style="font-size:11px;letter-spacing:.06em">PER SERIE</span>${rows(grp(serieOf),SC)}</div>
+    <div><span class="muted" style="font-size:11px;letter-spacing:.06em">PER SOORT</span>${rows(grp(p=>CAT[cat(p)]||"POSTS"),CC)}</div></div></div>`}
 function drawPlan(){
+  drawStock();
   const P=posts(), F={"MAAND":p=>["ready","approved","posted"].includes(p.status),"LIJST":p=>["ready","approved"].includes(p.status),"GEPLAATST":p=>p.status==="posted"};
   document.getElementById("plan-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===planFilter?"on":""}">${k}</button>`).join("");
   document.getElementById("plan-f").innerHTML+=`<span style="width:16px"></span>`+Object.keys(PLATN).map(k=>`<button data-pl="${k}" class="${k===planPlat?"on":""}">${PLATN[k]}</button>`).join("");
