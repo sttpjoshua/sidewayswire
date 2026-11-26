@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Vaughn Gittin Jr. · Does the Mustang RTR Beat the CRX?!",
- "updated": "2026-11-26T19:26:16.739302+00:00",
+ "doing": "leest: Vaughn Gittin Jr. · T-Pain Gives Hert A Mustang We Built!!",
+ "updated": "2026-11-26T19:26:20.390849+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:26:19.724394+00:00",
+   "text": "0 momenten uit Does the Mustang RTR Beat the CRX?!",
+   "ref": "ytd9xcaqlofvm"
+  },
   {
    "at": "2026-11-26T19:26:16.090822+00:00",
    "text": "0 momenten uit This Is Just The Beginning!",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:24:38.900956+00:00",
    "text": "0 momenten uit Making History With The Boys | FD Long Beach",
    "ref": "ytvsyush0kuak"
-  },
-  {
-   "at": "2026-11-26T19:24:34.968444+00:00",
-   "text": "0 momenten uit Street Drifting the RTR Mustang in Cork City!",
-   "ref": "ytgu7z7vmc9w"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 83
+  "made": 84
  },
  "version": "3"
 }
