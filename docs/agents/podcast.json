@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: James Deane · Street Drifting the RTR Mustang in Cork City!",
- "updated": "2026-11-26T19:24:31.743967+00:00",
+ "doing": "leest: James Deane · Making History With The Boys | FD Long Beach",
+ "updated": "2026-11-26T19:24:35.747575+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:34.968444+00:00",
+   "text": "0 momenten uit Street Drifting the RTR Mustang in Cork City!",
+   "ref": "ytgu7z7vmc9w"
+  },
   {
    "at": "2026-11-26T19:24:31.124334+00:00",
    "text": "0 momenten uit ENGINE IS READY TO GO IN MY R34 GTR! ",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:22:57.195354+00:00",
    "text": "0 momenten uit I Raced Cleetus McFarland’s LeMullets… Our Car Got DESTROYED!",
    "ref": "ytsp8iwpkm8wi"
-  },
-  {
-   "at": "2026-11-26T19:22:53.490276+00:00",
-   "text": "0 momenten uit Why Japan Is the Best Place to Drift - The Final Day I Will Never Forget",
-   "ref": "yt238gnot2fqo"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 58
+  "made": 59
  },
  "version": "3"
 }
