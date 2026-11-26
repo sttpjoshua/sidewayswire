@@ -59,6 +59,10 @@ WATCH = [
     ("Google News", "FD + DM", "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"", "drift"),
     ("Google News", "D1GP", "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest", None),
     ("Red Bull", "FD + DM", "gnews:site:redbull.com drift", "drift"),
+    # Announcements (Joshua, 26 nov): who is in and who is out next season, licenses, line-ups, retirements.
+    ("Google News", "FD + DM", "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie", "drift"),
+    ("Google News", "FD + DM", "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027", "drift"),
+    ("Google News", "DM", "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins", "drift"),
 ]
 
 

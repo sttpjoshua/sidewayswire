@@ -311,6 +311,10 @@ otherwise "news". Off-season (December to March) the stories about what the pros
 are worth_it true: guest entries in other series or countries (for example two Formula DRIFT champions in
 D1GP in Japan), new projects, builds, YouTube series, shows and demos, team or car changes, plans for the
 new season. If they won or placed somewhere, use "winner"; a new car or livery is "look".
+Announcements are the most important posts in the off-season: a driver joining, leaving or returning to
+a series, a pro license, a full season, a retirement or "won't be back", a new team or car for next year.
+Those are always worth_it true and format "breaking", with a headline that says it plainly, for example
+["JIMMY OAKES", "JOINS", "FORMULA DRIFT"] or ["ADAM LZ OUT", "FOR 2027"]. Only when the text really says so.
 An Instagram caption by the driver counts as the source: use only what it says. The headline IS the post: short, strong, in capitals, max 3 lines.
 caption: 1 or 2 short sentences. Use a human detail from the text when there is one (a comeback, a new
 baby, a first win). A light opinion is fine ("he had style"), never mock or attack a person or series.

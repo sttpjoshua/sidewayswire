@@ -49,7 +49,10 @@ def report(aid: str, state: str, doing: str | None, history: list[dict] | None =
 # ---------- news scout ----------
 KINDS = [  # (label, points, pattern)
     ("uitslag", 30, r"\b(wins?|won|victory|podium|takes? (the )?(win|title)|clinch|crowned)"),
-    ("transfer", 30, r"\b(joins?|signs?|signed|leaves?|leaving|departs?|switch(es)?|new team|retires?|retirement|moves? to)\b"),
+    ("aankondiging", 35, r"(won'?t be back|not (be )?returning|final (full )?season|last season|stepping away|retir(es?|ement|ing)|"
+                          r"returns? to|comeback|joins? (formula ?d|drift masters|the series)|pro license|licen[cs]e|approved drivers|"
+                          r"driver (list|line-?up)|line-?up for 202\d|full season|rookie|announc(es|ed|ement))"),
+    ("transfer", 30, r"\b(joins?|signs?|signed|leaves?|leaving|departs?|switch(es)?|new team|moves? to)\b"),
     ("nieuwe auto", 22, r"\b(new (car|build|livery|chassis)|livery|reveal(ed|s)?|unveil(ed|s)?|debut)"),
     ("kalender", 18, r"\b(schedule|calendar|season|round|venue|finale|rules?|regulation)"),
     ("evenement", 20, r"\b(guest (entry|driver)|exhibition|demo|gymkhana|matsuri|show|festival|invitational|d1gp|d1 grand prix|odaiba)"),
@@ -115,7 +118,7 @@ def scout(inbox_path: Path = ROOT / "data" / "inbox.json", now: datetime | None 
             pts += 12
         if ("formula drift" in note or "fd" in note.split()) and "FD" in str(s.get("series")):
             pts += 12
-        feature = bool(stars)
+        feature = bool(stars) or "aankondiging" in why
         skip = age_h > (120 if feature else 48) or pts < 15 or bool(re.search(ADS, t))
         s["scout"] = {"score": pts, "why": why, "skip": skip, "feature": feature}
         if not skip:
