@@ -1,7 +1,7 @@
 {
  "id": "pod-ytue2s78ftfay-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "A CHILDHOOD DREAM AT HOME",
  "video": "docs/media/pod-ytue2s78ftfay-2/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 74.08
  },
  "created": "2026-11-20T06:16:08.419350+00:00",
- "built": "2026-11-20T07:02:33.605157+00:00",
+ "built": "2026-11-26T22:01:43.754677+00:00",
  "media": [
   "docs/media/pod-ytue2s78ftfay-2/clip.mp4"
  ],
@@ -43,10 +43,22 @@
  ],
  "qc": {
   "hard": [],
-  "soft": [
-   "tags nog open: Dylan Garvey"
-  ],
-  "at": "2026-11-26T19:31:44.385045+00:00"
+  "soft": [],
+  "at": "2026-11-26T22:01:45.566659+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 67,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Conor Falvey | Drift Masters 2026 Ireland\n\nA childhood dream to win a Drift Masters round at home. First up: Dylan Garvey, back for vengeance.\n\n🎥 Footage: Drift Masters 2026 Ireland\n@conorfalvey412 @dylangarvey26 @driftmasters.gp\n\n#driftmasters #drift #conorfalvey #dylangarvey #sidewayswire",
+  "facebook": "Conor Falvey | Drift Masters 2026 Ireland\n\nA childhood dream to win a Drift Masters round at home. First up: Dylan Garvey, back for vengeance.\n\n🎥 Footage: Drift Masters 2026 Ireland\n@conorfalvey412 @dylangarvey26 @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Conor Falvey | Drift Masters 2026 Ireland: A childhood dream to win a Drift Masters round at home. First up: Dylan Garvey, back for vengeance.\n🎥 Footage: Drift Masters 2026 Ireland @conorfalvey412 @dylangarvey26 @driftmasters.gp\n#driftmasters #drift #conorfalvey #sidewayswire",
+  "youtube_title": "Conor Falvey | Drift Masters 2026 Ireland",
+  "youtube": "A childhood dream to win a Drift Masters round at home. First up: Dylan Garvey, back for vengeance.\n\n🎥 Footage: Drift Masters 2026 Ireland\n@conorfalvey412 @dylangarvey26 @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "conorfalvey412"
+ ]
 }

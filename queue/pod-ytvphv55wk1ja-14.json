@@ -1,7 +1,7 @@
 {
  "id": "pod-ytvphv55wk1ja-14",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "THE 99 NOBODY HAS BEATEN",
  "video": "docs/media/pod-ytvphv55wk1ja-14/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 9956.3
  },
  "created": "2026-11-20T06:45:03.095286+00:00",
- "built": "2026-11-20T07:02:33.713033+00:00",
+ "built": "2026-11-26T22:01:44.086276+00:00",
  "media": [
   "docs/media/pod-ytvphv55wk1ja-14/clip.mp4"
  ],
@@ -42,10 +42,20 @@
  ],
  "qc": {
   "hard": [],
-  "soft": [
-   "tags nog open: Kalle Rovanperä"
-  ],
-  "at": "2026-11-26T19:31:44.387216+00:00"
+  "soft": [],
+  "at": "2026-11-26T22:01:45.664918+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 32,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Kalle Rovanperä | Drift Masters 2026 Grand Final Poland Qualifying\n\nThe highest qualifying score ever at this stadium is still a 99 from Kalle Rovanperä. So who took the last point?\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@kallerovanpera @driftmasters.gp\n\n#driftmasters #drift #kallerovanpera #drifting #sidewayswire",
+  "facebook": "Kalle Rovanperä | Drift Masters 2026 Grand Final Poland Qualifying\n\nThe highest qualifying score ever at this stadium is still a 99 from Kalle Rovanperä. So who took the last point?\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@kallerovanpera @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Kalle Rovanperä | Drift Masters 2026 Grand Final Poland Qualifying: The highest qualifying score ever at this stadium is still a 99 from Kalle Rovanperä. So who took the last point?\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying @kallerovanpera @driftmasters.gp\n#driftmasters #drift #kallerovanpera #sidewayswire",
+  "youtube_title": "Kalle Rovanperä | Drift Masters 2026 Grand Final Poland...",
+  "youtube": "The highest qualifying score ever at this stadium is still a 99 from Kalle Rovanperä. So who took the last point?\n\n🎥 Footage: Drift Masters 2026 Grand Final Poland Qualifying\n@kallerovanpera @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": []
 }

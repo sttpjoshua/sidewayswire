@@ -1,7 +1,7 @@
 {
  "id": "pod-ytbnnz6o9wkaq-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "ROOKIE WILDCARD VS CIRBA",
  "video": "docs/media/pod-ytbnnz6o9wkaq-2/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 200.42
  },
  "created": "2026-11-19T06:54:32.067011+00:00",
- "built": "2026-11-21T11:55:32.333672+00:00",
+ "built": "2026-11-26T22:01:41.843852+00:00",
  "thumb": "docs/media/thumbs/pod-ytbnnz6o9wkaq-2.jpg",
  "short": "docs/media/pod-ytbnnz6o9wkaq-2/short.mp4",
  "short_len": 29.3,
@@ -43,10 +43,22 @@
  ],
  "qc": {
   "hard": [],
-  "soft": [
-   "tags nog open: Lucas"
-  ],
-  "at": "2026-11-26T19:31:44.282555+00:00"
+  "soft": [],
+  "at": "2026-11-26T22:01:45.230013+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 64,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Benediktas Čirba vs Lucas | Drift Masters 2026 Round 1 Italy\n\nA Polish rookie wildcard in an Alfa Romeo leads Benediktas Čirba, who creeps right onto the door.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@benediktascirba @driftmasters.gp\n\n#driftmasters #drift #benediktascirba #lucas #sidewayswire",
+  "facebook": "Benediktas Čirba vs Lucas | Drift Masters 2026 Round 1 Italy\n\nA Polish rookie wildcard in an Alfa Romeo leads Benediktas Čirba, who creeps right onto the door.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@benediktascirba @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Benediktas Čirba vs Lucas | Drift Masters 2026 Round 1 Italy: A Polish rookie wildcard in an Alfa Romeo leads Benediktas Čirba, who creeps right onto the door.\nSend this to your drift group chat 🔥\n🎥 Footage: Drift Masters 2026 Round 1 Italy @benediktascirba @driftmasters.gp\n#driftmasters #drift #benediktascirba #sidewayswire",
+  "youtube_title": "Benediktas Čirba vs Lucas | Drift Masters 2026 Round 1 Italy",
+  "youtube": "A Polish rookie wildcard in an Alfa Romeo leads Benediktas Čirba, who creeps right onto the door.\n\n🎥 Footage: Drift Masters 2026 Round 1 Italy\n@benediktascirba @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "benediktascirba"
+ ]
 }

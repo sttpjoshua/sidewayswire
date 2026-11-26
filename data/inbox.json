@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:46:23.410391+00:00",
+ "updated": "2026-11-26T22:01:34.332119+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -454,7 +454,7 @@
     }
    ],
    "scout": {
-    "score": 36,
+    "score": 35,
     "why": [
      "bekende rijder"
     ],
@@ -587,7 +587,7 @@
     }
    ],
    "scout": {
-    "score": 34,
+    "score": 33,
     "why": [
      "bekende rijder"
     ],
@@ -2299,9 +2299,8 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
@@ -2320,9 +2319,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
   },
   {
    "source": "Formula DRIFT",
@@ -2398,7 +2396,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2425,9 +2423,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
   },
   {
    "source": "Google News",
@@ -2454,7 +2451,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 7,
    "how": "feed"
   },
   {
@@ -2481,8 +2478,9 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
+   "ok": true,
+   "items": 9,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2494,15 +2492,15 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
   }
  ],
  "instagram": true

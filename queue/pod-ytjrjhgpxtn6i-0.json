@@ -1,7 +1,7 @@
 {
  "id": "pod-ytjrjhgpxtn6i-0",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DUSTIN DUSTING THE COURSE",
  "video": "docs/media/pod-ytjrjhgpxtn6i-0/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 246.2
  },
  "created": "2026-11-19T13:52:42.750769+00:00",
- "built": "2026-11-26T19:31:39.591757+00:00",
+ "built": "2026-11-26T22:01:42.420209+00:00",
  "people": [
   "Dustin Farrell",
   "Chris Leonard"
@@ -39,10 +39,22 @@
  "problems": [],
  "qc": {
   "hard": [],
-  "soft": [
-   "tags nog open: Chris Leonard"
-  ],
-  "at": "2026-11-26T19:31:44.342412+00:00"
+  "soft": [],
+  "at": "2026-11-26T22:01:45.558605+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 69,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Dustin Farrell vs Chris Leonard | Formula DRIFT Indianapolis 2026\n\nDustin Farrell and his chaser both flirt with the dirt at Indianapolis. Living up to the name.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@little_webbie16 @thechrisleonard @formulad\n\n#formuladrift #formulad #dustinfarrell #chrisleonard #sidewayswire",
+  "facebook": "Dustin Farrell vs Chris Leonard | Formula DRIFT Indianapolis 2026\n\nDustin Farrell and his chaser both flirt with the dirt at Indianapolis. Living up to the name.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@little_webbie16 @thechrisleonard @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Dustin Farrell vs Chris Leonard | Formula DRIFT Indianapolis 2026: Dustin Farrell and his chaser both flirt with the dirt at Indianapolis. Living up to the name.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Indianapolis 2026 @little_webbie16 @thechrisleonard @formulad\n#formuladrift #formulad #dustinfarrell #sidewayswire",
+  "youtube_title": "Farrell vs Leonard | Formula DRIFT Indianapolis 2026",
+  "youtube": "Dustin Farrell and his chaser both flirt with the dirt at Indianapolis. Living up to the name.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@little_webbie16 @thechrisleonard @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "little_webbie16"
+ ]
 }

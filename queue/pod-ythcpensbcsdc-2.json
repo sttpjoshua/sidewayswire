@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-2",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FORMER CHAMPION LOSES POWER",
  "video": "docs/media/pod-ythcpensbcsdc-2/clip.mp4",
@@ -27,7 +27,7 @@
   "start": 162.24
  },
  "created": "2026-11-19T12:41:01.523313+00:00",
- "built": "2026-11-21T11:55:32.463521+00:00",
+ "built": "2026-11-26T22:01:42.096232+00:00",
  "thumb": "docs/media/thumbs/pod-ythcpensbcsdc-2.jpg",
  "short": "docs/media/pod-ythcpensbcsdc-2/short.mp4",
  "short_len": 29.3,
@@ -43,10 +43,22 @@
  ],
  "qc": {
   "hard": [],
-  "soft": [
-   "tags nog open: Raman Kandrasenka, Lauri Heinonen"
-  ],
-  "at": "2026-11-26T19:31:44.312547+00:00"
+  "soft": [],
+  "at": "2026-11-26T22:01:45.552262+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 80,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Raman Kandrasenka vs Lauri Heinonen | Drift Masters 2026 Round 2 Spain\n\nA weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@lauriheinonen18 @driftmasters.gp\n\n#driftmasters #drift #ramankandrasenka #lauriheinonen #sidewayswire",
+  "facebook": "Raman Kandrasenka vs Lauri Heinonen | Drift Masters 2026 Round 2 Spain\n\nA weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@lauriheinonen18 @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Raman Kandrasenka vs Lauri Heinonen | Drift Masters 2026 Round 2 Spain: A weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Drift Masters 2026 Round 2 Spain @lauriheinonen18 @driftmasters.gp\n#driftmasters #drift #ramankandrasenka #sidewayswire",
+  "youtube_title": "Kandrasenka vs Heinonen | Drift Masters 2026 Round 2 Spain",
+  "youtube": "A weird initiation, no power, and the former champion shuts it down. The wildcard goes through to the top 16.\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@lauriheinonen18 @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "lauriheinonen18"
+ ]
 }

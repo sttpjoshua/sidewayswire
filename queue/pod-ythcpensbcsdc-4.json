@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-4",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FIRST PODIUM FOR KESKIKORPI",
  "video": "docs/media/pod-ythcpensbcsdc-4/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 306.5
  },
  "created": "2026-11-19T12:45:58.679707+00:00",
- "built": "2026-11-21T11:55:32.463787+00:00",
+ "built": "2026-11-26T22:01:42.184484+00:00",
  "thumb": "docs/media/thumbs/pod-ythcpensbcsdc-4.jpg",
  "short": "docs/media/pod-ythcpensbcsdc-4/short.mp4",
  "short_len": 29.3,
@@ -44,10 +44,22 @@
  ],
  "qc": {
   "hard": [],
-  "soft": [
-   "tags nog open: Mika Keski-Korpi"
-  ],
-  "at": "2026-11-26T20:46:43.856947+00:00"
+  "soft": [],
+  "at": "2026-11-26T22:01:45.554484+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 75,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "Keskikorpi vs James Deane | Drift Masters 2026 Round 2 Spain\n\nThird place battle against one of the greats, and the Finnish driver takes down James Deane for his first Drift Masters podium.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@keskikorpimotorsport @jamesdeane130 @driftmasters.gp\n\n#driftmasters #drift #keskikorpi #jamesdeane #sidewayswire",
+  "facebook": "Keskikorpi vs James Deane | Drift Masters 2026 Round 2 Spain\n\nThird place battle against one of the greats, and the Finnish driver takes down James Deane for his first Drift Masters podium.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@keskikorpimotorsport @jamesdeane130 @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Keskikorpi vs James Deane | Drift Masters 2026 Round 2 Spain: Third place battle against one of the greats, and the Finnish driver takes down James Deane for his first Drift Masters podium.\nSend this to your drift group chat 🔥\n🎥 Footage: Drift Masters 2026 Round 2 Spain @keskikorpimotorsport @jamesdeane130 @driftmasters.gp\n#driftmasters #drift #keskikorpi #sidewayswire",
+  "youtube_title": "Keskikorpi vs James Deane | Drift Masters 2026 Round 2 Spain",
+  "youtube": "Third place battle against one of the greats, and the Finnish driver takes down James Deane for his first Drift Masters podium.\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@keskikorpimotorsport @jamesdeane130 @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "jamesdeane130"
+ ]
 }

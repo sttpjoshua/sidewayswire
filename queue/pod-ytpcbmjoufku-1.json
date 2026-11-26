@@ -1,7 +1,7 @@
 {
  "id": "pod-ytpcbmjoufku-1",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "GRINDING PISTONS AT THE TRACK",
  "video": "docs/media/pod-ytpcbmjoufku-1/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 276.66
  },
  "created": "2026-11-20T01:02:26.661564+00:00",
- "built": "2026-11-20T07:02:30.184534+00:00",
+ "built": "2026-11-26T22:01:43.715122+00:00",
  "media": [
   "docs/media/pod-ytpcbmjoufku-1/clip.mp4"
  ],
@@ -41,10 +41,20 @@
  ],
  "qc": {
   "hard": [],
-  "soft": [
-   "tags nog open: Unknown driver"
-  ],
-  "at": "2026-11-26T19:31:44.356690+00:00"
+  "soft": [],
+  "at": "2026-11-26T22:01:45.562104+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 40,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Unknown driver | Drift Masters 2026 Grand Final\n\nOut of stroker parts, a 3 litre swapped in, and the valves hitting the pistons. So they ground the pistons at the track.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\n#driftmasters #drift #unknowndriver #drifting #sidewayswire",
+  "facebook": "Unknown driver | Drift Masters 2026 Grand Final\n\nOut of stroker parts, a 3 litre swapped in, and the valves hitting the pistons. So they ground the pistons at the track.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "Unknown driver | Drift Masters 2026 Grand Final: Out of stroker parts, a 3 litre swapped in, and the valves hitting the pistons. So they ground the pistons at the track.\n🎥 Footage: Drift Masters 2026 Grand Final @driftmasters.gp\n#driftmasters #drift #unknowndriver #sidewayswire",
+  "youtube_title": "Unknown driver | Drift Masters 2026 Grand Final",
+  "youtube": "Out of stroker parts, a 3 litre swapped in, and the valves hitting the pistons. So they ground the pistons at the track.\n\n🎥 Footage: Drift Masters 2026 Grand Final\n@driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": []
 }
