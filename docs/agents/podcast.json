@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Chelsea DeNofa · Grant and I test a SECRET Drift Tire! Is It Competition Ready?",
- "updated": "2026-11-26T19:22:25.232267+00:00",
+ "doing": "leest: Chelsea DeNofa · BMW Never Sold This E46 in America… So We Built the Ultimate One",
+ "updated": "2026-11-26T19:22:28.920487+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:22:28.321633+00:00",
+   "text": "0 momenten uit Grant and I test a SECRET Drift Tire! Is It Competition Ready?",
+   "ref": "ytcgfqwpzchi"
+  },
   {
    "at": "2026-11-26T19:22:24.692328+00:00",
    "text": "0 momenten uit This Is What Everyone Misses About Drifting",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:20:45.080706+00:00",
    "text": "0 momenten uit Making 900HP Actually Usable in My R32 Skyline",
    "ref": "yt0rlddtttnq4"
-  },
-  {
-   "at": "2026-11-26T19:20:41.189477+00:00",
-   "text": "0 momenten uit Ripping the World's Most Expensive R32 GT-R",
-   "ref": "ytzroe49xb87c"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 27
+  "made": 28
  },
  "version": "3"
 }
