@@ -298,6 +298,27 @@
    "max_hours": 1.5,
    "limit": 12,
    "permission": "ja, via DM aan Joshua (19 nov 2026); kanaal bevestigd door Joshua"
+  },
+  {
+   "url": "https://www.youtube.com/@mattfield777/videos",
+   "series": "Matt Field",
+   "creator": "Matt Field",
+   "credit": "@mattfield777",
+   "kind": "vlog",
+   "match": [],
+   "exclude": [
+    "#shorts",
+    "merch",
+    "giveaway",
+    "livestream",
+    "live stream",
+    "podcast"
+   ],
+   "since": "2026-01-01",
+   "min_hours": 0.12,
+   "max_hours": 1.5,
+   "limit": 12,
+   "permission": "ja, via DM aan Joshua (bevestigd in chat 26 nov 2026)"
   }
  ]
 }
