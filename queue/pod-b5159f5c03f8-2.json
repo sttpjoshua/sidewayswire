@@ -1,22 +1,21 @@
 {
  "id": "pod-b5159f5c03f8-2",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "LICENSED 2 WEEKS, STRAIGHT TO TRACK",
  "video": "docs/media/pod-b5159f5c03f8-2/clip.mp4",
- "caption": "Two weeks after his driver license, Rafael Muller followed a stranger from a parking lot to a drift day in France. He had no idea what an LSD was.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #e36 #firstdriftday #grassrootsdrift #sidewayswire",
+ "caption": "Two weeks after his driver license, Rafael Muller followed a stranger from a parking lot to a drift day in France. He had no idea what an LSD was.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #e36 #firstdriftday #grassrootsdrift #sidewayswire",
  "tags": [
+  "@thama56",
   "@palmer_sndrsn",
   "@goodestcast"
  ],
- "missing_handles": [
-  "Rafael Muller"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@goodestcast",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Rafael Muller",
   "Palmer Sanderson"
- ]
+ ],
+ "names_by": "people database"
 }

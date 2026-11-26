@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-0",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "WHEN EVERYTHING BECAME 'JDM'",
  "video": "docs/media/pod-b9e6971ba742-0/clip.mp4",
- "caption": "Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n\n#JDM #OEMplus #CarCulture #Honda #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "Everything on Marketplace is 'JDM' now. The hosts explain how the term lost its meaning, and why OEM+ is heading the same way.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#JDM #OEMplus #CarCulture #Honda #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,6 @@
  "preview_of": "2026-11-17T18:09:52.847515+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

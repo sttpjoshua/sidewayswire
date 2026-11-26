@@ -1,22 +1,21 @@
 {
  "id": "pod-b5159f5c03f8-17",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "EUROPE NEEDS A FINAL BOUT",
  "video": "docs/media/pod-b5159f5c03f8-17/clip.mp4",
- "caption": "Rafael Muller thinks the language barrier is holding European drifting back, and that one shared language would give Europe its own Final Bout.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #finalbout #europeandrift #grassrootsdrift #sidewayswire",
+ "caption": "Rafael Muller thinks the language barrier is holding European drifting back, and that one shared language would give Europe its own Final Bout.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #finalbout #europeandrift #grassrootsdrift #sidewayswire",
  "tags": [
+  "@thama56",
   "@palmer_sndrsn",
   "@goodestcast"
  ],
- "missing_handles": [
-  "Rafael Muller"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@goodestcast",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Rafael Muller",
   "Palmer Sanderson"
- ]
+ ],
+ "names_by": "people database"
 }

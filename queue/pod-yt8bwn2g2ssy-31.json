@@ -1,22 +1,21 @@
 {
  "id": "pod-yt8bwn2g2ssy-31",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "STUCKEY VS MINOWA, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-31/clip.mp4",
- "caption": "Daniel Stuckey against Shinji Minowa in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+ "caption": "Daniel Stuckey against Shinji Minowa in the Great 8. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@stuke.racing @shinjiminowa @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
  "tags": [
+  "@stuke.racing",
+  "@shinjiminowa",
   "@formulad"
  ],
- "missing_handles": [
-  "Daniel Stuckey",
-  "Shinji Minowa"
- ],
+ "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -41,5 +40,6 @@
  "people": [
   "Daniel Stuckey",
   "Shinji Minowa"
- ]
+ ],
+ "names_by": "people database"
 }

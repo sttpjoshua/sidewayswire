@@ -1,22 +1,21 @@
 {
  "id": "pod-yt8bwn2g2ssy-5",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "TWIN CORVETTES DOOR TO DOOR",
  "video": "docs/media/pod-yt8bwn2g2ssy-5/clip.mp4",
- "caption": "Corvette against Corvette: Matt Field leads and Tommy LaMere sticks to his door through the Las Vegas bank.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #corvette #sidewayswire",
+ "caption": "Corvette against Corvette: Matt Field leads and Tommy LaMere sticks to his door through the Las Vegas bank.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #lasvegas #corvette #sidewayswire",
  "tags": [
   "@mattfield777",
+  "@tommy.lemaire",
   "@formulad"
  ],
- "missing_handles": [
-  "Tommy LaMere"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Matt Field",
   "Tommy LaMere"
- ]
+ ],
+ "names_by": "people database"
 }

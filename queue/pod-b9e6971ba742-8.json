@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-8",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "500 HP JUNKYARD 5.3 VS CIVIC",
  "video": "docs/media/pod-b9e6971ba742-8/clip.mp4",
- "caption": "A junkyard 5.3 can make 500 hp with the right setup. A naturally aspirated Civic? Good luck. Why the V8 crowd chases power, not trim levels.\n\n🎙 Full episode: Behind The Wheel\n\n#LSswap #Hellcat #Honda #V8 #CarCulture #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "A junkyard 5.3 can make 500 hp with the right setup. A naturally aspirated Civic? Good luck. Why the V8 crowd chases power, not trim levels.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#LSswap #Hellcat #Honda #V8 #CarCulture #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,6 @@
  "preview_of": "2026-11-17T18:53:11.828437+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

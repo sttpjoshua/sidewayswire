@@ -1,21 +1,20 @@
 {
  "id": "pod-ytvphv55wk1ja-3",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "94.2 FROM THE HOME HERO",
  "video": "docs/media/pod-ytvphv55wk1ja-3/clip.mp4",
- "caption": "The Polish flags are out and the home crowd is on its feet. Last year's top qualifier delivers again: 94.2.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@driftmasters.gp\n\n#driftmasters #drifting #poland #warsaw #sidewayswire",
+ "caption": "The Polish flags are out and the home crowd is on its feet. Last year's top qualifier delivers again: 94.2.\n\n🎥 Footage: RED BULL DRIFT MASTERS GRAND FINALE 2026\n@jakubkrol225 @driftmasters.gp\n\n#driftmasters #drifting #poland #warsaw #sidewayswire",
  "tags": [
+  "@jakubkrol225",
   "@driftmasters.gp"
  ],
- "missing_handles": [
-  "Jakub Król"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@driftmasters.gp",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -40,5 +39,6 @@
  "preview_of": "2026-11-20T07:02:33.808397+00:00",
  "people": [
   "Jakub Król"
- ]
+ ],
+ "names_by": "people database"
 }

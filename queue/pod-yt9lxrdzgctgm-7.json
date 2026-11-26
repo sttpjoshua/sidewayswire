@@ -1,22 +1,21 @@
 {
  "id": "pod-yt9lxrdzgctgm-7",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "STUCKEY HITS LZ TWICE",
  "video": "docs/media/pod-yt9lxrdzgctgm-7/clip.mp4",
- "caption": "Daniel Stuckey dives in hard on Adam LZ and makes contact twice. LZ's BMW just keeps going.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@adam_lz @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
+ "caption": "Daniel Stuckey dives in hard on Adam LZ and makes contact twice. LZ's BMW just keeps going.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@adam_lz @stuke.racing @formulad\n\n#formulad #formuladrift #adamlz #drifting #longbeach #sidewayswire",
  "tags": [
   "@adam_lz",
+  "@stuke.racing",
   "@formulad"
  ],
- "missing_handles": [
-  "Daniel Stuckey"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Adam LZ",
   "Daniel Stuckey"
- ]
+ ],
+ "names_by": "people database"
 }

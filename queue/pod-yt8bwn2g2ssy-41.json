@@ -1,22 +1,21 @@
 {
  "id": "pod-yt8bwn2g2ssy-41",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "FIELD VS STUCKEY, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-41/clip.mp4",
- "caption": "Matt Field against Daniel Stuckey in the final four. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+ "caption": "Matt Field against Daniel Stuckey in the final four. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @stuke.racing @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
  "tags": [
   "@mattfield777",
+  "@stuke.racing",
   "@formulad"
  ],
- "missing_handles": [
-  "Daniel Stuckey"
- ],
+ "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -41,5 +40,6 @@
  "people": [
   "Matt Field",
   "Daniel Stuckey"
- ]
+ ],
+ "names_by": "people database"
 }

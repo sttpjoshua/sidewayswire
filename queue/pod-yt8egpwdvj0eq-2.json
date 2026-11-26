@@ -1,21 +1,20 @@
 {
  "id": "pod-yt8egpwdvj0eq-2",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "JOHNSON ON THE WRONG SIDE",
  "video": "docs/media/pod-yt8egpwdvj0eq-2/clip.mp4",
- "caption": "Jerry Johnson ends up on the wrong side, while his opponent kept it between the white lines.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
+ "caption": "Jerry Johnson ends up on the wrong side, while his opponent kept it between the white lines.\n\n🎥 Footage: FD CONNECTICUT 2026 HIGHLIGHTS | PRESENT\n@jerrydrift @formulad\n\n#formulad #formuladrift #drifting #connecticut #prospec #sidewayswire",
  "tags": [
+  "@jerrydrift",
   "@formulad"
  ],
- "missing_handles": [
-  "Jerry Johnson"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -40,5 +39,6 @@
  "preview_of": "2026-11-19T01:11:25.911574+00:00",
  "people": [
   "Jerry Johnson"
- ]
+ ],
+ "names_by": "people database"
 }

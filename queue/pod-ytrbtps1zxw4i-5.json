@@ -1,22 +1,21 @@
 {
  "id": "pod-ytrbtps1zxw4i-5",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "SHINJI MINOWA STICKS IT TO ODI",
  "video": "docs/media/pod-ytrbtps1zxw4i-5/clip.mp4",
- "caption": "Shinji Minowa stepped in for his son mid season and now he's all over championship contender Odi Bakchis.\n\n🎥 Footage: FD LAS VEGAS 2026\n@odidrift @formulad\n\n#formulad #formuladrift #odibakchis #drifting #sidewayswire",
+ "caption": "Shinji Minowa stepped in for his son mid season and now he's all over championship contender Odi Bakchis.\n\n🎥 Footage: FD LAS VEGAS 2026\n@odidrift @shinjiminowa @formulad\n\n#formulad #formuladrift #odibakchis #drifting #sidewayswire",
  "tags": [
   "@odidrift",
+  "@shinjiminowa",
   "@formulad"
  ],
- "missing_handles": [
-  "Shinji Minowa"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Aurimas Bakchis",
   "Shinji Minowa"
- ]
+ ],
+ "names_by": "people database"
 }

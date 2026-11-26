@@ -1,22 +1,21 @@
 {
  "id": "pod-yt8bwn2g2ssy-6",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "TWIN CORVETTES, SIDE BY SIDE",
  "video": "docs/media/pod-yt8bwn2g2ssy-6/clip.mp4",
- "caption": "Matt Field against Tommy LaMere, Corvette against Corvette. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+ "caption": "Matt Field against Tommy LaMere, Corvette against Corvette. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
  "tags": [
   "@mattfield777",
+  "@tommy.lemaire",
   "@formulad"
  ],
- "missing_handles": [
-  "Tommy LaMere"
- ],
+ "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -41,5 +40,6 @@
  "people": [
   "Matt Field",
   "Tommy LaMere"
- ]
+ ],
+ "names_by": "people database"
 }

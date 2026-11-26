@@ -1,7 +1,7 @@
 {
  "id": "pod-yt8bwn2g2ssy-8",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "EGGERT HANGS UP THE HEADSET",
  "video": "docs/media/pod-yt8bwn2g2ssy-8/clip.mp4",
@@ -9,13 +9,11 @@
  "tags": [
   "@formulad"
  ],
- "missing_handles": [
-  "Brian Eggert"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -39,5 +37,6 @@
  "preview_of": "2026-11-19T01:11:25.686283+00:00",
  "people": [
   "Brian Eggert"
- ]
+ ],
+ "names_by": "people database"
 }

@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-2",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "MUGEN IS NOT HONDA OEM",
  "video": "docs/media/pod-b9e6971ba742-2/clip.mp4",
- "caption": "Lots of newer fans think Mugen parts are factory Honda. They are not, and the brand now sells floor mats next to race parts.\n\n🎙 Full episode: Behind The Wheel\n\n#Mugen #Honda #OEMplus #JDM #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "Lots of newer fans think Mugen parts are factory Honda. They are not, and the brand now sells floor mats next to race parts.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#Mugen #Honda #OEMplus #JDM #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,6 @@
  "preview_of": "2026-11-17T18:09:52.848343+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

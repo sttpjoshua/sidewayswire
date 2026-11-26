@@ -1,22 +1,21 @@
 {
  "id": "pod-b5159f5c03f8-6",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "ONE OF 3 STREET LEGAL SILVIAS",
  "video": "docs/media/pod-b5159f5c03f8-6/clip.mp4",
- "caption": "Only about three built Silvias are street legal in Switzerland. Rafael Muller asked the owner seven years earlier, then sold everything to buy it.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #silvia #s14 #switzerland #jdm #sidewayswire",
+ "caption": "Only about three built Silvias are street legal in Switzerland. Rafael Muller asked the owner seven years earlier, then sold everything to buy it.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #silvia #s14 #switzerland #jdm #sidewayswire",
  "tags": [
+  "@thama56",
   "@palmer_sndrsn",
   "@goodestcast"
  ],
- "missing_handles": [
-  "Rafael Muller"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@goodestcast",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Rafael Muller",
   "Palmer Sanderson"
- ]
+ ],
+ "names_by": "people database"
 }

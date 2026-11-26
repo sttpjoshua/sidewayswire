@@ -1,22 +1,21 @@
 {
  "id": "pod-b5159f5c03f8-14",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "DONE WITH DRIFTING?",
  "video": "docs/media/pod-b5159f5c03f8-14/clip.mp4",
- "caption": "Some people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #driftlife #grassrootsdrift #mentalhealth #sidewayswire",
+ "caption": "Some people are done with drifting but keep going because it became their whole identity. Rafael Muller admits it would leave a hole in his life too.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #driftlife #grassrootsdrift #mentalhealth #sidewayswire",
  "tags": [
+  "@thama56",
   "@palmer_sndrsn",
   "@goodestcast"
  ],
- "missing_handles": [
-  "Rafael Muller"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@goodestcast",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Rafael Muller",
   "Palmer Sanderson"
- ]
+ ],
+ "names_by": "people database"
 }

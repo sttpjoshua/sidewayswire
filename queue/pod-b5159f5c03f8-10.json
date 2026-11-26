@@ -1,22 +1,21 @@
 {
  "id": "pod-b5159f5c03f8-10",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "WHY RAF SKIPS COMPETITION",
  "video": "docs/media/pod-b5159f5c03f8-10/clip.mp4",
- "caption": "New tires bought with his last money, little seat time and a lot of pressure. Rafael Muller on why competition is not his thing.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #grassrootsdrift #driftcomp #e36 #sidewayswire",
+ "caption": "New tires bought with his last money, little seat time and a lot of pressure. Rafael Muller on why competition is not his thing.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #grassrootsdrift #driftcomp #e36 #sidewayswire",
  "tags": [
+  "@thama56",
   "@palmer_sndrsn",
   "@goodestcast"
  ],
- "missing_handles": [
-  "Rafael Muller"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@goodestcast",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Rafael Muller",
   "Palmer Sanderson"
- ]
+ ],
+ "names_by": "people database"
 }

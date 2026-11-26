@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-3",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "GT-R TURBOS ON A VQ37",
  "video": "docs/media/pod-b9e6971ba742-3/clip.mp4",
- "caption": "GT-R twin turbos on a VQ37: OEM+ for fitment, even though aftermarket kits might do better. Stay in the box or go for what's best?\n\n🎙 Full episode: Behind The Wheel\n\n#VQ37 #NissanGTR #Infiniti #TwinTurbo #Nissan #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "GT-R twin turbos on a VQ37: OEM+ for fitment, even though aftermarket kits might do better. Stay in the box or go for what's best?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#VQ37 #NissanGTR #Infiniti #TwinTurbo #Nissan #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,6 @@
  "preview_of": "2026-11-17T18:09:52.848544+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

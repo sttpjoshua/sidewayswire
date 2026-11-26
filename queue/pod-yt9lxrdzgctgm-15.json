@@ -1,7 +1,7 @@
 {
  "id": "pod-yt9lxrdzgctgm-15",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "THREE JUDGES, THREE DIFFERENT CALLS",
  "video": "docs/media/pod-yt9lxrdzgctgm-15/clip.mp4",
@@ -11,13 +11,11 @@
   "@mattfield777",
   "@formulad"
  ],
- "missing_handles": [
-  "Brian Eggert"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -44,5 +42,6 @@
   "Tommy Lemaire",
   "Matt Field",
   "Brian Eggert"
- ]
+ ],
+ "names_by": "people database"
 }

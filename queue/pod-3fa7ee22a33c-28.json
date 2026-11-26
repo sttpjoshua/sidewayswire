@@ -1,23 +1,22 @@
 {
  "id": "pod-3fa7ee22a33c-28",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "THIS ISN'T MY LEVEL",
  "video": "docs/media/pod-3fa7ee22a33c-28/clip.mp4",
- "caption": "Christian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#FormulaDrift #PROSPEC #Drifting #Top16 #sidewayswire",
+ "caption": "Christian Cotrone made Top 16 the one time the car worked, and he says this year was not the level of his driving.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @jerrydrift @formulad @jako13\n\n#FormulaDrift #PROSPEC #Drifting #Top16 #sidewayswire",
  "tags": [
   "@christiancotrone",
+  "@jerrydrift",
   "@formulad",
   "@jako13"
  ],
- "missing_handles": [
-  "Jerry Johnson"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -43,5 +42,6 @@
  "people": [
   "Christian Cotrone",
   "Jerry Johnson"
- ]
+ ],
+ "names_by": "people database"
 }

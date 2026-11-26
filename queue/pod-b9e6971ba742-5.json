@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-5",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "VR30 SWAP KIT FOR THE 350Z",
  "video": "docs/media/pod-b9e6971ba742-5/clip.mp4",
- "caption": "Wiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n\n🎙 Full episode: Behind The Wheel\n\n#350Z #VR30 #EngineSwap #Nissan #DriftCar #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "Wiring Specialties is doing a VR30 swap kit for the Z33 350Z. A junkyard 400 hp twin turbo in a cheap, light chassis. Drift build of the year?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#350Z #VR30 #EngineSwap #Nissan #DriftCar #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,6 @@
  "preview_of": "2026-11-17T18:09:52.848997+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

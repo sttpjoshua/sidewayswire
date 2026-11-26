@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-7",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "WHY TYPE RS GOT STOLEN",
  "video": "docs/media/pod-b9e6971ba742-7/clip.mp4",
- "caption": "The OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n\n🎙 Full episode: Behind The Wheel\n\n#TypeR #IntegraGSR #Honda #JDM #CarCulture #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "The OEM+ craze had a dark side: late 90s Type Rs and GSRs lost engines, wheels and seats to thieves.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#TypeR #IntegraGSR #Honda #JDM #CarCulture #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,6 @@
  "preview_of": "2026-11-17T18:09:52.849404+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

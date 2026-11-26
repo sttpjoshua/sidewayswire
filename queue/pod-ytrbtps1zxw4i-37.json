@@ -1,22 +1,21 @@
 {
  "id": "pod-ytrbtps1zxw4i-37",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "O'SULLIVAN VS RICHARDS",
  "video": "docs/media/pod-ytrbtps1zxw4i-37/clip.mp4",
- "caption": "Connor O'Sullivan vs Cole Richards in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+ "caption": "Connor O'Sullivan vs Cole Richards in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@connor_osully @colerichardz @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
  "tags": [
+  "@connor_osully",
   "@colerichardz",
   "@formulad"
  ],
- "missing_handles": [
-  "Connor O'Sullivan"
- ],
+ "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -41,5 +40,6 @@
  "people": [
   "Connor O'Sullivan",
   "Cole Richards"
- ]
+ ],
+ "names_by": "people database"
 }

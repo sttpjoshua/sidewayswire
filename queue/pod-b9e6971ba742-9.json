@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-9",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "CORVETTE GUYS CATCH STRAYS",
  "video": "docs/media/pod-b9e6971ba742-9/clip.mp4",
- "caption": "High socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n\n🎙 Full episode: Behind The Wheel\n\n#Corvette #Nissan #Ford #CarCulture #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "High socks, New Balances and tan shorts: the Corvette crowd catches strays, and the Ford and Nissan guys roast themselves too.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#Corvette #Nissan #Ford #CarCulture #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -37,5 +37,6 @@
  "preview_of": "2026-11-17T18:09:52.849835+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

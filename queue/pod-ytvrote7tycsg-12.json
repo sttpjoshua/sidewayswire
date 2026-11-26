@@ -1,22 +1,21 @@
 {
  "id": "pod-ytvrote7tycsg-12",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "UNCHASEABLE LEAD?",
  "video": "docs/media/pod-ytvrote7tycsg-12/clip.mp4",
- "caption": "Brandon Sorensen backs it deep into the wall and Daniel Stuckey spins behind him. Was that lead run even chaseable?\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+ "caption": "Brandon Sorensen backs it deep into the wall and Daniel Stuckey spins behind him. Was that lead run even chaseable?\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
  "tags": [
   "@branden_sorensen",
+  "@stuke.racing",
   "@formulad"
  ],
- "missing_handles": [
-  "Daniel Stuckey"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Brandon Sorensen",
   "Daniel Stuckey"
- ]
+ ],
+ "names_by": "people database"
 }

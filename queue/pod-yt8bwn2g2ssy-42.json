@@ -1,22 +1,21 @@
 {
  "id": "pod-yt8bwn2g2ssy-42",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "FIELD BOOKS HIS FINAL SPOT",
  "video": "docs/media/pod-yt8bwn2g2ssy-42/clip.mp4",
- "caption": "Matt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
+ "caption": "Matt Field beats Daniel Stuckey to reach the final in Las Vegas, as Stuckey scores his best finish yet.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @stuke.racing @formulad\n\n#formulad #formuladrift #drifting #lasvegas #mattfield #sidewayswire",
  "tags": [
   "@mattfield777",
+  "@stuke.racing",
   "@formulad"
  ],
- "missing_handles": [
-  "Daniel Stuckey"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Matt Field",
   "Daniel Stuckey"
- ]
+ ],
+ "names_by": "people database"
 }

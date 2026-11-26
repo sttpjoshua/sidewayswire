@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-1",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "IS OEM+ JUST LAZY?",
  "video": "docs/media/pod-b9e6971ba742-1/clip.mp4",
- "caption": "Another white 96 Civic with the same Type R parts as 30 others in town? One host says OEM+ can get lazy. Agree?\n\n🎙 Full episode: Behind The Wheel\n\n#OEMplus #CivicTypeR #EK9 #HondaCivic #CarCulture #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "Another white 96 Civic with the same Type R parts as 30 others in town? One host says OEM+ can get lazy. Agree?\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#OEMplus #CivicTypeR #EK9 #HondaCivic #CarCulture #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,6 @@
  "preview_of": "2026-11-17T18:09:52.847733+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

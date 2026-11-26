@@ -1,19 +1,19 @@
 {
  "id": "pod-b9e6971ba742-11",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "THE WING THAT BROKE THE INTERNET",
  "video": "docs/media/pod-b9e6971ba742-11/clip.mp4",
- "caption": "An Acura TSX with Accord Euro R parts, a supercharger and 350 aftermarket parts. The comments? Only about the big wing.\n\n🎙 Full episode: Behind The Wheel\n\n#AcuraTSX #AccordEuroR #OEMplus #Honda #sidewayswire",
- "tags": [],
- "missing_handles": [
-  "Behind The Wheel"
+ "caption": "An Acura TSX with Accord Euro R parts, a supercharger and 350 aftermarket parts. The comments? Only about the big wing.\n\n🎙 Full episode: Behind The Wheel\n@formulad\n\n#AcuraTSX #AccordEuroR #OEMplus #Honda #sidewayswire",
+ "tags": [
+  "@formulad"
  ],
+ "missing_handles": [],
  "format": "single",
  "credit": "",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -38,5 +38,6 @@
  "preview_of": "2026-11-17T18:09:52.848141+00:00",
  "people": [
   "Behind The Wheel"
- ]
+ ],
+ "names_by": "people database"
 }

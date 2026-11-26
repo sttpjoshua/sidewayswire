@@ -1,22 +1,21 @@
 {
  "id": "pod-b5159f5c03f8-16",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "STRANDED IN SPAIN, BEST 2 WEEKS",
  "video": "docs/media/pod-b5159f5c03f8-16/clip.mp4",
- "caption": "Broke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @goodestcast\n\n#drift #roadtrip #spain #driftfamily #sidewayswire",
+ "caption": "Broke down in Spain at 2am, texted a drifter he met once, and ended up with two weeks of street drifting, car auctions and a lifelong friendship.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #roadtrip #spain #driftfamily #sidewayswire",
  "tags": [
+  "@thama56",
   "@palmer_sndrsn",
   "@goodestcast"
  ],
- "missing_handles": [
-  "Rafael Muller"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@goodestcast",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Rafael Muller",
   "Palmer Sanderson"
- ]
+ ],
+ "names_by": "people database"
 }

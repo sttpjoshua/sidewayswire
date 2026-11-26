@@ -1,22 +1,21 @@
 {
  "id": "pod-ytcaagmgzlale-4",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "JOHNSON MAJOR MISTAKE IN OMT",
  "video": "docs/media/pod-ytcaagmgzlale-4/clip.mp4",
- "caption": "One more time between Jerry Johnson and Braden Lons, and Johnson makes the major mistake.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
+ "caption": "One more time between Jerry Johnson and Braden Lons, and Johnson makes the major mistake.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@jerrydrift @braden.lons @formulad\n\n#formulad #formuladrift #drifting #lasvegas #prospec #sidewayswire",
  "tags": [
+  "@jerrydrift",
   "@braden.lons",
   "@formulad"
  ],
- "missing_handles": [
-  "Jerry Johnson"
- ],
+ "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": true,
- "check_reason": "namen nakijken",
+ "check": false,
+ "check_reason": "",
  "platforms": [
   "instagram",
   "facebook",
@@ -42,5 +41,6 @@
  "people": [
   "Jerry Johnson",
   "Braden Lons"
- ]
+ ],
+ "names_by": "people database"
 }
