@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Jimmy Oakes · OFFICIALLY bringing a car to SEMA! ",
- "updated": "2026-11-26T19:24:02.767981+00:00",
+ "doing": "leest: Jimmy Oakes · We start my R34 GTR for the FIRST TIME!!",
+ "updated": "2026-11-26T19:24:06.493937+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:24:05.899060+00:00",
+   "text": "0 momenten uit OFFICIALLY bringing a car to SEMA! ",
+   "ref": "ytz0wfxwbxkpu"
+  },
   {
    "at": "2026-11-26T19:24:02.182580+00:00",
    "text": "0 momenten uit My R34 GTR IS FINALLY TOGETHER!! ",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:22:28.321633+00:00",
    "text": "0 momenten uit Grant and I test a SECRET Drift Tire! Is It Competition Ready?",
    "ref": "ytcgfqwpzchi"
-  },
-  {
-   "at": "2026-11-26T19:22:24.692328+00:00",
-   "text": "0 momenten uit This Is What Everyone Misses About Drifting",
-   "ref": "ytvyyg52kjeo"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 51
+  "made": 52
  },
  "version": "3"
 }
