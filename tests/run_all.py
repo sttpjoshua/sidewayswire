@@ -62,11 +62,28 @@ q.save({"id": "t-long", "kind": "news", "status": "draft", "slides": [{"template
         "data": nd | {"headline": ["THIS HEADLINE IS FAR TOO LONG TO EVER FIT ON ONE SINGLE TAPE BAR", "B"]}}], "caption": "x"}, F)
 b = build.run(F, ROOT / "docs/media")
 os.environ["LC_DRY_RUN"] = "1"
-pub = publish.run(F, now=datetime.now(timezone.utc) + timedelta(days=3))
+from lc import planner as _pl
+_ps = q.load(folder=F); _pl.plan(_ps)                  # the real run plans between build and publish
+for _p in _ps:
+    q.save(_p, F)
+pub = publish.run(F, now=max(datetime.now(timezone.utc), q.START.astimezone(timezone.utc)) + timedelta(days=3))  # nothing is planned before START
 st = {x["id"]: x["status"] for x in q.load(folder=F)}
 ok = st == {"t-ok": "posted", "t-long": "check"} and pub["dry_run"]
 print("queue pipeline", ok, st)
 if not ok: fails.append("pipeline")
+
+from lc import planner
+now = datetime.now(timezone.utc)
+old = (now - timedelta(hours=60)).isoformat()
+ex = [{"id": "n-old", "kind": "news", "status": "ready", "created": old},
+      {"id": "n-new", "kind": "news", "status": "ready", "created": now.isoformat()},
+      {"id": "n-mine", "kind": "news", "status": "ready", "created": old, "want_at": now.isoformat()},
+      {"id": "c-old", "kind": "stream_clip", "status": "ready", "created": old}]
+planner.expire(ex, now)
+st = {x["id"]: x["status"] for x in ex}
+ok = st == {"n-old": "skipped", "n-new": "ready", "n-mine": "ready", "c-old": "ready"}
+print("old news expires", ok, st)
+if not ok: fails.append("expire")
 
 shutil.rmtree(ROOT / "docs/media/t-ok", ignore_errors=True); shutil.rmtree(ROOT / "docs/media/t-long", ignore_errors=True)
 print("ALL OK" if not fails else f"FAILED: {fails}")

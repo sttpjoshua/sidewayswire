@@ -28,6 +28,8 @@ FREEZE_HOURS = 36
 RECENT = 3                              # a driver comes back on the same platform after at least 3 other reels
 REEL_KINDS = {"stream_clip", "podcast_clip", "battle_reel", "vlog_clip"}
 URGENT = q.URGENT
+FRESH_HOURS = 48                        # news is old after two days: it is skipped instead of posted late
+FRESH_KINDS = {"news", "hook"}
 KIND_POINTS = {"battle": 30, "final": 30, "crash": 28, "omt": 28, "qualify": 24, "call": 18, "moment": 16,
                "quote": 12, "fact": 8, "rumor": 8}
 
@@ -81,6 +83,7 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
     real_now = datetime.now(timezone.utc)
     freeze = real_now + timedelta(hours=FREEZE_HOURS)
     reg, plats = handles.registry(), active_platforms()
+    expire(posts, real_now)
     todo = [p for p in posts if p.get("status") in ("ready", "approved")]
     taken = defaultdict(set)            # platform -> set of datetimes
     eps_on = defaultdict(set)           # (platform, date) -> episodes
@@ -179,6 +182,32 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
     return dict(rep)
 
 
+def expire(posts: list[dict], now: datetime) -> list[dict]:
+    """News that waited longer than FRESH_HOURS for a slot is skipped: posting it late makes the
+    channel look slow. Kept: Joshua's own choices (approved, want_at, pinned), urgent kinds,
+    evergreen posts and posts that already went out on one platform or are planned within the freeze."""
+    out = []
+    for p in posts:
+        if p.get("status") != "ready" or p.get("kind") not in FRESH_KINDS or p.get("evergreen"):
+            continue
+        if p.get("want_at") or p.get("pinned_at") or p.get("pinned") or p.get("results"):
+            continue
+        born = p.get("created") or p.get("built")
+        if not born:
+            continue
+        b = datetime.fromisoformat(born)
+        b = b if b.tzinfo else b.replace(tzinfo=timezone.utc)
+        if (now - b).total_seconds() < FRESH_HOURS * 3600:
+            continue
+        soon = [datetime.fromisoformat(t) for t in (p.get("plan") or {}).values()]
+        if any(now <= t <= now + timedelta(hours=FREEZE_HOURS) for t in soon) and now >= q.START:
+            continue                        # already on the site and about to go out: let it go
+        p.update(status="skipped", skip_reason=f"verouderd: ouder dan {FRESH_HOURS} uur", plan={}, post_at=None,
+                 _expired=True)
+        out.append(p)
+    return out
+
+
 def remaining(p: dict) -> list[str]:
     """Platforms this post should still go to (used by publish to decide when a post is done)."""
     plats = active_platforms()
@@ -195,7 +224,10 @@ def run() -> dict:
     posts = q.load()
     rep = plan(posts)
     for p in posts:
-        if p.get("status") in ("ready", "approved"):
+        if p.pop("_expired", False):
+            rep["verouderd"] = rep.get("verouderd", 0) + 1
+            q.save(p)
+        elif p.get("status") in ("ready", "approved"):
             q.save(p)
     return rep
 
