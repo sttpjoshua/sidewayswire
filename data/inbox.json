@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:01:40.963737+00:00",
+ "updated": "2026-11-26T23:16:26.119625+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -38,7 +38,7 @@
     }
    ],
    "scout": {
-    "score": 50,
+    "score": 49,
     "why": [
      "bekende rijder",
      "3 bronnen",
@@ -562,7 +562,7 @@
     }
    ],
    "scout": {
-    "score": 17,
+    "score": 16,
     "why": [],
     "skip": false,
     "feature": false
@@ -2313,8 +2313,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 11,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2397,7 +2398,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2460,7 +2461,7 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {

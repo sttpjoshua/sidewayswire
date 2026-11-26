@@ -2,7 +2,7 @@
  "id": "pod-ytcaagmgzlale-15",
  "kind": "stream_clip",
  "status": "ready",
- "post_at": "2026-12-22T16:30:00+00:00",
+ "post_at": null,
  "slides": [],
  "title": "SPARKS AND A DOOR BANG",
  "video": "docs/media/pod-ytcaagmgzlale-15/clip.mp4",
@@ -30,9 +30,7 @@
  },
  "created": "2026-11-19T07:38:15.018520+00:00",
  "built": "2026-11-26T15:10:10.064890+00:00",
- "plan": {
-  "tiktok": "2026-12-22T16:30:00+00:00"
- },
+ "plan": {},
  "people": [
   "Ben Hobson",
   "Adam LZ"
