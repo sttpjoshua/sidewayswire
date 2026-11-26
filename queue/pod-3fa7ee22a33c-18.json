@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-18",
  "kind": "podcast_clip",
- "status": "check",
+ "status": "approved",
  "slides": [],
  "title": "LINKIN PARK CONNECTION",
  "video": "docs/media/pod-3fa7ee22a33c-18/clip.mp4",
@@ -50,5 +50,6 @@
    "tags nog open: Ross Richardson"
   ],
   "at": "2026-11-26T19:31:44.195049+00:00"
- }
+ },
+ "approved": "2026-11-26T20:56:14.740Z"
 }
