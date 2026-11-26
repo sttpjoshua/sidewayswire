@@ -540,6 +540,17 @@ def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
             ag[a].flush("pauze" if on[a] else "uit", note[a])
         return {"off": True, "why": "werktijd: de Mac is van Joshua"}
     t0, rep = time.time(), {"moments": 0, "episodes": 0, "news": 0, "replies": 0}
+    # Turbo (Joshua, 26 nov): to catch up the week that was lost, one long round instead of many short ones,
+    # so the model is loaded once and keeps working. launchd never starts a second helper while one runs.
+    global WINDOW
+    turbo = False
+    try:
+        until = settings.get("local_editor_turbo_until")
+        turbo = bool(until) and datetime.now(timezone.utc) < datetime.fromisoformat(until)
+    except Exception:
+        pass
+    if turbo:
+        budget_s, WINDOW = 50 * 60, 110
     try:
         model(log)                          # no model, no work: stop here instead of writing empty results
     except Exception as ex:
@@ -595,13 +606,13 @@ def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
         if cur is not None and not (cur == [] and ep["id"] in redo):
             continue
         todo[aid] += 1
-        if not on[aid] or time.time() - t0 > budget_s:
+        if not on[aid] or time.time() - t0 > budget_s or busy_hours(settings):
             continue
         t = json_or(f"data/podcasts/t/{ep['id']}.json", None)
         if not t:
             continue
         a = ag[aid]
-        a.doing = f"leest: {ep.get('podcast') or ''} · {ep.get('title') or ep['id']}"[:120]
+        a.doing = (f"{'turbo · ' if turbo else ''}leest: {ep.get('podcast') or ''} · {ep.get('title') or ep['id']}")[:120]
         a.flush("bezig", note[aid])
         n_err = len(a.errors)
         ms = moments_for(ep, t, known, log, beat, a, note[aid])
