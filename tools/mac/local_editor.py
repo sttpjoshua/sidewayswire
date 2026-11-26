@@ -15,6 +15,17 @@ A small language model (Qwen 2.5 via mlx-lm, downloaded once from Hugging Face) 
 3. Replies: for the best comments on our own posts (data/replies.json, collected by lc/engage.py) it writes
    a short, human reply. Joshua approves every reply on the dashboard; nothing is sent on its own.
 
+Since v3 (Joshua, 26 nov) the work is split over four editors, each an agent on the dashboard (AGENTS)
+with its own on/off switch and Joshua's own instruction (data/agents.json):
+  battle    livestreams: battles, qualifying, crashes, calls
+  podcast   podcasts and vlogs: quotes, rumors, facts
+  nieuws    news from the inbox (in the order of the news scout) and Joshua's own tips (data/tips.json) first
+  community reply suggestions
+Each writes what it is doing, what it made and what went wrong to docs/agents/<id>.json.
+v3 also fixes why v2 found nothing from 19 to 26 nov (0 moments from 144 videos): long answers from the
+model were cut off, so the JSON did not parse and the whole piece was lost without a word. Now every
+complete item is kept, and the reasons why items are dropped are counted and shown.
+
 Rules from Joshua (EDITOR.md) apply: English, short, no em-dash, no drift or judging explainers,
 rumors only as rumor and always checked, no made-up handles.
 """
@@ -30,7 +41,7 @@ import time
 import unicodedata
 from datetime import datetime, timezone
 
-VERSION = "2"
+VERSION = "3"
 MODEL_BIG = "mlx-community/Qwen2.5-14B-Instruct-4bit"     # about 8 GB, for Macs with 32 GB or more
 MODEL_SMALL = "mlx-community/Qwen2.5-7B-Instruct-4bit"    # about 4.5 GB
 WINDOW = 70                 # transcript segments per question to the model
@@ -79,18 +90,46 @@ def ask(log, system: str, user: str, max_tokens: int = 1800) -> str:
     name, m, tok = model(log)
     msgs = [{"role": "system", "content": system}, {"role": "user", "content": user}]
     prompt = tok.apply_chat_template(msgs, add_generation_prompt=True, tokenize=False)
-    return generate(m, tok, prompt=prompt, max_tokens=max_tokens, sampler=make_sampler(temp=0.3), verbose=False)
+    try:
+        return generate(m, tok, prompt=prompt, max_tokens=max_tokens, sampler=make_sampler(temp=0.3), verbose=False)
+    except TypeError:                       # older mlx-lm
+        return generate(m, tok, prompt=prompt, max_tokens=max_tokens, temp=0.3, verbose=False)
 
 
 def _json(text: str):
-    text = re.sub(r"```(json)?", "", text)
-    for open_, close in (("[", "]"), ("{", "}")):
-        a, b = text.find(open_), text.rfind(close)
-        if a != -1 and b > a:
+    """The JSON in a model answer. A list that was cut off (answer too long) still gives every item that
+    was complete, instead of nothing (the v2 problem)."""
+    text = re.sub(r"```(json)?", "", str(text or ""))
+    a_l, a_o = text.find("["), text.find("{")
+    if a_l != -1 and (a_o == -1 or a_l < a_o):
+        b = text.rfind("]")
+        if b > a_l:
             try:
-                return json.loads(text[a:b + 1])
+                return json.loads(text[a_l:b + 1])
             except json.JSONDecodeError:
-                continue
+                pass
+        dec, out, i = json.JSONDecoder(), [], a_l + 1
+        while True:
+            j = text.find("{", i)
+            if j == -1:
+                break
+            try:
+                obj, end = dec.raw_decode(text, j)
+            except json.JSONDecodeError:
+                break
+            if isinstance(obj, dict):
+                out.append(obj)
+            i = end
+        return out or None
+    if a_o != -1:
+        b = text.rfind("}")
+        try:
+            return json.loads(text[a_o:b + 1])
+        except json.JSONDecodeError:
+            try:
+                return json.JSONDecoder().raw_decode(text, a_o)[0]
+            except json.JSONDecodeError:
+                return None
     return None
 
 
@@ -164,31 +203,52 @@ def _seg_lines(segs: list, a: int, b: int) -> str:
                      for i, s in enumerate(segs[a:b], start=a))
 
 
-def moments_for(ep: dict, transcript: dict, known: dict, log, beat) -> list:
+def moments_for(ep: dict, transcript: dict, known: dict, log, beat, agent=None, note: str = "") -> list:
     kind = ep.get("kind", "podcast")
     segs = [s for s in transcript.get("segments", []) if s.get("text", "").strip()]
     allowed = KINDS[kind]
-    system = SYSTEM_MOMENTS.replace("KINDS", ", ".join(allowed))
+    system = SYSTEM_MOMENTS.replace("KINDS", ", ".join(allowed)) + _steer(note)
+    why = agent.drops if agent else {}
     found = []
     for a in range(0, len(segs), WINDOW - 8):              # small overlap so a moment on a border is not lost
         b = min(len(segs), a + WINDOW)
         beat(f"lokale redactie: {ep.get('title', ep['id'])[:50]}: {int(100 * a / max(1, len(segs)))}%")
         user = f"{FOCUS[kind]}\nSource: {ep.get('podcast', '')} · {ep.get('title', '')}\n\n{_seg_lines(segs, a, b)}"
         try:
-            items = _json(ask(log, system, user)) or []
+            raw = ask(log, system, user, 2600)
         except Exception as ex:
             log("taalmodel:", ex)
+            if agent:
+                agent.error(f"taalmodel: {ex}")
             continue
-        for it in items if isinstance(items, list) else []:
+        items = _json(raw)
+        if items is None:
+            why["antwoord onleesbaar"] = why.get("antwoord onleesbaar", 0) + 1
+            if agent and not agent.sample:
+                agent.sample = str(raw)[:600]
+            continue
+        items = items if isinstance(items, list) else [items]
+        nums = [it.get("start") for it in items if isinstance(it, dict) and isinstance(it.get("start"), int)]
+        rel = a > 0 and nums and all(0 <= x < WINDOW for x in nums) and not any(a <= x < b for x in nums)
+        for it in items:
             try:
                 s0, s1 = int(it["start"]), int(it["end"])
                 hk = int(it.get("hook", s0))
             except (KeyError, TypeError, ValueError):
+                why["zonder nummers"] = why.get("zonder nummers", 0) + 1
                 continue
+            if rel:                          # the model counted from 0 in this piece
+                s0, s1, hk = s0 + a, s1 + a, hk + a
             if not (a <= s0 <= s1 < b):
+                why["buiten het stuk"] = why.get("buiten het stuk", 0) + 1
                 continue
             start, end = float(segs[s0]["start"]), float(segs[s1]["end"])
-            if not 12 <= end - start <= 80:
+            if end - start < 12 and s1 + 1 < b:      # too short: grow to whole sentences up to ~20 s
+                while s1 + 1 < b and float(segs[s1]["end"]) - start < 18:
+                    s1 += 1
+                end = float(segs[s1]["end"])
+            if not 10 <= end - start <= 90:
+                why["te kort of te lang"] = why.get("te kort of te lang", 0) + 1
                 continue
             k = it.get("kind") if it.get("kind") in allowed else allowed[-1]
             people = fix_names(it.get("people"), known)
@@ -249,24 +309,63 @@ def _article_text(url: str) -> str:
     return re.sub(r"\s+", " ", text)[:6000]
 
 
-def news(gh, put, json_or, log, beat, known: dict) -> int:
+def _tips_as_stories(json_or) -> list:
+    """Joshua's own tips from the dashboard (TIP EEN NIEUWTJE): handled before anything else."""
+    out = []
+    for t in json_or("data/tips.json", {"tips": []}).get("tips", []):
+        if t.get("status", "new") != "new":
+            continue
+        out.append({"id": "tip-" + t["id"], "tip": t, "title": t.get("note") or t.get("url") or "tip",
+                    "series": t.get("series") or "", "buzz": 99,
+                    "items": [{"source": "tip van Joshua", "title": t.get("note") or "", "url": t.get("url") or ""}]})
+    return out
+
+
+def news(gh, put, json_or, log, beat, known: dict, agent=None, note: str = "") -> int:
     inbox = json_or("data/inbox.json", {}).get("stories", [])
     handled = json_or("data/handled.json", {"handled": []})
     done = {h if isinstance(h, str) else h.get("id") for h in handled.get("handled", [])}
-    made = 0
-    for s in sorted(inbox, key=lambda s: -(s.get("buzz") or 0)):
-        if made >= NEWS_PER_ROUND or s["id"] in done:
+    tips = _tips_as_stories(json_or)
+    tipfile = json_or("data/tips.json", {"tips": []})
+    made, tips_changed = 0, False
+    order = tips + sorted(inbox, key=lambda s: (-(s.get("scout") or {}).get("score", 0), -(s.get("buzz") or 0)))
+    for s in order:
+        is_tip = "tip" in s
+        if s["id"] in done or (not is_tip and made >= NEWS_PER_ROUND):
             continue
-        beat(f"lokale redactie: nieuws: {s['title'][:60]}")
+        if not is_tip and (s.get("scout") or {}).get("skip"):
+            continue
+        beat(f"nieuwsredacteur: {s['title'][:60]}")
+        if agent:
+            agent.doing = f"leest: {s['title'][:80]}"
         src = "\n".join(f"- {i.get('source')}: {i.get('title')}" for i in s.get("items", [])[:6])
-        body = _article_text(s["items"][0]["url"]) if s.get("items") else ""
+        body = _article_text(s["items"][0]["url"]) if s.get("items") and s["items"][0].get("url") else ""
+        extra = ("\nJoshua, the owner, sent this tip himself because he finds it interesting for the channel. "
+                 "Set worth_it true unless there is no news in it at all.") if is_tip else ""
         try:
-            r = _json(ask(log, SYSTEM_NEWS, f"Story: {s['title']}\nSeries: {s.get('series')}\nHeadlines:\n{src}\n\nArticle text:\n{body or '(not available: use only the headlines)'}", 700))
+            raw = ask(log, SYSTEM_NEWS + _steer(note), f"Story: {s['title']}\nSeries: {s.get('series')}\nHeadlines:\n{src}{extra}\n\nArticle text:\n{body or '(not available: use only the headlines)'}", 900)
         except Exception as ex:
             log("taalmodel nieuws:", ex)
+            if agent:
+                agent.error(f"taalmodel: {ex}")
             continue
+        r = _json(raw)
         handled.setdefault("handled", []).append(s["id"])
-        if not isinstance(r, dict) or not r.get("worth_it"):
+        if is_tip:
+            for t in tipfile.get("tips", []):
+                if t["id"] == s["tip"]["id"]:
+                    t["status"] = "done"
+                    t["result"] = "geen nieuws gevonden in de tekst" if not (isinstance(r, dict) and r.get("worth_it")) else "post gemaakt"
+                    tips_changed = True
+        if not isinstance(r, dict):
+            if agent:
+                agent.drops["antwoord onleesbaar"] = agent.drops.get("antwoord onleesbaar", 0) + 1
+                agent.sample = agent.sample or str(raw)[:600]
+            continue
+        if not r.get("worth_it"):
+            if agent:
+                agent.drops["geen nieuws volgens model"] = agent.drops.get("geen nieuws volgens model", 0) + 1
+                agent.add(f"overgeslagen: {s['title'][:70]}")
             continue
         day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         slug = re.sub(r"[^a-z0-9]+", "-", s["title"].lower()).strip("-")[:48]
@@ -287,6 +386,8 @@ def news(gh, put, json_or, log, beat, known: dict) -> int:
             # A still from the livestream shows the OLD car: no still, and Joshua adds a photo we may use, or skips.
             post |= {"no_still": True, "check": True,
                      "check_reason": "nieuwe auto of livery: voeg een foto toe die we mogen gebruiken, of sla over"}
+        if is_tip:
+            post |= {"tip": s["tip"]["id"], "source": s["items"][0].get("url") or post["source"]}
         if fmt in HOOK_FORMATS and not rumor:
             post |= {"kind": "breaking" if fmt == "breaking" else "hook", "hook": {"type": fmt},
                      "slides": [{"template": "hook.html", "data": {
@@ -301,8 +402,12 @@ def news(gh, put, json_or, log, beat, known: dict) -> int:
             f"lokale redactie: nieuws {post['id']}")
         made += 1
         log("nieuwspost", post["id"])
+        if agent:
+            agent.add(f"nieuwspost: {' '.join(head)}" + (" (jouw tip)" if is_tip else ""), post["id"])
     if made or len(handled.get("handled", [])) != len(done):
-        put("data/handled.json", json.dumps(handled, indent=1, ensure_ascii=False).encode(), "lokale redactie: verwerkt")
+        put("data/handled.json", json.dumps(handled, indent=1, ensure_ascii=False).encode(), "nieuwsredacteur: verwerkt")
+    if tips_changed:
+        put("data/tips.json", json.dumps(tipfile, indent=1, ensure_ascii=False).encode(), "nieuwsredacteur: tips verwerkt")
     return made
 
 
@@ -317,7 +422,7 @@ a crash, injury, death or politics, skip it. Answer ONLY with JSON: {"reply": ".
 REPLIES_PER_ROUND = 12
 
 
-def replies(gh, put, json_or, log, beat) -> int:
+def replies(gh, put, json_or, log, beat, agent=None, note: str = "") -> int:
     """Drafts replies for new comments in data/replies.json into data/replies_suggested.json.
     lc/engage.py merges them; Joshua approves, edits or skips each one on the dashboard."""
     items = [x for x in json_or("data/replies.json", {}).get("items", []) if x.get("status") == "new"]
@@ -326,7 +431,7 @@ def replies(gh, put, json_or, log, beat) -> int:
     for x in todo:
         beat(f"lokale redactie: antwoord op {x.get('author', '')}")
         try:
-            r = _json(ask(log, SYSTEM_REPLY, f"Our post: {x.get('post_title', '')}\nComment by {x.get('author', '')}: {x.get('text', '')}", 120))
+            r = _json(ask(log, SYSTEM_REPLY + _steer(note), f"Our post: {x.get('post_title', '')}\nComment by {x.get('author', '')}: {x.get('text', '')}", 120))
         except Exception as ex:
             log("taalmodel antwoord:", ex)
             continue
@@ -334,6 +439,8 @@ def replies(gh, put, json_or, log, beat) -> int:
             continue
         reply = _clean(r.get("reply", "")).replace("#", "").strip()
         done[x["id"]] = {"skip": True} if r.get("skip") or not reply else {"reply": reply[:220]}
+        if agent and reply and not r.get("skip"):
+            agent.add(f"voorstel voor {x.get('author', '')}: {reply[:80]}")
     if todo:
         put("data/replies_suggested.json", json.dumps(done, indent=1, ensure_ascii=False).encode(),
             f"lokale redactie: {len(todo)} antwoordvoorstellen")
@@ -350,18 +457,80 @@ def busy_hours(settings: dict, now: datetime | None = None) -> bool:
     return t.weekday() in qh.get("days", []) and qh.get("from", "08:30") <= t.strftime("%H:%M") < qh.get("to", "18:00")
 
 
+# ---------- agents on the dashboard ----------
+AGENTS = {"battle": "Battle-redacteur", "podcast": "Podcast-redacteur", "nieuws": "Nieuwsredacteur",
+          "community": "Community-redacteur"}
+
+
+def _steer(note: str) -> str:
+    note = (note or "").strip()
+    return f"\n\nInstruction from Joshua, the owner (follow it, it wins over the rules above where they clash): {note[:600]}" if note else ""
+
+
+class Agent:
+    """What one editor is doing, for the dashboard: docs/agents/<id>.json."""
+
+    def __init__(self, aid: str, put, json_or, state: dict):
+        self.id, self.put, self.state = aid, put, state
+        old = json_or(f"docs/agents/{aid}.json", {})
+        self.history = old.get("history", [])[:25]
+        self.doing, self.errors, self.drops, self.sample, self.made = None, [], {}, "", 0
+        self.counts = old.get("counts", {})
+
+    def add(self, text: str, ref: str | None = None):
+        self.history.insert(0, {"at": datetime.now(timezone.utc).isoformat(), "text": text[:160], "ref": ref})
+        self.history = self.history[:25]
+        self.made += 1
+
+    def error(self, text: str):
+        self.errors.append(text[:200])
+
+    def flush(self, state_word: str, note: str, force: bool = False):
+        now = datetime.now(timezone.utc).isoformat()
+        day = now[:10]
+        if self.counts.get("day") != day:
+            self.counts = {"day": day, "made": 0}
+        self.counts["made"] = self.counts.get("made", 0) + self.made
+        body = {"id": self.id, "name": AGENTS[self.id], "where": "Mac Studio (lokaal taalmodel)",
+                "state": "fout" if self.errors else state_word, "doing": self.doing, "updated": now,
+                "note": note, "history": self.history, "errors": self.errors[-5:], "drops": self.drops,
+                "sample": self.sample, "counts": self.counts, "version": VERSION}
+        key = f"agent_{self.id}"
+        sig = json.dumps([body["state"], self.made, self.errors[-1:], self.drops], sort_keys=True)
+        if force or self.made or self.errors or sig != self.state.get(key + "_sig") or time.time() - self.state.get(key, 0) > 3 * 3600:
+            self.put(f"docs/agents/{self.id}.json", json.dumps(body, indent=1, ensure_ascii=False).encode(),
+                     f"{AGENTS[self.id].lower()}: {body['state']}")
+            self.state[key], self.state[key + "_sig"] = time.time(), sig
+        self.made = 0
+
+
 def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
     settings = json_or("data/settings.json", {})
     if not settings.get("local_editor"):
         return {"off": True}
+    cfg = json_or("data/agents.json", {}).get("agents", {})
+    on = {a: cfg.get(a, {}).get("on", True) for a in AGENTS}
+    note = {a: cfg.get(a, {}).get("note", "") for a in AGENTS}
+    ag = {a: Agent(a, put, json_or, state) for a in AGENTS}
     if busy_hours(settings):
+        for a in AGENTS:
+            ag[a].doing = "pauze: werktijd, de Mac is van jou (weekdagen 08:30-18:00)"
+            ag[a].flush("pauze" if on[a] else "uit", note[a])
         return {"off": True, "why": "werktijd: de Mac is van Joshua"}
     t0, rep = time.time(), {"moments": 0, "episodes": 0, "news": 0, "replies": 0}
     known = known_people(json_or, gh)
-    try:                                   # replies first: fans wait, a transcript does not
-        rep["replies"] = replies(gh, put, json_or, log, beat)
-    except Exception as ex:
-        log("lokale redactie antwoorden:", ex)
+    if on["community"]:
+        ag["community"].doing = "leest nieuwe reacties"
+        try:
+            rep["replies"] = replies(gh, put, json_or, log, beat, ag["community"], note["community"])
+        except Exception as ex:
+            log("community-redacteur:", ex)
+            ag["community"].error(str(ex))
+        ag["community"].doing = None
+    ag["community"].flush("wacht" if on["community"] else "uit", note["community"])
+    # Joshua's tips first: they are what he wants now
+    if on["nieuws"] and _tips_as_stories(json_or):
+        rep["news"] += news(gh, put, json_or, log, beat, known, ag["nieuws"], note["nieuws"])
     eps = []
     reg = json_or("data/streams/streams.json", {"streams": [], "channels": []})
     for st in reg.get("streams", []) + json_or("data/streams/mac/_found.json", {"streams": []}).get("streams", []):
@@ -374,23 +543,46 @@ def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
         eps += [{"id": e["id"], "kind": "podcast", "podcast": e.get("podcast"), "title": e.get("title")}
                 for e in ix.get("episodes", {}).values() if e.get("status") == "transcribed"]
     eps.sort(key=lambda e: {"stream": 0, "vlog": 1}.get(e["kind"], 2))
+    # v2 wrote [] for 144 videos without finding anything: those are read again by v3 (once)
+    redo = set(state.get("v3_redo") or [])
+    if not state.get("v3_redo_set"):
+        for e in eps:
+            if json_or(f"data/podcasts/moments/{e['id']}.json", None) == []:
+                redo.add(e["id"])
+        state["v3_redo"], state["v3_redo_set"] = sorted(redo), True
+    todo = {"battle": 0, "podcast": 0}
     for ep in eps:
-        if time.time() - t0 > budget_s:
-            break
-        if json_or(f"data/podcasts/moments/{ep['id']}.json", None) is not None:
+        aid = "battle" if ep["kind"] == "stream" else "podcast"
+        cur = json_or(f"data/podcasts/moments/{ep['id']}.json", None)
+        if cur is not None and not (cur == [] and ep["id"] in redo):
+            continue
+        todo[aid] += 1
+        if not on[aid] or time.time() - t0 > budget_s:
             continue
         t = json_or(f"data/podcasts/t/{ep['id']}.json", None)
         if not t:
             continue
-        ms = moments_for(ep, t, known, log, beat)
+        a = ag[aid]
+        a.doing = f"leest: {ep.get('podcast') or ''} · {ep.get('title') or ep['id']}"[:120]
+        a.flush("bezig", note[aid])
+        ms = moments_for(ep, t, known, log, beat, a, note[aid])
         put(f"data/podcasts/moments/{ep['id']}.json", json.dumps(ms, indent=1, ensure_ascii=False).encode(),
-            f"lokale redactie: {len(ms)} momenten uit {ep['id']}")
+            f"{AGENTS[aid].lower()}: {len(ms)} momenten uit {ep['id']}")
+        redo.discard(ep["id"])
+        state["v3_redo"] = sorted(redo)
+        todo[aid] -= 1
         rep["moments"] += len(ms)
         rep["episodes"] += 1
-        log(f"lokale redactie: {len(ms)} momenten uit {ep.get('title')}")
-    if time.time() - state.get("local_news", 0) > NEWS_EVERY_H * 3600 and time.time() - t0 < budget_s:
-        rep["news"] = news(gh, put, json_or, log, beat, known)
+        a.add(f"{len(ms)} momenten uit {ep.get('title') or ep['id']}", ep["id"])
+        log(f"{AGENTS[aid]}: {len(ms)} momenten uit {ep.get('title')}")
+    for aid in ("battle", "podcast"):
+        ag[aid].doing = f"nog {todo[aid]} video's te lezen" if todo[aid] and on[aid] else None
+        ag[aid].flush(("bezig" if todo[aid] else "wacht") if on[aid] else "uit", note[aid])
+    if on["nieuws"] and time.time() - state.get("local_news", 0) > NEWS_EVERY_H * 3600 and time.time() - t0 < budget_s:
+        rep["news"] += news(gh, put, json_or, log, beat, known, ag["nieuws"], note["nieuws"])
         state["local_news"] = time.time()
+    ag["nieuws"].doing = None
+    ag["nieuws"].flush("wacht" if on["nieuws"] else "uit", note["nieuws"])
     status = {"state": "local", "version": VERSION, "last_run": datetime.now(timezone.utc).isoformat(),
               "note": f"Lokale redactie op de Mac: {rep['moments']} momenten uit {rep['episodes']} video's, {rep['news']} nieuwsposts, {rep['replies']} antwoordvoorstellen",
               "schedule": ["elke 15 minuten, als de Mac aanstaat"]}

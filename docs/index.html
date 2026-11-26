@@ -148,6 +148,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <a href="#beoordelen" data-s="beoordelen" data-n="beoordelen">BEOORDELEN <span class="cnt" id="c-rev"></span></a>
   <a href="#planning" data-s="planning" data-n="kalender">KALENDER</a>
   <a href="#clips/live" data-s="clips" data-n="bieb">BIBLIOTHEEK</a>
+  <a href="#agents" data-s="agents" data-n="agents">AGENTS <span class="cnt" id="c-ag"></span></a>
   <a href="#tags" data-s="tags" data-n="tags">TAGS <span class="cnt" id="c-tags"></span></a>
   <a href="#tiktok" data-s="tiktok" data-n="tiktok">TIKTOK <span class="cnt" id="c-tt"></span></a>
   <a href="#stats" data-s="stats" data-n="stats">STATISTIEKEN</a>
@@ -167,6 +168,16 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
     <div><h2>WACHT OP JOU <small><a href="#beoordelen">alles bekijken</a></small></h2><div class="list" id="ov-wait"></div>
          <h2>NAAR LIVEGANG</h2><div class="check" id="setup"></div></div>
   </div>
+</section>
+
+<section id="s-agents">
+  <h1>AGENTS</h1><div class="sub">Wie er aan Sideways Wire werkt, wat ze nu doen en wat ze gemaakt hebben. Zet een agent aan of uit, of geef hem een instructie mee (bijvoorbeeld "meer Drift Masters" of "geen podcasts van Outerzone"). De redacteuren op de Mac werken buiten je werktijd.</div>
+  <div class="rp" style="margin:12px 0 20px"><b style="color:#fff">TIP EEN NIEUWTJE</b><p class="muted" style="margin:4px 0 8px">Zie je zelf iets interessants? Plak de link en zeg kort wat je erin ziet. De nieuwsredacteur pakt jouw tips als eerste op.</p>
+    <div class="row" style="gap:8px;flex-wrap:wrap"><input id="tip-url" placeholder="https://..." style="flex:2;min-width:220px"><select id="tip-series"><option value="">serie?</option><option>FD</option><option>DM</option><option>D1GP</option><option>anders</option></select></div>
+    <textarea id="tip-note" placeholder="Wat is het nieuws, of waarom is het interessant? (mag in het Nederlands)" style="margin-top:8px"></textarea>
+    <div class="row" style="gap:8px;margin-top:8px"><button class="btn g" id="tip-send">TIP VERSTUREN</button><span class="muted" id="tip-msg"></span></div>
+    <div id="tip-list" style="margin-top:10px"></div></div>
+  <div id="ag-list"></div>
 </section>
 
 <section id="s-tags">
@@ -384,6 +395,47 @@ function drawTikTokPage(){drawTikTok();const R=ttReady(),now=new Date().toISOStr
 document.addEventListener("click",async e=>{const c=e.target.closest("[data-ttc],[data-ttd]");if(!c)return;const card=c.closest("[data-tt]"),id=card.dataset.tt;
   if(c.hasAttribute("data-ttc")){const t=card.querySelector("textarea");try{await navigator.clipboard.writeText(t.value)}catch(x){t.select();document.execCommand("copy")}toast("Tekst gekopieerd. Plak hem in TikTok.");return}
   c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTokPage();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
+// ---------- agents (lc/agents.py, tools/mac/local_editor.py): docs/agents/<id>.json, sturen via data/agents.json ----------
+const AG_ORDER=[["Redacteuren",["battle","podcast","nieuws","community"]],["Controle en nieuws",["qc","scout"]],["Wekelijks en bewaking",["tags","analist","wachter"]]];
+const AG_COLOR={bezig:"#c8ff00",wacht:"#7a7a80",pauze:"#ffb000",uit:"#444",fout:"#ff4f9a",gepland:"#5aa9ff"};
+let AG={},AGCFG={agents:{}},TIPS={tips:[]};
+async function loadAgents(){const ids=AG_ORDER.flatMap(x=>x[1]);
+  const r=await Promise.all(ids.map(id=>fetch(`agents/${id}.json?${Date.now()}`).then(x=>x.ok?x.json():null).catch(()=>null)));ids.forEach((id,i)=>AG[id]=r[i]||{id,name:id,state:"gepland"});
+  try{const f=await gh(`/contents/data/agents.json?ref=main&${Date.now()}`);AGCFG=JSON.parse(unb64(f.content));AGCFG._sha=f.sha}catch(e){}
+  try{const f=await gh(`/contents/data/tips.json?ref=main&${Date.now()}`);TIPS=JSON.parse(unb64(f.content))}catch(e){}}
+function agCard(id){const a=AG[id]||{},c=(AGCFG.agents||{})[id]||{on:true,note:""},st=c.on===false?"uit":(a.state||"wacht"),H=a.history||[],dr=Object.entries(a.drops||{});
+  return `<div class="rp" data-ag="${id}"><div class="row" style="gap:8px;align-items:center"><span style="width:12px;height:12px;border-radius:50%;background:${AG_COLOR[st]||"#7a7a80"};display:inline-block"></span>
+    <b style="color:#fff;font-size:16px">${esc(a.name||id)}</b><span class="tag">${esc(st.toUpperCase())}</span><span class="muted" style="margin-left:auto;font-size:12px">${esc(a.where||"")} · ${ago(a.updated)}</span></div>
+    <p style="margin:8px 0;color:#ddd">${a.doing?esc(a.doing):`<span class="muted">Niets te doen op dit moment.</span>`}</p>
+    ${a.counts?`<p class="muted" style="font-size:13px;margin:4px 0">${Object.entries(a.counts).filter(([k])=>k!=="day").map(([k,v])=>`${esc(k)}: <b>${v}</b>`).join(" · ")}</p>`:""}
+    ${(a.errors||[]).length?`<p style="color:#ff4f9a;font-size:13px;margin:4px 0">Fout: ${esc(a.errors.slice(-1)[0])}</p>`:""}
+    ${dr.length?`<p class="muted" style="font-size:13px;margin:4px 0">Afgevallen: ${dr.map(([k,v])=>`${esc(k)} ${v}x`).join(", ")}</p>`:""}
+    ${(a.top||[]).length?`<details style="margin:6px 0"><summary class="muted">Beste nieuws nu</summary>${a.top.map(t=>`<div style="font-size:13px;margin:3px 0">${t.score} · ${esc(t.title)}</div>`).join("")}</details>`:""}
+    ${H.length?`<details style="margin:6px 0"><summary class="muted">Laatst gedaan (${H.length})</summary>${H.slice(0,15).map(h=>`<div style="font-size:13px;margin:3px 0"><span class="muted">${ago(h.at)}</span> · ${h.ref&&/^(pod-|20)/.test(h.ref)?`<a href="#beoordelen/${esc(h.ref)}">${esc(h.text)}</a>`:esc(h.text)}</div>`).join("")}</details>`:""}
+    <textarea data-agn placeholder="Instructie voor deze agent (optioneel)">${esc(c.note||"")}</textarea>
+    <div class="row" style="gap:8px;margin-top:8px"><button class="btn" data-ags="note">INSTRUCTIE OPSLAAN</button><button class="btn ${c.on===false?"g":""}" data-ags="toggle">${c.on===false?"AANZETTEN":"UITZETTEN"}</button></div></div>`}
+function drawAgentsNow(){const L=document.getElementById("ag-list");
+  L.innerHTML=AG_ORDER.map(([t,ids])=>`<h2>${t.toUpperCase()}</h2><div class="replies">${ids.map(agCard).join("")}</div>`).join("");
+  const T=(TIPS.tips||[]).slice(-8).reverse();document.getElementById("tip-list").innerHTML=T.length?T.map(t=>`<div style="font-size:13px;margin:3px 0"><span class="tag">${t.status==="done"?"VERWERKT":"WACHT"}</span> ${esc(t.note||t.url)}${t.result?` <span class="muted">· ${esc(t.result)}</span>`:""}</div>`).join(""):"";
+  document.getElementById("c-ag").textContent=Object.values(AG).filter(a=>a.state==="fout").length?"!":""}
+async function drawAgents(){if(!Object.keys(AG).length)document.getElementById("ag-list").innerHTML=`<div class="empty2">Laden...</div>`;await loadAgents();drawAgentsNow()}
+async function saveAgents(fn){const path="/contents/data/agents.json";
+  for(let k=0;k<2;k++){const f=await gh(`${path}?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));d.agents=d.agents||{};fn(d);
+    try{await gh(path,{method:"PUT",body:JSON.stringify({message:"dashboard: agents bijgestuurd",content:b64(JSON.stringify(d,null,1)),sha:f.sha,branch:"main"})});AGCFG=d;return}catch(e){if(k||!/409|422/.test(String(e)))throw e}}}
+document.addEventListener("click",async e=>{const b=e.target.closest("[data-ags]");if(!b)return;if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
+  const id=b.closest("[data-ag]").dataset.ag,note=b.closest("[data-ag]").querySelector("[data-agn]").value.trim();b.disabled=true;
+  try{await saveAgents(d=>{const c=d.agents[id]=d.agents[id]||{on:true,note:""};if(b.dataset.ags==="toggle")c.on=c.on===false;else c.note=note});
+    drawAgentsNow();toast(b.dataset.ags==="toggle"?"Opgeslagen. Werkt vanaf de volgende ronde.":"Instructie opgeslagen. De agent gebruikt hem vanaf de volgende ronde.")}catch(x){toast(x.message,1)}b.disabled=false});
+document.addEventListener("click",async e=>{if(!e.target.closest("#tip-send"))return;if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
+  const url=document.getElementById("tip-url").value.trim(),note=document.getElementById("tip-note").value.trim(),series=document.getElementById("tip-series").value,m=document.getElementById("tip-msg");
+  if(!url&&!note){toast("Vul een link of een korte omschrijving in.",1);return}if(url&&!/^https?:\/\//.test(url)){toast("De link moet met http beginnen.",1);return}
+  const btn=e.target.closest("#tip-send");btn.disabled=true;const path="/contents/data/tips.json";
+  try{for(let k=0;k<2;k++){const f=await gh(`${path}?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));d.tips=d.tips||[];
+      d.tips.push({id:Date.now().toString(36),url,note,series:series==="anders"?"":series,at:new Date().toISOString(),status:"new"});
+      try{await gh(path,{method:"PUT",body:JSON.stringify({message:"dashboard: tip",content:b64(JSON.stringify(d,null,1)),sha:f.sha,branch:"main"})});TIPS=d;break}catch(x){if(k||!/409|422/.test(String(x)))throw x}}
+    document.getElementById("tip-url").value="";document.getElementById("tip-note").value="";drawAgentsNow();
+    m.textContent="Tip verstuurd. De nieuwsredacteur pakt hem op in de eerstvolgende ronde buiten je werktijd."}catch(x){toast(x.message,1)}btn.disabled=false});
+
 // ---------- tags: één lijst van iedereen (lc/handles.py, data/sources.csv + data/handles_manual.json) ----------
 const openNames=()=>(S.names||[]).filter(n=>!TAGDONE[n.name]);const TAGDONE={};
 function drawTagCount(){const n=openNames().reduce((a,x)=>a+x.posts,0);document.getElementById("c-tags").textContent=openNames().length||""}
@@ -806,7 +858,7 @@ setInterval(()=>{if(!document.hidden)loadLive()},20000);
 // ---------- routing ----------
 const TABS={bieb:[["#clips/live","LIVESTREAM","live"],["#clips/battle","BATTLES","battle"],["#clips/vlog","VLOGS","vlog"],["#clips/pod","PODCASTS","pod"],["#posts","POSTS","posts"],["#nieuws","NIEUWSBRONNEN"]],
   inst:[["#kanalen","KANALEN"],["#bronnen","BRONNEN"],["#systeem","SYSTEEM"],["podcasts.html","STUDIO ↗"],["#","SLEUTEL",null,1]]};
-const NAVOF={tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
+const NAVOF={agents:"agents",tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
 function drawTabs(){const h=location.hash||"#overzicht",R=S?toReview():[];
   document.querySelectorAll("[data-tabs]").forEach(el=>{el.innerHTML=TABS[el.dataset.tabs].map(([href,label,c,isKey])=>{
     const n=c?R.filter(p=>cat(p)===c).length:0;
@@ -824,7 +876,7 @@ function show(){
 window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
 function drawCurrent(){const s=(location.hash.slice(1)||"overzicht").split("/")[0];
-  ({tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
+  ({agents:drawAgents,tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
 function drawAll(){drawLive();drawCounts();drawTikTok();drawTagCount();drawTabs();drawCurrent();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){

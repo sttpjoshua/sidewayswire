@@ -21,8 +21,8 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-        run: python -m lc.collect
+        run: python -m lc.collect && (python -m lc.agents scout || true)
       - name: Dashboard
         run: python -m lc.status
       - name: Save
-        run: python -m lc.gitsave "collect $(date -u +%FT%TZ)" data/inbox.json data/feeds.json data/lc.db data/sources.csv data/archive docs/status.json
+        run: python -m lc.gitsave "collect $(date -u +%FT%TZ)" data/inbox.json data/feeds.json data/lc.db data/sources.csv data/archive docs/status.json docs/agents

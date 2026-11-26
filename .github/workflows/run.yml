@@ -31,11 +31,11 @@ jobs:
         with: { python-version: "3.12", cache: pip }
       - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
       - name: 1 collect
-        run: python -m lc.collect
+        run: python -m lc.collect && (python -m lc.agents scout || true)
       - name: kop-posts (vragen op voorraad)
         run: python -m lc.hooks
       - name: 2 build posts and handle Telegram answers
-        run: python -m lc.build
+        run: python -m lc.build && (python -m lc.agents qc || true)
       - name: plan per platform (score, tijden, captions)
         run: python -m lc.planner
       - name: media naar de releases, wat bijna online gaat naar de site

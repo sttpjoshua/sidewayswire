@@ -1,0 +1,40 @@
+{
+ "agents": {
+  "battle": {
+   "on": true,
+   "note": ""
+  },
+  "podcast": {
+   "on": true,
+   "note": ""
+  },
+  "nieuws": {
+   "on": true,
+   "note": ""
+  },
+  "community": {
+   "on": true,
+   "note": ""
+  },
+  "scout": {
+   "on": true,
+   "note": ""
+  },
+  "qc": {
+   "on": true,
+   "note": ""
+  },
+  "tags": {
+   "on": true,
+   "note": ""
+  },
+  "analist": {
+   "on": true,
+   "note": ""
+  },
+  "wachter": {
+   "on": true,
+   "note": ""
+  }
+ }
+}
