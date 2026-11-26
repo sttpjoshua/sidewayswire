@@ -2,6 +2,8 @@
 name: run
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "41 * * * *"    # backup (26 nov): if cron-job.org misses a beat, still at least once an hour
 concurrency: { group: data, cancel-in-progress: false }
 permissions: { contents: write }
 env:
