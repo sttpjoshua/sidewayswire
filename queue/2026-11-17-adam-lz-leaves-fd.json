@@ -43,7 +43,7 @@
  ],
  "source": "https://www.youtube.com/watch?v=GnIngCZCsIc",
  "check": false,
- "status": "approved",
+ "status": "skipped",
  "created": "2026-11-17T14:12:26.167610+00:00",
  "by": "editor",
  "check_reason": "aankondiging gecontroleerd via fan-upload van de livestream en Wikipedia (P3 LB2, 12e in stand); eigen video van LZ niet zelf bekeken, nieuws is van 25 okt",
@@ -60,5 +60,8 @@
   "at": "2026-11-26T19:31:44.189812+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-26T22:50:49.588Z"
+ "approved": "2026-11-26T22:50:49.588Z",
+ "post_at": null,
+ "skip_reason": "verouderd: ouder dan 48 uur",
+ "plan": {}
 }
