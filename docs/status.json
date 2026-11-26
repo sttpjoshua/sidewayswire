@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T16:53:50.286149+00:00",
+ "updated": "2026-11-26T16:58:55.116047+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 482,
+  "ready": 479,
   "check": 129,
   "skipped": 70,
   "posted": 3,
-  "draft": 67
+  "draft": 70
  },
  "collected": "2026-11-26T11:27:46.116993+00:00",
  "instagram": false,
@@ -7407,11 +7407,9 @@
    "status": "ready",
    "post_at": "2026-12-22T20:30:00+00:00",
    "posted_at": null,
-   "caption": "Chris Forsberg leads in the new Nismo Z and rookie Cole Richards is not backing down.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@colerichardz @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytpeyjfzbdwxs-8__clip.mp4"
-   ],
-   "problems": [],
+   "caption": "Chris Forsberg leads in the new Nismo Z and rookie Cole Richards is not backing down.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@chrisforsberg64 @colerichardz @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
+   "media": [],
+   "problems": null,
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -7428,43 +7426,31 @@
     "youtube"
    ],
    "created": "2026-11-20T01:13:10.895467+00:00",
-   "built": "2026-11-20T07:02:30.816234+00:00",
+   "built": "2026-11-26T16:54:39.945865+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytpeyjfzbdwxs-8__clip.mp4",
    "tags": [
+    "@chrisforsberg64",
     "@colerichardz",
     "@formulad"
    ],
-   "missing_handles": [
-    "Chris Forsberg"
-   ],
+   "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {
     "tiktok": "2026-12-22T20:30:00+00:00"
    },
-   "score": 85,
-   "captions": {
-    "instagram": "Chris Forsberg vs Cole Richards | Formula DRIFT Atlanta 2026\n\nChris Forsberg leads in the new Nismo Z and rookie Cole Richards is not backing down.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #chrisforsberg #colerichards #sidewayswire",
-    "facebook": "Chris Forsberg vs Cole Richards | Formula DRIFT Atlanta 2026\n\nChris Forsberg leads in the new Nismo Z and rookie Cole Richards is not backing down.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Chris Forsberg vs Cole Richards | Formula DRIFT Atlanta 2026: Chris Forsberg leads in the new Nismo Z and rookie Cole Richards is not backing down.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Atlanta 2026 @colerichardz @formulad\n#formuladrift #formulad #chrisforsberg #sidewayswire",
-    "youtube_title": "Chris Forsberg vs Cole Richards | Formula DRIFT Atlanta 2026",
-    "youtube": "Chris Forsberg leads in the new Nismo Z and rookie Cole Richards is not backing down.\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
+   "score": null,
+   "captions": null,
    "ig": null,
-   "collaborators": [
-    "colerichardz"
-   ],
-   "people": [
-    "Chris Forsberg",
-    "Cole Richards"
-   ],
-   "moment_kind": "battle",
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
    "pinned_at": null,
-   "short_none": "kort genoeg",
+   "short_none": null,
    "short_len": null,
-   "thumb": "media/thumbs/pod-ytpeyjfzbdwxs-8.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytpeyjfzbdwxs-8.mp4",
+   "thumb": null,
+   "preview": null,
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
@@ -12292,6 +12278,171 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytpeyjfzbdwxs-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen against the five time champion for a spot in an RTR final. His dream scenario.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
+    "start": 1032.08
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T01:18:04.335490+00:00",
+   "built": "2026-11-26T16:58:43.371523+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-12__clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@branden_sorensen",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SORENSEN'S DREAM SCENARIO",
+   "photo": null
+  },
+  {
+   "id": "pod-ytpeyjfzbdwxs-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Vaughn Gittin Jr. throwing flames in Odi Bakchis' face, 60 degrees down the hill. What a battle.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@vaughngittinjr @odidrift @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
+    "start": 973.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T01:16:35.170575+00:00",
+   "built": "2026-11-26T16:57:10.414741+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytpeyjfzbdwxs-11__clip.mp4",
+   "tags": [
+    "@vaughngittinjr",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "50-50, WHAT A BATTLE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytpeyjfzbdwxs-9",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "They call Dylan Hughes the dozer, because he runs over people. James Deane finds out.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @dylanhughes129 @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
+    "start": 905.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T01:14:02.730685+00:00",
+   "built": "2026-11-26T16:55:36.116209+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytpeyjfzbdwxs-9__clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@dylanhughes129",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "DYLAN THE DOZER",
    "photo": null
   },
   {
@@ -32365,75 +32516,6 @@
    "photo": null
   },
   {
-   "id": "pod-ytpeyjfzbdwxs-9",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "They call Dylan Hughes the dozer, because he runs over people. James Deane finds out.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @dylanhughes129 @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #jamesdeane #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytpeyjfzbdwxs-9__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
-    "start": 905.98
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T01:14:02.730685+00:00",
-   "built": "2026-11-20T07:02:30.854254+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytpeyjfzbdwxs-9__clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@dylanhughes129",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 85,
-   "captions": {
-    "instagram": "James Deane vs Dylan Hughes | Formula DRIFT Atlanta 2026\n\nThey call Dylan Hughes the dozer, because he runs over people. James Deane finds out.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jamesdeane130 @dylanhughes129 @formulad\n\n#formuladrift #formulad #jamesdeane #dylanhughes #sidewayswire",
-    "facebook": "James Deane vs Dylan Hughes | Formula DRIFT Atlanta 2026\n\nThey call Dylan Hughes the dozer, because he runs over people. James Deane finds out.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jamesdeane130 @dylanhughes129 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "James Deane vs Dylan Hughes | Formula DRIFT Atlanta 2026: They call Dylan Hughes the dozer, because he runs over people. James Deane finds out.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Atlanta 2026 @jamesdeane130 @dylanhughes129 @formulad\n#formuladrift #formulad #jamesdeane #sidewayswire",
-    "youtube_title": "James Deane vs Dylan Hughes | Formula DRIFT Atlanta 2026",
-    "youtube": "They call Dylan Hughes the dozer, because he runs over people. James Deane finds out.\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jamesdeane130 @dylanhughes129 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jamesdeane130",
-    "dylanhughes129"
-   ],
-   "people": [
-    "James Deane",
-    "Dylan Hughes"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 24.6,
-   "thumb": "media/thumbs/pod-ytpeyjfzbdwxs-9.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytpeyjfzbdwxs-9.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytpeyjfzbdwxs-9__short.mp4",
-   "title": "DYLAN THE DOZER",
-   "photo": null
-  },
-  {
    "id": "pod-ytpeyjfzbdwxs-6",
    "kind": "stream_clip",
    "status": "ready",
@@ -32983,143 +33065,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytpeyjfzbdwxs-13__short.mp4",
    "title": "DEANE GOES OFF IN THE FINAL",
-   "photo": null
-  },
-  {
-   "id": "pod-ytpeyjfzbdwxs-12",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Brandon Sorensen against the five time champion for a spot in an RTR final. His dream scenario.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #jamesdeane #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-12__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
-    "start": 1032.08
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T01:18:04.335490+00:00",
-   "built": "2026-11-20T07:02:30.336175+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-12__clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@branden_sorensen",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 75,
-   "captions": {
-    "instagram": "James Deane vs Brandon Sorensen | Formula DRIFT Atlanta 2026\n\nBrandon Sorensen against the five time champion for a spot in an RTR final. His dream scenario.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jamesdeane130 @formulad\n\n#formuladrift #formulad #jamesdeane #brandonsorensen #sidewayswire",
-    "facebook": "James Deane vs Brandon Sorensen | Formula DRIFT Atlanta 2026\n\nBrandon Sorensen against the five time champion for a spot in an RTR final. His dream scenario.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jamesdeane130 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "James Deane vs Brandon Sorensen | Formula DRIFT Atlanta 2026: Brandon Sorensen against the five time champion for a spot in an RTR final. His dream scenario.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Atlanta 2026 @jamesdeane130 @formulad\n#formuladrift #formulad #jamesdeane #sidewayswire",
-    "youtube_title": "James Deane vs Brandon Sorensen | Formula DRIFT Atlanta 2026",
-    "youtube": "Brandon Sorensen against the five time champion for a spot in an RTR final. His dream scenario.\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@jamesdeane130 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jamesdeane130"
-   ],
-   "people": [
-    "James Deane",
-    "Brandon Sorensen"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 23.5,
-   "thumb": "media/thumbs/pod-ytpeyjfzbdwxs-12.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytpeyjfzbdwxs-12.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytpeyjfzbdwxs-12__short.mp4",
-   "title": "SORENSEN'S DREAM SCENARIO",
-   "photo": null
-  },
-  {
-   "id": "pod-ytpeyjfzbdwxs-11",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Vaughn Gittin Jr. throwing flames in Odi Bakchis' face, 60 degrees down the hill. What a battle.\n\n🎥 Footage: FD ATLANTA 2026 HIGHLIGHTS | PRESENTED B\n@vaughngittinjr @odidrift @formulad\n\n#formulad #formuladrift #drifting #roadatlanta #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytpeyjfzbdwxs-11__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Atlanta 2026 Highlights | Presented by Type S Auto",
-    "start": 973.68
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T01:16:35.170575+00:00",
-   "built": "2026-11-20T07:02:30.298678+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytpeyjfzbdwxs-11__clip.mp4",
-   "tags": [
-    "@vaughngittinjr",
-    "@odidrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Vaughn Gittin Jr. vs Aurimas Bakchis | Formula DRIFT Atlanta 2026\n\nVaughn Gittin Jr. throwing flames in Odi Bakchis' face, 60 degrees down the hill. What a battle.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@vaughngittinjr @odidrift @formulad\n\n#formuladrift #formulad #vaughngittinjr #aurimasbakchis #sidewayswire",
-    "facebook": "Vaughn Gittin Jr. vs Aurimas Bakchis | Formula DRIFT Atlanta 2026\n\nVaughn Gittin Jr. throwing flames in Odi Bakchis' face, 60 degrees down the hill. What a battle.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@vaughngittinjr @odidrift @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Vaughn Gittin Jr. vs Aurimas Bakchis | Formula DRIFT Atlanta 2026: Vaughn Gittin Jr. throwing flames in Odi Bakchis' face, 60 degrees down the hill. What a battle.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Atlanta 2026 @vaughngittinjr @odidrift @formulad\n#formuladrift #formulad #vaughngittinjr #sidewayswire",
-    "youtube_title": "Jr. vs Bakchis | Formula DRIFT Atlanta 2026",
-    "youtube": "Vaughn Gittin Jr. throwing flames in Odi Bakchis' face, 60 degrees down the hill. What a battle.\n\n🎥 Footage: Formula DRIFT Atlanta 2026\n@vaughngittinjr @odidrift @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "vaughngittinjr",
-    "odidrift"
-   ],
-   "people": [
-    "Vaughn Gittin Jr.",
-    "Aurimas Bakchis"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytpeyjfzbdwxs-11.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytpeyjfzbdwxs-11.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytpeyjfzbdwxs-11__short.mp4",
-   "title": "50-50, WHAT A BATTLE",
    "photo": null
   },
   {
@@ -54877,7 +54822,7 @@
   },
   {
    "name": "Chris Forsberg",
-   "posts": 17,
+   "posts": 16,
    "ids": [
     "pod-yt8bwn2g2ssy-21",
     "pod-yt8bwn2g2ssy-22",
