@@ -1,6 +1,51 @@
 {
- "updated": "2026-11-26T11:27:46.116993+00:00",
+ "updated": "2026-11-26T19:05:16.569865+00:00",
  "stories": [
+  {
+   "id": "fea79a4ad63ac204",
+   "title": "Formula Drift brings 2027 championship finale to Las Vegas",
+   "series": "FD",
+   "buzz": 3,
+   "first_seen": "2026-11-26T02:29:52.152991+00:00",
+   "published": "2026-11-26T14:41:15+00:00",
+   "items": [
+    {
+     "source": "Google News · FOX5 Vegas",
+     "title": "Formula Drift brings 2027 championship finale to Las Vegas",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRVRtRV92WEVyUkMwT0IweFFETC1DZHBibFIyWGNUam84aTYteHNMMFZta2d1TGFXMVY0MGxKQVFnaFQ0NXV2RGhyNUdsV0QwdjYxd0lBdVB4Y2p3ODBuT2ZHalhUU253RnhtZk5mMTRnZWxYTk5uMmFrQVNORTRlMEhRZTRZLXRqbXJONy1GM1Nxa3BoTzhWZA?oc=5",
+     "kind": "article",
+     "published": "2026-11-25T20:40:00+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "Google News · Hoodline",
+     "title": "Formula DRIFT Moves Entire 2027 Championship Finale to Las Vegas",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNlkySGsyclpMYl8yamp2Qy14Z2VobHlDTUNpSkJsNXRwMUlfNzYxX0dSelRtdFRkZjZRRnNrbVkxNEkxZTE3TmxNRGhrOGN4N0F3NnhIUnl5bGxmcF9YTjFXS0F3X3c2NXNRX0RJeGpGdEZhOXA0TmpPZ3M0ZWxkUDBaVm5xSmw4YWpjcExRZDVnSEdLQTluOFZ3?oc=5",
+     "kind": "article",
+     "published": "2026-11-26T13:09:41+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "Google News · Wisevoter",
+     "title": "Formula DRIFT Moves Title Finale to Las Vegas",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUFdSVTFlSEI0eXBBMWtXb2U5VXZaeVVzQ1ZKVExZOThvamh5SDVURkVPekRheG44ckJ0ZzVGbExMNnFuc0NHRlhQQ3RWeEhpaGhhVF8zWE1VYVBCWjJJcVVxWS1rZEF3Vk9ET1hqMzdzeWdPckNxYnVIZUNuOFV1S3V6N2tuQURYZEdSZmpaSjkzV0pm?oc=5",
+     "kind": "article",
+     "published": "2026-11-26T14:41:15+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ],
+   "scout": {
+    "score": 74,
+    "why": [
+     "uitslag",
+     "3 bronnen"
+    ],
+    "skip": false
+   }
+  },
   {
    "id": "f02a1c6d916e4faa",
    "title": "FORMULA DRIFT ANNOUNCES 2027 SCHEDULE WITH EXCITING VENUE UPDATES",
@@ -45,7 +90,15 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 52,
+    "why": [
+     "kalender",
+     "4 bronnen"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "a76133a089c40ddf",
@@ -73,7 +126,39 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 48,
+    "why": [
+     "uitslag",
+     "2 bronnen"
+    ],
+    "skip": true
+   }
+  },
+  {
+   "id": "8058422e1be57354",
+   "title": "🤯🔥 Mika Keski-Korpi couldn't believe his eyes...",
+   "series": "DM",
+   "buzz": 1,
+   "first_seen": "2026-11-26T19:05:07.974054+00:00",
+   "published": "2026-11-26T15:45:44+00:00",
+   "items": [
+    {
+     "source": "Drift Masters",
+     "title": "🤯🔥 Mika Keski-Korpi couldn't believe his eyes...",
+     "url": "https://www.youtube.com/shorts/laJnaZXlzEE",
+     "kind": "video",
+     "published": "2026-11-26T15:45:44+00:00",
+     "media_url": "https://i1.ytimg.com/vi/laJnaZXlzEE/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ],
+   "scout": {
+    "score": 29,
+    "why": [],
+    "skip": false
+   }
   },
   {
    "id": "47508878b22bbfa3",
@@ -92,7 +177,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 0,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "1776e9165a961252",
@@ -111,26 +203,12 @@
      "media_url": "https://i2.ytimg.com/vi/-K0TaGSad1I/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
-  },
-  {
-   "id": "fea79a4ad63ac204",
-   "title": "Formula Drift brings 2027 championship finale to Las Vegas",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-26T02:29:52.152991+00:00",
-   "published": "2026-11-25T20:40:00+00:00",
-   "items": [
-    {
-     "source": "Google News · FOX5 Vegas",
-     "title": "Formula Drift brings 2027 championship finale to Las Vegas",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRVRtRV92WEVyUkMwT0IweFFETC1DZHBibFIyWGNUam84aTYteHNMMFZta2d1TGFXMVY0MGxKQVFnaFQ0NXV2RGhyNUdsV0QwdjYxd0lBdVB4Y2p3ODBuT2ZHalhUU253RnhtZk5mMTRnZWxYTk5uMmFrQVNORTRlMEhRZTRZLXRqbXJONy1GM1Nxa3BoTzhWZA?oc=5",
-     "kind": "article",
-     "published": "2026-11-25T20:40:00+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ]
+   ],
+   "scout": {
+    "score": 20,
+    "why": [],
+    "skip": false
+   }
   },
   {
    "id": "78d343e346acd4d5",
@@ -149,7 +227,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 19,
+    "why": [],
+    "skip": false
+   }
   },
   {
    "id": "7d8aec87573335b7",
@@ -168,7 +251,12 @@
      "media_url": "https://i4.ytimg.com/vi/WFi3yuvYZDo/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 17,
+    "why": [],
+    "skip": false
+   }
   },
   {
    "id": "4d61a57f6cbd59f6",
@@ -187,7 +275,12 @@
      "media_url": "https://i2.ytimg.com/vi/awjxecpZWtE/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 17,
+    "why": [],
+    "skip": false
+   }
   },
   {
    "id": "8bc563a24310c8fa",
@@ -206,7 +299,14 @@
      "media_url": "https://i2.ytimg.com/vi/qq0_y-UOWOM/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": -9,
+    "why": [
+     "ruis"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "2d90c3fd2e0b55f2",
@@ -225,7 +325,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 13,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "a957f90ca4ceb4b0",
@@ -244,7 +349,12 @@
      "media_url": "https://i1.ytimg.com/vi/LMnfDVcWhpk/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "6d0ab30e11f324c8",
@@ -263,7 +373,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 8,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "6860311228ecfc27",
@@ -282,7 +397,14 @@
      "media_url": "https://i2.ytimg.com/vi/-1PCSlL7ir8/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 28,
+    "why": [
+     "kalender"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "29ac66e843789768",
@@ -301,7 +423,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "6882088d34a257f9",
@@ -320,7 +449,14 @@
      "media_url": "https://i2.ytimg.com/vi/UZmk2uL503M/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 32,
+    "why": [
+     "nieuwe auto"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "214c0a9a2c07824a",
@@ -339,7 +475,12 @@
      "media_url": "https://i4.ytimg.com/vi/Cfi9qIdzFeY/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "39eb2d07293f9bfa",
@@ -358,7 +499,12 @@
      "media_url": "https://i4.ytimg.com/vi/3yWbe-Ls6Eg/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "48925993e228c854",
@@ -377,7 +523,14 @@
      "media_url": "https://i2.ytimg.com/vi/eXBq2zDO4Q4/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 28,
+    "why": [
+     "kalender"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "04caa32ddf3ccd19",
@@ -396,7 +549,12 @@
      "media_url": "https://i2.ytimg.com/vi/9ujKUWx23PQ/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 8,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "60a29b60576ed179",
@@ -415,7 +573,12 @@
      "media_url": "https://i4.ytimg.com/vi/_7lH-tntL9U/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "3e77c8a9b27090b6",
@@ -434,7 +597,12 @@
      "media_url": "https://i1.ytimg.com/vi/dhvQQ24XJ9g/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "33a3960f5ffa3fb2",
@@ -453,7 +621,12 @@
      "media_url": "https://i4.ytimg.com/vi/KWkmBdG-5J0/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "c8765d526afcce0b",
@@ -472,7 +645,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "6796892f9ec72190",
@@ -491,7 +671,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "4a1984bb4ac53c1f",
@@ -510,7 +695,12 @@
      "media_url": "https://i1.ytimg.com/vi/XWWDMH0eHLA/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "59f30cda2e91d3c8",
@@ -529,7 +719,12 @@
      "media_url": "https://i3.ytimg.com/vi/jU0KT7w1vGQ/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "1b1b663403053c11",
@@ -548,7 +743,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 8,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "c22c43faf9909919",
@@ -567,7 +767,12 @@
      "media_url": "https://i4.ytimg.com/vi/G0sFwviiGnE/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "ea609ad846f1fa77",
@@ -586,7 +791,12 @@
      "media_url": "https://i4.ytimg.com/vi/OuVyprUgBIA/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "bab74ae5bd6cffd0",
@@ -605,7 +815,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "eb0bea27757a2ba6",
@@ -624,7 +839,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "d7d51e2ee37666ae",
@@ -643,7 +863,12 @@
      "media_url": "https://i4.ytimg.com/vi/3-aIHzl7pVo/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "4ea701b92503cecd",
@@ -662,7 +887,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 8,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "0f7ad0b2dcdc1806",
@@ -681,7 +911,12 @@
      "media_url": "https://i3.ytimg.com/vi/Rqn_UULqFdc/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "24ba170f474d5f2c",
@@ -700,7 +935,12 @@
      "media_url": "https://i2.ytimg.com/vi/MtKRpqLpuDI/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "5769b186f45d13b2",
@@ -719,7 +959,12 @@
      "media_url": "https://i2.ytimg.com/vi/Q0E-ZXnZ1Vo/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "2d85917315086e04",
@@ -738,7 +983,14 @@
      "media_url": "https://i2.ytimg.com/vi/qhwJPUxS3RA/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": -15,
+    "why": [
+     "ruis"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "a6f046151b5ef074",
@@ -757,7 +1009,14 @@
      "media_url": "https://i2.ytimg.com/vi/Ec4DbVLX694/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 30,
+    "why": [
+     "nieuwe auto"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "3ddf1ff01237c58b",
@@ -776,7 +1035,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "843a402826ee5ace",
@@ -795,7 +1061,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "2951255ebd13f1a0",
@@ -814,7 +1085,14 @@
      "media_url": "https://i2.ytimg.com/vi/EmyKGyvQfjE/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 28,
+    "why": [
+     "kalender"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "a036e55ef8dcc3c9",
@@ -833,7 +1111,12 @@
      "media_url": "https://i2.ytimg.com/vi/yyN0ouKFF_o/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "d225e8ccd240098b",
@@ -852,7 +1135,12 @@
      "media_url": "https://i3.ytimg.com/vi/2_Hwbq7ed8w/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "28977735db83b6a6",
@@ -871,7 +1159,12 @@
      "media_url": "https://i1.ytimg.com/vi/Tg8ZjToMZHU/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "05da416e50cb9a2f",
@@ -890,7 +1183,12 @@
      "media_url": "https://i2.ytimg.com/vi/5EtFqDpG35o/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "ff051e86191599b8",
@@ -909,7 +1207,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 2,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "1bc17cc6fd445725",
@@ -928,7 +1231,12 @@
      "media_url": "https://i3.ytimg.com/vi/nBC1ddFiWuA/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "471f78de0a1fcd72",
@@ -947,7 +1255,12 @@
      "media_url": "https://i4.ytimg.com/vi/WG-k_AWrRkY/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "1b28d6a2eb76df3a",
@@ -966,7 +1279,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "eecbb03a5664e58d",
@@ -985,7 +1303,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 2,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "0b87836661e3e2e3",
@@ -1004,7 +1327,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "45944ed204830aa9",
@@ -1023,7 +1353,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "4420c2725e92a0a7",
@@ -1042,7 +1379,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 30,
+    "why": [
+     "nieuwe auto"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "51aec147190e5234",
@@ -1061,7 +1405,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "89fee3819e5eaeca",
@@ -1080,7 +1431,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "8cddbc754a754ad1",
@@ -1099,7 +1457,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 8,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "4826c3af14e94bd0",
@@ -1118,7 +1481,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "1b3485d5641f7d00",
@@ -1137,7 +1505,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "bcbe6186e78cf63e",
@@ -1156,7 +1531,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 8,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "3445a3ad2c39df6a",
@@ -1175,7 +1555,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "c335101347d6299a",
@@ -1194,7 +1581,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "fe6b3eb2dc10fba0",
@@ -1213,7 +1607,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "baad3db768a9e566",
@@ -1232,7 +1633,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "863b15e766010966",
@@ -1251,7 +1659,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "4003b84b981d63e3",
@@ -1270,7 +1685,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "c2e9e3a41913d327",
@@ -1289,7 +1711,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 30,
+    "why": [
+     "nieuwe auto"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "08e6b3f199f42ede",
@@ -1308,7 +1737,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "96fef15a3d68be75",
@@ -1327,7 +1763,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "8a78805e2bd66f2f",
@@ -1346,7 +1789,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "25f5811473014ed2",
@@ -1365,7 +1815,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "ac81cc5bc6b65ff6",
@@ -1384,7 +1841,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "e28a6a5ac2b9782b",
@@ -1403,7 +1867,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "fc7b158ad90f5b63",
@@ -1422,7 +1891,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": 30,
+    "why": [
+     "nieuwe auto"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "27db786035f435e1",
@@ -1441,26 +1917,12 @@
      "media_url": null,
      "media_type": null
     }
-   ]
-  },
-  {
-   "id": "0179f33855925e5f",
-   "title": "Making 900HP Actually Usable in My R32 Skyline",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-16T15:52:07.786870+00:00",
-   "published": "2026-11-02T21:05:29+00:00",
-   "items": [
-    {
-     "source": "Adam LZ",
-     "title": "Making 900HP Actually Usable in My R32 Skyline",
-     "url": "https://www.youtube.com/watch?v=0rLDDtTTnq4",
-     "kind": "video",
-     "published": "2026-11-02T21:05:29+00:00",
-     "media_url": "https://i1.ytimg.com/vi/0rLDDtTTnq4/hqdefault.jpg",
-     "media_type": "VIDEO"
-    }
-   ]
+   ],
+   "scout": {
+    "score": 8,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "094136ed1e417f23",
@@ -1479,7 +1941,12 @@
      "media_url": "https://i4.ytimg.com/vi/GnIngCZCsIc/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "7ad7308b09f52499",
@@ -1498,7 +1965,12 @@
      "media_url": "https://i4.ytimg.com/vi/CQJ5Ds0jnOQ/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 10,
+    "why": [],
+    "skip": true
+   }
   },
   {
    "id": "404cd46a33b9f69c",
@@ -1517,7 +1989,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "2781e23cc1e32e19",
@@ -1536,7 +2015,14 @@
      "media_url": "https://i3.ytimg.com/vi/z6m_bmUiAUQ/hqdefault.jpg",
      "media_type": "VIDEO"
     }
-   ]
+   ],
+   "scout": {
+    "score": 40,
+    "why": [
+     "uitslag"
+    ],
+    "skip": true
+   }
   },
   {
    "id": "98774cfed819d38f",
@@ -1555,7 +2041,14 @@
      "media_url": null,
      "media_type": null
     }
-   ]
+   ],
+   "scout": {
+    "score": -11,
+    "why": [
+     "Japans"
+    ],
+    "skip": true
+   }
   }
  ],
  "sources": [
@@ -1584,14 +2077,14 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 11,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "how": "feed"
   },
   {
