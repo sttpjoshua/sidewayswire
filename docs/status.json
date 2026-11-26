@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T17:10:11.334356+00:00",
+ "updated": "2026-11-26T17:15:49.063289+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 474,
+  "ready": 470,
   "check": 128,
   "skipped": 70,
   "posted": 3,
-  "draft": 76
+  "draft": 80
  },
  "collected": "2026-11-26T11:27:46.116993+00:00",
  "instagram": false,
@@ -12250,6 +12250,226 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytth2l4tyizj4-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Odi Bakchis pulls away from James Deane in the final zone. Something you may never see again.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #orlando #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
+    "start": 741.34
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T06:06:22.952297+00:00",
+   "built": "2026-11-26T17:15:38.389148+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytth2l4tyizj4-14__clip.mp4",
+   "tags": [
+    "@odidrift",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ODI WALKS AWAY FROM DEANE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytth2l4tyizj4-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The Norwegian Hammer leads and James Deane rides side saddle on the Supra all the way to the line.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@fredricaasbo @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
+    "start": 654.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T06:04:19.499051+00:00",
+   "built": "2026-11-26T17:13:37.058400+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytth2l4tyizj4-13__clip.mp4",
+   "tags": [
+    "@fredricaasbo",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "HAMMER VS MACHINE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytth2l4tyizj4-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Odi Bakchis and his drift whiskers. He times the chase on Brandon Sorensen perfectly, again.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@branden_sorensen @odidrift @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
+    "start": 620.84
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T06:03:13.403501+00:00",
+   "built": "2026-11-26T17:12:41.665556+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytth2l4tyizj4-12__clip.mp4",
+   "tags": [
+    "@branden_sorensen",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ODI IS LIKE A CAT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytth2l4tyizj4-11",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field tries to bully the five time champion and James Deane is tracking him down. This is tough.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
+    "start": 531.36
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T06:02:09.727935+00:00",
+   "built": "2026-11-26T17:11:46.535894+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytth2l4tyizj4-11__clip.mp4",
+   "tags": [
+    "@jamesdeane130",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FIELD TRIES TO BULLY THE CHAMP",
    "photo": null
   },
   {
@@ -30649,281 +30869,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytth2l4tyizj4-15__short.mp4",
    "title": "COULD THIS BE ODI'S YEAR?",
-   "photo": null
-  },
-  {
-   "id": "pod-ytth2l4tyizj4-14",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Odi Bakchis pulls away from James Deane in the final zone. Something you may never see again.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #orlando #jamesdeane #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytth2l4tyizj4-14__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
-    "start": 741.34
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T06:06:22.952297+00:00",
-   "built": "2026-11-20T07:02:32.943316+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytth2l4tyizj4-14__clip.mp4",
-   "tags": [
-    "@odidrift",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 75,
-   "captions": {
-    "instagram": "Aurimas Bakchis vs James Deane | Formula DRIFT Orlando 2026\n\nOdi Bakchis pulls away from James Deane in the final zone. Something you may never see again.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@odidrift @jamesdeane130 @formulad\n\n#formuladrift #formulad #aurimasbakchis #jamesdeane #sidewayswire",
-    "facebook": "Aurimas Bakchis vs James Deane | Formula DRIFT Orlando 2026\n\nOdi Bakchis pulls away from James Deane in the final zone. Something you may never see again.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@odidrift @jamesdeane130 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Aurimas Bakchis vs James Deane | Formula DRIFT Orlando 2026: Odi Bakchis pulls away from James Deane in the final zone. Something you may never see again.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Orlando 2026 @odidrift @jamesdeane130 @formulad\n#formuladrift #formulad #aurimasbakchis #sidewayswire",
-    "youtube_title": "Aurimas Bakchis vs James Deane | Formula DRIFT Orlando 2026",
-    "youtube": "Odi Bakchis pulls away from James Deane in the final zone. Something you may never see again.\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@odidrift @jamesdeane130 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "odidrift",
-    "jamesdeane130"
-   ],
-   "people": [
-    "Aurimas Bakchis",
-    "James Deane"
-   ],
-   "moment_kind": "final",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytth2l4tyizj4-14.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytth2l4tyizj4-14.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytth2l4tyizj4-14__short.mp4",
-   "title": "ODI WALKS AWAY FROM DEANE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytth2l4tyizj4-13",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "The Norwegian Hammer leads and James Deane rides side saddle on the Supra all the way to the line.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@fredricaasbo @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytth2l4tyizj4-13__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
-    "start": 654.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T06:04:19.499051+00:00",
-   "built": "2026-11-20T07:02:32.899072+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytth2l4tyizj4-13__clip.mp4",
-   "tags": [
-    "@fredricaasbo",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 85,
-   "captions": {
-    "instagram": "Fredric Aasbø vs James Deane | Formula DRIFT Orlando 2026\n\nThe Norwegian Hammer leads and James Deane rides side saddle on the Supra all the way to the line.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@fredricaasbo @jamesdeane130 @formulad\n\n#formuladrift #formulad #fredricaasbo #jamesdeane #sidewayswire",
-    "facebook": "Fredric Aasbø vs James Deane | Formula DRIFT Orlando 2026\n\nThe Norwegian Hammer leads and James Deane rides side saddle on the Supra all the way to the line.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@fredricaasbo @jamesdeane130 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Fredric Aasbø vs James Deane | Formula DRIFT Orlando 2026: The Norwegian Hammer leads and James Deane rides side saddle on the Supra all the way to the line.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Orlando 2026 @fredricaasbo @jamesdeane130 @formulad\n#formuladrift #formulad #fredricaasbo #sidewayswire",
-    "youtube_title": "Fredric Aasbø vs James Deane | Formula DRIFT Orlando 2026",
-    "youtube": "The Norwegian Hammer leads and James Deane rides side saddle on the Supra all the way to the line.\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@fredricaasbo @jamesdeane130 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "fredricaasbo",
-    "jamesdeane130"
-   ],
-   "people": [
-    "Fredric Aasbø",
-    "James Deane"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytth2l4tyizj4-13.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytth2l4tyizj4-13.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "HAMMER VS MACHINE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytth2l4tyizj4-12",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Odi Bakchis and his drift whiskers. He times the chase on Brandon Sorensen perfectly, again.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@branden_sorensen @odidrift @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytth2l4tyizj4-12__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
-    "start": 620.84
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T06:03:13.403501+00:00",
-   "built": "2026-11-20T07:02:32.854939+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytth2l4tyizj4-12__clip.mp4",
-   "tags": [
-    "@branden_sorensen",
-    "@odidrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Brandon Sorensen vs Aurimas Bakchis | Formula DRIFT Orlando 2026\n\nOdi Bakchis and his drift whiskers. He times the chase on Brandon Sorensen perfectly, again.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@odidrift @formulad\n\n#formuladrift #formulad #brandonsorensen #aurimasbakchis #sidewayswire",
-    "facebook": "Brandon Sorensen vs Aurimas Bakchis | Formula DRIFT Orlando 2026\n\nOdi Bakchis and his drift whiskers. He times the chase on Brandon Sorensen perfectly, again.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@odidrift @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Brandon Sorensen vs Aurimas Bakchis | Formula DRIFT Orlando 2026: Odi Bakchis and his drift whiskers. He times the chase on Brandon Sorensen perfectly, again.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Orlando 2026 @odidrift @formulad\n#formuladrift #formulad #brandonsorensen #sidewayswire",
-    "youtube_title": "Sorensen vs Bakchis | Formula DRIFT Orlando 2026",
-    "youtube": "Odi Bakchis and his drift whiskers. He times the chase on Brandon Sorensen perfectly, again.\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@odidrift @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "odidrift"
-   ],
-   "people": [
-    "Brandon Sorensen",
-    "Aurimas Bakchis"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytth2l4tyizj4-12.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytth2l4tyizj4-12.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "ODI IS LIKE A CAT",
-   "photo": null
-  },
-  {
-   "id": "pod-ytth2l4tyizj4-11",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field tries to bully the five time champion and James Deane is tracking him down. This is tough.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytth2l4tyizj4-11__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
-    "start": 531.36
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T06:02:09.727935+00:00",
-   "built": "2026-11-20T07:02:32.810639+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytth2l4tyizj4-11__clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "James Deane vs Matt Field | Formula DRIFT Orlando 2026\n\nMatt Field tries to bully the five time champion and James Deane is tracking him down. This is tough.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jamesdeane130 @mattfield777 @formulad\n\n#formuladrift #formulad #jamesdeane #mattfield #sidewayswire",
-    "facebook": "James Deane vs Matt Field | Formula DRIFT Orlando 2026\n\nMatt Field tries to bully the five time champion and James Deane is tracking him down. This is tough.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jamesdeane130 @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "James Deane vs Matt Field | Formula DRIFT Orlando 2026: Matt Field tries to bully the five time champion and James Deane is tracking him down. This is tough.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Orlando 2026 @jamesdeane130 @mattfield777 @formulad\n#formuladrift #formulad #jamesdeane #sidewayswire",
-    "youtube_title": "James Deane vs Matt Field | Formula DRIFT Orlando 2026",
-    "youtube": "Matt Field tries to bully the five time champion and James Deane is tracking him down. This is tough.\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jamesdeane130 @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jamesdeane130",
-    "mattfield777"
-   ],
-   "people": [
-    "James Deane",
-    "Matt Field"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 26.8,
-   "thumb": "media/thumbs/pod-ytth2l4tyizj4-11.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytth2l4tyizj4-11.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytth2l4tyizj4-11__short.mp4",
-   "title": "FIELD TRIES TO BULLY THE CHAMP",
    "photo": null
   },
   {
