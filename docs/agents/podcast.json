@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Adam LZ · Making 900HP Actually Usable in My R32 Skyline",
- "updated": "2026-11-26T19:20:41.877350+00:00",
+ "doing": "leest: Adam LZ · Why I Quit Formula Drift",
+ "updated": "2026-11-26T19:20:45.936771+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:20:45.080706+00:00",
+   "text": "0 momenten uit Making 900HP Actually Usable in My R32 Skyline",
+   "ref": "yt0rlddtttnq4"
+  },
   {
    "at": "2026-11-26T19:20:41.189477+00:00",
    "text": "0 momenten uit Ripping the World's Most Expensive R32 GT-R",
@@ -34,7 +39,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 3
+  "made": 4
  },
  "version": "3"
 }
