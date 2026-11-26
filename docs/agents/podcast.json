@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Adam LZ · Ripping the World's Most Expensive R32 GT-R",
- "updated": "2026-11-26T19:20:37.986793+00:00",
+ "doing": "leest: Adam LZ · Making 900HP Actually Usable in My R32 Skyline",
+ "updated": "2026-11-26T19:20:41.877350+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:20:41.189477+00:00",
+   "text": "0 momenten uit Ripping the World's Most Expensive R32 GT-R",
+   "ref": "ytzroe49xb87c"
+  },
   {
    "at": "2026-11-26T19:20:37.335543+00:00",
    "text": "0 momenten uit Ebisu Circuit YouTuber Takeover",
@@ -29,7 +34,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 2
+  "made": 3
  },
  "version": "3"
 }
