@@ -2,9 +2,9 @@
  "id": "battle",
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
- "state": "fout",
- "doing": null,
- "updated": "2026-11-26T19:26:47.540161+00:00",
+ "state": "bezig",
+ "doing": "leest: Formula DRIFT · Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+ "updated": "2026-11-26T19:46:18.816183+00:00",
  "note": "",
  "history": [
   {
@@ -133,13 +133,7 @@
    "ref": "ythnglyd6cr0"
   }
  ],
- "errors": [
-  "taalmodel: No module named 'mlx_lm'",
-  "taalmodel: No module named 'mlx_lm'",
-  "taalmodel: No module named 'mlx_lm'",
-  "taalmodel: No module named 'mlx_lm'",
-  "taalmodel: No module named 'mlx_lm'"
- ],
+ "errors": [],
  "drops": {},
  "sample": "",
  "counts": {
