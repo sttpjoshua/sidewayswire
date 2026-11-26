@@ -384,7 +384,7 @@
   "why": "Suspenseful and informative.",
   "caption": "Ryan Littoral's qualifying score is revealed.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -393,7 +393,12 @@
    "text": "WHAT'S HIS SCORE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-14-19151-19313.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-14-19151-19313.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1925.9, \"start\": 1923.3, \"text\": \"WHAT'S HIS SCORE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:56:31.050001+00:00"
  },
  {
   "start": 2075.72,
@@ -406,10 +411,15 @@
   "why": "Strong visual and suspenseful",
   "caption": "T-Lo's aggressive run leaves the judges intrigued.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytnmn7gxunksk-15-20757-21099.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-15-20757-21099.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-26T20:57:08.616087+00:00"
  },
  {
   "start": 2137.9,
@@ -422,7 +432,7 @@
   "why": "High angle and strong visuals",
   "caption": "Wataro-Masiama's commitment to angle is on full display.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -431,7 +441,12 @@
    "text": "HOW MUCH ANGLE CAN HE THROW?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-16-21379-22020.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-16-21379-22020.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2176.56, \"start\": 2175.38, \"text\": \"HOW MUCH ANGLE CAN HE THROW?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:58:41.228543+00:00"
  },
  {
   "start": 2327.9,
@@ -444,7 +459,7 @@
   "why": "Strong qualifying score and commentary.",
   "caption": "Masayama scores a solid 84.33 in qualifying.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -453,7 +468,12 @@
    "text": "WHAT WAS HIS SCORE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-17-23279-23721.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-17-23279-23721.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2372.11, \"start\": 2370.69, \"text\": \"WHAT WAS HIS SCORE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:59:33.514898+00:00"
  },
  {
   "start": 2768.15,

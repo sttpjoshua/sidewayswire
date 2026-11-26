@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-26T20:59:22.475032+00:00",
+ "updated": "2026-11-26T20:59:40.673908+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 638,
   "check": 63,
   "skipped": 70,
-  "posted": 3
+  "posted": 3,
+  "draft": 4
  },
  "collected": "2026-11-26T20:57:30.910449+00:00",
  "instagram": true,
@@ -12797,6 +12798,112 @@
    "photo": null
   },
   {
+   "id": "pod-ytnmn7gxunksk-17",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Masayama scores a solid 84.33 in qualifying.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 2327.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T20:59:33.516641+00:00",
+   "built": "2026-11-26T20:59:33.516647+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytnmn7gxunksk-17__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "MASAYAMA'S SCORE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-16",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Wataro-Masiama's commitment to angle is on full display.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 2137.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T20:58:41.230397+00:00",
+   "built": "2026-11-26T20:58:41.230403+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytnmn7gxunksk-16__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "WATARO-MAISAMA'S COMMITMENT",
+   "photo": null
+  },
+  {
    "id": "pod-ytnmn7gxunksk-13",
    "kind": "stream_clip",
    "status": "ready",
@@ -13101,6 +13208,113 @@
     "mode": "none",
     "credit": ""
    }
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-15",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "T-Lo's aggressive run leaves the judges intrigued.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 2075.72
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T20:57:08.617628+00:00",
+   "built": "2026-11-26T20:57:08.617634+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytnmn7gxunksk-15__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "T-LO'S AGGRESSIVE RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytnmn7gxunksk-14",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Littoral's qualifying score is revealed.\n\n🎥 Footage: FD LAS VEGAS 2026\n@formulad @derek_madison\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+    "start": 1915.06
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T20:56:31.051486+00:00",
+   "built": "2026-11-26T20:56:31.051490+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytnmn7gxunksk-14__clip.mp4",
+   "tags": [
+    "@formulad",
+    "@derek_madison"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "JUDGES' SCORES REVEALED",
+   "photo": null
   },
   {
    "id": "pod-ytnmn7gxunksk-8",
@@ -58150,6 +58364,21 @@
  "replies": [],
  "names": [
   {
+   "name": "Mika Keski-Korpi",
+   "posts": 4,
+   "ids": [
+    "pod-ythcpensbcsdc-4",
+    "pod-ythcpensbcsdc-8",
+    "pod-ytvphv55wk1ja-4",
+    "pod-ytvphv55wk1ja-5"
+   ],
+   "handle": "@keskikorpimotorsport",
+   "known": true,
+   "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
    "name": "Espen Røed",
    "posts": 2,
    "ids": [
@@ -58157,6 +58386,32 @@
     "pod-ythcpensbcsdc-5"
    ],
    "handle": "",
+   "known": true,
+   "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Raman Kandrasenka",
+   "posts": 2,
+   "ids": [
+    "pod-ythcpensbcsdc-2",
+    "pod-ythcpensbcsdc-6"
+   ],
+   "handle": "",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Lauri Heinonen",
+   "posts": 2,
+   "ids": [
+    "pod-ythcpensbcsdc-2",
+    "pod-ythcpensbcsdc-6"
+   ],
+   "handle": "@lauriheinonen18",
    "known": true,
    "series": "DM",
    "why": "",
@@ -58176,6 +58431,308 @@
    "suggest": []
   },
   {
+   "name": "Unknown driver",
+   "posts": 2,
+   "ids": [
+    "pod-ytism3awlxzqs-3",
+    "pod-ytpcbmjoufku-1"
+   ],
+   "handle": "",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Alan Hynes",
+   "posts": 2,
+   "ids": [
+    "pod-ytn7sq14e5es-2",
+    "pod-ytvphv55wk1ja-15"
+   ],
+   "handle": "@hynesz_official",
+   "known": true,
+   "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Red Bull Car Park Drift",
+   "posts": 1,
+   "ids": [
+    "2026-11-17-car-park-drift-jeddah"
+   ],
+   "handle": "",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Kodai Sobakiri",
+   "posts": 1,
+   "ids": [
+    "2026-11-17-d1gp-sobakiri-champion"
+   ],
+   "handle": "@koudai.sobagiri",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Naoki Nakamura",
+   "posts": 1,
+   "ids": [
+    "2026-11-17-d1gp-sobakiri-champion"
+   ],
+   "handle": "@nakamura_naoki_n",
+   "known": true,
+   "series": "D1GP",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Benediktas Čirba",
+   "posts": 1,
+   "ids": [
+    "2026-11-17-fia-idc-cirba"
+   ],
+   "handle": "@benediktascirba",
+   "known": true,
+   "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Martins Immermanis",
+   "posts": 1,
+   "ids": [
+    "2026-11-17-fia-idc-cirba"
+   ],
+   "handle": "@smokey_marcha",
+   "known": true,
+   "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Stavros Gryllis",
+   "posts": 1,
+   "ids": [
+    "2026-11-17-fia-idc-cirba"
+   ],
+   "handle": "@stavrosgrillis08",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "FIA",
+   "posts": 1,
+   "ids": [
+    "2026-11-17-fia-idc-cirba"
+   ],
+   "handle": "",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Ross Richardson",
+   "posts": 1,
+   "ids": [
+    "pod-3fa7ee22a33c-18"
+   ],
+   "handle": "",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Brandon Scarpelli",
+   "posts": 1,
+   "ids": [
+    "pod-3fa7ee22a33c-20"
+   ],
+   "handle": "@mrscarpelli",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Loxley Lennox",
+   "posts": 1,
+   "ids": [
+    "pod-3fa7ee22a33c-21"
+   ],
+   "handle": "@locksleylennox",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Jonathan Nerren",
+   "posts": 1,
+   "ids": [
+    "pod-3fa7ee22a33c-5"
+   ],
+   "handle": "@jonathannerren",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Keisuke Nagashima",
+   "posts": 1,
+   "ids": [
+    "pod-4ff63fdc1bd8-0"
+   ],
+   "handle": "@86fighters",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Jimmy Yates",
+   "posts": 1,
+   "ids": [
+    "pod-b5159f5c03f8-20"
+   ],
+   "handle": "@jyw0rld",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Lucas",
+   "posts": 1,
+   "ids": [
+    "pod-ytbnnz6o9wkaq-2"
+   ],
+   "handle": "",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Casey Cole",
+   "posts": 1,
+   "ids": [
+    "pod-ytcaagmgzlale-10"
+   ],
+   "handle": "",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Shelly Hansen",
+   "posts": 1,
+   "ids": [
+    "pod-ytcaagmgzlale-5"
+   ],
+   "handle": "@chelleehansen",
+   "known": true,
+   "series": "FD",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Chris Leonard",
+   "posts": 1,
+   "ids": [
+    "pod-ytjrjhgpxtn6i-0"
+   ],
+   "handle": "@thechrisleonard",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Andy Howard",
+   "posts": 1,
+   "ids": [
+    "pod-ytn7sq14e5es-3"
+   ],
+   "handle": "@driftacrosstheworld",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Stavros Grillis",
+   "posts": 1,
+   "ids": [
+    "pod-ytn7sq14e5es-4"
+   ],
+   "handle": "@stavrosgrillis08",
+   "known": true,
+   "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Dylan Garvey",
+   "posts": 1,
+   "ids": [
+    "pod-ytue2s78ftfay-2"
+   ],
+   "handle": "@dylangarvey26",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Konstantyn Shchurenko",
+   "posts": 1,
+   "ids": [
+    "pod-ytvphv55wk1ja-0"
+   ],
+   "handle": "@shchurenko_konstantyn",
+   "known": true,
+   "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Ali Makhseed",
+   "posts": 1,
+   "ids": [
+    "pod-ytvphv55wk1ja-12"
+   ],
+   "handle": "@alimakhseed71",
+   "known": true,
+   "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Kalle Rovanperä",
+   "posts": 1,
+   "ids": [
+    "pod-ytvphv55wk1ja-14"
+   ],
+   "handle": "@kallerovanpera",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
    "name": "Itaes Sade",
    "posts": 1,
    "ids": [
@@ -58184,6 +58741,42 @@
    "handle": "",
    "known": true,
    "series": "DM",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Timo Asunmaa",
+   "posts": 1,
+   "ids": [
+    "pod-ytvphv55wk1ja-2"
+   ],
+   "handle": "@teemuasunmaa",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Mike Whiddett",
+   "posts": 1,
+   "ids": [
+    "pod-ytvphv55wk1ja-30"
+   ],
+   "handle": "@madmike.123",
+   "known": true,
+   "series": "",
+   "why": "",
+   "suggest": []
+  },
+  {
+   "name": "Patrick Friesacher",
+   "posts": 1,
+   "ids": [
+    "pod-ytvphv55wk1ja-30"
+   ],
+   "handle": "@p.friesacher",
+   "known": true,
+   "series": "",
    "why": "",
    "suggest": []
   }
