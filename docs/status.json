@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T22:01:49.173122+00:00",
+ "updated": "2026-11-26T22:16:18.169822+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 685,
@@ -7,7 +7,7 @@
   "skipped": 71,
   "posted": 3
  },
- "collected": "2026-11-26T22:01:34.332119+00:00",
+ "collected": "2026-11-26T22:16:13.619487+00:00",
  "instagram": true,
  "sources": [
   {
@@ -20,8 +20,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -40,8 +41,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
@@ -172,7 +174,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 11,
    "how": "feed"
   },
   {
@@ -192,15 +194,14 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -220,8 +221,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   }
  ],
  "inbox": [
