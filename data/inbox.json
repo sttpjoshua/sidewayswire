@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:31:27.208321+00:00",
+ "updated": "2026-11-26T23:46:15.559920+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -122,7 +122,7 @@
     }
    ],
    "scout": {
-    "score": 58,
+    "score": 57,
     "why": [
      "aankondiging",
      "2 bronnen"
@@ -562,7 +562,7 @@
     }
    ],
    "scout": {
-    "score": 30,
+    "score": 29,
     "why": [
      "bekende rijder"
     ],
@@ -2454,7 +2454,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 12,
+   "items": 7,
    "how": "feed"
   },
   {
@@ -2494,8 +2494,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
