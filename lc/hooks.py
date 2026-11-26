@@ -29,9 +29,9 @@ ROOT = Path(__file__).resolve().parent.parent
 QUESTIONS = ROOT / "data" / "hooks" / "questions.json"
 USED = ROOT / "data" / "hooks" / "used.json"
 
-TYPES = ("breaking", "winner", "question", "whatif", "debate", "look")
+TYPES = ("breaking", "winner", "question", "whatif", "debate", "look", "rumor")
 LABELS = {"breaking": "BREAKING", "winner": "WINNER", "question": "YOUR CALL", "whatif": "WHAT IF?",
-          "debate": "HOT TAKE", "look": "NEW LOOK"}
+          "debate": "HOT TAKE", "look": "NEW LOOK", "rumor": "RUMOR"}
 # Tape colours: a fixed look with a changing colour, like DriftReady. White text with a black edge reads on all.
 PALETTE = ["#C6FF00", "#FF2E88", "#1E6BFF", "#E10600", "#00B3A4", "#FF7A00", "#7B2CFF", "#111111"]
 SERIES = {"Formula DRIFT": "FORMULA DRIFT", "FD": "FORMULA DRIFT", "Drift Masters": "DRIFT MASTERS",
@@ -64,8 +64,12 @@ def make(kind: str, headline: list[str], caption: str, people: list[str] | None 
             "slides": [{"template": "hook.html", "data": {
                 "headline": [h.upper() for h in headline][:3], "label": LABELS[kind],
                 "series": series_label(series)}}],
-            "caption": cap, "platforms": ["instagram", "facebook"], "status": "draft",
-            "created": now.isoformat(), **extra}
+            "caption": cap, "platforms": ["facebook", "instagram"] if kind == "rumor" else ["instagram", "facebook"],
+            "status": "draft", "created": now.isoformat(),
+            # Joshua (26 nov): rumors get people talking, on Facebook most of all. Always as a question,
+            # never as fact, and he gives each one a quick look first.
+            **({"check": True, "check_reason": "gerucht: klopt de basis? dan goedkeuren"} if kind == "rumor" else {}),
+            **extra}
 
 
 def learned() -> dict:

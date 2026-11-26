@@ -50,8 +50,8 @@ KINDS = {"stream": ["battle", "qualify", "crash", "omt", "call", "final", "momen
          "vlog": ["moment", "quote", "crash", "fact", "rumor"],
          "podcast": ["quote", "rumor", "fact", "moment"]}
 NEWS_EVERY_H = 3
-HOOK_FORMATS = ("breaking", "winner", "look", "question")
-HOOK_LABELS = {"breaking": "BREAKING", "winner": "WINNER", "look": "NEW LOOK", "question": "YOUR CALL"}
+HOOK_FORMATS = ("breaking", "winner", "look", "question", "rumor")
+HOOK_LABELS = {"breaking": "BREAKING", "winner": "WINNER", "look": "NEW LOOK", "question": "YOUR CALL", "rumor": "RUMOR"}
 SERIES_LABEL = {"Formula DRIFT": "FORMULA DRIFT", "FD": "FORMULA DRIFT", "Drift Masters": "DRIFT MASTERS",
                 "DM": "DRIFT MASTERS", "D1GP": "D1 GRAND PRIX"}
 NEWS_PER_ROUND = 2
@@ -315,6 +315,10 @@ Announcements are the most important posts in the off-season: a driver joining, 
 a series, a pro license, a full season, a retirement or "won't be back", a new team or car for next year.
 Those are always worth_it true and format "breaking", with a headline that says it plainly, for example
 ["JIMMY OAKES", "JOINS", "FORMULA DRIFT"] or ["ADAM LZ OUT", "FOR 2027"]. Only when the text really says so.
+A rumor (someone hints at it, says it is a plan, or others say it, but it is not confirmed) is worth_it
+true too, with rumor true and format "rumor": the headline is then a QUESTION, for example
+["IS JIMMY OAKES", "GOING PRO", "IN 2027?"]; the caption says exactly what is known and who said it,
+says it is not confirmed, and ends with a question to the fans ("What do you think?").
 An Instagram caption by the driver counts as the source: use only what it says. The headline IS the post: short, strong, in capitals, max 3 lines.
 caption: 1 or 2 short sentences. Use a human detail from the text when there is one (a comeback, a new
 baby, a first win). A light opinion is fine ("he had style"), never mock or attack a person or series.
@@ -414,7 +418,11 @@ def news(gh, put, json_or, log, beat, known: dict, agent=None, note: str = "") -
             post["fresh_hours"] = 120          # off-season features stay interesting longer than results
         if is_tip:
             post |= {"tip": s["tip"]["id"], "source": s["items"][0].get("url") or post["source"]}
-        if fmt in HOOK_FORMATS and not rumor:
+        if rumor and people:
+            fmt = "rumor"                       # 26 nov: rumors as a question post, Facebook first
+            post |= {"platforms": ["facebook", "instagram"], "check": True,
+                     "check_reason": "gerucht: klopt de basis? dan goedkeuren"}
+        if fmt in HOOK_FORMATS and (not rumor or fmt == "rumor"):
             post |= {"kind": "breaking" if fmt == "breaking" else "hook", "hook": {"type": fmt},
                      "slides": [{"template": "hook.html", "data": {
                          "headline": head, "label": HOOK_LABELS[fmt],

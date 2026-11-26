@@ -1,0 +1,38 @@
+{
+ "id": "2026-11-26-rumor-jimmy-oakes-fd-2027",
+ "kind": "hook",
+ "hook": {
+  "type": "rumor"
+ },
+ "title": "IS JIMMY OAKES GOING PRO IN 2027?",
+ "people": [
+  "Jimmy Oakes"
+ ],
+ "slides": [
+  {
+   "template": "hook.html",
+   "data": {
+    "headline": [
+     "IS JIMMY OAKES",
+     "GOING PRO",
+     "IN 2027?"
+    ],
+    "label": "RUMOR",
+    "series": "FORMULA DRIFT"
+   }
+  }
+ ],
+ "caption": "Jimmy Oakes has been building a pro-level 2JZ 240SX and said last year that going pro in Formula DRIFT is on his radar. Nothing is confirmed yet for 2027.\n\nWould you want to see him on the FD grid? 👇\n\nSource: Jimmy Oakes on The Circle of Drift podcast, via Drifted",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "status": "draft",
+ "created": "2026-11-26T20:46:13.558742+00:00",
+ "check": true,
+ "check_reason": "gerucht: klopt de basis? dan goedkeuren",
+ "source": "https://www.drifted.com/jimmy-oakes-explains-his-upcoming-formula-drift-plans/",
+ "fresh_hours": 240,
+ "by": "claude",
+ "tip_from": "Joshua in chat"
+}
