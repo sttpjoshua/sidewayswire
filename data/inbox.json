@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:16:26.119625+00:00",
+ "updated": "2026-11-26T23:31:27.208321+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -407,6 +407,33 @@
    }
   },
   {
+   "id": "a8628dd78b0c93a4",
+   "title": "'Building community': Afterlife born to provide music scene with new venue",
+   "series": "FD",
+   "buzz": 1,
+   "first_seen": "2026-11-26T23:31:21.941396+00:00",
+   "published": "2026-11-26T23:02:46+00:00",
+   "items": [
+    {
+     "source": "Google News · Newcastle Herald",
+     "title": "'Building community': Afterlife born to provide music scene with new venue",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSlE5UEpXWGtUWkoyZDRpZDIxQTdrX0drWmk4dGtRUTFjaXVTWThIbDVhM0dZTEdwbkpmR2xtdXZHTExzSklIdi1PMUN5QU9KVjVZOUM5YlFYb0FZVG5BMVhnQVVzbVhvSnkyOUl3US1zYkhfNjVhRUVQZjhtUmJaVFJfamtyZjlVMDFxR2J2MXJwTjhScjUzekJ0YnhGdk45OTNfZHN3UVpSd3J1dGJr?oc=5",
+     "kind": "article",
+     "published": "2026-11-26T23:02:46+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ],
+   "scout": {
+    "score": 48,
+    "why": [
+     "kalender"
+    ],
+    "skip": false,
+    "feature": false
+   }
+  },
+  {
    "id": "631f2c980cfff196",
    "title": "The Heat Wave Wall-Master Clock giveaway happens at specific times Black Friday weekend, and 800 are for the taking. Spend $100+ during the giveaway times and one could be headed straight to your wall",
    "series": "FD",
@@ -614,7 +641,7 @@
     }
    ],
    "scout": {
-    "score": 50,
+    "score": 49,
     "why": [
      "kalender",
      "bekende rijder"
@@ -2207,33 +2234,6 @@
    }
   },
   {
-   "id": "2fd35c2a933f2376",
-   "title": "What a ride. ",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-26T19:52:38.000828+00:00",
-   "published": "2026-11-07T15:23:19+00:00",
-   "items": [
-    {
-     "source": "@nathaniel.chen",
-     "title": "What a ride. ",
-     "url": "https://www.instagram.com/reel/DfcfjK7Kml1/",
-     "kind": "instagram",
-     "published": "2026-11-07T15:23:19+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
-    }
-   ],
-   "scout": {
-    "score": 25,
-    "why": [
-     "bekende rijder"
-    ],
-    "skip": true,
-    "feature": true
-   }
-  },
-  {
    "id": "735452c87d2e712f",
    "title": "Teamwork makes the dream work! 🤝🔥",
    "series": "FD",
@@ -2398,7 +2398,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2454,15 +2454,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
   },
   {
    "source": "Google News",
@@ -2495,9 +2494,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
   },
   {
    "source": "Google News",

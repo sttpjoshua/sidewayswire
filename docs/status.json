@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:16:32.209832+00:00",
+ "updated": "2026-11-26T23:31:32.180154+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 697,
@@ -7,7 +7,7 @@
   "check": 17,
   "posted": 3
  },
- "collected": "2026-11-26T23:16:26.119625+00:00",
+ "collected": "2026-11-26T23:31:27.208321+00:00",
  "instagram": true,
  "sources": [
   {
@@ -119,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -175,15 +175,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
   },
   {
    "source": "Google News",
@@ -216,9 +215,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
   },
   {
    "source": "Google News",
@@ -522,6 +520,23 @@
      "published": "2026-11-16T22:20:07+00:00",
      "media_url": null,
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "'Building community': Afterlife born to provide music scene with new venue",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-26T23:02:46+00:00",
+   "items": [
+    {
+     "source": "Google News · Newcastle Herald",
+     "title": "'Building community': Afterlife born to provide music scene with new venue",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSlE5UEpXWGtUWkoyZDRpZDIxQTdrX0drWmk4dGtRUTFjaXVTWThIbDVhM0dZTEdwbkpmR2xtdXZHTExzSklIdi1PMUN5QU9KVjVZOUM5YlFYb0FZVG5BMVhnQVVzbVhvSnkyOUl3US1zYkhfNjVhRUVQZjhtUmJaVFJfamtyZjlVMDFxR2J2MXJwTjhScjUzekJ0YnhGdk45OTNfZHN3UVpSd3J1dGJr?oc=5",
+     "kind": "article",
+     "published": "2026-11-26T23:02:46+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1661,23 +1676,6 @@
      "published": "2026-11-08T22:37:58+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/858594030_18650555275062403_5558224849443160899_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uFgQKN7G_tMQ7kNvwG4f-vp&_nc_oc=AdrubSz63cq0bxkm2CF4ZDJr-ixOmae5laHChFQp8pmPCRVt_mggwTOU_CahtoSc5lc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ojS26SaH0CLOwEKQbYrkPA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRlNtdrH5ihgPKhV5qE0iLKeo1dCJna6cSEksCotL8MeA&oe=6B0E633F",
      "media_type": "CAROUSEL_ALBUM"
-    }
-   ]
-  },
-  {
-   "title": "What a ride. ",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-07T15:23:19+00:00",
-   "items": [
-    {
-     "source": "@nathaniel.chen",
-     "title": "What a ride. ",
-     "url": "https://www.instagram.com/reel/DfcfjK7Kml1/",
-     "kind": "instagram",
-     "published": "2026-11-07T15:23:19+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
     }
    ]
   },
