@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: TJ Hunt · The Aston Martin GT3 is a NIGHTMARE",
- "updated": "2026-11-26T19:21:36.134556+00:00",
+ "doing": "leest: TJ Hunt · Is This My Worst Financial Decision?",
+ "updated": "2026-11-26T19:21:41.681556+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:21:40.990490+00:00",
+   "text": "0 momenten uit The Aston Martin GT3 is a NIGHTMARE",
+   "ref": "yt0svvdxrijeq"
+  },
   {
    "at": "2026-11-26T19:21:35.379816+00:00",
    "text": "0 momenten uit I Hope I Don't Regret This...",
@@ -99,7 +104,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 16
+  "made": 17
  },
  "version": "3"
 }
