@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs" / "agents"
 CFG = ROOT / "data" / "agents.json"
 
-NAMES = {"battle": "Battle-redacteur", "podcast": "Podcast-redacteur", "nieuws": "Nieuwsredacteur",
+NAMES = {"hoofdredacteur": "Hoofdredacteur", "battle": "Battle-redacteur", "podcast": "Podcast-redacteur", "nieuws": "Nieuwsredacteur",
          "community": "Community-redacteur", "scout": "Nieuwsscout", "qc": "Kwaliteitscontrole",
          "tags": "Tags-onderzoeker", "analist": "Analist", "wachter": "Systeemwachter"}
 

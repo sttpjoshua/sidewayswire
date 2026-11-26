@@ -397,7 +397,7 @@ document.addEventListener("click",async e=>{const c=e.target.closest("[data-ttc]
   if(c.hasAttribute("data-ttc")){const t=card.querySelector("textarea");try{await navigator.clipboard.writeText(t.value)}catch(x){t.select();document.execCommand("copy")}toast("Tekst gekopieerd. Plak hem in TikTok.");return}
   c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTokPage();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
 // ---------- agents (lc/agents.py, tools/mac/local_editor.py): docs/agents/<id>.json, sturen via data/agents.json ----------
-const AG_ORDER=[["Redacteuren",["battle","podcast","nieuws","community"]],["Controle en nieuws",["qc","scout"]],["Wekelijks en bewaking",["tags","analist","wachter"]]];
+const AG_ORDER=[["Leiding",["hoofdredacteur"]],["Redacteuren",["battle","podcast","nieuws","community"]],["Controle en nieuws",["qc","scout"]],["Wekelijks",["tags","analist"]]];
 const AG_COLOR={bezig:"#c8ff00",wacht:"#7a7a80",pauze:"#ffb000",uit:"#444",fout:"#ff4f9a",gepland:"#5aa9ff"};
 let AG={},AGCFG={agents:{}},TIPS={tips:[]};
 async function loadAgents(){const ids=AG_ORDER.flatMap(x=>x[1]);
@@ -407,6 +407,8 @@ async function loadAgents(){const ids=AG_ORDER.flatMap(x=>x[1]);
 function agCard(id){const a=AG[id]||{},c=(AGCFG.agents||{})[id]||{on:true,note:""},st=c.on===false?"uit":(a.state||"wacht"),H=a.history||[],dr=Object.entries(a.drops||{});
   return `<div class="rp" data-ag="${id}"><div class="row" style="gap:8px;align-items:center"><span style="width:12px;height:12px;border-radius:50%;background:${AG_COLOR[st]||"#7a7a80"};display:inline-block"></span>
     <b style="color:#fff;font-size:16px">${esc(a.name||id)}</b><span class="tag">${esc(st.toUpperCase())}</span><span class="muted" style="margin-left:auto;font-size:12px">${esc(a.where||"")} · ${ago(a.updated)}</span></div>
+    ${a.briefing?`<div style="margin:8px 0;padding:10px;border-left:4px solid #c8ff00;background:#111;white-space:pre-line;color:#fff;font-size:15px">${esc(a.briefing)}</div>`:""}
+    ${id==="hoofdredacteur"&&(AGCFG.priorities||{}).first&&AGCFG.priorities.first.length?`<p class="muted" style="font-size:13px;margin:4px 0">Voorrang vandaag: <b>${AGCFG.priorities.first.map(esc).join(", ")}</b>${AGCFG.priorities.why?` · ${esc(AGCFG.priorities.why)}`:""}</p>`:""}
     <p style="margin:8px 0;color:#ddd">${a.doing?esc(a.doing):`<span class="muted">Niets te doen op dit moment.</span>`}</p>
     ${a.counts?`<p class="muted" style="font-size:13px;margin:4px 0">${Object.entries(a.counts).filter(([k])=>k!=="day").map(([k,v])=>`${esc(k)}: <b>${v}</b>`).join(" · ")}</p>`:""}
     ${(a.errors||[]).length?`<p style="color:#ff4f9a;font-size:13px;margin:4px 0">Fout: ${esc(a.errors.slice(-1)[0])}</p>`:""}
@@ -414,7 +416,8 @@ function agCard(id){const a=AG[id]||{},c=(AGCFG.agents||{})[id]||{on:true,note:"
     ${(a.top||[]).length?`<details style="margin:6px 0"><summary class="muted">Beste nieuws nu</summary>${a.top.map(t=>`<div style="font-size:13px;margin:3px 0">${t.score} · ${esc(t.title)}</div>`).join("")}</details>`:""}
     <div style="margin:8px 0;border-top:1px solid #333;padding-top:6px"><div class="muted" style="font-size:12px;letter-spacing:1px">LAATST GEDAAN</div>
       ${H.length?H.slice(0,4).map(agLine).join("")+(H.length>4?`<details><summary class="muted" style="font-size:13px">nog ${Math.min(H.length,25)-4} eerder</summary>${H.slice(4,25).map(agLine).join("")}</details>`:""):`<div class="muted" style="font-size:13px">Nog niets gedaan.</div>`}</div>
-    <textarea data-agn placeholder="Instructie voor deze agent (optioneel)">${esc(c.note||"")}</textarea>
+    ${c.by==="hoofdredacteur"?`<p class="muted" style="font-size:12px;margin:6px 0 2px">Instructie van de hoofdredacteur${c.by_at?" ("+fmtWhen(c.by_at)+")":""}. Pas je hem aan, dan gaat jouw tekst voor.</p>`:""}
+    <textarea data-agn placeholder="${id==="hoofdredacteur"?"Jouw opdracht aan de hoofdredacteur, bijvoorbeeld: deze week vooral Drift Masters en het schema voor 2027":"Instructie voor deze agent (optioneel)"}">${esc(c.note||"")}</textarea>
     <div class="row" style="gap:8px;margin-top:8px"><button class="btn" data-ags="note">INSTRUCTIE OPSLAAN</button><button class="btn ${c.on===false?"g":""}" data-ags="toggle">${c.on===false?"AANZETTEN":"UITZETTEN"}</button></div></div>`}
 const agLine=h=>`<div style="font-size:13px;margin:3px 0"><span class="muted">${fmtWhen(h.at)}</span> · ${h.ref&&/^(pod-|20)/.test(h.ref)?`<a href="#beoordelen/${esc(h.ref)}">${esc(h.text)}</a>`:esc(h.text)}</div>`;
 function drawAgentsNow(){const L=document.getElementById("ag-list");
@@ -429,7 +432,7 @@ async function saveAgents(fn){const path="/contents/data/agents.json";
     try{await gh(path,{method:"PUT",body:JSON.stringify({message:"dashboard: agents bijgestuurd",content:b64(JSON.stringify(d,null,1)),sha:f.sha,branch:"main"})});AGCFG=d;return}catch(e){if(k||!/409|422/.test(String(e)))throw e}}}
 document.addEventListener("click",async e=>{const b=e.target.closest("[data-ags]");if(!b)return;if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
   const id=b.closest("[data-ag]").dataset.ag,note=b.closest("[data-ag]").querySelector("[data-agn]").value.trim();b.disabled=true;
-  try{await saveAgents(d=>{const c=d.agents[id]=d.agents[id]||{on:true,note:""};if(b.dataset.ags==="toggle")c.on=c.on===false;else c.note=note});
+  try{await saveAgents(d=>{const c=d.agents[id]=d.agents[id]||{on:true,note:""};if(b.dataset.ags==="toggle")c.on=c.on===false;else{c.note=note;c.by="joshua";c.locked=true}});
     drawAgentsNow();toast(b.dataset.ags==="toggle"?"Opgeslagen. Werkt vanaf de volgende ronde.":"Instructie opgeslagen. De agent gebruikt hem vanaf de volgende ronde.")}catch(x){toast(x.message,1)}b.disabled=false});
 document.addEventListener("click",async e=>{if(!e.target.closest("#tip-send"))return;if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
   const url=document.getElementById("tip-url").value.trim(),note=document.getElementById("tip-note").value.trim(),series=document.getElementById("tip-series").value,m=document.getElementById("tip-msg");

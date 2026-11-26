@@ -568,6 +568,13 @@ def run(gh, put, json_or, log, beat, state: dict, budget_s: int = 600) -> dict:
         eps += [{"id": e["id"], "kind": "podcast", "podcast": e.get("podcast"), "title": e.get("title")}
                 for e in ix.get("episodes", {}).values() if e.get("status") == "transcribed"]
     eps.sort(key=lambda e: {"stream": 0, "vlog": 1}.get(e["kind"], 2))
+    # The hoofdredacteur (Claude, every morning) can put videos first: data/agents.json "priorities.first",
+    # words or ids; a video whose id, title or channel contains one of them is read before the rest.
+    first = [str(x).lower() for x in (json_or("data/agents.json", {}).get("priorities", {}).get("first") or [])]
+    if first:
+        hit = lambda e: any(w and (w in e["id"].lower() or w in str(e.get("title") or "").lower()
+                                   or w in str(e.get("podcast") or "").lower()) for w in first)
+        eps.sort(key=lambda e: not hit(e))
     # v2 wrote [] for 144 videos without finding anything: those are read again by v3 (once)
     redo = set(state.get("v3b_redo") or [])
     if not state.get("v3b_redo_set"):
