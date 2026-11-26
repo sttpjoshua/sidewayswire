@@ -177,6 +177,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
     <textarea id="tip-note" placeholder="Wat is het nieuws, of waarom is het interessant? (mag in het Nederlands)" style="margin-top:8px"></textarea>
     <div class="row" style="gap:8px;margin-top:8px"><button class="btn g" id="tip-send">TIP VERSTUREN</button><span class="muted" id="tip-msg"></span></div>
     <div id="tip-list" style="margin-top:10px"></div></div>
+  <h2>LAATSTE ACTIVITEIT <small>van alle agents samen, nieuwste eerst</small></h2><div class="rp" id="ag-feed" style="margin-bottom:18px"></div>
   <div id="ag-list"></div>
 </section>
 
@@ -411,10 +412,14 @@ function agCard(id){const a=AG[id]||{},c=(AGCFG.agents||{})[id]||{on:true,note:"
     ${(a.errors||[]).length?`<p style="color:#ff4f9a;font-size:13px;margin:4px 0">Fout: ${esc(a.errors.slice(-1)[0])}</p>`:""}
     ${dr.length?`<p class="muted" style="font-size:13px;margin:4px 0">Afgevallen: ${dr.map(([k,v])=>`${esc(k)} ${v}x`).join(", ")}</p>`:""}
     ${(a.top||[]).length?`<details style="margin:6px 0"><summary class="muted">Beste nieuws nu</summary>${a.top.map(t=>`<div style="font-size:13px;margin:3px 0">${t.score} · ${esc(t.title)}</div>`).join("")}</details>`:""}
-    ${H.length?`<details style="margin:6px 0"><summary class="muted">Laatst gedaan (${H.length})</summary>${H.slice(0,15).map(h=>`<div style="font-size:13px;margin:3px 0"><span class="muted">${ago(h.at)}</span> · ${h.ref&&/^(pod-|20)/.test(h.ref)?`<a href="#beoordelen/${esc(h.ref)}">${esc(h.text)}</a>`:esc(h.text)}</div>`).join("")}</details>`:""}
+    <div style="margin:8px 0;border-top:1px solid #333;padding-top:6px"><div class="muted" style="font-size:12px;letter-spacing:1px">LAATST GEDAAN</div>
+      ${H.length?H.slice(0,4).map(agLine).join("")+(H.length>4?`<details><summary class="muted" style="font-size:13px">nog ${Math.min(H.length,25)-4} eerder</summary>${H.slice(4,25).map(agLine).join("")}</details>`:""):`<div class="muted" style="font-size:13px">Nog niets gedaan.</div>`}</div>
     <textarea data-agn placeholder="Instructie voor deze agent (optioneel)">${esc(c.note||"")}</textarea>
     <div class="row" style="gap:8px;margin-top:8px"><button class="btn" data-ags="note">INSTRUCTIE OPSLAAN</button><button class="btn ${c.on===false?"g":""}" data-ags="toggle">${c.on===false?"AANZETTEN":"UITZETTEN"}</button></div></div>`}
+const agLine=h=>`<div style="font-size:13px;margin:3px 0"><span class="muted">${fmtWhen(h.at)}</span> · ${h.ref&&/^(pod-|20)/.test(h.ref)?`<a href="#beoordelen/${esc(h.ref)}">${esc(h.text)}</a>`:esc(h.text)}</div>`;
 function drawAgentsNow(){const L=document.getElementById("ag-list");
+  const F=Object.values(AG).flatMap(a=>(a.history||[]).map(h=>({...h,who:a.name||a.id}))).filter(h=>h.at).sort((a,b)=>a.at<b.at?1:-1).slice(0,12);
+  document.getElementById("ag-feed").innerHTML=F.length?F.map(h=>`<div style="font-size:14px;margin:4px 0"><span class="muted">${fmtWhen(h.at)}</span> · <b style="color:#c8ff00">${esc(h.who)}</b> · ${h.ref&&/^(pod-|20)/.test(h.ref)?`<a href="#beoordelen/${esc(h.ref)}">${esc(h.text)}</a>`:esc(h.text)}</div>`).join(""):`<div class="muted">Nog geen activiteit. De redacteuren op de Mac starten buiten je werktijd.</div>`;
   L.innerHTML=AG_ORDER.map(([t,ids])=>`<h2>${t.toUpperCase()}</h2><div class="replies">${ids.map(agCard).join("")}</div>`).join("");
   const T=(TIPS.tips||[]).slice(-8).reverse();document.getElementById("tip-list").innerHTML=T.length?T.map(t=>`<div style="font-size:13px;margin:3px 0"><span class="tag">${t.status==="done"?"VERWERKT":"WACHT"}</span> ${esc(t.note||t.url)}${t.result?` <span class="muted">· ${esc(t.result)}</span>`:""}</div>`).join(""):"";
   document.getElementById("c-ag").textContent=Object.values(AG).filter(a=>a.state==="fout").length?"!":""}

@@ -166,8 +166,13 @@ def qc(folder: Path | None = None) -> dict:
             ok += 1
         if changed:
             q.save(p, folder=folder)
-    hist = [{"at": datetime.now(timezone.utc).isoformat(), "text": f"tegengehouden: {i}", "ref": i} for i in stopped[:10]]
-    report("qc", "wacht", None, hist, counts={"goed": ok, "opmerking": warned, "tegengehouden": len(stopped)})
+    now = datetime.now(timezone.utc).isoformat()
+    hist = [{"at": now, "text": f"tegengehouden: {i}", "ref": i} for i in stopped[:10]]
+    counts = {"goed": ok, "opmerking": warned, "tegengehouden": len(stopped)}
+    old = json.loads((DOCS / "qc.json").read_text()) if (DOCS / "qc.json").exists() else {}
+    if old.get("counts") != counts:
+        hist.append({"at": now, "text": f"ronde: {ok} goed, {warned} met opmerking, {len(stopped)} tegengehouden"})
+    report("qc", "wacht", None, hist, counts=counts)
     return {"ok": ok, "warned": warned, "stopped": len(stopped)}
 
 
