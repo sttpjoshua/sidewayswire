@@ -2,17 +2,29 @@
  "id": "battle",
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
- "state": "bezig",
- "doing": "leest: Formula DRIFT · Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
- "updated": "2026-11-26T19:18:20.127295+00:00",
+ "state": "fout",
+ "doing": "leest: Formula DRIFT · Formula DRIFT Seattle 2026 - PRO, Round 6 - Top 32",
+ "updated": "2026-11-26T19:18:25.660349+00:00",
  "note": "",
- "history": [],
- "errors": [],
+ "history": [
+  {
+   "at": "2026-11-26T19:18:24.484594+00:00",
+   "text": "0 momenten uit Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Qualifying",
+   "ref": "ytnmn7gxunksk"
+  }
+ ],
+ "errors": [
+  "taalmodel: No module named 'mlx_lm'",
+  "taalmodel: No module named 'mlx_lm'",
+  "taalmodel: No module named 'mlx_lm'",
+  "taalmodel: No module named 'mlx_lm'",
+  "taalmodel: No module named 'mlx_lm'"
+ ],
  "drops": {},
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 0
+  "made": 1
  },
  "version": "3"
 }
