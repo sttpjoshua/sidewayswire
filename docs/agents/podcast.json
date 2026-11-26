@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: The Shanahans · 130 SHOWDOWN PREP | SUPRA BUILD | PART II",
- "updated": "2026-11-26T19:25:39.509963+00:00",
+ "doing": "leest: The Shanahans · 130 SHOWDOWN PREP | SUPRA BUILD | PART I",
+ "updated": "2026-11-26T19:25:43.111509+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:25:42.451185+00:00",
+   "text": "0 momenten uit 130 SHOWDOWN PREP | SUPRA BUILD | PART II",
+   "ref": "ythyha3drpec"
+  },
   {
    "at": "2026-11-26T19:25:38.867540+00:00",
    "text": "0 momenten uit I THOUGHT THE DREAM WAS OVER | FIRE IN THE SUPRA AT THE 130 SHOWDOWN",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:24:02.182580+00:00",
    "text": "0 momenten uit My R34 GTR IS FINALLY TOGETHER!! ",
    "ref": "ytivv0pokxzru"
-  },
-  {
-   "at": "2026-11-26T19:23:58.538158+00:00",
-   "text": "0 momenten uit My R34 GTR BLOWS US away on the DYNO!",
-   "ref": "ytd5kqolnbv0"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 74
+  "made": 75
  },
  "version": "3"
 }
