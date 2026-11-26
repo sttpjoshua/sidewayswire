@@ -122,6 +122,15 @@ window.agentLevel=function(id){
   const xp=(base+(a.history||[]).length)*10,lvl=Math.floor(Math.sqrt(xp/40))+1,cur=40*(lvl-1)**2,next=40*lvl**2;
   return {xp,lvl,pct:Math.max(0,Math.min(100,Math.round((xp-cur)/(next-cur)*100)))}};
 const today=()=>new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Amsterdam"});
+window.officeWeek=function(){
+  const P=S?posts():[],wk=Date.now()-7*864e5,in7=t=>t&&new Date(t)>wk;
+  return {made:P.filter(p=>in7(p.created||p.built)).length,live:P.filter(p=>p.status==="posted"&&in7(p.posted_at)).length,
+    ok:P.filter(p=>p.approved_by==="joshua"&&in7(p.approved)).length,
+    top:Object.keys(SEATS).map(id=>({id,n:(AG[id]||{}).name||SEATS[id].role,...agentLevel(id)})).sort((a,b)=>b.xp-a.xp).slice(0,3)}};
+function weekHTML(){const W=officeWeek(),sun=new Date().toLocaleDateString("en-GB",{timeZone:"Europe/Amsterdam",weekday:"long"})==="Sunday";
+  return `<div class="of-q" style="margin-top:14px;${sun?"border-color:#C6FF00":""}"><div class="of-q-h">${sun?"WEEKFINALE":"DEZE WEEK"} <b>uitslag</b></div>
+    <div class="of-week">${W.top.map((t,i)=>`<div class="p${i+1}"><span>${["🥇","🥈","🥉"][i]}</span><b>${esc(t.n)}</b><small>LV ${t.lvl}</small></div>`).join("")}</div>
+    <div class="of-wk"><div><b>${W.made}</b><span>gemaakt</span></div><div><b>${W.ok}</b><span>door jou goedgekeurd</span></div><div><b>${W.live}</b><span>live gegaan</span></div></div></div>`}
 window.officeQuests=function(){
   const P=S?posts():[],rev=S?toReview().length:0,d=today();
   const appr=P.filter(p=>p.approved_by==="joshua"&&p.approved&&new Date(p.approved).toLocaleDateString("sv-SE",{timeZone:"Europe/Amsterdam"})===d).length;
@@ -150,8 +159,17 @@ function panel(){
     const next=[[1000,"een tribune langs het pad"],[10000,"een tweede tribune"],[100000,"een eigen arena met dak"]].find(([n])=>F<n);
     el.innerHTML=questsHTML()+`<div class="of-q-h" style="margin-top:14px">PRESTATIES <b>${A.filter(a=>a.at).length}/${A.length}</b></div><div class="of-ach">${A.map(a=>`<span class="${a.at?"ok":""}" title="${a.at?"behaald "+a.at:"nog niet behaald"}">${a.at?"🏆":"🔒"} ${esc(a.t)}</span>`).join("")}</div>
     ${next?`<p class="muted" style="font-size:12px;margin:10px 0 0">Het terrein groeit mee: bij ${next[0].toLocaleString("nl-NL")} volgers komt er ${next[1]} (nu ${F}).</p>`:""}
+    ${weekHTML()}
     <div class="of-q-h" style="margin-top:14px">RANGLIJST</div>${L.map((x,i)=>`<div class="of-rank" data-of="${x.id}"><span>${i+1}</span><b>${esc(x.n)}</b><small>LV ${x.lvl}</small></div>`).join("")}<p class="muted" style="font-size:12px;margin-top:10px">Klik op iemand in het kantoor voor details.</p>`;return}
-  if(pick==="joshua"){const n=S?toReview().length:0;el.innerHTML=`<h2>JOUW BUREAU</h2><p>${n?`Er liggen <b>${n}</b> posts op je stapel die op jouw akkoord wachten.`:"Je stapel is leeg. Lekker bezig."}</p><a class="btn g" href="#beoordelen">NAAR BEOORDELEN</a><div style="margin-top:14px">${questsHTML()}</div>`;return}
+  if(pick==="joshua"){const R=S?toReview():[],n=R.length,p=R[0];
+    const m=p&&(p.media||[])[0],vid=m&&/\.mp4/.test(m);
+    el.innerHTML=`<h2>JOUW BUREAU</h2><p>${n?`Er liggen <b>${n}</b> posts op je stapel.`:"Je stapel is leeg. Lekker bezig."}</p>
+    ${p?`<div class="of-rev" data-rid="${esc(p.id)}"><div class="muted" style="font-size:11px;letter-spacing:1px">BOVENOP DE STAPEL</div>
+      ${m?(vid?`<video src="${esc(m)}" muted loop autoplay playsinline></video>`:`<img src="${esc(m)}" alt="">`):""}
+      <b>${esc(p.title||p.hook||p.id)}</b>${p.check_reason?`<small style="color:#FF9F43">Let op: ${esc(p.check_reason)}</small>`:""}
+      <small>${esc((p.caption||"").slice(0,160))}${(p.caption||"").length>160?"…":""}</small>
+      <div class="row" style="gap:6px;margin-top:8px;flex-wrap:wrap"><button class="btn g" data-ofrev="ok">GOEDKEUREN</button><button class="btn p" data-ofrev="skip">OVERSLAAN</button><a class="btn" href="#beoordelen/${esc(p.id)}">OPENEN</a></div></div>`:""}
+    <div style="margin-top:14px">${questsHTML()}</div>`;return}
   if(pick==="mac"){const L=["battle","podcast","nieuws","community"].map(id=>`<div style="margin:3px 0"><b>${esc((AG[id]||{}).name||id)}</b>: ${esc((AG[id]||{}).state||"wacht")}${(AG[id]||{}).doing?" · "+esc(AG[id].doing):""}</div>`).join("");
     el.innerHTML=`<h2>MAC STUDIO</h2><p class="muted">Hier draaien de redacteuren met het lokale taalmodel, en worden de clips geknipt.</p>${L}`;return}
   const a=AG[pick]||{},c=((AGCFG||{}).agents||{})[pick]||{},st=c.on===false?"uit":(a.state||"wacht"),H=(a.history||[]).slice(0,6);
@@ -162,7 +180,8 @@ function panel(){
     ${a.briefing?`<p style="border-left:3px solid #C6FF00;padding-left:8px;white-space:pre-line">${esc(a.briefing)}</p>`:""}
     ${a.plan?`<p style="border-left:3px solid #5BC0FF;padding-left:8px;white-space:pre-line">${esc(a.plan)}</p>`:""}
     ${(a.errors||[]).length?`<p style="color:#FF2E88">Fout: ${esc(a.errors.slice(-1)[0])}</p>`:""}
-    ${c.note?`<p class="muted">Jouw instructie: ${esc(c.note)}</p>`:""}
+    <textarea class="of-note" data-ofnote="${pick}" placeholder="Instructie voor ${esc(a.name||SEATS[pick].role)}, bijvoorbeeld: meer Drift Masters">${esc(c.note||"")}</textarea>
+    <button class="btn" data-ofnotesave="${pick}" style="margin-top:6px">INSTRUCTIE OPSLAAN</button>
     <div class="muted" style="font-size:12px;letter-spacing:1px;margin-top:10px">LAATST GEDAAN</div>
     ${H.length?H.map(h=>`<div style="font-size:13px;margin:3px 0"><span class="muted">${fmtWhen(h.at)}</span> · ${esc(h.text)}</div>`).join(""):`<div class="muted">Nog niets gedaan.</div>`}
     <div class="row" style="gap:8px;margin-top:10px;flex-wrap:wrap"><a class="btn" href="#agents">BIJSTUREN</a><button class="btn ${c.on===false?"g":""}" data-oftoggle="${pick}">${c.on===false?"AANZETTEN":"UITZETTEN"}</button><button class="btn" data-close>TERUG</button></div>`}
@@ -187,7 +206,17 @@ window.drawOffice=async function(){
     document.getElementById("of-hud").innerHTML=hud();panel();if(use3d){office3d.start()}else draw()},30000)};
 window.addEventListener("hashchange",()=>{if(!location.hash.startsWith("#kantoor")&&window.office3d)office3d.stop()});
 
-document.addEventListener("click",async e=>{const tg=e.target.closest&&e.target.closest("[data-oftoggle]");
+document.addEventListener("click",async e=>{
+  const rv=e.target.closest&&e.target.closest("[data-ofrev]");
+  if(rv){if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}const id=rv.closest("[data-rid]").dataset.rid,a=rv.dataset.ofrev,p=posts().find(x=>x.id===id);rv.disabled=true;
+    try{if(a==="ok"){await changePost(id,x=>{x.status="approved";x.check=false;x.approved_by="joshua";x.approved=new Date().toISOString();delete x.want_at},"approve");
+        Object.assign(p,{status:"approved",check:false,approved_by:"joshua",approved:new Date().toISOString()});remember("post",id,"approved");toast("Goedgekeurd.");if(window.officePing)officePing(990);runBuild().catch(()=>{})}
+      else{await changePost(id,x=>{x.status="skipped"},"skip");p.status="skipped";remember("post",id,"skipped");toast("Overgeslagen.")}
+      drawCounts();document.getElementById("of-hud").innerHTML=hud();panel();if(window.office3d)office3d.update()}catch(x){toast(x.message,1);rv.disabled=false}return}
+  const ns=e.target.closest&&e.target.closest("[data-ofnotesave]");
+  if(ns){if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}const id=ns.dataset.ofnotesave,v=document.querySelector(`[data-ofnote="${id}"]`).value.trim();ns.disabled=true;
+    try{await saveAgents(d=>{const c=d.agents[id]=d.agents[id]||{on:true,note:""};c.note=v;c.by="joshua";c.locked=true});toast("Instructie opgeslagen. De agent gebruikt hem vanaf de volgende ronde.")}catch(x){toast(x.message,1)}ns.disabled=false;return}
+  const tg=e.target.closest&&e.target.closest("[data-oftoggle]");
   if(tg){if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}const id=tg.dataset.oftoggle;tg.disabled=true;
     try{await saveAgents(d=>{const c=d.agents[id]=d.agents[id]||{on:true,note:""};c.on=c.on===false});panel();if(window.office3d)office3d.update();toast("Opgeslagen. Werkt vanaf de volgende ronde.")}catch(x){toast(x.message,1)}tg.disabled=false;return}
   if(e.target.closest&&e.target.closest("#of-panel [data-close]")){pick=null;panel();return}

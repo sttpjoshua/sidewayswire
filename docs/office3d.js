@@ -359,7 +359,9 @@ function stepWalk(o, dt, t) {
   const target = W.path[W.i]; if (!target) { // thuis
     o.home.parent.attach(o.p); o.p.position.copy(o.home.pos); o.p.rotation.set(0, o.home.rot, 0); pose(o.p, true); o.walk = null; o.say = null; return; }
   const d = target.clone().sub(o.p.position); d.y = 0; const dist = d.length();
-  if (dist < .08) { W.i++; if (W.i >= W.path.length && W.phase === "heen") { W.wait = 5 + Math.random() * 5; if (W.dest === "bank") pose(o.p, true); } return; }
+  if (dist < .08) { W.i++; if (W.i >= W.path.length && W.phase === "heen") {
+      if (W.dest === "custom") { W.wait = W.waitFor || 5; W.arrived = true; if (W.onArrive) W.onArrive(); } else W.wait = 5 + Math.random() * 5;
+      if (W.dest === "bank") pose(o.p, true); } return; }
   const sp = 2.1 * dt; o.p.position.add(d.multiplyScalar(Math.min(1, sp / dist)));
   o.p.rotation.y = Math.atan2(-(target.x - o.p.position.x), -(target.z - o.p.position.z));
   u.legs[0].rotation.x = Math.sin(t * 9) * .6; u.legs[1].rotation.x = -Math.sin(t * 9) * .6;
@@ -447,7 +449,7 @@ function applyStates() {
   fx.sun.intensity = night ? .25 : 2.2; fx.hemi.intensity = night ? .35 : 1.0;
   (fx.flood || []).forEach(s => s.intensity = night ? 420 : 0);
   fx.lights.forEach(l => l.intensity = night ? 34 : 14);
-  extrasState(night);
+  extrasState(night); r4State();
 }
 
 // ---------- animatie ----------
@@ -459,9 +461,10 @@ function tick() {
     if (o.walk) { stepWalk(o, dt, t); continue; }
     if (st === "wacht" && !AGENTS[id].stand && Math.random() < dt / 45 && Object.values(agentObj).filter(x => x.walk).length < 3) { startWalk(id); continue; }
     if (st === "bezig" && ["battle", "podcast", "nieuws"].includes(id) && Math.random() < dt / 7) fly(o.p);
+    if (st !== "gepland" && u.upper) u.upper.rotation.x = 0;
     if (st === "bezig") { u.arms[0].rotation.x = 1.1 + Math.sin(t * 18) * .12; u.arms[1].rotation.x = 1.1 + Math.cos(t * 18) * .12; u.head.rotation.x = Math.sin(t * 2) * .05; u.body.position.x = 0; }
     else if (st === "fout") { u.body.position.x = Math.sin(t * 40) * .04; u.arms[0].rotation.x = 2.6 + Math.sin(t * 10) * .4; u.arms[1].rotation.x = 2.6 + Math.cos(t * 10) * .4; }
-    else if (st === "gepland") { u.head.rotation.x = .45; u.head.rotation.z = .15; u.body.position.x = 0; u.arms[0].rotation.x = u.arms[1].rotation.x = u.seated ? .6 : 0; }
+    else if (st === "gepland") { u.upper.rotation.x = -.55; u.head.rotation.x = -.2; u.head.rotation.z = .25; u.body.position.x = 0; u.arms[0].rotation.x = u.arms[1].rotation.x = u.seated ? 1.5 : 0; }
     else { u.head.rotation.x = 0; u.head.rotation.y = Math.sin(t * .7 + id.length) * .35; u.body.position.x = 0; u.arms[0].rotation.x = u.arms[1].rotation.x = u.seated ? .9 : Math.sin(t * 2) * .05; }
   }
   // systeemwachter loopt zijn ronde over het terrein
@@ -489,7 +492,7 @@ function tick() {
     if (o.say && !o.hasTxt) { o.bub.element.textContent = o.say; o.bub.element.className = "of3-bub of3-say"; }
     const show = !!o.hasTxt || !!o.say; o.tag.visible = !far; o.bub.visible = show && (!far || o.st === "fout" || o.st === "bezig"); }
   if (camGoal) { const k = 1 - Math.pow(.02, dt); camera.position.lerp(camGoal.pos, k); controls.target.lerp(camGoal.look, k); if (camera.position.distanceTo(camGoal.pos) < .05) camGoal = null; }
-  extrasTick(dt, t); controls.update(); if (fx.composer) fx.composer.render(); else renderer.render(scene, camera); labelR.render(scene, camera);
+  extrasTick(dt, t); r4Tick(dt, t); controls.update(); if (fx.composer) fx.composer.render(); else renderer.render(scene, camera); labelR.render(scene, camera);
 }
 
 // ---------- camera's ----------
@@ -518,7 +521,7 @@ function build() {
   fx.sun = new THREE.DirectionalLight(0xffffff, 2.2); fx.sun.position.set(-18, 30, 22); fx.sun.castShadow = true;
   fx.sun.shadow.mapSize.set(2048, 2048); Object.assign(fx.sun.shadow.camera, { left: -40, right: 40, top: 30, bottom: -30, far: 90 }); fx.sun.shadow.bias = -.0005; scene.add(fx.sun);
   clock = new THREE.Clock();
-  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild();
+  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild(); r4Build();
   for (const [id, A] of Object.entries(AGENTS)) {
     const G = GARAGES.find(g => g.id === A.g).group;
     const p = person(G, A.look, A.at[0], A.at[1] - (A.stand ? 0 : .95), id, !A.stand);
@@ -549,7 +552,7 @@ window.office3d = {
   start() { try { if (!ready) build(); else if (!raf) tick(); applyStates(); return true; } catch (e) { console.error("kantoor 3D:", e); return false; } },
   update() { if (ready) applyStates(); },
   stop() { cancelAnimationFrame(raf); raf = 0; },
-  go, fireworks, walk: startWalk, tv: setTV, sound: toggleSound, round: chiefRound, deliver: () => sendVan("nieuws"),
+  go, fireworks, walk: startWalk, live: liveMoment, plan: strategistBoard, tv: setTV, sound: toggleSound, round: chiefRound, deliver: () => sendVan("nieuws"),
 };
 window.dispatchEvent(new Event("office3d-ready"));
 
@@ -815,4 +818,105 @@ function extrasTick(dt, t) {
     SND.eg.gain.setTargetAtTime(.09 * vol, AC.currentTime, .1); SND.ng.gain.setTargetAtTime((.02 + Math.max(0, Math.sin(t * 1.3)) * .05) * vol, AC.currentTime, .1); }
   // tv: langzaam meedraaien
   if (box.classList.contains("tv") && !camGoal) { const r = camera.position.clone().sub(controls.target); r.applyAxisAngle(new THREE.Vector3(0, 1, 0), dt * .05); camera.position.copy(controls.target).add(r); }
+}
+
+// =====================================================================================
+// RONDE 4: blussen bij een fout, gezichten in het schermlicht, rijders op de tandemauto's,
+// plassen bij regen, praatjes, de strateeg bij het whiteboard, jij die even weg loopt,
+// en een feestje als er een post live gaat.
+// =====================================================================================
+const R4 = { puddles: [], ext: {}, foam: [], lastPosted: null, idleSince: Date.now(), meAway: false, banners: [] };
+
+function r4Build() {
+  // gezichten krijgen het licht van het scherm
+  for (const [id, o] of Object.entries(agentObj)) o.p.traverse(m => { if (m.isMesh && m.geometry.type === "SphereGeometry" && m.geometry.parameters.radius === .24) o.face = m; });
+  // plassen (alleen zichtbaar bij regen)
+  const pm = new THREE.MeshStandardMaterial({ color: 0x0b0c10, roughness: .04, metalness: .9 });
+  for (let i = 0; i < 14; i++) { const r = .8 + Math.random() * 1.8, m = new THREE.Mesh(new THREE.CircleGeometry(r, 20), pm); m.rotation.x = -Math.PI / 2; m.scale.y = .6 + Math.random() * .4;
+    m.position.set((Math.random() - .5) * 50, .015, 2 + Math.random() * 20); m.visible = false; scene.add(m); R4.puddles.push(m); }
+  // brandblussers aan de muur bij de serverkast
+  const sx = gx("jij") + 2.4;
+  R4.extRack = mesh(new THREE.CylinderGeometry(.14, .14, .6, 12), mat(0xd01818, { r: .3 }), sx, .9, -10.2, scene);
+  // namen van rijders op de voorruit van de tandemauto's
+  for (const car of [fx.car, X.car2]) { const t = canvasTex(512, 96, () => {}); const pl = plane(t, 1.5, .28, car, 0, 1.33, .82, 0); pl.rotation.x = -1.0; R4.banners.push(t); }
+  // jij: activiteit bijhouden
+  ["pointerdown", "keydown", "wheel"].forEach(ev => window.addEventListener(ev, () => { R4.idleSince = Date.now(); }, { passive: true }));
+  // schuimdeeltjes
+  const ft = canvasTex(64, 64, (g) => { const gr = g.createRadialGradient(32, 32, 2, 32, 32, 32); gr.addColorStop(0, "rgba(255,255,255,.9)"); gr.addColorStop(1, "rgba(255,255,255,0)"); g.fillStyle = gr; g.fillRect(0, 0, 64, 64); });
+  for (let i = 0; i < 40; i++) { const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: ft, transparent: true, depthWrite: false, opacity: 0 })); sp.userData.life = 0; scene.add(sp); R4.foam.push(sp); }
+}
+
+function topDrivers() {
+  const P = (typeof S !== "undefined" && S) ? posts() : [], c = {};
+  for (const p of P) for (const n of (p.people || [])) if (n && n.length < 30) c[n] = (c[n] || 0) + 1;
+  return Object.entries(c).sort((a, b) => b[1] - a[1]).map(x => x[0]).slice(0, 2);
+}
+function r4State() {
+  // rijders op de tandemauto's: de twee namen die het vaakst in je posts staan
+  const D = topDrivers();
+  R4.banners.forEach((t, i) => redraw(t, (g, w, h) => { g.fillStyle = i ? "#C6FF00" : "#111"; g.fillRect(0, 0, w, h); g.font = "italic 900 60px 'Bebas Neue',Impact,sans-serif";
+    g.fillStyle = i ? "#111" : "#C6FF00"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText(String(D[i] || "SIDEWAYS WIRE").toUpperCase().slice(0, 18), w / 2, h / 2 + 3); }));
+  R4.puddles.forEach(p => p.visible = !!(X.rain && X.rain.visible));
+  // gezichten
+  for (const o of Object.values(agentObj)) if (o.face) { o.face.material.emissive.setHex(o.st === "bezig" ? LIME : o.st === "fout" ? PINK : 0x000000); o.face.material.emissiveIntensity = o.st === "bezig" ? .12 : .18; }
+  // post live gegaan sinds de vorige keer: feestje
+  const posted = stats().posted; if (R4.lastPosted != null && posted > R4.lastPosted) liveMoment(); R4.lastPosted = posted;
+  // strateeg op maandag tussen 07:47 en 08:30 bij het whiteboard
+  const n = NL(), mins = n.getHours() * 60 + n.getMinutes(), d = todayNL();
+  if (n.getDay() === 1 && mins >= 7 * 60 + 47 && mins <= 8 * 60 + 30 && LS.get("sw-plan") !== d) { LS.set("sw-plan", d); strategistBoard(); }
+}
+
+function walkTo(id, pts, wait, say, onArrive) {
+  const o = agentObj[id]; if (!o || o.walk) return;
+  const seat = new THREE.Vector3(); o.p.getWorldPosition(seat);
+  const path = [[seat.x, seat.z + 1.2], ...pts].map(([x, z]) => new THREE.Vector3(x, 0, z));
+  o.home = { parent: o.p.parent, pos: o.p.position.clone(), rot: o.p.rotation.y }; scene.attach(o.p); pose(o.p, false);
+  o.walk = { path, i: 0, phase: "heen", wait: 0, dest: "custom", waitFor: wait, onArrive, back: [...path].reverse().slice(1).concat([seat.clone()]) };
+  o.say = say;
+}
+function strategistBoard() {
+  const x = gx("directie") - .6; walkTo("strateeg", [[x, GZ - 2.2]], 12, "nieuw weekplan hangt op het bord", () => redraw(boards.plan, drawPlanBoard));
+}
+function liveMoment() {
+  fireworks(); playPing(523); setTimeout(() => playPing(659), 140); setTimeout(() => playPing(784), 280);
+  R4.liveFlash = 6;
+  for (const id of ["battle", "podcast", "nieuws", "community"]) { const o = agentObj[id]; if (o) o.say = "WE ZIJN LIVE! 🎉"; }
+  setTimeout(() => { for (const id of ["battle", "podcast", "nieuws", "community"]) { const o = agentObj[id]; if (o && o.say === "WE ZIJN LIVE! 🎉") o.say = null; } }, 7000);
+}
+
+const CHAT = [["Zag je die tandem van gisteren?", "Bizar dichtbij!"], ["Hoeveel clips heb jij al?", "Genoeg voor de hele maand"], ["Koffie?", "Altijd"],
+  ["Wie wint FD volgend jaar?", "Geen idee, maar het wordt spannend"], ["Drift Masters battles komen eraan", "Eindelijk!"], ["Die caption was goed", "Dank je, Joshua keurde hem meteen goed"]];
+
+function r4Tick(dt, t) {
+  // stappen in een eigen wandeling (walkTo): wachten en terug
+  for (const [id, o] of Object.entries(agentObj)) { const W = o.walk; if (!W || W.dest !== "custom") continue;
+    if (W.phase === "heen" && W.i >= W.path.length && W.wait <= 0 && !W.arrived) { W.arrived = true; W.wait = W.waitFor; if (W.onArrive) W.onArrive(); } }
+  // fout: pak de blusser, ren naar de serverkast, blus, en terug
+  for (const [id, o] of Object.entries(agentObj)) {
+    if (o.st === "fout" && !o.walk && !AGENTS[id].stand && !(R4.ext[id] > t)) { R4.ext[id] = t + 30;
+      const x = gx("jij"); walkTo(id, [[x - 3, FRONT], [x + 2.4, GZ - 3.4], [x + 3.2, GZ - 2.4]], 6, "BLUSSEN! 🧯", () => { o.extinguish = 6; });
+      if (o.walk) { const ex = new THREE.Group(); mesh(new THREE.CylinderGeometry(.11, .11, .45, 10), mat(0xd01818, { r: .3 }), 0, -.55, -.1, ex); o.p.userData.arms[1].add(ex); o.extObj = ex; } }
+    if (o.extinguish > 0) { o.extinguish -= dt; const u = o.p.userData; u.arms[1].rotation.x = 1.4; u.arms[0].rotation.x = 1.2;
+      if (Math.random() < .8) { const f = R4.foam.find(f => f.userData.life <= 0); if (f) { const a = new THREE.Vector3(); o.p.getWorldPosition(a); f.position.set(a.x + .3, 1.2, a.z - .6); f.userData.v = new THREE.Vector3(.6 + Math.random(), Math.random() * .6, -1.6 - Math.random()); f.userData.life = 1; f.scale.setScalar(.3); } }
+      if (o.extinguish <= 0 && o.extObj) { o.p.userData.arms[1].remove(o.extObj); o.extObj = null; } }
+  }
+  for (const f of R4.foam) if (f.userData.life > 0) { f.userData.life -= dt * .9; f.position.addScaledVector(f.userData.v, dt); f.scale.multiplyScalar(1 + dt * 1.5); f.material.opacity = Math.max(0, f.userData.life) * .8; }
+  // praatjes: twee lopers dicht bij elkaar
+  const walkers = Object.values(agentObj).filter(o => o.walk && !o.extinguish);
+  for (let i = 0; i < walkers.length; i++) for (let j = i + 1; j < walkers.length; j++) { const a = walkers[i], b = walkers[j];
+    if (a.p.position.distanceTo(b.p.position) < 2.2 && !(a.chatUntil > t)) { const c = CHAT[Math.floor(Math.random() * CHAT.length)];
+      a.say = c[0]; b.say = null; a.chatUntil = b.chatUntil = t + 6; setTimeout(() => { b.say = c[1]; }, 1800); } }
+  // jij: na 3 minuten zonder klikken loop je even naar het pad, bij een klik ben je terug
+  if (X.me) { const idle = Date.now() - R4.idleSince > 180e3, u = X.me.userData;
+    if (idle && !R4.meAway) { R4.meAway = true; R4.meHome = { parent: X.me.parent, pos: X.me.position.clone(), rot: X.me.rotation.y }; scene.attach(X.me); pose(X.me, false); R4.meT = 0; }
+    if (R4.meAway) { R4.meT += dt; const target = idle ? new THREE.Vector3(gx("jij") - 6, 0, 5.5) : (() => { const v = new THREE.Vector3(); R4.meHome.parent.localToWorld(v.copy(R4.meHome.pos)); return v; })();
+      const d = target.clone().sub(X.me.position); d.y = 0; const dist = d.length();
+      if (dist > .1) { X.me.position.add(d.multiplyScalar(Math.min(1, 2.2 * dt / dist))); X.me.rotation.y = Math.atan2(-(target.x - X.me.position.x), -(target.z - X.me.position.z));
+        u.legs[0].rotation.x = Math.sin(t * 9) * .6; u.legs[1].rotation.x = -Math.sin(t * 9) * .6; }
+      else { u.legs.forEach(l => l.rotation.x = 0); if (idle) X.me.rotation.y = Math.PI * 1.15;
+        else { R4.meHome.parent.attach(X.me); X.me.position.copy(R4.meHome.pos); X.me.rotation.set(0, R4.meHome.rot, 0); pose(X.me, true); R4.meAway = false; } } } }
+  // live: het led-bord knippert
+  if (R4.liveFlash > 0) { R4.liveFlash -= dt; if (boards.bill && Math.floor(t * 4) % 2 === 0) redraw(boards.bill, (g, w, h) => { g.fillStyle = "#C6FF00"; g.fillRect(0, 0, w, h); g.fillStyle = "#111";
+      g.font = "italic 900 200px 'Bebas Neue',Impact,sans-serif"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText("NU LIVE!", w / 2, h / 2 + 10); }); else if (boards.bill) redraw(boards.bill, drawBillboard);
+    if (R4.liveFlash <= 0 && boards.bill) redraw(boards.bill, drawBillboard); }
 }
