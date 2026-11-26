@@ -4,9 +4,13 @@
  "where": "GitHub",
  "state": "wacht",
  "doing": null,
- "updated": "2026-11-26T21:16:00.686556+00:00",
+ "updated": "2026-11-26T21:20:15.767335+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T21:20:15.767168+00:00",
+   "text": "ronde: 669 goed, 36 met opmerking, 0 tegengehouden"
+  },
   {
    "at": "2026-11-26T21:16:00.686365+00:00",
    "text": "tegengehouden: pod-ytlgdw88ygzo4-0",
@@ -61,8 +65,8 @@
   }
  ],
  "counts": {
-  "goed": 665,
+  "goed": 669,
   "opmerking": 36,
-  "tegengehouden": 4
+  "tegengehouden": 0
  }
 }
