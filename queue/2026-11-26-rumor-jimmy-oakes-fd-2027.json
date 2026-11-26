@@ -18,7 +18,9 @@
      "IN 2027?"
     ],
     "label": "RUMOR",
-    "series": "FORMULA DRIFT"
+    "series": "FORMULA DRIFT",
+    "band": "#1E6BFF",
+    "backdrop": "FD"
    }
   }
  ],
@@ -27,12 +29,22 @@
   "facebook",
   "instagram"
  ],
- "status": "draft",
+ "status": "check",
  "created": "2026-11-26T20:46:13.558742+00:00",
  "check": true,
  "check_reason": "gerucht: klopt de basis? dan goedkeuren",
  "source": "https://www.drifted.com/jimmy-oakes-explains-his-upcoming-formula-drift-plans/",
  "fresh_hours": 240,
  "by": "claude",
- "tip_from": "Joshua in chat"
+ "tip_from": "Joshua in chat",
+ "media": [
+  "docs/media/2026-11-26-rumor-jimmy-oakes-fd-2027/1.png"
+ ],
+ "problems": [],
+ "built": "2026-11-26T20:48:18.406434+00:00",
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T20:48:18.687498+00:00"
+ }
 }
