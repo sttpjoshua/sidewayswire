@@ -90,6 +90,29 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .stk{background:var(--card,#1c1c1f);border:1px solid #2a2a2e;padding:14px 16px;margin:10px 0 16px}.stk h2{margin:0 0 10px;font-size:15px;letter-spacing:.06em}
 .stk-k{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:12px}.stk-k div{background:#121214;padding:10px 12px}.stk-k b{display:block;font-size:24px;color:#fff}.stk-k span{font-size:11px;letter-spacing:.06em;color:var(--mute)}
 .stk-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.stk-r{display:grid;grid-template-columns:110px 1fr 120px;gap:8px;align-items:center;font-size:13px;margin:4px 0}.stk-r .bar{height:10px;background:#2a2a2e}.stk-r .bar i{display:block;height:100%}.stk-r small{color:var(--mute);text-align:right}
+#s-kantoor .of-wrap{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;align-items:start}
+@media(max-width:1000px){#s-kantoor .of-wrap{grid-template-columns:1fr}}
+#of-box{position:relative;border:3px solid #3a3a40;background:#121214;image-rendering:pixelated}
+.of-svg{display:block;width:100%;height:auto}
+.of-name{font-family:Inter,sans-serif;font-size:3.6px;fill:#9a9aa0;letter-spacing:.2px}
+.of-room,.of-wall,.of-tiny{font-family:"Bebas Neue",monospace;fill:#8a8a90;letter-spacing:.5px}.of-room{font-size:6px}.of-wall{font-size:7px;fill:#C6FF00}.of-tiny{font-size:4px}
+.of-zz{font-size:6px;fill:#5BC0FF;font-family:monospace;animation:ofzz 2.4s infinite}
+@keyframes ofzz{0%{opacity:0;transform:translate(0,0)}50%{opacity:1}100%{opacity:0;transform:translate(3px,-6px)}}
+.of-type .of-arms{animation:oftype .35s steps(2) infinite}@keyframes oftype{50%{transform:translateY(-1px)}}
+.of-panic{animation:ofpanic .25s steps(2) infinite}@keyframes ofpanic{50%{transform:translateX(1px)}}
+.of-blink{animation:ofblink 1s steps(2) infinite}@keyframes ofblink{50%{opacity:.25}}
+.of-glow{filter:drop-shadow(0 0 2px #C6FF00)}
+.of-walk{animation:ofwalk 40s linear infinite}
+@keyframes ofwalk{0%{transform:translate(30px,90px)}45%{transform:translate(285px,90px)}50%{transform:translate(285px,90px) scaleX(-1)}95%{transform:translate(30px,90px) scaleX(-1)}100%{transform:translate(30px,90px)}}
+.of-seat{cursor:pointer}.of-seat:hover{filter:brightness(1.25)}.of-sel{filter:drop-shadow(0 0 2px #fff)}
+.of-bub{position:absolute;transform:translate(-50%,-100%);max-width:14%;background:#fff;color:#111;font:600 10px/1.25 Inter,sans-serif;padding:4px 6px;border:2px solid #111;pointer-events:none;box-shadow:2px 2px 0 #000}
+.of-bub:after{content:"";position:absolute;left:50%;bottom:-6px;border:4px solid transparent;border-top-color:#111;transform:translateX(-50%)}
+.of-bub.of-fout{background:#FF2E88;color:#fff}.of-bub.of-bezig{background:#C6FF00}.of-bub.of-uit,.of-bub.of-gepland,.of-bub.of-wacht{opacity:.8}
+@media(max-width:700px){.of-bub{display:none}}
+#of-hud{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.of-hud-i{background:#1b1b1e;border:2px solid #333;padding:6px 10px;display:flex;flex-direction:column;min-width:110px;text-decoration:none;color:#fff}
+.of-hud-i span{font-size:10px;letter-spacing:1px;color:var(--mute)}.of-hud-i b{font-family:"Bebas Neue",sans-serif;font-size:26px;font-weight:400}
+#of-panel{border:2px solid #333;background:#1b1b1e;padding:14px;min-height:200px}#of-panel h2{font-size:22px}
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -151,6 +174,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <a href="#beoordelen" data-s="beoordelen" data-n="beoordelen">BEOORDELEN <span class="cnt" id="c-rev"></span></a>
   <a href="#planning" data-s="planning" data-n="kalender">KALENDER</a>
   <a href="#clips/live" data-s="clips" data-n="bieb">BIBLIOTHEEK</a>
+  <a href="#kantoor" data-s="kantoor" data-n="kantoor">KANTOOR</a>
   <a href="#agents" data-s="agents" data-n="agents">AGENTS <span class="cnt" id="c-ag"></span></a>
   <a href="#tags" data-s="tags" data-n="tags">TAGS <span class="cnt" id="c-tags"></span></a>
   <a href="#tiktok" data-s="tiktok" data-n="tiktok">TIKTOK <span class="cnt" id="c-tt"></span></a>
@@ -171,6 +195,12 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
     <div><h2>WACHT OP JOU <small><a href="#beoordelen">alles bekijken</a></small></h2><div class="list" id="ov-wait"></div>
          <h2>NAAR LIVEGANG</h2><div class="check" id="setup"></div></div>
   </div>
+</section>
+
+<section id="s-kantoor">
+  <h1>KANTOOR</h1><div class="sub">Het team van Sideways Wire aan het werk. Groen scherm: bezig. Roze: er is iets mis. Zzz: wacht op zijn vaste tijd. Klik op iemand voor details; jouw bureau toont de stapel die op jou wacht.</div>
+  <div id="of-hud"></div>
+  <div class="of-wrap"><div id="of-box"></div><div id="of-panel"></div></div>
 </section>
 
 <section id="s-agents">
@@ -899,7 +929,7 @@ setInterval(()=>{if(!document.hidden)loadLive()},20000);
 // ---------- routing ----------
 const TABS={bieb:[["#clips/live","LIVESTREAM","live"],["#clips/battle","BATTLES","battle"],["#clips/vlog","VLOGS","vlog"],["#clips/pod","PODCASTS","pod"],["#posts","POSTS","posts"],["#nieuws","NIEUWSBRONNEN"]],
   inst:[["#kanalen","KANALEN"],["#bronnen","BRONNEN"],["#systeem","SYSTEEM"],["podcasts.html","STUDIO ↗"],["#","SLEUTEL",null,1]]};
-const NAVOF={agents:"agents",tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
+const NAVOF={kantoor:"kantoor",agents:"agents",tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
 function drawTabs(){const h=location.hash||"#overzicht",R=S?toReview():[];
   document.querySelectorAll("[data-tabs]").forEach(el=>{el.innerHTML=TABS[el.dataset.tabs].map(([href,label,c,isKey])=>{
     const n=c?R.filter(p=>cat(p)===c).length:0;
@@ -917,7 +947,7 @@ function show(){
 window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
 function drawCurrent(){const s=(location.hash.slice(1)||"overzicht").split("/")[0];
-  ({agents:drawAgents,tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
+  ({kantoor:()=>window.drawOffice&&drawOffice(),agents:drawAgents,tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
 function drawAll(){drawLive();drawCounts();drawTikTok();drawTagCount();drawTabs();drawCurrent();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){
@@ -933,4 +963,5 @@ async function load(){
 }
 load().then(show).catch(e=>{document.querySelector("main").innerHTML=`<div class="empty">Kon de gegevens niet laden: ${esc(e.message)}</div>`});
 setInterval(()=>{if(!document.querySelector("textarea:focus,input:focus"))load()},60000);
-</script></body></html>
+</script><script src="office.js"></script>
+</body></html>
