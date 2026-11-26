@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Chelsea DeNofa · Across the World for the Track’s Final Drift Event… Then Everything Broke",
- "updated": "2026-11-26T19:22:36.803597+00:00",
+ "doing": "leest: Chelsea DeNofa · This Frozen Lake Might Be the Best Drift Track Ever",
+ "updated": "2026-11-26T19:22:41.154814+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:22:40.560220+00:00",
+   "text": "0 momenten uit Across the World for the Track’s Final Drift Event… Then Everything Broke",
+   "ref": "yt1wnqohtb9rk"
+  },
   {
    "at": "2026-11-26T19:22:35.851221+00:00",
    "text": "0 momenten uit We Somehow Won LZ World Tour at E-Town",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:20:58.233160+00:00",
    "text": "0 momenten uit My Mint Porsche 964 Gets a Complete Interior Transformation",
    "ref": "ytblk5haqyqq4"
-  },
-  {
-   "at": "2026-11-26T19:20:52.555801+00:00",
-   "text": "0 momenten uit My Last Round of Formula Drift - FD LB2 Podium",
-   "ref": "ytz6mbmuiauq"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 30
+  "made": 31
  },
  "version": "3"
 }
