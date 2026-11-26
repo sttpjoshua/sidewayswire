@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-8",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "A MIDDLE FINGER TO THE RULES?",
  "video": "docs/media/pod-441d4b7291ad-8/clip.mp4",
@@ -47,5 +47,19 @@
   "at": "2026-11-26T19:31:44.203686+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-26T21:12:18.984Z"
+ "approved": "2026-11-26T21:12:18.984Z",
+ "post_at": null,
+ "score": 34,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Brian Wills | The Outerzone\n\nAn OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\n#drift #brianwills #formuladrift #prospec #sidewayswire",
+  "facebook": "Brian Wills | The Outerzone\n\nAn OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\n#drift #brianwills #sidewayswire",
+  "tiktok": "Brian Wills | The Outerzone: An OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @nh_fab @formulad @jako13\n#drift #brianwills #formuladrift #sidewayswire",
+  "youtube_title": "Brian Wills | The Outerzone",
+  "youtube": "An OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #brianwills #sidewayswire"
+ },
+ "collaborators": [
+  "nh_fab"
+ ]
 }

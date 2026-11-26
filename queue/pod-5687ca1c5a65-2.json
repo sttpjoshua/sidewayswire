@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-2",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "NO SMOKING AT A DRIFT EVENT",
  "video": "docs/media/pod-5687ca1c5a65-2/clip.mp4",
@@ -51,5 +51,21 @@
   "at": "2026-11-26T19:31:44.205733+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-26T21:12:44.893Z"
+ "approved": "2026-11-26T21:12:44.893Z",
+ "post_at": null,
+ "score": 59,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "James Deane | The Outerzone\n\nA drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#drift #jamesdeane #jackshanahan #formuladrift #sidewayswire",
+  "facebook": "James Deane | The Outerzone\n\nA drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#drift #jamesdeane #sidewayswire",
+  "tiktok": "James Deane | The Outerzone: A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n#drift #jamesdeane #jackshanahan #sidewayswire",
+  "youtube_title": "James Deane | The Outerzone",
+  "youtube": "A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jamesdeane #sidewayswire"
+ },
+ "collaborators": [
+  "jamesdeane130",
+  "jackshanahan59",
+  "adam_lz"
+ ]
 }

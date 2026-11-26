@@ -4,9 +4,33 @@
  "where": "GitHub",
  "state": "wacht",
  "doing": null,
- "updated": "2026-11-26T21:12:57.516674+00:00",
+ "updated": "2026-11-26T21:16:00.686556+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T21:16:00.686365+00:00",
+   "text": "tegengehouden: pod-ytlgdw88ygzo4-0",
+   "ref": "pod-ytlgdw88ygzo4-0"
+  },
+  {
+   "at": "2026-11-26T21:16:00.686365+00:00",
+   "text": "tegengehouden: pod-ytlgdw88ygzo4-1",
+   "ref": "pod-ytlgdw88ygzo4-1"
+  },
+  {
+   "at": "2026-11-26T21:16:00.686365+00:00",
+   "text": "tegengehouden: pod-ytlgdw88ygzo4-13",
+   "ref": "pod-ytlgdw88ygzo4-13"
+  },
+  {
+   "at": "2026-11-26T21:16:00.686365+00:00",
+   "text": "tegengehouden: pod-ytrbtps1zxw4i-27",
+   "ref": "pod-ytrbtps1zxw4i-27"
+  },
+  {
+   "at": "2026-11-26T21:16:00.686365+00:00",
+   "text": "ronde: 665 goed, 36 met opmerking, 4 tegengehouden"
+  },
   {
    "at": "2026-11-26T21:11:20.756642+00:00",
    "text": "ronde: 670 goed, 36 met opmerking, 0 tegengehouden"
@@ -37,8 +61,8 @@
   }
  ],
  "counts": {
-  "goed": 670,
+  "goed": 665,
   "opmerking": 36,
-  "tegengehouden": 0
+  "tegengehouden": 4
  }
 }

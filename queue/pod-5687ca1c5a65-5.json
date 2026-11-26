@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-5",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "ADAM LZ'S PRO CAR: NEW PLANS?",
  "video": "docs/media/pod-5687ca1c5a65-5/clip.mp4",
@@ -49,5 +49,20 @@
   "at": "2026-11-26T19:31:44.206603+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-26T21:13:25.647Z"
+ "approved": "2026-11-26T21:13:25.647Z",
+ "post_at": null,
+ "score": 51,
+ "moment_kind": "rumor",
+ "plan": {},
+ "captions": {
+  "instagram": "Adam LZ | The Outerzone\n\nAdam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #jamesdeane #formuladrift #sidewayswire",
+  "facebook": "Adam LZ | The Outerzone\n\nAdam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #sidewayswire",
+  "tiktok": "Adam LZ | The Outerzone: Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\nWho took this one? Send it to someone who'll argue 👇\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @jamesdeane130 @formulad @jako13\n#drift #adamlz #jamesdeane #sidewayswire",
+  "youtube_title": "Adam LZ | The Outerzone",
+  "youtube": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
+ },
+ "collaborators": [
+  "adam_lz",
+  "jamesdeane130"
+ ]
 }

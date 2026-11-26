@@ -1,15 +1,13 @@
 {
- "updated": "2026-11-26T21:15:05.901464+00:00",
+ "updated": "2026-11-26T21:16:52.383404+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 649,
-  "check": 48,
+  "ready": 653,
+  "check": 52,
   "skipped": 71,
-  "draft": 2,
-  "posted": 3,
-  "approved": 6
+  "posted": 3
  },
- "collected": "2026-11-26T21:12:56.731786+00:00",
+ "collected": "2026-11-26T21:15:47.931742+00:00",
  "instagram": true,
  "sources": [
   {
@@ -121,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -11121,6 +11119,75 @@
    "photo": null
   },
   {
+   "id": "2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot",
+   "kind": "hook",
+   "status": "ready",
+   "post_at": "2026-12-06T19:30:00+00:00",
+   "posted_at": null,
+   "caption": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix\n\nPhoto: @formulad",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot__1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": null,
+   "check_reason": null,
+   "source": "https://d1gp.co.jp/27462/",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-26T20:55:46.126185+00:00",
+   "built": "2026-11-26T21:15:58.962006+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": {
+    "instagram": "2026-12-07T07:30:00+00:00",
+    "facebook": "2026-12-06T19:30:00+00:00"
+   },
+   "score": null,
+   "captions": {
+    "instagram": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix\n\nPhoto: @formulad\n\n#drift #conorshanahan #jackshanahan #sidewayswire",
+    "facebook": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix\n\nPhoto: @formulad\n\n#drift #conorshanahan #sidewayswire",
+    "tiktok": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n#drift #conorshanahan #jackshanahan #sidewayswire",
+    "youtube_title": "CONOR SHANAHAN WINS IN JAPAN",
+    "youtube": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #conorshanahan #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "conorshanahan79",
+    "jackshanahan59",
+    "nakamura_naoki_n"
+   ],
+   "people": [
+    "Conor Shanahan",
+    "Jack Shanahan",
+    "Naoki Nakamura"
+   ],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": {
+    "type": "winner"
+   },
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "CONOR SHANAHAN WINS IN JAPAN",
+   "photo": {
+    "mode": "optional",
+    "credit": ""
+   }
+  },
+  {
    "id": "pod-ytth2l4tyizj4-18",
    "kind": "stream_clip",
    "status": "ready",
@@ -12737,6 +12804,67 @@
    "photo": null
   },
   {
+   "id": "2026-11-26-formula-drift-announces-2027-schedule-with-excit",
+   "kind": "breaking",
+   "status": "ready",
+   "post_at": "2026-12-01T00:00:00+01:00",
+   "posted_at": null,
+   "caption": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT\n\nPhoto: @formulad",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/2026-11-26-formula-drift-announces-2027-schedule-with-excit__1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": null,
+   "check_reason": null,
+   "source": "https://news.formulad.com/2026/fd-news/formula-drift-announces-2027-schedule-with-exciting-venue-updates/",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-26T20:55:58.302340+00:00",
+   "built": "2026-11-26T21:15:59.710110+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": {
+    "instagram": "2026-12-01T00:00:00+01:00",
+    "facebook": "2026-12-01T00:00:00+01:00"
+   },
+   "score": null,
+   "captions": {
+    "instagram": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT\n\nPhoto: @formulad\n\n#drift #sidewayswire",
+    "facebook": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT\n\nPhoto: @formulad\n\n#drift #sidewayswire",
+    "tiktok": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n#drift #sidewayswire",
+    "youtube_title": "FD 2027 SCHEDULE IS OUT",
+    "youtube": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": {
+    "type": "breaking"
+   },
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FD 2027 SCHEDULE IS OUT",
+   "photo": {
+    "mode": "auto",
+    "credit": "@formulad"
+   }
+  },
+  {
    "id": "pod-ytnmn7gxunksk-18",
    "kind": "stream_clip",
    "status": "ready",
@@ -13308,110 +13436,6 @@
    "short": null,
    "title": "JEFF JONES QUALIFYING",
    "photo": null
-  },
-  {
-   "id": "2026-11-26-formula-drift-announces-2027-schedule-with-excit",
-   "kind": "breaking",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": null,
-   "check": null,
-   "check_reason": null,
-   "source": "https://news.formulad.com/2026/fd-news/formula-drift-announces-2027-schedule-with-exciting-venue-updates/",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-26T20:55:58.302340+00:00",
-   "built": null,
-   "want_at": null,
-   "video": null,
-   "tags": null,
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": [],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": {
-    "type": "breaking"
-   },
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "FD 2027 SCHEDULE IS OUT",
-   "photo": {
-    "mode": "optional",
-    "credit": ""
-   }
-  },
-  {
-   "id": "2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot",
-   "kind": "hook",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": null,
-   "check": null,
-   "check_reason": null,
-   "source": "https://d1gp.co.jp/27462/",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-26T20:55:46.126185+00:00",
-   "built": null,
-   "want_at": null,
-   "video": null,
-   "tags": null,
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": [
-    "Conor Shanahan",
-    "Jack Shanahan",
-    "Naoki Nakamura"
-   ],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": {
-    "type": "winner"
-   },
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "CONOR SHANAHAN WINS IN JAPAN",
-   "photo": {
-    "mode": "optional",
-    "credit": ""
-   }
   },
   {
    "id": "pod-ytnmn7gxunksk-8",
@@ -28301,7 +28325,7 @@
   {
    "id": "pod-ytrbtps1zxw4i-27",
    "kind": "stream_clip",
-   "status": "ready",
+   "status": "check",
    "post_at": null,
    "posted_at": null,
    "caption": "Cody Buchanan was having the chase run of his life on Ken Gushi. Then it all went quiet.\n\n🎥 Footage: FD LAS VEGAS 2026\n@cbuchanan272 @kengushi @formulad\n\n#formulad #formuladrift #kengushi #drifting #sidewayswire",
@@ -28311,8 +28335,8 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
+   "check": true,
+   "check_reason": "controle: zelfde moment als pod-ytcaagmgzlale-16",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 32",
@@ -29485,7 +29509,7 @@
   {
    "id": "pod-ytlgdw88ygzo4-13",
    "kind": "stream_clip",
-   "status": "ready",
+   "status": "check",
    "post_at": null,
    "posted_at": null,
    "caption": "Ireland vs Norway, and Simen Olsen takes down the freshly crowned champion Conor Shanahan.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@conorshanahan79 @simenolsendrifting @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
@@ -29495,8 +29519,8 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
+   "check": true,
+   "check_reason": "controle: zelfde moment als pod-yt9lxrdzgctgm-12",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
@@ -40715,7 +40739,7 @@
   {
    "id": "pod-ytlgdw88ygzo4-1",
    "kind": "stream_clip",
-   "status": "ready",
+   "status": "check",
    "post_at": null,
    "posted_at": null,
    "caption": "James Deane on throttle, right on the white line. 90.40 with 17 out of 20 on style.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jamesdeane #sidewayswire",
@@ -40725,8 +40749,8 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
+   "check": true,
+   "check_reason": "controle: zelfde moment als pod-ytinepijspeek-7",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
@@ -40781,7 +40805,7 @@
   {
    "id": "pod-ytlgdw88ygzo4-0",
    "kind": "stream_clip",
-   "status": "ready",
+   "status": "check",
    "post_at": null,
    "posted_at": null,
    "caption": "Jack Shanahan is not holding back on his second qualifying run in Long Beach. 91.53.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #longbeach #jackshanahan #sidewayswire",
@@ -40791,8 +40815,8 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
+   "check": true,
+   "check_reason": "controle: zelfde moment als pod-ytinepijspeek-22",
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT 'Long Beach 2' 2026 Highlights | Presented by Type S Auto",
@@ -49765,7 +49789,7 @@
   {
    "id": "pod-5687ca1c5a65-5",
    "kind": "podcast_clip",
-   "status": "approved",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #Rumor #sidewayswire",
@@ -49801,16 +49825,25 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 51,
+   "captions": {
+    "instagram": "Adam LZ | The Outerzone\n\nAdam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #jamesdeane #formuladrift #sidewayswire",
+    "facebook": "Adam LZ | The Outerzone\n\nAdam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #sidewayswire",
+    "tiktok": "Adam LZ | The Outerzone: Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\nWho took this one? Send it to someone who'll argue 👇\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @jamesdeane130 @formulad @jako13\n#drift #adamlz #jamesdeane #sidewayswire",
+    "youtube_title": "Adam LZ | The Outerzone",
+    "youtube": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "adam_lz",
+    "jamesdeane130"
+   ],
    "people": [
     "Adam LZ",
     "James Deane"
    ],
-   "moment_kind": null,
+   "moment_kind": "rumor",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -49826,7 +49859,7 @@
   {
    "id": "pod-5687ca1c5a65-4",
    "kind": "podcast_clip",
-   "status": "approved",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Adam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #LongBeach #sidewayswire",
@@ -49862,16 +49895,25 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 54,
+   "captions": {
+    "instagram": "Adam LZ | The Outerzone\n\nAdam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @formulad @jako13\n\n#drift #adamlz #jackshanahan #formuladrift #sidewayswire",
+    "facebook": "Adam LZ | The Outerzone\n\nAdam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @formulad @jako13\n\n#drift #adamlz #sidewayswire",
+    "tiktok": "Adam LZ | The Outerzone: Adam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @jackshanahan59 @formulad @jako13\n#drift #adamlz #jackshanahan #sidewayswire",
+    "youtube_title": "Adam LZ | The Outerzone",
+    "youtube": "Adam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "adam_lz",
+    "jackshanahan59"
+   ],
    "people": [
     "Adam LZ",
     "Jack Shanahan"
    ],
-   "moment_kind": null,
+   "moment_kind": "moment",
    "pinned_at": null,
    "short_none": null,
    "short_len": 28.1,
@@ -49887,7 +49929,7 @@
   {
    "id": "pod-5687ca1c5a65-2",
    "kind": "podcast_clip",
-   "status": "approved",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #LongBeach #TireSmoke #sidewayswire",
@@ -49924,17 +49966,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 59,
+   "captions": {
+    "instagram": "James Deane | The Outerzone\n\nA drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#drift #jamesdeane #jackshanahan #formuladrift #sidewayswire",
+    "facebook": "James Deane | The Outerzone\n\nA drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#drift #jamesdeane #sidewayswire",
+    "tiktok": "James Deane | The Outerzone: A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n#drift #jamesdeane #jackshanahan #sidewayswire",
+    "youtube_title": "James Deane | The Outerzone",
+    "youtube": "A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jamesdeane #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "jamesdeane130",
+    "jackshanahan59",
+    "adam_lz"
+   ],
    "people": [
     "James Deane",
     "Jack Shanahan",
     "Adam LZ"
    ],
-   "moment_kind": null,
+   "moment_kind": "moment",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -50080,7 +50132,7 @@
   {
    "id": "pod-5687ca1c5a65-1",
    "kind": "podcast_clip",
-   "status": "approved",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "No night practice, so the first dark laps were qualifying runs. The Long Beach podium on driving the Shoreline Showdown under the lights.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #LongBeach #NightDrift #sidewayswire",
@@ -50117,17 +50169,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 51,
+   "captions": {
+    "instagram": "James Deane | The Outerzone\n\nNo night practice, so the first dark laps were qualifying runs. The Long Beach podium on driving the Shoreline Showdown under the lights.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#drift #jamesdeane #jackshanahan #formuladrift #sidewayswire",
+    "facebook": "James Deane | The Outerzone\n\nNo night practice, so the first dark laps were qualifying runs. The Long Beach podium on driving the Shoreline Showdown under the lights.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#drift #jamesdeane #sidewayswire",
+    "tiktok": "James Deane | The Outerzone: No night practice, so the first dark laps were qualifying runs. The Long Beach podium on driving the Shoreline Showdown under the lights.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n#drift #jamesdeane #jackshanahan #sidewayswire",
+    "youtube_title": "James Deane | The Outerzone",
+    "youtube": "No night practice, so the first dark laps were qualifying runs. The Long Beach podium on driving the Shoreline Showdown under the lights.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jamesdeane #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "jamesdeane130",
+    "jackshanahan59",
+    "adam_lz"
+   ],
    "people": [
     "James Deane",
     "Jack Shanahan",
     "Adam LZ"
    ],
-   "moment_kind": null,
+   "moment_kind": "fact",
    "pinned_at": null,
    "short_none": null,
    "short_len": 13.4,
@@ -50143,7 +50205,7 @@
   {
    "id": "pod-441d4b7291ad-9",
    "kind": "podcast_clip",
-   "status": "approved",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Can an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #Drift #sidewayswire",
@@ -50179,16 +50241,25 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 44,
+   "captions": {
+    "instagram": "Brian Wills | The Outerzone\n\nCan an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\n#drift #brianwills #federicosceriffo #formuladrift #sidewayswire",
+    "facebook": "Brian Wills | The Outerzone\n\nCan an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\n#drift #brianwills #sidewayswire",
+    "tiktok": "Brian Wills | The Outerzone: Can an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @nh_fab @federicosceriffo17 @formulad @jako13\n#drift #brianwills #federicosceriffo #sidewayswire",
+    "youtube_title": "Brian Wills | The Outerzone",
+    "youtube": "Can an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #brianwills #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "nh_fab",
+    "federicosceriffo17"
+   ],
    "people": [
     "Brian Wills",
     "Federico Sceriffo"
    ],
-   "moment_kind": null,
+   "moment_kind": "quote",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -50204,7 +50275,7 @@
   {
    "id": "pod-441d4b7291ad-8",
    "kind": "podcast_clip",
-   "status": "approved",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "An OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #BrianWills #sidewayswire",
@@ -50239,15 +50310,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 34,
+   "captions": {
+    "instagram": "Brian Wills | The Outerzone\n\nAn OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\n#drift #brianwills #formuladrift #prospec #sidewayswire",
+    "facebook": "Brian Wills | The Outerzone\n\nAn OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\n#drift #brianwills #sidewayswire",
+    "tiktok": "Brian Wills | The Outerzone: An OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @nh_fab @formulad @jako13\n#drift #brianwills #formuladrift #sidewayswire",
+    "youtube_title": "Brian Wills | The Outerzone",
+    "youtube": "An OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #brianwills #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "nh_fab"
+   ],
    "people": [
     "Brian Wills"
    ],
-   "moment_kind": null,
+   "moment_kind": "quote",
    "pinned_at": null,
    "short_none": null,
    "short_len": 17.7,

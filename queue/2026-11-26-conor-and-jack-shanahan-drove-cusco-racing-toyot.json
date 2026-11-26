@@ -20,19 +20,50 @@
      "JAPAN"
     ],
     "label": "WINNER",
-    "series": "D1 GRAND PRIX"
+    "series": "D1 GRAND PRIX",
+    "band": "#FF7A00",
+    "cutout": "../docs/media/portraits/cutout/conor-shanahan.png",
+    "portrait_credit": "@formulad",
+    "backdrop": "D1"
    }
   }
  ],
- "caption": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix",
+ "caption": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix\n\nPhoto: @formulad",
  "platforms": [
   "instagram",
   "facebook"
  ],
- "status": "draft",
+ "status": "ready",
  "created": "2026-11-26T20:55:46.126185+00:00",
  "source": "https://d1gp.co.jp/27462/",
  "fresh_hours": 240,
  "tip": "shanahan-d1gp",
- "by": "claude"
+ "by": "claude",
+ "media": [
+  "docs/media/2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot/1.png"
+ ],
+ "problems": [],
+ "post_at": "2026-12-06T19:30:00+00:00",
+ "built": "2026-11-26T21:15:58.962006+00:00",
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T21:16:00.681073+00:00"
+ },
+ "plan": {
+  "instagram": "2026-12-07T07:30:00+00:00",
+  "facebook": "2026-12-06T19:30:00+00:00"
+ },
+ "captions": {
+  "instagram": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix\n\nPhoto: @formulad\n\n#drift #conorshanahan #jackshanahan #sidewayswire",
+  "facebook": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix\n\nPhoto: @formulad\n\n#drift #conorshanahan #sidewayswire",
+  "tiktok": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n#drift #conorshanahan #jackshanahan #sidewayswire",
+  "youtube_title": "CONOR SHANAHAN WINS IN JAPAN",
+  "youtube": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #conorshanahan #sidewayswire"
+ },
+ "collaborators": [
+  "conorshanahan79",
+  "jackshanahan59",
+  "nakamura_naoki_n"
+ ]
 }

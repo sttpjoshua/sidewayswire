@@ -16,18 +16,44 @@
      "IS OUT"
     ],
     "label": "BREAKING",
-    "series": "FORMULA DRIFT"
+    "series": "FORMULA DRIFT",
+    "band": "#E10600",
+    "photo": "../docs/media/stills/fd2026r8-12r2-1.jpg",
+    "photo_credit": "@formulad"
    }
   }
  ],
- "caption": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT",
+ "caption": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT\n\nPhoto: @formulad",
  "platforms": [
   "instagram",
   "facebook"
  ],
- "status": "draft",
+ "status": "ready",
  "created": "2026-11-26T20:55:58.302340+00:00",
  "source": "https://news.formulad.com/2026/fd-news/formula-drift-announces-2027-schedule-with-exciting-venue-updates/",
  "fresh_hours": 120,
- "by": "local"
+ "by": "local",
+ "media": [
+  "docs/media/2026-11-26-formula-drift-announces-2027-schedule-with-excit/1.png"
+ ],
+ "problems": [],
+ "post_at": "2026-12-01T00:00:00+01:00",
+ "built": "2026-11-26T21:15:59.710110+00:00",
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T21:16:00.682751+00:00"
+ },
+ "plan": {
+  "instagram": "2026-12-01T00:00:00+01:00",
+  "facebook": "2026-12-01T00:00:00+01:00"
+ },
+ "captions": {
+  "instagram": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT\n\nPhoto: @formulad\n\n#drift #sidewayswire",
+  "facebook": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT\n\nPhoto: @formulad\n\n#drift #sidewayswire",
+  "tiktok": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n#drift #sidewayswire",
+  "youtube_title": "FD 2027 SCHEDULE IS OUT",
+  "youtube": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT\n\nPhoto: @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #sidewayswire"
+ },
+ "collaborators": []
 }

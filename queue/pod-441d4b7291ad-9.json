@@ -1,7 +1,7 @@
 {
  "id": "pod-441d4b7291ad-9",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "ATTENTION BEATS DRIVING?",
  "video": "docs/media/pod-441d4b7291ad-9/clip.mp4",
@@ -49,5 +49,20 @@
   "at": "2026-11-26T19:31:44.203978+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-26T21:12:31.068Z"
+ "approved": "2026-11-26T21:12:31.068Z",
+ "post_at": null,
+ "score": 44,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Brian Wills | The Outerzone\n\nCan an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\n#drift #brianwills #federicosceriffo #formuladrift #sidewayswire",
+  "facebook": "Brian Wills | The Outerzone\n\nCan an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\n#drift #brianwills #sidewayswire",
+  "tiktok": "Brian Wills | The Outerzone: Can an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @nh_fab @federicosceriffo17 @formulad @jako13\n#drift #brianwills #federicosceriffo #sidewayswire",
+  "youtube_title": "Brian Wills | The Outerzone",
+  "youtube": "Can an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #brianwills #sidewayswire"
+ },
+ "collaborators": [
+  "nh_fab",
+  "federicosceriffo17"
+ ]
 }

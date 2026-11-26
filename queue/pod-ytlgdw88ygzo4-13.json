@@ -1,7 +1,7 @@
 {
  "id": "pod-ytlgdw88ygzo4-13",
  "kind": "stream_clip",
- "status": "ready",
+ "status": "check",
  "slides": [],
  "title": "OLSEN TAKES DOWN THE CHAMP",
  "video": "docs/media/pod-ytlgdw88ygzo4-13/clip.mp4",
@@ -14,8 +14,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": false,
- "check_reason": "",
+ "check": true,
+ "check_reason": "controle: zelfde moment als pod-yt9lxrdzgctgm-12",
  "platforms": [
   "instagram",
   "facebook",
@@ -58,8 +58,10 @@
   "simenolsendrifting"
  ],
  "qc": {
-  "hard": [],
+  "hard": [
+   "zelfde moment als pod-yt9lxrdzgctgm-12"
+  ],
   "soft": [],
-  "at": "2026-11-26T19:31:44.345256+00:00"
+  "at": "2026-11-26T21:16:00.564008+00:00"
  }
 }
