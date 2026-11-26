@@ -276,7 +276,7 @@
   "why": "Driver's near miss and incomplete run",
   "caption": "Jeff Jones' qualifying run with a mistake",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -285,7 +285,12 @@
    "text": "WILL JEFF JONES GET AN INCOMPLETE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-10-13597-14365.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-10-13597-14365.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1415.56, \"start\": 1409.72, \"text\": \"WILL JEFF JONES GET AN INCOMPLETE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:52:07.050213+00:00"
  },
  {
   "start": 1449.44,
@@ -298,7 +303,7 @@
   "why": "Interesting transition from last season's car to a new one.",
   "caption": "RCP's new BMW makes its debut in qualifying.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -307,7 +312,12 @@
    "text": "NEW CAR, SAME DRIVER?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-11-14494-14814.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-11-14494-14814.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1481.44, \"start\": 1477.8, \"text\": \"NEW CAR, SAME DRIVER?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:52:53.618727+00:00"
  },
  {
   "start": 1625.7,
@@ -320,7 +330,7 @@
   "why": "Provides context on judging criteria.",
   "caption": "Drivers meeting packed with useful info.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -329,7 +339,12 @@
    "text": "WHAT DID DRIVERS LEARN TODAY?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-12-16257-16867.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-12-16257-16867.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1670.84, \"start\": 1668.16, \"text\": \"WHAT DID DRIVERS LEARN TODAY?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:54:15.355907+00:00"
  },
  {
   "start": 1735.22,
@@ -342,7 +357,7 @@
   "why": "Suspenseful and unexpected.",
   "caption": "Driver Haightley's run cut short by an issue.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -351,7 +366,12 @@
    "text": "IS IT A MECHANICAL ISSUE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-13-17352-17995.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-13-17352-17995.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1778.58, \"start\": 1776.82, \"text\": \"IS IT A MECHANICAL ISSUE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T20:55:50.353657+00:00"
  },
  {
   "start": 1915.06,
