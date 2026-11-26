@@ -47,6 +47,6 @@ jobs:
       - name: community (reacties liken, eerste reactie, goedgekeurde antwoorden)
         run: python -m lc.engage || true
       - name: 4 dashboard
-        run: python -m lc.stats || true; python -m lc.status
+        run: python -m lc.stats || true; python -m lc.analyse || true; python -m lc.status
       - name: save
         run: python -m lc.gitsave "run $(date -u +%FT%TZ)" data queue docs

@@ -1,9 +1,31 @@
 {
  "id": "analist",
  "name": "Analist",
- "where": "Claude, wekelijks",
- "state": "gepland",
- "doing": "nog in aanbouw: straks elke maandag een rapport over wat werkt",
- "updated": "2026-11-26T19:02:09.649281+00:00",
- "history": []
+ "where": "GitHub, elke dag",
+ "state": "wacht",
+ "doing": null,
+ "updated": "2026-11-26T19:42:52.904100+00:00",
+ "note": "",
+ "history": [
+  {
+   "at": "2026-11-26T19:42:52.815497+00:00",
+   "text": "Nog te weinig gemeten posts (0). Conclusies pas vanaf 5 posts per groep; posten start 1 december."
+  }
+ ],
+ "summary": [
+  "Nog te weinig gemeten posts (0). Conclusies pas vanaf 5 posts per groep; posten start 1 december.",
+  "Instagram: 2 volgers, +0 in 7 dagen."
+ ],
+ "report": {
+  "gemeten_posts": 0,
+  "volgers_instagram": 2,
+  "groei_7_dagen": 0,
+  "per": {},
+  "beste": [],
+  "zwakste": []
+ },
+ "counts": {
+  "gemeten posts": 0,
+  "volgers": 2
+ }
 }

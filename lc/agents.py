@@ -24,7 +24,7 @@ CFG = ROOT / "data" / "agents.json"
 
 NAMES = {"hoofdredacteur": "Hoofdredacteur", "battle": "Battle-redacteur", "podcast": "Podcast-redacteur", "nieuws": "Nieuwsredacteur",
          "community": "Community-redacteur", "scout": "Nieuwsscout", "qc": "Kwaliteitscontrole",
-         "tags": "Tags-onderzoeker", "analist": "Analist", "wachter": "Systeemwachter"}
+         "tags": "Tags-onderzoeker", "analist": "Analist", "strateeg": "Strateeg", "wachter": "Systeemwachter"}
 
 
 def config(aid: str) -> dict:
