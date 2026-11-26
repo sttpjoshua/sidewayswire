@@ -48,10 +48,11 @@ def report(aid: str, state: str, doing: str | None, history: list[dict] | None =
 
 # ---------- news scout ----------
 KINDS = [  # (label, points, pattern)
-    ("uitslag", 30, r"\b(wins?|won|victory|champion(ship)?|podium|takes? (the )?(win|title)|clinch)"),
+    ("uitslag", 30, r"\b(wins?|won|victory|podium|takes? (the )?(win|title)|clinch|crowned)"),
     ("transfer", 30, r"\b(joins?|signs?|signed|leaves?|leaving|departs?|switch(es)?|new team|retires?|retirement|moves? to)\b"),
     ("nieuwe auto", 22, r"\b(new (car|build|livery|chassis)|livery|reveal(ed|s)?|unveil(ed|s)?|debut)"),
     ("kalender", 18, r"\b(schedule|calendar|season|round|venue|finale|rules?|regulation)"),
+    ("evenement", 20, r"\b(guest (entry|driver)|exhibition|demo|gymkhana|matsuri|show|festival|invitational|d1gp|d1 grand prix|odaiba)"),
     ("crash", 12, r"\b(crash|wreck|wall|contact|injur)"),
 ]
 NOISE = r"\b(tickets?|merch|giveaway|discount|sale|podcast|subscribe|timetable|entry ?list|livestream|watch live|chapter|vlog)\b"
@@ -68,6 +69,14 @@ def scout(inbox_path: Path = ROOT / "data" / "inbox.json", now: datetime | None 
     d = json.loads(inbox_path.read_text())
     note = cfg["note"].lower()
     hist, top = [], []
+    import csv
+    known = []
+    src = ROOT / "data" / "sources.csv"
+    if src.exists():
+        for r in csv.DictReader(src.open(encoding="utf-8")):
+            if r.get("Type") in ("Coureur", "Presentator") and r.get("Prioriteit") in ("1", "2"):
+                last = r["Naam"].split()[-1].lower()
+                known.append((r["Naam"].lower(), last, 3 - int(r["Prioriteit"])))
     for s in d.get("stories", []):
         t = " ".join([s.get("title", "")] + [i.get("title", "") for i in s.get("items", [])[:4]]).lower()
         pts, why = 0, []
@@ -76,6 +85,11 @@ def scout(inbox_path: Path = ROOT / "data" / "inbox.json", now: datetime | None 
                 pts += p
                 why.append(label)
                 break
+        stars = [n for n, last, w in known if n in t or (len(last) > 5 and re.search(rf"\b{re.escape(last)}\b", t))]
+        if stars:
+            # Off-season radar (Joshua, 26 nov): what the pros do between seasons is news for us.
+            pts += min(30, 15 * len(stars))
+            why.append("bekende rijder")
         buzz = int(s.get("buzz") or 1)
         pts += min(30, (buzz - 1) * 8)
         if buzz > 1:
@@ -96,8 +110,9 @@ def scout(inbox_path: Path = ROOT / "data" / "inbox.json", now: datetime | None 
             pts += 12
         if ("formula drift" in note or "fd" in note.split()) and "FD" in str(s.get("series")):
             pts += 12
-        skip = age_h > 48 or pts < 15
-        s["scout"] = {"score": pts, "why": why, "skip": skip}
+        feature = bool(stars)
+        skip = age_h > (120 if feature else 48) or pts < 15
+        s["scout"] = {"score": pts, "why": why, "skip": skip, "feature": feature}
         if not skip:
             top.append((pts, s["title"]))
     inbox_path.write_text(json.dumps(d, indent=1, ensure_ascii=False))

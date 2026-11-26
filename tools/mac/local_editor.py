@@ -307,7 +307,11 @@ format: "breaking" when a well-known driver leaves, joins, switches team or seri
 "winner" when someone won an event (headline names the driver and the win);
 "look" for a new car, build or livery reveal; "question" when the news leaves something open that fans
 will want to guess (headline is then that question, e.g. ["WHICH TEAM WILL", "LUKE FINK JOIN?"]);
-otherwise "news". The headline IS the post: short, strong, in capitals, max 3 lines.
+otherwise "news". Off-season (December to March) the stories about what the pros do between seasons
+are worth_it true: guest entries in other series or countries (for example two Formula DRIFT champions in
+D1GP in Japan), new projects, builds, YouTube series, shows and demos, team or car changes, plans for the
+new season. If they won or placed somewhere, use "winner"; a new car or livery is "look".
+An Instagram caption by the driver counts as the source: use only what it says. The headline IS the post: short, strong, in capitals, max 3 lines.
 caption: 1 or 2 short sentences. Use a human detail from the text when there is one (a comeback, a new
 baby, a first win). A light opinion is fine ("he had style"), never mock or attack a person or series.
 For "question" end the caption with the question to the reader. For "breaking" no question needed."""
@@ -402,6 +406,8 @@ def news(gh, put, json_or, log, beat, known: dict, agent=None, note: str = "") -
             # A still from the livestream shows the OLD car: no still, and Joshua adds a photo we may use, or skips.
             post |= {"no_still": True, "check": True,
                      "check_reason": "nieuwe auto of livery: voeg een foto toe die we mogen gebruiken, of sla over"}
+        if (s.get("scout") or {}).get("feature") or is_tip:
+            post["fresh_hours"] = 120          # off-season features stay interesting longer than results
         if is_tip:
             post |= {"tip": s["tip"]["id"], "source": s["items"][0].get("url") or post["source"]}
         if fmt in HOOK_FORMATS and not rumor:

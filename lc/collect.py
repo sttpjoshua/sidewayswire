@@ -57,10 +57,12 @@ def run(sources_csv: Path = DATA / "sources.csv", db: Path = DATA / "lc.db",
 
     # 2. Instagram (only once the Meta app and token exist)
     if ig and sources_csv.exists():
-        due = sources.due(sources.load(sources_csv), store.minutes_since_checks())
+        import csv as _csv
+        checked = {r["Naam"] for r in _csv.DictReader(sources_csv.open(encoding="utf-8")) if r.get("Status") == "Gecontroleerd"}
+        due = sources.due(sources.load(sources_csv), store.minutes_since_checks(), slow=True)
         for s in due:
-            if not s.ig_username or store.is_blocked(s.ig_username):
-                continue
+            if not s.ig_username or store.is_blocked(s.ig_username) or s.name not in checked:
+                continue                     # 26 nov: only accounts Joshua checked, never a guessed one
             try:
                 found = ig.recent_media(s.ig_username)
                 for m in found:
@@ -71,6 +73,8 @@ def run(sources_csv: Path = DATA / "sources.csv", db: Path = DATA / "lc.db",
             except Exception as e:
                 report["errors"].append({"source": s.name, "url": f"instagram @{s.ig_username}",
                                          "error": str(e)[:200]})
+                if any(c in str(e) for c in ("rate limit", "(#4)", "(#17)", "(#32)", "(#613)", "429")):
+                    break                    # Meta says slow down: stop this round, try again next time
 
     # 3. inbox for the editor and the dashboard
     stories = []
@@ -94,7 +98,7 @@ def run(sources_csv: Path = DATA / "sources.csv", db: Path = DATA / "lc.db",
 
 if __name__ == "__main__":
     ig = None
-    if os.environ.get("IG_TOKEN") and os.environ.get("IG_USER_ID"):
+    if (os.environ.get("IG_TOKEN") and os.environ.get("IG_USER_ID")) or os.environ.get("META_TOKEN"):
         from .instagram import Instagram
         ig = Instagram()
     rep = run(ig=ig)

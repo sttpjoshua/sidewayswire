@@ -13,6 +13,8 @@ from pathlib import Path
 
 # How often each priority is checked, in minutes.
 CHECK_EVERY = {1: 15, 2: 60, 3: 24 * 60}
+# Instagram of drivers (26 nov, off-season radar): gentler, so Meta's rate limit is never hit.
+CHECK_EVERY_SLOW = {1: 90, 2: 4 * 60, 3: 24 * 60}
 
 
 @dataclass
@@ -59,6 +61,9 @@ def load(path: str | Path) -> list[Source]:
     return out
 
 
-def due(sources: list[Source], minutes_since_last: dict[str, float]) -> list[Source]:
-    """Sources whose check interval has passed. Unknown sources are always due."""
-    return [s for s in sources if minutes_since_last.get(s.name, 1e9) >= s.check_every_minutes]
+def due(sources: list[Source], minutes_since_last: dict[str, float], slow: bool = False) -> list[Source]:
+    """Sources whose check interval has passed. Unknown sources are always due.
+    slow: the gentler Instagram intervals (CHECK_EVERY_SLOW)."""
+    def every(s):
+        return CHECK_EVERY_SLOW.get(s.priority, 24 * 60) if slow else s.check_every_minutes
+    return [s for s in sources if minutes_since_last.get(s.name, 1e9) >= every(s)]

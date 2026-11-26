@@ -52,6 +52,13 @@ WATCH = [
     ("Google News", "FD + DM", "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027", "drift"),
     ("Google News", "FD", "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift", "drift"),
     ("Google News", "D1GP", "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift", "drift"),
+    # Off-season radar (Joshua, 26 nov): what the pros do between seasons, often abroad or in other series.
+    ("Google News", "FD + DM", "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"", None),
+    ("Google News", "FD", "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"", None),
+    ("Google News", "FD + DM", "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"", "drift"),
+    ("Google News", "FD + DM", "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"", "drift"),
+    ("Google News", "D1GP", "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest", None),
+    ("Red Bull", "FD + DM", "gnews:site:redbull.com drift", "drift"),
 ]
 
 

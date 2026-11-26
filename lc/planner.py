@@ -197,7 +197,7 @@ def expire(posts: list[dict], now: datetime) -> list[dict]:
             continue
         b = datetime.fromisoformat(born)
         b = b if b.tzinfo else b.replace(tzinfo=timezone.utc)
-        if (now - b).total_seconds() < FRESH_HOURS * 3600:
+        if (now - b).total_seconds() < float(p.get("fresh_hours") or FRESH_HOURS) * 3600:
             continue
         soon = [datetime.fromisoformat(t) for t in (p.get("plan") or {}).values()]
         if any(now <= t <= now + timedelta(hours=FREEZE_HOURS) for t in soon) and now >= q.START:

@@ -21,6 +21,7 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
         run: python -m lc.collect && (python -m lc.agents scout || true)
       - name: Dashboard
         run: python -m lc.status
