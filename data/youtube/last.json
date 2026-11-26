@@ -1,5 +1,6 @@
 {
- "action": "login",
- "at": "2026-11-26T21:15:05.698950+00:00",
- "ok": true
+ "action": "exchange",
+ "at": "2026-11-26T21:18:23.238554+00:00",
+ "ok": false,
+ "error": "verkeerd kanaal: Sttp.Joshua @sttp.joshua. Kies bij Google het Sideways Wire-kanaal"
 }
