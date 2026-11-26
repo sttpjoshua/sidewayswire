@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: The Shanahans · BACK ON TOP | DRIFTMASTERS ROUND 4 | FINLAND",
- "updated": "2026-11-26T19:26:03.585911+00:00",
+ "doing": "leest: Vaughn Gittin Jr. · Missed My Goal In Long Beach!!",
+ "updated": "2026-11-26T19:26:07.230261+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:26:06.617450+00:00",
+   "text": "0 momenten uit BACK ON TOP | DRIFTMASTERS ROUND 4 | FINLAND",
+   "ref": "ytmirwf227rg"
+  },
   {
    "at": "2026-11-26T19:26:02.829345+00:00",
    "text": "0 momenten uit I BOUGHT MY DREAM CAR",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:24:26.140205+00:00",
    "text": "0 momenten uit Engine FINALLY in my R34 GTR - LOOKS INCREDIBLE ",
    "ref": "ytfumd9vslozu"
-  },
-  {
-   "at": "2026-11-26T19:24:22.476607+00:00",
-   "text": "0 momenten uit Time to FINISH my R34 GTR!",
-   "ref": "ytzitm1bolpy"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 80
+  "made": 81
  },
  "version": "3"
 }
