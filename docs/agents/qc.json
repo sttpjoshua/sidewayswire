@@ -4,9 +4,13 @@
  "where": "GitHub",
  "state": "wacht",
  "doing": null,
- "updated": "2026-11-26T22:58:29.362368+00:00",
+ "updated": "2026-11-26T22:59:53.624085+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T22:59:53.623942+00:00",
+   "text": "ronde: 711 goed, 3 met opmerking, 0 tegengehouden"
+  },
   {
    "at": "2026-11-26T22:53:22.620679+00:00",
    "text": "ronde: 712 goed, 3 met opmerking, 0 tegengehouden"
@@ -73,7 +77,7 @@
   }
  ],
  "counts": {
-  "goed": 712,
+  "goed": 711,
   "opmerking": 3,
   "tegengehouden": 0
  }
