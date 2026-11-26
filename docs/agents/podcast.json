@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Adam LZ · My 4.0L Porsche 964 Is Back With Bigger Cams and a Secret Mod!",
- "updated": "2026-11-26T19:21:10.526407+00:00",
+ "doing": "leest: Adam LZ · We Destroyed the 4 Rotor Supra to Win This Event",
+ "updated": "2026-11-26T19:21:14.375641+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:21:13.404590+00:00",
+   "text": "0 momenten uit My 4.0L Porsche 964 Is Back With Bigger Cams and a Secret Mod!",
+   "ref": "ytha0olbpf9pg"
+  },
   {
    "at": "2026-11-26T19:21:09.656277+00:00",
    "text": "0 momenten uit My 1000HP Cosmo Build Just Got Serious",
@@ -69,7 +74,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 10
+  "made": 11
  },
  "version": "3"
 }
