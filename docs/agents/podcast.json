@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Collete Davis · We Actually Did This… ",
- "updated": "2026-11-26T19:23:34.864389+00:00",
+ "doing": "leest: Collete Davis · We Lost Almost All Our Practice… Then Went For It. ",
+ "updated": "2026-11-26T19:23:38.355356+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:23:37.784491+00:00",
+   "text": "0 momenten uit We Actually Did This… ",
+   "ref": "ytwvi5xp35xe"
+  },
   {
    "at": "2026-11-26T19:23:34.144153+00:00",
    "text": "0 momenten uit I Learned the Secrets of Drifting from Chelsea Denofa",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:21:57.869523+00:00",
    "text": "0 momenten uit 900HP 2JZ Supra Vs. Canadian Police",
    "ref": "ytcoe5sjfvly"
-  },
-  {
-   "at": "2026-11-26T19:21:54.061740+00:00",
-   "text": "0 momenten uit I wasn't going to talk about this",
-   "ref": "yteoiyegmivua"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 44
+  "made": 45
  },
  "version": "3"
 }
