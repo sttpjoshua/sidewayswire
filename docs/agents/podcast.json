@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Collete Davis · Can We Wrap My Entire 350Z in 48 HOURS?!",
- "updated": "2026-11-26T19:23:15.465601+00:00",
+ "doing": "leest: Collete Davis · My 350Z Is UNRECOGNIZABLE… Widebody Kit Install!",
+ "updated": "2026-11-26T19:23:19.279535+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:23:18.476266+00:00",
+   "text": "0 momenten uit Can We Wrap My Entire 350Z in 48 HOURS?!",
+   "ref": "ytoiwg9kzm3k8"
+  },
   {
    "at": "2026-11-26T19:23:14.789344+00:00",
    "text": "0 momenten uit Did We Make a 350Z Sound GOOD?!",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:21:35.379816+00:00",
    "text": "0 momenten uit I Hope I Don't Regret This...",
    "ref": "yt4dkkaui4u8o"
-  },
-  {
-   "at": "2026-11-26T19:21:31.708461+00:00",
-   "text": "0 momenten uit I Secretly Listed Sabrina's Car For Sale",
-   "ref": "ytmdstdw9da1e"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 39
+  "made": 40
  },
  "version": "3"
 }
