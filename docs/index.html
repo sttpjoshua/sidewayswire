@@ -453,7 +453,7 @@ function drawTags(){drawTagCount();const L=openNames(),el=document.getElementByI
   if(!L.length){el.innerHTML=`<div class="empty2">Geen namen meer die posts tegenhouden.</div>`;return}
   el.innerHTML=`<div class="replies">${L.map(n=>`<div class="rp" data-tag="${esc(n.name)}">
     <div class="row" style="gap:8px;align-items:baseline"><b style="color:#fff;font-size:16px">${esc(n.name)}</b>${n.series?`<span class="tag">${esc(n.series)}</span>`:""}<span class="muted" style="margin-left:auto">${n.posts} post${n.posts>1?"s":""} wachten</span></div>
-    ${n.known&&n.handle?`<p class="muted" style="margin:6px 0">Bekend met <b>${esc(n.handle)}</b>, maar nog niet nagekeken. <a href="https://www.instagram.com/${esc(n.handle.replace(/^@/,""))}/" target="_blank">profiel openen ↗</a></p>`:""}
+    ${n.known&&n.handle?`<p class="muted" style="margin:6px 0">Bekend met <b>${esc(n.handle)}</b>, maar nog niet nagekeken. <a href="https://www.instagram.com/${esc(n.handle.replace(/^@/,""))}/" target="_blank">profiel openen ↗</a></p>${n.why?`<p class="muted" style="font-size:13px;margin:0 0 6px">Waarom: ${esc(n.why)}</p>`:""}`:""}
     ${(n.suggest||[]).length?`<p class="muted" style="margin:6px 0">Bedoelen we iemand die we al kennen?</p><div class="row" style="gap:6px;flex-wrap:wrap">${n.suggest.map(x=>`<button class="btn" data-tg="=${esc(x)}">IS ${esc(x.toUpperCase())}</button>`).join("")}</div>`:""}
     <div class="row" style="gap:8px;margin-top:8px;flex-wrap:wrap">
       ${n.known&&n.handle?`<button class="btn g" data-tg="${esc(n.handle)}">KLOPT, ${esc(n.handle.toUpperCase())}</button>`:""}

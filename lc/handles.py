@@ -43,7 +43,8 @@ def registry() -> dict:
         e = {"name": r["Naam"], "handle": ig.lower() if ig else "",
              "ok": r.get("Status") == "Gecontroleerd" and ig.startswith("@"),
              "none": r.get("Status") == "Geen Instagram",
-             "type": r.get("Type", ""), "prio": int(r.get("Prioriteit") or 3), "series": r.get("Serie", "")}
+             "type": r.get("Type", ""), "prio": int(r.get("Prioriteit") or 3), "series": r.get("Serie", ""),
+             "note": (r.get("Notitie") or "").split(" | ")[-1][:200]}
         out[_key(r["Naam"])] = e
         for a in (r.get("Aliassen") or "").split("|"):
             if a.strip():
@@ -179,6 +180,7 @@ def open_names(posts: list[dict]) -> list[dict]:
             e = out.setdefault(nm, {"name": nm, "posts": 0, "ids": [],
                                     "handle": (r or {}).get("handle", ""), "known": bool(r),
                                     "series": (r or {}).get("series", ""),
+                                    "why": (r or {}).get("note", "") if (r or {}).get("handle") and not (r or {}).get("ok") else "",
                                     "suggest": [] if r else suggestions(reg, nm)})
             e["posts"] += 1
             if len(e["ids"]) < 6:
