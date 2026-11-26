@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:30:02.370563+00:00",
+ "updated": "2026-11-26T03:32:49.039166+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 542,
@@ -1620,6 +1620,26 @@
     "kind": "vlog",
     "credit": "@conorshanahan79",
     "event": "JACK 0 DOSS 2 | D1GP ODAIBA, TOKYO",
+    "has_transcript": true,
+    "moments": []
+   },
+   {
+    "id": "ytk0tagsad1i",
+    "podcast": "Adam LZ",
+    "title": "LZ Compound Flood Rescue Mission",
+    "published": "2026-11-25",
+    "status": "transcribed",
+    "youtube": "-K0TaGSad1I",
+    "audio": null,
+    "link": null,
+    "art": null,
+    "seconds": 994.0,
+    "error": null,
+    "transcribed": "2026-11-26T03:03:37.195597+00:00",
+    "tries": null,
+    "kind": "vlog",
+    "credit": "@adam_lz",
+    "event": "LZ COMPOUND FLOOD RESCUE MISSION",
     "has_transcript": true,
     "moments": []
    },
@@ -6125,38 +6145,22 @@
     "event": "THESE PARTS COMPLETELY CHANGED MY R34 GT",
     "has_transcript": true,
     "moments": []
-   },
-   {
-    "id": "ytd4l4ujjh3c",
-    "podcast": "TJ Hunt",
-    "title": "Is This My Worst Financial Decision?",
-    "published": "2026-10-16",
-    "status": "transcribed",
-    "youtube": "D4l4Ujjh_3c",
-    "audio": null,
-    "link": null,
-    "art": null,
-    "seconds": 1714.0,
-    "error": null,
-    "transcribed": "2026-11-19T19:27:43.484432+00:00",
-    "tries": null,
-    "kind": "vlog",
-    "credit": "",
-    "event": "IS THIS MY WORST FINANCIAL DECISION?",
-    "has_transcript": true,
-    "moments": []
    }
   ]
  },
  "streams": {
-  "total": 169,
-  "transcribed": 169,
+  "total": 170,
+  "transcribed": 170,
   "moments": 169,
   "next": null,
   "series": {
    "The Shanahans": {
     "total": 14,
     "transcribed": 14
+   },
+   "Adam LZ": {
+    "total": 15,
+    "transcribed": 15
    },
    "TJ Hunt": {
     "total": 15,
@@ -6165,10 +6169,6 @@
    "Jimmy Oakes": {
     "total": 15,
     "transcribed": 15
-   },
-   "Adam LZ": {
-    "total": 14,
-    "transcribed": 14
    },
    "Collete Davis": {
     "total": 13,
