@@ -127,10 +127,26 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
                   for p in shown_posts(posts)],
         "replies": _replies(),
         "names": _names(posts),
+        "keys": json.loads((ROOT / "data" / "keys.json").read_text()) if (ROOT / "data" / "keys.json").exists() else {},
+        "drivers": _drivers(),
         "channels": json.loads((ROOT / "data" / "channels.json").read_text()) if (ROOT / "data" / "channels.json").exists() else {},
     }
     out.write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")
     return status["counts"]
+
+
+def _drivers() -> list[dict]:
+    """Drivers with a race number (data/sources.csv), for the cars on the terrain in the kantoor."""
+    import csv
+    out = []
+    try:
+        for r in csv.DictReader(open(ROOT / "data" / "sources.csv", encoding="utf-8")):
+            if r.get("Nr", "").strip():
+                out.append({"name": r["Naam"], "nr": r["Nr"].strip(), "land": r.get("Land", ""), "serie": r.get("Serie", ""),
+                            "prio": r.get("Prioriteit", ""), "aliases": r.get("Aliassen", "")})
+    except Exception:
+        pass
+    return out
 
 
 if __name__ == "__main__":

@@ -95,6 +95,7 @@ function wallTex(accent) {
 function makeCar(color, parent, x, y, z, ry = 0, scale = 1) {
   const car = new THREE.Group(); car.position.set(x, y, z); car.rotation.y = ry; car.scale.setScalar(scale);
   const paint = mat(color, { r: .25, m: .6 }), black = mat(0x0c0c0e, { r: .5 }), glass = mat(0x101820, { r: .1, m: .8 });
+  car.userData.paint = paint;
   mesh(B(1.9, .45, 4.2), paint, 0, .55, 0, car);                       // onderkant
   mesh(B(1.95, .2, 4.0), black, 0, .33, 0, car);                       // sideskirts
   const cab = mesh(B(1.6, .5, 2.0), glass, 0, 1.0, -.2, car); cab.scale.x = .95;
@@ -449,7 +450,7 @@ function applyStates() {
   fx.sun.intensity = night ? .25 : 2.2; fx.hemi.intensity = night ? .35 : 1.0;
   (fx.flood || []).forEach(s => s.intensity = night ? 420 : 0);
   fx.lights.forEach(l => l.intensity = night ? 34 : 14);
-  extrasState(night); r4State();
+  extrasState(night); r4State(); liveries(); keyTrouble();
 }
 
 // ---------- animatie ----------
@@ -552,7 +553,7 @@ window.office3d = {
   start() { try { if (!ready) build(); else if (!raf) tick(); applyStates(); return true; } catch (e) { console.error("kantoor 3D:", e); return false; } },
   update() { if (ready) applyStates(); },
   stop() { cancelAnimationFrame(raf); raf = 0; },
-  go, fireworks, walk: startWalk, live: liveMoment, plan: strategistBoard, tv: setTV, sound: toggleSound, round: chiefRound, deliver: () => sendVan("nieuws"),
+  go, fireworks, walk: startWalk, live: liveMoment, plan: strategistBoard, livery: liveries, tv: setTV, sound: toggleSound, round: chiefRound, deliver: () => sendVan("nieuws"),
 };
 window.dispatchEvent(new Event("office3d-ready"));
 
@@ -806,7 +807,8 @@ function extrasTick(dt, t) {
   if (X.podiumFigs) X.podiumFigs.children.forEach((f, i) => { const u = f.userData; if (!u.arms) return; const up = Math.sin(t * 5 + i) > 0; u.arms[0].rotation.x = u.arms[1].rotation.x = up ? 3 : 2.4; });
   stepVans(dt);
   // waarschuwingslamp draait als er zo een post live gaat; rook bij de server bij een probleem
-  if (X.beacon) { X.beacon.rotation.y += dt * 5; X.beacon.children[0].material.emissiveIntensity = X.soon ? 3 : 0; X.beaconLight.intensity = X.soon ? 60 : 0; }
+  if (X.beacon) { const on = X.soon || X.keyBeacon, col = X.keyBeacon ? 0xff2020 : 0xff7a00; X.beacon.rotation.y += dt * 5;
+    X.beacon.children[0].material.emissive.setHex(col); X.beacon.children[0].material.emissiveIntensity = on ? 3 : 0; X.beaconLight.color.setHex(col); X.beaconLight.intensity = on ? 60 : 0; }
   if (X.trouble && Math.random() < .5) { const sp = X.smoke.find(s => s.userData.life <= 0); if (sp) { sp.position.set(gx("jij") + 3.6 + (Math.random() - .5) * .6, 2.7, -9.6); sp.userData.life = 1; sp.scale.setScalar(.5); } }
   for (const sp of X.smoke) if (sp.userData.life > 0) { sp.userData.life -= dt * .35; sp.position.y += dt * .9; sp.scale.multiplyScalar(1 + dt); sp.material.opacity = Math.max(0, sp.userData.life) * .6; }
   // neerslag
@@ -853,9 +855,6 @@ function topDrivers() {
 }
 function r4State() {
   // rijders op de tandemauto's: de twee namen die het vaakst in je posts staan
-  const D = topDrivers();
-  R4.banners.forEach((t, i) => redraw(t, (g, w, h) => { g.fillStyle = i ? "#C6FF00" : "#111"; g.fillRect(0, 0, w, h); g.font = "italic 900 60px 'Bebas Neue',Impact,sans-serif";
-    g.fillStyle = i ? "#111" : "#C6FF00"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText(String(D[i] || "SIDEWAYS WIRE").toUpperCase().slice(0, 18), w / 2, h / 2 + 3); }));
   R4.puddles.forEach(p => p.visible = !!(X.rain && X.rain.visible));
   // gezichten
   for (const o of Object.values(agentObj)) if (o.face) { o.face.material.emissive.setHex(o.st === "bezig" ? LIME : o.st === "fout" ? PINK : 0x000000); o.face.material.emissiveIntensity = o.st === "bezig" ? .12 : .18; }
@@ -919,4 +918,81 @@ function r4Tick(dt, t) {
   if (R4.liveFlash > 0) { R4.liveFlash -= dt; if (boards.bill && Math.floor(t * 4) % 2 === 0) redraw(boards.bill, (g, w, h) => { g.fillStyle = "#C6FF00"; g.fillRect(0, 0, w, h); g.fillStyle = "#111";
       g.font = "italic 900 200px 'Bebas Neue',Impact,sans-serif"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText("NU LIVE!", w / 2, h / 2 + 10); }); else if (boards.bill) redraw(boards.bill, drawBillboard);
     if (R4.liveFlash <= 0 && boards.bill) redraw(boards.bill, drawBillboard); }
+}
+
+// =====================================================================================
+// RONDE 5: rijders op de auto's (naam, startnummer en landvlag uit data/sources.csv, in de
+// kleuren van Sideways Wire; geen nagemaakte livery's of sponsorlogo's) en sleutels die verlopen.
+// =====================================================================================
+const FLAGS = {
+  "Ierland": ["v", "#169B62", "#ffffff", "#FF883E"], "Italië": ["v", "#009246", "#ffffff", "#CE2B37"], "Frankrijk": ["v", "#0055A4", "#ffffff", "#EF4135"],
+  "Polen": ["h", "#ffffff", "#DC143C"], "Nederland": ["h", "#AE1C28", "#ffffff", "#21468B"], "Estland": ["h", "#0072CE", "#000000", "#ffffff"],
+  "Litouwen": ["h", "#FDB913", "#006A44", "#C1272D"], "Letland": ["h", "#9E3039", "#ffffff", "#9E3039"], "Hongarije": ["h", "#CE2939", "#ffffff", "#477050"],
+  "Oekraïne": ["h", "#0057B7", "#FFD700"], "Egypte": ["h", "#CE1126", "#ffffff", "#000000"], "El Salvador": ["h", "#0F47AF", "#ffffff", "#0F47AF"],
+  "Portugal": ["v2", "#006600", "#FF0000"], "Brazilië": ["h", "#009C3B", "#FFDF00", "#009C3B"], "Australië": ["h", "#012169", "#012169"],
+  "Turkije": ["h", "#E30A17", "#E30A17"], "Israël": ["h", "#ffffff", "#0038b8", "#ffffff"], "Cyprus": ["h", "#ffffff", "#ffffff"], "Tsjechië": ["h", "#ffffff", "#D7141A"],
+  "Finland": ["x", "#ffffff", "#003580"], "Noorwegen": ["x", "#BA0C2F", "#00205B", "#ffffff"], "Zwitserland": ["c", "#DA291C", "#ffffff"], "Japan": ["j", "#ffffff", "#BC002D"],
+};
+function drawFlag(g, w, h, land) {
+  const f = FLAGS[land]; if (!f) { g.fillStyle = "#C6FF00"; g.fillRect(0, 0, w, h); g.fillStyle = "#FF2E88"; g.fillRect(0, h * .4, w, h * .2); return; }
+  const [t, ...c] = f;
+  if (t === "v") c.forEach((col, i) => { g.fillStyle = col; g.fillRect(i * w / c.length, 0, w / c.length + 1, h); });
+  else if (t === "v2") { g.fillStyle = c[0]; g.fillRect(0, 0, w * .4, h); g.fillStyle = c[1]; g.fillRect(w * .4, 0, w * .6, h); }
+  else if (t === "h") c.forEach((col, i) => { g.fillStyle = col; g.fillRect(0, i * h / c.length, w, h / c.length + 1); });
+  else if (t === "x") { g.fillStyle = c[0]; g.fillRect(0, 0, w, h); if (c[2]) { g.fillStyle = c[2]; g.fillRect(w * .28, 0, w * .2, h); g.fillRect(0, h * .38, w, h * .24); }
+    g.fillStyle = c[1]; g.fillRect(w * .32, 0, w * .12, h); g.fillRect(0, h * .43, w, h * .14); }
+  else if (t === "c") { g.fillStyle = c[0]; g.fillRect(0, 0, w, h); g.fillStyle = c[1]; g.fillRect(w * .43, h * .2, w * .14, h * .6); g.fillRect(w * .3, h * .43, w * .4, h * .14); }
+  else if (t === "j") { g.fillStyle = c[0]; g.fillRect(0, 0, w, h); g.fillStyle = c[1]; g.beginPath(); g.arc(w / 2, h / 2, h * .3, 0, 7); g.fill(); }
+}
+const PAINT = [PINK, LIME, BLUE, ORANGE, 0xf2f2f2, 0x1d1d22];
+function driverFor(name) {
+  const D = (typeof S !== "undefined" && S && S.drivers) || [], low = String(name || "").toLowerCase();
+  return D.find(d => d.name.toLowerCase() === low) || D.find(d => (d.aliases || "").toLowerCase().split(/[;,]/).map(x => x.trim()).includes(low))
+    || D.find(d => low && (d.name.toLowerCase().includes(low) || low.includes(d.name.toLowerCase().split(" ").pop())));
+}
+function decals(car) {
+  if (car.userData.dec) return car.userData.dec;
+  const num = canvasTex(256, 256, () => {}), flag = canvasTex(192, 128, () => {});
+  const dec = { num, flag };
+  for (const sx of [-1, 1]) { const p = plane(num, .78, .78, car, sx * .965, .62, .25, sx * Math.PI / 2); p.renderOrder = 2; }
+  const roof = plane(num, .9, .9, car, 0, 1.335, -.3, 0); roof.rotation.x = -Math.PI / 2;
+  const hood = plane(flag, .9, .6, car, 0, .785, 1.45, 0); hood.rotation.x = -Math.PI / 2;
+  car.userData.dec = dec; return dec;
+}
+function paintCar(car, d, color) {
+  if (!car) return;
+  const key = (d ? d.name : "-") + color; if (car.userData.liveryKey === key) return; car.userData.liveryKey = key;
+  car.userData.paint.color.setHex(color);
+  const light = [LIME, 0xf2f2f2, ORANGE].includes(color), dec = decals(car);
+  redraw(dec.num, (g, w, h) => { g.clearRect(0, 0, w, h); g.fillStyle = "#ffffff"; g.beginPath(); g.arc(w / 2, h / 2, w * .46, 0, 7); g.fill();
+    g.lineWidth = 10; g.strokeStyle = light ? "#111" : "#C6FF00"; g.stroke(); g.fillStyle = "#111"; g.textAlign = "center"; g.textBaseline = "middle";
+    const n = d ? d.nr : "SW"; g.font = `italic 900 ${n.length > 2 ? 110 : 140}px 'Bebas Neue',Impact,sans-serif`; g.fillText(n, w / 2, h / 2 + 8); });
+  redraw(dec.flag, (g, w, h) => drawFlag(g, w, h, d && d.land));
+  car.userData.driver = d ? d.name : null;
+}
+function liveries() {
+  const D = (typeof S !== "undefined" && S && S.drivers) || []; if (!D.length) return;
+  const top = topDrivers().map(driverFor).filter(Boolean);
+  const day = +todayNL().replaceAll("-", ""), prio1 = D.filter(d => d.prio === "1" && !top.includes(d));
+  const pick = i => top[i] || prio1[(day + i * 7) % Math.max(1, prio1.length)];
+  paintCar(fx.car, pick(0), 0xf2f2f2); paintCar(X.car2, pick(1), LIME);
+  paintCar(fx.liftCar, prio1[(day + 3) % Math.max(1, prio1.length)], PINK);
+  // namen op de voorruit volgen de echte bestuurders
+  const names = [fx.car, X.car2].map(c => c && c.userData.driver);
+  R4.banners.forEach((t, i) => redraw(t, (g, w, h) => { g.fillStyle = i ? "#C6FF00" : "#111"; g.fillRect(0, 0, w, h); g.font = "italic 900 60px 'Bebas Neue',Impact,sans-serif";
+    g.fillStyle = i ? "#111" : "#C6FF00"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText(String(names[i] || "SIDEWAYS WIRE").toUpperCase().slice(0, 18), w / 2, h / 2 + 3); }));
+}
+window.officeCars = () => [fx.car, X.car2, fx.liftCar].map(c => c && c.userData.driver).filter(Boolean);
+
+// sleutels: rook en rood zwaailicht als er een verloopt (binnen 7 dagen) of niet werkt
+window.officeKeys = function () {
+  const K = ((typeof S !== "undefined" && S && S.keys && S.keys.keys) || {}), out = Object.values(K).map(k => ({ ...k }));
+  try { const exp = localStorage.getItem("sw_gh_key_exp"); if (exp) { const days = (new Date(exp + "T23:59:59") - Date.now()) / 864e5;
+    out.push({ name: "Dashboard-sleutel (deze browser)", expires: exp, days_left: Math.round(days * 10) / 10, state: days < 0 ? "verlopen" : days < 7 ? "verloopt bijna" : "ok" }); } } catch (e) {}
+  return out;
+};
+function keyTrouble() {
+  const bad = officeKeys().filter(k => ["verlopen", "werkt niet", "verloopt bijna"].includes(k.state));
+  X.keyBad = bad; if (bad.length) X.trouble = true;
+  if (X.beacon) X.keyBeacon = bad.length > 0;
 }

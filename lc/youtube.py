@@ -64,6 +64,10 @@ def _fernet():
 
 def _save_token(t: dict) -> None:
     old = _load_token() if TOKEN.exists() else {}
+    if t.get("refresh_token") and t["refresh_token"] != old.get("refresh_token"):
+        t["refresh_since"] = time.time()                            # new sign-in: the 7-day clock (app in Testing) starts again
+    else:
+        t["refresh_since"] = old.get("refresh_since")
     t.setdefault("refresh_token", old.get("refresh_token"))       # Google sends it only at the first sign-in
     t["access_until"] = time.time() + float(t.get("expires_in", 3600)) - 300
     DIR.mkdir(parents=True, exist_ok=True)

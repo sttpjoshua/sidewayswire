@@ -171,7 +171,11 @@ function panel(){
       <div class="row" style="gap:6px;margin-top:8px;flex-wrap:wrap"><button class="btn g" data-ofrev="ok">GOEDKEUREN</button><button class="btn p" data-ofrev="skip">OVERSLAAN</button><a class="btn" href="#beoordelen/${esc(p.id)}">OPENEN</a></div></div>`:""}
     <div style="margin-top:14px">${questsHTML()}</div>`;return}
   if(pick==="mac"){const L=["battle","podcast","nieuws","community"].map(id=>`<div style="margin:3px 0"><b>${esc((AG[id]||{}).name||id)}</b>: ${esc((AG[id]||{}).state||"wacht")}${(AG[id]||{}).doing?" · "+esc(AG[id].doing):""}</div>`).join("");
-    el.innerHTML=`<h2>MAC STUDIO</h2><p class="muted">Hier draaien de redacteuren met het lokale taalmodel, en worden de clips geknipt.</p>${L}`;return}
+    const K=window.officeKeys?officeKeys():[],col={ok:"#C6FF00","verloopt bijna":"#FF9F43",verlopen:"#FF2E88","werkt niet":"#FF2E88"};
+    const KS=K.length?K.map(k=>`<div class="of-key"><i style="background:${col[k.state]||"#7a7a80"}"></i><b>${esc(k.name)}</b><small>${esc(k.state)}${k.expires?` · verloopt ${new Date(k.expires).toLocaleDateString("nl-NL",{day:"numeric",month:"short",year:"numeric"})}${k.days_left!=null?` (${Math.max(0,Math.round(k.days_left))} dagen)`:""}`:k.state==="ok"?" · verloopt niet":""}${k.note?" · "+esc(k.note):""}</small></div>`).join(""):`<p class="muted">De sleutels worden een keer per dag gecontroleerd; de eerste controle volgt bij de volgende ronde.</p>`;
+    el.innerHTML=`<h2>SERVERKAST</h2><p class="muted">Hier draaien de redacteuren met het lokale taalmodel op de Mac Studio, en worden de clips geknipt.</p>${L}
+      <div class="of-q-h" style="margin-top:14px">SLEUTELS</div>${KS}
+      <p class="muted" style="font-size:12px">Rookt de kast of draait er een rood zwaailicht op je garage, dan verloopt hier binnen 7 dagen iets of werkt iets niet.</p>`;return}
   const a=AG[pick]||{},c=((AGCFG||{}).agents||{})[pick]||{},st=c.on===false?"uit":(a.state||"wacht"),H=(a.history||[]).slice(0,6);
   el.innerHTML=`<h2><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${STC[st]};margin-right:8px"></span>${esc(a.name||SEATS[pick].role)}</h2>
     <p class="muted" style="margin:2px 0 8px">${esc(SEATS[pick].role)} · ${esc(a.where||"")} · ${esc(st.toUpperCase())}${a.updated?" · "+ago(a.updated):""}</p>

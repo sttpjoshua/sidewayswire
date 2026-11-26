@@ -138,6 +138,7 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .of-week{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;align-items:end;margin:6px 0}.of-week div{background:#1b1b1e;text-align:center;padding:8px 4px}.of-week .p1{padding-top:18px;border-top:3px solid #d4af37}.of-week .p2{border-top:3px solid #c0c0c8}.of-week .p3{border-top:3px solid #cd7f32}
 .of-week span{font-size:20px;display:block}.of-week b{display:block;font-size:12px}.of-week small{color:#C6FF00;font-size:11px;font-weight:700}
 .of-wk{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}.of-wk div{text-align:center}.of-wk b{display:block;font:400 26px "Bebas Neue",sans-serif;color:#fff}.of-wk span{font-size:11px;color:var(--mute)}
+.of-key{display:grid;grid-template-columns:12px 1fr;gap:2px 8px;align-items:center;padding:6px 0;border-top:1px solid #222}.of-key i{width:10px;height:10px;border-radius:50%}.of-key small{grid-column:2;color:var(--mute);font-size:12px}.of-key b{font-size:13px}
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -325,7 +326,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
 <li>Repository access: <b>Only select repositories</b> → <b>sidewayswire</b></li>
 <li>Permissions → Repository: <b>Contents</b> en <b>Actions</b> op <b>Read and write</b></li>
 <li>Generate token, kopieer hem en plak hem hieronder</li></ol>
-<input id="keyin" type="password" placeholder="github_pat_..."><div class="row" style="margin-top:10px"><button class="btn g" id="keysave">OPSLAAN</button><button class="btn" id="keyclear">VERWIJDEREN</button><button class="btn" onclick="keydlg.close()">SLUITEN</button></div></dialog>
+<input id="keyin" type="password" placeholder="github_pat_..."><label class="muted" style="display:block;margin-top:8px;font-size:13px">Verloopt op (bij GitHub onder Expiration; optioneel, dan waarschuwt het kantoor een week van tevoren)<input id="keyexp" type="date" style="display:block;margin-top:4px"></label><div class="row" style="margin-top:10px"><button class="btn g" id="keysave">OPSLAAN</button><button class="btn" id="keyclear">VERWIJDEREN</button><button class="btn" onclick="keydlg.close()">SLUITEN</button></div></dialog>
 <script>
 const REPO="sttpjoshua/sidewayswire", API=`https://api.github.com/repos/${REPO}`;
 const ST={draft:"nieuw",check:"check nodig",approved:"goedgekeurd",ready:"ingepland",posted:"geplaatst",skipped:"overgeslagen",error:"fout"};
@@ -349,8 +350,8 @@ const cls=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]/g,"");
 let key=null;try{key=localStorage.getItem("sw_gh_key")}catch(e){}
 const toastEl=document.getElementById("toast");
 function toast(m,err){toastEl.textContent=m;toastEl.className=err?"err":"";toastEl.style.display="block";clearTimeout(toast.t);toast.t=setTimeout(()=>toastEl.style.display="none",5000)}
-document.addEventListener("click",e=>{if(e.target.closest("[data-key]")){e.preventDefault();keyin.value=key||"";keydlg.showModal()}});
-keysave.onclick=()=>{key=keyin.value.trim()||null;try{key?localStorage.setItem("sw_gh_key",key):localStorage.removeItem("sw_gh_key")}catch(e){};keydlg.close();toast(key?"Sleutel opgeslagen in deze browser":"Geen sleutel")};
+document.addEventListener("click",e=>{if(e.target.closest("[data-key]")){e.preventDefault();keyin.value=key||"";try{keyexp.value=localStorage.getItem("sw_gh_key_exp")||""}catch(x){};keydlg.showModal()}});
+keysave.onclick=()=>{key=keyin.value.trim()||key||null;try{key?localStorage.setItem("sw_gh_key",key):localStorage.removeItem("sw_gh_key");keyexp.value?localStorage.setItem("sw_gh_key_exp",keyexp.value):localStorage.removeItem("sw_gh_key_exp")}catch(e){};keydlg.close();toast(key?"Sleutel opgeslagen in deze browser":"Geen sleutel")};
 keyclear.onclick=()=>{key=null;try{localStorage.removeItem("sw_gh_key")}catch(e){};keyin.value="";toast("Sleutel verwijderd")};
 async function gh(path,opt={}){
   if(!key){keydlg.showModal();throw new Error("Eerst een GitHub-sleutel instellen")}
