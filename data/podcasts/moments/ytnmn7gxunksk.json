@@ -735,7 +735,7 @@
   "why": "Strong qualifying score and commentary",
   "caption": "Odie Boxchies nails a solid qualifying run",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -744,7 +744,12 @@
    "text": "WHAT SCORE DID HE GET",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-27-45131-45421.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-27-45131-45421.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4542.11, \"start\": 4538.99, \"text\": \"WHAT SCORE DID HE GET\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:59:12.886707+00:00"
  },
  {
   "start": 4713.65,
@@ -757,10 +762,15 @@
   "why": "Describes a key technique in qualifying.",
   "caption": "Watch Brandon Sorensen nail those transitions.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytnmn7gxunksk-28-47136-47412.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-28-47136-47412.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-26T21:59:41.067133+00:00"
  },
  {
   "start": 4746.99,
@@ -773,7 +783,7 @@
   "why": "Highlights a standout qualifying run.",
   "caption": "Brandon Sorensen takes the top qualifier spot.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -782,6 +792,11 @@
    "text": "CAN HE BEAT THAT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-29-47470-47774.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-29-47470-47774.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4766.71, \"start\": 4765.05, \"text\": \"CAN HE BEAT THAT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T22:00:20.809502+00:00"
  }
 ]
