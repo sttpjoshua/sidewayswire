@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Adam LZ · I Made My Porsche 964 Even FASTER - The Ultimate Smokies Test!",
- "updated": "2026-11-26T19:20:58.815968+00:00",
+ "doing": "leest: Adam LZ · I bought a “sleeper” SUV",
+ "updated": "2026-11-26T19:21:02.924055+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:21:02.295271+00:00",
+   "text": "0 momenten uit I Made My Porsche 964 Even FASTER - The Ultimate Smokies Test!",
+   "ref": "ytoa9uijuowfw"
+  },
   {
    "at": "2026-11-26T19:20:58.233160+00:00",
    "text": "0 momenten uit My Mint Porsche 964 Gets a Complete Interior Transformation",
@@ -54,7 +59,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 7
+  "made": 8
  },
  "version": "3"
 }
