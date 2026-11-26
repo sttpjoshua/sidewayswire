@@ -1,14 +1,16 @@
 {
- "phase": "download",
+ "phase": "transcribe",
  "episode": "c33ebe458c79",
  "todo": [
   "c33ebe458c79"
  ],
  "pct": 0.0,
- "updated": "2026-11-26T09:00:46.414045+00:00",
+ "updated": "2026-11-26T09:01:03.674352+00:00",
  "started": "2026-11-26T09:00:39.727971+00:00",
  "run": "45787354273",
  "title": "Ryan Tuerck",
  "podcast": "The Outerzone",
- "episode_started": "2026-11-26T09:00:46.414027+00:00"
+ "episode_started": "2026-11-26T09:00:46.414027+00:00",
+ "duration": 6214.488,
+ "transcribe_started": "2026-11-26T09:01:03.674328+00:00"
 }
