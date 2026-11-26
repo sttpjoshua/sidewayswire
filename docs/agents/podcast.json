@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Collete Davis · I Never Thought This Day Would Come ...",
- "updated": "2026-11-26T19:23:27.594816+00:00",
+ "doing": "leest: Collete Davis · I Learned the Secrets of Drifting from Chelsea Denofa",
+ "updated": "2026-11-26T19:23:31.311495+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:23:30.765356+00:00",
+   "text": "0 momenten uit I Never Thought This Day Would Come ...",
+   "ref": "ytf141shriru"
+  },
   {
    "at": "2026-11-26T19:23:27.068016+00:00",
    "text": "0 momenten uit What REALLY Happened at Formula Drift Indianapolis…",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:21:48.501863+00:00",
    "text": "0 momenten uit SURPRISING SABRINA WITH NEW WHEELS!",
    "ref": "ytxkhxep2ts68"
-  },
-  {
-   "at": "2026-11-26T19:21:44.790576+00:00",
-   "text": "0 momenten uit Is This My Worst Financial Decision?",
-   "ref": "ytd4l4ujjh3c"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 42
+  "made": 43
  },
  "version": "3"
 }
