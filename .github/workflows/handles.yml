@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       alleen_portretten: { description: "Alleen FD-portretten (met uitgeknipte versie voor kop-posts)", type: boolean, default: false }
+      zoek_tags: { description: "Alleen ontbrekende tags zoeken (open namen uit TAGS) en via Instagram controleren", type: boolean, default: false }
 permissions: { contents: write }
 jobs:
   handles:
@@ -14,7 +15,12 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install requests pillow
-      - if: ${{ !inputs.alleen_portretten }}
+      - if: ${{ inputs.zoek_tags }}
+        env: { META_TOKEN: "${{ secrets.META_TOKEN }}" }
+        run: python -m lc.verify_handles && python -m lc.status && python -m lc.gitsave "tags gezocht" data/sources.csv data/handle_suggestions.json docs/status.json
+      - if: ${{ !inputs.alleen_portretten && !inputs.zoek_tags }}
         run: python -m lc.find_handles
-      - run: python -m lc.portraits
-      - run: python -m lc.gitsave "driver socials en portretten" data/sources.csv data/portraits.json docs/media/portraits
+      - if: ${{ !inputs.zoek_tags }}
+        run: python -m lc.portraits
+      - if: ${{ !inputs.zoek_tags }}
+        run: python -m lc.gitsave "driver socials en portretten" data/sources.csv data/portraits.json docs/media/portraits
