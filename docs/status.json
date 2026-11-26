@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T15:27:18.518819+00:00",
+ "updated": "2026-11-26T15:32:41.637834+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 521,
+  "ready": 518,
   "check": 132,
   "skipped": 70,
   "posted": 3,
-  "draft": 25
+  "draft": 28
  },
  "collected": "2026-11-26T11:27:46.116993+00:00",
  "instagram": false,
@@ -12474,6 +12474,226 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-13",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan bangs on the door of the Supra, but Fredric Aasbo does not crack. Jack pushes too hard.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @fredricaasbo @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 639.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:20:17.952235+00:00",
+   "built": "2026-11-26T15:32:29.197811+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-13__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@fredricaasbo",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "AASBO DOESN'T CRACK",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-12",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Brandon Sorensen is on a tear in Seattle and the booth is speechless. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@trenton_beechum @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 566.42
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:18:47.483728+00:00",
+   "built": "2026-11-26T15:31:01.811753+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-12__clip.mp4",
+   "tags": [
+    "@trenton_beechum",
+    "@branden_sorensen",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SORENSEN LEAVES THEM SPEECHLESS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rome Charpentier leads and Jack Shanahan shadows him everywhere he goes. Same distance the whole way.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@romecp @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #seattle #jackshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 482.8
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:15:57.731545+00:00",
+   "built": "2026-11-26T15:29:52.623324+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-10__clip.mp4",
+   "tags": [
+    "@romecp",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "JACK THE SHADOW",
+   "photo": null
+  },
+  {
+   "id": "pod-ytckqkb2axqe-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Odi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 283.64
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:11:24.519609+00:00",
+   "built": "2026-11-26T15:28:27.676932+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytckqkb2axqe-7__clip.mp4",
+   "tags": [
+    "@odidrift",
+    "@rudyhansen119",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ODI CALLS A TIMEOUT",
    "photo": null
   },
   {
@@ -37489,75 +37709,6 @@
    "photo": null
   },
   {
-   "id": "pod-ytckqkb2axqe-7",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Odi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@odidrift @rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytckqkb2axqe-7__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 283.64
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:11:24.519609+00:00",
-   "built": "2026-11-19T16:51:06.786261+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytckqkb2axqe-7__clip.mp4",
-   "tags": [
-    "@odidrift",
-    "@rudyhansen119",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Aurimas Bakchis vs Rudy Hansen | Formula DRIFT Seattle 2026\n\nOdi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@odidrift @rudyhansen119 @formulad\n\n#formuladrift #formulad #aurimasbakchis #rudyhansen #sidewayswire",
-    "facebook": "Aurimas Bakchis vs Rudy Hansen | Formula DRIFT Seattle 2026\n\nOdi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@odidrift @rudyhansen119 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Aurimas Bakchis vs Rudy Hansen | Formula DRIFT Seattle 2026: Odi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Seattle 2026 @odidrift @rudyhansen119 @formulad\n#formuladrift #formulad #aurimasbakchis #sidewayswire",
-    "youtube_title": "Aurimas Bakchis vs Rudy Hansen | Formula DRIFT Seattle 2026",
-    "youtube": "Odi Bakchis has been so smooth all day in the new BRZ, then suddenly calls a five minute timeout.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@odidrift @rudyhansen119 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "odidrift",
-    "rudyhansen119"
-   ],
-   "people": [
-    "Aurimas Bakchis",
-    "Rudy Hansen"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-7.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-7.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytckqkb2axqe-7__short.mp4",
-   "title": "ODI CALLS A TIMEOUT",
-   "photo": null
-  },
-  {
    "id": "pod-ytckqkb2axqe-2",
    "kind": "stream_clip",
    "status": "ready",
@@ -37836,135 +37987,6 @@
    "photo": null
   },
   {
-   "id": "pod-ytckqkb2axqe-13",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jack Shanahan bangs on the door of the Supra, but Fredric Aasbo does not crack. Jack pushes too hard.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @fredricaasbo @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-13__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 639.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:20:17.952235+00:00",
-   "built": "2026-11-19T16:51:06.440057+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-13__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@fredricaasbo",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Jack Shanahan vs Fredric Aasbø | Formula DRIFT Seattle 2026\n\nJack Shanahan bangs on the door of the Supra, but Fredric Aasbo does not crack. Jack pushes too hard.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jackshanahan59 @fredricaasbo @formulad\n\n#formuladrift #formulad #jackshanahan #fredricaasbo #sidewayswire",
-    "facebook": "Jack Shanahan vs Fredric Aasbø | Formula DRIFT Seattle 2026\n\nJack Shanahan bangs on the door of the Supra, but Fredric Aasbo does not crack. Jack pushes too hard.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jackshanahan59 @fredricaasbo @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Fredric Aasbø | Formula DRIFT Seattle 2026: Jack Shanahan bangs on the door of the Supra, but Fredric Aasbo does not crack. Jack pushes too hard.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @jackshanahan59 @fredricaasbo @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Jack Shanahan vs Fredric Aasbø | Formula DRIFT Seattle 2026",
-    "youtube": "Jack Shanahan bangs on the door of the Supra, but Fredric Aasbo does not crack. Jack pushes too hard.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@jackshanahan59 @fredricaasbo @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "fredricaasbo"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Fredric Aasbø"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 22.3,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-13.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-13.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytckqkb2axqe-13__short.mp4",
-   "title": "AASBO DOESN'T CRACK",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-12",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Brandon Sorensen is on a tear in Seattle and the booth is speechless. Unanimous.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@trenton_beechum @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-12__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 566.42
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:18:47.483728+00:00",
-   "built": "2026-11-19T16:51:06.419318+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-12__clip.mp4",
-   "tags": [
-    "@trenton_beechum",
-    "@branden_sorensen",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": [
-    "Trenton Beechum",
-    "Brandon Sorensen"
-   ],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-12.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-12.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytckqkb2axqe-12__short.mp4",
-   "title": "SORENSEN LEAVES THEM SPEECHLESS",
-   "photo": null
-  },
-  {
    "id": "pod-ytckqkb2axqe-11",
    "kind": "stream_clip",
    "status": "ready",
@@ -38031,75 +38053,6 @@
    "tiktok_done": null,
    "short": null,
    "title": "TUERCK PUTS OUT HIS OWN FIRE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytckqkb2axqe-10",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Rome Charpentier leads and Jack Shanahan shadows him everywhere he goes. Same distance the whole way.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@romecp @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #seattle #jackshanahan #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-10__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 482.8
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:15:57.731545+00:00",
-   "built": "2026-11-19T16:51:06.398123+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-10__clip.mp4",
-   "tags": [
-    "@romecp",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 80,
-   "captions": {
-    "instagram": "Rome Charpentier vs Jack Shanahan | Formula DRIFT Seattle 2026\n\nRome Charpentier leads and Jack Shanahan shadows him everywhere he goes. Same distance the whole way.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@romecp @jackshanahan59 @formulad\n\n#formuladrift #formulad #romecharpentier #jackshanahan #sidewayswire",
-    "facebook": "Rome Charpentier vs Jack Shanahan | Formula DRIFT Seattle 2026\n\nRome Charpentier leads and Jack Shanahan shadows him everywhere he goes. Same distance the whole way.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@romecp @jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Rome Charpentier vs Jack Shanahan | Formula DRIFT Seattle 2026: Rome Charpentier leads and Jack Shanahan shadows him everywhere he goes. Same distance the whole way.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Seattle 2026 @romecp @jackshanahan59 @formulad\n#formuladrift #formulad #romecharpentier #sidewayswire",
-    "youtube_title": "Charpentier vs Shanahan | Formula DRIFT Seattle 2026",
-    "youtube": "Rome Charpentier leads and Jack Shanahan shadows him everywhere he goes. Same distance the whole way.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@romecp @jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "romecp",
-    "jackshanahan59"
-   ],
-   "people": [
-    "Rome Charpentier",
-    "Jack Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 9.6,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-10.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-10.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytckqkb2axqe-10__short.mp4",
-   "title": "JACK THE SHADOW",
    "photo": null
   },
   {
