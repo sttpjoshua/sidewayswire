@@ -601,10 +601,9 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1121.94, \"start\": 1120.32, \"text\": \"WHO IS BULLYING WHO?\", \"why\": \"druk\"}",
-  "made": "2026-11-18T23:39:04.048534+00:00",
+  "made": "2026-11-26T14:56:08.893956+00:00",
   "run_end": 1126.7,
-  "result_done": 1,
-  "redo": true
+  "result_done": 1
  },
  {
   "start": 1127.3,
@@ -662,10 +661,9 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1228.32, \"start\": 1225.28, \"text\": \"WHO WINS THE ALL IRISH FINAL?\", \"why\": \"beslissende fout\"}",
-  "made": "2026-11-18T23:41:45.911257+00:00",
+  "made": "2026-11-26T14:57:55.142267+00:00",
   "run_end": 1244.92,
-  "result_done": 1,
-  "redo": true
+  "result_done": 1
  },
  {
   "start": 1292.88,
@@ -725,10 +723,9 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1401.14, \"start\": 1398.72, \"text\": \"WHO COMPLETES THE IRISH PODIUM?\", \"why\": \"podium\"}",
-  "made": "2026-11-18T23:44:10.439180+00:00",
+  "made": "2026-11-26T14:59:14.311962+00:00",
   "run_end": 1429.7,
-  "result_done": 1,
-  "redo": true
+  "result_done": 1
  },
  {
   "start": 985.9,
@@ -773,8 +770,7 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-18T23:45:47.299422+00:00",
-  "result_done": 1,
-  "redo": true
+  "made": "2026-11-26T15:01:17.486630+00:00",
+  "result_done": 1
  }
 ]
