@@ -87,6 +87,9 @@ SERIES_ACCOUNTS = ["driftmasters.gp", "formulad", "redbullmotorsports", "d1grand
                    "driftgames.life", "irishdriftchampionship"]
 
 
+CAPTION_ERRORS: list[str] = []
+
+
 def captions(ig, accounts=SERIES_ACCOUNTS, pages: int = 4) -> list[str]:
     """Recent captions of the series' own accounts: they tag the drivers ("Lauri Heinonen @...")."""
     out = []
@@ -95,8 +98,10 @@ def captions(ig, accounts=SERIES_ACCOUNTS, pages: int = 4) -> list[str]:
         for _ in range(pages):
             try:
                 cur = f".after({after})" if after else ""
-                d = ig._get(ig.user_id, fields=f"business_discovery.username({acc}){{media.limit(50){cur}{{caption}}}}")
-            except Exception:
+                d = ig._get(ig.user_id, fields=f"business_discovery.username({acc}){{media{cur}.limit(25){{caption}}}}")
+            except Exception as e:
+                body = getattr(getattr(e, "response", None), "text", "")[:200]
+                CAPTION_ERRORS.append(f"{acc}: {str(e)[:80]} {body}")
                 break
             media = (d.get("business_discovery") or {}).get("media") or {}
             out += [m.get("caption") or "" for m in media.get("data", [])]
@@ -161,6 +166,7 @@ def run() -> dict:
     result = {}
     caps = captions(ig)
     result["_captions"] = len(caps)
+    result["_caption_errors"] = CAPTION_ERRORS[:8]
     for name in names:
         r = lookup(reg, name)
         if r and r.get("handle"):
