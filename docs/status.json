@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:26:04.789434+00:00",
+ "updated": "2026-11-26T20:30:16.651939+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 613,
@@ -7,7 +7,7 @@
   "skipped": 70,
   "posted": 3
  },
- "collected": "2026-11-26T20:16:11.943328+00:00",
+ "collected": "2026-11-26T20:30:16.340717+00:00",
  "instagram": true,
  "sources": [
   {
@@ -167,8 +167,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
+   "ok": true,
+   "items": 4,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -194,8 +195,9 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Red Bull",
@@ -567,6 +569,23 @@
      "published": "2026-11-26T07:37:25+00:00",
      "media_url": null,
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Mitigating the Risks of AI Integration Into Nuclear Weapons Operations",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-25T23:04:55+00:00",
+   "items": [
+    {
+     "source": "Google News · Arms Control Association",
+     "title": "Mitigating the Risks of AI Integration Into Nuclear Weapons Operations",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRW1TTHgtSTltVXZLWG5DWERONVpGdFgwU1NGUTJ2d09ack9JWlYtRTl6TEpRR05NakhxM1pjLVJ6Y0ozcHZudmMtNjgxUXdzZjJveU5YaUsyOHRtSVdzLTQ4TUhkeTVXYlJLak9MbTRuN0ppcTVZcjQ1ZkFfbkNVNVFrSTJOSDZXa3AwU21IOWtmR3BuRHU4V2s1NkhodEZnT0IzakVhUWVfTlk?oc=5",
+     "kind": "article",
+     "published": "2026-11-25T23:04:55+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -996,23 +1015,6 @@
    ]
   },
   {
-   "title": "Puedes copiar un carro, su setup, sus piezas y hasta su apariencia… pero hay algo que no se puede copiar: todo lo que el piloto lleva vivido. 🏎️💨",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-19T16:05:17+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "Puedes copiar un carro, su setup, sus piezas y hasta su apariencia… pero hay algo que no se puede copiar: todo lo que el piloto lleva vivido. 🏎️💨",
-     "url": "https://www.instagram.com/p/Df7d21UR9eB/",
-     "kind": "instagram",
-     "published": "2026-11-19T16:05:17+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/910626596_18650925439023119_9013863349017251762_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Gog5RL7pvGIQ7kNvwFZMlzh&_nc_oc=AdoWGeBmRFy69IfTy2m2FOH2vg-lf2I4xMzXZk0f3usg445NHkWcTCUwNaq0UQQ9PNg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=XO1wYlqk1Rk1SXmLpUMlpw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRSpttRYymxyXhiqs_mRXN0Yu0SrnlngIjadZBp_skrlQ&oe=6B0E4722",
-     "media_type": "IMAGE"
-    }
-   ]
-  },
-  {
    "title": "loren_healy and bradlovell44 like “nope” when the champagne started flying 🤣",
    "series": "FD",
    "buzz": 1,
@@ -1081,19 +1083,36 @@
    ]
   },
   {
-   "title": "🚨 ¡MIS PANAS, ESTO SE PUSO SERIO! 😱🔥",
-   "series": "FD",
+   "title": "Our Ladys Templemore finish their Harty Cup campaign on a winning note",
+   "series": "FD + DM",
    "buzz": 1,
-   "published": "2026-11-18T17:03:52+00:00",
+   "published": "2026-11-18T18:40:00+00:00",
    "items": [
     {
-     "source": "@luislanz8",
-     "title": "🚨 ¡MIS PANAS, ESTO SE PUSO SERIO! 😱🔥",
-     "url": "https://www.instagram.com/reel/Df4_ai0xEUa/",
-     "kind": "instagram",
-     "published": "2026-11-18T17:03:52+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQNO6u1bVTGaAGCSqqPfmNpcAJ9QgLhyA8BeM1CwO5uIwrgygC0nKddD2LEn0uCe53r0HGlS0GLY98fCqEVD021v-n19cpXwuQ6CHEY.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=s7Zm8weXdDQQ7kNvwE-vFRO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjM0MzQ0Mzk5OTc1NzIzMiwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=cc33d7df9da90e7f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GRTIzOTYyNzhDQ0Y0NURBQTMxRjZCRTE0RTM2NjU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Y2MDM5NTUyRDc1NzQzMUI5QTVBOThCNTJCQzVFRTk1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbgzsCystapCBUCKAJDMywXQEFZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=XO1wYlqk1Rk1SXmLpUMlpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSJVLGmI7-KuOS_comEFjWGYLEAf9UcWdDS69VRQsMEkg&oe=6B0A783E",
-     "media_type": "VIDEO"
+     "source": "Google News · Tipperary Live",
+     "title": "Our Ladys Templemore finish their Harty Cup campaign on a winning note",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdjdzV3hPSzMwdExkQy1BREtFX1hFSjVfOE8zMzBIMEtNTzdPT1JZTzZXY3FGRTg0cTZMd2NENlBqSjdvVG1sVmE5NVRFWEpfN1JrTjNUZTBLbEZxcWJRT3BQSURhYWtEUUhBcldCbTkzT1k5NENuaXhUQ0d6SFlOV05VdWdXMzFVZFl5UUtFNXByMWtqLUJheTRHUmZPRzdOdC1aSFp3VTcySGNVQ3VfNU9Udw?oc=5",
+     "kind": "article",
+     "published": "2026-11-18T18:40:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Hospital’s John the Baptist beaten by Templemore in final Harty game",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-18T17:30:00+00:00",
+   "items": [
+    {
+     "source": "Google News · Limerick Leader",
+     "title": "Hospital’s John the Baptist beaten by Templemore in final Harty game",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX0FKQnZIVEI4dW5LNkpPaXNSRHlTMzZDbDFHOGJWdjdVdHRUQ0o3NElxRXJLR1lrby03dGxrdWJaZ196eUZIdHlqTW9zWWx6UnQtSnd0MkRaRmJRT1k0SGFzUnlKbjVVUV9ldFV4RzVELS1uV1RiMV8zS05VYzJZbnhQc3l4WmlRSlY5SDQzcWt3ZUg4Z0dfcTVIa1QzbFdCemJ6ekhoWkZvVTRxb1dVclYwUFJaV3JxZ3Rr?oc=5",
+     "kind": "article",
+     "published": "2026-11-18T17:30:00+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1144,23 +1163,6 @@
      "kind": "instagram",
      "published": "2026-11-17T21:09:46+00:00",
      "media_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQOrH912g7zMgPo5JhXgl8QwmvLBakeziwftJ37AJIMdg_FA4c1uanlEAhHnrLE7jpMNFJT1I6ZdGG0MWIEa8N-lK-CszdRBaxONv5g.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=Py8JFSqSQzYQ7kNvwEBJh37&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTE2MjAyMzczOTYxOTQzMywiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=eb99f690744602af&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DQ0M5ODQxMDEwQzU0M0ZDQUNDMTdCQTc3QzlBQkZDMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0I2M0M3MjM4OEUxMTQ2N0I5Q0ExNkNFNEQwNzM2RjVBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbS4cPD17aQBBUCKAJDMywXQEOjMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Uo5tVf6dLTqGpXQIbPAD9S5DTysVAO9PnenIs5Y8iwrbH_Zrvxg1dWryj1HlqpiNjOWB7G06FekSaWKcnM6Yn6T7LQSG9t3F1RfijuQRMndvw0-nXtWYbpvzpP73JyFZi3qk&oh=00_AQTanEokdrKz_l-xLBLy8jI3EOENsLj79GXAfNVo7ohm2Q&oe=6B0A6CFC",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Es increíble la transformación de este proyecto. ¡Ya quiero verlo de lado! 🔥🤩",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-17T21:06:38+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "Es increíble la transformación de este proyecto. ¡Ya quiero verlo de lado! 🔥🤩",
-     "url": "https://www.instagram.com/reel/Df22fZJpJmX/",
-     "kind": "instagram",
-     "published": "2026-11-17T21:06:38+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQPsAFKAKIKqgGK6tvZRaMRaNKw7pS6Xb42UPi3re8R0SREN7FzHmljKqFYGMtHgxKXm_VNQeVZFjHUkRVr3wkwYLYrcgFkLGDUCNHM.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=XZSns2vh_dsQ7kNvwFLmxCH&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ5OTExOTE1ODY5OTE5OCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=ddebd30f7235ef10&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82NzgzRjQ5NkM4NTc0REExQTMzQzJGREUxREQ3QzE0RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzA0QTFFMEI2MUMwOTQzMkVCRDA0RDVEQ0VBNThBRUQ2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACb8kvGOnNypBRUCKAJDMywXQDXdsi0OVgQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=XO1wYlqk1Rk1SXmLpUMlpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Uoke7SDkyxbbnZ-L6klrhClcPrEPlMvRXxDmATIFch_1fHNjB8W43FkKIp99ayg9AIXBMETWbIpdq3lG74zLgGmuPVKJJPoqNZVavbC4RbAcp-9VroojEVh2_68fips-5OMy&oh=00_AQQ3wiXreeyamzdoxrOWUkLA3YIBHHCwuOdRK-ssDLf-cA&oe=6B0A7A0C",
      "media_type": "VIDEO"
     }
    ]
@@ -6280,7 +6282,7 @@
  },
  "streams": {
   "total": 179,
-  "transcribed": 173,
+  "transcribed": 178,
   "moments": 170,
   "next": "The Most Chaotic FD Event Ever...Formula Drift Indy Wall Carnage & Rain Cancellation",
   "series": {
@@ -6310,7 +6312,7 @@
    },
    "Matt Field": {
     "total": 9,
-    "transcribed": 3
+    "transcribed": 8
    },
    "Formula DRIFT": {
     "total": 38,
