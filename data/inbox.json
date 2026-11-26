@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:31:57.447774+00:00",
+ "updated": "2026-11-26T20:46:39.683268+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -85,7 +85,7 @@
     }
    ],
    "scout": {
-    "score": 62,
+    "score": 61,
     "why": [
      "kalender",
      "3 bronnen"
@@ -122,12 +122,13 @@
     }
    ],
    "scout": {
-    "score": 24,
+    "score": 59,
     "why": [
+     "aankondiging",
      "2 bronnen"
     ],
     "skip": false,
-    "feature": false
+    "feature": true
    }
   },
   {
@@ -176,13 +177,13 @@
     }
    ],
    "scout": {
-    "score": 52,
+    "score": 69,
     "why": [
-     "kalender",
+     "aankondiging",
      "4 bronnen"
     ],
-    "skip": true,
-    "feature": false
+    "skip": false,
+    "feature": true
    }
   },
   {
@@ -249,13 +250,13 @@
     }
    ],
    "scout": {
-    "score": 40,
+    "score": 53,
     "why": [
-     "nieuwe auto",
+     "aankondiging",
      "2 bronnen"
     ],
-    "skip": true,
-    "feature": false
+    "skip": false,
+    "feature": true
    }
   },
   {
@@ -451,7 +452,7 @@
     }
    ],
    "scout": {
-    "score": 44,
+    "score": 43,
     "why": [
      "bekende rijder"
     ],
@@ -1580,10 +1581,12 @@
     }
    ],
    "scout": {
-    "score": 10,
-    "why": [],
+    "score": 45,
+    "why": [
+     "aankondiging"
+    ],
     "skip": true,
-    "feature": false
+    "feature": true
    }
   },
   {
@@ -2398,7 +2401,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2483,6 +2486,27 @@
    "url": "gnews:site:redbull.com drift",
    "ok": true,
    "items": 9,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie",
+   "ok": true,
+   "items": 3,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
+   "ok": true,
+   "items": 0,
+   "how": "feed"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
+   "ok": true,
+   "items": 0,
    "how": "feed"
   }
  ],

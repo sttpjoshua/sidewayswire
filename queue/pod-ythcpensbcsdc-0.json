@@ -1,7 +1,7 @@
 {
  "id": "pod-ythcpensbcsdc-0",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DEANE'S LEAD CLINIC",
  "video": "docs/media/pod-ythcpensbcsdc-0/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 30.24
  },
  "created": "2026-11-19T12:36:51.823359+00:00",
- "built": "2026-11-21T11:55:32.441789+00:00",
+ "built": "2026-11-26T20:46:43.548594+00:00",
  "thumb": "docs/media/thumbs/pod-ythcpensbcsdc-0.jpg",
  "short": "docs/media/pod-ythcpensbcsdc-0/short.mp4",
  "short_len": 29.3,
@@ -44,10 +44,23 @@
  ],
  "qc": {
   "hard": [],
-  "soft": [
-   "tags nog open: Kevin Pesur"
-  ],
-  "at": "2026-11-26T19:31:44.311937+00:00"
+  "soft": [],
+  "at": "2026-11-26T20:46:43.856729+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 85,
+ "moment_kind": "battle",
+ "plan": {},
+ "captions": {
+  "instagram": "James Deane vs Kevin Pozsar | Drift Masters 2026 Round 2 Spain\n\nJames Deane puts on a lead run clinic under the Spanish sun and takes a unanimous win.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@jamesdeane130 @kpesur @driftmasters.gp\n\n#driftmasters #drift #jamesdeane #kevinpozsar #sidewayswire",
+  "facebook": "James Deane vs Kevin Pozsar | Drift Masters 2026 Round 2 Spain\n\nJames Deane puts on a lead run clinic under the Spanish sun and takes a unanimous win.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@jamesdeane130 @kpesur @driftmasters.gp\n\n#driftmasters #drift #sidewayswire",
+  "tiktok": "James Deane vs Kevin Pozsar | Drift Masters 2026 Round 2 Spain: James Deane puts on a lead run clinic under the Spanish sun and takes a unanimous win.\nSend this to your drift group chat 🔥\n🎥 Footage: Drift Masters 2026 Round 2 Spain @jamesdeane130 @kpesur @driftmasters.gp\n#driftmasters #drift #jamesdeane #sidewayswire",
+  "youtube_title": "Deane vs Pozsar | Drift Masters 2026 Round 2 Spain",
+  "youtube": "James Deane puts on a lead run clinic under the Spanish sun and takes a unanimous win.\n\n🎥 Footage: Drift Masters 2026 Round 2 Spain\n@jamesdeane130 @kpesur @driftmasters.gp\n\nSideways Wire: drift news, battles and the best runs.\n\n#driftmasters #drift #sidewayswire"
+ },
+ "collaborators": [
+  "jamesdeane130",
+  "kpesur"
+ ]
 }

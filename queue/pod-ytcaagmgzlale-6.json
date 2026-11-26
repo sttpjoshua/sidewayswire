@@ -1,7 +1,7 @@
 {
  "id": "pod-ytcaagmgzlale-6",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "GOOSEBUMPS FOR TWO YOUNG GUNS",
  "video": "docs/media/pod-ytcaagmgzlale-6/clip.mp4",
@@ -28,7 +28,7 @@
   "start": 397.17
  },
  "created": "2026-11-19T07:23:22.354794+00:00",
- "built": "2026-11-26T19:31:38.175508+00:00",
+ "built": "2026-11-26T20:46:43.502549+00:00",
  "people": [
   "Cameron Sorensen",
   "Braden Lons"
@@ -42,5 +42,20 @@
   "soft": [],
   "at": "2026-11-26T19:31:44.291404+00:00"
  },
- "names_by": "people database"
+ "names_by": "people database",
+ "post_at": null,
+ "score": 67,
+ "moment_kind": "omt",
+ "plan": {},
+ "captions": {
+  "instagram": "Cameron Sorensen vs Braden Lons | Formula DRIFT Las Vegas 2026\n\nCameron Sorensen and Braden Lons give us goosebumps. One more time, and Lons gets the win.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@camrensorensen @braden.lons @formulad\n\n#formuladrift #formulad #cameronsorensen #bradenlons #sidewayswire",
+  "facebook": "Cameron Sorensen vs Braden Lons | Formula DRIFT Las Vegas 2026\n\nCameron Sorensen and Braden Lons give us goosebumps. One more time, and Lons gets the win.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@camrensorensen @braden.lons @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Cameron Sorensen vs Braden Lons | Formula DRIFT Las Vegas 2026: Cameron Sorensen and Braden Lons give us goosebumps. One more time, and Lons gets the win.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @camrensorensen @braden.lons @formulad\n#formuladrift #formulad #cameronsorensen #sidewayswire",
+  "youtube_title": "Sorensen vs Lons | Formula DRIFT Las Vegas 2026",
+  "youtube": "Cameron Sorensen and Braden Lons give us goosebumps. One more time, and Lons gets the win.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@camrensorensen @braden.lons @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "camrensorensen",
+  "braden.lons"
+ ]
 }
