@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Collete Davis · They Let Me Drive a $1,000,000 Combine!",
- "updated": "2026-11-26T19:23:06.984579+00:00",
+ "doing": "leest: Collete Davis · Did We Make a 350Z Sound GOOD?!",
+ "updated": "2026-11-26T19:23:10.853907+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:23:10.283911+00:00",
+   "text": "0 momenten uit They Let Me Drive a $1,000,000 Combine!",
+   "ref": "yte6sy0bdgu5c"
+  },
   {
    "at": "2026-11-26T19:23:06.194242+00:00",
    "text": "0 momenten uit Jet vs Car FACE-OFF! | Formula Drift Season Finale",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:21:27.781826+00:00",
    "text": "0 momenten uit My Aston Martin Vantage GT3 is DONE!",
    "ref": "yt5clya3ypbs"
-  },
-  {
-   "at": "2026-11-26T19:21:23.676561+00:00",
-   "text": "0 momenten uit My Abandoned Japan Project Car...",
-   "ref": "yt6h3gkv5grxi"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 37
+  "made": 38
  },
  "version": "3"
 }
