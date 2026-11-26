@@ -486,7 +486,7 @@
   "why": "High energy and impressive driving",
   "caption": "Daniel Stuckey's fluid run, can he match TLO's score?",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -495,7 +495,12 @@
    "text": "CAN HE MATCH TLO'S SCORE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytnmn7gxunksk-18-27682-28520.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-18-27682-28520.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2828.63, \"start\": 2825.05, \"text\": \"CAN HE MATCH TLO'S SCORE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-26T21:01:52.194413+00:00"
  },
  {
   "start": 2880.83,
