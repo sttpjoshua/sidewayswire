@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Vaughn Gittin Jr. · Was James Robbed in Germany?! Why The FD Indy Wall Wasn't A Big Deal!!",
- "updated": "2026-11-26T19:26:36.978238+00:00",
+ "doing": "nog 27 video's te lezen",
+ "updated": "2026-11-26T19:26:49.042364+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:26:40.205477+00:00",
+   "text": "0 momenten uit Was James Robbed in Germany?! Why The FD Indy Wall Wasn't A Big Deal!!",
+   "ref": "yto73b778jnma"
+  },
   {
    "at": "2026-11-26T19:26:36.266065+00:00",
    "text": "0 momenten uit Rare Look At Mustang RTR Inside Ford's Flat Rock Factory!!",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:25:02.125646+00:00",
    "text": "0 momenten uit Mad Mike Is In Ireland & We Gave Him The 4-Rotor RX7 + S15 FIRST START!",
    "ref": "ytcuuvijzhp1u"
-  },
-  {
-   "at": "2026-11-26T19:24:57.956510+00:00",
-   "text": "0 momenten uit Drifting in front of 55,000 People | Drift Masters Poland",
-   "ref": "ytlnxuejjqs7w"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 88
+  "made": 89
  },
  "version": "3"
 }
