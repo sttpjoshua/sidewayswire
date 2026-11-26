@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Chelsea DeNofa · BMW Never Sold This E46 in America… So We Built the Ultimate One",
- "updated": "2026-11-26T19:22:28.920487+00:00",
+ "doing": "leest: Chelsea DeNofa · We Somehow Won LZ World Tour at E-Town",
+ "updated": "2026-11-26T19:22:32.642910+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:22:31.791734+00:00",
+   "text": "0 momenten uit BMW Never Sold This E46 in America… So We Built the Ultimate One",
+   "ref": "ytul8vkf87hqe"
+  },
   {
    "at": "2026-11-26T19:22:28.321633+00:00",
    "text": "0 momenten uit Grant and I test a SECRET Drift Tire! Is It Competition Ready?",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:20:48.943133+00:00",
    "text": "0 momenten uit Why I Quit Formula Drift",
    "ref": "ytgningczcsic"
-  },
-  {
-   "at": "2026-11-26T19:20:45.080706+00:00",
-   "text": "0 momenten uit Making 900HP Actually Usable in My R32 Skyline",
-   "ref": "yt0rlddtttnq4"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 28
+  "made": 29
  },
  "version": "3"
 }
