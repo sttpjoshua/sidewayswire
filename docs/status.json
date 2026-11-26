@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:34:54.527744+00:00",
+ "updated": "2026-11-26T07:45:25.954820+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 542,
@@ -1567,42 +1567,62 @@
   "feeds": {
    "The Outerzone": {
     "title": "The Outerzone - The Official Podcast of Formula DRIFT",
-    "episodes": 188,
+    "episodes": 189,
     "error": null,
-    "ok": "2026-11-25T02:48:00.037740+00:00"
+    "ok": "2026-11-26T07:45:22.324881+00:00"
    },
    "Drift Games Podcast": {
     "title": "The Drift Games Podcast",
     "episodes": 17,
     "error": null,
-    "ok": "2026-11-25T02:48:00.104560+00:00"
+    "ok": "2026-11-26T07:45:22.429658+00:00"
    },
    "The Goodest Cast": {
     "title": "The Goodest Cast - Hangout with the Drift Community",
     "episodes": 91,
     "error": null,
-    "ok": "2026-11-25T02:48:00.317838+00:00"
+    "ok": "2026-11-26T07:45:22.645290+00:00"
    },
    "The SileightyMania Podcast": {
     "title": "The SileightyMania Podcast - Drifting Interviews with OGs and Pioneers",
     "episodes": 45,
     "error": null,
-    "ok": "2026-11-25T02:48:00.600307+00:00"
+    "ok": "2026-11-26T07:45:24.052121+00:00"
    },
    "The Creative Drive": {
     "title": "The Creative Drive",
     "episodes": 53,
     "error": null,
-    "ok": "2026-11-25T02:48:01.001884+00:00"
+    "ok": "2026-11-26T07:45:24.175238+00:00"
    },
    "Behind The Wheel": {
     "title": "Konig - Behind The Wheel Podcast",
     "episodes": 377,
     "error": null,
-    "ok": "2026-11-25T02:48:02.587429+00:00"
+    "ok": "2026-11-26T07:45:25.422745+00:00"
    }
   },
   "episodes": [
+   {
+    "id": "c33ebe458c79",
+    "podcast": "The Outerzone",
+    "title": "Ryan Tuerck",
+    "published": "2026-11-25T05:01:00+00:00",
+    "status": "new",
+    "youtube": null,
+    "audio": "https://mcdn.podbean.com/mf/web/z4qxupm2u5ht2cy5/Ryan_Ads9v6b2.mp3",
+    "link": "https://FormulaDRIFT.podbean.com/e/ryan-tuerck-1795548998/",
+    "art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/63/b9/78/63b97823-0eb5-f54c-30c5-068367c4afc5/mza_1329082079655295118.jpg/600x600bb.jpg",
+    "seconds": null,
+    "error": null,
+    "transcribed": null,
+    "tries": null,
+    "kind": null,
+    "credit": null,
+    "event": null,
+    "has_transcript": false,
+    "moments": []
+   },
    {
     "id": "ytwfi3yuvyzdo",
     "podcast": "The Shanahans",
@@ -6125,33 +6145,13 @@
     "event": "I MADE MY PORSCHE 964 EVEN FASTER",
     "has_transcript": true,
     "moments": []
-   },
-   {
-    "id": "ytmieeuwnl4co",
-    "podcast": "Jimmy Oakes",
-    "title": "These parts COMPLETELY changed my R34 GTR!",
-    "published": "2026-10-18",
-    "status": "transcribed",
-    "youtube": "MIEEUWnl4co",
-    "audio": null,
-    "link": null,
-    "art": null,
-    "seconds": 1679.0,
-    "error": null,
-    "transcribed": "2026-11-19T21:08:34.243857+00:00",
-    "tries": null,
-    "kind": "vlog",
-    "credit": "",
-    "event": "THESE PARTS COMPLETELY CHANGED MY R34 GT",
-    "has_transcript": true,
-    "moments": []
    }
   ]
  },
  "streams": {
   "total": 170,
   "transcribed": 170,
-  "moments": 169,
+  "moments": 170,
   "next": null,
   "series": {
    "The Shanahans": {
