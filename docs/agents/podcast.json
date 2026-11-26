@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Vaughn Gittin Jr. · This Is Just The Beginning!",
- "updated": "2026-11-26T19:26:11.333564+00:00",
+ "doing": "leest: Vaughn Gittin Jr. · Does the Mustang RTR Beat the CRX?!",
+ "updated": "2026-11-26T19:26:16.739302+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:26:16.090822+00:00",
+   "text": "0 momenten uit This Is Just The Beginning!",
+   "ref": "ytoda02guviiu"
+  },
   {
    "at": "2026-11-26T19:26:10.576227+00:00",
    "text": "0 momenten uit Missed My Goal In Long Beach!!",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:24:34.968444+00:00",
    "text": "0 momenten uit Street Drifting the RTR Mustang in Cork City!",
    "ref": "ytgu7z7vmc9w"
-  },
-  {
-   "at": "2026-11-26T19:24:31.124334+00:00",
-   "text": "0 momenten uit ENGINE IS READY TO GO IN MY R34 GTR! ",
-   "ref": "ytjh53sremajy"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 82
+  "made": 83
  },
  "version": "3"
 }
