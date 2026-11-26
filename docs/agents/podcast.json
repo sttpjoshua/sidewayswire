@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: TJ Hunt · SURPRISING SABRINA WITH NEW WHEELS!",
- "updated": "2026-11-26T19:21:45.483395+00:00",
+ "doing": "leest: TJ Hunt · I wasn't going to talk about this",
+ "updated": "2026-11-26T19:21:49.127602+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:21:48.501863+00:00",
+   "text": "0 momenten uit SURPRISING SABRINA WITH NEW WHEELS!",
+   "ref": "ytxkhxep2ts68"
+  },
   {
    "at": "2026-11-26T19:21:44.790576+00:00",
    "text": "0 momenten uit Is This My Worst Financial Decision?",
@@ -109,7 +114,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 18
+  "made": 19
  },
  "version": "3"
 }
