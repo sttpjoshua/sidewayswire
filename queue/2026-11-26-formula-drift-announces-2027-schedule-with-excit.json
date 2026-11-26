@@ -8,9 +8,9 @@
   "instagram",
   "facebook"
  ],
- "check": false,
- "check_reason": "",
- "status": "draft",
+ "check": true,
+ "check_reason": "foto nodig: voeg een foto toe",
+ "status": "check",
  "by": "local",
  "created": "2026-11-26T20:55:58.302340+00:00",
  "source": "https://news.formulad.com/2026/fd-news/formula-drift-announces-2027-schedule-with-exciting-venue-updates/",
@@ -35,5 +35,16 @@
     "source": "Formula DRIFT"
    }
   }
- ]
+ ],
+ "needs_photo": true,
+ "media": [
+  "docs/media/2026-11-26-formula-drift-announces-2027-schedule-with-excit/1.png"
+ ],
+ "problems": [],
+ "built": "2026-11-26T20:57:34.049648+00:00",
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-26T20:57:34.415220+00:00"
+ }
 }

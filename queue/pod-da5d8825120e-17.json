@@ -1,7 +1,7 @@
 {
  "id": "pod-da5d8825120e-17",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "BIG FD CHANGES COMING NEXT YEAR?",
  "video": "docs/media/pod-da5d8825120e-17/clip.mp4",
@@ -44,5 +44,19 @@
   "soft": [],
   "at": "2026-11-26T19:31:44.232333+00:00"
  },
- "approved": "2026-11-26T20:55:36.372Z"
+ "approved": "2026-11-26T20:55:36.372Z",
+ "post_at": null,
+ "score": 46,
+ "moment_kind": "rumor",
+ "plan": {},
+ "captions": {
+  "instagram": "Conor Shanahan | The Outerzone\n\nSaid on The Outerzone: changes are coming to Formula DRIFT next year, more than even they know about. 👀\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #formulad #formuladrift #sidewayswire",
+  "facebook": "Conor Shanahan | The Outerzone\n\nSaid on The Outerzone: changes are coming to Formula DRIFT next year, more than even they know about. 👀\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #sidewayswire",
+  "tiktok": "Conor Shanahan | The Outerzone: Said on The Outerzone: changes are coming to Formula DRIFT next year, more than even they know about. 👀\nSend this to your drift group chat 🔥\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @conorshanahan79 @formulad @jako13\n#drift #conorshanahan #formulad #sidewayswire",
+  "youtube_title": "Conor Shanahan | The Outerzone",
+  "youtube": "Said on The Outerzone: changes are coming to Formula DRIFT next year, more than even they know about. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #conorshanahan #sidewayswire"
+ },
+ "collaborators": [
+  "conorshanahan79"
+ ]
 }

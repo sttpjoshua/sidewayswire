@@ -1,7 +1,7 @@
 {
  "id": "pod-6892a8b1e411-21",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "TOMMY AS DRIVER LIAISON NEXT YEAR?",
  "video": "docs/media/pod-6892a8b1e411-21/clip.mp4",
@@ -45,5 +45,19 @@
   "soft": [],
   "at": "2026-11-26T19:31:44.212344+00:00"
  },
- "approved": "2026-11-26T20:55:25.623Z"
+ "approved": "2026-11-26T20:55:25.623Z",
+ "post_at": null,
+ "score": 35,
+ "moment_kind": "rumor",
+ "plan": {},
+ "captions": {
+  "instagram": "Tommy Lemaire | The Outerzone\n\nSaid on The Outerzone: there's a good chance Tommy Lemaire becomes Formula DRIFT's driver liaison next year. 👀\n\nSend this to the friend who still thinks they had it 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#drift #tommylemaire #formulad #formuladrift #sidewayswire",
+  "facebook": "Tommy Lemaire | The Outerzone\n\nSaid on The Outerzone: there's a good chance Tommy Lemaire becomes Formula DRIFT's driver liaison next year. 👀\n\nSend this to the friend who still thinks they had it 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\n#drift #tommylemaire #sidewayswire",
+  "tiktok": "Tommy Lemaire | The Outerzone: Said on The Outerzone: there's a good chance Tommy Lemaire becomes Formula DRIFT's driver liaison next year. 👀\nSend this to the friend who still thinks they had it 👀\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @tommy.lemaire @formulad @jako13\n#drift #tommylemaire #formulad #sidewayswire",
+  "youtube_title": "Tommy Lemaire | The Outerzone",
+  "youtube": "Said on The Outerzone: there's a good chance Tommy Lemaire becomes Formula DRIFT's driver liaison next year. 👀\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@tommy.lemaire @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #tommylemaire #sidewayswire"
+ },
+ "collaborators": [
+  "tommy.lemaire"
+ ]
 }

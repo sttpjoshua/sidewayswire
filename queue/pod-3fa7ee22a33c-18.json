@@ -1,7 +1,7 @@
 {
  "id": "pod-3fa7ee22a33c-18",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "LINKIN PARK CONNECTION",
  "video": "docs/media/pod-3fa7ee22a33c-18/clip.mp4",
@@ -51,5 +51,19 @@
   ],
   "at": "2026-11-26T19:31:44.195049+00:00"
  },
- "approved": "2026-11-26T20:56:14.740Z"
+ "approved": "2026-11-26T20:56:14.740Z",
+ "post_at": null,
+ "score": 40,
+ "moment_kind": "fact",
+ "plan": {},
+ "captions": {
+  "instagram": "Christian Cotrone | The Outerzone\n\nChristian Cotrone started out assisting the cinematographer behind Linkin Park and Michael Jackson music videos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#drift #christiancotrone #rossrichardson #formuladrift #sidewayswire",
+  "facebook": "Christian Cotrone | The Outerzone\n\nChristian Cotrone started out assisting the cinematographer behind Linkin Park and Michael Jackson music videos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\n#drift #christiancotrone #sidewayswire",
+  "tiktok": "Christian Cotrone | The Outerzone: Christian Cotrone started out assisting the cinematographer behind Linkin Park and Michael Jackson music videos.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @christiancotrone @formulad @jako13\n#drift #christiancotrone #rossrichardson #sidewayswire",
+  "youtube_title": "Christian Cotrone | The Outerzone",
+  "youtube": "Christian Cotrone started out assisting the cinematographer behind Linkin Park and Michael Jackson music videos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@christiancotrone @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #christiancotrone #sidewayswire"
+ },
+ "collaborators": [
+  "christiancotrone"
+ ]
 }
