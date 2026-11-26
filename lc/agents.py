@@ -56,6 +56,7 @@ KINDS = [  # (label, points, pattern)
     ("crash", 12, r"\b(crash|wreck|wall|contact|injur)"),
 ]
 NOISE = r"\b(tickets?|merch|giveaway|discount|sale|podcast|subscribe|timetable|entry ?list|livestream|watch live|chapter|vlog)\b"
+ADS = r"\b(black friday|cyber monday|sale|discount|promo code|use code|merch|giveaway|shop now|link in bio)\b"
 SERIES_PTS = {"FD": 10, "DM": 10, "FD + DM": 8, "D1GP": 4}
 
 
@@ -115,7 +116,7 @@ def scout(inbox_path: Path = ROOT / "data" / "inbox.json", now: datetime | None 
         if ("formula drift" in note or "fd" in note.split()) and "FD" in str(s.get("series")):
             pts += 12
         feature = bool(stars)
-        skip = age_h > (120 if feature else 48) or pts < 15
+        skip = age_h > (120 if feature else 48) or pts < 15 or bool(re.search(ADS, t))
         s["scout"] = {"score": pts, "why": why, "skip": skip, "feature": feature}
         if not skip:
             top.append((pts, s["title"]))
