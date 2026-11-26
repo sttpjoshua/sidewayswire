@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:52:55.501825+00:00",
+ "updated": "2026-11-26T20:01:37.856764+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 613,
@@ -7,7 +7,7 @@
   "skipped": 70,
   "posted": 3
  },
- "collected": "2026-11-26T19:52:55.213669+00:00",
+ "collected": "2026-11-26T20:01:33.223692+00:00",
  "instagram": true,
  "sources": [
   {
@@ -118,7 +118,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -145,9 +145,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
   },
   {
    "source": "Google News",
@@ -173,7 +172,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 6,
+   "items": 11,
    "how": "feed"
   },
   {
@@ -186,8 +185,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -587,23 +587,6 @@
    ]
   },
   {
-   "title": "Hay que trabajar por nuestros sueños, sí, pero también disfrutar el camino. 🏁❤️‍🔥",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-25T20:48:08+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "Hay que trabajar por nuestros sueños, sí, pero también disfrutar el camino. 🏁❤️‍🔥",
-     "url": "https://www.instagram.com/reel/DgLa9vdx6OT/",
-     "kind": "instagram",
-     "published": "2026-11-25T20:48:08+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "title": "formulad 2027 schedule just dropped! 🇺🇸🤘🏻Long Beach / Orlando / Atlanta / Connecticut / Indianapolis / New Jersey / Seattle / Las Vegas 😤😮‍💨 I am most excited to be back at E-Town, how about you guys?",
    "series": "FD",
    "buzz": 1,
@@ -672,23 +655,6 @@
    ]
   },
   {
-   "title": "Nunca estuvo en los planes. 😌🏁",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-24T20:26:25+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "Nunca estuvo en los planes. 😌🏁",
-     "url": "https://www.instagram.com/reel/DgIzpZHRhoy/",
-     "kind": "instagram",
-     "published": "2026-11-24T20:26:25+00:00",
-     "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQOkns-64KkGh5bIxpUonbgAe935R8FRhi_-IcMz6Z5j2Go1lqJts6kLd-CkNnGfY9pLOLoWKEDFvKr1stxPQ62JtlfNYac-Zrd2c4w.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=jLY43DANujgQ7kNvwFgZHlW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg3NTQwOTE1NzIxNzI2MiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=6801eef6a9cff2a1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84ODZCNkNCMzM2RTg0NEE2QTJEREIzMzNFOUQzRDU2OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E2NTlBNDI5QURBNDQ3OEQ5MzJEQTUwM0ZBQUVDRjZBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbc7_6Jl-vUBhUCKAJDMywXQCVEGJN0vGoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=XO1wYlqk1Rk1SXmLpUMlpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSbnaAu5SG7RePRGWwqrFQddwZPYIyluN2HnysirCS9RA&oe=6B0A5113",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "title": "Dropping that slrspeed 🔥🔥",
    "series": "FD",
    "buzz": 1,
@@ -702,6 +668,23 @@
      "published": "2026-11-24T17:41:39+00:00",
      "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m84/AQOv94SdqNDbg1wlJ9BTtz7i1MkvImjCTGKdq1p6JTMyleZcNVoNAm8MNDyEAsWtwDcsEv90i10_YHWNVHRnZpSxz0OxszuGY8NJOrE.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=jdOAfBmLaUcQ7kNvwHJ7k6f&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjI0NDc4MjgwOTc4Njk1NiwiYXNzZXRfYWdlX2RheXMiOjIsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjoyMiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=42b0d9691a6a3314&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC82OEE2OTQyOUEzNkI0MjRGOEMzMjVGNTlGMENBQTJCMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzFCODFFNzFGOTU3NzQ5NkE4M0E1Njc5RTg1RUQ5QzI4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaYqc2fx-f8BxUCKAJDMywXQDZu2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=ojS26SaH0CLOwEKQbYrkPA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Uu_u-RTu0eBxL0kbL24Y2XocIcbqG51OYClGJKv7DjaeTG02PKkhibytQTnqCMjOOmLoTeCEc1Mvf4zCFRcXjLzsbcJ6TTzfrWx-ojlm7fwuZcm7KKubhOQ6ddP9ZAwTJqJa&oh=00_AQTmfJH5Pieknj3Ck2vm-NzEv9OXKlh2LdkhGlME9B6FEA&oe=6B0A50A0",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Celtics have bigger issues, but can strengthen grasp on NBA Cup bid in DC",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-24T16:05:56+00:00",
+   "items": [
+    {
+     "source": "Google News · NBC Boston",
+     "title": "Celtics have bigger issues, but can strengthen grasp on NBA Cup bid in DC",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ012dWFhSFFSWUluQmZtQ2lfN2xHUzgyekNDa3l1c3gtcTk2RFUxMzhJUlNuaWUyWlpfYm1BTXdxZnhEOTBCaTI2VjZuZUFXaXpjdjh5RzFQeGpvdHc3RG5hSTZBOVJRbi0zY0xuN2hiX24wOGRsVzRJcWQ3UHI2MkNTXzNtaEJ5WTNUR005TdIBlwFBVV95cUxOUU0xSmxUOFpGZ3hOcDMxd0dUcWIzNU1meTJ0WkJYX3FTNTJxZl92TFhYeENwdjBiY3dVenVsMWQ2azI2Wnl3ckFsWjBHMXhVcHktbzd1YWVaWDhzMjJuZ0JqT0c0MW1yN2lUZHJiYmh0UzNfYnI1dEtZVzBGWVZmV1VlcENrc29yQ2FoRENMN0xlRlV6MzJR?oc=5",
+     "kind": "article",
+     "published": "2026-11-24T16:05:56+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -723,6 +706,23 @@
    ]
   },
   {
+   "title": "Red Bull Car Park Drift",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-24T09:54:04+00:00",
+   "items": [
+    {
+     "source": "Red Bull",
+     "title": "Red Bull Car Park Drift",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWGVIOHgxZFBYMXE5WlRJcE5OWmswd2wtVXBaMzFGSEZlMC0zRllkVFotbjBLTFFyUE13V3k4QnRTMTVqVlpVRVFRdXQxcDU0ZVVRdDFCUmNIb0RXNUx4aEFyRWo2enpOQk9oclVpcWxZdy1FeHBYLUJXTV95OUZGQ1c5d2ZIN1dZMEE?oc=5",
+     "kind": "article",
+     "published": "2026-11-24T09:54:04+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "Old head advice - As a driver you miss every opportunity your car is not ready for. Preventative maintenance, tires mounted, fresh pennzoil, and those upgrades sitting on the shelf installed… Not coll",
    "series": "",
    "buzz": 1,
@@ -735,23 +735,6 @@
      "kind": "instagram",
      "published": "2026-11-23T22:14:11+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMpEgVr5Z-mdPY8R3opiw5rDBxpNCvvdmfwR1ibNNzzDDMK-0YhuFT-z1O2pB_kKuKa7gPWa2KkQ2eEsYyqFiAj9Xg9nSwGbRBW5l0.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=aPDtG_Wdt8QQ7kNvwGhv0Sa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDQyNDk0NzMxNDQ2Mjk0NywiYXNzZXRfYWdlX2RheXMiOjIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a86840b2e4831f2f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CM0M5NTgyM0E4OEE0OUE4OUNENURDMEI5NTQyMjlGNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQzMUFFRDcxMDAwMDQ2NUVBQkYzODI4OEY2QUQ2RTUyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbGw6DN6p3cDxUCKAJDMywXQElIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=SqZqBD4UC7Y6DfZ9Z2fWIQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Upq79cQXDbND7gsl0GnOWAAJU_o1Wgfct3vzjWNx343uY-24pdkGZFit0Zh6fMJxdgZnVU7-rtdOQLNmK-pPXtusQQOPMiWmSGalPllQyMio2pWjy3aDPRYP07aBAx5AA3WQ&oh=00_AQSUCARsJga-RQGJynplpMsHZSMl_lUEIRaseIuDH9UZ4g&oe=6B0A7C29",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Así es un día en familia en Tennessee. ⛰️",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-23T21:26:46+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "Así es un día en familia en Tennessee. ⛰️",
-     "url": "https://www.instagram.com/reel/DgGVL_hROSb/",
-     "kind": "instagram",
-     "published": "2026-11-23T21:26:46+00:00",
-     "media_url": null,
      "media_type": "VIDEO"
     }
    ]
@@ -774,6 +757,23 @@
    ]
   },
   {
+   "title": "What are the biggest areas of concern as Celtics slump?",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-23T17:55:52+00:00",
+   "items": [
+    {
+     "source": "Google News · NBC Boston",
+     "title": "What are the biggest areas of concern as Celtics slump?",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGQ2Vkp2UFNwUFAycHVwUVZqeVhiNnMtWkpVZzN6M2NXemQwUnJwNEZPM2ZwTEthVnJRRlM4VVh6dVZLdTBKeUZzV3lYMGI4c2hCTzEtSnVOWFdBQ3dvNTdXNVd4VVFBeTE4Z09JZW5kcFdOS3ZIM1JRUTY5VDg3RVNLV1NZNlhnOFNOT1B6aUtKUVk2c1EwVnMzcE51d9IBpgFBVV95cUxNSF9zbjkyaE82R1JVQWZRdW13WnAybGxPUEU3NG1qdzBfVElzWkxPOTJCQ0NFRE9nazhOc3NmVDFJYVBFeE8ySHNrZHpUU2hSVEN6MERmcGVrM0g3VE1lWmpFdUZNZ1htWGRYSU95ZUF3NVUzZjl6aHB1Rk5jT2pjYi1YX1JtM2s1X2kycmRCZFlxMmlWNU4yT3FFcWwwdDVUZ0NNQzZn?oc=5",
+     "kind": "article",
+     "published": "2026-11-23T17:55:52+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "Fastest production this side of the mississippi ",
    "series": "FD",
    "buzz": 1,
@@ -787,23 +787,6 @@
      "published": "2026-11-23T17:32:56+00:00",
      "media_url": null,
      "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "5 years later…whatcha think? ",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-23T16:21:42+00:00",
-   "items": [
-    {
-     "source": "@durtyracingdivision",
-     "title": "5 years later…whatcha think? ",
-     "url": "https://www.instagram.com/p/DgFyk8ghoxI/",
-     "kind": "instagram",
-     "published": "2026-11-23T16:21:42+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/902825740_18237610372332408_2734219158489319649_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=swiffyHCaeIQ7kNvwHF1j-b&_nc_oc=AdrT2DGwuXcQMgywtzwQTCBN9E0JZfgOYpePazS339SgP14xFRehxKiKA9tO4VV7C54&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=J02MQHA8e4uZhGEQQxCZ6Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSqn_2hqfmip3JWxn5pQ7caqnSRQYlzfnax5N0fm6UsOA&oe=6B0E7119",
-     "media_type": "IMAGE"
     }
    ]
   },
@@ -859,19 +842,19 @@
    ]
   },
   {
-   "title": "En ese momento todo el estés vale la pena. 🔥🏁",
+   "title": "Hill School product Matt Field finishing strong at Ursinus",
    "series": "FD",
    "buzz": 1,
-   "published": "2026-11-21T19:12:00+00:00",
+   "published": "2026-11-22T02:15:00+00:00",
    "items": [
     {
-     "source": "@luislanz8",
-     "title": "En ese momento todo el estés vale la pena. 🔥🏁",
-     "url": "https://www.instagram.com/reel/DgA8ubfRCT2/",
-     "kind": "instagram",
-     "published": "2026-11-21T19:12:00+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQPin0h472CEUbAuCCPLH_WBxd05IWxSEfYI7gsQ704jXjhFX9lI-1IUOqF5hrERT01ffdVdd1xFAFON78QfIJFgHdkJzLC4SEq7Chc.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=vcAwaxAntlgQ7kNvwFIgVQq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTE3OTEyMDY0ODEyNDM3NywiYXNzZXRfYWdlX2RheXMiOjUsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a5b740be63a71873&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CNjMwOTk0RTI4QTU0QTIwQTI5QUJFRTFENTRFQTBCOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIyNDlCMUE1QzZCNzQ0Q0FCMjkzNEI4MDA0QjMxNUUxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACay34e27ZmYBBUCKAJDMywXQCRmZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=XO1wYlqk1Rk1SXmLpUMlpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQLTXP_0b0ACr00yXdjVSQhjr5DZMDaL7eScWdb3sQXxQ&oe=6B0A5F88",
-     "media_type": "VIDEO"
+     "source": "Google News · City of Basketball Love",
+     "title": "Hill School product Matt Field finishing strong at Ursinus",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVWs3aldrSVc2eXhKVTlFZzdBLWF6UGVLaXJjZTItNkY3aVdMampPdWZwX1E5YTRTajR2bVY2ZlZjcXdkV3QyVUgzaVhFQlFLN1JHbUhaeEJsTUpYOXJ0cVJoSkN4WVV1eTdHMFJpbk5Yc0tBdUpKYUdZS3JkREwwTXg0alVhOXVEcEE?oc=5",
+     "kind": "article",
+     "published": "2026-11-22T02:15:00+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -923,23 +906,6 @@
      "published": "2026-11-21T14:30:55+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/919396349_18654909772062403_3348930626960188379_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=89u_lAUS-ucQ7kNvwH_TgFq&_nc_oc=Adoq0Z1PuI8KPPkhysKkR08lpsN2YMXBt7SMkJ-lTap619jWnKmoAj43MNxNOfEh8Vc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ojS26SaH0CLOwEKQbYrkPA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSWZgYWudVfHthMnJeglLTRSkRksW7BEu_zX4sNK29Y8g&oe=6B0E7BB2",
      "media_type": "CAROUSEL_ALBUM"
-    }
-   ]
-  },
-  {
-   "title": "No me pude resistir 🥰",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-21T01:40:14+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "No me pude resistir 🥰",
-     "url": "https://www.instagram.com/reel/Df_EZQIx3Xc/",
-     "kind": "instagram",
-     "published": "2026-11-21T01:40:14+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
     }
    ]
   },
@@ -1165,6 +1131,23 @@
    ]
   },
   {
+   "title": "Four things we want to see from Celtics during four-game road trip",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-18T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · NBC Boston",
+     "title": "Four things we want to see from Celtics during four-game road trip",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb04xVHlBeFU3TUduWXNCM29lSEZzbFBBRWhuVmtIaWtPTGpaYk1pZFlFSmlQbHJPVnAzblV4UXoxTVJMNG1ILXdMSE1mQVRTaFl4anl6eDVQbzZLd3VVd0hVaDZPMWt4OUlRdmVLRFJDek1EYy1abW0xZXU1TDBHejdMdXVBUzlGQ0QyWDBsc211SnRhVVVyZdIBoAFBVV95cUxNQ3AzOXdFeGxKZXdMQ0xVSTVmb2hIVk8zaG54bXp4alhWNnREdWV6cmRQa3ZPcVNPTS1zbnpPaDVxM2tlazUwa0hfN00yU3BTMlRGRHJNajZFYUpBdUVET3d6cV8zQjRCbWhHMnNhNEFiLTNjQVpTU2hmczF6UHIya0t5MUQwam12dFNIMi1COTQ5NkpqOXpzV2p2T05rZmJY?oc=5",
+     "kind": "article",
+     "published": "2026-11-18T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "🌴 LB2 case with romecp",
    "series": "FD",
    "buzz": 1,
@@ -1250,6 +1233,23 @@
    ]
   },
   {
+   "title": "One Possession: C's rookie validates high praise from Jayson Tatum",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-17T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · NBC Sports Boston",
+     "title": "One Possession: C's rookie validates high praise from Jayson Tatum",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWXltdXFMTnRyYVVaMFJ2VmR2WnRJN0pZdzJJMmJWLVFxZ2YwSHZhaDdhTi1yM1RmX0lzLUxFeXk2ZURoX1J4RWlQbGh4ZnQ1T2gxVG50bXhQbEY1T05FUXVuemY1bzFNSmdyVF9abEl4cnB0QmdkZmJmRTJYWjZXNjNtR2U1Wk9BRnQycTZ3OUJHV3JTM3pzUGpqbGoyc0d0cy1TX2NneTczbzdFcHFJ0gG3AUFVX3lxTE55TmNOUUhKeEZwNTZ2bjZTS0VxQkR2X2xid1VoNkRiSWlXSG5OYl9hMzFoR1VQQWdEZTMteENPSHkxMHozTTU3dHlZWGV2cGw1WWpHR0w1dTBsSkZNSHlQRmJoeHEySzhrZ3ZJR3JHVTB6a25KOXJBdFVGLUp2c0JvdEcxa0JUWTlLVEJ4bEZrU1VFQmRITkNvb2J3ZWw0Ym9tdjdlSHhnMDlXdC1IdmJjMDkwRlZidw?oc=5",
+     "kind": "article",
+     "published": "2026-11-17T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ]
+  },
+  {
    "title": "2013 ⏩️ 2026.. Como pasa el tiempo. 🥵",
    "series": "FD",
    "buzz": 1,
@@ -1280,6 +1280,23 @@
      "published": "2026-11-16T16:42:53+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMHdur0ZkWG8-3pSo4ISZEJUNa3a8zs9c7PwLltmB8onXtZXtjtbEFvuZ4TxEQGgJaPWDkVWdYHCdNX--yWmcoqRyu_f2ojrvvS_3g.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=qB2aA9uMNCgQ7kNvwHvoFxt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY5NzY2MzA5NTMxMDMwOCwiYXNzZXRfYWdlX2RheXMiOjEwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a2fda1aaa88cec33&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84OTkxN0UwQTIxMzg0M0Q4QTE0RTZGQkQzRDU2MzE4MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzExMzI3OUJCQzlFQTRFMEU4MjY1ODVFMkUzMEM3QzAzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbIn_Tb_4CEBhUCKAJDMywXQCkzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=AcGlxyPrSeg0u8OEBU2Xpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ56w0VAViANx9py5bQ-v6wESgk-0dRSTJkPaC0cFRDuw&oe=6B0A82F4",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "One Possession: Jordan Walsh brings some historic energy",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-16T08:00:00+00:00",
+   "items": [
+    {
+     "source": "Google News · NBC Sports Boston",
+     "title": "One Possession: Jordan Walsh brings some historic energy",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZFRWVnRRTzYtcnlhdlZHVE1WVGo0azZkbGF2TjNkaUZNTFRLemxpV1lMdGJXUFUzaUNrazRkSFd3QzRTUTFfeDlBUWt2UmlHV2ljdnJQRFU0SEVWNHh3ZVFQNEE1Tmc5RGxyRlBRQUtQY3NWYzVTaVdwczVndjRhYllhaTNNZXNRdWpkUXFKOVdCTFVRd2JTdGVOSjYwYjZjaktEUUZvWmZnaXhSZnfSAbYBQVVfeXFMTWdob012VXpocEltc2pvcG95akZyYUJmVFcxcmtUeWpCV1QxTWxHVXJZLWowcG1QejlGcnRVUzhqTFBPbF8wRFhWUHYwS3EzNEE0UU42NjlUbGNxalZVUzFPY2pKMG9NWVNSWWpzLXVFeDV6bHFMZWhpaDktdEFsRDljRkZGc3dPeUlvak83SklRZmo1a0Yyb1JzSTgwaW5kWGpuU1RiV3dkREFkWWRWZnZFMDZvblE?oc=5",
+     "kind": "article",
+     "published": "2026-11-16T08:00:00+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1534,23 +1551,6 @@
      "kind": "instagram",
      "published": "2026-11-11T15:28:50+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQPnkr085iqm6-srJo5tfjJHDV3s0GM-5bh2Bi17slaJe4Hmq48asQDiYV8nzIgC9XPs7VGeWIKYRKO2AxwrMvS3FiwJK1Th37rz4uE.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=EzIQmecxdZgQ7kNvwHTyyWk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEwMDUzMjMyMjg2MDM4MywiYXNzZXRfYWdlX2RheXMiOjE1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f02b51c99b1e23f1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BODUyNEFBMUFCMzk0MTBBODlENUVDOTcwMjlFQUUzOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JFNjczQUE2QjE2RDQwM0FBNEYzQzJDOTIyQkY1MTNFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa-9dfitLv0AxUCKAJDMywXQElqn752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UmlWlzZCo_SeivoMWpDKKnlHEuctm6covbxGe3g-ozN5K7HRFwLkgb-77204DRjzgpAOg9E92u3-Z434s6SI24yxbGIHeIIr5p98a2hoeuqcMfzTOvmijCoCr0IEJHmzAgo9&oh=00_AQQDB3dSZS2vR-JvnoW_xkgUsy4xfzdhckBN4vpOXcwTjg&oe=6B0A6CA8",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Coming to all comps and events near you soon! Start up incoming! ",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-11T14:19:25+00:00",
-   "items": [
-    {
-     "source": "@durtyracingdivision",
-     "title": "Coming to all comps and events near you soon! Start up incoming! ",
-     "url": "https://www.instagram.com/reel/Dfmqd1Uvar9/",
-     "kind": "instagram",
-     "published": "2026-11-11T14:19:25+00:00",
-     "media_url": null,
      "media_type": "VIDEO"
     }
    ]
