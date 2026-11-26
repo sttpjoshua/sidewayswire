@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T22:54:54.115338+00:00",
+ "updated": "2026-11-26T22:56:46.071450+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -425,7 +425,7 @@
     }
    ],
    "scout": {
-    "score": 32,
+    "score": 31,
     "why": [
      "crash",
      "bekende rijder",
@@ -2454,14 +2454,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 7,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
