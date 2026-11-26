@@ -125,6 +125,14 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .of-q-i div{flex:1}.of-q-i b{display:block;font-size:13px}.of-q-i small{color:var(--mute);font-size:12px}.of-q-i i,.of-lv i{display:block;height:5px;background:#2a2a2e;margin-top:4px}.of-q-i em,.of-lv em{display:block;height:100%;background:#C6FF00}
 .of-lv{margin:6px 0 10px;display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:center}.of-lv b{font-family:"Bebas Neue",sans-serif;font-size:20px;font-weight:400;color:#C6FF00}.of-lv span{font-size:12px;color:var(--mute)}.of-lv i{grid-column:1/3}
 .of-rank{display:flex;gap:10px;align-items:center;padding:5px 4px;border-top:1px solid #222;cursor:pointer}.of-rank span{width:18px;color:#7a7a80;font-weight:700}.of-rank b{flex:1;font-size:13px}.of-rank small{color:#C6FF00;font-weight:700}.of-rank:hover{background:#1b1b1e}
+#of3.tv{position:fixed;inset:0;z-index:9999;height:100vh!important;width:100vw;border:0}
+#of3.drop{outline:4px dashed #C6FF00;outline-offset:-8px}
+#of3-tvhud{position:absolute;left:0;right:0;top:0;display:flex;align-items:center;gap:18px;padding:18px 26px;background:linear-gradient(#000c,#0000);z-index:5;pointer-events:none}
+#of3-tvhud img{height:44px}#of3-tvhud .tvc{font:700 38px "Bebas Neue",sans-serif;color:#fff;line-height:1;margin-right:auto}#of3-tvhud .tvc small{display:block;font:500 14px Inter,sans-serif;color:#cfcfd4;letter-spacing:.3px}
+#of3-tvhud .tvk{background:#0009;border-left:4px solid #C6FF00;padding:6px 14px;min-width:120px}#of3-tvhud .tvk span{display:block;font:700 11px Inter,sans-serif;letter-spacing:1.5px;color:#cfcfd4}#of3-tvhud .tvk b{font:400 40px "Bebas Neue",sans-serif;color:#fff;line-height:1}
+#of3-tvhud button{pointer-events:auto;background:#111;color:#fff;border:2px solid #444;padding:8px 14px;font:700 12px Inter,sans-serif;cursor:pointer}
+.of-ach{display:flex;flex-wrap:wrap;gap:6px}.of-ach span{font-size:12px;padding:4px 8px;border:1px solid #333;background:#121214;color:#7a7a80}.of-ach span.ok{color:#fff;border-color:#d4af37}
+.of3-say{background:#fff}.of3-lv{color:#C6FF00;margin-left:4px}
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -213,8 +221,8 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <h1>KANTOOR</h1><div class="sub">Het terrein van Sideways Wire: vier garages rond het driftpad. Groen scherm: aan het werk. Roze: er is iets mis. Zzz: wacht op zijn vaste tijd. Op jouw bureau groeit de stapel die op jou wacht.</div>
   <div id="of-hud"></div>
   <div class="of-wrap"><div><div class="of3-wrap"><div id="of3-views">
-      <button data-v="overzicht" class="on">TERREIN</button><button data-v="directie">DIRECTIE</button><button data-v="redactie">REDACTIE</button><button data-v="pitwall">PITWALL</button><button data-v="jij">JOUW GARAGE</button><button data-v="pad">DRIFTPAD</button></div>
-      <div id="of3"></div><div class="muted" style="font-size:12px;margin-top:6px">Slepen om te draaien, scrollen of knijpen om te zoomen, klik op iemand voor details.</div></div>
+      <button data-v="overzicht" class="on">TERREIN</button><button data-v="directie">DIRECTIE</button><button data-v="redactie">REDACTIE</button><button data-v="pitwall">PITWALL</button><button data-v="jij">JOUW GARAGE</button><button data-v="pad">DRIFTPAD</button><span style="flex:1"></span><button data-v="geluid">GELUID UIT</button><button data-v="tv">TV-MODUS</button></div>
+      <div id="of3"></div><div class="muted" style="font-size:12px;margin-top:6px">Slepen om te draaien, scrollen of knijpen om te zoomen, klik op iemand voor details. Sleep een link naar het terrein om hem als tip aan de nieuwsscout te geven.</div></div>
     <div id="of-box"></div></div><div id="of-panel"></div></div>
 </section>
 
@@ -955,6 +963,7 @@ function show(){
   drawTabs();
   document.querySelectorAll("section").forEach(x=>x.classList.toggle("on",x.id==="s-"+s));
   if(S&&s==="clips"){clipCat=CAT[id]?id:"live";clipLimit=40;drawClips()}
+  else if(S&&s==="kantoor"){drawCurrent();if(window.office3d)setTimeout(()=>office3d.tv&&office3d.tv(id==="tv"),300)}
   else if(S&&id){revFilter="ALLES";revLimit=500;drawReview();setTimeout(()=>{const el=document.getElementById("r-"+id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})},50)}
   else if(S)drawCurrent();
   window.scrollTo(0,0);
@@ -981,5 +990,8 @@ setInterval(()=>{if(!document.querySelector("textarea:focus,input:focus"))load()
 </script><script src="office.js"></script>
 <script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js"}}</script>
 <script type="module" src="office3d.js"></script>
-<script>document.getElementById("of3-views").onclick=e=>{const b=e.target.closest("button");if(b&&window.office3d)office3d.go(b.dataset.v)}</script>
+<script>document.getElementById("of3-views").onclick=e=>{const b=e.target.closest("button");if(!b||!window.office3d)return;const v=b.dataset.v;
+  if(v==="tv"){location.hash="#kantoor/tv";return}
+  if(v==="geluid"){const on=office3d.sound();b.textContent=on?"GELUID AAN":"GELUID UIT";b.classList.toggle("on",on);return}
+  office3d.go(v)}</script>
 </body></html>

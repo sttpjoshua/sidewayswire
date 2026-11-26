@@ -4,6 +4,10 @@
 import * as THREE from "three";
 import { OrbitControls } from "./vendor/three/OrbitControls.js";
 import { CSS2DRenderer, CSS2DObject } from "./vendor/three/CSS2DRenderer.js";
+import { EffectComposer } from "./vendor/three/postprocessing/EffectComposer.js";
+import { RenderPass } from "./vendor/three/postprocessing/RenderPass.js";
+import { UnrealBloomPass } from "./vendor/three/postprocessing/UnrealBloomPass.js";
+import { OutputPass } from "./vendor/three/postprocessing/OutputPass.js";
 
 const LIME = 0xC6FF00, PINK = 0xFF2E88, BLUE = 0x5BC0FF, ORANGE = 0xFF9F43, DARK = 0x151517;
 const STC = { bezig: "#C6FF00", wacht: "#9a9aa0", pauze: "#ffb000", uit: "#555", fout: "#FF2E88", gepland: "#5BC0FF" };
@@ -257,7 +261,7 @@ function furnish() {
   rack.traverse(o => { if (o.isMesh) { o.userData.agent = "mac"; clickables.push(o); } });
   boards.score = canvasTex(1024, 512, drawScore);
   mesh(B(4.6, 2.4, .2), mat(0x0a0a0c), -1.4, 2.8, -4.3, jij); plane(boards.score, 4.4, 2.2, jij, -1.4, 2.8, -4.18);
-  makeCar(LIME, jij, 2.8, 0, 1.8, -.5, .8);
+  makeCar(0x2a2b30, jij, 2.8, 0, 1.8, -.5, .8);
   tireStack(jij, -4.8, 3.4, 4, ORANGE);
 }
 
@@ -376,7 +380,7 @@ function stepFly(dt) {
   for (let i = flying.length - 1; i >= 0; i--) { const f = flying[i]; f.t += dt / f.dur; const k = Math.min(1, f.t);
     f.m.position.lerpVectors(f.a, f.b, k); f.m.position.y += Math.sin(k * Math.PI) * (4 + f.a.distanceTo(f.b) * .12);
     f.m.rotation.y += dt * 6; f.m.rotation.z = Math.sin(k * 8) * .3;
-    if (k >= 1) { scene.remove(f.m); flying.splice(i, 1); pop(f.b); } }
+    if (k >= 1) { scene.remove(f.m); flying.splice(i, 1); pop(f.b); playPing(); } }
 }
 
 // ---------- vuurwerk als je de dagopdrachten haalt ----------
@@ -441,8 +445,9 @@ function applyStates() {
   scene.background.setHex(night ? 0x07070d : h < 9 || h >= 16 ? 0x3b2d3a : 0x8fb7d6);
   scene.fog.color.copy(scene.background);
   fx.sun.intensity = night ? .25 : 2.2; fx.hemi.intensity = night ? .35 : 1.0;
-  (fx.flood || []).forEach(s => s.intensity = night ? 900 : 0);
+  (fx.flood || []).forEach(s => s.intensity = night ? 420 : 0);
   fx.lights.forEach(l => l.intensity = night ? 34 : 14);
+  extrasState(night);
 }
 
 // ---------- animatie ----------
@@ -470,7 +475,7 @@ function tick() {
     fx.car.userData.wheels.forEach(wh => wh.rotation.x += dt * 25);
     if (Math.random() < .9) { const s = fx.smoke.find(s => s.userData.life <= 0); if (s) { const back = new THREE.Vector3(Math.random() - .5, .4, -1.9).applyMatrix4(fx.car.matrixWorld);
       s.position.copy(back); s.userData.life = 1; s.scale.setScalar(.6); } } }
-  for (const s of fx.smoke) if (s.userData.life > 0) { s.userData.life -= dt * .45; s.position.y += dt * .6; s.scale.multiplyScalar(1 + dt * 1.3); s.material.opacity = Math.max(0, s.userData.life) * .5; }
+  for (const s of fx.smoke) if (s.userData.life > 0) { s.userData.life -= dt * .45; s.position.y += dt * .6; s.scale.multiplyScalar(1 + dt * 1.3); s.material.opacity = Math.max(0, s.userData.life) * .32; }
   // brug zakt en stijgt rustig, wiel draait als de redactie bezig is
   if (fx.liftCar) { const up = fx.macBusy ? 2.3 : 1.62; fx.liftCar.position.y += (up - fx.liftCar.position.y) * Math.min(1, dt * .8);
     if (fx.macBusy) fx.liftCar.userData.wheels.forEach(wh => wh.rotation.x += dt * 8); }
@@ -484,7 +489,7 @@ function tick() {
     if (o.say && !o.hasTxt) { o.bub.element.textContent = o.say; o.bub.element.className = "of3-bub of3-say"; }
     const show = !!o.hasTxt || !!o.say; o.tag.visible = !far; o.bub.visible = show && (!far || o.st === "fout" || o.st === "bezig"); }
   if (camGoal) { const k = 1 - Math.pow(.02, dt); camera.position.lerp(camGoal.pos, k); controls.target.lerp(camGoal.look, k); if (camera.position.distanceTo(camGoal.pos) < .05) camGoal = null; }
-  controls.update(); renderer.render(scene, camera); labelR.render(scene, camera);
+  extrasTick(dt, t); controls.update(); if (fx.composer) fx.composer.render(); else renderer.render(scene, camera); labelR.render(scene, camera);
 }
 
 // ---------- camera's ----------
@@ -513,7 +518,7 @@ function build() {
   fx.sun = new THREE.DirectionalLight(0xffffff, 2.2); fx.sun.position.set(-18, 30, 22); fx.sun.castShadow = true;
   fx.sun.shadow.mapSize.set(2048, 2048); Object.assign(fx.sun.shadow.camera, { left: -40, right: 40, top: 30, bottom: -30, far: 90 }); fx.sun.shadow.bias = -.0005; scene.add(fx.sun);
   clock = new THREE.Clock();
-  GARAGES.forEach(garage); furnish(); grounds();
+  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild();
   for (const [id, A] of Object.entries(AGENTS)) {
     const G = GARAGES.find(g => g.id === A.g).group;
     const p = person(G, A.look, A.at[0], A.at[1] - (A.stand ? 0 : .95), id, !A.stand);
@@ -535,14 +540,279 @@ function build() {
   new ResizeObserver(resize).observe(box); resize();
   ready = true; tick();
 }
-function resize() { if (!box) return; const w = box.clientWidth, h = Math.max(380, Math.round(w * .56)); box.style.height = h + "px";
-  renderer.setSize(w, h); labelR.setSize(w, h); camera.aspect = w / h; camera.updateProjectionMatrix(); }
+function resize() { if (!box) return; const tv = box.classList.contains("tv"), w = box.clientWidth, h = tv ? box.clientHeight : Math.max(380, Math.round(w * .56));
+  if (!tv) box.style.height = h + "px"; else box.style.height = "";
+  renderer.setSize(w, h); labelR.setSize(w, h); camera.aspect = w / h; camera.updateProjectionMatrix(); if (fx.composer) fx.composer.setSize(w, h); }
 
 window.addEventListener("office-focus", e => { const A = AGENTS[e.detail]; if (A) go(A.g); });
 window.office3d = {
   start() { try { if (!ready) build(); else if (!raf) tick(); applyStates(); return true; } catch (e) { console.error("kantoor 3D:", e); return false; } },
   update() { if (ready) applyStates(); },
   stop() { cancelAnimationFrame(raf); raf = 0; },
-  go, fireworks, walk: startWalk,
+  go, fireworks, walk: startWalk, tv: setTV, sound: toggleSound, round: chiefRound, deliver: () => sendVan("nieuws"),
 };
 window.dispatchEvent(new Event("office3d-ready"));
+
+// =====================================================================================
+// RONDE 3: tv-modus, jij, tandem en publiek, podium, prestaties, groei, weer, geluid,
+// bezorgers, de ochtendronde van de hoofdredacteur, direct bedienen en waarschuwingen.
+// =====================================================================================
+const NL = () => new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Amsterdam" }));
+const todayNL = () => new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Amsterdam" });
+const LS = { get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
+const X = { vans: [], crowd: [], growth: -1, podium: null, podiumKey: "", rain: null, snow: null, xmas: null, wx: null, me: null, car2: null, beacon: null, smoke: [] };
+
+function followers() {
+  try { const D = (typeof STATS !== "undefined" && STATS && STATS.days) || {}, k = Object.keys(D).sort().pop(); if (!k) return 0;
+    return Object.values(D[k]).reduce((n, v) => n + (+v.followers || 0), 0); } catch (e) { return 0; }
+}
+window.officeFollowers = followers;
+
+function extrasBuild() {
+  // gloed op neon en schermen
+  try { const c = new EffectComposer(renderer); c.addPass(new RenderPass(scene, camera));
+    c.addPass(new UnrealBloomPass(new THREE.Vector2(512, 512), .32, .35, .97)); c.addPass(new OutputPass()); fx.composer = c; } catch (e) { fx.composer = null; }
+  // jij aan je bureau
+  const jij = GARAGES[3].group;
+  X.me = person(jij, [0x111114, 0x1d1d22, 0xe0b090, 0x2a1a10, "cap"], -1.4, -1.6 - .95, "joshua", true); X.me.rotation.y = Math.PI;
+  label(`<i style="background:#FF9F43"></i>Jij`, "of3-tag", X.me, 2.2);
+  // tweede driftauto voor de tandem
+  X.car2 = makeCar(LIME, scene, 0, 0, 12, 0, 1);
+  // publiek achter de bandenmuur (alleen op event-dagen helemaal vol)
+  const cols = [LIME, PINK, BLUE, ORANGE, 0xffffff, 0x222222];
+  for (let i = 0; i < 70; i++) { const g = new THREE.Group(), x = -25 + (i % 35) * 1.45 + (Math.random() - .5) * .4, z = 25.2 + Math.floor(i / 35) * .9;
+    g.position.set(x, 0, z); scene.add(g);
+    mesh(new THREE.CapsuleGeometry(.22, .5, 3, 8), mat(cols[i % cols.length]), 0, .6, 0, g); mesh(new THREE.SphereGeometry(.17, 10, 8), mat([0xe8b48a, 0xc98a5e, 0x8d5a3b, 0xf1c19a][i % 4]), 0, 1.15, 0, g);
+    g.userData = { ph: Math.random() * 6, keep: i % 9 === 0 }; X.crowd.push(g); }
+  // groei: tribunes en een tweede pad, verborgen tot de volgers er zijn
+  X.grow = [new THREE.Group(), new THREE.Group(), new THREE.Group()]; X.grow.forEach(g => { g.visible = false; scene.add(g); });
+  const stand = (g, x, z, ry) => { const t = new THREE.Group(); t.position.set(x, 0, z); t.rotation.y = ry; g.add(t);
+    for (let r = 0; r < 5; r++) mesh(B(12, .5, 1.1), mat(r % 2 ? 0x2a2b30 : 0x34363c), 0, .25 + r * .5, r * 1.1, t);
+    mesh(B(12.4, .3, .3), mat(PINK, { e: PINK, ei: .6 }), 0, 2.7, 5.4, t);
+    for (let i = 0; i < 40; i++) { const c = mesh(new THREE.SphereGeometry(.2, 8, 6), mat(cols[i % cols.length]), -5.5 + (i % 10) * 1.2, .9 + Math.floor(i / 10) * .5, Math.floor(i / 10) * 1.1, t); c.userData.ph = Math.random() * 6; X.crowd.push(c); } };
+  stand(X.grow[0], -31, 12, Math.PI / 2);
+  stand(X.grow[1], 31, 12, -Math.PI / 2);
+  const ring = new THREE.Mesh(new THREE.TorusGeometry(34, .6, 8, 64), mat(0x1a1b1f, { m: .6 })); ring.rotation.x = Math.PI / 2; ring.position.set(0, 12, 8); X.grow[2].add(ring);
+  for (let i = 0; i < 16; i++) { const a = i / 16 * Math.PI * 2; mesh(new THREE.CylinderGeometry(.3, .4, 12, 8), mat(0x1a1b1f, { m: .6 }), Math.cos(a) * 34, 6, 8 + Math.sin(a) * 34, X.grow[2]);
+    mesh(B(1, .4, .6), mat(0xffffff, { e: 0xffffff, ei: 2 }), Math.cos(a) * 33, 11.6, 8 + Math.sin(a) * 33, X.grow[2]); }
+  // podium aan de rand van het pad
+  X.podium = new THREE.Group(); X.podium.position.set(17, 0, 17); X.podium.rotation.y = -.5; scene.add(X.podium);
+  for (const [x, h, c, n] of [[0, 1.2, 0xd4af37, "1"], [-1.6, .8, 0xc0c0c8, "2"], [1.6, .5, 0xcd7f32, "3"]]) {
+    mesh(B(1.5, h, 1.2), mat(0x111114), x, h / 2, 0, X.podium); mesh(B(1.52, .12, 1.22), mat(c, { m: .8, r: .3 }), x, h, 0, X.podium);
+    plane(neonText(n, "#ffffff", 1, 1), .6, .6, X.podium, x, h / 2, .61); }
+  plane(neonText("AGENTS VAN DE WEEK", "#C6FF00", 8, 1), 4.6, .6, X.podium, 0, 3.6, 0);
+  X.podiumFigs = new THREE.Group(); X.podium.add(X.podiumFigs);
+  // waarschuwingslamp op jouw garage en rook bij de serverkast
+  X.beacon = new THREE.Group(); X.beacon.position.set(GARAGES[3].x + 4.5, WALL_H + .9, -6 + DEPTH / 2); scene.add(X.beacon);
+  mesh(new THREE.CylinderGeometry(.22, .25, .35, 12), mat(0xff7a00, { e: 0xff7a00, ei: 0 }), 0, 0, 0, X.beacon);
+  X.beaconLight = new THREE.SpotLight(0xff7a00, 0, 18, .5, .5, 1); X.beacon.add(X.beaconLight, X.beaconLight.target); X.beaconLight.target.position.set(4, -3, 0);
+  const smokeTex = canvasTex(64, 64, (g) => { const gr = g.createRadialGradient(32, 32, 2, 32, 32, 32); gr.addColorStop(0, "rgba(60,60,64,.7)"); gr.addColorStop(1, "rgba(60,60,64,0)"); g.fillStyle = gr; g.fillRect(0, 0, 64, 64); });
+  for (let i = 0; i < 25; i++) { const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: smokeTex, transparent: true, depthWrite: false, opacity: 0 })); sp.userData.life = 0; scene.add(sp); X.smoke.push(sp); }
+  // kerstlichtjes (alleen in december zichtbaar)
+  X.xmas = new THREE.Group(); scene.add(X.xmas);
+  for (const G of GARAGES) for (let i = 0; i <= 24; i++) { const x = G.x - G.w / 2 + i * G.w / 24, c = [0xff3030, LIME, 0xffd000, BLUE][i % 4];
+    const b = mesh(new THREE.SphereGeometry(.09, 8, 6), new THREE.MeshBasicMaterial({ color: c, toneMapped: false }), x, WALL_H + .2 + Math.sin(i / 24 * Math.PI * 4) * .12, -6 + DEPTH / 2 + .25, X.xmas); b.castShadow = false; }
+  const tree = new THREE.Group(); tree.position.set(-27, 0, 3); X.xmas.add(tree);
+  for (let k = 0; k < 4; k++) mesh(new THREE.ConeGeometry(1.6 - k * .35, 1.4, 10), mat(0x1f5a2a), 0, 1 + k * .9, 0, tree);
+  mesh(new THREE.OctahedronGeometry(.3), new THREE.MeshBasicMaterial({ color: 0xffd000, toneMapped: false }), 0, 4.6, 0, tree);
+  // neerslag
+  const mk = (n, col, size) => { const g = new THREE.BufferGeometry(), a = new Float32Array(n * 3); for (let i = 0; i < n; i++) { a[i * 3] = (Math.random() - .5) * 80; a[i * 3 + 1] = Math.random() * 25; a[i * 3 + 2] = Math.random() * 50 - 15; }
+    g.setAttribute("position", new THREE.BufferAttribute(a, 3)); const pts = new THREE.Points(g, new THREE.PointsMaterial({ color: col, size, transparent: true, opacity: .75, depthWrite: false })); pts.visible = false; scene.add(pts); return pts; };
+  X.rain = mk(5000, 0xaac8ff, .09); X.snow = mk(3000, 0xffffff, .18);
+  X.groundMat = scene.children.find(o => o.isMesh && o.geometry.type === "PlaneGeometry" && o.geometry.parameters.width === 90)?.material;
+  weather(); setInterval(weather, 15 * 60 * 1000);
+  // slepen van een link naar het terrein = tip voor de nieuwsscout
+  box.addEventListener("dragover", e => { e.preventDefault(); box.classList.add("drop"); });
+  box.addEventListener("dragleave", () => box.classList.remove("drop"));
+  box.addEventListener("drop", e => { e.preventDefault(); box.classList.remove("drop");
+    const url = (e.dataTransfer.getData("text/uri-list") || e.dataTransfer.getData("text/plain") || "").split("\n").find(l => /^https?:\/\//.test(l.trim()));
+    if (!url) return; const sc = agentObj.scout; if (sc) { sc.say = "Ik pak hem op!"; sc.hasTxt = false; setTimeout(() => sc.say = null, 5000); }
+    go("pitwall"); setTimeout(() => { location.hash = "#agents"; setTimeout(() => { const i = document.getElementById("tip-url"); if (i) { i.value = url.trim(); document.getElementById("tip-note").focus(); } }, 300);
+      if (typeof toast === "function") toast("Link staat klaar bij TIP EEN NIEUWTJE. Zeg er kort bij wat het is en druk op versturen."); }, 1400); });
+}
+
+async function weather() {
+  try { const r = await fetch("https://api.open-meteo.com/v1/forecast?latitude=52.14&longitude=6.2&current=precipitation,rain,snowfall,weather_code,temperature_2m,is_day&timezone=Europe%2FAmsterdam");
+    X.wx = (await r.json()).current; } catch (e) { X.wx = null; }
+  applyWeather();
+}
+function applyWeather() {
+  const w = X.wx || {}, rain = (+w.rain || 0) > .05 || [51, 53, 55, 61, 63, 65, 80, 81, 82].includes(+w.weather_code), snow = (+w.snowfall || 0) > 0 || [71, 73, 75, 77, 85, 86].includes(+w.weather_code);
+  X.rain.visible = rain && !snow; X.snow.visible = snow;
+  if (X.groundMat) { X.groundMat.roughness = rain ? .35 : .95; X.groundMat.metalness = rain ? .25 : 0; }
+  X.weatherTxt = w.temperature_2m != null ? `${Math.round(w.temperature_2m)}°C ${snow ? "sneeuw" : rain ? "regen" : "droog"} in Zutphen` : "";
+}
+
+// ---------- tandem, publiek, bezorgers ----------
+function sendVan(kind) {
+  if (X.vans.some(v => v.kind === kind)) return;
+  const g = new THREE.Group(), col = kind === "nieuws" ? 0xffffff : 0x1d1d22; scene.add(g);
+  mesh(B(2.2, 1.8, 4.4), mat(col, { r: .4 }), 0, 1.25, -.4, g); mesh(B(2.1, 1.1, 1.4), mat(col, { r: .4 }), 0, .95, 2.4, g);
+  mesh(B(2.0, .6, .05), mat(0x101820, { m: .8, r: .1 }), 0, 1.25, 3.11, g);
+  const sideTex = neonText(kind === "nieuws" ? "NIEUWS BINNEN" : "FOOTAGE", kind === "nieuws" ? "#FF2E88" : "#C6FF00", 6, 1);
+  for (const sx of [-1.11, 1.11]) { const pl = plane(sideTex, 3.6, .6, g, sx, 1.5, -.4, sx > 0 ? Math.PI / 2 : -Math.PI / 2); }
+  const wg = new THREE.CylinderGeometry(.42, .42, .3, 14); wg.rotateZ(Math.PI / 2);
+  for (const [x, z] of [[-1.05, 1.9], [1.05, 1.9], [-1.05, -1.8], [1.05, -1.8]]) mesh(wg, mat(0x0c0c0e), x, .42, z, g);
+  const stopX = kind === "nieuws" ? gx("redactie") : gx("jij");
+  g.position.set(-48, 0, 1.6); g.rotation.y = Math.PI / 2;
+  X.vans.push({ g, kind, stopX, phase: "in", wait: 0 });
+}
+function stepVans(dt) {
+  for (let i = X.vans.length - 1; i >= 0; i--) { const v = X.vans[i];
+    if (v.phase === "in") { v.g.position.x += dt * 9 * Math.min(1, (v.stopX - v.g.position.x) / 6 + .15); if (v.g.position.x >= v.stopX - .05) { v.phase = "stop"; v.wait = 4; pop(new THREE.Vector3(v.stopX, 3, 1.6), 20); playPing(660); } }
+    else if (v.phase === "stop") { v.wait -= dt; if (v.wait <= 0) v.phase = "uit"; }
+    else { v.g.position.x += dt * 12; if (v.g.position.x > 50) { scene.remove(v.g); X.vans.splice(i, 1); } } }
+}
+
+// ---------- podium en prestaties ----------
+function rankTop3() {
+  if (!window.agentLevel) return [];
+  return Object.keys(AGENTS).map(id => ({ id, ...agentLevel(id) })).sort((a, b) => b.xp - a.xp).slice(0, 3);
+}
+function buildPodium() {
+  const top = rankTop3(), key = top.map(t => t.id).join(","); if (key === X.podiumKey) return; X.podiumKey = key;
+  while (X.podiumFigs.children.length) X.podiumFigs.remove(X.podiumFigs.children[0]);
+  top.forEach((t, i) => { const [x, h] = [[0, 1.2], [-1.6, .8], [1.6, .5]][i];
+    const f = person(X.podiumFigs, AGENTS[t.id].look, x, 0, t.id, false); f.position.y = h; f.rotation.y = Math.PI; f.userData.cheer = i;
+    label(`${AGENTS[t.id].role} <b class="of3-lv">LV ${t.lvl}</b>`, "of3-tag", f, 2.4); });
+}
+const ACH = [
+  ["eerste-post", "Eerste post live", () => stats().posted >= 1],
+  ["clips-100", "100 clips klaar", () => (typeof S !== "undefined" && S ? posts().filter(p => /clip|reel/.test(p.kind || "")).length : 0) >= 100],
+  ["voorraad-500", "500 op voorraad", () => stats().ready >= 500],
+  ["stapel-leeg", "Stapel helemaal leeg", () => stats().rev === 0],
+  ["reeks-7", "7 dagen op rij alle opdrachten", () => (LS.get("sw-streak", {}).n || 0) >= 7],
+  ["volgers-100", "100 volgers", () => followers() >= 100],
+  ["volgers-1000", "1.000 volgers", () => followers() >= 1000],
+  ["tip", "Eerste nieuwtje getipt", () => ((typeof TIPS !== "undefined" && TIPS.tips) || []).length >= 1],
+  ["level-10", "Een agent op level 10", () => window.agentLevel && Object.keys(AGENTS).some(id => agentLevel(id).lvl >= 10)],
+  ["level-25", "Een agent op level 25", () => window.agentLevel && Object.keys(AGENTS).some(id => agentLevel(id).lvl >= 25)],
+];
+window.officeAchievements = function () {
+  const got = LS.get("sw-ach", {});
+  for (const [k, , f] of ACH) { try { if (!got[k] && f()) got[k] = todayNL(); } catch (e) {} }
+  LS.set("sw-ach", got); return ACH.map(([k, t]) => ({ k, t, at: got[k] || null }));
+};
+function trophies() {
+  const A = officeAchievements().filter(a => a.at), dir = GARAGES[0].group;
+  if (X.trophyN === A.length) return; X.trophyN = A.length;
+  if (X.trophies) dir.remove(X.trophies); X.trophies = new THREE.Group(); dir.add(X.trophies);
+  const gold = mat(0xd4af37, { m: .9, r: .25, e: 0x3a2a00, ei: .4 });
+  A.forEach((a, i) => { const y = .5 + (i % 3) * .8, z = .8 + Math.floor(i / 3) * .45;
+    mesh(new THREE.CylinderGeometry(.1, .16, .35, 10), gold, -4.95, y + .2, z, X.trophies); mesh(new THREE.SphereGeometry(.14, 10, 8, 0, Math.PI * 2, 0, Math.PI / 2), gold, -4.95, y + .45, z, X.trophies).rotation.x = Math.PI; });
+}
+// reeks: elke dag dat alle opdrachten gehaald zijn telt mee
+window.officeStreak = function () {
+  const st = LS.get("sw-streak", { n: 0, last: "" }), d = todayNL(), Q = window.officeQuests ? officeQuests() : [];
+  if (Q.length && Q.every(q => q.done) && st.last !== d) { const y = new Date(Date.now() - 864e5).toLocaleDateString("sv-SE", { timeZone: "Europe/Amsterdam" });
+    st.n = st.last === y ? st.n + 1 : 1; st.last = d; LS.set("sw-streak", st); }
+  const y2 = new Date(Date.now() - 864e5).toLocaleDateString("sv-SE", { timeZone: "Europe/Amsterdam" });
+  return st.last === d || st.last === y2 ? st.n : 0;
+};
+
+// ---------- de ochtendronde van de hoofdredacteur (08:41) en de strateeg op maandag ----------
+function chiefRound() {
+  const o = agentObj.hoofdredacteur; if (!o || o.walk) return;
+  const seat = new THREE.Vector3(); o.p.getWorldPosition(seat);
+  const stops = ["redactie", "pitwall", "jij"].flatMap(g => [[gx(g) - 3, FRONT], [gx(g), GZ + 3.2], [gx(g) + 3, FRONT]]);
+  const path = [[seat.x, seat.z + 1.2], [seat.x, FRONT], ...stops].map(([x, z]) => new THREE.Vector3(x, 0, z));
+  o.home = { parent: o.p.parent, pos: o.p.position.clone(), rot: o.p.rotation.y }; scene.attach(o.p); pose(o.p, false);
+  o.walk = { path, i: 0, phase: "heen", wait: 0, dest: "ronde", back: [...path].reverse().slice(1).concat([seat.clone()]) };
+  const b = ((AG.hoofdredacteur || {}).briefing || "").split(/\n/)[0];
+  o.say = b ? "Briefing: " + b.slice(0, 40) : "Goedemorgen allemaal, briefing!";
+}
+
+// ---------- geluid (standaard uit; alles wordt hier gemaakt, geen geluidsbestanden) ----------
+let AC = null, SND = null;
+function toggleSound(on) {
+  if (on === undefined) on = !SND;
+  if (!on) { if (SND) { SND.master.gain.setTargetAtTime(0, AC.currentTime, .1); SND = null; } LS.set("sw-sound", false); return false; }
+  AC = AC || new (window.AudioContext || window.webkitAudioContext)(); AC.resume();
+  const master = AC.createGain(); master.gain.value = .0; master.connect(AC.destination); master.gain.setTargetAtTime(.5, AC.currentTime, .3);
+  const eng = AC.createOscillator(); eng.type = "sawtooth"; const eng2 = AC.createOscillator(); eng2.type = "square";
+  const lp = AC.createBiquadFilter(); lp.type = "lowpass"; lp.frequency.value = 500; const eg = AC.createGain(); eg.gain.value = .08;
+  eng.connect(lp); eng2.connect(lp); lp.connect(eg); eg.connect(master); eng.start(); eng2.start();
+  const buf = AC.createBuffer(1, AC.sampleRate * 2, AC.sampleRate), d = buf.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+  const noise = AC.createBufferSource(); noise.buffer = buf; noise.loop = true; const bp = AC.createBiquadFilter(); bp.type = "bandpass"; bp.frequency.value = 2600; bp.Q.value = 6;
+  const ng = AC.createGain(); ng.gain.value = 0; noise.connect(bp); bp.connect(ng); ng.connect(master); noise.start();
+  SND = { master, eng, eng2, lp, eg, ng }; LS.set("sw-sound", true); return true;
+}
+function playPing(f = 880) { if (!SND) return; const o = AC.createOscillator(), g = AC.createGain(); o.frequency.value = f; o.type = "sine"; g.gain.value = .0001;
+  o.connect(g); g.connect(SND.master); o.start(); g.gain.exponentialRampToValueAtTime(.25, AC.currentTime + .01); g.gain.exponentialRampToValueAtTime(.0001, AC.currentTime + .35); o.stop(AC.currentTime + .4); }
+window.officePing = playPing;
+
+// ---------- tv-modus ----------
+let tvTimer = null, tvI = 0;
+const TV_TOUR = ["overzicht", "redactie", "pad", "pitwall", "jij", "directie"];
+function setTV(on) {
+  if (!box) return; if (!on && !box.classList.contains("tv")) return;
+  if (!on && location.hash === "#kantoor/tv") history.replaceState(null, "", "#kantoor");
+  box.classList.toggle("tv", on); document.body.classList.toggle("tv-on", on);
+  let hud = document.getElementById("of3-tvhud");
+  if (on) { if (!hud) { hud = document.createElement("div"); hud.id = "of3-tvhud"; box.appendChild(hud); }
+    clearInterval(tvTimer); tvI = 0; go(TV_TOUR[0]); tvTimer = setInterval(() => { tvI = (tvI + 1) % TV_TOUR.length; go(TV_TOUR[tvI]); }, 14000);
+    try { if (box.requestFullscreen && !document.fullscreenElement) box.requestFullscreen().catch(() => {}); } catch (e) {} }
+  else { clearInterval(tvTimer); tvTimer = null; if (hud) hud.remove(); try { if (document.fullscreenElement) document.exitFullscreen(); } catch (e) {} }
+  setTimeout(resize, 60); drawTvHud();
+}
+function drawTvHud() {
+  const h = document.getElementById("of3-tvhud"); if (!h) return; const s = stats(), n = NL();
+  h.innerHTML = `<img src="assets/woordmerk_kleur.svg" alt=""><div class="tvc">${n.toLocaleTimeString("nl-NL", { hour: "2-digit", minute: "2-digit" })}<small>${n.toLocaleDateString("nl-NL", { weekday: "long", day: "numeric", month: "long" })}${X.weatherTxt ? " · " + X.weatherTxt : ""}</small></div>
+    <div class="tvk"><span>WACHT OP JOU</span><b style="color:${s.rev ? "#FF2E88" : "#C6FF00"}">${s.rev}</b></div><div class="tvk"><span>VOORRAAD</span><b style="color:#5BC0FF">${s.ready}</b></div>
+    <div class="tvk"><span>VOLGERS</span><b>${followers()}</b></div><div class="tvk"><span>REEKS</span><b style="color:#FF9F43">${window.officeStreak ? officeStreak() : 0}</b></div>
+    <button onclick="office3d.tv(false)">SLUITEN</button>`;
+}
+document.addEventListener("keydown", e => { if (e.key === "Escape" && box && box.classList.contains("tv")) setTV(false); });
+document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement && box && box.classList.contains("tv")) setTV(false); });
+
+// ---------- per statusronde ----------
+function extrasState(night) {
+  const s = stats(), F = followers(), month = NL().getMonth();
+  // groei van het terrein
+  const lvl = F >= 100000 ? 3 : F >= 10000 ? 2 : F >= 1000 ? 1 : 0; X.grow.forEach((g, i) => g.visible = lvl > i);
+  // event-dag: de Mac verwerkt een stream of het is een raceweekend: vol publiek
+  X.event = !!fx.macBusy; X.crowd.forEach(c => { if (c.userData.keep !== undefined) c.visible = X.event || c.userData.keep; });
+  // december
+  X.xmas.visible = month === 11;
+  if (month === 11 && !X.wx?.snowfall && X.snow) X.snow.visible = X.snow.visible || (NL().getDate() >= 20);
+  // waarschuwingen: post binnen 30 minuten live, of een kanaal niet verbonden
+  const P = (typeof S !== "undefined" && S) ? posts() : [], soon = P.some(p => p.post_at && ["ready", "approved"].includes(p.status) && new Date(p.post_at) - Date.now() < 30 * 60e3 && new Date(p.post_at) > Date.now());
+  X.soon = soon; const ch = ((typeof S !== "undefined" && S && S.channels && S.channels.channels) || []).filter(c => c.id !== "telegram");
+  X.trouble = ch.some(c => !c.connected) || Object.values(typeof AG !== "undefined" ? AG : {}).some(a => a.state === "fout");
+  buildPodium(); trophies(); if (window.officeStreak) officeStreak(); drawTvHud();
+  // ochtendronde: elke dag tussen 08:41 en 09:15
+  const n = NL(), mins = n.getHours() * 60 + n.getMinutes(), d = todayNL();
+  if (mins >= 8 * 60 + 41 && mins <= 9 * 60 + 15 && LS.get("sw-round") !== d) { LS.set("sw-round", d); chiefRound(); }
+  // bezorgers: nieuwe nieuwtjes van de scout, nieuwe footage voor de Mac
+  const inbox = ((typeof S !== "undefined" && S && S.inbox) || []).length; if (X.lastInbox != null && inbox > X.lastInbox) sendVan("nieuws"); X.lastInbox = inbox;
+  if (fx.macBusy && !X.lastMac) sendVan("footage"); X.lastMac = fx.macBusy;
+}
+
+// ---------- per frame ----------
+function extrasTick(dt, t) {
+  // jij typt
+  if (X.me) { const u = X.me.userData; u.arms[0].rotation.x = 1.1 + Math.sin(t * 14) * .08; u.arms[1].rotation.x = 1.1 + Math.cos(t * 14) * .08; u.head.rotation.y = Math.sin(t * .5) * .2; }
+  // tandem: de tweede auto volgt de eerste
+  if (X.car2 && fx.car) { const a = t * .9 - .62, rx = 7, rz = 4.5; X.car2.position.set(Math.cos(a) * rx, 0, 12 + Math.sin(a) * rz);
+    X.car2.rotation.y = Math.atan2(-Math.sin(a) * rx, Math.cos(a) * rz) + .78; X.car2.userData.wheels.forEach(w => w.rotation.x += dt * 25);
+    if (Math.random() < .35) { const sm = fx.smoke.find(s => s.userData.life <= 0); if (sm) { sm.position.copy(new THREE.Vector3(Math.random() - .5, .4, -1.9).applyMatrix4(X.car2.matrixWorld)); sm.userData.life = 1; sm.scale.setScalar(.6); } } }
+  // publiek springt als de auto's langskomen
+  for (const c of X.crowd) if (c.visible) { const near = fx.car ? Math.max(0, 1 - Math.abs(c.getWorldPosition(new THREE.Vector3()).x - fx.car.position.x) / 10) : 0;
+    c.position.y = (c.userData.base ??= c.position.y) + Math.max(0, Math.sin(t * 8 + c.userData.ph)) * (.08 + near * .35 * (X.event ? 1 : .3)); }
+  // podium juicht
+  if (X.podiumFigs) X.podiumFigs.children.forEach((f, i) => { const u = f.userData; if (!u.arms) return; const up = Math.sin(t * 5 + i) > 0; u.arms[0].rotation.x = u.arms[1].rotation.x = up ? 3 : 2.4; });
+  stepVans(dt);
+  // waarschuwingslamp draait als er zo een post live gaat; rook bij de server bij een probleem
+  if (X.beacon) { X.beacon.rotation.y += dt * 5; X.beacon.children[0].material.emissiveIntensity = X.soon ? 3 : 0; X.beaconLight.intensity = X.soon ? 60 : 0; }
+  if (X.trouble && Math.random() < .5) { const sp = X.smoke.find(s => s.userData.life <= 0); if (sp) { sp.position.set(gx("jij") + 3.6 + (Math.random() - .5) * .6, 2.7, -9.6); sp.userData.life = 1; sp.scale.setScalar(.5); } }
+  for (const sp of X.smoke) if (sp.userData.life > 0) { sp.userData.life -= dt * .35; sp.position.y += dt * .9; sp.scale.multiplyScalar(1 + dt); sp.material.opacity = Math.max(0, sp.userData.life) * .6; }
+  // neerslag
+  for (const P of [X.rain, X.snow]) if (P && P.visible) { const a = P.geometry.attributes.position.array, fall = P === X.rain ? 22 : 1.6;
+    for (let i = 1; i < a.length; i += 3) { a[i] -= fall * dt; if (P === X.snow) a[i - 1] += Math.sin(t + i) * dt * .3; if (a[i] < 0) a[i] = 25; } P.geometry.attributes.position.needsUpdate = true; }
+  // geluid: motor en banden, harder als de camera dicht bij het pad is
+  if (SND) { const dist = camera.position.distanceTo(fx.car.position), vol = Math.max(.05, 1 - dist / 60), rev = 70 + (Math.sin(t * 1.7) + 1) * 30;
+    SND.eng.frequency.setTargetAtTime(rev, AC.currentTime, .05); SND.eng2.frequency.setTargetAtTime(rev * 1.5, AC.currentTime, .05);
+    SND.eg.gain.setTargetAtTime(.09 * vol, AC.currentTime, .1); SND.ng.gain.setTargetAtTime((.02 + Math.max(0, Math.sin(t * 1.3)) * .05) * vol, AC.currentTime, .1); }
+  // tv: langzaam meedraaien
+  if (box.classList.contains("tv") && !camGoal) { const r = camera.position.clone().sub(controls.target); r.applyAxisAngle(new THREE.Vector3(0, 1, 0), dt * .05); camera.position.copy(controls.target).add(r); }
+}

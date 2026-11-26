@@ -133,7 +133,8 @@ window.officeQuests=function(){
     {t:"Tip een nieuwtje",d:tips?"gedaan":"plak een link bij AGENTS",done:tips>0,href:"#agents"},
     {t:"Geen storingen",d:errs?`${errs} agent${errs>1?"s":""} met een fout`:"alles draait",done:errs===0,href:"#agents"}]};
 function questsHTML(){const Q=officeQuests(),n=Q.filter(q=>q.done).length;
-  return `<div class="of-q"><div class="of-q-h">DAGOPDRACHTEN <b>${n}/${Q.length}</b></div>${Q.map(q=>`<a class="of-q-i ${q.done?"ok":""}" href="${q.href}"><span>${q.done?"✓":"○"}</span><div><b>${q.t}</b><small>${q.d}</small>${q.pct!=null&&!q.done?`<i><em style="width:${q.pct}%"></em></i>`:""}</div></a>`).join("")}</div>`}
+  const st=window.officeStreak?officeStreak():0;
+  return `<div class="of-q"><div class="of-q-h">DAGOPDRACHTEN <b>${st?`🔥 ${st} ${st>1?"dagen":"dag"} · `:""}${n}/${Q.length}</b></div>${Q.map(q=>`<a class="of-q-i ${q.done?"ok":""}" href="${q.href}"><span>${q.done?"✓":"○"}</span><div><b>${q.t}</b><small>${q.d}</small>${q.pct!=null&&!q.done?`<i><em style="width:${q.pct}%"></em></i>`:""}</div></a>`).join("")}</div>`}
 
 function hud(){
   const P=S?posts():[],rev=S?toReview().length:0,ready=P.filter(p=>["ready","approved"].includes(p.status)).length;
@@ -145,7 +146,11 @@ function hud(){
 function panel(){
   const el=document.getElementById("of-panel");if(!pick){
     const L=Object.keys(SEATS).map(id=>({id,n:(AG[id]||{}).name||SEATS[id].role,...agentLevel(id)})).sort((a,b)=>b.xp-a.xp).slice(0,6);
-    el.innerHTML=questsHTML()+`<div class="of-q-h" style="margin-top:14px">RANGLIJST</div>${L.map((x,i)=>`<div class="of-rank" data-of="${x.id}"><span>${i+1}</span><b>${esc(x.n)}</b><small>LV ${x.lvl}</small></div>`).join("")}<p class="muted" style="font-size:12px;margin-top:10px">Klik op iemand in het kantoor voor details.</p>`;return}
+    const A=window.officeAchievements?officeAchievements():[],F=window.officeFollowers?officeFollowers():0;
+    const next=[[1000,"een tribune langs het pad"],[10000,"een tweede tribune"],[100000,"een eigen arena met dak"]].find(([n])=>F<n);
+    el.innerHTML=questsHTML()+`<div class="of-q-h" style="margin-top:14px">PRESTATIES <b>${A.filter(a=>a.at).length}/${A.length}</b></div><div class="of-ach">${A.map(a=>`<span class="${a.at?"ok":""}" title="${a.at?"behaald "+a.at:"nog niet behaald"}">${a.at?"🏆":"🔒"} ${esc(a.t)}</span>`).join("")}</div>
+    ${next?`<p class="muted" style="font-size:12px;margin:10px 0 0">Het terrein groeit mee: bij ${next[0].toLocaleString("nl-NL")} volgers komt er ${next[1]} (nu ${F}).</p>`:""}
+    <div class="of-q-h" style="margin-top:14px">RANGLIJST</div>${L.map((x,i)=>`<div class="of-rank" data-of="${x.id}"><span>${i+1}</span><b>${esc(x.n)}</b><small>LV ${x.lvl}</small></div>`).join("")}<p class="muted" style="font-size:12px;margin-top:10px">Klik op iemand in het kantoor voor details.</p>`;return}
   if(pick==="joshua"){const n=S?toReview().length:0;el.innerHTML=`<h2>JOUW BUREAU</h2><p>${n?`Er liggen <b>${n}</b> posts op je stapel die op jouw akkoord wachten.`:"Je stapel is leeg. Lekker bezig."}</p><a class="btn g" href="#beoordelen">NAAR BEOORDELEN</a><div style="margin-top:14px">${questsHTML()}</div>`;return}
   if(pick==="mac"){const L=["battle","podcast","nieuws","community"].map(id=>`<div style="margin:3px 0"><b>${esc((AG[id]||{}).name||id)}</b>: ${esc((AG[id]||{}).state||"wacht")}${(AG[id]||{}).doing?" · "+esc(AG[id].doing):""}</div>`).join("");
     el.innerHTML=`<h2>MAC STUDIO</h2><p class="muted">Hier draaien de redacteuren met het lokale taalmodel, en worden de clips geknipt.</p>${L}`;return}
@@ -160,7 +165,7 @@ function panel(){
     ${c.note?`<p class="muted">Jouw instructie: ${esc(c.note)}</p>`:""}
     <div class="muted" style="font-size:12px;letter-spacing:1px;margin-top:10px">LAATST GEDAAN</div>
     ${H.length?H.map(h=>`<div style="font-size:13px;margin:3px 0"><span class="muted">${fmtWhen(h.at)}</span> · ${esc(h.text)}</div>`).join(""):`<div class="muted">Nog niets gedaan.</div>`}
-    <div class="row" style="gap:8px;margin-top:10px"><a class="btn" href="#agents">BIJSTUREN</a><button class="btn" data-close>TERUG</button></div>`}
+    <div class="row" style="gap:8px;margin-top:10px;flex-wrap:wrap"><a class="btn" href="#agents">BIJSTUREN</a><button class="btn ${c.on===false?"g":""}" data-oftoggle="${pick}">${c.on===false?"AANZETTEN":"UITZETTEN"}</button><button class="btn" data-close>TERUG</button></div>`}
 
 function draw(){
   const box=document.getElementById("of-box");if(!box)return;
@@ -182,7 +187,10 @@ window.drawOffice=async function(){
     document.getElementById("of-hud").innerHTML=hud();panel();if(use3d){office3d.start()}else draw()},30000)};
 window.addEventListener("hashchange",()=>{if(!location.hash.startsWith("#kantoor")&&window.office3d)office3d.stop()});
 
-document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("#of-panel [data-close]")){pick=null;panel();return}
+document.addEventListener("click",async e=>{const tg=e.target.closest&&e.target.closest("[data-oftoggle]");
+  if(tg){if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}const id=tg.dataset.oftoggle;tg.disabled=true;
+    try{await saveAgents(d=>{const c=d.agents[id]=d.agents[id]||{on:true,note:""};c.on=c.on===false});panel();if(window.office3d)office3d.update();toast("Opgeslagen. Werkt vanaf de volgende ronde.")}catch(x){toast(x.message,1)}tg.disabled=false;return}
+  if(e.target.closest&&e.target.closest("#of-panel [data-close]")){pick=null;panel();return}
   const g=e.target.closest&&e.target.closest("#s-kantoor [data-of]");if(!g)return;if(g.classList.contains("of-rank")&&window.office3d){const id=g.dataset.of;pick=id;panel();window.dispatchEvent(new CustomEvent("office-focus",{detail:id}));return}
   pick=g.dataset.of;panel();document.querySelectorAll("#s-kantoor .of-seat").forEach(x=>x.classList.toggle("of-sel",x.dataset.of===pick))});
 })();
