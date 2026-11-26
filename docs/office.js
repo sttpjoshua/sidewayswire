@@ -107,6 +107,34 @@ function bubbles(){
     h+=`<div class="of-bub of-${st}" style="left:${(seat.x+16)/W*100}%;top:${(seat.y-14)/H*100}%">${esc(t)}</div>`}
   return h}
 
+
+// ---------- game-laag: levels per agent en dagopdrachten voor Joshua ----------
+const XP_OF={
+  battle:P=>P.filter(p=>["battle","live"].includes(cat(p))).length,
+  podcast:P=>P.filter(p=>["pod","vlog"].includes(cat(p))).length,
+  nieuws:P=>P.filter(p=>cat(p)==="posts").length,
+  community:()=>(S.replies||[]).length,
+  qc:P=>Math.round(P.filter(p=>p.qc).length/4),
+  scout:()=>(S.inbox||[]).length,
+};
+window.agentLevel=function(id){
+  const P=S?posts():[],a=AG[id]||{},base=XP_OF[id]?XP_OF[id](P):0;
+  const xp=(base+(a.history||[]).length)*10,lvl=Math.floor(Math.sqrt(xp/40))+1,cur=40*(lvl-1)**2,next=40*lvl**2;
+  return {xp,lvl,pct:Math.max(0,Math.min(100,Math.round((xp-cur)/(next-cur)*100)))}};
+const today=()=>new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Amsterdam"});
+window.officeQuests=function(){
+  const P=S?posts():[],rev=S?toReview().length:0,d=today();
+  const appr=P.filter(p=>p.approved_by==="joshua"&&p.approved&&new Date(p.approved).toLocaleDateString("sv-SE",{timeZone:"Europe/Amsterdam"})===d).length;
+  const tips=((typeof TIPS!=="undefined"&&TIPS.tips)||[]).filter(t=>(t.at||"").slice(0,10)===d).length;
+  const errs=Object.values(AG).filter(a=>a.state==="fout").length;
+  return [
+    {t:"Stapel leeg",d:rev?`nog ${rev} te beoordelen`:"alles beoordeeld",done:rev===0,href:"#beoordelen"},
+    {t:"10 posts goedgekeurd",d:`${Math.min(appr,10)} van 10 vandaag`,done:appr>=10,pct:Math.min(100,appr*10),href:"#beoordelen"},
+    {t:"Tip een nieuwtje",d:tips?"gedaan":"plak een link bij AGENTS",done:tips>0,href:"#agents"},
+    {t:"Geen storingen",d:errs?`${errs} agent${errs>1?"s":""} met een fout`:"alles draait",done:errs===0,href:"#agents"}]};
+function questsHTML(){const Q=officeQuests(),n=Q.filter(q=>q.done).length;
+  return `<div class="of-q"><div class="of-q-h">DAGOPDRACHTEN <b>${n}/${Q.length}</b></div>${Q.map(q=>`<a class="of-q-i ${q.done?"ok":""}" href="${q.href}"><span>${q.done?"✓":"○"}</span><div><b>${q.t}</b><small>${q.d}</small>${q.pct!=null&&!q.done?`<i><em style="width:${q.pct}%"></em></i>`:""}</div></a>`).join("")}</div>`}
+
 function hud(){
   const P=S?posts():[],rev=S?toReview().length:0,ready=P.filter(p=>["ready","approved"].includes(p.status)).length;
   const busy=Object.values(AG).filter(a=>a.state==="bezig").length,err=Object.values(AG).filter(a=>a.state==="fout").length;
@@ -115,13 +143,16 @@ function hud(){
   return item("AAN HET WERK",busy,"#C6FF00","")+item("WACHT OP JOU",rev,rev?"#FF2E88":"#fff","#beoordelen")+item("VOORRAAD",ready,"#5BC0FF","#planning")+item("GEPLAATST",posted,"#fff","#stats")+item("PROBLEMEN",err,err?"#FF2E88":"#7a7a80","#agents")}
 
 function panel(){
-  const el=document.getElementById("of-panel");if(!pick){el.innerHTML=`<div class="muted">Klik op iemand in het kantoor om te zien wat hij doet.</div>`;return}
-  if(pick==="joshua"){const n=S?toReview().length:0;el.innerHTML=`<h2>JOUW BUREAU</h2><p>${n?`Er liggen <b>${n}</b> posts op je stapel die op jouw akkoord wachten.`:"Je stapel is leeg. Lekker bezig."}</p><a class="btn g" href="#beoordelen">NAAR BEOORDELEN</a>`;return}
+  const el=document.getElementById("of-panel");if(!pick){
+    const L=Object.keys(SEATS).map(id=>({id,n:(AG[id]||{}).name||SEATS[id].role,...agentLevel(id)})).sort((a,b)=>b.xp-a.xp).slice(0,6);
+    el.innerHTML=questsHTML()+`<div class="of-q-h" style="margin-top:14px">RANGLIJST</div>${L.map((x,i)=>`<div class="of-rank" data-of="${x.id}"><span>${i+1}</span><b>${esc(x.n)}</b><small>LV ${x.lvl}</small></div>`).join("")}<p class="muted" style="font-size:12px;margin-top:10px">Klik op iemand in het kantoor voor details.</p>`;return}
+  if(pick==="joshua"){const n=S?toReview().length:0;el.innerHTML=`<h2>JOUW BUREAU</h2><p>${n?`Er liggen <b>${n}</b> posts op je stapel die op jouw akkoord wachten.`:"Je stapel is leeg. Lekker bezig."}</p><a class="btn g" href="#beoordelen">NAAR BEOORDELEN</a><div style="margin-top:14px">${questsHTML()}</div>`;return}
   if(pick==="mac"){const L=["battle","podcast","nieuws","community"].map(id=>`<div style="margin:3px 0"><b>${esc((AG[id]||{}).name||id)}</b>: ${esc((AG[id]||{}).state||"wacht")}${(AG[id]||{}).doing?" · "+esc(AG[id].doing):""}</div>`).join("");
     el.innerHTML=`<h2>MAC STUDIO</h2><p class="muted">Hier draaien de redacteuren met het lokale taalmodel, en worden de clips geknipt.</p>${L}`;return}
   const a=AG[pick]||{},c=((AGCFG||{}).agents||{})[pick]||{},st=c.on===false?"uit":(a.state||"wacht"),H=(a.history||[]).slice(0,6);
   el.innerHTML=`<h2><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${STC[st]};margin-right:8px"></span>${esc(a.name||SEATS[pick].role)}</h2>
     <p class="muted" style="margin:2px 0 8px">${esc(SEATS[pick].role)} · ${esc(a.where||"")} · ${esc(st.toUpperCase())}${a.updated?" · "+ago(a.updated):""}</p>
+    ${(()=>{const L=agentLevel(pick);return `<div class="of-lv"><b>LEVEL ${L.lvl}</b><span>${L.xp} XP</span><i><em style="width:${L.pct}%"></em></i></div>`})()}
     <p>${a.doing?esc(a.doing):`<span class="muted">Niets te doen op dit moment.</span>`}</p>
     ${a.briefing?`<p style="border-left:3px solid #C6FF00;padding-left:8px;white-space:pre-line">${esc(a.briefing)}</p>`:""}
     ${a.plan?`<p style="border-left:3px solid #5BC0FF;padding-left:8px;white-space:pre-line">${esc(a.plan)}</p>`:""}
@@ -129,7 +160,7 @@ function panel(){
     ${c.note?`<p class="muted">Jouw instructie: ${esc(c.note)}</p>`:""}
     <div class="muted" style="font-size:12px;letter-spacing:1px;margin-top:10px">LAATST GEDAAN</div>
     ${H.length?H.map(h=>`<div style="font-size:13px;margin:3px 0"><span class="muted">${fmtWhen(h.at)}</span> · ${esc(h.text)}</div>`).join(""):`<div class="muted">Nog niets gedaan.</div>`}
-    <a class="btn" style="margin-top:10px;display:inline-block" href="#agents">BIJSTUREN</a>`}
+    <div class="row" style="gap:8px;margin-top:10px"><a class="btn" href="#agents">BIJSTUREN</a><button class="btn" data-close>TERUG</button></div>`}
 
 function draw(){
   const box=document.getElementById("of-box");if(!box)return;
@@ -151,7 +182,8 @@ window.drawOffice=async function(){
     document.getElementById("of-hud").innerHTML=hud();panel();if(use3d){office3d.start()}else draw()},30000)};
 window.addEventListener("hashchange",()=>{if(!location.hash.startsWith("#kantoor")&&window.office3d)office3d.stop()});
 
-document.addEventListener("click",e=>{const g=e.target.closest&&e.target.closest("#s-kantoor [data-of]");if(!g)return;
+document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("#of-panel [data-close]")){pick=null;panel();return}
+  const g=e.target.closest&&e.target.closest("#s-kantoor [data-of]");if(!g)return;if(g.classList.contains("of-rank")&&window.office3d){const id=g.dataset.of;pick=id;panel();window.dispatchEvent(new CustomEvent("office-focus",{detail:id}));return}
   pick=g.dataset.of;panel();document.querySelectorAll("#s-kantoor .of-seat").forEach(x=>x.classList.toggle("of-sel",x.dataset.of===pick))});
 })();
 window.addEventListener("office3d-ready",()=>{if(location.hash.startsWith("#kantoor")&&typeof S!=="undefined"&&S)drawOffice()});
