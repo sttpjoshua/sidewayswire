@@ -1,11 +1,13 @@
 {
- "updated": "2026-11-26T21:13:01.080146+00:00",
+ "updated": "2026-11-26T21:15:05.901464+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 650,
-  "check": 56,
-  "skipped": 70,
-  "posted": 3
+  "ready": 649,
+  "check": 48,
+  "skipped": 71,
+  "draft": 2,
+  "posted": 3,
+  "approved": 6
  },
  "collected": "2026-11-26T21:12:56.731786+00:00",
  "instagram": true,
@@ -11119,68 +11121,6 @@
    "photo": null
   },
   {
-   "id": "2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot",
-   "kind": "news",
-   "status": "ready",
-   "post_at": "2026-12-06T19:30:00+00:00",
-   "posted_at": null,
-   "caption": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n\nSource: tip van Joshua",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot__1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": false,
-   "check_reason": "",
-   "source": "https://jdm.guide/events/d1gp-tokyo-drift-odaiba-2026",
-   "platforms": [
-    "instagram",
-    "facebook"
-   ],
-   "created": "2026-11-26T20:55:46.126185+00:00",
-   "built": "2026-11-26T20:57:33.629626+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": null,
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "plan": {
-    "instagram": "2026-12-07T07:30:00+00:00",
-    "facebook": "2026-12-06T19:30:00+00:00"
-   },
-   "score": null,
-   "captions": {
-    "instagram": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n\nSource: tip van Joshua\n\n#drift #sidewayswire",
-    "facebook": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n\nSource: tip van Joshua\n\n#drift #sidewayswire",
-    "tiktok": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n#drift #sidewayswire",
-    "youtube_title": "CONOR AND JACK SHANAHAN IN D1GP",
-    "youtube": "The brothers Shanahan made their D1GP debut as guest entries in Tokyo. What did you think of their performance?\n\nSource: tip van Joshua\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [],
-   "people": [
-    "Conor Shanahan",
-    "Jack Shanahan"
-   ],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "CONOR AND JACK SHANAHAN IN D1GP",
-   "photo": {
-    "mode": "auto",
-    "credit": "@formulad"
-   }
-  },
-  {
    "id": "pod-ytth2l4tyizj4-18",
    "kind": "stream_clip",
    "status": "ready",
@@ -13371,26 +13311,24 @@
   },
   {
    "id": "2026-11-26-formula-drift-announces-2027-schedule-with-excit",
-   "kind": "news",
-   "status": "check",
+   "kind": "breaking",
+   "status": "draft",
    "post_at": null,
    "posted_at": null,
    "caption": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas.\n\nSource: Formula DRIFT",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/2026-11-26-formula-drift-announces-2027-schedule-with-excit__1.png"
-   ],
-   "problems": [],
+   "media": [],
+   "problems": null,
    "results": null,
    "credit": null,
-   "check": true,
-   "check_reason": "foto nodig: voeg een foto toe",
+   "check": null,
+   "check_reason": null,
    "source": "https://news.formulad.com/2026/fd-news/formula-drift-announces-2027-schedule-with-exciting-venue-updates/",
    "platforms": [
     "instagram",
     "facebook"
    ],
    "created": "2026-11-26T20:55:58.302340+00:00",
-   "built": "2026-11-26T20:57:34.049648+00:00",
+   "built": null,
    "want_at": null,
    "video": null,
    "tags": null,
@@ -13409,13 +13347,69 @@
    "short_len": null,
    "thumb": null,
    "preview": null,
-   "hook": null,
+   "hook": {
+    "type": "breaking"
+   },
    "evergreen": null,
    "tiktok_done": null,
    "short": null,
-   "title": "FD 2027 VENUE UPDATES ANNOUNCED",
+   "title": "FD 2027 SCHEDULE IS OUT",
    "photo": {
-    "mode": "none",
+    "mode": "optional",
+    "credit": ""
+   }
+  },
+  {
+   "id": "2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot",
+   "kind": "hook",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car. 🇮🇪🇯🇵\n\nSource: D1 Grand Prix",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": null,
+   "check": null,
+   "check_reason": null,
+   "source": "https://d1gp.co.jp/27462/",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "created": "2026-11-26T20:55:46.126185+00:00",
+   "built": null,
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": [
+    "Conor Shanahan",
+    "Jack Shanahan",
+    "Naoki Nakamura"
+   ],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": {
+    "type": "winner"
+   },
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "CONOR SHANAHAN WINS IN JAPAN",
+   "photo": {
+    "mode": "optional",
     "credit": ""
    }
   },
@@ -49771,7 +49765,7 @@
   {
    "id": "pod-5687ca1c5a65-5",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "approved",
    "post_at": null,
    "posted_at": null,
    "caption": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #Rumor #sidewayswire",
@@ -49781,7 +49775,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -49832,7 +49826,7 @@
   {
    "id": "pod-5687ca1c5a65-4",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "approved",
    "post_at": null,
    "posted_at": null,
    "caption": "Adam LZ waited all year to announce his step back from the podium, and Long Beach was his last chance.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #LongBeach #sidewayswire",
@@ -49842,7 +49836,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -49893,7 +49887,7 @@
   {
    "id": "pod-5687ca1c5a65-2",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "approved",
    "post_at": null,
    "posted_at": null,
    "caption": "A drift event with no smoking signs everywhere. The Long Beach podium can't stop laughing about it.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #LongBeach #TireSmoke #sidewayswire",
@@ -49903,7 +49897,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50086,7 +50080,7 @@
   {
    "id": "pod-5687ca1c5a65-1",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "approved",
    "post_at": null,
    "posted_at": null,
    "caption": "No night practice, so the first dark laps were qualifying runs. The Long Beach podium on driving the Shoreline Showdown under the lights.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jamesdeane130 @jackshanahan59 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #LongBeach #NightDrift #sidewayswire",
@@ -50096,7 +50090,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50149,7 +50143,7 @@
   {
    "id": "pod-441d4b7291ad-9",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "approved",
    "post_at": null,
    "posted_at": null,
    "caption": "Can an attention-grabbing car do more for a career than the driving? The PROSPEC podium on standing out.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @federicosceriffo17 @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #Drift #sidewayswire",
@@ -50159,7 +50153,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50210,7 +50204,7 @@
   {
    "id": "pod-441d4b7291ad-8",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "approved",
    "post_at": null,
    "posted_at": null,
    "caption": "An OEM look, but not the OEM you expect. Was Brian Wills' front end a statement about the rulebook?\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #BrianWills #sidewayswire",
@@ -50220,7 +50214,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -50269,7 +50263,7 @@
   {
    "id": "pod-441d4b7291ad-7",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "skipped",
    "post_at": null,
    "posted_at": null,
    "caption": "Brian Wills turned heads with that front end. The S chassis guys on the PROSPEC podium give their hot takes.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@nh_fab @braden.lons @mspekperformance @formulad @jako13\n\n#FormulaDRIFT #PROSPEC #BrianWills #sidewayswire",
@@ -51098,7 +51092,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -51165,7 +51159,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -54970,7 +54964,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -55311,7 +55305,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -56321,7 +56315,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -56522,7 +56516,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
