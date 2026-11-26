@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T17:06:20.143991+00:00",
+ "updated": "2026-11-26T17:10:11.334356+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 477,
+  "ready": 474,
   "check": 128,
   "skipped": 70,
   "posted": 3,
-  "draft": 73
+  "draft": 76
  },
  "collected": "2026-11-26T11:27:46.116993+00:00",
  "instagram": false,
@@ -6546,10 +6546,8 @@
    "post_at": "2026-12-27T11:30:00+00:00",
    "posted_at": null,
    "caption": "Jonathan Castro comes out of the smoke and puts the hurt on Ben Hobson. How he saw through that is beyond anyone.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@benhobson213 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytth2l4tyizj4-5__clip.mp4"
-   ],
-   "problems": [],
+   "media": [],
+   "problems": null,
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -6566,7 +6564,7 @@
     "youtube"
    ],
    "created": "2026-11-20T05:54:42.746773+00:00",
-   "built": "2026-11-20T07:02:33.372135+00:00",
+   "built": "2026-11-26T17:07:20.279348+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytth2l4tyizj4-5__clip.mp4",
    "tags": [
@@ -6580,29 +6578,17 @@
    "plan": {
     "tiktok": "2026-12-27T11:30:00+00:00"
    },
-   "score": 85,
-   "captions": {
-    "instagram": "Ben Hobson vs Jonathan Castro | Formula DRIFT Orlando 2026\n\nJonathan Castro comes out of the smoke and puts the hurt on Ben Hobson. How he saw through that is beyond anyone.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@benhobson213 @jcastroracing @formulad\n\n#formuladrift #formulad #benhobson #jonathancastro #sidewayswire",
-    "facebook": "Ben Hobson vs Jonathan Castro | Formula DRIFT Orlando 2026\n\nJonathan Castro comes out of the smoke and puts the hurt on Ben Hobson. How he saw through that is beyond anyone.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@benhobson213 @jcastroracing @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Ben Hobson vs Jonathan Castro | Formula DRIFT Orlando 2026: Jonathan Castro comes out of the smoke and puts the hurt on Ben Hobson. How he saw through that is beyond anyone.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Orlando 2026 @benhobson213 @jcastroracing @formulad\n#formuladrift #formulad #benhobson #sidewayswire",
-    "youtube_title": "Ben Hobson vs Jonathan Castro | Formula DRIFT Orlando 2026",
-    "youtube": "Jonathan Castro comes out of the smoke and puts the hurt on Ben Hobson. How he saw through that is beyond anyone.\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@benhobson213 @jcastroracing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
+   "score": null,
+   "captions": null,
    "ig": null,
-   "collaborators": [
-    "benhobson213",
-    "jcastroracing"
-   ],
-   "people": [
-    "Ben Hobson",
-    "Jonathan Castro"
-   ],
-   "moment_kind": "battle",
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
    "pinned_at": null,
-   "short_none": "kort genoeg",
+   "short_none": null,
    "short_len": null,
-   "thumb": "media/thumbs/pod-ytth2l4tyizj4-5.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytth2l4tyizj4-5.mp4",
+   "thumb": null,
+   "preview": null,
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
@@ -12264,6 +12250,171 @@
    "tiktok_done": null,
    "short": null,
    "title": "DM 2026: EVERY ROUND WINNER",
+   "photo": null
+  },
+  {
+   "id": "pod-ytth2l4tyizj4-10",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Odi Bakchis tucks in like a white shadow and jumps out like a rabbit from a hat on Jack Shanahan.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @odidrift @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
+    "start": 505.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T06:00:14.151743+00:00",
+   "built": "2026-11-26T17:10:00.217916+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytth2l4tyizj4-10__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@odidrift",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ODI THE MAGICIAN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytth2l4tyizj4-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jonathan Castro leads, Jack Shanahan slides into formation, and they bang and grind all the way to the line.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@jcastroracing @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
+    "start": 415.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T05:58:16.136089+00:00",
+   "built": "2026-11-26T17:09:09.796905+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytth2l4tyizj4-8__clip.mp4",
+   "tags": [
+    "@jcastroracing",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "BANGING AND GRINDING",
+   "photo": null
+  },
+  {
+   "id": "pod-ytth2l4tyizj4-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Conor Shanahan locks up on the left foot brake and James Deane goes straight to the door. Two absolute gunners.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #orlando #jamesdeane #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
+    "start": 324.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T05:55:46.413698+00:00",
+   "built": "2026-11-26T17:08:15.558814+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytth2l4tyizj4-6__clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "DEANE STICKS IT TO THE DOOR",
    "photo": null
   },
   {
@@ -30094,75 +30245,6 @@
    "photo": null
   },
   {
-   "id": "pod-ytth2l4tyizj4-8",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jonathan Castro leads, Jack Shanahan slides into formation, and they bang and grind all the way to the line.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@jcastroracing @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytth2l4tyizj4-8__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
-    "start": 415.68
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T05:58:16.136089+00:00",
-   "built": "2026-11-20T07:02:33.511832+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytth2l4tyizj4-8__clip.mp4",
-   "tags": [
-    "@jcastroracing",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 85,
-   "captions": {
-    "instagram": "Jonathan Castro vs Jack Shanahan | Formula DRIFT Orlando 2026\n\nJonathan Castro leads, Jack Shanahan slides into formation, and they bang and grind all the way to the line.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jcastroracing @jackshanahan59 @formulad\n\n#formuladrift #formulad #jonathancastro #jackshanahan #sidewayswire",
-    "facebook": "Jonathan Castro vs Jack Shanahan | Formula DRIFT Orlando 2026\n\nJonathan Castro leads, Jack Shanahan slides into formation, and they bang and grind all the way to the line.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jcastroracing @jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jonathan Castro vs Jack Shanahan | Formula DRIFT Orlando 2026: Jonathan Castro leads, Jack Shanahan slides into formation, and they bang and grind all the way to the line.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Orlando 2026 @jcastroracing @jackshanahan59 @formulad\n#formuladrift #formulad #jonathancastro #sidewayswire",
-    "youtube_title": "Castro vs Shanahan | Formula DRIFT Orlando 2026",
-    "youtube": "Jonathan Castro leads, Jack Shanahan slides into formation, and they bang and grind all the way to the line.\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jcastroracing @jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jcastroracing",
-    "jackshanahan59"
-   ],
-   "people": [
-    "Jonathan Castro",
-    "Jack Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytth2l4tyizj4-8.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytth2l4tyizj4-8.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "BANGING AND GRINDING",
-   "photo": null
-  },
-  {
    "id": "pod-ytth2l4tyizj4-7",
    "kind": "stream_clip",
    "status": "ready",
@@ -30228,75 +30310,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytth2l4tyizj4-7__short.mp4",
    "title": "MASUYAMA ON WHEELS OF STEEL",
-   "photo": null
-  },
-  {
-   "id": "pod-ytth2l4tyizj4-6",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Conor Shanahan locks up on the left foot brake and James Deane goes straight to the door. Two absolute gunners.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@conorshanahan79 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #orlando #jamesdeane #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytth2l4tyizj4-6__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
-    "start": 324.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T05:55:46.413698+00:00",
-   "built": "2026-11-20T07:02:33.418795+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytth2l4tyizj4-6__clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jamesdeane130",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 85,
-   "captions": {
-    "instagram": "Conor Shanahan vs James Deane | Formula DRIFT Orlando 2026\n\nConor Shanahan locks up on the left foot brake and James Deane goes straight to the door. Two absolute gunners.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@conorshanahan79 @jamesdeane130 @formulad\n\n#formuladrift #formulad #conorshanahan #jamesdeane #sidewayswire",
-    "facebook": "Conor Shanahan vs James Deane | Formula DRIFT Orlando 2026\n\nConor Shanahan locks up on the left foot brake and James Deane goes straight to the door. Two absolute gunners.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@conorshanahan79 @jamesdeane130 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Conor Shanahan vs James Deane | Formula DRIFT Orlando 2026: Conor Shanahan locks up on the left foot brake and James Deane goes straight to the door. Two absolute gunners.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Orlando 2026 @conorshanahan79 @jamesdeane130 @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
-    "youtube_title": "Conor Shanahan vs James Deane | Formula DRIFT Orlando 2026",
-    "youtube": "Conor Shanahan locks up on the left foot brake and James Deane goes straight to the door. Two absolute gunners.\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@conorshanahan79 @jamesdeane130 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "conorshanahan79",
-    "jamesdeane130"
-   ],
-   "people": [
-    "Conor Shanahan",
-    "James Deane"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytth2l4tyizj4-6.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytth2l4tyizj4-6.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "DEANE STICKS IT TO THE DOOR",
    "photo": null
   },
   {
@@ -30911,75 +30924,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytth2l4tyizj4-11__short.mp4",
    "title": "FIELD TRIES TO BULLY THE CHAMP",
-   "photo": null
-  },
-  {
-   "id": "pod-ytth2l4tyizj4-10",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Odi Bakchis tucks in like a white shadow and jumps out like a rabbit from a hat on Jack Shanahan.\n\n🎥 Footage: FD ORLANDO 2026 HIGHLIGHTS | PRESENTED B\n@jackshanahan59 @odidrift @formulad\n\n#formulad #formuladrift #drifting #orlando #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytth2l4tyizj4-10__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Orlando 2026 Highlights | Presented by Type S Auto",
-    "start": 505.04
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T06:00:14.151743+00:00",
-   "built": "2026-11-20T07:02:32.766234+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytth2l4tyizj4-10__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@odidrift",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 85,
-   "captions": {
-    "instagram": "Jack Shanahan vs Aurimas Bakchis | Formula DRIFT Orlando 2026\n\nOdi Bakchis tucks in like a white shadow and jumps out like a rabbit from a hat on Jack Shanahan.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jackshanahan59 @odidrift @formulad\n\n#formuladrift #formulad #jackshanahan #aurimasbakchis #sidewayswire",
-    "facebook": "Jack Shanahan vs Aurimas Bakchis | Formula DRIFT Orlando 2026\n\nOdi Bakchis tucks in like a white shadow and jumps out like a rabbit from a hat on Jack Shanahan.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jackshanahan59 @odidrift @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Aurimas Bakchis | Formula DRIFT Orlando 2026: Odi Bakchis tucks in like a white shadow and jumps out like a rabbit from a hat on Jack Shanahan.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Orlando 2026 @jackshanahan59 @odidrift @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Shanahan vs Bakchis | Formula DRIFT Orlando 2026",
-    "youtube": "Odi Bakchis tucks in like a white shadow and jumps out like a rabbit from a hat on Jack Shanahan.\n\n🎥 Footage: Formula DRIFT Orlando 2026\n@jackshanahan59 @odidrift @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "odidrift"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Aurimas Bakchis"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytth2l4tyizj4-10.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytth2l4tyizj4-10.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "ODI THE MAGICIAN",
    "photo": null
   },
   {
