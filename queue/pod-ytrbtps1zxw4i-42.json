@@ -1,18 +1,17 @@
 {
  "id": "pod-ytrbtps1zxw4i-42",
  "kind": "stream_clip",
- "status": "check",
+ "status": "draft",
  "slides": [],
  "title": "STUCKEY VS MADISON",
  "video": "docs/media/pod-ytrbtps1zxw4i-42/clip.mp4",
- "caption": "Daniel Stuckey vs Derek Madison in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@derek_madison @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+ "caption": "Daniel Stuckey vs Derek Madison in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@stuke.racing @derek_madison @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
  "tags": [
+  "@stuke.racing",
   "@derek_madison",
   "@formulad"
  ],
- "missing_handles": [
-  "Daniel Stuckey"
- ],
+ "missing_handles": [],
  "format": "split",
  "credit": "@formulad",
  "check": true,
@@ -29,17 +28,5 @@
   "start": 4302
  },
  "created": "2026-11-20T05:26:52.659816+00:00",
- "built": "2026-11-20T07:02:32.033799+00:00",
- "media": [
-  "docs/media/pod-ytrbtps1zxw4i-42/clip.mp4"
- ],
- "problems": [],
- "thumb": "docs/media/thumbs/pod-ytrbtps1zxw4i-42.jpg",
- "short_none": "split",
- "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytrbtps1zxw4i-42.mp4",
- "preview_of": "2026-11-20T07:02:32.033799+00:00",
- "people": [
-  "Daniel Stuckey",
-  "Derek Madison"
- ]
+ "built": "2026-11-26T17:06:06.809125+00:00"
 }

@@ -418,10 +418,9 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1153.5, \"start\": 1149.76, \"text\": \"DID THE MACHINE JUST CRACK?\", \"why\": \"de fout\"}",
-  "made": "2026-11-20T01:19:51.169616+00:00",
+  "made": "2026-11-26T17:01:04.715311+00:00",
   "run_end": 1173.84,
-  "result_done": 1,
-  "redo": true
+  "result_done": 1
  },
  {
   "start": 1191.8,
@@ -509,10 +508,9 @@
   "mode": "video",
   "layout": 4,
   "hook_sig": "{\"end\": 1436.2, \"start\": 1434.36, \"text\": \"WHO TOOK ROAD ATLANTA?\", \"why\": \"winnaar\"}",
-  "made": "2026-11-20T04:06:23.431413+00:00",
+  "made": "2026-11-26T17:02:06.431151+00:00",
   "run_end": 1442.02,
-  "result_done": 1,
-  "redo": true
+  "result_done": 1
  },
  {
   "start": 752.3,
@@ -557,8 +555,7 @@
   "mode": "split",
   "layout": 4,
   "hook_sig": "{}",
-  "made": "2026-11-20T04:07:32.450507+00:00",
-  "result_done": 1,
-  "redo": true
+  "made": "2026-11-26T17:03:15.073620+00:00",
+  "result_done": 1
  }
 ]
