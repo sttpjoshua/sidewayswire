@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: TJ Hunt · I Hope I Don't Regret This...",
- "updated": "2026-11-26T19:21:32.336357+00:00",
+ "doing": "leest: TJ Hunt · The Aston Martin GT3 is a NIGHTMARE",
+ "updated": "2026-11-26T19:21:36.134556+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:21:35.379816+00:00",
+   "text": "0 momenten uit I Hope I Don't Regret This...",
+   "ref": "yt4dkkaui4u8o"
+  },
   {
    "at": "2026-11-26T19:21:31.708461+00:00",
    "text": "0 momenten uit I Secretly Listed Sabrina's Car For Sale",
@@ -94,7 +99,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 15
+  "made": 16
  },
  "version": "3"
 }
