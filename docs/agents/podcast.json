@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: TJ Hunt · I Secretly Listed Sabrina's Car For Sale",
- "updated": "2026-11-26T19:21:28.734350+00:00",
+ "doing": "leest: TJ Hunt · I Hope I Don't Regret This...",
+ "updated": "2026-11-26T19:21:32.336357+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:21:31.708461+00:00",
+   "text": "0 momenten uit I Secretly Listed Sabrina's Car For Sale",
+   "ref": "ytmdstdw9da1e"
+  },
   {
    "at": "2026-11-26T19:21:27.781826+00:00",
    "text": "0 momenten uit My Aston Martin Vantage GT3 is DONE!",
@@ -89,7 +94,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 14
+  "made": 15
  },
  "version": "3"
 }
