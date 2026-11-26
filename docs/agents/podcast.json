@@ -3,10 +3,15 @@
  "name": "Podcast-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "fout",
- "doing": "leest: Chelsea DeNofa · We Somehow Won LZ World Tour at E-Town",
- "updated": "2026-11-26T19:22:32.642910+00:00",
+ "doing": "leest: Chelsea DeNofa · Across the World for the Track’s Final Drift Event… Then Everything Broke",
+ "updated": "2026-11-26T19:22:36.803597+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-26T19:22:35.851221+00:00",
+   "text": "0 momenten uit We Somehow Won LZ World Tour at E-Town",
+   "ref": "ytan8rltswsxk"
+  },
   {
    "at": "2026-11-26T19:22:31.791734+00:00",
    "text": "0 momenten uit BMW Never Sold This E46 in America… So We Built the Ultimate One",
@@ -126,11 +131,6 @@
    "at": "2026-11-26T19:20:52.555801+00:00",
    "text": "0 momenten uit My Last Round of Formula Drift - FD LB2 Podium",
    "ref": "ytz6mbmuiauq"
-  },
-  {
-   "at": "2026-11-26T19:20:48.943133+00:00",
-   "text": "0 momenten uit Why I Quit Formula Drift",
-   "ref": "ytgningczcsic"
   }
  ],
  "errors": [
@@ -144,7 +144,7 @@
  "sample": "",
  "counts": {
   "day": "2026-11-26",
-  "made": 29
+  "made": 30
  },
  "version": "3"
 }
