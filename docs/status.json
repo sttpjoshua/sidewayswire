@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:13:11.164046+00:00",
+ "updated": "2026-11-26T20:16:14.617598+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 613,
@@ -7,7 +7,7 @@
   "skipped": 70,
   "posted": 3
  },
- "collected": "2026-11-26T20:01:33.223692+00:00",
+ "collected": "2026-11-26T20:16:11.943328+00:00",
  "instagram": true,
  "sources": [
   {
@@ -27,8 +27,9 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -118,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -145,8 +146,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -172,14 +174,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 6,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -192,9 +194,8 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
@@ -927,23 +928,6 @@
    ]
   },
   {
-   "title": "¿Que botón presionaste primero? 🤭",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-20T19:04:15+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "¿Que botón presionaste primero? 🤭",
-     "url": "https://www.instagram.com/reel/Df-XEBCRD4k/",
-     "kind": "instagram",
-     "published": "2026-11-20T19:04:15+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "title": "Take me back to Connecticut.",
    "series": "FD",
    "buzz": 1,
@@ -1280,6 +1264,23 @@
      "published": "2026-11-16T16:42:53+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMHdur0ZkWG8-3pSo4ISZEJUNa3a8zs9c7PwLltmB8onXtZXtjtbEFvuZ4TxEQGgJaPWDkVWdYHCdNX--yWmcoqRyu_f2ojrvvS_3g.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=qB2aA9uMNCgQ7kNvwHvoFxt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY5NzY2MzA5NTMxMDMwOCwiYXNzZXRfYWdlX2RheXMiOjEwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a2fda1aaa88cec33&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84OTkxN0UwQTIxMzg0M0Q4QTE0RTZGQkQzRDU2MzE4MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzExMzI3OUJCQzlFQTRFMEU4MjY1ODVFMkUzMEM3QzAzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbIn_Tb_4CEBhUCKAJDMywXQCkzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=AcGlxyPrSeg0u8OEBU2Xpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ56w0VAViANx9py5bQ-v6wESgk-0dRSTJkPaC0cFRDuw&oe=6B0A82F4",
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "How to Handle Language Barriers on Your First Day of an Overseas Business Trip",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-16T14:09:12+00:00",
+   "items": [
+    {
+     "source": "Google News · Drift Travel Magazine",
+     "title": "How to Handle Language Barriers on Your First Day of an Overseas Business Trip",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV3JWcXJFWDJtOHJRZW5yRGM1cjVHcFNCUXV5RjZzVW1zaGtkSGtQVkRwdGFhc3RNMGw1SHh3bnBJdEJiXy1BU2NrWkVYLU0xOUw4amRJM19fWVhmUnBvczl3UFFCTnJWYi1kbVVEbXFTRG5ydThPUkVJUFVUQXJ3QkpGN3pXQ1lpTEl6ZjlvWFRqU3Y4d29MSNIBngFBVV95cUxONDVVY1ExelJkcmlDcVhQMGRrNHFhQzJEaU9pZElzV0RPTGJZd1BzVVlKdC1IWHRLeHNMQ2ZfTGcwcGdpeEtwbDQwNGJoeGs2R2QwZE93cTcyaXpQcGthcmQ4Tk1VUDZDUFZoYWMwZ0hWQWZ4dGE0V0VZMkJFVUZtVmFMTEhKZkxySjlzalcxOWUzM2dQRDhWY0Z0WXNWZw?oc=5",
+     "kind": "article",
+     "published": "2026-11-16T14:09:12+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:01:33.223692+00:00",
+ "updated": "2026-11-26T20:16:11.943328+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -1081,33 +1081,6 @@
    }
   },
   {
-   "id": "255f14a0c8ff6212",
-   "title": "¿Que botón presionaste primero? 🤭",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-26T19:52:31.847764+00:00",
-   "published": "2026-11-20T19:04:15+00:00",
-   "items": [
-    {
-     "source": "@luislanz8",
-     "title": "¿Que botón presionaste primero? 🤭",
-     "url": "https://www.instagram.com/reel/Df-XEBCRD4k/",
-     "kind": "instagram",
-     "published": "2026-11-20T19:04:15+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
-    }
-   ],
-   "scout": {
-    "score": 25,
-    "why": [
-     "bekende rijder"
-    ],
-    "skip": true,
-    "feature": true
-   }
-  },
-  {
    "id": "135ef8d322ffbd4f",
    "title": "Take me back to Connecticut.",
    "series": "FD",
@@ -1642,6 +1615,31 @@
     ],
     "skip": true,
     "feature": true
+   }
+  },
+  {
+   "id": "9ebe925c410e924d",
+   "title": "How to Handle Language Barriers on Your First Day of an Overseas Business Trip",
+   "series": "FD + DM",
+   "buzz": 1,
+   "first_seen": "2026-11-26T20:16:09.212003+00:00",
+   "published": "2026-11-16T14:09:12+00:00",
+   "items": [
+    {
+     "source": "Google News · Drift Travel Magazine",
+     "title": "How to Handle Language Barriers on Your First Day of an Overseas Business Trip",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV3JWcXJFWDJtOHJRZW5yRGM1cjVHcFNCUXV5RjZzVW1zaGtkSGtQVkRwdGFhc3RNMGw1SHh3bnBJdEJiXy1BU2NrWkVYLU0xOUw4amRJM19fWVhmUnBvczl3UFFCTnJWYi1kbVVEbXFTRG5ydThPUkVJUFVUQXJ3QkpGN3pXQ1lpTEl6ZjlvWFRqU3Y4d29MSNIBngFBVV95cUxONDVVY1ExelJkcmlDcVhQMGRrNHFhQzJEaU9pZElzV0RPTGJZd1BzVVlKdC1IWHRLeHNMQ2ZfTGcwcGdpeEtwbDQwNGJoeGs2R2QwZE93cTcyaXpQcGthcmQ4Tk1VUDZDUFZoYWMwZ0hWQWZ4dGE0V0VZMkJFVUZtVmFMTEhKZkxySjlzalcxOWUzM2dQRDhWY0Z0WXNWZw?oc=5",
+     "kind": "article",
+     "published": "2026-11-16T14:09:12+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ],
+   "scout": {
+    "score": 8,
+    "why": [],
+    "skip": true,
+    "feature": false
    }
   },
   {
@@ -2312,8 +2310,9 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2403,7 +2402,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2430,8 +2429,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2457,14 +2457,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 6,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -2477,9 +2477,8 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
