@@ -83,6 +83,48 @@ def page_handles(name: str) -> list[str]:
     return list(dict.fromkeys(out))
 
 
+SERIES_ACCOUNTS = ["driftmasters.gp", "formulad", "redbullmotorsports", "d1grandprix_official", "drifted_com",
+                   "driftgames.life", "irishdriftchampionship"]
+
+
+def captions(ig, accounts=SERIES_ACCOUNTS, pages: int = 4) -> list[str]:
+    """Recent captions of the series' own accounts: they tag the drivers ("Lauri Heinonen @...")."""
+    out = []
+    for acc in accounts:
+        after = ""
+        for _ in range(pages):
+            try:
+                cur = f".after({after})" if after else ""
+                d = ig._get(ig.user_id, fields=f"business_discovery.username({acc}){{media.limit(50){cur}{{caption}}}}")
+            except Exception:
+                break
+            media = (d.get("business_discovery") or {}).get("media") or {}
+            out += [m.get("caption") or "" for m in media.get("data", [])]
+            after = ((media.get("paging") or {}).get("cursors") or {}).get("after")
+            if not after:
+                break
+            time.sleep(0.5)
+    return out
+
+
+def from_captions(name: str, caps: list[str]) -> list[str]:
+    """@handles written right after the person's name (or surname) in series captions, most frequent first."""
+    from collections import Counter
+    keys = [_plain(name), _plain(name).split()[-1]]
+    found = Counter()
+    for c in caps:
+        pc = _plain(c)
+        for k in keys:
+            if len(k) < 4:
+                continue
+            for m in re.finditer(re.escape(k), pc):
+                seg = c[m.start(): m.start() + len(k) + 40]
+                h = re.findall(r"@([A-Za-z0-9_.]+)", seg)
+                if h:
+                    found[h[0].lower().rstrip(".")] += 2 if k == keys[0] else 1
+    return [h for h, _ in found.most_common(3)]
+
+
 def check(ig, username: str) -> dict | None:
     try:
         d = ig._get(ig.user_id, fields=f"business_discovery.username({username}){{username,name,biography,followers_count,media_count}}")
@@ -117,13 +159,16 @@ def run() -> dict:
     reg = registry()
     names = [n["name"] for n in open_names(q.load()) if n["name"].lower() not in NOT_PEOPLE]
     result = {}
+    caps = captions(ig)
+    result["_captions"] = len(caps)
     for name in names:
         r = lookup(reg, name)
         if r and r.get("handle"):
             continue                              # handle known, only Joshua's check is missing
         official = page_handles(name)
+        tagged = [h for h in from_captions(name, caps) if h not in official]
         found = []
-        for h in official + [c for c in candidates(name) if c not in official]:
+        for h in official + tagged + [c for c in candidates(name) if c not in official + tagged]:
             try:
                 acc = check(ig, h)
             except Exception as e:
@@ -133,6 +178,9 @@ def run() -> dict:
             if not acc:
                 continue
             ok, why = fits(name, acc, h in official)
+            if not ok and h in tagged:
+                ok, why = fits(name, acc, True)
+                why = "getagd bij zijn naam door de serie zelf" if ok else ""
             if ok:
                 found.append({"handle": "@" + acc["username"].lower(), "name": acc.get("name"), "why": why,
                               "followers": acc.get("followers_count"), "bio": (acc.get("biography") or "")[:140]})
@@ -147,7 +195,7 @@ def run() -> dict:
     by = {r["Naam"].lower(): r for r in rows}
     added = 0
     for name, fs in result.items():
-        if name.startswith("_") or not fs:
+        if name.startswith("_") or not isinstance(fs, list) or not fs:
             continue
         f = fs[0]
         r = lookup(reg, name)
@@ -165,7 +213,7 @@ def run() -> dict:
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
         w.writerows(rows)
-    return {"names": len(names), "found": sum(1 for k, v in result.items() if not k.startswith("_") and v),
+    return {"names": len(names), "captions": result.get("_captions"), "found": sum(1 for k, v in result.items() if not k.startswith("_") and v),
             "added": added, "stopped": result.get("_stopped")}
 
 
