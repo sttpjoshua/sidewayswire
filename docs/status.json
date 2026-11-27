@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:01:54.062491+00:00",
+ "updated": "2026-11-27T14:16:38.169769+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 851,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T14:01:47.665329+00:00",
+ "collected": "2026-11-27T14:16:30.177764+00:00",
  "instagram": true,
  "sources": [
   {
@@ -21,8 +21,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -35,14 +36,15 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
@@ -118,7 +120,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -152,21 +154,22 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
-  },
-  {
-   "source": "Google News",
-   "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
    "ok": true,
-   "items": 0,
+   "items": 3,
    "how": "feed"
   },
   {
    "source": "Google News",
-   "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
+   "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
    "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
+   "ok": true,
+   "items": 4,
+   "how": "feed"
   },
   {
    "source": "Google News",
