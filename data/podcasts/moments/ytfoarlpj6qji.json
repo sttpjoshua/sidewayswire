@@ -231,7 +231,7 @@
   "why": "Decision to rerun adds tension and anticipation.",
   "caption": "Judges consider a one more time run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -240,7 +240,12 @@
    "text": "SHOULD THEY DO IT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-8-13063-13262.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-8-13063-13262.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1314.3, \"start\": 1311.3, \"text\": \"SHOULD THEY DO IT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:55:02.504028+00:00"
  },
  {
   "start": 1453.12,
@@ -255,7 +260,7 @@
   "why": "Strong comparison of two qualifying runs",
   "caption": "Ben Hobson and Rome Sharpens battle it out in qualifying.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -264,7 +269,12 @@
    "text": "WHO HAD THE BETTER RUN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-9-14531-15197.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-9-14531-15197.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1514.8, \"start\": 1512.76, \"text\": \"WHO HAD THE BETTER RUN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:57:14.576211+00:00"
  },
  {
   "start": 1553.5,
@@ -279,13 +289,17 @@
   "why": "Excitement and anticipation for the one more time decision",
   "caption": "The tension builds as the announcers decide who gets the one more time.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "run_end": 1609.06,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytfoarlpj6qji-10-15535-16216.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-10-15535-16216.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T01:58:33.475297+00:00"
  },
  {
   "start": 1890.86,
@@ -298,7 +312,7 @@
   "why": "Visually striking and unexpected",
   "caption": "Ryan Little loses parts mid-drift, watch the chaos unfold.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -307,7 +321,12 @@
    "text": "WHAT JUST FLEW OFF THERE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-11-18909-19099.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-11-18909-19099.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1907.02, \"start\": 1905.06, \"text\": \"WHAT JUST FLEW OFF THERE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:59:22.133969+00:00"
  },
  {
   "start": 1996.06,
