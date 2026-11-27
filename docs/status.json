@@ -1,14 +1,13 @@
 {
- "updated": "2026-11-27T03:27:18.200162+00:00",
+ "updated": "2026-11-27T03:31:47.503098+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 767,
+  "ready": 775,
   "skipped": 73,
   "check": 19,
-  "posted": 3,
-  "draft": 8
+  "posted": 3
  },
- "collected": "2026-11-27T03:16:09.002915+00:00",
+ "collected": "2026-11-27T03:31:34.146575+00:00",
  "instagram": true,
  "sources": [
   {
@@ -21,9 +20,8 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
@@ -120,7 +118,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -140,9 +138,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": true,
-   "items": 6,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
   },
   {
    "source": "Google News",
@@ -154,8 +151,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -167,9 +165,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
-   "ok": true,
-   "items": 4,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
   },
   {
    "source": "Google News",
@@ -202,8 +199,9 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
+   "ok": true,
+   "items": 10,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -13220,12 +13218,14 @@
   {
    "id": "pod-ytog8i68qcjxg-25",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "The team worked tirelessly to get the car ready.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytog8i68qcjxg-25__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13242,7 +13242,7 @@
     "youtube"
    ],
    "created": "2026-11-27T03:27:11.324191+00:00",
-   "built": "2026-11-27T03:27:11.324198+00:00",
+   "built": "2026-11-27T03:31:41.825611+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytog8i68qcjxg-25__clip.mp4",
    "tags": [
@@ -13251,13 +13251,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 63,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nThe team worked tirelessly to get the car ready.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nThe team worked tirelessly to get the car ready.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: The team worked tirelessly to get the car ready.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+    "youtube": "The team worked tirelessly to get the car ready.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13273,12 +13281,14 @@
   {
    "id": "pod-ytog8i68qcjxg-24",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Simon Olson's car barely missed qualifying.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad @chrisforsberg64 @colerichardz\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytog8i68qcjxg-24__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13295,7 +13305,7 @@
     "youtube"
    ],
    "created": "2026-11-27T03:25:31.199267+00:00",
-   "built": "2026-11-27T03:25:31.199274+00:00",
+   "built": "2026-11-27T03:31:41.774558+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytog8i68qcjxg-24__clip.mp4",
    "tags": [
@@ -13306,13 +13316,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 63,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nSimon Olson's car barely missed qualifying.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @chrisforsberg64 @colerichardz\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nSimon Olson's car barely missed qualifying.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @chrisforsberg64 @colerichardz\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: Simon Olson's car barely missed qualifying.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad @chrisforsberg64 @colerichardz\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+    "youtube": "Simon Olson's car barely missed qualifying.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @chrisforsberg64 @colerichardz\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13328,12 +13346,14 @@
   {
    "id": "pod-ytog8i68qcjxg-23",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Connor Shanahan pays tribute to a drifting legend.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytog8i68qcjxg-23__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13350,7 +13370,7 @@
     "youtube"
    ],
    "created": "2026-11-27T03:23:30.260313+00:00",
-   "built": "2026-11-27T03:23:30.260322+00:00",
+   "built": "2026-11-27T03:31:41.706017+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytog8i68qcjxg-23__clip.mp4",
    "tags": [
@@ -13359,13 +13379,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 68,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nConnor Shanahan pays tribute to a drifting legend.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nConnor Shanahan pays tribute to a drifting legend.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: Connor Shanahan pays tribute to a drifting legend.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+    "youtube": "Connor Shanahan pays tribute to a drifting legend.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13381,12 +13409,14 @@
   {
    "id": "pod-ytog8i68qcjxg-22",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Connor Shanahan secures a win in a tough qualifying run.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytog8i68qcjxg-22__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13403,7 +13433,7 @@
     "youtube"
    ],
    "created": "2026-11-27T03:22:01.902581+00:00",
-   "built": "2026-11-27T03:22:01.902589+00:00",
+   "built": "2026-11-27T03:31:41.656199+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytog8i68qcjxg-22__clip.mp4",
    "tags": [
@@ -13412,13 +13442,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 68,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nConnor Shanahan secures a win in a tough qualifying run.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nConnor Shanahan secures a win in a tough qualifying run.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: Connor Shanahan secures a win in a tough qualifying run.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+    "youtube": "Connor Shanahan secures a win in a tough qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13434,12 +13472,14 @@
   {
    "id": "pod-ytog8i68qcjxg-21",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Shinji and Connor battle it out in an intense qualifying run.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytog8i68qcjxg-21__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13456,7 +13496,7 @@
     "youtube"
    ],
    "created": "2026-11-27T03:20:30.266920+00:00",
-   "built": "2026-11-27T03:20:30.266927+00:00",
+   "built": "2026-11-27T03:31:41.607304+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytog8i68qcjxg-21__clip.mp4",
    "tags": [
@@ -13465,13 +13505,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 75,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nShinji and Connor battle it out in an intense qualifying run.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nShinji and Connor battle it out in an intense qualifying run.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: Shinji and Connor battle it out in an intense qualifying run.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+    "youtube": "Shinji and Connor battle it out in an intense qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "battle",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13487,12 +13535,14 @@
   {
    "id": "pod-ytog8i68qcjxg-20",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Frederick Osbou secures a strong qualifying run.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytog8i68qcjxg-20__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13509,7 +13559,7 @@
     "youtube"
    ],
    "created": "2026-11-27T03:18:13.176126+00:00",
-   "built": "2026-11-27T03:18:13.176134+00:00",
+   "built": "2026-11-27T03:31:41.560238+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytog8i68qcjxg-20__clip.mp4",
    "tags": [
@@ -13518,13 +13568,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 74,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nFrederick Osbou secures a strong qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nFrederick Osbou secures a strong qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: Frederick Osbou secures a strong qualifying run.\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+    "youtube": "Frederick Osbou secures a strong qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13540,12 +13598,14 @@
   {
    "id": "pod-ytog8i68qcjxg-19",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Ken Gushi pulls out of the competition due to car issues.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad @kengushi\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytog8i68qcjxg-19__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13562,7 +13622,7 @@
     "youtube"
    ],
    "created": "2026-11-27T03:17:35.443920+00:00",
-   "built": "2026-11-27T03:17:35.443927+00:00",
+   "built": "2026-11-27T03:31:41.513039+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytog8i68qcjxg-19__clip.mp4",
    "tags": [
@@ -13572,13 +13632,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 63,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nKen Gushi pulls out of the competition due to car issues.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @kengushi\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nKen Gushi pulls out of the competition due to car issues.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @kengushi\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: Ken Gushi pulls out of the competition due to car issues.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad @kengushi\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+    "youtube": "Ken Gushi pulls out of the competition due to car issues.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @kengushi\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13589,6 +13657,69 @@
    "tiktok_done": null,
    "short": null,
    "title": "GUSHI CALLS IT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytog8i68qcjxg-18",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ody Bakshi speaks about his emotions after the engine failure.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytog8i68qcjxg-18__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Top 32",
+    "start": 3341.62
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T03:15:15.426954+00:00",
+   "built": "2026-11-27T03:31:41.462624+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytog8i68qcjxg-18__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 55,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nOdy Bakshi speaks about his emotions after the engine failure.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nOdy Bakshi speaks about his emotions after the engine failure.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: Ody Bakshi speaks about his emotions after the engine failure.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+    "youtube": "Ody Bakshi speaks about his emotions after the engine failure.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ODIE'S REFLECTIONS",
    "photo": null
   },
   {
@@ -14363,59 +14494,6 @@
    "tiktok_done": null,
    "short": null,
    "title": "TOMMY LA MARE WINS",
-   "photo": null
-  },
-  {
-   "id": "pod-ytog8i68qcjxg-18",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ody Bakshi speaks about his emotions after the engine failure.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Top 32",
-    "start": 3341.62
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-27T03:15:15.426954+00:00",
-   "built": "2026-11-27T03:15:15.426962+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytog8i68qcjxg-18__clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "ODIE'S REFLECTIONS",
    "photo": null
   },
   {
