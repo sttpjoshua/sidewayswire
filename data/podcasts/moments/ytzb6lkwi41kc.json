@@ -557,7 +557,7 @@
   "why": "Smooth and consistent performance",
   "caption": "Frederick Osbobow's steady drift run nails the zones.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -566,7 +566,12 @@
    "text": "HOW CONSISTENT IS HE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-21-51874-52352.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-21-51874-52352.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5234.6, \"start\": 5229.78, \"text\": \"HOW CONSISTENT IS HE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:24:54.974884+00:00"
  },
  {
   "start": 5307.86,
@@ -579,10 +584,15 @@
   "why": "Engaging fan interaction",
   "caption": "Fans bring RC cars to the track, adding to the fun.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytzb6lkwi41kc-22-53079-53317.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-22-53079-53317.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T05:25:18.294764+00:00"
  },
  {
   "start": 5350.04,
@@ -595,7 +605,7 @@
   "why": "Technical skill display",
   "caption": "Dylan Hughes demonstrates left foot braking technique.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -604,7 +614,12 @@
    "text": "LEFT FOOT BRAKE TRICK?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-23-53500-54061.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-23-53500-54061.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5385.78, \"start\": 5382.38, \"text\": \"LEFT FOOT BRAKE TRICK?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:26:45.253113+00:00"
  },
  {
   "start": 5455.12,
@@ -617,7 +632,7 @@
   "why": "Strong angle and wall proximity, but a critical mistake.",
   "caption": "Connor Shanahan's aggressive run gets dinged by zone two.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -626,7 +641,12 @@
    "text": "HOW MUCH WILL ZONE TWO HURT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-24-54551-55330.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-24-54551-55330.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5509.98, \"start\": 5507.24, \"text\": \"HOW MUCH WILL ZONE TWO HURT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:28:39.659220+00:00"
  },
  {
   "start": 5708.02,
