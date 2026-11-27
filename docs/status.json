@@ -1,10 +1,11 @@
 {
- "updated": "2026-11-27T13:01:52.047635+00:00",
+ "updated": "2026-11-27T13:06:42.000670+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 851,
   "skipped": 75,
   "check": 6,
+  "music": 1,
   "posted": 3
  },
  "collected": "2026-11-27T13:01:46.219419+00:00",
@@ -13403,6 +13404,57 @@
     "mode": "optional",
     "credit": ""
    },
+   "rights": {
+    "r": "eigen",
+    "money": true
+   }
+  },
+  {
+   "id": "2026-11-27-sideways-weekly",
+   "kind": "weekly",
+   "status": "music",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Sideways Weekly, week 48: the 3 drift stories you need to know 🔥\n\n1. Conor Shanahan Wins In Japan\n2. Fd 2027 Schedule Is Out\n3. Is Jimmy Oakes Going Pro In 2027?\n\nWhich one was the biggest for you?\n\n#drift #drifting #formulad #driftmasters #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": null,
+   "check": true,
+   "check_reason": "nieuw format Sideways Weekly: kijk hem even terug",
+   "source": null,
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T13:05:41.201015+00:00",
+   "built": null,
+   "want_at": "2026-11-27T09:00:00+00:00",
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/2026-11-27-sideways-weekly__vertical.mp4",
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": "reel",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": [],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SIDEWAYS WEEKLY · WEEK 48",
+   "photo": null,
    "rights": {
     "r": "eigen",
     "money": true
