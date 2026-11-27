@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:46:40.649617+00:00",
+ "updated": "2026-11-27T21:02:30.305034+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T20:46:34.360505+00:00",
+ "collected": "2026-11-27T21:02:26.440407+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,9 +35,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": true,
-   "items": 9,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
   },
   {
    "source": "Google News",
@@ -49,16 +48,14 @@
   {
    "source": "Formula DRIFT",
    "url": "https://www.youtube.com/@FormulaDRIFT",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLqU1MEK55LYkV3M8W8D"
   },
   {
    "source": "Drift Masters",
    "url": "https://www.youtube.com/@DriftMastersGrandPrix",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6rwUxdTOtORA3KL3q3r"
   },
   {
    "source": "Auto Partner",
@@ -70,30 +67,26 @@
   {
    "source": "Conor Shanahan",
    "url": "https://www.youtube.com/@TheShanahans",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCxuKIyvx9B2UbZlpEywm"
   },
   {
    "source": "Aurimas Bakchis",
    "url": "https://www.youtube.com/fealsuspension",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCc0FzKeJ4GBNZBno4rh9"
   },
   {
    "source": "Matt Field",
    "url": "https://www.youtube.com/@mattfield777",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCmnZe9gMFcShdSLfEDsa"
   },
   {
    "source": "Adam LZ",
    "url": "https://www.youtube.com/@AdamLZ",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXIYLgIp6DYZHjmUUUXE"
   },
   {
    "source": "D1 Grand Prix (D1GP)",
@@ -120,7 +113,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -140,16 +133,14 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
   },
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
   },
   {
    "source": "Google News",
@@ -183,15 +174,14 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": true,
-   "items": 6,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
   },
   {
    "source": "Google News",
@@ -623,6 +613,40 @@
    ]
   },
   {
+   "title": "The cleanest borlaperformance exhaust you will see when it was installed on my man hertlife’s Twerk Horse!! #borla",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T20:30:04+00:00",
+   "items": [
+    {
+     "source": "@vaughngittinjr",
+     "title": "The cleanest borlaperformance exhaust you will see when it was installed on my man hertlife’s Twerk Horse!! #borla",
+     "url": "https://www.instagram.com/p/DgQiqpsGnSd/",
+     "kind": "instagram",
+     "published": "2026-11-27T20:30:04+00:00",
+     "media_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/936661987_18641028958025021_2154887467802079132_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=_A1bS6XSaU8Q7kNvwETbN5B&_nc_oc=AdqR6yHa0JZeTJOk9inMB786FW2GroK4TqRQppisbQTJ8j6uDgBY9xtN3rKshPqE4oE&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Z8FZ1xqdLcKOm1KkST9vLw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQU0W6graKofKlC8Mc6hgnyN0qAy10cZzC3XZ_PhtN23cg&oe=6B0FA7B6",
+     "media_type": "CAROUSEL_ALBUM"
+    }
+   ]
+  },
+  {
+   "title": "2016 me had no idea what she was getting into 😅 The day I decided to build a drift car. Would you go back and do it again? #throwback #rx7 #driftcar #carbuild #formuladrift",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T20:30:01+00:00",
+   "items": [
+    {
+     "source": "@colletedavis",
+     "title": "2016 me had no idea what she was getting into 😅 The day I decided to build a drift car. Would you go back and do it again? #throwback #rx7 #driftcar #carbuild #formuladrift",
+     "url": "https://www.instagram.com/reel/DgQesCaBtZp/",
+     "kind": "instagram",
+     "published": "2026-11-27T20:30:01+00:00",
+     "media_url": null,
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
    "title": "Test done in the fionnsport E30 M3! What a machine can’t wait for Sunday, enjoy me trying to figure out the LHD 😅",
    "series": "FD + DM",
    "buzz": 1,
@@ -640,6 +664,40 @@
    ]
   },
   {
+   "title": "My mom told me to never grow up. I may have been 5 when she said it 😁😜",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T19:29:20+00:00",
+   "items": [
+    {
+     "source": "@jeffjonesracing",
+     "title": "My mom told me to never grow up. I may have been 5 when she said it 😁😜",
+     "url": "https://www.instagram.com/reel/DgQbV6qSEZA/",
+     "kind": "instagram",
+     "published": "2026-11-27T19:29:20+00:00",
+     "media_url": "https://scontent-atl3-1.cdninstagram.com/o1/v/t2/f2/m367/AQMt9GenKCU2DeyXeFCllDgtxmPfyx42tkaU_qQ1VpvxDXoB2jHrXu4wP9Q2hk2ZIg5kR2L8sw5Dwh1jnJ7nhGup_PYX-y4uXVsO93MdkQ.mp4?_nc_cat=111&_nc_sid=8bf8fe&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_ohc=opKrzUTHK04Q7kNvwGZj7vm&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzA0Mzk1ODY0NjY5Nzc2LCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjI3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=I1RTiyyLUEndQXlWI2SW4w&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQWdgXZosZAzmBZr7IFJN3vK_eP9DzOJ57XW201vO12iJg&oe=6B0FBD4B",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "This is how you send it at semafestofficial ",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T19:05:27+00:00",
+   "items": [
+    {
+     "source": "@ryanhasinsta",
+     "title": "This is how you send it at semafestofficial ",
+     "url": "https://www.instagram.com/reel/DgQYiLvtLRE/",
+     "kind": "instagram",
+     "published": "2026-11-27T19:05:27+00:00",
+     "media_url": "https://scontent-atl3-2.cdninstagram.com/o1/v/t16/f2/m84/AQPKNMyA9zUFIMsooMaqpcb7u0mWvDm8_QdtrEbOZbFMUMtf3wvll4bO7qMaazum6Qt5UqpVHFN1C_stbAT5dH2vrHu4VvGwI31vx90.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_ohc=ByOck1RWSi8Q7kNvwEykbBH&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTUyNDE2NDc0NjI0MDQxNywiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjoxNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=baa4f624b131341f&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC81RDA2QTI3Mjg2MEM0REJDOUM4QjMyNkFEMDc4OUNBOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzcxNUYwMTYwREQ5NjQ0MDM5MUJCN0MyREFCRDBGMDVEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbChrukiI61BRUCKAJDMywXQDCZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=J7Nz3U7AJVDhR7phrN5S-A&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQXPc0BXqxRvt3OmTnDDiF_r_hOWKTZ-l6KRYOwE58IECg&oe=6B0BC826",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
    "title": "Quick blast in the mats_performance M3 only clip I got on the helmet. Feeling with the car was quite nice excited for this weekend! #79",
    "series": "FD + DM",
    "buzz": 1,
@@ -652,6 +710,23 @@
      "kind": "instagram",
      "published": "2026-11-27T18:40:43+00:00",
      "media_url": "https://scontent-atl3-1.cdninstagram.com/o1/v/t2/f2/m86/AQNXVnFjt1oWrrM_0PJhRERkp1y2QM2miMSO1iOQQapioNqwoVTMPwrL7mIOWUqzxqvGbgnYYOhdYQ1oeucpj0ACqfIbZEXvKZvD5u8.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_ohc=z0QJDIt4ufMQ7kNvwFwnPNz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI3Ni5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjIwNTY0NjU0MDE3MjkwODksImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6OTEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=b467f8575f35290c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82REFGNUY5NDdCRjA0ODE0QjZBQzY2RjYyREY0NDJFM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIyQkFGMzk5MDk4MjRBOTY5QzdDMUJERENBQjgxNUEwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaCwZqchZanBxUCKAJDMywXQFbgAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Qez21J9ZV7a-6Hx03mD83A&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UqsCDQBplpgpYuRF1rX9tcr-FR21yne1lR1yVo_mzwfbj9ZwuFjfSHDsG2wZvJcMWBj40tJ8a6ZaMlOY68YCWSbJzeiawUKeD694fENB8QSrawPpKDLTmOK3iAePDIaPU6Ha&oh=00_AQXW1LQZwoonf2Wu-vSjfuvnyGdK5Xpoc6j9tCiNkmFUNQ&oe=6B0BB3E8",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "The C10 build officially starts. What mods would you do next? #c10 #chevyc10 #squarebody #trucks #formuladrift",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T17:11:05+00:00",
+   "items": [
+    {
+     "source": "@colletedavis",
+     "title": "The C10 build officially starts. What mods would you do next? #c10 #chevyc10 #squarebody #trucks #formuladrift",
+     "url": "https://www.instagram.com/reel/DgQLpfKOe5H/",
+     "kind": "instagram",
+     "published": "2026-11-27T17:11:05+00:00",
+     "media_url": null,
      "media_type": "VIDEO"
     }
    ]
@@ -1337,23 +1412,6 @@
    ]
   },
   {
-   "title": "_wisefab_ V3 front kit goes far beyond additional steering lock. Utilizing a BMW E46 front mounted steering rack, the system offers improved rigidity, optimized steering geometry, reduced bump steer, ",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-17T18:28:32+00:00",
-   "items": [
-    {
-     "source": "@ryanlitteral",
-     "title": "_wisefab_ V3 front kit goes far beyond additional steering lock. Utilizing a BMW E46 front mounted steering rack, the system offers improved rigidity, optimized steering geometry, reduced bump steer, ",
-     "url": "https://www.instagram.com/reel/Df2koHmSd70/",
-     "kind": "instagram",
-     "published": "2026-11-17T18:28:32+00:00",
-     "media_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t16/f2/m84/AQOLmGG94XFS6QgQUr8gm020GCLJWT7VVMO42zIdOYPjT9GHmNmUveQfzX4Zby-ktER63jmWjqXNmEKj8dx75MWG3FBfyAsLD7ocEKc.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=PKsrjICvYgoQ7kNvwGKqWna&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTUxNTQ3NTI0NzI5OTM5NywiYXNzZXRfYWdlX2RheXMiOjksInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjo0MiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=21896157d8ddd8fe&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9GQ0JBMzM2NEMwNDk0MEMxQkVBNDM5OTc3RkE5MEUwNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzg5MTdCRkY4NzJBQzQ2NzFCOTQ1N0YzQUIzM0U3OTVBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaK7b-8opSxBRUCKAJDMywXQEUZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=AcGlxyPrSeg0u8OEBU2Xpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR1pqcFapJstoB1CngpZNxZezo5X4DmZ88ze0lKAKUapg&oe=6B0A7A16",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "title": "A shoutout to the unsung hero that powers our race trucks, the optimabatteries Yellow Top in the Ford Racing Bronco Raptor!! It endured thousands of miles testing and racing through brutal terrain, wa",
    "series": "FD",
    "buzz": 1,
@@ -1384,23 +1442,6 @@
      "published": "2026-11-17T08:00:00+00:00",
      "media_url": null,
      "media_type": null
-    }
-   ]
-  },
-  {
-   "title": "RB just loving some limiter",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-16T16:42:53+00:00",
-   "items": [
-    {
-     "source": "@ryanlitteral",
-     "title": "RB just loving some limiter",
-     "url": "https://www.instagram.com/reel/Dfzz1SJyU2C/",
-     "kind": "instagram",
-     "published": "2026-11-16T16:42:53+00:00",
-     "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMHdur0ZkWG8-3pSo4ISZEJUNa3a8zs9c7PwLltmB8onXtZXtjtbEFvuZ4TxEQGgJaPWDkVWdYHCdNX--yWmcoqRyu_f2ojrvvS_3g.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=qB2aA9uMNCgQ7kNvwHvoFxt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY5NzY2MzA5NTMxMDMwOCwiYXNzZXRfYWdlX2RheXMiOjEwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a2fda1aaa88cec33&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84OTkxN0UwQTIxMzg0M0Q4QTE0RTZGQkQzRDU2MzE4MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzExMzI3OUJCQzlFQTRFMEU4MjY1ODVFMkUzMEM3QzAzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbIn_Tb_4CEBhUCKAJDMywXQCkzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=AcGlxyPrSeg0u8OEBU2Xpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ56w0VAViANx9py5bQ-v6wESgk-0dRSTJkPaC0cFRDuw&oe=6B0A82F4",
-     "media_type": "VIDEO"
     }
    ]
   },
@@ -1524,23 +1565,6 @@
    ]
   },
   {
-   "title": "I love growing with you. Happy birthday to my lover, my best friend, my counterpart, my partner in crime- my everything phoenixxxrose",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-14T03:05:51+00:00",
-   "items": [
-    {
-     "source": "@ryanlitteral",
-     "title": "I love growing with you. Happy birthday to my lover, my best friend, my counterpart, my partner in crime- my everything phoenixxxrose",
-     "url": "https://www.instagram.com/p/DftM1F3m9P3/",
-     "kind": "instagram",
-     "published": "2026-11-14T03:05:51+00:00",
-     "media_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/902369025_18649075468011518_713390938568913517_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=zObtRXMO494Q7kNvwEqsch3&_nc_oc=AdpHWYboa8ZTsk0CG3S9sLrLIJiX3sJOsBt4Toil-3MPctVL_fShGMa_haXqiiixZu4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=AcGlxyPrSeg0u8OEBU2Xpw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTZG7gI938S75vxQhdO3Y1UVHypstXjLxEtZHuZIwJUvA&oe=6B0E494F",
-     "media_type": "CAROUSEL_ALBUM"
-    }
-   ]
-  },
-  {
    "title": "There is a lot of mathing happening today. 🎥💥 mayspiration_",
    "series": "",
    "buzz": 1,
@@ -1553,23 +1577,6 @@
      "kind": "instagram",
      "published": "2026-11-14T02:54:52+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQP3Ceu4Fxub_jqQqrOzDmkPoqUQdJVejcyQNNhfjwrFBnIwsB9d_oHhkMWFESl_tDEx64EgnFEQNCfX-O3qvYapWEQlrTF4NsL6aeU.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=NwVhuBCkpREQ7kNvwFXap6m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjIzMTEyMTk3MDc2OTU0NCwiYXNzZXRfYWdlX2RheXMiOjEyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=96e97eb44fdef855&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yNkMzN0IyN0FDOTU0MTNEODA5MDMzOEI0NERGQkM5Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVGQ0ZGMUU5RDQ1NzRGREE5QzQ4NkZFNTI2MEU4RTQzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaQuqWIssz2BxUCKAJDMywXQDQo9cKPXCkYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=SqZqBD4UC7Y6DfZ9Z2fWIQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSxOt_pR_g1x-TrV4kkzDtsAa5ixubo8GrQ2PHZInl_LA&oe=6B0A81A4",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "FRE to SEND IT 🤘🏻",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-14T00:58:52+00:00",
-   "items": [
-    {
-     "source": "@ryanlitteral",
-     "title": "FRE to SEND IT 🤘🏻",
-     "url": "https://www.instagram.com/reel/Dfs91y3SFkJ/",
-     "kind": "instagram",
-     "published": "2026-11-14T00:58:52+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQP82PTTLeY8GoIPz6u5jJRQ9gOgZ6dBxjANmINlblThHapqjzo64-9_lD1PsxOnhdzhH_g9RrRR9QSQVDZEBbHe_BUr7g-JtVbWTuo.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=F3zcmlHHvZQQ7kNvwFBAkdD&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjAzODE2MDk1MzU2MTY1NSwiYXNzZXRfYWdlX2RheXMiOjEyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=73c603d0229696d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNTA2MEMxQzcwNUY0QTEwQTg4RUNCMEUyQzM3NTFBOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzU5NUI1MTE5QkU2MzQ1Mzk5RTI3OURBRTMzRjU4MTNGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbuyI66yuyeBxUCKAJDMywXQD4VP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=AcGlxyPrSeg0u8OEBU2Xpw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Ui9KUVA60sWOR4L04QzgCgVQgDurzyC_oE_tdevIGTiSNFBOXzwlEvSdjIWV4LbwgL0695qR-KIzEQxxL_-YJ5MC1wmq2coDmCctL2ARrgqmTHFo9nf-c0ngYuzc1MLxs3sc&oh=00_AQTO4yEDbWkIWPeWjaFC8ugFxxyxgKU472X3XDSQnlmDEA&oe=6B0A6CD8",
      "media_type": "VIDEO"
     }
    ]
@@ -1724,23 +1731,6 @@
      "published": "2026-11-09T02:15:45+00:00",
      "media_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQNy9DLojb7FB-9aHNzoNsH6VewtsUup-X3Awn_vePkDZfLMNZBcQ6aAz4Vl8mpnmH6lSazXbcxq24dbM-Kqi2CdMyGgISmA8pyhisI.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=ePxWi4q6Br4Q7kNvwGph1To&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNDgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY5OTM3ODgyNTI0MTI3MSwiYXNzZXRfYWdlX2RheXMiOjE3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=c2de00766d13df0c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wRjA3MzgzN0ZDREM0RDY5QUQxMUU5RjYzOTkyMTgzMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlCOTNDRkVCNTZEQzQzREZCREIzOTc3NEU2MDUzNEE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbuir3z7uSEBhUCKAJDMywXQEFAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UuXdR_PsBq9WOQ7jMhpN6zTPKzQkYKdo4tgvXwgmB7uT0un7JO31hUDC3GZVQRRTcdvATPEXK146b5SOuNYQBrl1j27BZ5ec3SjmyoSF6SRIOjewWzACnZ_JL7Yo0O89-Tr_&oh=00_AQQdKghSNwTtDR9DQLg-FdzuKo_hlp8FWuHwSTw4pIW5oA&oe=6B0A6737",
      "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "semashow 2026 — what a week 🤯",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-08T22:37:58+00:00",
-   "items": [
-    {
-     "source": "@ryanhasinsta",
-     "title": "semashow 2026 — what a week 🤯",
-     "url": "https://www.instagram.com/p/Dff2MtYnK-i/",
-     "kind": "instagram",
-     "published": "2026-11-08T22:37:58+00:00",
-     "media_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/858594030_18650555275062403_5558224849443160899_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uFgQKN7G_tMQ7kNvwG4f-vp&_nc_oc=AdrubSz63cq0bxkm2CF4ZDJr-ixOmae5laHChFQp8pmPCRVt_mggwTOU_CahtoSc5lc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ojS26SaH0CLOwEKQbYrkPA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRlNtdrH5ihgPKhV5qE0iLKeo1dCJna6cSEksCotL8MeA&oe=6B0E633F",
-     "media_type": "CAROUSEL_ALBUM"
     }
    ]
   },
