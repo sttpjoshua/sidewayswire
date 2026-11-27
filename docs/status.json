@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:01:47.753439+00:00",
+ "updated": "2026-11-27T20:16:48.057893+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T20:01:42.596619+00:00",
+ "collected": "2026-11-27T20:16:42.349124+00:00",
  "instagram": true,
  "sources": [
   {
@@ -28,21 +28,22 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -132,8 +133,9 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20when"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -194,8 +196,9 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Red Bull",
@@ -75526,7 +75529,7 @@
  "replies": [],
  "names": [],
  "keys": {
-  "checked": "2026-11-27T00:02:49.812208+00:00",
+  "checked": "2026-11-27T20:16:47.924809+00:00",
   "keys": {
    "meta": {
     "name": "Meta (Instagram en Facebook)",
@@ -75543,7 +75546,7 @@
     "name": "TikTok",
     "state": "ok",
     "expires": "2027-11-20T12:44:19.222632+00:00",
-    "days_left": 358.5
+    "days_left": 357.7
    },
    "youtube": {
     "name": "YouTube",
