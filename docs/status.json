@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:16:20.966819+00:00",
+ "updated": "2026-11-27T08:32:14.318063+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 840,
@@ -7,7 +7,7 @@
   "check": 17,
   "posted": 3
  },
- "collected": "2026-11-27T08:16:15.439761+00:00",
+ "collected": "2026-11-27T08:32:08.560818+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,15 +35,14 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
   },
   {
    "source": "Formula DRIFT",
@@ -119,7 +118,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -160,9 +159,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
   },
   {
    "source": "Google News",
@@ -174,15 +172,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 12,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": true,
-   "items": 6,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
   },
   {
    "source": "Google News",
@@ -564,6 +561,23 @@
      "published": "2026-11-27T08:10:00+00:00",
      "media_url": null,
      "media_type": null
+    }
+   ]
+  },
+  {
+   "title": "Do you get self conscious about your car the way I do?",
+   "series": "",
+   "buzz": 1,
+   "published": "2026-11-27T06:19:57+00:00",
+   "items": [
+    {
+     "source": "@sileightymania",
+     "title": "Do you get self conscious about your car the way I do?",
+     "url": "https://www.instagram.com/p/DgPBYNNFPav/",
+     "kind": "instagram",
+     "published": "2026-11-27T06:19:57+00:00",
+     "media_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/933981491_18122761541469139_3139638315272945108_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=flM3dfoC8JkQ7kNvwHysJPt&_nc_oc=Adphe5K_JkfkY2IkJamBSj0_WlcYnpdxRmDWodM90iZ69UT5TNxQVeQ-ccMVpGyOAao&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=XD2kGhfkyxd__DaRyE1F3A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQUnERtN8T7ZSsxxmaplsm5eNFCC9MfrWotBqP_bUDPzAw&oe=6B0F119E",
+     "media_type": "CAROUSEL_ALBUM"
     }
    ]
   },
@@ -1702,23 +1716,6 @@
      "kind": "instagram",
      "published": "2026-11-06T13:29:02+00:00",
      "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQPNYJJAHvcAEMukoJQt2qp_GnkZHEpii1Qui_S26X-yeEcnoHOnn8U_oqJJc3Mq7dmV9naeJu6TL9gkCYyF2FaCHcTcPhez01EjrEo.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=y_sRriGbcd8Q7kNvwGRARcT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjM4NTMxMjY4ODk4OTU5OSwiYXNzZXRfYWdlX2RheXMiOjIwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=6ba842b46afb333c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GNERFQkQwNjg4NDE0ODRDQUE4NDMyMkEwMzQ5RERGMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdEOTBCMzNFQUE0NzRFNTA5NTE4QzZDNDY1OTFBMjRFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa-lou4vNu8CBUCKAJDMywXQEoEOVgQYk4YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=5e2X1L12ztWYysD4IYNDDw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR1Gk-fRpaFZSatvY3MRVWHHx4le3-ombr97ZT-tbWBZQ&oe=6B0A6332",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "As these cars become raster, the G Forces increase.",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-06T09:05:35+00:00",
-   "items": [
-    {
-     "source": "@rudyhansen119",
-     "title": "As these cars become raster, the G Forces increase.",
-     "url": "https://www.instagram.com/reel/DfZPfBfsEXN/",
-     "kind": "instagram",
-     "published": "2026-11-06T09:05:35+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQOpTSYlbMC68Cu6g_HclOerDmwyMwbHtqUacMNbSPaMvriP_otvboPBbPdPixHNZuavekiYFyH2Bg1iF_UL_KUOSulb2cLASpaj1rk.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=HCCnjOTiQDsQ7kNvwHwoHXS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ4MjYxMDYyNzA3MjczOCwiYXNzZXRfYWdlX2RheXMiOjIwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=928fb4b227607c80&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83NUQ0OEZGRjBCOEY0NzUyQjFENDNGQzIyMTlCMjQwNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNEMjRGNjkzRUU5RjQ4QTVCMkUzNUEyOEZERUNFOEZEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbEy6L8pZuiBRUCKAJDMywXQEXd0vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=3umzPzlA54ypsztV-gYG9A&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQT9IXcZqBsUJw8ghzGcSHTjo8vHzBwXCMc4gnNW0KbxJA&oe=6B0A5BA6",
      "media_type": "VIDEO"
     }
    ]
