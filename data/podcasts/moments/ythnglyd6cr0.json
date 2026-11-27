@@ -290,7 +290,7 @@
   "why": "Shows the risk and luck in drifting",
   "caption": "The car escaped major damage",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -299,7 +299,12 @@
    "text": "DID THE CAR SURVIVE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-10-19433-19645.mp4"
+  "wait_name": "v2-ythnglyd6cr0-10-19433-19645.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1956.4, \"start\": 1953.82, \"text\": \"DID THE CAR SURVIVE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:28:38.526106+00:00"
  },
  {
   "start": 1971.38,
@@ -312,10 +317,15 @@
   "why": "Insight into a driver's mindset",
   "caption": "Adam breaks down the incident",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ythnglyd6cr0-11-19714-20157.mp4"
+  "wait_name": "v2-ythnglyd6cr0-11-19714-20157.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T02:29:35.037959+00:00"
  },
  {
   "start": 2040.34,
@@ -328,7 +338,7 @@
   "why": "Highlights the next round of competition",
   "caption": "Adam LZ advances to top 16",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -337,7 +347,12 @@
    "text": "WHO'S NEXT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-12-20403-20604.mp4"
+  "wait_name": "v2-ythnglyd6cr0-12-20403-20604.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2047.4, \"start\": 2043.34, \"text\": \"WHO'S NEXT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:30:19.035222+00:00"
  },
  {
   "start": 2226.84,
@@ -350,7 +365,7 @@
   "why": "Shows strategic thinking in car setup",
   "caption": "Cole Richards adjusts car setup",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -359,7 +374,12 @@
    "text": "LESS GRIP, MORE CONTROL?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-13-22268-22710.mp4"
+  "wait_name": "v2-ythnglyd6cr0-13-22268-22710.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2252.18, \"start\": 2248.66, \"text\": \"LESS GRIP, MORE CONTROL?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:31:45.578553+00:00"
  },
  {
   "start": 2420.72,
