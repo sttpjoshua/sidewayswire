@@ -15,7 +15,7 @@
   <div class="row {{ style }}" style="padding:12px 18px;grid-template-columns:50px 40px minmax(0,1fr) 280px;transform:rotate({{ -0.3 if loop.index0 % 2 == 0 else 0.3 }}deg)">
     <div class="bb" style="font-size:40px">{{ loop.index }}</div>
     <div class="bb" style="font-size:34px;color:{{ '#2AA84A' if r.move == 'up' else ('#FF2E88' if r.move == 'down' else 'inherit') }}">{{ '▲' if r.move == 'up' else ('▼' if r.move == 'down' else ('=' if r.move == 'same' else '')) }}</div>
-    <div class="bb" data-fit data-size="40" data-min="28" style="font-size:40px;white-space:nowrap;overflow:hidden">{{ r.name }}</div>
+    <div class="bb" data-fit data-size="40" data-min="28" style="font-size:40px;white-space:nowrap;overflow-x:clip;overflow-y:visible">{{ r.name }}</div>
     <div style="display:flex;align-items:center;justify-content:flex-end;gap:18px">
       <div class="small">{{ 'LEADER' if loop.first else '−' ~ (leader - r.points) }}</div>
       <div class="bb" style="font-size:44px;width:80px;text-align:right">{{ r.points }}</div>

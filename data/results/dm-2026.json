@@ -56,43 +56,43 @@
    "nat": "POL",
    "car": "Nissan S14",
    "pos": 1,
-   "points": 509.0,
+   "points": 509,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 4,
-     "points": 64.0
+     "points": 64
     },
     {
      "n": 2,
      "pos": 5,
-     "points": 55.0
+     "points": 55
     },
     {
      "n": 3,
      "pos": 1,
-     "points": 104.0
+     "points": 104
     },
     {
      "n": 4,
      "pos": 6,
-     "points": 55.0
+     "points": 55
     },
     {
      "n": 5,
      "pos": 1,
-     "points": 104.0
+     "points": 104
     },
     {
      "n": 6,
      "pos": 13,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 7,
      "pos": 2,
-     "points": 95.0
+     "points": 95
     }
    ]
   },
@@ -102,43 +102,43 @@
    "nat": "IRL",
    "car": "Toyota GT86",
    "pos": 2,
-   "points": 474.0,
+   "points": 474,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 1,
-     "points": 107.0
+     "points": 107
     },
     {
      "n": 2,
      "pos": 2,
-     "points": 88.0
+     "points": 88
     },
     {
      "n": 3,
      "pos": 17,
-     "points": 24.0
+     "points": 24
     },
     {
      "n": 4,
      "pos": 21,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 5,
      "pos": 9,
-     "points": 39.0
+     "points": 39
     },
     {
      "n": 6,
      "pos": 2,
-     "points": 96.0
+     "points": 96
     },
     {
      "n": 7,
      "pos": 1,
-     "points": 104.0
+     "points": 104
     }
    ]
   },
@@ -148,43 +148,43 @@
    "nat": "POL",
    "car": "Toyota Supra GR",
    "pos": 3,
-   "points": 468.0,
+   "points": 468,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 3,
-     "points": 82.0
+     "points": 82
     },
     {
      "n": 2,
      "pos": 1,
-     "points": 104.0
+     "points": 104
     },
     {
      "n": 3,
      "pos": 19,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 5,
-     "points": 56.0
+     "points": 56
     },
     {
      "n": 5,
      "pos": 4,
-     "points": 72.0
+     "points": 72
     },
     {
      "n": 6,
      "pos": 1,
-     "points": 106.0
+     "points": 106
     },
     {
      "n": 7,
      "pos": 15,
-     "points": 32.0
+     "points": 32
     }
    ]
   },
@@ -194,43 +194,43 @@
    "nat": "IRL",
    "car": "Ford Mustang RTR",
    "pos": 4,
-   "points": 421.0,
+   "points": 421,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 2,
-     "points": 89.0
+     "points": 89
     },
     {
      "n": 2,
      "pos": 4,
-     "points": 72.0
+     "points": 72
     },
     {
      "n": 3,
      "pos": 5,
-     "points": 54.0
+     "points": 54
     },
     {
      "n": 4,
      "pos": 7,
-     "points": 51.0
+     "points": 51
     },
     {
      "n": 5,
      "pos": 13,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 6,
      "pos": 9,
-     "points": 39.0
+     "points": 39
     },
     {
      "n": 7,
      "pos": 3,
-     "points": 84.0
+     "points": 84
     }
    ]
   },
@@ -240,89 +240,89 @@
    "nat": "IRL",
    "car": "Toyota GT86",
    "pos": 5,
-   "points": 357.0,
+   "points": 357,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 11,
-     "points": 35.0
+     "points": 35
     },
     {
      "n": 2,
      "pos": 7,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 3,
      "pos": 9,
-     "points": 39.0
+     "points": 39
     },
     {
      "n": 4,
      "pos": 1,
-     "points": 106.0
+     "points": 106
     },
     {
      "n": 5,
      "pos": 20,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 3,
-     "points": 81.0
+     "points": 81
     },
     {
      "n": 7,
      "pos": 14,
-     "points": 32.0
+     "points": 32
     }
    ]
   },
   {
-   "name": "Duane Mckeever",
+   "name": "Duane McKeever",
    "number": 25,
    "nat": "IRL",
    "car": "Nissan 180SX",
    "pos": 6,
-   "points": 314.0,
+   "points": 314,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 5,
-     "points": 56.0
+     "points": 56
     },
     {
      "n": 2,
      "pos": 10,
-     "points": 35.0
+     "points": 35
     },
     {
      "n": 3,
      "pos": 6,
-     "points": 53.0
+     "points": 53
     },
     {
      "n": 4,
      "pos": 20,
-     "points": 17.0
+     "points": 17
     },
     {
      "n": 5,
      "pos": 15,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 6,
      "pos": 6,
-     "points": 51.0
+     "points": 51
     },
     {
      "n": 7,
      "pos": 4,
-     "points": 70.0
+     "points": 70
     }
    ]
   },
@@ -332,43 +332,43 @@
    "nat": "IRL",
    "car": "Nissan S15",
    "pos": 7,
-   "points": 287.0,
+   "points": 287,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 24,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 14,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 3,
      "pos": 2,
-     "points": 88.0
+     "points": 88
     },
     {
      "n": 4,
      "pos": 17,
-     "points": 21.0
+     "points": 21
     },
     {
      "n": 5,
      "pos": 3,
-     "points": 82.0
+     "points": 82
     },
     {
      "n": 6,
      "pos": 29,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 10,
-     "points": 32.0
+     "points": 32
     }
    ]
   },
@@ -378,43 +378,43 @@
    "nat": "EST",
    "car": "BMW E46",
    "pos": 8,
-   "points": 285.0,
+   "points": 285,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 18,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 11,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 3,
      "pos": 29,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 3,
-     "points": 76.0
+     "points": 76
     },
     {
      "n": 5,
      "pos": 6,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 6,
      "pos": 8,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 7,
      "pos": 7,
-     "points": 49.0
+     "points": 49
     }
    ]
   },
@@ -424,43 +424,43 @@
    "nat": "EST",
    "car": "BMW M2 G87 x E46",
    "pos": 9,
-   "points": 268.0,
+   "points": 268,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 7,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 2,
      "pos": 20,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 3,
-     "points": 76.0
+     "points": 76
     },
     {
      "n": 4,
      "pos": 11,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 18,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 7,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 7,
      "pos": 11,
-     "points": 32.0
+     "points": 32
     }
    ]
   },
@@ -470,43 +470,43 @@
    "nat": "FIN",
    "car": "BMW F22 Eurofighter",
    "pos": 10,
-   "points": 255.0,
+   "points": 255,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 10,
-     "points": 36.0
+     "points": 36
     },
     {
      "n": 2,
      "pos": 3,
-     "points": 82.0
+     "points": 82
     },
     {
      "n": 3,
      "pos": 10,
-     "points": 35.0
+     "points": 35
     },
     {
      "n": 4,
      "pos": 18,
-     "points": 20.0
+     "points": 20
     },
     {
      "n": 5,
      "pos": 26,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 14,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 7,
      "pos": 9,
-     "points": 34.0
+     "points": 34
     }
    ]
   },
@@ -516,43 +516,43 @@
    "nat": "LVA",
    "car": "BMW HGK",
    "pos": 11,
-   "points": 244.0,
+   "points": 244,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 8,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 2,
      "pos": 8,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 3,
      "pos": 8,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 4,
      "pos": 32,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 5,
      "pos": 24,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 5,
-     "points": 52.0
+     "points": 52
     },
     {
      "n": 7,
      "pos": 22,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -562,43 +562,43 @@
    "nat": "LTU",
    "car": "BMW M2 G87",
    "pos": 12,
-   "points": 232.0,
+   "points": 232,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 14,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 2,
      "pos": 21,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 13,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 4,
      "pos": 2,
-     "points": 88.0
+     "points": 88
     },
     {
      "n": 5,
      "pos": 8,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 6,
      "pos": 44,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 7,
      "pos": 28,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -608,43 +608,43 @@
    "nat": "HUN",
    "car": "Toyota GR86",
    "pos": 13,
-   "points": 218.0,
+   "points": 218,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 31,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 32,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 20,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 8,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 5,
      "pos": 2,
-     "points": 90.0
+     "points": 90
     },
     {
      "n": 6,
      "pos": 22,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 30,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -654,43 +654,43 @@
    "nat": "FIN",
    "car": "Toyota GR86",
    "pos": 14,
-   "points": 213.0,
+   "points": 213,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 6,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 2,
      "pos": 9,
-     "points": 37.0
+     "points": 37
     },
     {
      "n": 3,
      "pos": 27,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 4,
-     "points": 64.0
+     "points": 64
     },
     {
      "n": 5,
      "pos": 17,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 25,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 19,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -700,43 +700,43 @@
    "nat": "SLV",
    "car": "Nissan 400Z",
    "pos": 15,
-   "points": 208.0,
+   "points": 208,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 23,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 6,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 3,
      "pos": 4,
-     "points": 64.0
+     "points": 64
     },
     {
      "n": 4,
      "pos": 9,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 12,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 6,
      "pos": 35,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 7,
      "pos": 23,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -746,43 +746,43 @@
    "nat": "FIN",
    "car": "Toyota Chaser JZX100",
    "pos": 16,
-   "points": 198.0,
+   "points": 198,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 27,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 31,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 21,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 10,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 10,
-     "points": 35.0
+     "points": 35
     },
     {
      "n": 6,
      "pos": 15,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 7,
      "pos": 6,
-     "points": 51.0
+     "points": 51
     }
    ]
   },
@@ -792,43 +792,43 @@
    "nat": "POL",
    "car": "Toyota GR86",
    "pos": 17,
-   "points": 198.0,
+   "points": 198,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 9,
-     "points": 37.0
+     "points": 37
     },
     {
      "n": 2,
      "pos": 18,
-     "points": 17.0
+     "points": 17
     },
     {
      "n": 3,
      "pos": 15,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 4,
      "pos": 15,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 16,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 6,
      "pos": 18,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 12,
-     "points": 32.0
+     "points": 32
     }
    ]
   },
@@ -838,43 +838,43 @@
    "nat": "FRA",
    "car": "Subaru BRZ",
    "pos": 18,
-   "points": 194.0,
+   "points": 194,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 15,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 2,
      "pos": 22,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 11,
-     "points": 34.0
+     "points": 34
     },
     {
      "n": 4,
      "pos": 13,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 34,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 4,
-     "points": 64.0
+     "points": 64
     },
     {
      "n": 7,
      "pos": 27,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -884,43 +884,43 @@
    "nat": "POL",
    "car": "Nissan S14.9",
    "pos": 19,
-   "points": 160.0,
+   "points": 160,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 22,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 24,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 22,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 28,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 5,
      "pos": 21,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 12,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 7,
      "pos": 8,
-     "points": 48.0
+     "points": 48
     }
    ]
   },
@@ -930,43 +930,43 @@
    "nat": "POL",
    "car": "Nissan S15",
    "pos": 20,
-   "points": 160.0,
+   "points": 160,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 19,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 12,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 3,
      "pos": 18,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 29,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 5,
      "pos": 19,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 16,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 7,
      "pos": 16,
-     "points": 32.0
+     "points": 32
     }
    ]
   },
@@ -976,43 +976,43 @@
    "nat": "NOR",
    "car": "Nissan S14.9",
    "pos": 21,
-   "points": 151.0,
+   "points": 151,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 17,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 17,
-     "points": 18.0
+     "points": 18
     },
     {
      "n": 3,
      "pos": 33,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 4,
      "pos": 14,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 32,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 23,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 5,
-     "points": 53.0
+     "points": 53
     }
    ]
   },
@@ -1022,43 +1022,43 @@
    "nat": "PRT",
    "car": "BMW 3 series E92",
    "pos": 22,
-   "points": 147.0,
+   "points": 147,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 16,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 2,
      "pos": 26,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 30,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 19,
-     "points": 18.0
+     "points": 18
     },
     {
      "n": 5,
      "pos": 44,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 10,
-     "points": 33.0
+     "points": 33
     },
     {
      "n": 7,
      "pos": 13,
-     "points": 32.0
+     "points": 32
     }
    ]
   },
@@ -1068,38 +1068,38 @@
    "nat": "ISR",
    "car": "BMW E46",
    "pos": 23,
-   "points": 145.0,
+   "points": 145,
    "wildcard": false,
    "rounds": [
     {
      "n": 2,
      "pos": 43,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 3,
      "pos": 7,
-     "points": 48.0
+     "points": 48
     },
     {
      "n": 4,
      "pos": 16,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 11,
-     "points": 33.0
+     "points": 33
     },
     {
      "n": 6,
      "pos": 28,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 26,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1109,38 +1109,38 @@
    "nat": "IRL",
    "car": "Nissan S15",
    "pos": 24,
-   "points": 144.0,
+   "points": 144,
    "wildcard": false,
    "rounds": [
     {
      "n": 2,
      "pos": 16,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 3,
      "pos": 28,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 12,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 22,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 11,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 7,
      "pos": 18,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1150,33 +1150,33 @@
    "nat": "FIN",
    "car": "Nissan 180SX",
    "pos": 25,
-   "points": 136.0,
+   "points": 136,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 12,
-     "points": 34.0
+     "points": 34
     },
     {
      "n": 2,
      "pos": 19,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 12,
-     "points": 33.0
+     "points": 33
     },
     {
      "n": 4,
      "pos": 38,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 5,
-     "points": 53.0
+     "points": 53
     }
    ]
   },
@@ -1186,43 +1186,43 @@
    "nat": "CZE",
    "car": "BMW M2 F87",
    "pos": 26,
-   "points": 112.0,
+   "points": 112,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 13,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 2,
      "pos": 28,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 24,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 23,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 5,
      "pos": 23,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 21,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 42,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1232,43 +1232,43 @@
    "nat": "FIN",
    "car": "BMW M2",
    "pos": 27,
-   "points": 112.0,
+   "points": 112,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 32,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 35,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 3,
      "pos": 14,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 4,
      "pos": 27,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 5,
      "pos": 14,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 6,
      "pos": 27,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 44,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1278,43 +1278,43 @@
    "nat": "NOR",
    "car": "BMW E46",
    "pos": 28,
-   "points": 98.0,
+   "points": 98,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 25,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 13,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 3,
      "pos": 26,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 36,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 30,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 17,
-     "points": 18.0
+     "points": 18
     },
     {
      "n": 7,
      "pos": 34,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1324,43 +1324,43 @@
    "nat": "IRL",
    "car": "Toyota Supra GR",
    "pos": 29,
-   "points": 80.0,
+   "points": 80,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 30,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 30,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 16,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 4,
      "pos": 35,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 29,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 33,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 7,
      "pos": 39,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1370,43 +1370,43 @@
    "nat": "FIN",
    "car": "BMW E92 Eurofighter",
    "pos": 30,
-   "points": 80.0,
+   "points": 80,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 28,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 25,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 23,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 42,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 33,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 19,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 20,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1416,89 +1416,89 @@
    "nat": "IRL",
    "car": "BMW E46",
    "pos": 31,
-   "points": 64.0,
+   "points": 64,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 21,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 27,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 25,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 34,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 37,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 30,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 35,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
   {
-   "name": "Clint Van Oort",
+   "name": "Clint van Oort",
    "number": 96,
    "nat": "NLD",
    "car": "Nissan S14",
    "pos": 32,
-   "points": 64.0,
+   "points": 64,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 29,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 23,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 3,
      "pos": 42,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 4,
      "pos": 31,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 5,
      "pos": 41,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 31,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 36,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1508,13 +1508,13 @@
    "nat": "EST",
    "car": "Toyota GT86",
    "pos": 33,
-   "points": 48.0,
+   "points": 48,
    "wildcard": true,
    "rounds": [
     {
      "n": 5,
      "pos": 7,
-     "points": 48.0
+     "points": 48
     }
    ]
   },
@@ -1524,18 +1524,18 @@
    "nat": "PRT",
    "car": "Mercedes AMG GT",
    "pos": 34,
-   "points": 48.0,
+   "points": 48,
    "wildcard": true,
    "rounds": [
     {
      "n": 2,
      "pos": 15,
-     "points": 32.0
+     "points": 32
     },
     {
      "n": 5,
      "pos": 27,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1545,33 +1545,33 @@
    "nat": "CHE",
    "car": "Toyota GR Yaris",
    "pos": 35,
-   "points": 48.0,
+   "points": 48,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 33,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 2,
      "pos": 29,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 5,
      "pos": 31,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 46,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 7,
      "pos": 21,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1581,18 +1581,18 @@
    "nat": "POL",
    "car": "Nissan S15 Silvia",
    "pos": 36,
-   "points": 32.0,
+   "points": 32,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 20,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 24,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1602,18 +1602,18 @@
    "nat": "POL",
    "car": "Alfa Romeo Quadrifoglio",
    "pos": 37,
-   "points": 32.0,
+   "points": 32,
    "wildcard": true,
    "rounds": [
     {
      "n": 1,
      "pos": 20,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 32,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1623,23 +1623,23 @@
    "nat": "UKR",
    "car": "Ford Mustang RTR ",
    "pos": 38,
-   "points": 32.0,
+   "points": 32,
    "wildcard": true,
    "rounds": [
     {
      "n": 2,
      "pos": 36,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 24,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 29,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1649,43 +1649,43 @@
    "nat": "CYP",
    "car": "BMW E82",
    "pos": 39,
-   "points": 32.0,
+   "points": 32,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 26,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 2,
      "pos": 40,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 3,
      "pos": 36,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 4,
      "pos": 39,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 44,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 36,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 7,
      "pos": 31,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1695,18 +1695,18 @@
    "nat": "IRL",
    "car": "Nissan 180SX",
    "pos": 40,
-   "points": 32.0,
+   "points": 32,
    "wildcard": true,
    "rounds": [
     {
      "n": 3,
      "pos": 32,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 6,
      "pos": 26,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1716,13 +1716,13 @@
    "nat": "KWT",
    "car": "Toyota GT86",
    "pos": 41,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 7,
      "pos": 17,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1732,13 +1732,13 @@
    "nat": "FIN",
    "car": "BMW E46",
    "pos": 42,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 4,
      "pos": 22,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1748,13 +1748,13 @@
    "nat": "EST",
    "car": "BMW Eurofighter",
    "pos": 43,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 4,
      "pos": 24,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1764,13 +1764,13 @@
    "nat": "FIN",
    "car": "Bmw E36 328",
    "pos": 44,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 4,
      "pos": 25,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1780,13 +1780,13 @@
    "nat": "LVA",
    "car": "Toyota GT86",
    "pos": 44,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 5,
      "pos": 25,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1796,13 +1796,13 @@
    "nat": "POL",
    "car": "Toyota GR Supra",
    "pos": 44,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 7,
      "pos": 25,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1812,13 +1812,13 @@
    "nat": "FIN",
    "car": "BMW E36 M3",
    "pos": 47,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 4,
      "pos": 26,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1828,13 +1828,13 @@
    "nat": "LVA",
    "car": "BMW E46",
    "pos": 48,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 5,
      "pos": 28,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1844,18 +1844,18 @@
    "nat": "DNK",
    "car": "BMW E92 M3",
    "pos": 49,
-   "points": 16.0,
+   "points": 16,
    "wildcard": true,
    "rounds": [
     {
      "n": 1,
      "pos": 35,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 4,
      "pos": 30,
-     "points": 16.0
+     "points": 16
     }
    ]
   },
@@ -1865,43 +1865,43 @@
    "nat": "EGY",
    "car": "BMW E46",
    "pos": 50,
-   "points": 16.0,
+   "points": 16,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 38,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 2,
      "pos": 33,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 3,
      "pos": 31,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 4,
      "pos": 33,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 36,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 43,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 7,
      "pos": 38,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1911,43 +1911,43 @@
    "nat": "TUR",
    "car": "Nissan 180SX",
    "pos": 51,
-   "points": 16.0,
+   "points": 16,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 40,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 2,
      "pos": 34,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 3,
      "pos": 35,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 4,
      "pos": 37,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 40,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 32,
-     "points": 16.0
+     "points": 16
     },
     {
      "n": 7,
      "pos": 41,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1957,13 +1957,13 @@
    "nat": "ITA",
    "car": "BMW E36",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 1,
      "pos": 34,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1973,13 +1973,13 @@
    "nat": "FRA",
    "car": "BMW E36",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 1,
      "pos": 36,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -1989,43 +1989,43 @@
    "nat": "UKR",
    "car": "Toyota GT86",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": false,
    "rounds": [
     {
      "n": 1,
      "pos": 37,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 2,
      "pos": 37,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 3,
      "pos": 38,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 4,
      "pos": 41,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 5,
      "pos": 42,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 39,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 7,
      "pos": 43,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2035,13 +2035,13 @@
    "nat": "ITA",
    "car": "BMW M3",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 1,
      "pos": 39,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2051,13 +2051,13 @@
    "nat": "ITA",
    "car": "Nissan 180SX",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 1,
      "pos": 41,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2067,13 +2067,13 @@
    "nat": "NOR",
    "car": "BMW e82",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 2,
      "pos": 38,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2083,13 +2083,13 @@
    "nat": "PRT",
    "car": "BMW e46",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 2,
      "pos": 39,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2099,13 +2099,13 @@
    "nat": "ESP",
    "car": "BMW 1M",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 2,
      "pos": 41,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2115,18 +2115,18 @@
    "nat": "UKR",
    "car": "Nissan S14",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 2,
      "pos": 43,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 6,
      "pos": 41,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2136,13 +2136,13 @@
    "nat": "IRL",
    "car": "BMW E46",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 3,
      "pos": 34,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2152,13 +2152,13 @@
    "nat": "GBR",
    "car": "BMW E92",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 3,
      "pos": 37,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2168,13 +2168,13 @@
    "nat": "POL",
    "car": "Nissan S14.9",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 3,
      "pos": 39,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2184,13 +2184,13 @@
    "nat": "GBR",
    "car": "Nissan 180SX",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 3,
      "pos": 40,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2200,13 +2200,13 @@
    "nat": "IRL",
    "car": "BMW E36",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 3,
      "pos": 41,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2216,13 +2216,13 @@
    "nat": "FIN",
    "car": "BMW M2 G87",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 4,
      "pos": 40,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2232,13 +2232,13 @@
    "nat": "FIN",
    "car": "BMW E46",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 5,
      "pos": 35,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2248,13 +2248,13 @@
    "nat": "LTU",
    "car": "BMW M2",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 5,
      "pos": 38,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2264,13 +2264,13 @@
    "nat": "LVA",
    "car": "BMW M2",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 5,
      "pos": 39,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2280,13 +2280,13 @@
    "nat": "FIN",
    "car": "BMW E92 M3",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 34,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2296,13 +2296,13 @@
    "nat": "SWE",
    "car": "Volvo 745",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 37,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2312,13 +2312,13 @@
    "nat": "CHN",
    "car": "Nissan Silvia S15",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 38,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2328,13 +2328,13 @@
    "nat": "POL",
    "car": "Opel GT",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 40,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2344,13 +2344,13 @@
    "nat": "FIN",
    "car": "BMW E92 Eurofighter",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 42,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2360,18 +2360,18 @@
    "nat": "HRV",
    "car": "BMW E36",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 45,
-     "points": 0.0
+     "points": 0
     },
     {
      "n": 7,
      "pos": 40,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2381,13 +2381,13 @@
    "nat": "UKR",
    "car": "Toyota GT86",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 47,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2397,13 +2397,13 @@
    "nat": "THA",
    "car": "Nissan S15 Silvia GT",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 48,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2413,13 +2413,13 @@
    "nat": "TUR",
    "car": "BMW E36",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 49,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2429,13 +2429,13 @@
    "nat": "AUT",
    "car": "BMW E36",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 50,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2445,13 +2445,13 @@
    "nat": "DEU",
    "car": "Nissan 200SX",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 6,
      "pos": 51,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2461,13 +2461,13 @@
    "nat": "CZE",
    "car": "BMW E92",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 7,
      "pos": 33,
-     "points": 0.0
+     "points": 0
     }
    ]
   },
@@ -2477,13 +2477,13 @@
    "nat": "GRC",
    "car": "BMW M2",
    "pos": 52,
-   "points": 0.0,
+   "points": 0,
    "wildcard": true,
    "rounds": [
     {
      "n": 7,
      "pos": 37,
-     "points": 0.0
+     "points": 0
     }
    ]
   }

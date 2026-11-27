@@ -69,17 +69,32 @@ def nice_name(full: str) -> str:
     return " ".join(out)
 
 
+def _register() -> dict:
+    """lowercase name -> name as written in the driver register (data/sources.csv), e.g. 'Duane McKeever'."""
+    import csv
+    try:
+        with open(ROOT / "data" / "sources.csv", encoding="utf-8") as f:
+            return {r["Naam"].strip().lower(): r["Naam"].strip() for r in csv.DictReader(f) if r.get("Naam")}
+    except Exception:
+        return {}
+
+
+def _num(v):
+    return int(v) if isinstance(v, float) and v.is_integer() else v
+
+
 def done_rounds(d: dict) -> list[int]:
     return sorted({r["n"] for x in d.get("drivers", []) for r in x.get("rounds", []) if r.get("points") is not None and r.get("pos")})
 
 
 def from_dm(raw: list[dict], meta: dict, year: int) -> dict:
-    drivers = []
+    drivers, reg = [], _register()
     for x in raw:
-        drivers.append({"name": nice_name(x.get("fullName", "")), "number": x.get("startingNumber"), "nat": x.get("nationality"),
-                        "car": x.get("carName"), "pos": x.get("position"), "points": x.get("totalPoints"),
+        name = nice_name(x.get("fullName", ""))
+        drivers.append({"name": reg.get(name.lower(), name), "number": x.get("startingNumber"), "nat": x.get("nationality"),
+                        "car": x.get("carName"), "pos": x.get("position"), "points": _num(x.get("totalPoints")),
                         "wildcard": bool(x.get("isWildcard")),
-                        "rounds": sorted(({"n": r["roundNumber"], "pos": r.get("position"), "points": r.get("points")}
+                        "rounds": sorted(({"n": r["roundNumber"], "pos": r.get("position"), "points": _num(r.get("points"))}
                                           for r in x.get("roundsResults") or [] if r.get("position")), key=lambda r: r["n"])})
     drivers.sort(key=lambda x: (x["pos"] or 999))
     return {"series": "Drift Masters", "short": "DM", "season": year, "source": "dm.gp (official standings)",

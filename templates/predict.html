@@ -7,9 +7,9 @@
 {% if result %}
 {{ p.tapes([['OUR PICKS', 110, 'darkb'], ['WINNER: ' ~ winner, 64, 'accent']], top=170, marker=event|lower) }}
 {% else %}
-{{ p.tapes([['WHO WINS', 130, 'darkb'], [event, 80, 'accent']], top=170, marker='our favourites on form') }}
+{{ p.tapes([['WHO WINS', 130, 'darkb'], [event, 80, 'accent']], top=220, marker='our favourites on form') }}
 {% endif %}
-<div class="abs" style="left:70px;right:70px;top:500px;display:flex;flex-direction:column;gap:20px">
+<div class="abs" style="left:70px;right:70px;top:540px;display:flex;flex-direction:column;gap:20px">
 {% for r in rows %}{% set light = loop.index0 % 2 == 1 %}
   <div style="display:grid;grid-template-columns:90px 1fr auto;gap:22px;align-items:center;padding:22px 24px;background:{{ 'var(--accent)' if r.hit else ('#fff' if light else '#111') }};color:{{ '#111' if (r.hit or light) else '#fff' }};border:4px solid {{ '#111' if (r.hit or light) else '#fff' }};transform:rotate({{ [-0.6,0.5,-0.4,0.6][loop.index0 % 4] }}deg)">
     <div class="bb" style="font-size:80px;text-align:center">{{ loop.index if not result else ('✓' if r.hit else '✗') }}</div>
