@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:31:24.043175+00:00",
+ "updated": "2026-11-27T00:46:17.518638+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -85,7 +85,7 @@
     }
    ],
    "scout": {
-    "score": 60,
+    "score": 59,
     "why": [
      "kalender",
      "3 bronnen"
@@ -652,7 +652,7 @@
     }
    ],
    "scout": {
-    "score": 42,
+    "score": 41,
     "why": [
      "bekende rijder"
     ],
@@ -2307,8 +2307,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -2460,9 +2461,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": true,
-   "items": 7,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
   },
   {
    "source": "Google News",
