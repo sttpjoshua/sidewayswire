@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:10:16.190772+00:00",
+ "updated": "2026-11-27T21:11:48.395197+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T21:02:26.440407+00:00",
+ "collected": "2026-11-27T21:11:44.638111+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,27 +35,30 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 9,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
    "source": "Formula DRIFT",
    "url": "https://www.youtube.com/@FormulaDRIFT",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLqU1MEK55LYkV3M8W8D"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Drift Masters",
    "url": "https://www.youtube.com/@DriftMastersGrandPrix",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6rwUxdTOtORA3KL3q3r"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Auto Partner",
@@ -67,26 +70,30 @@
   {
    "source": "Conor Shanahan",
    "url": "https://www.youtube.com/@TheShanahans",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCxuKIyvx9B2UbZlpEywm"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Aurimas Bakchis",
    "url": "https://www.youtube.com/fealsuspension",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCc0FzKeJ4GBNZBno4rh9"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Matt Field",
    "url": "https://www.youtube.com/@mattfield777",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCmnZe9gMFcShdSLfEDsa"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Adam LZ",
    "url": "https://www.youtube.com/@AdamLZ",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXIYLgIp6DYZHjmUUUXE"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "D1 Grand Prix (D1GP)",
@@ -133,14 +140,16 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -174,14 +183,15 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
