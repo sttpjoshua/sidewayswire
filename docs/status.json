@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T05:45:05.554619+00:00",
+ "updated": "2026-11-27T05:46:34.410638+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 840,
@@ -7,7 +7,7 @@
   "check": 19,
   "posted": 3
  },
- "collected": "2026-11-27T05:44:51.455083+00:00",
+ "collected": "2026-11-27T05:46:30.244193+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,7 +35,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 11,
    "how": "feed"
   },
   {
@@ -119,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -175,7 +175,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 12,
    "how": "feed"
   },
   {
