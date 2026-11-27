@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-27T05:06:37.337834+00:00",
+ "updated": "2026-11-27T05:10:57.991016+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 815,
   "skipped": 73,
   "check": 19,
-  "posted": 3
+  "posted": 3,
+  "draft": 4
  },
  "collected": "2026-11-27T05:06:33.829842+00:00",
  "instagram": true,
@@ -11595,7 +11596,9 @@
    "captions": null,
    "ig": null,
    "collaborators": null,
-   "people": null,
+   "people": [
+    "Ben Hobson"
+   ],
    "moment_kind": null,
    "pinned_at": null,
    "short_none": null,
@@ -11652,7 +11655,9 @@
    "captions": null,
    "ig": null,
    "collaborators": null,
-   "people": null,
+   "people": [
+    "Formula Drift"
+   ],
    "moment_kind": null,
    "pinned_at": null,
    "short_none": null,
@@ -13217,6 +13222,220 @@
     "mode": "auto",
     "credit": "@formulad"
    }
+  },
+  {
+   "id": "pod-ytzb6lkwi41kc-8",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jonathan Castro's qualifying run may be incomplete due to understeer.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
+    "start": 2106.08
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T05:10:21.056727+00:00",
+   "built": "2026-11-27T05:10:21.056730+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytzb6lkwi41kc-8__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "CASTRO'S INCOMPLETE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytzb6lkwi41kc-7",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jeff Jones' qualifying run is highlighted for its angle and style.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad @jeffjonesracing\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
+    "start": 1996.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T05:08:52.501973+00:00",
+   "built": "2026-11-27T05:08:52.501976+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytzb6lkwi41kc-7__clip.mp4",
+   "tags": [
+    "@formulad",
+    "@jeffjonesracing"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "JEFF JONES RIPS IT",
+   "photo": null
+  },
+  {
+   "id": "pod-ytzb6lkwi41kc-6",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rome Sharpettier nails his qualifying run with a solid score.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
+    "start": 1652.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T05:07:44.050692+00:00",
+   "built": "2026-11-27T05:07:44.050696+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzb6lkwi41kc-6__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ROME SHARPETTIER SCORES",
+   "photo": null
+  },
+  {
+   "id": "pod-ytfoarlpj6qji-22",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ben Hobson gets the victory over Rome Charpeteer.\n\n🎥 Footage: FD CONNECTICUT 2026\n@formulad @benhobson213\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+    "start": 3178.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T05:07:11.207899+00:00",
+   "built": "2026-11-27T05:07:11.207902+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytfoarlpj6qji-22__clip.mp4",
+   "tags": [
+    "@formulad",
+    "@benhobson213"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "BEN HOBSON VICTORY",
+   "photo": null
   },
   {
    "id": "pod-ytzb6lkwi41kc-5",
@@ -24988,7 +25207,9 @@
    "people": [
     "Piotr Więcek",
     "Paweł Korpuliński",
-    "Conor Shanahan"
+    "Conor Shanahan",
+    "James Deane",
+    "Benediktas Čirba"
    ],
    "moment_kind": "moment",
    "pinned_at": null,
@@ -29802,7 +30023,8 @@
    "people": [
     "Conor Shanahan",
     "Matt Field",
-    "Jack Shanahan"
+    "Jack Shanahan",
+    "James Deane"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -39346,7 +39568,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -39764,7 +39987,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -44358,7 +44582,10 @@
    "people": [
     "James Deane",
     "Paweł Korpuliński",
-    "Duane McKeever"
+    "Duane McKeever",
+    "Simen Olsen",
+    "Conor Shanahan",
+    "Piotr Więcek"
    ],
    "moment_kind": "qualify",
    "pinned_at": null,
@@ -63412,7 +63639,8 @@
    "people": [
     "Conor Shanahan",
     "Jhonnattan Castro",
-    "James Deane"
+    "James Deane",
+    "Jack Shanahan"
    ],
    "moment_kind": "call",
    "pinned_at": null,

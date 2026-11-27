@@ -625,7 +625,7 @@
   "why": "Clear-cut win and judges' decision.",
   "caption": "Ben Hobson gets the victory over Rome Charpeteer.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -634,7 +634,12 @@
    "text": "BEN HOBSON WINS AGAINST ROME",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-22-31787-31911.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-22-31787-31911.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3180.8, \"start\": 3178.68, \"text\": \"BEN HOBSON WINS AGAINST ROME\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:07:11.206550+00:00"
  },
  {
   "start": 3220.24,
