@@ -607,7 +607,7 @@
   "why": "Excitement and anticipation",
   "caption": "The judges decide on a close battle.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -616,7 +616,12 @@
    "text": "ONE MORE TIME?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-22-38919-39060.mp4"
+  "wait_name": "v2-ythnglyd6cr0-22-38919-39060.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3902.6, \"start\": 3899.66, \"text\": \"ONE MORE TIME?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:43:30.264942+00:00"
  },
  {
   "start": 3919.62,
@@ -631,7 +636,7 @@
   "why": "Unexpected and dramatic",
   "caption": "Dylan's car snaps unexpectedly.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -640,7 +645,12 @@
    "text": "WHAT CAUSED THE SNAP?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-23-39196-39404.mp4"
+  "wait_name": "v2-ythnglyd6cr0-23-39196-39404.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3930.54, \"start\": 3926.82, \"text\": \"WHAT CAUSED THE SNAP?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:44:12.931005+00:00"
  },
  {
   "start": 4053.38,
@@ -653,7 +663,7 @@
   "why": "Shows safe driving in tough conditions",
   "caption": "Cody Buchanan qualifies safely in the rain",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -662,7 +672,12 @@
    "text": "WILL HE GET SAFE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-24-40534-41047.mp4"
+  "wait_name": "v2-ythnglyd6cr0-24-40534-41047.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4079.4, \"start\": 4077.74, \"text\": \"WILL HE GET SAFE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:45:48.612368+00:00"
  },
  {
   "start": 4259.62,
@@ -675,10 +690,15 @@
   "why": "Important safety information",
   "caption": "Track lightning policy explained",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ythnglyd6cr0-25-42596-42872.mp4"
+  "wait_name": "v2-ythnglyd6cr0-25-42596-42872.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T02:46:26.912610+00:00"
  },
  {
   "start": 4375.62,
