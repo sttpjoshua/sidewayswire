@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "bezig",
- "doing": "turbo · leest: Formula DRIFT · Formula DRIFT Long Beach 2026 - PRO, Round 1 - Qualifying",
- "updated": "2026-11-27T06:54:47.111006+00:00",
+ "doing": "turbo · leest: Drift Masters · Drift Masters Round 6 2026 • Germany • Qualifying LIVE",
+ "updated": "2026-11-27T07:06:25.977193+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-27T07:06:24.379355+00:00",
+   "text": "30 momenten uit Formula DRIFT Long Beach 2026 - PRO, Round 1 - Qualifying",
+   "ref": "yte6vfnvq2one"
+  },
   {
    "at": "2026-11-27T06:54:45.898572+00:00",
    "text": "30 momenten uit Super DRIFT Challenge LIVE 2026 from Long Beach - Great 8 (Day One)",
@@ -126,22 +131,17 @@
    "at": "2026-11-26T19:19:38.520368+00:00",
    "text": "0 momenten uit Red Bull Drift Masters Round 3 2026 • Ireland • Qualifying LIVE",
    "ref": "ytmhbnyub920g"
-  },
-  {
-   "at": "2026-11-26T19:19:34.013947+00:00",
-   "text": "0 momenten uit Drift Masters Round 4 2026 • Finland • Qualifying LIVE",
-   "ref": "ytbantmgpua"
   }
  ],
  "errors": [],
  "drops": {
-  "te kort of te lang": 32,
+  "te kort of te lang": 55,
   "buiten het stuk": 2
  },
  "sample": "",
  "counts": {
   "day": "2026-11-27",
-  "made": 7
+  "made": 8
  },
  "version": "3"
 }
