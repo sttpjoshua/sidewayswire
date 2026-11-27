@@ -375,7 +375,7 @@
   "why": "Exciting battle description",
   "caption": "Odie Boggs is smooth, Rudy Hanson is solid.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -386,8 +386,12 @@
   },
   "run_end": 2605.62,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-14-25864-26116.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-14-25864-26116.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2602.24, \"start\": 2600.18, \"text\": \"ODIE SO SMOOTH\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:09:31.533760+00:00"
  },
  {
   "start": 2648.92,
@@ -400,7 +404,7 @@
   "why": "Unexpected and impactful",
   "caption": "Odie takes an uncharacteristic five-minute timeout.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -409,7 +413,12 @@
    "text": "UNCHARACTERISTIC TIME OUT",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-15-26489-26632.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-15-26489-26632.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2654.32, \"start\": 2652.24, \"text\": \"UNCHARACTERISTIC TIME OUT\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:10:05.310427+00:00"
  },
  {
   "start": 2825.64,
@@ -422,7 +431,7 @@
   "why": "Suspenseful situation with potential to impact the race",
   "caption": "Odie's car breaks down mid-race, team assessing damage.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -431,7 +440,12 @@
    "text": "IS IT JUST MINOR REPAIRS?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-16-28256-28789.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-16-28256-28789.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2853.66, \"start\": 2850.74, \"text\": \"IS IT JUST MINOR REPAIRS?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:11:43.505692+00:00"
  },
  {
   "start": 3130.72,
@@ -444,7 +458,7 @@
   "why": "dramatic and unexpected",
   "caption": "Ody Bakshi's engine fails, ending his run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -453,7 +467,12 @@
    "text": "CAN HE FIX THE ENGINE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-17-31307-31824.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-17-31307-31824.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3180.38, \"start\": 3178.02, \"text\": \"CAN HE FIX THE ENGINE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:13:22.704408+00:00"
  },
  {
   "start": 3341.62,
