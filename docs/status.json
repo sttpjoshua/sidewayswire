@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:31:52.818589+00:00",
+ "updated": "2026-11-27T23:46:43.144120+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T23:31:48.711257+00:00",
+ "collected": "2026-11-27T23:46:37.933918+00:00",
  "instagram": true,
  "sources": [
   {
@@ -120,7 +120,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -154,8 +154,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -182,14 +183,14 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 4,
+   "items": 6,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -202,8 +203,9 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
+   "ok": true,
+   "items": 10,
+   "how": "feed"
   },
   {
    "source": "Google News",
