@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:08:36.801694+00:00",
+ "updated": "2026-11-27T12:16:18.326615+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 840,
@@ -7,7 +7,7 @@
   "check": 17,
   "posted": 3
  },
- "collected": "2026-11-27T12:08:33.062463+00:00",
+ "collected": "2026-11-27T12:16:14.554469+00:00",
  "instagram": true,
  "sources": [
   {
@@ -175,7 +175,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 6,
+   "items": 12,
    "how": "feed"
   },
   {
@@ -223,9 +223,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
   }
  ],
  "inbox": [
