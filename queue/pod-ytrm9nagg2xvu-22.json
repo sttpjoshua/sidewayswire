@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrm9nagg2xvu-22",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "COLE RICHARDS' RUN",
  "video": "docs/media/pod-ytrm9nagg2xvu-22/clip.mp4",
@@ -27,5 +27,31 @@
   "start": 3583.14
  },
  "created": "2026-11-27T04:06:32.314254+00:00",
- "built": "2026-11-27T04:06:32.314262+00:00"
+ "built": "2026-11-27T04:17:20.967218+00:00",
+ "media": [
+  "docs/media/pod-ytrm9nagg2xvu-22/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T04:17:21.505383+00:00"
+ },
+ "score": 60,
+ "moment_kind": "qualify",
+ "people": [
+  "Cole Richards"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Cole Richards | Formula DRIFT Indianapolis 2026 Qualifying\n\nCole Richards executes a sick run, but falls short in a few spots.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026 Qualifying\n@colerichardz @formulad\n\n#formuladrift #formulad #colerichards #sidewayswire",
+  "facebook": "Cole Richards | Formula DRIFT Indianapolis 2026 Qualifying\n\nCole Richards executes a sick run, but falls short in a few spots.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026 Qualifying\n@colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Cole Richards | Formula DRIFT Indianapolis 2026 Qualifying: Cole Richards executes a sick run, but falls short in a few spots.\n🎥 Footage: Formula DRIFT Indianapolis 2026 Qualifying @colerichardz @formulad\n#formuladrift #formulad #colerichards #sidewayswire",
+  "youtube_title": "Cole Richards | Formula DRIFT Indianapolis 2026 Qualifying",
+  "youtube": "Cole Richards executes a sick run, but falls short in a few spots.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026 Qualifying\n@colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "colerichardz"
+ ]
 }
