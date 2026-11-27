@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:46:25.353132+00:00",
+ "updated": "2026-11-27T22:01:40.501369+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T21:46:19.422763+00:00",
+ "collected": "2026-11-27T22:01:34.794936+00:00",
  "instagram": true,
  "sources": [
   {
@@ -28,15 +28,14 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -120,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -133,9 +132,8 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20when"
   },
   {
    "source": "Google News",
@@ -147,8 +145,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -174,16 +173,14 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": true,
-   "items": 7,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": true,
-   "items": 4,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
   },
   {
    "source": "Google News",
@@ -195,9 +192,8 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
@@ -216,9 +212,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
   },
   {
    "source": "Google News",
@@ -616,6 +611,23 @@
      "url": "https://www.instagram.com/reel/Df0abzjAflu/",
      "kind": "instagram",
      "published": "2026-11-16T22:20:07+00:00",
+     "media_url": null,
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "What matters most is taking another step forward! 🚀⁠",
+   "series": "DM",
+   "buzz": 1,
+   "published": "2026-11-27T21:23:11+00:00",
+   "items": [
+    {
+     "source": "@driftmasters.gp",
+     "title": "What matters most is taking another step forward! 🚀⁠",
+     "url": "https://www.instagram.com/reel/DgQoZ6MuNJn/",
+     "kind": "instagram",
+     "published": "2026-11-27T21:23:11+00:00",
      "media_url": null,
      "media_type": "VIDEO"
     }
@@ -1228,23 +1240,6 @@
      "url": "https://www.instagram.com/reel/DgFeKWzlB2e/",
      "kind": "instagram",
      "published": "2026-11-23T13:19:33+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "42 laps in 2 days and a full formuladriftprospec season and the S54 did not miss a beat 5150autosport 💪",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-23T00:13:24+00:00",
-   "items": [
-    {
-     "source": "@sam.maghmoumi",
-     "title": "42 laps in 2 days and a full formuladriftprospec season and the S54 did not miss a beat 5150autosport 💪",
-     "url": "https://www.instagram.com/reel/DgEDAlpxZ-m/",
-     "kind": "instagram",
-     "published": "2026-11-23T00:13:24+00:00",
      "media_url": null,
      "media_type": "VIDEO"
     }
