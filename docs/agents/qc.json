@@ -4,9 +4,13 @@
  "where": "GitHub",
  "state": "wacht",
  "doing": null,
- "updated": "2026-11-27T07:31:40.980287+00:00",
+ "updated": "2026-11-27T07:46:28.555829+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-27T07:46:28.555576+00:00",
+   "text": "ronde: 854 goed, 3 met opmerking, 0 tegengehouden"
+  },
   {
    "at": "2026-11-27T05:42:49.512854+00:00",
    "text": "ronde: 856 goed, 3 met opmerking, 0 tegengehouden"
@@ -107,15 +111,10 @@
    "at": "2026-11-26T21:16:00.686365+00:00",
    "text": "tegengehouden: pod-ytlgdw88ygzo4-13",
    "ref": "pod-ytlgdw88ygzo4-13"
-  },
-  {
-   "at": "2026-11-26T21:16:00.686365+00:00",
-   "text": "tegengehouden: pod-ytrbtps1zxw4i-27",
-   "ref": "pod-ytrbtps1zxw4i-27"
   }
  ],
  "counts": {
-  "goed": 856,
+  "goed": 854,
   "opmerking": 3,
   "tegengehouden": 0
  }
