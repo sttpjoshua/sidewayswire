@@ -1,0 +1,23 @@
+{% extends "base.html" %}{% import "_parts.html" as p %}
+{# Head to head (own format, lc/statformats.py). Data: badge, a, b, a_sub, b_sub, rows [[label, va, vb]], marks (0 equal, 1 a better, 2 b better), ahead [a, b, n] #}
+{% block body %}
+{{ p.wordmark() }}
+{{ p.badge(badge) }}
+{{ p.tapes([['HEAD TO HEAD', 96, 'pink']], top=160) }}
+<div class="abs" style="left:70px;right:70px;top:300px;display:grid;grid-template-columns:1fr 110px 1fr;align-items:center">
+  <div style="background:#111;border:4px solid #fff;padding:18px 14px;text-align:center;transform:rotate(-1deg)"><div class="bb" data-fit data-size="58" data-min="34" style="font-size:58px;white-space:nowrap;display:inline-block">{{ a }}</div><div class="small" style="font-size:18px;margin-top:10px;color:#B8B8BC">{{ a_sub }}</div></div>
+  <div class="bb" style="text-align:center;font-size:72px;color:var(--pink)">VS</div>
+  <div style="background:var(--accent);color:#111;border:4px solid #111;padding:18px 14px;text-align:center;transform:rotate(1deg)"><div class="bb" data-fit data-size="58" data-min="34" style="font-size:58px;white-space:nowrap;display:inline-block">{{ b }}</div><div class="small" style="font-size:18px;margin-top:10px;opacity:.7">{{ b_sub }}</div></div>
+</div>
+<div class="abs" style="left:70px;right:70px;top:520px;display:flex;flex-direction:column;gap:10px">
+{% for r in rows %}{% set m = marks[loop.index0] %}
+  <div style="display:grid;grid-template-columns:1fr 300px 1fr;align-items:center;height:84px;background:{{ '#fff' if loop.index0 % 2 else '#111' }};color:{{ '#111' if loop.index0 % 2 else '#fff' }};border:3px solid {{ '#111' if loop.index0 % 2 else '#fff' }}">
+    <div class="bb" style="text-align:center;font-size:54px;{{ 'color:var(--pink)' if m == 1 else '' }}">{{ r[1] }}{% if m == 1 %} ◀{% endif %}</div>
+    <div class="small" style="text-align:center;font-size:22px;opacity:.75">{{ r[0] }}</div>
+    <div class="bb" style="text-align:center;font-size:54px;{{ 'color:var(--pink)' if m == 2 else '' }}">{% if m == 2 %}▶ {% endif %}{{ r[2] }}</div>
+  </div>
+{% endfor %}
+</div>
+{% if ahead %}<div class="abs" style="left:70px;right:70px;top:1130px;text-align:center;font-size:30px;font-weight:800">AHEAD IN SAME ROUND: <span class="bb" style="font-size:44px;color:var(--pink)">{{ ahead[0] }} – {{ ahead[1] }}</span> <span style="color:#B8B8BC">({{ ahead[2] }} ROUNDS)</span></div>{% endif %}
+{{ p.footer('WHO IS BETTER? COMMENT ↓', '@SIDEWAYSWIRE') }}
+{% endblock %}

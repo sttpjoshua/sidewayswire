@@ -1,0 +1,25 @@
+{% extends "base.html" %}{% import "_parts.html" as p %}
+{# Driver Card (own format, lc/statformats.py). Data: badge, number, first, last, sub, tiles [[label, value]], strip [{n, pos}], nr, partial #}
+{% block body %}
+<div class="abs bb" style="right:40px;top:120px;font-size:430px;color:transparent;-webkit-text-stroke:7px #2f2f33;line-height:1">{{ number }}</div>
+{{ p.wordmark() }}
+{{ p.badge(badge) }}
+{{ p.tapes([[first, 80, 'darkb'], [last, 140, 'accent']], top=250, marker='driver card #' ~ nr) }}
+<div class="abs" style="left:70px;right:70px;top:560px;font-size:30px;font-weight:800;color:#B8B8BC;letter-spacing:.04em">{% if number %}#{{ number }} · {% endif %}{{ sub }}</div>
+<div class="abs" style="left:70px;right:70px;top:640px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+{% for t in tiles %}
+  <div style="background:{{ 'var(--accent)' if loop.first else ('#fff' if loop.index0 % 2 else '#111') }};color:{{ '#111' if (loop.first or loop.index0 % 2) else '#fff' }};border:4px solid {{ '#111' if (loop.first or loop.index0 % 2) else '#fff' }};padding:20px 10px;text-align:center">
+    <div class="bb" style="font-size:84px;line-height:1">{{ t[1] }}</div><div class="small" style="font-size:20px;margin-top:12px">{{ t[0] }}</div></div>
+{% endfor %}
+</div>
+<div class="abs" style="left:70px;right:70px;top:1050px">
+  <div class="small" style="font-size:20px;color:#B8B8BC;margin-bottom:12px">FINISH PER ROUND{% if partial %} · TOP 16 ONLY{% endif %}</div>
+  <div style="display:grid;grid-template-columns:repeat({{ strip|length }},1fr);gap:10px">
+  {% for s in strip %}
+    <div style="text-align:center;padding:14px 0;border:3px solid {{ 'var(--accent)' if s.pos == 1 else '#fff' if s.pos and s.pos <= 3 else '#3a3a3e' }};background:{{ 'var(--accent)' if s.pos == 1 else 'transparent' }};color:{{ '#111' if s.pos == 1 else '#fff' }}">
+      <div class="small" style="font-size:16px;opacity:.7">R{{ s.n }}</div><div class="bb" style="font-size:44px;margin-top:6px">{{ s.pos or '–' }}</div></div>
+  {% endfor %}
+  </div>
+</div>
+{{ p.footer('COLLECT THEM ALL', '@SIDEWAYSWIRE') }}
+{% endblock %}

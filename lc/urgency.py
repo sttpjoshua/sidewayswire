@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 URGENT_AT = 60
 BASE = {"breaking": 60, "winner": 55, "rumor": 45, "look": 30, "news": 30,
         "question": 5, "whatif": 5, "debate": 5,
-        "result": 60, "champion": 60, "quali": 55, "livestream": 60}
+        "result": 60, "champion": 60, "quali": 55, "livestream": 60, "stand": 60}
 
 
 def scout_scores() -> dict:

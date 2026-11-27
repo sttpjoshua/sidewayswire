@@ -110,7 +110,7 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
             return None
     keep = ("id", "kind", "status", "post_at", "posted_at", "caption", "media", "problems", "results", "credit",
             "check", "check_reason", "source", "platforms", "created", "built", "want_at", "video", "tags", "missing_handles", "caption_by", "format",
-            "plan", "score", "captions", "ig", "collaborators", "people", "moment_kind", "pinned_at", "short_none", "short_len", "thumb", "preview", "hook", "evergreen", "tiktok_done")
+            "plan", "score", "captions", "ig", "collaborators", "people", "moment_kind", "pinned_at", "short_none", "short_len", "thumb", "preview", "hook", "evergreen", "tiktok_done", "poll", "tiktok_draft", "series", "short")
     status = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "media_repo": mediastore.PUBLIC_REPO if mediastore.public() else mediastore.REPO,

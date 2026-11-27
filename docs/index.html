@@ -349,7 +349,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
 <script>
 const REPO="sttpjoshua/sidewayswire", API=`https://api.github.com/repos/${REPO}`;
 const ST={draft:"nieuw",check:"check nodig",approved:"goedgekeurd",ready:"ingepland",posted:"geplaatst",skipped:"overgeslagen",error:"fout"};
-const KIND={podcast_clip:"PODCASTCLIP",stream_clip:"LIVESTREAM",vlog_clip:"VLOG",news:"NIEUWS",result:"UITSLAG",results:"UITSLAG",standings:"STAND",battle_reel:"BATTLE REEL",quote:"QUOTE",cover:"COVER",bracket:"BRACKET",zones:"ZONES",debate:"DEBAT",crash:"CRASH",hook:"KOP-POST",breaking:"BREAKING",calendar:"KALENDER",question:"VRAAG VAN DE WEEK",answers:"ANTWOORDEN",weekly:"WEEKLY"};
+const KIND={podcast_clip:"PODCASTCLIP",stream_clip:"LIVESTREAM",vlog_clip:"VLOG",news:"NIEUWS",result:"UITSLAG",results:"UITSLAG",standings:"STAND",battle_reel:"BATTLE REEL",quote:"QUOTE",cover:"COVER",bracket:"BRACKET",zones:"ZONES",debate:"DEBAT",crash:"CRASH",hook:"KOP-POST",breaking:"BREAKING",calendar:"KALENDER",question:"VRAAG VAN DE WEEK",answers:"ANTWOORDEN",weekly:"WEEKLY",stand:"STAND",card:"DRIVER CARD",h2h:"HEAD TO HEAD",predict:"WIE WINT?",predict_result:"WIE WINT? UITSLAG"};
 const HOOK={breaking:"BREAKING",winner:"WINNAAR",question:"OPEN VRAAG",whatif:"WAT ALS",debate:"GEVOELIG PUNT",look:"NIEUWE LOOK",rumor:"GERUCHT"};
 const FMT={...HOOK,reel:"REELS",news:"NIEUWS",hook:"KOP-POST",post:"POSTS"};
 const CAT={pod:"PODCASTCLIPS",live:"LIVESTREAM",battle:"BATTLES",vlog:"VLOGS",posts:"POSTS"};
@@ -471,7 +471,7 @@ function li(p,extra){return `<a class="li" href="#beoordelen/${p.id}"><div class
 // TikTok tot de goedkeuring: clips komen als concept in de TikTok-inbox, zonder tekst. De tekst staat in TIKTOK.
 const ttReady=()=>posts().filter(p=>String((p.results||{}).tiktok||"").startsWith("draft:")&&!p.tiktok_done);
 const ttCap=p=>((p.captions||{}).tiktok)||p.caption||"";
-const ttCard=(p,ready)=>`<div class="rp" data-tt="${esc(p.id)}"><div class="muted" style="font-size:12px">${esc(p.title||p.id)} · ${ready?(p.posted_at?"concept sinds "+ago(p.posted_at):""):fmtWhen((p.plan||{}).tiktok)}</div>
+const ttCard=(p,ready)=>`<div class="rp" data-tt="${esc(p.id)}"><div class="muted" style="font-size:12px">${esc(p.title||p.id)} · ${ready?(p.posted_at?"concept sinds "+ago(p.posted_at):""):fmtWhen((p.plan||{}).tiktok)}</div>${p.poll?`<div style="border:2px solid #FF2E88;padding:8px 12px;margin:8px 0"><b style="color:#FF2E88">ZET ER EEN POLL OP</b> <span class="muted" style="font-size:12px">(in TikTok: Stickers, Poll)</span><div style="margin-top:4px">Vraag: <b>${esc(p.poll.question)}</b></div><div>${(p.poll.options||[]).map((o,i)=>`${i+1}. ${esc(o)}`).join("<br>")}</div></div>`:""}
   <textarea rows="5" readonly>${esc(ttCap(p))}</textarea>
   <div class="row" style="margin-top:6px"><button class="btn g" data-ttc>KOPIEER TEKST</button>${ready?`<button class="btn" data-ttd>GEPOST</button>`:""}</div></div>`;
 function fmtWhen(iso){if(!iso)return"";const d=new Date(iso);return d.toLocaleDateString("nl-NL",{weekday:"short",day:"numeric",month:"short"})+", "+d.toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit"})}

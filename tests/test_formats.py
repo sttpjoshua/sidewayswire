@@ -40,3 +40,17 @@ def test_weekly_helpers():
     assert w.split_title("Conor Shanahan wins in Japan") == ["CONOR SHANAHAN", "WINS IN JAPAN"]
     assert w.series_of({"title": "x", "caption": "D1GP Round 10, the Formula DRIFT champ"}) == "D1GP"
     assert w.body_of("One. Two is here. #drift @x") == "One. Two is here."
+
+
+def test_dm_parse_and_stats():
+    from lc import resultsdb as db, statformats as sf
+    raw = [{"fullName": "Paweł KORPULIŃSKI", "startingNumber": 74, "nationality": "POL", "position": 1, "totalPoints": 168,
+            "carName": "Nissan S14", "roundsResults": [{"roundNumber": 1, "points": 64, "position": 4}, {"roundNumber": 2, "points": 104, "position": 1}]},
+           {"fullName": "Conor SHANAHAN", "startingNumber": 79, "nationality": "IRL", "position": 2, "totalPoints": 131,
+            "carName": "Toyota GT86", "roundsResults": [{"roundNumber": 1, "points": 107, "position": 1}, {"roundNumber": 2, "points": 24, "position": 17}]}]
+    d = db.from_dm(raw, {"rounds": [{"n": 1}, {"n": 2}]}, 2026)
+    assert d["drivers"][0]["name"] == "Paweł Korpuliński" and db.done_rounds(d) == [1, 2]
+    s = sf.stats(d["drivers"][0])
+    assert s["wins"] == 1 and s["podiums"] == 1 and s["best"] == 1 and s["avg"] == 2.5
+    assert sf.standings_before(d, 2) == {"Conor Shanahan": 1, "Paweł Korpuliński": 2}
+    assert db.changed(None, d) == [1, 2]

@@ -122,6 +122,8 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
                 p["media"].append(str(out.relative_to(ROOT)))
                 p["problems"] += [f"slide {i}: '{x['text']}' past niet" for x in res.problems]
                 report["rendered"] += 1
+            if p.get("tiktok_video") and p["media"] and not p["problems"]:
+                p["short"] = slides_video(p, media) or p.get("short")
             reason = None
             if p["problems"]:
                 reason = "; ".join(p["problems"][:3])
@@ -146,6 +148,32 @@ def run(folder: Path = q.QUEUE, media: Path = MEDIA, tg: Telegram | None = None,
             p["built"] = datetime.now(timezone.utc).isoformat()
             q.save(p, folder)
     return report
+
+
+def slides_video(p: dict, media: Path) -> str | None:
+    """TikTok only takes video: the slides as a 9:16 video (4 s each), for the own formats that go to
+    Joshua's TikTok inbox with a poll (Wie wint?). None when ffmpeg is missing."""
+    import shutil
+    import subprocess
+    if not shutil.which("ffmpeg"):
+        return None
+    pngs = [ROOT / m for m in p["media"] if str(m).endswith(".png")]
+    if not pngs:
+        return None
+    out = (media / p["id"] / "tiktok.mp4").resolve()
+    args = ["ffmpeg", "-y", "-loglevel", "error"]
+    for f in pngs:
+        args += ["-loop", "1", "-t", "4", "-i", str(f)]
+    chain = "".join(f"[{i}:v]scale=1080:1350,pad=1080:1920:0:285:color=0x1A1A1D,setsar=1,fps=30[v{i}];" for i in range(len(pngs)))
+    chain += "".join(f"[v{i}]" for i in range(len(pngs))) + f"concat=n={len(pngs)}:v=1:a=0,format=yuv420p[v]"
+    args += ["-f", "lavfi", "-t", str(4 * len(pngs)), "-i", "anullsrc=r=44100:cl=stereo",
+             "-filter_complex", chain, "-map", "[v]", "-map", f"{len(pngs)}:a", "-c:v", "libx264", "-preset", "veryfast",
+             "-crf", "20", "-c:a", "aac", "-shortest", "-movflags", "+faststart", str(out)]
+    try:
+        subprocess.run(args, check=True, timeout=180)
+    except Exception:
+        return None
+    return str(out.relative_to(ROOT))
 
 
 if __name__ == "__main__":

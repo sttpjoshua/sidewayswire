@@ -1,0 +1,23 @@
+{% extends "base.html" %}{% import "_parts.html" as p %}
+{# Who wins? (own format, lc/statformats.py). Data: badge, event, rows [{name, sub, last, hit}], result (bool), winner #}
+{% block body %}
+<div class="abs bb" style="right:-30px;top:300px;font-size:1000px;color:transparent;-webkit-text-stroke:6px #2a2a2e;line-height:1">?</div>
+{{ p.wordmark() }}
+{{ p.badge(badge) }}
+{% if result %}
+{{ p.tapes([['OUR PICKS', 110, 'darkb'], ['WINNER: ' ~ winner, 64, 'accent']], top=170, marker=event|lower) }}
+{% else %}
+{{ p.tapes([['WHO WINS', 130, 'darkb'], [event, 80, 'accent']], top=170, marker='our favourites on form') }}
+{% endif %}
+<div class="abs" style="left:70px;right:70px;top:500px;display:flex;flex-direction:column;gap:20px">
+{% for r in rows %}{% set light = loop.index0 % 2 == 1 %}
+  <div style="display:grid;grid-template-columns:90px 1fr auto;gap:22px;align-items:center;padding:22px 24px;background:{{ 'var(--accent)' if r.hit else ('#fff' if light else '#111') }};color:{{ '#111' if (r.hit or light) else '#fff' }};border:4px solid {{ '#111' if (r.hit or light) else '#fff' }};transform:rotate({{ [-0.6,0.5,-0.4,0.6][loop.index0 % 4] }}deg)">
+    <div class="bb" style="font-size:80px;text-align:center">{{ loop.index if not result else ('✓' if r.hit else '✗') }}</div>
+    <div style="min-width:0"><div class="bb" data-fit data-size="60" data-min="36" data-maxright="780" style="font-size:60px;white-space:nowrap;display:inline-block">{{ r.name }}</div>
+      {% if r.sub %}<div style="font-size:22px;font-weight:800;margin-top:10px;opacity:.7">{{ r.sub }}</div>{% endif %}</div>
+    <div style="text-align:center"><div class="small" style="font-size:18px;opacity:.7">{{ 'FINISHED' if result else 'LAST 3' }}</div><div class="bb" style="font-size:{{ 56 if result else 34 }}px;margin-top:8px">{{ r.last }}</div></div>
+  </div>
+{% endfor %}
+</div>
+{{ p.footer('NEW PICKS BEFORE EVERY ROUND' if result else 'PICK YOUR WINNER ↓', '@SIDEWAYSWIRE') }}
+{% endblock %}

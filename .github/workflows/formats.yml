@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       again: { description: "Make this week's Weekly again", type: boolean, default: false }
+      action: { description: "weekly or results (fetch the Drift Masters standings now)", type: string, default: "weekly" }
   schedule:
     - cron: "23 6 * * 0"     # Sunday 07:23 NL (winter); the post goes out at 10:00 after the Mac adds music
 concurrency: { group: data, cancel-in-progress: false }
@@ -24,6 +25,10 @@ jobs:
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
       - name: Sideways Weekly
+        if: ${{ inputs.action != 'results' }}
         run: python -m lc.weekly ${{ inputs.again && '--nieuw' || '' }}
+      - name: uitslagen nu ophalen
+        if: ${{ inputs.action == 'results' }}
+        run: python -m lc.resultsdb fetch
       - name: save
         run: python -m lc.mediastore sync && python -m lc.status && python -m lc.gitsave "weekly $(date -u +%FT%TZ)" data queue docs

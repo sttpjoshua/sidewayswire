@@ -269,6 +269,11 @@ def run(now: datetime | None = None) -> dict:
         # answers retry until the evening: the question may still be gathering comments
         if not (fmt == "answers" and r.startswith("skip") and local.hour < 20) and not r.startswith("fout"):
             st["done"][key] = r
+    try:
+        from . import statformats
+        rep.update(statformats.run(now, st))
+    except Exception as e:
+        rep["statformats"] = f"fout: {str(e)[:160]}"
     if rep:
         _save_state(st)
     return rep

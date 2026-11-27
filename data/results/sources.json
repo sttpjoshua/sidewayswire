@@ -1,0 +1,58 @@
+{
+ "note": "Bronnen van de uitslagendatabase (lc/resultsdb.py). Drift Masters: season_id van de officiële standenpagina op dm.gp (Joshua heeft toestemming). Voor een nieuw seizoen: season_id en rondes toevoegen.",
+ "dm": {
+  "2026": {
+   "season_id": "de78e5bb-ebc3-4d79-abdf-fdcf4fd99c26",
+   "standings_page": "https://dm.gp/seasons/drift-masters-2026/standings",
+   "rounds": [
+    {
+     "n": 1,
+     "name": "Vallelunga Circuit",
+     "country": "Italy",
+     "end": "2026-05-02"
+    },
+    {
+     "n": 2,
+     "name": "Circuito del Jarama",
+     "country": "Spain",
+     "end": "2026-05-17"
+    },
+    {
+     "n": 3,
+     "name": "Mondello Park",
+     "country": "Ireland",
+     "end": "2026-06-14"
+    },
+    {
+     "n": 4,
+     "name": "Ahvenisto Race Circuit",
+     "country": "Finland",
+     "end": "2026-07-12"
+    },
+    {
+     "n": 5,
+     "name": "Bikernieku Trase",
+     "country": "Latvia",
+     "end": "2026-07-25"
+    },
+    {
+     "n": 6,
+     "name": "Ferropolis",
+     "country": "Germany",
+     "end": "2026-08-16"
+    },
+    {
+     "n": 7,
+     "name": "PGE Narodowy",
+     "country": "Poland",
+     "end": "2026-09-13"
+    }
+   ]
+  }
+ },
+ "fd": {
+  "2026": {
+   "source": "https://news.formulad.com (officiële uitslagberichten), ingevuld door de kalender-agent"
+  }
+ }
+}

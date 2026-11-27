@@ -36,8 +36,12 @@ jobs:
         run: python -m lc.collect && (python -m lc.agents scout || true)
       - name: kop-posts (vragen op voorraad)
         run: python -m lc.hooks
-      - name: eigen formats (kalender maandag, vraag woensdag, antwoorden zaterdag)
-        run: python -m lc.formats || true
+      - name: uitslagen (Drift Masters, officieel) en eigen formats
+        run: (python -m lc.resultsdb || true) && (python -m lc.formats || true)
+      - name: ffmpeg alleen als een post een TikTok-video van slides nodig heeft (Wie wint?)
+        run: |
+          python -c "import json,glob,sys; sys.exit(0 if any(p.get('tiktok_video') and p.get('status')=='draft' for p in (json.load(open(f)) for f in glob.glob('queue/*.json'))) else 1)" \
+            && (command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)) || true
       - name: 2 build posts and handle Telegram answers
         run: python -m lc.build && (python -m lc.agents qc || true)
       - name: plan per platform (score, tijden, captions)
