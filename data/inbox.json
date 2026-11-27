@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:46:18.183519+00:00",
+ "updated": "2026-11-27T18:01:33.514160+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -576,7 +576,7 @@
     }
    ],
    "scout": {
-    "score": 75,
+    "score": 74,
     "why": [
      "uitslag",
      "bekende rijder"
@@ -604,7 +604,7 @@
     }
    ],
    "scout": {
-    "score": 20,
+    "score": 19,
     "why": [
      "bekende rijder",
      "ruis"
@@ -954,7 +954,7 @@
     }
    ],
    "scout": {
-    "score": 26,
+    "score": 25,
     "why": [
      "bekende rijder"
     ],
@@ -2336,9 +2336,8 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
@@ -2350,9 +2349,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": true,
-   "items": 10,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
   },
   {
    "source": "Google News",
@@ -2434,7 +2432,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2454,9 +2452,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
   },
   {
    "source": "Google News",
@@ -2490,14 +2487,15 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 7,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2509,9 +2507,8 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
