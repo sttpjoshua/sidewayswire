@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:16:19.224371+00:00",
+ "updated": "2026-11-27T16:27:25.823608+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 851,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T16:16:15.021651+00:00",
+ "collected": "2026-11-27T16:26:59.216837+00:00",
  "instagram": true,
  "sources": [
   {
@@ -21,8 +21,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -35,7 +36,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -132,8 +133,9 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20when"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -173,8 +175,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -221,8 +224,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   }
  ],
  "inbox": [
@@ -13719,6 +13723,67 @@
    }
   },
   {
+   "id": "2026-11-26-rumor-jimmy-oakes-fd-2027",
+   "kind": "hook",
+   "status": "check",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jimmy Oakes has been building a pro-level 2JZ 240SX and said last year that going pro in Formula DRIFT is on his radar. Nothing is confirmed yet for 2027.\n\nWould you want to see him on the FD grid? 👇\n\nSource: Jimmy Oakes on The Circle of Drift podcast, via Drifted",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/2026-11-26-rumor-jimmy-oakes-fd-2027__1.png"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": null,
+   "check": true,
+   "check_reason": "gerucht: klopt de basis? dan goedkeuren",
+   "source": "https://www.drifted.com/jimmy-oakes-explains-his-upcoming-formula-drift-plans/",
+   "platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "created": "2026-11-26T20:46:13.558742+00:00",
+   "built": "2026-11-27T16:27:17.218727+00:00",
+   "want_at": null,
+   "video": null,
+   "tags": null,
+   "missing_handles": null,
+   "caption_by": null,
+   "format": null,
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": [
+    "Jimmy Oakes"
+   ],
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": {
+    "type": "rumor"
+   },
+   "evergreen": null,
+   "tiktok_done": null,
+   "poll": null,
+   "tiktok_draft": null,
+   "series": null,
+   "short": null,
+   "title": "IS JIMMY OAKES GOING PRO IN 2027?",
+   "photo": {
+    "mode": "joshua",
+    "credit": "@jimmyoakes"
+   },
+   "rights": {
+    "r": "eigen",
+    "money": true
+   }
+  },
+  {
    "id": "2026-11-27-sideways-weekly",
    "kind": "weekly",
    "status": "music",
@@ -26959,67 +27024,6 @@
    "rights": {
     "r": "geleend",
     "money": false
-   }
-  },
-  {
-   "id": "2026-11-26-rumor-jimmy-oakes-fd-2027",
-   "kind": "hook",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jimmy Oakes has been building a pro-level 2JZ 240SX and said last year that going pro in Formula DRIFT is on his radar. Nothing is confirmed yet for 2027.\n\nWould you want to see him on the FD grid? 👇\n\nSource: Jimmy Oakes on The Circle of Drift podcast, via Drifted",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/2026-11-26-rumor-jimmy-oakes-fd-2027__1.png"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": null,
-   "check": true,
-   "check_reason": "gerucht: klopt de basis? dan goedkeuren",
-   "source": "https://www.drifted.com/jimmy-oakes-explains-his-upcoming-formula-drift-plans/",
-   "platforms": [
-    "facebook",
-    "instagram"
-   ],
-   "created": "2026-11-26T20:46:13.558742+00:00",
-   "built": "2026-11-26T20:48:18.406434+00:00",
-   "want_at": null,
-   "video": null,
-   "tags": null,
-   "missing_handles": null,
-   "caption_by": null,
-   "format": null,
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": [
-    "Jimmy Oakes"
-   ],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": {
-    "type": "rumor"
-   },
-   "evergreen": null,
-   "tiktok_done": null,
-   "poll": null,
-   "tiktok_draft": null,
-   "series": null,
-   "short": null,
-   "title": "IS JIMMY OAKES GOING PRO IN 2027?",
-   "photo": {
-    "mode": "optional",
-    "credit": ""
-   },
-   "rights": {
-    "r": "eigen",
-    "money": true
    }
   },
   {
