@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:35:17.242523+00:00",
+ "updated": "2026-11-27T15:46:36.499459+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 851,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T15:31:49.705947+00:00",
+ "collected": "2026-11-27T15:46:30.349024+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,16 +35,14 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": true,
-   "items": 10,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
   },
   {
    "source": "Formula DRIFT",
@@ -120,7 +118,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -133,14 +131,16 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20when"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -166,36 +166,35 @@
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
-   "ok": true,
-   "items": 4,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 6,
+   "items": 11,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
+  },
+  {
+   "source": "Google News",
+   "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
    "ok": true,
    "items": 6,
    "how": "feed"
   },
   {
    "source": "Google News",
-   "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
-  },
-  {
-   "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Red Bull",
@@ -6336,10 +6335,10 @@
   ]
  },
  "streams": {
-  "total": 193,
+  "total": 200,
   "transcribed": 179,
   "moments": 170,
-  "next": "Drift Masters 2026 Grand Finale Poland · Top 32",
+  "next": "High Stakes 2026 · round 7",
   "series": {
    "The Shanahans": {
     "total": 14,
@@ -6370,7 +6369,7 @@
     "transcribed": 9
    },
    "Formula DRIFT": {
-    "total": 38,
+    "total": 45,
     "transcribed": 38
    },
    "Vaughn Gittin Jr.": {
@@ -30592,7 +30591,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {},
-   "score": 69,
+   "score": 80,
    "captions": {
     "instagram": "Corey Tlaska vs Sean Booth | Formula DRIFT Indianapolis 2026\n\nThe Atlanta winner Corey Tlaska is under pressure as the lead car pulls away with big angle.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@corytalaska @_seanbooth @formulad\n\n#formuladrift #formulad #coreytlaska #seanbooth #sidewayswire",
     "facebook": "Corey Tlaska vs Sean Booth | Formula DRIFT Indianapolis 2026\n\nThe Atlanta winner Corey Tlaska is under pressure as the lead car pulls away with big angle.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@corytalaska @_seanbooth @formulad\n\n#formuladrift #formulad #sidewayswire",
@@ -76356,7 +76355,7 @@
    "nr": "15",
    "land": "",
    "serie": "FD",
-   "prio": "2",
+   "prio": "1",
    "aliases": ""
   },
   {
