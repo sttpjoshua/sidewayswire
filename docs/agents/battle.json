@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "bezig",
- "doing": "turbo · leest: Drift Masters · Drift Masters Round 6 2026 • Germany • Qualifying LIVE",
- "updated": "2026-11-27T07:06:25.977193+00:00",
+ "doing": "nog 13 video's te lezen",
+ "updated": "2026-11-27T07:28:22.817240+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-27T07:27:30.986643+00:00",
+   "text": "30 momenten uit Drift Masters Round 6 2026 • Germany • Qualifying LIVE",
+   "ref": "ytrgigcybgiaw"
+  },
   {
    "at": "2026-11-27T07:06:24.379355+00:00",
    "text": "30 momenten uit Formula DRIFT Long Beach 2026 - PRO, Round 1 - Qualifying",
@@ -126,22 +131,17 @@
    "at": "2026-11-26T19:19:42.851749+00:00",
    "text": "0 momenten uit Drift Masters Round 2 2026 • Spain • Qualifying LIVE",
    "ref": "ytigkljzjjdxq"
-  },
-  {
-   "at": "2026-11-26T19:19:38.520368+00:00",
-   "text": "0 momenten uit Red Bull Drift Masters Round 3 2026 • Ireland • Qualifying LIVE",
-   "ref": "ytmhbnyub920g"
   }
  ],
  "errors": [],
  "drops": {
-  "te kort of te lang": 55,
+  "te kort of te lang": 84,
   "buiten het stuk": 2
  },
  "sample": "",
  "counts": {
   "day": "2026-11-27",
-  "made": 8
+  "made": 9
  },
  "version": "3"
 }
