@@ -470,6 +470,7 @@ const AG_COLOR={bezig:"#c8ff00",wacht:"#7a7a80",pauze:"#ffb000",uit:"#444",fout:
 let AG={},AGCFG={agents:{}},TIPS={tips:[]};
 async function loadAgents(){const ids=AG_ORDER.flatMap(x=>x[1]);
   const r=await Promise.all(ids.map(id=>fetch(`agents/${id}.json?${Date.now()}`).then(x=>x.ok?x.json():null).catch(()=>null)));ids.forEach((id,i)=>AG[id]=r[i]||{id,name:id,state:"gepland"});
+  if(!key)return;      // zonder sleutel alleen kijken: geen sleutelvenster laten opspringen
   try{const f=await gh(`/contents/data/agents.json?ref=main&${Date.now()}`);AGCFG=JSON.parse(unb64(f.content));AGCFG._sha=f.sha}catch(e){}
   try{const f=await gh(`/contents/data/tips.json?ref=main&${Date.now()}`);TIPS=JSON.parse(unb64(f.content))}catch(e){}}
 function agCard(id){const a=AG[id]||{},c=(AGCFG.agents||{})[id]||{on:true,note:""},st=c.on===false?"uit":(a.state||"wacht"),H=a.history||[],dr=Object.entries(a.drops||{});

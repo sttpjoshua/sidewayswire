@@ -451,7 +451,7 @@ function applyStates() {
   fx.sun.intensity = night ? .25 : 2.2; fx.hemi.intensity = night ? .35 : 1.0;
   (fx.flood || []).forEach(s => s.intensity = night ? 420 : 0);
   fx.lights.forEach(l => l.intensity = night ? 34 : 14);
-  extrasState(night); r4State(); liveries(); keyTrouble(); r6State(night);
+  extrasState(night); r4State(); liveries(); keyTrouble(); r6State(night); r7State(night);
 }
 
 // ---------- animatie ----------
@@ -494,7 +494,7 @@ function tick() {
     if (o.say && !o.hasTxt) { o.bub.element.textContent = o.say; o.bub.element.className = "of3-bub of3-say"; }
     const show = !!o.hasTxt || !!o.say; o.tag.visible = !far; o.bub.visible = show && (!far || o.st === "fout" || o.st === "bezig"); }
   if (camGoal) { const k = 1 - Math.pow(.02, dt); camera.position.lerp(camGoal.pos, k); controls.target.lerp(camGoal.look, k); if (camera.position.distanceTo(camGoal.pos) < .05) camGoal = null; }
-  extrasTick(dt, t); r4Tick(dt, t); controls.update(); if (fx.composer) fx.composer.render(); else renderer.render(scene, camera); labelR.render(scene, camera);
+  extrasTick(dt, t); r4Tick(dt, t); r7Tick(dt, t); controls.update(); if (fx.composer) fx.composer.render(); else renderer.render(scene, camera); labelR.render(scene, camera);
 }
 
 // ---------- camera's ----------
@@ -523,7 +523,7 @@ function build() {
   fx.sun = new THREE.DirectionalLight(0xffffff, 2.2); fx.sun.position.set(-18, 30, 22); fx.sun.castShadow = true;
   fx.sun.shadow.mapSize.set(2048, 2048); Object.assign(fx.sun.shadow.camera, { left: -40, right: 40, top: 30, bottom: -30, far: 90 }); fx.sun.shadow.bias = -.0005; scene.add(fx.sun);
   clock = new THREE.Clock();
-  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild(); r4Build(); r6Build();
+  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild(); r4Build(); r6Build(); r7Build();
   for (const [id, A] of Object.entries(AGENTS)) {
     const G = GARAGES.find(g => g.id === A.g).group;
     const p = person(G, A.look, A.at[0], A.at[1] - (A.stand ? 0 : .95), id, !A.stand);
@@ -1038,4 +1038,154 @@ function r6State(night) {
   // overdag geeft de zon de schaduwen; 's nachts de lampen
   R6.nightLights.forEach(l => { l.intensity = night ? 160 : 0; l.castShadow = night; });
   if (fx.sun) fx.sun.castShadow = !night || !R6.hq;
+}
+
+// =====================================================================================
+// RONDE 7: de garages voller. Stellingen, een tweede auto met open motorkap, posters met
+// echte posts, een vergadertafel, modelauto's, de decemberkalender, extra schermen, een
+// antenne, jouw bank, koelkast, STTP-neon, camera op statief en C-stand, plus overal
+// klokken met de echte tijd, kabelgoten, prullenbakken, pallets, blussers en 's nachts vliegjes.
+// =====================================================================================
+const R7 = { clocks: [], posters: [], moths: [], graphs: [], antenna: null };
+const gG = id => GARAGES.find(g => g.id === id);
+function shelf(parent, x, z, ry, w = 2.4, h = 2.4) {
+  const g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = ry; parent.add(g);
+  const steel = mat(0x3a3d44, { m: .6, r: .4 }), cols = [0xc49a6c, 0xb08050, 0x2a2b30, 0xd33, LIME, 0xddd];
+  for (const sx of [-w / 2, w / 2]) for (const sz of [-.3, .3]) mesh(B(.06, h, .06), steel, sx, h / 2, sz, g);
+  for (let k = 0; k < 4; k++) { const y = .15 + k * (h - .2) / 3; mesh(B(w, .04, .66), steel, 0, y, 0, g);
+    if (k < 3) for (let i = 0; i < 4; i++) if ((i + k) % 5 !== 3) { const bw = .35 + ((i * 7 + k * 3) % 4) * .08, bh = .25 + ((i + k) % 3) * .1;
+      mesh(B(bw, bh, .45), mat(cols[(i + k * 2) % cols.length], { r: .8 }), -w / 2 + .35 + i * (w - .5) / 3.6, y + bh / 2 + .02, 0, g); } }
+  return g;
+}
+function plant(parent, x, z, s = 1) {
+  mesh(new THREE.CylinderGeometry(.22 * s, .17 * s, .4 * s, 12), mat(0x1d1d22), x, .2 * s, z, parent);
+  for (let i = 0; i < 6; i++) { const l = mesh(new THREE.ConeGeometry(.09 * s, .8 * s, 5), mat(0x2f8f4a, { r: .8 }), x + Math.cos(i) * .08, .65 * s, z + Math.sin(i) * .08, parent); l.rotation.set(Math.cos(i) * .5, 0, Math.sin(i) * .5); }
+}
+function chair(parent, x, z, ry, col = 0x111114) {
+  const g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = ry; parent.add(g);
+  mesh(B(.5, .08, .5), mat(col), 0, .48, 0, g); mesh(B(.5, .55, .07), mat(col), 0, .78, .22, g);
+  for (const [a, b] of [[-.2, -.2], [.2, -.2], [-.2, .2], [.2, .2]]) mesh(B(.04, .46, .04), mat(0x555555, { m: .7 }), a, .23, b, g);
+}
+function wallClock(parent, x, y, z, ry) {
+  const t = canvasTex(256, 256, () => {}), o = plane(t, .7, .7, parent, x, y, z, ry); R7.clocks.push(t); return o;
+}
+function drawClock(g, w, h) {
+  const n = NL(), cx = w / 2, cy = h / 2, r = w * .46; g.clearRect(0, 0, w, h);
+  g.fillStyle = "#111"; g.beginPath(); g.arc(cx, cy, r, 0, 7); g.fill(); g.lineWidth = 10; g.strokeStyle = "#C6FF00"; g.stroke();
+  g.fillStyle = "#fff"; for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2; g.fillRect(cx + Math.sin(a) * r * .8 - 4, cy - Math.cos(a) * r * .8 - 4, 8, 8); }
+  const hand = (a, len, wdt, col) => { g.strokeStyle = col; g.lineWidth = wdt; g.lineCap = "round"; g.beginPath(); g.moveTo(cx, cy); g.lineTo(cx + Math.sin(a) * len, cy - Math.cos(a) * len); g.stroke(); };
+  hand((n.getHours() % 12 + n.getMinutes() / 60) / 12 * Math.PI * 2, r * .5, 12, "#fff"); hand(n.getMinutes() / 60 * Math.PI * 2, r * .75, 8, "#fff");
+  g.fillStyle = "#FF2E88"; g.beginPath(); g.arc(cx, cy, 10, 0, 7); g.fill();
+}
+function bin(parent, x, z) { mesh(new THREE.CylinderGeometry(.25, .22, .7, 14), mat(0x2a2b30, { m: .5 }), x, .35, z, parent); mesh(new THREE.CylinderGeometry(.27, .27, .05, 14), mat(LIME), x, .72, z, parent); }
+function pallet(parent, x, z, ry, load) {
+  const g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = ry; parent.add(g); const wd = mat(0xb8916a, { r: .9 });
+  for (const sz of [-.45, 0, .45]) mesh(B(1.2, .1, .12), wd, 0, .05, sz, g); for (let i = 0; i < 6; i++) mesh(B(.16, .03, 1.0), wd, -.5 + i * .2, .12, 0, g);
+  if (load) for (let i = 0; i < 4; i++) mesh(B(.5, .4, .45), mat(0xc49a6c), -.27 + (i % 2) * .54, .34 + Math.floor(i / 2) * .41, (i % 2 ? .2 : -.2), g);
+}
+function extWall(parent, x, z, ry) { const g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = ry; parent.add(g);
+  mesh(B(.4, .5, .04), mat(0xffffff), 0, 1.6, 0, g); mesh(new THREE.CylinderGeometry(.1, .1, .5, 10), mat(0xd01818, { r: .3 }), 0, 1.0, .1, g); }
+function cableTray(parent, W) { mesh(B(W - .6, .08, .3), mat(0x55585e, { m: .7 }), 0, WALL_H - .7, -DEPTH / 2 + .35, parent);
+  for (let i = 0; i < 3; i++) mesh(new THREE.CylinderGeometry(.03, .03, W - .7, 6), mat([0x111111, 0xFF9F43, 0x2266ff][i]), 0, WALL_H - .62, -DEPTH / 2 + .28 + i * .06, parent).rotation.z = Math.PI / 2; }
+function floorCable(parent, x1, z1, x2, z2, col = 0x111111) { const a = new THREE.Vector3(x1, .03, z1), b = new THREE.Vector3(x2, .03, z2), mid = a.clone().add(b).multiplyScalar(.5);
+  const c = mesh(new THREE.CylinderGeometry(.03, .03, a.distanceTo(b), 6), mat(col), mid.x, mid.y, mid.z, parent); c.rotation.z = Math.PI / 2; c.rotation.y = -Math.atan2(b.z - a.z, b.x - a.x); }
+function poster(parent, x, y, z, ry, w = 1.0) {
+  const t = canvasTex(320, 400, (g, W, H) => { g.fillStyle = "#111"; g.fillRect(0, 0, W, H); g.fillStyle = "#C6FF00"; g.fillRect(0, H - 40, W, 40); });
+  mesh(B(w + .08, w * 1.25 + .08, .03), mat(0x0b0b0d), x, y, z, parent).rotation.y = ry;
+  const o = plane(t, w, w * 1.25, parent, x + Math.sin(ry) * .02, y, z + Math.cos(ry) * .02, ry); R7.posters.push(t); return o;
+}
+function fillPosters() {
+  if (typeof S === "undefined" || !S) return;
+  const P = posts().filter(p => (p.thumb || (p.media || [])[0] || "").match(/\.(jpe?g|png|webp)/i) || p.thumb).slice(-40);
+  R7.posters.forEach((t, i) => { const p = P[(i * 7) % Math.max(1, P.length)]; if (!p) return; const src = p.thumb || p.media[0];
+    const img = new Image(); img.crossOrigin = "anonymous"; img.onload = () => redraw(t, (g, W, H) => { g.fillStyle = "#111"; g.fillRect(0, 0, W, H);
+      const k = Math.max(W / img.width, (H - 40) / img.height), iw = img.width * k, ih = img.height * k; g.drawImage(img, (W - iw) / 2, (H - 40 - ih) / 2, iw, ih);
+      g.fillStyle = "#C6FF00"; g.fillRect(0, H - 40, W, 40); g.fillStyle = "#111"; g.font = "italic 900 28px 'Bebas Neue',Impact,sans-serif"; g.fillText("SIDEWAYS WIRE", 12, H - 12); });
+    img.src = src; });
+}
+
+function r7Build() {
+  const dir = gG("directie").group, red = gG("redactie").group, pit = gG("pitwall").group, jij = gG("jij").group;
+  // --- DIRECTIE ---
+  mesh(new THREE.CylinderGeometry(1.0, 1.0, .07, 24), mat(0x1d1e22, { r: .3 }), .4, .78, 1.3, dir); mesh(new THREE.CylinderGeometry(.08, .25, .76, 10), mat(0x0f0f11), .4, .38, 1.3, dir);
+  for (let i = 0; i < 4; i++) { const a = i / 4 * Math.PI * 2 + .4; chair(dir, .4 + Math.cos(a) * 1.35, 1.3 + Math.sin(a) * 1.35, -a + Math.PI / 2, BLUE); }
+  mesh(B(.9, .04, .6), mat(0xffffff), .4, .82, 1.3, dir);                       // papieren op tafel
+  plant(dir, -4.9, 3.9, 1.2); plant(dir, 4.9, -3.9, 1.3); plant(dir, 4.9, 0.4, 1);
+  const vit = new THREE.Group(); vit.position.set(5.1, 0, -1.6); dir.add(vit);       // vitrine met modelauto's
+  mesh(B(.6, 1.0, 1.6), mat(0x111114), 0, .5, 0, vit);
+  const glass = new THREE.MeshStandardMaterial({ color: 0x99bbcc, transparent: true, opacity: .2, roughness: .05, metalness: .2 });
+  mesh(B(.6, .9, 1.6), glass, 0, 1.45, 0, vit).castShadow = false;
+  [PINK, LIME, BLUE].forEach((c, i) => { const mc = makeCar(c, vit, 0, 1.02, -.5 + i * .5, Math.PI / 2, .1); });
+  const cal = canvasTex(512, 400, drawCalendar); plane(cal, 1.6, 1.25, dir, -5.37, 2.3, -1.6, Math.PI / 2); R7.cal = cal;
+  wallClock(dir, 5.37, 3.1, 2.6, -Math.PI / 2); bin(dir, -1.6, 3.8); extWall(dir, -5.35, 3.2, Math.PI / 2); cableTray(dir, gG("directie").w);
+  poster(dir, 2.6, 2.4, -4.36, 0, .9);
+  // --- REDACTIE ---
+  shelf(red, -7.05, -1.2, Math.PI / 2, 2.6); shelf(red, 7.05, .8, -Math.PI / 2, 2.0);
+  const car2 = makeCar(0x2a2b30, red, 4.4, 0, 3.4, Math.PI / 2, .78); car2.userData.paint.color.setHex(0x3a3d44);
+  const hood = mesh(B(1.5, .05, 1.0), mat(0x3a3d44, { r: .3, m: .6 }), 0, 1.25, 1.45, car2); hood.rotation.x = -1.1;   // motorkap open
+  mesh(B(.9, .35, .7), mat(0x777a80, { m: .8, r: .3 }), 0, .85, 1.3, car2);                                              // motorblok
+  mesh(new THREE.CylinderGeometry(.4, .4, .35, 16).rotateZ(Math.PI / 2), mat(0x111113), 2.2, .4, 3.0, red);                // losse band ernaast
+  pallet(red, 1.4, 3.8, .3, true); bin(red, -1.0, 3.9);
+  for (const [x, y] of [[-6.4, 2.3], [-5.2, 2.3], [5.9, 3.3]]) poster(red, x, y, -4.36, 0, .85);
+  poster(red, -7.3, 2.4, 2.6, Math.PI / 2, .9);
+  floorCable(red, -6.5, -3.9, -1.6, .8, 0x111111); floorCable(red, -1.6, .8, 5.2, .8, 0xFF9F43); floorCable(red, 3, -3.9, 3.2, 2.2, 0x2266ff);
+  wallClock(red, 7.37, 3.1, -2.6, -Math.PI / 2); extWall(red, -7.35, 3.6, Math.PI / 2); cableTray(red, gG("redactie").w);
+  // --- PITWALL ---
+  for (const x of [-2.8, 0, 2.8]) { const st = new THREE.Group(); st.position.set(x, 0, -3.6); pit.add(st); mesh(new THREE.CylinderGeometry(.05, .05, 1.9, 8), mat(0x222226), 0, .95, 0, st);
+    const gt = canvasTex(256, 160, () => {}); R7.graphs.push(gt); mesh(B(1.1, .7, .06), mat(0x0b0b0d), 0, 2.05, 0, st); plane(gt, 1.0, .6, st, 0, 2.05, .035); }
+  for (const x of [-4.2, -1.4, 1.4, 4.2]) { const hp = mesh(new THREE.TorusGeometry(.14, .03, 6, 14, Math.PI), mat(0x111111), x - .6, .98, -1.0, pit); hp.rotation.x = -Math.PI / 2;
+    mesh(B(.08, .1, .08), mat(PINK), x - .74, .98, -1.0, pit); mesh(B(.08, .1, .08), mat(PINK), x - .46, .98, -1.0, pit); }
+  const ant = new THREE.Group(); ant.position.set(5.6, WALL_H, -3.8); pit.add(ant);
+  mesh(new THREE.CylinderGeometry(.05, .08, 4, 6), mat(0xbbbbbb, { m: .8 }), 0, 2, 0, ant); for (let i = 1; i < 4; i++) mesh(B(.9 - i * .2, .04, .04), mat(0xbbbbbb, { m: .8 }), 0, i * .9, 0, ant);
+  R7.antenna = mesh(new THREE.SphereGeometry(.1, 8, 6), new THREE.MeshBasicMaterial({ color: 0xff2020, toneMapped: false }), 0, 4.05, 0, ant);
+  const ct = new THREE.TorusGeometry(.38, .17, 8, 18); ct.rotateX(Math.PI / 2);
+  for (let i = 0; i < 5; i++) { const t = mesh(ct, mat(0x111113, { r: .9 }), -5.6 + (i % 2) * .3, .17 + i * .32, 1.6, pit); }
+  mesh(new THREE.TorusGeometry(.4, .02, 4, 24).rotateX(Math.PI / 2), mat(0xffffff), -5.6, 1.5, 1.6, pit);                 // krijtstreep
+  wallClock(pit, -6.37, 3.1, -1.0, Math.PI / 2); bin(pit, 5.8, 3.9); cableTray(pit, gG("pitwall").w); plant(pit, -6.0, 3.9, 1);
+  poster(pit, 6.37, 2.3, 1.0, -Math.PI / 2, .9);
+  // --- JOUW GARAGE ---
+  const sofa = new THREE.Group(); sofa.position.set(-2.3, 0, 3.1); jij.add(sofa);
+  mesh(B(2.4, .45, .9), mat(0x3a2a24, { r: .9 }), 0, .23, 0, sofa); mesh(B(2.4, .7, .25), mat(0x3a2a24, { r: .9 }), 0, .6, .38, sofa);
+  for (const sx of [-1.2, 1.2]) mesh(B(.22, .6, .9), mat(0x3a2a24, { r: .9 }), sx, .4, 0, sofa); mesh(B(.5, .14, .4), mat(ORANGE), -.6, .52, .05, sofa);
+  const fr = mesh(B(.8, 1.8, .7), mat(0xe8e8ea, { r: .3, m: .3 }), -5.0, .9, -3.6, jij); mesh(B(.04, .6, .04), mat(0x888888, { m: .9 }), -4.62, 1.3, -3.24, jij);
+  mesh(B(.5, .12, .02), mat(LIME, { e: LIME, ei: .6 }), -5.0, 1.55, -3.24, jij);
+  plane(neonText("STTP", "#FF2E88", 3, 1), 1.8, .6, jij, -5.37, 2.8, 0, Math.PI / 2);
+  const tri = new THREE.Group(); tri.position.set(.8, 0, 1.0); tri.rotation.y = -.5; jij.add(tri);                         // camera op statief
+  for (let i = 0; i < 3; i++) { const l = mesh(new THREE.CylinderGeometry(.02, .02, 1.5, 6), mat(0x111111), Math.cos(i * 2.1) * .25, .7, Math.sin(i * 2.1) * .25, tri); l.rotation.set(Math.sin(i * 2.1) * .2, 0, -Math.cos(i * 2.1) * .2); }
+  mesh(B(.32, .24, .2), mat(0x1a1a1a), 0, 1.5, 0, tri); mesh(new THREE.CylinderGeometry(.08, .09, .3, 14).rotateX(Math.PI / 2), mat(0x111111), 0, 1.5, -.22, tri);
+  const cs = new THREE.Group(); cs.position.set(-4.9, 0, .5); jij.add(cs);                                                // C-stand met flag
+  for (let i = 0; i < 3; i++) { const l = mesh(B(.04, .04, .6), mat(0x9a9aa0, { m: .8 }), Math.cos(i * 2.1) * .2, .05 + i * .06, Math.sin(i * 2.1) * .2, cs); l.rotation.y = -i * 2.1; }
+  mesh(new THREE.CylinderGeometry(.025, .025, 2.4, 6), mat(0x9a9aa0, { m: .8 }), 0, 1.25, 0, cs); const arm = mesh(B(1.1, .04, .04), mat(0x9a9aa0, { m: .8 }), .5, 2.3, 0, cs);
+  mesh(B(.6, .45, .02), mat(0x111111), 1.0, 2.1, 0, cs);
+  wallClock(jij, 5.37, 3.1, 1.0, -Math.PI / 2); bin(jij, -2.6, -.4); extWall(jij, 5.35, 3.4, -Math.PI / 2); cableTray(jij, gG("jij").w); plant(jij, 1.2, -3.9, 1.1);
+  poster(jij, 1.8, 2.4, -4.36, 0, .8);
+  // vliegjes rond de lampen ('s nachts)
+  const mt = new THREE.MeshBasicMaterial({ color: 0xfff2c0, toneMapped: false });
+  for (const G of GARAGES) for (let i = 0; i < 6; i++) { const m = new THREE.Mesh(new THREE.SphereGeometry(.03, 4, 3), mt); G.group.add(m); R7.moths.push({ m, c: new THREE.Vector3((i % 2 ? -1 : 1) * G.w / 4, WALL_H - .5, .5), ph: Math.random() * 6, r: .3 + Math.random() * .4 }); }
+  fillPosters();
+}
+function drawCalendar(g, w, h) {
+  const n = NL(), y = n.getFullYear(), m = n.getMonth(), first = (new Date(y, m, 1).getDay() + 6) % 7, days = new Date(y, m + 1, 0).getDate();
+  g.fillStyle = "#f4f4f2"; g.fillRect(0, 0, w, h); g.fillStyle = "#111"; g.fillRect(0, 0, w, 70);
+  g.fillStyle = "#C6FF00"; g.font = "italic 900 52px 'Bebas Neue',Impact,sans-serif"; g.fillText(n.toLocaleDateString("nl-NL", { month: "long" }).toUpperCase() + " " + y, 20, 52);
+  const cw = w / 7, ch = (h - 80) / 6;
+  for (let d = 1; d <= days; d++) { const i = first + d - 1, x = (i % 7) * cw, yy = 80 + Math.floor(i / 7) * ch;
+    if (d === n.getDate()) { g.fillStyle = "#FF2E88"; g.fillRect(x + 2, yy + 2, cw - 4, ch - 4); }
+    if (m === 11 && d === 1) { g.fillStyle = "#C6FF00"; g.fillRect(x + 2, yy + 2, cw - 4, ch - 4); }
+    g.fillStyle = "#222"; g.font = "28px Inter,sans-serif"; g.fillText(String(d), x + 10, yy + 32); }
+}
+function drawGraph(g, w, h, seed) {
+  g.fillStyle = "#050506"; g.fillRect(0, 0, w, h); g.strokeStyle = "#1e1e24"; for (let x = 0; x < w; x += 32) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, h); g.stroke(); }
+  const t = Date.now() / 60000, col = ["#C6FF00", "#FF2E88", "#5BC0FF"][seed % 3]; g.strokeStyle = col; g.lineWidth = 4; g.beginPath();
+  for (let x = 0; x <= w; x += 8) { const v = h * .55 - Math.sin(x / 30 + t + seed) * h * .2 - Math.sin(x / 11 + seed * 3) * h * .08; x ? g.lineTo(x, v) : g.moveTo(x, v); } g.stroke();
+}
+function r7State(night) {
+  R7.clocks.forEach(t => redraw(t, drawClock)); if (R7.cal) redraw(R7.cal, drawCalendar);
+  R7.graphs.forEach((t, i) => redraw(t, (g, w, h) => drawGraph(g, w, h, i)));
+  R7.moths.forEach(o => o.m.visible = night);
+  if (!R7.postersAt || Date.now() - R7.postersAt > 10 * 60e3) { R7.postersAt = Date.now(); fillPosters(); }
+}
+function r7Tick(dt, t) {
+  for (const o of R7.moths) if (o.m.visible) o.m.position.set(o.c.x + Math.cos(t * 3 + o.ph) * o.r, o.c.y + Math.sin(t * 5 + o.ph) * .15, o.c.z + Math.sin(t * 3 + o.ph) * o.r);
+  if (R7.antenna) R7.antenna.visible = Math.sin(t * 3) > 0;
 }
