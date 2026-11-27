@@ -150,8 +150,6 @@ h2.cat.hot{color:#FF2E88}.hotb{display:inline-block;background:#FF2E88;color:#ff
 .mo-a input{margin-top:3px;width:18px;height:18px;accent-color:#C6FF00}
 .mo-p{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;padding:8px 0;border-top:1px solid #222}.mo-p small{grid-column:1}.mo-p .tag{grid-row:1;grid-column:2}.mo-p input{grid-column:1;background:#111;color:#fff;border:2px solid #333;padding:6px}.mo-p button{grid-column:2}
 .rt{font-size:11px;font-weight:700;letter-spacing:1px;padding:2px 6px}.rt.eigen{background:#C6FF00;color:#111}.rt.toestemming{background:#5BC0FF;color:#111}.rt.geleend{background:#444;color:#ddd}
-.wk{border:2px solid #2a2a2e;background:#141416;padding:12px 14px;margin:10px 0}.wk.ok{border-color:#3d4a12}.wk.rec{border-color:#FF2E88;box-shadow:0 0 0 3px #FF2E8855}.wk b{color:#fff;font-size:16px}
-.wk textarea{width:100%;min-height:70px;margin-top:8px;background:#0e0e10;color:#fff;border:2px solid #333;padding:10px;font:17px/1.5 Inter,sans-serif}
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -218,7 +216,6 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <a href="#tags" data-s="tags" data-n="tags">TAGS <span class="cnt" id="c-tags"></span></a>
   <a href="#tiktok" data-s="tiktok" data-n="tiktok">TIKTOK <span class="cnt" id="c-tt"></span></a>
   <a href="#stats" data-s="stats" data-n="stats">STATISTIEKEN</a>
-  <a href="#weekoverzicht" data-s="weekoverzicht" data-n="weekoverzicht">WEEKOVERZICHT <span class="cnt" id="c-wk"></span></a>
   <a href="#verdienen" data-s="verdienen" data-n="verdienen">VERDIENEN <span class="cnt" id="c-money"></span></a>
   <a href="#kanalen" data-s="kanalen" data-n="inst">INSTELLINGEN</a>
   <div class="live" id="live"></div>
@@ -269,11 +266,6 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <div id="tt-ready"></div>
   <h2>KOMENDE TIKTOKS <small>de tekst die bij elk concept hoort, al vast om te bekijken of te kopiëren</small></h2><div id="tt-next"></div>
 </section>
-<section id="s-weekoverzicht">
-  <h1>WEEKOVERZICHT</h1><div class="sub">Eigen werk met jouw stem: elke zondagochtend staat hier het script van de week. Pas de tekst aan, spreek elk stukje in (Engels, rustig tempo, telefoon of laptop), en druk op MAAK DE VIDEO. Het systeem maakt er een staande video van (reels, TikTok, Shorts) en een liggende (YouTube, Facebook), met dia's en ondertitels; daarna staat hij in BEOORDELEN.</div>
-  <div id="wk-box"></div>
-</section>
-
 <section id="s-verdienen">
   <h1>VERDIENEN</h1><div class="sub">Mijlpalen om geld te verdienen met Sideways Wire. Haal je er een, dan verschijnen hier de acties en steekt de strateeg in het kantoor zijn hand op. Achtergrond: <a href="https://claude.ai/artifact/X7hNtrpNnNYDsZkhicPtoo" target="_blank">het onderzoek</a>.</div>
   <div id="mo-top"></div><div id="mo-list"></div>
@@ -493,54 +485,6 @@ function drawTikTokPage(){drawTikTok();const R=ttReady(),now=new Date().toISOStr
 document.addEventListener("click",async e=>{const c=e.target.closest("[data-ttc],[data-ttd]");if(!c)return;const card=c.closest("[data-tt]"),id=card.dataset.tt;
   if(c.hasAttribute("data-ttc")){const t=card.querySelector("textarea");try{await navigator.clipboard.writeText(t.value)}catch(x){t.select();document.execCommand("copy")}toast("Tekst gekopieerd. Plak hem in TikTok.");return}
   c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTokPage();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
-
-
-// ---------- weekoverzicht met jouw stem (lc/weekly.py, .github/workflows/weekly.yml) ----------
-let WK_REC=null,WK_LOCAL={};
-function wkLeft(){const W=S&&S.weekly;if(!W||!W.segments||W.status!=="script")return 0;return W.segments.filter(x=>!(W.recorded||[]).includes(x.id)&&!WK_LOCAL[x.id]).length}
-function drawWeekly(){const W=S&&S.weekly,box=document.getElementById("wk-box");
-  if(!W||!W.segments){box.innerHTML=`<div class="empty2">Het eerste script verschijnt zondagochtend.</div>`;return}
-  const rec=new Set([...(W.recorded||[]),...Object.keys(WK_LOCAL)]),n=W.segments.length,done=W.segments.filter(x=>rec.has(x.id)).length;
-  box.innerHTML=`<div class="stk"><div class="row" style="gap:10px;align-items:center"><b style="color:#fff;font-size:20px">WEEK ${esc(W.week.split("-W")[1])}</b>
-      <span class="tag">${done}/${n} INGESPROKEN</span>${W.status==="gemaakt"?`<span class="tag" style="background:#C6FF00;color:#111">VIDEO GEMAAKT</span>`:""}
-      <span class="muted" style="margin-left:auto;font-size:12px">script gemaakt ${fmtWhen(W.made)}</span></div>
-    ${W.post?`<p style="margin:8px 0">De video staat klaar: <a href="#beoordelen/${esc(W.post)}">bekijk hem in BEOORDELEN</a>. Spreek je iets opnieuw in, druk dan nog een keer op MAAK DE VIDEO.</p>`:""}
-    <div class="muted" style="font-size:13px;margin-top:6px">Tip: lees één keer hardop voor je opneemt, en laat een halve tel stilte aan het begin en eind. Een stukje dat je niet inspreekt, valt weg uit de video.</div></div>
-  ${W.segments.map((x,i)=>`<div class="wk ${rec.has(x.id)?"ok":""}" data-wk="${x.id}"><div class="row" style="gap:8px;align-items:center"><span class="tag">${i+1}/${n}</span><b>${esc(x.title)}</b>
-      <span class="muted" style="margin-left:auto;font-size:12px">${rec.has(x.id)?"✓ ingesproken":"nog inspreken"}</span></div>
-    <textarea data-wkt>${esc(x.text)}</textarea>
-    <div class="row" style="gap:8px;margin-top:6px;flex-wrap:wrap;align-items:center"><button class="btn ${rec.has(x.id)?"":"g"}" data-wkrec>${rec.has(x.id)?"● OPNIEUW INSPREKEN":"● INSPREKEN"}</button>
-      ${WK_LOCAL[x.id]?`<audio controls src="${WK_LOCAL[x.id]}" style="height:36px"></audio>`:""}<span class="muted wk-st" style="font-size:13px"></span></div></div>`).join("")}
-  <div class="row" style="gap:8px;margin:14px 0"><button class="btn" id="wk-save">TEKST OPSLAAN</button><button class="btn g" id="wk-make" ${done?"":"disabled"}>MAAK DE VIDEO</button></div>`;
-  document.getElementById("c-wk").textContent=wkLeft()||""}
-async function wkPutFile(path,b64data,msg){let sha=null;try{sha=(await gh(`/contents/${path}?ref=main&${Date.now()}`)).sha}catch(e){}
-  await gh(`/contents/${path}`,{method:"PUT",body:JSON.stringify({message:msg,content:b64data,...(sha?{sha}:{}),branch:"main"})})}
-const blobB64=b=>new Promise(r=>{const f=new FileReader();f.onload=()=>r(String(f.result).split(",")[1]);f.readAsDataURL(b)});
-document.addEventListener("click",async e=>{
-  const rb=e.target.closest("[data-wkrec]");
-  if(rb){const card=rb.closest("[data-wk]"),id=card.dataset.wk,st=card.querySelector(".wk-st");
-    if(WK_REC&&WK_REC.id===id){WK_REC.mr.stop();return}
-    if(WK_REC){toast("Stop eerst de andere opname.",1);return}
-    if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
-    try{const stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});
-      const mime=["audio/webm;codecs=opus","audio/mp4","audio/webm"].find(m=>window.MediaRecorder&&MediaRecorder.isTypeSupported(m))||"";
-      const mr=new MediaRecorder(stream,mime?{mimeType:mime}:{}),chunks=[];WK_REC={id,mr};
-      mr.ondataavailable=ev=>ev.data.size&&chunks.push(ev.data);
-      mr.onstop=async()=>{stream.getTracks().forEach(t=>t.stop());const type=mr.mimeType||mime||"audio/webm",blob=new Blob(chunks,{type}),ext=/mp4/.test(type)?"m4a":"webm";
-        WK_REC=null;rb.textContent="● OPNIEUW INSPREKEN";card.classList.remove("rec");st.textContent="opslaan...";
-        try{await wkPutFile(`data/weekly/${S.weekly.week}/${id}.${ext}`,await blobB64(blob),`weekoverzicht: ${id} ingesproken`);
-          WK_LOCAL[id]=URL.createObjectURL(blob);drawWeekly();toast("Ingesproken en opgeslagen.")}catch(x){st.textContent="";toast(x.message,1)}};
-      mr.start();card.classList.add("rec");rb.textContent="■ STOP";st.textContent="opname loopt...";}
-    catch(x){toast("De microfoon kan niet gebruikt worden: "+x.message,1)}return}
-  if(e.target.closest("#wk-save")){if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}const b=e.target.closest("#wk-save");b.disabled=true;
-    try{const texts={};document.querySelectorAll("[data-wk]").forEach(c=>texts[c.dataset.wk]=c.querySelector("[data-wkt]").value.trim());
-      await saveJsonFile(`data/weekly/${S.weekly.week}.json`,d=>{(d.segments||[]).forEach(x=>{if(texts[x.id]!=null)x.text=texts[x.id]})},"weekoverzicht: tekst aangepast");
-      S.weekly.segments.forEach(x=>{if(texts[x.id]!=null)x.text=texts[x.id]});toast("Tekst opgeslagen.")}catch(x){toast(x.message,1)}b.disabled=false;return}
-  if(e.target.closest("#wk-make")){if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}const b=e.target.closest("#wk-make");b.disabled=true;
-    try{const texts={};document.querySelectorAll("[data-wk]").forEach(c=>texts[c.dataset.wk]=c.querySelector("[data-wkt]").value.trim());
-      await saveJsonFile(`data/weekly/${S.weekly.week}.json`,d=>{(d.segments||[]).forEach(x=>{if(texts[x.id]!=null)x.text=texts[x.id]})},"weekoverzicht: tekst voor de video");
-      await gh(`/actions/workflows/weekly.yml/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:{action:"render",week:S.weekly.week}})});
-      toast("De video wordt gemaakt. Over ongeveer 10 minuten staat hij in BEOORDELEN.")}catch(x){toast(x.message,1);b.disabled=false}}});
 
 // ---------- verdienen: mijlpalen (data/milestones.json, lc/milestones.py) en toestemmingen (data/permissions.json) ----------
 const MO_NAME={ig:"Instagram",fb:"Facebook",yt:"YouTube",tt:"TikTok",total:"alle kanalen samen",weeks:"weken posten",always:""};
@@ -1132,7 +1076,7 @@ setInterval(()=>{if(!document.hidden)loadLive()},20000);
 // ---------- routing ----------
 const TABS={bieb:[["#clips/live","LIVESTREAM","live"],["#clips/battle","BATTLES","battle"],["#clips/vlog","VLOGS","vlog"],["#clips/pod","PODCASTS","pod"],["#posts","POSTS","posts"],["#nieuws","NIEUWSBRONNEN"]],
   inst:[["#kanalen","KANALEN"],["#bronnen","BRONNEN"],["#systeem","SYSTEEM"],["podcasts.html","STUDIO ↗"],["#","SLEUTEL",null,1]]};
-const NAVOF={weekoverzicht:"weekoverzicht",verdienen:"verdienen",kantoor:"kantoor",agents:"agents",tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
+const NAVOF={verdienen:"verdienen",kantoor:"kantoor",agents:"agents",tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
 function drawTabs(){const h=location.hash||"#overzicht",R=S?toReview():[];
   document.querySelectorAll("[data-tabs]").forEach(el=>{el.innerHTML=TABS[el.dataset.tabs].map(([href,label,c,isKey])=>{
     const n=c?R.filter(p=>cat(p)===c).length:0;
@@ -1152,12 +1096,11 @@ window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();
   try{const M=((S.money||{}).milestones||[]).filter(m=>m.reached&&m.metric!=="always"),seen=JSON.parse(localStorage.getItem("sw-ms")||"[]"),nw=M.filter(m=>!seen.includes(m.id));
     if(nw.length){localStorage.setItem("sw-ms",JSON.stringify(M.map(m=>m.id)));toast(`Mijlpaal gehaald: ${nw[0].title}. Kijk bij VERDIENEN wat je nu kunt doen.`)}
-    const cm=document.getElementById("c-money");if(cm)cm.textContent=moneyOpen().length||"";
-    const cw=document.getElementById("c-wk");if(cw)cw.textContent=wkLeft()||""}catch(e){}
+    const cm=document.getElementById("c-money");if(cm)cm.textContent=moneyOpen().length||""}catch(e){}
   try{const H=R.filter(hot);if(H.length&&sessionStorage.getItem("sw-hot")!==H.map(p=>p.id).join()){sessionStorage.setItem("sw-hot",H.map(p=>p.id).join());
     toast(`Snel nieuws wacht op jou: ${String(H[0].title||H[0].story||H[0].id).replace(/[.?!]+$/,"")}${H.length>1?` (en nog ${H.length-1})`:""}. Staat bovenaan in BEOORDELEN.`)}}catch(e){}for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
 function drawCurrent(){const s=(location.hash.slice(1)||"overzicht").split("/")[0];
-  ({weekoverzicht:drawWeekly,verdienen:drawMoney,kantoor:()=>window.drawOffice&&drawOffice(),agents:drawAgents,tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
+  ({verdienen:drawMoney,kantoor:()=>window.drawOffice&&drawOffice(),agents:drawAgents,tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
 function drawAll(){drawLive();drawCounts();drawTikTok();drawTagCount();drawTabs();drawCurrent();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){

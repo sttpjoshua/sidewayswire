@@ -70,7 +70,7 @@ def _fb_post(pid: str, token: str) -> dict:
         return {}
 
 
-REEL_KINDS = {"stream_clip", "podcast_clip", "battle_reel", "vlog_clip", "weekly"}
+REEL_KINDS = {"stream_clip", "podcast_clip", "battle_reel", "vlog_clip"}
 MIN_POSTS = 5             # a format needs this many measured posts before the system acts on it
 
 
