@@ -180,7 +180,7 @@
   "why": "Exciting race result",
   "caption": "Adam LZ secures victory as Andy Haley goes off course",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -189,7 +189,12 @@
    "text": "ADAM LZ VICTORY?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-6-13777-13906.mp4"
+  "wait_name": "v2-ythnglyd6cr0-6-13777-13906.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1383.98, \"start\": 1382.44, \"text\": \"ADAM LZ VICTORY?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:22:48.101853+00:00"
  },
  {
   "start": 1627.46,
@@ -202,7 +207,7 @@
   "why": "Exciting final run with both drivers pushing hard",
   "caption": "Frederick Osbough and Adam Elze battle it out in the final run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -213,8 +218,12 @@
   },
   "run_end": 1686.92,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ythnglyd6cr0-7-16275-16929.mp4"
+  "wait_name": "v2-ythnglyd6cr0-7-16275-16929.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1686.92, \"start\": 1684.72, \"text\": \"WHO WILL WIN THE MATCH?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:24:35.432919+00:00"
  },
  {
   "start": 1719.96,
@@ -227,7 +236,7 @@
   "why": "High tension and dramatic win",
   "caption": "Adam LZ delivers a dynamic lead run to secure the victory.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -236,7 +245,12 @@
    "text": "WILL ADAM LZ WIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-8-17200-17555.mp4"
+  "wait_name": "v2-ythnglyd6cr0-8-17200-17555.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1755.48, \"start\": 1752.04, \"text\": \"WILL ADAM LZ WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:25:48.523447+00:00"
  },
  {
   "start": 1876.34,
@@ -249,7 +263,7 @@
   "why": "Explains the difficulty of drifting",
   "caption": "Drivers struggle with speed and timing",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -258,7 +272,12 @@
    "text": "IS TOO FAST TOO LATE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-9-18763-19424.mp4"
+  "wait_name": "v2-ythnglyd6cr0-9-18763-19424.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1922.94, \"start\": 1919.08, \"text\": \"IS TOO FAST TOO LATE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:27:46.308760+00:00"
  },
  {
   "start": 1943.32,
