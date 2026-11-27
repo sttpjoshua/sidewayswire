@@ -39,7 +39,7 @@
   "why": "Famous rivals battle",
   "caption": "Vaughn Gittin Jr. takes on James Dean",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -50,8 +50,12 @@
   },
   "run_end": 224.64,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytnmn7gxunksk-1-1948-2306.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-1-1948-2306.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 215.92, \"start\": 212.54, \"text\": \"WHO WINS ORLANDO?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:53:09.227503+00:00"
  },
  {
   "start": 248.08,
@@ -64,7 +68,7 @@
   "why": "Historic moment for Irish drivers",
   "caption": "First all-Irish podium in Formula Drift history",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -75,8 +79,12 @@
   },
   "run_end": 268.28,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytnmn7gxunksk-2-2481-2743.mp4"
+  "wait_name": "v2-ytnmn7gxunksk-2-2481-2743.mp4",
+  "clip": "docs/media/pod-ytnmn7gxunksk-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 256.96, \"start\": 254.68, \"text\": \"ALL IRISH ON THE PODIUM?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:54:07.225893+00:00"
  },
  {
   "start": 302.06,

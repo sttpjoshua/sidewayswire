@@ -10,7 +10,7 @@
   "why": "James Dean's dominance and the tension it creates.",
   "caption": "James Dean leads the championship with a target on his back.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -19,7 +19,12 @@
    "text": "WHO IS THE NUMBER ONE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-0-939-1200.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-0-939-1200.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 108.88, \"start\": 103.28, \"text\": \"WHO IS THE NUMBER ONE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:55:05.709011+00:00"
  },
  {
   "start": 172.7,
@@ -32,7 +37,7 @@
   "why": "Announcement of top qualifiers and James Dean's position.",
   "caption": "James Dean secures the top spot in qualifying.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -41,7 +46,12 @@
    "text": "WHO'S IN THE TOP FIVE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-1-1727-1914.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-1-1727-1914.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 189.04, \"start\": 184.0, \"text\": \"WHO'S IN THE TOP FIVE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:55:46.262981+00:00"
  },
  {
   "start": 199.34,
