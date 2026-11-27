@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:31:59.447497+00:00",
+ "updated": "2026-11-27T22:46:23.845575+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T22:31:54.320781+00:00",
+ "collected": "2026-11-27T22:46:18.993821+00:00",
  "instagram": true,
  "sources": [
   {
@@ -21,8 +21,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -119,7 +120,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -175,7 +176,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 11,
    "how": "feed"
   },
   {

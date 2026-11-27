@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:31:54.320781+00:00",
+ "updated": "2026-11-27T22:46:18.993821+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -94,7 +94,7 @@
     }
    ],
    "scout": {
-    "score": 49,
+    "score": 48,
     "why": [
      "kalender",
      "3 bronnen"
@@ -711,7 +711,7 @@
     }
    ],
    "scout": {
-    "score": 42,
+    "score": 41,
     "why": [
      "bekende rijder"
     ],
@@ -1220,7 +1220,7 @@
     }
    ],
    "scout": {
-    "score": 31,
+    "score": 30,
     "why": [
      "bekende rijder"
     ],
@@ -2331,8 +2331,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -2429,7 +2430,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2485,7 +2486,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 11,
    "how": "feed"
   },
   {
