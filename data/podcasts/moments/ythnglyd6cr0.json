@@ -68,7 +68,7 @@
   "why": "Introduction of a new battle creates anticipation.",
   "caption": "Ryan Literal and Cole Richards battle it out. #driftduel",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -79,8 +79,12 @@
   },
   "run_end": 655.86,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ythnglyd6cr0-2-6373-6619.mp4"
+  "wait_name": "v2-ythnglyd6cr0-2-6373-6619.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 647.62, \"start\": 642.5, \"text\": \"WHO WILL WIN THIS BATTLE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:17:43.192218+00:00"
  },
  {
   "start": 806.26,
@@ -93,7 +97,7 @@
   "why": "Insightful commentary on the judges' decision",
   "caption": "Judges explain why Cole Richards won the battle.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -102,7 +106,12 @@
    "text": "WHY DID COLE WIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-3-8063-8801.mp4"
+  "wait_name": "v2-ythnglyd6cr0-3-8063-8801.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 880.06, \"start\": 875.62, \"text\": \"WHY DID COLE WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:19:50.713941+00:00"
  },
  {
   "start": 993.66,
@@ -117,7 +126,7 @@
   "why": "Strong visual impact, dramatic moment",
   "caption": "Drivers crash hard into the wall during a drift run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -126,7 +135,12 @@
    "text": "WAS IT A BAD CRASH?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-4-9937-10379.mp4"
+  "wait_name": "v2-ythnglyd6cr0-4-9937-10379.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1014.7, \"start\": 1011.72, \"text\": \"WAS IT A BAD CRASH?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:21:18.066389+00:00"
  },
  {
   "start": 1302.78,
@@ -139,7 +153,7 @@
   "why": "Personal and emotional moment",
   "caption": "Brandon's family celebrates his brother's historic win",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -148,7 +162,12 @@
    "text": "CELEBRATIONS POST VICTORY?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-5-13028-13316.mp4"
+  "wait_name": "v2-ythnglyd6cr0-5-13028-13316.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1316.06, \"start\": 1311.88, \"text\": \"CELEBRATIONS POST VICTORY?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:22:14.329908+00:00"
  },
  {
   "start": 1377.74,
