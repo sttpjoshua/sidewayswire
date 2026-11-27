@@ -10,7 +10,7 @@
   "why": "Explains a significant change in the competition rules",
   "caption": "Formula DRift introduces a new judging system for qualifying",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -19,7 +19,12 @@
    "text": "WHAT CHANGED IN JUDGING?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-0-1203-1426.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-0-1203-1426.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 133.9, \"start\": 129.94, \"text\": \"WHAT CHANGED IN JUDGING?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:35:22.605174+00:00"
  },
  {
   "start": 186.06,
@@ -32,7 +37,7 @@
   "why": "Highlights the dangerous and exciting nature of the competition",
   "caption": "Drivers push the limits in practice, leading to close calls",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -41,7 +46,12 @@
    "text": "WILL THEY SURVIVE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-1-1861-2207.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-1-1861-2207.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 207.04, \"start\": 202.74, \"text\": \"WILL THEY SURVIVE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:36:39.236997+00:00"
  },
  {
   "start": 990.14,
@@ -54,7 +64,7 @@
   "why": "Describes a qualifying run with tension over scoring.",
   "caption": "A driver's first qualifying run sets the tone.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -63,7 +73,12 @@
    "text": "WILL THIS RUN SCORE WELL?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-2-9901-10199.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-2-9901-10199.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1011.06, \"start\": 1008.02, \"text\": \"WILL THIS RUN SCORE WELL?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:37:49.829118+00:00"
  },
  {
   "start": 1103.08,
@@ -78,10 +93,15 @@
   "why": "High intensity and risk-taking in the run.",
   "caption": "Nate Chen pushes the limits in his qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
-  "wait_name": "v2-ytrm9nagg2xvu-3-11031-11383.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-3-11031-11383.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:38:37.532252+00:00"
  },
  {
   "start": 1155.34,
