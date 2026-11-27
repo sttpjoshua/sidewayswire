@@ -1,7 +1,7 @@
 {
  "id": "pod-ytzb6lkwi41kc-5",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "NATE CHEN'S LEARNING CURVE",
  "video": "docs/media/pod-ytzb6lkwi41kc-5/clip.mp4",
@@ -27,5 +27,29 @@
   "start": 1400.74
  },
  "created": "2026-11-27T04:27:00.624561+00:00",
- "built": "2026-11-27T04:27:00.624569+00:00"
+ "built": "2026-11-27T04:31:28.482250+00:00",
+ "media": [
+  "docs/media/pod-ytzb6lkwi41kc-5/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T04:31:28.676336+00:00"
+ },
+ "score": 58,
+ "moment_kind": "call",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nNate Chen faces a big learning curve moving up to Pro.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @nathaniel.chen\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nNate Chen faces a big learning curve moving up to Pro.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @nathaniel.chen\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Nate Chen faces a big learning curve moving up to Pro.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad @nathaniel.chen\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+  "youtube": "Nate Chen faces a big learning curve moving up to Pro.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @nathaniel.chen\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }

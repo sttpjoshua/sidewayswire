@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T04:17:12.822273+00:00",
+ "updated": "2026-11-27T04:31:26.228485+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -486,7 +486,7 @@
     }
    ],
    "scout": {
-    "score": 45,
+    "score": 44,
     "why": [
      "bekende rijder"
     ],
@@ -677,7 +677,7 @@
     }
    ],
    "scout": {
-    "score": 42,
+    "score": 41,
     "why": [
      "bekende rijder"
     ],
@@ -2319,7 +2319,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2403,7 +2403,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2416,9 +2416,8 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20when"
   },
   {
    "source": "Google News",
@@ -2500,9 +2499,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
   },
   {
    "source": "Google News",
