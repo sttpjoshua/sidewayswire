@@ -485,10 +485,15 @@
   "why": "emotional and insightful",
   "caption": "Ody Bakshi speaks about his emotions after the engine failure.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytog8i68qcjxg-18-33416-34303.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-18-33416-34303.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:15:15.424685+00:00"
  },
  {
   "start": 3741.82,
@@ -501,7 +506,7 @@
   "why": "Strong emotional impact, unexpected turn",
   "caption": "Ken Gushi pulls out of the competition due to car issues.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -510,7 +515,12 @@
    "text": "WILL GUSHI ADVANCE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-19-37418-38097.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-19-37418-38097.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3744.84, \"start\": 3742.98, \"text\": \"WILL GUSHI ADVANCE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:17:35.441575+00:00"
  },
  {
   "start": 3892.52,
@@ -523,7 +533,7 @@
   "why": "Excitement and tension in the run",
   "caption": "Frederick Osbou secures a strong qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -532,7 +542,12 @@
    "text": "CAN OSMO WIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-20-38925-39102.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-20-38925-39102.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3907.9, \"start\": 3905.04, \"text\": \"CAN OSMO WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:18:13.173996+00:00"
  },
  {
   "start": 4098.02,
@@ -545,7 +560,7 @@
   "why": "Excitement and tension between two skilled drivers.",
   "caption": "Shinji and Connor battle it out in an intense qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -556,8 +571,12 @@
   },
   "run_end": 4134.0,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-21-40980-41640.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-21-40980-41640.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4120.58, \"start\": 4117.64, \"text\": \"WHO WILL WIN THIS BATTLE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:20:30.264639+00:00"
  },
  {
   "start": 4140.08,
