@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:31:34.493902+00:00",
+ "updated": "2026-11-27T01:46:20.623102+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 697,
@@ -7,7 +7,7 @@
   "check": 17,
   "posted": 3
  },
- "collected": "2026-11-27T01:31:30.013847+00:00",
+ "collected": "2026-11-27T01:46:14.058664+00:00",
  "instagram": true,
  "sources": [
   {
@@ -20,9 +20,8 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
@@ -119,7 +118,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -140,7 +139,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -174,9 +173,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": true,
-   "items": 12,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
   },
   {
    "source": "Google News",
@@ -202,14 +200,16 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
+   "ok": true,
+   "items": 10,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%202027%20approve"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -6310,7 +6310,7 @@
  },
  "streams": {
   "total": 193,
-  "transcribed": 178,
+  "transcribed": 179,
   "moments": 170,
   "next": "Drift Masters 2026 Grand Finale Poland · Top 32",
   "series": {
@@ -6340,7 +6340,7 @@
    },
    "Matt Field": {
     "total": 9,
-    "transcribed": 8
+    "transcribed": 9
    },
    "Formula DRIFT": {
     "total": 38,
