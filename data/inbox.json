@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:04:24.119447+00:00",
+ "updated": "2026-11-27T23:16:23.916308+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -47,7 +47,7 @@
     }
    ],
    "scout": {
-    "score": 56,
+    "score": 55,
     "why": [
      "bekende rijder",
      "4 bronnen",
@@ -684,7 +684,7 @@
     }
    ],
    "scout": {
-    "score": 44,
+    "score": 43,
     "why": [
      "bekende rijder"
     ],
@@ -738,7 +738,7 @@
     }
    ],
    "scout": {
-    "score": 43,
+    "score": 42,
     "why": [
      "bekende rijder"
     ],
@@ -1056,7 +1056,7 @@
     }
    ],
    "scout": {
-    "score": 34,
+    "score": 33,
     "why": [
      "bekende rijder"
     ],
@@ -2353,7 +2353,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -2430,7 +2430,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2493,7 +2493,7 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "how": "feed"
   },
   {

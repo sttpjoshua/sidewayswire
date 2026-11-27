@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:04:30.426536+00:00",
+ "updated": "2026-11-27T23:16:29.870737+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T23:04:24.119447+00:00",
+ "collected": "2026-11-27T23:16:23.916308+00:00",
  "instagram": true,
  "sources": [
   {
@@ -43,7 +43,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -120,7 +120,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -183,7 +183,7 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "how": "feed"
   },
   {
