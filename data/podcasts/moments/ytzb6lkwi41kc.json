@@ -351,7 +351,7 @@
   "why": "Surprising last-minute change adds intrigue and excitement",
   "caption": "Daniel Stuckey steps into Federico's car for an unexpected qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -360,7 +360,12 @@
    "text": "STUCKEY IN FETTIE'S CAR?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-13-28161-28727.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-13-28161-28727.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2854.4, \"start\": 2849.92, \"text\": \"STUCKEY IN FETTIE'S CAR?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:16:56.463466+00:00"
  },
  {
   "start": 2929.42,
@@ -373,7 +378,7 @@
   "why": "Shows rookie's improvement and confidence",
   "caption": "Cody Buchanan nails his qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -382,7 +387,12 @@
    "text": "HOW IS HE DOING?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-14-29294-29645.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-14-29294-29645.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2955.06, \"start\": 2949.52, \"text\": \"HOW IS HE DOING?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:17:57.028155+00:00"
  },
  {
   "start": 2987.1,
@@ -395,7 +405,7 @@
   "why": "Exciting and unexpected",
   "caption": "Cody scores perfectly on his final zone.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -404,7 +414,12 @@
    "text": "CAN HE DO IT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-15-29871-30030.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-15-29871-30030.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2999.26, \"start\": 2995.9, \"text\": \"CAN HE DO IT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:18:30.835871+00:00"
  },
  {
   "start": 3863.98,
@@ -417,7 +432,7 @@
   "why": "Excitement and anticipation for Adam LZ's performance",
   "caption": "Adam LZ secures a spot in the finals.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -426,7 +441,12 @@
    "text": "CAN HE GET THE WIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-16-38640-39154.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-16-38640-39154.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3911.42, \"start\": 3909.24, \"text\": \"CAN HE GET THE WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:19:33.669142+00:00"
  },
  {
   "start": 4033.42,
