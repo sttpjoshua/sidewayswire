@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:46:50.029788+00:00",
+ "updated": "2026-11-27T17:01:39.714569+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -607,7 +607,7 @@
     }
    ],
    "scout": {
-    "score": 45,
+    "score": 44,
     "why": [
      "bekende rijder"
     ],
@@ -686,7 +686,7 @@
     }
    ],
    "scout": {
-    "score": 22,
+    "score": 21,
     "why": [],
     "skip": false,
     "feature": false
@@ -873,7 +873,7 @@
     }
    ],
    "scout": {
-    "score": 23,
+    "score": 22,
     "why": [
      "crash",
      "bekende rijder",
@@ -2353,7 +2353,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2437,7 +2437,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2493,7 +2493,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 11,
    "how": "feed"
   },
   {
@@ -2507,14 +2507,15 @@
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Red Bull",
@@ -2526,9 +2527,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%202027%20approve"
   },
   {
    "source": "Google News",
