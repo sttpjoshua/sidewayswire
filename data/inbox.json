@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:16:09.154962+00:00",
+ "updated": "2026-11-27T01:31:30.013847+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -461,7 +461,7 @@
     }
    ],
    "scout": {
-    "score": 45,
+    "score": 44,
     "why": [
      "bekende rijder"
     ],
@@ -758,7 +758,7 @@
     }
    ],
    "scout": {
-    "score": 49,
+    "score": 48,
     "why": [
      "kalender",
      "bekende rijder"
@@ -2321,8 +2321,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 11,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2432,8 +2433,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2487,16 +2489,14 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": true,
-   "items": 10,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%202027%20approve"
   },
   {
    "source": "Google News",
