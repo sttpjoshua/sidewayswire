@@ -1,7 +1,7 @@
 {
  "id": "pod-ytfoarlpj6qji-14",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "check",
  "slides": [],
  "title": "ONE MORE TIME",
  "video": "docs/media/pod-ytfoarlpj6qji-14/clip.mp4",
@@ -14,8 +14,8 @@
  "missing_handles": [],
  "format": "single",
  "credit": "@formulad",
- "check": false,
- "check_reason": "",
+ "check": true,
+ "check_reason": "controle: zelfde moment als pod-ytfoarlpj6qji-8",
  "platforms": [
   "instagram",
   "facebook",
@@ -28,5 +28,17 @@
   "start": 2056.36
  },
  "created": "2026-11-27T02:02:34.654183+00:00",
- "built": "2026-11-27T02:02:34.654191+00:00"
+ "built": "2026-11-27T02:16:17.439637+00:00",
+ "media": [
+  "docs/media/pod-ytfoarlpj6qji-14/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": "2026-12-05T19:30:00+00:00",
+ "qc": {
+  "hard": [
+   "zelfde moment als pod-ytfoarlpj6qji-8"
+  ],
+  "soft": [],
+  "at": "2026-11-27T02:16:17.907412+00:00"
+ }
 }
