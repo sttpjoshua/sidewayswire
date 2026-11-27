@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:16:21.363210+00:00",
+ "updated": "2026-11-27T13:31:33.554767+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 851,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T13:16:17.527268+00:00",
+ "collected": "2026-11-27T13:31:28.047444+00:00",
  "instagram": true,
  "sources": [
   {
@@ -21,9 +21,8 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
@@ -167,14 +166,15 @@
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
+   "ok": true,
+   "items": 4,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -194,9 +194,8 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
@@ -221,8 +220,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   }
  ],
  "inbox": [
