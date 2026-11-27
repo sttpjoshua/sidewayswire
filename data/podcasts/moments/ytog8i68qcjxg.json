@@ -589,7 +589,7 @@
   "why": "Surprising outcome and technical difficulty highlighted.",
   "caption": "Connor Shanahan secures a win in a tough qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -598,7 +598,12 @@
    "text": "HOW DID CONNOR WIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-22-41401-41776.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-22-41401-41776.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4150.58, \"start\": 4145.56, \"text\": \"HOW DID CONNOR WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:22:01.900352+00:00"
  },
  {
   "start": 4423.2,
@@ -611,7 +616,7 @@
   "why": "Personal connection and respect for a legendary driver.",
   "caption": "Connor Shanahan pays tribute to a drifting legend.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -620,7 +625,12 @@
    "text": "WHO IS SHINJI MANOA?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-23-44232-44664.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-23-44232-44664.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4458.56, \"start\": 4454.16, \"text\": \"WHO IS SHINJI MANOA?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:23:30.257986+00:00"
  },
  {
   "start": 4743.92,
@@ -633,7 +643,7 @@
   "why": "Emotional and unexpected",
   "caption": "Simon Olson's car barely missed qualifying.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -642,7 +652,12 @@
    "text": "WAS THE CAR FIRED UP?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-24-47439-48089.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-24-47439-48089.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4787.42, \"start\": 4784.92, \"text\": \"WAS THE CAR FIRED UP?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:25:31.197002+00:00"
  },
  {
   "start": 4959.58,
@@ -655,7 +670,7 @@
   "why": "Shows dedication and struggle",
   "caption": "The team worked tirelessly to get the car ready.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -664,7 +679,12 @@
    "text": "HOW CLOSE WAS IT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-25-49596-50206.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-25-49596-50206.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5007.64, \"start\": 5002.78, \"text\": \"HOW CLOSE WAS IT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:27:11.321901+00:00"
  },
  {
   "start": 5030.86,
