@@ -1,7 +1,7 @@
 {
  "id": "pod-ythnglyd6cr0-9",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DRIVERS FACE CHALLENGES",
  "video": "docs/media/pod-ythnglyd6cr0-9/clip.mp4",
@@ -26,5 +26,29 @@
   "start": 1876.34
  },
  "created": "2026-11-27T02:27:46.311046+00:00",
- "built": "2026-11-27T02:27:46.311053+00:00"
+ "built": "2026-11-27T02:31:56.473527+00:00",
+ "media": [
+  "docs/media/pod-ythnglyd6cr0-9/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T02:31:57.055338+00:00"
+ },
+ "score": 63,
+ "moment_kind": "call",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nDrivers struggle with speed and timing\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nDrivers struggle with speed and timing\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Drivers struggle with speed and timing\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+  "youtube": "Drivers struggle with speed and timing\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }
