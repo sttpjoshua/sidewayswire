@@ -271,7 +271,7 @@
   "why": "Decisive and surprising",
   "caption": "Tommy LaMare takes out Dan Burkett.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -280,7 +280,12 @@
    "text": "WHO GETS THE WIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-10-16624-16816.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-10-16624-16816.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1667.68, \"start\": 1665.72, \"text\": \"WHO GETS THE WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:05:57.091246+00:00"
  },
  {
   "start": 2230.28,
@@ -293,7 +298,7 @@
   "why": "Decisive outcome and judge's explanation",
   "caption": "Judges announce Jack Shanahan as the winner.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -302,7 +307,12 @@
    "text": "JACK SHANAHAN WINS?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-11-22303-22684.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-11-22303-22684.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2234.08, \"start\": 2231.62, \"text\": \"JACK SHANAHAN WINS?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:07:02.540478+00:00"
  },
  {
   "start": 2510.12,
@@ -315,13 +325,17 @@
   "why": "Clear decision moment with tension",
   "caption": "The judges decide it's a one more time.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "run_end": 2529.5,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-12-25101-25355.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-12-25101-25355.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:07:36.014482+00:00"
  },
  {
   "start": 2559.24,
@@ -334,7 +348,7 @@
   "why": "Motivational call for Rudy Hanson",
   "caption": "Rudy Hanson needs a breakout round in Seattle.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -343,7 +357,12 @@
    "text": "NEEDS A BREAKOUT ROUND",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-13-25592-25786.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-13-25592-25786.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2574.54, \"start\": 2571.04, \"text\": \"NEEDS A BREAKOUT ROUND\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:08:22.448371+00:00"
  },
  {
   "start": 2586.44,
