@@ -1,0 +1,19 @@
+{% extends "base.html" %}{% import "_parts.html" as p %}
+{# Own format (Joshua, 27 nov 2026): see lc/formats.py #}
+{% block body %}
+{{ p.wordmark() }}
+{{ p.badge(['WEEK', week]) }}
+{{ p.tapes([['THIS WEEK', 128, 'darkb'], ['IN DRIFT', 128, 'accent']], top=190) }}
+<div class="abs" style="left:70px;right:70px;top:520px;bottom:120px;display:flex;flex-direction:column;justify-content:center;gap:24px">
+{% for e in events %}{% set light = loop.index0 % 2 == 0 %}
+  <div style="display:grid;grid-template-columns:150px 1fr auto;gap:26px;align-items:center;padding:26px 22px;background:{{ '#fff' if light else '#111' }};color:{{ '#111' if light else '#fff' }};border:4px solid {{ '#111' if light else '#fff' }};transform:rotate({{ -0.6 if light else 0.6 }}deg)">
+    <div style="text-align:center;background:var(--accent);color:#111;border:4px solid #111;padding:12px 0">
+      <div class="small" style="font-size:22px">{{ e.day }}</div><div class="bb" style="font-size:72px;margin-top:8px">{{ e.date }}</div></div>
+    <div style="min-width:0"><div class="bb" data-fit data-size="54" data-min="34" data-maxright="830" style="font-size:54px;white-space:nowrap;display:inline-block">{{ e.name }}</div>
+      <div style="font-size:23px;font-weight:800;margin-top:10px;color:{{ '#555' if light else '#B8B8BC' }}">{{ e.series }} · {{ e.place }}</div></div>
+    <div style="text-align:center"><div class="small" style="font-size:18px;color:{{ '#555' if light else '#B8B8BC' }}">{{ e.what }}</div><div class="bb" style="font-size:44px;margin-top:8px">{{ e.local }}</div><div style="font-size:16px;font-weight:800;margin-top:6px;color:{{ '#555' if light else '#B8B8BC' }}">LOCAL TIME</div></div>
+  </div>
+{% endfor %}
+</div>
+{{ p.footer('SWIPE FOR YOUR TIME →', '@SIDEWAYSWIRE') }}
+{% endblock %}

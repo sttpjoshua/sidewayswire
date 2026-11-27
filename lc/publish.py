@@ -57,6 +57,8 @@ def post_facebook(urls: list[str], caption: str) -> str:
 
 def _urls(post: dict, platform: str) -> list[str]:
     """TikTok and YouTube get the short version (max 30 s, starts with the action) when there is one."""
+    if platform in ("youtube", "facebook") and post.get("long"):   # own formats: a landscape version (Weekly)
+        return media_urls({"media": [post["long"]]})
     if platform in ("tiktok", "youtube") and post.get("short"):
         return media_urls({"media": [post["short"]]})
     return media_urls(post)

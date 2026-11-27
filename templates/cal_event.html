@@ -1,0 +1,18 @@
+{% extends "base.html" %}{% import "_parts.html" as p %}
+{# Own format (Joshua, 27 nov 2026): see lc/formats.py #}
+{% block body %}
+{{ p.wordmark() }}
+{{ p.badge(badge, size=36) }}
+{{ p.tapes([[name, 104, 'darkb'], ['YOUR TIME', 64, 'accent']], top=170) }}
+<div class="abs" style="left:70px;right:70px;top:440px;display:flex;flex-direction:column;gap:6px">
+  <div class="small" style="display:grid;grid-template-columns:1fr repeat({{ sessions|length }},200px);gap:8px;padding:0 20px 6px;text-align:center;font-size:20px">
+    <div style="text-align:left;color:#B8B8BC">{{ place }}</div>{% for s in sessions %}<div style="{{ 'color:var(--accent)' if loop.last else '' }}">{{ s }}</div>{% endfor %}</div>
+  {% for r in rows %}{% set venue = r.tag %}{% set light = loop.index0 % 2 == 0 %}
+  <div style="display:grid;grid-template-columns:1fr repeat({{ sessions|length }},200px);gap:8px;align-items:center;height:{{ row_h|default(60) }}px;padding:0 20px;
+    background:{{ 'var(--accent)' if venue else ('#fff' if light else '#111') }};color:{{ '#111' if (venue or light) else '#fff' }};border:3px solid {{ '#111' if (venue or light) else '#fff' }}">
+    <div style="display:flex;align-items:baseline;gap:14px;min-width:0"><span class="bb" style="font-size:34px;white-space:nowrap">{{ r.city }}</span><span style="font-size:16px;font-weight:800;opacity:.65">{{ r.zone }}{% if venue %} · VENUE{% endif %}</span></div>
+    {% for c in r.cells %}<div style="text-align:center"><span style="font-size:17px;font-weight:800;opacity:.65;margin-right:8px">{{ c.day }}</span><span class="bb" style="font-size:40px">{{ c.time }}</span></div>{% endfor %}
+  </div>{% endfor %}
+</div>
+{{ p.footer(meta_left, '@SIDEWAYSWIRE') }}
+{% endblock %}

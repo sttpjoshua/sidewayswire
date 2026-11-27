@@ -36,6 +36,8 @@ jobs:
         run: python -m lc.collect && (python -m lc.agents scout || true)
       - name: kop-posts (vragen op voorraad)
         run: python -m lc.hooks
+      - name: eigen formats (kalender maandag, vraag woensdag, antwoorden zaterdag)
+        run: python -m lc.formats || true
       - name: 2 build posts and handle Telegram answers
         run: python -m lc.build && (python -m lc.agents qc || true)
       - name: plan per platform (score, tijden, captions)

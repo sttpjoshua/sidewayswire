@@ -1,0 +1,19 @@
+{% extends "base.html" %}{% import "_parts.html" as p %}
+{# Own format (Joshua, 27 nov 2026): see lc/formats.py #}
+{% block body %}
+{{ p.wordmark() }}
+{{ p.badge(['WEEK', week]) }}
+{{ p.tapes([['YOU ANSWERED', 110, 'accent']], top=190) }}
+<div class="abs" style="left:70px;right:70px;top:350px;font-size:28px;font-weight:800;color:#B8B8BC;line-height:1.3">“{{ question }}”</div>
+<div class="abs" style="left:70px;right:70px;top:470px;display:flex;flex-direction:column;gap:16px">
+{% for a in answers %}{% set light = loop.index0 % 2 == 0 %}
+  <div style="display:grid;grid-template-columns:90px 1fr auto;gap:22px;align-items:center;padding:22px 22px;background:{{ 'var(--accent)' if loop.first else ('#fff' if light else '#111') }};color:{{ '#111' if (loop.first or light) else '#fff' }};border:4px solid {{ '#111' if (loop.first or light) else '#fff' }};transform:rotate({{ [-0.6,0.5,-0.4,0.6,-0.5][loop.index0] }}deg)">
+    <div class="bb" style="font-size:80px;text-align:center">{{ loop.index }}</div>
+    <div style="min-width:0"><div class="bb" data-fit data-size="58" data-min="34" data-maxright="820" style="font-size:58px;white-space:nowrap;display:inline-block">{{ a.text }}</div>
+      <div style="font-size:22px;font-weight:800;margin-top:10px;opacity:.7">{{ a.user }}</div></div>
+    <div class="bb" style="font-size:40px;text-align:center">♥ {{ a.likes }}</div>
+  </div>
+{% endfor %}
+</div>
+{{ p.footer('NEW QUESTION ON WEDNESDAY', '@SIDEWAYSWIRE') }}
+{% endblock %}

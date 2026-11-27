@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% import "_parts.html" as p %}
+{# Own format (Joshua, 27 nov 2026): see lc/formats.py #}
+{% block body %}
+<div class="abs bb" style="right:-60px;top:330px;font-size:1150px;color:transparent;-webkit-text-stroke:6px #2a2a2e;line-height:1">?</div>
+{{ p.wordmark() }}
+{{ p.badge(['WEEK', week]) }}
+{{ p.tapes([['QUESTION', 96, 'pink'], ['OF THE WEEK', 96, 'darkb']], top=190) }}
+<div class="abs" style="left:70px;right:70px;top:540px;background:#fff;color:#111;border:5px solid #111;padding:46px 44px;transform:rotate(-1deg);box-shadow:14px 14px 0 var(--accent)">
+  <div class="bb" style="font-size:{{ qsize }}px;line-height:1.02;text-box:none">{{ question }}</div>
+</div>
+{{ p.tapes([["DROP YOUR ANSWER BELOW ↓", 62, "accent"]], bottom=130) }}
+{{ p.footer('ANSWERS ON SATURDAY', '@SIDEWAYSWIRE') }}
+{% endblock %}

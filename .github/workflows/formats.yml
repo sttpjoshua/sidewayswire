@@ -1,0 +1,29 @@
+# Own formats (Joshua, 27 nov 2026): the Sideways Weekly video, Sunday morning.
+# The calendar, question and answers posts are made in run.yml (lc/formats.py).
+name: formats
+on:
+  workflow_dispatch:
+    inputs:
+      again: { description: "Make this week's Weekly again", type: boolean, default: false }
+  schedule:
+    - cron: "23 6 * * 0"     # Sunday 07:23 NL (winter); the post goes out at 10:00 after the Mac adds music
+concurrency: { group: data, cancel-in-progress: false }
+permissions: { contents: write }
+env:
+  GH_TOKEN: ${{ github.token }}
+  MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -r requirements.txt && python -m playwright install --with-deps chromium
+      - name: Sideways Weekly
+        run: python -m lc.weekly ${{ inputs.again && '--nieuw' || '' }}
+      - name: save
+        run: python -m lc.mediastore sync && python -m lc.status && python -m lc.gitsave "weekly $(date -u +%FT%TZ)" data queue docs

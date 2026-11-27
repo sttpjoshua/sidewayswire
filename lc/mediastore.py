@@ -192,7 +192,7 @@ def due_paths(now: datetime | None = None) -> set[str]:
         times = [t for pl, t in (p.get("plan") or {}).items() if pl not in (p.get("results") or {})]
         times = times or ([p["post_at"]] if p.get("post_at") else [])
         if times and min(datetime.fromisoformat(t) for t in times) - now <= timedelta(hours=STAGE_HOURS):
-            files = list(p.get("media") or []) + ([p["short"]] if p.get("short") else [])
+            files = list(p.get("media") or []) + [p[k] for k in ("short", "long") if p.get(k)]
             keep.update(m for m in files if m.startswith("docs/media/"))
     return keep
 

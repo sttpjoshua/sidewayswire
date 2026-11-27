@@ -193,11 +193,12 @@ def _mark(ok: bool, text: str, linked: bool | None = None) -> None:
     f.write_text(json.dumps(d, indent=1, ensure_ascii=False) + "\n")
 
 
-def upload(path: Path, title: str, description: str, tags: list[str] | None = None, privacy: str | None = None) -> str:
+def upload(path: Path, title: str, description: str, tags: list[str] | None = None, privacy: str | None = None,
+           shorts: bool = True) -> str:
     """Resumable upload in one go (our Shorts are a few MB). Returns the video id."""
     privacy = privacy or _settings().get("youtube_privacy", "private")
     title = title.strip()[:100] or "Sideways Wire"
-    if "#shorts" not in (title + description).lower():
+    if shorts and "#shorts" not in (title + description).lower():
         description = (description + "\n\n#Shorts").strip()
     meta = {"snippet": {"title": title, "description": description[:5000], "tags": (tags or [])[:15],
                         "categoryId": CATEGORY, "defaultLanguage": "en"},
@@ -222,6 +223,13 @@ def post_for(post: dict, title: str, description: str, privacy: str | None = Non
     from .tiktok import fetch_for          # same file choice: the short version, else the full clip
     tags = [t.lstrip("#") for t in (post.get("tags") or []) if t][:10]
     with tempfile.TemporaryDirectory() as tmp:
+        if post.get("long"):              # own formats: the landscape version goes up as a normal video
+            from . import mediastore
+            local, out = ROOT / post["long"], Path(tmp) / Path(post["long"]).name
+            src = local if local.exists() and local.stat().st_size else (out if mediastore.download(post["long"], out) else None)
+            if not src:
+                raise RuntimeError(f"geen liggende video gevonden voor {post.get('id')}")
+            return upload(src, title, description, tags, privacy, shorts=False)
         return upload(fetch_for(post, Path(tmp)), title, description, tags, privacy)
 
 
