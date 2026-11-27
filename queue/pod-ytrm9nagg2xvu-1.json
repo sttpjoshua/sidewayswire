@@ -1,7 +1,7 @@
 {
  "id": "pod-ytrm9nagg2xvu-1",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "DRIVERS GET WILD",
  "video": "docs/media/pod-ytrm9nagg2xvu-1/clip.mp4",
@@ -26,5 +26,29 @@
   "start": 186.06
  },
  "created": "2026-11-27T03:36:39.239186+00:00",
- "built": "2026-11-27T03:36:39.239193+00:00"
+ "built": "2026-11-27T03:46:26.710424+00:00",
+ "media": [
+  "docs/media/pod-ytrm9nagg2xvu-1/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T03:46:27.382849+00:00"
+ },
+ "score": 78,
+ "moment_kind": "crash",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026 Qualifying\n\nDrivers push the limits in practice, leading to close calls\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026 Qualifying\n\nDrivers push the limits in practice, leading to close calls\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026 Qualifying: Drivers push the limits in practice, leading to close calls\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Indianapolis 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026 Qualifying",
+  "youtube": "Drivers push the limits in practice, leading to close calls\n\n🎥 Footage: Formula DRIFT Indianapolis 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }

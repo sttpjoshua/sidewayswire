@@ -1,7 +1,7 @@
 {
  "id": "pod-ytog8i68qcjxg-26",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CODY BUCHANAN'S RUN",
  "video": "docs/media/pod-ytog8i68qcjxg-26/clip.mp4",
@@ -27,5 +27,29 @@
   "start": 5030.86
  },
  "created": "2026-11-27T03:29:52.861378+00:00",
- "built": "2026-11-27T03:29:52.861385+00:00"
+ "built": "2026-11-27T03:46:26.509838+00:00",
+ "media": [
+  "docs/media/pod-ytog8i68qcjxg-26/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T03:46:27.381231+00:00"
+ },
+ "score": 64,
+ "moment_kind": "qualify",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Seattle 2026\n\nCody Buchanan's qualifying run was impressive.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @cbuchanan272\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Seattle 2026\n\nCody Buchanan's qualifying run was impressive.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @cbuchanan272\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Seattle 2026: Cody Buchanan's qualifying run was impressive.\n🎥 Footage: Formula DRIFT Seattle 2026 @formulad @cbuchanan272\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026",
+  "youtube": "Cody Buchanan's qualifying run was impressive.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@formulad @cbuchanan272\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }
