@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:31:23.108693+00:00",
+ "updated": "2026-11-27T10:46:34.079678+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -85,7 +85,7 @@
     }
    ],
    "scout": {
-    "score": 55,
+    "score": 54,
     "why": [
      "kalender",
      "3 bronnen"
@@ -819,7 +819,7 @@
     }
    ],
    "scout": {
-    "score": 37,
+    "score": 36,
     "why": [
      "bekende rijder"
     ],
@@ -2311,21 +2311,21 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2450,9 +2450,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
   },
   {
    "source": "Google News",
