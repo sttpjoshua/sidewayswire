@@ -64,7 +64,7 @@
   "why": "Excitement around James Dean's advantage.",
   "caption": "James Dean gets the fast pass into the top 16.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -73,7 +73,12 @@
    "text": "FAST PASS FOR JAMES DEAN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-2-1993-2206.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-2-1993-2206.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 211.84, \"start\": 207.18, \"text\": \"FAST PASS FOR JAMES DEAN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:56:33.092607+00:00"
  },
  {
   "start": 229.56,
@@ -86,10 +91,15 @@
   "why": "Preview of upcoming intense battles.",
   "caption": "Ryan Littoral faces Matt Field in a tough battle.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytog8i68qcjxg-3-2296-2490.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-3-2296-2490.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T02:56:57.361861+00:00"
  },
  {
   "start": 898.6,
@@ -102,7 +112,7 @@
   "why": "Teases an exciting and competitive drift battle",
   "caption": "Get ready for an aggressive battle between Matt Field and Ryan Little.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -113,8 +123,12 @@
   },
   "run_end": 917.28,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-4-8986-9233.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-4-8986-9233.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 908.3, \"start\": 904.1, \"text\": \"ACTION AND HITTING?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:57:56.915262+00:00"
  },
  {
   "start": 1002.22,
@@ -129,13 +143,17 @@
   "why": "intense and close battle",
   "caption": "Matt Field and Ryan Littoral push each other to the limit",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "run_end": 1056.24,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-5-10022-10839.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-5-10022-10839.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T02:59:53.930117+00:00"
  },
  {
   "start": 1152.3,
