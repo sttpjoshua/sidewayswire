@@ -570,7 +570,7 @@
   "why": "Exciting matchup between two skilled drivers",
   "caption": "Matt Field vs Nate Chin: a battle of skill and speed. #FormulaDRIFT",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -581,8 +581,12 @@
   },
   "run_end": 2552.78,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytfoarlpj6qji-20-25195-25588.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-20-25195-25588.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2550.34, \"start\": 2545.24, \"text\": \"WHO WILL DOMINATE THE TRACK?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:11:37.385830+00:00"
  },
  {
   "start": 2572.68,
@@ -598,13 +602,17 @@
   "why": "Close battle with strong driver commentary",
   "caption": "Nate Chen initiates, Matt Field closes in. #FormulaDRIFT",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 2,
   "run_end": 2614.96,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytfoarlpj6qji-21-25727-26210.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-21-25727-26210.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T02:12:36.184113+00:00"
  },
  {
   "start": 3178.68,

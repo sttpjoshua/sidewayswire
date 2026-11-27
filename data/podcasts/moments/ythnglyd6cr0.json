@@ -12,7 +12,7 @@
   "why": "Smooth and consistent run with perfect transitions.",
   "caption": "Jack Shanahan nails a flawless qualifying run. #driftking",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -21,7 +21,12 @@
    "text": "WHAT MAKES HIS RUN PERFECT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-0-3646-4218.mp4"
+  "wait_name": "v2-ythnglyd6cr0-0-3646-4218.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 404.68, \"start\": 400.74, \"text\": \"WHAT MAKES HIS RUN PERFECT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:14:30.799405+00:00"
  },
  {
   "start": 516.12,
@@ -34,7 +39,7 @@
   "why": "Unexpected timeout adds suspense.",
   "caption": "Trenton Beachum calls a timeout during his run. #driftmystery",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -43,7 +48,12 @@
    "text": "WHY IS HE TAKING A TIMEOUT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-1-5161-5842.mp4"
+  "wait_name": "v2-ythnglyd6cr0-1-5161-5842.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 579.1, \"start\": 576.9, \"text\": \"WHY IS HE TAKING A TIMEOUT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:16:42.115505+00:00"
  },
  {
   "start": 637.32,
