@@ -339,7 +339,7 @@
   "why": "Surprising result adds tension",
   "caption": "Frederick Osbobow wins despite Ryan Littoral's strong run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -348,7 +348,12 @@
    "text": "WHO GOT THE WIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-12-19961-20088.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-12-19961-20088.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2005.18, \"start\": 2002.44, \"text\": \"WHO GOT THE WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:00:03.575012+00:00"
  },
  {
   "start": 2023.34,
@@ -361,7 +366,7 @@
   "why": "Highlights the importance of every battle",
   "caption": "Every battle win is worth 10 crucial points.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -370,7 +375,12 @@
    "text": "HOW IMPORTANT IS THIS WIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-13-20233-20420.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-13-20233-20420.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2030.68, \"start\": 2028.46, \"text\": \"HOW IMPORTANT IS THIS WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:00:48.394151+00:00"
  },
  {
   "start": 2056.36,
@@ -383,7 +393,7 @@
   "why": "High tension and close competition",
   "caption": "Ken Gucci and Cody Buchanan battle it out in a one more time.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -394,8 +404,12 @@
   },
   "run_end": 2083.8,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytfoarlpj6qji-14-20564-21069.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-14-20564-21069.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2080.28, \"start\": 2078.72, \"text\": \"WHO WILL WIN THIS?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:02:34.651911+00:00"
  },
  {
   "start": 2109.16,
@@ -408,7 +422,7 @@
   "why": "Important info for viewers about track conditions.",
   "caption": "The track's rubber is wearing off, making it slippery.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -417,7 +431,12 @@
    "text": "WILL DRIVERS ADJUST?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-15-21092-21389.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-15-21092-21389.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2124.6, \"start\": 2121.12, \"text\": \"WILL DRIVERS ADJUST?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:03:47.110667+00:00"
  },
  {
   "start": 2139.66,
