@@ -1,7 +1,7 @@
 {
  "id": "pod-ytzb6lkwi41kc-27",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JAMES' INCREDIBLE RUN",
  "video": "docs/media/pod-ytzb6lkwi41kc-27/clip.mp4",
@@ -26,7 +26,7 @@
   "start": 5975.78
  },
  "created": "2026-11-27T05:33:05.978818+00:00",
- "built": "2026-11-27T05:33:05.978822+00:00",
+ "built": "2026-11-27T05:45:01.879630+00:00",
  "thumb": "docs/media/thumbs/pod-ytzb6lkwi41kc-27.jpg",
  "short": "docs/media/pod-ytzb6lkwi41kc-27/short.mp4",
  "short_len": 30.0,
@@ -36,5 +36,24 @@
   "hard": [],
   "soft": [],
   "at": "2026-11-27T05:42:49.512100+00:00"
- }
+ },
+ "media": [
+  "docs/media/pod-ytzb6lkwi41kc-27/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "score": 61,
+ "moment_kind": "qualify",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nJames Dean's qualifying run sets the bar for excellence.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nJames Dean's qualifying run sets the bar for excellence.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: James Dean's qualifying run sets the bar for excellence.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+  "youtube": "James Dean's qualifying run sets the bar for excellence.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }
