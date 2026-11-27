@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:01:46.219419+00:00",
+ "updated": "2026-11-27T13:16:17.527268+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -38,7 +38,7 @@
     }
    ],
    "scout": {
-    "score": 43,
+    "score": 42,
     "why": [
      "bekende rijder",
      "3 bronnen",
@@ -655,7 +655,7 @@
     }
    ],
    "scout": {
-    "score": 39,
+    "score": 38,
     "why": [
      "bekende rijder"
     ],
@@ -682,7 +682,7 @@
     }
    ],
    "scout": {
-    "score": 42,
+    "score": 41,
     "why": [
      "kalender"
     ],
@@ -873,7 +873,7 @@
     }
    ],
    "scout": {
-    "score": 10,
+    "score": 9,
     "why": [],
     "skip": true,
     "feature": false
@@ -2332,8 +2332,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
@@ -2402,7 +2403,7 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "how": "page"
   },
   {
@@ -2443,22 +2444,21 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
-   "ok": true,
-   "items": 4,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
   },
   {
    "source": "Google News",
@@ -2497,8 +2497,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%202027%20approve"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2510,9 +2511,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
   }
  ],
  "instagram": true
