@@ -763,7 +763,7 @@
   "why": "Judge's detailed feedback",
   "caption": "James' run explained by a judge.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -772,6 +772,11 @@
    "text": "DOES JAMES LISTEN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-29-62735-63145.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-29-62735-63145.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6300.48, \"start\": 6296.4, \"text\": \"DOES JAMES LISTEN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:34:56.817299+00:00"
  }
 ]
