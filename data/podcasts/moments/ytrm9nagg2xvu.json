@@ -637,7 +637,7 @@
   "why": "Surprising turn of events with strong commentary.",
   "caption": "Dylan Hughes' run ends in an incomplete.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -646,7 +646,12 @@
    "text": "WILL HE RECOVER?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-24-42702-43129.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-24-42702-43129.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-24/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4288.02, \"start\": 4286.8, \"text\": \"WILL HE RECOVER?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:09:38.433939+00:00"
  },
  {
   "start": 4397.64,
@@ -659,10 +664,15 @@
   "why": "Shows Connor's skill and aggression.",
   "caption": "Connor Shanahan's aggressive qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytrm9nagg2xvu-25-43976-44827.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-25-43976-44827.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T04:11:20.988297+00:00"
  },
  {
   "start": 4637.98,
@@ -677,7 +687,7 @@
   "why": "Captures Brandon's bold driving.",
   "caption": "Brandon Sorensen's daring qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -686,7 +696,12 @@
    "text": "DID HE MAKE IT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-26-46380-47130.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-26-46380-47130.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4661.94, \"start\": 4660.08, \"text\": \"DID HE MAKE IT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:13:41.929626+00:00"
  },
  {
   "start": 4868.3,
@@ -699,10 +714,15 @@
   "why": "Championship standings discussion",
   "caption": "James Dean leads the championship.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytrm9nagg2xvu-27-48683-49396.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-27-48683-49396.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T04:15:03.343927+00:00"
  },
  {
   "start": 4939.62,
