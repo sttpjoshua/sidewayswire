@@ -496,13 +496,17 @@
   "why": "Exciting battle in challenging conditions.",
   "caption": "Dylan Hughes and Frederick Osbun battle in the rain.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "run_end": 2715.16,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ythnglyd6cr0-18-26417-27212.mp4"
+  "wait_name": "v2-ythnglyd6cr0-18-26417-27212.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T02:38:06.187205+00:00"
  },
  {
   "start": 2883.36,
@@ -515,7 +519,7 @@
   "why": "Strong call debate, close race",
   "caption": "Judges debate a close call between two drifters.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -524,7 +528,12 @@
    "text": "WHO WOULD YOU PICK?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-19-28834-29235.mp4"
+  "wait_name": "v2-ythnglyd6cr0-19-28834-29235.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2921.92, \"start\": 2917.9, \"text\": \"WHO WOULD YOU PICK?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:39:13.449403+00:00"
  },
  {
   "start": 3078.56,
@@ -540,7 +549,7 @@
   "why": "Close contact in tricky conditions",
   "caption": "Contact between Forsberg and Castro on a slippery track.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 2,
   "hook": {
@@ -549,7 +558,12 @@
    "text": "WILL THEY STAY ON TRACK?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-20-30786-31310.mp4"
+  "wait_name": "v2-ythnglyd6cr0-20-30786-31310.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3104.62, \"start\": 3100.68, \"text\": \"WILL THEY STAY ON TRACK?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:41:02.956216+00:00"
  },
  {
   "start": 3732.88,
@@ -564,7 +578,7 @@
   "why": "Exciting and dramatic battle with clear tension and action.",
   "caption": "Dylan Hughes and Frederick Osbobo battle it out in a one more time showdown.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -575,8 +589,12 @@
   },
   "run_end": 3771.6,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ythnglyd6cr0-21-37329-37776.mp4"
+  "wait_name": "v2-ythnglyd6cr0-21-37329-37776.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3747.18, \"start\": 3743.22, \"text\": \"STICK IT TO THE WALL?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:42:40.326297+00:00"
  },
  {
   "start": 3891.9,
