@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "bezig",
- "doing": "turbo · leest: Formula DRIFT · Formula DRIFT Orlando 2026 - PRO, Round 3 - Top 32",
- "updated": "2026-11-27T00:34:10.411191+00:00",
+ "doing": "turbo · leest: Formula DRIFT · Formula DRIFT Orlando 2026 - PRO, Round 3 - Qualifying",
+ "updated": "2026-11-27T00:47:18.968568+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-27T00:47:17.978119+00:00",
+   "text": "30 momenten uit Formula DRIFT Orlando 2026 - PRO, Round 3 - Top 32",
+   "ref": "ytsxnoqcs8wo"
+  },
   {
    "at": "2026-11-27T00:34:09.229812+00:00",
    "text": "30 momenten uit Formula DRIFT Connecticut 2026 - PRO, Round 4 - Qualifying",
@@ -126,21 +131,16 @@
    "at": "2026-11-26T19:19:10.635786+00:00",
    "text": "0 momenten uit Super DRIFT Challenge LIVE 2026 from Long Beach - Great 8 (Day Two)",
    "ref": "yt8ji6en3q50u"
-  },
-  {
-   "at": "2026-11-26T19:19:07.051629+00:00",
-   "text": "0 momenten uit Formula DRIFT Atlanta 2026 - PRO, Round 2 - Qualifying",
-   "ref": "ytqdyvk6dos74"
   }
  ],
  "errors": [],
  "drops": {
-  "te kort of te lang": 12
+  "te kort of te lang": 25
  },
  "sample": "",
  "counts": {
   "day": "2026-11-27",
-  "made": 1
+  "made": 2
  },
  "version": "3"
 }
