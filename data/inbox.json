@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:26:41.967619+00:00",
+ "updated": "2026-11-27T14:31:39.740193+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -610,7 +610,7 @@
     }
    ],
    "scout": {
-    "score": 40,
+    "score": 39,
     "why": [
      "bekende rijder"
     ],
@@ -2333,15 +2333,14 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
   },
   {
    "source": "Formula DRIFT",
@@ -2444,9 +2443,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
   },
   {
    "source": "Google News",
@@ -2480,7 +2478,7 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -2514,9 +2512,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
   },
   {
    "source": "Google News",
