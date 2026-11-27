@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T05:16:13.988673+00:00",
+ "updated": "2026-11-27T05:32:00.766262+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -540,7 +540,7 @@
     }
    ],
    "scout": {
-    "score": 43,
+    "score": 42,
     "why": [
      "bekende rijder"
     ],
@@ -837,7 +837,7 @@
     }
    ],
    "scout": {
-    "score": 47,
+    "score": 46,
     "why": [
      "kalender",
      "bekende rijder"
@@ -2319,7 +2319,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2403,7 +2403,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2458,8 +2458,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",

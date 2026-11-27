@@ -1,14 +1,13 @@
 {
- "updated": "2026-11-27T05:28:47.642390+00:00",
+ "updated": "2026-11-27T05:32:16.921204+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 819,
+  "ready": 835,
   "skipped": 73,
   "check": 19,
-  "posted": 3,
-  "draft": 16
+  "posted": 3
  },
- "collected": "2026-11-27T05:16:13.988673+00:00",
+ "collected": "2026-11-27T05:32:00.766262+00:00",
  "instagram": true,
  "sources": [
   {
@@ -36,7 +35,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -120,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -175,8 +174,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -13223,14 +13223,79 @@
    }
   },
   {
+   "id": "pod-ytzb6lkwi41kc-9",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Derek's qualifying run ends with a 38-degree angle.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytzb6lkwi41kc-9__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
+    "start": 2202.64
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T05:12:41.794569+00:00",
+   "built": "2026-11-27T05:32:13.170025+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytzb6lkwi41kc-9__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 64,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nDerek's qualifying run ends with a 38-degree angle.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nDerek's qualifying run ends with a 38-degree angle.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Derek's qualifying run ends with a 38-degree angle.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Derek's qualifying run ends with a 38-degree angle.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "DEREK QUALIFIES FIFTH",
+   "photo": null
+  },
+  {
    "id": "pod-ytzb6lkwi41kc-24",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Connor Shanahan's aggressive run gets dinged by zone two.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzb6lkwi41kc-24__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13247,7 +13312,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:28:39.660767+00:00",
-   "built": "2026-11-27T05:28:39.660773+00:00",
+   "built": "2026-11-27T05:32:13.142246+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzb6lkwi41kc-24__clip.mp4",
    "tags": [
@@ -13256,13 +13321,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 64,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nConnor Shanahan's aggressive run gets dinged by zone two.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nConnor Shanahan's aggressive run gets dinged by zone two.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Connor Shanahan's aggressive run gets dinged by zone two.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Connor Shanahan's aggressive run gets dinged by zone two.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13278,12 +13351,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-23",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Dylan Hughes demonstrates left foot braking technique.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad @dylanhughes129\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytzb6lkwi41kc-23__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13300,7 +13375,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:26:45.254680+00:00",
-   "built": "2026-11-27T05:26:45.254684+00:00",
+   "built": "2026-11-27T05:32:13.114259+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytzb6lkwi41kc-23__clip.mp4",
    "tags": [
@@ -13310,13 +13385,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 69,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nDylan Hughes demonstrates left foot braking technique.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @dylanhughes129\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nDylan Hughes demonstrates left foot braking technique.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @dylanhughes129\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Dylan Hughes demonstrates left foot braking technique.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad @dylanhughes129\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Dylan Hughes demonstrates left foot braking technique.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @dylanhughes129\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13332,12 +13415,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-22",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Fans bring RC cars to the track, adding to the fun.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad @dylanhughes129\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytzb6lkwi41kc-22__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13354,7 +13439,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:25:18.296227+00:00",
-   "built": "2026-11-27T05:25:18.296231+00:00",
+   "built": "2026-11-27T05:32:13.086770+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytzb6lkwi41kc-22__clip.mp4",
    "tags": [
@@ -13364,13 +13449,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 65,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nFans bring RC cars to the track, adding to the fun.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @dylanhughes129\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nFans bring RC cars to the track, adding to the fun.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @dylanhughes129\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Fans bring RC cars to the track, adding to the fun.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad @dylanhughes129\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Fans bring RC cars to the track, adding to the fun.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @dylanhughes129\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13386,12 +13479,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-21",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Frederick Osbobow's steady drift run nails the zones.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytzb6lkwi41kc-21__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13408,7 +13503,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:24:54.976445+00:00",
-   "built": "2026-11-27T05:24:54.976449+00:00",
+   "built": "2026-11-27T05:32:13.059281+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytzb6lkwi41kc-21__clip.mp4",
    "tags": [
@@ -13417,13 +13512,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 69,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nFrederick Osbobow's steady drift run nails the zones.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nFrederick Osbobow's steady drift run nails the zones.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Frederick Osbobow's steady drift run nails the zones.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Frederick Osbobow's steady drift run nails the zones.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13439,12 +13542,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-20",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Cole Richards nails a qualifying run with a high score.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad @colerichardz\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytzb6lkwi41kc-20__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13461,7 +13566,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:23:36.952832+00:00",
-   "built": "2026-11-27T05:23:36.952836+00:00",
+   "built": "2026-11-27T05:32:13.019562+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytzb6lkwi41kc-20__clip.mp4",
    "tags": [
@@ -13471,13 +13576,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 74,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nCole Richards nails a qualifying run with a high score.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @colerichardz\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nCole Richards nails a qualifying run with a high score.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @colerichardz\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Cole Richards nails a qualifying run with a high score.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad @colerichardz\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Cole Richards nails a qualifying run with a high score.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @colerichardz\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13493,12 +13606,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-19",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "JTP's backfire story is as wild as his driving\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytzb6lkwi41kc-19__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13515,7 +13630,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:22:40.491920+00:00",
-   "built": "2026-11-27T05:22:40.491925+00:00",
+   "built": "2026-11-27T05:32:12.992457+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytzb6lkwi41kc-19__clip.mp4",
    "tags": [
@@ -13524,13 +13639,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 65,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nJTP's backfire story is as wild as his driving\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nJTP's backfire story is as wild as his driving\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: JTP's backfire story is as wild as his driving\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "JTP's backfire story is as wild as his driving\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13546,12 +13669,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-18",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Ben Hobson impresses with a precise and loud run.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad @benhobson213\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytzb6lkwi41kc-18__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13568,7 +13693,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:22:17.096812+00:00",
-   "built": "2026-11-27T05:22:17.096817+00:00",
+   "built": "2026-11-27T05:32:12.965321+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytzb6lkwi41kc-18__clip.mp4",
    "tags": [
@@ -13578,13 +13703,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 69,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nBen Hobson impresses with a precise and loud run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @benhobson213\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nBen Hobson impresses with a precise and loud run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @benhobson213\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Ben Hobson impresses with a precise and loud run.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad @benhobson213\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Ben Hobson impresses with a precise and loud run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @benhobson213\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13600,12 +13733,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-17",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Adam LZ delivers a stunning qualifying run, leading the pack.\n\n🎥 Footage: FD SEATTLE 2026\n@adam_lz @formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytzb6lkwi41kc-17__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13622,7 +13757,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:21:05.496924+00:00",
-   "built": "2026-11-27T05:21:05.496930+00:00",
+   "built": "2026-11-27T05:32:12.938243+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytzb6lkwi41kc-17__clip.mp4",
    "tags": [
@@ -13632,13 +13767,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 61,
+   "captions": {
+    "instagram": "Adam LZ | Formula DRIFT Seattle 2026 Qualifying\n\nAdam LZ delivers a stunning qualifying run, leading the pack.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@adam_lz @formulad\n\n#formuladrift #formulad #adamlz #sidewayswire",
+    "facebook": "Adam LZ | Formula DRIFT Seattle 2026 Qualifying\n\nAdam LZ delivers a stunning qualifying run, leading the pack.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@adam_lz @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Adam LZ | Formula DRIFT Seattle 2026 Qualifying: Adam LZ delivers a stunning qualifying run, leading the pack.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @adam_lz @formulad\n#formuladrift #formulad #adamlz #sidewayswire",
+    "youtube_title": "Adam LZ | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Adam LZ delivers a stunning qualifying run, leading the pack.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@adam_lz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [
+    "adam_lz"
+   ],
+   "people": [
+    "Adam LZ"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13654,12 +13799,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-16",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Adam LZ secures a spot in the finals.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytzb6lkwi41kc-16__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13676,7 +13823,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:19:33.670624+00:00",
-   "built": "2026-11-27T05:19:33.670634+00:00",
+   "built": "2026-11-27T05:32:12.911258+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytzb6lkwi41kc-16__clip.mp4",
    "tags": [
@@ -13685,13 +13832,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 63,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nAdam LZ secures a spot in the finals.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nAdam LZ secures a spot in the finals.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Adam LZ secures a spot in the finals.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Adam LZ secures a spot in the finals.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13707,12 +13862,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-15",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Cody scores perfectly on his final zone.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzb6lkwi41kc-15__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13729,7 +13886,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:18:30.837275+00:00",
-   "built": "2026-11-27T05:18:30.837278+00:00",
+   "built": "2026-11-27T05:32:12.873406+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzb6lkwi41kc-15__clip.mp4",
    "tags": [
@@ -13738,13 +13895,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 74,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nCody scores perfectly on his final zone.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nCody scores perfectly on his final zone.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Cody scores perfectly on his final zone.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Cody scores perfectly on his final zone.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13760,12 +13925,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-14",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Cody Buchanan nails his qualifying run.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad @cbuchanan272\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytzb6lkwi41kc-14__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13782,7 +13949,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:17:57.029638+00:00",
-   "built": "2026-11-27T05:17:57.029642+00:00",
+   "built": "2026-11-27T05:32:12.846868+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytzb6lkwi41kc-14__clip.mp4",
    "tags": [
@@ -13792,13 +13959,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 74,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nCody Buchanan nails his qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @cbuchanan272\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nCody Buchanan nails his qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @cbuchanan272\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Cody Buchanan nails his qualifying run.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad @cbuchanan272\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Cody Buchanan nails his qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad @cbuchanan272\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13814,12 +13989,14 @@
   {
    "id": "pod-ytzb6lkwi41kc-13",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Daniel Stuckey steps into Federico's car for an unexpected qualifying run.\n\n🎥 Footage: FD SEATTLE 2026\n@stuke.racing @formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytzb6lkwi41kc-13__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13836,7 +14013,7 @@
     "youtube"
    ],
    "created": "2026-11-27T05:16:56.464948+00:00",
-   "built": "2026-11-27T05:16:56.464953+00:00",
+   "built": "2026-11-27T05:32:12.820394+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytzb6lkwi41kc-13__clip.mp4",
    "tags": [
@@ -13846,13 +14023,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 58,
+   "captions": {
+    "instagram": "Daniel Stuckey | Formula DRIFT Seattle 2026 Qualifying\n\nDaniel Stuckey steps into Federico's car for an unexpected qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@stuke.racing @formulad\n\n#formuladrift #formulad #danielstuckey #sidewayswire",
+    "facebook": "Daniel Stuckey | Formula DRIFT Seattle 2026 Qualifying\n\nDaniel Stuckey steps into Federico's car for an unexpected qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@stuke.racing @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Daniel Stuckey | Formula DRIFT Seattle 2026 Qualifying: Daniel Stuckey steps into Federico's car for an unexpected qualifying run.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @stuke.racing @formulad\n#formuladrift #formulad #danielstuckey #sidewayswire",
+    "youtube_title": "Daniel Stuckey | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Daniel Stuckey steps into Federico's car for an unexpected qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@stuke.racing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [
+    "stuke.racing"
+   ],
+   "people": [
+    "Daniel Stuckey"
+   ],
+   "moment_kind": "qualify",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13863,6 +14050,195 @@
    "tiktok_done": null,
    "short": null,
    "title": "STUCKEY'S IMPROVISED RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytzb6lkwi41kc-12",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Andy Haightley loses points in zone four during his qualifying run.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytzb6lkwi41kc-12__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
+    "start": 2748.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T05:15:15.831448+00:00",
+   "built": "2026-11-27T05:32:12.793898+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytzb6lkwi41kc-12__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 69,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nAndy Haightley loses points in zone four during his qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nAndy Haightley loses points in zone four during his qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Andy Haightley loses points in zone four during his qualifying run.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Andy Haightley loses points in zone four during his qualifying run.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "ANDY HAGTLEY'S STRUGGLE",
+   "photo": null
+  },
+  {
+   "id": "pod-ytzb6lkwi41kc-11",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ryan Literal's qualifying run includes a small bumper tap.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytzb6lkwi41kc-11__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
+    "start": 2579.06
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T05:14:44.398332+00:00",
+   "built": "2026-11-27T05:32:12.767667+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytzb6lkwi41kc-11__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 74,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nRyan Literal's qualifying run includes a small bumper tap.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nRyan Literal's qualifying run includes a small bumper tap.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Ryan Literal's qualifying run includes a small bumper tap.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Ryan Literal's qualifying run includes a small bumper tap.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "RYAN LITERAL'S RUN",
+   "photo": null
+  },
+  {
+   "id": "pod-ytzb6lkwi41kc-10",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Rudy Hanson's initiation issues hurt his qualifying score.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytzb6lkwi41kc-10__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
+    "start": 2304.34
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T05:14:14.081102+00:00",
+   "built": "2026-11-27T05:32:12.740004+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytzb6lkwi41kc-10__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 69,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nRudy Hanson's initiation issues hurt his qualifying score.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying\n\nRudy Hanson's initiation issues hurt his qualifying score.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying: Rudy Hanson's initiation issues hurt his qualifying score.\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Seattle 2026 Qualifying",
+    "youtube": "Rudy Hanson's initiation issues hurt his qualifying score.\n\n🎥 Footage: Formula DRIFT Seattle 2026 Qualifying\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "qualify",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "RUDDY HANSON STRUGGLES",
    "photo": null
   },
   {
@@ -14117,218 +14493,6 @@
    "tiktok_done": null,
    "short": null,
    "title": "BEN HOBSON VICTORY",
-   "photo": null
-  },
-  {
-   "id": "pod-ytzb6lkwi41kc-12",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Andy Haightley loses points in zone four during his qualifying run.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
-    "start": 2748.46
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-27T05:15:15.831448+00:00",
-   "built": "2026-11-27T05:15:15.831452+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytzb6lkwi41kc-12__clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "ANDY HAGTLEY'S STRUGGLE",
-   "photo": null
-  },
-  {
-   "id": "pod-ytzb6lkwi41kc-11",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Ryan Literal's qualifying run includes a small bumper tap.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
-    "start": 2579.06
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-27T05:14:44.398332+00:00",
-   "built": "2026-11-27T05:14:44.398339+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytzb6lkwi41kc-11__clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "RYAN LITERAL'S RUN",
-   "photo": null
-  },
-  {
-   "id": "pod-ytzb6lkwi41kc-10",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Rudy Hanson's initiation issues hurt his qualifying score.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
-    "start": 2304.34
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-27T05:14:14.081102+00:00",
-   "built": "2026-11-27T05:14:14.081105+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytzb6lkwi41kc-10__clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "RUDDY HANSON STRUGGLES",
-   "photo": null
-  },
-  {
-   "id": "pod-ytzb6lkwi41kc-9",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Derek's qualifying run ends with a 38-degree angle.\n\n🎥 Footage: FD SEATTLE 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 - PRO, Round 6 - Qualifying",
-    "start": 2202.64
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-27T05:12:41.794569+00:00",
-   "built": "2026-11-27T05:12:41.794572+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytzb6lkwi41kc-9__clip.mp4",
-   "tags": [
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "DEREK QUALIFIES FIFTH",
    "photo": null
   },
   {

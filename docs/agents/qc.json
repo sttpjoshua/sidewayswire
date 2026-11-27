@@ -4,9 +4,13 @@
  "where": "GitHub",
  "state": "wacht",
  "doing": null,
- "updated": "2026-11-27T05:16:15.713584+00:00",
+ "updated": "2026-11-27T05:32:13.529363+00:00",
  "note": "",
  "history": [
+  {
+   "at": "2026-11-27T05:32:13.529212+00:00",
+   "text": "ronde: 851 goed, 3 met opmerking, 0 tegengehouden"
+  },
   {
    "at": "2026-11-27T05:16:15.713446+00:00",
    "text": "ronde: 835 goed, 3 met opmerking, 0 tegengehouden"
@@ -108,14 +112,10 @@
   {
    "at": "2026-11-26T21:16:00.686365+00:00",
    "text": "ronde: 665 goed, 36 met opmerking, 4 tegengehouden"
-  },
-  {
-   "at": "2026-11-26T21:11:20.756642+00:00",
-   "text": "ronde: 670 goed, 36 met opmerking, 0 tegengehouden"
   }
  ],
  "counts": {
-  "goed": 835,
+  "goed": 851,
   "opmerking": 3,
   "tegengehouden": 0
  }
