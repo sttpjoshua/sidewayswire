@@ -2,7 +2,9 @@
  "agents": {
   "battle": {
    "on": true,
-   "note": ""
+   "note": "Use kind 'call' only for a judges' decision on a specific run or battle (OMT, split vote, disputed score). Skip commentary chatter, previews, interviews about the season and any explanation of how judging works. Every moment must show the run or battle on track. guest and people are the drivers in the run, never 'Formula DRIFT'. Spell names as in the driver list (James Deane, Odi Bakchis, Conor Shanahan, Ken Gushi). Keep 15-75 s. 15 strong moments beat 30 weak ones.",
+   "by": "hoofdredacteur",
+   "by_at": "2026-11-27T07:44:10.500412+00:00"
   },
   "podcast": {
    "on": true,
@@ -46,7 +48,9 @@
   }
  },
  "priorities": {
-  "first": [],
-  "why": ""
+  "first": [
+   "drift masters"
+  ],
+  "why": "Er staan al zo'n 650 FD-clips klaar en bijna niets van Drift Masters, dus eerst de DM-livestreams."
  }
 }

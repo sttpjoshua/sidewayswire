@@ -2,9 +2,39 @@
  "id": "hoofdredacteur",
  "name": "Hoofdredacteur",
  "where": "Claude, elke ochtend 08:41",
- "state": "wacht",
- "doing": "eerste ochtendronde: morgen 08:41",
- "updated": "2026-11-26T19:37:24.842617+00:00",
- "briefing": "",
- "history": []
+ "state": "fout",
+ "doing": null,
+ "updated": "2026-11-27T07:44:28.487454+00:00",
+ "note": "",
+ "briefing": "Systeem draait: alle runs van collect, run, clips, podcasts en pages zijn gelukt en de Mac-helper is actief, alleen 5 YouTube-downloads falen op cookies.\nAfgelopen nacht: de battle-redacteur maakte 15 livestreams met elk 30 momenten (171 nieuwe clips klaar), nieuws 2 posts (FD 2027-kalender en jouw D1GP-tip over Conor en Jack Shanahan), podcast niets (podcasts staan uit).\nSterkst: FD 2027 SCHEDULE IS OUT (breaking); Conor en Jack Shanahan in D1GP; RYAN TURK RETIRES uit FD Seattle. De rest van de lokale battle-clips is zwak: 'call' wordt gebruikt voor elk commentaarstuk, namen kloppen niet (James Dean, Odie Bocce, Connor Shannon) en er zitten jurering-uitleggen tussen.\nVandaag: nog in testmodus, er gaat niets online; vanaf 1 december staan er 8 posts gepland.\nWeekplan: nog leeg, de strateeg maakt het eerste op maandag 30 november. Bijgestuurd: battle-redacteur kreeg een instructie (call alleen voor echte jurybeslissingen, coureurs als guest, juiste spelling, liever 15 sterke dan 30 zwakke momenten), voorrang voor Drift Masters (650 FD-clips klaar, bijna geen DM), 2 dubbele OMT-clips afgekeurd, 0 goedgekeurd.\nVan jou nodig: ververs de YouTube-cookies op de Mac (yt-dlp), kijk de 171 lokale battle-clips op namen na voor ze ingepland worden, en 17 posts wachten op jou (5 wachten sinds 17 nov op een foto, 6 op namen, 5 geruchten): https://sttpjoshua.github.io/sidewayswire/#beoordelen",
+ "counts": {
+  "goedgekeurd": 0,
+  "afgekeurd": 2,
+  "bijgestuurd": 2,
+  "problemen": 2
+ },
+ "history": [
+  {
+   "at": "2026-11-27T07:44:28.487454+00:00",
+   "text": "Controle: alle workflows gelukt, Mac actief, 5 YouTube-downloads falen op cookies."
+  },
+  {
+   "at": "2026-11-27T07:44:28.487454+00:00",
+   "text": "Battle-redacteur bijgestuurd: call alleen voor jurybeslissingen, juiste namen, minder maar sterker."
+  },
+  {
+   "at": "2026-11-27T07:44:28.487454+00:00",
+   "text": "Voorrang gezet op Drift Masters-livestreams."
+  },
+  {
+   "at": "2026-11-27T07:44:28.487454+00:00",
+   "text": "Afgekeurd: dubbel OMT-moment.",
+   "ref": "pod-ytfoarlpj6qji-10"
+  },
+  {
+   "at": "2026-11-27T07:44:28.487454+00:00",
+   "text": "Afgekeurd: dubbel OMT-moment met foute naam.",
+   "ref": "pod-ytfoarlpj6qji-14"
+  }
+ ]
 }

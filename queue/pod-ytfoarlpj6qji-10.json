@@ -1,7 +1,7 @@
 {
  "id": "pod-ytfoarlpj6qji-10",
  "kind": "stream_clip",
- "status": "check",
+ "status": "skipped",
  "slides": [],
  "title": "ONE MORE TIME",
  "video": "docs/media/pod-ytfoarlpj6qji-10/clip.mp4",
@@ -49,5 +49,6 @@
  "preview_of": "2026-11-27T02:02:01.171214+00:00",
  "people": [
   "Ben Hobson"
- ]
+ ],
+ "skip_reason": "hoofdredacteur: dubbel, zelfde OMT-moment als pod-ytfoarlpj6qji-8"
 }

@@ -1,7 +1,7 @@
 {
  "id": "pod-ytfoarlpj6qji-14",
  "kind": "stream_clip",
- "status": "check",
+ "status": "skipped",
  "slides": [],
  "title": "ONE MORE TIME",
  "video": "docs/media/pod-ytfoarlpj6qji-14/clip.mp4",
@@ -48,5 +48,6 @@
  "preview_of": "2026-11-27T02:16:17.439637+00:00",
  "people": [
   "Formula Drift"
- ]
+ ],
+ "skip_reason": "hoofdredacteur: dubbel, zelfde OMT-moment als pod-ytfoarlpj6qji-8 en naam fout (Ken Gucci)"
 }
