@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:16:40.507284+00:00",
+ "updated": "2026-11-27T10:31:28.048024+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 840,
@@ -7,7 +7,7 @@
   "check": 17,
   "posted": 3
  },
- "collected": "2026-11-27T10:16:35.891576+00:00",
+ "collected": "2026-11-27T10:31:23.108693+00:00",
  "instagram": true,
  "sources": [
   {
@@ -27,9 +27,8 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
