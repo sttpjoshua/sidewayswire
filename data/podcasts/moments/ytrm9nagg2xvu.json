@@ -533,7 +533,7 @@
   "why": "Unexpected debris adds mystery and excitement.",
   "caption": "Matt Field's qualifying run ends with tire debris.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -542,7 +542,12 @@
    "text": "WHAT CAUSED THE TIRE DEBRIS?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-20-34774-35074.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-20-34774-35074.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3498.7, \"start\": 3497.62, \"text\": \"WHAT CAUSED THE TIRE DEBRIS?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:04:09.524492+00:00"
  },
  {
   "start": 3509.06,
@@ -555,7 +560,7 @@
   "why": "strong style score and record setting",
   "caption": "Cole Richards scores a style score of 83.5, setting a new record.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -564,7 +569,12 @@
    "text": "WHO SET THE NEW RECORD?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-21-35091-35637.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-21-35091-35637.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-21/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3553.28, \"start\": 3551.06, \"text\": \"WHO SET THE NEW RECORD?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:05:49.388502+00:00"
  },
  {
   "start": 3583.14,
@@ -579,10 +589,15 @@
   "why": "exciting run with close-to-perfect execution",
   "caption": "Cole Richards executes a sick run, but falls short in a few spots.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
-  "wait_name": "v2-ytrm9nagg2xvu-22-35831-36166.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-22-35831-36166.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-22/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T04:06:32.312090+00:00"
  },
  {
   "start": 4205.16,
@@ -595,7 +610,7 @@
   "why": "Strong commentary on driver's skill and track familiarity.",
   "caption": "Dylan Hughes takes the outside zone with confidence.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -604,7 +619,12 @@
    "text": "WHAT DO YOU THINK?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-23-42052-42516.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-23-42052-42516.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-23/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4246.12, \"start\": 4245.0, \"text\": \"WHAT DO YOU THINK?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:08:00.700042+00:00"
  },
  {
   "start": 4270.2,
