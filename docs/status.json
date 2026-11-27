@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-27T12:16:18.326615+00:00",
+ "updated": "2026-11-27T12:30:48.082947+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 840,
+  "ready": 842,
   "skipped": 75,
-  "check": 17,
+  "check": 15,
   "posted": 3
  },
- "collected": "2026-11-27T12:16:14.554469+00:00",
+ "collected": "2026-11-27T12:30:42.514385+00:00",
  "instagram": true,
  "sources": [
   {
@@ -119,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -175,7 +175,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 12,
+   "items": 7,
    "how": "feed"
   },
   {
@@ -223,8 +223,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   }
  ],
  "inbox": [
@@ -63806,7 +63807,7 @@
   {
    "id": "pod-5687ca1c5a65-7",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Jack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #Rumor #sidewayswire",
@@ -63816,7 +63817,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -63843,17 +63844,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 46,
+   "captions": {
+    "instagram": "Jack Shanahan | The Outerzone\n\nJack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\n\nTag the person you watch drift with 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n\n#drift #jackshanahan #jamesdeane #formuladrift #sidewayswire",
+    "facebook": "Jack Shanahan | The Outerzone\n\nJack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\n\nTag the person you watch drift with 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+    "tiktok": "Jack Shanahan | The Outerzone: Jack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\nTag the person you watch drift with 👇\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n#drift #jackshanahan #jamesdeane #sidewayswire",
+    "youtube_title": "Jack Shanahan | The Outerzone",
+    "youtube": "Jack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "jackshanahan59",
+    "jamesdeane130",
+    "adam_lz"
+   ],
    "people": [
     "Jack Shanahan",
     "James Deane",
     "Adam LZ"
    ],
-   "moment_kind": null,
+   "moment_kind": "rumor",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -63873,7 +63884,7 @@
   {
    "id": "pod-5687ca1c5a65-6",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Small team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #Rumor #sidewayswire",
@@ -63883,7 +63894,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -63908,15 +63919,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 46,
+   "captions": {
+    "instagram": "Jack Shanahan | The Outerzone\n\nSmall team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#drift #jackshanahan #formuladrift #rumor #sidewayswire",
+    "facebook": "Jack Shanahan | The Outerzone\n\nSmall team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+    "tiktok": "Jack Shanahan | The Outerzone: Small team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\nSend this to your drift group chat 🔥\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @formulad @jako13\n#drift #jackshanahan #formuladrift #sidewayswire",
+    "youtube_title": "Jack Shanahan | The Outerzone",
+    "youtube": "Small team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "jackshanahan59"
+   ],
    "people": [
     "Jack Shanahan"
    ],
-   "moment_kind": null,
+   "moment_kind": "rumor",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -73475,7 +73494,7 @@
    "mix": {
     "eigen": 8,
     "toestemming": 0,
-    "geleend": 835
+    "geleend": 837
    }
   },
   "milestones": [

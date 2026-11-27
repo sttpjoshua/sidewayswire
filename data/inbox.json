@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:16:14.554469+00:00",
+ "updated": "2026-11-27T12:30:42.514385+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -524,7 +524,7 @@
     }
    ],
    "scout": {
-    "score": 20,
+    "score": 19,
     "why": [],
     "skip": false,
     "feature": false
@@ -574,7 +574,7 @@
     }
    ],
    "scout": {
-    "score": 41,
+    "score": 40,
     "why": [
      "bekende rijder"
     ],
@@ -765,7 +765,7 @@
     }
    ],
    "scout": {
-    "score": 38,
+    "score": 37,
     "why": [
      "bekende rijder"
     ],
@@ -2410,7 +2410,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2466,7 +2466,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 12,
+   "items": 7,
    "how": "feed"
   },
   {
@@ -2514,8 +2514,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   }
  ],
  "instagram": true

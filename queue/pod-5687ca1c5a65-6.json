@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-6",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "JACK SHANAHAN: NEW CAR IN 4 WEEKS",
  "video": "docs/media/pod-5687ca1c5a65-6/clip.mp4",
@@ -47,5 +47,19 @@
   "at": "2026-11-26T19:31:44.206876+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-27T12:29:40.957Z"
+ "approved": "2026-11-27T12:29:40.957Z",
+ "post_at": null,
+ "score": 46,
+ "moment_kind": "rumor",
+ "plan": {},
+ "captions": {
+  "instagram": "Jack Shanahan | The Outerzone\n\nSmall team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#drift #jackshanahan #formuladrift #rumor #sidewayswire",
+  "facebook": "Jack Shanahan | The Outerzone\n\nSmall team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+  "tiktok": "Jack Shanahan | The Outerzone: Small team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\nSend this to your drift group chat 🔥\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @formulad @jako13\n#drift #jackshanahan #formuladrift #sidewayswire",
+  "youtube_title": "Jack Shanahan | The Outerzone",
+  "youtube": "Small team, cheapest car on the grid, and now a new car for next year in four weeks, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+ },
+ "collaborators": [
+  "jackshanahan59"
+ ]
 }

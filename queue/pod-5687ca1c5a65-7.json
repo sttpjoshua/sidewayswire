@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-7",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "WHY JACK WANTS A NEW CAR",
  "video": "docs/media/pod-5687ca1c5a65-7/clip.mp4",
@@ -51,5 +51,21 @@
   "at": "2026-11-26T19:31:44.207163+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-27T12:29:42.804Z"
+ "approved": "2026-11-27T12:29:42.804Z",
+ "post_at": null,
+ "score": 46,
+ "moment_kind": "rumor",
+ "plan": {},
+ "captions": {
+  "instagram": "Jack Shanahan | The Outerzone\n\nJack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\n\nTag the person you watch drift with 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n\n#drift #jackshanahan #jamesdeane #formuladrift #sidewayswire",
+  "facebook": "Jack Shanahan | The Outerzone\n\nJack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\n\nTag the person you watch drift with 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+  "tiktok": "Jack Shanahan | The Outerzone: Jack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\nTag the person you watch drift with 👇\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n#drift #jackshanahan #jamesdeane #sidewayswire",
+  "youtube_title": "Jack Shanahan | The Outerzone",
+  "youtube": "Jack Shanahan keeps his current car but wants something else to fight for a title, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @jamesdeane130 @adam_lz @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+ },
+ "collaborators": [
+  "jackshanahan59",
+  "jamesdeane130",
+  "adam_lz"
+ ]
 }
