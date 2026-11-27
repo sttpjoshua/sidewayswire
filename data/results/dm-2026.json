@@ -1,0 +1,2491 @@
+{
+ "series": "Drift Masters",
+ "short": "DM",
+ "season": 2026,
+ "source": "dm.gp (official standings)",
+ "fetched": "2026-11-27T15:35:16.710637+00:00",
+ "complete": true,
+ "rounds": [
+  {
+   "n": 1,
+   "name": "Vallelunga Circuit",
+   "country": "Italy",
+   "end": "2026-05-02"
+  },
+  {
+   "n": 2,
+   "name": "Circuito del Jarama",
+   "country": "Spain",
+   "end": "2026-05-17"
+  },
+  {
+   "n": 3,
+   "name": "Mondello Park",
+   "country": "Ireland",
+   "end": "2026-06-14"
+  },
+  {
+   "n": 4,
+   "name": "Ahvenisto Race Circuit",
+   "country": "Finland",
+   "end": "2026-07-12"
+  },
+  {
+   "n": 5,
+   "name": "Bikernieku Trase",
+   "country": "Latvia",
+   "end": "2026-07-25"
+  },
+  {
+   "n": 6,
+   "name": "Ferropolis",
+   "country": "Germany",
+   "end": "2026-08-16"
+  },
+  {
+   "n": 7,
+   "name": "PGE Narodowy",
+   "country": "Poland",
+   "end": "2026-09-13"
+  }
+ ],
+ "drivers": [
+  {
+   "name": "Paweł Korpuliński",
+   "number": 74,
+   "nat": "POL",
+   "car": "Nissan S14",
+   "pos": 1,
+   "points": 509.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 4,
+     "points": 64.0
+    },
+    {
+     "n": 2,
+     "pos": 5,
+     "points": 55.0
+    },
+    {
+     "n": 3,
+     "pos": 1,
+     "points": 104.0
+    },
+    {
+     "n": 4,
+     "pos": 6,
+     "points": 55.0
+    },
+    {
+     "n": 5,
+     "pos": 1,
+     "points": 104.0
+    },
+    {
+     "n": 6,
+     "pos": 13,
+     "points": 32.0
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "points": 95.0
+    }
+   ]
+  },
+  {
+   "name": "Conor Shanahan",
+   "number": 79,
+   "nat": "IRL",
+   "car": "Toyota GT86",
+   "pos": 2,
+   "points": 474.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 1,
+     "points": 107.0
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "points": 88.0
+    },
+    {
+     "n": 3,
+     "pos": 17,
+     "points": 24.0
+    },
+    {
+     "n": 4,
+     "pos": 21,
+     "points": 16.0
+    },
+    {
+     "n": 5,
+     "pos": 9,
+     "points": 39.0
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "points": 96.0
+    },
+    {
+     "n": 7,
+     "pos": 1,
+     "points": 104.0
+    }
+   ]
+  },
+  {
+   "name": "Piotr Więcek",
+   "number": 215,
+   "nat": "POL",
+   "car": "Toyota Supra GR",
+   "pos": 3,
+   "points": 468.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 3,
+     "points": 82.0
+    },
+    {
+     "n": 2,
+     "pos": 1,
+     "points": 104.0
+    },
+    {
+     "n": 3,
+     "pos": 19,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 5,
+     "points": 56.0
+    },
+    {
+     "n": 5,
+     "pos": 4,
+     "points": 72.0
+    },
+    {
+     "n": 6,
+     "pos": 1,
+     "points": 106.0
+    },
+    {
+     "n": 7,
+     "pos": 15,
+     "points": 32.0
+    }
+   ]
+  },
+  {
+   "name": "James Deane",
+   "number": 130,
+   "nat": "IRL",
+   "car": "Ford Mustang RTR",
+   "pos": 4,
+   "points": 421.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 2,
+     "points": 89.0
+    },
+    {
+     "n": 2,
+     "pos": 4,
+     "points": 72.0
+    },
+    {
+     "n": 3,
+     "pos": 5,
+     "points": 54.0
+    },
+    {
+     "n": 4,
+     "pos": 7,
+     "points": 51.0
+    },
+    {
+     "n": 5,
+     "pos": 13,
+     "points": 32.0
+    },
+    {
+     "n": 6,
+     "pos": 9,
+     "points": 39.0
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "points": 84.0
+    }
+   ]
+  },
+  {
+   "name": "Jack Shanahan",
+   "number": 59,
+   "nat": "IRL",
+   "car": "Toyota GT86",
+   "pos": 5,
+   "points": 357.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 11,
+     "points": 35.0
+    },
+    {
+     "n": 2,
+     "pos": 7,
+     "points": 48.0
+    },
+    {
+     "n": 3,
+     "pos": 9,
+     "points": 39.0
+    },
+    {
+     "n": 4,
+     "pos": 1,
+     "points": 106.0
+    },
+    {
+     "n": 5,
+     "pos": 20,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "points": 81.0
+    },
+    {
+     "n": 7,
+     "pos": 14,
+     "points": 32.0
+    }
+   ]
+  },
+  {
+   "name": "Duane Mckeever",
+   "number": 25,
+   "nat": "IRL",
+   "car": "Nissan 180SX",
+   "pos": 6,
+   "points": 314.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 5,
+     "points": 56.0
+    },
+    {
+     "n": 2,
+     "pos": 10,
+     "points": 35.0
+    },
+    {
+     "n": 3,
+     "pos": 6,
+     "points": 53.0
+    },
+    {
+     "n": 4,
+     "pos": 20,
+     "points": 17.0
+    },
+    {
+     "n": 5,
+     "pos": 15,
+     "points": 32.0
+    },
+    {
+     "n": 6,
+     "pos": 6,
+     "points": 51.0
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "points": 70.0
+    }
+   ]
+  },
+  {
+   "name": "Conor Falvey",
+   "number": 412,
+   "nat": "IRL",
+   "car": "Nissan S15",
+   "pos": 7,
+   "points": 287.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 24,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 14,
+     "points": 32.0
+    },
+    {
+     "n": 3,
+     "pos": 2,
+     "points": 88.0
+    },
+    {
+     "n": 4,
+     "pos": 17,
+     "points": 21.0
+    },
+    {
+     "n": 5,
+     "pos": 3,
+     "points": 82.0
+    },
+    {
+     "n": 6,
+     "pos": 29,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 10,
+     "points": 32.0
+    }
+   ]
+  },
+  {
+   "name": "Oliver Randalu",
+   "number": 36,
+   "nat": "EST",
+   "car": "BMW E46",
+   "pos": 8,
+   "points": 285.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 18,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 11,
+     "points": 32.0
+    },
+    {
+     "n": 3,
+     "pos": 29,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 3,
+     "points": 76.0
+    },
+    {
+     "n": 5,
+     "pos": 6,
+     "points": 48.0
+    },
+    {
+     "n": 6,
+     "pos": 8,
+     "points": 48.0
+    },
+    {
+     "n": 7,
+     "pos": 7,
+     "points": 49.0
+    }
+   ]
+  },
+  {
+   "name": "Kevin Pesur",
+   "number": 11,
+   "nat": "EST",
+   "car": "BMW M2 G87 x E46",
+   "pos": 9,
+   "points": 268.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 7,
+     "points": 48.0
+    },
+    {
+     "n": 2,
+     "pos": 20,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "points": 76.0
+    },
+    {
+     "n": 4,
+     "pos": 11,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 18,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 7,
+     "points": 48.0
+    },
+    {
+     "n": 7,
+     "pos": 11,
+     "points": 32.0
+    }
+   ]
+  },
+  {
+   "name": "Mika Keski-Korpi",
+   "number": 46,
+   "nat": "FIN",
+   "car": "BMW F22 Eurofighter",
+   "pos": 10,
+   "points": 255.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 10,
+     "points": 36.0
+    },
+    {
+     "n": 2,
+     "pos": 3,
+     "points": 82.0
+    },
+    {
+     "n": 3,
+     "pos": 10,
+     "points": 35.0
+    },
+    {
+     "n": 4,
+     "pos": 18,
+     "points": 20.0
+    },
+    {
+     "n": 5,
+     "pos": 26,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 14,
+     "points": 32.0
+    },
+    {
+     "n": 7,
+     "pos": 9,
+     "points": 34.0
+    }
+   ]
+  },
+  {
+   "name": "Nikolass Bertans",
+   "number": 12,
+   "nat": "LVA",
+   "car": "BMW HGK",
+   "pos": 11,
+   "points": 244.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 8,
+     "points": 48.0
+    },
+    {
+     "n": 2,
+     "pos": 8,
+     "points": 48.0
+    },
+    {
+     "n": 3,
+     "pos": 8,
+     "points": 48.0
+    },
+    {
+     "n": 4,
+     "pos": 32,
+     "points": 16.0
+    },
+    {
+     "n": 5,
+     "pos": 24,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 5,
+     "points": 52.0
+    },
+    {
+     "n": 7,
+     "pos": 22,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Benediktas Cirba",
+   "number": 93,
+   "nat": "LTU",
+   "car": "BMW M2 G87",
+   "pos": 12,
+   "points": 232.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 14,
+     "points": 32.0
+    },
+    {
+     "n": 2,
+     "pos": 21,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 13,
+     "points": 32.0
+    },
+    {
+     "n": 4,
+     "pos": 2,
+     "points": 88.0
+    },
+    {
+     "n": 5,
+     "pos": 8,
+     "points": 48.0
+    },
+    {
+     "n": 6,
+     "pos": 44,
+     "points": 0.0
+    },
+    {
+     "n": 7,
+     "pos": 28,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Kevin Piskolty",
+   "number": 300,
+   "nat": "HUN",
+   "car": "Toyota GR86",
+   "pos": 13,
+   "points": 218.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 31,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 32,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 20,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 8,
+     "points": 48.0
+    },
+    {
+     "n": 5,
+     "pos": 2,
+     "points": 90.0
+    },
+    {
+     "n": 6,
+     "pos": 22,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 30,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Juha Rintanen",
+   "number": 200,
+   "nat": "FIN",
+   "car": "Toyota GR86",
+   "pos": 14,
+   "points": 213.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 6,
+     "points": 48.0
+    },
+    {
+     "n": 2,
+     "pos": 9,
+     "points": 37.0
+    },
+    {
+     "n": 3,
+     "pos": 27,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "points": 64.0
+    },
+    {
+     "n": 5,
+     "pos": 17,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 25,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 19,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Nasser Alharbali",
+   "number": 23,
+   "nat": "SLV",
+   "car": "Nissan 400Z",
+   "pos": 15,
+   "points": 208.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 23,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 6,
+     "points": 48.0
+    },
+    {
+     "n": 3,
+     "pos": 4,
+     "points": 64.0
+    },
+    {
+     "n": 4,
+     "pos": 9,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 12,
+     "points": 32.0
+    },
+    {
+     "n": 6,
+     "pos": 35,
+     "points": 0.0
+    },
+    {
+     "n": 7,
+     "pos": 23,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Jarkko Jylhä",
+   "number": 63,
+   "nat": "FIN",
+   "car": "Toyota Chaser JZX100",
+   "pos": 16,
+   "points": 198.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 27,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 31,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 21,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 10,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 10,
+     "points": 35.0
+    },
+    {
+     "n": 6,
+     "pos": 15,
+     "points": 32.0
+    },
+    {
+     "n": 7,
+     "pos": 6,
+     "points": 51.0
+    }
+   ]
+  },
+  {
+   "name": "Jakub Przygoński",
+   "number": 86,
+   "nat": "POL",
+   "car": "Toyota GR86",
+   "pos": 17,
+   "points": 198.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 9,
+     "points": 37.0
+    },
+    {
+     "n": 2,
+     "pos": 18,
+     "points": 17.0
+    },
+    {
+     "n": 3,
+     "pos": 15,
+     "points": 32.0
+    },
+    {
+     "n": 4,
+     "pos": 15,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 16,
+     "points": 32.0
+    },
+    {
+     "n": 6,
+     "pos": 18,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 12,
+     "points": 32.0
+    }
+   ]
+  },
+  {
+   "name": "Jason Banet",
+   "number": 3,
+   "nat": "FRA",
+   "car": "Subaru BRZ",
+   "pos": 18,
+   "points": 194.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 15,
+     "points": 32.0
+    },
+    {
+     "n": 2,
+     "pos": 22,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 11,
+     "points": 34.0
+    },
+    {
+     "n": 4,
+     "pos": 13,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 34,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 4,
+     "points": 64.0
+    },
+    {
+     "n": 7,
+     "pos": 27,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Jakub Król",
+   "number": 225,
+   "nat": "POL",
+   "car": "Nissan S14.9",
+   "pos": 19,
+   "points": 160.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 22,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 24,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 22,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 28,
+     "points": 16.0
+    },
+    {
+     "n": 5,
+     "pos": 21,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 12,
+     "points": 32.0
+    },
+    {
+     "n": 7,
+     "pos": 8,
+     "points": 48.0
+    }
+   ]
+  },
+  {
+   "name": "Dawid Sposób",
+   "number": 56,
+   "nat": "POL",
+   "car": "Nissan S15",
+   "pos": 20,
+   "points": 160.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 19,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 12,
+     "points": 32.0
+    },
+    {
+     "n": 3,
+     "pos": 18,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 29,
+     "points": 16.0
+    },
+    {
+     "n": 5,
+     "pos": 19,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 16,
+     "points": 32.0
+    },
+    {
+     "n": 7,
+     "pos": 16,
+     "points": 32.0
+    }
+   ]
+  },
+  {
+   "name": "Simen Olsen",
+   "number": 707,
+   "nat": "NOR",
+   "car": "Nissan S14.9",
+   "pos": 21,
+   "points": 151.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 17,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 17,
+     "points": 18.0
+    },
+    {
+     "n": 3,
+     "pos": 33,
+     "points": 0.0
+    },
+    {
+     "n": 4,
+     "pos": 14,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 32,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 23,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 5,
+     "points": 53.0
+    }
+   ]
+  },
+  {
+   "name": "Diogo Correia",
+   "number": 111,
+   "nat": "PRT",
+   "car": "BMW 3 series E92",
+   "pos": 22,
+   "points": 147.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 16,
+     "points": 32.0
+    },
+    {
+     "n": 2,
+     "pos": 26,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 30,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 19,
+     "points": 18.0
+    },
+    {
+     "n": 5,
+     "pos": 44,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 10,
+     "points": 33.0
+    },
+    {
+     "n": 7,
+     "pos": 13,
+     "points": 32.0
+    }
+   ]
+  },
+  {
+   "name": "Itay Sadeh",
+   "number": 95,
+   "nat": "ISR",
+   "car": "BMW E46",
+   "pos": 23,
+   "points": 145.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 43,
+     "points": 0.0
+    },
+    {
+     "n": 3,
+     "pos": 7,
+     "points": 48.0
+    },
+    {
+     "n": 4,
+     "pos": 16,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 11,
+     "points": 33.0
+    },
+    {
+     "n": 6,
+     "pos": 28,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 26,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Alan Hynes",
+   "number": 37,
+   "nat": "IRL",
+   "car": "Nissan S15",
+   "pos": 24,
+   "points": 144.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 16,
+     "points": 32.0
+    },
+    {
+     "n": 3,
+     "pos": 28,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 12,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 22,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 11,
+     "points": 32.0
+    },
+    {
+     "n": 7,
+     "pos": 18,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Lauri Heinonen",
+   "number": 18,
+   "nat": "FIN",
+   "car": "Nissan 180SX",
+   "pos": 25,
+   "points": 136.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 12,
+     "points": 34.0
+    },
+    {
+     "n": 2,
+     "pos": 19,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 12,
+     "points": 33.0
+    },
+    {
+     "n": 4,
+     "pos": 38,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 5,
+     "points": 53.0
+    }
+   ]
+  },
+  {
+   "name": "Marco Zakouril",
+   "number": 55,
+   "nat": "CZE",
+   "car": "BMW M2 F87",
+   "pos": 26,
+   "points": 112.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 13,
+     "points": 32.0
+    },
+    {
+     "n": 2,
+     "pos": 28,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 24,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 23,
+     "points": 16.0
+    },
+    {
+     "n": 5,
+     "pos": 23,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 21,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 42,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Teemu Asunmaa",
+   "number": 87,
+   "nat": "FIN",
+   "car": "BMW M2",
+   "pos": 27,
+   "points": 112.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 32,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 35,
+     "points": 0.0
+    },
+    {
+     "n": 3,
+     "pos": 14,
+     "points": 32.0
+    },
+    {
+     "n": 4,
+     "pos": 27,
+     "points": 16.0
+    },
+    {
+     "n": 5,
+     "pos": 14,
+     "points": 32.0
+    },
+    {
+     "n": 6,
+     "pos": 27,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 44,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Espen Rohde",
+   "number": 205,
+   "nat": "NOR",
+   "car": "BMW E46",
+   "pos": 28,
+   "points": 98.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 25,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 13,
+     "points": 32.0
+    },
+    {
+     "n": 3,
+     "pos": 26,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 36,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 30,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 17,
+     "points": 18.0
+    },
+    {
+     "n": 7,
+     "pos": 34,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "David Egan",
+   "number": 8,
+   "nat": "IRL",
+   "car": "Toyota Supra GR",
+   "pos": 29,
+   "points": 80.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 30,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 30,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 16,
+     "points": 32.0
+    },
+    {
+     "n": 4,
+     "pos": 35,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 29,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 33,
+     "points": 0.0
+    },
+    {
+     "n": 7,
+     "pos": 39,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Juha Pöytälaakso",
+   "number": 89,
+   "nat": "FIN",
+   "car": "BMW E92 Eurofighter",
+   "pos": 30,
+   "points": 80.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 28,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 25,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 23,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 42,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 33,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 19,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 20,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Harry Kerr",
+   "number": 103,
+   "nat": "IRL",
+   "car": "BMW E46",
+   "pos": 31,
+   "points": 64.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 21,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 27,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 25,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 34,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 37,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 30,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 35,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Clint Van Oort",
+   "number": 96,
+   "nat": "NLD",
+   "car": "Nissan S14",
+   "pos": 32,
+   "points": 64.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 29,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 23,
+     "points": 16.0
+    },
+    {
+     "n": 3,
+     "pos": 42,
+     "points": 0.0
+    },
+    {
+     "n": 4,
+     "pos": 31,
+     "points": 16.0
+    },
+    {
+     "n": 5,
+     "pos": 41,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 31,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 36,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Siim Oskar Hääl",
+   "number": 925,
+   "nat": "EST",
+   "car": "Toyota GT86",
+   "pos": 33,
+   "points": 48.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 5,
+     "pos": 7,
+     "points": 48.0
+    }
+   ]
+  },
+  {
+   "name": "Raman Kandratsenka",
+   "number": 909,
+   "nat": "PRT",
+   "car": "Mercedes AMG GT",
+   "pos": 34,
+   "points": 48.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 15,
+     "points": 32.0
+    },
+    {
+     "n": 5,
+     "pos": 27,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Yves Meyer",
+   "number": 91,
+   "nat": "CHE",
+   "car": "Toyota GR Yaris",
+   "pos": 35,
+   "points": 48.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 33,
+     "points": 0.0
+    },
+    {
+     "n": 2,
+     "pos": 29,
+     "points": 16.0
+    },
+    {
+     "n": 5,
+     "pos": 31,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 46,
+     "points": 0.0
+    },
+    {
+     "n": 7,
+     "pos": 21,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Mikolaj Zakrzewski",
+   "number": 927,
+   "nat": "POL",
+   "car": "Nissan S15 Silvia",
+   "pos": 36,
+   "points": 32.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 20,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 24,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Łukasz Tasiemski",
+   "number": 906,
+   "nat": "POL",
+   "car": "Alfa Romeo Quadrifoglio",
+   "pos": 37,
+   "points": 32.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 20,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 32,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Igor Derenko",
+   "number": 910,
+   "nat": "UKR",
+   "car": "Ford Mustang RTR ",
+   "pos": 38,
+   "points": 32.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 36,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 24,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 29,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "George Christoforou",
+   "number": 100,
+   "nat": "CYP",
+   "car": "BMW E82",
+   "pos": 39,
+   "points": 32.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 26,
+     "points": 16.0
+    },
+    {
+     "n": 2,
+     "pos": 40,
+     "points": 0.0
+    },
+    {
+     "n": 3,
+     "pos": 36,
+     "points": 0.0
+    },
+    {
+     "n": 4,
+     "pos": 39,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 44,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 36,
+     "points": 0.0
+    },
+    {
+     "n": 7,
+     "pos": 31,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Dylan Garvey",
+   "number": 914,
+   "nat": "IRL",
+   "car": "Nissan 180SX",
+   "pos": 40,
+   "points": 32.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 32,
+     "points": 16.0
+    },
+    {
+     "n": 6,
+     "pos": 26,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Ali Makhseed",
+   "number": 938,
+   "nat": "KWT",
+   "car": "Toyota GT86",
+   "pos": 41,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 7,
+     "pos": 17,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Kim Björklund",
+   "number": 917,
+   "nat": "FIN",
+   "car": "BMW E46",
+   "pos": 42,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 22,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Graig Meriloo",
+   "number": 919,
+   "nat": "EST",
+   "car": "BMW Eurofighter",
+   "pos": 43,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 24,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Paulus Perkkiö",
+   "number": 916,
+   "nat": "FIN",
+   "car": "Bmw E36 328",
+   "pos": 44,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 25,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Mārtiņš Immermanis",
+   "number": 923,
+   "nat": "LVA",
+   "car": "Toyota GT86",
+   "pos": 44,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 5,
+     "pos": 25,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Lukasz Kaliszewski",
+   "number": 950,
+   "nat": "POL",
+   "car": "Toyota GR Supra",
+   "pos": 44,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 7,
+     "pos": 25,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Kristiina Aalto",
+   "number": 915,
+   "nat": "FIN",
+   "car": "BMW E36 M3",
+   "pos": 47,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 26,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Daniels Baumanis",
+   "number": 922,
+   "nat": "LVA",
+   "car": "BMW E46",
+   "pos": 48,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 5,
+     "pos": 28,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Mads Andreasen",
+   "number": 905,
+   "nat": "DNK",
+   "car": "BMW E92 M3",
+   "pos": 49,
+   "points": 16.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 35,
+     "points": 0.0
+    },
+    {
+     "n": 4,
+     "pos": 30,
+     "points": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Karim Hany",
+   "number": 7,
+   "nat": "EGY",
+   "car": "BMW E46",
+   "pos": 50,
+   "points": 16.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 38,
+     "points": 0.0
+    },
+    {
+     "n": 2,
+     "pos": 33,
+     "points": 0.0
+    },
+    {
+     "n": 3,
+     "pos": 31,
+     "points": 16.0
+    },
+    {
+     "n": 4,
+     "pos": 33,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 36,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 43,
+     "points": 0.0
+    },
+    {
+     "n": 7,
+     "pos": 38,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Enver Haskasap",
+   "number": 535,
+   "nat": "TUR",
+   "car": "Nissan 180SX",
+   "pos": 51,
+   "points": 16.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 40,
+     "points": 0.0
+    },
+    {
+     "n": 2,
+     "pos": 34,
+     "points": 0.0
+    },
+    {
+     "n": 3,
+     "pos": 35,
+     "points": 0.0
+    },
+    {
+     "n": 4,
+     "pos": 37,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 40,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 32,
+     "points": 16.0
+    },
+    {
+     "n": 7,
+     "pos": 41,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Manuel Vacca",
+   "number": 904,
+   "nat": "ITA",
+   "car": "BMW E36",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 34,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Anthony Rocci",
+   "number": 903,
+   "nat": "FRA",
+   "car": "BMW E36",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 36,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Konstantyn Shchurenko",
+   "number": 16,
+   "nat": "UKR",
+   "car": "Toyota GT86",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 37,
+     "points": 0.0
+    },
+    {
+     "n": 2,
+     "pos": 37,
+     "points": 0.0
+    },
+    {
+     "n": 3,
+     "pos": 38,
+     "points": 0.0
+    },
+    {
+     "n": 4,
+     "pos": 41,
+     "points": 0.0
+    },
+    {
+     "n": 5,
+     "pos": 42,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 39,
+     "points": 0.0
+    },
+    {
+     "n": 7,
+     "pos": 43,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Michele Landolfi",
+   "number": 902,
+   "nat": "ITA",
+   "car": "BMW M3",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 39,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Riccardo Tonali",
+   "number": 901,
+   "nat": "ITA",
+   "car": "Nissan 180SX",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 41,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Ole Peter Vatn",
+   "number": 911,
+   "nat": "NOR",
+   "car": "BMW e82",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 38,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Joao Vieira",
+   "number": 908,
+   "nat": "PRT",
+   "car": "BMW e46",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 39,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Adrian Cabanillas",
+   "number": 907,
+   "nat": "ESP",
+   "car": "BMW 1M",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 41,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Timur Lypskyi",
+   "number": 912,
+   "nat": "UKR",
+   "car": "Nissan S14",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 43,
+     "points": 0.0
+    },
+    {
+     "n": 6,
+     "pos": 41,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Alex Butler",
+   "number": 921,
+   "nat": "IRL",
+   "car": "BMW E46",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 34,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Dylan Wilson",
+   "number": 934,
+   "nat": "GBR",
+   "car": "BMW E92",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 37,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Jakub Krzyszczak",
+   "number": 926,
+   "nat": "POL",
+   "car": "Nissan S14.9",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 39,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Steven McConnell",
+   "number": 913,
+   "nat": "GBR",
+   "car": "Nissan 180SX",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 40,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Callum Coogan",
+   "number": 938,
+   "nat": "IRL",
+   "car": "BMW E36",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 41,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Ville Kaukonen",
+   "number": 918,
+   "nat": "FIN",
+   "car": "BMW M2 G87",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 40,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Matias Lindell",
+   "number": 920,
+   "nat": "FIN",
+   "car": "BMW E46",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 5,
+     "pos": 35,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Andrius Vasiliauskas",
+   "number": 921,
+   "nat": "LTU",
+   "car": "BMW M2",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 5,
+     "pos": 38,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Alvis Ledskalnins",
+   "number": 924,
+   "nat": "LVA",
+   "car": "BMW M2",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 5,
+     "pos": 39,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Toni Ojatalo",
+   "number": 937,
+   "nat": "FIN",
+   "car": "BMW E92 M3",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 34,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Axel Hildebrand",
+   "number": 930,
+   "nat": "SWE",
+   "car": "Volvo 745",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 37,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Jason Ye",
+   "number": 935,
+   "nat": "CHN",
+   "car": "Nissan Silvia S15",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 38,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Dominik Kur",
+   "number": 928,
+   "nat": "POL",
+   "car": "Opel GT",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 40,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Pauli Laakso",
+   "number": 926,
+   "nat": "FIN",
+   "car": "BMW E92 Eurofighter",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 42,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Adrian Petričević",
+   "number": 936,
+   "nat": "HRV",
+   "car": "BMW E36",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 45,
+     "points": 0.0
+    },
+    {
+     "n": 7,
+     "pos": 40,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Artur Havrylenko",
+   "number": 934,
+   "nat": "UKR",
+   "car": "Toyota GT86",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 47,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Thanupat Lerttaweevit",
+   "number": 932,
+   "nat": "THA",
+   "car": "Nissan S15 Silvia GT",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 48,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Kemal Soylu",
+   "number": 929,
+   "nat": "TUR",
+   "car": "BMW E36",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 49,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Peter Brolli",
+   "number": 931,
+   "nat": "AUT",
+   "car": "BMW E36",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 50,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Max Heidrich",
+   "number": 933,
+   "nat": "DEU",
+   "car": "Nissan 200SX",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 51,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Lukas Souhrada",
+   "number": 940,
+   "nat": "CZE",
+   "car": "BMW E92",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 7,
+     "pos": 33,
+     "points": 0.0
+    }
+   ]
+  },
+  {
+   "name": "Stavros Grillis",
+   "number": 939,
+   "nat": "GRC",
+   "car": "BMW M2",
+   "pos": 52,
+   "points": 0.0,
+   "wildcard": true,
+   "rounds": [
+    {
+     "n": 7,
+     "pos": 37,
+     "points": 0.0
+    }
+   ]
+  }
+ ]
+}
