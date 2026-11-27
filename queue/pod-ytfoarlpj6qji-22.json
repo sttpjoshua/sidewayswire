@@ -1,7 +1,7 @@
 {
  "id": "pod-ytfoarlpj6qji-22",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BEN HOBSON VICTORY",
  "video": "docs/media/pod-ytfoarlpj6qji-22/clip.mp4",
@@ -27,5 +27,29 @@
   "start": 3178.68
  },
  "created": "2026-11-27T05:07:11.207899+00:00",
- "built": "2026-11-27T05:07:11.207902+00:00"
+ "built": "2026-11-27T05:16:15.416993+00:00",
+ "media": [
+  "docs/media/pod-ytfoarlpj6qji-22/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T05:16:15.711564+00:00"
+ },
+ "score": 63,
+ "moment_kind": "call",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Connecticut 2026\n\nBen Hobson gets the victory over Rome Charpeteer.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@formulad @benhobson213\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Connecticut 2026\n\nBen Hobson gets the victory over Rome Charpeteer.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@formulad @benhobson213\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Connecticut 2026: Ben Hobson gets the victory over Rome Charpeteer.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Connecticut 2026 @formulad @benhobson213\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Connecticut 2026",
+  "youtube": "Ben Hobson gets the victory over Rome Charpeteer.\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@formulad @benhobson213\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }
