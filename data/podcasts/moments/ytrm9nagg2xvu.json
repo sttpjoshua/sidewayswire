@@ -435,7 +435,7 @@
   "why": "Shows teamwork and recovery efforts.",
   "caption": "Adams team works hard to get the car back in shape.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 2,
   "hook": {
@@ -444,7 +444,12 @@
    "text": "TEAM EFFORT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-16-28593-29092.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-16-28593-29092.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2868.48, \"start\": 2862.8, \"text\": \"TEAM EFFORT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:59:57.439079+00:00"
  },
  {
   "start": 2925.02,
@@ -457,10 +462,15 @@
   "why": "Describes a qualifying run with commentary on scores.",
   "caption": "Adam LZ's qualifying run leaves room for improvement.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytrm9nagg2xvu-17-29250-29554.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-17-29250-29554.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T04:00:38.982711+00:00"
  },
  {
   "start": 3190.18,
@@ -473,7 +483,7 @@
   "why": "Interesting commentary on the segment.",
   "caption": "The announcer shares his thoughts on the segment.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -482,7 +492,12 @@
    "text": "ANNOUNCER'S TAKE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-18-31902-32184.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-18-31902-32184.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 3206.6, \"start\": 3201.72, \"text\": \"ANNOUNCER'S TAKE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:01:39.623500+00:00"
  },
  {
   "start": 3218.36,
@@ -495,10 +510,15 @@
   "why": "Detailed analysis of a qualifying run.",
   "caption": "Radical Dan's qualifying run is analyzed.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytrm9nagg2xvu-19-32184-32764.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-19-32184-32764.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T04:02:54.828827+00:00"
  },
  {
   "start": 3477.44,
