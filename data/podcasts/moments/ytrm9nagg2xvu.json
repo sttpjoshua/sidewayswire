@@ -324,7 +324,7 @@
   "why": "The commentary describes a unique and interesting run that stands out.",
   "caption": "Daniel Stuckey's run was full of surprises.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -333,7 +333,12 @@
    "text": "WHAT DID YOU THINK OF THAT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-12-24196-24662.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-12-24196-24662.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2464.46, \"start\": 2462.24, \"text\": \"WHAT DID YOU THINK OF THAT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:54:37.702846+00:00"
  },
  {
   "start": 2534.36,
@@ -346,7 +351,7 @@
   "why": "The run had a mix of good and bad moments, making it intriguing.",
   "caption": "Monjie's run had its ups and downs.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -355,7 +360,12 @@
    "text": "ANY MISTAKES?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-13-25344-25766.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-13-25344-25766.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-13/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2573.96, \"start\": 2572.76, \"text\": \"ANY MISTAKES?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:56:02.171302+00:00"
  },
  {
   "start": 2681.18,
@@ -368,7 +378,7 @@
   "why": "Describes the challenging conditions for all drivers.",
   "caption": "Drivers are finding the track slippery and unpredictable.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -377,7 +387,12 @@
    "text": "IS THIS TRACK SLICK?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-14-26812-27107.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-14-26812-27107.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2684.58, \"start\": 2681.18, \"text\": \"IS THIS TRACK SLICK?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:57:10.580737+00:00"
  },
  {
   "start": 2799.68,
@@ -390,7 +405,7 @@
   "why": "Highlights the ongoing tactical adjustments.",
   "caption": "Drivers are adjusting their techniques to handle the track.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -399,7 +414,12 @@
    "text": "ARE DRIVERS ADAPTING?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-15-27997-28251.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-15-27997-28251.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2805.46, \"start\": 2803.32, \"text\": \"ARE DRIVERS ADAPTING?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:58:09.107132+00:00"
  },
  {
   "start": 2859.3,
