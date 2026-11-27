@@ -452,7 +452,7 @@
   "why": "Exciting battle with close proximity.",
   "caption": "Cody Buchanan and Ken Gushi battle it out in a one more time run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 2,
   "hook": {
@@ -463,8 +463,12 @@
   },
   "run_end": 2207.24,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytfoarlpj6qji-16-21397-22297.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-16-21397-22297.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2184.3, \"start\": 2180.36, \"text\": \"WHO WILL WIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:06:56.308724+00:00"
  },
  {
   "start": 2287.72,
@@ -479,7 +483,7 @@
   "why": "Unexpected crash in a close battle.",
   "caption": "Ken Gushi is knocked out after an issue with his car.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -488,7 +492,12 @@
    "text": "WHAT CAUSED THE ISSUE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-17-22877-23094.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-17-22877-23094.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2295.42, \"start\": 2293.88, \"text\": \"WHAT CAUSED THE ISSUE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:07:38.857391+00:00"
  },
  {
   "start": 2334.98,
@@ -503,7 +512,7 @@
   "why": "Technical issue adds tension.",
   "caption": "Ben Hobson faces a power steering issue before his run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -512,7 +521,12 @@
    "text": "CAN HE FIX IT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-18-23350-23699.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-18-23350-23699.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2360.12, \"start\": 2357.66, \"text\": \"CAN HE FIX IT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:08:51.720444+00:00"
  },
  {
   "start": 2494.2,
@@ -525,7 +539,7 @@
   "why": "Suspenseful situation with a tight deadline",
   "caption": "A last-minute fix or a DNF? #FormulaDRIFT",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -536,8 +550,12 @@
   },
   "run_end": 2516.28,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytfoarlpj6qji-19-24942-25223.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-19-24942-25223.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2508.9, \"start\": 2504.24, \"text\": \"CAN THEY FIX IT IN TIME?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:09:54.105279+00:00"
  },
  {
   "start": 2519.46,
