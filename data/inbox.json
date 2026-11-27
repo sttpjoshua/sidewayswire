@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:16:53.705292+00:00",
+ "updated": "2026-11-27T22:31:54.320781+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -576,7 +576,7 @@
     }
    ],
    "scout": {
-    "score": 45,
+    "score": 44,
     "why": [
      "bekende rijder"
     ],
@@ -603,7 +603,7 @@
     }
    ],
    "scout": {
-    "score": 45,
+    "score": 44,
     "why": [
      "bekende rijder"
     ],
@@ -925,9 +925,9 @@
     }
    ],
    "scout": {
-    "score": 15,
+    "score": 14,
     "why": [],
-    "skip": false,
+    "skip": true,
     "feature": false
    }
   },
@@ -975,7 +975,7 @@
     }
    ],
    "scout": {
-    "score": 36,
+    "score": 35,
     "why": [
      "bekende rijder"
     ],
@@ -1166,7 +1166,7 @@
     }
    ],
    "scout": {
-    "score": 33,
+    "score": 32,
     "why": [
      "bekende rijder"
     ],
@@ -2331,9 +2331,8 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
@@ -2346,7 +2345,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2430,7 +2429,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
