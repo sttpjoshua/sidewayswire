@@ -451,7 +451,7 @@ function applyStates() {
   fx.sun.intensity = night ? .25 : 2.2; fx.hemi.intensity = night ? .35 : 1.0;
   (fx.flood || []).forEach(s => s.intensity = night ? 420 : 0);
   fx.lights.forEach(l => l.intensity = night ? 34 : 14);
-  extrasState(night); r4State(); liveries(); keyTrouble(); r6State(night); r7State(night);
+  extrasState(night); r4State(); liveries(); keyTrouble(); r6State(night); r7State(night); r8State(night);
 }
 
 // ---------- animatie ----------
@@ -494,7 +494,7 @@ function tick() {
     if (o.say && !o.hasTxt) { o.bub.element.textContent = o.say; o.bub.element.className = "of3-bub of3-say"; }
     const show = !!o.hasTxt || !!o.say; o.tag.visible = !far; o.bub.visible = show && (!far || o.st === "fout" || o.st === "bezig"); }
   if (camGoal) { const k = 1 - Math.pow(.02, dt); camera.position.lerp(camGoal.pos, k); controls.target.lerp(camGoal.look, k); if (camera.position.distanceTo(camGoal.pos) < .05) camGoal = null; }
-  extrasTick(dt, t); r4Tick(dt, t); r7Tick(dt, t); controls.update(); if (fx.composer) fx.composer.render(); else renderer.render(scene, camera); labelR.render(scene, camera);
+  extrasTick(dt, t); r4Tick(dt, t); r7Tick(dt, t); r8Tick(dt, t); controls.update(); if (fx.composer) fx.composer.render(); else renderer.render(scene, camera); labelR.render(scene, camera);
 }
 
 // ---------- camera's ----------
@@ -523,7 +523,7 @@ function build() {
   fx.sun = new THREE.DirectionalLight(0xffffff, 2.2); fx.sun.position.set(-18, 30, 22); fx.sun.castShadow = true;
   fx.sun.shadow.mapSize.set(2048, 2048); Object.assign(fx.sun.shadow.camera, { left: -40, right: 40, top: 30, bottom: -30, far: 90 }); fx.sun.shadow.bias = -.0005; scene.add(fx.sun);
   clock = new THREE.Clock();
-  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild(); r4Build(); r6Build(); r7Build();
+  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild(); r4Build(); r6Build(); r7Build(); r8Build();
   for (const [id, A] of Object.entries(AGENTS)) {
     const G = GARAGES.find(g => g.id === A.g).group;
     const p = person(G, A.look, A.at[0], A.at[1] - (A.stand ? 0 : .95), id, !A.stand);
@@ -554,7 +554,7 @@ window.office3d = {
   start() { try { if (!ready) build(); else if (!raf) tick(); applyStates(); return true; } catch (e) { console.error("kantoor 3D:", e); return false; } },
   update() { if (ready) applyStates(); },
   stop() { cancelAnimationFrame(raf); raf = 0; },
-  go, fireworks, walk: startWalk, live: liveMoment, plan: strategistBoard, livery: liveries, tv: setTV, sound: toggleSound, round: chiefRound, deliver: () => sendVan("nieuws"),
+  go, fireworks, walk: startWalk, bird: () => R8 && (R8.bird.t = 0, R8.bird.on = true), tires: () => sendVan("banden"), live: liveMoment, plan: strategistBoard, livery: liveries, tv: setTV, sound: toggleSound, round: chiefRound, deliver: () => sendVan("nieuws"),
 };
 window.dispatchEvent(new Event("office3d-ready"));
 
@@ -651,14 +651,15 @@ function applyWeather() {
 // ---------- tandem, publiek, bezorgers ----------
 function sendVan(kind) {
   if (X.vans.some(v => v.kind === kind)) return;
-  const g = new THREE.Group(), col = kind === "nieuws" ? 0xffffff : 0x1d1d22; scene.add(g);
+  const g = new THREE.Group(), col = kind === "nieuws" ? 0xffffff : kind === "banden" ? 0xFF9F43 : 0x1d1d22; scene.add(g);
   mesh(B(2.2, 1.8, 4.4), mat(col, { r: .4 }), 0, 1.25, -.4, g); mesh(B(2.1, 1.1, 1.4), mat(col, { r: .4 }), 0, .95, 2.4, g);
   mesh(B(2.0, .6, .05), mat(0x101820, { m: .8, r: .1 }), 0, 1.25, 3.11, g);
-  const sideTex = neonText(kind === "nieuws" ? "NIEUWS BINNEN" : "FOOTAGE", kind === "nieuws" ? "#FF2E88" : "#C6FF00", 6, 1);
+  const sideTex = neonText(kind === "nieuws" ? "NIEUWS BINNEN" : kind === "banden" ? "VERSE BANDEN" : "FOOTAGE", kind === "nieuws" ? "#FF2E88" : kind === "banden" ? "#111111" : "#C6FF00", 6, 1);
+  if (kind === "banden") { const tg = new THREE.TorusGeometry(.32, .14, 8, 16); tg.rotateX(Math.PI / 2); for (let i = 0; i < 6; i++) mesh(tg, mat(0x111113, { r: .9 }), -.5 + (i % 2), 2.3 + Math.floor(i / 2) * .28, -1.2, g); }
   for (const sx of [-1.11, 1.11]) { const pl = plane(sideTex, 3.6, .6, g, sx, 1.5, -.4, sx > 0 ? Math.PI / 2 : -Math.PI / 2); }
   const wg = new THREE.CylinderGeometry(.42, .42, .3, 14); wg.rotateZ(Math.PI / 2);
   for (const [x, z] of [[-1.05, 1.9], [1.05, 1.9], [-1.05, -1.8], [1.05, -1.8]]) mesh(wg, mat(0x0c0c0e), x, .42, z, g);
-  const stopX = kind === "nieuws" ? gx("redactie") : gx("jij");
+  const stopX = kind === "footage" ? gx("jij") : gx("redactie");
   g.position.set(-48, 0, 1.6); g.rotation.y = Math.PI / 2;
   X.vans.push({ g, kind, stopX, phase: "in", wait: 0 });
 }
@@ -1188,4 +1189,134 @@ function r7State(night) {
 function r7Tick(dt, t) {
   for (const o of R7.moths) if (o.m.visible) o.m.position.set(o.c.x + Math.cos(t * 3 + o.ph) * o.r, o.c.y + Math.sin(t * 5 + o.ph) * .15, o.c.z + Math.sin(t * 3 + o.ph) * o.r);
   if (R7.antenna) R7.antenna.visible = Math.sin(t * 3) > 0;
+}
+
+// =====================================================================================
+// RONDE 8: het terrein voller en levendiger. Geparkeerde auto's van de agents, een foodtruck,
+// vlaggen, een kleine vaste tribune, drone en cameraman, een bandenkerkhof dat groeit met de
+// battleclips, lichtslingers en lantaarns, monteurs en fotografen, een hond, een vogel, de
+// bandentruck in de ochtend, epoxyvloeren en koplampbundels in de nacht.
+// =====================================================================================
+const R8 = { walkers: [], flags: [], bulbs: [], lamps: [], beams: [], graveyard: null, graveN: -1, dog: null, drone: null, cam: null, bird: { on: false, t: 0 } };
+function epoxy(G) {
+  const c = "#" + G.color.toString(16).padStart(6, "0");
+  return canvasTex(512, 512, (g, w, h) => { g.fillStyle = "#5a5d64"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 2500; i++) { g.fillStyle = ["#7a7e86", "#3e4148", "#8a8e96", c][i % 4] + "66"; g.fillRect(Math.random() * w, Math.random() * h, 2.5, 2.5); }
+    g.fillStyle = c; g.fillRect(0, h * .86, w, 10); g.fillRect(w * .06, 0, 6, h * .86); g.fillRect(w * .94 - 6, 0, 6, h * .86);
+    g.fillStyle = "rgba(0,0,0,.25)"; for (let i = 0; i < 4; i++) { const x = Math.random() * w, y = Math.random() * h * .8; const gr = g.createRadialGradient(x, y, 2, x, y, 40); gr.addColorStop(0, "rgba(0,0,0,.35)"); gr.addColorStop(1, "rgba(0,0,0,0)"); g.fillStyle = gr; g.fillRect(x - 40, y - 40, 80, 80); } });
+}
+function wanderer(look, pts, extra) {
+  const p = person(scene, look, pts[0][0], pts[0][1], "extra", false); p.traverse(m => { if (m.isMesh) { const i = clickables.indexOf(m); if (i >= 0) clickables.splice(i, 1); } });
+  if (extra === "camera") { const c = new THREE.Group(); mesh(B(.25, .22, .45), mat(0x111111), 0, 0, -.1, c); mesh(new THREE.CylinderGeometry(.07, .08, .2, 10).rotateX(Math.PI / 2), mat(0x111111), 0, 0, -.42, c);
+    c.position.set(.25, 1.78, -.05); p.userData.upper.add(c); }
+  if (extra === "wrench") { const w = mesh(B(.05, .4, .05), mat(0xbbbbbb, { m: .9 }), 0, -.65, -.1, p.userData.arms[1]); }
+  R8.walkers.push({ p, pts: pts.map(([x, z]) => new THREE.Vector3(x, 0, z)), i: 1, wait: Math.random() * 4, extra });
+  return p;
+}
+function r8Build() {
+  // epoxyvloeren in de garages
+  for (const G of GARAGES) { const fl = G.group.children.find(o => o.isMesh && o.geometry.type === "BoxGeometry" && o.geometry.parameters.height === .2);
+    if (fl) { const t = epoxy(G); fl.material = new THREE.MeshStandardMaterial({ map: t, roughness: .28, metalness: .15 }); } }
+  // geparkeerde auto's van de agents, elk in de kleur van zijn shirt
+  const ids = Object.keys(AGENTS).filter(id => id !== "wachter");
+  ids.forEach((id, i) => { const left = i < 5, k = left ? i : i - 5, x = left ? -44 + k * 3.2 : 31.2 + k * 3.2, z = 26.5;
+    const c = makeCar(AGENTS[id].look[0], scene, x, 0, z, Math.PI, .72); c.userData.paint.color.setHex(AGENTS[id].look[0]); });
+  for (const cx of [-37.6, 37.6]) mesh(B(17, .02, 4), mat(0x2a2b30, { r: .9 }), cx, .01, 26.5, scene).castShadow = false;
+  // foodtruck met lichtjes en mensen ervoor
+  const ft = new THREE.Group(); ft.position.set(-25, 0, 18.5); ft.rotation.y = .5; scene.add(ft);
+  mesh(B(2.4, 2.3, 5.2), mat(0x111114, { r: .5 }), 0, 1.6, 0, ft); mesh(B(2.3, 1.2, 1.4), mat(0x111114), 0, 1.0, 3.1, ft);
+  mesh(B(.05, 1.0, 3.4), mat(0xffe6b0, { e: 0xffe6b0, ei: 1.2 }), 1.23, 1.9, -.2, ft);
+  const aw = mesh(B(.9, .05, 3.6), mat(PINK, { e: PINK, ei: .3 }), 1.65, 2.55, -.2, ft); aw.rotation.z = -.35;
+  plane(neonText("SIDEWAYS SNACKS", "#C6FF00", 7, 1), 3.6, .52, ft, 1.24, 2.95, -.2, Math.PI / 2);
+  const wg = new THREE.CylinderGeometry(.42, .42, .3, 14); wg.rotateZ(Math.PI / 2); for (const [x, z] of [[-1.1, 2.6], [1.1, 2.6], [-1.1, -1.8], [1.1, -1.8]]) mesh(wg, mat(0x0c0c0e), x, .42, z, ft);
+  for (let i = 0; i < 12; i++) { const b = new THREE.Mesh(new THREE.SphereGeometry(.07, 6, 4), new THREE.MeshBasicMaterial({ color: [0xffd000, PINK, LIME][i % 3], toneMapped: false })); b.position.set(1.3, 2.65 + Math.sin(i / 11 * Math.PI) * -.15, -2 + i * .33); ft.add(b); R8.bulbs.push(b); }
+  for (let i = 0; i < 3; i++) { const q = person(ft, [[0xffffff, PINK, BLUE][i], 0x222222, [0xe8b48a, 0x8d5a3b, 0xf1c19a][i], 0x2a1a10, i === 1 ? "cap" : "hair"], 2.6 + (i % 2) * .5, -1.2 + i * .9, "extra", false);
+    q.rotation.y = Math.PI / 2; q.traverse(m => { const k = clickables.indexOf(m); if (k >= 0) clickables.splice(k, 1); }); }
+  // vlaggen aan masten rond het pad
+  const ftex = [neonText("SW", "#C6FF00", 2, 1.3), neonText("SW", "#FF2E88", 2, 1.3)];
+  [[-12, 4], [12, 4], [-12, 20], [12, 20]].forEach(([x, z], i) => { mesh(new THREE.CylinderGeometry(.06, .08, 7, 8), mat(0xcccccc, { m: .8 }), x, 3.5, z, scene);
+    const fg = new THREE.Group(); fg.position.set(x, 6.3, z); scene.add(fg); const cloth = new THREE.Mesh(new THREE.PlaneGeometry(1.8, 1.1, 10, 4), new THREE.MeshStandardMaterial({ color: i % 2 ? 0x111111 : 0x111111, map: ftex[i % 2], side: THREE.DoubleSide, emissive: 0xffffff, emissiveMap: ftex[i % 2], emissiveIntensity: .6 }));
+    cloth.position.x = .9; fg.add(cloth); R8.flags.push({ cloth, base: cloth.geometry.attributes.position.array.slice() }); });
+  // kleine vaste tribune bij het pad met wat publiek
+  const tb = new THREE.Group(); tb.position.set(7.5, 0, 22.3); tb.rotation.y = Math.PI; scene.add(tb);
+  for (let r = 0; r < 3; r++) mesh(B(7, .45, .9), mat(r % 2 ? 0x2a2b30 : 0x34363c), 0, .22 + r * .45, r * .9, tb);
+  mesh(B(7.2, .25, .2), mat(LIME, { e: LIME, ei: .5 }), 0, 1.5, 2.8, tb);
+  for (let i = 0; i < 12; i++) { const c = mesh(new THREE.SphereGeometry(.2, 8, 6), mat([LIME, PINK, BLUE, ORANGE, 0xffffff][i % 5]), -3 + (i % 6) * 1.2, .75 + Math.floor(i / 6) * .45, Math.floor(i / 6) * .9, tb); c.userData.ph = Math.random() * 6; X.crowd.push(c); }
+  // drone
+  R8.drone = new THREE.Group(); scene.add(R8.drone); mesh(B(.5, .12, .5), mat(0x1a1a1a), 0, 0, 0, R8.drone);
+  for (const [x, z] of [[-.4, -.4], [.4, -.4], [-.4, .4], [.4, .4]]) { mesh(B(.06, .04, .45).rotateY(Math.atan2(x, z)), mat(0x1a1a1a), x / 2, 0, z / 2, R8.drone); const r = mesh(new THREE.CylinderGeometry(.2, .2, .01, 12), mat(0x888888, { m: .5 }), x, .06, z, R8.drone); r.castShadow = false; }
+  R8.droneLed = mesh(new THREE.SphereGeometry(.05, 6, 4), new THREE.MeshBasicMaterial({ color: 0xff2020, toneMapped: false }), 0, -.08, .25, R8.drone);
+  // cameraman langs het pad
+  R8.cam = person(scene, [0x222226, 0x1a1a1a, 0xd9a27a, 0x111111, "cap"], 10, 0, "extra", false); R8.cam.position.set(10.5, 0, 17.5);
+  R8.cam.traverse(m => { const k = clickables.indexOf(m); if (k >= 0) clickables.splice(k, 1); });
+  const cc = new THREE.Group(); mesh(B(.3, .3, .6), mat(0x111111), 0, 0, -.1, cc); mesh(new THREE.CylinderGeometry(.09, .1, .25, 10).rotateX(Math.PI / 2), mat(0x111111), 0, 0, -.5, cc);
+  cc.position.set(.32, 1.95, 0); R8.cam.userData.upper.add(cc); R8.cam.userData.arms[1].rotation.x = 2.6;
+  // bandenkerkhof (groeit met het aantal battleclips)
+  R8.graveyard = new THREE.Group(); R8.graveyard.position.set(24, 0, 19); scene.add(R8.graveyard);
+  // lichtslingers boven het pad en lantaarns langs de weg
+  const poles = [[-11, 3.5], [11, 3.5], [11, 20.5], [-11, 20.5]];
+  for (let k = 0; k < 4; k++) { const [x1, z1] = poles[k], [x2, z2] = poles[(k + 1) % 4];
+    for (let i = 1; i < 18; i++) { const f = i / 18, b = new THREE.Mesh(new THREE.SphereGeometry(.09, 6, 4), new THREE.MeshBasicMaterial({ color: [0xfff2c0, LIME, PINK][i % 3], toneMapped: false }));
+      b.position.set(x1 + (x2 - x1) * f, 6.0 - Math.sin(f * Math.PI) * 1.2, z1 + (z2 - z1) * f); scene.add(b); R8.bulbs.push(b); } }
+  for (let x = -40; x <= 40; x += 10) { if (Math.abs(x) < 3) continue; mesh(new THREE.CylinderGeometry(.07, .09, 4.2, 8), mat(0x1d1d22, { m: .6 }), x, 2.1, 3.4, scene);
+    mesh(B(.7, .08, .25), mat(0x1d1d22), x, 4.2, 3.2, scene); const l = mesh(B(.5, .06, .2), mat(0xffffff, { e: 0xfff0d0, ei: 0 }), x, 4.15, 3.1, scene); l.castShadow = false; R8.lamps.push(l); }
+  // monteurs en fotografen die rondlopen
+  const mech = [0xFF9F43, 0x1d1d22, 0xe0b090, 0x222222, "cap"], phot = [0x111111, 0x2a2b30, 0xc98a5e, 0x6b4226, "beanie"];
+  wanderer(mech, [[-20, 2.8], [-13, 2.8], [-6, 3.0], [2, 2.8], [-6, 3.0]], "wrench");
+  wanderer(mech, [[20, 2.8], [14, 3.2], [8, 2.8], [14, 3.2]], "wrench");
+  wanderer(phot, [[-9, 16], [-5, 21], [3, 21.5], [-9, 16]], "camera");
+  wanderer(phot, [[9, 6], [14, 9], [14, 15], [9, 6]], "camera");
+  // de hond
+  const dog = new THREE.Group(); scene.add(dog); const fur = mat(0xb5793b, { r: .9 });
+  mesh(B(.32, .3, .75), fur, 0, .42, 0, dog); const hd = mesh(B(.26, .26, .3), fur, 0, .62, .45, dog); mesh(B(.1, .1, .12), mat(0x111111), 0, .58, .62, dog);
+  mesh(B(.06, .12, .06), fur, -.09, .78, .42, dog); mesh(B(.06, .12, .06), fur, .09, .78, .42, dog); const tail = mesh(B(.06, .06, .3), fur, 0, .55, -.48, dog); tail.rotation.x = .7;
+  const legs = []; for (const [x, z] of [[-.1, .25], [.1, .25], [-.1, -.25], [.1, -.25]]) { const L = new THREE.Group(); L.position.set(x, .3, z); dog.add(L); mesh(B(.08, .3, .08), fur, 0, -.15, 0, L); legs.push(L); }
+  R8.dog = { g: dog, legs, tail };
+  // vogel
+  const bd = new THREE.Group(); scene.add(bd); mesh(new THREE.SphereGeometry(.12, 8, 6), mat(0x222226), 0, 0, 0, bd); mesh(new THREE.ConeGeometry(.04, .1, 5).rotateX(Math.PI / 2), mat(0xffb000), 0, 0, .14, bd);
+  const wl = mesh(B(.3, .02, .12), mat(0x222226), -.18, 0, 0, bd), wr = mesh(B(.3, .02, .12), mat(0x222226), .18, 0, 0, bd); R8.bird.g = bd; R8.bird.w = [wl, wr]; bd.visible = false;
+  // koplampbundels (alleen 's nachts zichtbaar)
+  const beamM = new THREE.MeshBasicMaterial({ color: 0xfff6dd, transparent: true, opacity: .07, depthWrite: false, blending: THREE.AdditiveBlending });
+  for (const car of [fx.car, X.car2]) for (const sx of [-.6, .6]) { const cone = new THREE.Mesh(new THREE.ConeGeometry(1.4, 7, 16, 1, true), beamM); cone.rotation.x = -Math.PI / 2; cone.position.set(sx, .6, 5.6); car.add(cone); R8.beams.push(cone); }
+}
+function r8State(night) {
+  R8.lamps.forEach(l => l.material.emissiveIntensity = night ? 2.5 : 0);
+  R8.bulbs.forEach(b => b.visible = night || NL().getMonth() === 11);
+  R8.beams.forEach(b => b.visible = night);
+  // bandenkerkhof: een band per 10 battleclips, hoogstens 60
+  const n = Math.min(60, Math.round(((typeof S !== "undefined" && S) ? posts().filter(p => cat(p) === "battle" || cat(p) === "live").length : 0) / 10));
+  if (n !== R8.graveN) { R8.graveN = n; while (R8.graveyard.children.length) R8.graveyard.remove(R8.graveyard.children[0]);
+    const tg = new THREE.TorusGeometry(.38, .17, 8, 16);
+    for (let i = 0; i < n; i++) { const m = mesh(tg, mat(0x101012, { r: .95 }), (Math.random() - .5) * 3.5, .15 + Math.random() * .2 + Math.floor(i / 14) * .3, (Math.random() - .5) * 3, R8.graveyard);
+      m.rotation.set(Math.PI / 2 + (Math.random() - .5) * 1.4, Math.random() * 3, (Math.random() - .5) * .8); } }
+  // de bandentruck komt 's ochtends een keer
+  const n2 = NL(), h = n2.getHours(), d = todayNL(); if (h >= 7 && h < 11 && LS.get("sw-tires") !== d) { LS.set("sw-tires", d); setTimeout(() => sendVan("banden"), 8000); }
+}
+function r8Tick(dt, t) {
+  // rondlopers
+  for (const w of R8.walkers) { const u = w.p.userData;
+    if (w.wait > 0) { w.wait -= dt; u.legs.forEach(l => l.rotation.x = 0); if (w.extra === "camera") { u.arms[0].rotation.x = u.arms[1].rotation.x = 2.6; } continue; }
+    const tg = w.pts[w.i], d = tg.clone().sub(w.p.position); d.y = 0; const dist = d.length();
+    if (dist < .1) { w.i = (w.i + 1) % w.pts.length; w.wait = 2 + Math.random() * 6; continue; }
+    w.p.position.add(d.multiplyScalar(Math.min(1, 1.6 * dt / dist))); w.p.rotation.y = Math.atan2(-(tg.x - w.p.position.x), -(tg.z - w.p.position.z));
+    u.legs[0].rotation.x = Math.sin(t * 8) * .55; u.legs[1].rotation.x = -Math.sin(t * 8) * .55; u.arms[0].rotation.x = -Math.sin(t * 8) * .4; u.arms[1].rotation.x = w.extra === "camera" ? 2.6 : Math.sin(t * 8) * .4; }
+  // vlaggen wapperen
+  for (const f of R8.flags) { const a = f.cloth.geometry.attributes.position; for (let i = 0; i < a.count; i++) { const x = f.base[i * 3]; a.array[i * 3 + 2] = Math.sin(t * 4 + x * 3) * .12 * (x + .9); } a.needsUpdate = true; }
+  // lichtjes twinkelen
+  R8.bulbs.forEach((b, i) => { if (b.visible) b.scale.setScalar(.8 + Math.max(0, Math.sin(t * 3 + i)) * .5); });
+  // drone vliegt een acht boven het pad, cameraman draait mee met de auto
+  if (R8.drone) { R8.drone.position.set(Math.sin(t * .35) * 9, 7 + Math.sin(t * .9) * .4, 12 + Math.sin(t * .7) * 4); R8.drone.rotation.y = t * .35; R8.droneLed.visible = Math.sin(t * 6) > 0; }
+  if (R8.cam && fx.car) { R8.cam.rotation.y = Math.atan2(-(fx.car.position.x - R8.cam.position.x), -(fx.car.position.z - R8.cam.position.z)); }
+  // hond rent achter de auto's aan
+  if (R8.dog && fx.car) { const a = t * .9 - 1.1, g = R8.dog.g; g.position.set(Math.cos(a) * 9.2, 0, 12 + Math.sin(a) * 6.3); g.rotation.y = Math.atan2(-Math.sin(a) * 9.2, Math.cos(a) * 6.3);
+    R8.dog.legs.forEach((l, i) => l.rotation.x = Math.sin(t * 16 + (i % 2) * Math.PI + (i > 1 ? 1 : 0)) * .7); R8.dog.tail.rotation.y = Math.sin(t * 14) * .5; }
+  // vogel: vliegt in, landt op een dak, en vliegt weer weg
+  const B2 = R8.bird; if (!B2.on && Math.random() < dt / 40) { B2.on = true; B2.t = 0; }
+  if (B2.on && B2.g) { B2.t += dt; const G = GARAGES[Math.floor((t / 37) % 4)], land = new THREE.Vector3(G.x + 2, WALL_H + .55, -6 + DEPTH / 2), from = new THREE.Vector3(-50, 14, -10), to = new THREE.Vector3(50, 16, 10);
+    B2.g.visible = true; let p, flap = true;
+    if (B2.t < 5) { p = from.clone().lerp(land, B2.t / 5); p.y += Math.sin(B2.t / 5 * Math.PI) * 3; }
+    else if (B2.t < 13) { p = land; flap = false; B2.g.rotation.y = Math.sin(B2.t * 2) * .6; }
+    else if (B2.t < 18) { p = land.clone().lerp(to, (B2.t - 13) / 5); p.y += Math.sin((B2.t - 13) / 5 * Math.PI) * 3; }
+    else { B2.on = false; B2.g.visible = false; p = from; }
+    B2.g.position.copy(p); const fl = flap ? Math.sin(t * 25) * .7 : 0; B2.w[0].rotation.z = fl; B2.w[1].rotation.z = -fl; }
 }
