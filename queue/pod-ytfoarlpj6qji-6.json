@@ -1,7 +1,7 @@
 {
  "id": "pod-ytfoarlpj6qji-6",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "HEADLINE IN CAPITALS, MAX 6 WORDS",
  "video": "docs/media/pod-ytfoarlpj6qji-6/clip.mp4",
@@ -28,5 +28,33 @@
   "start": 1058.86
  },
  "created": "2026-11-27T01:51:18.760445+00:00",
- "built": "2026-11-27T01:51:18.760452+00:00"
+ "built": "2026-11-27T02:02:01.573063+00:00",
+ "media": [
+  "docs/media/pod-ytfoarlpj6qji-6/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T02:02:02.214324+00:00"
+ },
+ "score": 74,
+ "moment_kind": "battle",
+ "people": [
+  "Ken Gushi",
+  "Cody Buchanan"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Ken Gushi vs Cody Buchanan | Formula DRIFT Connecticut 2026\n\nDrivers clash in intense debut battle\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@kengushi @cbuchanan272 @formulad\n\n#formuladrift #formulad #kengushi #codybuchanan #sidewayswire",
+  "facebook": "Ken Gushi vs Cody Buchanan | Formula DRIFT Connecticut 2026\n\nDrivers clash in intense debut battle\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@kengushi @cbuchanan272 @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Ken Gushi vs Cody Buchanan | Formula DRIFT Connecticut 2026: Drivers clash in intense debut battle\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Connecticut 2026 @kengushi @cbuchanan272 @formulad\n#formuladrift #formulad #kengushi #sidewayswire",
+  "youtube_title": "Ken Gushi vs Cody Buchanan | Formula DRIFT Connecticut 2026",
+  "youtube": "Drivers clash in intense debut battle\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@kengushi @cbuchanan272 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "kengushi",
+  "cbuchanan272"
+ ]
 }
