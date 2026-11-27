@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T06:01:54.006457+00:00",
+ "updated": "2026-11-27T06:16:15.740889+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -513,7 +513,7 @@
     }
    ],
    "scout": {
-    "score": 44,
+    "score": 43,
     "why": [
      "bekende rijder"
     ],
@@ -2332,8 +2332,9 @@
   {
    "source": "Formula DRIFT",
    "url": "https://www.youtube.com/@FormulaDRIFT",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLqU1MEK55LYkV3M8W8D"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Drift Masters",
@@ -2351,8 +2352,9 @@
   {
    "source": "Conor Shanahan",
    "url": "https://www.youtube.com/@TheShanahans",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCxuKIyvx9B2UbZlpEywm"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Aurimas Bakchis",
@@ -2364,14 +2366,16 @@
   {
    "source": "Matt Field",
    "url": "https://www.youtube.com/@mattfield777",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCmnZe9gMFcShdSLfEDsa"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Adam LZ",
    "url": "https://www.youtube.com/@AdamLZ",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXIYLgIp6DYZHjmUUUXE"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "D1 Grand Prix (D1GP)",
@@ -2398,7 +2402,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2460,8 +2464,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
+   "ok": true,
+   "items": 6,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2473,8 +2478,9 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Red Bull",
