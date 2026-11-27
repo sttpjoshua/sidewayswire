@@ -392,7 +392,7 @@
   "why": "Exciting lineup of drivers and event",
   "caption": "Cody Buchanan and Indy car drivers are set to drift in Minnesota.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -401,7 +401,12 @@
    "text": "WHO'S IN THE BUILDING?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-14-24207-24553.mp4"
+  "wait_name": "v2-ythnglyd6cr0-14-24207-24553.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-14/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2452.82, \"start\": 2447.22, \"text\": \"WHO'S IN THE BUILDING?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:33:07.806110+00:00"
  },
  {
   "start": 2456.22,
@@ -414,10 +419,15 @@
   "why": "Close and competitive run",
   "caption": "Trent Beach chases Cody Buchanan in a thrilling run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ythnglyd6cr0-15-24562-24936.mp4"
+  "wait_name": "v2-ythnglyd6cr0-15-24562-24936.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-15/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T02:33:56.616218+00:00"
  },
  {
   "start": 2518.64,
@@ -430,7 +440,7 @@
   "why": "Insight into judging criteria",
   "caption": "Judges use telemetry to score drift runs.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -439,7 +449,12 @@
    "text": "WHAT DO THE NUMBERS MEAN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-16-25186-25833.mp4"
+  "wait_name": "v2-ythnglyd6cr0-16-25186-25833.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-16/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2549.32, \"start\": 2547.14, \"text\": \"WHAT DO THE NUMBERS MEAN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:35:44.264367+00:00"
  },
  {
   "start": 2612.04,
@@ -452,7 +467,7 @@
   "why": "Strong call moment, short and decisive.",
   "caption": "Judges decide on a close run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -461,7 +476,12 @@
    "text": "SPLITTING HAIRS?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-17-26120-26315.mp4"
+  "wait_name": "v2-ythnglyd6cr0-17-26120-26315.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2616.18, \"start\": 2613.64, \"text\": \"SPLITTING HAIRS?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:36:24.009938+00:00"
  },
  {
   "start": 2641.68,
