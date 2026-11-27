@@ -1,0 +1,27 @@
+{
+ "checked": "2026-11-27T00:02:49.812208+00:00",
+ "keys": {
+  "meta": {
+   "name": "Meta (Instagram en Facebook)",
+   "state": "ok",
+   "expires": null,
+   "data_access_expires": null
+  },
+  "media": {
+   "name": "GitHub-sleutel media-opslag",
+   "state": "ok",
+   "expires": null
+  },
+  "tiktok": {
+   "name": "TikTok",
+   "state": "ok",
+   "expires": "2027-11-20T12:44:19.222632+00:00",
+   "days_left": 358.5
+  },
+  "youtube": {
+   "name": "YouTube",
+   "state": "niet gekoppeld",
+   "error": "YouTube is nog niet gekoppeld"
+  }
+ }
+}
