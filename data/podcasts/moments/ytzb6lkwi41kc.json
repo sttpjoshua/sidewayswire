@@ -241,7 +241,7 @@
   "why": "Strong angle score discussed",
   "caption": "Derek's qualifying run ends with a 38-degree angle.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -250,7 +250,12 @@
    "text": "WHAT ANGLE DID HE GET?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-9-22026-22731.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-9-22026-22731.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2258.02, \"start\": 2255.94, \"text\": \"WHAT ANGLE DID HE GET?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:12:41.793036+00:00"
  },
  {
   "start": 2304.34,
@@ -263,7 +268,7 @@
   "why": "Qualifying issues explained",
   "caption": "Rudy Hanson's initiation issues hurt his qualifying score.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -272,7 +277,12 @@
    "text": "HOW DID HE INITIATE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-10-23043-23662.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-10-23043-23662.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2326.54, \"start\": 2323.96, \"text\": \"HOW DID HE INITIATE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:14:14.079574+00:00"
  },
  {
   "start": 2579.06,
@@ -285,7 +295,7 @@
   "why": "Contact during qualifying run",
   "caption": "Ryan Literal's qualifying run includes a small bumper tap.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -294,7 +304,12 @@
    "text": "ANY CONTACT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-11-25791-25963.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-11-25791-25963.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2590.66, \"start\": 2589.56, \"text\": \"ANY CONTACT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:14:44.396769+00:00"
  },
  {
   "start": 2748.46,
@@ -307,7 +322,7 @@
   "why": "Describes a driver's struggle and potential for improvement",
   "caption": "Andy Haightley loses points in zone four during his qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -316,7 +331,12 @@
    "text": "STRUGGLING IN ZONE FOUR?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-12-27485-27629.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-12-27485-27629.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-12/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2756.38, \"start\": 2753.24, \"text\": \"STRUGGLING IN ZONE FOUR?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:15:15.830012+00:00"
  },
  {
   "start": 2816.14,
