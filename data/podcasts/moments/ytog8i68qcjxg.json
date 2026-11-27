@@ -166,7 +166,7 @@
   "why": "judges' unanimous decision",
   "caption": "Judges decide Matt Field's victory",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -175,7 +175,12 @@
    "text": "MATT FIELD WINS BY HOW MUCH?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-6-11523-11705.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-6-11523-11705.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1160.6, \"start\": 1155.28, \"text\": \"MATT FIELD WINS BY HOW MUCH?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:00:45.718493+00:00"
  },
  {
   "start": 1265.08,
@@ -191,7 +196,7 @@
   "why": "Strong call with tension and surprise",
   "caption": "Judges call the close run between Ben Hobson and Derek Madison",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 2,
   "hook": {
@@ -200,7 +205,12 @@
    "text": "WHO WILL WIN THIS CLOSE RUN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-7-12651-13428.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-7-12651-13428.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1313.68, \"start\": 1312.32, \"text\": \"WHO WILL WIN THIS CLOSE RUN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:03:24.586490+00:00"
  },
  {
   "start": 1342.78,
@@ -215,10 +225,15 @@
   "why": "Clear win and emotional reaction",
   "caption": "Ben Hobson wins the run, advancing to the next round",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
-  "wait_name": "v2-ytog8i68qcjxg-8-13428-13669.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-8-13428-13669.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:03:54.643322+00:00"
  },
  {
   "start": 1542.9,
@@ -233,13 +248,17 @@
   "why": "Suspenseful and competitive",
   "caption": "A close battle between Rad Dan and Tommy LaMere.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "run_end": 1587.82,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-9-15429-15938.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-9-15429-15938.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:05:07.462769+00:00"
  },
  {
   "start": 1662.42,
