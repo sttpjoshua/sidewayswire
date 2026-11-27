@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T06:46:16.806012+00:00",
+ "updated": "2026-11-27T07:01:32.460981+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -461,7 +461,7 @@
     }
    ],
    "scout": {
-    "score": 27,
+    "score": 26,
     "why": [],
     "skip": false,
     "feature": false
@@ -648,7 +648,7 @@
     }
    ],
    "scout": {
-    "score": 28,
+    "score": 27,
     "why": [
      "crash",
      "bekende rijder",
@@ -758,7 +758,7 @@
     }
    ],
    "scout": {
-    "score": 37,
+    "score": 36,
     "why": [
      "bekende rijder"
     ],
@@ -2304,8 +2304,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -2318,7 +2319,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2331,9 +2332,8 @@
   {
    "source": "Formula DRIFT",
    "url": "https://www.youtube.com/@FormulaDRIFT",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLqU1MEK55LYkV3M8W8D"
   },
   {
    "source": "Drift Masters",
@@ -2351,23 +2351,20 @@
   {
    "source": "Conor Shanahan",
    "url": "https://www.youtube.com/@TheShanahans",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCxuKIyvx9B2UbZlpEywm"
   },
   {
    "source": "Aurimas Bakchis",
    "url": "https://www.youtube.com/fealsuspension",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCc0FzKeJ4GBNZBno4rh9"
   },
   {
    "source": "Matt Field",
    "url": "https://www.youtube.com/@mattfield777",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCmnZe9gMFcShdSLfEDsa"
   },
   {
    "source": "Adam LZ",
@@ -2400,7 +2397,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2454,16 +2451,14 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": true,
-   "items": 7,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": true,
-   "items": 6,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
   },
   {
    "source": "Google News",
@@ -2496,9 +2491,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
   },
   {
    "source": "Google News",
