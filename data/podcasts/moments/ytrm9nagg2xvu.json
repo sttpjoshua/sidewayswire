@@ -212,7 +212,7 @@
   "why": "Chill demeanor before the run",
   "caption": "John the Castro's relaxed approach before qualifying",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -221,7 +221,12 @@
    "text": "IS HE READY?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-8-16032-16846.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-8-16032-16846.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-8/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1652.48, \"start\": 1650.86, \"text\": \"IS HE READY?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:47:09.595992+00:00"
  },
  {
   "start": 1684.62,
@@ -236,7 +241,7 @@
   "why": "Technical difficulties during the run",
   "caption": "John the Castro's qualifying run with clutch issues",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -245,7 +250,12 @@
    "text": "CAR PROBLEMS?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-9-16846-17667.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-9-16846-17667.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-9/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1740.8, \"start\": 1739.12, \"text\": \"CAR PROBLEMS?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:49:49.489297+00:00"
  },
  {
   "start": 2061.94,
@@ -258,7 +268,7 @@
   "why": "Visually engaging and demonstrates skill",
   "caption": "Andy Haley's smooth drift run nails the line",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -267,7 +277,12 @@
    "text": "SEE THAT CAR ATTITUDE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-10-20619-20765.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-10-20619-20765.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-10/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2073.94, \"start\": 2071.48, \"text\": \"SEE THAT CAR ATTITUDE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:50:29.907246+00:00"
  },
  {
   "start": 2309.68,
@@ -282,7 +297,7 @@
   "why": "Shows precision and control",
   "caption": "Cody Buchanan's consistent zone scores",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -291,7 +306,12 @@
    "text": "ANY CHANGES TO THE SETUP?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-11-23097-23815.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-11-23097-23815.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-11/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 2362.02, \"start\": 2359.32, \"text\": \"ANY CHANGES TO THE SETUP?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:52:54.063598+00:00"
  },
  {
   "start": 2419.62,
