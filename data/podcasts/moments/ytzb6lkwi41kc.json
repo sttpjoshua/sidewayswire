@@ -461,10 +461,15 @@
   "why": "Strong performance with high score and style",
   "caption": "Adam LZ delivers a stunning qualifying run, leading the pack.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
-  "wait_name": "v2-ytzb6lkwi41kc-17-40334-41198.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-17-40334-41198.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-17/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T05:21:05.495329+00:00"
  },
  {
   "start": 4373.34,
@@ -477,7 +482,7 @@
   "why": "Precision and loud car",
   "caption": "Ben Hobson impresses with a precise and loud run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -486,7 +491,12 @@
    "text": "HOW PRECISE WAS HE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-18-43733-44230.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-18-43733-44230.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-18/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4417.16, \"start\": 4414.3, \"text\": \"HOW PRECISE WAS HE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:22:17.095229+00:00"
  },
  {
   "start": 4459.26,
@@ -499,10 +509,15 @@
   "why": "Funny and unexpected personal story",
   "caption": "JTP's backfire story is as wild as his driving",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytzb6lkwi41kc-19-44593-44822.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-19-44593-44822.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-19/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T05:22:40.490426+00:00"
  },
  {
   "start": 4681.0,
@@ -515,7 +530,7 @@
   "why": "Strong qualifying score and commentary.",
   "caption": "Cole Richards nails a qualifying run with a high score.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -524,7 +539,12 @@
    "text": "WHAT SCORE DID HE GET?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-20-46810-47252.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-20-46810-47252.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-20/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4696.12, \"start\": 4693.72, \"text\": \"WHAT SCORE DID HE GET?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:23:36.951291+00:00"
  },
  {
   "start": 5187.42,
