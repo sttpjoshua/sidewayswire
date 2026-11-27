@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:31:42.211322+00:00",
+ "updated": "2026-11-27T02:46:21.080290+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -85,7 +85,7 @@
     }
    ],
    "scout": {
-    "score": 59,
+    "score": 58,
     "why": [
      "kalender",
      "3 bronnen"
@@ -652,7 +652,7 @@
     }
    ],
    "scout": {
-    "score": 41,
+    "score": 40,
     "why": [
      "bekende rijder"
     ],
@@ -2314,9 +2314,8 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
@@ -2406,7 +2405,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2462,7 +2461,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 12,
+   "items": 7,
    "how": "feed"
   },
   {

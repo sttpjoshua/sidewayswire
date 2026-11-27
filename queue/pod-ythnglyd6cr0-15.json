@@ -1,7 +1,7 @@
 {
  "id": "pod-ythnglyd6cr0-15",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "TRENT BEACH'S CHASE",
  "video": "docs/media/pod-ythnglyd6cr0-15/clip.mp4",
@@ -27,5 +27,29 @@
   "start": 2456.22
  },
  "created": "2026-11-27T02:33:56.618384+00:00",
- "built": "2026-11-27T02:33:56.618392+00:00"
+ "built": "2026-11-27T02:46:28.030685+00:00",
+ "media": [
+  "docs/media/pod-ythnglyd6cr0-15/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T02:46:28.643701+00:00"
+ },
+ "score": 65,
+ "moment_kind": "call",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nTrent Beach chases Cody Buchanan in a thrilling run.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @cbuchanan272\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nTrent Beach chases Cody Buchanan in a thrilling run.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @cbuchanan272\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Trent Beach chases Cody Buchanan in a thrilling run.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad @cbuchanan272\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+  "youtube": "Trent Beach chases Cody Buchanan in a thrilling run.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @cbuchanan272\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }

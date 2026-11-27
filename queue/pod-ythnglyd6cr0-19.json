@@ -1,7 +1,7 @@
 {
  "id": "pod-ythnglyd6cr0-19",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "FREDDIE VS DYLAN",
  "video": "docs/media/pod-ythnglyd6cr0-19/clip.mp4",
@@ -26,5 +26,29 @@
   "start": 2883.36
  },
  "created": "2026-11-27T02:39:13.451588+00:00",
- "built": "2026-11-27T02:39:13.451595+00:00"
+ "built": "2026-11-27T02:46:28.189625+00:00",
+ "media": [
+  "docs/media/pod-ythnglyd6cr0-19/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T02:46:28.645023+00:00"
+ },
+ "score": 68,
+ "moment_kind": "call",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nJudges debate a close call between two drifters.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nJudges debate a close call between two drifters.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Judges debate a close call between two drifters.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+  "youtube": "Judges debate a close call between two drifters.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }

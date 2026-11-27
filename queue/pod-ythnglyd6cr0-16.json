@@ -1,7 +1,7 @@
 {
  "id": "pod-ythnglyd6cr0-16",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "TELEMETRY EXPLAINED",
  "video": "docs/media/pod-ythnglyd6cr0-16/clip.mp4",
@@ -26,5 +26,29 @@
   "start": 2518.64
  },
  "created": "2026-11-27T02:35:44.266780+00:00",
- "built": "2026-11-27T02:35:44.266788+00:00"
+ "built": "2026-11-27T02:46:28.066952+00:00",
+ "media": [
+  "docs/media/pod-ythnglyd6cr0-16/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T02:46:28.644050+00:00"
+ },
+ "score": 63,
+ "moment_kind": "call",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nJudges use telemetry to score drift runs.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nJudges use telemetry to score drift runs.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Judges use telemetry to score drift runs.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+  "youtube": "Judges use telemetry to score drift runs.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }
