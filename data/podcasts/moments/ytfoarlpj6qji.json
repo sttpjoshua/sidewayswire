@@ -118,7 +118,7 @@
   "why": "Exciting final battle with a surprising outcome.",
   "caption": "Vaughn and James Dean battle it out in Atlanta.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -127,7 +127,12 @@
    "text": "WHO TOOK THE DOOR?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-4-4902-5117.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-4-4902-5117.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 499.74, \"start\": 497.92, \"text\": \"WHO TOOK THE DOOR?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:48:50.588150+00:00"
  },
  {
   "start": 511.94,
@@ -140,7 +145,7 @@
   "why": "Unexpected victory adds intrigue.",
   "caption": "Odie Bopshees takes the win in Orlando.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -149,7 +154,12 @@
    "text": "WHO WINS ORLANDO?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-5-5119-5528.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-5-5119-5528.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 523.5, \"start\": 520.64, \"text\": \"WHO WINS ORLANDO?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:50:06.980149+00:00"
  },
  {
   "start": 1058.86,
@@ -165,7 +175,7 @@
   "why": "Strong visual action and tension",
   "caption": "Drivers clash in intense debut battle",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 2,
   "hook": {
@@ -176,8 +186,12 @@
   },
   "run_end": 1087.32,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytfoarlpj6qji-6-10589-10893.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-6-10589-10893.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1074.28, \"start\": 1071.38, \"text\": \"TEASING QUESTION IN CAPITALS, MAX 7 WORDS\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:51:18.758273+00:00"
  },
  {
   "start": 1185.0,
@@ -190,7 +204,7 @@
   "why": "Emotional debate about the proximity score adds intrigue.",
   "caption": "The judges debate the proximity score.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -199,7 +213,12 @@
    "text": "WHAT'S THE PROXIMITY?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-7-11850-12689.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-7-11850-12689.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1251.38, \"start\": 1247.52, \"text\": \"WHAT'S THE PROXIMITY?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:54:03.138723+00:00"
  },
  {
   "start": 1306.3,
