@@ -64,7 +64,7 @@
   "why": "Important for understanding scoring criteria",
   "caption": "Drivers need to hit 47 degrees for max angle points.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -73,7 +73,12 @@
    "text": "MAX ANGLE FOR POINTS?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-2-5321-5592.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-2-5321-5592.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 542.24, \"start\": 539.84, \"text\": \"MAX ANGLE FOR POINTS?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:22:26.955240+00:00"
  },
  {
   "start": 608.76,
@@ -86,10 +91,15 @@
   "why": "Emotional and significant for fans and the sport",
   "caption": "Ryan Turk retires after 23 years in Formula Drift.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytzb6lkwi41kc-3-6088-6509.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-3-6088-6509.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T04:23:17.988936+00:00"
  },
  {
   "start": 1111.06,
@@ -102,10 +112,15 @@
   "why": "Strong emotional connection, legendary status",
   "caption": "Shinji Manoa takes the track in his Juku Racing 86.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytzb6lkwi41kc-4-11111-11849.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-4-11111-11849.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T04:24:54.393903+00:00"
  },
  {
   "start": 1400.74,
@@ -118,7 +133,7 @@
   "why": "Explains the challenges Nate Chen faces in Pro.",
   "caption": "Nate Chen faces a big learning curve moving up to Pro.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -127,7 +142,12 @@
    "text": "HOW BIG IS THE LEARNING CURVE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-5-14007-14753.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-5-14007-14753.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1426.72, \"start\": 1423.22, \"text\": \"HOW BIG IS THE LEARNING CURVE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:27:00.622177+00:00"
  },
  {
   "start": 1652.5,
