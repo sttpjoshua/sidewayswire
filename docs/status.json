@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:31:33.856908+00:00",
+ "updated": "2026-11-27T21:41:35.730646+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T21:31:29.007244+00:00",
+ "collected": "2026-11-27T21:41:35.531704+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,28 +35,28 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 9,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
    "url": "https://www.youtube.com/@FormulaDRIFT",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLqU1MEK55LYkV3M8W8D"
   },
   {
    "source": "Drift Masters",
    "url": "https://www.youtube.com/@DriftMastersGrandPrix",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6rwUxdTOtORA3KL3q3r"
   },
   {
    "source": "Auto Partner",
@@ -68,9 +68,8 @@
   {
    "source": "Conor Shanahan",
    "url": "https://www.youtube.com/@TheShanahans",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCxuKIyvx9B2UbZlpEywm"
   },
   {
    "source": "Aurimas Bakchis",
@@ -135,8 +134,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -148,14 +148,16 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -174,14 +176,16 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -214,8 +218,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   }
  ],
  "inbox": [
@@ -795,6 +800,23 @@
      "published": "2026-11-27T14:55:22+00:00",
      "media_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/932003228_18132482858484100_1815548291749367052_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fw3SPgHoTRQQ7kNvwGP8_bH&_nc_oc=AdpALcDdcK8MLSfrVyBxVr0o7LGKxFa_P7cNo3zCy0f2oLtyVBCe8r2-kxLntlzNIJk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CGEf1FdEi45OzfyQj3Ysmg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQVqmAAgFs-YlIyEG-ajX0WcB-RTMeKRvShMjzE7UzBhug&oe=6B0F9C97",
      "media_type": "CAROUSEL_ALBUM"
+    }
+   ]
+  },
+  {
+   "title": "Why Lisbon Belongs on Every Art Lover’s Fall Travel List",
+   "series": "FD + DM",
+   "buzz": 1,
+   "published": "2026-11-27T13:45:23+00:00",
+   "items": [
+    {
+     "source": "Google News · Drift Travel Magazine",
+     "title": "Why Lisbon Belongs on Every Art Lover’s Fall Travel List",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iMml5SnhNR05MNUZXb0tRTVRvTUNkRG54OW1iUFltR1JvVFRaMms4SmViVFRsWHhseWN1dk1kOC15WS1fQXNSdEtiWk4teFpMMmlHVlQwZzE0eUpQWjBJekNzLUFYbURpZEJFZnJnNHVRdXPSAXhBVV95cUxQQUtDTlVhYkhpMHBGTjZicmFYWXdGRGZ1cHdjdjNYZW82TjlNNGJndnlrbnRPRlhXYzhaRlBIeDRKN3ZkT1M1YjVIeVdQNmM4dVRVZGFSSGo0akpadHhXaTVlcDFlaWtVdFZFQ3ZTWVBMUGNVTVFqQkw?oc=5",
+     "kind": "article",
+     "published": "2026-11-27T13:45:23+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1610,23 +1632,6 @@
      "kind": "instagram",
      "published": "2026-11-12T15:39:09+00:00",
      "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQMw5dP_TwKgvm0FY4-FAzEIEOp49hokbYcYMnWMlBam1MgqbrzLGpHrmxY6BXKweP1tbk8sXfoRB48qhKUarptAgYBA9PEwDzqinX4.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=dB_sl7KRmKIQ7kNvwFWta12&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEwNjgxNzcxOTAxMjY2NCwiYXNzZXRfYWdlX2RheXMiOjE0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=4ac54f82a9e6e464&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BRDUxNTJERkM2Mjg0QUEyQUYwOTBGRTk1QTIyRDExNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNCOTcwQjhEM0FGQjREQjRCNUI5MjM2MEVFRjA2NjE5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbwtMjPoqn3AxUCKAJDMywXQD13S8an754YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UrNqbEydImajVPokNn440rA1Ak0dJaqc8R_zQSIx0FODEesOmYet3f5DaqC6TKyAaaYu-xSod1NOhX0RZuHRtYEJIkwyED2u8Ijnl7H0z0xJHdcvV3i7MllikAhdCZLTw0yJ&oh=00_AQQ_tbCa9NIquwK3K5g85GoB6gB1qI2h9h6bRZcpdMe47g&oe=6B0A8225",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "frepouch had me locked in during my favorite battle of the weekend with my boy kengushi",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-12T01:57:15+00:00",
-   "items": [
-    {
-     "source": "@ryanlitteral",
-     "title": "frepouch had me locked in during my favorite battle of the weekend with my boy kengushi",
-     "url": "https://www.instagram.com/reel/Dfn7B0wyjz3/",
-     "kind": "instagram",
-     "published": "2026-11-12T01:57:15+00:00",
-     "media_url": null,
      "media_type": "VIDEO"
     }
    ]

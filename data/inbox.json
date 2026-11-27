@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:31:29.007244+00:00",
+ "updated": "2026-11-27T21:41:35.531704+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -830,6 +830,31 @@
    }
   },
   {
+   "id": "c044d8ef3db0f168",
+   "title": "Why Lisbon Belongs on Every Art Lover’s Fall Travel List",
+   "series": "FD + DM",
+   "buzz": 1,
+   "first_seen": "2026-11-27T21:41:32.399939+00:00",
+   "published": "2026-11-27T13:45:23+00:00",
+   "items": [
+    {
+     "source": "Google News · Drift Travel Magazine",
+     "title": "Why Lisbon Belongs on Every Art Lover’s Fall Travel List",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iMml5SnhNR05MNUZXb0tRTVRvTUNkRG54OW1iUFltR1JvVFRaMms4SmViVFRsWHhseWN1dk1kOC15WS1fQXNSdEtiWk4teFpMMmlHVlQwZzE0eUpQWjBJekNzLUFYbURpZEJFZnJnNHVRdXPSAXhBVV95cUxQQUtDTlVhYkhpMHBGTjZicmFYWXdGRGZ1cHdjdjNYZW82TjlNNGJndnlrbnRPRlhXYzhaRlBIeDRKN3ZkT1M1YjVIeVdQNmM4dVRVZGFSSGo0akpadHhXaTVlcDFlaWtVdFZFQ3ZTWVBMUGNVTVFqQkw?oc=5",
+     "kind": "article",
+     "published": "2026-11-27T13:45:23+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ],
+   "scout": {
+    "score": 25,
+    "why": [],
+    "skip": false,
+    "feature": false
+   }
+  },
+  {
    "id": "34bbb8d4405e4493",
    "title": "RX-7とシルビアをカラーリングまで忠実再現。トミカにグッドライドのドリフトマシンが登場",
    "series": "D1GP",
@@ -1197,7 +1222,7 @@
     }
    ],
    "scout": {
-    "score": 19,
+    "score": 18,
     "why": [
      "bekende rijder"
     ],
@@ -2111,33 +2136,6 @@
    }
   },
   {
-   "id": "00c0c41ba7909ae3",
-   "title": "frepouch had me locked in during my favorite battle of the weekend with my boy kengushi",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-26T19:52:46.462186+00:00",
-   "published": "2026-11-12T01:57:15+00:00",
-   "items": [
-    {
-     "source": "@ryanlitteral",
-     "title": "frepouch had me locked in during my favorite battle of the weekend with my boy kengushi",
-     "url": "https://www.instagram.com/reel/Dfn7B0wyjz3/",
-     "kind": "instagram",
-     "published": "2026-11-12T01:57:15+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
-    }
-   ],
-   "scout": {
-    "score": 25,
-    "why": [
-     "bekende rijder"
-    ],
-    "skip": true,
-    "feature": true
-   }
-  },
-  {
    "id": "e16c237582f578c7",
    "title": "New podcast episode is live on YT, Spotify, etc! Check the link in our bio!",
    "series": "",
@@ -2350,28 +2348,28 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 9,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
    "url": "https://www.youtube.com/@FormulaDRIFT",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLqU1MEK55LYkV3M8W8D"
   },
   {
    "source": "Drift Masters",
    "url": "https://www.youtube.com/@DriftMastersGrandPrix",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC6rwUxdTOtORA3KL3q3r"
   },
   {
    "source": "Auto Partner",
@@ -2383,9 +2381,8 @@
   {
    "source": "Conor Shanahan",
    "url": "https://www.youtube.com/@TheShanahans",
-   "ok": true,
-   "items": 15,
-   "how": "feed"
+   "ok": false,
+   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCxuKIyvx9B2UbZlpEywm"
   },
   {
    "source": "Aurimas Bakchis",
@@ -2450,8 +2447,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2463,14 +2461,16 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2489,14 +2489,16 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2529,8 +2531,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   }
  ],
  "instagram": true
