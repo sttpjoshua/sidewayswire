@@ -31,9 +31,9 @@
   "facebook",
   "instagram"
  ],
- "status": "draft",
+ "status": "approved",
  "created": "2026-11-26T20:46:13.558742+00:00",
- "check": true,
+ "check": false,
  "check_reason": "gerucht: klopt de basis? dan goedkeuren",
  "source": "https://www.drifted.com/jimmy-oakes-explains-his-upcoming-formula-drift-plans/",
  "fresh_hours": 240,
@@ -50,5 +50,7 @@
   "at": "2026-11-26T20:48:18.687498+00:00"
  },
  "no_still": true,
- "photo_by": "joshua"
+ "photo_by": "joshua",
+ "approved_by": "joshua",
+ "approved": "2026-11-27T16:26:11.812Z"
 }
