@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-27T01:46:20.623102+00:00",
+ "updated": "2026-11-27T01:47:59.142080+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 697,
   "skipped": 73,
   "check": 17,
-  "posted": 3
+  "posted": 3,
+  "draft": 4
  },
  "collected": "2026-11-27T01:46:14.058664+00:00",
  "instagram": true,
@@ -13102,6 +13103,221 @@
    }
   },
   {
+   "id": "pod-ytfoarlpj6qji-3",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Trent Beach crashes into the wall during the event.\n\n🎥 Footage: FD CONNECTICUT 2026\n@formulad @colerichardz\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+    "start": 383.06
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T01:47:08.883442+00:00",
+   "built": "2026-11-27T01:47:08.883450+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytfoarlpj6qji-3__clip.mp4",
+   "tags": [
+    "@formulad",
+    "@colerichardz"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "TRENTON'S CRASH",
+   "photo": null
+  },
+  {
+   "id": "pod-ytfoarlpj6qji-2",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Dylan 'The Dozer' qualifies well, needing this event.\n\n🎥 Footage: FD CONNECTICUT 2026\n@formulad @chrisforsberg64 @branden_sorensen\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+    "start": 264.94
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T01:46:16.970699+00:00",
+   "built": "2026-11-27T01:46:16.970707+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytfoarlpj6qji-2__clip.mp4",
+   "tags": [
+    "@formulad",
+    "@chrisforsberg64",
+    "@branden_sorensen"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "DRIVER'S STRENGTH",
+   "photo": null
+  },
+  {
+   "id": "pod-ytfoarlpj6qji-1",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jacob Getten praises the venue's beauty.\n\n🎥 Footage: FD CONNECTICUT 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+    "start": 208.86
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T01:44:35.451489+00:00",
+   "built": "2026-11-27T01:44:35.451496+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ytfoarlpj6qji-1__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "VENUE GORGEOUS",
+   "photo": null
+  },
+  {
+   "id": "pod-ytfoarlpj6qji-0",
+   "kind": "stream_clip",
+   "status": "draft",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Tyler's car ignites flames during a qualifying run.\n\n🎥 Footage: FD CONNECTICUT 2026\n@formulad\n\n#sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+    "start": 115.4
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T01:43:46.886409+00:00",
+   "built": "2026-11-27T01:43:46.886417+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-ytfoarlpj6qji-0__clip.mp4",
+   "tags": [
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": null,
+   "score": null,
+   "captions": null,
+   "ig": null,
+   "collaborators": null,
+   "people": null,
+   "moment_kind": null,
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FLAMES SHOOT BACK",
+   "photo": null
+  },
+  {
    "id": "pod-ytvphv55wk1ja-2",
    "kind": "stream_clip",
    "status": "ready",
@@ -17296,7 +17512,9 @@
    "people": [
     "Piotr Więcek",
     "Paweł Korpuliński",
-    "Conor Shanahan"
+    "Conor Shanahan",
+    "James Deane",
+    "Benediktas Čirba"
    ],
    "moment_kind": "moment",
    "pinned_at": null,
@@ -22110,7 +22328,8 @@
    "people": [
     "Conor Shanahan",
     "Matt Field",
-    "Jack Shanahan"
+    "Jack Shanahan",
+    "James Deane"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -31654,7 +31873,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -32072,7 +32292,8 @@
    "people": [
     "James Deane",
     "Jack Shanahan",
-    "Adam LZ"
+    "Adam LZ",
+    "Conor Shanahan"
    ],
    "moment_kind": "final",
    "pinned_at": null,
@@ -36666,7 +36887,10 @@
    "people": [
     "James Deane",
     "Paweł Korpuliński",
-    "Duane McKeever"
+    "Duane McKeever",
+    "Simen Olsen",
+    "Conor Shanahan",
+    "Piotr Więcek"
    ],
    "moment_kind": "qualify",
    "pinned_at": null,
@@ -55720,7 +55944,8 @@
    "people": [
     "Conor Shanahan",
     "Jhonnattan Castro",
-    "James Deane"
+    "James Deane",
+    "Jack Shanahan"
    ],
    "moment_kind": "call",
    "pinned_at": null,

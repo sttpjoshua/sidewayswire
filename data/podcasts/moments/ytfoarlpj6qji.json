@@ -10,7 +10,7 @@
   "why": "Visually striking and exciting",
   "caption": "Tyler's car ignites flames during a qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -19,7 +19,12 @@
    "text": "SEE THE SMOKE AND FLAMES?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-0-1154-1499.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-0-1154-1499.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 128.86, \"start\": 126.52, \"text\": \"SEE THE SMOKE AND FLAMES?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:43:46.884205+00:00"
  },
  {
   "start": 208.86,
@@ -32,7 +37,7 @@
   "why": "Praise for the venue's aesthetics",
   "caption": "Jacob Getten praises the venue's beauty.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -41,7 +46,12 @@
    "text": "VENUE LOOKS PHENOMENAL?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-1-2089-2308.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-1-2089-2308.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 226.34, \"start\": 223.86, \"text\": \"VENUE LOOKS PHENOMENAL?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:44:35.449374+00:00"
  },
  {
   "start": 264.94,
@@ -54,7 +64,7 @@
   "why": "Highlighting a driver's need for success",
   "caption": "Dylan 'The Dozer' qualifies well, needing this event.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -63,7 +73,12 @@
    "text": "DOES HE NEED THIS?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-2-2649-3137.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-2-2649-3137.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-2/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 293.16, \"start\": 290.44, \"text\": \"DOES HE NEED THIS?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:46:16.968376+00:00"
  },
  {
   "start": 383.06,
@@ -76,7 +91,7 @@
   "why": "A dramatic crash moment",
   "caption": "Trent Beach crashes into the wall during the event.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -85,7 +100,12 @@
    "text": "WALL INTO THE CAR?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytfoarlpj6qji-3-3831-4097.mp4"
+  "wait_name": "v2-ytfoarlpj6qji-3-3831-4097.mp4",
+  "clip": "docs/media/pod-ytfoarlpj6qji-3/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 389.62, \"start\": 387.74, \"text\": \"WALL INTO THE CAR?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T01:47:08.881269+00:00"
  },
  {
   "start": 490.2,
