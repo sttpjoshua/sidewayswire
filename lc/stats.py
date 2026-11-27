@@ -126,6 +126,13 @@ def run(force: bool = False) -> dict:
             snap["facebook"] = {"followers": p.get("followers_count") or p.get("fan_count")}
         except Exception as e:
             snap["facebook"] = {"error": str(e)[:120]}
+    try:                                             # YouTube: subscribers and total views, once it is linked
+        from . import youtube as yt
+        if (yt.DIR / "token.enc").exists():
+            i = yt.info()
+            snap["youtube"] = {"subscribers": int(i.get("subscribers") or 0)}
+    except Exception as e:
+        snap["youtube"] = {"error": str(e)[:120]}
     old["days"][day] = snap
     # posts placed in the last 30 days
     for p in q.load("posted"):

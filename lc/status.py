@@ -94,7 +94,9 @@ def _names(posts: list[dict]) -> list[dict]:
 
 
 def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> dict:
+    from . import rights
     posts = q.load(folder=folder)
+    perms = rights.permitted()
     inbox = ROOT / "data" / "inbox.json"
     ib = json.loads(inbox.read_text()) if inbox.exists() else {}
     stories = ib.get("stories", [])
@@ -123,16 +125,26 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
                                                  "video": mediastore.url(p["video"]) if p.get("video") else None,
                                                  "short": mediastore.url(p["short"]) if p.get("short") else None,
                                                  "thumb": p["thumb"].removeprefix("docs/") if p.get("thumb") else None,
-                                                 "title": clip_title(p), "photo": photo_info(p)}
+                                                 "title": clip_title(p), "photo": photo_info(p),
+                                                 "rights": rights.rights_of(p, perms)}
                   for p in shown_posts(posts)],
         "replies": _replies(),
         "names": _names(posts),
         "keys": json.loads((ROOT / "data" / "keys.json").read_text()) if (ROOT / "data" / "keys.json").exists() else {},
         "drivers": _drivers(),
+        "money": _money(posts),
         "channels": json.loads((ROOT / "data" / "channels.json").read_text()) if (ROOT / "data" / "channels.json").exists() else {},
     }
     out.write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")
     return status["counts"]
+
+
+def _money(posts) -> dict:
+    try:
+        from . import milestones
+        return milestones.build(posts)
+    except Exception as e:
+        return {"error": str(e)[:200]}
 
 
 def _drivers() -> list[dict]:

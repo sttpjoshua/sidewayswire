@@ -1,0 +1,65 @@
+{
+ "note": "Mijlpalen om geld te verdienen (onderzoek 27 nov 2026). metric: ig, fb, yt, tt, total (volgers), weeks (weken dat er gepost wordt), always. Bij het halen van een mijlpaal verschijnen de acties in het dashboard (VERDIENEN) en steekt de strateeg in het kantoor zijn hand op. Drempels van platforms veranderen: check ze bij het halen.",
+ "milestones": [
+  {"id": "start", "metric": "always", "at": 0, "title": "Basis op orde",
+   "why": "Zonder toestemming op papier en zonder onderscheid tussen eigen en geleend beeld kun je later geen geld verdienen zonder risico.",
+   "actions": [
+    {"id": "perm", "text": "Vraag de rijders met toestemming (en Red Bull TV) om in een mail te bevestigen dat het ook voor commercieel gebruik geldt. Zet ze daarna hieronder op COMMERCIEEL.", "do": "open", "to": "#verdienen/toestemming"},
+    {"id": "who", "text": "Beslis of het geld via STTP Media loopt of via een eigen onderneming voor Sideways Wire (overleg met je boekhouder over btw en administratie)."},
+    {"id": "own", "text": "Maak meer eigen formats: weekoverzicht met jouw stem, ranglijsten, statistieken. Die mogen altijd geld opleveren."}]},
+  {"id": "ig-500", "metric": "ig", "at": 500, "title": "500 volgers op Instagram",
+   "why": "Vanaf 500 volgers kun je Gifts op reels aanzetten: kijkers kunnen je dan met Stars steunen (1 dollarcent per Star).",
+   "actions": [
+    {"id": "gifts", "text": "Instagram-app: Professioneel dashboard, Monetisatie, Gifts aanzetten en uitbetaalgegevens invullen."},
+    {"id": "cta", "text": "Noem Gifts af en toe in een caption bij je beste battle-reels."}]},
+  {"id": "fb-weeks", "metric": "weeks", "at": 4, "title": "4 weken vast posten",
+   "why": "Facebook Content Monetization (geld voor reels, foto's en tekstposts) is op uitnodiging. Na een paar weken vast posten is het tijd om interesse aan te geven.",
+   "actions": [
+    {"id": "fbform", "text": "Facebook-app: Professioneel dashboard, Monetisatie, Content Monetization, interesseformulier invullen."},
+    {"id": "own-fb", "text": "Zorg dat er op Facebook vooral eigen en toegestaan werk staat; doorplaatsen zonder toestemming kost monetisatie en bereik."}]},
+  {"id": "total-1000", "metric": "total", "at": 1000, "title": "1.000 volgers in totaal",
+   "why": "Klein maar echt publiek: genoeg voor affiliate en een eerste mediakit.",
+   "actions": [
+    {"id": "aff", "text": "Meld je aan bij partnerprogramma's van onderdelenwinkels, bijvoorbeeld Driftwerk (5 tot 10 procent), Direnza via Awin (7 tot 12 procent) en Autodoc via Webgains (4 tot 8 procent)."},
+    {"id": "links", "text": "Maak een linkpagina (Sideways Wire picks) voor affiliate-links en zet hem in je bio."},
+    {"id": "kit", "text": "Maak een mediakit met bereik, publiek en voorbeelden, om naar merken te sturen."}]},
+  {"id": "total-5000", "metric": "total", "at": 5000, "title": "5.000 volgers in totaal",
+   "why": "Interessant voor kleinere merken, tuningshops en driftscholen: eerste deals, vaak eerst in natura.",
+   "actions": [
+    {"id": "brands", "text": "Benader 5 Europese driftmerken of shops met de mediakit en een concreet voorstel (gesponsorde kop-post, giveaway)."},
+    {"id": "ad", "text": "Betaalde posts altijd herkenbaar maken als reclame (Reclamecode Social Media)."}]},
+  {"id": "total-10000", "metric": "total", "at": 10000, "title": "10.000 volgers in totaal",
+   "why": "Vanaf hier is Sideways Wire een merk: merch, mediapassen en vaste partners worden realistisch.",
+   "actions": [
+    {"id": "merch", "text": "Start merch via print-on-demand (shirts, hoodies, stickers), zonder voorraad."},
+    {"id": "press", "text": "Vraag mediapassen aan voor Formula DRIFT en Drift Masters en film zelf: eigen beeld mag volledig geld opleveren."},
+    {"id": "partner", "text": "Verkoop een vaste rubriekpartner per maand, bijvoorbeeld het weekoverzicht. Richtprijs automotive-accounts van 10.000 tot 100.000 volgers: 250 tot 1.500 dollar per post."}]},
+  {"id": "ig-10000", "metric": "ig", "at": 10000, "title": "10.000 volgers op Instagram",
+   "why": "Vanaf 10.000 volgers kan Instagram-abonnementen aan.",
+   "actions": [
+    {"id": "subs", "text": "Overweeg abonnementen alleen met echte extra's, bijvoorbeeld eerder de uitslag of een maandelijkse Q and A."}]},
+  {"id": "tt-10000", "metric": "tt", "at": 10000, "title": "10.000 volgers op TikTok",
+   "why": "Het Creator Rewards Program (geld per view) is er nog niet voor Nederland. Wel LIVE-cadeaus en merkdeals.",
+   "actions": [
+    {"id": "ttcheck", "text": "Kijk in TikTok Studio of Creator Rewards inmiddels in Nederland beschikbaar is."},
+    {"id": "ttdeals", "text": "Neem TikTok mee in sponsorpakketten."}]},
+  {"id": "yt-500", "metric": "yt", "at": 500, "title": "500 abonnees op YouTube",
+   "why": "Met 500 abonnees, 3 uploads in 90 dagen en 3.000 uur kijktijd (of 3 miljoen Shorts-views) gaat fan funding open.",
+   "actions": [
+    {"id": "fan", "text": "YouTube Studio: Verdienen, check of lidmaatschappen en Super Thanks open staan."},
+    {"id": "long", "text": "Plaats wekelijks een lang weekoverzicht met eigen stem: dat bouwt kijkuren op."}]},
+  {"id": "yt-1000", "metric": "yt", "at": 1000, "title": "1.000 abonnees op YouTube",
+   "why": "Partnerprogramma: daarnaast 4.000 uur kijktijd per jaar, of voor nieuwe kanalen vanaf 1 februari 2027 8.000 uur of 20 miljoen Shorts-views in 90 dagen.",
+   "actions": [
+    {"id": "ypp", "text": "YouTube Studio: Verdienen, check de kijkuren en meld je aan zodra je erover zit."}]},
+  {"id": "total-50000", "metric": "total", "at": 50000, "title": "50.000 volgers in totaal",
+   "why": "Gevestigd nichekanaal: meerdere vaste partners en grotere deals.",
+   "actions": [
+    {"id": "multi", "text": "Werk met 2 of 3 vaste partners per seizoen en een prijslijst per format."},
+    {"id": "sttp", "text": "Gebruik het kanaal actief om rijders en teams als klant voor STTP Media te werven."}]},
+  {"id": "total-100000", "metric": "total", "at": 100000, "title": "100.000 volgers in totaal",
+   "why": "Rond 100.000 volgers is 500 tot 5.000 pond per gesponsorde post realistisch, afhankelijk van niche en betrokkenheid.",
+   "actions": [
+    {"id": "deal", "text": "Herzie de prijslijst en overweeg seizoensdeals met een hoofdpartner."}]}
+ ]
+}

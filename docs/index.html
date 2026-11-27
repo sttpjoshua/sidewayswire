@@ -143,6 +143,13 @@ h2.cat.hot{color:#FF2E88}.hotb{display:inline-block;background:#FF2E88;color:#ff
 .agp{margin:10px 0;border:2px solid #ff9f43;background:#1a140c;padding:10px}.agp-h{font:700 11px Inter,sans-serif;letter-spacing:1.5px;color:#ff9f43;margin-bottom:6px}
 .agp-i{padding:8px 0;border-top:1px solid #3a2a14}.agp-i:first-of-type{border-top:0}.agp-i b{display:block;color:#fff;font-size:14px}.agp-i small{display:block;color:#cfcfd4;font-size:13px;margin-top:3px}
 .agp-ask textarea{width:100%;min-height:54px;margin-top:6px;background:#111;color:#fff;border:2px solid #333;padding:8px;font:13px Inter,sans-serif}
+.mo{border:2px solid #2a2a2e;background:#141416;padding:12px 14px;margin:10px 0}.mo.ok{border-color:#3d4a12}.mo.todo{border-color:#C6FF00}.mo b{color:#fff;font-size:16px}
+.mo-bar{height:8px;background:#2a2a2e;margin:6px 0}.mo-bar i{display:block;height:100%;background:#C6FF00}
+.mo-mix{display:flex;height:12px;margin:6px 0;background:#2a2a2e}.mo-mix i{display:block;height:100%}
+.mo-a{display:flex;gap:10px;align-items:flex-start;padding:7px 0;border-top:1px solid #222;color:#ddd;font-size:14px;cursor:pointer}.mo-a.off{opacity:.45;cursor:default}.mo-a.done span{text-decoration:line-through;color:#8a8a90}
+.mo-a input{margin-top:3px;width:18px;height:18px;accent-color:#C6FF00}
+.mo-p{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;padding:8px 0;border-top:1px solid #222}.mo-p small{grid-column:1}.mo-p .tag{grid-row:1;grid-column:2}.mo-p input{grid-column:1;background:#111;color:#fff;border:2px solid #333;padding:6px}.mo-p button{grid-column:2}
+.rt{font-size:11px;font-weight:700;letter-spacing:1px;padding:2px 6px}.rt.eigen{background:#C6FF00;color:#111}.rt.toestemming{background:#5BC0FF;color:#111}.rt.geleend{background:#444;color:#ddd}
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -209,6 +216,7 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <a href="#tags" data-s="tags" data-n="tags">TAGS <span class="cnt" id="c-tags"></span></a>
   <a href="#tiktok" data-s="tiktok" data-n="tiktok">TIKTOK <span class="cnt" id="c-tt"></span></a>
   <a href="#stats" data-s="stats" data-n="stats">STATISTIEKEN</a>
+  <a href="#verdienen" data-s="verdienen" data-n="verdienen">VERDIENEN <span class="cnt" id="c-money"></span></a>
   <a href="#kanalen" data-s="kanalen" data-n="inst">INSTELLINGEN</a>
   <div class="live" id="live"></div>
   <div class="foot" id="foot">laden...</div>
@@ -258,6 +266,13 @@ table.ft{width:100%;border-collapse:collapse;font-size:14px}table.ft td,table.ft
   <div id="tt-ready"></div>
   <h2>KOMENDE TIKTOKS <small>de tekst die bij elk concept hoort, al vast om te bekijken of te kopiëren</small></h2><div id="tt-next"></div>
 </section>
+<section id="s-verdienen">
+  <h1>VERDIENEN</h1><div class="sub">Mijlpalen om geld te verdienen met Sideways Wire. Haal je er een, dan verschijnen hier de acties en steekt de strateeg in het kantoor zijn hand op. Achtergrond: <a href="https://claude.ai/artifact/X7hNtrpNnNYDsZkhicPtoo" target="_blank">het onderzoek</a>.</div>
+  <div id="mo-top"></div><div id="mo-list"></div>
+  <h2 id="toestemming" style="margin-top:28px">TOESTEMMINGEN</h2><div class="sub">Wie gaf toestemming voor zijn beeld, en geldt dat ook voor geld verdienen? Alleen eigen werk en toestemming met COMMERCIEEL tellen mee voor monetisatie en sponsors.</div>
+  <div id="mo-perm"></div>
+</section>
+
 <section id="s-stats">
   <h1>STATISTIEKEN</h1><div class="sub" id="st-sub"></div>
   <h2>BEREIK EN GROEI</h2><div id="st-reach"></div>
@@ -470,6 +485,46 @@ function drawTikTokPage(){drawTikTok();const R=ttReady(),now=new Date().toISOStr
 document.addEventListener("click",async e=>{const c=e.target.closest("[data-ttc],[data-ttd]");if(!c)return;const card=c.closest("[data-tt]"),id=card.dataset.tt;
   if(c.hasAttribute("data-ttc")){const t=card.querySelector("textarea");try{await navigator.clipboard.writeText(t.value)}catch(x){t.select();document.execCommand("copy")}toast("Tekst gekopieerd. Plak hem in TikTok.");return}
   c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTokPage();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
+
+// ---------- verdienen: mijlpalen (data/milestones.json, lc/milestones.py) en toestemmingen (data/permissions.json) ----------
+const MO_NAME={ig:"Instagram",fb:"Facebook",yt:"YouTube",tt:"TikTok",total:"alle kanalen samen",weeks:"weken posten",always:""};
+const nfmt=n=>n==null?"nog niet gemeten":Number(n).toLocaleString("nl-NL");
+function moneyOpen(){const M=(S&&S.money&&S.money.milestones)||[],seen=(AGCFG.dismissed||{});return M.filter(m=>m.reached&&m.open.length&&!seen["strateeg:ms-"+m.id])}
+function drawMoney(){const D=(S&&S.money)||{},m=D.metrics||{},M=D.milestones||[];
+  const mix=m.mix||{},tot=(mix.eigen||0)+(mix.toestemming||0)+(mix.geleend||0)||1,pc=k=>Math.round((mix[k]||0)/tot*100);
+  const next=M.find(x=>!x.reached&&x.value!=null);
+  document.getElementById("mo-top").innerHTML=`<div class="stk"><div class="stk-k">
+    <div><b>${nfmt(m.total)}</b><span>VOLGERS TOTAAL</span></div><div><b>${nfmt(m.ig)}</b><span>INSTAGRAM</span></div><div><b>${nfmt(m.fb)}</b><span>FACEBOOK</span></div>
+    <div><b>${m.tt==null?"–":nfmt(m.tt)}</b><span>TIKTOK${m.tt==null?" (NOG NIET GEMETEN)":""}</span></div><div><b>${m.yt==null?"–":nfmt(m.yt)}</b><span>YOUTUBE${m.yt==null?" (NOG NIET GEKOPPELD)":""}</span></div><div><b>${m.weeks||0}</b><span>WEKEN GEPOST</span></div></div>
+    ${next?`<div style="margin:6px 0 12px"><span class="muted" style="font-size:11px;letter-spacing:1px">VOLGENDE MIJLPAAL</span><div style="font-size:18px;color:#fff;margin:4px 0">${esc(next.title)} <span class="muted" style="font-size:13px">nu ${nfmt(next.value)} van ${nfmt(next.at)}</span></div><div class="mo-bar"><i style="width:${next.pct}%"></i></div></div>`:""}
+    <span class="muted" style="font-size:11px;letter-spacing:1px">VAN WIE IS WAT KLAARSTAAT EN LIVE GAAT</span>
+    <div class="mo-mix"><i style="width:${pc("eigen")}%;background:#C6FF00" title="eigen"></i><i style="width:${pc("toestemming")}%;background:#5BC0FF" title="toestemming"></i><i style="width:${pc("geleend")}%;background:#55565c" title="geleend"></i></div>
+    <div class="muted" style="font-size:13px">Eigen ${mix.eigen||0} (${pc("eigen")}%) · toestemming ${mix.toestemming||0} · geleend ${mix.geleend||0} (${pc("geleend")}%). Geleend beeld is goed voor bereik, maar levert op de platforms geen geld op en hoort niet in gesponsorde posts.</div></div>`;
+  document.getElementById("mo-list").innerHTML=M.map(x=>{const ok=!!x.reached;
+    return `<div class="mo ${ok?"ok":""} ${ok&&x.open.length?"todo":""}" data-mo="${x.id}"><div class="row" style="gap:8px;align-items:center"><b>${esc(x.title)}</b>
+      <span class="tag">${ok?(x.open.length?`GEHAALD · ${x.open.length} TE DOEN`:"GEHAALD · KLAAR"):x.value==null?"NOG NIET GEMETEN":`${x.pct}%`}</span>
+      <span class="muted" style="margin-left:auto;font-size:12px">${ok?"gehaald "+fmtWhen(x.reached):x.metric==="always"?"":`${nfmt(x.value)} van ${nfmt(x.at)} (${MO_NAME[x.metric]})`}</span></div>
+      ${!ok&&x.metric!=="always"?`<div class="mo-bar"><i style="width:${x.pct}%"></i></div>`:""}
+      <p class="muted" style="margin:6px 0">${esc(x.why)}</p>
+      ${x.actions.map(a=>{const d=x.done[a.id];return `<label class="mo-a ${ok?"":"off"} ${d?"done":""}"><input type="checkbox" data-moa="${x.id}|${a.id}" ${d?"checked":""} ${ok?"":"disabled"}><span>${esc(a.text)}${d?` <small class="muted">afgevinkt ${fmtWhen(d)}</small>`:""}</span>${a.do==="open"&&ok?`<a class="btn" href="${esc(a.to)}" style="margin-left:auto">OPENEN</a>`:""}</label>`}).join("")}</div>`}).join("");
+  const P=D.permissions||[],PF=(window.PERMS||{}).who||{};
+  document.getElementById("mo-perm").innerHTML=P.length?`<div class="mo">${P.filter((p,i,a)=>a.findIndex(q=>q.who===p.who)===i).map(p=>{const c=(PF[p.who]||{}).commercial??p.commercial;
+    return `<div class="mo-p" data-pw="${esc(p.who)}"><b>${esc(p.who)}</b><small class="muted">${esc(p.how)}</small>
+      <span class="tag" style="background:${c?"#C6FF00":"#333"};color:${c?"#111":"#fff"}">${c?"COMMERCIEEL BEVESTIGD":"ALLEEN BEREIK"}</span>
+      <input placeholder="Bewijs, bijvoorbeeld: mail 2 dec" value="${esc((PF[p.who]||{}).proof||p.proof||"")}"><button class="btn ${c?"":"g"}" data-pc="${c?0:1}">${c?"TERUGZETTEN":"COMMERCIEEL"}</button></div>`}).join("")}</div>`:`<div class="muted">Nog geen toestemmingen.</div>`;
+  document.getElementById("c-money").textContent=moneyOpen().length||""}
+async function saveJsonFile(path,fn,msg){for(let n=0;n<2;n++){let f=null,d={};try{f=await gh(`/contents/${path}?ref=main&${Date.now()}`);d=JSON.parse(unb64(f.content))}catch(e){if(!/404/.test(String(e)))throw e}
+  fn(d);try{await gh(`/contents/${path}`,{method:"PUT",body:JSON.stringify({message:msg,content:b64(JSON.stringify(d,null,1)+"\n"),...(f?{sha:f.sha}:{}),branch:"main"})});return d}catch(e){if(n||!/409|422/.test(String(e)))throw e}}}
+document.addEventListener("change",async e=>{const c=e.target.closest("[data-moa]");if(!c)return;if(!key){toast("Zet eerst de dashboard-sleutel.",1);c.checked=!c.checked;return}
+  const [ms,a]=c.dataset.moa.split("|"),on=c.checked;c.disabled=true;
+  try{await saveJsonFile("data/milestones_state.json",d=>{d.reached=d.reached||{};d.done=d.done||{};d.done[ms]=d.done[ms]||{};if(on)d.done[ms][a]=new Date().toISOString();else delete d.done[ms][a]},"dashboard: mijlpaal-actie "+(on?"gedaan":"terug"));
+    const m=S.money.milestones.find(x=>x.id===ms);if(on){m.done[a]=new Date().toISOString();m.open=m.open.filter(x=>x!==a)}else{delete m.done[a];if(!m.open.includes(a))m.open.push(a)}
+    drawMoney();toast(on?"Afgevinkt.":"Teruggezet.")}catch(x){toast(x.message,1);c.checked=!on}c.disabled=false});
+document.addEventListener("click",async e=>{const b=e.target.closest("[data-pc]");if(!b)return;if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
+  const row=b.closest("[data-pw]"),who=row.dataset.pw,on=b.dataset.pc==="1",proof=row.querySelector("input").value.trim();
+  if(on&&!proof){toast("Zet er kort bij waar de toestemming staat (bijvoorbeeld: mail 2 dec).",1);row.querySelector("input").focus();return}
+  b.disabled=true;try{window.PERMS=await saveJsonFile("data/permissions.json",d=>{d.who=d.who||{};d.who[who]={commercial:on,proof,at:new Date().toISOString()}},"dashboard: toestemming "+who);drawMoney();toast(on?"Bevestigd: dit beeld telt nu mee voor geld verdienen.":"Teruggezet naar alleen bereik.")}catch(x){toast(x.message,1)}b.disabled=false});
+
 // ---------- agents (lc/agents.py, tools/mac/local_editor.py): docs/agents/<id>.json, sturen via data/agents.json ----------
 const AG_ORDER=[["Leiding",["strateeg","hoofdredacteur"]],["Analyse",["analist"]],["Redacteuren",["battle","podcast","nieuws","community"]],["Controle en nieuws",["qc","scout"]],["Wekelijks",["tags"]]];
 const AG_COLOR={bezig:"#c8ff00",wacht:"#7a7a80",pauze:"#ffb000",uit:"#444",fout:"#ff4f9a",gepland:"#5aa9ff",aandacht:"#ff9f43"};
@@ -494,6 +549,8 @@ const AG_RULES=[
   [/wacht(en)? op (jou|een foto)|te beoordelen|beoordelen/i,"Er wacht werk op jou.",[{label:"NAAR BEOORDELEN",do:"open",to:"#beoordelen"}]],
 ];
 function agProblems(id){const a=AG[id]||{},gone=(AGCFG.dismissed||{}),out=[];
+  if(id==="strateeg"&&S&&S.money)for(const m of (S.money.milestones||[]).filter(m=>m.reached&&m.open.length&&m.metric!=="always"))
+    out.push({key:"strateeg:ms-"+m.id,text:`Mijlpaal gehaald: ${m.title}`,why:`${m.why} Nog ${m.open.length} actie${m.open.length>1?"s":""} te doen.`,options:[{label:"BEKIJK DE ACTIES",do:"open",to:"#verdienen"}]});
   for(const p of (a.problems||[]))out.push({...p,key:id+":"+(p.id||p.text)});
   if(!(a.problems||[]).length)for(const e of (a.errors||[]).slice(-3)){const r=AG_RULES.find(([re])=>re.test(e));
     out.push({key:id+":"+e.slice(0,60),text:e,why:r?r[1]:"",options:r?r[2]:[]})}
@@ -741,7 +798,7 @@ function drawReview(){
       <div class="media ${v?"v":"i"}" data-i="0">${m.length?(v?lazyVid(p.preview||(m[0]+ver(p)),p.thumb):`<img src="${esc(m[0])}">`):`<div class="empty">Nog geen beeld. De post wordt eerst gemaakt.</div>`}
         ${m.length>1?`<div class="nav"><button data-a="prev">‹</button><span class="tag" style="margin:4px 0">1/${m.length}</span><button data-a="next">›</button></div>`:""}</div>
       <div>
-        <div class="row">${catTag(p)}${cat(p)==="posts"?`<span class="tag">${p.hook?HOOK[p.hook.type]||"KOP-POST":KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
+        <div class="row">${p.rights?`<span class="rt ${p.rights.r}" title="${p.rights.r==="geleend"?"Beeld van anderen zonder afspraak: goed voor bereik, geen geld":p.rights.money?"Telt mee voor geld verdienen":"Toestemming, maar commercieel nog niet bevestigd"}">${p.rights.r.toUpperCase()}</span>`:""}${catTag(p)}${cat(p)==="posts"?`<span class="tag">${p.hook?HOOK[p.hook.type]||"KOP-POST":KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
         <h3 style="font-size:26px;margin-top:8px">${hot(p)?`<span class="hotb">${p.hook&&p.hook.type==="rumor"?"GERUCHT":"SNEL"} · ${p.urgency||""}</span> `:""}${title(p)}</h3>
         ${needsCheck(p)?`<div class="why"><b>Waarom jij:</b> ${esc(p.check_reason||"deze soort post check jij altijd eerst")}</div>`:""}
         ${(p.problems||[]).length?`<div class="why">${p.problems.map(esc).join("<br>")}</div>`:""}
@@ -1019,7 +1076,7 @@ setInterval(()=>{if(!document.hidden)loadLive()},20000);
 // ---------- routing ----------
 const TABS={bieb:[["#clips/live","LIVESTREAM","live"],["#clips/battle","BATTLES","battle"],["#clips/vlog","VLOGS","vlog"],["#clips/pod","PODCASTS","pod"],["#posts","POSTS","posts"],["#nieuws","NIEUWSBRONNEN"]],
   inst:[["#kanalen","KANALEN"],["#bronnen","BRONNEN"],["#systeem","SYSTEEM"],["podcasts.html","STUDIO ↗"],["#","SLEUTEL",null,1]]};
-const NAVOF={kantoor:"kantoor",agents:"agents",tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
+const NAVOF={verdienen:"verdienen",kantoor:"kantoor",agents:"agents",tags:"tags",tiktok:"tiktok",overzicht:"vandaag",beoordelen:"beoordelen",planning:"kalender",clips:"bieb",posts:"bieb",nieuws:"bieb",stats:"stats",kanalen:"inst",bronnen:"inst",systeem:"inst"};
 function drawTabs(){const h=location.hash||"#overzicht",R=S?toReview():[];
   document.querySelectorAll("[data-tabs]").forEach(el=>{el.innerHTML=TABS[el.dataset.tabs].map(([href,label,c,isKey])=>{
     const n=c?R.filter(p=>cat(p)===c).length:0;
@@ -1037,10 +1094,13 @@ function show(){
 }
 window.addEventListener("hashchange",show);
 function drawCounts(){const R=toReview();
+  try{const M=((S.money||{}).milestones||[]).filter(m=>m.reached&&m.metric!=="always"),seen=JSON.parse(localStorage.getItem("sw-ms")||"[]"),nw=M.filter(m=>!seen.includes(m.id));
+    if(nw.length){localStorage.setItem("sw-ms",JSON.stringify(M.map(m=>m.id)));toast(`Mijlpaal gehaald: ${nw[0].title}. Kijk bij VERDIENEN wat je nu kunt doen.`)}
+    const cm=document.getElementById("c-money");if(cm)cm.textContent=moneyOpen().length||""}catch(e){}
   try{const H=R.filter(hot);if(H.length&&sessionStorage.getItem("sw-hot")!==H.map(p=>p.id).join()){sessionStorage.setItem("sw-hot",H.map(p=>p.id).join());
-    toast(`Snel nieuws wacht op jou: ${H[0].title||H[0].story||H[0].id}${H.length>1?` (en nog ${H.length-1})`:""}. Staat bovenaan in BEOORDELEN.`)}}catch(e){}for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
+    toast(`Snel nieuws wacht op jou: ${String(H[0].title||H[0].story||H[0].id).replace(/[.?!]+$/,"")}${H.length>1?` (en nog ${H.length-1})`:""}. Staat bovenaan in BEOORDELEN.`)}}catch(e){}for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
 function drawCurrent(){const s=(location.hash.slice(1)||"overzicht").split("/")[0];
-  ({kantoor:()=>window.drawOffice&&drawOffice(),agents:drawAgents,tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
+  ({verdienen:drawMoney,kantoor:()=>window.drawOffice&&drawOffice(),agents:drawAgents,tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
 function drawAll(){drawLive();drawCounts();drawTikTok();drawTagCount();drawTabs();drawCurrent();
   document.getElementById("foot").innerHTML=`Bijgewerkt ${ago(S.updated)}<br>${key?"Sleutel ingesteld":"Geen sleutel: alleen bekijken"}`}
 async function load(){

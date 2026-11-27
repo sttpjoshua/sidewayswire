@@ -420,7 +420,10 @@ function wrap(g, txt, x, y, maxW, lh, maxL) { const words = txt.split(/\s+/); le
   if (line) g.fillText(line, x, y + n * lh); }
 
 // ---------- status op de poppetjes ----------
-function stateOf(id) { const a = (typeof AG!=='undefined'?AG:{})[id] || {}, c = (((typeof AGCFG!=='undefined'?AGCFG:{}).agents) || {})[id] || {}; return c.on === false ? "uit" : (a.state || "wacht"); }
+function stateOf(id) { const a = (typeof AG!=='undefined'?AG:{})[id] || {}, c = (((typeof AGCFG!=='undefined'?AGCFG:{}).agents) || {})[id] || {};
+  if (c.on === false) return "uit"; const st = a.state || "wacht";
+  if (!["bezig", "fout"].includes(st) && typeof agProblems === "function" && agProblems(id).length) return "aandacht";   // hand omhoog: er is een keuze
+  return st; }
 function applyStates() {
   for (const [id, A] of Object.entries(AGENTS)) {
     const st = stateOf(id), o = agentObj[id]; if (!o) continue;
