@@ -1,0 +1,973 @@
+{
+ "series": "Formula DRIFT",
+ "short": "FD",
+ "season": 2026,
+ "source": "news.formulad.com (official results)",
+ "fetched": "2026-11-27T15:42:06.417252+00:00",
+ "complete": false,
+ "rounds": [
+  {
+   "n": 1,
+   "name": "Streets of Long Beach",
+   "country": "USA",
+   "end": "2026-04-11",
+   "url": "https://news.formulad.com/2026/fd-news/2026-formula-drift-pro-championship-competition-results-from-round-1-in-long-beach/"
+  },
+  {
+   "n": 2,
+   "name": "Michelin Raceway Road Atlanta",
+   "country": "USA",
+   "end": "2026-05-09",
+   "url": "https://news.formulad.com/2026/fd-news/2026-formula-drift-pro-championship-competition-results-from-round-2-at-road-atlanta/"
+  },
+  {
+   "n": 3,
+   "name": "Orlando Speed World",
+   "country": "USA",
+   "end": "2026-05-30",
+   "url": "https://news.formulad.com/2026/fd-news/2026-formula-drift-pro-championship-competition-results-from-round-3-in-orlando/"
+  },
+  {
+   "n": 4,
+   "name": "Stafford Motor Speedway",
+   "country": "USA",
+   "end": "2026-06-20",
+   "url": "https://news.formulad.com/2026/fd-news/2026-formula-drift-pro-championship-competition-results-from-round-4-in-connecticut/"
+  },
+  {
+   "n": 6,
+   "name": "Evergreen Speedway",
+   "country": "USA",
+   "end": "2026-08-22",
+   "url": "https://news.formulad.com/2026/fd-news/2026-formula-drift-pro-championship-competition-results-from-round-6-in-seattle/"
+  },
+  {
+   "n": 7,
+   "name": "The Bullring at Las Vegas Motor Speedway",
+   "country": "USA",
+   "end": "2026-09-26",
+   "url": "https://news.formulad.com/2026/fd-news/2026-formula-drift-pro-championship-competition-results-from-round-7-in-las-vegas/"
+  },
+  {
+   "n": 8,
+   "name": "Long Beach",
+   "country": "USA",
+   "end": "2026-10-24",
+   "url": "https://news.formulad.com/2026/fd-news/conor-shanahan-is-the-2026-formula-drift-pro-champion-deane-wins-the-final-round-8-in-long-beach/"
+  }
+ ],
+ "drivers": [
+  {
+   "name": "Conor Shanahan",
+   "number": null,
+   "nat": null,
+   "car": "Toyota GT86",
+   "pos": 1,
+   "points": 224,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 1,
+     "points": 50
+    },
+    {
+     "n": 2,
+     "pos": 8,
+     "points": 21
+    },
+    {
+     "n": 4,
+     "pos": 3,
+     "points": 32
+    },
+    {
+     "n": 6,
+     "pos": 1,
+     "points": 53
+    },
+    {
+     "n": 7,
+     "pos": 1,
+     "points": 53
+    },
+    {
+     "n": 8,
+     "pos": 9,
+     "points": 12
+    }
+   ]
+  },
+  {
+   "name": "James Deane",
+   "number": null,
+   "nat": null,
+   "car": "Ford Mustang RTR Spec 5-FD",
+   "pos": 2,
+   "points": 218,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 9,
+     "points": 13
+    },
+    {
+     "n": 2,
+     "pos": 2,
+     "points": 43
+    },
+    {
+     "n": 3,
+     "pos": 2,
+     "points": 41
+    },
+    {
+     "n": 4,
+     "pos": 1,
+     "points": 51
+    },
+    {
+     "n": 6,
+     "pos": 9,
+     "points": 14
+    },
+    {
+     "n": 8,
+     "pos": 1,
+     "points": 52
+    }
+   ]
+  },
+  {
+   "name": "Jack Shanahan",
+   "number": null,
+   "nat": null,
+   "car": "BMW E82",
+   "pos": 3,
+   "points": 206,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 3,
+     "points": 32
+    },
+    {
+     "n": 2,
+     "pos": 10,
+     "points": 11
+    },
+    {
+     "n": 3,
+     "pos": 6,
+     "points": 21
+    },
+    {
+     "n": 4,
+     "pos": 2,
+     "points": 41
+    },
+    {
+     "n": 6,
+     "pos": 5,
+     "points": 21
+    },
+    {
+     "n": 7,
+     "pos": 3,
+     "points": 31
+    },
+    {
+     "n": 8,
+     "pos": 2,
+     "points": 43
+    }
+   ]
+  },
+  {
+   "name": "Branden Sorensen",
+   "number": null,
+   "nat": null,
+   "car": "BMW",
+   "pos": 4,
+   "points": 165,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 6,
+     "points": 20
+    },
+    {
+     "n": 2,
+     "pos": 4,
+     "points": 32
+    },
+    {
+     "n": 3,
+     "pos": 4,
+     "points": 31
+    },
+    {
+     "n": 4,
+     "pos": 6,
+     "points": 23
+    },
+    {
+     "n": 6,
+     "pos": 3,
+     "points": 32
+    },
+    {
+     "n": 7,
+     "pos": 5,
+     "points": 24
+    }
+   ]
+  },
+  {
+   "name": "Matt Field",
+   "number": null,
+   "nat": null,
+   "car": "Chevrolet Corvette",
+   "pos": 5,
+   "points": 150,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 9,
+     "points": 11
+    },
+    {
+     "n": 3,
+     "pos": 8,
+     "points": 21
+    },
+    {
+     "n": 4,
+     "pos": 10,
+     "points": 11
+    },
+    {
+     "n": 6,
+     "pos": 4,
+     "points": 31
+    },
+    {
+     "n": 7,
+     "pos": 2,
+     "points": 41
+    },
+    {
+     "n": 8,
+     "pos": 4,
+     "points": 31
+    }
+   ]
+  },
+  {
+   "name": "Fredric Aasbo",
+   "number": null,
+   "nat": null,
+   "car": "Toyota GR Supra",
+   "pos": 6,
+   "points": 149,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 2,
+     "points": 40
+    },
+    {
+     "n": 3,
+     "pos": 3,
+     "points": 32
+    },
+    {
+     "n": 4,
+     "pos": 9,
+     "points": 11
+    },
+    {
+     "n": 6,
+     "pos": 2,
+     "points": 41
+    },
+    {
+     "n": 8,
+     "pos": 5,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Aurimas Bakchis",
+   "number": null,
+   "nat": null,
+   "car": "Subaru BRZ",
+   "pos": 7,
+   "points": 132,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 5,
+     "points": 20
+    },
+    {
+     "n": 2,
+     "pos": 3,
+     "points": 34
+    },
+    {
+     "n": 3,
+     "pos": 1,
+     "points": 51
+    },
+    {
+     "n": 4,
+     "pos": 8,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Dylan Hughes",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": 8,
+   "points": 91,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 8,
+     "points": 20
+    },
+    {
+     "n": 2,
+     "pos": 6,
+     "points": 21
+    },
+    {
+     "n": 3,
+     "pos": 7,
+     "points": 21
+    },
+    {
+     "n": 4,
+     "pos": 5,
+     "points": 24
+    }
+   ]
+  },
+  {
+   "name": "Adam LZ",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": 9,
+   "points": 88,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 10,
+     "points": 11
+    },
+    {
+     "n": 6,
+     "pos": 6,
+     "points": 21
+    },
+    {
+     "n": 7,
+     "pos": 11,
+     "points": 11
+    },
+    {
+     "n": 8,
+     "pos": 3,
+     "points": 31
+    }
+   ]
+  },
+  {
+   "name": "Ryan Tuerck",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": 10,
+   "points": 88,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 11,
+     "points": 10
+    },
+    {
+     "n": 2,
+     "pos": 7,
+     "points": 21
+    },
+    {
+     "n": 3,
+     "pos": 14,
+     "points": 11
+    },
+    {
+     "n": 4,
+     "pos": 7,
+     "points": 21
+    },
+    {
+     "n": 6,
+     "pos": 12,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 14,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Chris Forsberg",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": 11,
+   "points": 82,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 10,
+     "points": 11
+    },
+    {
+     "n": 2,
+     "pos": 5,
+     "points": 21
+    },
+    {
+     "n": 3,
+     "pos": 5,
+     "points": 24
+    },
+    {
+     "n": 7,
+     "pos": 6,
+     "points": 22
+    }
+   ]
+  },
+  {
+   "name": "Cole Richards",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": 12,
+   "points": 79,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 4,
+     "points": 30
+    },
+    {
+     "n": 2,
+     "pos": 11,
+     "points": 11
+    },
+    {
+     "n": 3,
+     "pos": 9,
+     "points": 13
+    },
+    {
+     "n": 6,
+     "pos": 10,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 10,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Dan Stuke",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": 13,
+   "points": 68,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 11,
+     "points": 11
+    },
+    {
+     "n": 6,
+     "pos": 15,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 4,
+     "points": 31
+    },
+    {
+     "n": 8,
+     "pos": 11,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Ben Hobson",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": 14,
+   "points": 67,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 13,
+     "points": 10
+    },
+    {
+     "n": 4,
+     "pos": 4,
+     "points": 31
+    },
+    {
+     "n": 6,
+     "pos": 7,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Vaughn Gittin Jr",
+   "number": null,
+   "nat": null,
+   "car": "Ford Mustang RTR Spec 5-FD",
+   "pos": 15,
+   "points": 62,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 1,
+     "points": 51
+    },
+    {
+     "n": 8,
+     "pos": 15,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Dan Burkett",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": 16,
+   "points": 58,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 14,
+     "points": 11
+    },
+    {
+     "n": 3,
+     "pos": 16,
+     "points": 11
+    },
+    {
+     "n": 4,
+     "pos": 13,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 13,
+     "points": 11
+    },
+    {
+     "n": 8,
+     "pos": 14,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Trenton Beechum",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 54,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 16,
+     "points": 11
+    },
+    {
+     "n": 3,
+     "pos": 11,
+     "points": 11
+    },
+    {
+     "n": 6,
+     "pos": 13,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 7,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Simen Olsen",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 53,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 14,
+     "points": 10
+    },
+    {
+     "n": 2,
+     "pos": 13,
+     "points": 11
+    },
+    {
+     "n": 4,
+     "pos": 15,
+     "points": 11
+    },
+    {
+     "n": 8,
+     "pos": 7,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Wataru Masuyama",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 33,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 12,
+     "points": 11
+    },
+    {
+     "n": 3,
+     "pos": 15,
+     "points": 11
+    },
+    {
+     "n": 8,
+     "pos": 12,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Rudy Hansen",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 33,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 2,
+     "pos": 15,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 15,
+     "points": 11
+    },
+    {
+     "n": 8,
+     "pos": 16,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Andy Hateley",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 33,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 16,
+     "points": 11
+    },
+    {
+     "n": 6,
+     "pos": 16,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 16,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Tommy Lemaire",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 33,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 11,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 9,
+     "points": 11
+    },
+    {
+     "n": 8,
+     "pos": 10,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Cody Buchanan",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 32,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 12,
+     "points": 11
+    },
+    {
+     "n": 6,
+     "pos": 8,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Rome Charpentier",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 32,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 6,
+     "pos": 14,
+     "points": 11
+    },
+    {
+     "n": 8,
+     "pos": 6,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Ryan Litteral",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 31,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 16,
+     "points": 10
+    },
+    {
+     "n": 8,
+     "pos": 8,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Ken Gushi",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 22,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 12,
+     "points": 11
+    },
+    {
+     "n": 7,
+     "pos": 12,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Jeff Jones",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 21,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 15,
+     "points": 10
+    },
+    {
+     "n": 8,
+     "pos": 13,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Shinji Minowa",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 21,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 7,
+     "pos": 8,
+     "points": 21
+    }
+   ]
+  },
+  {
+   "name": "Diego Higa",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 20,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 7,
+     "points": 20
+    }
+   ]
+  },
+  {
+   "name": "Jhonnattan Castro",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 11,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 3,
+     "pos": 13,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Derek Madison",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 11,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 4,
+     "pos": 14,
+     "points": 11
+    }
+   ]
+  },
+  {
+   "name": "Hiroya Minowa",
+   "number": null,
+   "nat": null,
+   "car": "",
+   "pos": null,
+   "points": 10,
+   "wildcard": false,
+   "rounds": [
+    {
+     "n": 1,
+     "pos": 12,
+     "points": 10
+    }
+   ]
+  }
+ ]
+}
