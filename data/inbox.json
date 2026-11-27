@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:01:45.015876+00:00",
+ "updated": "2026-11-27T15:16:24.267680+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -38,7 +38,7 @@
     }
    ],
    "scout": {
-    "score": 42,
+    "score": 41,
     "why": [
      "bekende rijder",
      "3 bronnen",
@@ -691,7 +691,7 @@
     }
    ],
    "scout": {
-    "score": 38,
+    "score": 37,
     "why": [
      "bekende rijder"
     ],
@@ -718,7 +718,7 @@
     }
    ],
    "scout": {
-    "score": 41,
+    "score": 40,
     "why": [
      "kalender"
     ],
@@ -909,7 +909,7 @@
     }
    ],
    "scout": {
-    "score": 9,
+    "score": 8,
     "why": [],
     "skip": true,
     "feature": false
@@ -2318,16 +2318,14 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
   },
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
@@ -2338,9 +2336,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
   },
   {
    "source": "Formula DRIFT",
@@ -2409,14 +2406,14 @@
    "source": "Nürburgring Drift Cup",
    "url": "https://nuerburgring.de/news",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "how": "page"
   },
   {
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2471,8 +2468,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
+   "ok": true,
+   "items": 11,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2484,9 +2482,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
   },
   {
    "source": "Google News",
@@ -2512,14 +2509,15 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "how": "feed"
   }
  ],
