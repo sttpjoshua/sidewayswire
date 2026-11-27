@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:01:49.161633+00:00",
+ "updated": "2026-11-27T08:16:20.966819+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 840,
@@ -7,7 +7,7 @@
   "check": 17,
   "posted": 3
  },
- "collected": "2026-11-27T08:01:42.564099+00:00",
+ "collected": "2026-11-27T08:16:15.439761+00:00",
  "instagram": true,
  "sources": [
   {
@@ -27,14 +27,15 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -118,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -159,28 +160,29 @@
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
-   "ok": true,
-   "items": 4,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 12,
+   "items": 7,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
+   "ok": true,
+   "items": 6,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -199,8 +201,9 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
+   "ok": true,
+   "items": 10,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -219,8 +222,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   }
  ],
  "inbox": [
@@ -543,6 +547,23 @@
      "published": "2026-11-16T22:20:07+00:00",
      "media_url": null,
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "RX-7とシルビアをカラーリングまで忠実再現。トミカにグッドライドのドリフトマシンが登場",
+   "series": "D1GP",
+   "buzz": 1,
+   "published": "2026-11-27T08:10:00+00:00",
+   "items": [
+    {
+     "source": "auto sport web · drift",
+     "title": "RX-7とシルビアをカラーリングまで忠実再現。トミカにグッドライドのドリフトマシンが登場",
+     "url": "https://www.as-web.jp/info/1377941",
+     "kind": "article",
+     "published": "2026-11-27T08:10:00+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -950,23 +971,6 @@
      "kind": "instagram",
      "published": "2026-11-23T17:32:56+00:00",
      "media_url": null,
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Many reasons why we choose morosoperformance for our builds🇺🇸",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-23T16:01:15+00:00",
-   "items": [
-    {
-     "source": "@rudyhansen119",
-     "title": "Many reasons why we choose morosoperformance for our builds🇺🇸",
-     "url": "https://www.instagram.com/reel/DgFwHjYMGnE/",
-     "kind": "instagram",
-     "published": "2026-11-23T16:01:15+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQMK9whZbqzs06mXH2R64zvThrH5P6HCXaK9Mn3W-xV1kgj-74OhC00wFnwxnUZI_0bsUyhHod9VSaui7tzA8-dlqvxatUGiku-duUk.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=gNdT5I2WCagQ7kNvwFVneEy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ2NDc4NDI2MjUwNTI0NywiYXNzZXRfYWdlX2RheXMiOjMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=bcaa0b0950c931f1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EMzI5QTRFMEM0ODQ0MTQ5QjlGQ0RGQzk4OUZCMjM2RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0RBNzREMTE1Q0YyMzRFMTM4RTJEQzYzRkUzMTU0RTk3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa-jJ2a1Y2aBRUCKAJDMywXQFFzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=3umzPzlA54ypsztV-gYG9A&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Uot0Qk4cFue7Fnw_KKMjjSUvP_ESoLttKkeCx3yzQXZ9TKIKxq5mMokAaBypYu8IfSYXVa1RXgNmlZ_pLEXM_cwYgFOz_10gDwGDa1RjQORgQmKEBR_RXTshY0Ibfx5phMta&oh=00_AQSCrrlX9lO5PJwvRMvlJO7yo-AzCK9mNHw3MiWNYmu0rg&oe=6B0A6B90",
      "media_type": "VIDEO"
     }
    ]
