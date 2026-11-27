@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T05:01:36.519386+00:00",
+ "updated": "2026-11-27T05:06:33.829842+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -38,7 +38,7 @@
     }
    ],
    "scout": {
-    "score": 47,
+    "score": 46,
     "why": [
      "bekende rijder",
      "3 bronnen",
@@ -594,7 +594,7 @@
     }
    ],
    "scout": {
-    "score": 46,
+    "score": 45,
     "why": [
      "kalender"
     ],
@@ -812,7 +812,7 @@
     }
    ],
    "scout": {
-    "score": 14,
+    "score": 13,
     "why": [],
     "skip": true,
     "feature": false
@@ -2319,7 +2319,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2423,8 +2423,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
+   "ok": true,
+   "items": 6,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2457,8 +2458,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
+   "ok": true,
+   "items": 12,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2484,8 +2486,9 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
+   "ok": true,
+   "items": 10,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2497,8 +2500,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
