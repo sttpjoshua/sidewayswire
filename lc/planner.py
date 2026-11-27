@@ -19,6 +19,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from . import handles, platforms
+from . import urgency as urg
 from . import queue as q
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -66,6 +67,29 @@ def score(p: dict, m: dict, reg: dict) -> int:
 
 
 # ---------- calendar ----------
+URGENT_GAP_MIN = 45          # two urgent posts on one platform: at least this far apart
+AWAKE = (7, 30, 23, 0)       # urgent posts go out between 07:30 and 23:00 Dutch time
+
+
+def asap(taken: set, now: datetime) -> str:
+    """First moment from now that is in awake hours and not within URGENT_GAP_MIN of another post."""
+    t = now.replace(second=0, microsecond=0) + timedelta(minutes=5 - now.minute % 5)
+    for _ in range(2000):
+        loc = t.astimezone(q.TZ)
+        start = loc.replace(hour=AWAKE[0], minute=AWAKE[1])
+        if loc < start:
+            t = start.astimezone(timezone.utc)
+            continue
+        if (loc.hour, loc.minute) >= (AWAKE[2], AWAKE[3]):
+            t = (start + timedelta(days=1)).astimezone(timezone.utc)
+            continue
+        if all(abs((t - x).total_seconds()) >= URGENT_GAP_MIN * 60 for x in taken):
+            return t.isoformat()
+        t += timedelta(minutes=5)
+    return t.isoformat()
+
+
+
 def _slots(platform: str, day, kind: str):
     for hm, use in platforms.RHYTHM[platform].items():
         if use == kind:
@@ -95,6 +119,10 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
     recent = defaultdict(list)          # platform -> people of the last reels
     last_q = {}                         # platform -> last day with an evergreen question post
     last_pod = {}                       # platform -> last day with a podcast reel
+    scores = urg.scout_scores()
+    for p in posts:                     # also what still waits for Joshua: the dashboard puts urgent news on top
+        if p.get("status") in ("check", "draft") and p.get("kind") not in REEL_KINDS:
+            p["urgency"] = urg.urgency(p, scores, real_now)
     for p in todo:
         m = moment_of(p)
         p["_moment"] = m
@@ -103,6 +131,8 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
             p["moment_kind"], p["people"] = m.get("kind"), handles.people(m)[:3]
         is_reel = p.get("kind") in REEL_KINDS or (p.get("media") or [""])[0].endswith(".mp4")
         p["_type"] = "reel" if is_reel else "post"
+        if not is_reel:
+            p["urgency"] = urg.urgency(p, scores, real_now)
         want = [x for x in (p.get("platforms") or ["instagram", "facebook"]) if x in plats]
         if not is_reel:
             want = [x for x in want if x not in platforms.VIDEO_ONLY]
@@ -123,17 +153,22 @@ def plan(posts: list[dict], now: datetime | None = None) -> dict:
                 taken[pl].add(datetime.fromisoformat(t))
                 eps_on[(pl, datetime.fromisoformat(t).astimezone(q.TZ).date())].add(p["id"].rpartition("-")[0])
     # Urgent posts and Joshua's own times: as soon as asked, on all their platforms.
-    for p in todo:
-        if p["_type"] == "post" and (p.get("kind") in URGENT or p.get("want_at") or p.get("pinned_at")):
-            t = p.get("pinned_at") or p.get("want_at") or p.get("post_at")
+    # Joshua (27 nov): real news goes out as fast as possible, so every image post with an urgency of at
+    # least urgency.URGENT_AT gets the first free moment (awake hours, a gap after the previous urgent post).
+    for p in sorted(todo, key=lambda p: -(p.get("urgency") or 0)):
+        own = p.get("pinned_at") or p.get("want_at")
+        hot = p.get("kind") in URGENT or urg.is_urgent(p)
+        if p["_type"] == "post" and (hot or own):
             for pl in p["_want"]:
-                if pl not in p["plan"] and t:
-                    p["plan"][pl] = t
-                    taken[pl].add(datetime.fromisoformat(t))
+                if pl in p["plan"]:
+                    continue
+                t = own or asap(taken[pl], now)
+                p["plan"][pl] = t
+                taken[pl].add(datetime.fromisoformat(t))
     # Image posts (news, kop-posts, carousels): oldest first; evergreen question posts only fill what is left,
     # and never two of them in a row on one platform (news and real stories come first).
     posts_ = sorted((p for p in todo if p["_type"] == "post" and not p["plan"]),
-                    key=lambda p: (bool(p.get("evergreen")), p.get("created") or p.get("built") or ""))
+                    key=lambda p: (bool(p.get("evergreen")), -(p.get("urgency") or 0), p.get("created") or p.get("built") or ""))
     # Reels: best first; Joshua's choice for Instagram wins.
     reels = sorted((p for p in todo if p["_type"] == "reel"),
                    key=lambda p: (-(p.get("score") or 0), p.get("created") or ""))

@@ -139,6 +139,7 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .of-week span{font-size:20px;display:block}.of-week b{display:block;font-size:12px}.of-week small{color:#C6FF00;font-size:11px;font-weight:700}
 .of-wk{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}.of-wk div{text-align:center}.of-wk b{display:block;font:400 26px "Bebas Neue",sans-serif;color:#fff}.of-wk span{font-size:11px;color:var(--mute)}
 .of-key{display:grid;grid-template-columns:12px 1fr;gap:2px 8px;align-items:center;padding:6px 0;border-top:1px solid #222}.of-key i{width:10px;height:10px;border-radius:50%}.of-key small{grid-column:2;color:var(--mute);font-size:12px}.of-key b{font-size:13px}
+h2.cat.hot{color:#FF2E88}.hotb{display:inline-block;background:#FF2E88;color:#fff;font:700 13px Inter,sans-serif;letter-spacing:1px;padding:3px 8px;vertical-align:middle;transform:skewX(-8deg)}
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -434,6 +435,8 @@ function remember(kind,id,val){MINE[kind+":"+id]={v:val,t:Date.now()};try{localS
 function mineOf(kind,id){const m=MINE[kind+":"+id];if(!m)return null;if(Date.now()-m.t>45*60e3){delete MINE[kind+":"+id];return null}return m.v}
 const posts=()=>(S.posts||[]).map(p=>{const st=mineOf("post",p.id);if(st&&(!S.updated||new Date(S.updated).getTime()<MINE["post:"+p.id].t))return {...p,status:st,check:false};return p});
 const toReview=()=>posts().filter(p=>["check","draft"].includes(p.status));
+// Snel nieuws (27 nov): urgentie vanaf 60 (lc/urgency.py) of een gerucht; staat bovenaan in BEOORDELEN.
+const hot=p=>p.kind!=="podcast_clip"&&((p.urgency||0)>=60||(p.hook&&p.hook.type==="rumor"));
 const med=p=>p.video||(p.media||[])[0]||"";
 const isVid=u=>/\.mp4($|\?)/.test(u);
 const ver=p=>"?v="+encodeURIComponent(p.built||p.created||"");
@@ -670,11 +673,12 @@ function drawReview(){
   drawReplies();
   const R=toReview(), cats=["ALLES",...Object.values(CAT).filter(c=>R.some(p=>CAT[cat(p)]===c))];
   document.getElementById("rev-f").innerHTML=cats.map(k=>`<button class="${k===revFilter?"on":""}">${esc(k)} (${k==="ALLES"?R.length:R.filter(p=>CAT[cat(p)]===k).length})</button>`).join("");
-  const L=R.filter(p=>revFilter==="ALLES"||CAT[cat(p)]===revFilter).sort((a,b)=>Object.keys(CAT).indexOf(cat(a))-Object.keys(CAT).indexOf(cat(b))||needsCheck(b)-needsCheck(a)||String(a.created||"").localeCompare(String(b.created||"")));
+  const L=R.filter(p=>revFilter==="ALLES"||CAT[cat(p)]===revFilter).sort((a,b)=>hot(b)-hot(a)||(hot(a)&&hot(b)?(b.urgency||0)-(a.urgency||0):0)||Object.keys(CAT).indexOf(cat(a))-Object.keys(CAT).indexOf(cat(b))||needsCheck(b)-needsCheck(a)||String(a.created||"").localeCompare(String(b.created||"")));
   let lastCat=null;
   const total=L.length;L.splice(revLimit);
   rev.innerHTML=L.map(p=>{
-    const head=cat(p)!==lastCat?`<h2 class="cat ${cat(p)}">${CAT[cat(p)]} <small>${L.filter(x=>cat(x)===cat(p)).length} te beoordelen</small></h2>`:"";lastCat=cat(p);
+    const ck=hot(p)?"hot":cat(p);
+    const head=ck!==lastCat?(ck==="hot"?`<h2 class="cat hot">SNEL NIEUWS <small>${L.filter(hot).length} te beoordelen: gaat direct online zodra jij akkoord geeft</small></h2>`:`<h2 class="cat ${cat(p)}">${CAT[cat(p)]} <small>${L.filter(x=>!hot(x)&&cat(x)===cat(p)).length} te beoordelen</small></h2>`):"";lastCat=ck;
     const m=p.video?[p.video]:(p.media||[]), v=isVid(m[0]||"");
     const ep=p.id.startsWith("pod-")?p.id.split("-")[1]:null;
     return head+`<div class="rc ${needsCheck(p)?"chk":""}" id="r-${p.id}" data-id="${p.id}">
@@ -682,7 +686,7 @@ function drawReview(){
         ${m.length>1?`<div class="nav"><button data-a="prev">‹</button><span class="tag" style="margin:4px 0">1/${m.length}</span><button data-a="next">›</button></div>`:""}</div>
       <div>
         <div class="row">${catTag(p)}${cat(p)==="posts"?`<span class="tag">${p.hook?HOOK[p.hook.type]||"KOP-POST":KIND[p.kind]||esc(p.kind)}</span>`:""}${stTag(p)}<span class="muted">${p.created?"gemaakt "+ago(p.created):""}</span></div>
-        <h3 style="font-size:26px;margin-top:8px">${title(p)}</h3>
+        <h3 style="font-size:26px;margin-top:8px">${hot(p)?`<span class="hotb">${p.hook&&p.hook.type==="rumor"?"GERUCHT":"SNEL"} · ${p.urgency||""}</span> `:""}${title(p)}</h3>
         ${needsCheck(p)?`<div class="why"><b>Waarom jij:</b> ${esc(p.check_reason||"deze soort post check jij altijd eerst")}</div>`:""}
         ${(p.problems||[]).length?`<div class="why">${p.problems.map(esc).join("<br>")}</div>`:""}
         ${(p.tags||[]).length||(p.missing_handles||[]).length?`<label>GETAGD</label><div class="plats">${(p.tags||[]).map(t=>`<span>${esc(t)}</span>`).join("")}</div>`:""}
@@ -976,7 +980,9 @@ function show(){
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",show);
-function drawCounts(){const R=toReview();for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
+function drawCounts(){const R=toReview();
+  try{const H=R.filter(hot);if(H.length&&sessionStorage.getItem("sw-hot")!==H.map(p=>p.id).join()){sessionStorage.setItem("sw-hot",H.map(p=>p.id).join());
+    toast(`Snel nieuws wacht op jou: ${H[0].title||H[0].story||H[0].id}${H.length>1?` (en nog ${H.length-1})`:""}. Staat bovenaan in BEOORDELEN.`)}}catch(e){}for(const c of Object.keys(CAT)){const el=document.getElementById("c-"+c);if(el){const n=R.filter(p=>cat(p)===c).length;el.textContent=n||""}}}
 function drawCurrent(){const s=(location.hash.slice(1)||"overzicht").split("/")[0];
   ({kantoor:()=>window.drawOffice&&drawOffice(),agents:drawAgents,tags:drawTags,tiktok:drawTikTokPage,overzicht:drawOverview,beoordelen:drawReview,clips:drawClips,posts:drawPosts,planning:drawPlan,nieuws:drawNews,kanalen:drawChannels,bronnen:drawSources,stats:drawStats,systeem:()=>{drawOverview();drawRuns()}}[s]||drawOverview)()}
 function drawAll(){drawLive();drawCounts();drawTikTok();drawTagCount();drawTabs();drawCurrent();

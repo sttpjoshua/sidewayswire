@@ -161,7 +161,7 @@ function panel(){
     ${next?`<p class="muted" style="font-size:12px;margin:10px 0 0">Het terrein groeit mee: bij ${next[0].toLocaleString("nl-NL")} volgers komt er ${next[1]} (nu ${F}).</p>`:""}
     ${weekHTML()}
     <div class="of-q-h" style="margin-top:14px">RANGLIJST</div>${L.map((x,i)=>`<div class="of-rank" data-of="${x.id}"><span>${i+1}</span><b>${esc(x.n)}</b><small>LV ${x.lvl}</small></div>`).join("")}<p class="muted" style="font-size:12px;margin-top:10px">Klik op iemand in het kantoor voor details.</p>`;return}
-  if(pick==="joshua"){const R=S?toReview():[],n=R.length,p=R[0];
+  if(pick==="joshua"){const R=S?toReview().sort((a,b)=>hot(b)-hot(a)||(b.urgency||0)-(a.urgency||0)):[],n=R.length,p=R[0];
     const m=p&&(p.media||[])[0],vid=m&&/\.mp4/.test(m);
     el.innerHTML=`<h2>JOUW BUREAU</h2><p>${n?`Er liggen <b>${n}</b> posts op je stapel.`:"Je stapel is leeg. Lekker bezig."}</p>
     ${p?`<div class="of-rev" data-rid="${esc(p.id)}"><div class="muted" style="font-size:11px;letter-spacing:1px">BOVENOP DE STAPEL</div>

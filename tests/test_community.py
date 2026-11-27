@@ -47,7 +47,8 @@ def test_planner_questions_fill_gaps_and_breaking_first():
         "status": "ready", "media": ["a.png"], "post_at": "2026-12-01T09:10:00+00:00"}
     posts.append(br)
     planner.plan(posts, now=datetime(2026, 12, 1, tzinfo=timezone.utc))
-    assert br["plan"]["facebook"] == "2026-12-01T09:10:00+00:00"          # breaking keeps its moment
+    assert br["plan"]["facebook"] <= "2026-12-01T09:10:00+00:00"          # breaking: first free moment (27 nov)
+    assert br["plan"]["facebook"] == "2026-12-01T06:30:00+00:00"          # 07:30 Dutch time, start of awake hours
     n1 = next(p for p in posts if p["id"] == "n1")
     first_q = min(p["plan"]["instagram"] for p in posts if p.get("evergreen"))
     assert n1["plan"]["instagram"] < first_q                                # real news before questions

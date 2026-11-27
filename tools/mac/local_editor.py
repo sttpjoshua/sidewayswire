@@ -414,6 +414,7 @@ def news(gh, put, json_or, log, beat, known: dict, agent=None, note: str = "") -
                 "caption": caption, "people": people, "platforms": ["instagram", "facebook"],
                 "check": rumor, "check_reason": "gerucht: check jij eerst" if rumor else "",
                 "status": "draft", "by": "local", "created": datetime.now(timezone.utc).isoformat(),
+                "scout_score": (s.get("scout") or {}).get("score"),
                 "source": s["items"][0]["url"] if s.get("items") else ""}
         if fmt == "look":
             # A still from the livestream shows the OLD car: no still, and Joshua adds a photo we may use, or skips.
