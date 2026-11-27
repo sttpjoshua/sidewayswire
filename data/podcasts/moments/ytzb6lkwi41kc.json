@@ -661,7 +661,7 @@
   "why": "Near perfect angle score and crowd reaction.",
   "caption": "Jack Shanahan's run averages a near-perfect 47 degrees.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 1,
   "hook": {
@@ -670,7 +670,12 @@
    "text": "IS THAT A PERFECT 47?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-25-57080-57785.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-25-57080-57785.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-25/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5777.02, \"start\": 5773.68, \"text\": \"IS THAT A PERFECT 47?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:30:29.269286+00:00"
  },
  {
   "start": 5823.56,
@@ -683,7 +688,7 @@
   "why": "Qualifying run with championship implications.",
   "caption": "Odie Bocce dominates with a standout qualifying run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -692,7 +697,12 @@
    "text": "CAN HE WIN THIS WEEKEND?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-26-58236-58874.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-26-58236-58874.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5883.66, \"start\": 5880.42, \"text\": \"CAN HE WIN THIS WEEKEND?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:31:58.970752+00:00"
  },
  {
   "start": 5975.78,
@@ -705,10 +715,15 @@
   "why": "Qualifying run with high scores and impressive driving.",
   "caption": "James Dean's qualifying run sets the bar for excellence.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytzb6lkwi41kc-27-59758-60499.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-27-59758-60499.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T05:33:05.977279+00:00"
  },
  {
   "start": 6253.34,
@@ -721,7 +736,7 @@
   "why": "Clear explanation of judging criteria",
   "caption": "Insider tips on scoring from a judge.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -730,7 +745,12 @@
    "text": "WHAT JUDGES LOOK FOR?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-28-62533-62726.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-28-62533-62726.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 6258.52, \"start\": 6256.46, \"text\": \"WHAT JUDGES LOOK FOR?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T05:33:41.078330+00:00"
  },
  {
   "start": 6273.48,
