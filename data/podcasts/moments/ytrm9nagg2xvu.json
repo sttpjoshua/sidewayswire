@@ -114,7 +114,7 @@
   "why": "Explains scoring system well",
   "caption": "Nate scores near perfect in qualifying",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -123,7 +123,12 @@
    "text": "WHAT IS NEAR PERFECT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-4-11553-12038.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-4-11553-12038.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-4/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1196.86, \"start\": 1193.7, \"text\": \"WHAT IS NEAR PERFECT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:40:26.338282+00:00"
  },
  {
   "start": 1238.84,
@@ -136,10 +141,15 @@
   "why": "Exciting and dynamic driving",
   "caption": "Tommy LaVere's impressive qualifying run",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytrm9nagg2xvu-5-12388-13162.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-5-12388-13162.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-5/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:42:09.443383+00:00"
  },
  {
   "start": 1482.4,
@@ -152,10 +162,15 @@
   "why": "Strong call from judges",
   "caption": "Judges give thumbs up after Rudy Hanson's run",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
-  "wait_name": "v2-ytrm9nagg2xvu-6-14824-15041.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-6-14824-15041.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-6/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:42:37.973989+00:00"
  },
  {
   "start": 1504.1,
@@ -168,7 +183,7 @@
   "why": "Exciting run with big angles",
   "caption": "Rudy Hanson's qualifying run with massive angles",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -177,7 +192,12 @@
    "text": "HOW DID HE DO?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-7-15041-15809.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-7-15041-15809.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-7/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 1528.48, \"start\": 1527.08, \"text\": \"HOW DID HE DO?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:45:03.991337+00:00"
  },
  {
   "start": 1603.16,
