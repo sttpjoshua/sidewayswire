@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:31:40.249492+00:00",
+ "updated": "2026-11-27T16:46:54.719125+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-27T16:31:34.139875+00:00",
+ "collected": "2026-11-27T16:46:50.029788+00:00",
  "instagram": true,
  "sources": [
   {
@@ -36,7 +36,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -120,7 +120,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -196,9 +196,8 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
@@ -635,6 +634,40 @@
      "kind": "instagram",
      "published": "2026-11-27T16:00:02+00:00",
      "media_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/912688017_18640300750005559_6605118341810889214_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6RuYtQnn9bcQ7kNvwG2NKvT&_nc_oc=AdovUxXBFbBfgsZfQfdAki4Q0qmBEizNs4wpNYM0VRe-vjYsMx66JPuZM7sBMV7j-4I&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=4h_EC3LWhTAc12bFpdt5Bg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQVtoCeOPjQy1-MA6hgoE4QZzug2FfrwY-e-jBZx_KyfOg&oe=6B0F630C",
+     "media_type": "CAROUSEL_ALBUM"
+    }
+   ]
+  },
+  {
+   "title": "My team says we need to clear our merch stock to make room for next year's designs👀 ",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T15:56:00+00:00",
+   "items": [
+    {
+     "source": "@cbuchanan272",
+     "title": "My team says we need to clear our merch stock to make room for next year's designs👀 ",
+     "url": "https://www.instagram.com/reel/DgQC69ux313/",
+     "kind": "instagram",
+     "published": "2026-11-27T15:56:00+00:00",
+     "media_url": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQOg9u5LOSDknPpCDH-1NrLocnn-bG59zDSK9GFGX5cIS-hx-iyPBcmxiY4FtI5CXZBk8Tz6C2lBFEszWZCC4u6jTJy7i9mZuKgq07Y.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=8zG4Xr9_gHcQ7kNvwHfCnH-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg4NzA5ODA0MjcyNzM0NiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=ec7e8c3b7219dd9e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85MkM5QjQwMTdFRUU0MjY1ODIwMzk0QTNFNjFBMDBENF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzcxRkYwQzZERDdBQjQ1QTFCMjBFNkYxNzFDNEEzMjREX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbk7vGHyJPaBhUCKAJDMywXQDgzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=KBCj1IA3HPJEN59dMgGkSw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQV7CkA5eGI-rMbu6Ea1RFabptdj3G0-NLITDBPGF_S2Bw&oe=6B0B8B23",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "I’m already excited how big challenge is waiting for us next year 😙",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T14:55:22+00:00",
+   "items": [
+    {
+     "source": "@hiroya.minowa",
+     "title": "I’m already excited how big challenge is waiting for us next year 😙",
+     "url": "https://www.instagram.com/p/DgP8XLYCMiJ/",
+     "kind": "instagram",
+     "published": "2026-11-27T14:55:22+00:00",
+     "media_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/932003228_18132482858484100_1815548291749367052_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fw3SPgHoTRQQ7kNvwGP8_bH&_nc_oc=AdpALcDdcK8MLSfrVyBxVr0o7LGKxFa_P7cNo3zCy0f2oLtyVBCe8r2-kxLntlzNIJk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CGEf1FdEi45OzfyQj3Ysmg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQVqmAAgFs-YlIyEG-ajX0WcB-RTMeKRvShMjzE7UzBhug&oe=6B0F9C97",
      "media_type": "CAROUSEL_ALBUM"
     }
    ]
@@ -1099,23 +1132,6 @@
    ]
   },
   {
-   "title": "A better look at the new Fc Rx-7 weld in quick change kit",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-21T14:30:55+00:00",
-   "items": [
-    {
-     "source": "@ryanhasinsta",
-     "title": "A better look at the new Fc Rx-7 weld in quick change kit",
-     "url": "https://www.instagram.com/p/DgAcy2fHECV/",
-     "kind": "instagram",
-     "published": "2026-11-21T14:30:55+00:00",
-     "media_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/919396349_18654909772062403_3348930626960188379_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=89u_lAUS-ucQ7kNvwH_TgFq&_nc_oc=Adoq0Z1PuI8KPPkhysKkR08lpsN2YMXBt7SMkJ-lTap619jWnKmoAj43MNxNOfEh8Vc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ojS26SaH0CLOwEKQbYrkPA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSWZgYWudVfHthMnJeglLTRSkRksW7BEu_zX4sNK29Y8g&oe=6B0E7BB2",
-     "media_type": "CAROUSEL_ALBUM"
-    }
-   ]
-  },
-  {
    "title": "Whole rtrvehicles squad out this weekend for the Charlotte Auto Show!! I’ll be there Saturday (11/21) giving out high fives and signing from 12-1pm, come through! #rtrvehicles",
    "series": "FD",
    "buzz": 1,
@@ -1129,23 +1145,6 @@
      "published": "2026-11-20T20:15:37+00:00",
      "media_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/915974618_18639092284025021_3824712625138536027_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JHHoNBSwkUwQ7kNvwGuQyYA&_nc_oc=AdpcKB6f_eEEyop4TkoGWp29jmTnF-iWx4T77fIXRnNIsLWRvwMqN1l-Wy3ExY7EQ2k&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=AkoepKPgDmsye6jniR_a1w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRn7fPrXzTRGVHx5esoz4wbAbhakcgj--BlcaZzvxTeZw&oe=6B0E5B38",
      "media_type": "CAROUSEL_ALBUM"
-    }
-   ]
-  },
-  {
-   "title": "FC RX-7 Quick change kit and install video are now live!",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-20T15:25:14+00:00",
-   "items": [
-    {
-     "source": "@ryanhasinsta",
-     "title": "FC RX-7 Quick change kit and install video are now live!",
-     "url": "https://www.instagram.com/reel/Df99OcLtEKB/",
-     "kind": "instagram",
-     "published": "2026-11-20T15:25:14+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
     }
    ]
   },
