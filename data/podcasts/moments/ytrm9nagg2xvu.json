@@ -735,7 +735,7 @@
   "why": "Smoke and run discussion",
   "caption": "James Dean's qualifying run creates smoke.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -744,7 +744,12 @@
    "text": "HOW DID JAMES QUALIFY?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-28-49396-49900.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-28-49396-49900.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4979.98, \"start\": 4977.2, \"text\": \"HOW DID JAMES QUALIFY?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:16:54.114095+00:00"
  },
  {
   "start": 5328.58,
@@ -757,7 +762,7 @@
   "why": "The commentary highlights a risky move by D-Chan, creating suspense about the judges' reaction.",
   "caption": "D-Chan's qualifying run ends with a questionable line.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -766,6 +771,11 @@
    "text": "WILL JUDGES LIKE IT?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytrm9nagg2xvu-29-53286-54024.mp4"
+  "wait_name": "v2-ytrm9nagg2xvu-29-53286-54024.mp4",
+  "clip": "docs/media/pod-ytrm9nagg2xvu-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5370.28, \"start\": 5368.92, \"text\": \"WILL JUDGES LIKE IT?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:19:16.022671+00:00"
  }
 ]

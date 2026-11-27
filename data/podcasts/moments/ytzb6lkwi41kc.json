@@ -10,7 +10,7 @@
   "why": "Highlights key drivers and the challenge they face",
   "caption": "The top five drivers are facing tough competition.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -19,7 +19,12 @@
    "text": "WHO'S STRUGGLING IN TOP FIVE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-0-3904-4231.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-0-3904-4231.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-0/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 397.9, \"start\": 392.3, \"text\": \"WHO'S STRUGGLING IN TOP FIVE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:20:13.951509+00:00"
  },
  {
   "start": 437.14,
@@ -32,7 +37,7 @@
   "why": "Explains the new judging system in detail",
   "caption": "WALL-E is the new judging system using telemetry.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -41,7 +46,12 @@
    "text": "WHAT IS WALL-E?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytzb6lkwi41kc-1-4371-4814.mp4"
+  "wait_name": "v2-ytzb6lkwi41kc-1-4371-4814.mp4",
+  "clip": "docs/media/pod-ytzb6lkwi41kc-1/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 461.48, \"start\": 458.04, \"text\": \"WHAT IS WALL-E?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T04:21:31.916601+00:00"
  },
  {
   "start": 532.08,
