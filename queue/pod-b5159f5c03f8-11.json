@@ -1,7 +1,7 @@
 {
  "id": "pod-b5159f5c03f8-11",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "DRIFT DAY STRESS? THINK 90",
  "video": "docs/media/pod-b5159f5c03f8-11/clip.mp4",
@@ -48,5 +48,17 @@
   "at": "2026-11-26T19:31:44.216547+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-27T12:30:04.887Z"
+ "approved": "2026-11-27T12:30:04.887Z",
+ "post_at": null,
+ "score": 39,
+ "moment_kind": "quote",
+ "plan": {},
+ "captions": {
+  "instagram": "Rafael Muller | The Goodest Cast\n\nStressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #driftlife #sidewayswire",
+  "facebook": "Rafael Muller | The Goodest Cast\n\nStressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+  "tiktok": "Rafael Muller | The Goodest Cast: Stressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+  "youtube_title": "Rafael Muller | The Goodest Cast",
+  "youtube": "Stressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+ },
+ "collaborators": []
 }

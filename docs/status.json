@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-27T12:30:48.082947+00:00",
+ "updated": "2026-11-27T12:33:47.691408+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 842,
+  "ready": 851,
   "skipped": 75,
-  "check": 15,
+  "check": 6,
   "posted": 3
  },
- "collected": "2026-11-27T12:30:42.514385+00:00",
+ "collected": "2026-11-27T12:33:41.975170+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,7 +35,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -175,7 +175,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 12,
    "how": "feed"
   },
   {
@@ -6377,10 +6377,85 @@
  },
  "posts": [
   {
-   "id": "pod-ytcaagmgzlale-17",
+   "id": "pod-ytckqkb2axqe-15",
    "kind": "stream_clip",
    "status": "ready",
    "post_at": "2026-12-28T20:30:00+00:00",
+   "posted_at": null,
+   "caption": "Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@adam_lz @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
+    "start": 725.04
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T08:23:24.031280+00:00",
+   "built": "2026-11-26T19:31:38.377447+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@branden_sorensen",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {
+    "tiktok": "2026-12-28T20:30:00+00:00"
+   },
+   "score": 85,
+   "captions": {
+    "instagram": "Adam LZ vs Brandon Sorensen | Formula DRIFT Seattle 2026\n\nAdam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@adam_lz @branden_sorensen @formulad\n\n#formuladrift #formulad #adamlz #brandonsorensen #sidewayswire",
+    "facebook": "Adam LZ vs Brandon Sorensen | Formula DRIFT Seattle 2026\n\nAdam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@adam_lz @branden_sorensen @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Adam LZ vs Brandon Sorensen | Formula DRIFT Seattle 2026: Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @adam_lz @branden_sorensen @formulad\n#formuladrift #formulad #adamlz #sidewayswire",
+    "youtube_title": "Adam LZ vs Brandon Sorensen | Formula DRIFT Seattle 2026",
+    "youtube": "Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@adam_lz @branden_sorensen @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "adam_lz",
+    "branden_sorensen"
+   ],
+   "people": [
+    "Adam LZ",
+    "Brandon Sorensen"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": 23.1,
+   "thumb": "media/thumbs/pod-ytckqkb2axqe-15.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-15.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__short.mp4",
+   "title": "SHEDDING HEADLIGHTS",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-ytcaagmgzlale-17",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-28T16:30:00+00:00",
    "posted_at": null,
    "caption": "Twin Corvettes, America versus Canada. Matt Field takes it unanimously over Tommy Lemaire.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@mattfield777 @tommy.lemaire @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [
@@ -6415,7 +6490,7 @@
    "caption_by": null,
    "format": "single",
    "plan": {
-    "tiktok": "2026-12-28T20:30:00+00:00"
+    "tiktok": "2026-12-28T16:30:00+00:00"
    },
    "score": 85,
    "captions": {
@@ -6452,14 +6527,14 @@
    }
   },
   {
-   "id": "pod-ytvrote7tycsg-40",
+   "id": "pod-ytvrote7tycsg-42",
    "kind": "stream_clip",
    "status": "ready",
-   "post_at": "2026-12-28T16:30:00+00:00",
+   "post_at": "2026-12-28T11:30:00+00:00",
    "posted_at": null,
-   "caption": "The one more time between Adam LZ and Ryan Litteral, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@adam_lz @ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "caption": "Jack Shanahan against Rudy Hansen, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@jackshanahan59 @rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytvrote7tycsg-40__clip.mp4"
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytvrote7tycsg-42__clip.mp4"
    ],
    "problems": [],
    "results": null,
@@ -6469,7 +6544,7 @@
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
-    "start": 7712.5
+    "start": 7476.0
    },
    "platforms": [
     "instagram",
@@ -6477,88 +6552,13 @@
     "tiktok",
     "youtube"
    ],
-   "created": "2026-11-21T05:08:44.639410+00:00",
-   "built": "2026-11-21T11:55:33.497165+00:00",
+   "created": "2026-11-21T05:13:21.724792+00:00",
+   "built": "2026-11-25T08:57:24.402405+00:00",
    "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytvrote7tycsg-40__clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@ryanlitteral",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {
-    "tiktok": "2026-12-28T16:30:00+00:00"
-   },
-   "score": 87,
-   "captions": {
-    "instagram": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026\n\nThe one more time between Adam LZ and Ryan Litteral, both runs side by side.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\n#formuladrift #formulad #adamlz #ryanlitteral #sidewayswire",
-    "facebook": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026\n\nThe one more time between Adam LZ and Ryan Litteral, both runs side by side.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026: The one more time between Adam LZ and Ryan Litteral, both runs side by side.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @adam_lz @ryanlitteral @formulad\n#formuladrift #formulad #adamlz #sidewayswire",
-    "youtube_title": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026",
-    "youtube": "The one more time between Adam LZ and Ryan Litteral, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "adam_lz",
-    "ryanlitteral"
-   ],
-   "people": [
-    "Adam LZ",
-    "Ryan Litteral"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytvrote7tycsg-40.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-40.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "LZ VS LITTERAL OMT SPLIT",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-ytoslpnfy2o5k-7",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-28T11:30:00+00:00",
-   "posted_at": null,
-   "caption": "Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytoslpnfy2o5k-7__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
-    "start": 485.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-20T01:00:15.581491+00:00",
-   "built": "2026-11-21T11:55:32.842278+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytoslpnfy2o5k-7__clip.mp4",
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytvrote7tycsg-42__clip.mp4",
    "tags": [
     "@jackshanahan59",
-    "@jamesdeane130",
+    "@rudyhansen119",
     "@formulad"
    ],
    "missing_handles": [],
@@ -6569,182 +6569,32 @@
    },
    "score": 87,
    "captions": {
-    "instagram": "Jack Shanahan vs James Deane | Formula DRIFT Finale 2026\n\nLead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formuladrift #formulad #jackshanahan #jamesdeane #sidewayswire",
-    "facebook": "Jack Shanahan vs James Deane | Formula DRIFT Finale 2026\n\nLead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs James Deane | Formula DRIFT Finale 2026: Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Finale 2026 @jackshanahan59 @jamesdeane130 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Jack Shanahan vs James Deane | Formula DRIFT Finale 2026",
-    "youtube": "Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+    "instagram": "Jack Shanahan vs Rudy Hansen | Formula DRIFT Long Beach 2026\n\nJack Shanahan against Rudy Hansen, both runs side by side.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @rudyhansen119 @formulad\n\n#formuladrift #formulad #jackshanahan #rudyhansen #sidewayswire",
+    "facebook": "Jack Shanahan vs Rudy Hansen | Formula DRIFT Long Beach 2026\n\nJack Shanahan against Rudy Hansen, both runs side by side.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @rudyhansen119 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Jack Shanahan vs Rudy Hansen | Formula DRIFT Long Beach 2026: Jack Shanahan against Rudy Hansen, both runs side by side.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @jackshanahan59 @rudyhansen119 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
+    "youtube_title": "Jack Shanahan vs Rudy Hansen | Formula DRIFT Long Beach 2026",
+    "youtube": "Jack Shanahan against Rudy Hansen, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @rudyhansen119 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
    },
    "ig": null,
    "collaborators": [
     "jackshanahan59",
-    "jamesdeane130"
+    "rudyhansen119"
    ],
    "people": [
     "Jack Shanahan",
-    "James Deane"
+    "Rudy Hansen"
    ],
    "moment_kind": "battle",
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": "media/thumbs/pod-ytoslpnfy2o5k-7.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytoslpnfy2o5k-7.mp4",
+   "thumb": "media/thumbs/pod-ytvrote7tycsg-42.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-42.mp4",
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
    "short": null,
-   "title": "LONG BEACH FINAL",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-da5d8825120e-15",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-12-27T20:30:00+00:00",
-   "posted_at": null,
-   "caption": "The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-da5d8825120e-15__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 3259.9
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-16T19:57:09.113931+00:00",
-   "built": "2026-11-25T08:57:23.234756+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-da5d8825120e-15__clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "plan": {
-    "tiktok": "2026-12-27T20:30:00+00:00"
-   },
-   "score": 54,
-   "captions": {
-    "instagram": "Conor Shanahan | The Outerzone\n\nThe champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #formulad #formuladrift #sidewayswire",
-    "facebook": "Conor Shanahan | The Outerzone\n\nThe champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #sidewayswire",
-    "tiktok": "Conor Shanahan | The Outerzone: The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @conorshanahan79 @formulad @jako13\n#drift #conorshanahan #formulad #sidewayswire",
-    "youtube_title": "Conor Shanahan | The Outerzone",
-    "youtube": "The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #conorshanahan #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "conorshanahan79"
-   ],
-   "people": [
-    "Conor Shanahan"
-   ],
-   "moment_kind": "moment",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 7.8,
-   "thumb": "media/thumbs/pod-da5d8825120e-15.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-da5d8825120e-15.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-da5d8825120e-15__short.mp4",
-   "title": "OFF-SEASON? WHAT OFF-SEASON?",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-5687ca1c5a65-5",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-12-27T16:30:00+00:00",
-   "posted_at": null,
-   "caption": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #Rumor #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-5687ca1c5a65-5__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "gerucht uit een podcast",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "LB2 Pro Podium",
-    "start": 601.76
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:53:19.827454+00:00",
-   "built": "2026-11-17T18:09:52.837175+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-5687ca1c5a65-5__clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@jamesdeane130",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {
-    "facebook": "2026-12-27T16:30:00+00:00",
-    "youtube": "2026-12-27T19:00:00+00:00"
-   },
-   "score": 51,
-   "captions": {
-    "instagram": "Adam LZ | The Outerzone\n\nAdam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #jamesdeane #formuladrift #sidewayswire",
-    "facebook": "Adam LZ | The Outerzone\n\nAdam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #sidewayswire",
-    "tiktok": "Adam LZ | The Outerzone: Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\nWho took this one? Send it to someone who'll argue 👇\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @jamesdeane130 @formulad @jako13\n#drift #adamlz #jamesdeane #sidewayswire",
-    "youtube_title": "Adam LZ | The Outerzone",
-    "youtube": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "adam_lz",
-    "jamesdeane130"
-   ],
-   "people": [
-    "Adam LZ",
-    "James Deane"
-   ],
-   "moment_kind": "rumor",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 29.3,
-   "thumb": "media/thumbs/pod-5687ca1c5a65-5.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-5687ca1c5a65-5.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-5687ca1c5a65-5__short.mp4",
-   "title": "ADAM LZ'S PRO CAR: NEW PLANS?",
+   "title": "SHANAHAN VS HANSEN SPLIT",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -6825,14 +6675,14 @@
    }
   },
   {
-   "id": "pod-ytvrote7tycsg-38",
+   "id": "pod-ytvrote7tycsg-40",
    "kind": "stream_clip",
    "status": "ready",
    "post_at": "2026-12-27T11:30:00+00:00",
    "posted_at": null,
-   "caption": "The one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "caption": "The one more time between Adam LZ and Ryan Litteral, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@adam_lz @ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-38__clip.mp4"
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytvrote7tycsg-40__clip.mp4"
    ],
    "problems": [],
    "results": null,
@@ -6842,7 +6692,7 @@
    "source": {
     "podcast": "Formula DRIFT",
     "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
-    "start": 6081.5
+    "start": 7712.5
    },
    "platforms": [
     "instagram",
@@ -6850,13 +6700,13 @@
     "tiktok",
     "youtube"
    ],
-   "created": "2026-11-21T05:04:00.339087+00:00",
-   "built": "2026-11-26T19:31:42.624595+00:00",
+   "created": "2026-11-21T05:08:44.639410+00:00",
+   "built": "2026-11-21T11:55:33.497165+00:00",
    "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-38__clip.mp4",
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytvrote7tycsg-40__clip.mp4",
    "tags": [
-    "@branden_sorensen",
-    "@stuke.racing",
+    "@adam_lz",
+    "@ryanlitteral",
     "@formulad"
    ],
    "missing_handles": [],
@@ -6867,32 +6717,105 @@
    },
    "score": 87,
    "captions": {
-    "instagram": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026\n\nThe one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formuladrift #formulad #brandonsorensen #danielstuckey #sidewayswire",
-    "facebook": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026\n\nThe one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026: The one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Long Beach 2026 @branden_sorensen @stuke.racing @formulad\n#formuladrift #formulad #brandonsorensen #sidewayswire",
-    "youtube_title": "Sorensen vs Stuckey | Formula DRIFT Long Beach 2026",
-    "youtube": "The one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+    "instagram": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026\n\nThe one more time between Adam LZ and Ryan Litteral, both runs side by side.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\n#formuladrift #formulad #adamlz #ryanlitteral #sidewayswire",
+    "facebook": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026\n\nThe one more time between Adam LZ and Ryan Litteral, both runs side by side.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026: The one more time between Adam LZ and Ryan Litteral, both runs side by side.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @adam_lz @ryanlitteral @formulad\n#formuladrift #formulad #adamlz #sidewayswire",
+    "youtube_title": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026",
+    "youtube": "The one more time between Adam LZ and Ryan Litteral, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
    },
    "ig": null,
    "collaborators": [
-    "branden_sorensen",
-    "stuke.racing"
+    "adam_lz",
+    "ryanlitteral"
    ],
    "people": [
-    "Brandon Sorensen",
-    "Daniel Stuckey"
+    "Adam LZ",
+    "Ryan Litteral"
    ],
    "moment_kind": "battle",
    "pinned_at": null,
    "short_none": "split",
    "short_len": null,
-   "thumb": "media/thumbs/pod-ytvrote7tycsg-38.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-38.mp4",
+   "thumb": "media/thumbs/pod-ytvrote7tycsg-40.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-40.mp4",
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
    "short": null,
-   "title": "SORENSEN VS STUCKEY OMT SPLIT",
+   "title": "LZ VS LITTERAL OMT SPLIT",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-32",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-26T20:30:00+00:00",
+   "posted_at": null,
+   "caption": "Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 7351.75
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T22:55:57.287419+00:00",
+   "built": "2026-11-20T18:34:38.430792+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-32__clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@branden_sorensen",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {
+    "tiktok": "2026-12-26T20:30:00+00:00"
+   },
+   "score": 85,
+   "captions": {
+    "instagram": "Matt Field vs Brandon Sorensen | Formula DRIFT Las Vegas 2026\n\nMatt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formuladrift #formulad #mattfield #brandonsorensen #sidewayswire",
+    "facebook": "Matt Field vs Brandon Sorensen | Formula DRIFT Las Vegas 2026\n\nMatt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Matt Field vs Brandon Sorensen | Formula DRIFT Las Vegas 2026: Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @mattfield777 @branden_sorensen @formulad\n#formuladrift #formulad #mattfield #sidewayswire",
+    "youtube_title": "Field vs Sorensen | Formula DRIFT Las Vegas 2026",
+    "youtube": "Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @branden_sorensen @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "mattfield777",
+    "branden_sorensen"
+   ],
+   "people": [
+    "Matt Field",
+    "Brandon Sorensen"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": 17.8,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-32.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-32.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-32__short.mp4",
+   "title": "SORENSEN KNOCKED OUT BY FIELD",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -6903,7 +6826,7 @@
    "id": "pod-ytlgdw88ygzo4-24",
    "kind": "stream_clip",
    "status": "ready",
-   "post_at": "2026-12-26T20:30:00+00:00",
+   "post_at": "2026-12-26T16:30:00+00:00",
    "posted_at": null,
    "caption": "Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\n🎥 Footage: FD 'LONG BEACH 2' 2026 HIGHLIGHTS | PRES\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [],
@@ -6936,7 +6859,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-26T20:30:00+00:00"
+    "tiktok": "2026-12-26T16:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -6966,79 +6889,6 @@
    "tiktok_done": null,
    "short": null,
    "title": "LONG BEACH FINAL",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-yt8bwn2g2ssy-48",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-26T16:30:00+00:00",
-   "posted_at": null,
-   "caption": "The final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 10039
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-18T23:16:34.503173+00:00",
-   "built": "2026-11-20T18:56:31.082515+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8bwn2g2ssy-48__clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {
-    "tiktok": "2026-12-26T16:30:00+00:00"
-   },
-   "score": 87,
-   "captions": {
-    "instagram": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026\n\nThe final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @formulad\n\n#formuladrift #formulad #conorshanahan #mattfield #sidewayswire",
-    "facebook": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026\n\nThe final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026: The final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @conorshanahan79 @mattfield777 @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
-    "youtube_title": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026",
-    "youtube": "The final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "conorshanahan79",
-    "mattfield777"
-   ],
-   "people": [
-    "Conor Shanahan",
-    "Matt Field"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-48.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-48.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "THE LAS VEGAS FINAL, SIDE BY SIDE",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -7121,24 +6971,24 @@
    }
   },
   {
-   "id": "pod-b5159f5c03f8-8",
+   "id": "pod-da5d8825120e-8",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-12-25T16:30:00+00:00",
+   "post_at": "2026-12-25T20:30:00+00:00",
    "posted_at": null,
-   "caption": "Ten years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #e36compact #bmw #grassrootsdrift #m52 #sidewayswire",
+   "caption": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
    "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-8__clip.mp4"
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-da5d8825120e-8__clip.mp4"
    ],
    "problems": [],
    "results": null,
-   "credit": "@goodestcast",
+   "credit": "@formulad",
    "check": false,
    "check_reason": "",
    "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 2755.98
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 1132.48
    },
    "platforms": [
     "instagram",
@@ -7146,47 +6996,124 @@
     "tiktok",
     "youtube"
    ],
-   "created": "2026-11-17T15:25:49.454790+00:00",
-   "built": "2026-11-26T19:31:36.689782+00:00",
+   "created": "2026-11-16T19:52:49.309223+00:00",
+   "built": "2026-11-25T08:57:23.256078+00:00",
    "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-8__clip.mp4",
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-da5d8825120e-8__clip.mp4",
    "tags": [
-    "@thama56",
-    "@palmer_sndrsn",
-    "@goodestcast"
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
    ],
    "missing_handles": [],
    "caption_by": null,
-   "format": "single",
+   "format": null,
    "plan": {
-    "facebook": "2026-12-25T16:30:00+00:00",
-    "youtube": "2026-12-25T19:00:00+00:00"
+    "facebook": "2026-12-27T16:30:00+00:00",
+    "tiktok": "2026-12-25T20:30:00+00:00",
+    "youtube": "2026-12-27T19:00:00+00:00"
    },
-   "score": 48,
+   "score": 54,
    "captions": {
-    "instagram": "Rafael Muller | The Goodest Cast\n\nTen years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #e36compact #sidewayswire",
-    "facebook": "Rafael Muller | The Goodest Cast\n\nTen years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
-    "tiktok": "Rafael Muller | The Goodest Cast: Ten years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
-    "youtube_title": "Rafael Muller | The Goodest Cast",
-    "youtube": "Ten years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+    "instagram": "Conor Shanahan | The Outerzone\n\nLate-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #formulad #formuladrift #sidewayswire",
+    "facebook": "Conor Shanahan | The Outerzone\n\nLate-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #sidewayswire",
+    "tiktok": "Conor Shanahan | The Outerzone: Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @conorshanahan79 @formulad @jako13\n#drift #conorshanahan #formulad #sidewayswire",
+    "youtube_title": "Conor Shanahan | The Outerzone",
+    "youtube": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #conorshanahan #sidewayswire"
    },
    "ig": null,
-   "collaborators": [],
+   "collaborators": [
+    "conorshanahan79"
+   ],
    "people": [
-    "Rafael Muller",
-    "Palmer Sanderson"
+    "Conor Shanahan"
    ],
    "moment_kind": "moment",
    "pinned_at": null,
-   "short_none": null,
-   "short_len": 15.8,
-   "thumb": "media/thumbs/pod-b5159f5c03f8-8.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-b5159f5c03f8-8.mp4",
+   "short_none": "kort genoeg",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-da5d8825120e-8.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-da5d8825120e-8.mp4",
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-8__short.mp4",
-   "title": "THE ONE HOUR WRENCHING RULE",
+   "short": null,
+   "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-ytvrote7tycsg-39",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-25T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Adam LZ against Ryan Litteral, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@adam_lz @ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytvrote7tycsg-39__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
+    "start": 5559.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-21T05:06:19.893503+00:00",
+   "built": "2026-11-21T11:55:33.472674+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytvrote7tycsg-39__clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@ryanlitteral",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": {
+    "tiktok": "2026-12-25T16:30:00+00:00"
+   },
+   "score": 87,
+   "captions": {
+    "instagram": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026\n\nAdam LZ against Ryan Litteral, both runs side by side.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\n#formuladrift #formulad #adamlz #ryanlitteral #sidewayswire",
+    "facebook": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026\n\nAdam LZ against Ryan Litteral, both runs side by side.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026: Adam LZ against Ryan Litteral, both runs side by side.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @adam_lz @ryanlitteral @formulad\n#formuladrift #formulad #adamlz #sidewayswire",
+    "youtube_title": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026",
+    "youtube": "Adam LZ against Ryan Litteral, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "adam_lz",
+    "ryanlitteral"
+   ],
+   "people": [
+    "Adam LZ",
+    "Ryan Litteral"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-ytvrote7tycsg-39.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-39.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "LZ VS LITTERAL SPLIT",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -7197,7 +7124,7 @@
    "id": "pod-yt9lxrdzgctgm-51",
    "kind": "stream_clip",
    "status": "ready",
-   "post_at": "2026-12-25T16:30:00+00:00",
+   "post_at": "2026-12-25T11:30:00+00:00",
    "posted_at": null,
    "caption": "The final of the 2026 season: Jack Shanahan vs James Deane. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #jackshanahan #jamesdeane #drifting #sidewayswire",
    "media": [
@@ -7232,7 +7159,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-25T16:30:00+00:00"
+    "tiktok": "2026-12-25T11:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -7269,10 +7196,160 @@
    }
   },
   {
+   "id": "pod-ytvrote7tycsg-38",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-24T20:30:00+00:00",
+   "posted_at": null,
+   "caption": "The one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-38__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
+    "start": 6081.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-21T05:04:00.339087+00:00",
+   "built": "2026-11-26T19:31:42.624595+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ytvrote7tycsg-38__clip.mp4",
+   "tags": [
+    "@branden_sorensen",
+    "@stuke.racing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": {
+    "tiktok": "2026-12-24T20:30:00+00:00"
+   },
+   "score": 87,
+   "captions": {
+    "instagram": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026\n\nThe one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formuladrift #formulad #brandonsorensen #danielstuckey #sidewayswire",
+    "facebook": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026\n\nThe one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026: The one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Long Beach 2026 @branden_sorensen @stuke.racing @formulad\n#formuladrift #formulad #brandonsorensen #sidewayswire",
+    "youtube_title": "Sorensen vs Stuckey | Formula DRIFT Long Beach 2026",
+    "youtube": "The one more time between Brandon Sorensen and Daniel Stuckey, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "branden_sorensen",
+    "stuke.racing"
+   ],
+   "people": [
+    "Brandon Sorensen",
+    "Daniel Stuckey"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-ytvrote7tycsg-38.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-38.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SORENSEN VS STUCKEY OMT SPLIT",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-yt9lxrdzgctgm-49",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-24T16:30:00+00:00",
+   "posted_at": null,
+   "caption": "Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt9lxrdzgctgm-49__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
+    "start": 9273.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T01:05:11.421836+00:00",
+   "built": "2026-11-25T08:57:23.623646+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt9lxrdzgctgm-49__clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@simenolsendrifting",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": {
+    "tiktok": "2026-12-24T16:30:00+00:00"
+   },
+   "score": 87,
+   "captions": {
+    "instagram": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nGreat 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formuladrift #formulad #mattfield #simenolsen #sidewayswire",
+    "facebook": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nGreat 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026: Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Long Beach 2026 @mattfield777 @simenolsendrifting @formulad\n#formuladrift #formulad #mattfield #sidewayswire",
+    "youtube_title": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026",
+    "youtube": "Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "mattfield777",
+    "simenolsendrifting"
+   ],
+   "people": [
+    "Matt Field",
+    "Simen Olsen"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-49.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-49.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "FIELD VS OLSEN, SIDE BY SIDE",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
    "id": "pod-ytrbtps1zxw4i-43",
    "kind": "stream_clip",
    "status": "ready",
-   "post_at": "2026-12-25T11:30:00+00:00",
+   "post_at": "2026-12-24T11:30:00+00:00",
    "posted_at": null,
    "caption": "Conor Shanahan vs Rome Charpentier in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @romecp @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [],
@@ -7305,7 +7382,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-25T11:30:00+00:00"
+    "tiktok": "2026-12-24T11:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -7342,12 +7419,87 @@
    }
   },
   {
-   "id": "pod-yt8bwn2g2ssy-32",
+   "id": "pod-ytvrote7tycsg-37",
    "kind": "stream_clip",
    "status": "ready",
-   "post_at": "2026-12-24T20:30:00+00:00",
+   "post_at": "2026-12-23T16:30:00+00:00",
    "posted_at": null,
-   "caption": "Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "caption": "Brandon Sorensen against Daniel Stuckey, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytvrote7tycsg-37__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
+    "start": 4892.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-21T05:01:32.503515+00:00",
+   "built": "2026-11-26T19:31:42.515350+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytvrote7tycsg-37__clip.mp4",
+   "tags": [
+    "@branden_sorensen",
+    "@stuke.racing",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": {
+    "tiktok": "2026-12-23T16:30:00+00:00"
+   },
+   "score": 87,
+   "captions": {
+    "instagram": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026\n\nBrandon Sorensen against Daniel Stuckey, both runs side by side.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formuladrift #formulad #brandonsorensen #danielstuckey #sidewayswire",
+    "facebook": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026\n\nBrandon Sorensen against Daniel Stuckey, both runs side by side.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026: Brandon Sorensen against Daniel Stuckey, both runs side by side.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @branden_sorensen @stuke.racing @formulad\n#formuladrift #formulad #brandonsorensen #sidewayswire",
+    "youtube_title": "Sorensen vs Stuckey | Formula DRIFT Long Beach 2026",
+    "youtube": "Brandon Sorensen against Daniel Stuckey, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "branden_sorensen",
+    "stuke.racing"
+   ],
+   "people": [
+    "Brandon Sorensen",
+    "Daniel Stuckey"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-ytvrote7tycsg-37.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-37.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SORENSEN VS STUCKEY SPLIT",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-yth2evinkswei-40",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-23T11:30:00+00:00",
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
    "media": [],
    "problems": null,
    "results": null,
@@ -7356,8 +7508,8 @@
    "check_reason": "",
    "source": {
     "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
-    "start": 7351.75
+    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
+    "start": 512.2
    },
    "platforms": [
     "instagram",
@@ -7365,49 +7517,124 @@
     "tiktok",
     "youtube"
    ],
-   "created": "2026-11-18T22:55:57.287419+00:00",
-   "built": "2026-11-20T18:34:38.430792+00:00",
+   "created": "2026-11-19T12:28:49.734579+00:00",
+   "built": "2026-11-26T16:38:19.345396+00:00",
    "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-32__clip.mp4",
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yth2evinkswei-40__clip.mp4",
    "tags": [
+    "@jamesdeane130",
     "@mattfield777",
-    "@branden_sorensen",
     "@formulad"
    ],
    "missing_handles": [],
    "caption_by": null,
-   "format": "single",
+   "format": "split",
    "plan": {
-    "tiktok": "2026-12-24T20:30:00+00:00"
+    "tiktok": "2026-12-23T11:30:00+00:00"
    },
-   "score": 85,
+   "score": 87,
    "captions": {
-    "instagram": "Matt Field vs Brandon Sorensen | Formula DRIFT Las Vegas 2026\n\nMatt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formuladrift #formulad #mattfield #brandonsorensen #sidewayswire",
-    "facebook": "Matt Field vs Brandon Sorensen | Formula DRIFT Las Vegas 2026\n\nMatt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @branden_sorensen @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Matt Field vs Brandon Sorensen | Formula DRIFT Las Vegas 2026: Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @mattfield777 @branden_sorensen @formulad\n#formuladrift #formulad #mattfield #sidewayswire",
-    "youtube_title": "Field vs Sorensen | Formula DRIFT Las Vegas 2026",
-    "youtube": "Matt Field takes the win and title contender Brandon Sorensen is out in front of his family in Las Vegas.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@mattfield777 @branden_sorensen @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+    "instagram": "James Deane vs Matt Field | Formula DRIFT 2025\n\nLead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT 2025\n@jamesdeane130 @mattfield777 @formulad\n\n#formuladrift #formulad #jamesdeane #mattfield #sidewayswire",
+    "facebook": "James Deane vs Matt Field | Formula DRIFT 2025\n\nLead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT 2025\n@jamesdeane130 @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "James Deane vs Matt Field | Formula DRIFT 2025: Lead vs lead, chase vs chase: James Deane and Matt Field in 2025.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT 2025 @jamesdeane130 @mattfield777 @formulad\n#formuladrift #formulad #jamesdeane #sidewayswire",
+    "youtube_title": "James Deane vs Matt Field | Formula DRIFT 2025",
+    "youtube": "Lead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\n🎥 Footage: Formula DRIFT 2025\n@jamesdeane130 @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
    },
    "ig": null,
    "collaborators": [
-    "mattfield777",
-    "branden_sorensen"
+    "jamesdeane130",
+    "mattfield777"
    ],
    "people": [
-    "Matt Field",
-    "Brandon Sorensen"
+    "James Deane",
+    "Matt Field"
    ],
    "moment_kind": "battle",
    "pinned_at": null,
-   "short_none": null,
-   "short_len": 17.8,
-   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-32.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-32.mp4",
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-yth2evinkswei-40.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yth2evinkswei-40.mp4",
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-yt8bwn2g2ssy-32__short.mp4",
-   "title": "SORENSEN KNOCKED OUT BY FIELD",
+   "short": null,
+   "title": "FIELD IN THE RAIN",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-ytzmzcyqa9c9e-10",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": "2026-12-22T20:30:00+00:00",
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\n🎥 Footage: FD LONG BEACH 2026 HIGHLIGHTS | PRESENTE\n@conorshanahan79 @fredricaasbo @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzmzcyqa9c9e-10__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Long Beach 2026 Highlights | Presented by Type S Auto",
+    "start": 487.6
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-26T18:28:23.250454+00:00",
+   "built": "2026-11-26T19:31:42.854254+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzmzcyqa9c9e-10__clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@fredricaasbo",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": {
+    "tiktok": "2026-12-22T20:30:00+00:00"
+   },
+   "score": 87,
+   "captions": {
+    "instagram": "Conor Shanahan vs Fredric Aasbø | Formula DRIFT Long Beach 2026\n\nLead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @fredricaasbo @formulad\n\n#formuladrift #formulad #conorshanahan #fredricaasbo #sidewayswire",
+    "facebook": "Conor Shanahan vs Fredric Aasbø | Formula DRIFT Long Beach 2026\n\nLead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @fredricaasbo @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Conor Shanahan vs Fredric Aasbø | Formula DRIFT Long Beach 2026: Lead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Long Beach 2026 @conorshanahan79 @fredricaasbo @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
+    "youtube_title": "Shanahan vs Aasbø | Formula DRIFT Long Beach 2026",
+    "youtube": "Lead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @fredricaasbo @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "conorshanahan79",
+    "fredricaasbo"
+   ],
+   "people": [
+    "Conor Shanahan",
+    "Fredric Aasbø"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-ytzmzcyqa9c9e-10.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytzmzcyqa9c9e-10.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "LONG BEACH FINAL",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -7418,7 +7645,7 @@
    "id": "pod-ytvrote7tycsg-34",
    "kind": "stream_clip",
    "status": "ready",
-   "post_at": "2026-12-24T16:30:00+00:00",
+   "post_at": "2026-12-22T16:30:00+00:00",
    "posted_at": null,
    "caption": "Simen Olsen against pro rookie Cody Buchanan, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@simenolsendrifting @cbuchanan272 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
    "media": [
@@ -7453,7 +7680,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-24T16:30:00+00:00"
+    "tiktok": "2026-12-22T16:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -7493,7 +7720,7 @@
    "id": "pod-ytrbtps1zxw4i-48",
    "kind": "stream_clip",
    "status": "ready",
-   "post_at": "2026-12-24T11:30:00+00:00",
+   "post_at": "2026-12-22T11:30:00+00:00",
    "posted_at": null,
    "caption": "Jack Shanahan vs Jhonnattan Castro in Top 32 at Las Vegas. Lead vs lead, chase vs chase.\n\n🎥 Footage: FD LAS VEGAS 2026\n@jackshanahan59 @jcastroracing @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
    "media": [
@@ -7528,7 +7755,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-24T11:30:00+00:00"
+    "tiktok": "2026-12-22T11:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -7565,24 +7792,24 @@
    }
   },
   {
-   "id": "pod-da5d8825120e-8",
+   "id": "pod-c82113ef8385-0",
    "kind": "podcast_clip",
    "status": "ready",
-   "post_at": "2026-12-23T20:30:00+00:00",
+   "post_at": "2026-12-21T20:30:00+00:00",
    "posted_at": null,
-   "caption": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "caption": "Matt Field helped design the new Vegas layout, and says it will not stay the same in the coming years.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @ryantuerck @kengushi @formulad @jako13\n\n#FormulaDRIFT #FDLV #MattField #LasVegas #sidewayswire",
    "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-da5d8825120e-8__clip.mp4"
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-c82113ef8385-0__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
-   "check_reason": "",
+   "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
-    "episode": "Conor Shanahan",
-    "start": 1132.48
+    "episode": "Vegas Pro Podium",
+    "start": 49.18
    },
    "platforms": [
     "instagram",
@@ -7590,492 +7817,55 @@
     "tiktok",
     "youtube"
    ],
-   "created": "2026-11-16T19:52:49.309223+00:00",
-   "built": "2026-11-25T08:57:23.256078+00:00",
+   "created": "2026-11-17T15:53:16.815357+00:00",
+   "built": "2026-11-17T18:09:52.850039+00:00",
    "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-da5d8825120e-8__clip.mp4",
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-c82113ef8385-0__clip.mp4",
    "tags": [
-    "@conorshanahan79",
+    "@mattfield777",
+    "@ryantuerck",
+    "@kengushi",
     "@formulad",
     "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": null,
-   "plan": {
-    "tiktok": "2026-12-23T20:30:00+00:00"
-   },
-   "score": 54,
-   "captions": {
-    "instagram": "Conor Shanahan | The Outerzone\n\nLate-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #formulad #formuladrift #sidewayswire",
-    "facebook": "Conor Shanahan | The Outerzone\n\nLate-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #sidewayswire",
-    "tiktok": "Conor Shanahan | The Outerzone: Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @conorshanahan79 @formulad @jako13\n#drift #conorshanahan #formulad #sidewayswire",
-    "youtube_title": "Conor Shanahan | The Outerzone",
-    "youtube": "Late-night text, \"what are you doing?\" \"Watching a drift event.\" Where? Egypt. 😂\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #conorshanahan #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "conorshanahan79"
-   ],
-   "people": [
-    "Conor Shanahan"
-   ],
-   "moment_kind": "moment",
-   "pinned_at": null,
-   "short_none": "kort genoeg",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-da5d8825120e-8.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-da5d8825120e-8.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "HIS SPOTTER WATCHES DRIFT EVENTS IN EGYPT",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-b5159f5c03f8-5",
-   "kind": "podcast_clip",
-   "status": "ready",
-   "post_at": "2026-12-23T16:30:00+00:00",
-   "posted_at": null,
-   "caption": "A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #poland #driftevent #e36 #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b5159f5c03f8-5__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@goodestcast",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "The Goodest Cast",
-    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
-    "start": 1790.41
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:23:32.646732+00:00",
-   "built": "2026-11-26T19:31:36.593550+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b5159f5c03f8-5__clip.mp4",
-   "tags": [
-    "@thama56",
-    "@palmer_sndrsn",
-    "@goodestcast"
    ],
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
    "plan": {
     "facebook": "2026-12-23T16:30:00+00:00",
-    "tiktok": "2026-12-25T20:30:00+00:00",
+    "tiktok": "2026-12-21T20:30:00+00:00",
     "youtube": "2026-12-23T19:00:00+00:00"
    },
-   "score": 48,
+   "score": 51,
    "captions": {
-    "instagram": "Rafael Muller | The Goodest Cast\n\nA full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #poland #sidewayswire",
-    "facebook": "Rafael Muller | The Goodest Cast\n\nA full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
-    "tiktok": "Rafael Muller | The Goodest Cast: A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
-    "youtube_title": "Rafael Muller | The Goodest Cast",
-    "youtube": "A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [],
-   "people": [
-    "Rafael Muller",
-    "Palmer Sanderson"
-   ],
-   "moment_kind": "moment",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 18.4,
-   "thumb": "media/thumbs/pod-b5159f5c03f8-5.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-b5159f5c03f8-5.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b5159f5c03f8-5__short.mp4",
-   "title": "A PRINCE IN THE POLAND PADDOCK",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-yth2evinkswei-40",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-23T16:30:00+00:00",
-   "posted_at": null,
-   "caption": "Lead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\n🎥 Footage: EVERY BATTLE FROM JAMES DEANE'S 2025 FD \n@jamesdeane130 @mattfield777 @formulad\n\n#formulad #formuladrift #jamesdeane #drifting #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "EVERY BATTLE from James Deane's 2025 FD Season",
-    "start": 512.2
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T12:28:49.734579+00:00",
-   "built": "2026-11-26T16:38:19.345396+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-yth2evinkswei-40__clip.mp4",
-   "tags": [
-    "@jamesdeane130",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {
-    "tiktok": "2026-12-23T16:30:00+00:00"
-   },
-   "score": 87,
-   "captions": {
-    "instagram": "James Deane vs Matt Field | Formula DRIFT 2025\n\nLead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT 2025\n@jamesdeane130 @mattfield777 @formulad\n\n#formuladrift #formulad #jamesdeane #mattfield #sidewayswire",
-    "facebook": "James Deane vs Matt Field | Formula DRIFT 2025\n\nLead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT 2025\n@jamesdeane130 @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "James Deane vs Matt Field | Formula DRIFT 2025: Lead vs lead, chase vs chase: James Deane and Matt Field in 2025.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT 2025 @jamesdeane130 @mattfield777 @formulad\n#formuladrift #formulad #jamesdeane #sidewayswire",
-    "youtube_title": "James Deane vs Matt Field | Formula DRIFT 2025",
-    "youtube": "Lead vs lead, chase vs chase: James Deane and Matt Field in 2025.\n\n🎥 Footage: Formula DRIFT 2025\n@jamesdeane130 @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jamesdeane130",
-    "mattfield777"
-   ],
-   "people": [
-    "James Deane",
-    "Matt Field"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yth2evinkswei-40.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yth2evinkswei-40.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "FIELD IN THE RAIN",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-ytvrote7tycsg-39",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-23T11:30:00+00:00",
-   "posted_at": null,
-   "caption": "Adam LZ against Ryan Litteral, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@adam_lz @ryanlitteral @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytvrote7tycsg-39__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
-    "start": 5559.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-21T05:06:19.893503+00:00",
-   "built": "2026-11-21T11:55:33.472674+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ytvrote7tycsg-39__clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@ryanlitteral",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {
-    "tiktok": "2026-12-23T11:30:00+00:00"
-   },
-   "score": 87,
-   "captions": {
-    "instagram": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026\n\nAdam LZ against Ryan Litteral, both runs side by side.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\n#formuladrift #formulad #adamlz #ryanlitteral #sidewayswire",
-    "facebook": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026\n\nAdam LZ against Ryan Litteral, both runs side by side.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026: Adam LZ against Ryan Litteral, both runs side by side.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @adam_lz @ryanlitteral @formulad\n#formuladrift #formulad #adamlz #sidewayswire",
-    "youtube_title": "Adam LZ vs Ryan Litteral | Formula DRIFT Long Beach 2026",
-    "youtube": "Adam LZ against Ryan Litteral, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@adam_lz @ryanlitteral @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "adam_lz",
-    "ryanlitteral"
-   ],
-   "people": [
-    "Adam LZ",
-    "Ryan Litteral"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytvrote7tycsg-39.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-39.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "LZ VS LITTERAL SPLIT",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-ytvrote7tycsg-37",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-22T20:30:00+00:00",
-   "posted_at": null,
-   "caption": "Brandon Sorensen against Daniel Stuckey, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytvrote7tycsg-37__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
-    "start": 4892.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-21T05:01:32.503515+00:00",
-   "built": "2026-11-26T19:31:42.515350+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytvrote7tycsg-37__clip.mp4",
-   "tags": [
-    "@branden_sorensen",
-    "@stuke.racing",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {
-    "tiktok": "2026-12-22T20:30:00+00:00"
-   },
-   "score": 87,
-   "captions": {
-    "instagram": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026\n\nBrandon Sorensen against Daniel Stuckey, both runs side by side.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formuladrift #formulad #brandonsorensen #danielstuckey #sidewayswire",
-    "facebook": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026\n\nBrandon Sorensen against Daniel Stuckey, both runs side by side.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Brandon Sorensen vs Daniel Stuckey | Formula DRIFT Long Beach 2026: Brandon Sorensen against Daniel Stuckey, both runs side by side.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @branden_sorensen @stuke.racing @formulad\n#formuladrift #formulad #brandonsorensen #sidewayswire",
-    "youtube_title": "Sorensen vs Stuckey | Formula DRIFT Long Beach 2026",
-    "youtube": "Brandon Sorensen against Daniel Stuckey, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@branden_sorensen @stuke.racing @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "branden_sorensen",
-    "stuke.racing"
-   ],
-   "people": [
-    "Brandon Sorensen",
-    "Daniel Stuckey"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytvrote7tycsg-37.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-37.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "SORENSEN VS STUCKEY SPLIT",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-ytcaagmgzlale-24",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-22T16:30:00+00:00",
-   "posted_at": null,
-   "caption": "Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
-    "start": 1387.5
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T07:56:15.300415+00:00",
-   "built": "2026-11-26T15:18:25.281748+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytcaagmgzlale-24__clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {
-    "tiktok": "2026-12-22T16:30:00+00:00"
-   },
-   "score": 87,
-   "captions": {
-    "instagram": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nLead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formuladrift #formulad #conorshanahan #jackshanahan #sidewayswire",
-    "facebook": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nLead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026: Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @conorshanahan79 @jackshanahan59 @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
-    "youtube_title": "Shanahan vs Shanahan | Formula DRIFT Las Vegas 2026",
-    "youtube": "Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "conorshanahan79",
-    "jackshanahan59"
-   ],
-   "people": [
-    "Conor Shanahan",
-    "Jack Shanahan"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytcaagmgzlale-24.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytcaagmgzlale-24.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "SHANAHAN BROTHERS",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-yt9lxrdzgctgm-49",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": "2026-12-22T11:30:00+00:00",
-   "posted_at": null,
-   "caption": "Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\n🎥 Footage: FD SHORELINE SHOWDOWN 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formulad #formuladrift #mattfield #drifting #longbeach #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt9lxrdzgctgm-49__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Shoreline Showdown 2026 - PRO, 'Long Beach 2' - Top 16 Finale On-Demand",
-    "start": 9273.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T01:05:11.421836+00:00",
-   "built": "2026-11-25T08:57:23.623646+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-yt9lxrdzgctgm-49__clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@simenolsendrifting",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {
-    "tiktok": "2026-12-22T11:30:00+00:00"
-   },
-   "score": 87,
-   "captions": {
-    "instagram": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nGreat 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formuladrift #formulad #mattfield #simenolsen #sidewayswire",
-    "facebook": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026\n\nGreat 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026: Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Long Beach 2026 @mattfield777 @simenolsendrifting @formulad\n#formuladrift #formulad #mattfield #sidewayswire",
-    "youtube_title": "Matt Field vs Simen Olsen | Formula DRIFT Long Beach 2026",
-    "youtube": "Great 8: Matt Field vs Simen Olsen in his final FD event. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@mattfield777 @simenolsendrifting @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+    "instagram": "Matt Field | The Outerzone\n\nMatt Field helped design the new Vegas layout, and says it will not stay the same in the coming years.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @ryantuerck @kengushi @formulad @jako13\n\n#drift #mattfield #ryantuerck #formuladrift #sidewayswire",
+    "facebook": "Matt Field | The Outerzone\n\nMatt Field helped design the new Vegas layout, and says it will not stay the same in the coming years.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @ryantuerck @kengushi @formulad @jako13\n\n#drift #mattfield #sidewayswire",
+    "tiktok": "Matt Field | The Outerzone: Matt Field helped design the new Vegas layout, and says it will not stay the same in the coming years.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @mattfield777 @ryantuerck @kengushi @formulad @jako13\n#drift #mattfield #ryantuerck #sidewayswire",
+    "youtube_title": "Matt Field | The Outerzone",
+    "youtube": "Matt Field helped design the new Vegas layout, and says it will not stay the same in the coming years.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @ryantuerck @kengushi @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #mattfield #sidewayswire"
    },
    "ig": null,
    "collaborators": [
     "mattfield777",
-    "simenolsendrifting"
+    "ryantuerck",
+    "kengushi"
    ],
    "people": [
     "Matt Field",
-    "Simen Olsen"
+    "Ryan Tuerck",
+    "Ken Gushi"
    ],
-   "moment_kind": "battle",
+   "moment_kind": "fact",
    "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-yt9lxrdzgctgm-49.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt9lxrdzgctgm-49.mp4",
+   "short_none": null,
+   "short_len": 25,
+   "thumb": "media/thumbs/pod-c82113ef8385-0.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-c82113ef8385-0.mp4",
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
-   "short": null,
-   "title": "FIELD VS OLSEN, SIDE BY SIDE",
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-c82113ef8385-0__short.mp4",
+   "title": "MATT FIELD ON HIS VEGAS LAYOUT",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -8265,9 +8055,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-26T16:30:00+00:00",
-    "tiktok": "2026-12-20T20:30:00+00:00",
-    "youtube": "2026-12-26T19:00:00+00:00"
+    "tiktok": "2026-12-20T20:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -8342,9 +8130,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-28T11:30:00+00:00",
-    "tiktok": "2026-12-20T16:30:00+00:00",
-    "youtube": "2026-12-28T12:00:00+00:00"
+    "tiktok": "2026-12-20T16:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -8492,7 +8278,9 @@
    "caption_by": null,
    "format": null,
    "plan": {
-    "tiktok": "2026-12-19T20:30:00+00:00"
+    "facebook": "2026-12-25T16:30:00+00:00",
+    "tiktok": "2026-12-19T20:30:00+00:00",
+    "youtube": "2026-12-25T19:00:00+00:00"
    },
    "score": 54,
    "captions": {
@@ -8565,7 +8353,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-19T16:30:00+00:00"
+    "facebook": "2026-12-26T16:30:00+00:00",
+    "tiktok": "2026-12-19T16:30:00+00:00",
+    "youtube": "2026-12-26T19:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -8639,9 +8429,9 @@
    "format": "split",
    "plan": {
     "instagram": "2026-12-23T16:30:00+00:00",
-    "facebook": "2026-12-24T11:30:00+00:00",
+    "facebook": "2026-12-26T11:30:00+00:00",
     "tiktok": "2026-12-19T11:30:00+00:00",
-    "youtube": "2026-12-24T12:00:00+00:00"
+    "youtube": "2026-12-26T12:00:00+00:00"
    },
    "score": 92,
    "captions": {
@@ -8864,9 +8654,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-28T16:30:00+00:00",
+    "facebook": "2026-12-24T16:30:00+00:00",
     "tiktok": "2026-12-18T11:30:00+00:00",
-    "youtube": "2026-12-28T19:00:00+00:00"
+    "youtube": "2026-12-24T19:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9017,7 +8807,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-17T16:30:00+00:00"
+    "facebook": "2026-12-28T16:30:00+00:00",
+    "tiktok": "2026-12-17T16:30:00+00:00",
+    "youtube": "2026-12-28T19:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9090,7 +8882,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-17T11:30:00+00:00"
+    "facebook": "2026-12-27T11:30:00+00:00",
+    "tiktok": "2026-12-17T11:30:00+00:00",
+    "youtube": "2026-12-27T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9386,9 +9180,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-27T11:30:00+00:00",
-    "tiktok": "2026-12-15T16:30:00+00:00",
-    "youtube": "2026-12-27T12:00:00+00:00"
+    "tiktok": "2026-12-15T16:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9463,9 +9255,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-26T11:30:00+00:00",
+    "facebook": "2026-12-28T11:30:00+00:00",
     "tiktok": "2026-12-15T11:30:00+00:00",
-    "youtube": "2026-12-26T12:00:00+00:00"
+    "youtube": "2026-12-28T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9538,7 +9330,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "tiktok": "2026-12-14T20:30:00+00:00"
+    "facebook": "2026-12-24T11:30:00+00:00",
+    "tiktok": "2026-12-14T20:30:00+00:00",
+    "youtube": "2026-12-24T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9611,9 +9405,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-21T11:30:00+00:00",
+    "facebook": "2026-12-25T11:30:00+00:00",
     "tiktok": "2026-12-14T16:30:00+00:00",
-    "youtube": "2026-12-21T12:00:00+00:00"
+    "youtube": "2026-12-25T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9686,9 +9480,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-16T16:30:00+00:00",
+    "facebook": "2026-12-17T11:30:00+00:00",
     "tiktok": "2026-12-14T11:30:00+00:00",
-    "youtube": "2026-12-16T19:00:00+00:00"
+    "youtube": "2026-12-17T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9839,9 +9633,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-20T11:30:00+00:00",
+    "facebook": "2026-12-18T11:30:00+00:00",
     "tiktok": "2026-12-13T16:30:00+00:00",
-    "youtube": "2026-12-20T12:00:00+00:00"
+    "youtube": "2026-12-18T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9916,9 +9710,7 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-25T11:30:00+00:00",
-    "tiktok": "2026-12-12T20:30:00+00:00",
-    "youtube": "2026-12-25T12:00:00+00:00"
+    "tiktok": "2026-12-12T20:30:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -9993,9 +9785,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-24T16:30:00+00:00",
+    "facebook": "2026-12-22T16:30:00+00:00",
     "tiktok": "2026-12-12T11:30:00+00:00",
-    "youtube": "2026-12-24T19:00:00+00:00"
+    "youtube": "2026-12-22T19:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -10032,24 +9824,24 @@
    }
   },
   {
-   "id": "pod-5687ca1c5a65-10",
+   "id": "pod-5687ca1c5a65-8",
    "kind": "podcast_clip",
    "status": "ready",
    "post_at": "2026-12-11T16:30:00+00:00",
    "posted_at": null,
-   "caption": "A tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #LongBeach #sidewayswire",
+   "caption": "Jack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #LongBeach #sidewayswire",
    "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-10__clip.mp4"
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-5687ca1c5a65-8__clip.mp4"
    ],
    "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
-   "check_reason": "",
+   "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
     "episode": "LB2 Pro Podium",
-    "start": 960.74
+    "start": 767.1
    },
    "platforms": [
     "instagram",
@@ -10057,12 +9849,12 @@
     "tiktok",
     "youtube"
    ],
-   "created": "2026-11-17T14:58:44.094607+00:00",
-   "built": "2026-11-17T18:09:52.835923+00:00",
+   "created": "2026-11-17T14:56:22.631414+00:00",
+   "built": "2026-11-17T18:09:52.837840+00:00",
    "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-10__clip.mp4",
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-5687ca1c5a65-8__clip.mp4",
    "tags": [
-    "@adam_lz",
+    "@jackshanahan59",
     "@formulad",
     "@jako13"
    ],
@@ -10071,35 +9863,35 @@
    "format": "single",
    "plan": {
     "facebook": "2026-12-11T16:30:00+00:00",
-    "tiktok": "2026-12-21T20:30:00+00:00",
+    "tiktok": "2026-12-23T20:30:00+00:00",
     "youtube": "2026-12-11T19:00:00+00:00"
    },
-   "score": 49,
+   "score": 54,
    "captions": {
-    "instagram": "Adam LZ | The Outerzone\n\nA tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\n#drift #adamlz #formuladrift #longbeach #sidewayswire",
-    "facebook": "Adam LZ | The Outerzone\n\nA tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\n#drift #adamlz #sidewayswire",
-    "tiktok": "Adam LZ | The Outerzone: A tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @formulad @jako13\n#drift #adamlz #formuladrift #sidewayswire",
-    "youtube_title": "Adam LZ | The Outerzone",
-    "youtube": "A tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
+    "instagram": "Jack Shanahan | The Outerzone\n\nJack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#drift #jackshanahan #formuladrift #longbeach #sidewayswire",
+    "facebook": "Jack Shanahan | The Outerzone\n\nJack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+    "tiktok": "Jack Shanahan | The Outerzone: Jack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @formulad @jako13\n#drift #jackshanahan #formuladrift #sidewayswire",
+    "youtube_title": "Jack Shanahan | The Outerzone",
+    "youtube": "Jack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
    },
    "ig": null,
    "collaborators": [
-    "adam_lz"
+    "jackshanahan59"
    ],
    "people": [
-    "Adam LZ"
+    "Jack Shanahan"
    ],
    "moment_kind": "moment",
    "pinned_at": null,
    "short_none": null,
-   "short_len": 23.3,
-   "thumb": "media/thumbs/pod-5687ca1c5a65-10.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-5687ca1c5a65-10.mp4",
+   "short_len": 11.8,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-8.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-5687ca1c5a65-8.mp4",
    "hook": null,
    "evergreen": null,
    "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-10__short.mp4",
-   "title": "ADAM LZ'S BITTERSWEET PODIUM",
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-5687ca1c5a65-8__short.mp4",
+   "title": "JACK: TOO HARD IN THE FINAL?",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -10143,9 +9935,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-20T16:30:00+00:00",
+    "facebook": "2026-12-21T11:30:00+00:00",
     "tiktok": "2026-12-11T16:30:00+00:00",
-    "youtube": "2026-12-20T19:00:00+00:00"
+    "youtube": "2026-12-21T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -10295,9 +10087,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-22T16:30:00+00:00",
+    "facebook": "2026-12-20T11:30:00+00:00",
     "tiktok": "2026-12-10T20:30:00+00:00",
-    "youtube": "2026-12-22T19:00:00+00:00"
+    "youtube": "2026-12-20T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -10446,9 +10238,9 @@
    "format": "split",
    "plan": {
     "instagram": "2026-12-25T16:30:00+00:00",
-    "facebook": "2026-12-14T16:30:00+00:00",
+    "facebook": "2026-12-12T16:30:00+00:00",
     "tiktok": "2026-12-10T11:30:00+00:00",
-    "youtube": "2026-12-14T19:00:00+00:00"
+    "youtube": "2026-12-12T19:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -10677,9 +10469,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-19T11:30:00+00:00",
+    "facebook": "2026-12-20T16:30:00+00:00",
     "tiktok": "2026-12-09T16:30:00+00:00",
-    "youtube": "2026-12-19T12:00:00+00:00"
+    "youtube": "2026-12-20T19:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -10904,9 +10696,9 @@
    "caption_by": null,
    "format": "split",
    "plan": {
-    "facebook": "2026-12-18T16:30:00+00:00",
+    "facebook": "2026-12-19T11:30:00+00:00",
     "tiktok": "2026-12-08T20:30:00+00:00",
-    "youtube": "2026-12-18T19:00:00+00:00"
+    "youtube": "2026-12-19T12:00:00+00:00"
    },
    "score": 92,
    "captions": {
@@ -10982,9 +10774,9 @@
    "format": "split",
    "plan": {
     "instagram": "2026-12-21T16:30:00+00:00",
-    "facebook": "2026-12-18T11:30:00+00:00",
+    "facebook": "2026-12-15T11:30:00+00:00",
     "tiktok": "2026-12-08T16:30:00+00:00",
-    "youtube": "2026-12-18T12:00:00+00:00"
+    "youtube": "2026-12-15T12:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -11058,9 +10850,9 @@
    "format": "split",
    "plan": {
     "instagram": "2026-12-24T16:30:00+00:00",
-    "facebook": "2026-12-15T11:30:00+00:00",
+    "facebook": "2026-12-16T16:30:00+00:00",
     "tiktok": "2026-12-08T11:30:00+00:00",
-    "youtube": "2026-12-15T12:00:00+00:00"
+    "youtube": "2026-12-16T19:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -12480,6 +12272,7 @@
    "plan": {
     "instagram": "2026-12-03T16:30:00+00:00",
     "facebook": "2026-12-03T16:30:00+00:00",
+    "tiktok": "2026-12-27T20:30:00+00:00",
     "youtube": "2026-12-03T19:00:00+00:00"
    },
    "score": 55,
@@ -12554,9 +12347,9 @@
    "format": "split",
    "plan": {
     "instagram": "2026-12-20T16:30:00+00:00",
-    "facebook": "2026-12-12T16:30:00+00:00",
+    "facebook": "2026-12-14T16:30:00+00:00",
     "tiktok": "2026-12-03T11:30:00+00:00",
-    "youtube": "2026-12-12T19:00:00+00:00"
+    "youtube": "2026-12-14T19:00:00+00:00"
    },
    "score": 92,
    "captions": {
@@ -12784,9 +12577,9 @@
    "format": "split",
    "plan": {
     "instagram": "2026-12-02T16:30:00+00:00",
-    "facebook": "2026-12-17T11:30:00+00:00",
+    "facebook": "2026-12-18T16:30:00+00:00",
     "tiktok": "2026-12-13T11:30:00+00:00",
-    "youtube": "2026-12-17T12:00:00+00:00"
+    "youtube": "2026-12-18T19:00:00+00:00"
    },
    "score": 87,
    "captions": {
@@ -27527,79 +27320,6 @@
    }
   },
   {
-   "id": "pod-ytzmzcyqa9c9e-10",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Lead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\n🎥 Footage: FD LONG BEACH 2026 HIGHLIGHTS | PRESENTE\n@conorshanahan79 @fredricaasbo @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzmzcyqa9c9e-10__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Long Beach 2026 Highlights | Presented by Type S Auto",
-    "start": 487.6
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-26T18:28:23.250454+00:00",
-   "built": "2026-11-26T19:31:42.854254+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytzmzcyqa9c9e-10__clip.mp4",
-   "tags": [
-    "@conorshanahan79",
-    "@fredricaasbo",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {},
-   "score": 87,
-   "captions": {
-    "instagram": "Conor Shanahan vs Fredric Aasbø | Formula DRIFT Long Beach 2026\n\nLead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @fredricaasbo @formulad\n\n#formuladrift #formulad #conorshanahan #fredricaasbo #sidewayswire",
-    "facebook": "Conor Shanahan vs Fredric Aasbø | Formula DRIFT Long Beach 2026\n\nLead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @fredricaasbo @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Conor Shanahan vs Fredric Aasbø | Formula DRIFT Long Beach 2026: Lead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Long Beach 2026 @conorshanahan79 @fredricaasbo @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
-    "youtube_title": "Shanahan vs Aasbø | Formula DRIFT Long Beach 2026",
-    "youtube": "Lead vs lead, chase vs chase: the Long Beach final between Conor Shanahan and Fredric Aasbo.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@conorshanahan79 @fredricaasbo @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "conorshanahan79",
-    "fredricaasbo"
-   ],
-   "people": [
-    "Conor Shanahan",
-    "Fredric Aasbø"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytzmzcyqa9c9e-10.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytzmzcyqa9c9e-10.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "LONG BEACH FINAL",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
    "id": "pod-ytvrote7tycsg-43",
    "kind": "stream_clip",
    "status": "ready",
@@ -32334,79 +32054,6 @@
    }
   },
   {
-   "id": "pod-ytckqkb2axqe-15",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\n🎥 Footage: FD SEATTLE 2026 HIGHLIGHTS | PRESENTED B\n@adam_lz @branden_sorensen @formulad\n\n#formulad #formuladrift #drifting #seattle #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Seattle 2026 Highlights | Presented by Type S Auto",
-    "start": 725.04
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-19T08:23:24.031280+00:00",
-   "built": "2026-11-26T19:31:38.377447+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__clip.mp4",
-   "tags": [
-    "@adam_lz",
-    "@branden_sorensen",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": {},
-   "score": 85,
-   "captions": {
-    "instagram": "Adam LZ vs Brandon Sorensen | Formula DRIFT Seattle 2026\n\nAdam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@adam_lz @branden_sorensen @formulad\n\n#formuladrift #formulad #adamlz #brandonsorensen #sidewayswire",
-    "facebook": "Adam LZ vs Brandon Sorensen | Formula DRIFT Seattle 2026\n\nAdam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@adam_lz @branden_sorensen @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Adam LZ vs Brandon Sorensen | Formula DRIFT Seattle 2026: Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Seattle 2026 @adam_lz @branden_sorensen @formulad\n#formuladrift #formulad #adamlz #sidewayswire",
-    "youtube_title": "Adam LZ vs Brandon Sorensen | Formula DRIFT Seattle 2026",
-    "youtube": "Adam LZ high on the wall, Brandon Sorensen scrappy behind him. Bumpers tagged, headlights shed.\n\n🎥 Footage: Formula DRIFT Seattle 2026\n@adam_lz @branden_sorensen @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "adam_lz",
-    "branden_sorensen"
-   ],
-   "people": [
-    "Adam LZ",
-    "Brandon Sorensen"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 23.1,
-   "thumb": "media/thumbs/pod-ytckqkb2axqe-15.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytckqkb2axqe-15.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytckqkb2axqe-15__short.mp4",
-   "title": "SHEDDING HEADLIGHTS",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
    "id": "pod-ytckqkb2axqe-14",
    "kind": "stream_clip",
    "status": "ready",
@@ -35678,6 +35325,76 @@
    }
   },
   {
+   "id": "pod-b5159f5c03f8-8",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Ten years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #e36compact #bmw #grassrootsdrift #m52 #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-8__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@goodestcast",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 2755.98
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:25:49.454790+00:00",
+   "built": "2026-11-26T19:31:36.689782+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-8__clip.mp4",
+   "tags": [
+    "@thama56",
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 48,
+   "captions": {
+    "instagram": "Rafael Muller | The Goodest Cast\n\nTen years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #e36compact #sidewayswire",
+    "facebook": "Rafael Muller | The Goodest Cast\n\nTen years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+    "tiktok": "Rafael Muller | The Goodest Cast: Ten years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+    "youtube_title": "Rafael Muller | The Goodest Cast",
+    "youtube": "Ten years old, everything broken, and a timer: one hour of wrenching, then it drives as is. Rafael Muller's E36 Compact philosophy.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Rafael Muller",
+    "Palmer Sanderson"
+   ],
+   "moment_kind": "moment",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": 15.8,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-8.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-b5159f5c03f8-8.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-b5159f5c03f8-8__short.mp4",
+   "title": "THE ONE HOUR WRENCHING RULE",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
    "id": "pod-b5159f5c03f8-7",
    "kind": "podcast_clip",
    "status": "ready",
@@ -35811,6 +35528,76 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-b5159f5c03f8-6__short.mp4",
    "title": "ONE OF 3 STREET LEGAL SILVIAS",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-b5159f5c03f8-5",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #poland #driftevent #e36 #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b5159f5c03f8-5__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@goodestcast",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Goodest Cast",
+    "episode": "Rafael Muller aggressive grassroots drifter from Switzerland",
+    "start": 1790.41
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T15:23:32.646732+00:00",
+   "built": "2026-11-26T19:31:36.593550+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b5159f5c03f8-5__clip.mp4",
+   "tags": [
+    "@thama56",
+    "@palmer_sndrsn",
+    "@goodestcast"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 48,
+   "captions": {
+    "instagram": "Rafael Muller | The Goodest Cast\n\nA full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #poland #sidewayswire",
+    "facebook": "Rafael Muller | The Goodest Cast\n\nA full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+    "tiktok": "Rafael Muller | The Goodest Cast: A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+    "youtube_title": "Rafael Muller | The Goodest Cast",
+    "youtube": "A full carbon Bentley next to a slammed E36 pumping hardstyle. Rafael Muller on the mix at a massive drift event in Poland.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [],
+   "people": [
+    "Rafael Muller",
+    "Palmer Sanderson"
+   ],
+   "moment_kind": "moment",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": 18.4,
+   "thumb": "media/thumbs/pod-b5159f5c03f8-5.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-b5159f5c03f8-5.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-b5159f5c03f8-5__short.mp4",
+   "title": "A PRINCE IN THE POLAND PADDOCK",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -37650,6 +37437,77 @@
    }
   },
   {
+   "id": "pod-ytcaagmgzlale-24",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\n🎥 Footage: FD LAS VEGAS 2026 HIGHLIGHTS | PRESENTED\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 Highlights | Presented by Type S Auto",
+    "start": 1387.5
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-19T07:56:15.300415+00:00",
+   "built": "2026-11-26T15:18:25.281748+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytcaagmgzlale-24__clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": {},
+   "score": 87,
+   "captions": {
+    "instagram": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nLead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formuladrift #formulad #conorshanahan #jackshanahan #sidewayswire",
+    "facebook": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026\n\nLead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Conor Shanahan vs Jack Shanahan | Formula DRIFT Las Vegas 2026: Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Las Vegas 2026 @conorshanahan79 @jackshanahan59 @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
+    "youtube_title": "Shanahan vs Shanahan | Formula DRIFT Las Vegas 2026",
+    "youtube": "Lead vs lead, chase vs chase: Conor and Jack Shanahan in Las Vegas.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "conorshanahan79",
+    "jackshanahan59"
+   ],
+   "people": [
+    "Conor Shanahan",
+    "Jack Shanahan"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-ytcaagmgzlale-24.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytcaagmgzlale-24.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SHANAHAN BROTHERS",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
    "id": "pod-ytcaagmgzlale-15",
    "kind": "stream_clip",
    "status": "ready",
@@ -38361,79 +38219,6 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ytvrote7tycsg-5__short.mp4",
    "title": "D-MADS GOES THE WRONG WAY",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
-   "id": "pod-ytvrote7tycsg-42",
-   "kind": "stream_clip",
-   "status": "ready",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jack Shanahan against Rudy Hansen, both runs side by side.\n\n🎥 Footage: FD LONG BEACH 2026\n@jackshanahan59 @rudyhansen119 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytvrote7tycsg-42__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Long Beach 2026 - PRO, Round 1 - Top 32",
-    "start": 7476.0
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-21T05:13:21.724792+00:00",
-   "built": "2026-11-25T08:57:24.402405+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytvrote7tycsg-42__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@rudyhansen119",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "split",
-   "plan": {},
-   "score": 87,
-   "captions": {
-    "instagram": "Jack Shanahan vs Rudy Hansen | Formula DRIFT Long Beach 2026\n\nJack Shanahan against Rudy Hansen, both runs side by side.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @rudyhansen119 @formulad\n\n#formuladrift #formulad #jackshanahan #rudyhansen #sidewayswire",
-    "facebook": "Jack Shanahan vs Rudy Hansen | Formula DRIFT Long Beach 2026\n\nJack Shanahan against Rudy Hansen, both runs side by side.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @rudyhansen119 @formulad\n\n#formuladrift #formulad #sidewayswire",
-    "tiktok": "Jack Shanahan vs Rudy Hansen | Formula DRIFT Long Beach 2026: Jack Shanahan against Rudy Hansen, both runs side by side.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Long Beach 2026 @jackshanahan59 @rudyhansen119 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
-    "youtube_title": "Jack Shanahan vs Rudy Hansen | Formula DRIFT Long Beach 2026",
-    "youtube": "Jack Shanahan against Rudy Hansen, both runs side by side.\n\n🎥 Footage: Formula DRIFT Long Beach 2026\n@jackshanahan59 @rudyhansen119 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
-   },
-   "ig": null,
-   "collaborators": [
-    "jackshanahan59",
-    "rudyhansen119"
-   ],
-   "people": [
-    "Jack Shanahan",
-    "Rudy Hansen"
-   ],
-   "moment_kind": "battle",
-   "pinned_at": null,
-   "short_none": "split",
-   "short_len": null,
-   "thumb": "media/thumbs/pod-ytvrote7tycsg-42.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytvrote7tycsg-42.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "SHANAHAN VS HANSEN SPLIT",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -40679,6 +40464,77 @@
    "tiktok_done": null,
    "short": null,
    "title": "BEECHUM VS HANSEN, SIDE BY SIDE",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-da5d8825120e-15",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#formulad #formuladrift #conorshanahan #drifting #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-da5d8825120e-15__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "Conor Shanahan",
+    "start": 3259.9
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-16T19:57:09.113931+00:00",
+   "built": "2026-11-25T08:57:23.234756+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-da5d8825120e-15__clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": null,
+   "plan": {},
+   "score": 54,
+   "captions": {
+    "instagram": "Conor Shanahan | The Outerzone\n\nThe champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #formulad #formuladrift #sidewayswire",
+    "facebook": "Conor Shanahan | The Outerzone\n\nThe champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\n#drift #conorshanahan #sidewayswire",
+    "tiktok": "Conor Shanahan | The Outerzone: The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @conorshanahan79 @formulad @jako13\n#drift #conorshanahan #formulad #sidewayswire",
+    "youtube_title": "Conor Shanahan | The Outerzone",
+    "youtube": "The champion's off-season: D1 in Japan, Cyprus, a rally and back to Oman in January.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@conorshanahan79 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #conorshanahan #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "conorshanahan79"
+   ],
+   "people": [
+    "Conor Shanahan"
+   ],
+   "moment_kind": "moment",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": 7.8,
+   "thumb": "media/thumbs/pod-da5d8825120e-15.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-da5d8825120e-15.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-da5d8825120e-15__short.mp4",
+   "title": "OFF-SEASON? WHAT OFF-SEASON?",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -42942,6 +42798,79 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-ytrbtps1zxw4i-14__short.mp4",
    "title": "CONOR THE SHADOW: 100 PERCENT PROXIMITY",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-ytoslpnfy2o5k-7",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\n🎥 Footage: THE 2026 FD FINALE IN 10 MINUTES | ROCKS\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formulad #formuladrift #drifting #longbeach #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytoslpnfy2o5k-7__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "The 2026 Formula DRIFT Finale in 10 Minutes | Rockstar Rewind",
+    "start": 485.0
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-20T01:00:15.581491+00:00",
+   "built": "2026-11-21T11:55:32.842278+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytoslpnfy2o5k-7__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@jamesdeane130",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": {},
+   "score": 87,
+   "captions": {
+    "instagram": "Jack Shanahan vs James Deane | Formula DRIFT Finale 2026\n\nLead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formuladrift #formulad #jackshanahan #jamesdeane #sidewayswire",
+    "facebook": "Jack Shanahan vs James Deane | Formula DRIFT Finale 2026\n\nLead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Jack Shanahan vs James Deane | Formula DRIFT Finale 2026: Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Finale 2026 @jackshanahan59 @jamesdeane130 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
+    "youtube_title": "Jack Shanahan vs James Deane | Formula DRIFT Finale 2026",
+    "youtube": "Lead vs lead, chase vs chase: Jack Shanahan and James Deane in the last final of 2026.\n\n🎥 Footage: Formula DRIFT Finale 2026\n@jackshanahan59 @jamesdeane130 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "jackshanahan59",
+    "jamesdeane130"
+   ],
+   "people": [
+    "Jack Shanahan",
+    "James Deane"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-ytoslpnfy2o5k-7.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-ytoslpnfy2o5k-7.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "LONG BEACH FINAL",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -46737,6 +46666,77 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-yt9lxrdzgctgm-26__short.mp4",
    "title": "LZ FINDS HIS FORM",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-yt8bwn2g2ssy-48",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "The final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\n🎥 Footage: FD LAS VEGAS 2026\n@conorshanahan79 @mattfield777 @formulad\n\n#formulad #formuladrift #drifting #lasvegas #conorshanahan #sidewayswire",
+   "media": [],
+   "problems": null,
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Las Vegas 2026 - PRO, Round 7 - Top 16 On-Demand",
+    "start": 10039
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-18T23:16:34.503173+00:00",
+   "built": "2026-11-20T18:56:31.082515+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-yt8bwn2g2ssy-48__clip.mp4",
+   "tags": [
+    "@conorshanahan79",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "split",
+   "plan": {},
+   "score": 87,
+   "captions": {
+    "instagram": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026\n\nThe final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @formulad\n\n#formuladrift #formulad #conorshanahan #mattfield #sidewayswire",
+    "facebook": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026\n\nThe final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026: The final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Las Vegas 2026 @conorshanahan79 @mattfield777 @formulad\n#formuladrift #formulad #conorshanahan #sidewayswire",
+    "youtube_title": "Conor Shanahan vs Matt Field | Formula DRIFT Las Vegas 2026",
+    "youtube": "The final of round 7: Conor Shanahan against Matt Field. Run 1 on top, run 2 below.\n\n🎥 Footage: Formula DRIFT Las Vegas 2026\n@conorshanahan79 @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "conorshanahan79",
+    "mattfield777"
+   ],
+   "people": [
+    "Conor Shanahan",
+    "Matt Field"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": "split",
+   "short_len": null,
+   "thumb": "media/thumbs/pod-yt8bwn2g2ssy-48.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-yt8bwn2g2ssy-48.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "THE LAS VEGAS FINAL, SIDE BY SIDE",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -61679,7 +61679,7 @@
   {
    "id": "pod-b5159f5c03f8-23",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Palmer Sanderson said on The Goodest Cast that he's been thinking about going to school to become a therapist. Brand new info, nothing confirmed.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @thama56 @goodestcast\n\n#drift #podcast #goodestcast #driftcommunity #sidewayswire",
@@ -61689,7 +61689,7 @@
    "problems": [],
    "results": null,
    "credit": "@goodestcast",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Goodest Cast",
@@ -61714,16 +61714,22 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 40,
+   "captions": {
+    "instagram": "Palmer Sanderson | The Goodest Cast\n\nPalmer Sanderson said on The Goodest Cast that he's been thinking about going to school to become a therapist. Brand new info, nothing confirmed.\n\nTag the person you watch drift with 👇\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @thama56 @goodestcast\n\n#drift #palmersanderson #rafaelmuller #podcast #sidewayswire",
+    "facebook": "Palmer Sanderson | The Goodest Cast\n\nPalmer Sanderson said on The Goodest Cast that he's been thinking about going to school to become a therapist. Brand new info, nothing confirmed.\n\nTag the person you watch drift with 👇\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @thama56 @goodestcast\n\n#drift #palmersanderson #sidewayswire",
+    "tiktok": "Palmer Sanderson | The Goodest Cast: Palmer Sanderson said on The Goodest Cast that he's been thinking about going to school to become a therapist. Brand new info, nothing confirmed.\nTag the person you watch drift with 👇\n🎙 Full episode: The Goodest Cast @palmer_sndrsn @thama56 @goodestcast\n#drift #palmersanderson #rafaelmuller #sidewayswire",
+    "youtube_title": "Palmer Sanderson | The Goodest Cast",
+    "youtube": "Palmer Sanderson said on The Goodest Cast that he's been thinking about going to school to become a therapist. Brand new info, nothing confirmed.\n\n🎙 Full episode: The Goodest Cast\n@palmer_sndrsn @thama56 @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #palmersanderson #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [],
    "people": [
     "Palmer Sanderson",
     "Rafael Muller"
    ],
-   "moment_kind": null,
+   "moment_kind": "rumor",
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
@@ -61814,7 +61820,7 @@
   {
    "id": "pod-c82113ef8385-9",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "A birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#FormulaDRIFT #MattField #FDLV #SEMA #sidewayswire",
@@ -61824,7 +61830,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -61849,15 +61855,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 49,
+   "captions": {
+    "instagram": "Matt Field | The Outerzone\n\nA birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#drift #mattfield #formuladrift #fdlv #sidewayswire",
+    "facebook": "Matt Field | The Outerzone\n\nA birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#drift #mattfield #sidewayswire",
+    "tiktok": "Matt Field | The Outerzone: A birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @mattfield777 @formulad @jako13\n#drift #mattfield #formuladrift #sidewayswire",
+    "youtube_title": "Matt Field | The Outerzone",
+    "youtube": "A birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #mattfield #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "mattfield777"
+   ],
    "people": [
     "Matt Field"
    ],
-   "moment_kind": null,
+   "moment_kind": "moment",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -62241,7 +62255,7 @@
   {
    "id": "pod-c82113ef8385-2",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "The fans came on 10 degrees earlier in Vegas. How Pro teams keep their drift cars cool between runs.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #FDLV #DriftTech #sidewayswire",
@@ -62251,7 +62265,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -62278,17 +62292,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 51,
+   "captions": {
+    "instagram": "Jack Shanahan | The Outerzone\n\nThe fans came on 10 degrees earlier in Vegas. How Pro teams keep their drift cars cool between runs.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#drift #jackshanahan #mattfield #formuladrift #sidewayswire",
+    "facebook": "Jack Shanahan | The Outerzone\n\nThe fans came on 10 degrees earlier in Vegas. How Pro teams keep their drift cars cool between runs.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+    "tiktok": "Jack Shanahan | The Outerzone: The fans came on 10 degrees earlier in Vegas. How Pro teams keep their drift cars cool between runs.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n#drift #jackshanahan #mattfield #sidewayswire",
+    "youtube_title": "Jack Shanahan | The Outerzone",
+    "youtube": "The fans came on 10 degrees earlier in Vegas. How Pro teams keep their drift cars cool between runs.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "jackshanahan59",
+    "mattfield777",
+    "conorshanahan79"
+   ],
    "people": [
     "Jack Shanahan",
     "Matt Field",
     "Conor Shanahan"
    ],
-   "moment_kind": null,
+   "moment_kind": "fact",
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
@@ -62308,7 +62332,7 @@
   {
    "id": "pod-c82113ef8385-10",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Nine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\n#FormulaDRIFT #FDLV #LasVegas #sidewayswire",
@@ -62318,7 +62342,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -62345,17 +62369,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 59,
+   "captions": {
+    "instagram": "Jack Shanahan | The Outerzone\n\nNine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\n#drift #jackshanahan #conorshanahan #formuladrift #sidewayswire",
+    "facebook": "Jack Shanahan | The Outerzone\n\nNine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+    "tiktok": "Jack Shanahan | The Outerzone: Nine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n#drift #jackshanahan #conorshanahan #sidewayswire",
+    "youtube_title": "Jack Shanahan | The Outerzone",
+    "youtube": "Nine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "jackshanahan59",
+    "conorshanahan79",
+    "mattfield777"
+   ],
    "people": [
     "Jack Shanahan",
     "Conor Shanahan",
     "Matt Field"
    ],
-   "moment_kind": null,
+   "moment_kind": "moment",
    "pinned_at": null,
    "short_none": "kort genoeg",
    "short_len": null,
@@ -62375,7 +62409,7 @@
   {
    "id": "pod-c82113ef8385-1",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "No wind, no cooling. The Vegas podium on cars running hot all night at the Bullring.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#FormulaDRIFT #FDLV #LasVegas #sidewayswire",
@@ -62385,7 +62419,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "namen nakijken",
    "source": {
     "podcast": "The Outerzone",
@@ -62412,17 +62446,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 54,
+   "captions": {
+    "instagram": "Jack Shanahan | The Outerzone\n\nNo wind, no cooling. The Vegas podium on cars running hot all night at the Bullring.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#drift #jackshanahan #mattfield #formuladrift #sidewayswire",
+    "facebook": "Jack Shanahan | The Outerzone\n\nNo wind, no cooling. The Vegas podium on cars running hot all night at the Bullring.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+    "tiktok": "Jack Shanahan | The Outerzone: No wind, no cooling. The Vegas podium on cars running hot all night at the Bullring.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n#drift #jackshanahan #mattfield #sidewayswire",
+    "youtube_title": "Jack Shanahan | The Outerzone",
+    "youtube": "No wind, no cooling. The Vegas podium on cars running hot all night at the Bullring.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @mattfield777 @conorshanahan79 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "jackshanahan59",
+    "mattfield777",
+    "conorshanahan79"
+   ],
    "people": [
     "Jack Shanahan",
     "Matt Field",
     "Conor Shanahan"
    ],
-   "moment_kind": null,
+   "moment_kind": "moment",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -62440,76 +62484,9 @@
    }
   },
   {
-   "id": "pod-c82113ef8385-0",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field helped design the new Vegas layout, and says it will not stay the same in the coming years.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @ryantuerck @kengushi @formulad @jako13\n\n#FormulaDRIFT #FDLV #MattField #LasVegas #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-c82113ef8385-0__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "Vegas Pro Podium",
-    "start": 49.18
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T15:53:16.815357+00:00",
-   "built": "2026-11-17T18:09:52.850039+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-c82113ef8385-0__clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@ryantuerck",
-    "@kengushi",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": [
-    "Matt Field",
-    "Ryan Tuerck",
-    "Ken Gushi"
-   ],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 25.0,
-   "thumb": "media/thumbs/pod-c82113ef8385-0.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-c82113ef8385-0.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-c82113ef8385-0__short.mp4",
-   "title": "MATT FIELD ON HIS VEGAS LAYOUT",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
    "id": "pod-b5159f5c03f8-11",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Stressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #driftlife #mindset #grassrootsdrift #sidewayswire",
@@ -62519,7 +62496,7 @@
    "problems": [],
    "results": null,
    "credit": "@goodestcast",
-   "check": true,
+   "check": false,
    "check_reason": "handles nakijken: Rafael Muller",
    "source": {
     "podcast": "The Goodest Cast",
@@ -62544,16 +62521,22 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 39,
+   "captions": {
+    "instagram": "Rafael Muller | The Goodest Cast\n\nStressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #palmersanderson #driftlife #sidewayswire",
+    "facebook": "Rafael Muller | The Goodest Cast\n\nStressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\n#drift #rafaelmuller #sidewayswire",
+    "tiktok": "Rafael Muller | The Goodest Cast: Stressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n🎙 Full episode: The Goodest Cast @thama56 @palmer_sndrsn @goodestcast\n#drift #rafaelmuller #palmersanderson #sidewayswire",
+    "youtube_title": "Rafael Muller | The Goodest Cast",
+    "youtube": "Stressed at the track? Picture yourself at 90, wishing you could relive this exact moment.\n\n🎙 Full episode: The Goodest Cast\n@thama56 @palmer_sndrsn @goodestcast\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #rafaelmuller #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [],
    "people": [
     "Rafael Muller",
     "Palmer Sanderson"
    ],
-   "moment_kind": null,
+   "moment_kind": "quote",
    "pinned_at": null,
    "short_none": null,
    "short_len": 20.4,
@@ -63742,69 +63725,6 @@
    }
   },
   {
-   "id": "pod-5687ca1c5a65-8",
-   "kind": "podcast_clip",
-   "status": "check",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#FormulaDRIFT #JackShanahan #LongBeach #sidewayswire",
-   "media": [
-    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-5687ca1c5a65-8__clip.mp4"
-   ],
-   "problems": [],
-   "results": null,
-   "credit": "@formulad",
-   "check": true,
-   "check_reason": "namen nakijken",
-   "source": {
-    "podcast": "The Outerzone",
-    "episode": "LB2 Pro Podium",
-    "start": 767.1
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-17T14:56:22.631414+00:00",
-   "built": "2026-11-17T18:09:52.837840+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-5687ca1c5a65-8__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@formulad",
-    "@jako13"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": [
-    "Jack Shanahan"
-   ],
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": 11.8,
-   "thumb": "media/thumbs/pod-5687ca1c5a65-8.jpg",
-   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-5687ca1c5a65-8.mp4",
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-5687ca1c5a65-8__short.mp4",
-   "title": "JACK: TOO HARD IN THE FINAL?",
-   "photo": null,
-   "rights": {
-    "r": "geleend",
-    "money": false
-   }
-  },
-  {
    "id": "pod-5687ca1c5a65-7",
    "kind": "podcast_clip",
    "status": "ready",
@@ -63953,9 +63873,83 @@
    }
   },
   {
+   "id": "pod-5687ca1c5a65-5",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #Rumor #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-5687ca1c5a65-5__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "gerucht uit een podcast",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 601.76
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:53:19.827454+00:00",
+   "built": "2026-11-17T18:09:52.837175+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-5687ca1c5a65-5__clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@jamesdeane130",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 51,
+   "captions": {
+    "instagram": "Adam LZ | The Outerzone\n\nAdam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #jamesdeane #formuladrift #sidewayswire",
+    "facebook": "Adam LZ | The Outerzone\n\nAdam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #sidewayswire",
+    "tiktok": "Adam LZ | The Outerzone: Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\nWho took this one? Send it to someone who'll argue 👇\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @jamesdeane130 @formulad @jako13\n#drift #adamlz #jamesdeane #sidewayswire",
+    "youtube_title": "Adam LZ | The Outerzone",
+    "youtube": "Adam LZ hints his Pro car is heading for other motorsport disciplines during his break, said on The Outerzone. Nothing confirmed yet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jamesdeane130 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "adam_lz",
+    "jamesdeane130"
+   ],
+   "people": [
+    "Adam LZ",
+    "James Deane"
+   ],
+   "moment_kind": "rumor",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": 29.3,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-5.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-5687ca1c5a65-5.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-5687ca1c5a65-5__short.mp4",
+   "title": "ADAM LZ'S PRO CAR: NEW PLANS?",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
    "id": "pod-5687ca1c5a65-11",
    "kind": "podcast_clip",
-   "status": "check",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Adam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #Rumor #sidewayswire",
@@ -63965,7 +63959,7 @@
    "problems": [],
    "results": null,
    "credit": "@formulad",
-   "check": true,
+   "check": false,
    "check_reason": "gerucht uit een podcast",
    "source": {
     "podcast": "The Outerzone",
@@ -63992,17 +63986,27 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 51,
+   "captions": {
+    "instagram": "Adam LZ | The Outerzone\n\nAdam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #jackshanahan #formuladrift #sidewayswire",
+    "facebook": "Adam LZ | The Outerzone\n\nAdam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #sidewayswire",
+    "tiktok": "Adam LZ | The Outerzone: Adam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\nSend this to your drift group chat 🔥\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n#drift #adamlz #jackshanahan #sidewayswire",
+    "youtube_title": "Adam LZ | The Outerzone",
+    "youtube": "Adam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
+   "collaborators": [
+    "adam_lz",
+    "jackshanahan59",
+    "jamesdeane130"
+   ],
    "people": [
     "Adam LZ",
     "Jack Shanahan",
     "James Deane"
    ],
-   "moment_kind": null,
+   "moment_kind": "rumor",
    "pinned_at": null,
    "short_none": null,
    "short_len": 29.3,
@@ -64013,6 +64017,77 @@
    "tiktok_done": null,
    "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-7/pod-5687ca1c5a65-11__short.mp4",
    "title": "ADAM LZ: 'I'M COMING BACK'",
+   "photo": null,
+   "rights": {
+    "r": "geleend",
+    "money": false
+   }
+  },
+  {
+   "id": "pod-5687ca1c5a65-10",
+   "kind": "podcast_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "A tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\n#FormulaDRIFT #AdamLZ #LongBeach #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-10__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "The Outerzone",
+    "episode": "LB2 Pro Podium",
+    "start": 960.74
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-17T14:58:44.094607+00:00",
+   "built": "2026-11-17T18:09:52.835923+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-10__clip.mp4",
+   "tags": [
+    "@adam_lz",
+    "@formulad",
+    "@jako13"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 49,
+   "captions": {
+    "instagram": "Adam LZ | The Outerzone\n\nA tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\n#drift #adamlz #formuladrift #longbeach #sidewayswire",
+    "facebook": "Adam LZ | The Outerzone\n\nA tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\n#drift #adamlz #sidewayswire",
+    "tiktok": "Adam LZ | The Outerzone: A tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @formulad @jako13\n#drift #adamlz #formuladrift #sidewayswire",
+    "youtube_title": "Adam LZ | The Outerzone",
+    "youtube": "A tough year, then a podium at the very last round. Adam LZ on why Long Beach felt bittersweet.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "adam_lz"
+   ],
+   "people": [
+    "Adam LZ"
+   ],
+   "moment_kind": "moment",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": 23.3,
+   "thumb": "media/thumbs/pod-5687ca1c5a65-10.jpg",
+   "preview": "https://sttpjoshua.github.io/sidewayswire-media/previews/pod-5687ca1c5a65-10.mp4",
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-6/pod-5687ca1c5a65-10__short.mp4",
+   "title": "ADAM LZ'S BITTERSWEET PODIUM",
    "photo": null,
    "rights": {
     "r": "geleend",
@@ -73494,7 +73569,7 @@
    "mix": {
     "eigen": 8,
     "toestemming": 0,
-    "geleend": 837
+    "geleend": 846
    }
   },
   "milestones": [

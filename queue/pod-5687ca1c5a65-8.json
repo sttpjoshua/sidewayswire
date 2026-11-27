@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-8",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "JACK: TOO HARD IN THE FINAL?",
  "video": "docs/media/pod-5687ca1c5a65-8/clip.mp4",
@@ -47,5 +47,23 @@
   "at": "2026-11-26T19:31:44.207433+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-27T12:29:45.662Z"
+ "approved": "2026-11-27T12:29:45.662Z",
+ "post_at": "2026-12-11T16:30:00+00:00",
+ "score": 54,
+ "moment_kind": "moment",
+ "plan": {
+  "facebook": "2026-12-11T16:30:00+00:00",
+  "tiktok": "2026-12-23T20:30:00+00:00",
+  "youtube": "2026-12-11T19:00:00+00:00"
+ },
+ "captions": {
+  "instagram": "Jack Shanahan | The Outerzone\n\nJack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#drift #jackshanahan #formuladrift #longbeach #sidewayswire",
+  "facebook": "Jack Shanahan | The Outerzone\n\nJack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+  "tiktok": "Jack Shanahan | The Outerzone: Jack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @formulad @jako13\n#drift #jackshanahan #formuladrift #sidewayswire",
+  "youtube_title": "Jack Shanahan | The Outerzone",
+  "youtube": "Jack Shanahan on budgets, unfinished business and pushing too hard in the Long Beach final.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+ },
+ "collaborators": [
+  "jackshanahan59"
+ ]
 }

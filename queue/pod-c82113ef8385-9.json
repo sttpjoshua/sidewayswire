@@ -1,7 +1,7 @@
 {
  "id": "pod-c82113ef8385-9",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "MATT FIELD'S VEGAS BIRTHDAY",
  "video": "docs/media/pod-c82113ef8385-9/clip.mp4",
@@ -47,5 +47,19 @@
   "at": "2026-11-26T19:31:44.229251+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-27T12:30:14.785Z"
+ "approved": "2026-11-27T12:30:14.785Z",
+ "post_at": null,
+ "score": 49,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Matt Field | The Outerzone\n\nA birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#drift #mattfield #formuladrift #fdlv #sidewayswire",
+  "facebook": "Matt Field | The Outerzone\n\nA birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\n#drift #mattfield #sidewayswire",
+  "tiktok": "Matt Field | The Outerzone: A birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @mattfield777 @formulad @jako13\n#drift #mattfield #formuladrift #sidewayswire",
+  "youtube_title": "Matt Field | The Outerzone",
+  "youtube": "A birthday, the family in town and a podium. Matt Field on Vegas without the SEMA chaos.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@mattfield777 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #mattfield #sidewayswire"
+ },
+ "collaborators": [
+  "mattfield777"
+ ]
 }

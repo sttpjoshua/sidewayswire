@@ -1,7 +1,7 @@
 {
  "id": "pod-5687ca1c5a65-11",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "ADAM LZ: 'I'M COMING BACK'",
  "video": "docs/media/pod-5687ca1c5a65-11/clip.mp4",
@@ -51,5 +51,21 @@
   "at": "2026-11-26T19:31:44.205477+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-27T12:29:48.068Z"
+ "approved": "2026-11-27T12:29:48.068Z",
+ "post_at": null,
+ "score": 51,
+ "moment_kind": "rumor",
+ "plan": {},
+ "captions": {
+  "instagram": "Adam LZ | The Outerzone\n\nAdam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #jackshanahan #formuladrift #sidewayswire",
+  "facebook": "Adam LZ | The Outerzone\n\nAdam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\n\nSend this to your drift group chat 🔥\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n\n#drift #adamlz #sidewayswire",
+  "tiktok": "Adam LZ | The Outerzone: Adam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\nSend this to your drift group chat 🔥\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n#drift #adamlz #jackshanahan #sidewayswire",
+  "youtube_title": "Adam LZ | The Outerzone",
+  "youtube": "Adam LZ says his break is not the end: he wants to come back full focus for a championship, said on The Outerzone.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@adam_lz @jackshanahan59 @jamesdeane130 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #adamlz #sidewayswire"
+ },
+ "collaborators": [
+  "adam_lz",
+  "jackshanahan59",
+  "jamesdeane130"
+ ]
 }

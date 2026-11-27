@@ -1,7 +1,7 @@
 {
  "id": "pod-c82113ef8385-10",
  "kind": "podcast_clip",
- "status": "approved",
+ "status": "ready",
  "slides": [],
  "title": "NINE FLIGHTS CHANGED IN ONE YEAR",
  "video": "docs/media/pod-c82113ef8385-10/clip.mp4",
@@ -50,5 +50,21 @@
   "at": "2026-11-26T19:31:44.226274+00:00"
  },
  "approved_by": "joshua",
- "approved": "2026-11-27T12:30:19.012Z"
+ "approved": "2026-11-27T12:30:19.012Z",
+ "post_at": null,
+ "score": 59,
+ "moment_kind": "moment",
+ "plan": {},
+ "captions": {
+  "instagram": "Jack Shanahan | The Outerzone\n\nNine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\n#drift #jackshanahan #conorshanahan #formuladrift #sidewayswire",
+  "facebook": "Jack Shanahan | The Outerzone\n\nNine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\n#drift #jackshanahan #sidewayswire",
+  "tiktok": "Jack Shanahan | The Outerzone: Nine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast @jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n#drift #jackshanahan #conorshanahan #sidewayswire",
+  "youtube_title": "Jack Shanahan | The Outerzone",
+  "youtube": "Nine flights changed this year, and not because of partying. The Vegas podium on the art of staying in bed.\n\n🎙 Full episode: The Outerzone, the official Formula DRIFT podcast\n@jackshanahan59 @conorshanahan79 @mattfield777 @formulad @jako13\n\nSideways Wire: drift news, battles and the best runs.\n\n#drift #jackshanahan #sidewayswire"
+ },
+ "collaborators": [
+  "jackshanahan59",
+  "conorshanahan79",
+  "mattfield777"
+ ]
 }
