@@ -697,7 +697,7 @@
   "why": "Excitement and skill",
   "caption": "Cody Buchanan's qualifying run was impressive.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -706,7 +706,12 @@
    "text": "IS HE HAVING FUN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ytog8i68qcjxg-26-50309-51081.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-26-50309-51081.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5072.9, \"start\": 5071.66, \"text\": \"IS HE HAVING FUN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:29:52.859104+00:00"
  },
  {
   "start": 5375.6,
@@ -719,13 +724,17 @@
   "why": "High tension and skillful driving",
   "caption": "Brandon Sorensen dominates Jonathan Castro.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "run_end": 5433.12,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-27-53756-54391.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-27-53756-54391.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:31:16.682112+00:00"
  },
  {
   "start": 5514.72,
@@ -738,13 +747,17 @@
   "why": "Excitement and energy described in the commentary.",
   "caption": "Excitement in Seattle as Brandon Sorensen wins the battle.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "run_end": 5532.92,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-28-55147-55389.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-28-55147-55389.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{}",
+  "made": "2026-11-27T03:31:48.509294+00:00"
  },
  {
   "start": 5583.34,
@@ -757,7 +770,7 @@
   "why": "Important matchup and the significance of the one more time run.",
   "caption": "Cole Richards takes on Chris Forsberg in a crucial one more time run.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -768,7 +781,11 @@
   },
   "run_end": 5665.32,
   "result_done": 1,
-  "redo": false,
-  "wait_name": "v2-ytog8i68qcjxg-29-55833-56673.mp4"
+  "wait_name": "v2-ytog8i68qcjxg-29-55833-56673.mp4",
+  "clip": "docs/media/pod-ytog8i68qcjxg-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 5657.32, \"start\": 5654.38, \"text\": \"ONE MORE TIME WITH FORSBERG\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T03:34:25.636190+00:00"
  }
 ]
