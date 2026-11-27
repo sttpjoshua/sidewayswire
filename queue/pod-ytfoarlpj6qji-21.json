@@ -1,7 +1,7 @@
 {
  "id": "pod-ytfoarlpj6qji-21",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "CHEN VS FIELD",
  "video": "docs/media/pod-ytfoarlpj6qji-21/clip.mp4",
@@ -28,5 +28,33 @@
   "start": 2572.68
  },
  "created": "2026-11-27T02:12:36.186372+00:00",
- "built": "2026-11-27T02:12:36.186379+00:00"
+ "built": "2026-11-27T02:25:09.051384+00:00",
+ "media": [
+  "docs/media/pod-ytfoarlpj6qji-21/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T02:25:10.100354+00:00"
+ },
+ "score": 77,
+ "moment_kind": "battle",
+ "people": [
+  "Nate Chen",
+  "Matt Field"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Nate Chen vs Matt Field | Formula DRIFT Connecticut 2026\n\nNate Chen initiates, Matt Field closes in.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@nathaniel.chen @mattfield777 @formulad\n\n#formuladrift #formulad #natechen #mattfield #sidewayswire",
+  "facebook": "Nate Chen vs Matt Field | Formula DRIFT Connecticut 2026\n\nNate Chen initiates, Matt Field closes in.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@nathaniel.chen @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Nate Chen vs Matt Field | Formula DRIFT Connecticut 2026: Nate Chen initiates, Matt Field closes in.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Connecticut 2026 @nathaniel.chen @mattfield777 @formulad\n#formuladrift #formulad #natechen #sidewayswire",
+  "youtube_title": "Nate Chen vs Matt Field | Formula DRIFT Connecticut 2026",
+  "youtube": "Nate Chen initiates, Matt Field closes in.\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@nathaniel.chen @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": [
+  "nathaniel.chen",
+  "mattfield777"
+ ]
 }

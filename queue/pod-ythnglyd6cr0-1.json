@@ -1,7 +1,7 @@
 {
  "id": "pod-ythnglyd6cr0-1",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "BEACHUM'S TIMEOUT",
  "video": "docs/media/pod-ythnglyd6cr0-1/clip.mp4",
@@ -28,5 +28,29 @@
   "start": 516.12
  },
  "created": "2026-11-27T02:16:42.117862+00:00",
- "built": "2026-11-27T02:16:42.117869+00:00"
+ "built": "2026-11-27T02:25:09.156041+00:00",
+ "media": [
+  "docs/media/pod-ythnglyd6cr0-1/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T02:25:10.101153+00:00"
+ },
+ "score": 63,
+ "moment_kind": "call",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nTrenton Beachum calls a timeout during his run.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @benhobson213 @cbuchanan272\n\n#formuladrift #formulad #driftmystery #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nTrenton Beachum calls a timeout during his run.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @benhobson213 @cbuchanan272\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Trenton Beachum calls a timeout during his run.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad @benhobson213 @cbuchanan272\n#formuladrift #formulad #driftmystery #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+  "youtube": "Trenton Beachum calls a timeout during his run.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @benhobson213 @cbuchanan272\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }

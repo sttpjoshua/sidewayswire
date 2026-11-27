@@ -1,7 +1,7 @@
 {
  "id": "pod-ythnglyd6cr0-3",
  "kind": "stream_clip",
- "status": "draft",
+ "status": "ready",
  "slides": [],
  "title": "JUDGES' DECISION",
  "video": "docs/media/pod-ythnglyd6cr0-3/clip.mp4",
@@ -27,5 +27,29 @@
   "start": 806.26
  },
  "created": "2026-11-27T02:19:50.716354+00:00",
- "built": "2026-11-27T02:19:50.716362+00:00"
+ "built": "2026-11-27T02:25:09.246485+00:00",
+ "media": [
+  "docs/media/pod-ythnglyd6cr0-3/clip.mp4"
+ ],
+ "problems": [],
+ "post_at": null,
+ "qc": {
+  "hard": [],
+  "soft": [],
+  "at": "2026-11-27T02:25:10.101780+00:00"
+ },
+ "score": 58,
+ "moment_kind": "call",
+ "people": [
+  "Formula Drift"
+ ],
+ "plan": {},
+ "captions": {
+  "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nJudges explain why Cole Richards won the battle.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @colerichardz\n\n#formuladrift #formulad #sidewayswire",
+  "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nJudges explain why Cole Richards won the battle.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @colerichardz\n\n#formuladrift #formulad #sidewayswire",
+  "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Judges explain why Cole Richards won the battle.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad @colerichardz\n#formuladrift #formulad #sidewayswire",
+  "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+  "youtube": "Judges explain why Cole Richards won the battle.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @colerichardz\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+ },
+ "collaborators": []
 }

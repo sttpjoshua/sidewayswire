@@ -1,14 +1,13 @@
 {
- "updated": "2026-11-27T02:22:21.328281+00:00",
+ "updated": "2026-11-27T02:25:13.817505+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
-  "ready": 715,
+  "ready": 723,
   "skipped": 73,
   "check": 19,
-  "posted": 3,
-  "draft": 8
+  "posted": 3
  },
- "collected": "2026-11-27T02:16:15.263902+00:00",
+ "collected": "2026-11-27T02:24:58.317453+00:00",
  "instagram": true,
  "sources": [
   {
@@ -176,7 +175,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 12,
    "how": "feed"
   },
   {
@@ -13222,12 +13221,14 @@
   {
    "id": "pod-ythnglyd6cr0-5",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Brandon's family celebrates his brother's historic win\n\n🎥 Footage: FD INDIANAPOLIS 2026\n@formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ythnglyd6cr0-5__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13244,7 +13245,7 @@
     "youtube"
    ],
    "created": "2026-11-27T02:22:14.332152+00:00",
-   "built": "2026-11-27T02:22:14.332159+00:00",
+   "built": "2026-11-27T02:25:09.369475+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-5/pod-ythnglyd6cr0-5__clip.mp4",
    "tags": [
@@ -13253,13 +13254,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 68,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nBrandon's family celebrates his brother's historic win\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nBrandon's family celebrates his brother's historic win\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Brandon's family celebrates his brother's historic win\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+    "youtube": "Brandon's family celebrates his brother's historic win\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13275,12 +13284,14 @@
   {
    "id": "pod-ythnglyd6cr0-4",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Drivers crash hard into the wall during a drift run.\n\n🎥 Footage: FD INDIANAPOLIS 2026\n@adam_lz @formulad\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ythnglyd6cr0-4__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13297,7 +13308,7 @@
     "youtube"
    ],
    "created": "2026-11-27T02:21:18.068546+00:00",
-   "built": "2026-11-27T02:21:18.068553+00:00",
+   "built": "2026-11-27T02:25:09.294119+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-4/pod-ythnglyd6cr0-4__clip.mp4",
    "tags": [
@@ -13307,13 +13318,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 78,
+   "captions": {
+    "instagram": "Adam LZ | Formula DRIFT Indianapolis 2026\n\nDrivers crash hard into the wall during a drift run.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@adam_lz @formulad\n\n#formuladrift #formulad #adamlz #sidewayswire",
+    "facebook": "Adam LZ | Formula DRIFT Indianapolis 2026\n\nDrivers crash hard into the wall during a drift run.\n\nTag the person you watch drift with 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@adam_lz @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Adam LZ | Formula DRIFT Indianapolis 2026: Drivers crash hard into the wall during a drift run.\nTag the person you watch drift with 👇\n🎥 Footage: Formula DRIFT Indianapolis 2026 @adam_lz @formulad\n#formuladrift #formulad #adamlz #sidewayswire",
+    "youtube_title": "Adam LZ | Formula DRIFT Indianapolis 2026",
+    "youtube": "Drivers crash hard into the wall during a drift run.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@adam_lz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [
+    "adam_lz"
+   ],
+   "people": [
+    "Adam LZ"
+   ],
+   "moment_kind": "crash",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13329,12 +13350,14 @@
   {
    "id": "pod-ythnglyd6cr0-3",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Judges explain why Cole Richards won the battle.\n\n🎥 Footage: FD INDIANAPOLIS 2026\n@formulad @colerichardz\n\n#sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ythnglyd6cr0-3__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13351,7 +13374,7 @@
     "youtube"
    ],
    "created": "2026-11-27T02:19:50.716354+00:00",
-   "built": "2026-11-27T02:19:50.716362+00:00",
+   "built": "2026-11-27T02:25:09.246485+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-3/pod-ythnglyd6cr0-3__clip.mp4",
    "tags": [
@@ -13361,13 +13384,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 58,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nJudges explain why Cole Richards won the battle.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @colerichardz\n\n#formuladrift #formulad #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nJudges explain why Cole Richards won the battle.\n\nSend this to your drift group chat 🔥\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @colerichardz\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Judges explain why Cole Richards won the battle.\nSend this to your drift group chat 🔥\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad @colerichardz\n#formuladrift #formulad #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+    "youtube": "Judges explain why Cole Richards won the battle.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @colerichardz\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13383,12 +13414,14 @@
   {
    "id": "pod-ythnglyd6cr0-2",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Ryan Literal and Cole Richards battle it out.\n\n🎥 Footage: FD INDIANAPOLIS 2026\n@colerichardz @formulad\n\n#driftduel #sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ythnglyd6cr0-2__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13405,7 +13438,7 @@
     "youtube"
    ],
    "created": "2026-11-27T02:17:43.194374+00:00",
-   "built": "2026-11-27T02:17:43.194381+00:00",
+   "built": "2026-11-27T02:25:09.196042+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ythnglyd6cr0-2__clip.mp4",
    "tags": [
@@ -13415,13 +13448,23 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 69,
+   "captions": {
+    "instagram": "Cole Richards | Formula DRIFT Indianapolis 2026\n\nRyan Literal and Cole Richards battle it out.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #colerichards #driftduel #sidewayswire",
+    "facebook": "Cole Richards | Formula DRIFT Indianapolis 2026\n\nRyan Literal and Cole Richards battle it out.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@colerichardz @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Cole Richards | Formula DRIFT Indianapolis 2026: Ryan Literal and Cole Richards battle it out.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Indianapolis 2026 @colerichardz @formulad\n#formuladrift #formulad #colerichards #sidewayswire",
+    "youtube_title": "Cole Richards | Formula DRIFT Indianapolis 2026",
+    "youtube": "Ryan Literal and Cole Richards battle it out.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@colerichardz @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [
+    "colerichardz"
+   ],
+   "people": [
+    "Cole Richards"
+   ],
+   "moment_kind": "battle",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13437,12 +13480,14 @@
   {
    "id": "pod-ythnglyd6cr0-1",
    "kind": "stream_clip",
-   "status": "draft",
+   "status": "ready",
    "post_at": null,
    "posted_at": null,
    "caption": "Trenton Beachum calls a timeout during his run.\n\n🎥 Footage: FD INDIANAPOLIS 2026\n@formulad @benhobson213 @cbuchanan272\n\n#driftmystery #sidewayswire",
-   "media": [],
-   "problems": null,
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ythnglyd6cr0-1__clip.mp4"
+   ],
+   "problems": [],
    "results": null,
    "credit": "@formulad",
    "check": false,
@@ -13459,7 +13504,7 @@
     "youtube"
    ],
    "created": "2026-11-27T02:16:42.117862+00:00",
-   "built": "2026-11-27T02:16:42.117869+00:00",
+   "built": "2026-11-27T02:25:09.156041+00:00",
    "want_at": null,
    "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ythnglyd6cr0-1__clip.mp4",
    "tags": [
@@ -13470,13 +13515,21 @@
    "missing_handles": [],
    "caption_by": null,
    "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
+   "plan": {},
+   "score": 63,
+   "captions": {
+    "instagram": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nTrenton Beachum calls a timeout during his run.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @benhobson213 @cbuchanan272\n\n#formuladrift #formulad #driftmystery #sidewayswire",
+    "facebook": "Formula Drift | Formula DRIFT Indianapolis 2026\n\nTrenton Beachum calls a timeout during his run.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @benhobson213 @cbuchanan272\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Formula Drift | Formula DRIFT Indianapolis 2026: Trenton Beachum calls a timeout during his run.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Indianapolis 2026 @formulad @benhobson213 @cbuchanan272\n#formuladrift #formulad #driftmystery #sidewayswire",
+    "youtube_title": "Formula Drift | Formula DRIFT Indianapolis 2026",
+    "youtube": "Trenton Beachum calls a timeout during his run.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@formulad @benhobson213 @cbuchanan272\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
    "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
+   "collaborators": [],
+   "people": [
+    "Formula Drift"
+   ],
+   "moment_kind": "call",
    "pinned_at": null,
    "short_none": null,
    "short_len": null,
@@ -13487,6 +13540,208 @@
    "tiktok_done": null,
    "short": null,
    "title": "BEACHUM'S TIMEOUT",
+   "photo": null
+  },
+  {
+   "id": "pod-ythnglyd6cr0-0",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Jack Shanahan nails a flawless qualifying run.\n\n🎥 Footage: FD INDIANAPOLIS 2026\n@jackshanahan59 @formulad\n\n#driftking #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ythnglyd6cr0-0__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Top 32",
+    "start": 364.62
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T02:14:30.801646+00:00",
+   "built": "2026-11-27T02:25:09.107297+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ythnglyd6cr0-0__clip.mp4",
+   "tags": [
+    "@jackshanahan59",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 69,
+   "captions": {
+    "instagram": "Jack Shanahan | Formula DRIFT Indianapolis 2026\n\nJack Shanahan nails a flawless qualifying run.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@jackshanahan59 @formulad\n\n#formuladrift #formulad #jackshanahan #driftking #sidewayswire",
+    "facebook": "Jack Shanahan | Formula DRIFT Indianapolis 2026\n\nJack Shanahan nails a flawless qualifying run.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@jackshanahan59 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Jack Shanahan | Formula DRIFT Indianapolis 2026: Jack Shanahan nails a flawless qualifying run.\n🎥 Footage: Formula DRIFT Indianapolis 2026 @jackshanahan59 @formulad\n#formuladrift #formulad #jackshanahan #sidewayswire",
+    "youtube_title": "Jack Shanahan | Formula DRIFT Indianapolis 2026",
+    "youtube": "Jack Shanahan nails a flawless qualifying run.\n\n🎥 Footage: Formula DRIFT Indianapolis 2026\n@jackshanahan59 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "jackshanahan59"
+   ],
+   "people": [
+    "Jack Shanahan"
+   ],
+   "moment_kind": "qualify",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "SHANAHAN'S TOP QUALIFY",
+   "photo": null
+  },
+  {
+   "id": "pod-ytfoarlpj6qji-21",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Nate Chen initiates, Matt Field closes in.\n\n🎥 Footage: FD CONNECTICUT 2026\n@nathaniel.chen @mattfield777 @formulad\n\n#FormulaDRIFT #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytfoarlpj6qji-21__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+    "start": 2572.68
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T02:12:36.186372+00:00",
+   "built": "2026-11-27T02:25:09.051384+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytfoarlpj6qji-21__clip.mp4",
+   "tags": [
+    "@nathaniel.chen",
+    "@mattfield777",
+    "@formulad"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 77,
+   "captions": {
+    "instagram": "Nate Chen vs Matt Field | Formula DRIFT Connecticut 2026\n\nNate Chen initiates, Matt Field closes in.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@nathaniel.chen @mattfield777 @formulad\n\n#formuladrift #formulad #natechen #mattfield #sidewayswire",
+    "facebook": "Nate Chen vs Matt Field | Formula DRIFT Connecticut 2026\n\nNate Chen initiates, Matt Field closes in.\n\nWho took this one? Send it to someone who'll argue 👇\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@nathaniel.chen @mattfield777 @formulad\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Nate Chen vs Matt Field | Formula DRIFT Connecticut 2026: Nate Chen initiates, Matt Field closes in.\nWho took this one? Send it to someone who'll argue 👇\n🎥 Footage: Formula DRIFT Connecticut 2026 @nathaniel.chen @mattfield777 @formulad\n#formuladrift #formulad #natechen #sidewayswire",
+    "youtube_title": "Nate Chen vs Matt Field | Formula DRIFT Connecticut 2026",
+    "youtube": "Nate Chen initiates, Matt Field closes in.\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@nathaniel.chen @mattfield777 @formulad\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "nathaniel.chen",
+    "mattfield777"
+   ],
+   "people": [
+    "Nate Chen",
+    "Matt Field"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "CHEN VS FIELD",
+   "photo": null
+  },
+  {
+   "id": "pod-ytfoarlpj6qji-20",
+   "kind": "stream_clip",
+   "status": "ready",
+   "post_at": null,
+   "posted_at": null,
+   "caption": "Matt Field vs Nate Chin: a battle of skill and speed.\n\n🎥 Footage: FD CONNECTICUT 2026\n@mattfield777 @formulad @nathaniel.chen\n\n#FormulaDRIFT #sidewayswire",
+   "media": [
+    "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytfoarlpj6qji-20__clip.mp4"
+   ],
+   "problems": [],
+   "results": null,
+   "credit": "@formulad",
+   "check": false,
+   "check_reason": "",
+   "source": {
+    "podcast": "Formula DRIFT",
+    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
+    "start": 2519.46
+   },
+   "platforms": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube"
+   ],
+   "created": "2026-11-27T02:11:37.387976+00:00",
+   "built": "2026-11-27T02:25:08.840394+00:00",
+   "want_at": null,
+   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytfoarlpj6qji-20__clip.mp4",
+   "tags": [
+    "@mattfield777",
+    "@formulad",
+    "@nathaniel.chen"
+   ],
+   "missing_handles": [],
+   "caption_by": null,
+   "format": "single",
+   "plan": {},
+   "score": 80,
+   "captions": {
+    "instagram": "Matt Field | Formula DRIFT Connecticut 2026\n\nMatt Field vs Nate Chin: a battle of skill and speed.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@mattfield777 @formulad @nathaniel.chen\n\n#formuladrift #formulad #mattfield #sidewayswire",
+    "facebook": "Matt Field | Formula DRIFT Connecticut 2026\n\nMatt Field vs Nate Chin: a battle of skill and speed.\n\nSend this to the friend who still thinks they had it 👀\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@mattfield777 @formulad @nathaniel.chen\n\n#formuladrift #formulad #sidewayswire",
+    "tiktok": "Matt Field | Formula DRIFT Connecticut 2026: Matt Field vs Nate Chin: a battle of skill and speed.\nSend this to the friend who still thinks they had it 👀\n🎥 Footage: Formula DRIFT Connecticut 2026 @mattfield777 @formulad @nathaniel.chen\n#formuladrift #formulad #mattfield #sidewayswire",
+    "youtube_title": "Matt Field | Formula DRIFT Connecticut 2026",
+    "youtube": "Matt Field vs Nate Chin: a battle of skill and speed.\n\n🎥 Footage: Formula DRIFT Connecticut 2026\n@mattfield777 @formulad @nathaniel.chen\n\nSideways Wire: drift news, battles and the best runs.\n\n#formuladrift #formulad #sidewayswire"
+   },
+   "ig": null,
+   "collaborators": [
+    "mattfield777"
+   ],
+   "people": [
+    "Matt Field"
+   ],
+   "moment_kind": "battle",
+   "pinned_at": null,
+   "short_none": null,
+   "short_len": null,
+   "thumb": null,
+   "preview": null,
+   "hook": null,
+   "evergreen": null,
+   "tiktok_done": null,
+   "short": null,
+   "title": "BEAST VS CHAMPION",
    "photo": null
   },
   {
@@ -13940,170 +14195,6 @@
    "tiktok_done": null,
    "short": null,
    "title": "UNEXPECTED OUTCOME",
-   "photo": null
-  },
-  {
-   "id": "pod-ythnglyd6cr0-0",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Jack Shanahan nails a flawless qualifying run.\n\n🎥 Footage: FD INDIANAPOLIS 2026\n@jackshanahan59 @formulad\n\n#driftking #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Indianapolis 2026 - PRO, Round 5 - Top 32",
-    "start": 364.62
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-27T02:14:30.801646+00:00",
-   "built": "2026-11-27T02:14:30.801654+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-0/pod-ythnglyd6cr0-0__clip.mp4",
-   "tags": [
-    "@jackshanahan59",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "SHANAHAN'S TOP QUALIFY",
-   "photo": null
-  },
-  {
-   "id": "pod-ytfoarlpj6qji-21",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Nate Chen initiates, Matt Field closes in.\n\n🎥 Footage: FD CONNECTICUT 2026\n@nathaniel.chen @mattfield777 @formulad\n\n#FormulaDRIFT #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
-    "start": 2572.68
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-27T02:12:36.186372+00:00",
-   "built": "2026-11-27T02:12:36.186379+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-2/pod-ytfoarlpj6qji-21__clip.mp4",
-   "tags": [
-    "@nathaniel.chen",
-    "@mattfield777",
-    "@formulad"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "CHEN VS FIELD",
-   "photo": null
-  },
-  {
-   "id": "pod-ytfoarlpj6qji-20",
-   "kind": "stream_clip",
-   "status": "draft",
-   "post_at": null,
-   "posted_at": null,
-   "caption": "Matt Field vs Nate Chin: a battle of skill and speed.\n\n🎥 Footage: FD CONNECTICUT 2026\n@mattfield777 @formulad @nathaniel.chen\n\n#FormulaDRIFT #sidewayswire",
-   "media": [],
-   "problems": null,
-   "results": null,
-   "credit": "@formulad",
-   "check": false,
-   "check_reason": "",
-   "source": {
-    "podcast": "Formula DRIFT",
-    "episode": "Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 32",
-    "start": 2519.46
-   },
-   "platforms": [
-    "instagram",
-    "facebook",
-    "tiktok",
-    "youtube"
-   ],
-   "created": "2026-11-27T02:11:37.387976+00:00",
-   "built": "2026-11-27T02:11:37.387982+00:00",
-   "want_at": null,
-   "video": "https://github.com/sttpjoshua/sidewayswire-media/releases/download/media-1/pod-ytfoarlpj6qji-20__clip.mp4",
-   "tags": [
-    "@mattfield777",
-    "@formulad",
-    "@nathaniel.chen"
-   ],
-   "missing_handles": [],
-   "caption_by": null,
-   "format": "single",
-   "plan": null,
-   "score": null,
-   "captions": null,
-   "ig": null,
-   "collaborators": null,
-   "people": null,
-   "moment_kind": null,
-   "pinned_at": null,
-   "short_none": null,
-   "short_len": null,
-   "thumb": null,
-   "preview": null,
-   "hook": null,
-   "evergreen": null,
-   "tiktok_done": null,
-   "short": null,
-   "title": "BEAST VS CHAMPION",
    "photo": null
   },
   {
