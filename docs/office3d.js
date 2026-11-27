@@ -8,6 +8,7 @@ import { EffectComposer } from "./vendor/three/postprocessing/EffectComposer.js"
 import { RenderPass } from "./vendor/three/postprocessing/RenderPass.js";
 import { UnrealBloomPass } from "./vendor/three/postprocessing/UnrealBloomPass.js";
 import { OutputPass } from "./vendor/three/postprocessing/OutputPass.js";
+import { GLTFLoader } from "./vendor/three/loaders/GLTFLoader.js";
 
 const LIME = 0xC6FF00, PINK = 0xFF2E88, BLUE = 0x5BC0FF, ORANGE = 0xFF9F43, DARK = 0x151517;
 const STC = { bezig: "#C6FF00", wacht: "#9a9aa0", pauze: "#ffb000", uit: "#555", fout: "#FF2E88", gepland: "#5BC0FF" };
@@ -450,7 +451,7 @@ function applyStates() {
   fx.sun.intensity = night ? .25 : 2.2; fx.hemi.intensity = night ? .35 : 1.0;
   (fx.flood || []).forEach(s => s.intensity = night ? 420 : 0);
   fx.lights.forEach(l => l.intensity = night ? 34 : 14);
-  extrasState(night); r4State(); liveries(); keyTrouble();
+  extrasState(night); r4State(); liveries(); keyTrouble(); r6State(night);
 }
 
 // ---------- animatie ----------
@@ -522,7 +523,7 @@ function build() {
   fx.sun = new THREE.DirectionalLight(0xffffff, 2.2); fx.sun.position.set(-18, 30, 22); fx.sun.castShadow = true;
   fx.sun.shadow.mapSize.set(2048, 2048); Object.assign(fx.sun.shadow.camera, { left: -40, right: 40, top: 30, bottom: -30, far: 90 }); fx.sun.shadow.bias = -.0005; scene.add(fx.sun);
   clock = new THREE.Clock();
-  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild(); r4Build();
+  GARAGES.forEach(garage); furnish(); grounds(); extrasBuild(); r4Build(); r6Build();
   for (const [id, A] of Object.entries(AGENTS)) {
     const G = GARAGES.find(g => g.id === A.g).group;
     const p = person(G, A.look, A.at[0], A.at[1] - (A.stand ? 0 : .95), id, !A.stand);
@@ -995,4 +996,46 @@ function keyTrouble() {
   const bad = officeKeys().filter(k => ["verlopen", "werkt niet", "verloopt bijna"].includes(k.state));
   X.keyBad = bad; if (bad.length) X.trouble = true;
   if (X.beacon) X.keyBeacon = bad.length > 0;
+}
+
+// =====================================================================================
+// RONDE 6: kant-en-klare modellen (Kenney, MIT-licentie, zie docs/models/README.md) rond het
+// terrein, en echte schaduwen van de garagelampen en lichtmasten 's nachts (alleen op een
+// computer; op een telefoon blijft het licht en snel).
+// =====================================================================================
+const R6 = { hq: !(matchMedia("(pointer: coarse)").matches || innerWidth < 800), nightLights: [], loaded: false };
+function place(url, x, y, z, ry = 0, size = null, onLoad) {
+  new GLTFLoader().load(url, g => { const o = g.scene;
+    if (size) { const b = new THREE.Box3().setFromObject(o), sz = b.getSize(new THREE.Vector3()); o.scale.setScalar(size / Math.max(sz.x, sz.z)); }
+    o.position.set(x, y, z); o.rotation.y = ry;
+    o.traverse(m => { if (m.isMesh) { m.castShadow = true; m.receiveShadow = true; } });
+    scene.add(o); if (onLoad) onLoad(o); }, undefined, () => {});
+}
+function r6Build() {
+  const R = "models/racing/", C = "models/city/";
+  // start/finish-boog bij de ingang, met het neonbord erop
+  // de boog staat over de toegangsweg: de bezorgbusjes rijden er onderdoor
+  place(R + "track-finish.glb", -34, 0, 1.6, Math.PI / 2, 9, o => { const b = new THREE.Box3().setFromObject(o);
+    const t = plane(neonText("SIDEWAYS WIRE", "#C6FF00", 8, 1), 6, .75, scene, b.max.x + .05, b.max.y - .9, 1.6, Math.PI / 2); });
+  // paddock: tenten en pickups van de teams aan beide kanten
+  place(R + "decoration-tents.glb", -38, 0, 4, Math.PI / 2, 10);
+  place(R + "track-tents.glb", 38, 0, 4, -Math.PI / 2, 10);
+  const trucks = ["red", "green", "yellow", "purple"];
+  [[-36, 13, .4], [-39, 16, .9], [36, 13, -.4], [39, 16, -.9]].forEach(([x, z, r], i) => place(R + `vehicle-truck-${trucks[i]}.glb`, x, 0, z, r, 3.2));
+  // achtergrond: bos achter de garages en een stukje stad
+  for (const x of [-40, -30, -20, -10, 0, 10, 20, 30, 40]) place(R + "decoration-forest.glb", x, 0, -17, (x / 10) % 2 ? 0 : Math.PI, 10);
+  ["a", "b", "c", "d", "a", "c"].forEach((k, i) => place(C + `building-small-${k}.glb`, -30 + i * 12, 0, -28 - (i % 2) * 4, 0, 7));
+  for (const [x, z] of [[-44, 22], [44, 22], [-44, -6], [44, -6]]) place(C + "grass-trees-tall.glb", x, 0, z, 0, 6);
+  // schaduwen 's nachts: een spot per garage en de twee lichtmasten
+  if (R6.hq) {
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    for (const G of GARAGES) { const sp = new THREE.SpotLight(0xfff2e0, 0, 16, 1.0, .6, 1.2); sp.position.set(0, WALL_H - .2, 1.2); sp.target.position.set(0, 0, -.5);
+      sp.castShadow = true; sp.shadow.mapSize.set(1024, 1024); sp.shadow.bias = -.0008; sp.shadow.camera.near = .5; sp.shadow.camera.far = 16;
+      G.group.add(sp, sp.target); R6.nightLights.push(sp); }
+  }
+}
+function r6State(night) {
+  // overdag geeft de zon de schaduwen; 's nachts de lampen
+  R6.nightLights.forEach(l => { l.intensity = night ? 160 : 0; l.castShadow = night; });
+  if (fx.sun) fx.sun.castShadow = !night || !R6.hq;
 }
