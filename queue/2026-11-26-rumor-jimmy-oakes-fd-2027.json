@@ -20,7 +20,9 @@
     "label": "RUMOR",
     "series": "FORMULA DRIFT",
     "band": "#1E6BFF",
-    "backdrop": "FD"
+    "backdrop": "FD",
+    "photo": "../docs/media/photos/post-2026-11-26-rumor-jimmy-oakes-fd-2027-1795796745409.jpg",
+    "photo_credit": "@jimmyoakes"
    }
   }
  ],
@@ -29,7 +31,7 @@
   "facebook",
   "instagram"
  ],
- "status": "check",
+ "status": "draft",
  "created": "2026-11-26T20:46:13.558742+00:00",
  "check": true,
  "check_reason": "gerucht: klopt de basis? dan goedkeuren",
@@ -46,5 +48,7 @@
   "hard": [],
   "soft": [],
   "at": "2026-11-26T20:48:18.687498+00:00"
- }
+ },
+ "no_still": true,
+ "photo_by": "joshua"
 }
