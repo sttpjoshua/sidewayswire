@@ -133,10 +133,19 @@ def run(folder: Path = q.QUEUE, out: Path = ROOT / "docs" / "status.json") -> di
         "keys": json.loads((ROOT / "data" / "keys.json").read_text()) if (ROOT / "data" / "keys.json").exists() else {},
         "drivers": _drivers(),
         "money": _money(posts),
+        "weekly": _weekly(),
         "channels": json.loads((ROOT / "data" / "channels.json").read_text()) if (ROOT / "data" / "channels.json").exists() else {},
     }
     out.write_text(json.dumps(status, indent=1, ensure_ascii=False), encoding="utf-8")
     return status["counts"]
+
+
+def _weekly() -> dict | None:
+    try:
+        from . import weekly
+        return weekly.latest()
+    except Exception as e:
+        return {"error": str(e)[:200]}
 
 
 def _money(posts) -> dict:

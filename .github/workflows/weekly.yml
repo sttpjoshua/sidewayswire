@@ -1,0 +1,35 @@
+# Eigen formats (lc/weekly.py): zondagochtend het script van het weekoverzicht en de ranglijst van de week;
+# op verzoek (dashboard, WEEKOVERZICHT) de video met Joshua's ingesproken stem.
+name: weekly
+on:
+  schedule:
+    - cron: "17 7 * * 0"        # zondag 08:17 Nederlandse tijd (wintertijd)
+  workflow_dispatch:
+    inputs:
+      action: { description: "script, render of ranking", default: "render" }
+      week: { description: "bijvoorbeeld 2026-W49 (leeg = de laatste)", default: "" }
+concurrency: { group: data, cancel-in-progress: false }
+permissions: { contents: write, actions: write }
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install requests jinja2 playwright pillow feedparser numpy && python -m playwright install --with-deps chromium && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Script en ranglijst (zondag)
+        if: github.event_name == 'schedule' || inputs.action == 'script' || inputs.action == 'ranking'
+        run: |
+          if [ "${{ inputs.action }}" != "ranking" ]; then python -m lc.weekly script; fi
+          if [ "${{ inputs.action }}" != "script" ]; then python -m lc.weekly ranking; fi
+      - name: Video met Joshua's stem
+        if: github.event_name == 'workflow_dispatch' && inputs.action == 'render'
+        run: python -m lc.weekly render ${{ inputs.week }}
+      - name: Save
+        run: python -m lc.build && python -m lc.planner && python -m lc.mediastore sync && python -m lc.status && python -m lc.gitsave "weekly $(date -u +%FT%TZ)" data/weekly queue docs/media docs/status.json

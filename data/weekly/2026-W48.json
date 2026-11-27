@@ -1,0 +1,55 @@
+{
+ "week": "2026-W48",
+ "made": "2026-11-27T12:31:29.393087+00:00",
+ "status": "script",
+ "segments": [
+  {
+   "id": "intro",
+   "kind": "intro",
+   "title": "WEEK 48 IN DRIFT",
+   "text": "This is Sideways Wire Weekly, week 48. Here is everything that happened in drift this week."
+  },
+  {
+   "id": "s1",
+   "kind": "story",
+   "title": "CONOR SHANAHAN WINS IN JAPAN",
+   "post": "2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot",
+   "image": "docs/media/2026-11-26-conor-and-jack-shanahan-drove-cusco-racing-toyot/1.png",
+   "text": "Guest entry, first time in the CUSCO GR Corolla, and a win: Conor Shanahan beat Naoki Nakamura in the wet final of D1GP Round 10 at Tokyo Drift, Odaiba. Brother Jack raced the sister car."
+  },
+  {
+   "id": "s2",
+   "kind": "story",
+   "title": "FD 2027 SCHEDULE IS OUT",
+   "post": "2026-11-26-formula-drift-announces-2027-schedule-with-excit",
+   "image": "docs/media/2026-11-26-formula-drift-announces-2027-schedule-with-excit/1.png",
+   "text": "Formula DRIFT is back at Englishtown and fans can see both PRO and PROSPEC finals in Las Vegas."
+  },
+  {
+   "id": "s3",
+   "kind": "story",
+   "title": "IS JIMMY OAKES GOING PRO IN 2027?",
+   "post": "2026-11-26-rumor-jimmy-oakes-fd-2027",
+   "image": "docs/media/2026-11-26-rumor-jimmy-oakes-fd-2027/1.png",
+   "text": "Jimmy Oakes has been building a pro-level 2JZ 240SX and said last year that going pro in Formula DRIFT is on his radar. Nothing is confirmed yet for 2027."
+  },
+  {
+   "id": "buzz",
+   "kind": "ranking",
+   "title": "MOST TALKED ABOUT",
+   "text": "The most talked-about drivers this week: Matt Field, Mika Keski-Korpi and Ryan Tuerck.",
+   "names": [
+    "Matt Field",
+    "Mika Keski-Korpi",
+    "Ryan Tuerck"
+   ]
+  },
+  {
+   "id": "outro",
+   "kind": "outro",
+   "title": "SEE YOU NEXT WEEK",
+   "text": "That was the week. Follow Sideways Wire for every battle and every story, every week."
+  }
+ ],
+ "note": "Pas de tekst aan in het dashboard (WEEKOVERZICHT) en spreek elk stukje in. Engels, rustig tempo."
+}
