@@ -711,7 +711,7 @@
   "why": "Strong imagery and intrigue",
   "caption": "Drivers rev up their engines with new power",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -720,7 +720,12 @@
    "text": "WHAT AWAKENED THE HORSEPOWER?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-26-43756-43884.mp4"
+  "wait_name": "v2-ythnglyd6cr0-26-43756-43884.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-26/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4383.24, \"start\": 4380.44, \"text\": \"WHAT AWAKENED THE HORSEPOWER?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:47:05.385477+00:00"
  },
  {
   "start": 4423.64,
@@ -733,7 +738,7 @@
   "why": "Engaging discussion on strategy",
   "caption": "Drivers debate dry vs. wet setup",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -742,7 +747,12 @@
    "text": "WHICH SETUP TO CHOOSE?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-27-44236-45078.mp4"
+  "wait_name": "v2-ythnglyd6cr0-27-44236-45078.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-27/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4439.06, \"start\": 4436.04, \"text\": \"WHICH SETUP TO CHOOSE?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:49:39.398278+00:00"
  },
  {
   "start": 4543.02,
@@ -755,7 +765,7 @@
   "why": "Shows preparation and experience",
   "caption": "Driver shares confidence in wet setup",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -764,7 +774,12 @@
    "text": "CONFIDENT IN THE RAIN?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-28-45430-45606.mp4"
+  "wait_name": "v2-ythnglyd6cr0-28-45430-45606.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-28/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4548.72, \"start\": 4547.18, \"text\": \"CONFIDENT IN THE RAIN?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:50:11.653490+00:00"
  },
  {
   "start": 4733.74,
@@ -777,7 +792,7 @@
   "why": "Important safety announcement",
   "caption": "The track has paused due to lightning.",
   "credit": "@formulad",
-  "status": "new",
+  "status": "queued",
   "by": "local",
   "score_hint": 0,
   "hook": {
@@ -786,6 +801,11 @@
    "text": "TRACK LIGHTNING POLICY?",
    "why": "lokale redactie"
   },
-  "wait_name": "v2-ythnglyd6cr0-29-47337-48012.mp4"
+  "wait_name": "v2-ythnglyd6cr0-29-47337-48012.mp4",
+  "clip": "docs/media/pod-ythnglyd6cr0-29/clip.mp4",
+  "mode": "video",
+  "layout": 4,
+  "hook_sig": "{\"end\": 4751.34, \"start\": 4748.84, \"text\": \"TRACK LIGHTNING POLICY?\", \"why\": \"lokale redactie\"}",
+  "made": "2026-11-27T02:51:43.083554+00:00"
  }
 ]
