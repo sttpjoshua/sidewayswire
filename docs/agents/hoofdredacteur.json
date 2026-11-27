@@ -2,7 +2,7 @@
  "id": "hoofdredacteur",
  "name": "Hoofdredacteur",
  "where": "Claude, elke ochtend 08:41",
- "state": "fout",
+ "state": "aandacht",
  "doing": null,
  "updated": "2026-11-27T07:44:28.487454+00:00",
  "note": "",
@@ -36,5 +36,84 @@
    "text": "Afgekeurd: dubbel OMT-moment met foute naam.",
    "ref": "pod-ytfoarlpj6qji-14"
   }
- ]
+ ],
+ "problems": [
+  {
+   "id": "yt-cookies",
+   "agent": "battle",
+   "text": "5 YouTube-downloads op de Mac mislukken omdat YouTube om een login (cookies) vraagt.",
+   "why": "Zonder die downloads mist de battle-redacteur streams en worden er geen clips van gemaakt.",
+   "options": [
+    {
+     "label": "COOKIES UIT SAFARI",
+     "do": "setting",
+     "key": "yt_cookies_browser",
+     "value": "safari",
+     "hint": "De Mac gebruikt de YouTube-login van Safari. Log daar eenmalig in op YouTube."
+    },
+    {
+     "label": "COOKIES UIT CHROME",
+     "do": "setting",
+     "key": "yt_cookies_browser",
+     "value": "chrome",
+     "hint": "De Mac gebruikt de YouTube-login van Chrome; de Mac kan een keer om toegang vragen."
+    },
+    {
+     "label": "COOKIES UIT FIREFOX",
+     "do": "setting",
+     "key": "yt_cookies_browser",
+     "value": "firefox",
+     "hint": "De Mac gebruikt de YouTube-login van Firefox."
+    }
+   ]
+  },
+  {
+   "id": "namen-battle",
+   "agent": "battle",
+   "text": "Veel van de 171 nieuwe battle-clips hebben verkeerd gespelde namen (James Dean, Odie Bocce, Connor Shannon) en 'call' staat bij gewoon commentaar.",
+   "why": "Met verkeerde namen kloppen de tags en ondertitels niet; die clips moeten eerst nagekeken worden.",
+   "options": [
+    {
+     "label": "ALLEEN NAMEN UIT DE LIJST",
+     "do": "agent_note",
+     "agent": "battle",
+     "note": "Use only driver names from the provided driver list, spelled exactly as listed; if unsure, leave the name out. Use 'call' only for an actual judges' decision. Prefer 15 strong moments over 30 weak ones.",
+     "hint": "Strengere instructie voor de battle-redacteur vanaf vanavond."
+    },
+    {
+     "label": "BATTLE-CLIPS NAKIJKEN",
+     "do": "open",
+     "to": "#beoordelen",
+     "hint": "Bekijk de clips zelf in BEOORDELEN."
+    },
+    {
+     "label": "BATTLE-REDACTEUR PAUZEREN",
+     "do": "agent_toggle",
+     "agent": "battle",
+     "on": false,
+     "hint": "Hij maakt geen nieuwe clips tot je hem weer aanzet."
+    }
+   ]
+  },
+  {
+   "id": "wachten-op-jou",
+   "agent": "hoofdredacteur",
+   "text": "17 posts wachten op jou: 5 al sinds 17 november op een foto, 6 op namen en 5 geruchten.",
+   "why": "Geruchten verouderen snel; wachten ze te lang, dan zijn ze niet meer interessant.",
+   "options": [
+    {
+     "label": "NAAR BEOORDELEN",
+     "do": "open",
+     "to": "#beoordelen",
+     "hint": "Snel nieuws en geruchten staan bovenaan."
+    },
+    {
+     "label": "NAMEN NAKIJKEN",
+     "do": "open",
+     "to": "#tags"
+    }
+   ]
+  }
+ ],
+ "errors": []
 }

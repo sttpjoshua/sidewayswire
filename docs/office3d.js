@@ -11,7 +11,7 @@ import { OutputPass } from "./vendor/three/postprocessing/OutputPass.js";
 import { GLTFLoader } from "./vendor/three/loaders/GLTFLoader.js";
 
 const LIME = 0xC6FF00, PINK = 0xFF2E88, BLUE = 0x5BC0FF, ORANGE = 0xFF9F43, DARK = 0x151517;
-const STC = { bezig: "#C6FF00", wacht: "#9a9aa0", pauze: "#ffb000", uit: "#555", fout: "#FF2E88", gepland: "#5BC0FF" };
+const STC = { bezig: "#C6FF00", wacht: "#9a9aa0", pauze: "#ffb000", uit: "#555", fout: "#FF2E88", gepland: "#5BC0FF", aandacht: "#FF9F43" };
 
 // ---------- wie werkt waar ----------
 const GARAGES = [
@@ -426,7 +426,7 @@ function applyStates() {
     const st = stateOf(id), o = agentObj[id]; if (!o) continue;
     o.p.visible = st !== "uit";
     const a = (typeof AG!=='undefined'?AG:{})[id] || {};
-    let txt = st === "fout" ? "Hulp! " + ((a.errors || []).slice(-1)[0] || "er ging iets mis") : st === "bezig" ? (a.doing || "aan het werk") : st === "gepland" ? "zzz" : "";
+    let txt = st === "aandacht" ? "Ik heb een keuze voor je ✋" : st === "fout" ? "Hulp! " + ((a.errors || []).slice(-1)[0] || "er ging iets mis") : st === "bezig" ? (a.doing || "aan het werk") : st === "gepland" ? "zzz" : "";
     if (txt.length > 46) txt = txt.slice(0, 44) + "…";
     o.bub.element.textContent = txt; o.bub.element.className = "of3-bub of3-" + st; o.hasTxt = !!txt;
     if (st !== "wacht" && o.walk && o.walk.phase === "heen") { o.walk.wait = 0.01; }      // werk komt binnen: terug naar het bureau

@@ -118,7 +118,7 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 #of3-views{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}#of3-views button{background:#1b1b1e;color:#fff;border:2px solid #333;padding:6px 12px;font:700 12px Inter,sans-serif;letter-spacing:1px;cursor:pointer;transform:skewX(-10deg)}#of3-views button.on{background:#C6FF00;color:#111;border-color:#C6FF00}
 .of3-tag{font:700 10px Inter,sans-serif;color:#fff;background:#111c;padding:2px 6px;border-left:3px solid #C6FF00;white-space:nowrap;pointer-events:none;letter-spacing:.3px}.of3-tag i{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px}
 .of3-bub{font:600 11px/1.25 Inter,sans-serif;color:#111;background:#fff;padding:4px 7px;max-width:170px;border:2px solid #111;box-shadow:3px 3px 0 #000;pointer-events:none;transform:skewX(-6deg)}
-.of3-bub.of3-bezig{background:#C6FF00}.of3-bub.of3-fout{background:#FF2E88;color:#fff}.of3-bub.of3-gepland{background:#5BC0FF}
+.of3-bub.of3-bezig{background:#C6FF00}.of3-bub.of3-fout{background:#FF2E88;color:#fff}.of3-bub.of3-gepland{background:#5BC0FF}.of3-bub.of3-aandacht{background:#FF9F43}
 @media(max-width:700px){.of3-bub{display:none!important}.of3-tag{font-size:8px}}
 .of-q{border:2px solid #333;background:#121214;padding:10px}.of-q-h{font:700 11px Inter,sans-serif;letter-spacing:1.5px;color:var(--mute);margin-bottom:6px;display:flex;justify-content:space-between}.of-q-h b{color:#C6FF00}
 .of-q-i{display:flex;gap:10px;padding:7px 4px;border-top:1px solid #222;text-decoration:none;color:#fff}.of-q-i>span{width:18px;color:#7a7a80;font-weight:700}.of-q-i.ok>span{color:#C6FF00}.of-q-i.ok b{text-decoration:line-through;color:#9a9aa0}
@@ -140,6 +140,9 @@ h2 small,.muted{font-family:Inter;font-size:13px;color:var(--mute);letter-spacin
 .of-wk{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}.of-wk div{text-align:center}.of-wk b{display:block;font:400 26px "Bebas Neue",sans-serif;color:#fff}.of-wk span{font-size:11px;color:var(--mute)}
 .of-key{display:grid;grid-template-columns:12px 1fr;gap:2px 8px;align-items:center;padding:6px 0;border-top:1px solid #222}.of-key i{width:10px;height:10px;border-radius:50%}.of-key small{grid-column:2;color:var(--mute);font-size:12px}.of-key b{font-size:13px}
 h2.cat.hot{color:#FF2E88}.hotb{display:inline-block;background:#FF2E88;color:#fff;font:700 13px Inter,sans-serif;letter-spacing:1px;padding:3px 8px;vertical-align:middle;transform:skewX(-8deg)}
+.agp{margin:10px 0;border:2px solid #ff9f43;background:#1a140c;padding:10px}.agp-h{font:700 11px Inter,sans-serif;letter-spacing:1.5px;color:#ff9f43;margin-bottom:6px}
+.agp-i{padding:8px 0;border-top:1px solid #3a2a14}.agp-i:first-of-type{border-top:0}.agp-i b{display:block;color:#fff;font-size:14px}.agp-i small{display:block;color:#cfcfd4;font-size:13px;margin-top:3px}
+.agp-ask textarea{width:100%;min-height:54px;margin-top:6px;background:#111;color:#fff;border:2px solid #333;padding:8px;font:13px Inter,sans-serif}
 .cal-head{display:flex;align-items:center;gap:12px;margin:6px 0 12px;flex-wrap:wrap}.cal-head h2{margin:0;min-width:260px;text-align:center}
 .cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:10px}.cal-leg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:middle}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
@@ -469,7 +472,60 @@ document.addEventListener("click",async e=>{const c=e.target.closest("[data-ttc]
   c.disabled=true;try{await changePost(id,x=>{x.tiktok_done=new Date().toISOString()});const p=posts().find(x=>x.id===id);if(p)p.tiktok_done=1;drawTikTokPage();toast("Afgevinkt.")}catch(x){c.disabled=false;toast(x.message,1)}});
 // ---------- agents (lc/agents.py, tools/mac/local_editor.py): docs/agents/<id>.json, sturen via data/agents.json ----------
 const AG_ORDER=[["Leiding",["strateeg","hoofdredacteur"]],["Analyse",["analist"]],["Redacteuren",["battle","podcast","nieuws","community"]],["Controle en nieuws",["qc","scout"]],["Wekelijks",["tags"]]];
-const AG_COLOR={bezig:"#c8ff00",wacht:"#7a7a80",pauze:"#ffb000",uit:"#444",fout:"#ff4f9a",gepland:"#5aa9ff"};
+const AG_COLOR={bezig:"#c8ff00",wacht:"#7a7a80",pauze:"#ffb000",uit:"#444",fout:"#ff4f9a",gepland:"#5aa9ff",aandacht:"#ff9f43"};
+// ---------- keuzes bij een probleem (27 nov): elke agent kan problemen met knoppen geven ----------
+// Een probleem: {id, text, why?, options:[{label, do, ...}]}. do: open (to), setting (key, value), agent_note (agent, note),
+// agent_toggle (agent, on), run (workflow, inputs), priority (first, why), ask (agent: eigen instructie typen).
+// Zonder eigen problemen maakt het dashboard ze uit de foutmeldingen, met de regels hieronder.
+const AG_WF={qc:"run.yml",scout:"collect.yml",analist:"run.yml",tags:"handles.yml"};
+const AG_RULES=[
+  [/cookie|sign in to confirm|not a bot/i,"YouTube denkt dat de Mac een robot is en wil inloggegevens (cookies) van een browser op de Mac.",[
+    {label:"COOKIES UIT SAFARI",do:"setting",key:"yt_cookies_browser",value:"safari",hint:"Gebruikt de YouTube-login van Safari op de Mac. Log daar eenmalig in op YouTube."},
+    {label:"COOKIES UIT CHROME",do:"setting",key:"yt_cookies_browser",value:"chrome",hint:"Gebruikt de YouTube-login van Chrome op de Mac. De Mac kan een keer om toegang vragen."},
+    {label:"COOKIES UIT FIREFOX",do:"setting",key:"yt_cookies_browser",value:"firefox"}]],
+  [/rate limit|request limit|\(#4\)|429/i,"Een platform remt ons af omdat we te veel vroegen. Dit gaat vanzelf over.",[
+    {label:"WACHTEN, NIETS DOEN",do:"dismiss"}]],
+  [/No module named|mlx|model/i,"Het taalmodel op de Mac start niet.",[
+    {label:"MAC OPNIEUW LATEN INSTALLEREN",do:"setting",key:"mac_reinstall",value:true,hint:"De Mac installeert het model opnieuw bij de volgende ronde."}]],
+  [/token|401|403|expired|verlopen|unauthor/i,"Een sleutel werkt niet meer.",[
+    {label:"NAAR KANALEN",do:"open",to:"#kanalen"},{label:"SLEUTELS IN HET KANTOOR",do:"open",to:"#kantoor"}]],
+  [/namen|names|spelling/i,"Namen kloppen niet in de clips.",[
+    {label:"NAMEN NAKIJKEN",do:"open",to:"#tags"},{label:"INSTRUCTIE: JUISTE SPELLING",do:"agent_note",agent:"battle",note:"Gebruik alleen namen uit de rijderslijst, met de juiste spelling. Bij twijfel geen naam."}]],
+  [/wacht(en)? op (jou|een foto)|te beoordelen|beoordelen/i,"Er wacht werk op jou.",[{label:"NAAR BEOORDELEN",do:"open",to:"#beoordelen"}]],
+];
+function agProblems(id){const a=AG[id]||{},gone=(AGCFG.dismissed||{}),out=[];
+  for(const p of (a.problems||[]))out.push({...p,key:id+":"+(p.id||p.text)});
+  if(!(a.problems||[]).length)for(const e of (a.errors||[]).slice(-3)){const r=AG_RULES.find(([re])=>re.test(e));
+    out.push({key:id+":"+e.slice(0,60),text:e,why:r?r[1]:"",options:r?r[2]:[]})}
+  return out.filter(p=>!gone[p.key]).map(p=>({...p,options:[...(p.options||[]),
+    ...(AG_WF[id]?[{label:"OPNIEUW PROBEREN",do:"run",workflow:AG_WF[id]}]:[]),
+    {label:"ZELF EEN INSTRUCTIE GEVEN",do:"ask",agent:p.agent||id},{label:"NEGEREN",do:"dismiss"}]}))}
+function problemsHTML(id){const P=agProblems(id);if(!P.length)return "";
+  return `<div class="agp"><div class="agp-h">WAT WIL JE DOEN?</div>${P.map((p,i)=>`<div class="agp-i" data-pk="${esc(p.key)}" data-pag="${id}">
+    <b>${esc(p.text)}</b>${p.why?`<small>${esc(p.why)}</small>`:""}
+    <div class="row" style="gap:6px;flex-wrap:wrap;margin-top:6px">${p.options.map((o,j)=>`<button class="btn ${j===0&&o.do!=="dismiss"?"g":""}" data-popt='${esc(JSON.stringify(o))}' title="${esc(o.hint||"")}">${esc(o.label)}</button>`).join("")}</div>
+    <div class="agp-ask" hidden><textarea placeholder="Wat moet deze agent anders doen?"></textarea><button class="btn g" data-pask>OPSLAAN</button></div></div>`).join("")}</div>`}
+async function saveSettingKey(k,v){const path="/contents/data/settings.json";
+  for(let n=0;n<2;n++){const f=await gh(`${path}?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));d[k]=v;
+    try{await gh(path,{method:"PUT",body:JSON.stringify({message:`dashboard: instelling ${k}`,content:b64(JSON.stringify(d,null,1)+"\n"),sha:f.sha,branch:"main"})});return}catch(e){if(n||!/409|422/.test(String(e)))throw e}}}
+async function doOption(o,id,pk){
+  if(o.do==="open"){location.hash=o.to;return "open"}
+  if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}
+  if(o.do==="setting"){await saveSettingKey(o.key,o.value);toast(`Ingesteld. ${o.hint||"Werkt vanaf de volgende ronde."}`)}
+  else if(o.do==="agent_note"){await saveAgents(d=>{const c=d.agents[o.agent]=d.agents[o.agent]||{on:true,note:""};c.note=o.note;c.by="joshua";c.locked=true});toast("Instructie opgeslagen.")}
+  else if(o.do==="agent_toggle"){await saveAgents(d=>{const c=d.agents[o.agent]=d.agents[o.agent]||{on:true,note:""};c.on=!!o.on});toast(o.on?"Aangezet.":"Uitgezet.")}
+  else if(o.do==="priority"){await saveAgents(d=>{d.priorities={first:o.first||[],why:o.why||"",by:"joshua",at:new Date().toISOString()}});toast("Voorrang ingesteld.")}
+  else if(o.do==="run"){await gh(`/actions/workflows/${o.workflow}/dispatches`,{method:"POST",body:JSON.stringify({ref:"main",inputs:o.inputs||{}})});toast("Gestart. Over een paar minuten zie je het resultaat.")}
+  else if(o.do==="dismiss"){toast("Genegeerd.")}
+  else return;
+  if(o.do!=="ask")await saveAgents(d=>{d.dismissed=d.dismissed||{};d.dismissed[pk]=new Date().toISOString()});
+  return "done"}
+document.addEventListener("click",async e=>{const b=e.target.closest("[data-popt]");if(b){const box=b.closest("[data-pk]"),o=JSON.parse(b.dataset.popt);
+    if(o.do==="ask"){const a=box.querySelector(".agp-ask");a.hidden=!a.hidden;a.dataset.agent=o.agent;a.querySelector("textarea").focus();return}
+    b.disabled=true;try{const r=await doOption(o,box.dataset.pag,box.dataset.pk);if(r==="done"){box.remove();if(typeof drawAgentsNow==="function"&&document.getElementById("ag-list"))drawAgentsNow();if(window.officePick)officePick(box.dataset.pag)}}catch(x){toast(x.message,1)}b.disabled=false;return}
+  const q=e.target.closest("[data-pask]");if(q){if(!key){toast("Zet eerst de dashboard-sleutel.",1);return}const a=q.closest(".agp-ask"),box=q.closest("[data-pk]"),txt=a.querySelector("textarea").value.trim();if(!txt)return;q.disabled=true;
+    try{await saveAgents(d=>{const c=d.agents[a.dataset.agent]=d.agents[a.dataset.agent]||{on:true,note:""};c.note=txt;c.by="joshua";c.locked=true;d.dismissed=d.dismissed||{};d.dismissed[box.dataset.pk]=new Date().toISOString()});
+      toast("Instructie opgeslagen. De agent gebruikt hem vanaf de volgende ronde.");box.remove()}catch(x){toast(x.message,1)}q.disabled=false}});
 let AG={},AGCFG={agents:{}},TIPS={tips:[]};
 async function loadAgents(){const ids=AG_ORDER.flatMap(x=>x[1]);
   const r=await Promise.all(ids.map(id=>fetch(`agents/${id}.json?${Date.now()}`).then(x=>x.ok?x.json():null).catch(()=>null)));ids.forEach((id,i)=>AG[id]=r[i]||{id,name:id,state:"gepland"});
@@ -485,7 +541,7 @@ function agCard(id){const a=AG[id]||{},c=(AGCFG.agents||{})[id]||{on:true,note:"
     ${id==="hoofdredacteur"&&(AGCFG.priorities||{}).first&&AGCFG.priorities.first.length?`<p class="muted" style="font-size:13px;margin:4px 0">Voorrang vandaag: <b>${AGCFG.priorities.first.map(esc).join(", ")}</b>${AGCFG.priorities.why?` · ${esc(AGCFG.priorities.why)}`:""}</p>`:""}
     <p style="margin:8px 0;color:#ddd">${a.doing?esc(a.doing):`<span class="muted">Niets te doen op dit moment.</span>`}</p>
     ${a.counts?`<p class="muted" style="font-size:13px;margin:4px 0">${Object.entries(a.counts).filter(([k])=>k!=="day").map(([k,v])=>`${esc(k)}: <b>${v}</b>`).join(" · ")}</p>`:""}
-    ${(a.errors||[]).length?`<p style="color:#ff4f9a;font-size:13px;margin:4px 0">Fout: ${esc(a.errors.slice(-1)[0])}</p>`:""}
+    ${problemsHTML(id)}
     ${dr.length?`<p class="muted" style="font-size:13px;margin:4px 0">Afgevallen: ${dr.map(([k,v])=>`${esc(k)} ${v}x`).join(", ")}</p>`:""}
     ${(a.top||[]).length?`<details style="margin:6px 0"><summary class="muted">Beste nieuws nu</summary>${a.top.map(t=>`<div style="font-size:13px;margin:3px 0">${t.score} · ${esc(t.title)}</div>`).join("")}</details>`:""}
     <div style="margin:8px 0;border-top:1px solid #333;padding-top:6px"><div class="muted" style="font-size:12px;letter-spacing:1px">LAATST GEDAAN</div>
@@ -499,7 +555,7 @@ function drawAgentsNow(){const L=document.getElementById("ag-list");
   document.getElementById("ag-feed").innerHTML=F.length?F.map(h=>`<div style="font-size:14px;margin:4px 0"><span class="muted">${fmtWhen(h.at)}</span> · <b style="color:#c8ff00">${esc(h.who)}</b> · ${h.ref&&/^(pod-|20)/.test(h.ref)?`<a href="#beoordelen/${esc(h.ref)}">${esc(h.text)}</a>`:esc(h.text)}</div>`).join(""):`<div class="muted">Nog geen activiteit. De redacteuren op de Mac starten buiten je werktijd.</div>`;
   L.innerHTML=AG_ORDER.map(([t,ids])=>`<h2>${t.toUpperCase()}</h2><div class="replies">${ids.map(agCard).join("")}</div>`).join("");
   const T=(TIPS.tips||[]).slice(-8).reverse();document.getElementById("tip-list").innerHTML=T.length?T.map(t=>`<div style="font-size:13px;margin:3px 0"><span class="tag">${t.status==="done"?"VERWERKT":"WACHT"}</span> ${esc(t.note||t.url)}${t.result?` <span class="muted">· ${esc(t.result)}</span>`:""}</div>`).join(""):"";
-  document.getElementById("c-ag").textContent=Object.values(AG).filter(a=>a.state==="fout").length?"!":""}
+  document.getElementById("c-ag").textContent=Object.keys(AG).some(id=>agProblems(id).length)?"!":""}
 async function drawAgents(){if(!Object.keys(AG).length)document.getElementById("ag-list").innerHTML=`<div class="empty2">Laden...</div>`;await loadAgents();drawAgentsNow()}
 async function saveAgents(fn){const path="/contents/data/agents.json";
   for(let k=0;k<2;k++){const f=await gh(`${path}?ref=main&${Date.now()}`),d=JSON.parse(unb64(f.content));d.agents=d.agents||{};fn(d);

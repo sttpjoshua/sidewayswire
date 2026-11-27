@@ -23,7 +23,7 @@ const ROOMS=[
   {id:"analyse", label:"ANALYSE",    x:116,y:108,w:98, h:86, floor:"#24242c"},
   {id:"server",  label:"JOUW BUREAU", x:220,y:108,w:94, h:86, floor:"#2c2622"}
 ];
-const STC={bezig:"#C6FF00",wacht:"#7a7a80",pauze:"#ffb000",uit:"#444",fout:"#FF2E88",gepland:"#5BC0FF"};
+const STC={bezig:"#C6FF00",wacht:"#7a7a80",pauze:"#ffb000",uit:"#444",fout:"#FF2E88",gepland:"#5BC0FF",aandacht:"#FF9F43"};
 let pick=null, timer=null;
 
 const r=(x,y,w,h,c,extra="")=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${c}" ${extra}/>`;
@@ -183,7 +183,7 @@ function panel(){
     <p>${a.doing?esc(a.doing):`<span class="muted">Niets te doen op dit moment.</span>`}</p>
     ${a.briefing?`<p style="border-left:3px solid #C6FF00;padding-left:8px;white-space:pre-line">${esc(a.briefing)}</p>`:""}
     ${a.plan?`<p style="border-left:3px solid #5BC0FF;padding-left:8px;white-space:pre-line">${esc(a.plan)}</p>`:""}
-    ${(a.errors||[]).length?`<p style="color:#FF2E88">Fout: ${esc(a.errors.slice(-1)[0])}</p>`:""}
+    ${typeof problemsHTML==="function"?problemsHTML(pick):""}
     <textarea class="of-note" data-ofnote="${pick}" placeholder="Instructie voor ${esc(a.name||SEATS[pick].role)}, bijvoorbeeld: meer Drift Masters">${esc(c.note||"")}</textarea>
     <button class="btn" data-ofnotesave="${pick}" style="margin-top:6px">INSTRUCTIE OPSLAAN</button>
     <div class="muted" style="font-size:12px;letter-spacing:1px;margin-top:10px">LAATST GEDAAN</div>

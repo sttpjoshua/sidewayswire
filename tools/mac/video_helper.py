@@ -34,7 +34,7 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "19"
+VERSION = "20"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -101,7 +101,7 @@ def captions(youtube_id: str) -> list[tuple[float, str]]:
     CACHE.mkdir(parents=True, exist_ok=True)
     vtts = list(CACHE.glob(f"{vkey(youtube_id)}*.vtt"))
     if not vtts:
-        r = subprocess.run(["yt-dlp", "--no-warnings", "--skip-download", "--write-auto-subs", "--write-subs",
+        r = subprocess.run([*YTDLP(), "--no-warnings", "--skip-download", "--write-auto-subs", "--write-subs",
                             "--sub-langs", "en.*,en,-live_chat", "--sub-format", "vtt/best", "-o", str(CACHE / vkey(youtube_id)),
                             vurl(youtube_id)], capture_output=True, text=True, timeout=300)
         vtts = list(CACHE.glob(f"{vkey(youtube_id)}*.vtt"))
@@ -207,7 +207,7 @@ def youtube_audio(youtube_id: str) -> Path:
         return out
     src = list(CACHE.glob(f"{vkey(youtube_id)}.audio.*"))
     if not src:
-        r = subprocess.run(["yt-dlp", "--no-warnings", "-f", "ba[ext=m4a]/ba/b[height<=480]/b", "-o", str(CACHE / f"{vkey(youtube_id)}.audio.%(ext)s"),
+        r = subprocess.run([*YTDLP(), "--no-warnings", "-f", "ba[ext=m4a]/ba/b[height<=480]/b", "-o", str(CACHE / f"{vkey(youtube_id)}.audio.%(ext)s"),
                             vurl(youtube_id)], capture_output=True, text=True, timeout=1800)
         src = [p for p in CACHE.glob(f"{vkey(youtube_id)}.audio.*") if not p.name.endswith(".part")]
         if not src:
@@ -247,6 +247,13 @@ def audio_offset(pod, yt, at: float, length: float = 20.0) -> float | None:
 
 
 # ---------- the right video ----------
+def YTDLP() -> list[str]:
+    """yt-dlp, plus the cookies of a browser on this Mac when Joshua chose one in the dashboard
+    (settings.yt_cookies_browser: safari, chrome, firefox). YouTube asks for that when it thinks we are a bot."""
+    b = (_json_or("data/settings.json", {}).get("yt_cookies_browser") or "").strip().lower()
+    return ["yt-dlp"] + (["--cookies-from-browser", b] if b in ("safari", "chrome", "firefox", "brave", "edge") else [])
+
+
 def vurl(v: str) -> str:
     """A video is a YouTube id or a full link (Red Bull TV replays of Drift Masters, used with permission)."""
     return v if v.startswith("http") else f"https://www.youtube.com/watch?v={v}"
@@ -276,7 +283,7 @@ def _ytdlp_fresh() -> None:
 
 
 def _ytdlp_lines(args: list[str]) -> list[str]:
-    r = subprocess.run(["yt-dlp", "--no-warnings", *args], capture_output=True, text=True, timeout=300)
+    r = subprocess.run([*YTDLP(), "--no-warnings", *args], capture_output=True, text=True, timeout=300)
     return [l for l in r.stdout.splitlines() if l.strip()]
 
 
@@ -406,7 +413,7 @@ def transcribe_stream(s: dict, yid: str) -> dict:
     CACHE.mkdir(parents=True, exist_ok=True)
     src = [p for p in CACHE.glob(f"{vkey(yid)}.full.*") if not p.name.endswith(".part")]
     if not src:
-        r = subprocess.run(["yt-dlp", "--no-warnings", "-f", "ba[ext=m4a]/ba/b[height<=480]/b", "-o", str(CACHE / f"{vkey(yid)}.full.%(ext)s"),
+        r = subprocess.run([*YTDLP(), "--no-warnings", "-f", "ba[ext=m4a]/ba/b[height<=480]/b", "-o", str(CACHE / f"{vkey(yid)}.full.%(ext)s"),
                             vurl(yid)], capture_output=True, text=True, timeout=7200)
         src = [p for p in CACHE.glob(f"{vkey(yid)}.full.*") if not p.name.endswith(".part")]
         if not src:
@@ -550,7 +557,7 @@ def pieces(ep_id: str, i: int, m: dict) -> list[tuple[str, dict]]:
 
 
 def download(youtube_id: str, a: float, b: float, out: Path) -> bool:
-    r = subprocess.run(["yt-dlp", "-q", "--no-warnings", "-f", "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b",
+    r = subprocess.run([*YTDLP(), "-q", "--no-warnings", "-f", "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b",
                         "--merge-output-format", "mp4", "--download-sections", f"*{a:.2f}-{b:.2f}",
                         "--force-keyframes-at-cuts", "-o", str(out), vurl(youtube_id)],
                        capture_output=True, text=True, timeout=900)
