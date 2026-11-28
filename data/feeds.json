@@ -2,7 +2,7 @@
  "https://news.formulad.com": {
   "kind": "feed",
   "url": "https://news.formulad.com/feed/",
-  "ok": "2026-11-28T05:31:15.823666+00:00",
+  "ok": "2026-11-28T05:46:30.333892+00:00",
   "last_count": 10
  },
  "https://www.youtube.com/@FormulaDRIFT": {
@@ -20,7 +20,7 @@
  "https://autopartner.com/en/category/events": {
   "kind": "feed",
   "url": "https://autopartner.com/en/category/events/feed/",
-  "ok": "2026-11-28T05:31:18.089163+00:00",
+  "ok": "2026-11-28T05:46:32.958471+00:00",
   "last_count": 4
  },
  "https://www.youtube.com/@TheShanahans": {
@@ -38,7 +38,7 @@
  "https://www.youtube.com/@mattfield777": {
   "kind": "feed",
   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmnZe9gMFcShdSLfEDsa5fg",
-  "ok": "2026-11-28T05:31:18.498276+00:00",
+  "ok": "2026-11-28T05:46:33.915015+00:00",
   "last_count": 15
  },
  "https://www.youtube.com/@AdamLZ": {
@@ -50,31 +50,31 @@
  "https://d1gp.co.jp": {
   "kind": "feed",
   "url": "https://d1gp.co.jp/feed/",
-  "ok": "2026-11-28T05:31:20.025459+00:00",
+  "ok": "2026-11-28T05:46:35.434211+00:00",
   "last_count": 10
  },
  "https://www.as-web.jp/drift": {
   "kind": "feed",
   "url": "https://www.as-web.jp/drift/feed/",
-  "ok": "2026-11-28T05:31:20.393726+00:00",
+  "ok": "2026-11-28T05:46:36.188698+00:00",
   "last_count": 8
  },
  "https://nuerburgring.de/news": {
   "kind": "page",
   "url": "https://nuerburgring.de/news",
-  "ok": "2026-11-28T05:31:21.285651+00:00",
+  "ok": "2026-11-28T05:46:37.240137+00:00",
   "last_count": 2
  },
  "https://gatebil.no": {
   "kind": "feed",
   "url": "https://gatebil.no/feed/",
-  "ok": "2026-11-28T05:31:22.399800+00:00",
-  "last_count": 2
+  "ok": "2026-11-28T05:46:37.985121+00:00",
+  "last_count": 0
  },
  "gnews:site:racer.com \"formula drift\"": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:16.203825+00:00",
+  "ok": "2026-11-28T05:46:30.649546+00:00",
   "last_count": 0
  },
  "gnews:site:dm.gp": {
@@ -86,20 +86,20 @@
  "gnews:site:drifted.com": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:16.420853+00:00",
+  "ok": "2026-11-28T05:46:30.913357+00:00",
   "last_count": 2
  },
  "gnews:\"Formula Drift\"": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:16.772488+00:00",
-  "last_count": 10
+  "ok": "2026-11-28T05:46:31.147693+00:00",
+  "last_count": 9
  },
  "gnews:\"Drift Masters\"": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:16.975054+00:00",
-  "last_count": 3
+  "ok": "2026-11-28T05:46:31.391466+00:00",
+  "last_count": 4
  },
  "https://driftmasters.gp/news": {
   "error": "404 Client Error: Not Found for url: https://dm.gp/news",
@@ -108,91 +108,91 @@
  "gnews:site:speedhunters.com drift": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:23.217151+00:00",
+  "ok": "2026-11-28T05:46:39.118183+00:00",
   "last_count": 0
  },
  "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%20OR%20%22build%22%20Formula%20Drift%20OR%20%22Drift%20Masters%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:23.524099+00:00",
+  "ok": "2026-11-28T05:46:39.389154+00:00",
   "last_count": 5
  },
  "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20OR%20%22switches%20to%22%20OR%20announces%202027%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:23.878193+00:00",
+  "ok": "2026-11-28T05:46:39.711925+00:00",
   "last_count": 3
  },
  "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%20Gittin%22%20OR%20%22Chelsea%20DeNofa%22%20OR%20%22Ryan%20Tuerck%22%20drift%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:16:13.277803+00:00",
+  "ok": "2026-11-28T05:46:39.922319+00:00",
   "last_count": 3
  },
  "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix%22%20drift%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:24.470236+00:00",
+  "ok": "2026-11-28T05:46:40.119601+00:00",
   "last_count": 0
  },
  "https://dm.gp/articles/": {
   "kind": "page",
   "url": "https://dm.gp/articles/",
-  "ok": "2026-11-28T05:31:23.037600+00:00",
+  "ok": "2026-11-28T05:46:38.963015+00:00",
   "last_count": 0
  },
  "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=%22Conor%20Shanahan%22%20OR%20%22Jack%20Shanahan%22%20OR%20%22Piotr%20Wiecek%22%20OR%20%22Pawel%20Korpulinski%22%20OR%20%22Duane%20McKeever%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:24.708440+00:00",
+  "ok": "2026-11-28T05:46:40.324473+00:00",
   "last_count": 5
  },
  "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurimas%20Bakchis%22%20OR%20%22Branden%20Sorensen%22%20OR%20%22Chris%20Forsberg%22%20OR%20%22Matt%20Field%22%20OR%20%22Adam%20LZ%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:25.015232+00:00",
-  "last_count": 12
+  "ok": "2026-11-28T05:46:40.560234+00:00",
+  "last_count": 7
  },
  "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22guest%20driver%22%20OR%20exhibition%20OR%20demo%20OR%20gymkhana%20OR%20%22drift%20show%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:25.296262+00:00",
-  "last_count": 6
+  "ok": "2026-11-28T05:46:40.848187+00:00",
+  "last_count": 7
  },
  "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%20OR%20schedule%20OR%20rules%20%22Formula%20Drift%22%20OR%20%22Drift%20Masters%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:25.604016+00:00",
+  "ok": "2026-11-28T05:46:41.108573+00:00",
   "last_count": 7
  },
  "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20Shanahan%20OR%20Deane%20OR%20Aasbo%20OR%20guest%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:25.795821+00:00",
+  "ok": "2026-11-28T05:46:41.310975+00:00",
   "last_count": 0
  },
  "gnews:site:redbull.com drift": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:26.045390+00:00",
-  "last_count": 9
+  "ok": "2026-11-28T05:46:41.538761+00:00",
+  "last_count": 10
  },
  "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=%22Formula%20Drift%22%202027%20approved%20drivers%20OR%20%22driver%20list%22%20OR%20lineup%20OR%20%22full%20season%22%20OR%20rookie%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:26.306626+00:00",
+  "ok": "2026-11-28T05:46:41.798653+00:00",
   "last_count": 2
  },
  "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR%20%22final%20season%22%20OR%20retires%20OR%20%22stepping%20away%22%20OR%20%22pro%20license%22%202027%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:26.636003+00:00",
+  "ok": "2026-11-28T05:46:42.084354+00:00",
   "last_count": 0
  },
  "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins": {
   "kind": "feed",
   "url": "https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers%20OR%20announced%20OR%20returns%20OR%20joins%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-  "ok": "2026-11-28T05:31:26.821275+00:00",
+  "ok": "2026-11-28T05:46:42.286606+00:00",
   "last_count": 1
  }
 }
