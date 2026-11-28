@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:01:41.349376+00:00",
+ "updated": "2026-11-28T01:17:04.261233+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T01:01:36.358904+00:00",
+ "collected": "2026-11-28T01:17:00.152282+00:00",
  "instagram": true,
  "sources": [
   {
@@ -28,8 +28,9 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -119,7 +120,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -167,7 +168,7 @@
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -621,6 +622,23 @@
    ]
   },
   {
+   "title": "¿Quién más está desacuerdo? 🤩",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-28T00:56:47+00:00",
+   "items": [
+    {
+     "source": "@luislanz8",
+     "title": "¿Quién más está desacuerdo? 🤩",
+     "url": "https://www.instagram.com/reel/DgRA7G8xlML/",
+     "kind": "instagram",
+     "published": "2026-11-28T00:56:47+00:00",
+     "media_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQNTt1u44PUbv-l2p7W-krdCyxh6rv7VSsID6k2IGsKMjkieNDFRfXtgwcttX0_xXmaOTeA1NWY86jAGXh8Rb9XHn7xmMib8g5uE17k.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=tySILCuCApIQ7kNvwFpgeMn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ1NDg1MDI0MzQwMjU3MSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=8627c2f04aaf15f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zRDAyNDkyRThFQkY0NDI4QjAzRTBEODY1RDZCQ0FCQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc1RDRGNUNGQzRFODRBREVBMjU2NzFEOEIwODYyRjdGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaW7az_tsuVBRUCKAJDMywXQCwhysCDEm8YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=fMtuBOg_PGtqJEZmwCzbew&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQVL0dJBOdRAAg1mrAy3nPyqUjoKFawX0UgUR5MXIfT1RQ&oe=6B0C1240",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
    "title": "Our New Shop",
    "series": "FD",
    "buzz": 1,
@@ -633,6 +651,40 @@
      "kind": "video",
      "published": "2026-11-28T00:25:50+00:00",
      "media_url": "https://i4.ytimg.com/vi/c12bft8ZBB4/hqdefault.jpg",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Ele está de volta e na sua melhor versão 🏁🇧🇷 ",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T22:40:13+00:00",
+   "items": [
+    {
+     "source": "@diegohiga",
+     "title": "Ele está de volta e na sua melhor versão 🏁🇧🇷 ",
+     "url": "https://www.instagram.com/p/DgQxj0ljydv/",
+     "kind": "instagram",
+     "published": "2026-11-27T22:40:13+00:00",
+     "media_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/929284563_18653320051057782_6797929544905576846_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WjQ8Os6aau0Q7kNvwGt4Ih-&_nc_oc=AdrKkHBdMUIDwDRe-8LSkFyr6Et-VogOHwMucdQEnYCcdb7fn5k3N77ns1BZvNa33ZI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=zK0mBmooEGgXa6y0k1aQjg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQUWkDjnxCRY1zCjJYxaG5JhrIyR7VUdSNGdPnbFBD--Ug&oe=6B100710",
+     "media_type": "CAROUSEL_ALBUM"
+    }
+   ]
+  },
+  {
+   "title": "All BBC to the staging lanes",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-27T21:41:27+00:00",
+   "items": [
+    {
+     "source": "@jerrydrift",
+     "title": "All BBC to the staging lanes",
+     "url": "https://www.instagram.com/reel/DgQquLkTxJV/",
+     "kind": "instagram",
+     "published": "2026-11-27T21:41:27+00:00",
+     "media_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQO9p_edCyGWYp34TqJYCxgv-wCuAdcBChYTLIYqs3nAw6RsX86b2q-1qUIBEIsVBx3xO3Qp62X85jdjnl3fzY0gJFg6NrVUcB7NSyA.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=R-KFKLyzh_oQ7kNvwH8dls9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTcyMDk2NjM0NjMxMjM1MCwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=934ad7c7305f3dde&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81Q0IwRTcxMjZBRDM0OTI5QTI0ODBEMTk2RjlCMjAwNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0EwRkI0MTBGODk1MzQ0OENBRTk4MkUxOTBBODkyRTQ2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa8qvC7ts2OBhUCKAJDMywXQCqIMSbpeNUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=y4GrUIoezQp1j9HiByFOXg&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=U0ok8XwUsAj0QoMjPnazxoRGBaM-G2SFwL9cf0qxEGBW0iVbv6F0a16Gx701n6DD0NIOrFnFtxcfT2P4u65vyu2aW8v-sd_SXQpoBe6Dq8paYRgjK4NVzrDFFQVMD-n0uuqP&oh=00_AQVTj13XlAcS13m6HhjUiddxYkYIkMog60plFKEIFf_s9w&oe=6B0BFF84",
      "media_type": "VIDEO"
     }
    ]
@@ -1131,23 +1183,6 @@
    ]
   },
   {
-   "title": "formulad 2027 schedule just dropped! 🇺🇸🤘🏻Long Beach / Orlando / Atlanta / Connecticut / Indianapolis / New Jersey / Seattle / Las Vegas 😤😮‍💨 I am most excited to be back at E-Town, how about you guys?",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-25T19:23:39+00:00",
-   "items": [
-    {
-     "source": "@connor_osully",
-     "title": "formulad 2027 schedule just dropped! 🇺🇸🤘🏻Long Beach / Orlando / Atlanta / Connecticut / Indianapolis / New Jersey / Seattle / Las Vegas 😤😮‍💨 I am most excited to be back at E-Town, how about you guys?",
-     "url": "https://www.instagram.com/p/DgLReZllqAJ/",
-     "kind": "instagram",
-     "published": "2026-11-25T19:23:39+00:00",
-     "media_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/930414131_18646535401035812_3714229299269410576_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VxyQx7jisU8Q7kNvwEnzuh-&_nc_oc=AdqLIYAbD5DXEaVYL0oSPOFgItiwqRD0YaW5LJHgczml4lN79EmYkj8QdzFzKacSdDI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQFaUvXvCMOiY2fKmZi9ekFe3FgOo_AFUHf2VCYE-ZfRw&oe=6B0E713B",
-     "media_type": "CAROUSEL_ALBUM"
-    }
-   ]
-  },
-  {
    "title": "Roguelike autobattler Drift Scrappers demo released",
    "series": "FD + DM",
    "buzz": 1,
@@ -1335,36 +1370,19 @@
    ]
   },
   {
-   "title": "Having fun at AVS 😤🤘🏻",
-   "series": "FD",
+   "title": "Red Bull CPD- Jordan",
+   "series": "FD + DM",
    "buzz": 1,
-   "published": "2026-11-19T21:53:14+00:00",
+   "published": "2026-11-20T00:00:00+00:00",
    "items": [
     {
-     "source": "@connor_osully",
-     "title": "Having fun at AVS 😤🤘🏻",
-     "url": "https://www.instagram.com/reel/Df8FsytJKev/",
-     "kind": "instagram",
-     "published": "2026-11-19T21:53:14+00:00",
-     "media_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQNYyJTNhf5hTCaDygeEp1IWCDWvS8rVKxtmWiHlOwYybkiaRjO_tTE4FzmjcMLCcXthbguDydx66Fl6OduvfjUHVVTDz0P6RS-_0FM.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=eq_0Dl-QKzwQ7kNvwHlvOLc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY2MDc3Mjk5NTUzOTI0MSwiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=f2c71a36d0d9827f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yOENEOTY4M0MzMjc0NkMxODQ4MDY0RERCQzE0MUY3OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E2REEwRkZFMTIxNTQ2MDRBNTU4OTlDRUE0MjFGOTM5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbShJ2H253zBRUCKAJDMywXQC0zMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UvjehRDZ7bxwLJ25pu5l0N_oruXhZHivNCtiOMFnDb-aTDrBabk6jzjdSr_ywAFwN4GFeZSXt5oxFineyly-qwTT6QuiklLmZSNkjuCpKJQCkICuYZ5L6E4yqytWFil7p7mW&oh=00_AQSXhxsCYFGAJv3cTjF0cjHE9VKKn8tMqmIHL9RGpfoxHQ&oe=6B0A7F1C",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Ole girl got MOTION 😎 looking fresh after a rough season ⚔️",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-19T21:21:53+00:00",
-   "items": [
-    {
-     "source": "@connor_osully",
-     "title": "Ole girl got MOTION 😎 looking fresh after a rough season ⚔️",
-     "url": "https://www.instagram.com/reel/Df8CDqPpMPE/",
-     "kind": "instagram",
-     "published": "2026-11-19T21:21:53+00:00",
+     "source": "Google News · Red Bull",
+     "title": "Red Bull CPD- Jordan",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1dWllVm5tN3d5VTlHcXgxUmpjNDRycjVjU3ZDZThMX0lZMElZVTFHUTl6YzA0MXZYTFMxS0xQenlGOWpKZ2VoUWhuSEpQc2FJS0FnQnhjVU42aHlBMFJZR21mZlpYYWJM?oc=5",
+     "kind": "article",
+     "published": "2026-11-20T00:00:00+00:00",
      "media_url": null,
-     "media_type": "VIDEO"
+     "media_type": null
     }
    ]
   },
@@ -1619,23 +1637,6 @@
      "kind": "instagram",
      "published": "2026-11-14T02:54:52+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQP3Ceu4Fxub_jqQqrOzDmkPoqUQdJVejcyQNNhfjwrFBnIwsB9d_oHhkMWFESl_tDEx64EgnFEQNCfX-O3qvYapWEQlrTF4NsL6aeU.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=NwVhuBCkpREQ7kNvwFXap6m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjIzMTEyMTk3MDc2OTU0NCwiYXNzZXRfYWdlX2RheXMiOjEyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=96e97eb44fdef855&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yNkMzN0IyN0FDOTU0MTNEODA5MDMzOEI0NERGQkM5Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVGQ0ZGMUU5RDQ1NzRGREE5QzQ4NkZFNTI2MEU4RTQzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaQuqWIssz2BxUCKAJDMywXQDQo9cKPXCkYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=SqZqBD4UC7Y6DfZ9Z2fWIQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSxOt_pR_g1x-TrV4kkzDtsAa5ixubo8GrQ2PHZInl_LA&oe=6B0A81A4",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Black Friday kbdbodykits 15% off a nearly indestructible  body kit",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-13T18:24:27+00:00",
-   "items": [
-    {
-     "source": "@tyler_mayer",
-     "title": "Black Friday kbdbodykits 15% off a nearly indestructible  body kit",
-     "url": "https://www.instagram.com/reel/DfsRIiQSFcN/",
-     "kind": "instagram",
-     "published": "2026-11-13T18:24:27+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t16/f2/m84/AQM2PSH1YD2z7Q5S7F38ZGJSvU9i6mcjm-ZLPgydlLV3Al-XHQhO3bZEvv2evfEywSeBevLQUWyUCu_jCberDXVTWGErEOFbflRySaI.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=gYVg_DqbNCsQ7kNvwEyClJu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY4MDA4ODI1MDM1NTExMiwiYXNzZXRfYWdlX2RheXMiOjEzLCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=174ca12badb1c25e&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC84NTA2ODU5NDQ2MUQ0RkFEQjUxMTg0MTM0M0QwMjc2QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzI3NzM3ODkxN0E1NjQzRjlBNDc2REQ2NkU3MjVBNTVGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbQttT1gIL8BRUCKAJDMywXQCGZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=iz_G_oWMtIwXc3Gp2df5CQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UmZQPvqKbK_Q-ccLDRq5R0CRkI_2xVmZO5zsspLzEnrsvrItHYEgU97DwZtQOX3BwlmOTTCoK_0BdGuM9FZwpNh4MNIcjBBXn6536Lg1jzuT65JK44tMPmdlYMAyl5CGjeLi&oh=00_AQQSRKDTuu-DQATohvF5d670goY_5Vby8KWSNW9_QfZ8tQ&oe=6B0A5B4F",
      "media_type": "VIDEO"
     }
    ]
