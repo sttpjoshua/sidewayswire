@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T00:31:35.675409+00:00",
+ "updated": "2026-11-28T00:46:18.953243+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T00:31:30.108960+00:00",
+ "collected": "2026-11-28T00:46:15.139585+00:00",
  "instagram": true,
  "sources": [
   {
@@ -21,8 +21,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -34,14 +35,16 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 9,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Formula DRIFT",
@@ -137,8 +140,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -157,9 +161,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
   },
   {
    "source": "Google News",
@@ -172,21 +175,21 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 12,
+   "items": 7,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 4,
+   "items": 7,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -213,9 +216,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
   },
   {
    "source": "Google News",
@@ -614,6 +616,23 @@
      "kind": "instagram",
      "published": "2026-11-16T22:20:07+00:00",
      "media_url": null,
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Our New Shop",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-28T00:25:50+00:00",
+   "items": [
+    {
+     "source": "Adam LZ",
+     "title": "Our New Shop",
+     "url": "https://www.youtube.com/watch?v=c12bft8ZBB4",
+     "kind": "video",
+     "published": "2026-11-28T00:25:50+00:00",
+     "media_url": "https://i4.ytimg.com/vi/c12bft8ZBB4/hqdefault.jpg",
      "media_type": "VIDEO"
     }
    ]
@@ -1736,23 +1755,6 @@
      "kind": "instagram",
      "published": "2026-11-09T02:15:45+00:00",
      "media_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQNy9DLojb7FB-9aHNzoNsH6VewtsUup-X3Awn_vePkDZfLMNZBcQ6aAz4Vl8mpnmH6lSazXbcxq24dbM-Kqi2CdMyGgISmA8pyhisI.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=ePxWi4q6Br4Q7kNvwGph1To&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNDgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY5OTM3ODgyNTI0MTI3MSwiYXNzZXRfYWdlX2RheXMiOjE3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=c2de00766d13df0c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wRjA3MzgzN0ZDREM0RDY5QUQxMUU5RjYzOTkyMTgzMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlCOTNDRkVCNTZEQzQzREZCREIzOTc3NEU2MDUzNEE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbuir3z7uSEBhUCKAJDMywXQEFAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UuXdR_PsBq9WOQ7jMhpN6zTPKzQkYKdo4tgvXwgmB7uT0un7JO31hUDC3GZVQRRTcdvATPEXK146b5SOuNYQBrl1j27BZ5ec3SjmyoSF6SRIOjewWzACnZ_JL7Yo0O89-Tr_&oh=00_AQQdKghSNwTtDR9DQLg-FdzuKo_hlp8FWuHwSTw4pIW5oA&oe=6B0A6737",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "Teamwork makes the dream work! 🤝🔥",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-06T13:29:02+00:00",
-   "items": [
-    {
-     "source": "@tommy.lemaire",
-     "title": "Teamwork makes the dream work! 🤝🔥",
-     "url": "https://www.instagram.com/reel/DfZtPTUxsXa/",
-     "kind": "instagram",
-     "published": "2026-11-06T13:29:02+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQPNYJJAHvcAEMukoJQt2qp_GnkZHEpii1Qui_S26X-yeEcnoHOnn8U_oqJJc3Mq7dmV9naeJu6TL9gkCYyF2FaCHcTcPhez01EjrEo.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=y_sRriGbcd8Q7kNvwGRARcT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjM4NTMxMjY4ODk4OTU5OSwiYXNzZXRfYWdlX2RheXMiOjIwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=6ba842b46afb333c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GNERFQkQwNjg4NDE0ODRDQUE4NDMyMkEwMzQ5RERGMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdEOTBCMzNFQUE0NzRFNTA5NTE4QzZDNDY1OTFBMjRFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa-lou4vNu8CBUCKAJDMywXQEoEOVgQYk4YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=5e2X1L12ztWYysD4IYNDDw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR1Gk-fRpaFZSatvY3MRVWHHx4le3-ombr97ZT-tbWBZQ&oe=6B0A6332",
      "media_type": "VIDEO"
     }
    ]
