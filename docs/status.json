@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T12:16:22.015765+00:00",
+ "updated": "2026-11-28T12:19:20.472570+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T12:16:17.207761+00:00",
+ "collected": "2026-11-28T12:19:20.134378+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,8 +35,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 9,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -97,9 +98,8 @@
   {
    "source": "D1 Grand Prix (D1GP)",
    "url": "https://d1gp.co.jp",
-   "ok": true,
-   "items": 10,
-   "how": "feed"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='d1gp.co.jp', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<"
   },
   {
    "source": "auto sport web · drift",
@@ -153,8 +153,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -174,14 +175,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 10,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
