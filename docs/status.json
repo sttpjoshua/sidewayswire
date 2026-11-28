@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T05:16:26.528245+00:00",
+ "updated": "2026-11-28T05:32:10.932893+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T05:16:20.667901+00:00",
+ "collected": "2026-11-28T05:32:04.850252+00:00",
  "instagram": true,
  "sources": [
   {
@@ -120,7 +120,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -154,9 +154,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
   },
   {
    "source": "Google News",
@@ -183,7 +182,7 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -204,7 +203,7 @@
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -643,6 +642,57 @@
      "url": "https://www.instagram.com/reel/Df0abzjAflu/",
      "kind": "instagram",
      "published": "2026-11-16T22:20:07+00:00",
+     "media_url": null,
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Thank god there wasn't a wall there #drifting",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-28T04:42:49+00:00",
+   "items": [
+    {
+     "source": "@tyler_mayer",
+     "title": "Thank god there wasn't a wall there #drifting",
+     "url": "https://www.instagram.com/reel/DgRa8EXp8vf/",
+     "kind": "instagram",
+     "published": "2026-11-28T04:42:49+00:00",
+     "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMJ0Gq_x0Hf-PSbd1ryjG-4WS8dzrffq_biWvzBhFvX-tM9i1Az3BNAOhbHkfMHTE-tYEBcY29qPAhYFJ7iJWQh2S0yCAckocevEsM.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=YMmEFed1Mf8Q7kNvwFhbO7u&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ2NTY4NjAzODg3MTQ5MSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwODg0LCJkdXJhdGlvbl9zIjoyMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4ba9be79aeb1ee4e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EQ0Q5MTNENzMwRjY0MTAxOUQ5MThDMEY4NkNDQUFGM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYQGZiX3Blcm1hbmVudC85RjU5QzMzNDhFRjM0MzY0QjI4OTlCNTFGN0NEREQzQ19hdWRpb19kYXNoaW5pdC5tcDQVAgLIARIAKAAYABsDiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATESY29weV9zYW1wbGVfZ3JvdXBzATEVAAAmhveX-5PCmgUVAigCQzMsF0A3RBiTdLxqGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2WIqgEA&_nc_gid=eahWddS3J3MJxEAuHNlBug&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=U7RAVpGgiN2vwUQx4-nIaFDwfAG4KNb0N0p3gEmPCXUKLy9tyu-1MwDl6eLxHgmQCmAkD3XF99hH-Y2NWWcSaXhLq2DyahvaGD4e06ax2yiqXJ9sERJVubMre_CYJ5hGsSMS&oh=00_AQXUZ4xueCZROyOzd5FRW-hPMy0xFgckTN7hMwZPN50zMg&oe=6B0C4D21",
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Shop's packed. Which car gets the winter build first? Start typing 👇 #formuladrift #projectcar #rx8 #driftcar #carbuild",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-28T02:30:01+00:00",
+   "items": [
+    {
+     "source": "@colletedavis",
+     "title": "Shop's packed. Which car gets the winter build first? Start typing 👇 #formuladrift #projectcar #rx8 #driftcar #carbuild",
+     "url": "https://www.instagram.com/reel/DgRHyHiOipS/",
+     "kind": "instagram",
+     "published": "2026-11-28T02:30:01+00:00",
+     "media_url": null,
+     "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "Well...our pick. 👇",
+   "series": "FD",
+   "buzz": 1,
+   "published": "2026-11-28T01:26:45+00:00",
+   "items": [
+    {
+     "source": "@stuartfamdrifting",
+     "title": "Well...our pick. 👇",
+     "url": "https://www.instagram.com/reel/DgRElq-vhiZ/",
+     "kind": "instagram",
+     "published": "2026-11-28T01:26:45+00:00",
      "media_url": null,
      "media_type": "VIDEO"
     }
@@ -1567,23 +1617,6 @@
    ]
   },
   {
-   "title": "Can the season start back up?",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-15T21:25:46+00:00",
-   "items": [
-    {
-     "source": "@connor_osully",
-     "title": "Can the season start back up?",
-     "url": "https://www.instagram.com/reel/DfxvP0SpHVN/",
-     "kind": "instagram",
-     "published": "2026-11-15T21:25:46+00:00",
-     "media_url": null,
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "title": "An epic #baja1000 in the fordracing Bronco Raptor!! #fordracing",
    "series": "FD",
    "buzz": 1,
@@ -1652,23 +1685,6 @@
    ]
   },
   {
-   "title": "Top 32 chase run at LB2",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-12T15:39:09+00:00",
-   "items": [
-    {
-     "source": "@connor_osully",
-     "title": "Top 32 chase run at LB2",
-     "url": "https://www.instagram.com/reel/DfpZMf5p7Qu/",
-     "kind": "instagram",
-     "published": "2026-11-12T15:39:09+00:00",
-     "media_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQMw5dP_TwKgvm0FY4-FAzEIEOp49hokbYcYMnWMlBam1MgqbrzLGpHrmxY6BXKweP1tbk8sXfoRB48qhKUarptAgYBA9PEwDzqinX4.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=dB_sl7KRmKIQ7kNvwFWta12&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEwNjgxNzcxOTAxMjY2NCwiYXNzZXRfYWdlX2RheXMiOjE0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=4ac54f82a9e6e464&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BRDUxNTJERkM2Mjg0QUEyQUYwOTBGRTk1QTIyRDExNV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNCOTcwQjhEM0FGQjREQjRCNUI5MjM2MEVFRjA2NjE5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbwtMjPoqn3AxUCKAJDMywXQD13S8an754YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UrNqbEydImajVPokNn440rA1Ak0dJaqc8R_zQSIx0FODEesOmYet3f5DaqC6TKyAaaYu-xSod1NOhX0RZuHRtYEJIkwyED2u8Ijnl7H0z0xJHdcvV3i7MllikAhdCZLTw0yJ&oh=00_AQQ_tbCa9NIquwK3K5g85GoB6gB1qI2h9h6bRZcpdMe47g&oe=6B0A8225",
-     "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
    "title": "New podcast episode is live on YT, Spotify, etc! Check the link in our bio!",
    "series": "",
    "buzz": 1,
@@ -1682,23 +1698,6 @@
      "published": "2026-11-12T01:45:57+00:00",
      "media_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902591868_18121032698469139_7876135278344732215_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ZIgy6tr1QYsQ7kNvwGr1Fit&_nc_oc=AdomOkti-fVSOuH8oSoGCI3QpdGbEp3hZDWaFvTPPCrNt0h7UIlmcua54VTzMAkal8U&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hqyzLoR4LPHookuZ9oSuHw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQh46OZECy5g3SvFQxUuDMDcgI6alMR6vJ1fWOG7u92rw&oe=6B0E4E0B",
      "media_type": "IMAGE"
-    }
-   ]
-  },
-  {
-   "title": "Ripping at Willow Springs on Horse Thief Mile w romecp 😎🇺🇸",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-11T15:28:50+00:00",
-   "items": [
-    {
-     "source": "@connor_osully",
-     "title": "Ripping at Willow Springs on Horse Thief Mile w romecp 😎🇺🇸",
-     "url": "https://www.instagram.com/reel/DfmzBd2JvNM/",
-     "kind": "instagram",
-     "published": "2026-11-11T15:28:50+00:00",
-     "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQPnkr085iqm6-srJo5tfjJHDV3s0GM-5bh2Bi17slaJe4Hmq48asQDiYV8nzIgC9XPs7VGeWIKYRKO2AxwrMvS3FiwJK1Th37rz4uE.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=EzIQmecxdZgQ7kNvwHTyyWk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEwMDUzMjMyMjg2MDM4MywiYXNzZXRfYWdlX2RheXMiOjE1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f02b51c99b1e23f1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BODUyNEFBMUFCMzk0MTBBODlENUVDOTcwMjlFQUUzOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JFNjczQUE2QjE2RDQwM0FBNEYzQzJDOTIyQkY1MTNFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa-9dfitLv0AxUCKAJDMywXQElqn752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Pm0vp7ZVQktHfbv10FCesQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UmlWlzZCo_SeivoMWpDKKnlHEuctm6covbxGe3g-ozN5K7HRFwLkgb-77204DRjzgpAOg9E92u3-Z434s6SI24yxbGIHeIIr5p98a2hoeuqcMfzTOvmijCoCr0IEJHmzAgo9&oh=00_AQQDB3dSZS2vR-JvnoW_xkgUsy4xfzdhckBN4vpOXcwTjg&oe=6B0A6CA8",
-     "media_type": "VIDEO"
     }
    ]
   },
