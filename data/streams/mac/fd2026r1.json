@@ -1,0 +1,6 @@
+{
+ "status": "error",
+ "error": "Command '['yt-dlp', '--cookies-from-browser', 'chrome', '--no-warnings', '--flat-playlist', '--playlist-end', '60', '--print', '%(id)s\\t%(duration)s\\t%(title)s', 'https://www.youtube.com/@FormulaDRIFT/streams']' timed out after 300 seconds",
+ "at": 1795875743.306509,
+ "version": "21"
+}
