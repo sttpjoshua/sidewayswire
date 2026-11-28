@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T06:46:26.568818+00:00",
+ "updated": "2026-11-28T07:01:41.645514+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T06:46:21.119276+00:00",
+ "collected": "2026-11-28T07:01:36.748609+00:00",
  "instagram": true,
  "sources": [
   {
@@ -36,7 +36,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -170,14 +170,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 7,
+   "items": 11,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -198,7 +198,7 @@
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -542,7 +542,7 @@
    "title": "Celtics mailbag: Worried about Robinson? White's 3-PT shooting and more",
    "series": "FD",
    "buzz": 2,
-   "published": "2026-11-20T16:24:38+00:00",
+   "published": "2026-11-21T21:09:29+00:00",
    "items": [
     {
      "source": "Google News · Yahoo Sports",
@@ -559,6 +559,15 @@
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYi1hR2F0MnpzaEdEX0pmRmlzR2E1Y2J0TzdOS0pFSkViLUVKTjBqVUNkeEZYNGZXVFF5cm12MEVtUjVxR05vczkxM2dIcHQ0cmhBNTg1dExtcWhIdWR1WFhZci03Nl9sd29JR2l0d0xEbUQwUHJHRDlMSW9PV0ZBTS16aGEwbkxSZmpIMjkzbnBBV0VtRTFCUkhsbW81bkV0cDZaMUJrU3hwd04zbWItemZqcWd0RmNvT1VpWEZWZ0N1dk3SAcMBQVVfeXFMTWItYUdhdDJ6c2hHRF9KZkZpc0dhNWNidE83TktKRUpFYi1FSk4walVDZHhGWDRmV1RReXJtdjBFbVI1cUdOb3M5MTNnSHB0NHJoQTU4NXRMbXFoSHVkdVhYWXItNzZfbHdvSUdpdHdMRG1EMFByR0Q5TElvT1dGQU0temhhMG5MUmZqSDI5M25wQVdFbUUxQlJIbG1vNW5FdHA2WjFCa1N4cHdOM21iLXpmanFndEZjb09VaVhGVmdDdXZN?oc=5",
      "kind": "article",
      "published": "2026-11-20T16:24:38+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "Google News · NBC Sports Boston",
+     "title": "Celtics mailbag: Worried about Robinson? White's 3-PT shooting and more",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUEIzOV9fZmN5Nkp0Nl9hcmJidWhNMGp2cVpNSHlLV0RZdTNlNXRZUk5YOUtFalNkZWtJOTlTbnVUMmpORkhVaE02cUlvSHBvSHBLVngwQ0xHM2p2empSUGo3N0RCckg1cmhXNDhBc1k2NUY4UmZiZG5aQWk2a01LaUVORVhSSUhwZjFNLTUzMHFEVUtpNlFxSFl0aW9WRWxrYVJteHdhQlJYZThlSDBoc3lpQ21jNENtOGJr0gHDAUFVX3lxTE1iLWFHYXQyenNoR0RfSmZGaXNHYTVjYnRPN05LSkVKRWItRUpOMGpVQ2R4Rlg0ZldUUXlybXYwRW1SNXFHTm9zOTEzZ0hwdDRyaEE1ODV0TG1xaEh1ZHVYWFlyLTc2X2x3b0lHaXR3TERtRDBQckdEOUxJb09XRkFNLXpoYTBuTFJmakgyOTNucEFXRW1FMUJSSGxtbzVuRXRwNloxQmtTeHB3TjNtYi16ZmpxZ3RGY29PVWlYRlZnQ3V2TQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-21T21:09:29+00:00",
      "media_url": null,
      "media_type": null
     }
