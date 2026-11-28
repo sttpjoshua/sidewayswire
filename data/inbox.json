@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:17:00.152282+00:00",
+ "updated": "2026-11-28T01:31:31.051969+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -684,7 +684,7 @@
     }
    ],
    "scout": {
-    "score": 29,
+    "score": 28,
     "why": [],
     "skip": false,
     "feature": false
@@ -790,7 +790,7 @@
     }
    ],
    "scout": {
-    "score": 43,
+    "score": 42,
     "why": [
      "bekende rijder"
     ],
@@ -1162,7 +1162,7 @@
     }
    ],
    "scout": {
-    "score": 33,
+    "score": 32,
     "why": [
      "bekende rijder"
     ],
@@ -2340,14 +2340,14 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2424,7 +2424,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2451,15 +2451,15 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
   },
   {
    "source": "Google News",
@@ -2472,7 +2472,7 @@
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "how": "feed"
   },
   {
@@ -2486,14 +2486,14 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "how": "feed"
   },
   {
