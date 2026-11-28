@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T09:16:24.775209+00:00",
+ "updated": "2026-11-28T09:31:29.911672+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -652,7 +652,7 @@
     }
    ],
    "scout": {
-    "score": 42,
+    "score": 41,
     "why": [
      "bekende rijder"
     ],
@@ -812,7 +812,7 @@
     }
    ],
    "scout": {
-    "score": 25,
+    "score": 24,
     "why": [],
     "skip": false,
     "feature": false
@@ -918,7 +918,7 @@
     }
    ],
    "scout": {
-    "score": 39,
+    "score": 38,
     "why": [
      "bekende rijder"
     ],
@@ -1290,7 +1290,7 @@
     }
    ],
    "scout": {
-    "score": 29,
+    "score": 28,
     "why": [
      "bekende rijder"
     ],
@@ -1512,7 +1512,7 @@
     "why": [
      "evenement"
     ],
-    "skip": false,
+    "skip": true,
     "feature": false
    }
   },
@@ -2346,29 +2346,28 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 4,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
   },
   {
    "source": "Formula DRIFT",
@@ -2500,7 +2499,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 8,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2534,9 +2533,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%202027%20approve"
   },
   {
    "source": "Google News",
