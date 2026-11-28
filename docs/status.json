@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T13:02:13.722991+00:00",
+ "updated": "2026-11-28T13:16:25.172706+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T13:02:09.089582+00:00",
+ "collected": "2026-11-28T13:16:19.270482+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,9 +35,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": true,
-   "items": 9,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
   },
   {
    "source": "Google News",
@@ -133,8 +132,9 @@
   {
    "source": "Speedhunters",
    "url": "gnews:site:speedhunters.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aspeedhunters.com%20drift%20when"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -160,22 +160,21 @@
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "how": "feed"
   },
   {
@@ -188,8 +187,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -202,15 +202,14 @@
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
    "ok": true,
-   "items": 8,
+   "items": 9,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%202027%20approve"
   },
   {
    "source": "Google News",
