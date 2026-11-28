@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T08:31:55.224944+00:00",
+ "updated": "2026-11-28T08:46:15.529555+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -596,7 +596,7 @@
     }
    ],
    "scout": {
-    "score": 56,
+    "score": 55,
     "why": [
      "crash",
      "bekende rijder"
@@ -731,7 +731,7 @@
     }
    ],
    "scout": {
-    "score": 41,
+    "score": 40,
     "why": [
      "bekende rijder"
     ],
@@ -972,7 +972,7 @@
     }
    ],
    "scout": {
-    "score": 37,
+    "score": 36,
     "why": [
      "bekende rijder"
     ],
@@ -1481,7 +1481,7 @@
     }
    ],
    "scout": {
-    "score": 26,
+    "score": 25,
     "why": [
      "bekende rijder"
     ],
@@ -2472,9 +2472,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift driver signs OR joins OR \"switches to\" OR announces 2027",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20driver%20signs%20OR%20joins%20"
   },
   {
    "source": "Google News",
@@ -2501,7 +2500,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 8,
+   "items": 11,
    "how": "feed"
   },
   {
@@ -2529,7 +2528,7 @@
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
