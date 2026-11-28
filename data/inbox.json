@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:46:22.465356+00:00",
+ "updated": "2026-11-28T02:58:04.589595+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -587,7 +587,7 @@
     }
    ],
    "scout": {
-    "score": 45,
+    "score": 44,
     "why": [
      "bekende rijder"
     ],
@@ -1015,7 +1015,7 @@
     }
    ],
    "scout": {
-    "score": 40,
+    "score": 39,
     "why": [
      "bekende rijder"
     ],
@@ -1119,7 +1119,7 @@
     }
    ],
    "scout": {
-    "score": 17,
+    "score": 16,
     "why": [],
     "skip": false,
     "feature": false
@@ -1306,7 +1306,7 @@
     }
    ],
    "scout": {
-    "score": 18,
+    "score": 17,
     "why": [
      "crash",
      "bekende rijder",
@@ -2358,7 +2358,7 @@
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "how": "feed"
   },
   {
@@ -2435,7 +2435,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2491,21 +2491,21 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 12,
+   "items": 7,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "how": "feed"
   },
   {
