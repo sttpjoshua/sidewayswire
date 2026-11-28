@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:46:22.447939+00:00",
+ "updated": "2026-11-28T15:01:42.072737+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -679,7 +679,7 @@
     }
    ],
    "scout": {
-    "score": 39,
+    "score": 38,
     "why": [
      "bekende rijder"
     ],
@@ -1026,7 +1026,7 @@
     }
    ],
    "scout": {
-    "score": 20,
+    "score": 19,
     "why": [],
     "skip": false,
     "feature": false
@@ -1107,7 +1107,7 @@
     }
    ],
    "scout": {
-    "score": 34,
+    "score": 33,
     "why": [
      "bekende rijder"
     ],
@@ -1211,7 +1211,7 @@
     }
    ],
    "scout": {
-    "score": 11,
+    "score": 10,
     "why": [],
     "skip": true,
     "feature": false
@@ -2463,9 +2463,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22new%20car%22%20OR%20livery%"
   },
   {
    "source": "Google News",
@@ -2477,16 +2476,14 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
   },
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
   },
   {
    "source": "Google News",
@@ -2505,22 +2502,21 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
+   "ok": true,
+   "items": 5,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": true,
-   "items": 7,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
   },
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
