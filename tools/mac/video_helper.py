@@ -34,7 +34,8 @@ from pathlib import Path
 REPO = "sttpjoshua/sidewayswire"
 API = f"https://api.github.com/repos/{REPO}"
 TAG = "video-sources"
-VERSION = "20"
+FULL_AT = 1000          # GitHub's limit of files per release
+VERSION = "21"
 HOME = Path.home()
 STATE = HOME / "Library" / "Application Support" / "SidewaysWire" / "state.json"
 CACHE = HOME / "Library" / "Caches" / "SidewaysWire"
@@ -613,8 +614,13 @@ def main():
     self_update()
     rel = release()
     have = {a["name"] for a in rel.get("assets", [])}
+    # GitHub allows 1000 files per release. At the limit every upload fails (HTTP 422) after a long download,
+    # and one round then takes a day, so the local editor never gets its turn (hoofdredacteur, 28 nov).
+    full = len(rel.get("assets", [])) >= FULL_AT
     ix = json.loads(gh("/contents/data/podcasts/episodes.json?ref=main", raw=True))
     uploaded, errors, no_video = [], [], []
+    if full:
+        errors.append("video-sources is vol (1000 bestanden): geen downloads, eerst ruimte maken")
     eps: dict = {}          # per episode, shown on the dashboard
     try:
         old = json.loads(rel.get("body") or "{}")
@@ -666,6 +672,9 @@ def main():
         known = state.get("video", {}).get(ep["id"], {})
         info["video"] = known.get("id") if known else ep.get("youtube")
         if not todo:
+            continue
+        if full:
+            info["state"] = "wacht: video-sources is vol (1000 bestanden)"
             continue
         info["state"] = "zoekt de video"
         beat(f"{ep['podcast']}: {ep['title']}: zoekt de video", force=True)

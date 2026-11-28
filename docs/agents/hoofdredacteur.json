@@ -4,16 +4,79 @@
  "where": "Claude, elke ochtend 08:41",
  "state": "aandacht",
  "doing": null,
- "updated": "2026-11-27T07:44:28.487454+00:00",
- "note": "",
- "briefing": "Systeem draait: alle runs van collect, run, clips, podcasts en pages zijn gelukt en de Mac-helper is actief, alleen 5 YouTube-downloads falen op cookies.\nAfgelopen nacht: de battle-redacteur maakte 15 livestreams met elk 30 momenten (171 nieuwe clips klaar), nieuws 2 posts (FD 2027-kalender en jouw D1GP-tip over Conor en Jack Shanahan), podcast niets (podcasts staan uit).\nSterkst: FD 2027 SCHEDULE IS OUT (breaking); Conor en Jack Shanahan in D1GP; RYAN TURK RETIRES uit FD Seattle. De rest van de lokale battle-clips is zwak: 'call' wordt gebruikt voor elk commentaarstuk, namen kloppen niet (James Dean, Odie Bocce, Connor Shannon) en er zitten jurering-uitleggen tussen.\nVandaag: nog in testmodus, er gaat niets online; vanaf 1 december staan er 8 posts gepland.\nWeekplan: nog leeg, de strateeg maakt het eerste op maandag 30 november. Bijgestuurd: battle-redacteur kreeg een instructie (call alleen voor echte jurybeslissingen, coureurs als guest, juiste spelling, liever 15 sterke dan 30 zwakke momenten), voorrang voor Drift Masters (650 FD-clips klaar, bijna geen DM), 2 dubbele OMT-clips afgekeurd, 0 goedgekeurd.\nVan jou nodig: ververs de YouTube-cookies op de Mac (yt-dlp), kijk de 171 lokale battle-clips op namen na voor ze ingepland worden, en 17 posts wachten op jou (5 wachten sinds 17 nov op een foto, 6 op namen, 5 geruchten): https://sttpjoshua.github.io/sidewayswire/#beoordelen",
+ "updated": "2026-11-28T07:48:29.156151+00:00",
+ "note": "Probeer opnieuw wat er fout ging",
+ "briefing": "Systeem draait op GitHub zonder fouten (alle collect-, run-, clips-, podcasts- en pagesruns gelukt, sleutels in orde), maar op de Mac ligt de redactie sinds gisterochtend 08:28 stil.\nAfgelopen nacht: niets nieuws gemaakt. Oorzaak: de opslag video-sources zit op het maximum van 1000 bestanden, dus elke upload van de Mac mislukt (HTTP 422) en de helper blijft al bijna een dag hangen in downloads, waardoor de vier redacteuren nooit aan de beurt kwamen. 325 clips wachten op beeld.\nGerepareerd: de Mac-helper (versie 21) slaat downloads over zolang de opslag vol is, zodat de redacteuren weer kunnen werken; dat werkt zodra de huidige ronde op de Mac klaar is of de helper herstart.\nVandaag: nog in testmodus, er gaat niets online; op 1 december staan 8 posts klaar (FD 2027-kalender, de Shanahans in D1GP, Jimmy Oakes-vraag, DM-stand en 4 clips).\nWeekplan: nog leeg, de strateeg maakt het eerste op maandag 30 november. Jouw voorrang voor Sean Booth en de FD-rondes blijft staan, de battle-instructie van gisteren ook. Geen posts goed- of afgekeurd: de 5 die wachten zijn van jou (foto nodig). Zie de keuzes hieronder.",
  "counts": {
   "goedgekeurd": 0,
-  "afgekeurd": 2,
-  "bijgestuurd": 2,
+  "afgekeurd": 0,
+  "bijgestuurd": 0,
   "problemen": 2
  },
+ "problems": [
+  {
+   "id": "video-sources-vol",
+   "agent": "battle",
+   "text": "De opslag video-sources zit vol (1000 van 1000 bestanden): sinds 27 november 07:27 komt er geen beeld meer van de Mac binnen en 325 clips wachten.",
+   "why": "Zolang hij vol is komen er geen nieuwe battle- en podcastclips bij, en de opruimstap vindt niets omdat alle 1000 bronvideo's nog bij een klaarstaande clip horen.",
+   "options": [
+    {
+     "label": "BRONNEN VAN KLAARSTAANDE CLIPS OPRUIMEN",
+     "do": "agent_note",
+     "agent": "hoofdredacteur",
+     "note": "Maak ruimte in video-sources: laat lc/prune ook bronvideo's verwijderen van clips die al gemaakt zijn (status ready met video in de media-opslag), en laat de Mac-helper die niet opnieuw downloaden. Test het, en ruim daarna op.",
+     "hint": "Morgenochtend bouw en test ik dit; daarna is er weer ruimte, maar een klaar clip opnieuw opmaken vraagt dan een nieuwe download."
+    },
+    {
+     "label": "TWEEDE OPSLAG ERBIJ",
+     "do": "agent_note",
+     "agent": "hoofdredacteur",
+     "note": "Maak een tweede release video-sources-2 voor nieuwe uploads van de Mac en laat lc/podclips en lc/prune beide releases lezen. Test het eerst.",
+     "hint": "Niets wordt verwijderd; ik bouw morgenochtend een tweede opslag van 1000 bestanden."
+    },
+    {
+     "label": "HELPER OP DE MAC HERSTARTEN",
+     "do": "open",
+     "to": "#systeem",
+     "hint": "Herstart de video-helper op de Mac zelf: dan start versie 21 meteen en draaien de redacteuren vanavond weer, ook zonder extra ruimte."
+    }
+   ]
+  },
+  {
+   "id": "wachten-op-jou",
+   "agent": "nieuws",
+   "text": "5 nieuwsposts wachten sinds 17 november op een foto (Sobakiri D1GP-kampioen, Cirba FIA IDC, Car Park Drift Jeddah, Jack Shanahan in China, boek van Vaughn Gittin Jr.).",
+   "why": "Het nieuws is al 11 dagen oud; zonder foto gaan ze niet de planning in en worden ze steeds minder waard.",
+   "options": [
+    {
+     "label": "FOTO'S TOEVOEGEN",
+     "do": "open",
+     "to": "#beoordelen",
+     "hint": "Voeg een foto toe of keur ze zelf af in BEOORDELEN."
+    },
+    {
+     "label": "ALLEEN DE BOEKPOST BEKIJKEN",
+     "do": "open",
+     "to": "#beoordelen/2026-11-17-vgj-ready-to-rock-book",
+     "hint": "Het boek van Vaughn Gittin Jr. veroudert niet; de rest is uitslagnieuws."
+    }
+   ]
+  }
+ ],
+ "errors": [],
  "history": [
+  {
+   "at": "2026-11-28T07:48:29.156151+00:00",
+   "text": "Controle: GitHub-runs gelukt, sleutels ok, Mac-helper actief maar hangt sinds gisteren in downloads."
+  },
+  {
+   "at": "2026-11-28T07:48:29.156151+00:00",
+   "text": "Jouw opdracht opnieuw geprobeerd: oorzaak gevonden, video-sources zit vol (1000 bestanden), uploads geven 422."
+  },
+  {
+   "at": "2026-11-28T07:48:29.156151+00:00",
+   "text": "Mac-helper versie 21: slaat downloads over als video-sources vol is, zodat de redacteuren weer draaien."
+  },
   {
    "at": "2026-11-27T07:44:28.487454+00:00",
    "text": "Controle: alle workflows gelukt, Mac actief, 5 YouTube-downloads falen op cookies."
@@ -36,84 +99,5 @@
    "text": "Afgekeurd: dubbel OMT-moment met foute naam.",
    "ref": "pod-ytfoarlpj6qji-14"
   }
- ],
- "problems": [
-  {
-   "id": "yt-cookies",
-   "agent": "battle",
-   "text": "5 YouTube-downloads op de Mac mislukken omdat YouTube om een login (cookies) vraagt.",
-   "why": "Zonder die downloads mist de battle-redacteur streams en worden er geen clips van gemaakt.",
-   "options": [
-    {
-     "label": "COOKIES UIT SAFARI",
-     "do": "setting",
-     "key": "yt_cookies_browser",
-     "value": "safari",
-     "hint": "De Mac gebruikt de YouTube-login van Safari. Log daar eenmalig in op YouTube."
-    },
-    {
-     "label": "COOKIES UIT CHROME",
-     "do": "setting",
-     "key": "yt_cookies_browser",
-     "value": "chrome",
-     "hint": "De Mac gebruikt de YouTube-login van Chrome; de Mac kan een keer om toegang vragen."
-    },
-    {
-     "label": "COOKIES UIT FIREFOX",
-     "do": "setting",
-     "key": "yt_cookies_browser",
-     "value": "firefox",
-     "hint": "De Mac gebruikt de YouTube-login van Firefox."
-    }
-   ]
-  },
-  {
-   "id": "namen-battle",
-   "agent": "battle",
-   "text": "Veel van de 171 nieuwe battle-clips hebben verkeerd gespelde namen (James Dean, Odie Bocce, Connor Shannon) en 'call' staat bij gewoon commentaar.",
-   "why": "Met verkeerde namen kloppen de tags en ondertitels niet; die clips moeten eerst nagekeken worden.",
-   "options": [
-    {
-     "label": "ALLEEN NAMEN UIT DE LIJST",
-     "do": "agent_note",
-     "agent": "battle",
-     "note": "Use only driver names from the provided driver list, spelled exactly as listed; if unsure, leave the name out. Use 'call' only for an actual judges' decision. Prefer 15 strong moments over 30 weak ones.",
-     "hint": "Strengere instructie voor de battle-redacteur vanaf vanavond."
-    },
-    {
-     "label": "BATTLE-CLIPS NAKIJKEN",
-     "do": "open",
-     "to": "#beoordelen",
-     "hint": "Bekijk de clips zelf in BEOORDELEN."
-    },
-    {
-     "label": "BATTLE-REDACTEUR PAUZEREN",
-     "do": "agent_toggle",
-     "agent": "battle",
-     "on": false,
-     "hint": "Hij maakt geen nieuwe clips tot je hem weer aanzet."
-    }
-   ]
-  },
-  {
-   "id": "wachten-op-jou",
-   "agent": "hoofdredacteur",
-   "text": "17 posts wachten op jou: 5 al sinds 17 november op een foto, 6 op namen en 5 geruchten.",
-   "why": "Geruchten verouderen snel; wachten ze te lang, dan zijn ze niet meer interessant.",
-   "options": [
-    {
-     "label": "NAAR BEOORDELEN",
-     "do": "open",
-     "to": "#beoordelen",
-     "hint": "Snel nieuws en geruchten staan bovenaan."
-    },
-    {
-     "label": "NAMEN NAKIJKEN",
-     "do": "open",
-     "to": "#tags"
-    }
-   ]
-  }
- ],
- "errors": []
+ ]
 }
