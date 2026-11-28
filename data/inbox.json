@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:02:01.211751+00:00",
+ "updated": "2026-11-28T02:16:18.591732+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -799,7 +799,7 @@
     }
    ],
    "scout": {
-    "score": 41,
+    "score": 40,
     "why": [
      "bekende rijder"
     ],
@@ -1067,7 +1067,7 @@
     }
    ],
    "scout": {
-    "score": 1,
+    "score": 0,
     "why": [
      "Japans"
     ],
@@ -1171,7 +1171,7 @@
     }
    ],
    "scout": {
-    "score": 34,
+    "score": 33,
     "why": [
      "bekende rijder"
     ],
@@ -2343,14 +2343,15 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2434,7 +2435,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2496,8 +2497,9 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
+   "ok": true,
+   "items": 4,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2516,8 +2518,9 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
+   "ok": true,
+   "items": 10,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2536,9 +2539,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": true,
-   "items": 1,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
   }
  ],
  "instagram": true
