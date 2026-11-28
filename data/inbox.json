@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:31:24.947031+00:00",
+ "updated": "2026-11-28T14:46:22.447939+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -99,7 +99,7 @@
      "kalender",
      "3 bronnen"
     ],
-    "skip": false,
+    "skip": true,
     "feature": false
    }
   },
@@ -596,7 +596,7 @@
     }
    ],
    "scout": {
-    "score": 53,
+    "score": 52,
     "why": [
      "crash",
      "bekende rijder"
@@ -731,7 +731,7 @@
     }
    ],
    "scout": {
-    "score": 38,
+    "score": 37,
     "why": [
      "bekende rijder"
     ],
@@ -972,7 +972,7 @@
     }
    ],
    "scout": {
-    "score": 34,
+    "score": 33,
     "why": [
      "bekende rijder"
     ],
@@ -2344,8 +2344,9 @@
   {
    "source": "RACER",
    "url": "gnews:site:racer.com \"formula drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aracer.com%20%22formula%20drift%"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Drifted.com",
@@ -2358,7 +2359,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
@@ -2442,7 +2443,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2491,14 +2492,15 @@
    "source": "Google News",
    "url": "gnews:\"Conor Shanahan\" OR \"Jack Shanahan\" OR \"Piotr Wiecek\" OR \"Pawel Korpulinski\" OR \"Duane McKeever\"",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
+   "ok": true,
+   "items": 10,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2524,7 +2526,7 @@
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "how": "feed"
   },
   {
