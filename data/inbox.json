@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T10:16:30.223571+00:00",
+ "updated": "2026-11-28T10:31:25.329969+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -624,7 +624,7 @@
     }
    ],
    "scout": {
-    "score": 72,
+    "score": 71,
     "why": [
      "uitslag",
      "bekende rijder"
@@ -706,7 +706,7 @@
     }
    ],
    "scout": {
-    "score": 26,
+    "score": 25,
     "why": [],
     "skip": false,
     "feature": false
@@ -837,7 +837,7 @@
     }
    ],
    "scout": {
-    "score": 39,
+    "score": 38,
     "why": [
      "bekende rijder"
     ],
@@ -864,7 +864,7 @@
     }
    ],
    "scout": {
-    "score": 39,
+    "score": 38,
     "why": [
      "bekende rijder"
     ],
@@ -1186,7 +1186,7 @@
     }
    ],
    "scout": {
-    "score": 9,
+    "score": 8,
     "why": [],
     "skip": true,
     "feature": false
@@ -1236,7 +1236,7 @@
     }
    ],
    "scout": {
-    "score": 30,
+    "score": 29,
     "why": [
      "bekende rijder"
     ],
@@ -1427,7 +1427,7 @@
     }
    ],
    "scout": {
-    "score": 27,
+    "score": 26,
     "why": [
      "bekende rijder"
     ],
@@ -2353,15 +2353,14 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -2479,8 +2478,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"James Deane\" OR \"Vaughn Gittin\" OR \"Chelsea DeNofa\" OR \"Ryan Tuerck\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22James%20Deane%22%20OR%20%22Vaughn%2"
+   "ok": true,
+   "items": 3,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2499,8 +2499,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Fredric%20Aasbo%22%20OR%20%22Aurima"
+   "ok": true,
+   "items": 8,
+   "how": "feed"
   },
   {
    "source": "Google News",
