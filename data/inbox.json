@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:02:41.221810+00:00",
+ "updated": "2026-11-28T14:16:19.922676+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -891,7 +891,7 @@
     }
    ],
    "scout": {
-    "score": 35,
+    "score": 34,
     "why": [
      "bekende rijder"
     ],
@@ -1159,7 +1159,7 @@
     }
    ],
    "scout": {
-    "score": -5,
+    "score": -6,
     "why": [
      "Japans"
     ],
@@ -1263,7 +1263,7 @@
     }
    ],
    "scout": {
-    "score": 28,
+    "score": 27,
     "why": [
      "bekende rijder"
     ],
@@ -2365,9 +2365,8 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\"",
-   "ok": true,
-   "items": 3,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%20when%3A14d&hl="
   },
   {
    "source": "Formula DRIFT",
@@ -2443,7 +2442,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -2464,7 +2463,7 @@
    "source": "Google News",
    "url": "gnews:drift \"new car\" OR livery OR \"build\" Formula Drift OR \"Drift Masters\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
@@ -2499,7 +2498,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "how": "feed"
   },
   {
@@ -2540,9 +2539,8 @@
   {
    "source": "Google News",
    "url": "gnews:drift \"won't be back\" OR \"final season\" OR retires OR \"stepping away\" OR \"pro license\" 2027",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22won%27t%20be%20back%22%20OR"
   },
   {
    "source": "Google News",
