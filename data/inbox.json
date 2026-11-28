@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T10:46:23.028019+00:00",
+ "updated": "2026-11-28T11:02:02.806013+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -679,7 +679,7 @@
     }
    ],
    "scout": {
-    "score": 41,
+    "score": 40,
     "why": [
      "bekende rijder"
     ],
@@ -1026,7 +1026,7 @@
     }
    ],
    "scout": {
-    "score": 22,
+    "score": 21,
     "why": [],
     "skip": false,
     "feature": false
@@ -1107,7 +1107,7 @@
     }
    ],
    "scout": {
-    "score": 36,
+    "score": 35,
     "why": [
      "bekende rijder"
     ],
@@ -1211,7 +1211,7 @@
     }
    ],
    "scout": {
-    "score": 13,
+    "score": 12,
     "why": [],
     "skip": true,
     "feature": false
@@ -1398,7 +1398,7 @@
     }
    ],
    "scout": {
-    "score": 14,
+    "score": 13,
     "why": [
      "crash",
      "bekende rijder",
@@ -2501,7 +2501,7 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 7,
    "how": "feed"
   },
   {
@@ -2521,16 +2521,14 @@
   {
    "source": "Google News",
    "url": "gnews:site:d1gp.co.jp OR \"D1GP\" Shanahan OR Deane OR Aasbo OR guest",
-   "ok": true,
-   "items": 0,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ad1gp.co.jp%20OR%20%22D1GP%22%20"
   },
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": true,
-   "items": 9,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
   },
   {
    "source": "Google News",
