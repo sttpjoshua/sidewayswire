@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T11:31:37.298495+00:00",
+ "updated": "2026-11-28T11:46:23.045264+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T11:31:31.669294+00:00",
+ "collected": "2026-11-28T11:46:17.895792+00:00",
  "instagram": true,
  "sources": [
   {
@@ -35,8 +35,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%20when%3A14d&hl="
+   "ok": true,
+   "items": 10,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -119,7 +120,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "how": "feed"
   },
   {
@@ -160,8 +161,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"D1GP\" OR \"D1 Grand Prix\" drift",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22D1GP%22%20OR%20%22D1%20Grand%20Prix"
+   "ok": true,
+   "items": 0,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -174,21 +176,22 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 4,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -201,14 +204,15 @@
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
    "ok": true,
-   "items": 8,
+   "items": 9,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:\"Formula Drift\" 2027 approved drivers OR \"driver list\" OR lineup OR \"full season\" OR rookie",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Formula%20Drift%22%202027%20approve"
+   "ok": true,
+   "items": 2,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -220,8 +224,9 @@
   {
    "source": "Google News",
    "url": "gnews:\"Drift Masters\" 2027 drivers OR announced OR returns OR joins",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Drift%20Masters%22%202027%20drivers"
+   "ok": true,
+   "items": 1,
+   "how": "feed"
   }
  ],
  "inbox": [
