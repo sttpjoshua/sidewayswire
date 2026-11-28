@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:46:25.986902+00:00",
+ "updated": "2026-11-28T02:02:07.545582+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T01:46:20.867484+00:00",
+ "collected": "2026-11-28T02:02:01.211751+00:00",
  "instagram": true,
  "sources": [
   {
@@ -28,9 +28,8 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
@@ -120,7 +119,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -176,21 +175,21 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -202,9 +201,8 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": true,
-   "items": 10,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
   },
   {
    "source": "Google News",
@@ -462,6 +460,32 @@
      "published": "2026-11-24T13:38:07+00:00",
      "media_url": null,
      "media_type": "VIDEO"
+    }
+   ]
+  },
+  {
+   "title": "What are the biggest areas of concern as Celtics slump?",
+   "series": "FD",
+   "buzz": 2,
+   "published": "2026-11-24T07:33:33+00:00",
+   "items": [
+    {
+     "source": "Google News · NBC Boston",
+     "title": "What are the biggest areas of concern as Celtics slump?",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGQ2Vkp2UFNwUFAycHVwUVZqeVhiNnMtWkpVZzN6M2NXemQwUnJwNEZPM2ZwTEthVnJRRlM4VVh6dVZLdTBKeUZzV3lYMGI4c2hCTzEtSnVOWFdBQ3dvNTdXNVd4VVFBeTE4Z09JZW5kcFdOS3ZIM1JRUTY5VDg3RVNLV1NZNlhnOFNOT1B6aUtKUVk2c1EwVnMzcE51d9IBpgFBVV95cUxNSF9zbjkyaE82R1JVQWZRdW13WnAybGxPUEU3NG1qdzBfVElzWkxPOTJCQ0NFRE9nazhOc3NmVDFJYVBFeE8ySHNrZHpUU2hSVEN6MERmcGVrM0g3VE1lWmpFdUZNZ1htWGRYSU95ZUF3NVUzZjl6aHB1Rk5jT2pjYi1YX1JtM2s1X2kycmRCZFlxMmlWNU4yT3FFcWwwdDVUZ0NNQzZn?oc=5",
+     "kind": "article",
+     "published": "2026-11-23T17:55:52+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "Google News · NBC Sports Boston",
+     "title": "What are the biggest areas of concern as Celtics slump?",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORkI0Q1J0R2xvaGZlbjI3Smwyc193Z1RUU2RJN1NJYS1EWk84ZnBSeFpmVnNZcWVZU1RYSGQwenJCRG4tNGVwc2l6WDlMbDFBQ3dCUTJPb2NUZ0pCajc0TmhLSUlMRklDeWk1RWJZWUFVX0JfaFZpeVVqcnpuU3k0UGExdkROSERSMXlobUhBcWx5QkEyYm90cEc0TFlWcFJSRmhHa083MnpIZVVRcjA00gG3AUFVX3lxTE1mWWxtZDhOUVQ2a2VZRkxwRTJreVc2QmMtZ1NOallCQ0RlUFRYb3lydUhLcUhkQzRfMkVkYnpzYS1KZUFEOEVLWVFRVE9WeUxvdGhtY1oycGNvQ0J2X3ZZNzZ6a1NPZFRKQXpYXzBIMHFMX2F1N0tIa19JT2FQUXlfZUdJMjZRT2ZNdms4bkJHd3p3d1BtWGE3VHJiUGJFVWxOM0M2REtfdlV5MDhMMmJVS2lqZFZmRQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-24T07:33:33+00:00",
+     "media_url": null,
+     "media_type": null
     }
    ]
   },
@@ -1281,23 +1305,6 @@
      "published": "2026-11-23T22:14:11+00:00",
      "media_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMpEgVr5Z-mdPY8R3opiw5rDBxpNCvvdmfwR1ibNNzzDDMK-0YhuFT-z1O2pB_kKuKa7gPWa2KkQ2eEsYyqFiAj9Xg9nSwGbRBW5l0.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=aPDtG_Wdt8QQ7kNvwGhv0Sa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDQyNDk0NzMxNDQ2Mjk0NywiYXNzZXRfYWdlX2RheXMiOjIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a86840b2e4831f2f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CM0M5NTgyM0E4OEE0OUE4OUNENURDMEI5NTQyMjlGNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQzMUFFRDcxMDAwMDQ2NUVBQkYzODI4OEY2QUQ2RTUyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbGw6DN6p3cDxUCKAJDMywXQElIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=SqZqBD4UC7Y6DfZ9Z2fWIQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Upq79cQXDbND7gsl0GnOWAAJU_o1Wgfct3vzjWNx343uY-24pdkGZFit0Zh6fMJxdgZnVU7-rtdOQLNmK-pPXtusQQOPMiWmSGalPllQyMio2pWjy3aDPRYP07aBAx5AA3WQ&oh=00_AQSUCARsJga-RQGJynplpMsHZSMl_lUEIRaseIuDH9UZ4g&oe=6B0A7C29",
      "media_type": "VIDEO"
-    }
-   ]
-  },
-  {
-   "title": "What are the biggest areas of concern as Celtics slump?",
-   "series": "FD",
-   "buzz": 1,
-   "published": "2026-11-23T17:55:52+00:00",
-   "items": [
-    {
-     "source": "Google News · NBC Boston",
-     "title": "What are the biggest areas of concern as Celtics slump?",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGQ2Vkp2UFNwUFAycHVwUVZqeVhiNnMtWkpVZzN6M2NXemQwUnJwNEZPM2ZwTEthVnJRRlM4VVh6dVZLdTBKeUZzV3lYMGI4c2hCTzEtSnVOWFdBQ3dvNTdXNVd4VVFBeTE4Z09JZW5kcFdOS3ZIM1JRUTY5VDg3RVNLV1NZNlhnOFNOT1B6aUtKUVk2c1EwVnMzcE51d9IBpgFBVV95cUxNSF9zbjkyaE82R1JVQWZRdW13WnAybGxPUEU3NG1qdzBfVElzWkxPOTJCQ0NFRE9nazhOc3NmVDFJYVBFeE8ySHNrZHpUU2hSVEN6MERmcGVrM0g3VE1lWmpFdUZNZ1htWGRYSU95ZUF3NVUzZjl6aHB1Rk5jT2pjYi1YX1JtM2s1X2kycmRCZFlxMmlWNU4yT3FFcWwwdDVUZ0NNQzZn?oc=5",
-     "kind": "article",
-     "published": "2026-11-23T17:55:52+00:00",
-     "media_url": null,
-     "media_type": null
     }
    ]
   },

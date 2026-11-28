@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:46:20.867484+00:00",
+ "updated": "2026-11-28T02:02:01.211751+00:00",
  "stories": [
   {
    "id": "79553099696bf125",
@@ -311,6 +311,42 @@
     ],
     "skip": false,
     "feature": true
+   }
+  },
+  {
+   "id": "e662a9abf903cce4",
+   "title": "What are the biggest areas of concern as Celtics slump?",
+   "series": "FD",
+   "buzz": 2,
+   "first_seen": "2026-11-26T20:01:30.137260+00:00",
+   "published": "2026-11-24T07:33:33+00:00",
+   "items": [
+    {
+     "source": "Google News · NBC Boston",
+     "title": "What are the biggest areas of concern as Celtics slump?",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGQ2Vkp2UFNwUFAycHVwUVZqeVhiNnMtWkpVZzN6M2NXemQwUnJwNEZPM2ZwTEthVnJRRlM4VVh6dVZLdTBKeUZzV3lYMGI4c2hCTzEtSnVOWFdBQ3dvNTdXNVd4VVFBeTE4Z09JZW5kcFdOS3ZIM1JRUTY5VDg3RVNLV1NZNlhnOFNOT1B6aUtKUVk2c1EwVnMzcE51d9IBpgFBVV95cUxNSF9zbjkyaE82R1JVQWZRdW13WnAybGxPUEU3NG1qdzBfVElzWkxPOTJCQ0NFRE9nazhOc3NmVDFJYVBFeE8ySHNrZHpUU2hSVEN6MERmcGVrM0g3VE1lWmpFdUZNZ1htWGRYSU95ZUF3NVUzZjl6aHB1Rk5jT2pjYi1YX1JtM2s1X2kycmRCZFlxMmlWNU4yT3FFcWwwdDVUZ0NNQzZn?oc=5",
+     "kind": "article",
+     "published": "2026-11-23T17:55:52+00:00",
+     "media_url": null,
+     "media_type": null
+    },
+    {
+     "source": "Google News · NBC Sports Boston",
+     "title": "What are the biggest areas of concern as Celtics slump?",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORkI0Q1J0R2xvaGZlbjI3Smwyc193Z1RUU2RJN1NJYS1EWk84ZnBSeFpmVnNZcWVZU1RYSGQwenJCRG4tNGVwc2l6WDlMbDFBQ3dCUTJPb2NUZ0pCajc0TmhLSUlMRklDeWk1RWJZWUFVX0JfaFZpeVVqcnpuU3k0UGExdkROSERSMXlobUhBcWx5QkEyYm90cEc0TFlWcFJSRmhHa083MnpIZVVRcjA00gG3AUFVX3lxTE1mWWxtZDhOUVQ2a2VZRkxwRTJreVc2QmMtZ1NOallCQ0RlUFRYb3lydUhLcUhkQzRfMkVkYnpzYS1KZUFEOEVLWVFRVE9WeUxvdGhtY1oycGNvQ0J2X3ZZNzZ6a1NPZFRKQXpYXzBIMHFMX2F1N0tIa19JT2FQUXlfZUdJMjZRT2ZNdms4bkJHd3p3d1BtWGE3VHJiUGJFVWxOM0M2REtfdlV5MDhMMmJVS2lqZFZmRQ?oc=5",
+     "kind": "article",
+     "published": "2026-11-24T07:33:33+00:00",
+     "media_url": null,
+     "media_type": null
+    }
+   ],
+   "scout": {
+    "score": 18,
+    "why": [
+     "2 bronnen"
+    ],
+    "skip": true,
+    "feature": false
    }
   },
   {
@@ -923,7 +959,7 @@
     }
    ],
    "scout": {
-    "score": 71,
+    "score": 70,
     "why": [
      "uitslag",
      "bekende rijder"
@@ -951,7 +987,7 @@
     }
    ],
    "scout": {
-    "score": 16,
+    "score": 15,
     "why": [
      "bekende rijder",
      "ruis"
@@ -1326,7 +1362,7 @@
     }
    ],
    "scout": {
-    "score": 22,
+    "score": 21,
     "why": [
      "bekende rijder"
     ],
@@ -1569,31 +1605,6 @@
     ],
     "skip": false,
     "feature": true
-   }
-  },
-  {
-   "id": "e662a9abf903cce4",
-   "title": "What are the biggest areas of concern as Celtics slump?",
-   "series": "FD",
-   "buzz": 1,
-   "first_seen": "2026-11-26T20:01:30.137260+00:00",
-   "published": "2026-11-23T17:55:52+00:00",
-   "items": [
-    {
-     "source": "Google News · NBC Boston",
-     "title": "What are the biggest areas of concern as Celtics slump?",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGQ2Vkp2UFNwUFAycHVwUVZqeVhiNnMtWkpVZzN6M2NXemQwUnJwNEZPM2ZwTEthVnJRRlM4VVh6dVZLdTBKeUZzV3lYMGI4c2hCTzEtSnVOWFdBQ3dvNTdXNVd4VVFBeTE4Z09JZW5kcFdOS3ZIM1JRUTY5VDg3RVNLV1NZNlhnOFNOT1B6aUtKUVk2c1EwVnMzcE51d9IBpgFBVV95cUxNSF9zbjkyaE82R1JVQWZRdW13WnAybGxPUEU3NG1qdzBfVElzWkxPOTJCQ0NFRE9nazhOc3NmVDFJYVBFeE8ySHNrZHpUU2hSVEN6MERmcGVrM0g3VE1lWmpFdUZNZ1htWGRYSU95ZUF3NVUzZjl6aHB1Rk5jT2pjYi1YX1JtM2s1X2kycmRCZFlxMmlWNU4yT3FFcWwwdDVUZ0NNQzZn?oc=5",
-     "kind": "article",
-     "published": "2026-11-23T17:55:52+00:00",
-     "media_url": null,
-     "media_type": null
-    }
-   ],
-   "scout": {
-    "score": 10,
-    "why": [],
-    "skip": true,
-    "feature": false
    }
   },
   {
@@ -2332,9 +2343,8 @@
   {
    "source": "Drifted.com",
    "url": "gnews:site:drifted.com",
-   "ok": true,
-   "items": 2,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adrifted.com%20when%3A14d&hl=en-"
   },
   {
    "source": "Google News",
@@ -2424,7 +2434,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -2480,21 +2490,21 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
-   "ok": true,
-   "items": 5,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%20%22guest%20entry%22%20OR%20%22"
   },
   {
    "source": "Google News",
    "url": "gnews:drift 2027 season OR calendar OR schedule OR rules \"Formula Drift\" OR \"Drift Masters\"",
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=drift%202027%20season%20OR%20calendar%"
+   "ok": true,
+   "items": 7,
+   "how": "feed"
   },
   {
    "source": "Google News",
@@ -2506,9 +2516,8 @@
   {
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
-   "ok": true,
-   "items": 10,
-   "how": "feed"
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aredbull.com%20drift%20when%3A14"
   },
   {
    "source": "Google News",
