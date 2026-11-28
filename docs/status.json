@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:18:43.449319+00:00",
+ "updated": "2026-11-28T03:19:43.903273+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T03:16:26.271963+00:00",
+ "collected": "2026-11-28T03:19:38.799879+00:00",
  "instagram": true,
  "sources": [
   {
@@ -36,7 +36,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -183,7 +183,7 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 5,
+   "items": 7,
    "how": "feed"
   },
   {
