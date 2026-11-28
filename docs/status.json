@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T07:01:41.645514+00:00",
+ "updated": "2026-11-28T07:16:39.474563+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T07:01:36.748609+00:00",
+ "collected": "2026-11-28T07:16:34.814481+00:00",
  "instagram": true,
  "sources": [
   {
@@ -36,7 +36,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -114,7 +114,7 @@
    "source": "Gatebil",
    "url": "https://gatebil.no",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "how": "feed"
   },
   {
@@ -177,7 +177,7 @@
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "how": "feed"
   },
   {
@@ -198,7 +198,7 @@
    "source": "Red Bull",
    "url": "gnews:site:redbull.com drift",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "how": "feed"
   },
   {
