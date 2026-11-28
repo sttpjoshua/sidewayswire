@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T07:32:01.408684+00:00",
+ "updated": "2026-11-28T07:46:49.954862+00:00",
  "media_repo": "sttpjoshua/sidewayswire-media",
  "counts": {
   "ready": 852,
@@ -8,7 +8,7 @@
   "music": 1,
   "posted": 3
  },
- "collected": "2026-11-28T07:31:56.574835+00:00",
+ "collected": "2026-11-28T07:46:45.484282+00:00",
  "instagram": true,
  "sources": [
   {
@@ -36,7 +36,7 @@
    "source": "Google News",
    "url": "gnews:\"Formula Drift\"",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "how": "feed"
   },
   {
@@ -49,8 +49,9 @@
   {
    "source": "Formula DRIFT",
    "url": "https://www.youtube.com/@FormulaDRIFT",
-   "ok": false,
-   "error": "503 Server Error: Service Unavailable for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLqU1MEK55LYkV3M8W8D"
+   "ok": true,
+   "items": 15,
+   "how": "feed"
   },
   {
    "source": "Drift Masters",
@@ -170,14 +171,14 @@
    "source": "Google News",
    "url": "gnews:\"Fredric Aasbo\" OR \"Aurimas Bakchis\" OR \"Branden Sorensen\" OR \"Chris Forsberg\" OR \"Matt Field\" OR \"Adam LZ\"",
    "ok": true,
-   "items": 8,
+   "items": 12,
    "how": "feed"
   },
   {
    "source": "Google News",
    "url": "gnews:drift \"guest entry\" OR \"guest driver\" OR exhibition OR demo OR gymkhana OR \"drift show\"",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "how": "feed"
   },
   {
