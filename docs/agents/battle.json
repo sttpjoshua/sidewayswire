@@ -3,10 +3,15 @@
  "name": "Battle-redacteur",
  "where": "Mac Studio (lokaal taalmodel)",
  "state": "bezig",
- "doing": "turbo · leest: Drift Masters · Drift Masters Round 1 2026 • Italy • Qualifying LIVE",
- "updated": "2026-11-28T13:43:15.295814+00:00",
+ "doing": "nog 8 video's te lezen",
+ "updated": "2026-11-28T14:02:12.834792+00:00",
  "note": "Use kind 'call' only for a judges' decision on a specific run or battle (OMT, split vote, disputed score). Skip commentary chatter, previews, interviews about the season and any explanation of how judging works. Every moment must show the run or battle on track. guest and people are the drivers in the run, never 'Formula DRIFT'. Spell names as in the driver list (James Deane, Odi Bakchis, Conor Shanahan, Ken Gushi). Keep 15-75 s. 15 strong moments beat 30 weak ones.",
  "history": [
+  {
+   "at": "2026-11-28T14:01:18.788945+00:00",
+   "text": "30 momenten uit Drift Masters Round 1 2026 • Italy • Qualifying LIVE",
+   "ref": "ytnhkrbpeytuy"
+  },
   {
    "at": "2026-11-28T13:43:14.370297+00:00",
    "text": "30 momenten uit Drift Masters Round 2 2026 • Spain • Qualifying LIVE",
@@ -126,21 +131,16 @@
    "at": "2026-11-26T19:20:09.752216+00:00",
    "text": "0 momenten uit Formula DRIFT Orlando 2026 - PRO, Round 3 - Top 16 On-Demand",
    "ref": "yt8hwmxht0vcu"
-  },
-  {
-   "at": "2026-11-26T19:20:05.307803+00:00",
-   "text": "0 momenten uit Formula DRIFT Connecticut 2026 - PRO, Round 4 - Top 16 On-Demand",
-   "ref": "ytiomfel7r5y"
   }
  ],
  "errors": [],
  "drops": {
-  "te kort of te lang": 17
+  "te kort of te lang": 43
  },
  "sample": "",
  "counts": {
   "day": "2026-11-28",
-  "made": 4
+  "made": 5
  },
  "version": "3"
 }
