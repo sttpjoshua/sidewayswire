@@ -2,7 +2,7 @@
  "youtube": "https://www.redbull.com/int-en/tv/live/rrn:content:live-videos:70056abf-8106-4d9b-8da4-9a5e2ae9f139",
  "status": "error",
  "note": "video vastgelegd in het register",
- "error": "Red Bull TV-replay niet te lezen met yt-dlp (link of yt-dlp-versie)",
- "at": 1795766006.771061,
- "version": "19"
+ "error": "Command '['yt-dlp', '--cookies-from-browser', 'chrome', '--no-warnings', '--print', '%(duration)s\\t%(title)s', 'https://www.redbull.com/int-en/tv/live/rrn:content:live-videos:70056abf-8106-4d9b-8da4-9a5e2ae9f139']' timed out after 300 seconds",
+ "at": 1795879199.864977,
+ "version": "21"
 }
